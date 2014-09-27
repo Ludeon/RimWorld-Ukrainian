@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <CommandForbiddenDesc>Заборонено - колоністи не будуть це використовувати.</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>Дозволено - колоністи могуть використовувати це.</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <CommandTogglePowerLabel>Вимикач</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Вмикання й вимикання електроживлення.</CommandTogglePowerDesc>
+
+  <CommandTryReconnectLabel>Перепідключити</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Спробувати перепідключитися до іншого джерела електроенергії в межах можливого підключення. Це зручно для перемикання між мережами без\з генератором.</CommandTryReconnectDesc>
+
+
+  <CommandGatherSpotToggleLabel>Місце збору</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>Активне - колоністи будуть збиратися поблизу.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Неактивне - колоністи не будуть збиратися поблизу.</CommandGatherSpotToggleDescInactive>
+  
+  
+  <!-- Drafting -->
+  <CommandDraftLabel>До бою!</CommandDraftLabel>
+  <CommandUndraftLabel>Розпуск</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Переключення в бойовий режим.\n\nВ Цьому режимі колоністи отримують накази та б'ються. Вони не будуть працювати, їсти або відпочивати.</CommandToggleDraftDesc>
+  <IsIncapped>{0} виведен з ладу.</IsIncapped>
+
+  
+  <CommandCancelConstructionLabel>Скасувати</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>Скасувати будівництво.</CommandCancelConstructionDesc>
+
+  <CommandGetOutOfBedLabel>Залишити ліжко</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Залишити це ліжко.</CommandGetOutOfBedDesc>
+
+  <CommandBedSetOwnerLabel>Встановити власника</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Визначити конкретного власника для ліжка.</CommandBedSetOwnerDesc>
+  <BedAssign>Обрати призначення</BedAssign>
+  <CommandBedSetForPrisonersLabel>Для в'язнів</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Призначити усі ліжка в цій кімнаті в якості нар для в'язнів.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Неможливо призначити ліжка для в'язнів на вулиці.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Для колоністів</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>Призначити усі ліжка в цій кімнаті в якості ліжок для колоністів.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Для хворих</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Призначити це ліжко для використання хворими або пораненими для лікування.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Скасувати мед. призначення</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Призначити в якості звичайного ліжка.</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>Ввімкнення режиму для в'язнів вплине на всю кімнату (колоністи та в'язні не можуть спати в одній кімнаті).\n\nЦі люди втратять права на свої ліжка:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Вимкнення режиму для в'язнів вплине на всю кімнату (колоністи та в'язні не можуть спати в одній кімнаті).\n\nЭти люди втратять права на свої ліжка:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Ви впевнені, що хочете це зробити?</AreYouSure>
+
+  
+  
+  <CommandDetonateDesc>Почати зворотній відлік до детонації.</CommandDetonateDesc>
+  <CommandDetonateLabel>Підірвать</CommandDetonateLabel>
+
+  <CommandRenameZoneDesc>Перейменувати зону.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>Змінити назву</CommandRenameZoneLabel>
+
+  <CommandHideZoneDesc>Сховати/показати зону.</CommandHideZoneDesc>
+  <CommandHideZoneLabel>Сховати</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Показати</CommandUnhideZoneLabel>
+
+  <CommandDeleteZoneDesc>Видалити зону.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>Видалити</CommandDeleteZoneLabel>
+  
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Обрати ціль обстрілу</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Встановлює ціль, яку ця турель буде атакувати безперервно до тих пір, доки це буде можливо.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Припнити вогонь</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Припиняє обстріл й дозволяє турелі стреляти в автоматичному режимі.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Зараз неможливо зупинити обстріл.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>Ціль занадто далеко.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Ціль занадто близько.</MessageTargetBelowMinimumRange>
+  
+  
+  <!-- Ship computer core -->
+  <CommandShipLaunch>Запустити корабель</CommandShipLaunch>
+  <CommandShipLaunchDesc>Запустити корабель з поточною конфігурацією.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Показати стартовий звіт</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Показати звіт щодо готовності корабля до зльоту.</CommandShipLaunchReportDesc>
+
+
+  <!-- Pod -->
+  <CommandPodEject>Витягти космонавта</CommandPodEject>
+  <CommandPodEjectDesc>Розбудити сплячого та витягти його.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>Камера порожня.</CommandPodEjectFailEmpty>
+
+</LanguageData>
