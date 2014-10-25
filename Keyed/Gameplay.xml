@@ -14,7 +14,9 @@
   <DeadTime>Мертвий вже {0}</DeadTime>
   <WalkSpeed>швидкість {0}</WalkSpeed>
   <DyingLower>вмирає</DyingLower>
+  <!--
   <PawnEffectiveness>Ефективність</PawnEffectiveness>
+-->
   <FilthOnFeet>Бруд на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>недостатньо</NotEnoughStoredLower>
   <NothingLower>нічого</NothingLower>
@@ -34,7 +36,10 @@
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>Розброс вогню</WeaponMissRadius>
-	<ShootReportSkill>Майстерність</ShootReportSkill>
+  <ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
+	<!-- replaced with above tag
+  <ShootReportSkill>Майстерність</ShootReportSkill>
+-->
 	<ShootReportWeapon>Зброя</ShootReportWeapon>
 	<Darkness>Темрява</Darkness>
 	<TargetProne>Сприйнятливість</TargetProne>
@@ -65,12 +70,12 @@
 
 
 
-  <!--Effectiveness-->
+  <!--Effectiveness
   <EffectivenessFull>повна</EffectivenessFull>
   <EffectivenessReduced>знижена</EffectivenessReduced>
   <EffectivenessImpaired>низька</EffectivenessImpaired>
   <EffectivenessIncapacitated>неспроможність</EffectivenessIncapacitated>
-
+-->
 
   <!-- Pawn info readout -->
   <Health>Здоров'я</Health>
@@ -163,8 +168,9 @@
 
 	<!-- Power readout -->
   <PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
-  <PowerConnectedRate>Потужність мережі: {0} Вт</PowerConnectedRate>
-  <PowerConnectedStored>Акумульована енергія: {0} Вт</PowerConnectedStored>
+  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} / {1} Вт</PowerConnectedRateStored>
+  <!--<PowerConnectedStored>Акумульована енергія: {0} Вт</PowerConnectedStored>
+-->
   <PowerNeeded>Потужність, що споживається</PowerNeeded>
   <PowerOutput>Потужність, що постачається</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
