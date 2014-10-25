@@ -68,6 +68,8 @@
   <RecipeCannotHaveTargetCount>(Це завдання неможливо повторювати, оскільки результат може бути різним.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Дозволені інгредієнти</PermittedIngredients>
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
+  <BillRequires>Потрібно {0} {1}</BillRequires>
+  <UsableIngredients>корисні інгредієнти</UsableIngredients>
   <DoXTimes>Зробити X разів</DoXTimes>
   <DoUntilYouHaveX>Повторювати до X</DoUntilYouHaveX>
   <DoForever>Необмежено</DoForever>
@@ -108,19 +110,46 @@
   <MinFoodQuality>Мін. тип їжі</MinFoodQuality>
   <Diet>Спосіб життя</Diet>
   <RecruitDifficulty>Складність вербовки</RecruitDifficulty>
-  <!-- 
-  <BasePrice>Базова ціна</BasePrice>
--->
+  <baseMarketValue>Базова ціна</baseMarketValue>
   <Covers>Покриває</Covers>
+  <NaturalArmorCovers>Природна броня</NaturalArmorCovers>
+  <BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>Тягніть для торгівлі</DragToTrade>
+  <BuyPriceDesc>Ціна, яку вы сплачуєте для купівлі.</BuyPriceDesc>
+  <SellPriceDesc>Ціна, яку вы отримуєте після продажу.</SellPriceDesc>
+  <PriceTypeDesc>Для даного предмету це {0} ціна.</PriceTypeDesc>
+  <ColonyCount>Кількість даного предмету, яку має колонія на продаж.\n\nВи можете продавати речі орбітальним торговцям лише тільки коли ці речі знаходяться біля радіомаяку й не під дахом.</ColonyCount>
+  <TraderCount>Кількість даного предмету, яку має торговець на продаж.</TraderCount>
+  <AcceptButton>Згода</AcceptButton>
+  <ResetButton>Скинути</ResetButton>
+  <CancelButton>Скасувати</CancelButton>
+
   <YourTradeableSilver>Срібла для торговлі: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Ви можете торговати лише тим сріблом, що знаходиться біля радіомаяку і не під дахом.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Ви можете торговати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
+
+  <TraderHasNoMore>Торговець більше не має.</TraderHasNoMore>
+  <ColonyHasNoMore>Для продажу більше немає.</ColonyHasNoMore>
+  <TraderWillNotTrade>Торговець не бажає торговати цим.</TraderWillNotTrade>
 
   <!-- Comms -->
   <SocialSkillIs>Соціальна навичка: {0}</SocialSkillIs>
 
-  <!--Other-->
+    <!-- Stats report -->
+  <StatsReport_BaseValue>Базове значення</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Впливаючі риси</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Впливаючі речі</StatsReport_RelevantGear>
+  <StatsReport_Material>Матеріал</StatsReport_Material>
+  <StatsReport_CharacterQuality>Риси характеру</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Фактори навичок</StatsReport_Skills>
+  <StatsReport_OtherStats>Інші фактори</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Фактори здоров'я</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} важливість</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>Пост-обробка</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Остаточно</StatsReport_FinalValue>
+
+  <!--Research-->
   <ResearchFinished>Виконано дослідження: {0}</ResearchFinished>
   <ResearchScreen>Екран досліджень</ResearchScreen>
   

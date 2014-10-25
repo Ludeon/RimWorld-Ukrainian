@@ -23,6 +23,12 @@
   <Adapted>Придатний</Adapted>
   <Headshot>У голову</Headshot>
   <FreshMissingBodyPart>свіже</FreshMissingBodyPart>
+  <UntreatedLower>не отримав лікування</UntreatedLower>
+  <RecoveringDiseaseLower>востановлення</RecoveringDiseaseLower>
+  <InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
+  <NextTreatmentAfter>Наступний сеанс лікування за {0} днів</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>прогрес вироботки імунітету</ImmunityDevelopmentProgress>
 
   <!-- Turrets -->
   <GunInstalled>Встановлено</GunInstalled>
@@ -33,6 +39,8 @@
   <!-- Job reports -->
 	<ReportHaulingTo>Несе {0} до {1}.</ReportHaulingTo>
 	<ReportHauling>Несе {0}.</ReportHauling>
+  <ReportSleeping>Спить.</ReportSleeping>
+  <ReportResting>Відпочиває.</ReportResting>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>Розброс вогню</WeaponMissRadius>
@@ -100,6 +108,7 @@
   <Poor>Погано</Poor>
   <Weakened>Послаблено</Weakened>
   <GoodCondition>Добре</GoodCondition>
+  <Enhanced>Покращено</Enhanced>
   <SeriouslyImpaired>Серйозне поранення</SeriouslyImpaired>
   <Impaired>Поранення</Impaired>
   <SlightlyImpaired>Легке поранення</SlightlyImpaired>
@@ -122,6 +131,9 @@
   <TabThoughts>Думки</TabThoughts>
   <TabStorage>Склад</TabStorage>
   <TabHealth>Здоров'я</TabHealth>
+  <TabRace>Раса</TabRace>
+  <TabBasics>Головне</TabBasics>
+  <TabStats>Статистика</TabStats>
 
 	<!-- ITabs -->
   <AddBill>Нове завдання</AddBill>
@@ -146,22 +158,33 @@
 	<DropThing>Викинути</DropThing>
 	<TotalModifiers>Модифікатори</TotalModifiers>
 	<DamageAbsorption>Поглинання урону</DamageAbsorption>
+  <DamageDeflection>Віддзеркалення урону</DamageDeflection>
 	<MoveSpeed>Швидкість пересування</MoveSpeed>
 	<Efficiency>Ефективність</Efficiency>
 	<MissingBodyPart>Втрачено</MissingBodyPart>
 	<DestroyedBodyPart>Знищено</DestroyedBodyPart>
 	<ShatteredBodyPart>Розірвано</ShatteredBodyPart>
+  <RemovedBodyPart>Ампутовано</RemovedBodyPart>
 	<Healthy>Здоровий</Healthy>
 	<InPain>Страждає від болю</InPain>
 	<PainLevel>Біль</PainLevel>
 	<Dead>Мертвий</Dead>
 	<Unconscious>Непритомний</Unconscious>
 	<PainShock>В шоці</PainShock>
+  <Injured>Поранений</Injured>
 	<NoInjuries>(поранень немає)</NoInjuries>
 	<WholeBody>Усе тіло</WholeBody>
 	<RenameColonist>Перейменувати</RenameColonist>
 	<DataProcessing>Обробка даних</DataProcessing>
 	<Communication>Зв'язок</Communication>
+  <AffectsLower>впливає</AffectsLower>
+  <BleedingRate>Кровотеча</BleedingRate>
+  <HealthOverview>Звіт</HealthOverview>
+  <MedicalOperationsShort>Операції ({0})</MedicalOperationsShort>
+  <MedicalOperationsMechanoidsShort>Модифікації ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperations>Медичні операції</MedicalOperations>
+  <Amputate>Ампутувати</Amputate>
+  <Harvest>Вирізати</Harvest>
 
 	<!-- like 'Blood of John' -->
   <OfLower></OfLower>
@@ -206,6 +229,7 @@
   <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
   <ReadyToHarvest>Можно збирати.</ReadyToHarvest>
   <Mature>Повністю виросло.</Mature>
+  <SeedLabel>насіння {0}</SeedLabel>
   
   <!-- Zones -->
   <Zone>Зона</Zone>
@@ -224,6 +248,7 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Перемикач підсвічування зон.</ZoneVisibilityToggleButton>
   <AutoHomeRegionToggleButton>Перемикач автоматичного добавлення домашньої області коло нових будівель.</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
 
 
   <!-- Fire -->
@@ -235,6 +260,9 @@
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Особливі умови, впливаючі на місцевість у даний час.</MapConditionsTip>
+
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>У вас немає матеріалів, з яких це можно побудувати.</NoStuffsToBuildWith>
 
   
   
@@ -253,7 +281,9 @@
   <ShipReportMissingPart>Невистачає критично важливих модулів.</ShipReportMissingPart>
   <ShipReportNoFullPods>Немає заповнених капсул крипто сну.</ShipReportNoFullPods>
 
-  
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>Використати нейротрейнер, щоб вивчити {0}</UseNeurotrainer>
+  <NeurotrainerUsed>{0} скористався {1} нейротренер, щоб піднятися з рівня {2} до рівня {3}.</NeurotrainerUsed>  
   
   <!-- Game over -->
   <GameOverEveryoneDead>Всі загинули, або пішли геть. Ця пригода закінчилась.\n\nМожливо, хтось зможе знайти застосування цим руїнам.</GameOverEveryoneDead>
