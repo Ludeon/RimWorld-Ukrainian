@@ -3,65 +3,227 @@
 
 	<!-- ============= голод ============= -->
 
-	<Hungry.label>голодний</Hungry.label>
-	<Hungry.description>Я не їв уже деякий час.</Hungry.description>
-
-	<UrgentlyHungry.label>дуже голодний</UrgentlyHungry.label>
-	<UrgentlyHungry.description>Живіт крутить від голоду. Я маю знайти щось їстівне або помру з голоду.</UrgentlyHungry.description>
-
-	<Starving.label>вмирає з голоду</Starving.label>
-	<Starving.description>Що-небудь, будь ласка, аби з'їсти хоч що-небудь. Я майже відчуваю, як шлунок перетравлює сам себе, як боляче...</Starving.description>
+  <rep>
+    <path>Hungry.stages[0].label</path>
+    <trans>голодний</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[0].description</path>
+    <trans>Я не їв уже деякий час.</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].label</path>
+    <trans>дуже голодний</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[1].description</path>
+    <trans>Живіт крутить від голоду. Я маю знайти щось їстівне або помру з голоду.</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].label</path>
+    <trans>вмирає з голоду</trans>
+  </rep>
+  <rep>
+    <path>Hungry.stages[2].description</path>
+    <trans>Що-небудь, будь ласка, аби з'їсти хоч що-небудь. Я майже відчуваю, як шлунок перетравлює сам себе, як боляче...</trans>
+  </rep>
 
 	<!-- ============= Втома ============= -->
 
-	<Tired.label>втомлений</Tired.label>
-	<Tired.description>Я не спав уже деякий час.</Tired.description>
-
-	<VeryTired.label>дуже втомлений</VeryTired.label>
-	<VeryTired.description>Я так втомився. Я лише хочу прилягти на пару хвилин...</VeryTired.description>
-
-	<Exhausted.label>виснажений</Exhausted.label>
-	<Exhausted.description>Я повністю виснажений, ледве тримаюсь на ногах. Мої повіки важкі, як свинец. Будь ласка дайте відпочити...</Exhausted.description>
+  <rep>
+    <path>Tired.stages[0].label</path>
+    <trans>втомлений</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[0].description</path>
+    <trans>Я не спав уже деякий час.</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].label</path>
+    <trans>дуже втомлений</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[1].description</path>
+    <trans>Я так втомився. Я лише хочу прилягти на пару хвилин...</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].label</path>
+    <trans>виснажений</trans>
+  </rep>
+  <rep>
+    <path>Tired.stages[2].description</path>
+    <trans>Я повністю виснажений, ледве тримаюсь на ногах. Мої повіки важкі, як свинец. Будь ласка дайте відпочити...</trans>
+  </rep>
 
 	<!-- ============= оточення ============= -->
 
-	<EnvironmentUgly.label>бридке місце</EnvironmentUgly.label>
-	<EnvironmentUgly.description>Це неприємне міце.</EnvironmentUgly.description>
+  <rep>
+    <path>EnvironmentUgly.stages[0].label</path>
+    <trans>бридке місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[0].description</path>
+    <trans>Це неприємне міце.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].label</path>
+    <trans>жахливе місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[1].description</path>
+    <trans>Це місце дійсно неприємне. Я не хочу тут лишатися.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].label</path>
+    <trans>огидне місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentUgly.stages[2].description</path>
+    <trans>Це місце абсолютно нестерпне. Я хочу піти звідси...</trans>
+  </rep>
+	
+  <rep>
+    <path>EnvironmentPretty.stages[0].label</path>
+    <trans>приємне місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[0].description</path>
+    <trans>Це місце приємне.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].label</path>
+    <trans>красиве місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[1].description</path>
+    <trans>Мені дуже тут подобається. Тут красиво.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].label</path>
+    <trans>чудове місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentPretty.stages[2].description</path>
+    <trans>Це місце неперевершено. Воно надає мені сил і моє життя починає мені подобатися.</trans>
+  </rep>
 
-	<EnvironmentVeryUgly.label>жахливе місце</EnvironmentVeryUgly.label>
-	<EnvironmentVeryUgly.description>Це місце дійсно неприємне. Я не хочу тут лишатися.</EnvironmentVeryUgly.description>
+  <rep>
+    <path>EnvironmentCramped.stages[0].label</path>
+    <trans>замкнуте приміщення</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[0].description</path>
+    <trans>Це маленька кімната. Мне здається, що тут важко дихати.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].label</path>
+    <trans>дуже тісне місце</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCramped.stages[1].description</path>
+    <trans>Я тут як бумщур у клітці. Майже нікуди рухатися, так і до клаустрофобії недалеко.</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].label</path>
+    <trans>просторний інтер'єр.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentSpaciousInterior.stages[0].description</path>
+    <trans>Це комфортне й просторне місце.</trans>
+  </rep>
 
-	<EnvironmentHideous.label>огидне місце</EnvironmentHideous.label>
-	<EnvironmentHideous.description>Це місце абсолютно нестерпне. Я хочу піти звідси...</EnvironmentHideous.description>
+  <rep>
+    <path>EnvironmentDark.stages[0].label</path>
+    <trans>в темряві</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentDark.stages[0].description</path>
+    <trans>Я був в темряві деякий час. Мені це не подобається.</trans>
+  </rep>
 
-	<EnvironmentPretty.label>приємне місце</EnvironmentPretty.label>
-	<EnvironmentPretty.description>Це місце приємне.</EnvironmentPretty.description>
+  <rep>
+    <path>CabinFever.stages[0].label</path>
+    <trans>клаустрофобія (легка)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[0].description</path>
+    <trans>Я не був назовні вже декілька днів. Меня потрібно провітритися.</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].label</path>
+    <trans>клаустрофобія (серйозна)</trans>
+  </rep>
+  <rep>
+    <path>CabinFever.stages[1].description</path>
+    <trans>Я в пастці, как криса в мишоловці, уже дуже довго. Мені потрібно негайно вийти на вулицю або я збожеволію!</trans>
+  </rep>
 
-	<EnvironmentVeryPretty.label>красиве місце</EnvironmentVeryPretty.label>
-	<EnvironmentVeryPretty.description>Мені дуже тут подобається. Тут красиво.</EnvironmentVeryPretty.description>
+  <rep>
+    <path>Sick.stages[0].label</path>
+    <trans>хворий</trans>
+  </rep>
+  <rep>
+    <path>Sick.stages[0].description</path>
+    <trans>Я не дуже добре себе почуваю, я захворів.</trans>
+  </rep>
 
-	<EnvironmentBeautiful.label>чудове місце</EnvironmentBeautiful.label>
-	<EnvironmentBeautiful.description>Це місце неперевершено. Воно надає мені сил і моє життя починає мені подобатися.</EnvironmentBeautiful.description>
-
-	<EnvironmentCramped.label>замкнуте приміщення</EnvironmentCramped.label>
-	<EnvironmentCramped.description>Це маленька кімната. Мне здається, що тут важко дихати.</EnvironmentCramped.description>
-
-	<EnvironmentVeryCramped.label>дуже тісне місце</EnvironmentVeryCramped.label>
-	<EnvironmentVeryCramped.description>Я тут як пацюк у клітці. Майже нікуди рухатися, так і до клаустрофобії недалеко.</EnvironmentVeryCramped.description>
-
-	<EnvironmentSpaciousInterior.label>просторний інтер'єр.</EnvironmentSpaciousInterior.label>
-	<EnvironmentSpaciousInterior.description>Це комфортне й просторне місце.</EnvironmentSpaciousInterior.description>
-
-	<EnvironmentDark.label>в темряві</EnvironmentDark.label>
-	<EnvironmentDark.description>Я був в темряві деякий час. Мені це не подобається.</EnvironmentDark.description>
-
-	<CabinFeverMild.label>клаустрофобія (легка)</CabinFeverMild.label>
-	<CabinFeverMild.description>Я взаперті вже декілька днів. Меня потрібно провітритися.</CabinFeverMild.description>
-
-	<CabinFeverSerious.label>клаустрофобія (серйозна)</CabinFeverSerious.label>
-	<CabinFeverSerious.description>Я в пастці, как криса в мишоловці, уже дуже довго. Мені потрібно негайно вийти на вулицю або я збожеволію!</CabinFeverSerious.description>
-
-	<Sick.label>хворий</Sick.label>
-	<Sick.description>Я не дуже добре себе почуваю, я захворів.</Sick.description>	
+  <rep>
+    <path>EnvironmentCold.stages[0].label</path>
+    <trans>холодно</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[0].description</path>
+    <trans>Я змерз.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].label</path>
+    <trans>дуже холодно</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[1].description</path>
+    <trans>Як же холодно! *Бррр* Весь тремчу й ніяк не зігріюсь.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].label</path>
+    <trans>холодрига</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentCold.stages[2].description</path>
+    <trans>Від морозу зуб на зуб не попадає. Я не відчуваю ні рук ні ніг, здається вони вже синіюсь. Потрібно негайно зігрітися.</trans>
+  </rep>
+  
+  <rep>
+    <path>EnvironmentHot.stages[0].label</path>
+    <trans>жарко</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[0].description</path>
+    <trans>Тут неприємно жарко, я спітнів.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].label</path>
+    <trans>дуже жарко</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[1].description</path>
+    <trans>Від жари голова чумна якась. Дуже жарко</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].label</path>
+    <trans>спекотно</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[2].description</path>
+    <trans>Тут як у пічці! Я не знаю як довго я витримаю цю спеку.</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].label</path>
+    <trans>пекло</trans>
+  </rep>
+  <rep>
+    <path>EnvironmentHot.stages[3].description</path>
+    <trans>З мене вже йде пара. А може це дим? Я тут спекусь, як пиріжок</trans>
+  </rep>
 
 </LanguageData>

@@ -14,10 +14,11 @@
 
   <CloseButton>Закрити</CloseButton>
 
-
   <VersionIndicator>Версія {0}</VersionIndicator>
   <DevelopmentBuildLower>тільки для тестувальників</DevelopmentBuildLower>
   <CompiledOn>Збірка від {0}</CompiledOn>
+
+<!-- Content generation-->
 
   <MeatLabel>{0} м'ясо</MeatLabel>
   <MeatDesc>Сире м'ясо {0}.</MeatDesc>
@@ -29,10 +30,26 @@
 	<CorpseDesc>Мертве тіло {0}.</CorpseDesc>
   <DeadLabel>{0} (мертвий)</DeadLabel>
 
+  <RoughStoneTerrainLabel>грубий {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Груба поверхня. Натуральний, необроблений {0}.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>неотесаний {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Невідшліфована поверхня. Видобутий, але не полірований {0}.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>згладжений {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Згладжена, блискуча поверхня з натурального {0}.</SmoothStoneTerrainDesc>
+
+<!--
+  <SmoothStone.label>Згладжений камінь</SmoothStone.label>
+  <SmoothStone.description>Вирівняний натуральний камінь. По ньому можно швидко ходити та виглядає непогано.</SmoothStone.description>
+
+  <RoughHewnRock.label>Неотесана гірська порода</RoughHewnRock.label>
+-->
 
 	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
   <FrameLabelExtra> (будівництво)</FrameLabelExtra>
-  
+
+    <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->  
+
   <ThingMadeOfStuffLabel>{1} з {0}</ThingMadeOfStuffLabel>
 
   <VariousLabel>(різноманітне)</VariousLabel>
