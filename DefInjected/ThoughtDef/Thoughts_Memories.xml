@@ -1,60 +1,162 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<AteRawFood.label>З'їв сиру їжу</AteRawFood.label>
-	<AteRawFood.description>Я змушений їсти сирі продукти. Ми могли б готувати, або, у крайньому випадку синтезувати живильну пасту.</AteRawFood.description>
+  <rep>
+    <path>AteRawFood.stages[0].label</path>
+    <trans>З'їв сиру їжу</trans>
+  </rep>
+  <rep>
+    <path>AteRawFood.stages[0].description</path>
+    <trans>Я змушений їсти сирі продукти. Ми могли б готувати, або, у крайньому випадку синтезувати живильну пасту.</trans>
+  </rep>
 
-	<AteNutrientPasteMeal.label>З'їв живильну пасту</AteNutrientPasteMeal.label>
-	<AteNutrientPasteMeal.description>Я був змушений їсти живильну пасту. Я знаю, ща це врятує мене від голодної смерті, але іноді я питаю себе, що страшніше?</AteNutrientPasteMeal.description>
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].label</path>
+    <trans>З'їв живильну пасту</trans>
+  </rep>
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].description</path>
+    <trans>Я був змушений їсти живильну пасту. Я знаю, ща це врятує мене від голодної смерті, але іноді я питаю себе, що страшніше?</trans>
+  </rep>
 
-	<AteFineMeal.label>З'їв хорошу їжу</AteFineMeal.label>
-	<AteFineMeal.description>Я з'їв насправді смачне блюдо. М-м-м!</AteFineMeal.description>
-
-	<AteLavishMeal.label>Скуштував делікатес</AteLavishMeal.label>
-	<AteLavishMeal.description>Це був просто розкішний бенкет. Насолода не тільки для тіла, но й для души.</AteLavishMeal.description>
+  <rep>
+    <path>AteFineMeal.stages[0].label</path>
+    <trans>З'їв хорошу їжу</trans>
+  </rep>
+  <rep>
+    <path>AteFineMeal.stages[0].description</path>
+    <trans>Я з'їв насправді смачне блюдо. М-м-м!</trans>
+  </rep>
+  
+  <rep>
+    <path>AteLavishMeal.stages[0].label</path>
+    <trans>Скуштував делікатес</trans>
+  </rep>
+  <rep>
+    <path>AteLavishMeal.stages[0].description</path>
+    <trans>Це був просто розкішний бенкет. Насолода не тільки для тіла, але й для душі.</trans>
+  </rep>
 
 	<!-- =========== Cannibalism ===============-->
 
-	<AteHumanoidMeatDirect.label>З'їв сирого людського м'яса</AteHumanoidMeatDirect.label>
-	<AteHumanoidMeatDirect.description>Я з'їв м'ясо іншої людини, сирим, як дика тварина. Це просто жах.</AteHumanoidMeatDirect.description>
+  <rep>
+    <path>AteHumanoidMeatDirect.stages[0].label</path>
+    <trans>З'їв сирого людського м'яса</trans>
+  </rep>
+  <rep>
+    <path>AteHumanoidMeatDirect.stages[0].description</path>
+    <trans>Я з'їв м'ясо іншої людини, сирим, як дика тварина. Це просто жах.</trans>
+  </rep>
+	
+  <rep>
+    <path>AteHumanoidMeatAsIngredient.stages[0].label</path>
+    <trans>З'їв блюдо з людським м'ясом</trans>
+  </rep>
+  <rep>
+    <path>AteHumanoidMeatAsIngredient.stages[0].description</path>
+    <trans>Я з'їв блюдо, приготовлене з м'яса іншої людини. Це жахливо.</trans>
+  </rep>
 
-	<AteHumanoidMeatAsIngredient.label>З'їв блюдо з людським м'ясом</AteHumanoidMeatAsIngredient.label>
-	<AteHumanoidMeatAsIngredient.description>Я з'їв блюдо, приготовлене з м'яса іншої людини. Це жахливо.</AteHumanoidMeatAsIngredient.description>
+  <rep>
+    <path>AteHumanoidMeatDirectCannibal.stages[0].label</path>
+    <trans>>З'їв сирого людського м'яса</trans>
+  </rep>
+  <rep>
+    <path>AteHumanoidMeatDirectCannibal.stages[0].description</path>
+    <trans>Я з'їв м'ясо іншої людини, сире, як дика тварина. Це було неперевершено.</trans>
+  </rep>
+	
+  <rep>
+    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].label</path>
+    <trans>З'їв блюдо с людським м'ясом</trans>
+  </rep>
+  <rep>
+    <path>AteHumanoidMeatAsIngredientCannibal.stages[0].description</path>
+    <trans>Я з'їв блюдо, приготовлене з м'яса іншої людини. Така насолода. Як би в мене було трохи бобів і гарне к'янті.</trans>
+  </rep>
 
-	<AteHumanoidMeatDirectCannibal.label>З'їв сирого людського м'яса</AteHumanoidMeatDirectCannibal.label>
-	<AteHumanoidMeatDirectCannibal.description>Я з'їв м'ясо іншої людини, сире, як дика тварина. Це було неперевершено.</AteHumanoidMeatDirectCannibal.description>
-
-	<AteHumanoidMeatAsIngredientCannibal.label>З'їв блюдо с людським м'ясом</AteHumanoidMeatAsIngredientCannibal.label>
-	<AteHumanoidMeatAsIngredientCannibal.description>Я з'їв блюдо, приготовлене з м'яса іншої людини. Така насолода. Як би в мене було трохи бобів і гарне к'янті. </AteHumanoidMeatAsIngredientCannibal.description>
-
-	<ButcheredHumanoidCorpse.label>Розрізав людину</ButcheredHumanoidCorpse.label>
-	<ButcheredHumanoidCorpse.description>Я щойно розрізав людське тіло, начебто це була туша тварини.</ButcheredHumanoidCorpse.description>
-
-	<AteWithoutTable.label>Їв на підлозі</AteWithoutTable.label>
-	<AteWithoutTable.description>Я вимушен їсти їжу на землі. Я думаю, що нам не завадив би стіл.</AteWithoutTable.description>
+  <rep>
+    <path>ButcheredHumanoidCorpse.stages[0].label</path>
+    <trans>Розрізав людину</trans>
+  </rep>
+  <rep>
+    <path>ButcheredHumanoidCorpse.stages[0].description</path>
+    <trans>Я щойно розрізав людське тіло, начебто це була туша тварини.</trans>
+  </rep>
+	
+  <rep>
+    <path>AteWithoutTable.stages[0].label</path>
+    <trans>Їв на підлозі</trans>
+  </rep>
+  <rep>
+    <path>AteWithoutTable.stages[0].description</path>
+    <trans>Я вимушен їсти їжу на землі. Я думаю, що нам не завадив би стіл.</trans>
+  </rep>
 
 	<!-- Combat -->
 
-	<ObservedLayingCorpse.label>Бачив труп</ObservedLayingCorpse.label>
-	<ObservedLayingCorpse.description>Я бачив мертве тіло.</ObservedLayingCorpse.description>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].label</path>
+    <trans>Бачив труп</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].description</path>
+    <trans>Я бачив мертве тіло.</trans>
+  </rep>
 
-	<ObservedLayingRottingCorpse.label>Бачив гниючий труп</ObservedLayingRottingCorpse.label>
-	<ObservedLayingRottingCorpse.description>Я бачив гниючий труп. Це було огидно.</ObservedLayingRottingCorpse.description>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].label</path>
+    <trans>Бачив гниючий труп</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].description</path>
+    <trans>Я бачив гниючий труп. Це було огидно.</trans>
+  </rep>
 
-	<WitnessedDeathAlly.label>Став свідоком смерті союзника</WitnessedDeathAlly.label>
-	<WitnessedDeathAlly.description>Я бачив як один з наших загинув. Ще секунду назад він був живий, а ще через секунду - вже мертвий.</WitnessedDeathAlly.description>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].label</path>
+    <trans>Став свідоком смерті союзника</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].description</path>
+    <trans>Я бачив як один з наших загинув. Ще секунду назад він був живий, а ще через секунду - вже мертвий.</trans>
+  </rep>
 
-	<WitnessedDeathStranger.label>Став свідоком смерті незнайомця</WitnessedDeathStranger.label>
-	<WitnessedDeathStranger.description>Я бачив як хтось загинув. Ще секунду назад він був живий, а ще через секунду - вже мертвий.</WitnessedDeathStranger.description>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].label</path>
+    <trans>Став свідоком смерті незнайомця</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].description</path>
+    <trans>Я бачив як хтось загинув. Ще секунду назад він був живий, а ще через секунду - вже мертвий.</trans>
+  </rep>
 
-	<WitnessedDeathStrangerBloodlust.label>Став свідоком смерті незнайомця</WitnessedDeathStrangerBloodlust.label>
-	<WitnessedDeathStrangerBloodlust.description>Я бачив як хтось загинув! Це було захоплююче видовище!</WitnessedDeathStrangerBloodlust.description>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
+    <trans>Став свідоком смерті незнайомця</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
+    <trans>Я бачив як хтось загинув! Це було захоплююче видовище!</trans>
+  </rep>
 
-	<KilledHumanoidBloodlust.label>Вбив людину</KilledHumanoidBloodlust.label>
-	<KilledHumanoidBloodlust.description>Я вбив його! Хочу ще!</KilledHumanoidBloodlust.description>
+  <rep>
+    <path>KilledHumanoidBloodlust.stages[0].label</path>
+    <trans>Вбив людину</trans>
+  </rep>
+  <rep>
+    <path>KilledHumanoidBloodlust.stages[0].description</path>
+    <trans>Я вбив його! Хочу ще!</trans>
+  </rep>
 
-	<BattleWounded.label>Поранений</BattleWounded.label>
-	<BattleWounded.description>Це моя кров! Мене поранено!</BattleWounded.description>
+  <rep>
+    <path>BattleWounded.stages[0].label</path>
+    <trans>Поранений</trans>
+  </rep>
+  <rep>
+    <path>BattleWounded.stages[0].description</path>
+    <trans>Це моя кров! Мене поранено!</trans>
+  </rep>
 
 <!--
 	<ObservedGibbetCageEmpty.label>Побачив порожнью клітку для страчених</ObservedGibbetCageEmpty.label>
@@ -67,46 +169,160 @@
 	<ObservedGibbetCageFullColonist.description>Там один з наших сидить у клітці, здається мертвий. Я ще пам'ятаю, як розмовляв з ним. Яке жахливе місце!</ObservedGibbetCageFullColonist.description>
 -->
 
-	<NewColonyOptimism.label>Оптимізм щодо нової колонії</NewColonyOptimism.label>
-	<NewColonyOptimism.description>Ми щойно приземлилися, так ситуація досить складна, але мені цікаво облаштовувати нову колонію.</NewColonyOptimism.description>
+  <rep>
+    <path>NewColonyOptimism.stages[0].label</path>
+    <trans>Оптимізм щодо нової колонії</trans>
+  </rep>
+  <rep>
+    <path>NewColonyOptimism.stages[0].description</path>
+    <trans>Ми щойно приземлилися, так ситуація досить складна, але мені цікаво облаштовувати нову колонію.</trans>
+  </rep>
 
-	<NewColonyHope.label>Нова колонія, нові надії</NewColonyHope.label>
-	<NewColonyHope.description>Я поступово звикаю до нинішнього стану справ, але мені все ще цікаво. Я сподіваюсь, що ми не застрягнемо тут надовго...</NewColonyHope.description>
+  <rep>
+    <path>NewColonyHope.stages[0].label</path>
+    <trans>Нова колонія, нові надії</trans>
+  </rep>
+  <rep>
+    <path>NewColonyHope.stages[0].description</path>
+    <trans>Я поступово звикаю до нинішнього стану справ, але мені все ще цікаво. Я сподіваюсь, що ми не застрягнемо тут надовго...</trans>
+  </rep>
 
-	<SleptOutside.label>Спав на вулиці</SleptOutside.label>
-	<SleptOutside.description>Я був вимушений спати на відкритому повітри, беззахистним.</SleptOutside.description>
+  <rep>
+    <path>SleptOutside.stages[0].label</path>
+    <trans>Спав на вулиці</trans>
+  </rep>
+  <rep>
+    <path>SleptOutside.stages[0].description</path>
+    <trans>Я був вимушений спати на відкритому повітри, зовсім беззахистний.</trans>
+  </rep>
 
-	<SleptOnGround.label>Спав на землі</SleptOnGround.label>
-	<SleptOnGround.description>Я спав на землі, як дика тварина.</SleptOnGround.description>
+  <rep>
+    <path>SleptOnGround.stages[0].label</path>
+    <trans>Спав на землі</trans>
+  </rep>
+  <rep>
+    <path>SleptOnGround.stages[0].description</path>
+    <trans>Я спав на землі, як дика тварина.</trans>
+  </rep>
 
-	<KnowPrisonerBeaten.label>В'язня побили</KnowPrisonerBeaten.label>
+  <rep>
+    <path>SleptInCold.stages[0].label</path>
+    <trans>Спав на холоді</trans>
+  </rep>
+  <rep>
+    <path>SleptInCold.stages[0].description</path>
+    <trans>Мені довелося спати на холоді. Нам терміново потрібні обігрівачі.</trans>
+  </rep>
+  
+  <rep>
+    <path>SleptInHeat.stages[0].label</path>
+    <trans>Спав у духоті</trans>
+  </rep>
+  <rep>
+    <path>SleptInHeat.stages[0].description</path>
+    <trans>Мені довелося спати в жарюці. Хіба не можна встановити кондиціонер?</trans>
+  </rep>
+
+<!--	<KnowPrisonerBeaten.label>В'язня побили</KnowPrisonerBeaten.label>
 	<KnowPrisonerBeaten.description>Вони б'ють в'язнів.</KnowPrisonerBeaten.description>
+-->
 
-	<KnowPrisonerSold.label>В'язень був продан</KnowPrisonerSold.label>
-	<KnowPrisonerSold.description>Ця колонія продає в'язнів у рабство. Це тривожний сигнал.</KnowPrisonerSold.description>
+  <rep>
+    <path>KnowPrisonerSold.stages[0].label</path>
+    <trans>В'язня продано</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerSold.stages[0].description</path>
+    <trans>Ця колонія продає в'язнів у рабство. Це тривожний сигнал.</trans>
+  </rep>
 
-	<KnowPrisonerExecuted.label>В'язень був страчений</KnowPrisonerExecuted.label>
-	<KnowPrisonerExecuted.description>В'язень був страчений. Ця колонія, як на мене, повна зла.</KnowPrisonerExecuted.description>
+  <rep>
+    <path>KnowPrisonerExecuted.stages[0].label</path>
+    <trans>В'язня страчено</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerExecuted.stages[0].description</path>
+    <trans>В'язень був страчений. Як на мене, ця колонія повна зла.</trans>
+  </rep>
 
-	<JustImprisoned.label>Опинився за гратами</JustImprisoned.label>
-	<JustImprisoned.description>Мене щойно посадили в тюрму. Маю тримати себе в руках і тоді я це витримаю.</JustImprisoned.description>
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].label</path>
+    <trans>У в'язня забрано орган</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].description</path>
+    <trans>У в'язнів вирізають органи. Це так жахливо - знущатися та відіймати органи в тих, хто не має вибіру</trans>
+  </rep>
 
-	<PrisonerFriendlyChat.label>Вмовлений тюремником</PrisonerFriendlyChat.label>
-	<PrisonerFriendlyChat.description>Ми з тюремником розмовляли про колонію. За його словами, це дуже гарне місце...</PrisonerFriendlyChat.description>
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].label</path>
+    <trans>Втратив орган</trans>
+  </rep>
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].description</path>
+    <trans>Колоністи вирізали мені орган. Як вони наважилися! Я що їм старий двигун, що можна пустити на зачастини!</trans>
+  </rep>
 
+  <rep>
+    <path>WasImprisoned.stages[0].label</path>
+    <trans>Опинився за ґратами</trans>
+  </rep>
+  <rep>
+    <path>WasImprisoned.stages[0].description</path>
+    <trans>Мене щойно посадили в тюрму. Маю тримати себе в руках і тоді я це витримаю.</trans>
+  </rep>
+
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].label</path>
+    <trans>Вмовлений тюремником</trans>
+  </rep>
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].description</path>
+    <trans>Ми з тюремником розмовляли про колонію. За його словами, це дуже гарне місце...</trans>
+  </rep>
+
+  <rep>
+    <path>SocialTalk.stages[0].label</path>
+    <trans>Поспілкувався з іншими</trans>
+  </rep>
+  <rep>
+    <path>SocialTalk.stages[0].description</path>
+    <trans>Я щойно вдосталь набалакався.</trans>
+  </rep>
+
+  <rep>
+    <path>AbrasiveTalk.stages[0].label</path>
+    <trans>неприємна бесіда</trans>
+  </rep>
+  <rep>
+    <path>AbrasiveTalk.stages[0].description</path>
+    <trans>Хтось нагрубив мені. Найгірше те, що ця людина навіть не усвідомлює це.</trans>
+  </rep>
+  
+  <rep>
+    <path>GreenThumbHappy.stages[0].label</path>
+    <trans>посадив рослину</trans>
+  </rep>
+  <rep>
+    <path>GreenThumbHappy.stages[0].description</path>
+    <trans>Більше рослин - саме це потрібно цьому світу!</trans>
+  </rep>
+
+<!--
 	<PrisonerBeatenMild.label>Побитий тюремником</PrisonerBeatenMild.label>
 	<PrisonerBeatenMild.description>Тюремник щойно мене побив. В мене нічого не зламане, але... дідька б його! Як же боляче!</PrisonerBeatenMild.description>
 
 	<PrisonerBeatenVicious.label>Жорстоко побит тюремником</PrisonerBeatenVicious.label>
 	<PrisonerBeatenVicious.description>Тюремник задав мені прочуханки. Мало Богу душу не віддав...</PrisonerBeatenVicious.description>
+-->
 
-	<SocialTalk.label>Поспілкувався з іншими</SocialTalk.label>
-	<SocialTalk.description>Я щойно вдосталь набалакався.</SocialTalk.description>
-
-	<AbrasiveTalk.label>неприємна бесіда</AbrasiveTalk.label>
-	<AbrasiveTalk.description>Хтось нагрубив мені. Як на мене - найгірше те, що ця людина навіть не усвідомлює це.</AbrasiveTalk.description>
-
-	<GreenThumbHappy.label>посадив рослину</GreenThumbHappy.label>
-	<GreenThumbHappy.description>Більше рослин - саме це потрібно цьому світу.</GreenThumbHappy.description>
+  <rep>
+    <path>Catharsis.stages[0].label</path>
+    <trans>каратсис</trans>
+  </rep>
+  <rep>
+    <path>Catharsis.stages[0].description</path>
+    <trans>Що це було... Я наче сам не свій. Я переконан, що здатен на набагато краще.</trans>
+  </rep>
 
 </LanguageData>
