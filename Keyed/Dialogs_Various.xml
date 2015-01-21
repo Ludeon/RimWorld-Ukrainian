@@ -48,6 +48,7 @@
   <ResearchMenuWithoutBench>Доки ви не зробите дослідницький стіл, ваші колоністи не зможуть виконувати дослідження.\n\nПроте, ви все одно можете подивитися й обрати дослідницький проект прям зараз.</ResearchMenuWithoutBench>
     
   <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>УВАГА: Ви обрали зимовий сезон. Може статися, що буде дуже складно, навіть неможливо пережити цей період. Якщо ви не шукаєте додаткових викликів, будь ласка, оберіть іншу локацію або місяць.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слабка комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався й майже напевно призведе до проблем продуктивності.</MapSizePerformanceWarning>
   <MapSize>Розмір мапи</MapSize>
   <MapSizeDesc>{0}x{0} ({1} квадратів)</MapSizeDesc>
@@ -55,6 +56,8 @@
   <MapSizeMedium>Середня</MapSizeMedium>
   <MapSizeLarge>Велика</MapSizeLarge>
   <MapSizeExtreme>Гігантська</MapSizeExtreme>
+  <MapStartMonth>Стартовий місяць</MapStartMonth>
+  <MapStartMonthDefault>Авто.</MapStartMonthDefault>
 
   <!-- Bill config -->
   <Suspended>Продовжити</Suspended>
@@ -67,8 +70,10 @@
   <Infinite>Необмежено</Infinite>
   <RecipeCannotHaveTargetCount>(Це завдання неможливо повторювати, оскільки результат може бути різним.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Дозволені інгредієнти</PermittedIngredients>
+  <WorkAmount>Кількість роботи</WorkAmount>
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
   <BillRequires>Потрібно {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Величини можуть відрізнятись для елементів з нестандартним об'ємом, наприклад, золота.)</BillRequiresMayVary>
   <UsableIngredients>корисні інгредієнти</UsableIngredients>
   <DoXTimes>Зробити X разів</DoXTimes>
   <DoUntilYouHaveX>Повторювати до X</DoUntilYouHaveX>
@@ -79,13 +84,14 @@
   <BillStoreMode_NearestStockpileAnyPriority>До найближчого складу</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
-  <Type>Тип</Type>
+ <!-- <Type>Тип</Type>
   <GunType>Зброя</GunType>
   <PlantType>Рослина</PlantType>
   <FoodType>Їжа</FoodType>
   <HumanType>Людина</HumanType>
   <AnimalType>Тварина</AnimalType>
-  <MechanoidType>Механоїд</MechanoidType>
+  <MechanoidType>Механоїд</MechanoidType> -->
+  
   <Damage>Пошкодження</Damage>
   <Accuracy>Точність</Accuracy>
   <BurstShotCount>Пострілів</BurstShotCount>
@@ -110,9 +116,8 @@
   <MinFoodQuality>Мін. тип їжі</MinFoodQuality>
   <Diet>Спосіб життя</Diet>
   <RecruitDifficulty>Складність вербовки</RecruitDifficulty>
-  <baseMarketValue>Базова ціна</baseMarketValue>
+  <MarketValue>Базова ціна</MarketValue>
   <Covers>Покриває</Covers>
-  <NaturalArmorCovers>Природна броня</NaturalArmorCovers>
   <BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
   
   <!-- Trade -->

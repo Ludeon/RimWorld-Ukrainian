@@ -14,21 +14,36 @@
   <DeadTime>Мертвий вже {0}</DeadTime>
   <WalkSpeed>швидкість {0}</WalkSpeed>
   <DyingLower>вмирає</DyingLower>
-  <!--
-  <PawnEffectiveness>Ефективність</PawnEffectiveness>
--->
   <FilthOnFeet>Бруд на ногах:</FilthOnFeet>
   <NotEnoughStoredLower>недостатньо</NotEnoughStoredLower>
   <NothingLower>нічого</NothingLower>
   <Adapted>Придатний</Adapted>
   <Headshot>У голову</Headshot>
   <FreshMissingBodyPart>свіже</FreshMissingBodyPart>
-  <UntreatedLower>не отримав лікування</UntreatedLower>
-  <RecoveringDiseaseLower>востановлення</RecoveringDiseaseLower>
+  <UntreatedLower>потребує лікування</UntreatedLower>
+  <DevelopedImmunityLower>має імунінет</DevelopedImmunityLower>
+  <!--  <RecoveringDiseaseLower>востановлення</RecoveringDiseaseLower> -->
   <InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
   <NextTreatmentAfter>Наступний сеанс лікування за {0} днів</NextTreatmentAfter>
   <MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>прогрес вироботки імунітету</ImmunityDevelopmentProgress>
+  <ImmunityDevelopmentProgress>вироблення імунітету</ImmunityDevelopmentProgress>
+  <Race>Раса</Race>
+  <Description>Докладний опис</Description>
+  <Equipment>Спорядження</Equipment>
+  <Apparel>Одяг</Apparel>
+  <Inventory>Інвентар</Inventory>
+  <ThingInfo>Інформація</ThingInfo>
+  <DropThing>Викинути</DropThing>
+  <RenameColonist>Перейменувати</RenameColonist>
+  <UnknownLower>невідомо</UnknownLower>
+
+  <!-- Snow -->
+  <SnowNone>Немає снігу</SnowNone>
+  <SnowDusting>Іній</SnowDusting>
+  <SnowThin>Сніг (легкий)</SnowThin>
+  <SnowMedium>Сніг (середній)</SnowMedium>
+  <SnowThick>Сніг (великий)</SnowThick>
+
 
   <!-- Turrets -->
   <GunInstalled>Встановлено</GunInstalled>
@@ -45,10 +60,8 @@
 	<!-- Shooting report -->
 	<WeaponMissRadius>Розброс вогню</WeaponMissRadius>
   <ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
-	<!-- replaced with above tag
-  <ShootReportSkill>Майстерність</ShootReportSkill>
--->
 	<ShootReportWeapon>Зброя</ShootReportWeapon>
+  <RangeSlashEquipment>MOCK_Reichweite/Ausrüstung</RangeSlashEquipment>
 	<Darkness>Темрява</Darkness>
 	<TargetProne>Сприйнятливість</TargetProne>
 	<TargetSize>Розмір цілі</TargetSize>
@@ -58,8 +71,8 @@
 	<NoCoverLower>немає укриття</NoCoverLower>
 
   <!-- Generated recipes -->
-  <RecipeMake>Пошити {0}</RecipeMake>
-  <RecipeMakeJobString>Шиє {0}.</RecipeMakeJobString>
+  <RecipeMake>Зробити {0}</RecipeMake>
+  <RecipeMakeJobString>Робить {0}.</RecipeMakeJobString>
 	
 	
 	<!-- Status levels -->
@@ -114,15 +127,11 @@
 
 	<!-- ITabs -->
  
-	<Equipment>Спорядження</Equipment>
-	<Apparel>Одяг</Apparel>
-	<Inventory>Інвентар</Inventory>
-	<ThingInfo>Інформація</ThingInfo>
-	<DropThing>Викинути</DropThing>
-  <RenameColonist>Перейменувати</RenameColonist>
-	<TotalModifiers>Модифікатори</TotalModifiers>
+	
+	<!--
+<TotalModifiers>Модифікатори</TotalModifiers>
 	<DamageAbsorption>Поглинання урону</DamageAbsorption>
-  <DamageDeflection>Віддзеркалення урону</DamageDeflection>
+  <DamageDeflection>Віддзеркалення урону</DamageDeflection> -->
 
 	<!-- like 'Blood of John' -->
   <OfLower></OfLower>
@@ -136,7 +145,16 @@
   <PowerOutput>Потужність, що постачається</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
   <PowerBatteryEfficiency>ККД</PowerBatteryEfficiency>
+
+  <!-- Temperature control -->
+  <TargetTemperature>Бажана температура</TargetTemperature>
+  <PowerConsumptionMode>Споживання енергії</PowerConsumptionMode>
+  <PowerConsumptionHigh>Високе</PowerConsumptionHigh>
+  <PowerConsumptionLow>Низьке</PowerConsumptionLow>
   
+  <!-- Temperature readout -->
+  <Indoors>Усередині</Indoors>
+  <Outdoors>Назовні</Outdoors>
   
 	<!--Rotting-->
   <RotStateFresh>Свіже</RotStateFresh>
@@ -155,26 +173,39 @@
   <StoragePriorityImportant>високий</StoragePriorityImportant>
   <StoragePriorityCritical>макс.</StoragePriorityCritical>
 
+  <!-- Rotting -->
+  <CurrentlyFrozen>Заморожено (не зіпсується)</CurrentlyFrozen>
+  <CurrentlyRefrigerated>Охолоджується (Зіпсується за {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Не охолоджується (Зіпсується за {0})</NotRefrigerated>
+  <OverADecade>MOCK_over a decade</OverADecade>
+
   <!-- Meal -->
-  <TimeToSpoil>Зіпсується за {0}</TimeToSpoil>
+  <!-- <TimeToSpoil>Зіпсується за {0}</TimeToSpoil> -->
   <Ingredients>Інгредієнти</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>{0}% росту</PercentGrowth>
   <Growing>Росте</Growing>
   <NotGrowingNow>Не росте (повинно бути {0}).</NotGrowingNow>
-  <NotGrowingNowNight>Не росте (ніч).</NotGrowingNowNight>
+  <NotGrowingNowResting>Не росте (покоїться).</NotGrowingNowResting>
   <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
-  <ReadyToHarvest>Можно збирати.</ReadyToHarvest>
+  <OutOfIdealTemperatureRange>Поза зоною оптимальної для росту температури (Швидкість росту складає {0}% від нормальної швидкості росту)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
+  <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <Mature>Повністю виросло.</Mature>
   <SeedLabel>насіння {0}</SeedLabel>
-  
+  <OutdoorGrowingPeriod>Росте: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>MOCK_Ніколи</NoGrowingPeriod>
+  <GrowYearRound>Увесь рік</GrowYearRound>
+  <CannotGrowTooCold>Рост неможливий - занадто холодно.</CannotGrowTooCold>
+
   <!-- Zones -->
   <Zone>Зона</Zone>
   <GrowingZone>Ділянка</GrowingZone>
   <Stockpile>Склад</Stockpile>
   <DumpingStockpile>Звалище</DumpingStockpile>
   <Priority>пріоритет</Priority>
+  <ClearAll>прибрати все</ClearAll>
   
   <!-- Mouseover indicator -->
   <Undiscovered>Не розвідано</Undiscovered>
@@ -205,9 +236,16 @@
   <MustPlaceHeadOnShipBeam>Повинне бути розміщеним поряд з силовим елементом корабля.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Повинен бути розміщений поряд з автоматом поживної пасти.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзеру.</MustPlaceOnSteamGeyser>
+  <MustPlaceCoolerWithFreeSpaces>Має бути відкритим з обох сторон</MustPlaceCoolerWithFreeSpaces>
+
+  <!-- Wind Turbine -->
+  <WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedByRoof>Закрита дахом</WindTurbine_WindPathIsBlockedByRoof>
   
   <!-- Cryptosleep pod -->
-  <PodContains>Містить</PodContains>
+  <CasketContains>Містить</CasketContains>
+  <CasketUnknownContents>Невідомо</CasketUnknownContents>
+  <CasketWarning>Увага!\n\nNAME - ваш останній активний колоніст! Якщо ви помістите HIM в капсулу, можливо ви не зможете продовжити гру. Ви впевнені що бажаєте це зробити?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Запуск неможливий.</ShipReportCannotLaunch>
@@ -217,7 +255,24 @@
 
   <!-- Neurotrainer -->
   <UseNeurotrainer>Використати нейротрейнер, щоб вивчити {0}</UseNeurotrainer>
-  <NeurotrainerUsed>{0} скористався {1} нейротренер, щоб піднятися з рівня {2} до рівня {3}.</NeurotrainerUsed>  
+  <NeurotrainerUsed>{0} скористався {1} нейротренер, щоб піднятися з рівня {2} до рівня {3}.</NeurotrainerUsed>
+
+  <!-- Minification -->
+  <Installed>Встановлено</Installed>
+  <NotInstalled>Не встановлено</NotInstalled>
+
+  <!-- Art -->
+  <Title>Назва</Title>
+  <Untitled>без назви</Untitled>
+  
+  <!-- Unfinished thing -->
+  <UnfinishedItem>Незакінчено: {0}</UnfinishedItem>
+  <UnfinishedItemWithStuff>Незакінчено: {1} з {0}</UnfinishedItemWithStuff>
+
+  <!-- Quality -->
+  <Quality>Якість</Quality>
+  <QualityDescription>Якість матеріалу та роботи.</QualityDescription>
+  <QualityIs>Якість: {0}</QualityIs> 
   
   <!-- Game over -->
   <GameOverEveryoneDead>Всі загинули, або пішли геть. Ця пригода закінчилась.\n\nМожливо, хтось зможе знайти застосування цим руїнам.</GameOverEveryoneDead>
