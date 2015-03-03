@@ -110,7 +110,7 @@
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Фракція</Faction>
   <Equipped>Озброєний</Equipped>
-  <EquippedNothing>Не озброєний</EquippedNothing>
+  <EquippedNothing>Неозброєний</EquippedNothing>
   <Incapacitated>Виведен з ладу</Incapacitated>
   <InRestraints>У полоні (заарештований)</InRestraints>
   <Carrying>Переносить</Carrying>
@@ -122,7 +122,7 @@
 
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Обрати іншу річ на тій самій клітині.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітині знову й знову.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Обрати іншу річ на тій самій клітині.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітині знов і знов.</SelectNextInSquareTip>
   <DefInfoTip>Подивитися інформацію про ций об'єкт.</DefInfoTip>
 
 	<!-- ITabs -->
@@ -138,9 +138,9 @@
 
 	<!-- Power readout -->
   <PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
-  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} / {1} Вт</PowerConnectedRateStored>
-  <!--<PowerConnectedStored>Акумульована енергія: {0} Вт</PowerConnectedStored>
--->
+  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} / {1} Вт·д</PowerConnectedRateStored>
+  <PowerConnectedStored>Акумульована енергія: {0} Вт·д</PowerConnectedStored>
+
   <PowerNeeded>Потужність, що споживається</PowerNeeded>
   <PowerOutput>Потужність, що постачається</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
@@ -154,6 +154,7 @@
   
   <!-- Temperature readout -->
   <Indoors>Усередині</Indoors>
+  <IndoorsUnroofed>Без даху</IndoorsUnroofed>
   <Outdoors>Назовні</Outdoors>
   
 	<!--Rotting-->
@@ -194,8 +195,8 @@
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <Mature>Повністю виросло.</Mature>
   <SeedLabel>насіння {0}</SeedLabel>
-  <OutdoorGrowingPeriod>Росте: {0}</OutdoorGrowingPeriod>
-  <NoGrowingPeriod>MOCK_Ніколи</NoGrowingPeriod>
+  <OutdoorGrowingPeriod>Сезон роста: {0}</OutdoorGrowingPeriod>
+  <NoGrowingPeriod>Ніколи</NoGrowingPeriod>
   <GrowYearRound>Увесь рік</GrowYearRound>
   <CannotGrowTooCold>Рост неможливий - занадто холодно.</CannotGrowTooCold>
 
@@ -212,7 +213,7 @@
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Перемикач підсвічування зон.</ZoneVisibilityToggleButton>
-  <AutoHomeRegionToggleButton>Перемикач автоматичного добавлення домашньої області коло нових будівель.</AutoHomeRegionToggleButton>
+  <AutoHomeRegionToggleButton>Перемикач автоматичного поширення жилої зони навколо нових будівель.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
 
 
