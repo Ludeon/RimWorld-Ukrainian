@@ -36,6 +36,14 @@
   <DropThing>Викинути</DropThing>
   <RenameColonist>Перейменувати</RenameColonist>
   <UnknownLower>невідомо</UnknownLower>
+  <On>Ввімк.</On>
+  <Off>Вимк.</Off>
+  <PowerSwitch_Power>Живлення</PowerSwitch_Power>
+
+  <!-- Control -->
+  <CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним одиницям_MOCK.</CannotOrderNonControlled>
+  <IsIncapableOfViolence>{0} нездатний до насильства.</IsIncapableOfViolence>
+  <IsNotDrafted>{0} не призваний до бою.</IsNotDrafted>
 
   <!-- Snow -->
   <SnowNone>Немає снігу</SnowNone>
@@ -49,6 +57,8 @@
   <GunInstalled>Встановлено</GunInstalled>
   <MinimumRange>Мінімальна дальність</MinimumRange>
   <CanFireIn>Перезарядка ще</CanFireIn>
+  <ShellLoaded>Заряджено</ShellLoaded>
+  <ShellNotLoaded>Не заряджено</ShellNotLoaded>
 
 
   <!-- Job reports -->
@@ -61,8 +71,9 @@
 	<WeaponMissRadius>Розброс вогню</WeaponMissRadius>
   <ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
 	<ShootReportWeapon>Зброя</ShootReportWeapon>
-  <RangeSlashEquipment>MOCK_Reichweite/Ausrüstung</RangeSlashEquipment>
-	<Darkness>Темрява</Darkness>
+  <!-- <RangeSlashEquipment>MOCK_Reichweite/Ausrüstung</RangeSlashEquipment>
+	-->
+  <Darkness>Темрява</Darkness>
 	<TargetProne>Сприйнятливість</TargetProne>
 	<TargetSize>Розмір цілі</TargetSize>
 	<Weather>Погода</Weather>
@@ -91,7 +102,8 @@
   <ThoughtExpiresIn>Зникне за: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Почне зникати за: {0}</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>Закінчиться за: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Поріг нервового зриву</MentalBreakThreshold>
+  <MentalBreakThresholdHard>Критичний поріг зриву</MentalBreakThresholdHard>
+  <MentalBreakThresholdSoft>Поріг стресу</MentalBreakThresholdSoft>
 
 
 
@@ -114,12 +126,6 @@
   <Incapacitated>Виведен з ладу</Incapacitated>
   <InRestraints>У полоні (заарештований)</InRestraints>
   <Carrying>Переносить</Carrying>
-  <SanityDazedWander>Зламаний: приголомшений та блукає</SanityDazedWander>
-  <SanityGiveUpExit>Зламаний: здався та йде геть</SanityGiveUpExit>
-  <SanityPanicFlee>Зламаний: рятується в паніці</SanityPanicFlee>
-  <SanityPsychotic>Зламаний: збожеволів</SanityPsychotic>
-  
-
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Обрати іншу річ на тій самій клітині.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітині знов і знов.</SelectNextInSquareTip>
@@ -139,7 +145,7 @@
 	<!-- Power readout -->
   <PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
   <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} / {1} Вт·д</PowerConnectedRateStored>
-  <PowerConnectedStored>Акумульована енергія: {0} Вт·д</PowerConnectedStored>
+  <!-- <PowerConnectedStored>Акумульована енергія: {0} Вт·д</PowerConnectedStored> -->
 
   <PowerNeeded>Потужність, що споживається</PowerNeeded>
   <PowerOutput>Потужність, що постачається</PowerOutput>
@@ -163,7 +169,7 @@
   <RotStateDessicated>Засохле</RotStateDessicated>
 	
   <!-- Shooting tooltip -->
-  <ShotBy>Постріл {0}</ShotBy>
+  <ShotBy>Постріл {0}_MOCK</ShotBy>
   <CannotHit> не может влучити в ціль.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
 
   <!-- Storage priority labels -->
@@ -185,12 +191,12 @@
   <Ingredients>Інгредієнти</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>{0}% росту</PercentGrowth>
+  <PercentGrowth>Виросло на {0}%</PercentGrowth>
   <Growing>Росте</Growing>
   <NotGrowingNow>Не росте (повинно бути {0}).</NotGrowingNow>
   <NotGrowingNowResting>Не росте (покоїться).</NotGrowingNowResting>
   <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
-  <OutOfIdealTemperatureRange>Поза зоною оптимальної для росту температури (Швидкість росту складає {0}% від нормальної швидкості росту)</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>Неоптимальна температура (росте зі швидкістю {0}% від нормальної)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <Mature>Повністю виросло.</Mature>
@@ -198,6 +204,7 @@
   <OutdoorGrowingPeriod>Сезон роста: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Ніколи</NoGrowingPeriod>
   <GrowYearRound>Увесь рік</GrowYearRound>
+  <GrowSeasonHereNow>Сезон росту.</GrowSeasonHereNow>
   <CannotGrowTooCold>Рост неможливий - занадто холодно.</CannotGrowTooCold>
 
   <!-- Zones -->
@@ -213,6 +220,7 @@
   
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Перемикач підсвічування зон.</ZoneVisibilityToggleButton>
+  <ShowBeautyToggleButton>Перемикач покажчика краси.\n\nПоказує красу середовища, так як її сприймає персонаж, що стоїть там, куди вказує курсор миші.</ShowBeautyToggleButton>
   <AutoHomeRegionToggleButton>Перемикач автоматичного поширення жилої зони навколо нових будівель.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
 
@@ -274,6 +282,14 @@
   <Quality>Якість</Quality>
   <QualityDescription>Якість матеріалу та роботи.</QualityDescription>
   <QualityIs>Якість: {0}</QualityIs> 
+
+  <Mood_Broken>зламаний</Mood_Broken>
+  <Mood_AboutToBreak>на межі</Mood_AboutToBreak>
+  <Mood_OnEdge>нещасний</Mood_OnEdge>
+  <Mood_Stressed>незадовол.</Mood_Stressed>
+  <Mood_Neutral>нормально</Mood_Neutral>
+  <Mood_Content>задоволений</Mood_Content>
+  <Mood_Happy>щасливий</Mood_Happy>
   
   <!-- Game over -->
   <GameOverEveryoneDead>Всі загинули, або пішли геть. Ця пригода закінчилась.\n\nМожливо, хтось зможе знайти застосування цим руїнам.</GameOverEveryoneDead>
