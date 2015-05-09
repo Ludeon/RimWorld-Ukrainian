@@ -1,7 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- ============= голод ============= -->
+<!-- ============= радість ============= -->
+
+  <rep>
+    <path>JoyLevel.stages[0].label</path>
+    <trans>абсолютно нещасний</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[0].description</path>
+    <trans>Я вже не пам'ятаю коли останній раз радів чому-небудь.</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[1].label</path>
+    <trans>дуже нещасний</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[1].description</path>
+    <trans>В мене зовсім немає часу на відпочинок та маленькі радощі</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[2].label</path>
+    <trans>безрадісний</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[2].description</path>
+    <trans>Мені не завадило б відволіктись на щось приємне.</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[3].label</path>
+    <trans>радісний</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[3].description</path>
+    <trans>Я дуже гарно провів час в цьому місці</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[4].label</path>
+    <trans>сяє від радості</trans>
+  </rep>
+  <rep>
+    <path>JoyLevel.stages[4].description</path>
+    <trans>Мені так гарно, що я закоханий в це місце.</trans>
+  </rep>
+
+	<!-- ============= комфорт ============= -->
+
+  <rep>
+    <path>ComfortLevel.stages[0].label</path>
+    <trans>дискомфорт</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[0].description</path>
+    <trans>Хоч би щось м'якеньке посидіти трохи.</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[1].label</path>
+    <trans>комфортно</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[1].description</path>
+    <trans>Я не відчуваю дискомфорту.</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[2].label</path>
+    <trans>дуже комфортно</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[2].description</path>
+    <trans>Мені тут дуже комфортно</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[3].label</path>
+    <trans>надзвичайно комфортно</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[3].description</path>
+    <trans>Мені тут дуже-дуже комфортно. До чого приємна обстановка!</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[4].label</path>
+    <trans>райський комфорт</trans>
+  </rep>
+  <rep>
+    <path>ComfortLevel.stages[4].description</path>
+    <trans>Напевно, на сьомому небі не було б краще</trans>
+  </rep>
+
+    <!-- ============= голод ============= -->
 
   <rep>
     <path>Hungry.stages[0].label</path>
@@ -131,99 +217,6 @@
   <rep>
     <path>EnvironmentSpaciousInterior.stages[0].description</path>
     <trans>Це комфортне й просторне місце.</trans>
-  </rep>
-
-  <rep>
-    <path>EnvironmentDark.stages[0].label</path>
-    <trans>в темряві</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentDark.stages[0].description</path>
-    <trans>Я був в темряві деякий час. Мені це не подобається.</trans>
-  </rep>
-
-  <rep>
-    <path>CabinFever.stages[0].label</path>
-    <trans>клаустрофобія (легка)</trans>
-  </rep>
-  <rep>
-    <path>CabinFever.stages[0].description</path>
-    <trans>Я не був назовні вже декілька днів. Меня потрібно провітритися.</trans>
-  </rep>
-  <rep>
-    <path>CabinFever.stages[1].label</path>
-    <trans>клаустрофобія (серйозна)</trans>
-  </rep>
-  <rep>
-    <path>CabinFever.stages[1].description</path>
-    <trans>Я в пастці, как криса в мишоловці, уже дуже довго. Мені потрібно негайно вийти на вулицю або я збожеволію!</trans>
-  </rep>
-
-  <rep>
-    <path>Sick.stages[0].label</path>
-    <trans>хворий</trans>
-  </rep>
-  <rep>
-    <path>Sick.stages[0].description</path>
-    <trans>Я не дуже добре себе почуваю, я захворів.</trans>
-  </rep>
-
-  <rep>
-    <path>EnvironmentCold.stages[0].label</path>
-    <trans>холодно</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCold.stages[0].description</path>
-    <trans>Я змерз.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCold.stages[1].label</path>
-    <trans>дуже холодно</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCold.stages[1].description</path>
-    <trans>Як же холодно! *Бррр* Весь тремчу й ніяк не зігріюсь.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCold.stages[2].label</path>
-    <trans>холодрига</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCold.stages[2].description</path>
-    <trans>Від морозу зуб на зуб не попадає. Я не відчуваю ні рук ні ніг, здається вони вже синіюсь. Потрібно негайно зігрітися.</trans>
-  </rep>
-  
-  <rep>
-    <path>EnvironmentHot.stages[0].label</path>
-    <trans>жарко</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[0].description</path>
-    <trans>Тут неприємно жарко, я спітнів.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[1].label</path>
-    <trans>дуже жарко</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[1].description</path>
-    <trans>Від жари голова чумна якась. Дуже жарко</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[2].label</path>
-    <trans>спекотно</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[2].description</path>
-    <trans>Тут як у пічці! Я не знаю як довго я витримаю цю спеку.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[3].label</path>
-    <trans>пекло</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentHot.stages[3].description</path>
-    <trans>З мене вже йде пара. А може це дим? Я тут спекусь, як пиріжок</trans>
   </rep>
 
 </LanguageData>

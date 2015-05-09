@@ -1,137 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<!-- ============= голод ============= -->
+	<!-- ============= сподівання ============= -->
 
   <rep>
-    <path>Hungry.stages[0].label</path>
-    <trans>голодний</trans>
+    <path>LowExpectations.stages[0].label</path>
+    <trans>Стримані очікування</trans>
   </rep>
   <rep>
-    <path>Hungry.stages[0].description</path>
-    <trans>Я не їв уже деякий час.</trans>
+    <path>LowExpectations.stages[0].description</path>
+    <trans>Це не дуже багате місце. Марно сподіватися, що мене хтось тут буде балувати.</trans>
   </rep>
   <rep>
-    <path>Hungry.stages[1].label</path>
-    <trans>дуже голодний</trans>
+    <path>LowExpectations.stages[1].label</path>
+    <trans>Низькі очікування</trans>
   </rep>
   <rep>
-    <path>Hungry.stages[1].description</path>
-    <trans>Живіт крутить від голоду. Я маю знайти щось їстівне або помру з голоду.</trans>
+    <path>LowExpectations.stages[1].description</path>
+    <trans>Тут ніхто не може дозволити собі зайвої розкоші. Маю тримати себе в руках.</trans>
   </rep>
   <rep>
-    <path>Hungry.stages[2].label</path>
-    <trans>вмирає з голоду</trans>
+    <path>LowExpectations.stages[2].label</path>
+    <trans>Дуже низькі очікування</trans>
   </rep>
   <rep>
-    <path>Hungry.stages[2].description</path>
-    <trans>Що-небудь, будь ласка, аби з'їсти хоч що-небудь. Я майже відчуваю, як шлунок перетравлює сам себе, як боляче...</trans>
+    <path>LowExpectations.stages[2].description</path>
+    <trans>Це місце смердить біднотою. Годі й сподіватися на який-небудь комфорт тут; Тримаймося!.</trans>
+  </rep>
+  <rep>
+    <path>LowExpectations.stages[3].label</path>
+    <trans>Наднизькі очікування</trans>
+  </rep>
+  <rep>
+    <path>LowExpectations.stages[3].description</path>
+    <trans>Тут ледве можна знайти притулок від стихії. Маю кріпитися - прорвемося!</trans>
   </rep>
 
-	<!-- ============= Втома ============= -->
-
-  <rep>
-    <path>Tired.stages[0].label</path>
-    <trans>втомлений</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[0].description</path>
-    <trans>Я не спав уже деякий час.</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[1].label</path>
-    <trans>дуже втомлений</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[1].description</path>
-    <trans>Я так втомився. Я лише хочу прилягти на пару хвилин...</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[2].label</path>
-    <trans>виснажений</trans>
-  </rep>
-  <rep>
-    <path>Tired.stages[2].description</path>
-    <trans>Я повністю виснажений, ледве тримаюсь на ногах. Мої повіки важкі, як свинец. Будь ласка дайте відпочити...</trans>
-  </rep>
 
 	<!-- ============= оточення ============= -->
-
-  <rep>
-    <path>EnvironmentUgly.stages[0].label</path>
-    <trans>бридке місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[0].description</path>
-    <trans>Це неприємне міце.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[1].label</path>
-    <trans>жахливе місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[1].description</path>
-    <trans>Це місце дійсно неприємне. Я не хочу тут лишатися.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[2].label</path>
-    <trans>огидне місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentUgly.stages[2].description</path>
-    <trans>Це місце абсолютно нестерпне. Я хочу піти звідси...</trans>
-  </rep>
-	
-  <rep>
-    <path>EnvironmentPretty.stages[0].label</path>
-    <trans>приємне місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[0].description</path>
-    <trans>Це місце приємне.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[1].label</path>
-    <trans>красиве місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[1].description</path>
-    <trans>Мені дуже тут подобається. Тут красиво.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[2].label</path>
-    <trans>чудове місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentPretty.stages[2].description</path>
-    <trans>Це місце неперевершено. Воно надає мені сил і моє життя починає мені подобатися.</trans>
-  </rep>
-
-  <rep>
-    <path>EnvironmentCramped.stages[0].label</path>
-    <trans>замкнуте приміщення</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[0].description</path>
-    <trans>Це маленька кімната. Мне здається, що тут важко дихати.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[1].label</path>
-    <trans>дуже тісне місце</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentCramped.stages[1].description</path>
-    <trans>Я тут як бумщур у клітці. Майже нікуди рухатися, так і до клаустрофобії недалеко.</trans>
-  </rep>
-  
-  <rep>
-    <path>EnvironmentSpaciousInterior.stages[0].label</path>
-    <trans>просторний інтер'єр.</trans>
-  </rep>
-  <rep>
-    <path>EnvironmentSpaciousInterior.stages[0].description</path>
-    <trans>Це комфортне й просторне місце.</trans>
-  </rep>
 
   <rep>
     <path>EnvironmentDark.stages[0].label</path>
@@ -157,6 +63,23 @@
   <rep>
     <path>CabinFever.stages[1].description</path>
     <trans>Я в пастці, как криса в мишоловці, уже дуже довго. Мені потрібно негайно вийти на вулицю або я збожеволію!</trans>
+  </rep>
+
+  <rep>
+    <path>ApparelDamaged.stages[0].label</path>
+    <trans>поношений одяг</trans>
+  </rep>
+  <rep>
+    <path>ApparelDamaged.stages[0].description</path>
+    <trans>Мій одяг місцями продірявився. Невже в нас немає нічого кращого?</trans>
+  </rep>
+  <rep>
+    <path>ApparelDamaged.stages[1].label</path>
+    <trans>затасканий одяг</trans>
+  </rep>
+  <rep>
+    <path>ApparelDamaged.stages[1].description</path>
+    <trans>Це не одяг, а сором якийсь. Невже в нас немає нічого кращого за ці ганчірки?</trans>
   </rep>
 
   <rep>
