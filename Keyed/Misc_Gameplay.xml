@@ -24,9 +24,9 @@
   <DevelopedImmunityLower>має імунінет</DevelopedImmunityLower>
   <!--  <RecoveringDiseaseLower>востановлення</RecoveringDiseaseLower> -->
   <InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
-  <NextTreatmentAfter>Наступний сеанс лікування за {0} днів</NextTreatmentAfter>
+  <NextTreatmentIn>MOCK_Наступний сеанс лікування за {0}</NextTreatmentIn>
   <MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
-  <ImmunityDevelopmentProgress>вироблення імунітету</ImmunityDevelopmentProgress>
+  <Immunity>Імунітет</Immunity>
   <Race>Раса</Race>
   <Description>Докладний опис</Description>
   <Equipment>Спорядження</Equipment>
@@ -39,6 +39,9 @@
   <On>Ввімк.</On>
   <Off>Вимк.</Off>
   <PowerSwitch_Power>Живлення</PowerSwitch_Power>
+  <AreaLower>зона</AreaLower>
+  <JoyTolerances>Наскучило</JoyTolerances>
+  <BrokenLetterLabel>Зламаний</BrokenLetterLabel>
 
   <!-- Control -->
   <CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним одиницям_MOCK.</CannotOrderNonControlled>
@@ -84,19 +87,6 @@
   <!-- Generated recipes -->
   <RecipeMake>Зробити {0}</RecipeMake>
   <RecipeMakeJobString>Робить {0}.</RecipeMakeJobString>
-	
-	
-	<!-- Status levels -->
-  <Mood>Настрій</Mood>
-  <MoodTip>Настрій залежить від виконання фізичних та психологічних потреб.\n\nЯкщо чийсь настрій стає занадто поганим, вони можуть почати страждати від нервових зривів.</MoodTip>
-  <Food>Ситість</Food>
-  <FoodTip>Показує наскільки колоніст задоволен харчуванням.\n\nПоказник обновлюється після кожного прийому їжі й зменшується з часом. Коли показник дорівнює нулю, персонаж отримує урон від голодування.</FoodTip>
-  <Rest>Рівень сил</Rest>
-  <RestTip>Рівень сил показує якість та кількість сну, отримуємого колоністом.\n\nПоказник досягає максимуму, коли персонаж спить у ліжку. Коли не в ліжку, - зменшується з часом.</RestTip>
-  <Environment>Оточення</Environment>
-  <EnvironmentTip>Оточення показує наскільки приємна персонажу обстановка.\n\nПоказник високий, коли люди знаходяться в просторних кімнатах з красивим оздобленням. Коли оточення огидне, - низький.</EnvironmentTip>
-  <Openness>Просторість</Openness>
-
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Зникне за: {0}</ThoughtExpiresIn>
@@ -115,7 +105,7 @@
 -->
 
   <!-- Pawn info readout -->
-  <Health>Здоров'я</Health>
+  <hitPoints>Здоров'я</hitPoints>
   <PawnMainDescWithFactionGendered>{0} {1} з {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>{0} з {1}</PawnMainDescWithFactionGenderless>
@@ -192,10 +182,11 @@
 
   <!-- Plants -->
   <PercentGrowth>Виросло на {0}.</PercentGrowth>
-  <Growing>Росте</Growing>
-  <NotGrowingNow>Не росте (повинно бути {0}).</NotGrowingNow>
-  <NotGrowingNowResting>Не росте (покоїться).</NotGrowingNowResting>
+  <GrowthRate>Швидкість росту</GrowthRate>
+    <PlantResting>Не росте (покоїться).</PlantResting>
   <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
+  <PlantNeedsLightLevel>Потрібний рівень світла</PlantNeedsLightLevel>
+  <!-- <NotGrowingNow>Не росте (повинно бути {0}).</NotGrowingNow> -->
   <OutOfIdealTemperatureRange>Неоптимальна температура (швидк. росту {0}%)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
@@ -214,6 +205,11 @@
   <DumpingStockpile>звалище</DumpingStockpile>
   <Priority>пріоритет</Priority>
   <ClearAll>скинути</ClearAll>
+
+  <!-- ThingFilter -->
+  <HitPoints>MOCK_здоров‘я {0}</HitPoints>
+  <AnyQuality>будь яка якість</AnyQuality>
+  <OnlyQuality>лише {0}</OnlyQuality>
   
   <!-- Mouseover indicator -->
   <Undiscovered>Не розвідано</Undiscovered>
@@ -246,6 +242,8 @@
   <MustPlaceNextToHopperAccepter>Повинен бути розміщений поряд з автоматом поживної пасти.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзеру.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Має бути відкритим з обох сторон</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>Має бути відкритим щоб пропускати повітря.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceAdjacentStandable>Має будти доступним з усіх сторон.</MustPlaceAdjacentStandable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
@@ -259,7 +257,7 @@
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Запуск неможливий.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Готов до зльоту.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Невистачає критично важливих модулів.</ShipReportMissingPart>
+  <ShipReportMissingPart>Невистачає критично важливих модулів</ShipReportMissingPart>
   <ShipReportNoFullPods>Немає заповнених капсул крипто сну.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
@@ -296,6 +294,15 @@
   <GameOverShipLaunched>Ви запустили корабель! Ці колоністи врятувались:\n\n{0}\nЦі колоністи лишились позаду:\n\n{1}\nШІ вашого кораблю спробує направити корабель у безпечне місце. Він може перевезти вас на кращу планету в цій самій системі. Або може виконати багатовічну мандрівку до іншої зірки. Або навіть сховатися під кригою на астероїді на декілька тисячоліть, очікуючи кращого історичного моменту.\n\nВи дізнаєтесь про це коли прокинетесь.</GameOverShipLaunched>
   <GameOverKeepPlaying>Продовжити гру</GameOverKeepPlaying>
   <GameOverMainMenu>Головне меню</GameOverMainMenu>
-  
+
+  <!-- Generic lifespan -->
+  <LifespanExpiry>Зіпсується за:</LifespanExpiry>
+
+  <!-- JobDriver reports -->
+  <WatchingSunrise>Дивиться на схід Сонця</WatchingSunrise>
+  <CloudWatching>Дивиться на хмари</CloudWatching>
+  <WatchingSunset>Дивиться на захід Сонця</WatchingSunset>
+  <Stargazing>Рахує зорі</Stargazing>
+  <WatchingEclipse>Дивиться на сонячне затемнення</WatchingEclipse>  
   
 </LanguageData>
