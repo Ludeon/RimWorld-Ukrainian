@@ -9,7 +9,7 @@
   <SaveGameButton>Зберегти</SaveGameButton>
   <OverwriteButton>Перезаписати</OverwriteButton>
   <LoadGameButton>Загрузити</LoadGameButton>
-  <ConfirmDelete>Дійсно видалити {0}?</ConfirmDelete>
+  <ConfirmDelete>Ви впевнені, що бажаєте видалити {0}?</ConfirmDelete>
   <DeleteThisSavegame>Видалити цей запис.</DeleteThisSavegame>
   <SavedAs>Збережено як {0}.</SavedAs>
   <NeedAName>Будь ласка, введіть ім'я.</NeedAName>
@@ -28,9 +28,11 @@
   <PawnGainsName>Прізвисько колоніста тепер {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>Неспівпадання версій: карта була збережена в версії {0}, зараз ви використовуєте версію {1}.\n\n Загрузка запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Неспівпадання запису</SaveGameIncompatibleWarningTitle>
-  
+  <VersionMismatch>Неспівпадіння версії</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Неспівпадіння версій: карта була збережена в версії {0}, зараз ви використовуєте версію {1}.\n\n Загрузка запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗагрузка цього світу дуже можливо призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново з нуля.</WorldFileVersionMismatch>  
+
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Ви змінили роздільну здатність екрану. Зберегти зміни?\n\nАвтоматичне повернення після {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Зберегти</ResolutionKeep>
@@ -51,7 +53,8 @@
   <MapTemperatureDangerWarning>УВАГА: Ви обрали зимовий сезон. Може статися, що буде дуже складно, навіть неможливо пережити цей період. Якщо ви не шукаєте додаткових викликів, будь ласка, оберіть іншу локацію або місяць.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слаба комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався й майже напевно призведе до проблем продуктивності.</MapSizePerformanceWarning>
   <MapSize>Розмір мапи</MapSize>
-  <MapSizeDesc>{0}x{0} ({1} квадратів)</MapSizeDesc>
+  <!--<MapSizeDesc>{0}x{0} ({1} квадратів)</MapSizeDesc> -->
+  <MapSizeDesc>{0}x{0} ({1} клітин)</MapSizeDesc>
   <MapSizeSmall>Маленька</MapSizeSmall>
   <MapSizeMedium>Середня</MapSizeMedium>
   <MapSizeLarge>Велика</MapSizeLarge>
@@ -65,15 +68,19 @@
   <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
   <RepeatCount>Виконати: {0}</RepeatCount>
   <Forever>До ∞</Forever>
-  <IngredientSearchRadius>Радіус пошука інгредієнтів</IngredientSearchRadius>
-  <TargetCount>Робити до: {0}</TargetCount>
+  <Details>Деталі</Details>
+  <IngredientSearchRadius>Радіус пошуку інгр-тів</IngredientSearchRadius>
+  <CurrentlyHave>Наразі є</CurrentlyHave>
+  <CountingProducts>Рахування_MOCK</CountingProducts>
   <Infinite>Необмежено</Infinite>
+  <MinimumSkillLevel>Мін. нав. - {0}</MinimumSkillLevel>
+
   <RecipeCannotHaveTargetCount>(Це завдання неможливо повторювати, оскільки результат може бути різним.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Дозволені інгредієнти</PermittedIngredients>
   <WorkAmount>Кількість роботи</WorkAmount>
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
   <BillRequires>Потрібно {0} {1}</BillRequires>
   <BillRequiresMayVary>(Величини можуть відрізнятись для елементів з нестандартним об'ємом, наприклад, золота.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Цей інгредієнт не щільний. Тому кожна одиниця враховується як 20:1, порівняно з інгредієнтами з нормальною щільністю. Через це, витрати на такий же самий об'єм виробництва становитимуть в 20 разів більше ніж зазвичай.</ThisIsSmallVolume>
   <UsableIngredients>корисні інгредієнти</UsableIngredients>
   <DoXTimes>Зробити X разів</DoXTimes>
   <DoUntilYouHaveX>Повторювати до X</DoUntilYouHaveX>
@@ -103,16 +110,17 @@
   <Harvestable>Їстівне</Harvestable>
   <LimitedLifespan>Недовговічне</LimitedLifespan>
   <GrowingTime>Час дозрівання</GrowingTime>
+  <GrowingTimeDesc>Рослини ростуть лише протягом світлої частини доби. Ця величина показує скільки часу потрібно, щоб рослина вирісла до повноцінного розміру. Насправді, може так статися, що час дозрівання буде вдвічи довшим через освітлення. Низькі температури також перешкоджують нормальному росту рослин.</GrowingTimeDesc>
   <Days>днів</Days>
   <FertilityRequirement>Вимоги до грунту</FertilityRequirement>
   <LightRequirement>Вимоги до світла</LightRequirement>
   <Attributes>Атрибути</Attributes>
   <LifeSpan>Рост</LifeSpan>
   <Nutrition>Поживність</Nutrition>
+  <Joy>Розваги_MOCK</Joy>
   <FoodQuality>Тип їжі</FoodQuality>
   <WalkSpeedProperty>Швидкість бігу</WalkSpeedProperty>
-  <MeleeDamage>Урон врукопашну</MeleeDamage>
-  <MeatAmount>М'ясо</MeatAmount>
+  <ButcherYield>Видобуток м'ясника</ButcherYield>
   <MinFoodQuality>Мін. тип їжі</MinFoodQuality>
   <Diet>Харчування</Diet>
   <RecruitDifficulty>Складність вербовки</RecruitDifficulty>
@@ -137,6 +145,8 @@
   <TraderHasNoMore>Торговець більше не має.</TraderHasNoMore>
   <ColonyHasNoMore>Для продажу більше немає.</ColonyHasNoMore>
   <TraderWillNotTrade>Торговець не бажає торговати цим.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Цей персонаж {0} не може нормально спілкуватися, через стан здоров'я.\n\nЦе негативно вплине на ціни.\n\nОберіть кого-небудь більш здорового для перемовин.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>У торговця недостатньо грошей, щоб повністю сплатити за товар. Згодні на цю суму?</ConfirmTraderShortFunds>
 
   <!-- Comms -->
   <SocialSkillIs>Соціальна навичка: {0}</SocialSkillIs>
@@ -153,4 +163,12 @@
   <HistoryUploadYesOnce>Загрузити лише цього разу</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Цього разу не загружати, спитати пізніше</HistoryUploadNoOnce>
   
+  <!-- Outfit management -->
+  <Outfit>Набір</Outfit>
+  <SelectOutfit>Оберіть набір...</SelectOutfit>
+  <NewOutfit>Новий набір</NewOutfit>
+  <DeleteOutfit>Видалити набір...</DeleteOutfit>
+  <OutfitInUse>Цей набір носить {0}.</OutfitInUse>
+  <NoOutfitSelected>Набір не обрано</NoOutfitSelected>
+
 </LanguageData>
