@@ -2,12 +2,15 @@
 <LanguageData>
 
   <CommandForbiddenDesc>Заборонено - колоністи не будуть це використовувати.</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>Дозволено - колоністи могуть використовувати це.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>Дозволено - колоністи можуть використовувати це.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>Вимикач</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Вмикання й вимикання електроживлення.</CommandTogglePowerDesc>
 
+  <CommandDesignateTogglePowerLabel>Перемикання живлення</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Наказати перемикнути живлення. Колоніст з відповідною роботою прийде і перемкне вимикач.</CommandDesignateTogglePowerDesc>
+  
   <CommandTryReconnectLabel>Перепідключити</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Спробувати перепідключитися до іншого джерела електроенергії в межах можливого підключення. Це зручно для перемикання між мережами без\з генератором.</CommandTryReconnectDesc>
 
@@ -21,7 +24,7 @@
   <CommandDraftLabel>До бою!</CommandDraftLabel>
   <CommandUndraftLabel>Розпуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключення в бойовий режим.\n\nВ Цьому режимі колоністи отримують накази та б'ються. Вони не будуть працювати, їсти або відпочивати.</CommandToggleDraftDesc>
-  <IsIncapped>{0} виведен з ладу.</IsIncapped>
+  <IsIncapped>{0} виведений з ладу.</IsIncapped>
 
   
   <CommandCancelConstructionLabel>Скасувати</CommandCancelConstructionLabel>
@@ -49,7 +52,7 @@
   
   
   <CommandDetonateDesc>Почати зворотній відлік до детонації.</CommandDetonateDesc>
-  <CommandDetonateLabel>Підірвать</CommandDetonateLabel>
+  <CommandDetonateLabel>Підірвати</CommandDetonateLabel>
 
   <CommandRenameZoneDesc>Перейменувати зону.</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>Змінити назву</CommandRenameZoneLabel>
@@ -65,8 +68,8 @@
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Обрати ціль обстрілу</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Встановлює ціль, яку ця турель буде атакувати безперервно до тих пір, доки це буде можливо.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Припнити вогонь</CommandStopForceAttack>
-  <CommandStopForceAttackDesc>Припиняє обстріл й дозволяє турелі стреляти в автоматичному режимі.</CommandStopForceAttackDesc>
+  <CommandStopForceAttack>Припинити вогонь</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Припиняє обстріл й дозволяє турелі стріляти в автоматичному режимі.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Зараз неможливо зупинити обстріл.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>Ціль занадто далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Ціль занадто близько.</MessageTargetBelowMinimumRange>
@@ -98,4 +101,14 @@
   <CommandInstall>Встановити</CommandInstall>
   <CommandInstallDesc>Цей предмет наразі запакований для транспортування та зберігання. Розмістіть його у остаточному місці щоб відкрити обзор або дозволити ним користуватися.</CommandInstallDesc>
 
+    <!-- Trade beacon -->
+  <CommandMakeBeaconStockpileDesc>Створює в зоні діяльності маяка склад.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileLabel>Розмітити склад</CommandMakeBeaconStockpileLabel>
+  
+  
+  <!-- Sun lamp -->
+  <CommandSunLampMakeGrowingZoneDesc>Створює ділянку навколо лампи</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneLabel>Розмітити ділянку</CommandSunLampMakeGrowingZoneLabel>
+
+  
 </LanguageData>
