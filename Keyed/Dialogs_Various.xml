@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+
+
   <Confirm>Підтвердити</Confirm>
   <GoBack>Назад</GoBack>
   <OK>OK</OK>
@@ -8,30 +10,36 @@
   <!-- Save/load -->
   <SaveGameButton>Зберегти</SaveGameButton>
   <OverwriteButton>Перезаписати</OverwriteButton>
-  <LoadGameButton>Загрузити</LoadGameButton>
+  <LoadGameButton>Завантажити</LoadGameButton>
   <ConfirmDelete>Ви впевнені, що бажаєте видалити {0}?</ConfirmDelete>
   <DeleteThisSavegame>Видалити цей запис.</DeleteThisSavegame>
   <SavedAs>Збережено як {0}.</SavedAs>
   <NeedAName>Будь ласка, введіть ім'я.</NeedAName>
-  <LoadingLongEvent>Загрузка...</LoadingLongEvent>
+  <LoadingLongEvent>Завантаження...</LoadingLongEvent>
+  <SaveIsFromDifferentGameVersion>Ви користуєтеся версією гри {0}, але збережені дані належать версії {1}, яка суттєво відрізняється від вашої.\n\nМоже не вдатися завантажити це збереження.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Ви користуєтеся версією гри {0} але збережені дані від {1} - іншої збірки гри.\n\nМоже не вдатися завантажити це збереження.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Збереження зроблене на вашій версії гри і повинне працювати в будь-якому разі.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Дані збережено у невідомому форматі чи пошкоджено. Найімовірніше ви не зможете їх завантажити.</SaveIsUnknownFormat>
   
   <!-- Colony naming-->
   <NameColonyMessage>Всі знають, що ніхто не хоче застрягти в цій дірі надовго, але {0} всеж таки пропонує дати назву колонії.\n\nЯк назвемо?</NameColonyMessage>
   <ColonyGainsName>Тепер колонія відома під назвою {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Це им'я колонії неприпустиме.</ColonyNameIsInvalid>
 
-  <!-- Zone naming -->
+  <!-- Renaming -->
+  <NameIsInvalid>Будь ласка, введіть припустиму назву для зони.</NameIsInvalid>
+  <NameIsInUse>Ця назва вже використовується.</NameIsInUse>
   <ZoneGainsName>Тепер ця зона називається {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Будь ласка, введіть припустиму назву для зони.</ZoneNameIsInvalid>
   
   <!-- Pawn naming -->
   <PawnGainsName>Прізвисько колоніста тепер {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <VersionMismatch>Неспівпадіння версії</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Неспівпадіння версій: карта була збережена в версії {0}, зараз ви використовуєте версію {1}.\n\n Загрузка запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗагрузка цього світу дуже можливо призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново з нуля.</WorldFileVersionMismatch>  
-
+  <VersionMismatch>Версії не збігаються</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Версії не збігаються: карта була збережена у версії {0}, зараз ви використовуєте версію {1}.\n\nЗавантаження запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗавантаження цього світу, найімовірніше, призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново.</WorldFileVersionMismatch>  
+  <ModsMismatchWarningTitle>Моди не збігаються</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Версії не збігаються: карта була збережена з іншим набором модів ніж використовуються зараз. Це може не викликати проблема, в залежності від функцій, які виконують ці моди.\n\nКарта була збережена з використанням (у такому порядку):\n\n{0}\n\nВи користуєтеся:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Ви змінили роздільну здатність екрану. Зберегти зміни?\n\nАвтоматичне повернення після {0}...</ConfirmResolutionChange>
@@ -47,14 +55,14 @@
   <Unresearched>Не вивчено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>У процесі</InProgress>
-  <ResearchMenuWithoutBench>Доки ви не зробите дослідницький стіл, ваші колоністи не зможуть виконувати дослідження.\n\nПроте, ви все одно можете подивитися й обрати дослідницький проект прям зараз.</ResearchMenuWithoutBench>
-    
+  <ResearchMenuWithoutBench>Доки ви не зробите дослідницький стіл, ваші колоністи не зможуть виконувати дослідження.\n\nПроте, ви однак можете подивитися й обрати дослідницький проект прямо зараз.</ResearchMenuWithoutBench>
+   
+   
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>УВАГА: Ви обрали зимовий сезон. Може статися, що буде дуже складно, навіть неможливо пережити цей період. Якщо ви не шукаєте додаткових викликів, будь ласка, оберіть іншу локацію або місяць.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слаба комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався й майже напевно призведе до проблем продуктивності.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слаба комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався і, майже напевно, призведе до проблем продуктивності.</MapSizePerformanceWarning>
   <MapSize>Розмір мапи</MapSize>
-  <!--<MapSizeDesc>{0}x{0} ({1} квадратів)</MapSizeDesc> -->
-  <MapSizeDesc>{0}x{0} ({1} клітин)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} кліток)</MapSizeDesc>
   <MapSizeSmall>Маленька</MapSizeSmall>
   <MapSizeMedium>Середня</MapSizeMedium>
   <MapSizeLarge>Велика</MapSizeLarge>
@@ -62,6 +70,7 @@
   <MapStartMonth>Стартовий місяць</MapStartMonth>
   <MapStartMonthDefault>Авто.</MapStartMonthDefault>
 
+  
   <!-- Bill config -->
   <Suspended>Продовжити</Suspended>
   <NotSuspended>Призупинити</NotSuspended>
@@ -80,29 +89,22 @@
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
   <BillRequires>Потрібно {0} {1}</BillRequires>
   <BillRequiresMayVary>(Величини можуть відрізнятись для елементів з нестандартним об'ємом, наприклад, золота.)</BillRequiresMayVary>
-  <ThisIsSmallVolume>Цей інгредієнт не щільний. Тому кожна одиниця враховується як 20:1, порівняно з інгредієнтами з нормальною щільністю. Через це, витрати на такий же самий об'єм виробництва становитимуть в 20 разів більше ніж зазвичай.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Цей інгредієнт займає невеликий об'єм. Тому кожна одиниця враховується як 20:1, порівняно з інгредієнтами з нормальним об'ємом. Через це, витрати на такий же самий обсяг виробництва становитимуть в 20 разів більше ніж зазвичай.</ThisIsSmallVolume>
   <UsableIngredients>корисні інгредієнти</UsableIngredients>
   <DoXTimes>Зробити X разів</DoXTimes>
   <DoUntilYouHaveX>Повторювати до X</DoUntilYouHaveX>
   <DoForever>Необмежено</DoForever>
   <BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Покласти на підлогу</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>До складу найв. приорітету</BillStoreMode_BestStockpile>
+  <BillStoreMode_BestStockpile>До складу найв. пріоритету</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>До найближчого складу</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Def Card -->
- <!-- <Type>Тип</Type>
-  <GunType>Зброя</GunType>
-  <PlantType>Рослина</PlantType>
-  <FoodType>Їжа</FoodType>
-  <HumanType>Людина</HumanType>
-  <AnimalType>Тварина</AnimalType>
-  <MechanoidType>Механоїд</MechanoidType> -->
-  
+  <!-- Info card -->
   <Damage>Пошкодження</Damage>
   <Accuracy>Точність</Accuracy>
   <BurstShotCount>Пострілів</BurstShotCount>
   <WarmupTime>Підготовка</WarmupTime>
+  <MeleeWarmupTime>Підготовка</MeleeWarmupTime>
   <CooldownTime>Перезарядка</CooldownTime>
   <BurstShotFireRate>Скорострільність</BurstShotFireRate>
   <Range>Дальність</Range>
@@ -110,7 +112,7 @@
   <Harvestable>Їстівне</Harvestable>
   <LimitedLifespan>Недовговічне</LimitedLifespan>
   <GrowingTime>Час дозрівання</GrowingTime>
-  <GrowingTimeDesc>Рослини ростуть лише протягом світлої частини доби. Ця величина показує скільки часу потрібно, щоб рослина вирісла до повноцінного розміру. Насправді, може так статися, що час дозрівання буде вдвічи довшим через освітлення. Низькі температури також перешкоджують нормальному росту рослин.</GrowingTimeDesc>
+  <GrowingTimeDesc>Рослини ростуть лише протягом світлої частини доби. Ця величина показує скільки часу потрібно, щоб рослина виросла до повноцінного розміру. Насправді, може так статися, що час дозрівання буде вдвічі довшим через освітлення. Низькі температури також перешкоджають нормальному росту рослин.</GrowingTimeDesc>
   <Days>днів</Days>
   <FertilityRequirement>Вимоги до грунту</FertilityRequirement>
   <LightRequirement>Вимоги до світла</LightRequirement>
@@ -123,7 +125,7 @@
   <ButcherYield>Видобуток м'ясника</ButcherYield>
   <MinFoodQuality>Мін. тип їжі</MinFoodQuality>
   <Diet>Харчування</Diet>
-  <RecruitDifficulty>Складність вербовки</RecruitDifficulty>
+  <RecruitDifficulty>Складність вербування</RecruitDifficulty>
   <MarketValue>Базова ціна</MarketValue>
   <Covers>Покриває</Covers>
   <BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
@@ -138,30 +140,28 @@
   <AcceptButton>Згода</AcceptButton>
   <ResetButton>Скинути</ResetButton>
   <CancelButton>Скасувати</CancelButton>
-
-  <YourTradeableSilver>Срібла для торговлі: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Ви можете торговати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
-
+  <YourTradeableSilver>Срібла для торгівлі: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>Ви можете торгувати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
   <TraderHasNoMore>Торговець більше не має.</TraderHasNoMore>
   <ColonyHasNoMore>Для продажу більше немає.</ColonyHasNoMore>
-  <TraderWillNotTrade>Торговець не бажає торговати цим.</TraderWillNotTrade>
+  <TraderWillNotTrade>Торговець не бажає торгувати цим.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Цей персонаж {0} не може нормально спілкуватися, через стан здоров'я.\n\nЦе негативно вплине на ціни.\n\nОберіть кого-небудь більш здорового для перемовин.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>У торговця недостатньо грошей, щоб повністю сплатити за товар. Згодні на цю суму?</ConfirmTraderShortFunds>
 
   <!-- Comms -->
-  <SocialSkillIs>Соціальна навичка: {0}</SocialSkillIs>
+  <SocialSkillIs>Соціальні навички: {0}</SocialSkillIs>
 
   <!--Research-->
   <ResearchFinished>Виконано дослідження: {0}</ResearchFinished>
   <ResearchScreen>Екран досліджень</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Чи згодні ви загрузити свої ігрові записи на сервер RimWorld для того, щоб допомогти розробникам краще збалансувати гру? Якщо так, ваші записи будуть загружатися кажні {0} днів (також у окремих випадках, наприклад, в кінці гри). Установки приватності можна змінити пізніше в меню налаштувань.</HistoryUploadMessage>
+  <HistoryUploadMessage>Чи згодні ви завантажити свої ігрові записи на сервер RimWorld для того, щоб допомогти розробникам краще збалансувати гру? Якщо так, ваші записи будуть завантажуватися кожні {0} днів (також у окремих випадках, наприклад, в кінці гри). Налаштування приватності можна змінити пізніше в меню налаштувань.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Незважаючи на те, що записи анонімні, ви можете залишити своє ім'я.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Дозволити загрузку ігрових даних</HistoryUploadYes>
-  <HistoryUploadNo>Не дозволяти загрузку ігрових даних</HistoryUploadNo>
-  <HistoryUploadYesOnce>Загрузити лише цього разу</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>Цього разу не загружати, спитати пізніше</HistoryUploadNoOnce>
+  <HistoryUploadYes>Дозволити завантаження ігрових даних</HistoryUploadYes>
+  <HistoryUploadNo>Не дозволяти завантаження ігрових даних</HistoryUploadNo>
+  <HistoryUploadYesOnce>Завантажити лише цього разу</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Цього разу не завантажувати, спитати пізніше</HistoryUploadNoOnce>
   
   <!-- Outfit management -->
   <Outfit>Набір</Outfit>

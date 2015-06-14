@@ -4,7 +4,8 @@
 
   
   <CallOnRadio>Зв'язатися з {0}</CallOnRadio>
-  <CannotUseSolarFlare>Неможливо використовувати (сонечний спалах)</CannotUseSolarFlare>
+  <CannotUseReason>Неможливо використовувати ({0})</CannotUseReason>
+  <CannotUseSolarFlare>Неможливо використовувати (сонячний спалах)</CannotUseSolarFlare>
   <CannotUseNoPower>Неможливо використовувати (немає енергії)</CannotUseNoPower>
   <CannotUseNoPath>Неможливо використовувати (немає проходу)</CannotUseNoPath>
   <CannotUseReserved>Неможливо використовувати (зайнято)</CannotUseReserved>
@@ -19,29 +20,30 @@
   <OrderManThing>Зайняти {0}</OrderManThing>
   
   <MeleeAttack>Битися з {0}</MeleeAttack>
-  <MeleeAttackToDeath>Добити {0} врукопашну</MeleeAttackToDeath>
+  <MeleeAttackToDeath>Добити {0} врукопаш</MeleeAttackToDeath>
   <NoPath>немає проходу</NoPath>
 
 	<ForbiddenLower>заборонено</ForbiddenLower>
-	<SociallyImproperLower>соціально неадаптован</SociallyImproperLower>
+	<SociallyImproperLower>соціально неадаптований</SociallyImproperLower>
 	<PrisonerRoomLower>приміщення в'язниці</PrisonerRoomLower>
 	<BurningLower>горить</BurningLower>
-	<NoEmptyPlaceLower>немає вільного місця, налаштованного для збереження цього</NoEmptyPlaceLower>
+	<NoEmptyPlaceLower>немає вільного місця, налаштованого для збереження цього</NoEmptyPlaceLower>
 	<AlreadyFilledLower>вже повний</AlreadyFilledLower>
 	<MissingMaterials>нестача матеріалів</MissingMaterials>
+	<MissingSkill>навички надто низькі</MissingSkill>
 
 
   <ConsumeThing>Спожити {0}</ConsumeThing>
   	
 	
   <CannotGoNoPath>Неможливо пройти сюди (немає проходу)</CannotGoNoPath>
-  <GoHere>Идти сюди</GoHere>
+  <GoHere>Йти сюди</GoHere>
   
   <Arrest>Заарештувати {0}</Arrest>
+  <TryToArrest>Спробувати арештувати {0}</TryToArrest>
   <CannotArrest>Неможливо арештувати</CannotArrest>
 
   <Capture>Захопити {0}</Capture>
-  <TryToArrest>Спробувати захопити {0}</TryToArrest>
   <CannotCapture>Неможливо захопити</CannotCapture>
 
   <Rescue>Врятувати {0}</Rescue>
@@ -51,14 +53,14 @@
   <CannotCarryToCryptosleepCasket>Неможливо перенести до капсули крипто сну</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>Немає вільних капсул крипто сну.</NoCryptosleepCasket>
-
-  <NoPrisonerBed>Нет вільних ліжок для в'язнів.</NoPrisonerBed>
-  <NoNonPrisonerBed>Нет вільних ліжок для колоністів.</NoNonPrisonerBed>
+  <NoPrisonerBed>Немає вільних ліжок для в'язнів.</NoPrisonerBed>
+  <NoNonPrisonerBed>Немає вільних ліжок для колоністів.</NoNonPrisonerBed>
   <Reserved>Зайнято кимось іншим.</Reserved>
   <ReservedBy>Зайнято {0}.</ReservedBy>
   <IsReservedBy>{0} зайнято {1}.</IsReservedBy>
 
   <Incapable>нездатний</Incapable>
+  <IncapableOfCapacity>не в змозі {0}</IncapableOfCapacity>
 
   <Equip>Спорядити {0}</Equip>
   <EquipWarningBrawler>(забіяка буде незадоволений)</EquipWarningBrawler>
@@ -73,7 +75,7 @@
   <Deposit>Покласти {0} до {1}</Deposit>
   <CannotDeposit>Неможливо покласти {0} до {1}</CannotDeposit>
 
-  <SelfDestructHere>Само-знищити тут</SelfDestructHere>
+  <SelfDestructHere>Самознищитися тут</SelfDestructHere>
 
   <Drop>Кинути {0}</Drop>
   
@@ -84,6 +86,7 @@
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Увійти в капсулу крипто сну</EnterCryptosleepCasket>
   <OpenCryptosleepCasket>Відкрити капсулу</OpenCryptosleepCasket>
+  
   
   
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
@@ -100,6 +103,7 @@
 
   <CannotPrioritizeForbidden>Зараз немає можливості ({0} заборонено)</CannotPrioritizeForbidden>
 
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Негайно {0} {1}</PrioritizeGeneric>
   
