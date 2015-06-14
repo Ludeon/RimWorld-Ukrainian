@@ -22,9 +22,8 @@
   <FreshMissingBodyPart>свіже</FreshMissingBodyPart>
   <UntreatedLower>потребує лікування</UntreatedLower>
   <DevelopedImmunityLower>має імунітет</DevelopedImmunityLower>
-  <!--  <RecoveringDiseaseLower>відновлення</RecoveringDiseaseLower> -->
   <InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
-  <NextTreatmentIn>MOCK_Наступний сеанс лікування за {0}</NextTreatmentIn>
+  <NextTreatmentIn>Наступний сеанс лікування за {0}</NextTreatmentIn>
   <MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
   <Immunity>Імунітет</Immunity>
   <Race>Раса</Race>
@@ -34,17 +33,21 @@
   <Inventory>Інвентар</Inventory>
   <ThingInfo>Інформація</ThingInfo>
   <DropThing>Викинути</DropThing>
-  <RenameColonist>Перейменувати</RenameColonist>
+  <Rename>Перейменувати</Rename>
+  <RenameColonist>Перейменувати колоніста</RenameColonist>
   <UnknownLower>невідомо</UnknownLower>
   <On>Увімк.</On>
   <Off>Вимк.</Off>
   <PowerSwitch_Power>Живлення</PowerSwitch_Power>
-  <AreaLower>зона</AreaLower>
   <JoyTolerances>Наскучило</JoyTolerances>
   <BrokenLetterLabel>Зламаний</BrokenLetterLabel>
+  <AreaDefaultLabel>Зона {0}</AreaDefaultLabel>
+  <NoAreaAllowed>Необмежений</NoAreaAllowed>
+  <NewArea>Нова зона</NewArea>
+  <InvertArea>Інвертувати</InvertArea>
 
   <!-- Control -->
-  <CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним одиницям_MOCK.</CannotOrderNonControlled>
+  <CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним істотам.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} нездатний до насильства.</IsIncapableOfViolence>
   <IsNotDrafted>{0} не призваний до бою.</IsNotDrafted>
 
@@ -53,8 +56,7 @@
   <SnowDusting>Іній</SnowDusting>
   <SnowThin>Сніг (легкий)</SnowThin>
   <SnowMedium>Сніг (середній)</SnowMedium>
-  <SnowThick>Сніг (великий)</SnowThick>
-
+  <SnowThick>Сніг (товстий)</SnowThick>
 
   <!-- Turrets -->
   <GunInstalled>Встановлено</GunInstalled>
@@ -63,19 +65,25 @@
   <ShellLoaded>Заряджено</ShellLoaded>
   <ShellNotLoaded>Не заряджено</ShellNotLoaded>
 
-
   <!-- Job reports -->
 	<ReportHaulingTo>Несе {0} до {1}.</ReportHaulingTo>
 	<ReportHauling>Несе {0}.</ReportHauling>
   <ReportSleeping>Спить.</ReportSleeping>
   <ReportResting>Відпочиває.</ReportResting>
-
+  <WatchingSunrise>Дивиться на схід сонця</WatchingSunrise>
+  <CloudWatching>Задивився на хмари</CloudWatching>
+  <WatchingSunset>Спостерігає захід сонця</WatchingSunset>
+  <Stargazing>Рахує зорі</Stargazing>
+  <WatchingEclipse>Спостерігає затемнення</WatchingEclipse>
+  <DeliveringFood>Несе їжу до {0}.</DeliveringFood>
+  <UsingVerb>MOCK_Using {0} on {1}.</UsingVerb>
+  <AreaLower>зона</AreaLower>
+  
 	<!-- Shooting report -->
-	<WeaponMissRadius>Розліт снарядів</WeaponMissRadius>
-  <ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
+  <WeaponMissRadius>Розліт снарядів</WeaponMissRadius>
+	<ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
 	<ShootReportWeapon>Зброя</ShootReportWeapon>
-  <RangeSlashEquipment>MOCK_Range</RangeSlashEquipment>
-  <Darkness>Темрява</Darkness>
+	<Darkness>Темрява</Darkness>
 	<TargetProne>Сприйнятливість</TargetProne>
 	<TargetSize>Розмір цілі</TargetSize>
 	<Weather>Погода</Weather>
@@ -94,15 +102,6 @@
   <MentalBreakThresholdHard>Критичний поріг зриву</MentalBreakThresholdHard>
   <MentalBreakThresholdSoft>Поріг стресу</MentalBreakThresholdSoft>
 
-
-
-  <!--Effectiveness
-  <EffectivenessFull>повна</EffectivenessFull>
-  <EffectivenessReduced>знижена</EffectivenessReduced>
-  <EffectivenessImpaired>низька</EffectivenessImpaired>
-  <EffectivenessIncapacitated>неспроможність</EffectivenessIncapacitated>
--->
-
   <!-- Pawn info readout -->
   <hitPoints>Здоров'я</hitPoints>
   <PawnMainDescWithFactionGendered>{0} {1} з {2}</PawnMainDescWithFactionGendered>
@@ -117,25 +116,15 @@
   <Carrying>Переносить</Carrying>
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Обрати іншу річ на тій самій клітині.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітині знов і знов.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Обрати іншу річ на тій самій клітці.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітці знову і знову.</SelectNextInSquareTip>
   <DefInfoTip>Подивитися інформацію про цей об'єкт.</DefInfoTip>
 
-	<!-- ITabs -->
- 
-	
-	<!--
-<TotalModifiers>Модифікатори</TotalModifiers>
-	<DamageAbsorption>Поглинання урону</DamageAbsorption>
-  <DamageDeflection>Віддзеркалення урону</DamageDeflection> -->
-
 	<!-- like 'Blood of John' -->
-  <OfLower></OfLower>
+	<OfLower></OfLower>
 
 	<!-- Power readout -->
-  <PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
-  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} / {1} Вт·д</PowerConnectedRateStored>
-  <!-- <PowerConnectedStored>Акумульована енергія: {0} Вт·д</PowerConnectedStored> -->
-
+	<PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
+  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} Вт / {1} Вт·д</PowerConnectedRateStored>
   <PowerNeeded>Потужність, що споживається</PowerNeeded>
   <PowerOutput>Потужність, що постачається</PowerOutput>
   <PowerBatteryStored>Заряд</PowerBatteryStored>
@@ -167,7 +156,7 @@
   <StoragePriorityNormal>звичайний</StoragePriorityNormal>
   <StoragePriorityPreferred>підвищений</StoragePriorityPreferred>
   <StoragePriorityImportant>високий</StoragePriorityImportant>
-  <StoragePriorityCritical>макс.</StoragePriorityCritical>
+  <StoragePriorityCritical>максимальний</StoragePriorityCritical>
 
   <!-- Rotting -->
   <CurrentlyFrozen>Заморожено (не зіпсується)</CurrentlyFrozen>
@@ -176,26 +165,24 @@
   <OverADecade>Понад десятиліття</OverADecade>
 
   <!-- Meal -->
-  <!-- <TimeToSpoil>Зіпсується за {0}</TimeToSpoil> -->
   <Ingredients>Інгредієнти</Ingredients>
 
   <!-- Plants -->
   <PercentGrowth>Виросло на {0}.</PercentGrowth>
   <GrowthRate>Швидкість росту</GrowthRate>
-    <PlantResting>Не росте (покоїться).</PlantResting>
   <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
   <PlantNeedsLightLevel>Потрібний рівень світла</PlantNeedsLightLevel>
-  <!-- <NotGrowingNow>Не росте (повинно бути {0}).</NotGrowingNow> -->
+  <PlantResting>Не росте (спить).</PlantResting>
   <OutOfIdealTemperatureRange>Неоптимальна температура (швидк. росту {0}%)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <Mature>Повністю виросло.</Mature>
   <SeedLabel>насіння {0}</SeedLabel>
-  <OutdoorGrowingPeriod>Сезон роста: {0}</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Сезон росту: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Ніколи</NoGrowingPeriod>
   <GrowYearRound>Увесь рік</GrowYearRound>
   <GrowSeasonHereNow>Сезон росту.</GrowSeasonHereNow>
-  <CannotGrowTooCold>Рост неможливий - занадто холодно.</CannotGrowTooCold>
+  <CannotGrowTooCold>Ріст неможливий - занадто холодно.</CannotGrowTooCold>
 
   <!-- Zones -->
   <Zone>зона</Zone>
@@ -203,7 +190,8 @@
   <Stockpile>склад</Stockpile>
   <DumpingStockpile>звалище</DumpingStockpile>
   <Priority>пріоритет</Priority>
-  <ClearAll>скинути</ClearAll>
+  <ClearAll>скинути все</ClearAll>
+  <AllowAll>дозволити все</AllowAll>
 
   <!-- ThingFilter -->
   <HitPoints>стан {0}</HitPoints>
@@ -219,30 +207,26 @@
   <AutoHomeRegionToggleButton>Перемикач автоматичного поширення жилої зони навколо нових будівель.</AutoHomeRegionToggleButton>
   <CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
 
-
   <!-- Fire -->
   <Fire>Вогонь</Fire>
   <FireOn>Вогонь на {0}</FireOn>
   <Burning>Горить</Burning>
   <FireSizeLower>розмір вогню {0}</FireSizeLower>
   
-
   <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>Особливі умови, впливаючі на місцевість у даний час.</MapConditionsTip>
+  <MapConditionsTip>Особливі умови, що впливають на місцевість у даний час.</MapConditionsTip>
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>У вас немає матеріалів, з яких це можно побудувати.</NoStuffsToBuildWith>
-
-  
   
   <!-- Building placement restricters -->
   <MustPlaceUnroofed>Не може бути розміщено под дахом.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Повинне бути розміщеним поряд з силовим елементом корабля.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Повинен бути розміщений поряд з автоматом поживної пасти.</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзеру.</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзері.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Має бути відкритим з обох сторон</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Має бути відкритим щоб пропускати повітря.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Має будти доступним з усіх сторон.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Має бути доступним з усіх сторон.</MustPlaceAdjacentStandable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
@@ -251,12 +235,12 @@
   <!-- Cryptosleep pod -->
   <CasketContains>Містить</CasketContains>
   <CasketUnknownContents>Невідомо</CasketUnknownContents>
-  <CasketWarning>Увага!\n\nNAME - ваш останній активний колоніст! Якщо ви помістите HIM в капсулу, можливо ви не зможете продовжити гру. Ви впевнені що бажаєте це зробити?</CasketWarning>
+  <CasketWarning>Увага!\n\nNAME - ваш останній активний колоніст! Якщо ви помістите HIM в капсулу, можливо, ви не зможете продовжити гру. Ви впевнені що бажаєте це зробити?</CasketWarning>
 
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Запуск неможливий.</ShipReportCannotLaunch>
-  <ShipReportCanLaunch>Готов до зльоту.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Невистачає критично важливих модулів</ShipReportMissingPart>
+  <ShipReportCanLaunch>Готовий до зльоту.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Не вистачає критично важливих модулів</ShipReportMissingPart>
   <ShipReportNoFullPods>Немає заповнених капсул крипто сну.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
@@ -280,6 +264,7 @@
   <QualityDescription>Якість матеріалу та роботи.</QualityDescription>
   <QualityIs>Якість: {0}</QualityIs> 
 
+  <!-- Mood descriptions -->
   <Mood_Broken>зламаний</Mood_Broken>
   <Mood_AboutToBreak>на межі</Mood_AboutToBreak>
   <Mood_OnEdge>нещасний</Mood_OnEdge>
@@ -297,11 +282,9 @@
   <!-- Generic lifespan -->
   <LifespanExpiry>Зіпсується за:</LifespanExpiry>
 
-  <!-- JobDriver reports -->
-  <WatchingSunrise>Дивиться на схід Сонця</WatchingSunrise>
-  <CloudWatching>Дивиться на хмари</CloudWatching>
-  <WatchingSunset>Дивиться на захід Сонця</WatchingSunset>
-  <Stargazing>Рахує зорі</Stargazing>
-  <WatchingEclipse>Дивиться на сонячне затемнення</WatchingEclipse>  
+  <!-- Traps -->
+  <TrapArmed>Зведена</TrapArmed>
+  <TrapNotArmed>Не зведена</TrapNotArmed>
+  <TrapRearmingCost>Вартість повторного зведення: {0}</TrapRearmingCost>
   
 </LanguageData>

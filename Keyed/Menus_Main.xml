@@ -6,7 +6,7 @@
   <NewColony>Нова колонія</NewColony>
   <BackToGame>Повернутися у гру</BackToGame>
   <Save>Зберегти</Save>
-  <Load>Загрузити</Load>
+  <Load>Завантажити</Load>
   <Options>Налаштування</Options>
   <Mods>Модифікації</Mods>
   <Credits>Автори</Credits>
@@ -21,25 +21,25 @@
   <HelpTranslate>Допомогти з перекладом RimWorld</HelpTranslate>
 
   <!--=========== Створити/подивитися світ ================-->
-  <ReviewWorld>Просмотр світу</ReviewWorld>
+  <ReviewWorld>Перегляд світу</ReviewWorld>
   <WorldGenerate>Створити</WorldGenerate>
   <WorldSaveAndFinish>Зберегти та закрити</WorldSaveAndFinish>
   <Reset>Скинути</Reset>
   <WorldSize>Розмір</WorldSize>
-  <WorldSeed>Базовое зерно генератору</WorldSeed>
+  <WorldSeed>Зерно генератора</WorldSeed>
   <RandomizeSeed>Випадкове зерно генератора</RandomizeSeed>
 
 
   <!--=========== Обрати світ ===================-->
   <SelectWorld>Вибір світу</SelectWorld>
   <WorldChooseButton>Обрати</WorldChooseButton>
-  <NoWorldsFilesFound>Немає жодного створенного світу. По перше створіть світ.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>Немає жодного створенного світу. Спершу створіть світ.</NoWorldsFilesFound>
   
   <!--=========== Інформація про версію ==========-->
   <BuildNowAvailable>Доступна нова версія {0}. Зайдіть на ludeon.com для отримання інформації.</BuildNowAvailable>
   <BuildUpToDate>У вас найновіша версія.</BuildUpToDate>
   <ErrorGettingVersionInfo>Помилка отримання даних про версію: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>Загрузка даних про версію...</LoadingVersionInfo>
+  <LoadingVersionInfo>Завантаження даних про версію...</LoadingVersionInfo>
 
   <!--=========== Генератор Світу =========-->
   <GenerateWorld>Створити світ</GenerateWorld>
@@ -51,12 +51,15 @@
   <Author>Автор</Author>
 
 
-  <!--=========== Вибір розповідача ==========-->
-    <ChooseAIStoryteller>Вибір ШІ розповідача</ChooseAIStoryteller>
-  <HowStorytellersWork>ШІ Розповідача створює події, наприклад, піратські рейди, падіння ресурсів або напади тварин. Цей вибір буде впливати на історію вашої колонії.</HowStorytellersWork>
+  <!--=========== Вибір оповідача ==========-->
+    <ChooseAIStoryteller>Вибір ШІ оповідача</ChooseAIStoryteller>
+  <HowStorytellersWork>ШІ Оповідача створює події, наприклад, піратські рейди, падіння ресурсів або напади тварин. Цей вибір буде впливати на історію вашої колонії.</HowStorytellersWork>
   <MustChooseChallengeScale>Будь ласка, оберіть складність.</MustChooseChallengeScale>
   <Difficulty>Складність</Difficulty>
 
+  
+  
+  
   <!--=========== Місце посадки =========-->
   <SelectLandingSite>Вибір місця посадки</SelectLandingSite>
   <SelectSite>Обрати місце</SelectSite>
@@ -69,7 +72,7 @@
   <WorldRenderModeFertility>Родючість грунту</WorldRenderModeFertility>
   <WorldRenderModeRainfall>Опади</WorldRenderModeRainfall>
   <WorldRenderModeBiomes>Біоми</WorldRenderModeBiomes>
-  <BiomeNotImplemented>не реализовано</BiomeNotImplemented>
+  <BiomeNotImplemented>не реалізовано</BiomeNotImplemented>
   <BaseAlreadyThere>{0} вже розмістили там базу.</BaseAlreadyThere>
   <Biome>Біом</Biome>
   <Terrain>Поверхня</Terrain>
@@ -87,18 +90,16 @@
   <StoneTypesHere>Види каміння</StoneTypesHere>
 
 
-
   <!--=========== Створення персонажів ==========-->
   <CreateCharacters>Створення персонажів</CreateCharacters>
-  <FirstNameDesc>Ім'я персонажу.\n\nВідображається лише в деяких меню.</FirstNameDesc>
-  <ShortIdentifierDesc>Короткий ідентифікатор персонажу.\n\nВідображається скрізь. Може буди ім'ям прізвищем або прізвиськом.</ShortIdentifierDesc>
-  <LastNameDesc>Прізвище персонажу.\n\nВідображається лише в деяких меню.</LastNameDesc>
-  <Randomize>Випадкове</Randomize>
+  <FirstNameDesc>Ім'я персонажа.\n\nВідображається лише в деяких меню.</FirstNameDesc>
+  <ShortIdentifierDesc>Короткий ідентифікатор персонажа.\n\nВідображається скрізь. Може буди ім'ям, прізвищем або прізвиськом.</ShortIdentifierDesc>
+  <LastNameDesc>Прізвище персонажа.\n\nВідображається лише в деяких меню.</LastNameDesc>
+  <Randomize>Випадково</Randomize>
   <AgeIndicator>вік {0}</AgeIndicator>
   <Backstory>Передісторія</Backstory>
   <IncapableOf>Нездатність</IncapableOf>
   <Traits>Риси</Traits>
-  <!--<TraitsDoNothing>Лише частина забавної історії, більша частина з них ні на що не впливають. Це буде змінено у наступних версіях.</TraitsDoNothing> -->
   <PermanentMoodEffect>Постійний ефект настрою</PermanentMoodEffect>
   <Skills>Навички</Skills>
   <NoneLower>відсутнє</NoneLower>

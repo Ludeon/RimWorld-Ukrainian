@@ -5,15 +5,14 @@
   <CommandNotForbiddenDesc>Дозволено - колоністи можуть використовувати це.</CommandNotForbiddenDesc>
 
   <!-- Power -->
-  <CommandTogglePowerLabel>Вимикач</CommandTogglePowerLabel>
-  <CommandTogglePowerDesc>Вмикання й вимикання електроживлення.</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>Перемкнути живлення</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Вмикання і вимикання електроживлення.</CommandTogglePowerDesc>
 
-  <CommandDesignateTogglePowerLabel>Перемикання живлення</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerLabel>Перемкнути живлення</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Наказати перемикнути живлення. Колоніст з відповідною роботою прийде і перемкне вимикач.</CommandDesignateTogglePowerDesc>
   
   <CommandTryReconnectLabel>Перепідключити</CommandTryReconnectLabel>
   <CommandTryReconnectDesc>Спробувати перепідключитися до іншого джерела електроенергії в межах можливого підключення. Це зручно для перемикання між мережами без\з генератором.</CommandTryReconnectDesc>
-
 
   <CommandGatherSpotToggleLabel>Місце збору</CommandGatherSpotToggleLabel>
   <CommandGatherSpotToggleDescActive>Активне - колоністи будуть збиратися поблизу.</CommandGatherSpotToggleDescActive>
@@ -46,31 +45,37 @@
   <CommandBedSetAsNonMedicalLabel>Скасувати мед. призначення</CommandBedSetAsNonMedicalLabel>
   <CommandBedSetAsNonMedicalDesc>Призначити в якості звичайного ліжка.</CommandBedSetAsNonMedicalDesc>
   <TurningOnPrisonerBedWarning>Ввімкнення режиму для в'язнів вплине на всю кімнату (колоністи та в'язні не можуть спати в одній кімнаті).\n\nЦі люди втратять права на свої ліжка:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Вимкнення режиму для в'язнів вплине на всю кімнату (колоністи та в'язні не можуть спати в одній кімнаті).\n\nЭти люди втратять права на свої ліжка:</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Вимкнення режиму для в'язнів вплине на всю кімнату (колоністи та в'язні не можуть спати в одній кімнаті).\n\nЦі люди втратять права на свої ліжка:</TurningOffPrisonerBedWarning>
   <AreYouSure>Ви впевнені, що хочете це зробити?</AreYouSure>
 
-  
-  
-  <CommandDetonateDesc>Почати зворотній відлік до детонації.</CommandDetonateDesc>
   <CommandDetonateLabel>Підірвати</CommandDetonateLabel>
-
+  <CommandDetonateDesc>Почати зворотній відлік до детонації.</CommandDetonateDesc>
+  
   <CommandRenameZoneDesc>Перейменувати зону.</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>Змінити назву</CommandRenameZoneLabel>
 
-  <CommandHideZoneDesc>Сховати/показати зону.</CommandHideZoneDesc>
   <CommandHideZoneLabel>Сховати</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Показати</CommandUnhideZoneLabel>
-
-  <CommandDeleteZoneDesc>Видалити зону.</CommandDeleteZoneDesc>
-  <CommandDeleteZoneLabel>Видалити</CommandDeleteZoneLabel>
+  <CommandHideZoneDesc>Сховати/показати зону.</CommandHideZoneDesc>
   
+  <CommandDeleteZoneLabel>Видалити</CommandDeleteZoneLabel>
+  <CommandDeleteZoneDesc>Видалити зону.</CommandDeleteZoneDesc>
+  
+  <CommandCopyZoneSettingsLabel>Копіювати налаштування</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Копіювати налаштування цієї зони до буфера обміну щоб мати можливість замінити ними налаштування іншої зони.</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>Замінити налаштування</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Переписати налаштування тими, що знаходяться в буфері обміну.</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>Дозволити засів</CommandAllowSow>
+  <CommandAllowSowDesc>Якщо вимкнено, колоністи не будуть наново засівати поле після збору врожаю.</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Обрати ціль обстрілу</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Встановлює ціль, яку ця турель буде атакувати безперервно до тих пір, доки це буде можливо.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Припинити вогонь</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Припиняє обстріл й дозволяє турелі стріляти в автоматичному режимі.</CommandStopForceAttackDesc>
-  <CommandStopAttackFailNotForceAttacking>Зараз неможливо зупинити обстріл.</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>Зараз не веде обстріл.</CommandStopAttackFailNotForceAttacking>
   <MessageTargetBeyondMaximumRange>Ціль занадто далеко.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Ціль занадто близько.</MessageTargetBelowMinimumRange>
   
@@ -90,7 +95,10 @@
   <!-- Door -->
   <CommandToggleDoorLock>Блокування</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Заблокувати або розблокувати двері. Двері, що були заблоковані не відчиняються для жодного персонажу.</CommandToggleDoorLockDesc>
+  <CommandToggleDoorHoldOpen>Залишити відчиненою</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>Якщо увімкнено, колоністи н будуть закривати двері.</CommandToggleDoorHoldOpenDesc> <!-- В оригіналі помилка. Автоматичні двері не відкриються самі -->
 
+  
   <!-- Temperature control -->
   <CommandResetTemp>Скинути</CommandResetTemp>
   <CommandResetTempDesc>Скинути бажану температуру до кімнатної.</CommandResetTempDesc>
@@ -99,16 +107,18 @@
 
   <!-- Art -->
   <CommandInstall>Встановити</CommandInstall>
-  <CommandInstallDesc>Цей предмет наразі запакований для транспортування та зберігання. Розмістіть його у остаточному місці щоб відкрити обзор або дозволити ним користуватися.</CommandInstallDesc>
+  <CommandInstallDesc>Цей предмет наразі запакований для транспортування та зберігання. Розмістіть його у остаточному місці щоб відкрити його для огляду або дозволити ним користуватися.</CommandInstallDesc>
 
-    <!-- Trade beacon -->
+  <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Створює в зоні діяльності маяка склад.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Розмітити склад</CommandMakeBeaconStockpileLabel>
-  
   
   <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Створює ділянку навколо лампи</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Розмітити ділянку</CommandSunLampMakeGrowingZoneLabel>
 
+  <!-- Trap -->
+  <CommandAutoRearm>Автоматичне зведення</CommandAutoRearm>
+  <CommandAutoRearmDesc>Якщо увімкнено, пастка після спрацювання буде автоматично помічатися для переозброєння.</CommandAutoRearmDesc>
   
 </LanguageData>
