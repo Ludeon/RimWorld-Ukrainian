@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
@@ -7,7 +7,11 @@
   <GoBack>Назад</GoBack>
   <OK>OK</OK>
   
-  <!-- Save/load -->
+  
+  <RecoveredFromErrorsDialogTitle>Recovered from incompatible or corrupted mods errors</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
+  
+  
   <SaveGameButton>Зберегти</SaveGameButton>
   <OverwriteButton>Перезаписати</OverwriteButton>
   <LoadGameButton>Завантажити</LoadGameButton>
@@ -20,45 +24,43 @@
   <SaveIsFromDifferentGameBuild>Ви користуєтеся версією гри {0} але збережені дані від {1} - іншої збірки гри.\n\nМоже не вдатися завантажити це збереження.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Збереження зроблене на вашій версії гри і повинне працювати в будь-якому разі.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Дані збережено у невідомому форматі чи пошкоджено. Найімовірніше ви не зможете їх завантажити.</SaveIsUnknownFormat>
+  <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}</ProblemSavingFile>
   
-  <!-- Colony naming-->
+  
   <NameColonyMessage>Всі знають, що ніхто не хоче застрягти в цій дірі надовго, але {0} всеж таки пропонує дати назву колонії.\n\nЯк назвемо?</NameColonyMessage>
   <ColonyGainsName>Тепер колонія відома під назвою {0}.</ColonyGainsName>
   <ColonyNameIsInvalid>Це им'я колонії неприпустиме.</ColonyNameIsInvalid>
 
-  <!-- Renaming -->
+  
   <NameIsInvalid>Будь ласка, введіть припустиму назву для зони.</NameIsInvalid>
   <NameIsInUse>Ця назва вже використовується.</NameIsInUse>
   <ZoneGainsName>Тепер ця зона називається {0}.</ZoneGainsName>
   
-  <!-- Pawn naming -->
+  
   <PawnGainsName>Прізвисько колоніста тепер {0}.</PawnGainsName>
 
-  <!-- Save game incompatible warning -->
+  
   <VersionMismatch>Версії не збігаються</VersionMismatch>
   <SaveGameIncompatibleWarningText>Версії не збігаються: карта була збережена у версії {0}, зараз ви використовуєте версію {1}.\n\nЗавантаження запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗавантаження цього світу, найімовірніше, призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново.</WorldFileVersionMismatch>  
+  <WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗавантаження цього світу, найімовірніше, призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново.</WorldFileVersionMismatch>
   <ModsMismatchWarningTitle>Моди не збігаються</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Версії не збігаються: карта була збережена з іншим набором модів ніж використовуються зараз. Це може не викликати проблема, в залежності від функцій, які виконують ці моди.\n\nКарта була збережена з використанням (у такому порядку):\n\n{0}\n\nВи користуєтеся:\n\n{1}</ModsMismatchWarningText>
 
-  <!-- Resolution change dialog -->
+  
   <ConfirmResolutionChange>Ви змінили роздільну здатність екрану. Зберегти зміни?\n\nАвтоматичне повернення після {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Зберегти</ResolutionKeep>
   <ResolutionRevert>Скасувати</ResolutionRevert>
 
-  <!-- Overview -->
-  <OverviewOf>Колонія {0}</OverviewOf>
-
-  <!-- Research -->
+  
   <Research>Дослідження</Research>
   <Researched>Вивчено</Researched>
   <Unresearched>Не вивчено</Unresearched>
   <Finished>Завершено</Finished>
   <InProgress>У процесі</InProgress>
   <ResearchMenuWithoutBench>Доки ви не зробите дослідницький стіл, ваші колоністи не зможуть виконувати дослідження.\n\nПроте, ви однак можете подивитися й обрати дослідницький проект прямо зараз.</ResearchMenuWithoutBench>
-   
-   
-  <!-- Advanced game start options -->
+  
+  
+  
   <MapTemperatureDangerWarning>УВАГА: Ви обрали зимовий сезон. Може статися, що буде дуже складно, навіть неможливо пережити цей період. Якщо ви не шукаєте додаткових викликів, будь ласка, оберіть іншу локацію або місяць.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слаба комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався і, майже напевно, призведе до проблем продуктивності.</MapSizePerformanceWarning>
   <MapSize>Розмір мапи</MapSize>
@@ -70,24 +72,25 @@
   <MapStartMonth>Стартовий місяць</MapStartMonth>
   <MapStartMonthDefault>Авто.</MapStartMonthDefault>
 
+
   
-  <!-- Bill config -->
   <Suspended>Продовжити</Suspended>
   <NotSuspended>Призупинити</NotSuspended>
   <SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
   <RepeatCount>Виконати: {0}</RepeatCount>
   <Forever>До ∞</Forever>
-  <Details>Деталі</Details>
+	<Details>Деталі</Details>
   <IngredientSearchRadius>Радіус пошуку інгр-тів</IngredientSearchRadius>
   <CurrentlyHave>Наразі є</CurrentlyHave>
   <CountingProducts>Рахування_MOCK</CountingProducts>
   <Infinite>Необмежено</Infinite>
   <MinimumSkillLevel>Мін. нав. - {0}</MinimumSkillLevel>
-
+  
   <RecipeCannotHaveTargetCount>(Це завдання неможливо повторювати, оскільки результат може бути різним.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Кількість роботи</WorkAmount>
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
   <BillRequires>Потрібно {0} {1}</BillRequires>
+  <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>
   <BillRequiresMayVary>(Величини можуть відрізнятись для елементів з нестандартним об'ємом, наприклад, золота.)</BillRequiresMayVary>
   <ThisIsSmallVolume>Цей інгредієнт займає невеликий об'єм. Тому кожна одиниця враховується як 20:1, порівняно з інгредієнтами з нормальним об'ємом. Через це, витрати на такий же самий обсяг виробництва становитимуть в 20 разів більше ніж зазвичай.</ThisIsSmallVolume>
   <UsableIngredients>корисні інгредієнти</UsableIngredients>
@@ -99,7 +102,7 @@
   <BillStoreMode_BestStockpile>До складу найв. пріоритету</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>До найближчого складу</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Info card -->
+  
   <Damage>Пошкодження</Damage>
   <Accuracy>Точність</Accuracy>
   <BurstShotCount>Пострілів</BurstShotCount>
@@ -122,15 +125,17 @@
   <Joy>Вплив на настрій</Joy>
   <FoodQuality>Тип їжі</FoodQuality>
   <WalkSpeedProperty>Швидкість бігу</WalkSpeedProperty>
-  <ButcherYield>Видобуток м'ясника</ButcherYield>
   <MinFoodQuality>Мін. тип їжі</MinFoodQuality>
   <Diet>Харчування</Diet>
   <RecruitDifficulty>Складність вербування</RecruitDifficulty>
   <MarketValue>Базова ціна</MarketValue>
   <Covers>Покриває</Covers>
   <BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
+  <MoodChange>Mood change</MoodChange>
+  <Wildness>Wildness</Wildness>
+  <WildnessExplanation>Wilder creatures are naturally more difficult to tame, train, and handle.</WildnessExplanation>
   
-  <!-- Trade -->
+  
   <DragToTrade>Тягніть для торгівлі</DragToTrade>
   <BuyPriceDesc>Ціна, яку ви сплачуєте для купівлі.</BuyPriceDesc>
   <SellPriceDesc>Ціна, яку ви отримуєте після продажу.</SellPriceDesc>
@@ -141,34 +146,35 @@
   <ResetButton>Скинути</ResetButton>
   <CancelButton>Скасувати</CancelButton>
   <YourTradeableSilver>Срібла для торгівлі: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Ви можете торгувати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
+	<YourTradeableSilverTip>Ви можете торгувати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
   <TraderHasNoMore>Торговець більше не має.</TraderHasNoMore>
   <ColonyHasNoMore>Для продажу більше немає.</ColonyHasNoMore>
   <TraderWillNotTrade>Торговець не бажає торгувати цим.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Цей персонаж {0} не може нормально спілкуватися, через стан здоров'я.\n\nЦе негативно вплине на ціни.\n\nОберіть кого-небудь більш здорового для перемовин.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>У торговця недостатньо грошей, щоб повністю сплатити за товар. Згодні на цю суму?</ConfirmTraderShortFunds>
-
-  <!-- Comms -->
+  <SortBy>Sort by</SortBy>
+  
+  
   <SocialSkillIs>Соціальні навички: {0}</SocialSkillIs>
-
-  <!--Research-->
+  
+  
   <ResearchFinished>Виконано дослідження: {0}</ResearchFinished>
   <ResearchScreen>Екран досліджень</ResearchScreen>
   
-  <!--HistoryUpload-->
+  
   <HistoryUploadMessage>Чи згодні ви завантажити свої ігрові записи на сервер RimWorld для того, щоб допомогти розробникам краще збалансувати гру? Якщо так, ваші записи будуть завантажуватися кожні {0} днів (також у окремих випадках, наприклад, в кінці гри). Налаштування приватності можна змінити пізніше в меню налаштувань.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Незважаючи на те, що записи анонімні, ви можете залишити своє ім'я.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Дозволити завантаження ігрових даних</HistoryUploadYes>
   <HistoryUploadNo>Не дозволяти завантаження ігрових даних</HistoryUploadNo>
   <HistoryUploadYesOnce>Завантажити лише цього разу</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Цього разу не завантажувати, спитати пізніше</HistoryUploadNoOnce>
+	
   
-  <!-- Outfit management -->
   <Outfit>Набір</Outfit>
   <SelectOutfit>Оберіть набір...</SelectOutfit>
   <NewOutfit>Новий набір</NewOutfit>
   <DeleteOutfit>Видалити набір...</DeleteOutfit>
   <OutfitInUse>Цей набір носить {0}.</OutfitInUse>
   <NoOutfitSelected>Набір не обрано</NoOutfitSelected>
-
+  
 </LanguageData>

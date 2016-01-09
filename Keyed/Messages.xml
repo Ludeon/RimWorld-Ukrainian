@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
  
@@ -9,7 +9,7 @@
   <MessageRaidersKidnapping>{0} з {1} вирішили викрасти, кого зможуть та відступити.</MessageRaidersKidnapping>
 
   <MessageRaidersLeaving>{0} з {1} відступають.</MessageRaidersLeaving>
-  <MessageRaidersGivenUpLeaving>{0} з {1} здалися та йдуть геть.</MessageRaidersGivenUpLeaving>
+	<MessageRaidersGivenUpLeaving>{0} з {1} здалися та йдуть геть.</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>{0} з {1} задоволені розгромом і йдуть геть.</MessageRaidersSatisfiedLeaving>
 
   <MessageFightersFleeing>{0} з {1} рятуються втечею.</MessageFightersFleeing>
@@ -18,7 +18,7 @@
   <MessageVisitorsTakingWounded>{0} з {1} рятують свого товариша.</MessageVisitorsTakingWounded>
   
   <MessageWornApparelDeterioratedAway>{0} з речей {1} остаточно зіпсувався (-лася).</MessageWornApparelDeterioratedAway>
-
+  
   <MessageSeasonBegun>Починається {0}.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>{0} залишив зону зв'язку.</MessageShipHasLeftCommsRange>
@@ -34,18 +34,19 @@
   <MessageOutOfNearbyShellsFor>{0} не має снарядів для {1}.</MessageOutOfNearbyShellsFor>
 
   <MessageAnimalsGoPsychoHunted>Увага: {0} зазвичай нападає на мисливців у відповідь.</MessageAnimalsGoPsychoHunted>
-
+  <MessageAnimalManhuntsOnTameFailed>Warning: {0}s may attack upon a failed taming attempt ({1} chance).</MessageAnimalManhuntsOnTameFailed>
+  
   <LetterLabelMessageRecruitSuccess>В'язня завербовано</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} вдало завербував {1} (із шансом {2}).</MessageRecruitSuccess>
 	<MessageRecruitFail>{0} не вдалось завербувати {1} (шанс {2}).</MessageRecruitFail>
 	<MessageRecruitFailBecauseMood>{0} не вдалось завербувати {1} (мораль в'язня надто низька).</MessageRecruitFailBecauseMood>
-	
-  <MessagePoorlyTreated>{0} отримав погану мед. допомогу від {1} (шанс {2}).</MessagePoorlyTreated>
-  <MessageWellTreated>{0} отримав якісну мед. допомогу від {1} (шанс {2}).</MessageWellTreated>
-	
+  <MessageTameSuccess>{0} successfully tamed {1} ({2} chance).</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{0} successfully tamed {1} ({2} chance) and named it {3}.</MessageTameAndNameSuccess>
+
+
   <MessageColonyCannotAfford>Колонія не може дозволити собі цю угоду.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>Вам не вистачає срібла для сделки.</MessageColonyNotEnoughSilver>
-  
+
   <MessageCriticalAlert>УВАГА: {0}</MessageCriticalAlert>
 
   <MessageMustDesignateHarvestable>Потрібно обрати достатньо дозрілі їстівні рослини.</MessageMustDesignateHarvestable>
@@ -54,16 +55,19 @@
   <MessageMustDesignateHaulable>Потрібно обрати уламки.</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>Потрібно обрати гірську породу.</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>Потрібно обрати диких тварин.</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>Must designate tameable animals.</MessageMustDesignateTameable>
   <MessageMustDesignateClaimable>Потрібно обрати покинуті штучні об'єкти.</MessageMustDesignateClaimable>
   <MessageMustDesignateSmoothableFloor>Потрібно обрати незгладжену кам'яну поверхню.</MessageMustDesignateSmoothableFloor>
   <MessageNothingCanRemoveThickRoofs>Дах занадто товстий, щоб його видалити.</MessageNothingCanRemoveThickRoofs>
   <MessageAlreadyInStorage>Це вже зберігається і буде переміщено до складу з більш високим пріоритетом за необхідності.</MessageAlreadyInStorage>
   <MessageMustDesignateStrippable>Потрібно виділити трупи чи осіб, що втратили свідомість, які мають одяг, який можна зняти.</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>Must designate tame animal that belongs to the colony.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>Must designate full graves or containers.</MessageMustDesignateOpenable>
 
   <MessageRefusedArrest>{0} чинить опір арешту!</MessageRefusedArrest>
-
+  
   <MessageNoMedicalBeds>Немає вільних мед. ліжок.</MessageNoMedicalBeds>
-
+  
   <PawnDiedBecauseOf>{0} помер від {1}.</PawnDiedBecauseOf>
 
   <MessageNoLongerDowned>{0} знову на ногах.</MessageNoLongerDowned>
@@ -72,9 +76,17 @@
 
   <MessageMedicalOperationFailureCatastrophic>{0} скоїв фатальну помилку під час оперування {1}.</MessageMedicalOperationFailureCatastrophic>
   <MessageMedicalOperationFailureMinor>{0} скоїв маленьку помилку під час оперування {1}.</MessageMedicalOperationFailureMinor>
-  
+
   <MessageMedicalOperationWillAngerFaction>Ця дія розізлить {0}.</MessageMedicalOperationWillAngerFaction>
 
   <MessagePawnExitMapRelationsGain>Через те, що {0} покинув місцевість здоровим, відносини з {1} покращилися на {2}.</MessagePawnExitMapRelationsGain>
+
+  <MessageMiscarriedStarvation>{0} has miscarried due to starvation.</MessageMiscarriedStarvation>
+  <MessageMiscarriedPoorHealth>{0} has miscarried due to poor health.</MessageMiscarriedPoorHealth>
+  <MessageGaveBirth>{0} has given birth.</MessageGaveBirth>
+
+  <MessageNuzzledPawnGaveNameTo>{0} has named {1} {2} after being nuzzled.</MessageNuzzledPawnGaveNameTo>
+
+  <MessageNoHandlerSkilledEnough>No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}).</MessageNoHandlerSkilledEnough>
   
 </LanguageData>
