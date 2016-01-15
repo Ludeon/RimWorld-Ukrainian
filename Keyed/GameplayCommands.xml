@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <CommandForbiddenDesc>Заборонено - колоністи не будуть це використовувати.</CommandForbiddenDesc>
-  <CommandNotForbiddenDesc>Дозволено - колоністи можуть використовувати це.</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>Заборонено - колоністи не будуть це використовувати.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>Дозволено - колоністи можуть використовувати це.</CommandNotForbiddenDesc>
 
-  <!-- Power -->
+  
   <CommandTogglePowerLabel>Перемкнути живлення</CommandTogglePowerLabel>
   <CommandTogglePowerDesc>Вмикання і вимикання електроживлення.</CommandTogglePowerDesc>
-
+  
   <CommandDesignateTogglePowerLabel>Перемкнути живлення</CommandDesignateTogglePowerLabel>
   <CommandDesignateTogglePowerDesc>Наказати перемикнути живлення. Колоніст з відповідною роботою прийде і перемкне вимикач.</CommandDesignateTogglePowerDesc>
   
@@ -19,7 +19,7 @@
   <CommandGatherSpotToggleDescInactive>Неактивне - колоністи не будуть збиратися поблизу.</CommandGatherSpotToggleDescInactive>
   
   
-  <!-- Drafting -->
+  
   <CommandDraftLabel>До бою!</CommandDraftLabel>
   <CommandUndraftLabel>Розпуск</CommandUndraftLabel>
   <CommandToggleDraftDesc>Переключення в бойовий режим.\n\nВ Цьому режимі колоністи отримують накази та б'ються. Вони не будуть працювати, їсти або відпочивати.</CommandToggleDraftDesc>
@@ -34,7 +34,11 @@
 
   <CommandBedSetOwnerLabel>Встановити власника</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Визначити конкретного власника для ліжка.</CommandBedSetOwnerDesc>
-  <BedAssign>Обрати призначення</BedAssign>
+  <CommandGraveAssignColonistLabel>Assign colonist</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistDesc>Assign this grave to be owned by a specific colonist.</CommandGraveAssignColonistDesc>
+  <CommandGraveSetToUnassignedLabel>Set to unassigned</CommandGraveSetToUnassignedLabel>
+  <CommandGraveSetToUnassignedDesc>Set this grave to be unassigned to anybody.</CommandGraveSetToUnassignedDesc>
+  <BuildingAssign>Assign</BuildingAssign>
   <CommandBedSetForPrisonersLabel>Для в'язнів</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Призначити усі ліжка в цій кімнаті в якості нар для в'язнів.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Неможливо призначити ліжка для в'язнів на вулиці.</CommandBedSetForPrisonersFailOutdoors>
@@ -50,17 +54,17 @@
 
   <CommandDetonateLabel>Підірвати</CommandDetonateLabel>
   <CommandDetonateDesc>Почати зворотній відлік до детонації.</CommandDetonateDesc>
-  
-  <CommandRenameZoneDesc>Перейменувати зону.</CommandRenameZoneDesc>
+
   <CommandRenameZoneLabel>Змінити назву</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Перейменувати зону.</CommandRenameZoneDesc>
 
   <CommandHideZoneLabel>Сховати</CommandHideZoneLabel>
   <CommandUnhideZoneLabel>Показати</CommandUnhideZoneLabel>
   <CommandHideZoneDesc>Сховати/показати зону.</CommandHideZoneDesc>
-  
+
   <CommandDeleteZoneLabel>Видалити</CommandDeleteZoneLabel>
   <CommandDeleteZoneDesc>Видалити зону.</CommandDeleteZoneDesc>
-  
+
   <CommandCopyZoneSettingsLabel>Копіювати налаштування</CommandCopyZoneSettingsLabel>
   <CommandCopyZoneSettingsDesc>Копіювати налаштування цієї зони до буфера обміну щоб мати можливість замінити ними налаштування іншої зони.</CommandCopyZoneSettingsDesc>
 
@@ -69,8 +73,8 @@
 
   <CommandAllowSow>Дозволити засів</CommandAllowSow>
   <CommandAllowSowDesc>Якщо вимкнено, колоністи не будуть наново засівати поле після збору врожаю.</CommandAllowSowDesc>
+
   
-  <!-- Artillery -->
   <CommandSetForceAttackTarget>Обрати ціль обстрілу</CommandSetForceAttackTarget>
   <CommandSetForceAttackTargetDesc>Встановлює ціль, яку ця турель буде атакувати безперервно до тих пір, доки це буде можливо.</CommandSetForceAttackTargetDesc>
   <CommandStopForceAttack>Припинити вогонь</CommandStopForceAttack>
@@ -80,45 +84,50 @@
   <MessageTargetBelowMinimumRange>Ціль занадто близько.</MessageTargetBelowMinimumRange>
   
   
-  <!-- Ship computer core -->
+  
   <CommandShipLaunch>Запустити корабель</CommandShipLaunch>
   <CommandShipLaunchDesc>Запустити корабель з поточною конфігурацією.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Показати стартовий звіт</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Показати звіт щодо готовності корабля до зльоту.</CommandShipLaunchReportDesc>
 
 
-  <!-- Pod -->
+  
   <CommandPodEject>Витягти космонавта</CommandPodEject>
   <CommandPodEjectDesc>Розбудити сплячого та витягти його.</CommandPodEjectDesc>
   <CommandPodEjectFailEmpty>Камера порожня.</CommandPodEjectFailEmpty>
 
-  <!-- Door -->
-  <CommandToggleDoorLock>Блокування</CommandToggleDoorLock>
-  <CommandToggleDoorLockDesc>Заблокувати або розблокувати двері. Двері, що були заблоковані не відчиняються для жодного персонажу.</CommandToggleDoorLockDesc>
+  
+  <CommandToggleDoorForbid>Passage forbidden</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door.</CommandToggleDoorForbidDesc>
   <CommandToggleDoorHoldOpen>Залишити відчиненою</CommandToggleDoorHoldOpen>
-  <CommandToggleDoorHoldOpenDesc>Якщо увімкнено, колоністи н будуть закривати двері.</CommandToggleDoorHoldOpenDesc> <!-- В оригіналі помилка. Автоматичні двері не відкриються самі -->
+  <CommandToggleDoorHoldOpenDesc>Якщо увімкнено, колоністи н будуть закривати двері.</CommandToggleDoorHoldOpenDesc>
+
 
   
-  <!-- Temperature control -->
   <CommandResetTemp>Скинути</CommandResetTemp>
   <CommandResetTempDesc>Скинути бажану температуру до кімнатної.</CommandResetTempDesc>
   <CommandRaiseTempDesc>Збільшити бажану температуру.</CommandRaiseTempDesc>
   <CommandLowerTempDesc>Зменшити бажану температуру.</CommandLowerTempDesc>
 
-  <!-- Art -->
+  
   <CommandInstall>Встановити</CommandInstall>
   <CommandInstallDesc>Цей предмет наразі запакований для транспортування та зберігання. Розмістіть його у остаточному місці щоб відкрити його для огляду або дозволити ним користуватися.</CommandInstallDesc>
 
-  <!-- Trade beacon -->
+  
   <CommandMakeBeaconStockpileDesc>Створює в зоні діяльності маяка склад.</CommandMakeBeaconStockpileDesc>
   <CommandMakeBeaconStockpileLabel>Розмітити склад</CommandMakeBeaconStockpileLabel>
+
   
-  <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Створює ділянку навколо лампи</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Розмітити ділянку</CommandSunLampMakeGrowingZoneLabel>
 
-  <!-- Trap -->
+  
   <CommandAutoRearm>Автоматичне зведення</CommandAutoRearm>
   <CommandAutoRearmDesc>Якщо увімкнено, пастка після спрацювання буде автоматично помічатися для переозброєння.</CommandAutoRearmDesc>
+  
+  
+  <CommandReleaseAnimalsLabel>Release animals</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master.</CommandReleaseAnimalsDesc>
+  
   
 </LanguageData>

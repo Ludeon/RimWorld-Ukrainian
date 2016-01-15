@@ -3,8 +3,8 @@
 
 	<ClickToJumpToProblem>Натисніть, щоб перейти</ClickToJumpToProblem>
 
-	
-	
+  
+  
   <NeedSawmill>Потрібна пилорама</NeedSawmill>
   <NeedSawmillDesc>Потрібна пилорама для розпилювання дерев'яних колод на універсальні дошки.\n\nПобудуйте ручну або електричну пилораму.</NeedSawmillDesc>
 
@@ -17,7 +17,7 @@
   <ColonistNeedsRescue>Врятуйте колоніста!</ColonistNeedsRescue>
   <ColonistsNeedRescue>Потрібна допомога</ColonistsNeedRescue>
   <ColonistsNeedRescueDesc>Ці колоністи травмовані й лежать на землі:\n\n{0}\nВідправте якогось колоніста, щоб врятувати їх та перенести в ліжко.\n\n(Для того щоб врятувати колоніста оберіть іншого персонажа, натисніть правою копкою миші на постраждалому й оберіть "Врятувати").</ColonistsNeedRescueDesc>
- 
+
   <BuildARoom>Побудуйте житло</BuildARoom>
   <BuildARoomDesc>Воно має складатися з стін та дверей.\n\nСкористайтеся меню "Створити" у нижньому лівому куті екрану й оберіть місце для будівництва. Після того як план буде намічений, ваші колоністи якнайшвидше виконають цю работу.</BuildARoomDesc>
 
@@ -36,6 +36,10 @@
   <LowFood>Нестача їжі</LowFood>
   <LowFoodDesc>У вас на складі залишилось лише {0} одиниць їжі. Це надзвичайно низький рівень запасу.\n\nВиростіть, купіть, знайдіть їжу або вбийте кількох тварин.</LowFoodDesc>
 
+  <LowMedicine>Low medicine</LowMedicine>
+  <LowMedicineDesc>You only have {0} medications left in storage.\n\nBuy more medicine from traders.</LowMedicineDesc>
+  <NoMedicineDesc>You have no medicine left in storage.\n\nBuy more medicine from traders.</NoMedicineDesc>
+  
   <NeedColonistBeds>Не вистачає ліжок</NeedColonistBeds>
   <NeedColonistBedsDesc>В колонії більше громадян ніж місць для відпочивання. Деяким колоністам немає де спати.\n\nАбо розмістіть більше ліжок, або змініть тип ліжок обраних для в'язнів.\n\nЯкщо у вас немає ресурсів, можно скористуватися безкоштовними спальними мішками негайно поклавши їх на підлогу.</NeedColonistBedsDesc>
 
@@ -55,7 +59,7 @@
   <BuildingsNeedPower>Потрібна енергія</BuildingsNeedPower>
   <BuildingsNeedPowerDesc>Ці енергозалежні споруди повністю відключені від усіх джерел електроенергії:\n\n{0}\nПід'єднайте їх до генератору або до акумулятору.</BuildingsNeedPowerDesc>
   <AndMore>Та інше</AndMore>
-  
+
   <NeedMealSource>Потрібна готова їжа</NeedMealSource>
   <NeedMealSourceDesc>У вас немає способу отримання готової їжі.\n\nЗробіть автомат поживної пасти або кухонну плиту.\n\n(Вони мають знаходитися не в камері для в'язнів, інакше колоністи не зможуть ними користуватися)</NeedMealSourceDesc>
 
@@ -76,40 +80,37 @@
 
   <NeedResearchProject>Дослідження не призначене</NeedResearchProject>
   <NeedResearchProjectDesc>У вас є обладнання для проведення досліджень, але не обраний жодний проект.\n\nВідкрийте меню досліджень та оберіть проект.</NeedResearchProjectDesc>
-
+  
   <NeedDump>Потрібне звалище</NeedDump>
   <NeedDumpDesc>Ви відмітили {0} для переносу, але колоністам немає куди це прибрати.\n\nВкажіть склад та налаштуйте його параметри збереження так, щоб складувати {0}.</NeedDumpDesc>
 
-  <!-- Removed
-  <NeedGrave>Потрібна могила</NeedGrave>
-  <NeedGraveDesc>На землі лежить труп і вашим колоністам немає куди його віднести.\n\nВирийте могилу або позначте звалище та налаштуйте їх параметри відповідним чином.</NeedGraveDesc>
-  -->
   
+
   <ColonistsIdle>{0} байдикує</ColonistsIdle>
   <ColonistsIdleDesc>Ці колоністи тиняються без справи:\n\n{0}\nВам, можливо, слід знайти їм продуктивне заняття.</ColonistsIdleDesc>
 
-  <!-- Removed
-  <HaltedConstructions>Нестача будматеріалів для будівель: {0}</HaltedConstructions>
-  <HaltedConstructionsDesc>Для цих конструкцій відсутні матеріали:\n\n{0}\nВам, можливо, слід зробити відповідні матеріали доступними для колоністів.</HaltedConstructionsDesc>
-  -->
- 
+  
+  
   <ColonistNeedsTreatment>Потрібно лікування</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>Ці колоністи потребують лікування. Без медичної допомоги вони можуть померти від ран, або їх рани можуть стати невиліковними.\n\n{0}\nВилікуйте колоністів відправивши їх на лікування в мед. ліжка.\n\n(По-перше, призначте мед. ліжко. Для цього виділіть звичайне ліжко та перемкніть його у медичний режим. Потім виділіть пораненого колоніста і клацніть правою кнопкою миші на ліжку, щоб госпіталізувати колоніста в цьому ліжку)</ColonistNeedsTreatmentDesc>
 
   <AlertHypothermia>Переохолодження</AlertHypothermia>
   <AlertHypothermiaDesc>Ці колоністи страждають від переохолодження.\n\n{0}\nПереконайтеся, що їх одяг підходить для цього сезону, а приміщення опалюються належним чином.</AlertHypothermiaDesc>
-
+  
   <ColonistsAwaitingMedicalOperation>{0} колоністів очікують на мед. операцію</ColonistsAwaitingMedicalOperation>
   <ColonistsAwaitingMedicalOperationDesc>Ці колоністи очікують на медичну операцію:\n\n{0}\nПереконайтесь, що у вас є усі необхідні медичні інструменти та вільний лікар.</ColonistsAwaitingMedicalOperationDesc>
 
   <FireInHomeArea>Пожежа!</FireInHomeArea>
   <FireInHomeAreaDesc>Пожежа у домашній зоні.</FireInHomeAreaDesc>
- 
+
   <PawnsWithLifeThreateningDisease>Серйозні захворювання</PawnsWithLifeThreateningDisease>
   <PawnsWithLifeThreateningDiseaseDesc>Ці колоністи зазнають смертельного ризику через серйозне захворювання:\n\n{0}\nПереконайтесь, що вони отримають увесь можливий лікарський догляд.</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>Ці колоністи зазнають смертельного ризику через серйозне захворювання:\n\n{0}\nЯкщо можливо, подумайте щодо ампутації або заміні інфікованих кінцівок, щоб залишити колоністів у живих.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <BilliardsNeedsSpace>Більярду потрібно більше місця</BilliardsNeedsSpace>
   <BilliardsNeedsSpaceDesc>До одного з ваших більярдних столів неможливо підійти. Це перешкоджає його використанню колоністами.\n\nБільярдному столу потрібне вільне місце поряд для нормального використання.</BilliardsNeedsSpaceDesc>
-    
+
+  <HunterHasShieldAndRangedWeapon>Hunter has shield and ranged weapon</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeaponDesc>One of your hunters is using a ranged weapon and wearing a personal shield which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed.</HunterHasShieldAndRangedWeaponDesc>
+  
 </LanguageData>
