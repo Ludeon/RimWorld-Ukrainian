@@ -245,33 +245,29 @@
     <trans>Ця колонія продає в'язнів у рабство. Це тривожний сигнал.</trans>
   </rep>
 
-  <rep>
-    <path>KnowPrisonerExecuted.stages[0].label</path>
-    <trans>В'язня страчено</trans>
-  </rep>
-  <rep>
-    <path>KnowPrisonerExecuted.stages[0].description</path>
-    <trans>В'язень був страчений. Як на мене, ця колонія повна зла.</trans>
-  </rep>
+  <KnowGuestExecuted.stages.0.label>Хтось був піддваний евтаназії</KnowGuestExecuted.stages.0.label>
+  <KnowGuestExecuted.stages.0.description>Гостя або в'язня було піддано евтаназії.</KnowGuestExecuted.stages.0.description>
+  <KnowGuestExecuted.stages.1.label>Хтось був страчений</KnowGuestExecuted.stages.1.label>
+  <KnowGuestExecuted.stages.1.description>Гість або в'язень був страчений. Як на мене, ця колонія повна зла.</KnowGuestExecuted.stages.1.description>
+  <KnowGuestExecuted.stages.2.label>Хтось помер від операції</KnowGuestExecuted.stages.2.label>
+  <KnowGuestExecuted.stages.2.description>Гість чи в'язень помер, оскільки у нього вирізали орган. Це так жахливо.</KnowGuestExecuted.stages.2.description>
+  
+   <KnowColonistExecuted.stages.0.label>Колоніст був підданий евтаназії</KnowColonistExecuted.stages.0.label>
+  <KnowColonistExecuted.stages.0.description>Колоніста було піддано евтаназії.</KnowColonistExecuted.stages.0.description>
+  <KnowColonistExecuted.stages.1.label>Колоніст був страчений</KnowColonistExecuted.stages.1.label>
+  <KnowColonistExecuted.stages.1.description>Колоніст був страчений. Як на мене, ця колонія повна зла.</KnowColonistExecuted.stages.1.description>
+  <KnowColonistExecuted.stages.2.label>Колоніст помер від операції</KnowColonistExecuted.stages.2.label>
+  <KnowColonistExecuted.stages.2.description>Колоніст помер, оскільки у нього вирізали орган. Це так жахливо.</KnowColonistExecuted.stages.2.description>
+  
+  <KnowGuestOrganHarvested.stages.0.label>У когось забрано органо</KnowGuestOrganHarvested.stages.0.label>
+  <KnowGuestOrganHarvested.stages.0.description>У гостя або в'язня вирізають органи. Це так жахливо - знущатися та відбирати органи в тих, хто не має вибору.</KnowGuestOrganHarvested.stages.0.description>
 
-  <rep>
-    <path>KnowPrisonerOrganHarvested.stages[0].label</path>
-    <trans>У в'язня забрано орган</trans>
-  </rep>
-  <rep>
-    <path>KnowPrisonerOrganHarvested.stages[0].description</path>
-    <trans>У в'язнів вирізають органи. Це так жахливо - знущатися та відбирати органи в тих, хто не має вибору.</trans>
-  </rep>
-
-  <rep>
-    <path>MePrisonerOrganHarvested.stages[0].label</path>
-    <trans>Втратив орган</trans>
-  </rep>
-  <rep>
-    <path>MePrisonerOrganHarvested.stages[0].description</path>
-    <trans>Колоністи вирізали мені орган. Як вони наважилися! Я що їм старий двигун, що можна пустити на запчастини!</trans>
-  </rep>
-
+  <KnowColonistOrganHarvested.stages.0.label>У колоніста забрано органо</KnowColonistOrganHarvested.stages.0.label>
+  <KnowColonistOrganHarvested.stages.0.description>У колоністів вирізають органи. Це так жахливо - знущатися та відбирати органи в тих, хто не має вибору.</KnowColonistOrganHarvested.stages.0.description>
+  
+  <MyOrganHarvested.stages.0.label>Втратив орган</MyOrganHarvested.stages.0.label>
+  <MyOrganHarvested.stages.0.description>Колоністи вирізали мені орган. Як вони наважилися! Я що їм старий двигун, що можна пустити на запчастини!</MyOrganHarvested.stages.0.description>
+  
   <rep>
     <path>WasImprisoned.stages[0].label</path>
     <trans>Опинився за ґратами</trans>
@@ -316,16 +312,8 @@
     <path>GreenThumbHappy.stages[0].description</path>
     <trans>Більше рослин - саме це потрібно цьому світу!</trans>
   </rep>
-
-<!--
-	<PrisonerBeatenMild.label>Побитий тюремником</PrisonerBeatenMild.label>
-	<PrisonerBeatenMild.description>Тюремник щойно мене побив. В мене нічого не зламане, але... дідька б його! Як же боляче!</PrisonerBeatenMild.description>
-
-	<PrisonerBeatenVicious.label>Жорстоко побит тюремником</PrisonerBeatenVicious.label>
-	<PrisonerBeatenVicious.description>Тюремник задав мені прочуханки. Мало Богу душу не віддав...</PrisonerBeatenVicious.description>
--->
-
-  <rep>
+  
+    <rep>
     <path>Catharsis.stages[0].label</path>
     <trans>катарсис</trans>
   </rep>
@@ -333,5 +321,46 @@
     <path>Catharsis.stages[0].description</path>
     <trans>Що це було... Я наче сам не свій. Я переконаний, що здатен на набагато краще.</trans>
   </rep>
+  
+  <Nuzzled.stages.0.label>пестощі</Nuzzled.stages.0.label>
+  <Nuzzled.stages.0.description>Мила тваринка ткнулася своїм носом до моїх рук.</Nuzzled.stages.0.description>
+  
+  <SomeoneBuriedInSarcophagus.stages.0.label>хтось похований у саркофазі</SomeoneBuriedInSarcophagus.stages.0.label>
+  <SomeoneBuriedInSarcophagus.stages.0.description>Вони поховали когось в оздобленому саркофазі. Нехай його душа спочива з миром.</SomeoneBuriedInSarcophagus.stages.0.description>
+
+<!--
+	<PrisonerBeatenMild.label>Побитий тюремником</PrisonerBeatenMild.label>
+	<PrisonerBeatenMild.description>Тюремник щойно мене побив. В мене нічого не зламане, але... дідька б його! Як же боляче!</PrisonerBeatenMild.description>
+
+	<PrisonerBeatenVicious.label>Жорстоко побит тюремником</PrisonerBeatenVicious.label>
+	<PrisonerBeatenVicious.description>Тюремник задав мені прочуханки. Мало Богу душу не віддав...</PrisonerBeatenVicious.description>
+
+    <rep>
+    <path>KnowPrisonerExecuted.stages[0].label</path>
+    <trans>В'язня страчено</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerExecuted.stages[0].description</path>
+    <trans>В'язень був страчений. Як на мене, ця колонія повна зла.</trans>
+  </rep>
+
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].label</path>
+    <trans>У в'язня забрано орган</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerOrganHarvested.stages[0].description</path>
+    <trans>У в'язнів вирізають органи. Це так жахливо - знущатися та відбирати органи в тих, хто не має вибору.</trans>
+  </rep>
+
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].label</path>
+    <trans>Втратив орган</trans>
+  </rep>
+  <rep>
+    <path>MePrisonerOrganHarvested.stages[0].description</path>
+    <trans>Колоністи вирізали мені орган. Як вони наважилися! Я що їм старий двигун, що можна пустити на запчастини!</trans>
+  </rep>
+  -->
 
 </LanguageData>
