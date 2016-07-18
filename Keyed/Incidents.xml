@@ -17,14 +17,14 @@
 	<EnemyRaidWalkIn>Ворожі {0} з {1} розташувались поблизу.</EnemyRaidWalkIn>
 	<EnemyRaidEdgeDrop>Ворожі {0} з {1} висадилися з орбіти неподалік.</EnemyRaidEdgeDrop>
 	<EnemyRaidCenterDrop>Ворожі {0} з {1} висаджуються прямо на вашу колонію!</EnemyRaidCenterDrop>
-	<EnemyRaidLeaderPresent></EnemyRaidLeaderPresent>
+	<EnemyRaidLeaderPresent>{0} з {1} є лідером фракції.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
 
 	<FriendlyRaidWalkIn>Дружні {0} з {1} розташувались поблизу.</FriendlyRaidWalkIn>
 	<FriendlyRaidEdgeDrop>Дружні {0} з {1} висадилися з орбіти неподалік.</FriendlyRaidEdgeDrop>
 	<FriendlyRaidCenterDrop>Дружні {0} з {1} висаджуються прямо на вашу колонію!</FriendlyRaidCenterDrop>
-	<FriendlyRaidLeaderPresent></FriendlyRaidLeaderPresent>
+	<FriendlyRaidLeaderPresent>{0} з {1} є лідером фракції.</FriendlyRaidLeaderPresent>
 
 	<LetterLabelRefugeePodCrash>рятувальна капсула</LetterLabelRefugeePodCrash>
 	<RefugeePodCrash>Ви помітили рятувальну капсулу, що впала поблизу.\nЯкщо хтось пережив падіння, то йому знадобиться допомога.</RefugeePodCrash>
@@ -44,12 +44,12 @@
 
 	<LetterLabelSingleVisitorArrives>Гість</LetterLabelSingleVisitorArrives>
 	<SingleVisitorArrives>{0} з {1} відвідує вашу колонію.\n\nHISCAP звуть {2}.</SingleVisitorArrives>
-	<SingleVisitorArrivesTraderInfo></SingleVisitorArrivesTraderInfo>
-	<SingleVisitorArrivesLeaderInfo></SingleVisitorArrivesLeaderInfo>
+	<SingleVisitorArrivesTraderInfo>\n\nHECAP, здається, має деякі речі для продажу.</SingleVisitorArrivesTraderInfo>
+	<SingleVisitorArrivesLeaderInfo>\n\nHECAP є лідером фракції.</SingleVisitorArrivesLeaderInfo>
 	<LetterLabelGroupVisitorsArrive>Гості</LetterLabelGroupVisitorsArrive>
-	<GroupVisitorsArrive>Відвідувачі з {0} прийшли в колонію.</GroupVisitorsArrive>
-	<GroupVisitorsArriveTraderInfo></GroupVisitorsArriveTraderInfo>
-	<GroupVisitorsArriveLeaderInfo></GroupVisitorsArriveLeaderInfo>
+	<GroupVisitorsArrive>Відвідувачі з {0} прийшли у колонію.</GroupVisitorsArrive>
+	<GroupVisitorsArriveTraderInfo>\n\nЗдається, у них є дещо для продажу.</GroupVisitorsArriveTraderInfo>
+	<GroupVisitorsArriveLeaderInfo>\n\nОдин з відвідувачів (а саме - {0}) є лідером фракції.</GroupVisitorsArriveLeaderInfo>
 	<VisitorsLeaving>Гості з {0} йдуть геть.</VisitorsLeaving>
 
 	<LetterLabelWandererJoin>Мандрівник приєднався</LetterLabelWandererJoin>
@@ -79,10 +79,10 @@
   <!-- Distant psychic drone -->
 
 	<LetterLabelPsychicDrone>Психічний шторм</LetterLabelPsychicDrone>
-	<LetterIncidentPsychicDrone>Головний біль пронизує черепа ваших колоністів наче цвях!\n\nЯкийсь древній механізм нелюдського походження пробуджується. Випромінювання потужного психічного шторму пронизує цю місцевість. Наступні декілька днів настрій у деяких людей буде набагато гіршим.</LetterIncidentPsychicDrone>
+	<LetterIncidentPsychicDrone>Головний біль пронизує черепа ваших колоністів наче цвях!\n\nЯкийсь древній механізм нелюдського походження пробуджується. Випромінювання потужного психічного шторму пронизує цю місцевість. Наступні декілька днів настрій у деяких людей ({0}) буде набагато гіршим.</LetterIncidentPsychicDrone>
 
-	<LetterLabelPsychicSoothe></LetterLabelPsychicSoothe>
-	<LetterIncidentPsychicSoothe></LetterIncidentPsychicSoothe>
+	<LetterLabelPsychicSoothe>Пстхічне заспокоєння</LetterLabelPsychicSoothe>
+	<LetterIncidentPsychicSoothe>Хвиля блаженства накриває поселення!\n\nЯкийсь древній механізм нелюдського походження пробуджується. Його випромінювання пронизує цю місцевість. Наступні декілька днів настрій у деяких людей ({0}) буде дещо кращим.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
 
@@ -98,34 +98,34 @@
 
   <!-- Self-tame -->
 
-	<LetterLabelAnimalSelfTame></LetterLabelAnimalSelfTame>
-	<LetterAnimalSelfTame></LetterAnimalSelfTame>
-	<LetterAnimalSelfTameAndNameNumerical></LetterAnimalSelfTameAndNameNumerical>
-	<LetterAnimalSelfTameAndName></LetterAnimalSelfTameAndName>
+	<LetterLabelAnimalSelfTame>{0} одомашнився(лася)</LetterLabelAnimalSelfTame>
+	<LetterAnimalSelfTame>{0} прибився(лася) до поселення.</LetterAnimalSelfTame>
+	<LetterAnimalSelfTameAndNameNumerical>{0} прибився(лася) до поселення і отримав(ла) кличку {1}.</LetterAnimalSelfTameAndNameNumerical>
+	<LetterAnimalSelfTameAndName>{0} одомашнився(лася) і отримав(ла) від поселенців ім'я {1}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
 
-	<LetterLabelFarmAnimalsWanderIn></LetterLabelFarmAnimalsWanderIn>
-	<LetterFarmAnimalsWanderIn></LetterFarmAnimalsWanderIn>
+	<LetterLabelFarmAnimalsWanderIn>Тварини приєдналися</LetterLabelFarmAnimalsWanderIn>
+	<LetterFarmAnimalsWanderIn>Група з {0}, покинутих або загублених, опинилися у цій місцевості.\n\nСхоже, що вони звикли до людей і тому приєдналися до вашого поселення.</LetterFarmAnimalsWanderIn>
 
   <!-- Thrumbo passes -->
 
-	<LetterLabelThrumboPasses></LetterLabelThrumboPasses>
-	<LetterThrumboPasses></LetterThrumboPasses>
+	<LetterLabelThrumboPasses>Рідкісні трамбо</LetterLabelThrumboPasses>
+	<LetterThrumboPasses>Невелике стадо трамбо забрело у цю місцевість.\n\nЦі радкісні миролюбні істоти, тим не менш, є дуже небезпеченими для поселенців. Це є однією з причин того, що їхні роги та шкіра так цінуються.\n\nТрамбо підуть геть впродовж кількох днів.</LetterThrumboPasses>
 
   <!-- Trader caravan -->
 
-	<LetterLabelTraderCaravanArrival></LetterLabelTraderCaravanArrival>
-	<LetterTraderCaravanArrival></LetterTraderCaravanArrival>
+	<LetterLabelTraderCaravanArrival>Торговець із {0}</LetterLabelTraderCaravanArrival>
+	<LetterTraderCaravanArrival>Наближається торговий караван із {0}.\n\nВони пробудуть тут кілька днів, а потім рушать далі. Звісно, ви можете їх атакувати, але це викличе гнів їхньої фракції!</LetterTraderCaravanArrival>
 
   <!-- Building breaks down -->
 
-	<LetterLabelBuildingBrokenDown></LetterLabelBuildingBrokenDown>
-	<LetterBuildingBrokenDown></LetterBuildingBrokenDown>
+	<LetterLabelBuildingBrokenDown>Поломка: {0}</LetterLabelBuildingBrokenDown>
+	<LetterBuildingBrokenDown>Один із ваших механізмів ({0}) вийшов з ладу. Він не буде працювати, доки поселенець, який виконує ремонт, не відремонтує його.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-	<RansomDemand></RansomDemand>
-	<RansomDemand_Accept></RansomDemand_Accept>
-	<RansomDemand_Reject></RansomDemand_Reject>
+	<RansomDemand>{1} викликають вас по раді. У них у полоні колишній поселенець {0}.\n\nВони відпустять HIM на волю в обмін на {2} срібла.</RansomDemand>
+	<RansomDemand_Accept>Прийняти</RansomDemand_Accept>
+	<RansomDemand_Reject>Відхилити</RansomDemand_Reject>
   
 </LanguageData>
