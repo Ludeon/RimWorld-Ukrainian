@@ -1,65 +1,75 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <Autosaving>Автозапис</Autosaving>
+	<Autosaving>Автозапис</Autosaving>
+
+	<GameStartDialog>Ви троє прокинулись у своїх капсулах крипто сну під звуки сирени та скрегіт металу. Тільки ви встигли добратися до рятівних капсул, як корабель розвалився на шматки.\n\nДеякий час потому ви приземлилися на цю невідому планету Rimworld.\n\nПід дощем із шматків корабля ви починаєте будувати нове життя.</GameStartDialog>
+
+	<Colony>колонії</Colony>
+
+	<ChangeLanguageFromMainMenu>Мову можна змінити лише у головному меню.</ChangeLanguageFromMainMenu>
+
+	<AndLower>та</AndLower>
+	<DisabledLower>недоступно</DisabledLower>
+
+	<CloseButton>Закрити</CloseButton>
+
+	<VersionIndicator>Версія {0}</VersionIndicator>
+	<DevelopmentBuildLower>тільки для тестувальників</DevelopmentBuildLower>
+	<CompiledOn>Збірка від {0}</CompiledOn>
+	<LoggedIntoSteamAs></LoggedIntoSteamAs>
+
+  <!-- General-use words -->
+	<Yes>Так</Yes>
+	<No>Ні</No>
+	<min>мін</min>
+	<max>макс</max>
+	<chance>імовірність</chance>
+	<context>обстановка</context>
+	<multiplier>коефіцієнт</multiplier>
+	<damage>шкода</damage>
+	<radius>радіус</radius>
+	<durationDays>тривалість (днів)</durationDays>
   
-  <GameStartDialog>Ви троє прокинулись у своїх капсулах крипто сну під звуки сирени та скрегіт металу. Тільки ви встигли добратися до рятівних капсул, як корабель розвалився на шматки.\n\nДеякий час потому ви приземлилися на цю невідому планету Rimworld.\n\nПід дощем із шматків корабля ви починаєте будувати нове життя.</GameStartDialog>
+  <!-- Content generation -->
 
-  <Colony>колонії</Colony> 
-  
-  <ChangeLanguageFromMainMenu>Мову можна змінити лише у головному меню.</ChangeLanguageFromMainMenu>
+	<MeatLabel>{0} м'ясо</MeatLabel>
+	<MeatDesc>Сире м'ясо {0}.</MeatDesc>
 
-  <AndLower>та</AndLower>
-  <DisabledLower>недоступно</DisabledLower>
-
-  <CloseButton>Закрити</CloseButton>
-
-  
-  <VersionIndicator>Версія {0}</VersionIndicator>
-  <DevelopmentBuildLower>тільки для тестувальників</DevelopmentBuildLower>
-  <CompiledOn>Збірка від {0}</CompiledOn>
-
-  
-  
-  <!-- Content generation-->
-
-  <MeatLabel>{0} м'ясо</MeatLabel>
-  <MeatDesc>Сире м'ясо {0}.</MeatDesc>
-
-  <LeatherLabel>Шкіра {0}</LeatherLabel>
-  <LeatherDesc>Шкіра, вироблена з шкури {0}.</LeatherDesc>
+	<LeatherLabel>Шкіра {0}</LeatherLabel>
+	<LeatherDesc>Шкіра, вироблена з шкури {0}.</LeatherDesc>
 
 	<CorpseLabel>{0} тіло</CorpseLabel>
 	<CorpseDesc>Мертве тіло {0}.</CorpseDesc>
-  <DeadLabel>{0} (мертвий)</DeadLabel>
+	<DeadLabel>{0} (мертвий)</DeadLabel>
 
-  <RoughStoneTerrainLabel>грубий {0}</RoughStoneTerrainLabel>
-  <RoughStoneTerrainDesc>Груба поверхня. Натуральний, необроблений {0}.</RoughStoneTerrainDesc>
-  <RoughHewnStoneTerrainLabel>неотесаний {0}</RoughHewnStoneTerrainLabel>
-  <RoughHewnStoneTerrainDesc>Невідшліфована поверхня. Видобутий, але не полірований {0}.</RoughHewnStoneTerrainDesc>
-  <SmoothStoneTerrainLabel>згладжений {0}</SmoothStoneTerrainLabel>
-  <SmoothStoneTerrainDesc>Згладжена, блискуча поверхня з натурального {0}.</SmoothStoneTerrainDesc>
+	<RoughStoneTerrainLabel>грубий {0}</RoughStoneTerrainLabel>
+	<RoughStoneTerrainDesc>Груба поверхня. Натуральний, необроблений {0}.</RoughStoneTerrainDesc>
+	<RoughHewnStoneTerrainLabel>неотесаний {0}</RoughHewnStoneTerrainLabel>
+	<RoughHewnStoneTerrainDesc>Невідшліфована поверхня. Видобутий, але не полірований {0}.</RoughHewnStoneTerrainDesc>
+	<SmoothStoneTerrainLabel>згладжений {0}</SmoothStoneTerrainLabel>
+	<SmoothStoneTerrainDesc>Згладжена, блискуча поверхня з натурального {0}.</SmoothStoneTerrainDesc>
 
-<!--
-  <SmoothStone.label>Згладжений камінь</SmoothStone.label>
-  <SmoothStone.description>Вирівняний натуральний камінь. По ньому можно швидко ходити та виглядає непогано.</SmoothStone.description>
+	<BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
+	<FrameLabelExtra> (будівництво)</FrameLabelExtra>
 
-  <RoughHewnRock.label>Неотесана гірська порода</RoughHewnRock.label>
--->
-
-  <BlueprintLabelExtra> (проект)</BlueprintLabelExtra>
-  <FrameLabelExtra> (будівництво)</FrameLabelExtra>
-
-  
   <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->  
-  <ThingMadeOfStuffLabel>{1} з {0}</ThingMadeOfStuffLabel>
 
-  <VariousLabel>(різноманітне)</VariousLabel>
-  
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+
+	<ThingMadeOfStuffLabel>{1} з {0}</ThingMadeOfStuffLabel>
+
+  <!-- To express ownership. -->
+
+  <!-- For example Jack's Bedroom -->
+
+	<SomeonesRoom>{1} у власності {0}</SomeonesRoom>
+	<CouplesRoom>{2} {0} та {1}</CouplesRoom>
+
+	<VariousLabel>(різноманітне)</VariousLabel>
+
   <!-- History events -->
-  <ColonistDied>Колоніст загинув</ColonistDied>
-  
-  
-  
+
+	<ColonistDied>Колоніст загинув</ColonistDied>
+
 </LanguageData>
