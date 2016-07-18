@@ -1,88 +1,147 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Various -->
-  <WorkLeft>Роботи залишилось</WorkLeft>
-  <Contents>Містить</Contents>
-  <ContainedResources>Складові частини</ContainedResources>
-  <ForPrisonerUse>Для в'язнів</ForPrisonerUse>
-  <ForColonistUse>Для колоністів</ForColonistUse>
-  <MedicalBed>Для хворих</MedicalBed>
-  <Owner>Власник</Owner>
-  <Nobody>ніхто</Nobody>
-  <Unowned>Нічия</Unowned>
-  <DeadTime>Мертвий вже {0}</DeadTime>
-  <WalkSpeed>швидкість {0}</WalkSpeed>
-  <DyingLower>вмирає</DyingLower>
-  <FilthOnFeet>Бруд на ногах:</FilthOnFeet>
-  <NotEnoughStoredLower>недостатньо</NotEnoughStoredLower>
-  <NothingLower>нічого</NothingLower>
-  <Adapted>Придатний</Adapted>
-  <Headshot>У голову</Headshot>
-  <FreshMissingBodyPart>свіже</FreshMissingBodyPart>
-  <UntreatedLower>потребує лікування</UntreatedLower>
-  <DevelopedImmunityLower>має імунітет</DevelopedImmunityLower>
-  <InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
-  <NextTreatmentIn>Наступний сеанс лікування за {0}</NextTreatmentIn>
-  <MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
-  <Immunity>Імунітет</Immunity>
-  <Race>Раса</Race>
-  <Description>Докладний опис</Description>
-  <Equipment>Спорядження</Equipment>
-  <Apparel>Одяг</Apparel>
-  <Inventory>Інвентар</Inventory>
-  <ThingInfo>Інформація</ThingInfo>
-  <DropThing>Викинути</DropThing>
-  <Rename>Перейменувати</Rename>
-  <RenameColonist>Перейменувати колоніста</RenameColonist>
-  <UnknownLower>невідомо</UnknownLower>
-  <On>Увімк.</On>
-  <Off>Вимк.</Off>
-  <PowerSwitch_Power>Живлення</PowerSwitch_Power>
-  <JoyTolerances>Наскучило</JoyTolerances>
-  <BrokenLetterLabel>Зламаний</BrokenLetterLabel>
-  <AreaDefaultLabel>Зона {0}</AreaDefaultLabel>
-  <NoAreaAllowed>Необмежений</NoAreaAllowed>
-  <NewArea>Нова зона</NewArea>
-  <InvertArea>Інвертувати</InvertArea>
+
+	<WorkLeft>Роботи залишилось</WorkLeft>
+	<Contents>Містить</Contents>
+	<ContainedResources>Складові частини</ContainedResources>
+	<ForPrisonerUse>Для в'язнів</ForPrisonerUse>
+	<ForColonistUse>Для колоністів</ForColonistUse>
+	<MedicalBed>Для хворих</MedicalBed>
+	<Owner>Власник</Owner>
+	<Owners></Owners>
+	<AssignedColonist></AssignedColonist>
+	<Nobody>ніхто</Nobody>
+	<Unowned>Нічия</Unowned>
+	<DeadTime>Мертвий вже {0}</DeadTime>
+	<WalkSpeed>швидкість {0}</WalkSpeed>
+	<FertShort></FertShort>
+	<DyingLower>вмирає</DyingLower>
+	<FilthOnFeet>Бруд на ногах:</FilthOnFeet>
+	<NotEnoughStoredLower>недостатньо</NotEnoughStoredLower>
+	<NothingLower>нічого</NothingLower>
+	<Adapted>Придатний</Adapted>
+	<FreshMissingBodyPart>свіже</FreshMissingBodyPart>
+	<UntreatedLower>потребує лікування</UntreatedLower>
+	<DevelopedImmunityLower>має імунітет</DevelopedImmunityLower>
+	<InjuryRequiresTreatment>потребує лікування щоб зцілитися</InjuryRequiresTreatment>
+	<NextTreatmentIn>Наступний сеанс лікування за {0}</NextTreatmentIn>
+	<MissingMedicalBillIngredient>немає {0}</MissingMedicalBillIngredient>
+	<Immunity>Імунітет</Immunity>
+	<Race>Раса</Race>
+	<Description>Докладний опис</Description>
+	<Equipment>Спорядження</Equipment>
+	<Apparel>Одяг</Apparel>
+	<Inventory>Інвентар</Inventory>
+	<ThingInfo>Інформація</ThingInfo>
+	<DropThing>Викинути</DropThing>
+	<Rename>Перейменувати</Rename>
+	<RenameColonist>Перейменувати колоніста</RenameColonist>
+	<UnknownLower>невідомо</UnknownLower>
+	<On>Увімк.</On>
+	<Off>Вимк.</Off>
+	<PowerSwitch_Power>Живлення</PowerSwitch_Power>
+	<JoyTolerances>Наскучило</JoyTolerances>
+	<MilkFullness></MilkFullness>
+	<WoolGrowth></WoolGrowth>
+	<EggProgress></EggProgress>
+	<Fertilized></Fertilized>
+	<ProgressStoppedUntilFertilized></ProgressStoppedUntilFertilized>
+	<SkillTooLow></SkillTooLow>
+	<EggDamagedEmbryo></EggDamagedEmbryo>
+	<CorpsePercentMissing></CorpsePercentMissing>
+	<HiveReproducesIn></HiveReproducesIn>
+	<BrokenDown></BrokenDown>
+	<BondBrackets></BondBrackets>
+	<Fuel></Fuel>
+	<Enemies></Enemies>
+	<TimePassed></TimePassed>
+	<CurrentRadius></CurrentRadius>
+	<RadiusExpandsIn></RadiusExpandsIn>
+	<Permanent></Permanent>
+
+  <!-- TextMotes -->
+
+	<Headshot>У голову</Headshot>
+	<TreatQuality></TreatQuality>
+	<PoorResult></PoorResult>
+	<GoodResult></GoodResult>
+	<TextMote_TreatSuccess></TextMote_TreatSuccess>
+	<TextMote_TreatFailed></TextMote_TreatFailed>
+	<HarvestFailed></HarvestFailed>
+	<TextMote_RecruitFail></TextMote_RecruitFail>
+	<TextMote_TameFail></TextMote_TameFail>
+	<TextMote_TameSuccess></TextMote_TameSuccess>
+	<TextMote_TrainFail></TextMote_TrainFail>
+	<TextMote_TrainSuccess></TextMote_TrainSuccess>
+	<TextMote_FixBrokenDownBuildingFail></TextMote_FixBrokenDownBuildingFail>
+	<TextMote_ConstructionFail></TextMote_ConstructionFail>
+
+  <!-- Areas -->
+
+	<Home></Home>
+	<BuildRoof></BuildRoof>
+	<NoRoof></NoRoof>
+	<SnowClear></SnowClear>
+	<AreaDefaultLabel>Зона {0}</AreaDefaultLabel>
+	<AreaAnimalDefaultLabel></AreaAnimalDefaultLabel>
+	<NoAreaAllowed>Необмежений</NoAreaAllowed>
+	<NewArea>Нова зона</NewArea>
+	<NewAreaAnimal></NewAreaAnimal>
+	<InvertArea>Інвертувати</InvertArea>
 
   <!-- Control -->
-  <CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним істотам.</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{0} нездатний до насильства.</IsIncapableOfViolence>
-  <IsNotDrafted>{0} не призваний до бою.</IsNotDrafted>
+
+	<CannotOrderNonControlled>Неможливо віддати наказ непідконтрольним істотам.</CannotOrderNonControlled>
+	<IsIncapableOfViolence>{0} нездатний до насильства.</IsIncapableOfViolence>
+	<IsIncapableOfViolenceShort></IsIncapableOfViolenceShort>
+	<IsNotDrafted>{0} не призваний до бою.</IsNotDrafted>
 
   <!-- Snow -->
-  <SnowNone>Немає снігу</SnowNone>
-  <SnowDusting>Іній</SnowDusting>
-  <SnowThin>Сніг (легкий)</SnowThin>
-  <SnowMedium>Сніг (середній)</SnowMedium>
-  <SnowThick>Сніг (товстий)</SnowThick>
+
+	<SnowNone>Немає снігу</SnowNone>
+	<SnowDusting>Іній</SnowDusting>
+	<SnowThin>Сніг (легкий)</SnowThin>
+	<SnowMedium>Сніг (середній)</SnowMedium>
+	<SnowThick>Сніг (товстий)</SnowThick>
 
   <!-- Turrets -->
-  <GunInstalled>Встановлено</GunInstalled>
-  <MinimumRange>Мінімальна дальність</MinimumRange>
-  <CanFireIn>Перезарядка ще</CanFireIn>
-  <ShellLoaded>Заряджено</ShellLoaded>
-  <ShellNotLoaded>Не заряджено</ShellNotLoaded>
+
+	<GunInstalled>Встановлено</GunInstalled>
+	<MinimumRange>Мінімальна дальність</MinimumRange>
+	<CanFireIn>Перезарядка ще</CanFireIn>
+	<ShellLoaded>Заряджено</ShellLoaded>
+	<ShellNotLoaded>Не заряджено</ShellNotLoaded>
 
   <!-- Job reports -->
+
 	<ReportHaulingTo>Несе {0} до {1}.</ReportHaulingTo>
 	<ReportHauling>Несе {0}.</ReportHauling>
-  <ReportSleeping>Спить.</ReportSleeping>
-  <ReportResting>Відпочиває.</ReportResting>
-  <WatchingSunrise>Дивиться на схід сонця</WatchingSunrise>
-  <CloudWatching>Задивився на хмари</CloudWatching>
-  <WatchingSunset>Спостерігає захід сонця</WatchingSunset>
-  <Stargazing>Рахує зорі</Stargazing>
-  <WatchingEclipse>Спостерігає затемнення</WatchingEclipse>
-  <DeliveringFood>Несе їжу до {0}.</DeliveringFood>
-  <UsingVerb>MOCK_Using {0} on {1}.</UsingVerb>
-  <AreaLower>зона</AreaLower>
+	<ReportSleeping>Спить.</ReportSleeping>
+	<ReportResting>Відпочиває.</ReportResting>
+	<WatchingSunrise>Дивиться на схід сонця</WatchingSunrise>
+	<CloudWatching>Задивився на хмари</CloudWatching>
+	<WatchingSunset>Спостерігає захід сонця</WatchingSunset>
+	<Stargazing>Рахує зорі</Stargazing>
+	<WatchingEclipse>Спостерігає затемнення</WatchingEclipse>
+	<UsingVerb>MOCK_Using {0} on {1}.</UsingVerb>
+	<AreaLower>зона</AreaLower>
+	<ReportCowering></ReportCowering>
+	<ReportStanding></ReportStanding>
+	<ReportExtinguishingFire></ReportExtinguishingFire>
+	<ReportExtinguishingFireOn></ReportExtinguishingFireOn>
   
-	<!-- Shooting report -->
-  <WeaponMissRadius>Розліт снарядів</WeaponMissRadius>
+  <!-- Lord job reports -->
+	<LordReportAttendingMarriageCeremony></LordReportAttendingMarriageCeremony>
+	<LordReportAttendingParty></LordReportAttendingParty>
+
+  <!-- Shooting report -->
+
+	<WeaponMissRadius>Розліт снарядів</WeaponMissRadius>
 	<ShootReportShooterAbility>Стрілок</ShootReportShooterAbility>
 	<ShootReportWeapon>Зброя</ShootReportWeapon>
+	<RangeSlashEquipment></RangeSlashEquipment>
 	<Darkness>Темрява</Darkness>
 	<TargetProne>Сприйнятливість</TargetProne>
 	<TargetSize>Розмір цілі</TargetSize>
@@ -90,201 +149,271 @@
 	<ShootingCover>Укриття</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} блокує {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>немає укриття</NoCoverLower>
+	<Execution></Execution>
 
   <!-- Generated recipes -->
-  <RecipeMake>Зробити {0}</RecipeMake>
-  <RecipeMakeJobString>Робить {0}.</RecipeMakeJobString>
-  
+
+	<RecipeMake>Зробити {0}</RecipeMake>
+	<RecipeMakeJobString>Робить {0}.</RecipeMakeJobString>
+
   <!-- Thoughts -->
-  <ThoughtExpiresIn>Зникне за: {0}</ThoughtExpiresIn>
-  <ThoughtStartsExpiringIn>Почне зникати за: {0}</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>Закінчиться за: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdHard>Критичний поріг зриву</MentalBreakThresholdHard>
-  <MentalBreakThresholdSoft>Поріг стресу</MentalBreakThresholdSoft>
+
+	<ThoughtExpiresIn>Зникне за: {0}</ThoughtExpiresIn>
+	<ThoughtStartsExpiringIn>Почне зникати за: {0}</ThoughtStartsExpiringIn>
+	<ThoughtFinishesExpiringIn>Закінчиться за: {0}</ThoughtFinishesExpiringIn>
+	<MentalBreakThresholdExtreme></MentalBreakThresholdExtreme>
+	<MentalBreakThresholdMajor></MentalBreakThresholdMajor>
+	<MentalBreakThresholdMinor></MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <hitPoints>Здоров'я</hitPoints>
-  <PawnMainDescWithFactionGendered>{0} {1} з {2}</PawnMainDescWithFactionGendered>
-  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-  <PawnMainDescWithFactionGenderless>{0} з {1}</PawnMainDescWithFactionGenderless>
-  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
-  <Faction>Фракція</Faction>
-  <Equipped>Озброєний</Equipped>
-  <EquippedNothing>Неозброєний</EquippedNothing>
-  <Incapacitated>Покалічений</Incapacitated>
-  <InRestraints>У полоні (заарештований)</InRestraints>
-  <Carrying>Переносить</Carrying>
+
+	<PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+	<PawnMainDescFactionedWrap></PawnMainDescFactionedWrap>
+	<PawnMainDescLifestageWrap></PawnMainDescLifestageWrap>
+	<Faction>Фракція</Faction>
+	<Equipped>Озброєний</Equipped>
+	<EquippedNothing>Неозброєний</EquippedNothing>
+	<Incapacitated>Покалічений</Incapacitated>
+	<InRestraints>У полоні (заарештований)</InRestraints>
+	<Carrying>Переносить</Carrying>
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Обрати іншу річ на тій самій клітці.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітці знову і знову.</SelectNextInSquareTip>
-  <DefInfoTip>Подивитися інформацію про цей об'єкт.</DefInfoTip>
 
-	<!-- like 'Blood of John' -->
+	<SelectNextInSquareTip>Обрати іншу річ на тій самій клітці.\n\nКлавіша: {0}\n\nВи також можете зробити це повільно натискаючи по тій самій клітці знову і знову.</SelectNextInSquareTip>
+	<DefInfoTip>Подивитися інформацію про цей об'єкт.</DefInfoTip>
+
+  <!-- Hostility response -->
+
+	<HostilityReponseTip></HostilityReponseTip>
+	<HostilityResponseCurrentMode></HostilityResponseCurrentMode>
+
+  <!-- like 'Blood of John' -->
+
 	<OfLower></OfLower>
 
-	<!-- Power readout -->
+  <!-- Power readout -->
+
 	<PowerNotConnected>Не під'єднано до електромережі.</PowerNotConnected>
-  <PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} Вт / {1} Вт·д</PowerConnectedRateStored>
-  <PowerNeeded>Потужність, що споживається</PowerNeeded>
-  <PowerOutput>Потужність, що постачається</PowerOutput>
-  <PowerBatteryStored>Заряд</PowerBatteryStored>
-  <PowerBatteryEfficiency>ККД</PowerBatteryEfficiency>
+	<PowerConnectedRateStored>Потужність мережі під'єднана/накопичена: {0} Вт / {1} Вт·д</PowerConnectedRateStored>
+	<PowerNeeded>Потужність, що споживається</PowerNeeded>
+	<PowerOutput>Потужність, що постачається</PowerOutput>
+	<PowerBatteryStored>Заряд</PowerBatteryStored>
+	<PowerBatteryEfficiency>ККД</PowerBatteryEfficiency>
 
   <!-- Temperature control -->
-  <TargetTemperature>Бажана температура</TargetTemperature>
-  <PowerConsumptionMode>Споживання енергії</PowerConsumptionMode>
-  <PowerConsumptionHigh>Високе</PowerConsumptionHigh>
-  <PowerConsumptionLow>Низьке</PowerConsumptionLow>
-  
-  <!-- Temperature readout -->
-  <Indoors>Усередині</Indoors>
-  <IndoorsUnroofed>Без даху</IndoorsUnroofed>
-  <Outdoors>Назовні</Outdoors>
-  
-	<!--Rotting-->
-  <RotStateFresh>Свіже</RotStateFresh>
-  <RotStateRotting>Гниюче</RotStateRotting>
-  <RotStateDessicated>Засохле</RotStateDessicated>
-	
-  <!-- Shooting tooltip -->
-  <ShotBy>{0} стрілятиме</ShotBy>
-  <CannotHit> не може влучити в ціль.</CannotHit><!-- необходим лидирующий пробел для читаемости -->
 
-  <!-- Storage priority labels -->
-  <StoragePriorityUnstored>не використовується</StoragePriorityUnstored>
-  <StoragePriorityLow>низький</StoragePriorityLow>
-  <StoragePriorityNormal>звичайний</StoragePriorityNormal>
-  <StoragePriorityPreferred>підвищений</StoragePriorityPreferred>
-  <StoragePriorityImportant>високий</StoragePriorityImportant>
-  <StoragePriorityCritical>максимальний</StoragePriorityCritical>
+	<TargetTemperature>Бажана температура</TargetTemperature>
+	<PowerConsumptionMode>Споживання енергії</PowerConsumptionMode>
+	<PowerConsumptionHigh>Високе</PowerConsumptionHigh>
+	<PowerConsumptionLow>Низьке</PowerConsumptionLow>
+
+  <!-- Temperature readout -->
+
+	<Indoors>Усередині</Indoors>
+	<IndoorsUnroofed>Без даху</IndoorsUnroofed>
+	<Outdoors>Назовні</Outdoors>
 
   <!-- Rotting -->
-  <CurrentlyFrozen>Заморожено (не зіпсується)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>Охолоджується (Зіпсується за {0})</CurrentlyRefrigerated>
-  <NotRefrigerated>Не охолоджується (Зіпсується за {0})</NotRefrigerated>
-  <OverADecade>Понад десятиліття</OverADecade>
+
+	<RotStateFresh>Свіже</RotStateFresh>
+	<RotStateRotting>Гниюче</RotStateRotting>
+	<RotStateDessicated>Засохле</RotStateDessicated>
+
+  <!-- Shooting tooltip -->
+
+	<ShotBy>{0} стрілятиме</ShotBy>
+	<CannotHit></CannotHit>
+
+  <!-- Rotting -->
+
+	<CurrentlyFrozen>Заморожено (не зіпсується)</CurrentlyFrozen>
+	<CurrentlyRefrigerated>Охолоджується (Зіпсується за {0})</CurrentlyRefrigerated>
+	<NotRefrigerated>Не охолоджується (Зіпсується за {0})</NotRefrigerated>
+	<OverADecade>Понад десятиліття</OverADecade>
+	<LessThanADay></LessThanADay>
 
   <!-- Meal -->
-  <Ingredients>Інгредієнти</Ingredients>
+
+	<Ingredients>Інгредієнти</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>Виросло на {0}.</PercentGrowth>
-  <GrowthRate>Швидкість росту</GrowthRate>
-  <FullyGrownIn>Виросте за {0}.</FullyGrownIn>
-  <PlantNeedsLightLevel>Потрібний рівень світла</PlantNeedsLightLevel>
-  <PlantResting>Не росте (спить).</PlantResting>
-  <OutOfIdealTemperatureRange>Неоптимальна температура (швидк. росту {0}%)</OutOfIdealTemperatureRange>
-  <OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
-  <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
-  <Mature>Повністю виросло.</Mature>
-  <SeedLabel>насіння {0}</SeedLabel>
-  <OutdoorGrowingPeriod>Сезон росту: {0}</OutdoorGrowingPeriod>
-  <NoGrowingPeriod>Ніколи</NoGrowingPeriod>
-  <GrowYearRound>Увесь рік</GrowYearRound>
-  <GrowSeasonHereNow>Сезон росту.</GrowSeasonHereNow>
-  <CannotGrowTooCold>Ріст неможливий - занадто холодно.</CannotGrowTooCold>
+
+	<PercentGrowth>Виросло на {0}.</PercentGrowth>
+	<GrowthRate>Швидкість росту</GrowthRate>
+	<FullyGrownIn>Виросте за {0}.</FullyGrownIn>
+	<PlantNeedsLightLevel>Потрібний рівень світла</PlantNeedsLightLevel>
+	<PlantResting>Не росте (спить).</PlantResting>
+	<OutOfIdealTemperatureRange>Неоптимальна температура (швидк. росту {0}%)</OutOfIdealTemperatureRange>
+	<OutOfIdealTemperatureRangeNotGrowing>Поза зоною необхідної для росту температури (не росте)</OutOfIdealTemperatureRangeNotGrowing>
+	<ReadyToHarvest>Можна збирати.</ReadyToHarvest>
+	<Mature>Повністю виросло.</Mature>
+	<SeedLabel>насіння {0}</SeedLabel>
+	<OutdoorGrowingPeriod>Сезон росту: {0}</OutdoorGrowingPeriod>
+	<NoGrowingPeriod>Ніколи</NoGrowingPeriod>
+	<GrowYearRound>Увесь рік</GrowYearRound>
+	<GrowSeasonHereNow>Сезон росту.</GrowSeasonHereNow>
+	<CannotGrowTooCold>Ріст неможливий - занадто холодно.</CannotGrowTooCold>
 
   <!-- Zones -->
-  <Zone>зона</Zone>
-  <GrowingZone>ділянка</GrowingZone>
-  <Stockpile>склад</Stockpile>
-  <DumpingStockpile>звалище</DumpingStockpile>
-  <Priority>пріоритет</Priority>
-  <ClearAll>скинути все</ClearAll>
-  <AllowAll>дозволити все</AllowAll>
+
+	<Zone>зона</Zone>
+	<GrowingZone>ділянка</GrowingZone>
+	<Stockpile>склад</Stockpile>
+	<DumpingStockpile>звалище</DumpingStockpile>
+	<Priority>пріоритет</Priority>
+	<ClearAll>скинути все</ClearAll>
+	<AllowAll>дозволити все</AllowAll>
 
   <!-- ThingFilter -->
-  <HitPoints>стан {0}</HitPoints>
-  <AnyQuality>будь яка якість</AnyQuality>
-  <OnlyQuality>лише {0}</OnlyQuality>
-  
+
+	<HitPoints>стан {0}</HitPoints>
+	<AnyQuality>будь яка якість</AnyQuality>
+	<OnlyQuality>лише {0}</OnlyQuality>
+
   <!-- Mouseover indicator -->
-  <Undiscovered>Не розвідано</Undiscovered>
-  
+
+	<Undiscovered>Не розвідано</Undiscovered>
+
   <!-- Buttons -->
-  <ZoneVisibilityToggleButton>Перемикач підсвічування зон.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Перемикач покажчика краси.\n\nПоказує красу середовища, так як її сприймає персонаж, що стоїть там, куди вказує курсор миші.</ShowBeautyToggleButton>
-  <AutoHomeRegionToggleButton>Перемикач автоматичного поширення жилої зони навколо нових будівель.</AutoHomeRegionToggleButton>
-  <CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
+
+	<ZoneVisibilityToggleButton>Перемикач підсвічування зон.</ZoneVisibilityToggleButton>
+	<ShowBeautyToggleButton>Перемикач покажчика краси.\n\nПоказує красу середовища, так як її сприймає персонаж, що стоїть там, куди вказує курсор миші.</ShowBeautyToggleButton>
+	<ShowRoomStatsToggleButton></ShowRoomStatsToggleButton>
+	<ShowColonistBarToggleButton></ShowColonistBarToggleButton>
+	<AutoHomeAreaToggleButton></AutoHomeAreaToggleButton>
+	<CategorizedResourceReadoutToggleButton>Перемикач відображення кількості ресурсів на складах.</CategorizedResourceReadoutToggleButton>
+	<ShowAnimalNamesToggleButton></ShowAnimalNamesToggleButton>
 
   <!-- Fire -->
-  <Fire>Вогонь</Fire>
-  <FireOn>Вогонь на {0}</FireOn>
-  <Burning>Горить</Burning>
-  <FireSizeLower>розмір вогню {0}</FireSizeLower>
-  
-  <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>Особливі умови, що впливають на місцевість у даний час.</MapConditionsTip>
 
-  <!-- Building placement -->
-  <NoStuffsToBuildWith>У вас немає матеріалів, з яких це можно побудувати.</NoStuffsToBuildWith>
+	<Fire>Вогонь</Fire>
+	<FireOn>Вогонь на {0}</FireOn>
+	<Burning>Горить</Burning>
+	<FireSizeLower>розмір вогню {0}</FireSizeLower>
+
+  <!-- Map conditions (eclipse, solar flare, etc ) -->
+
+	<MapConditionsTip>Особливі умови, що впливають на місцевість у даний час.</MapConditionsTip>
+	<TimeLeft></TimeLeft>
+	<ImpactDate></ImpactDate>
   
+  <!-- Building placement -->
+
+	<NoStuffsToBuildWith>У вас немає матеріалів, з яких це можно побудувати.</NoStuffsToBuildWith>
+
   <!-- Building placement restricters -->
-  <MustPlaceUnroofed>Не може бути розміщено под дахом.</MustPlaceUnroofed>
-  <MustPlaceHeadOnShipBeam>Повинне бути розміщеним поряд з силовим елементом корабля.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Повинен бути розміщений поряд з автоматом поживної пасти.</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзері.</MustPlaceOnSteamGeyser>
-  <MustPlaceCoolerWithFreeSpaces>Має бути відкритим з обох сторон</MustPlaceCoolerWithFreeSpaces>
-  <MustPlaceVentWithFreeSpaces>Має бути відкритим щоб пропускати повітря.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Має бути доступним з усіх сторон.</MustPlaceAdjacentStandable>
+
+	<MustPlaceUnroofed>Не може бути розміщено под дахом.</MustPlaceUnroofed>
+	<MustPlaceHeadOnShipBeam>Повинне бути розміщеним поряд з силовим елементом корабля.</MustPlaceHeadOnShipBeam>
+	<MustPlaceNextToHopperAccepter>Повинен бути розміщений поряд з автоматом поживної пасти.</MustPlaceNextToHopperAccepter>
+	<MustPlaceOnSteamGeyser>Має бути розміщений безпосередньо на паровому гейзері.</MustPlaceOnSteamGeyser>
+	<MustPlaceCoolerWithFreeSpaces>Має бути відкритим з обох сторон</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>Має бути відкритим щоб пропускати повітря.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Має бути доступним з усіх сторон.</MustPlaceAdjacentStandable>
 
   <!-- Wind Turbine -->
-  <WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
-  <WindTurbine_WindPathIsBlockedByRoof>Закрита дахом</WindTurbine_WindPathIsBlockedByRoof>
-  
-  <!-- Cryptosleep pod -->
-  <CasketContains>Містить</CasketContains>
-  <CasketUnknownContents>Невідомо</CasketUnknownContents>
-  <CasketWarning>Увага!\n\nNAME - ваш останній активний колоніст! Якщо ви помістите HIM в капсулу, можливо, ви не зможете продовжити гру. Ви впевнені що бажаєте це зробити?</CasketWarning>
+
+	<WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
+	<WindTurbine_WindPathIsBlockedByRoof>Закрита дахом</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Cryptosleep casket -->
+
+	<CasketContains>Містить</CasketContains>
+	<CasketWarning>Увага!\n\nNAME - ваш останній активний колоніст! Якщо ви помістите HIM в капсулу, можливо, ви не зможете продовжити гру. Ви впевнені що бажаєте це зробити?</CasketWarning>
 
   <!-- Ship launch report -->
-  <ShipReportCannotLaunch>Запуск неможливий.</ShipReportCannotLaunch>
-  <ShipReportCanLaunch>Готовий до зльоту.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Не вистачає критично важливих модулів</ShipReportMissingPart>
-  <ShipReportNoFullPods>Немає заповнених капсул крипто сну.</ShipReportNoFullPods>
+
+	<ShipReportCannotLaunch>Запуск неможливий.</ShipReportCannotLaunch>
+	<ShipReportCanLaunch>Готовий до зльоту.</ShipReportCanLaunch>
+	<ShipReportMissingPart>Не вистачає критично важливих модулів</ShipReportMissingPart>
+	<ShipReportNoFullPods>Немає заповнених капсул крипто сну.</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <UseNeurotrainer>Використати нейротрейнер, щоб вивчити {0}</UseNeurotrainer>
-  <NeurotrainerUsed>{0} скористався {1} нейротренер, щоб піднятися з рівня {2} до рівня {3}.</NeurotrainerUsed>
+
+	<NeurotrainerUsed>{0} скористався {1} нейротренер, щоб піднятися з рівня {2} до рівня {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
-  <Installed>Встановлено</Installed>
-  <NotInstalled>Не встановлено</NotInstalled>
+
+	<Installed>Встановлено</Installed>
+	<NotInstalled>Не встановлено</NotInstalled>
 
   <!-- Art -->
-  <Title>Назва</Title>
-  <Untitled>без назви</Untitled>
-  
+
+	<Title>Назва</Title>
+	<Untitled>без назви</Untitled>
+
   <!-- Unfinished thing -->
-  <UnfinishedItem>Незакінчено: {0}</UnfinishedItem>
-  <UnfinishedItemWithStuff>Незакінчено: {1} з {0}</UnfinishedItemWithStuff>
+
+	<UnfinishedItem>Незакінчено: {0}</UnfinishedItem>
+	<UnfinishedItemWithStuff>Незакінчено: {1} з {0}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
-  <Quality>Якість</Quality>
-  <QualityDescription>Якість матеріалу та роботи.</QualityDescription>
-  <QualityIs>Якість: {0}</QualityIs> 
+
+	<Quality>Якість</Quality>
+	<QualityDescription>Якість матеріалу та роботи.</QualityDescription>
+	<QualityIs>Якість: {0}</QualityIs>
 
   <!-- Mood descriptions -->
-  <Mood_Broken>зламаний</Mood_Broken>
-  <Mood_AboutToBreak>на межі</Mood_AboutToBreak>
-  <Mood_OnEdge>нещасний</Mood_OnEdge>
-  <Mood_Stressed>незадовол.</Mood_Stressed>
-  <Mood_Neutral>нормально</Mood_Neutral>
-  <Mood_Content>задоволений</Mood_Content>
-  <Mood_Happy>щасливий</Mood_Happy>
-  
+
+	<Mood_MentalState></Mood_MentalState>
+	<Mood_AboutToBreak>на межі</Mood_AboutToBreak>
+	<Mood_OnEdge>нещасний</Mood_OnEdge>
+	<Mood_Stressed>незадовол.</Mood_Stressed>
+	<Mood_Neutral>нормально</Mood_Neutral>
+	<Mood_Content>задоволений</Mood_Content>
+	<Mood_Happy>щасливий</Mood_Happy>
+
   <!-- Game over -->
-  <GameOverEveryoneDead>Всі загинули, або пішли геть. Ця пригода закінчилась.\n\nМожливо, хтось зможе знайти застосування цим руїнам.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Ви запустили корабель! Ці колоністи врятувались:\n\n{0}\nЦі колоністи лишились позаду:\n\n{1}\nШІ вашого кораблю спробує направити корабель у безпечне місце. Він може перевезти вас на кращу планету в цій самій системі. Або може виконати багатовічну мандрівку до іншої зірки. Або навіть сховатися під кригою на астероїді на декілька тисячоліть, очікуючи кращого історичного моменту.\n\nВи дізнаєтесь про це коли прокинетесь.</GameOverShipLaunched>
-  <GameOverKeepPlaying>Продовжити гру</GameOverKeepPlaying>
-  <GameOverMainMenu>Головне меню</GameOverMainMenu>
+
+	<GameOverEveryoneDead>Всі загинули, або пішли геть. Ця пригода закінчилась.\n\nМожливо, хтось зможе знайти застосування цим руїнам.</GameOverEveryoneDead>
+	<GameOverShipLaunched>Ви запустили корабель! Ці колоністи врятувались:\n\n{0}\nЦі колоністи лишились позаду:\n\n{1}\nШІ вашого кораблю спробує направити корабель у безпечне місце. Він може перевезти вас на кращу планету в цій самій системі. Або може виконати багатовічну мандрівку до іншої зірки. Або навіть сховатися під кригою на астероїді на декілька тисячоліть, очікуючи кращого історичного моменту.\n\nВи дізнаєтесь про це коли прокинетесь.</GameOverShipLaunched>
+	<GameOverPlanetkillerImpact></GameOverPlanetkillerImpact>
+	<GameOverKeepPlaying>Продовжити гру</GameOverKeepPlaying>
+	<GameOverMainMenu>Головне меню</GameOverMainMenu>
 
   <!-- Generic lifespan -->
-  <LifespanExpiry>Зіпсується за:</LifespanExpiry>
+
+	<LifespanExpiry>Зіпсується за:</LifespanExpiry>
 
   <!-- Traps -->
-  <TrapArmed>Зведена</TrapArmed>
-  <TrapNotArmed>Не зведена</TrapNotArmed>
-  <TrapRearmingCost>Вартість повторного зведення: {0}</TrapRearmingCost>
+
+	<TrapArmed>Зведена</TrapArmed>
+	<TrapNotArmed>Не зведена</TrapNotArmed>
+	<TrapRearmingCost>Вартість повторного зведення: {0}</TrapRearmingCost>
+
+  <!-- Facilities -->
+
+	<InactiveFacility></InactiveFacility>
+
+  <!-- Hediffs growth modes -->
+
+	<DiseaseGrowthModeChanged_Growing></DiseaseGrowthModeChanged_Growing>
+	<DiseaseGrowthModeChanged_Stable></DiseaseGrowthModeChanged_Stable>
+	<DiseaseGrowthModeChanged_Remission></DiseaseGrowthModeChanged_Remission>
+
+  
+  <!-- Marriage spot -->
+	<MarriageSpotUsable></MarriageSpotUsable>
+	<MarriageSpotNotUsable></MarriageSpotNotUsable>
+	<MarriageSpotNotStandable></MarriageSpotNotStandable>
+	<MarriageSpotDangerous></MarriageSpotDangerous>
+	<MarriageSpotForbidden></MarriageSpotForbidden>
+	<MarriageSpotReserved></MarriageSpotReserved>
+	<MarriageSpotUnreachable></MarriageSpotUnreachable>
+	<MarriageSpotInPrisonCell></MarriageSpotInPrisonCell>
+	<NotEnjoyableOutsideTemperature></NotEnjoyableOutsideTemperature>
+  
+  <!-- Colonist bar -->
+	<ActivityIconMedicalRest></ActivityIconMedicalRest>
+	<ActivityIconSleeping></ActivityIconSleeping>
+	<ActivityIconFleeing></ActivityIconFleeing>
+	<ActivityIconAttacking></ActivityIconAttacking>
+	<ActivityIconIdle></ActivityIconIdle>
+	<ActivityIconBurning></ActivityIconBurning>
+  
+  <!-- Maintainable -->
+	<DueForMaintenance></DueForMaintenance>
+	<DeterioratingDueToLackOfMaintenance></DeterioratingDueToLackOfMaintenance>
+  
   
 </LanguageData>

@@ -1,10 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-	<!-- ITab titles -->
+
+  <!-- ITab titles -->
+
 	<TabBills>Завдання</TabBills>
 	<TabGrowing>Ділянка</TabGrowing>
 	<TabCharacter>Риси</TabCharacter>
+	<TabTraining>Тренування</TabTraining>
 	<TabPrisoner>В'язень</TabPrisoner>
 	<TabGuest>Гість</TabGuest>
 	<TabGear>Речі</TabGear>
@@ -14,74 +16,99 @@
 	<TabRace>Раса</TabRace>
 	<TabBasics>Головне</TabBasics>
 	<TabStats>Інформація</TabStats>
+	<TabRecords>Записи</TabRecords>
 	<TabArt>Мистецтво</TabArt>
+	<TabSocial>Відносини</TabSocial>
 
-	
-    <!-- Bills tab  -->
+  <!-- Bills tab  -->
+
 	<AddBill>Нове завдання</AddBill>
 	<RecipeRequiresSkills>Для того щоб {0} потрібні кращі навички, ніж ті, що мають ваші колоністи, тому ніхто не зможе це зробити.\n\nСпробуйте почати з чогось легшого.</RecipeRequiresSkills>
 	<MinimumSkill>Мін. навички</MinimumSkill>
 	<SuspendedCaps>ПАУЗА</SuspendedCaps>
 	<BoundWorkerIs>Працівник: {0}</BoundWorkerIs>
 	<PlantVerb>Саджати</PlantVerb>
-	
-	
-    <!-- Guest/prisoner tab -->
-    <RecruitmentDifficulty>Складність вербування</RecruitmentDifficulty>
-  	<GetsFood>Отримує їжу</GetsFood>
-  	<DoctorsCare>Доглядається лікарем</DoctorsCare>
-  	<GetsMedicine>Отримує ліки</GetsMedicine>
-  	<ShouldTryToRecruit>Вербувати</ShouldTryToRecruit>
-  	<PrisonerNoInteraction>Жодної взаємодії</PrisonerNoInteraction>
-  	<PrisonerFriendlyChat>Дружня бесіда</PrisonerFriendlyChat>
-  	<PrisonerAttemptRecruit>Вербувати</PrisonerAttemptRecruit>
+
+  <!-- Guest/Prisoner tab -->
+
+	<RecruitmentDifficulty>Складність вербування</RecruitmentDifficulty>
+	<GetsFood>Отримує їжу</GetsFood>
+	<DoctorsCare>Доглядається лікарем</DoctorsCare>
+	<GetsMedicine>Отримує ліки</GetsMedicine>
+	<ShouldTryToRecruit>Вербувати</ShouldTryToRecruit>
+	<PrisonerNoInteraction>Жодної взаємодії</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>Дружня бесіда</PrisonerFriendlyChat>
+	<PrisonerAttemptRecruit>Вербувати</PrisonerAttemptRecruit>
 	<PrisonerRelease>Відпустити</PrisonerRelease>
-  	<PrisonerExecution>Стратити</PrisonerExecution>
-	
-  
-    <!-- Medical - general -->
-  	<MoveSpeed>Швидкість пересування</MoveSpeed>
+	<PrisonerExecution>Стратити</PrisonerExecution>
+
+  <!-- Medical - general -->
+
+	<MoveSpeed>Швидкість пересування</MoveSpeed>
 	<Efficiency>Ефективність</Efficiency>
 	<MissingBodyPart>Втрачено</MissingBodyPart>
 	<DestroyedBodyPart>Знищено</DestroyedBodyPart>
 	<ShatteredBodyPart>Розірвано</ShatteredBodyPart>
-  	<RemovedBodyPart>Ампутовано</RemovedBodyPart>
+	<RemovedBodyPart>Ампутовано</RemovedBodyPart>
 	<Healthy>Здоровий</Healthy>
 	<InPain>Відчуває біль</InPain>
 	<PainLevel>Біль</PainLevel>
 	<Dead>Мертвий</Dead>
 	<Unconscious>Непритомний</Unconscious>
 	<PainShock>В шоці</PainShock>
-  	<Injured>Поранений</Injured>
+	<Injured>Поранений</Injured>
 	<NoInjuries>(поранень немає)</NoInjuries>
 	<WholeBody>Усе тіло</WholeBody>
 	<DataProcessing>Обробка даних</DataProcessing>
 	<Communication>Зв'язок</Communication>
-  	<AffectsLower>впливає</AffectsLower>
-  	<BleedingRate>Кровотеча</BleedingRate>
-  	<HealthOverview>Звіт</HealthOverview>
-  	<MedicalOperationsShort>Операції ({0})</MedicalOperationsShort>
-  	<MedicalOperationsMechanoidsShort>Модифікації ({0})</MedicalOperationsMechanoidsShort>
-  	<MedicalOperations>Медичні операції</MedicalOperations>
-  	<Amputate>Ампутувати</Amputate>
-  	<Harvest>Вирізати</Harvest>
+	<AffectsLower>впливає</AffectsLower>
+	<BleedingRate>Кровотеча</BleedingRate>
+	<HealthOverview>Звіт</HealthOverview>
+	<MedicalOperationsShort>Операції ({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>Модифікації ({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>Медичні операції</MedicalOperations>
+	<Amputate>Ампутувати</Amputate>
+	<Harvest>Вирізати</Harvest>
+	<RemoveOrgan>Видалити</RemoveOrgan>
+	<MemoryLower></MemoryLower>
+	<SocialInteractionsLower></SocialInteractionsLower>
+	<HungerRate></HungerRate>
+	<Tiredness></Tiredness>
 
-	
-	
   <!-- Medical - Body and activities condition -->
-  <None>Немає</None>
-  <VeryPoor>Жахливо</VeryPoor>
-  <Poor>Погано</Poor>
-  <Weakened>Послабл.</Weakened>
-  <GoodCondition>Добре</GoodCondition>
-  <Enhanced>Покращено</Enhanced>
-  <SeriouslyImpaired>Серйозне поранення</SeriouslyImpaired>
-  <Impaired>Поранення</Impaired>
-  <SlightlyImpaired>Легке поранення</SlightlyImpaired>
-  <NoPain>Немає</NoPain>
-  <LittlePain>Легкий</LittlePain>
-  <MediumPain>Середній</MediumPain>
-  <SeverePain>Сильний</SeverePain>
-  <ExtremePain>Жахливий</ExtremePain>
-	
+
+	<None>Немає</None>
+	<VeryPoor>Жахливо</VeryPoor>
+	<Poor>Погано</Poor>
+	<Weakened>Послабл.</Weakened>
+	<GoodCondition>Добре</GoodCondition>
+	<Enhanced>Покращено</Enhanced>
+	<SeriouslyImpaired>Серйозне поранення</SeriouslyImpaired>
+	<Impaired>Поранення</Impaired>
+	<SlightlyImpaired>Легке поранення</SlightlyImpaired>
+	<NoPain>Немає</NoPain>
+	<LittlePain>Легкий</LittlePain>
+	<MediumPain>Середній</MediumPain>
+	<SeverePain>Сильний</SeverePain>
+	<ExtremePain>Жахливий</ExtremePain>
+
+  <!-- Training tab -->
+
+	<TrainableIntelligence></TrainableIntelligence>
+	<CannotTrainNotSmartEnough></CannotTrainNotSmartEnough>
+	<CannotTrainTooSmall></CannotTrainTooSmall>
+
+	<TrainingNeedsPrerequisite></TrainingNeedsPrerequisite>
+
+  <!-- Social tab -->
+
+	<NoRelationships></NoRelationships>
+	<Kidnapped></Kidnapped>
+	<Slave></Slave>
+	<FactionLeader></FactionLeader>
+	<OpinionOf></OpinionOf>
+	<SomeonesOpinionOfMe></SomeonesOpinionOfMe>
+	<IAmDead></IAmDead>
+	<IAmPsychopath></IAmPsychopath>
+
 </LanguageData>
