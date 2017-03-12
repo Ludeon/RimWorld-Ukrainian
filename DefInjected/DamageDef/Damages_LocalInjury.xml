@@ -34,14 +34,25 @@
 	<Flame.label>опалити</Flame.label>
 	<Flame.deathMessage>{0} згорів.</Flame.deathMessage>
 
+
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+
 	<Burn.label>опік</Burn.label>
 	<Burn.deathMessage>{0} згорів.</Burn.deathMessage>
 
 	<Frostbite.label>обмороження</Frostbite.label>
 	<Frostbite.deathMessage>{0} загинув через обмороження.</Frostbite.deathMessage>
 
+
+  <!-- Surgical cut should not harm outer layers.
+       This makes it possible to remove inner organs without harming outer body parts -->
+
 	<SurgicalCut.label>хірургічний поріз</SurgicalCut.label>
 	<SurgicalCut.deathMessage>{0} загинув під час операції.</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut
+       This makes it possible to distinguish execution damage from others -->
 
 	<ExecutionCut.label>здійснити евтаназію</ExecutionCut.label>
 	<ExecutionCut.deathMessage>{0} був позбавлений життя.</ExecutionCut.deathMessage>
