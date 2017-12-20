@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<WorkSpeedGlobal.label>Загальна Швидкість роботи</WorkSpeedGlobal.label>
+	<WorkSpeedGlobal.label>Загальна швидкість роботи</WorkSpeedGlobal.label>
 	<WorkSpeedGlobal.description>Множник швидкості роботи персонажа для виконання будь-якого завдання.</WorkSpeedGlobal.description>
 
 	<MiningSpeed.label>Швидкість виконання гірських робіт</MiningSpeed.label>
 	<MiningSpeed.description>Множник швидкості, з якою цей персонаж розроблює гірські породи.</MiningSpeed.description>
+	
+	<MiningYield.label>Ефективність видобутку</MiningYield.label>
+	<MiningYield.description>Відсоток корисних копалин, які зможе видобути персонаж вручну або за допомогою бурової установки. Не має впливу на породу, що не містить корисних копалин.</MiningYield.description>
 
 	<SmoothingSpeed.label>Швидкість згладжування</SmoothingSpeed.label>
 	<SmoothingSpeed.description>Множник швидкості згладжування підлоги персонажем.</SmoothingSpeed.description>
 
 	<ResearchSpeed.label>Швидкість дослідження</ResearchSpeed.label>
 	<ResearchSpeed.description>Ця людина робить дослідження з такою швидкістю.</ResearchSpeed.description>
+	
+	<AnimalGatherSpeed.label>Швидкість роботи із тваринами</AnimalGatherSpeed.label>
+	<AnimalGatherSpeed.description>Швидкість, з якою ця людина доїть, зістригає вовну або будь-яким іншим способом отримує від тварин ресурси.</AnimalGatherSpeed.description>
+
+	<AnimalGatherYield.label>Ефективність роботи із тваринами</AnimalGatherYield.label>
+	<AnimalGatherYield.description>Відсоток ресурсів, який ця людина може надоїти, зістригти чи будь-яким іншим способом отримати від тварин ресурси. Високий відсоток зменшує імовірність втрати ресурсів.</AnimalGatherYield.description>
+	
+	<PlantWorkSpeed.label>Швидкість роботи з рослинами</PlantWorkSpeed.label>
+	<PlantWorkSpeed.description>Швидкість, з якою ця людина сіє та збирає рослини.</PlantWorkSpeed.description>
+
+	<PlantHarvestYield.label>Ефективність збору врожаю</PlantHarvestYield.label>
+	<PlantHarvestYield.description>Ефективність, з якою ця людина збирає врожай. Низьке значення збільшує імовірність того, шо поселенець під час збору врожаю випадково його знищить.</PlantHarvestYield.description>
 
 	<ConstructionSpeed.label>Швидкість будівництва</ConstructionSpeed.label>
 	<ConstructionSpeed.description>Швидкість, з якою ця людина будує та ремонтує.</ConstructionSpeed.description>
 
-	<PlantWorkSpeed.label>Швидкість роботи з рослинами</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>Швидкість, з якою ця людина сіє та збирає рослини.</PlantWorkSpeed.description>
+	<ConstructSuccessChance.label>Шанс вдалого будівництва</ConstructSuccessChance.label>
+	<ConstructSuccessChance.description>Імовірність, з якою ця особа успішно закінчить будівництво. Невдача призведе до втрати часу та ресурсів.</ConstructSuccessChance.description>
 
-	<HarvestFailChance.label>Шанс загубити врожай</HarvestFailChance.label>
-	<HarvestFailChance.description>Імовірність, з якою поселенець під час збору врожаю випадково його знищить.</HarvestFailChance.description>
-
-	<ConstructFailChance.label>Шанс невдалого будівництва</ConstructFailChance.label>
-	<ConstructFailChance.description>Імовірність, з якою ця особа може схибити під час будівництва, що призведе до втрати часу та ресурсів.</ConstructFailChance.description>
-
-	<FixBrokenDownBuildingFailChance.label>Шанс невдалого ремонту</FixBrokenDownBuildingFailChance.label>
-	<FixBrokenDownBuildingFailChance.description>Імовірність, з якою персонажу не вдасться відремонтувати механізм.</FixBrokenDownBuildingFailChance.description>
+	<FixBrokenDownBuildingSuccessChance.label>Шанс вдалого ремонту</FixBrokenDownBuildingSuccessChance.label>
+	<FixBrokenDownBuildingSuccessChance.description>Імовірність, з якою персонаж успішно здійснить ремонт. Ця величина має вплив лише на пристрої, що вийшли з ладу і не впливає на ремонт пошкоджених будівель.</FixBrokenDownBuildingSuccessChance.description>
 
 </LanguageData>

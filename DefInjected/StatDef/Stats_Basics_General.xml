@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<MaxHitPoints.label>максимальний рівень здоров'я</MaxHitPoints.label>
-	<MaxHitPoints.description>Максимальне значення здоров'я об'єкту.</MaxHitPoints.description>
+	<MaxHitPoints.label>Максимальний рівень здоров’я</MaxHitPoints.label>
+	<MaxHitPoints.description>Максимальне значення здоров’я об’єкту.</MaxHitPoints.description>
 
+	<Mass.label>Маса</Mass.label>
+	<Mass.description>Фактична маса об’єкта.</Mass.description>
+	<Mass.formatString>{0} кг</Mass.formatString>
+	
 	<MarketValue.label>Ринкова вартість</MarketValue.label>
 	<MarketValue.description>Ринкова вартість речі. Фактична ціна буде відрізнятися залежно від стосунків з торговцем та навичок ведення перемовин.</MarketValue.description>
 
@@ -11,21 +15,25 @@
 	<SellPriceFactor.description>Коефіцієнт, з яким ціна на предмет буде перерахована під час продажу.</SellPriceFactor.description>
 
 	<Flammability.label>Горючість</Flammability.label>
-	<Flammability.description>Як швидко об'єкт може зайнятися й як швидко він згорить.</Flammability.description>
+	<Flammability.description>Як швидко об’єкт може зайнятися й як швидко він згорить.</Flammability.description>
 
 	<WorkToMake.label>Виробниче зусилля</WorkToMake.label>
-	<WorkToMake.description>Об'єм роботи, що необхідно виконати, щоб зробити це, якщо всі матеріали та інструменти вже підготовлені.</WorkToMake.description>
+	<WorkToMake.description>Об’єм роботи, що необхідно виконати, щоб зробити це, якщо всі матеріали та інструменти вже підготовлені.</WorkToMake.description>
+	
+	<WorkToBuild.label>Виробниче зусилля</WorkToBuild.label>
+	<WorkToBuild.description>Об’єм роботи, що необхідно виконати, щоб побудувати цю будівлю, якщо всі матеріали та інструменти вже підготовлені.</WorkToBuild.description>
 
 	<DeteriorationRate.label>Швидкість псування</DeteriorationRate.label>
 	<DeteriorationRate.description>Швидкість з якою цей предмет зіпсується, якщо він був залишений назовні, особливо під дощем.</DeteriorationRate.description>
+	<DeteriorationRate.formatString>{0}/д</DeteriorationRate.formatString>
 
 	<Beauty.label>Привабливість</Beauty.label>
-	<Beauty.description>Наскільки приємно дивитися на об'єкт та знаходитися біля нього.</Beauty.description>
+	<Beauty.description>Наскільки приємно дивитися на об’єкт та знаходитися біля нього.</Beauty.description>
 
 	<Cleanliness.label>Чистота</Cleanliness.label>
-	<Cleanliness.description>Наскільки чистим є об'єкт.</Cleanliness.description>
+	<Cleanliness.description>Наскільки чистим є об’єкт.</Cleanliness.description>
 
 	<Comfort.label>Комфорт</Comfort.label>
-	<Comfort.description>Наскільки зручно сидіти чи лежати на об'єкті.</Comfort.description>
+	<Comfort.description>Наскільки зручно сидіти чи лежати на об’єкті.</Comfort.description>
 
 </LanguageData>

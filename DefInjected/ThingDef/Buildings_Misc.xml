@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<SunLamp.label>Прожектор денного світла</SunLamp.label>
-	<SunLamp.description>Висвітлює місцевість достатньо яскраво, щоб вирощувати рослини.</SunLamp.description>
-
 	<OrbitalTradeBeacon.label>Маяк торгівлі</OrbitalTradeBeacon.label>
 	<OrbitalTradeBeacon.description>Потрібен для орбітальної торгівлі. Продавати можна лише ті речі, які знаходяться близько до маяку на відкритому повітрі. Орбітальні торговці також будуть скидати речі коло нього.</OrbitalTradeBeacon.description>
 
-	<CommsConsole.label>Консоль зв'язку</CommsConsole.label>
-	<CommsConsole.description>Зв'язуйтеся з кораблями, що знаходяться поблизу, для перемовин і торгівлі.</CommsConsole.description>
+	<CommsConsole.label>Консоль зв’язку</CommsConsole.label>
+	<CommsConsole.description>Зв’язуйтеся з кораблями, що знаходяться поблизу, та фракціями для проведення перемовин і торгівлі.</CommsConsole.description>
   
   <!-- Facilities -->
 
-	<MultiAnalyzer.label>Мульти- аналізатор</MultiAnalyzer.label>
-	<MultiAnalyzer.description>Пришвидшує дослідження. Має бути розміщений поруч зі столом досліджень. Один стіл може бути з'єднаний одночасно з не більше ніж одниим аналізатором.</MultiAnalyzer.description>
+	<MultiAnalyzer.label>Мульти-аналізатор</MultiAnalyzer.label>
+	<MultiAnalyzer.description>Пришвидшує дослідження. Має бути розміщений поруч зі столом досліджень. Один стіл може бути з’єднаний одночасно з не більше ніж одниим аналізатором.</MultiAnalyzer.description>
 
 	<VitalsMonitor.label>Монітор життєвих функцій</VitalsMonitor.label>
-	<VitalsMonitor.description>Покращує догляд за пацієнтом. Має бути розміщений біля медичного ліжка. Одне ліжко може бути пов'язане лише з одним монітором.</VitalsMonitor.description>
+	<VitalsMonitor.description>Покращує догляд за пацієнтом. Має бути розміщений біля лікарняного ліжка. Одне ліжко може бути пов'язане лише з одним монітором.</VitalsMonitor.description>
 
-	<ToolCabinet.label>Шафа з інструментом</ToolCabinet.label>
-	<ToolCabinet.description>Збільшує швидкість праці. Має бути розміщена біля робочого місця. Одне робоче місце може бути пов'язане лише з однією шафою.</ToolCabinet.description>
+	<ToolCabinet.label>Шафа з інструментами</ToolCabinet.label>
+	<ToolCabinet.description>Збільшує швидкість праці. Має бути розміщена біля робочого місця. Одне робоче місце може бути пов’язане не більше ніж з двома шафами одночасно.</ToolCabinet.description>
 
-	<FirefoamPopper.label>Розбризкувач протипожежної піни.</FirefoamPopper.label>
+	<FirefoamPopper.label>Розбризкувач протипожежної піни</FirefoamPopper.label>
 	<FirefoamPopper.description>При взаємодії з вогнем чи при ручній активації вибухає і розкидає в певному радіусі навколо себе протипожежну піну.</FirefoamPopper.description>
+	<FirefoamPopper.comps.1.useLabel>Aktiviere Löschschaum Werfer</FirefoamPopper.comps.1.useLabel>
 
 	<MoisturePump.label>Дренажний насос</MoisturePump.label>
 	<MoisturePump.description>Дуже повільно видаляє вологу з ґрунту навколо себе, перетворюючи болота та мілководдя на суху землю. Не здатний осушити глибоку воду.</MoisturePump.description>
+
+	<GroundPenetratingScanner.label>Глибинний сканер</GroundPenetratingScanner.label>
+	<GroundPenetratingScanner.description>Спрямований донизу глибинний радар, об’єднаний із сонаром та датчиками магнітного поля. Дозволяє знаходити (але не розпізнавати) корисні копалини, що знаходяться глибоко під землею. Споживає достобіса енергії.</GroundPenetratingScanner.description>
+
+	<LongRangeMineralScanner.label>Сканер мінералів дальної дії</LongRangeMineralScanner.label>
+	<LongRangeMineralScanner.description>Автоматично знаходить корисні копалини (наприклад, золото) в прилеглих областях (але не в тій, де його розміщено). Скупчення копалин можуть бути знайдені, у середньому, раз на 30 днів у радіусі 30 клітинок. Розміщення поруч додаткових сканерів практично не впливає на ефективність пошуку.</LongRangeMineralScanner.description>
+
+  <!-- Transport pods -->
+
+	<PodLauncher.label>Установка запуску транспортних капсул</PodLauncher.label>
+	<PodLauncher.description>Пристрій, що відправляє транспортні капсули на великі відстані. Одночасно можна активувати одразу декілька установок, але для цього вони повинні бути розміщені поруч одна з одною.</PodLauncher.description>
+
+	<TransportPod.label>Транспортна капсула</TransportPod.label>
+	<TransportPod.description>Капсула для суборбітального польоту. Може застосовуватися не лише для перевезення вантажів, тварин та людей, а ще й задля здійснення раптових атак на інші поселення чи надсилання підкріплень для допомоги у битві.</TransportPod.description>
 
   <!-- =================================================== -->
 
@@ -38,12 +50,18 @@
   <!-- Cryptosleep casket -->
 
 	<CryptosleepCasket.label>Крипто-саркофаг</CryptosleepCasket.label>
-	<CryptosleepCasket.description>Самозабезпечуюча камера, створена щоб підтримувати персонажа у уповільненого існування протягом багатьох років.</CryptosleepCasket.description>
+	<CryptosleepCasket.description>Камера із власним джерелом живлення, що створена для підтримки персонажа у стані анабіозу впродовж багатьох років.</CryptosleepCasket.description>
 
-	<MarriageSpot.label>Місце проведення весілль</MarriageSpot.label>
+	<AncientCryptosleepCasket.label>Стародавній крипто-саркофаг</AncientCryptosleepCasket.label>
+	<AncientCryptosleepCasket.description>Ця камера має такий вигляд, немов вона лежить тут з давніх давен. Можна лише здогадуватися, що знаходиться всередині.</AncientCryptosleepCasket.description>
+
+	<MarriageSpot.label>Місце проведення весіль</MarriageSpot.label>
 	<MarriageSpot.description>Визначає місце, де будуть відбуватися весільні церемонії. Глядачі можуть спостерігати з будь-якого боку.</MarriageSpot.description>
 
 	<PartySpot.label>Місце для вечірок</PartySpot.label>
 	<PartySpot.description>Визначає місце, поряд з яким будуть відбуватися вечірки.</PartySpot.description>
+
+	<CaravanPackingSpot.label>Місце збору караванау</CaravanPackingSpot.label>
+	<CaravanPackingSpot.description>Визначає місце, де будуть формуватися каравани.</CaravanPackingSpot.description>
 
 </LanguageData>
