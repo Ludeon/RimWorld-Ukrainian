@@ -39,13 +39,13 @@
 
 	<TraderArrival>Торговельний корабель пролітає поблизу.\n\nКапітан відомий як {0} й він {1}.</TraderArrival>
 
-	<SingleTravelerPassing>{0} з {1} проходить неподалік.\n\nHISCAP звуть {2}.</SingleTravelerPassing>
+	<SingleTravelerPassing>{0} з {1} проходить неподалік.\n\n[PAWN_possessive] звуть {2}.</SingleTravelerPassing>
 	<GroupTravelersPassing>Группа мандрівників з {0} проходять неподалік.</GroupTravelersPassing>
 
 	<LetterLabelSingleVisitorArrives>Гість</LetterLabelSingleVisitorArrives>
-	<SingleVisitorArrives>{0} з {1} відвідує вашу колонію.\n\nHISCAP звуть {2}.</SingleVisitorArrives>
-	<SingleVisitorArrivesTraderInfo>\n\nHECAP, здається, має деякі речі для продажу.</SingleVisitorArrivesTraderInfo>
-	<SingleVisitorArrivesLeaderInfo>\n\nHECAP є лідером фракції.</SingleVisitorArrivesLeaderInfo>
+	<SingleVisitorArrives>{0} з {1} відвідує вашу колонію.\n\n[PAWN_possessive] звуть {2}.</SingleVisitorArrives>
+	<SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun], здається, має деякі речі для продажу.</SingleVisitorArrivesTraderInfo>
+	<SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] є лідером фракції.</SingleVisitorArrivesLeaderInfo>
 	<LetterLabelGroupVisitorsArrive>Гості</LetterLabelGroupVisitorsArrive>
 	<GroupVisitorsArrive>Відвідувачі з {0} прийшли у колонію.</GroupVisitorsArrive>
 	<GroupVisitorsArriveTraderInfo>\n\nЗдається, у них є дещо для продажу.</GroupVisitorsArriveTraderInfo>
@@ -53,7 +53,7 @@
 	<VisitorsLeaving>Гості з {0} йдуть геть.</VisitorsLeaving>
 
 	<LetterLabelWandererJoin>Мандрівник приєднався</LetterLabelWandererJoin>
-	<WandererJoin>{0} прибув і бажає приєднатися до колонії.\n\nHISCAP звуть NAME, HE - {1}.</WandererJoin>
+	<WandererJoin>{0} прибув і бажає приєднатися до колонії.\n\n[PAWN_possessive] звуть [PAWN_nameDef], [PAWN_pronoun] - {1}.</WandererJoin>
 
 	<LetterLabelManhunterPackArrived>Група мисливців на людей</LetterLabelManhunterPackArrived>
 	<ManhunterPackArrived>Група {0}, які полюють на людей, з'явилася на горизонті. Вони будуть блукати цією місцевістю, полюючи на людське м'ясо.\n\nВони не можуть пройти крізь двері, тому залишатися в чотирьох стінах буде цілком безпечно.\n\nВони покинуть цей регіон через кілька днів.</ManhunterPackArrived>
@@ -91,7 +91,7 @@
 
   <!-- Refugee chased -->
 
-	<RefugeeChasedInitial>{0} викликає вас. HECAP - {1}. HISCAP переслідують {2} з {3}!\n\nHECAP просить притулку і пропонує приєднатися до вашої колонії. HISCAP біологічний вік - {4} років.\n\nБудьте обережні: якщо ви це приймете, {2}, які йдуть по HIS сліду, нападуть на вас.</RefugeeChasedInitial>
+	<RefugeeChasedInitial>{0} викликає вас. [PAWN_pronoun] - {1}. [PAWN_possessive] переслідують {2} з {3}!\n\n[PAWN_pronoun] просить притулку і пропонує приєднатися до вашої колонії. [PAWN_possessive] біологічний вік - {4} років.\n\nБудьте обережні: якщо ви це приймете, {2}, які йдуть по [PAWN_possessive] сліду, нападуть на вас.</RefugeeChasedInitial>
 	<RefugeeChasedInitial_Accept>Запропонувати притулок</RefugeeChasedInitial_Accept>
 	<RefugeeChasedInitial_Reject>Ігнорувати повідомлення</RefugeeChasedInitial_Reject>
 	<RefugeeChasedRejected>{0} кричить у паніці через невеликий динамік перед тим, як ви відключаєтесь.</RefugeeChasedRejected>
@@ -124,7 +124,7 @@
 	<LetterBuildingBrokenDown>Один із ваших механізмів ({0}) вийшов з ладу. Він не буде працювати, доки поселенець, який виконує ремонт, не відремонтує його.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-	<RansomDemand>{1} викликають вас по раді. У них у полоні колишній поселенець {0}.\n\nВони відпустять HIM на волю в обмін на {2} срібла.</RansomDemand>
+	<RansomDemand>{1} викликають вас по раді. У них у полоні колишній поселенець {0}.\n\nВони відпустять [PAWN_objective] на волю в обмін на {2} срібла.</RansomDemand>
 	<RansomDemand_Accept>Прийняти</RansomDemand_Accept>
 	<RansomDemand_Reject>Відхилити</RansomDemand_Reject>
   
