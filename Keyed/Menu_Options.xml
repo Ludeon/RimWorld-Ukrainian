@@ -1,46 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Audiovisuals -->
-
-	<Audiovisuals>Аудіо та відео</Audiovisuals>
-	<GameVolume>Гучність гри</GameVolume>
-	<MusicVolume>Гучність музики</MusicVolume>
-	<Antialiasing>Згладжування</Antialiasing>
+  <Audiovisuals>Аудіовізуалізація</Audiovisuals>
+  <GameVolume>Гучність гри</GameVolume>
+  <MusicVolume>Гучність музики</MusicVolume>
+  <AmbientVolume>Гучність довкілля</AmbientVolume>
+  <Antialiasing>Згладжування</Antialiasing>
 
   <!-- Gameplay -->
-
-	<EdgeScreenScroll>Прокрутка скраю екрану</EdgeScreenScroll>
-	<PauseOnLoad>Пауза після завантаження</PauseOnLoad>
-	<PauseOnUrgentLetter>Пауза при важливому повідомленні</PauseOnUrgentLetter>
-	<CustomCursor>Програмовий курсор</CustomCursor>
-	<KeyboardConfig>Налаштування клавіатури</KeyboardConfig>
-	<ChooseLanguage>Обрати мову</ChooseLanguage>
-	<AdaptiveTutor>Навчання</AdaptiveTutor>
-	<ResetAdaptiveTutor>Скинути навчання</ResetAdaptiveTutor>
-	<AdaptiveTutorIsReset>Адаптивне навчання скинуто. В наступній грі воно почнеться з нуля.</AdaptiveTutorIsReset>
-	<RunInBackground>Грати у фоновому режимі</RunInBackground>
-	<DevelopmentMode>Режим розробника</DevelopmentMode>
-	<ResetModsConfigOnCrash>Скидати налашт. модів при вильоті</ResetModsConfigOnCrash>
-	<LogVerbose>Детальн. журнал помилок</LogVerbose>
-	<OpenSaveGameDataFolder>Відкрити папку записів</OpenSaveGameDataFolder>
-	<NamesYouWantToSee>Прізвища персонажів, яких ви хотіли би побачити у грі або передісторії:</NamesYouWantToSee>
-	<ChangeStoryteller>Обрати оповідача</ChangeStoryteller>
-	<AutosaveInterval>Інтервал автозапису</AutosaveInterval>
-	<TemperatureMode>Темп. одиниці</TemperatureMode>
-	<ShowRealtimeClock>Показувати поточний час</ShowRealtimeClock>
-	<MaxPermadeathAutosaveIntervalInfo>Максимальний інтервал автозбереження в хардкор-режимі: {0}</MaxPermadeathAutosaveIntervalInfo>
+  <EdgeScreenScroll>Прокручування мишею країв екрану</EdgeScreenScroll>
+  <PauseOnLoad>Пауза при завантаженні</PauseOnLoad>
+  <PauseOnUrgentLetter>Пауза на терміновий лист</PauseOnUrgentLetter>
+  <CustomCursor>Користувацький курсор</CustomCursor>
+  <HatsShownOnlyOnMap>Показувати капелюхи лише на ігровій мапі</HatsShownOnlyOnMap>
+  <UIScale>Розмір Інтерфейсу</UIScale>
+	<KeyboardConfig>Конфігурація клавіатури</KeyboardConfig>
+  <ChooseLanguage>Змінити Мову</ChooseLanguage>
+  <ResetAdaptiveTutor>Скинути помічника в навчанні</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>Наставник скинутий. Тепер ви будете знову вчити всі уроки з нуля.</AdaptiveTutorIsReset>
+  <RunInBackground>Працювати у фоновому режимі</RunInBackground>
+  <DevelopmentMode>Режим розробки</DevelopmentMode>
+  <ResetModsConfigOnCrash>Авто скидання конфігурації модифікацій при аварії</ResetModsConfigOnCrash>
+  <LogVerbose>Ведення докладного журналу</LogVerbose>
+  <OpenSaveGameDataFolder>Відкрити теку зі збереженими даними</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>Show save data location</ShowSaveGameDataLocation>
+  <NamesYouWantToSee>Preferred player-created characters. These characters will be more likely to randomly appear during play:</NamesYouWantToSee>
+  <AddName>Додати ім'я</AddName>
+  <TypeFirstNickOrLastName>Введіть ім'я, прізвисько чи прізвище.</TypeFirstNickOrLastName>
+  <MessageAlreadyPreferredName>Це ім'я вже в списку бажаних.</MessageAlreadyPreferredName>
+  <ChangeStoryteller>Вибрати казкаря</ChangeStoryteller>
+  <AutosaveInterval>Інтервал автозбереження</AutosaveInterval>
+  <TemperatureMode>Температурна шкала</TemperatureMode>
+  <ShowRealtimeClock>Показати реальний час</ShowRealtimeClock>
+  <MaxNumberOfPlayerSettlements>Maximum number of colonies: {0}</MaxNumberOfPlayerSettlements>
+  <PlantWindSway>Рослини коливаються вітром</PlantWindSway>
+  <EnableTestMapSizes>Enable test map sizes</EnableTestMapSizes>
+  <MaxPermadeathAutosaveIntervalInfo>Максимальний інтервал автозбереження в режимі постійної смерті становить {0} день.</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Налаштування модифікацій</ModSettings>
+  <PermanentlyDisableDevMode>Permanently disable development mode</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
-
-	<Resolution>Роздільна здатність</Resolution>
-	<Fullscreen>На весь екран</Fullscreen>
+  <Resolution>Роздільна здатність</Resolution>
+  <Fullscreen>Повноекранний режим</Fullscreen>
 
   <!-- Privacy -->
+  <Privacy>Конфіденційність</Privacy>
+  <UserName>Ім’я користувача</UserName>
+  <ChooseHistoryUploadPref>Налаштування завантажень даних гри</ChooseHistoryUploadPref>
+  <AboutHistoryUpload>Дані ігрового процесу користувачів допомагають розробникам збалансувати гру. Якщо ви згодні, ваша інформація буде надіслана кожні {0} днів гри (та в деяких інших рідкісних випадках, як завершення гри) на сервер RimWorld, а потім буде проаналізована. Завантажені дані геймплею складаються лише зі статистичних даних та записів історії, повʼязаних з грою — не надсилається жодна особиста інформація, за винятком імені користувача, тобто вона повністю анонімна.</AboutHistoryUpload>
 
-	<Privacy>Конфіденційність</Privacy>
-	<UserName>Ім'я користувача</UserName>
-	<ChooseHistoryUploadPref>Тип автозвіту</ChooseHistoryUploadPref>
-	<AboutHistoryUpload>Ваші ігрові дані допоможуть розробникам збалансувати гру. Якщо ви погодитесь, ваша інформація буде відправлятися кожні {0} ігрових днів (а також у деяких особливих випадках, як у кінці гри) на сервер RimWorld, а потім буде аналізована. Ці дані містять лише статистику та історію записів, пов'язаних з грою - жодна персональна інформація не збирається, за виключенням імені користувача, тому звіти мають суцільно анонімну природу.</AboutHistoryUpload>
-
+  <!-- Mods -->
+  <SelectMod>Виберіть модифікацію...</SelectMod>
+  <NoConfigurableMods>Неналаштовані модифікації не завантажені.</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <RestoreToDefaultSettings>Restore to default settings</RestoreToDefaultSettings>
+  <ResetAndRestart>Your options have been reset. The game will now restart automatically.</ResetAndRestart>
+  
 </LanguageData>

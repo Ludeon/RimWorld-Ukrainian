@@ -1,19 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<MeleeWeapon_DamageAmount.label>Шкода в ближньому бою</MeleeWeapon_DamageAmount.label>
-	<MeleeWeapon_DamageAmount.description>Шкода, яка завдається під час кожної атаки у ближньому бою.</MeleeWeapon_DamageAmount.description>
+  <MeleeWeapon_AverageDPS.label>рукопашний урон за секунду</MeleeWeapon_AverageDPS.label>
+  <MeleeWeapon_AverageDPS.description>Average damage dealt per second in melee combat, if all attacks hit.</MeleeWeapon_AverageDPS.description>
 
-	<MeleeWeapon_Cooldown.label>Час між атаками</MeleeWeapon_Cooldown.label>
-	<MeleeWeapon_Cooldown.description>Показує скільки часу потрібно для відновлення після атаки цією зброєю</MeleeWeapon_Cooldown.description>
-	<MeleeWeapon_Cooldown.formatString>{0} с</MeleeWeapon_Cooldown.formatString>
+  <MeleeWeapon_AverageArmorPenetration.label>melee armor penetration</MeleeWeapon_AverageArmorPenetration.label>
+  <MeleeWeapon_AverageArmorPenetration.description>Average armor penetration in melee combat.</MeleeWeapon_AverageArmorPenetration.description>
 
-  <!-- Damage multipliers should be stats on stuffs only -->
+  <MeleeWeapon_DamageMultiplier.label>множник пошкодження в ближньому бою</MeleeWeapon_DamageMultiplier.label>
+  <MeleeWeapon_DamageMultiplier.description>A damage multiplier applied to melee combat.</MeleeWeapon_DamageMultiplier.description>
 
-	<SharpDamageMultiplier.label>Множник рук. атаки (гостр. зброя)</SharpDamageMultiplier.label>
-	<SharpDamageMultiplier.description>Показує в скільки разів буде збільшений урон від гострої холодної зброї.</SharpDamageMultiplier.description>
 
-	<BluntDamageMultiplier.label>Множник рук. атаки (тупа зброя)</BluntDamageMultiplier.label>
-	<BluntDamageMultiplier.description>Показує в скільки разів буде збільшений урон від тупої холодної зброї.</BluntDamageMultiplier.description>
+  <!-- Damage multipliers should be stats on stuffs only-->
+
+  <MeleeWeapon_CooldownMultiplier.label>інтервал між ударами</MeleeWeapon_CooldownMultiplier.label>
+  <MeleeWeapon_CooldownMultiplier.description>A multiplier on attack delay for weapons made of this material.</MeleeWeapon_CooldownMultiplier.description>
+
+  <SharpDamageMultiplier.label>гострі ушкодження</SharpDamageMultiplier.label>
+  <SharpDamageMultiplier.description>A multiplier on damage from sharp-type attacks for weapons made of this material.</SharpDamageMultiplier.description>
+
+  <BluntDamageMultiplier.label>тупі пошкодження</BluntDamageMultiplier.label>
+  <BluntDamageMultiplier.description>A multiplier on damage from blunt-type attacks for weapons made of this material.</BluntDamageMultiplier.description>
+
 
 </LanguageData>

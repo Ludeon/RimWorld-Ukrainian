@@ -1,38 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Stats report -->
+  <Tool>Tool</Tool>
+  <DamageLower>damage</DamageLower>
+  <SecondsPerAttackLower>seconds per attack</SecondsPerAttackLower>
 
-	<StatsReport_BaseValue>Початкове значення</StatsReport_BaseValue>
-	<StatsReport_RelevantTraits>Риси, що впливають</StatsReport_RelevantTraits>
-	<StatsReport_RelevantGear>Спорядження, що впливає</StatsReport_RelevantGear>
-	<StatsReport_LifeStage>Етап життя</StatsReport_LifeStage>
-	<StatsReport_Material>Матеріал</StatsReport_Material>
-	<StatsReport_CharacterQuality>Особливості персонажу</StatsReport_CharacterQuality>
-	<StatsReport_Skills>Коефіцієнт професійності</StatsReport_Skills>
-	<StatsReport_OtherStats>Інші коефіцієнти</StatsReport_OtherStats>
-	<StatsReport_HealthFactors>Вплив стану здоров'я</StatsReport_HealthFactors>
-	<HealthFactorPercentImpact>{0} важливість</HealthFactorPercentImpact>
-	<StatsReport_PostProcessed>Пост-обробка</StatsReport_PostProcessed>
-	<StatsReport_FinalValue>Остаточне значення</StatsReport_FinalValue>
-	<StatsReport_MarketValueFromStuffsAndWork>Ринкова вартість розраховується залежно від матеріалів та об'єму виконаних робіт.</StatsReport_MarketValueFromStuffsAndWork>
-	<StatsReport_QualityMultiplier>Множник якості</StatsReport_QualityMultiplier>
-	<StatsReport_AgeMultiplier>Множник віку {0}</StatsReport_AgeMultiplier>
-	<StatsReport_HealthMultiplier>Множник стану здоров'я {0}</StatsReport_HealthMultiplier>
-	<StatsReport_MoodMultiplier>Множник настрою {0}</StatsReport_MoodMultiplier>
-	<StatsReport_DifficultyMultiplier>Множник рівня складності {0}</StatsReport_DifficultyMultiplier>
-	<StatsReport_InBed>В ліжку</StatsReport_InBed>
-	<StatsReport_Facilities>Будівлі</StatsReport_Facilities>
-	<StatsReport_BodySize>Множник розміру тіла {0}</StatsReport_BodySize>
-	<StatsReport_MeleeDPSExplanation>Характеристика має таку нотацію:\nDPS ( Шкода в ближньому бою / Перезаряджання / Імовірність попасти )\n\nDPS = шкода * імовірність попасти / перезаряджання</StatsReport_MeleeDPSExplanation>
-	<StatsReport_MeleeDamage>Шкода в ближньому бою</StatsReport_MeleeDamage>
-	<StatsReport_Cooldown>Перезаряджання</StatsReport_Cooldown>
-	<StatsReport_MeleeHitChance>Імовірність попасти</StatsReport_MeleeHitChance>
-	<StatsReport_CooldownFormat>{0} с</StatsReport_CooldownFormat>
-	<StatsReport_LifeExpectancy>Очікувана тривалість життя</StatsReport_LifeExpectancy>
-	<StatsReport_MissingBodyParts>Відсоток відсутніх частин тіла</StatsReport_MissingBodyParts>
-	<AverageOfAllAttacks>середній покажчик усіх атак</AverageOfAllAttacks>
-	<StatsReport_UnpoweredWorkTable>Немає енергії</StatsReport_UnpoweredWorkTable>
+  <StatsReport_BaseValue>Базове значення</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Актуальні особливості</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Актуальне обладнання</StatsReport_RelevantGear>
+  <StatsReport_RelevantHediffs>Актуальні умови для життя</StatsReport_RelevantHediffs>
+  <StatsReport_LifeStage>Етап життя</StatsReport_LifeStage>
+  <StatsReport_Material>Матеріал</StatsReport_Material>
+  <StatsReport_CharacterQuality>Властивість характеру</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Навички</StatsReport_Skills>
+  <StatsReport_OtherStats>Інші навички</StatsReport_OtherStats>
+	<StatsReport_Health>Здоров'я</StatsReport_Health>
+	<HealthFactorPercentImpact>важливість {0}</HealthFactorPercentImpact>
+	<HealthOffsetScale>вплив {0}</HealthOffsetScale>
+	<HealthFactorMaxImpact>Максимум {0}</HealthFactorMaxImpact>
+  <HealthFactorAllowedDefect>якщо менше {0}</HealthFactorAllowedDefect>
+	<StatsReport_PostProcessed>Крива постобробки</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Остаточне значення</StatsReport_FinalValue>
+  <StatsReport_MarketValueFromStuffsAndWork>Базова ринкова ціна залежить від матеріалу виготовлення і кількості роботи.</StatsReport_MarketValueFromStuffsAndWork>
+  <StatsReport_QualityMultiplier>Множник якості</StatsReport_QualityMultiplier>
+  <StatsReport_AgeMultiplier>Множник віку {0}</StatsReport_AgeMultiplier>
+  <StatsReport_HealthMultiplier>Множник здоров'я {0}</StatsReport_HealthMultiplier>
+  <StatsReport_MoodMultiplier>Множник настрою {0}</StatsReport_MoodMultiplier>
+	<StatsReport_LightMultiplier>Множник світла {0}</StatsReport_LightMultiplier>
+	<StatsReport_DifficultyMultiplier>Множник складністі {0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_InBed>В ліжку</StatsReport_InBed>
+  <StatsReport_Facilities>Споруди</StatsReport_Facilities>
+  <StatsReport_BodySize>Множник розміру тіла {0}</StatsReport_BodySize>
+  <StatsReport_MeleeDPSExplanation>ПЗС(DPS)=Пошкодження ближнього бою* Шанс удару в ближньому бою/Затримка удару в секундах</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDamage>Пошкодження ближнього бою</StatsReport_MeleeDamage>
+  <StatsReport_Cooldown>Затримка удару</StatsReport_Cooldown>
+  <StatsReport_MeleeHitChance>Шанс удару в ближньому бою</StatsReport_MeleeHitChance>
+  <StatsReport_CooldownFormat>{0} сек</StatsReport_CooldownFormat>
+  <StatsReport_LifeExpectancy>Очікувана тривалість життя</StatsReport_LifeExpectancy>
+  <StatsReport_MissingBodyParts>Множник відсутніх частин тіла</StatsReport_MissingBodyParts>
+  <StatsReport_GearAndInventoryMass>Спорядження та інвентар</StatsReport_GearAndInventoryMass>
+	<StatsReport_WornByCorpse>Множник перенесення трупів</StatsReport_WornByCorpse>
+	<AverageOfAllAttacks>середнє значення всіх атак</AverageOfAllAttacks>
 	<StatsReport_ScenarioFactor>Сценарій</StatsReport_ScenarioFactor>
+  <StatsReport_IngredientsMass>Інгредієнти</StatsReport_IngredientsMass>
+  <StatsReport_PermanentlyDisabled>Постійно вимкнено.</StatsReport_PermanentlyDisabled>
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <StatsReport_AddedBodyPartsMass>Додано частин тіла</StatsReport_AddedBodyPartsMass>
+  <StatsReport_StuffEffectMultiplier>Material effect multiplier</StatsReport_StuffEffectMultiplier>
+  <StatsReport_Resting>Resting</StatsReport_Resting>
+  <StatsReport_JoyKind>recreation type</StatsReport_JoyKind>
+  <StatsReport_WorkToUninstall>work to uninstall</StatsReport_WorkToUninstall>
+  <StatsReport_PlantGrowth>Multiplier for growth {0}</StatsReport_PlantGrowth>
+  <StatsReport_PlantGrowth_Wild>scaled because wild</StatsReport_PlantGrowth_Wild>
+  <StatsReport_NotFlesh>Not flesh</StatsReport_NotFlesh>
+  <StatsReport_NotFresh>Not fresh</StatsReport_NotFresh>
+  <StatsReport_WildMan>Wild man</StatsReport_WildMan>
 
 </LanguageData>

@@ -1,174 +1,197 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Main menu -->
+  <!--=========== Main menu ==========-->
+  <Tutorial>Посібник</Tutorial>
+  <NewColony>Нова колонія</NewColony>
+  <BackToGame>Повернутися до гри</BackToGame>
+  <ReviewScenario>Переглянути сценарій</ReviewScenario>
+  <Save>Зберегти</Save>
+  <LoadGame>Завантажити гру</LoadGame>
+  <Options>Налаштування</Options>
+  <Mods>Модифікації</Mods>
+  <SaveTranslationReport>Зберегти звіт перекладу</SaveTranslationReport>
+  <GeneratingTranslationReport>Генерується звіт перекладу</GeneratingTranslationReport>
+  <Credits>Автори</Credits>
+  <QuitToMainMenu>До головного меню</QuitToMainMenu>
+  <SaveAndQuitToMainMenu>Зберегти і вийти до меню</SaveAndQuitToMainMenu>
+  <QuitToOS>Вихід в ОС</QuitToOS>
+  <SaveAndQuitToOS>Зберегти і вийти в ОС</SaveAndQuitToOS>
+  <FictionPrimer>Літературний нарис</FictionPrimer>
+  <LudeonBlog>Блог Ludeon</LudeonBlog>
+  <Forums>Форуми</Forums>
+  <OfficialWiki>Офіційна Вікі</OfficialWiki>
+  <TynansTwitter>Твіттер Tynan</TynansTwitter>
+  <TynansDesignBook>Дизайнерська книга Tynan</TynansDesignBook>
+  <HelpTranslate>Допоможіть перекласти RimWorld</HelpTranslate>
+  <BuySoundtrack>Купити саундтрек</BuySoundtrack>
+  <CreateWorld>Створити світ</CreateWorld>
 
-	<CreateWorld>Створити світ</CreateWorld>
-	<NewColony>Нова колонія</NewColony>
-	<BackToGame>Повернутися у гру</BackToGame>
-	<ReviewScenario>Переглянути сценарій</ReviewScenario>
-	<Save>Зберегти</Save>
-	<LoadGame>Завантажити</LoadGame>
-	<Options>Налаштування</Options>
-	<Mods>Модифікації</Mods>
-	<Credits>Автори</Credits>
-	<QuitToMainMenu>Вийти в головне меню</QuitToMainMenu>
-	<SaveAndQuitToMainMenu>Зберегти та вийти в меню</SaveAndQuitToMainMenu>
-	<QuitToOS>Вийти в систему</QuitToOS>
-	<SaveAndQuitToOS>Зберегти та вийти в ОС</SaveAndQuitToOS>
-	<FictionPrimer>Про сюжет</FictionPrimer>
-	<LudeonBlog>Блог Ludeon</LudeonBlog>
-	<Forums>Форум</Forums>
-	<OfficialWiki>Офіційна вікі</OfficialWiki>
-	<TynansTwitter>Твітер Тайнена</TynansTwitter>
-	<TynansDesignBook>Книга Тайнена</TynansDesignBook>
-	<HelpTranslate>Допомогти з перекладом RimWorld</HelpTranslate>
-	<BuySoundtrack>Придбати звукову доріжку</BuySoundtrack>
+  <!--=========== Main menu translations info window ===========-->
+  <TranslationThanks>All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers.</TranslationThanks>
+  <TranslationHowToContribute>You can contribute too. Click below to learn more (opens web browser).</TranslationHowToContribute>
+  <LearnMore>Learn more</LearnMore>
 
-  <!-- Create/review world -->
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Переглянути світ</ReviewWorld>
+  <WorldGenerate>Згенерувати</WorldGenerate>
+  <WorldSaveAndFinish>Зберегти і завершити</WorldSaveAndFinish>
+  <Reset>Скинути</Reset>
+  <PlanetCoverage>Покриття земної кулі</PlanetCoverage>
+  <PlanetRainfall>Загальна кількість опадів</PlanetRainfall>
+  <PlanetTemperature>Середня температура</PlanetTemperature>
+  <PlanetRainfall_Low>Низька</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Звичайна</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Висока</PlanetRainfall_High>
+  <PlanetTemperature_Low>Низька</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Звичайна</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Висока</PlanetTemperature_High>
+  <WorldSeed>Зерно</WorldSeed>
+  <RandomizeSeed>Випадкове зерно</RandomizeSeed>
+  <PlanetCoverageTip>Планета завжди однакового діаметру, але оскільки вона набагато більша, ніж потрібно для гри, ми не генеруємо всю поверхню, оскільки це може зайняти дуже багато часу. Це відсоток поверхні, який ви бажаєте згенерувати.</PlanetCoverageTip>
+  <WorldFactionsTab>Фракції</WorldFactionsTab>
 
-	<ReviewWorld>Перегляд світу</ReviewWorld>
-	<WorldGenerate>Створити</WorldGenerate>
-	<WorldSaveAndFinish>Зберегти та закрити</WorldSaveAndFinish>
-	<Reset>Скинути</Reset>
-	<WorldSize>Розмір</WorldSize>
-	<WorldSeed>Зерно генератора</WorldSeed>
-	<RandomizeSeed>Випадкове зерно генератора</RandomizeSeed>
+  <!--=========== Select world ===================-->
+  <SelectWorld>Виберіть світ</SelectWorld>
+  <WorldChooseButton>Обрати</WorldChooseButton>
+  <NoWorldsFilesFound>Не знайдено файлів світу. Спочатку створіть світ.</NoWorldsFilesFound>
+  
+  <!--=========== Version info ==========-->
+  <BuildNowAvailable>Версія {0} наразі доступна. Перевірте ludeon.com для отримання додаткової інформації.</BuildNowAvailable>
+	<BuildUpToDate>Це остання версія.</BuildUpToDate>
+	<ErrorGettingVersionInfo>Помилка при отриманні даних про версію: {0}</ErrorGettingVersionInfo>
+	<LoadingVersionInfo>Завантаження інформації щодо версії...</LoadingVersionInfo>
 
-  <!-- Select world -->
+  <!--=========== World generator =========-->
+  <GenerateWorld>Створити світ</GenerateWorld>
 
-	<SelectWorld>Вибір світу</SelectWorld>
-	<WorldChooseButton>Обрати</WorldChooseButton>
-	<NoWorldsFilesFound>Немає жодного створенного світу. Спершу створіть світ.</NoWorldsFilesFound>
-
-  <!-- Version info -->
-
-	<BuildNowAvailable>Доступна нова версія {0}. Зайдіть на ludeon.com для отримання інформації.</BuildNowAvailable>
-	<BuildUpToDate>У вас найновіша версія.</BuildUpToDate>
-	<ErrorGettingVersionInfo>Помилка отримання даних про версію: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>Завантаження даних про версію...</LoadingVersionInfo>
-
-  <!-- World generator -->
-
-	<GenerateWorld>Створити світ</GenerateWorld>
-
-  <!-- Mods config -->
-
-	<OpenSteamWorkshop>Відкрити майстерню Steam</OpenSteamWorkshop>
-	<GetModsFromForum>Знайти моди на форумі</GetModsFromForum>
-	<OpenModsDataFolder>Відкрити папку модифікацій</OpenModsDataFolder>
-	<ConfirmDisableCoreMod>Ви впевнені, що бажаєте відключити ядро гри? Гра повністю перестане працювати, якщо у вас немає іншої модифікації, що замінить основні можливості.\n\nПам'ятайте, інші модифікації можуть перевизначати значення ядра, використовуючи аналогічні значення.</ConfirmDisableCoreMod>
-	<ConfirmDeleteMod>Ви впевнені, що бажаєте видалити увесь вміст {0}?</ConfirmDeleteMod>
-	<Unsubscribe>Відмовитися від підписки</Unsubscribe>
-	<ConfirmUnsubscribe>Ви впевнені, що бажаєте відмовитися від підписки на {0}?</ConfirmUnsubscribe>
-	<Author>Автор</Author>
-	<WorkshopPage>Сторінка майстерні</WorkshopPage>
-	<UploadToSteamWorkshop>Завантажити до майстерні Steam</UploadToSteamWorkshop>
-	<UpdateOnSteamWorkshop>Оновити у майстерні Steam</UpdateOnSteamWorkshop>
-	<UploadAlreadyInProgress>Завнтаження вже відбувається</UploadAlreadyInProgress>
-	<WorkshopSubmissionFailed>Не вдалося виконати передачу до майстерні.\n\nПричина: {0}</WorkshopSubmissionFailed>
-	<WorkshopUploadSucceeded>Вивантаження {0} успішне.</WorkshopUploadSucceeded>
-	<Downloading>Завантаження</Downloading>
-	<Source>Джерело</Source>
-	<ModTargetVersion>Для версії: {0}</ModTargetVersion>
-	<ModNotMadeForThisVersion>Цей мод зроблено для іншої версії RimWorld і, ймовірно, не буде працювати.</ModNotMadeForThisVersion>
-	<MessageModNeedsWellFormattedTargetVersion>Мод повинен мати правильно вказану версію гри у About.xml. Щось типу: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-
+  <!--=========== Mods config ==========-->
+  <OpenSteamWorkshop>Відкрити Майстерню Steam</OpenSteamWorkshop>
+  <GetModsFromForum>Отримати моди з форуму</GetModsFromForum>
+  <OpenModsDataFolder>Відкрити теку з модами</OpenModsDataFolder>
+  <ShowModsDataLocation>Show mods data location</ShowModsDataLocation>
+  <ConfirmDisableCoreMod>Ви впевнені, що хочете відключити основний мод? Гра не працюватиме взагалі, якщо ви не маєте іншого мода, який замінює усі основні функціональні можливості.\n\nПамʼятайте, що інші моди можуть перевизначати defs в основному моді, використовуючи ті ж самі defName.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Ви впевнені, що хочете видалити весь контент для {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Відписатися</Unsubscribe>
+  <ConfirmUnsubscribe>Ви впевнені, що хочете відписатися від {0}?</ConfirmUnsubscribe>
+  <Author>Автор</Author>
+  <WorkshopPage>Сторінка в Майстерні</WorkshopPage>
+  <UploadToSteamWorkshop>Опублікувати в Майстерні Steam</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Оновити в Майстерні Steam</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Завантаження вже триває.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Не вдалося надіслати до Майстерні.\n\nПричина: {0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Успішно завантажено {0}.</WorkshopUploadSucceeded>
+  <Downloading>Завантаження</Downloading>
+  <Source>Джерело</Source>
+  <ModTargetVersion>Для версії: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Цей мод розроблений не для цієї версії RimWorld і, ймовірно, не буде правильно працювати.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Мод повинен мати правильно відформатовану цільову версію в About.xml. Наприклад, так: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Перетягніть, щоб змінити порядок</DragToReorder>
+  
   <!--=========== Select scenario =============-->
-	<ChooseScenario>Обрати сценарій</ChooseScenario>
-	<ScenariosCustom>Налаштувати</ScenariosCustom>
-	<ScenariosSteamWorkshop>Майстерня Steam</ScenariosSteamWorkshop>
-	<ScenarioEditor>Редактор сценарію</ScenarioEditor>
-	<Delete>Видалити</Delete>
-
+  <ChooseScenario>Оберіть сценарій</ChooseScenario>
+  <ScenariosCustom>Власний</ScenariosCustom>
+  <ScenariosSteamWorkshop>Майстерня Steam</ScenariosSteamWorkshop>
+  <ScenarioEditor>Редактор сценаріїв</ScenarioEditor>
+  <Delete>Видалити</Delete>
+  
   <!--============ Scenario editor ===============-->
-	<Seed>Зерно</Seed>
-	<Load>Завантажити</Load>
-	<EditMode>Режим редагування</EditMode>
-	<Summary>Загалом</Summary>
-	<AddPart>Додати</AddPart>
-	<TextFieldsMustBeFilled>Усі текстові поля мають бути заповнені.</TextFieldsMustBeFilled>
-	<ConfirmSteamWorkshopUpload>Ви впевнені, що бажаєте завантажити цей сценарій на майстерню Steam?\n\nВи повинні погодитися з умовами користування майстернею. Знайти їх можна тут:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-	<ConfirmContentAuthor>Звісно, ви можете завнатажувати лише вміст, створений власноруч.\n\nВи підтверджуєте, що це ваше творіння?</ConfirmContentAuthor>
-	<Incompatible>Несумісний</Incompatible>
-	<TooMany>Занадто багато (максимум {0}):</TooMany>
-	<CanBeUpdatedOnWorkshop>Можна завнтажити до майстерні Steam, оскільки ви є автором.</CanBeUpdatedOnWorkshop>
+  <Seed>зерно</Seed>
+  <Load>Завантажити</Load>
+  <EditMode>режим редагування</EditMode>
+  <Summary>Підсумок</Summary>
+  <AddPart>Додати частину</AddPart>
+  <TextFieldsMustBeFilled>Усі текстові поля мають бути заповнені.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Ви впевнені, що хочете завантажити це до Майстерні Steam?\n\nВи повинні погодитися з умовами Майстерні Steam. Знайти повні умови тут:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Очевидно, ви повинні завантажувати вміст, який ви самі створили.\n\nЧи створили ви цей контент самостійно?</ConfirmContentAuthor>
+  <Incompatible>Несумісний</Incompatible>
+  <TooMany>Забагато (максимум {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Може бути оновлено у Майстерні, оскільки ви є автором.</CanBeUpdatedOnWorkshop>
+  
+  <!--=========== Select storyteller ==========-->
+  <ChooseAIStoryteller>Оберіть ШІ казкаря</ChooseAIStoryteller>
+  <HowStorytellersWork>ШІ казкаря створює події, такі як піратські набіги, зменшення ресурсів або напади тварин. Їх вибір вплине на історію вашої колонії. Ці налаштування можна змінити в будь-який час.</HowStorytellersWork>
+  <MustChooseDifficulty>Будь ласка, оберіть рівень складності.</MustChooseDifficulty>
+  <Difficulty>Рівень складності</Difficulty>
+
+  <!--=========== Landing site select =========-->
+  <SelectLandingSite>Оберіть місце приземлення</SelectLandingSite>
+  <SelectRandomSite>Оберіть випадкове місце</SelectRandomSite>
+  <SelectSite>Оберіть місце</SelectSite>
+  <MustSelectLandingSite>Будь ласка, оберіть місце приземлення.</MustSelectLandingSite>
+  <CannotLandBiome>Ви не можете приземлитися на цей біом: {0}</CannotLandBiome>
+  <BiomeNotImplemented>Біом не реалізований</BiomeNotImplemented>
+  <CannotLandImpassableMountains>Ви не можете приземлитися на непрохідні гори.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>У {0} вже є там база.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>У вас вже є там база.</YourBaseAlreadyThere>
+  <TileOccupied>Ця плитка зайнята.</TileOccupied>
+  <FactionBaseAdjacent>Поселення не можуть безпосередньо прилягати один до одного.</FactionBaseAdjacent>
+  <Biome>Біом</Biome>
+  <Terrain>Рельєф</Terrain>
+  <Road>Дорога</Road>
+  <River>Річка</River>
+  <Elevation>Височина</Elevation>
+  <Fertility>Родючість</Fertility>
+  <AvgTemp>Середня температура</AvgTemp>
+	<Rainfall>Кількість опадів</Rainfall>
+  <SpecialFeatures>Особливості</SpecialFeatures>
+  <HasCoast0>північне узбережжя</HasCoast0>
+  <HasCoast1>східне узбережжя</HasCoast1>
+  <HasCoast2>південне узбережжя</HasCoast2>
+  <HasCoast3>західне узбережжя</HasCoast3>
+  <HasCaves>печери</HasCaves>
+  <FactionBase>База фракції</FactionBase>
+  <StoneTypesHere>Типи каменю</StoneTypesHere>
+  <TimeZone>Часовий пояс</TimeZone>
+	<MovementDifficulty>Movement difficulty</MovementDifficulty>
+  <AnimalsCanGrazeNow>Тварини можуть пастися зараз</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Середня частота захворювань</AverageDiseaseFrequency>
+  <PerYear>за рік</PerYear>
+  <Forageability>Forageability</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
 
-  <!-- Select storyteller -->
-
-	<ChooseAIStoryteller>Вибір ШІ оповідача</ChooseAIStoryteller>
-	<HowStorytellersWork>ШІ Оповідача створює події, наприклад, піратські рейди, падіння ресурсів або напади тварин. Цей вибір буде впливати на історію вашої колонії.</HowStorytellersWork>
-	<MustChooseDifficulty>Будь ласка, оберіть інші налаштування.</MustChooseDifficulty>
-	<Difficulty>Складність</Difficulty>
-
-  <!-- Landing site select -->
-
-	<SelectLandingSite>Вибір місця посадки</SelectLandingSite>
-	<SelectRandomSite>Обрати випадкове місце</SelectRandomSite>
-	<SelectSite>Обрати місце</SelectSite>
-	<MustSelectLandingSite>Будь ласка, оберіть місце посадки.</MustSelectLandingSite>
-	<CannotLandBiome>Ви не можете приземлитися у цьому біомі: {0}</CannotLandBiome>
-	<WorldRenderMode>Режим</WorldRenderMode>
-	<WorldRenderModeFull>Повний</WorldRenderModeFull>
-	<WorldRenderModeTemperature>Температура</WorldRenderModeTemperature>
-	<WorldRenderModeElevation>Висота</WorldRenderModeElevation>
-	<WorldRenderModeFertility>Родючість грунту</WorldRenderModeFertility>
-	<WorldRenderModeRainfall>Опади</WorldRenderModeRainfall>
-	<WorldRenderModeBiomes>Біоми</WorldRenderModeBiomes>
-	<BiomeNotImplemented>не реалізовано</BiomeNotImplemented>
-	<BaseAlreadyThere>{0} вже розмістили там базу.</BaseAlreadyThere>
-	<Biome>Біом</Biome>
-	<Terrain>Поверхня</Terrain>
-	<Elevation>Висота</Elevation>
-	<Fertility>Родючість грунту</Fertility>
-	<AvgTemp>Сер. температура</AvgTemp>
-	<AvgWinterTemp>Сер. темп. взимку: {0}</AvgWinterTemp>
-	<AvgSummerTemp>Сер. темп. влітку: {0}</AvgSummerTemp>
-	<Rainfall>Опади</Rainfall>
-	<HasCoast0>Узбережжя на півночі</HasCoast0>
-	<HasCoast1>Узбережжя на сході</HasCoast1>
-	<HasCoast2>Узбережжя на півдні</HasCoast2>
-	<HasCoast3>Узбережжя на заході</HasCoast3>
-	<FactionBase>База фракції</FactionBase>
-	<StoneTypesHere>Види каміння</StoneTypesHere>
-
-  <!-- Character chooser -->
-
-	<CreateCharacters>Створення персонажів</CreateCharacters>
-	<FirstNameDesc>Ім'я персонажа.\n\nВідображається лише в деяких меню.</FirstNameDesc>
-	<ShortIdentifierDesc>Короткий ідентифікатор персонажа.\n\nВідображається скрізь. Може буди ім'ям, прізвищем або прізвиськом.</ShortIdentifierDesc>
-	<LastNameDesc>Прізвище персонажа.\n\nВідображається лише в деяких меню.</LastNameDesc>
-	<Randomize>Випадково</Randomize>
-	<AgeIndicator>вік {0}</AgeIndicator>
-	<Backstory>Передісторія</Backstory>
-	<IncapableOf>Нездатність</IncapableOf>
-	<Traits>Риси</Traits>
-	<PermanentMoodEffect>Постійний ефект настрою</PermanentMoodEffect>
-	<Skills>Навички</Skills>
-	<NoneLower>відсутнє</NoneLower>
-	<Adulthood>Зрілість</Adulthood>
-	<Childhood>Дитинство</Childhood>
-	<Male>Він</Male>
-	<Female>Вона</Female>
-	<Pain>Біль</Pain>
-	<Health>Здоров'я</Health>
-	<Relations>Відносини</Relations>
-
-  <!-- Misc -->
-
-	<Start>Почати</Start>
-	<Advanced>Додатково</Advanced>
-	<Next>Наступне</Next>
-	<Back>Назад</Back>
-
-	<Gameplay>Геймплей</Gameplay>
-
-	<ConfirmQuit>Дійсно вийти? Весь незбережений прогрес буде загублено.</ConfirmQuit>
-
-	<EveryoneNeedsValidName>Кожна людина повинна мати коректне ім'я.</EveryoneNeedsValidName>
-
-	<GeneratingWorld>Створення світу...</GeneratingWorld>
-	<GeneratingMap>Створення мапи...</GeneratingMap>
+	<!--=========== Character chooser ==========-->
+  <CreateCharacters>Створення персонажів</CreateCharacters>
+  <FirstNameDesc>Імʼя персонажа.\n\nВідображається лише в деяких меню.</FirstNameDesc>
+  <ShortIdentifierDesc>Короткий ідентифікатор персонажа.\n\nВідображається завжди. Це може бути імʼя або прізвище, або повністю окреме прізвисько.</ShortIdentifierDesc>
+  <LastNameDesc>Прізвище персонажа.\n\nВідображається лише в деяких меню.</LastNameDesc>
+  <Randomize>Рандомізувати</Randomize>
+  <AgeIndicator>вік {0}</AgeIndicator>
+  <Backstory>Передісторія</Backstory>
+  <IncapableOf>Нездатний до</IncapableOf>
+  <Traits>Риси</Traits>
+  <PermanentMoodEffect>Постійний вплив настрою</PermanentMoodEffect>
+  <Skills>Навички</Skills>
+  <NoneLower>немає</NoneLower>
+  <Adulthood>Повноліття</Adulthood>
+  <Childhood>Дитинство</Childhood>
+  <Current>Current</Current>
+  <Male>чоловік</Male>
+  <Female>жінка</Female>
+  <Pain>Біль</Pain>
+  <Health>Здоров'я</Health>
+  <Relations>Відносини</Relations>
+  <TeamSkills>Командні навички</TeamSkills>
+  <StartingPawnsSelected>Обрано</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Залишилися позаду</StartingPawnsLeftBehind>
+  
+  <!--=========== Misc ==========-->
+  <Start>Почати</Start>
+  <Advanced>Додатково</Advanced>
+  <Next>Далі</Next>
+  <Back>Назад</Back>
+  <Gameplay>Геймплей</Gameplay>
+  <ConfirmQuit>Дійсно вийти? Ви втратите усі незбережені дані.</ConfirmQuit>
+  <EveryoneNeedsValidName>Кожна особа потребує дійсного імені.</EveryoneNeedsValidName>
+  <RequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs</RequiredWorkTypeDisabledForEveryone>
+  <Quit>Вийти</Quit>
+  <Ignore>Ігнорувати</Ignore>
+  
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Створення світу</GeneratingWorld>
+  <GeneratingPlanet>Створення планети</GeneratingPlanet>
+  <GeneratingMap>Створення мапи</GeneratingMap>
+  <GeneratingMapForNewEncounter>Створення мапи для нової зустрічі</GeneratingMapForNewEncounter>
 
 </LanguageData>

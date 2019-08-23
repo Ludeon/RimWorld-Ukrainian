@@ -1,82 +1,198 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<CraftingSpot.label>Робоче місце</CraftingSpot.label>
-	<CraftingSpot.description>Місце, де поселенці можуть створити такі прості речі, як, наприклад, заточки або луки.</CraftingSpot.description>
+  <CraftingSpot.label>місце для виготовлення</CraftingSpot.label>
+  <CraftingSpot.description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</CraftingSpot.description>
 
-  <!-- ========================= Work tables ==========================-->
+  <Blueprint_CraftingSpot.label>BlueprintLabelExtra</Blueprint_CraftingSpot.label>
+  <Frame_CraftingSpot.label>FrameLabelExtra</Frame_CraftingSpot.label>
 
-	<TableSculpting.label>Стіл скульптора</TableSculpting.label>
-	<TableSculpting.description>Робоче місце, споряджене для ліплення та карбування.</TableSculpting.description>
-  
-	<TableButcher.label>Стіл м’ясника</TableButcher.label>
-	<TableButcher.description>Важкий стіл для обробки туш тварин на куски сирого м’яса.</TableButcher.description>
+  <ButcherSpot.label>butcher spot</ButcherSpot.label>
+  <ButcherSpot.description>A place for butchering animals. Due to the lack of equipment, butchering here yields only 70% of the meat and leather of each creature.</ButcherSpot.description>
 
-	<HandTailoringBench.label>Стіл кравця</HandTailoringBench.label>
-	<HandTailoringBench.description>Стіл для ручного пошиву одягу. Працює з ефективністю 40% у порівнянні з електричним.</HandTailoringBench.description>
+  <Blueprint_ButcherSpot.label>BlueprintLabelExtra</Blueprint_ButcherSpot.label>
+  <Frame_ButcherSpot.label>FrameLabelExtra</Frame_ButcherSpot.label>
 
-	<ElectricTailoringBench.label>Швейний верстат</ElectricTailoringBench.label>
-	<ElectricTailoringBench.description>Верстат зі швейною машинкою для швидкого пошиву одягу. Може використовуватися без електроенергії з ефективністю 40% від номінальної.</ElectricTailoringBench.description>
+  <TableSculpting.label>стіл скульптура</TableSculpting.label>
+  <TableSculpting.description>Верстат обладнаний для художньої діяльності.</TableSculpting.description>
 
-	<FueledSmithy.label>Кузня</FueledSmithy.label>
-	<FueledSmithy.description>Кузня, обладнана для виробництва немеханічної зброї та інструментів. У якості пального використовується дерево.</FueledSmithy.description>
+  <Blueprint_TableSculpting.label>BlueprintLabelExtra</Blueprint_TableSculpting.label>
+  <Blueprint_Install_TableSculpting.label>BlueprintLabelExtra</Blueprint_Install_TableSculpting.label>
+  <Frame_TableSculpting.label>FrameLabelExtra</Frame_TableSculpting.label>
 
-	<ElectricSmithy.label>Електрокузня</ElectricSmithy.label>
-	<ElectricSmithy.description>Кузня, що працює на електроенергії, обладнана для виробництва немеханічної зброї та інструментів.</ElectricSmithy.description>
+  <TableButcher.label>стіл м'ясника</TableButcher.label>
+  <TableButcher.description>Важкий стіл для оброблення туш мертвих тварин на шматки сирого м'яса.</TableButcher.description>
 
-	<TableMachining.label>Верстак</TableMachining.label>
-	<TableMachining.description>Стіл з приладами для збирання и розбирання металічних предметів, як-то зброя чи рештки механоїдів.</TableMachining.description>
+  <Blueprint_TableButcher.label>BlueprintLabelExtra</Blueprint_TableButcher.label>
+  <Blueprint_Install_TableButcher.label>BlueprintLabelExtra</Blueprint_Install_TableButcher.label>
+  <Frame_TableButcher.label>FrameLabelExtra</Frame_TableButcher.label>
 
-	<ElectricStove.label>Електроплита</ElectricStove.label>
-	<ElectricStove.description>Плита, що працює на електроенергії та обладнана стільницею для зручного приготування страв.</ElectricStove.description>
+  <HandTailoringBench.label>стіл кравця</HandTailoringBench.label>
+  <HandTailoringBench.description>Верстат для пошиття одягу вручну. Працює на 50% від швидкості електричного столу кравця.</HandTailoringBench.description>
 
-	<FueledStove.label>Плита</FueledStove.label>
-	<FueledStove.description>Плита, що обладнана стільницею для зручного приготування страв. У якості пального використовує дерево.</FueledStove.description>
+  <Blueprint_HandTailoringBench.label>BlueprintLabelExtra</Blueprint_HandTailoringBench.label>
+  <Blueprint_Install_HandTailoringBench.label>BlueprintLabelExtra</Blueprint_Install_HandTailoringBench.label>
+  <Frame_HandTailoringBench.label>FrameLabelExtra</Frame_HandTailoringBench.label>
 
-	<TableStonecutter.label>Стіл каменяра</TableStonecutter.label>
-	<TableStonecutter.description>Робочий стіл, оснащений для виробництва корисної бруківки з каміння.</TableStonecutter.description>
+  <ElectricTailoringBench.label>електричний стіл кравця</ElectricTailoringBench.label>
+  <ElectricTailoringBench.description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed.</ElectricTailoringBench.description>
 
-	<Brewery.label>Броварня</Brewery.label>
-	<Brewery.description>Робочий стіл, оснащений усім необхідним для варки пива.</Brewery.description>
+  <Blueprint_ElectricTailoringBench.label>BlueprintLabelExtra</Blueprint_ElectricTailoringBench.label>
+  <Blueprint_Install_ElectricTailoringBench.label>BlueprintLabelExtra</Blueprint_Install_ElectricTailoringBench.label>
+  <Frame_ElectricTailoringBench.label>FrameLabelExtra</Frame_ElectricTailoringBench.label>
 
-	<DrugLab.label>Хімлабораторія</DrugLab.label>
-	<DrugLab.description>Робочий стіл, обладнаний різноманітними ємностями, нагрівачами, вимірювальними прладами, що використовуються при виготовленні ліків та наркотиків.</DrugLab.description>
+  <FueledSmithy.label>кузня</FueledSmithy.label>
+  <FueledSmithy.description>A wood-fueled station for smithing non-mechanical weapons and tools.</FueledSmithy.description>
 
-	<ElectricSmelter.label>Електрична плавильня</ElectricSmelter.label>
-	<ElectricSmelter.description>Дозволяє видобувати метал із шматків шлаку та металовмісних предметів. Споживає багато енергії.</ElectricSmelter.description>
+  <Blueprint_FueledSmithy.label>BlueprintLabelExtra</Blueprint_FueledSmithy.label>
+  <Blueprint_Install_FueledSmithy.label>BlueprintLabelExtra</Blueprint_Install_FueledSmithy.label>
+  <Frame_FueledSmithy.label>FrameLabelExtra</Frame_FueledSmithy.label>
 
-	<Refinery.label>Переробний завод</Refinery.label>
-	<Refinery.description>Хімічний переробний завод. Використовується для перетворення дерева на хімічне пальне.</Refinery.description>
+  <ElectricSmithy.label>електрична кузня</ElectricSmithy.label>
+  <ElectricSmithy.description>An electric-powered station for smithing non-mechanical weapons and tools.</ElectricSmithy.description>
 
-	<ComponentAssemblyBench.label>Верстат для створення компонентів</ComponentAssemblyBench.label>
-	<ComponentAssemblyBench.description>Верстат, обладнаний покращеними інструментами для створення компонентів із простіших матеріалів.</ComponentAssemblyBench.description>
-  
+  <Blueprint_ElectricSmithy.label>BlueprintLabelExtra</Blueprint_ElectricSmithy.label>
+  <Blueprint_Install_ElectricSmithy.label>BlueprintLabelExtra</Blueprint_Install_ElectricSmithy.label>
+  <Frame_ElectricSmithy.label>FrameLabelExtra</Frame_ElectricSmithy.label>
+
+  <TableMachining.label>верстак</TableMachining.label>
+  <TableMachining.description>A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids.</TableMachining.description>
+
+  <Blueprint_TableMachining.label>BlueprintLabelExtra</Blueprint_TableMachining.label>
+  <Blueprint_Install_TableMachining.label>BlueprintLabelExtra</Blueprint_Install_TableMachining.label>
+  <Frame_TableMachining.label>FrameLabelExtra</Frame_TableMachining.label>
+
+  <ElectricStove.label>електрична плита</ElectricStove.label>
+  <ElectricStove.description>Електрична плита з прикріпленою стільницею для приготування їжі.</ElectricStove.description>
+
+  <Blueprint_ElectricStove.label>BlueprintLabelExtra</Blueprint_ElectricStove.label>
+  <Blueprint_Install_ElectricStove.label>BlueprintLabelExtra</Blueprint_Install_ElectricStove.label>
+  <Frame_ElectricStove.label>FrameLabelExtra</Frame_ElectricStove.label>
+
+  <FueledStove.label>плита</FueledStove.label>
+  <FueledStove.description>A wood-fueled stove with an attached countertop for preparing meals.</FueledStove.description>
+
+  <Blueprint_FueledStove.label>BlueprintLabelExtra</Blueprint_FueledStove.label>
+  <Blueprint_Install_FueledStove.label>BlueprintLabelExtra</Blueprint_Install_FueledStove.label>
+  <Frame_FueledStove.label>FrameLabelExtra</Frame_FueledStove.label>
+
+  <TableStonecutter.label>стіл каменяра</TableStonecutter.label>
+  <TableStonecutter.description>A work table with saws and chisels for cutting stone chunks into usable blocks.</TableStonecutter.description>
+
+  <Blueprint_TableStonecutter.label>BlueprintLabelExtra</Blueprint_TableStonecutter.label>
+  <Blueprint_Install_TableStonecutter.label>BlueprintLabelExtra</Blueprint_Install_TableStonecutter.label>
+  <Frame_TableStonecutter.label>FrameLabelExtra</Frame_TableStonecutter.label>
+
+  <Brewery.label>пивоварня</Brewery.label>
+  <Brewery.description>A work station with all the equipment needed mix wort for beer production. Wort must be fermented to finally become beer.</Brewery.description>
+
+  <Blueprint_Brewery.label>BlueprintLabelExtra</Blueprint_Brewery.label>
+  <Blueprint_Install_Brewery.label>BlueprintLabelExtra</Blueprint_Install_Brewery.label>
+  <Frame_Brewery.label>FrameLabelExtra</Frame_Brewery.label>
+
+  <DrugLab.label>наркотична лабораторія</DrugLab.label>
+  <DrugLab.description>A work bench equipped with containers, heaters, and measurement devices for producing various drugs.</DrugLab.description>
+
+  <Blueprint_DrugLab.label>BlueprintLabelExtra</Blueprint_DrugLab.label>
+  <Blueprint_Install_DrugLab.label>BlueprintLabelExtra</Blueprint_Install_DrugLab.label>
+  <Frame_DrugLab.label>FrameLabelExtra</Frame_DrugLab.label>
+
+  <ElectricSmelter.label>електрична плавильня</ElectricSmelter.label>
+  <ElectricSmelter.description>Видобуває метал з шматків шлаку і інших сплавів металу. Споживає багато енергії.</ElectricSmelter.description>
+
+  <Blueprint_ElectricSmelter.label>BlueprintLabelExtra</Blueprint_ElectricSmelter.label>
+  <Blueprint_Install_ElectricSmelter.label>BlueprintLabelExtra</Blueprint_Install_ElectricSmelter.label>
+  <Frame_ElectricSmelter.label>FrameLabelExtra</Frame_ElectricSmelter.label>
+
+  <BiofuelRefinery.label>biofuel refinery</BiofuelRefinery.label>
+  <BiofuelRefinery.description>Refines biological matter like wood or plant matter into chemfuel.</BiofuelRefinery.description>
+
+  <Blueprint_BiofuelRefinery.label>BlueprintLabelExtra</Blueprint_BiofuelRefinery.label>
+  <Blueprint_Install_BiofuelRefinery.label>BlueprintLabelExtra</Blueprint_Install_BiofuelRefinery.label>
+  <Frame_BiofuelRefinery.label>FrameLabelExtra</Frame_BiofuelRefinery.label>
+
+  <FabricationBench.label>fabrication bench</FabricationBench.label>
+  <FabricationBench.description>A workbench equipped with advanced tools for producing technological marvels from simpler materials.</FabricationBench.description>
+
+  <Blueprint_FabricationBench.label>BlueprintLabelExtra</Blueprint_FabricationBench.label>
+  <Blueprint_Install_FabricationBench.label>BlueprintLabelExtra</Blueprint_Install_FabricationBench.label>
+  <Frame_FabricationBench.label>FrameLabelExtra</Frame_FabricationBench.label>
+
+
   <!-- ========== Non-standard work buildings ==============-->
-  
-	<SimpleResearchBench.label>Простий дослідницький стіл</SimpleResearchBench.label>
-	<SimpleResearchBench.description>Простий стіл з канцелярським приладдям та низькотехнологічними науковими приладами. Дослідники працюють тут, щоб відкривати нові технології.</SimpleResearchBench.description>
 
-	<HiTechResearchBench.label>Високотехнологічний дослідницький стіл</HiTechResearchBench.label>
-	<HiTechResearchBench.description>Високотехнологічний стіл з комп'ютерами та електричними вимірювальними приладами. Дослідження пришвидшені завдяки новітньому обладнанню. Працює на електроенергії.</HiTechResearchBench.description>
+  <SimpleResearchBench.label>simple research bench</SimpleResearchBench.label>
+  <SimpleResearchBench.description>A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</SimpleResearchBench.description>
 
-	<ElectricCrematorium.label>Електрокрематорій</ElectricCrematorium.label>
-	<ElectricCrematorium.description>Спалює трупи. Працює на електроенергії.</ElectricCrematorium.description>
 
-	<HydroponicsBasin.label>Резервуар гідропоніки</HydroponicsBasin.label>
-	<HydroponicsBasin.description>Для вирощування їстівних рослин. Дозволяє швидко вирощувати декілька рослин. Працює на електроенергії. Увага: рослини загинуть у випадку відсутності живлення!</HydroponicsBasin.description>
-  
-	<FermentingBarrel.label>Бочка для бродіння</FermentingBarrel.label>
-	<FermentingBarrel.description>Бочка для отримання пива із сусла шляхом бродіння.</FermentingBarrel.description>
-  
-	<DeepDrill.label>Бурова установка</DeepDrill.label>
-	<DeepDrill.description>Комплекс бурового обладнання, створений для видобутку корисних копалин із надр планети. Для знаходження родовищ скористайтеся глибинним сканером</DeepDrill.description>
+  <!-- ========== Non-standard work buildings ==============-->
+
+  <Blueprint_SimpleResearchBench.label>BlueprintLabelExtra</Blueprint_SimpleResearchBench.label>
+
+
+  <!-- ========== Non-standard work buildings ==============-->
+
+  <Blueprint_Install_SimpleResearchBench.label>BlueprintLabelExtra</Blueprint_Install_SimpleResearchBench.label>
+
+
+  <!-- ========== Non-standard work buildings ==============-->
+
+  <Frame_SimpleResearchBench.label>FrameLabelExtra</Frame_SimpleResearchBench.label>
+
+  <HiTechResearchBench.label>hi-tech research bench</HiTechResearchBench.label>
+  <HiTechResearchBench.description>A high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects.</HiTechResearchBench.description>
+
+  <Blueprint_HiTechResearchBench.label>BlueprintLabelExtra</Blueprint_HiTechResearchBench.label>
+  <Blueprint_Install_HiTechResearchBench.label>BlueprintLabelExtra</Blueprint_Install_HiTechResearchBench.label>
+  <Frame_HiTechResearchBench.label>FrameLabelExtra</Frame_HiTechResearchBench.label>
+
+  <ElectricCrematorium.label>electric crematorium</ElectricCrematorium.label>
+  <ElectricCrematorium.description>A huge stone crematorium which vaporizes corpses with extremely high temperatures.</ElectricCrematorium.description>
+
+  <Blueprint_ElectricCrematorium.label>BlueprintLabelExtra</Blueprint_ElectricCrematorium.label>
+  <Frame_ElectricCrematorium.label>FrameLabelExtra</Frame_ElectricCrematorium.label>
+
+  <HydroponicsBasin.label>hydroponics basin</HydroponicsBasin.label>
+  <HydroponicsBasin.description>An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut.</HydroponicsBasin.description>
+
+  <Blueprint_HydroponicsBasin.label>BlueprintLabelExtra</Blueprint_HydroponicsBasin.label>
+  <Frame_HydroponicsBasin.label>FrameLabelExtra</Frame_HydroponicsBasin.label>
+
+  <FermentingBarrel.label>fermenting barrel</FermentingBarrel.label>
+  <FermentingBarrel.description>A barrel for fermenting raw wort into beer.</FermentingBarrel.description>
+
+  <Blueprint_FermentingBarrel.label>BlueprintLabelExtra</Blueprint_FermentingBarrel.label>
+  <Blueprint_Install_FermentingBarrel.label>BlueprintLabelExtra</Blueprint_Install_FermentingBarrel.label>
+  <Frame_FermentingBarrel.label>FrameLabelExtra</Frame_FermentingBarrel.label>
+
+  <DeepDrill.label>deep drill</DeepDrill.label>
+  <DeepDrill.description>A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill will yield stone chunks if no resources are present. Can be repositioned freely.</DeepDrill.description>
+
+  <Blueprint_DeepDrill.label>BlueprintLabelExtra</Blueprint_DeepDrill.label>
+  <Blueprint_Install_DeepDrill.label>BlueprintLabelExtra</Blueprint_Install_DeepDrill.label>
+  <Frame_DeepDrill.label>FrameLabelExtra</Frame_DeepDrill.label>
+
 
   <!--======================== Nutrient dispenser ==============================-->
-  
-	<NutrientPasteDispenser.label>Автомат поживної пасти</NutrientPasteDispenser.label>
-	<NutrientPasteDispenser.description>Синтезує поживну пасту з органічної сировини. На виготовлення затрачається менше інгредієнтів та часів аніж при готуванні їжу іншим методом, але всі ненавидять поживну пасту. Може бути заповнений сирою їжею, але не рослинною сированиою (наприклад, сіном).</NutrientPasteDispenser.description>
 
-	<Hopper.label>Контейнер з подавальним механізмом</Hopper.label>
-	<Hopper.description>Зберігає ресурси, що потрібні для інших машин, наприклад, для автоматів поживної пасти.</Hopper.description>
+  <NutrientPasteDispenser.label>nutrient paste dispenser</NutrientPasteDispenser.label>
+  <NutrientPasteDispenser.description>A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay.</NutrientPasteDispenser.description>
+
+
+  <!--======================== Nutrient dispenser ==============================-->
+
+  <Blueprint_NutrientPasteDispenser.label>BlueprintLabelExtra</Blueprint_NutrientPasteDispenser.label>
+
+
+  <!--======================== Nutrient dispenser ==============================-->
+
+  <Frame_NutrientPasteDispenser.label>FrameLabelExtra</Frame_NutrientPasteDispenser.label>
+
+  <Hopper.label>hopper</Hopper.label>
+  <Hopper.description>Holds resources for use by machines like nutrient paste dispensers.</Hopper.description>
+
+  <Blueprint_Hopper.label>BlueprintLabelExtra</Blueprint_Hopper.label>
+  <Frame_Hopper.label>FrameLabelExtra</Frame_Hopper.label>
+
 
 </LanguageData>

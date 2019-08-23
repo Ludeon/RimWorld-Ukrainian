@@ -1,39 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-   <!-- ======================== Non-grouped ========================-->
+  <!-- ======================== Non-grouped ========================-->
   
-	<ScenPart_PlayerFaction>Ваша фракція: {0}</ScenPart_PlayerFaction>
+  <ScenPart_PlayerFaction>Ваша фракція буде {0}.</ScenPart_PlayerFaction>
 
-	<ScenPart_StartWithPawns>Персонажі: {0}</ScenPart_StartWithPawns>
-	<RandomPet>випадковий улюбленець</RandomPet>
+  <ScenPart_StartWithPawns>Почати з {0} людьми, вибраними з {1}.</ScenPart_StartWithPawns>
+  <ScenPart_StartWithPawns_OutOf>обрано з</ScenPart_StartWithPawns_OutOf>
+  <RandomPet>випадкова тварина</RandomPet>
 
-	<ScenPart_StartingResearchFinished>Досліджено: {0}</ScenPart_StartingResearchFinished>
+  <ScenPart_StartingResearchFinished>Почати з дослідження: {0}</ScenPart_StartingResearchFinished>
   
-	<ScenPart_ArriveInDropPods>Приземлення у рятувальних капсулах.</ScenPart_ArriveInDropPods>
+  <ScenPart_ArriveInDropPods>Приїхати в капсулах.</ScenPart_ArriveInDropPods>
 
-	<ScenPart_StatFactor>До параметра "{0}" буде застосовано коефіцієнт {1}.</ScenPart_StatFactor>
+  <ScenPart_StatFactor>Показник "{0}" буде повсюдно помножений на {1}.</ScenPart_StatFactor>
 
 
   <!-- Pawn modifiers -->
-	<ScenPart_PawnsHaveHediff>Є ймовірність {1}, що {0} розпочне з {2}.</ScenPart_PawnsHaveHediff>
-	<ConfigurableSeverity>складнощі: {0}</ConfigurableSeverity>
+  <ScenPart_PawnsHaveHediff>{0} є шанс {1} почати з {2}.</ScenPart_PawnsHaveHediff>
+  <ConfigurableSeverity>тяжкість: {0}</ConfigurableSeverity>
 
-	<ScenPart_PawnsHaveTrait>Є ймовірність {1}, що {0} розпочне з характеристикою {2}.</ScenPart_PawnsHaveTrait>
-	<ScenPart_OnPawnDeathExplode>Персонажі та істоти вибухають після смерті ({0}, радіус вибуху {1}).</ScenPart_OnPawnDeathExplode>
+  <ScenPart_SetNeed>{0} є {1} шанс мати їхній {2} сет між {3} і {4}.</ScenPart_SetNeed>
+  <ConfigurableLevel>рівень: {0}</ConfigurableLevel>
 
+  <ScenPart_PawnsHaveTrait>{0} є шанс {1} почати з навичкою: {2}</ScenPart_PawnsHaveTrait>
+  <ScenPart_OnPawnDeathExplode>Персонажі і істоти вибухають при смерті ({0}, радіус {1}).</ScenPart_OnPawnDeathExplode>
+  <ScenPart_PawnsAreNaked>{0} починає {THING_gender ? голий : гола}.</ScenPart_PawnsAreNaked>
+  
   <!-- Pawn filters -->
-	<ScenPart_StartingPawnAgeMin>Вашим поселенцям буде щонайменше {0} років.</ScenPart_StartingPawnAgeMin>
-	<ScenPart_StartingPawnAgeMax>Вашим поселенцям буде не більше ніж {0} років.</ScenPart_StartingPawnAgeMax>
-	<ScenPart_StartingPawnAgeRange>Вік ваших поселенців буде у межах від {0} до {1} років.</ScenPart_StartingPawnAgeRange>
+  <ScenPart_StartingPawnAgeMin>Вашим людям буде як мінімум {0} років.</ScenPart_StartingPawnAgeMin>
+  <ScenPart_StartingPawnAgeMax>Вашим людям буде максимум {0} років.</ScenPart_StartingPawnAgeMax>
+  <ScenPart_StartingPawnAgeRange>Вашим людям буде від {0} до {1} років.</ScenPart_StartingPawnAgeRange>
 
 
   <!-- ======================== Grouped ========================-->
 
-	<ScenPart_StartWith>Початкові ресурси</ScenPart_StartWith>
-	<ScenPart_MapScatteredWith>Розкидані по мапі</ScenPart_MapScatteredWith>
-	<ScenPart_PermaMapCondition>Постійні модифікатори</ScenPart_PermaMapCondition>
-	<ScenPart_DisableIncident>Події відсутні</ScenPart_DisableIncident>
-	<ScenPart_DisallowBuilding>Будівництво заборонене</ScenPart_DisallowBuilding>
+  <ScenPart_StartWith>Старт з</ScenPart_StartWith>
+  <ScenPart_MapScatteredWith>Карта розкидана з</ScenPart_MapScatteredWith>
+  <ScenPart_PermaGameCondition>Постійний ігровий стан(-и)</ScenPart_PermaGameCondition>
+  <ScenPart_DisableIncident>Інцидент(и) відключені</ScenPart_DisableIncident>
+  <ScenPart_CreateIncident>Інцидент створений</ScenPart_CreateIncident>
+  <ScenPart_DisallowBuilding>Ніколи не зможуть побудувати</ScenPart_DisallowBuilding>
 
 </LanguageData>

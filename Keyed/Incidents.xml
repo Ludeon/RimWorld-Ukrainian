@@ -1,131 +1,150 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<LetterLabelAnimalInsanitySingle>Дика тварина</LetterLabelAnimalInsanitySingle>
-	<AnimalInsanitySingle>{0} збожеволів(-ла). Буде атакувати кожного, кого побачить.</AnimalInsanitySingle>
-	<LetterLabelAnimalInsanityMultiple>Тварини нападають!</LetterLabelAnimalInsanityMultiple>
-	<AnimalInsanityMultiple>Ви відчули розповсюдження психічної хвилі. Ваші колоністи в порядку, але...\n\nСхоже, всі представники виду {0} збожеволіли.</AnimalInsanityMultiple>
+  <LetterLabelAnimalInsanitySingle>Божевільний {0}</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>Місцевий {0} зійшов з розуму. Він буде атакувати все що бачить.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>Божевільний {0}</LetterLabelAnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Якась психічна хвиля прокотилася над землею. Ваші колоністи впорядку, але...\n\nЗдається багато {0} в цьому районі зійшли з розуму.</AnimalInsanityMultiple>
 
-	<LetterLabelCropBlight>Падіння врожаю</LetterLabelCropBlight>
-	<CropBlight>Загадкова хвороба знищила всі ваші посіви.</CropBlight>
+  <LetterLabelCropBlight>Чума</LetterLabelCropBlight>
+  <LetterCropBlight>Колоніст помітив занепад ваших врожаїв! Вам слід зрізати, або спалити заражені рослини, поки хвороба не поширилася.</LetterCropBlight>
 
-	<LetterLabelMiracleHeal>Диво</LetterLabelMiracleHeal>
-	<MiracleHeal>{0} дивовижним чином зцілився!</MiracleHeal>
+  <LetterLabelMiracleHeal>Чудо</LetterLabelMiracleHeal>
+  <MiracleHeal>{0} дивом видужав(ла)!</MiracleHeal>
 
   <!-- Enemy raids -->
-
-	<EnemyRaidWalkIn>Ворожі {0} з {1} розташувались поблизу.</EnemyRaidWalkIn>
-	<EnemyRaidEdgeDrop>Ворожі {0} з {1} висадилися з орбіти неподалік.</EnemyRaidEdgeDrop>
-	<EnemyRaidCenterDrop>Ворожі {0} з {1} висаджуються прямо на вашу колонію!</EnemyRaidCenterDrop>
-	<EnemyRaidLeaderPresent>{0} з {1} є лідером фракції.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Однин з {0} - {1} є лідером цієї фракції.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
+  <FriendlyRaidLeaderPresent>Один з {0} - {1} є лідером цієї фракції.</FriendlyRaidLeaderPresent>
 
-	<FriendlyRaidWalkIn>Дружні {0} з {1} розташувались поблизу.</FriendlyRaidWalkIn>
-	<FriendlyRaidEdgeDrop>Дружні {0} з {1} висадилися з орбіти неподалік.</FriendlyRaidEdgeDrop>
-	<FriendlyRaidCenterDrop>Дружні {0} з {1} висаджуються прямо на вашу колонію!</FriendlyRaidCenterDrop>
-	<FriendlyRaidLeaderPresent>{0} з {1} є лідером фракції.</FriendlyRaidLeaderPresent>
+  <LetterLabelRefugeePodCrash>Рятувальна капсула</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>[PAWN_title] на ім'я [PAWN_nameDef] падає у рятувальній капсулі неподалеку. Якщо [PAWN_pronoun] переживе приземлення, то [PAWN_pronoun] буде важко поранений.</RefugeePodCrash>
+  <RefugeePodCrash_NonHostileOrFactionless>You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_Hostile>You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations.</RefugeePodCrash_NonHostile>
 
-	<LetterLabelRefugeePodCrash>рятувальна капсула</LetterLabelRefugeePodCrash>
-	<RefugeePodCrash>Ви помітили рятувальну капсулу, що впала поблизу.\nЯкщо хтось пережив падіння, то йому знадобиться допомога.</RefugeePodCrash>
+  <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
+  <CargoPodCrash>You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage.</CargoPodCrash>
 
-	<LetterLabelCargoPodCrash>вантажні капсули</LetterLabelCargoPodCrash>
-	<CargoPodCrash>Ви помітили декілька вантажних контейнерів, що впали поблизу.\n\nМожливо, ви знайдете щось корисне серед уламків.</CargoPodCrash>
+  <AnElectricalConduit>an electrical conduit</AnElectricalConduit>
+  <ShortCircuit>A fault in {0} has caused a short circuit.</ShortCircuit>
+  <ShortCircuitStartedFire>A fault in {0} has caused a short circuit which started a fire.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion.</ShortCircuitDischargedEnergy>
+  <ShortCircuitWasLarge>This large amount of power has created an explosion of considerable size.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>That really is a huge explosion. Wow.</ShortCircuitWasHuge>
 
-	<AnElectricalConduit>електромережа</AnElectricalConduit>
-	<ShortCircuit>Несправність в {0} призвела до короткого замикання.\n\nВсі {1}Вт·д енергії в підключених акумуляторах втрачені.</ShortCircuit>
-	<ShortCircuitWasLarge>Ця велика кількість енергії призвело до великого вибуху.</ShortCircuitWasLarge>
-	<ShortCircuitWasHuge>Це дійсно величезний вибух. Нічого собі!</ShortCircuitWasHuge>
+  <TraderArrival>A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.</TraderArrival>
 
-	<TraderArrival>Торговельний корабель пролітає поблизу.\n\nКапітан відомий як {0} й він {1}.</TraderArrival>
+  <SingleTravelerPassing>A {0} from {1} is passing by. [PAWN_pronoun] is named {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>A group of travelers from {0} are passing by.</GroupTravelersPassing>
 
-	<SingleTravelerPassing>{0} з {1} проходить неподалік.\n\n[PAWN_possessive] звуть {2}.</SingleTravelerPassing>
-	<GroupTravelersPassing>Группа мандрівників з {0} проходять неподалік.</GroupTravelersPassing>
+  <LetterLabelSingleVisitorArrives>Visitor</LetterLabelSingleVisitorArrives>
+  <SingleVisitorArrives>A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] seems to have a few items to trade.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] is the leader of the faction.</SingleVisitorArrivesLeaderInfo>
+  <LetterLabelGroupVisitorsArrive>Visitors</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>A group from {0} are visiting the colony.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\nThey seem to have a few items to trade.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nOne of the visitors - {0}, is the leader of the faction.</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
 
-	<LetterLabelSingleVisitorArrives>Гість</LetterLabelSingleVisitorArrives>
-	<SingleVisitorArrives>{0} з {1} відвідує вашу колонію.\n\n[PAWN_possessive] звуть {2}.</SingleVisitorArrives>
-	<SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun], здається, має деякі речі для продажу.</SingleVisitorArrivesTraderInfo>
-	<SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] є лідером фракції.</SingleVisitorArrivesLeaderInfo>
-	<LetterLabelGroupVisitorsArrive>Гості</LetterLabelGroupVisitorsArrive>
-	<GroupVisitorsArrive>Відвідувачі з {0} прийшли у колонію.</GroupVisitorsArrive>
-	<GroupVisitorsArriveTraderInfo>\n\nЗдається, у них є дещо для продажу.</GroupVisitorsArriveTraderInfo>
-	<GroupVisitorsArriveLeaderInfo>\n\nОдин з відвідувачів (а саме - {0}) є лідером фракції.</GroupVisitorsArriveLeaderInfo>
-	<VisitorsLeaving>Гості з {0} йдуть геть.</VisitorsLeaving>
+  <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
+  <WandererJoin>A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.</WandererJoin>
 
-	<LetterLabelWandererJoin>Мандрівник приєднався</LetterLabelWandererJoin>
-	<WandererJoin>{0} прибув і бажає приєднатися до колонії.\n\n[PAWN_possessive] звуть [PAWN_nameDef], [PAWN_pronoun] - {1}.</WandererJoin>
-
-	<LetterLabelManhunterPackArrived>Група мисливців на людей</LetterLabelManhunterPackArrived>
-	<ManhunterPackArrived>Група {0}, які полюють на людей, з'явилася на горизонті. Вони будуть блукати цією місцевістю, полюючи на людське м'ясо.\n\nВони не можуть пройти крізь двері, тому залишатися в чотирьох стінах буде цілком безпечно.\n\nВони покинуть цей регіон через кілька днів.</ManhunterPackArrived>
-
-  <!-- Crashed ship part -->
-
-	<MessageAnimalInsanityPulse>Древня споруда випустила психічний імпульс, що роздратував тварин поблизу.</MessageAnimalInsanityPulse>
-	<LetterShipPartDroveColonistInsane>Частина корабля, що розбився, випустила цілеспрямований психічний імпульс, ваш колоніст {0} збожеволів.</LetterShipPartDroveColonistInsane>
-	<AwokeDaysAgo>Активізувався {0} днів назад</AwokeDaysAgo>
-	<PsychicDroneLevel>Рівень психодрона: {0}</PsychicDroneLevel>
-	<PsychicDroneLevelLow>низький</PsychicDroneLevelLow>
-	<PsychicDroneLevelMedium>середній</PsychicDroneLevelMedium>
-	<PsychicDroneLevelHigh>високий</PsychicDroneLevelHigh>
-	<PsychicDroneLevelExtreme>надвисокий</PsychicDroneLevelExtreme>
-	<LetterLabelPsychicDroneLevelIncreased>Імпульс посилився</LetterLabelPsychicDroneLevelIncreased>
-	<LetterPsychicDroneLevelIncreased>Психічна активність частини корабля, що розбився, посилила психічну активність. Всі гуманоїди в цій місцевості тепер відчувають себе більш занепокоєними, наляканими та параноЇдальними.</LetterPsychicDroneLevelIncreased>
-
+  <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them.</ManhunterPackArrived>
+  
+  <!-- Crashed ship part-->
+  <MessageAnimalInsanityPulse>The ancient structure has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>Awoke {0} days ago</AwokeDaysAgo>
+  <PsychicDroneLevel>Psychic drone level: {0}</PsychicDroneLevel>
+  <LetterLabelPsychicDroneLevelIncreased>Drone intensifies</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid.</LetterPsychicDroneLevelIncreased>
+  
   <!-- Agent revealed -->
-
-	<LetterLabelAgentRevealed>Шпигун</LetterLabelAgentRevealed>
-	<LetterAgentRevealed>Ворожий агент {0} з {1} розкрився.\n\nЗараз він намагається втекти з колонії.</LetterAgentRevealed>
+  <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
+  <LetterLabelPsychicDrone>Psychic drone</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}.</LetterIncidentPsychicDrone>
 
-	<LetterLabelPsychicDrone>Психічний шторм</LetterLabelPsychicDrone>
-	<LetterIncidentPsychicDrone>Головний біль пронизує черепа ваших колоністів наче цвях!\n\nЯкийсь древній механізм нелюдського походження пробуджується. Випромінювання потужного психічного шторму пронизує цю місцевість. Наступні декілька днів настрій у деяких людей ({0}) буде набагато гіршим.</LetterIncidentPsychicDrone>
-
-	<LetterLabelPsychicSoothe>Пстхічне заспокоєння</LetterLabelPsychicSoothe>
-	<LetterIncidentPsychicSoothe>Хвиля блаженства накриває поселення!\n\nЯкийсь древній механізм нелюдського походження пробуджується. Його випромінювання пронизує цю місцевість. Наступні декілька днів настрій у деяких людей ({0}) буде дещо кращим.</LetterIncidentPsychicSoothe>
+  <LetterLabelPsychicSoothe>Psychic soothe</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
-
-	<LetterLabelBeaversArrived>Бобри!</LetterLabelBeaversArrived>
-	<BeaversArrived>Стая ненажерливих альфабобрів з'явилася в цій місцевості.\n\nЗнищіть їх до того як вони згризуть всі до останнього дерева</BeaversArrived>
-
+  <LetterLabelBeaversArrived>Beavers!</LetterLabelBeaversArrived>
+  <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region.</BeaversArrived>
+  
   <!-- Refugee chased -->
-
-	<RefugeeChasedInitial>{0} викликає вас. [PAWN_pronoun] - {1}. [PAWN_possessive] переслідують {2} з {3}!\n\n[PAWN_pronoun] просить притулку і пропонує приєднатися до вашої колонії. [PAWN_possessive] біологічний вік - {4} років.\n\nБудьте обережні: якщо ви це приймете, {2}, які йдуть по [PAWN_possessive] сліду, нападуть на вас.</RefugeeChasedInitial>
-	<RefugeeChasedInitial_Accept>Запропонувати притулок</RefugeeChasedInitial_Accept>
-	<RefugeeChasedInitial_Reject>Ігнорувати повідомлення</RefugeeChasedInitial_Reject>
-	<RefugeeChasedRejected>{0} кричить у паніці через невеликий динамік перед тим, як ви відключаєтесь.</RefugeeChasedRejected>
+	<RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
+  <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>Offer safety</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>{0} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-
-	<LetterLabelAnimalSelfTame>{0} одомашнився(лася)</LetterLabelAnimalSelfTame>
-	<LetterAnimalSelfTame>{0} прибився(лася) до поселення.</LetterAnimalSelfTame>
-	<LetterAnimalSelfTameAndNameNumerical>{0} прибився(лася) до поселення і отримав(ла) кличку {1}.</LetterAnimalSelfTameAndNameNumerical>
-	<LetterAnimalSelfTameAndName>{0} одомашнився(лася) і отримав(ла) від поселенців ім'я {1}.</LetterAnimalSelfTameAndName>
+  <LetterLabelAnimalSelfTame>{0} self-tamed</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} has become tame.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0} has become tame. It is now designated {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0} has become tame. Colonists have decided to name it {1}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
-
-	<LetterLabelFarmAnimalsWanderIn>Тварини приєдналися</LetterLabelFarmAnimalsWanderIn>
-	<LetterFarmAnimalsWanderIn>Група з {0}, покинутих або загублених, опинилися у цій місцевості.\n\nСхоже, що вони звикли до людей і тому приєдналися до вашого поселення.</LetterFarmAnimalsWanderIn>
-
-  <!-- Thrumbo passes -->
-
-	<LetterLabelThrumboPasses>Рідкісні трамбо</LetterLabelThrumboPasses>
-	<LetterThrumboPasses>Невелике стадо трамбо забрело у цю місцевість.\n\nЦі радкісні миролюбні істоти, тим не менш, є дуже небезпеченими для поселенців. Це є однією з причин того, що їхні роги та шкіра так цінуються.\n\nТрамбо підуть геть впродовж кількох днів.</LetterThrumboPasses>
-
-  <!-- Trader caravan -->
-
-	<LetterLabelTraderCaravanArrival>Торговець із {0}</LetterLabelTraderCaravanArrival>
-	<LetterTraderCaravanArrival>Наближається торговий караван із {0}.\n\nВони пробудуть тут кілька днів, а потім рушать далі. Звісно, ви можете їх атакувати, але це викличе гнів їхньої фракції!</LetterTraderCaravanArrival>
-
-  <!-- Building breaks down -->
-
-	<LetterLabelBuildingBrokenDown>Поломка: {0}</LetterLabelBuildingBrokenDown>
-	<LetterBuildingBrokenDown>Один із ваших механізмів ({0}) вийшов з ладу. Він не буде працювати, доки поселенець, який виконує ремонт, не відремонтує його.</LetterBuildingBrokenDown>
-
-  <!-- Ransom demand -->
-	<RansomDemand>{1} викликають вас по раді. У них у полоні колишній поселенець {0}.\n\nВони відпустять [PAWN_objective] на волю в обмін на {2} срібла.</RansomDemand>
-	<RansomDemand_Accept>Прийняти</RansomDemand_Accept>
-	<RansomDemand_Reject>Відхилити</RansomDemand_Reject>
+  <LetterLabelFarmAnimalsWanderIn>{0} join</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony.</LetterFarmAnimalsWanderIn>
   
+  <!-- Thrumbo passes -->
+  <LetterLabelThrumboPasses>Rare thrumbos</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days.</LetterThrumboPasses>
+  
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>{1} from {0}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction!</LetterTraderCaravanArrival>
+  
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>Breakdown: {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it.</LetterBuildingBrokenDown>
+  
+  <!-- Ransom demand -->
+	<RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+	<RansomDemand>{1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver.</RansomDemand>
+  <RansomDemand_Accept>Accept</RansomDemand_Accept>
+  <RansomDemand_Reject>Reject</RansomDemand_Reject>
+  
+  <!-- Journey-related -->
+  <JourneyOffer>A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars.</JourneyOffer>
+  <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
+  <EscapeShipFound>You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</EscapeShipFound>
+  <EscapeShipLostLabel>Ship destroyed</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>
+
+  <!-- Caravan meeting -->
+	<CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
+	<CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting_Trade>Trade</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
+  <CaravanMeeting_MoveOn>Move on</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>no caravan members capable of trading</CaravanMeeting_TradeIncapable>
+  
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>Caravan request</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map.</LetterCaravanRequest>
+  <CaravanRequestInfo>Requesting: {0}, Reward: {1} ({2} left)</CaravanRequestInfo>
+  <NormalQualityOrBetter>normal quality or better</NormalQualityOrBetter>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>Caravan demand by {0}</CaravanDemandTitle>
+  <CaravanDemand>{0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3}</CaravanDemand>
+  <CaravanDemand_Give>Give and pass</CaravanDemand_Give>
+  <CaravanDemand_Fight>Refuse and fight</CaravanDemand_Fight>
+
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>Quest no longer available</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>Quests no longer available</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>Because you are no longer hostile with {0}, the {1} site is no longer available.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>Because you are no longer hostile with {0}, the following sites are no longer available</LetterSiteNoLongerHostileMulti>
+
+
 </LanguageData>

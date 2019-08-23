@@ -1,40 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Sandbags.label>Мішки з піском</Sandbags.label>
-	<Sandbags.description>Укриття від ворожих куль.</Sandbags.description>
+  <Sandbags.label>sandbags</Sandbags.label>
+  <Sandbags.description>Bags of locally-sourced dirt or sand held in place by steel rods. Sandbags are ugly, but provide excellent cover from ranged attacks.</Sandbags.description>
 
-	<TurretGun.label>Саморобна турель</TurretGun.label>
-	<TurretGun.description>Саморобна турель, що автоматично відкриває вогонь по найближчим ворогам. Вибухає при пошкодженні.</TurretGun.description>
+  <Blueprint_Sandbags.label>BlueprintLabelExtra</Blueprint_Sandbags.label>
+  <Frame_Sandbags.label>FrameLabelExtra</Frame_Sandbags.label>
 
-	<Bullet_TurretImprovised.label>Куля саморобної турелі</Bullet_TurretImprovised.label>
-	<Gun_TurretImprovised.label>Кулемет на турелі</Gun_TurretImprovised.label>
-	<Gun_TurretImprovised.description>Кулемет на башті, зроблений нашвидкоруч.</Gun_TurretImprovised.description>
 
-	<Turret_Mortar.label>Міномет</Turret_Mortar.label>
-	<Turret_Mortar.description>Міномет, що стріляє снарядами усіх типів. Має керуватися колоністом. Вибухає при пошкодженні.</Turret_Mortar.description>
+  <!--=============== Mini-turret ===============-->
 
-	<Artillery_Mortar.label>Міномет</Artillery_Mortar.label>
-	<Artillery_Mortar.description>Мінометна установка. Перекидує бомби через стіни. Має низьку точність, але, водночас, високу дальність ведення вогню.</Artillery_Mortar.description>
+  <Turret_MiniTurret.label>mini-turret</Turret_MiniTurret.label>
+  <Turret_MiniTurret.description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</Turret_MiniTurret.description>
+  <Turret_MiniTurret.comps.5.fuelGizmoLabel>Barrel durability</Turret_MiniTurret.comps.5.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.5.fuelLabel>Shots until barrel change</Turret_MiniTurret.comps.5.fuelLabel>
+  <Turret_MiniTurret.comps.5.outOfFuelMessage>Cannot shoot: Needs new barrel</Turret_MiniTurret.comps.5.outOfFuelMessage>
 
-	<!-- Traps -->
 
-	<TrapDeadfall.label>Пастка</TrapDeadfall.label>
-	<TrapDeadfall.description>Підвішені шипи, що утримуються спусковим механізмом. Коли жертва його активує, вони падають їй на голову чи тулуб.</TrapDeadfall.description>
+  <!--=============== Mini-turret ===============-->
 
-	<TrapIED_HighExplosive.label>Саморобна міна</TrapIED_HighExplosive.label>
-	<TrapIED_HighExplosive.description>Артилерійський снаряд, приєднаний до саморобного спускового механізму. Коли хтось його активує, боєприпас вибухає. На жаль, саморобний спусковий механізм має випадкову затримку спрацювання, що дозволяє спритному ворогу встигти вибігти із зони ураження.</TrapIED_HighExplosive.description>
+  <Blueprint_Turret_MiniTurret.label>BlueprintLabelExtra</Blueprint_Turret_MiniTurret.label>
 
-	<TrapIEDIncendiary.label>Саморобна запальна міна</TrapIEDIncendiary.label>
-	<TrapIEDIncendiary.description>Вибухові речовини, змішані в запальну суміш і поєднані з хімічним тригером. Коли хтось активує міну, тригер підпалює запальну суміш, а невеличкий вибуховий заряд розкидає його навкруг. Так як потрібно здетонувати невелику кількість вибухових речовин, хімічний тригер є простішим та надійнішим за інші.</TrapIEDIncendiary.description>
 
-	<TrapIED_EMP.label>Саморобна ЕМІ міна</TrapIED_EMP.label>
-	<TrapIED_EMP.description>Саморобний вибуховий пристрій, що складається з ЕМІ снаряду та саморобного спускового механізму. Вибух може паралізувати механоїдів на декілька секунд. Але сама міна може бути активовна й істотами, що невразливі до ЕМІ.</TrapIED_EMP.description>
+  <!--=============== Mini-turret ===============-->
 
-	<TrapIED_Firefoam.label>Саморобна пінна міна</TrapIED_Firefoam.label>
-	<TrapIED_Firefoam.description>Коли хтось активує міну, вона вибухає, але при цьому на місцевість довкола неї падають не осколки, а протипожежна піна.</TrapIED_Firefoam.description>
+  <Blueprint_Install_Turret_MiniTurret.label>BlueprintLabelExtra</Blueprint_Install_Turret_MiniTurret.label>
 
-	<TrapIED_AntigrainWarhead.label>Саморобна антикрихтова міна</TrapIED_AntigrainWarhead.label>
-	<TrapIED_AntigrainWarhead.description>Невеличка антикрихтова боєголовка, приєднана до саморобного спускового механізму. При активації спричиняє дійсно великий вибух та підпалює місцевість довкола.</TrapIED_AntigrainWarhead.description>
+
+  <!--=============== Mini-turret ===============-->
+
+  <Frame_Turret_MiniTurret.label>FrameLabelExtra</Frame_Turret_MiniTurret.label>
+  <Bullet_MiniTurret.label>mini-turret bullet</Bullet_MiniTurret.label>
+
+  <Gun_MiniTurret.label>mini-turret gun</Gun_MiniTurret.label>
+  <Gun_MiniTurret.description>A simple automatic gun made to be mounted on a turret.</Gun_MiniTurret.description>
+
+
+  <!--=============== Autocannon turret ===============-->
+
+  <Turret_Autocannon.label>autocannon turret</Turret_Autocannon.label>
+  <Turret_Autocannon.description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but it requires frequent and expensive barrel changes. It cannot fire at close-up targets, and may explode when damaged.</Turret_Autocannon.description>
+  <Turret_Autocannon.comps.5.fuelGizmoLabel>Barrel durability</Turret_Autocannon.comps.5.fuelGizmoLabel>
+  <Turret_Autocannon.comps.5.fuelLabel>Shots until barrel change</Turret_Autocannon.comps.5.fuelLabel>
+  <Turret_Autocannon.comps.5.outOfFuelMessage>Cannot shoot: Needs new barrel</Turret_Autocannon.comps.5.outOfFuelMessage>
+
+
+  <!--=============== Autocannon turret ===============-->
+
+  <Blueprint_Turret_Autocannon.label>BlueprintLabelExtra</Blueprint_Turret_Autocannon.label>
+
+
+  <!--=============== Autocannon turret ===============-->
+
+  <Frame_Turret_Autocannon.label>FrameLabelExtra</Frame_Turret_Autocannon.label>
+  <Bullet_AutocannonTurret.label>autocannon shell</Bullet_AutocannonTurret.label>
+
+  <Gun_AutocannonTurret.label>autocannon</Gun_AutocannonTurret.label>
+  <Gun_AutocannonTurret.description>A self-loading large-bore cannon designed to attach to a turret.</Gun_AutocannonTurret.description>
+
+
+  <!--=============== Sniper turret ===============-->
+
+  <Turret_Sniper.label>sniper turret</Turret_Sniper.label>
+  <Turret_Sniper.description>A very long-ranged automatic sniper turret. Its high-velocity uranium shells do heavy damage over very long ranges, but it requires frequent and expensive barrel changes. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</Turret_Sniper.description>
+  <Turret_Sniper.comps.0.fuelGizmoLabel>Barrel durability</Turret_Sniper.comps.0.fuelGizmoLabel>
+  <Turret_Sniper.comps.0.fuelLabel>Shots until barrel change</Turret_Sniper.comps.0.fuelLabel>
+  <Turret_Sniper.comps.0.outOfFuelMessage>Cannot shoot: Needs new barrel</Turret_Sniper.comps.0.outOfFuelMessage>
+  <Turret_Sniper.comps.5.fuelGizmoLabel>Barrel durability</Turret_Sniper.comps.5.fuelGizmoLabel>
+  <Turret_Sniper.comps.5.fuelLabel>Shots until rearm</Turret_Sniper.comps.5.fuelLabel>
+  <Turret_Sniper.comps.5.outOfFuelMessage>Cannot shoot: Needs rearm</Turret_Sniper.comps.5.outOfFuelMessage>
+
+
+  <!--=============== Sniper turret ===============-->
+
+  <Blueprint_Turret_Sniper.label>BlueprintLabelExtra</Blueprint_Turret_Sniper.label>
+
+
+  <!--=============== Sniper turret ===============-->
+
+  <Frame_Turret_Sniper.label>FrameLabelExtra</Frame_Turret_Sniper.label>
+  <Bullet_TurretSniper.label>sniper shell</Bullet_TurretSniper.label>
+
+  <Gun_TurretSniper.label>sniper cannon</Gun_TurretSniper.label>
+  <Gun_TurretSniper.description>A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets.</Gun_TurretSniper.description>
+
+
+  <!--=============== Mortar turret ===============-->
+
+  <Turret_Mortar.label>mortar</Turret_Mortar.label>
+  <Turret_Mortar.description>A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field.</Turret_Mortar.description>
+
+
+  <!--=============== Mortar turret ===============-->
+
+  <Blueprint_Turret_Mortar.label>BlueprintLabelExtra</Blueprint_Turret_Mortar.label>
+
+
+  <!--=============== Mortar turret ===============-->
+
+  <Blueprint_Install_Turret_Mortar.label>BlueprintLabelExtra</Blueprint_Install_Turret_Mortar.label>
+
+
+  <!--=============== Mortar turret ===============-->
+
+  <Frame_Turret_Mortar.label>FrameLabelExtra</Frame_Turret_Mortar.label>
+
+  <Artillery_Mortar.label>mortar</Artillery_Mortar.label>
+  <Artillery_Mortar.description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</Artillery_Mortar.description>
+
+
+  <!--==================== Traps ======================== -->
+
+  <TrapDeadfall.label>deadfall trap</TrapDeadfall.label>
+  <TrapDeadfall.description>A suspended spiked weight held up by a delicate trigger. When the victim disturbs the trigger, the weight is released and falls on his head or torso.</TrapDeadfall.description>
+
+
+  <!--==================== Traps ======================== -->
+
+  <Blueprint_TrapDeadfall.label>BlueprintLabelExtra</Blueprint_TrapDeadfall.label>
+
+
+  <!--==================== Traps ======================== -->
+
+  <Frame_TrapDeadfall.label>FrameLabelExtra</Frame_TrapDeadfall.label>
+
+  <TrapIED_HighExplosive.label>IED trap</TrapIED_HighExplosive.label>
+  <TrapIED_HighExplosive.description>A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. Wild animals will avoid these.</TrapIED_HighExplosive.description>
+
+  <Blueprint_TrapIED_HighExplosive.label>BlueprintLabelExtra</Blueprint_TrapIED_HighExplosive.label>
+  <Frame_TrapIED_HighExplosive.label>FrameLabelExtra</Frame_TrapIED_HighExplosive.label>
+
+  <TrapIED_Incendiary.label>IED incendiary trap</TrapIED_Incendiary.label>
+  <TrapIED_Incendiary.description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Wild animals will avoid these.</TrapIED_Incendiary.description>
+
+  <Blueprint_TrapIED_Incendiary.label>BlueprintLabelExtra</Blueprint_TrapIED_Incendiary.label>
+  <Frame_TrapIED_Incendiary.label>FrameLabelExtra</Frame_TrapIED_Incendiary.label>
+
+  <TrapIED_EMP.label>IED EMP trap</TrapIED_EMP.label>
+  <TrapIED_EMP.description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Wild animals will avoid these.</TrapIED_EMP.description>
+
+  <Blueprint_TrapIED_EMP.label>BlueprintLabelExtra</Blueprint_TrapIED_EMP.label>
+  <Frame_TrapIED_EMP.label>FrameLabelExtra</Frame_TrapIED_EMP.label>
+
+  <TrapIED_Firefoam.label>IED firefoam trap</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Wild animals will avoid these.</TrapIED_Firefoam.description>
+
+  <Blueprint_TrapIED_Firefoam.label>BlueprintLabelExtra</Blueprint_TrapIED_Firefoam.label>
+  <Frame_TrapIED_Firefoam.label>FrameLabelExtra</Frame_TrapIED_Firefoam.label>
+
+  <TrapIED_AntigrainWarhead.label>IED antigrain warhead trap</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.description>A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Wild animals will avoid these.</TrapIED_AntigrainWarhead.description>
+
+  <Blueprint_TrapIED_AntigrainWarhead.label>BlueprintLabelExtra</Blueprint_TrapIED_AntigrainWarhead.label>
+  <Frame_TrapIED_AntigrainWarhead.label>FrameLabelExtra</Frame_TrapIED_AntigrainWarhead.label>
+
 
 </LanguageData>

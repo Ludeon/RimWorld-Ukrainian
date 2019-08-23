@@ -1,23 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- ================================== Melee =======================================-->
+  <!-- ================================== Shooting =======================================-->
 
-	<MeleeDPS.label>ШЗС в ближньому бою</MeleeDPS.label>
-	<MeleeDPS.description>Шкода, що наноситься в середньому за секунду бою.</MeleeDPS.description>
-	
-	<MeleeHitChance.label>Шанс влучити врукопаш</MeleeHitChance.label>
-	<MeleeHitChance.description>Базова імовірність вразити ціль в ближньому бою.</MeleeHitChance.description>
-	
-	<MeleeDodgeChance.label>Шанс ухилення</MeleeDodgeChance.label>
-	<MeleeDodgeChance.description>Базова імовірність ухилитися від удару в ближньому бою. Персонажі не будуть ухилятися під час прицілювання або стрільби зі зброї дальнього бою.</MeleeDodgeChance.description>
+  <MeleeDPS.label>ШЗС у ближньому бої</MeleeDPS.label>
+  <MeleeDPS.description>Середня шкода за секунду в ближньому бою. Цей параметр ігнорує захист цілі, як ухилення і броню.</MeleeDPS.description>
 
-	<!-- ================================== Shooting =======================================-->
+  <MeleeArmorPenetration.label>melee armor penetration</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.description>Average armor penetration of all attacks in melee combat. This stat includes currently used weapon.</MeleeArmorPenetration.description>
 
-	<ShootingAccuracy.label>Точність стрільби</ShootingAccuracy.label>
-	<ShootingAccuracy.description>Базовий шанс влучити в ціль залежно від клітинок відстані.</ShootingAccuracy.description>
+  <MeleeHitChance.label>можливість вдарити</MeleeHitChance.label>
+  <MeleeHitChance.description>Chance to hit a target in melee. The target can still dodge even if we would've hit.</MeleeHitChance.description>
 
-	<AimingDelayFactor.label>Час прицілювання</AimingDelayFactor.label>
-	<AimingDelayFactor.description>Час потрібний на те, щоб зробити постріл.</AimingDelayFactor.description>
+  <MeleeDodgeChance.label>можливість ухилитися в ближньому бою</MeleeDodgeChance.label>
+  <MeleeDodgeChance.description>Шанс ухилитися в ближньому бою. Персонажі не будуть ухилятися поки прицілюються або стріляють зі зброї.</MeleeDodgeChance.description>
+
+
+  <!-- ================================== Shooting =======================================-->
+
+  <ShootingAccuracyPawn.label>shooting accuracy</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyPawn.description>
+
+  <AimingDelayFactor.label>час прицілювання</AimingDelayFactor.label>
+  <AimingDelayFactor.description>How long it takes to shoot after choosing a target.</AimingDelayFactor.description>
+
 
 </LanguageData>

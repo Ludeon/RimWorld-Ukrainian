@@ -1,22 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<FactionGreetingHostile>Представник {0} осипає монітор епітетами і відключається.</FactionGreetingHostile>
-	<FactionGreetingWary>Представник {0} обережно вітає {1} і запитує [PAWN_possessive] у чому справа.</FactionGreetingWary>
-	<FactionGreetingWarm>Представник {0} тепло вітає {1} і запитує як справи в колонії.</FactionGreetingWarm>
+  <FactionGreetingHostile>{0} каже деклька матів в мікрофон і відключається.</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0} greets {1} warily asks what business you want to handle.</FactionGreetingWary>
+  <FactionGreetingWarm>{0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you.</FactionGreetingWarm>
 
-	<Disconnect>Відключитися</Disconnect>
+  <Disconnect>Відключитися</Disconnect>
 
-	<OfferGift>Запропонувати подарунок</OfferGift>
-	<NeedSilverLaunchable>потрібно {0} срібла</NeedSilverLaunchable>
-	<NotEnoughSilver>Срібла недостатньо</NotEnoughSilver>
-	<SilverForGoodwill>{0} срібла за {1} репутації</SilverForGoodwill>
-	<SilverGiftSent>Представник {0} дякує вам.\n\n(Репутація покращилась на {1})</SilverGiftSent>
+  <!-- gift offer -->
+  <OfferGift>Запропунувати подарунок</OfferGift>
+  <MustBeAlly>must be ally</MustBeAlly>
+  <NeedGoodwill>need {0} goodwill</NeedGoodwill>
+  <NeedSilverLaunchable>потрібна {0} срібло поблизу торгового маяка</NeedSilverLaunchable>
+  <NotEnoughSilver>не вистачає срібла</NotEnoughSilver>
+  <SilverForGoodwill>срібло від {0}, як жест доброзичливості для {1}</SilverForGoodwill>
+  <SilverGiftSent>{0} thanks you.\n\n(Goodwill improved by {1})</SilverGiftSent>
 
-	<RequestMilitaryAid>Запит негайної військової допомоги ({0} до репутації)</RequestMilitaryAid>
-	<MilitaryAidConfirmMutualEnemy>{0} не допоможуть вам у війні з фракціями, що не є їх ворогами. Це поширюється на {1}, що погрожують вам. Ви все ще бажаєте викликати допомогу?</MilitaryAidConfirmMutualEnemy>
-	<CallConfirm>Так, викликати їх у будь-якому випадку.</CallConfirm>
-	<CallCancel>Ні, не потрібно.</CallCancel>
-	<MilitaryAidSent>Представник {0} згоден відправити бійців вам на допомогу.</MilitaryAidSent>
+  <!-- trade caravan request -->
+  <RequestTrader>Request a trade caravan (cost: {0} goodwill)</RequestTrader>
+  <ChooseTraderKind>{0} запитує який тип торгового каравану, вам потрібно.</ChooseTraderKind>
+  <TraderSent>{0} зобов'язується надіслати вам торговий караван. Він прибуде протягом декількох днів.</TraderSent>
+	<WaitTime>очікуйте {0}</WaitTime>
+
+  <!-- AI core request -->
+  <RequestAICoreInformation>Request the location of an {0} (cost: {1} silver)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} sends the requested information and wishes you good luck.</RequestAICoreInformationResult>
+  <NoKnownAICore>no more locations known</NoKnownAICore>	
+  
+  <!-- military aid request -->
+  <RequestMilitaryAid>Request immediate military aid (cost: {0} goodwill)</RequestMilitaryAid>
+  <MilitaryAidConfirmMutualEnemy>{0} не допоможе вам боротися з іншими фракціями, які не є їх ворогами. Це включає в себе фракції, які в даний момент загрожють вашій, {1}. Усе одно запросити допомоги?</MilitaryAidConfirmMutualEnemy>
+  <CallConfirm>Так, позвати їх будь яким методом.</CallConfirm>
+  <CallCancel>Ні, ні в якому разі.</CallCancel>
+  <MilitaryAidSent>{0} зобов'язується надіслати бійців, щоб допомогти вам.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods)</CantSendMilitaryAidInTime>
 
 </LanguageData>

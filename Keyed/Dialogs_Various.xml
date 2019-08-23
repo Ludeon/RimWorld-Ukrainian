@@ -1,243 +1,449 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<Confirm>Підтвердити</Confirm>
-	<GoBack>Назад</GoBack>
-	<OK>OK</OK>
-
+  <Confirm>Підтвердити</Confirm>
+  <GoBack>Повернутися</GoBack>
+  <OK>ОК</OK>
+  <Close/>
+  
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld було оновлено з версії {0} до версії {1}.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Це може зашкодити роботі збережених ігор та модифікацій зі старої версії.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Збережені ігри зі старої версії повинні бути сумісними, але модифікації можуть перестати працювати.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionNonSteam>Оскільки ця копія гри не містить DRM, ви можете встановити її у дві окремі папки, щоб мати змогу грати і стару і нову версії.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Якщо ви хочете продовжити грати у стару версію, можете використати функцію "Тестування" у Steam.\n\n  1. У бібліотеці натисніть правою клавішею миші на RimWorld.\n 2. Клацніть пункт Властивості.\n  3. Клацніть на вкладку Тестування.\n  4. Оберіть бажану версію зі списку.\n\nСтарі версії імовірно будуть з часом видалені, ми просто не хочемо перешкодити поточним іграм.\n\nЗауважте, якщо модифікації буде оновлено для роботи з новою версією гри, вони, імовірно, перестануть працювати на старій версії. Щоб цього уникнути, варто вимкнути автоматичні оновлення.</GameUpdatedToNewVersionSteam>
+  
   <!-- Recovered from errors caused by mods -->
-
-	<RecoveredFromErrorsDialogTitle>Відновлено після виникнення помилки у роботі моду</RecoveredFromErrorsDialogTitle>
-	<RecoveredFromErrorsText>Схоже, що деякі із активованих модів викликають помилки під час своєї роботи.\n\nОни несумісні між собою, створеня для іншної версії гри або пошкоджені.\n\nУсі моди було вимкнено. Ви можете увімкнути їх знову у відповідному розділі меню.</RecoveredFromErrorsText>
-
+  <RecoveredFromErrorsDialogTitle>Відновлено від помилок несумісних чи пошкоджених модифікацій</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Схоже, що деякі активні модифікації спричиняли помилки.\n\nВони були несумісні між собою, спроектовані для іншої версії гри, чи пошкоджені.\n\nВсі модифікації було деактивовано. Їх можна активувати знову через меню модифікацій.</RecoveredFromErrorsText>
+  
   <!-- Errors during loading -->
-
-	<ErrorWhileLoadingAssetsTitle>Помилка при завнтаженні вмісту</ErrorWhileLoadingAssetsTitle>
-	<ErrorWhileLoadingAssets>Сталася помилка при завантаженні вмісту(assets). Перегляньте лог, щоб отримати додаткову інформацію.</ErrorWhileLoadingAssets>
-	<ErrorWhileLoadingAssets_ModsInfo>Гру запущено з модами. Вони можуть як викликати так і не викликати проблем.</ErrorWhileLoadingAssets_ModsInfo>
-	<ErrorWhileGeneratingMapTitle>Помилка при створенні мапи</ErrorWhileGeneratingMapTitle>
-	<ErrorWhileGeneratingMap>Сталася помилка при створенні мапи. Перегляньте лог, щоб отримати додаткову інформацію.</ErrorWhileGeneratingMap>
-	<ErrorWhileLoadingMapTitle>Помилка при завантаженні мапи</ErrorWhileLoadingMapTitle>
-	<ErrorWhileLoadingMap>Сталася помилка при завантаженні мапи. Перегляньте лог, щоб отримати додаткову інформацію.</ErrorWhileLoadingMap>
-
+  <ErrorWhileLoadingAssetsTitle>Помилка під час завантаження ресурсів</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Сталася помилка при завантаженні ігрових ресурсів. Перегляньте журнал помилок для отримання додаткової інформації.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>The game is currently running with custom mods - they may or may not cause these problems.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Error while generating a map</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>An error occurred while generating a new map. See error log for more information.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Error while loading a map</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>An error occurred while loading a map. See error log for more information.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModsChanged>The mod list has changed. The game will now restart automatically.</ModsChanged>
+  <FailedToRestart>Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</FailedToRestart>
+  <Restarting>Перезавантаження</Restarting>
+  
   <!-- Missing Steam -->
-
-	<SteamClientMissing>Не вдалося ініціалізувати Steam API. Можливі причини:\n\n-Steam не запущено.\n-Гру запущено не зі Steam без steam_appid.txt.\n-Гру запущено з іншим рівнем прав ніж клієнт Steam (наприклад, з правами адміністратора).\n\nУ більшості випадків проблему можна вирішити, перезавантаживши комп’ютер.\n\nЦе Steam-версія гри і тому її роботу буде припинено.</SteamClientMissing>
-
+  <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available.</SteamClientMissing>
+  
   <!-- Long events -->
-
-	<InitializingInterface>Ініціалізація інтерфейсу</InitializingInterface>
-	<UnloadingUnusedAssets>Вивантаження вмісту, який не використовується</UnloadingUnusedAssets>
-	<LoadingAllActiveMods>Завантаження усіх активованих модів</LoadingAllActiveMods>
-	<LoadingDefs>Завантаження об'єктів</LoadingDefs>
-	<LoadingAssets>Завантаження вмісту</LoadingAssets>
-	<Initializing>Ініціалізація</Initializing>
-	<LoadingWorld>Завантаження світу</LoadingWorld>
-	<LoadingMap>Завантаження мапи</LoadingMap>
-	<InitializingMap>Ініціалізація мапи</InitializingMap>
-	<SpawningAllThings>Розміщення об’єктів</SpawningAllThings>
-
+  <InitializingInterface>Initializing interface</InitializingInterface>
+  <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Loading all active mods</LoadingAllActiveMods>
+  <LoadingDefs>Завантаження локалізації</LoadingDefs>
+  <LoadingAssets>Завантаження ресурсів</LoadingAssets>
+  <Initializing>Ініціалізація</Initializing>
+  <LoadingWorld>Завантаження світу</LoadingWorld>
+  <LoadingMap>Завантаження колонії</LoadingMap>
+  <InitializingGame>Ініціалізація гри</InitializingGame>
+  <SpawningAllThings>Розкладання речей</SpawningAllThings>
+  <SpawningColonists>Розташовуємо колоністів</SpawningColonists>
+  
   <!-- Save/load -->
+  <SaveGameButton>Зберегти</SaveGameButton>
+  <LoadGameButton>Завантажити</LoadGameButton>
+  <OverwriteButton>Перезаписати</OverwriteButton>
+  <ConfirmDelete>Дійсно видалити {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Видалити цю сесію.</DeleteThisSavegame>
+  <SavedAs>Збережено як {0}.</SavedAs>
+  <NeedAName>Введіть ім'я.</NeedAName>
+  <LoadingLongEvent>Завантаження</LoadingLongEvent>
+  <SavingLongEvent>Збереження</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
+  <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information.</ProblemSavingFile>
+  <LoadAnyway>Load anyway</LoadAnyway>
+  <ChangeLoadedMods>Load mod list from save</ChangeLoadedMods>
+  <MissingMods>Some mods are unavailable, and need to be installed</MissingMods>
+  
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
 
-	<SaveGameButton>Зберегти</SaveGameButton>
-	<LoadGameButton>Завантажити</LoadGameButton>
-	<OverwriteButton>Перезаписати</OverwriteButton>
-	<ConfirmDelete>Ви впевнені, що бажаєте видалити {0}?</ConfirmDelete>
-	<DeleteThisSavegame>Видалити цей запис.</DeleteThisSavegame>
-	<SavedAs>Збережено як {0}.</SavedAs>
-	<NeedAName>Будь ласка, введіть ім'я.</NeedAName>
-	<LoadingLongEvent>Завантаження</LoadingLongEvent>
-	<SavingLongEvent>Збереження</SavingLongEvent>
-	<PermadeathModeSaveSuffix>(Хардкор)</PermadeathModeSaveSuffix>
-	<SaveIsFromDifferentGameVersion>Ви користуєтеся версією гри {0}, але збережені дані належать версії {1}, яка суттєво відрізняється від вашої.\n\nМоже не вдатися завантажити це збереження.</SaveIsFromDifferentGameVersion>
-	<SaveIsFromDifferentGameBuild>Ви користуєтеся версією гри {0} але збережені дані від {1} - іншої збірки гри.\n\nМоже не вдатися завантажити це збереження.</SaveIsFromDifferentGameBuild>
-	<SaveIsFromThisGameBuild>Збереження зроблене на вашій версії гри і повинне працювати в будь-якому разі.</SaveIsFromThisGameBuild>
-	<SaveIsUnknownFormat>Дані збережено у невідомому форматі чи пошкоджено. Найімовірніше ви не зможете їх завантажити.</SaveIsUnknownFormat>
-	<ProblemSavingFile>Наявні проблеми зі збереженням файлу {0}:\n\n{1}\n\nПерегляньте лог, щоб отримати додаткову інформацію.</ProblemSavingFile>
-	<LoadAnyway>Однак завантажити</LoadAnyway>
-
-  <!-- Colony naming -->
-
-	<NameColonyMessage>Всі знають, що ніхто не хоче застрягти в цій дірі надовго, але {0} всеж таки пропонує дати назву колонії.\n\nЯк назвемо?</NameColonyMessage>
-	<ColonyGainsName>Тепер колонія відома під назвою {0}.</ColonyGainsName>
-	<ColonyNameIsInvalid>Це им'я колонії неприпустиме.</ColonyNameIsInvalid>
-
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give this community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
+  
   <!-- Renaming -->
-
-	<NameIsInvalid>Будь ласка, введіть припустиму назву для зони.</NameIsInvalid>
-	<NameIsInUse>Ця назва вже використовується.</NameIsInUse>
-	<ZoneGainsName>Тепер ця зона називається {0}.</ZoneGainsName>
-
+  <NameIsInvalid>Please enter a valid name.</NameIsInvalid>
+  <NameIsInUse>Name is already in use.</NameIsInUse>
+  <ZoneGainsName>The zone is now called {0}.</ZoneGainsName>
+  
   <!-- Pawn naming -->
-
-	<PawnGainsName>Прізвисько колоніста тепер {0}.</PawnGainsName>
+  <PawnGainsName>The colonist nick-name is now {0}.</PawnGainsName>
+  <AnimalGainsName/>
 
   <!-- Save game incompatible warning -->
-
-	<VersionMismatch>Версії не збігаються</VersionMismatch>
-	<SaveGameIncompatibleWarningText>Версії не збігаються: карта була збережена у версії {0}, зараз ви використовуєте версію {1}.\n\nЗавантаження запису, можливо, призведе до збоїв та помилок.</SaveGameIncompatibleWarningText>
-	<WorldFileVersionMismatch>Увага: Цей світ було згенеровано за використанням версії {0}, наразі версія гри {1}.\n\nЗавантаження цього світу, найімовірніше, призведе до появи програмних помилок та призведе до аварійної зупинки виконання цієї програми. Ми радимо вам створити світ наново.</WorldFileVersionMismatch>
-	<FileIncompatibleWarning>Цей файл було збережено на версії гри: {0}\nВи використовуєте версію: {1}\n\nЗавантаження може призвести до виникнення помилок та вильотів.</FileIncompatibleWarning>
-	<ModsMismatchWarningTitle>Моди не збігаються</ModsMismatchWarningTitle>
-	<ModsMismatchWarningText>Версії не збігаються: карта була збережена з іншим набором модів ніж використовуються зараз. Це може не викликати проблема, в залежності від функцій, які виконують ці моди.\n\nКарта була збережена з використанням (у такому порядку):\n\n{0}\n\nВи користуєтеся:\n\n{1}</ModsMismatchWarningText>
-
-
+  <VersionMismatch>Version mismatch</VersionMismatch>
+  <SaveGameIncompatibleWarningText>This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Keep</ResolutionKeep>
+  <ResolutionRevert>Revert</ResolutionRevert>
 
-	<ConfirmResolutionChange>Ви змінили роздільну здатність екрану. Зберегти зміни?\n\nАвтоматичне повернення після {0}...</ConfirmResolutionChange>
-	<ResolutionKeep>Зберегти</ResolutionKeep>
-	<ResolutionRevert>Скасувати</ResolutionRevert>
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode/>
 
   <!-- Research -->
-
-	<Research>Дослідження</Research>
-	<Researched>Вивчено</Researched>
-	<Unresearched>Не вивчено</Unresearched>
-	<Finished>Завершено</Finished>
-	<InProgress>У процесі</InProgress>
-	<Locked>Заблоковано</Locked>
-	<ResearchMenuWithoutBench>Доки ви не зробите дослідницький стіл, ваші колоністи не зможуть виконувати дослідження.\n\nПроте, ви однак можете подивитися й обрати дослідницький проект прямо зараз.</ResearchMenuWithoutBench>
-	<ResearchPrerequisites>Вимоги для початку дослідження</ResearchPrerequisites>
-	<RequiredResearchBench>Необхідний дослідницький стіл</RequiredResearchBench>
-	<RequiredResearchBenchFacilities>Необхідне обладнання для дослідницького столу</RequiredResearchBenchFacilities>
-
+  <Research>Research</Research>
+  <Researched>Researched</Researched>
+  <Unresearched>Unresearched</Unresearched>
+  <Finished>Finished</Finished>
+  <InProgress>In Progress</InProgress>
+  <Locked>Locked</Locked>
+  <ResearchMenuWithoutBench>Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
+  <RequiredResearchBench>Required research bench</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
+  
   <!-- Advanced game start options -->
-
-	<MapTemperatureDangerWarning>УВАГА: Ви обрали зимовий сезон. Може статися, що буде дуже складно, навіть неможливо пережити цей період. Якщо ви не шукаєте додаткових викликів, будь ласка, оберіть іншу локацію або місяць.</MapTemperatureDangerWarning>
-	<MapSizePerformanceWarning>УВАГА: продуктивність може знизитися на картах занадто великих розмірів, якщо ваш комп'ютер недостатньо потужний.\n\nЯкщо у вас слаба комплектація ПК, оберіть "Маленька"\n\nГігантський розмір не тестувався і, майже напевно, призведе до проблем продуктивності.</MapSizePerformanceWarning>
-	<MapSize>Розмір мапи</MapSize>
-	<MapSizeDesc>{0}x{0} ({1} кліток)</MapSizeDesc>
-	<MapSizeSmall>Маленька</MapSizeSmall>
-	<MapSizeMedium>Середня</MapSizeMedium>
-	<MapSizeLarge>Велика</MapSizeLarge>
-	<MapSizeExtreme>Гігантська</MapSizeExtreme>
-	<MapStartSeason>Початковий сезон:</MapStartSeason>
-	<MapStartSeasonDefault>Авто</MapStartSeasonDefault>
-	<PermadeathMode>Хардкорний режим</PermadeathMode>
-	<PermadeathModeInfo>У цьому режимі вам дається лише одна комірка для збереження, а саме збереження може здійснюватися лише при виході з гри. Ви не можете перезавантажитися, щоб виправити свої помилки, а зі смертю останнього поселенця гра закінчується.\n\nЦе саме той режим, яким RimWorld мав бути із самого початку. Вам залишиться лише стійко витримувати каверзи долі, якими б вони не були.</PermadeathModeInfo>
+  <MapTemperatureDangerWarning>Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>   </MapSizePerformanceWarning>
+  <MapSize>Map size</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} cells)</MapSizeDesc>
+  <MapSizeSmall>Small</MapSizeSmall>
+  <MapSizeMedium>Medium</MapSizeMedium>
+  <MapSizeLarge>Large</MapSizeLarge>
+  <MapSizeExtreme>Ludeonicrous</MapSizeExtreme>
+  <MapStartSeason>Starting season:</MapStartSeason>
+  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <Notice/>
+  <PermadeathMode>Permadeath mode</PermadeathMode>
+  <PermadeathModeInfo>In permadeath mode, you get one save file and can only save when quitting the game. You cannot reload the game to fix mistakes, and when the colony dies, that's it.\n\nThis is the way RimWorld was meant to be played, with every dramatic turn - whether tragic or hopeful - played out to full impact.</PermadeathModeInfo>
 
   <!-- Bill config -->
+  <Suspended>Suspended</Suspended>
+  <NotSuspended>Not suspended</NotSuspended>
+  <SuspendedAllCaps>SUSPENDED</SuspendedAllCaps>
+  <RepeatCount>Repeat: {0}</RepeatCount>
+  <Forever>Forever</Forever>
+	<Details>Details</Details>
+  <IngredientSearchRadius>Ingredient radius</IngredientSearchRadius>
+  <CurrentlyHave>Currently have</CurrentlyHave>
+  <CountingProducts>Counting</CountingProducts>
+  <Infinite>Infinite</Infinite>
+  <AllowedSkillRange>Allowed {0} skill:</AllowedSkillRange>
+  <IncompatibleLower/>
+  <AnyWorker/>
+  <Unlimited/>
+  
+  <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
+  <WorkAmount>Work amount</WorkAmount>
+  <MinimumSkills>Minimum skills:</MinimumSkills>
+  <BillRequires>Requires {0} {1}</BillRequires>
+  <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>
+  <BillRequiresMayVary>Note: small-volume ingredients like gold require {0}x as much.</BillRequiresMayVary>
+  <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual.</ThisIsSmallVolume>
+  <UsableIngredients>ingredients</UsableIngredients>
+  <BillRepeatTargetCountShort>To {0}</BillRepeatTargetCountShort>
 
-	<Suspended>Продовжити</Suspended>
-	<NotSuspended>Призупинити</NotSuspended>
-	<SuspendedAllCaps>ПАУЗА</SuspendedAllCaps>
-	<RepeatCount>Виконати: {0}</RepeatCount>
-	<Forever>До ∞</Forever>
-	<Details>Деталі</Details>
-	<IngredientSearchRadius>Радіус пошуку інгр-тів</IngredientSearchRadius>
-	<CurrentlyHave>Наразі є</CurrentlyHave>
-	<CountingProducts>Рахування_MOCK</CountingProducts>
-	<Infinite>Необмежено</Infinite>
-	<AllowedSkillRange>Дозволено навички {0}:</AllowedSkillRange>
+  <PauseWhenSatisfied>Pause when satisfied</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Unpause at</UnpauseWhenYouHave>
+  <Paused>Paused</Paused>
+  <Unpause>Unpause</Unpause>
 
-	<RecipeCannotHaveTargetCount>(Це завдання неможливо повторювати, оскільки результат може бути різним.)</RecipeCannotHaveTargetCount>
-	<WorkAmount>Кількість роботи</WorkAmount>
-	<MinimumSkills>Мінімальні навички:</MinimumSkills>
-	<BillRequires>Потрібно {0} {1}</BillRequires>
-	<BillRequiresNutrition>Вимагає поживності {0}</BillRequiresNutrition>
-	<BillRequiresMayVary>(Величини можуть відрізнятись для елементів з нестандартним об'ємом, наприклад, золота.)</BillRequiresMayVary>
-	<ThisIsSmallVolume>Цей інгредієнт займає невеликий об'єм. Тому кожна одиниця враховується як 20:1, порівняно з інгредієнтами з нормальним об'ємом. Через це, витрати на такий же самий обсяг виробництва становитимуть в 20 разів більше ніж зазвичай.</ThisIsSmallVolume>
-	<UsableIngredients>корисні інгредієнти</UsableIngredients>
-	<DoXTimes>Зробити X разів</DoXTimes>
-	<DoUntilYouHaveX>Повторювати до X</DoUntilYouHaveX>
-	<DoForever>Необмежено</DoForever>
-	<BillRepeatTargetCountShort>До {0}</BillRepeatTargetCountShort>
-	<BillStoreMode_DropOnFloor>Покласти на підлогу</BillStoreMode_DropOnFloor>
-	<BillStoreMode_BestStockpile>До складу найв. пріоритету</BillStoreMode_BestStockpile>
-	<BillStoreMode_NearestStockpileAnyPriority>До найближчого складу</BillStoreMode_NearestStockpileAnyPriority>
-
+  <IncludeEquipped/>
+  <IncludeTainted/>
+  <LimitToAllowedStuff/>
+  <IncludeFromAll/>
+  <IncludeSpecific/>
+  
   <!-- Info card -->
-
-	<Damage>Пошкодження</Damage>
-	<Accuracy>Точність</Accuracy>
-	<BurstShotCount>Пострілів</BurstShotCount>
-	<WarmupTime>Підготовка</WarmupTime>
-	<MeleeWarmupTime>Підготовка</MeleeWarmupTime>
-	<CooldownTime>Перезарядка</CooldownTime>
-	<BurstShotFireRate>Скорострільність</BurstShotFireRate>
-	<Range>Дальність</Range>
-	<GrowsWild>Дике</GrowsWild>
-	<Harvestable>Їстівне</Harvestable>
-	<LimitedLifespan>Недовговічне</LimitedLifespan>
-	<GrowingTime>Час дозрівання</GrowingTime>
-	<GrowingTimeDesc>Рослини ростуть лише протягом світлої частини доби. Ця величина показує скільки часу потрібно, щоб рослина виросла до повноцінного розміру. Насправді, може так статися, що час дозрівання буде вдвічі довшим через освітлення. Низькі температури також перешкоджають нормальному росту рослин.</GrowingTimeDesc>
-	<Days>днів</Days>
-	<MinGrowingSkillToSow>Мінімальний рівень навички, необхідний для посадки</MinGrowingSkillToSow>
-	<FertilityRequirement>Вимоги до грунту</FertilityRequirement>
-	<SoilFertilitySensitivityGrowthRate>Вимоги до родючості ґрунту (швидкість зростання)</SoilFertilitySensitivityGrowthRate>
-	<SoilFertilitySensitivityPlantChance>Вимоги до родючості ґрунту (імовірність проростання)</SoilFertilitySensitivityPlantChance>
-	<LightRequirement>Вимоги до світла</LightRequirement>
-	<Attributes>Атрибути</Attributes>
-	<LifeSpan>Ріст</LifeSpan>
-	<Nutrition>Поживність</Nutrition>
-	<Joy>Вплив на настрій</Joy>
-	<FoodQuality>Тип їжі</FoodQuality>
-	<WalkSpeedProperty>Швидкість бігу</WalkSpeedProperty>
-	<MinFoodQuality>Мін. тип їжі</MinFoodQuality>
-	<Diet>Харчування</Diet>
-	<RecruitDifficulty>Складність вербування</RecruitDifficulty>
-	<MarketValue>Базова ціна</MarketValue>
-	<Covers>Покриває</Covers>
-	<MedicineXpGainFactor>Коєфіцієнт здобуття досвіду</MedicineXpGainFactor>
-	<BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
-	<MoodChange>Зміна настрою</MoodChange>
-	<Wildness>Дикість</Wildness>
-	<WildnessExplanation>Диких тварин складніше приручати, тренувати та спілкуватися з ними.</WildnessExplanation>
-	<AnimalFilthRate>Швидкість забруднення</AnimalFilthRate>
-	<AnimalFilthRateExplanation>Тварини забруднюють підлогу під час руху (в середньому, при проходженні кожних {0} клітинок).\n\nБільші за розмірами та більш дикі тварини залишають після себе більше бруду.</AnimalFilthRateExplanation>
-	<TimeRecordsCategory>Час</TimeRecordsCategory>
-	<MiscRecordsCategory>Інше</MiscRecordsCategory>
+  <Damage>Damage</Damage>
+  <ArmorPenetration/>
+  <ArmorPenetrationExplanation> </ArmorPenetrationExplanation>
+  <Accuracy>Accuracy</Accuracy>
+  <BurstShotCount>Burst shot count</BurstShotCount>
+  <WarmupTime>Warmup</WarmupTime>
+  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
+  <CooldownTime>Cooldown</CooldownTime>
+  <BurstShotFireRate>Fire rate</BurstShotFireRate>
+  <Range>Range</Range>
+  <StoppingPower/>
+  <StoppingPowerExplanation/>
+  <DirectHitChance/>
+  <MissRadius/>
+  <GrowsWild>Grows wild</GrowsWild>
+  <Harvestable>Harvestable</Harvestable>
+  <LimitedLifespan>Limited lifespan</LimitedLifespan>
+  <GrowingTime>Growing time</GrowingTime>
+  <HarvestYield/>
+  <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
+  <Days>days</Days>
+  <MinGrowingSkillToSow>Minimum growing skill to sow</MinGrowingSkillToSow>
+  <FertilityRequirement>Fertility requirement</FertilityRequirement>
+  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
+  <LightRequirement>Light requirement</LightRequirement>
+  <Attributes>Attributes</Attributes>
+  <LifeSpan>Lifespan</LifeSpan>
+  <Nutrition>Nutrition</Nutrition>
+  <Joy>Joy</Joy>
+  <FoodQuality>Food quality</FoodQuality>
+  <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
+  <MinFoodQuality>Min. food quality</MinFoodQuality>
+  <Diet>Diet</Diet>
+  <LeatherType/>
+	<BodySize>Body size</BodySize>
+  <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
+  <MarketValue>Base price</MarketValue>
+  <Covers>Covers</Covers>
+  <Layer/>
+  <CoverEffectiveness>Cover effectiveness</CoverEffectiveness>
+  <CoverEffectivenessExplanation>How effective this is when used as cover in a gunfight. Higher percentages will block more shots.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Experience gain factor</MedicineXpGainFactor>
+  <MoodChange>Mood change</MoodChange>
+  <Wildness>Wildness</Wildness>
+  <WildnessExplanation>Wilder creatures are naturally more difficult to tame, train, and handle.</WildnessExplanation>
+  <TrainingDecayInterval/>
+  <TamenessWillNotDecay/>
+  <AnimalFilthRate>Animal filth rate</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Time</TimeRecordsCategory>
+  <MiscRecordsCategory>Misc</MiscRecordsCategory>
+  <Addictiveness>Addictiveness</Addictiveness>
+	<PackAnimal>Pack animal</PackAnimal>
+	<PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
+  <Skill>Skill</Skill>
+  <SurgerySuccessChanceFactor>Success rate multiplier</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Requires bed</SurgeryRequireBed>
+  <WorkSpeedStat>Work speed governed by</WorkSpeedStat>
+  <EfficiencyStat>Output quantity governed by</EfficiencyStat>
+  <ConstructionSkillRequired>Construction skill required</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Requires this level of Construction in order to build.</ConstructionSkillRequiredExplanation>
+  <NuzzleInterval/>
+  <NuzzleIntervalExplanation> </NuzzleIntervalExplanation>
+  <HarmedRevengeChance/>
+  <HarmedRevengeChanceExplanation> </HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance/>
+  <TerrainRequirement/>
+  <Supports/>
 
   <!-- Trade -->
+  <PositiveBuysNegativeSells>Positive numbers buy.\nNegative numbers sell.</PositiveBuysNegativeSells>
+  <BuyPriceDesc>Price you pay to buy this.</BuyPriceDesc>
+  <SellPriceDesc>Price you receive for selling this.</SellPriceDesc>
+  <PriceTypeDesc>For this item, this price is {0}.</PriceTypeDesc>
+  <ColonyCount>How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are outdoors and near an orbital trade beacon.</ColonyCount>
+  <TraderCount>How many of this item the trader has to trade.</TraderCount>
+  <AcceptButton>Accept</AcceptButton>
+  <ResetButton>Reset</ResetButton>
+  <CancelButton>Cancel</CancelButton>
+  <CloseButton>Close</CloseButton>
+  <YourTradeableSilver>Your tradeable silver: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
+  <TraderHasNoMore>Trader has no more.</TraderHasNoMore>
+  <ColonyHasNoMore>No more to sell.</ColonyHasNoMore>
+  <TraderWillNotTrade>Trader is not willing to trade this.</TraderWillNotTrade>
+  <Negotiator>Negotiator</Negotiator>
+  <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Your negotiator {0} cannot hear properly because of poor health.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>This will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorCapacityImpaired>
+  <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
+  <SortBy>Sort by</SortBy>
+	<TraderTypePrice>trader type</TraderTypePrice>
+	<Selling>selling</Selling>
+	<Buying>buying</Buying>
+	<ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
+	<DifficultyLevel>difficulty level</DifficultyLevel>
+	<PostCurve>global post-process curve</PostCurve>
+	<YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
+	<TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
+	<minimum>minimum</minimum>
+	<FinalPrice>Final price</FinalPrice>
+  <GiftModeTip/>
+  <TradeModeTip/>
 
-	<PositiveBuysNegativeSells>Додатні числа - купити.\nВід'ємні - продати.</PositiveBuysNegativeSells>
-	<BuyPriceDesc>Ціна, яку ви сплачуєте для купівлі.</BuyPriceDesc>
-	<SellPriceDesc>Ціна, яку ви отримуєте після продажу.</SellPriceDesc>
-	<PriceTypeDesc>Для даного предмету це {0} ціна.</PriceTypeDesc>
-	<ColonyCount>Кількість даного предмету, яку має колонія на продаж.\n\nВи можете продавати речі орбітальним торговцям лише тільки коли ці речі знаходяться біля радіомаяку й не під дахом.</ColonyCount>
-	<TraderCount>Кількість даного предмету, яку має торговець на продаж.</TraderCount>
-	<AcceptButton>Згода</AcceptButton>
-	<ResetButton>Скинути</ResetButton>
-	<CancelButton>Скасувати</CancelButton>
-	<YourTradeableSilver>Срібла для торгівлі: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>Ви можете торгувати лише тим сріблом, що знаходиться біля радіомаяку й не під дахом.</YourTradeableSilverTip>
-	<TraderHasNoMore>Торговець більше не має.</TraderHasNoMore>
-	<ColonyHasNoMore>Для продажу більше немає.</ColonyHasNoMore>
-	<TraderWillNotTrade>Торговець не бажає торгувати цим.</TraderWillNotTrade>
-	<NegotiatorTalkingImpaired>Цей персонаж {0} не може нормально спілкуватися, через стан здоров'я.\n\nЦе негативно вплине на ціни.\n\nОберіть кого-небудь більш здорового для перемовин.</NegotiatorTalkingImpaired>
-	<ConfirmTraderShortFunds>У торговця недостатньо грошей, щоб повністю сплатити за товар. Згодні на цю суму?</ConfirmTraderShortFunds>
-	<SortBy>Сортувати за</SortBy>
+  <!-- Sellable items -->
+  <SellableItemsTitle/>
+  <PawnsTabShort/>
+  
+  <!-- Form caravan -->
+  <FormCaravan>Form caravan</FormCaravan>
+  <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
+  <PawnsTab>People and animals</PawnsTab>
+  <ItemsTab>Items</ItemsTab>
+  <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>The chosen exit location ({0}) is inaccessible.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip/>
+  <CaravanVisibilityTip/>
+  <DaysWorthOfFood/>
+  <DaysWorthOfFoodInfoRot>{0} days worth of food, rot in {1} days</DaysWorthOfFoodInfoRot>
+  <InfiniteDaysWorthOfFoodInfo>Will never run out of food</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food. </DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint/>
+  <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.</DaysWorthOfFoodWarningDialog_NoFood>
+  <ForagedFoodPerDayTip/>
+  <ForagedFoodPerDay/>
+  <CaravanFoodWillRotSoonWarningDialog>A large part of the assigned food will rot soon.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>You have no caravan members capable of diplomacy or trading.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Are you sure you want to form this caravan?</CaravanAreYouSure>
+  <MessageMustChooseRouteFirst/>
+  <MessageNoValidExitTile/>
+  <ItemWeightTip>Weight of this item.</ItemWeightTip>
+  <MarketValueTip>Market value</MarketValueTip>
+  <DaysUntilRotTip>The number of days until this item starts to rot based on the average temperature in this area.</DaysUntilRotTip>
+  <ItemNutritionTip/>
+  <AnimalCanGrazeTip/>
+  <NutritionForagedPerDayTip/>
+  <NutritionEatenPerDayTip/>
+  <MassCarriedSimple/>
+  <MassCapacity>Mass capacity</MassCapacity>
+  <Mass>Mass</Mass>
+  <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
+  <InventoryMass>Inventory mass</InventoryMass>
+  <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Reform caravan</ReformCaravan>
+  <ColonistsSection>Colonists</ColonistsSection>
+  <PrisonersSection>Prisoners</PrisonersSection>
+  <CaptureSection/>
+  <AnimalsSection>Animals</AnimalsSection>
+  <ChooseRouteButton/>
+  <AbandonButton>Abandon</AbandonButton>
+  <CaravanMovementSpeed/>
+  <TilesPerDay/>
+  <CaravanMovementSpeedTip/>
+  <AnimalsWillBeAbleToGraze/>
+  <AnimalsCanGraze/>
+  <PossibleToGrazeFor/>
+  <PossibleToGrazeForever/>
+  <CantGrazeBecauseOfBiome/>
+  <CantGrazeBecauseOfTemp/>
+  <TotalNutrition/>
+  <CaravanNotMoving/>
+  <ForagedNutritionPerDay/>
+  <FactionType/>
+  <TotalBodySize/>
 
+  <!-- Split caravan -->
+  <SplitCaravan>Split caravan</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>Load {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>The assigned people and items are too heavy for the transport pods.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>You can't send empty transport pods.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} can't reach the transport pods.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>There is no path between the transport pods and the {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
+  
   <!-- Comms -->
-
-	<SocialSkillIs>Соціальні навички: {0}</SocialSkillIs>
-
-  <!-- Research -->
-
-	<ResearchFinished>Виконано дослідження: {0}</ResearchFinished>
-	<ResearchScreen>Екран досліджень</ResearchScreen>
-
-  <!-- HistoryUpload -->
-
-	<HistoryUploadMessage>Чи згодні ви завантажити свої ігрові записи на сервер RimWorld для того, щоб допомогти розробникам краще збалансувати гру? Якщо так, ваші записи будуть завантажуватися кожні {0} днів (також у окремих випадках, наприклад, в кінці гри). Налаштування приватності можна змінити пізніше в меню налаштувань.</HistoryUploadMessage>
-	<HistoryUploadMessagePlayerName>Незважаючи на те, що записи анонімні, ви можете залишити своє ім'я.</HistoryUploadMessagePlayerName>
-	<HistoryUploadYes>Дозволити завантаження ігрових даних</HistoryUploadYes>
-	<HistoryUploadNo>Не дозволяти завантаження ігрових даних</HistoryUploadNo>
-	<HistoryUploadYesOnce>Завантажити лише цього разу</HistoryUploadYesOnce>
-	<HistoryUploadNoOnce>Цього разу не завантажувати, спитати пізніше</HistoryUploadNoOnce>
-
+  <SocialSkillIs>Social skill: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <ResearchFinished>Research finished: {0}</ResearchFinished>
+  <ResearchScreen>Research Screen</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Even though history is sent anonymously, you can attach your name.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Allow uploading gameplay data</HistoryUploadYes>
+  <HistoryUploadNo>Do not allow uploading gameplay data</HistoryUploadNo>
+  <HistoryUploadYesOnce>Upload only this time</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Do not upload this time, ask me later</HistoryUploadNoOnce>
+	
   <!-- Outfit management -->
+  <Outfit>Outfit</Outfit>
+  <SelectOutfit>Select outfit...</SelectOutfit>
+  <NewOutfit>New outfit</NewOutfit>
+  <DeleteOutfit>Delete outfit...</DeleteOutfit>
+  <OutfitInUse>Outfit is in use by {0}.</OutfitInUse>
+  <NoOutfitSelected>No outfit selected</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <DrugPolicy>Drug policy</DrugPolicy>
+  <SelectDrugPolicy>Select policy...</SelectDrugPolicy>
+  <NewDrugPolicy>New policy</NewDrugPolicy>
+  <DeleteDrugPolicy>Delete policy...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Drugs policy is in use by {0}.</DrugPolicyInUse>
+  <SocialDrugs>Social drugs</SocialDrugs>
+  <NoDrugs>No drugs</NoDrugs>
+  <OneDrinkPerDay>One drink per day</OneDrinkPerDay>
+  <Unrestricted>Unrestricted</Unrestricted>
+  <NoDrugPolicySelected>No drug policy selected</NoDrugPolicySelected>
+  <AddDrug>Add drug...</AddDrug>
+  <DrugColumnLabel>Drug</DrugColumnLabel>
+  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frequency</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Only if mood below</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Only if joy below</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Take to inventory</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(no drugs)</NoDrugsBrackets>
+  <EveryDay>Every day</EveryDay>
+  <TimesPerDay>{0} times per day</TimesPerDay>
+  <EveryDays>Every {0} days</EveryDays>
+  <NoDrugUseRequirement>Any</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Delete this drug.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>The name of a drug.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>How the drug is allowed to be used.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
+	<DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
+	<DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
 
-	<Outfit>Набір</Outfit>
-	<SelectOutfit>Оберіть набір...</SelectOutfit>
-	<NewOutfit>Новий набір</NewOutfit>
-	<DeleteOutfit>Видалити набір...</DeleteOutfit>
-	<OutfitInUse>Цей набір носить {0}.</OutfitInUse>
-	<NoOutfitSelected>Набір не обрано</NoOutfitSelected>
-
+  <!-- Medical settings -->
+  <MedGroupDefaults>Defaults</MedGroupDefaults>
+  <MedGroupColonist>Colonist</MedGroupColonist>
+  <MedGroupImprisonedColonist>Imprisoned colonist</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Colony animal</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Neutral animal</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Neutral faction</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Hostile faction</MedGroupHostileFaction>
+  
   <!-- Growing -->
-	<NoGrowerCanPlant>{0} вимагає рівень {1} садівництва, щоб успішно бути посадженим(ою).\n\nЖоден із ваших активних поселенців не має настільки високого значення навички, тому рослину не буде посаджено.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
 
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Everyone:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmMoveAutoJoinableCaravan> </ConfirmMoveAutoJoinableCaravan>
+  
+  <!-- Abandon pawn -->
+  <ConfirmBanishPawnDialog>Do you really want to banish {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} will take the following items with HIM:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {0} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
 
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Pod group isn't completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase/>
+  
 </LanguageData>

@@ -1,73 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Work tab -->
-
-	<ManualPriorities>Тонке налаштув.</ManualPriorities>
-	<HigherPriority>Високий пріоритет</HigherPriority>
-	<LowerPriority>Низький пріоритет</LowerPriority>
-	<RelevantSkills>Потрібні навички: {0}\nCереднє арифметичне потрібних навичок {1} з {2} максимально можливого.</RelevantSkills>
-	<ClickToJumpTo>Натисніть, щоб перейти до:</ClickToJumpTo>
-	<CannotDoThisWork>{0} не може виконувати роботу такого типу.</CannotDoThisWork>
-	<NoneBrackets>(відсутні)</NoneBrackets>
-	<IncapableOfWorkTypeBecauseOfCapacities>Через стан здоров'я не може виконувати будь-яку роботу такого типу.</IncapableOfWorkTypeBecauseOfCapacities>
-	<EmergencyWorkMarker>О</EmergencyWorkMarker>
+  <ManualPriorities>Пріоритетизація робіт</ManualPriorities>
+  <HigherPriority>високий пріоритет</HigherPriority>
+  <LowerPriority>низький пріоритет</LowerPriority>
+  <RelevantSkills>Необхідні навички: {0}\nв середньому відповідних навичок: {1} / {2}</RelevantSkills>
+  <ClickToJumpTo>Натисніть, щоб перейти до:</ClickToJumpTo>
+  <CannotDoThisWork>{0} не може зробити таку роботу.</CannotDoThisWork>
+  <NoneBrackets>(не задано)</NoneBrackets>
+  <IncapableOfWorkTypeBecauseOfCapacities>Цей колоніст не може робити будь-яку роботу такого типу через його стан здоров'я.</IncapableOfWorkTypeBecauseOfCapacities>
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <SelectedWorkTypeWithVeryBadSkill>Попередження: середнє число відповідних навичок дуже низьке.</SelectedWorkTypeWithVeryBadSkill>
   
-  <!-- Outfits tab -->
-
-	<CurrentOutfit>Поточне спорядження</CurrentOutfit>
-	<ManageOutfits>Керув. спорядженням</ManageOutfits>
-	<ClearForcedApparel>Скин. обов'яз.</ClearForcedApparel>
-	<ApparelForcedLower>примусово одягнено</ApparelForcedLower>
-	<ForcedApparel>Одягнутий за наказом одяг</ForcedApparel>
-	<OutfitEdit>Змінити...</OutfitEdit>
-
+  <!-- Assign tab -->
+  <ManageOutfits>Керувати одягом</ManageOutfits>
+  <ClearForcedApparel>Примусово зняти</ClearForcedApparel>
+  <ApparelForcedLower>примусово</ApparelForcedLower>
+  <ForcedApparel>Примусовий одяг</ForcedApparel>
+  <AssignTabEdit>Редагувати...</AssignTabEdit>
+  <ManageDrugPolicies>Управління політики щодо наркотиків</ManageDrugPolicies>
+  
   <!-- Restrictions tab -->
-
-	<Copy>Копіювати</Copy>
-	<Paste>Вставити</Paste>
-	<AllowedArea>Дозволена зона</AllowedArea>
-
+  <Copy>Копіювати</Copy>
+  <Paste>Вставити</Paste>
+  <AllowedArea>Дозволена зона</AllowedArea>
+  
   <!-- Animals tab -->
-
-	<Master>Господар</Master>
-	<PregnantIconDesc>Вагітна ({0} / {1})</PregnantIconDesc>
-
+  <Master>Головний</Master>
+  <PregnantIconDesc>Вагітних ({0} / {1})</PregnantIconDesc>
+  <BondedTo>Прив'язаний до</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <IsPredator>Це хижак. Ця тварина полюватиме на тварин, що менше за неї, в тому числі - й людей.</IsPredator>
+	
   <!-- Factions tab -->
+  <Hostile>Вороже</Hostile>
+  <Ally>Союзник</Ally>
+  <DefeatedLower>переможений</DefeatedLower>
+  <HostileTo>Ворог {0}</HostileTo>
+  <CurrentGoodwillTip>Поточна репутація і статус відносин з цією фракцією.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>Ця фракція - ворог назавжди. Вони нападатимуть на ваші поселення та каравани. Відносини з ними ні в якому разі не покращаться.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>Ця фракція - ваш союзник. Вони при змозі надсилатимуть вам бійців. Якщо відносини з нею впадуть до {0}, то вони стануть нейтральними.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>Це нейтральна фракція. Вони будуть вільно з вами торгувати і підтримувати зв'язок. Якщо відносини з ними впадуть нижче {0}, то вони стануть ворогами. Якщо відносини покращаться вище {1}, то вони стануть для вас союзниками та почнуть допомагати вам.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>Це ворожа фракція. Вони нападатимуть на ваші поселення та каравани. Якщо відносини з ними зростуть до {0}, то вони стануть нейтральними.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>Зазвичай ця фракція має діапазон репутації від {0} до {1}. Якщо репутація вище {1}, вона зменшується на {3} в день. Якщо репутація нижче {0}, вона зростатиме на {2} в день.</CurrentGoodwillTip_NaturalGoodwill>
+  
+  
+	<!-- Social tab -->
+	<Friend>Друг</Friend>
+	<Rival>Суперник</Rival>
+	<Acquaintance>Знайомство</Acquaintance>
+	
+  <!-- History tab - subtabs -->
+  <Graph>Графіки</Graph>
+  <Messages>Повідомлення</Messages>
+  <Statistics>Статистика</Statistics>
+  
+  <!-- History tab - Graphs -->
+  <SelectGraph>Виберіть графік</SelectGraph>
+  <Last30Days>Останні 30 днів</Last30Days>
+  <Last100Days>Останні 100 днів</Last100Days>
+  <Last300Days>Останні 300 днів</Last300Days>
+  <AllDays>Всі дні</AllDays>
+  <Value>Значення</Value>
+  <External>Зовнішні</External>
 
-	<Hostile>Вороги</Hostile>
-	<HostileTo>Ненавидять {0}</HostileTo>
-	<CurrentGoodwill>Поточні стосунки з цією фракцією.</CurrentGoodwill>
+  <!-- History tab - Messages -->
+  <ShowLetters>Показати листи</ShowLetters>
+  <ShowMessages>Показати повідомлення</ShowMessages>
+  <PinArchivableTip>Закріпити чи відкрипити це повідомлення.\n\nНайстаріші незакріплені повідомлення видалятимуться автоматично після досягнення ліміту в {0} повідомлень.</PinArchivableTip>
+  <NoMessages>жодного повідомлення</NoMessages>
 
-  <!-- Statistics tab -->
-
-	<Playtime>Гра триває</Playtime>
-	<Storyteller>Оповідач</Storyteller>
-	<ColonyWealthTotal>Скарб колонії (загалом)</ColonyWealthTotal>
-	<ColonyWealthItems>Скарб (речі)</ColonyWealthItems>
-	<ColonyWealthBuildings>Скарб (споруди)</ColonyWealthBuildings>
-	<NumThreatBigs>Головні загрози</NumThreatBigs>
-	<NumEnemyRaids>Рейди ворогів</NumEnemyRaids>
-	<DamageTaken>Отримані ушкодження</DamageTaken>
-	<ColonistsKilled>Колоністів вбито</ColonistsKilled>
-	<ColonistsLaunched>Колоністів відправлено в космос</ColonistsLaunched>
-
-  <!-- History tab -->
-
-	<SelectGraph>Вибрати графік</SelectGraph>
-	<Last30Days>За 30 днів</Last30Days>
-	<Last100Days>За 100 днів</Last100Days>
-	<Last300Days>За 300 днів</Last300Days>
-	<AllDays>За увесь час</AllDays>
-	<Day>день</Day>
-	<Value>значення</Value>
-	<External>Інше</External>
+  <!-- History tab - Statistics -->
+  <Playtime>Ігровий час</Playtime>
+  <Storyteller>Оповідач</Storyteller>
+  <ThisMapColonyWealthTotal>Багатство колонії (ця карта)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Багатство колонії (предметів) (ця карта)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Багатство колонії (споруди) (ця карта)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>Багатство колонії (тварини) (ця карта)</ThisMapColonyWealthTameAnimals>
+  <NumThreatBigs>Основні загрози</NumThreatBigs>
+  <NumEnemyRaids>Ворожі напади</NumEnemyRaids>
+  <ThisMapDamageTaken>Шкода завдана (ця карта)</ThisMapDamageTaken>
+  <ColonistsKilled>Колоністів загинуло</ColonistsKilled>
+  <ColonistsLaunched>Колоністів запущено в космос</ColonistsLaunched>
 
   <!-- Research tab -->
-	<ProjectTechLevel>науковий рівень проекту</ProjectTechLevel>
-	<YourTechLevel>ваш науковий рівнеь</YourTechLevel>
-	<ResearchCostMultiplier>множник вартості дослідження</ResearchCostMultiplier>
-	<ResearchCostComparison>Базова вартість дослідження {0} стає {1} через ваш науковий рівень.</ResearchCostComparison>
-  
+  <ProjectTechLevel>технічний рівень проекту</ProjectTechLevel>
+  <YourTechLevel>ваш рівень технологій</YourTechLevel>
+  <ResearchCostMultiplier>множник вартості</ResearchCostMultiplier>
+  <ResearchCostComparison>Базова вартість проекту {0} стає {1} для вас, через ваш технічний рівень.</ResearchCostComparison>
   
 </LanguageData>

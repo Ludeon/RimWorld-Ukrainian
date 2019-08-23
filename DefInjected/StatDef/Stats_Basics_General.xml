@@ -1,39 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<MaxHitPoints.label>Максимальний рівень здоров’я</MaxHitPoints.label>
-	<MaxHitPoints.description>Максимальне значення здоров’я об’єкту.</MaxHitPoints.description>
+  <MaxHitPoints.label>максимальний запас міцності</MaxHitPoints.label>
+  <MaxHitPoints.description>Максимальний запас міцності цього об'єкта. Це кількість шкоди, яке витримає об'єкт перед його знищенням.</MaxHitPoints.description>
 
-	<Mass.label>Маса</Mass.label>
-	<Mass.description>Фактична маса об’єкта.</Mass.description>
-	<Mass.formatString>{0} кг</Mass.formatString>
-	
-	<MarketValue.label>Ринкова вартість</MarketValue.label>
-	<MarketValue.description>Ринкова вартість речі. Фактична ціна буде відрізнятися залежно від стосунків з торговцем та навичок ведення перемовин.</MarketValue.description>
+  <Mass.label>маса</Mass.label>
+  <Mass.description>Маса об'єкта.</Mass.description>
+  <Mass.formatString>{0} кг</Mass.formatString>
 
-	<SellPriceFactor.label>Коефіцієнт коректування ціни</SellPriceFactor.label>
-	<SellPriceFactor.description>Коефіцієнт, з яким ціна на предмет буде перерахована під час продажу.</SellPriceFactor.description>
+  <MarketValue.label>ринкова вартість</MarketValue.label>
+  <MarketValue.description>The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors.</MarketValue.description>
+  <MarketValue.formatString>{0}₴</MarketValue.formatString>
 
-	<Flammability.label>Горючість</Flammability.label>
-	<Flammability.description>Як швидко об’єкт може зайнятися й як швидко він згорить.</Flammability.description>
+  <SellPriceFactor.label>множник ціни продажу</SellPriceFactor.label>
+  <SellPriceFactor.description>Множник на ціну, за якою ви можете продавати товари.</SellPriceFactor.description>
 
-	<WorkToMake.label>Виробниче зусилля</WorkToMake.label>
-	<WorkToMake.description>Об’єм роботи, що необхідно виконати, щоб зробити це, якщо всі матеріали та інструменти вже підготовлені.</WorkToMake.description>
-	
-	<WorkToBuild.label>Виробниче зусилля</WorkToBuild.label>
-	<WorkToBuild.description>Об’єм роботи, що необхідно виконати, щоб побудувати цю будівлю, якщо всі матеріали та інструменти вже підготовлені.</WorkToBuild.description>
+  <Flammability.label>горючість</Flammability.label>
+  <Flammability.description>How easily an object catches fire and how quickly a fire will grow as it burns.</Flammability.description>
 
-	<DeteriorationRate.label>Швидкість псування</DeteriorationRate.label>
-	<DeteriorationRate.description>Швидкість з якою цей предмет зіпсується, якщо він був залишений назовні, особливо під дощем.</DeteriorationRate.description>
-	<DeteriorationRate.formatString>{0}/д</DeteriorationRate.formatString>
+  <WorkToMake.label>залишилося праці</WorkToMake.label>
+  <WorkToMake.description>The base amount of work it takes to make an item, once all materials are gathered.</WorkToMake.description>
 
-	<Beauty.label>Привабливість</Beauty.label>
-	<Beauty.description>Наскільки приємно дивитися на об’єкт та знаходитися біля нього.</Beauty.description>
+  <DeteriorationRate.label>швидкість псування</DeteriorationRate.label>
+  <DeteriorationRate.description>The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water.</DeteriorationRate.description>
+  <DeteriorationRate.formatString>{0} за день</DeteriorationRate.formatString>
 
-	<Cleanliness.label>Чистота</Cleanliness.label>
-	<Cleanliness.description>Наскільки чистим є об’єкт.</Cleanliness.description>
+  <Beauty.label>краса</Beauty.label>
+  <Beauty.description>How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty.</Beauty.description>
 
-	<Comfort.label>Комфорт</Comfort.label>
-	<Comfort.description>Наскільки зручно сидіти чи лежати на об’єкті.</Comfort.description>
+  <Cleanliness.label>чистота</Cleanliness.label>
+  <Cleanliness.description>How much an object contributes to an area's cleanliness score.</Cleanliness.description>
+
+  <Comfort.label>комфорт</Comfort.label>
+  <Comfort.description>How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort.</Comfort.description>
+
+  <Nutrition.label>nutrition</Nutrition.label>
+  <Nutrition.description>How nutritious this food is.</Nutrition.description>
+
+  <FoodPoisonChanceFixedHuman.label>food poison chance</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.description>The chance this food will cause food poisoning.</FoodPoisonChanceFixedHuman.description>
+
+  <ShootingAccuracyTurret.label>shooting accuracy</ShootingAccuracyTurret.label>
+  <ShootingAccuracyTurret.description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyTurret.description>
+
 
 </LanguageData>

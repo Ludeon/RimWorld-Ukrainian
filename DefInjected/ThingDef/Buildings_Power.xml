@@ -1,25 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<PowerConduit.label>Електродріт</PowerConduit.label>
-	<PowerConduit.description>Металевий дріт для передачі електроенергії. Може бути розміщений під стінами чи іншими спорудами.</PowerConduit.description>
+  <PowerConduit.label>силовий кабель</PowerConduit.label>
+  <PowerConduit.description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</PowerConduit.description>
 
-	<PowerSwitch.label>Перемикач</PowerSwitch.label>
-	<PowerSwitch.description>Вмикає та вимикає живлення.</PowerSwitch.description>
+  <Blueprint_PowerConduit.label>BlueprintLabelExtra</Blueprint_PowerConduit.label>
+  <Frame_PowerConduit.label>FrameLabelExtra</Frame_PowerConduit.label>
 
-	<WoodFiredGenerator.label>Дров’яний газогенератор</WoodFiredGenerator.label>
-	<WoodFiredGenerator.description>Генерує електроенергію, спалюючи дерево. Повинен бути заправлений вручну.</WoodFiredGenerator.description>
+  <WaterproofConduit.label>waterproof conduit</WaterproofConduit.label>
+  <WaterproofConduit.description>Insulated electrical cables for transmitting power under shallow water.</WaterproofConduit.description>
 
-	<ChemfuelPoweredGenerator.label>Генератор на хімічному пальному</ChemfuelPoweredGenerator.label>
-	<ChemfuelPoweredGenerator.description>Генерує електроенергію, спалюючи хімічне пальне. Повинен бути заправлений вручну.</ChemfuelPoweredGenerator.description>
+  <Blueprint_WaterproofConduit.label>BlueprintLabelExtra</Blueprint_WaterproofConduit.label>
+  <Frame_WaterproofConduit.label>FrameLabelExtra</Frame_WaterproofConduit.label>
 
-	<Battery.label>Акумуляторна батарея</Battery.label>
-	<Battery.description>Зберігає енергію при її надлишку та повертає при нестачі. Увага: заряджені акумулятори можуть вибухнути через перегрів або від вологи!</Battery.description>
+  <PowerSwitch.label>силовий вимикач</PowerSwitch.label>
+  <PowerSwitch.description>Вмикає/вимикає живлення.</PowerSwitch.description>
 
-	<SolarGenerator.label>Сонячний генератор</SolarGenerator.label>
-	<SolarGenerator.description>Виробляє енергію з сонячного світла. Не працює в темряві та тіні.</SolarGenerator.description>
+  <Blueprint_PowerSwitch.label>BlueprintLabelExtra</Blueprint_PowerSwitch.label>
+  <Frame_PowerSwitch.label>FrameLabelExtra</Frame_PowerSwitch.label>
 
-	<GeothermalGenerator.label>Геотермальний генератор</GeothermalGenerator.label>
-	<GeothermalGenerator.description>Виробляє енергію з парових гейзерів. Має бути розташований поверх гейзера.</GeothermalGenerator.description>
+  <WoodFiredGenerator.label>тверодопаливний генератор</WoodFiredGenerator.label>
+  <WoodFiredGenerator.description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand.</WoodFiredGenerator.description>
+
+  <Blueprint_WoodFiredGenerator.label>BlueprintLabelExtra</Blueprint_WoodFiredGenerator.label>
+  <Frame_WoodFiredGenerator.label>FrameLabelExtra</Frame_WoodFiredGenerator.label>
+
+  <ChemfuelPoweredGenerator.label>генератор на хімпаливі</ChemfuelPoweredGenerator.label>
+  <ChemfuelPoweredGenerator.description>Produces power by consuming chemfuel. Must be periodically refueled by hand.</ChemfuelPoweredGenerator.description>
+
+  <Blueprint_ChemfuelPoweredGenerator.label>BlueprintLabelExtra</Blueprint_ChemfuelPoweredGenerator.label>
+  <Frame_ChemfuelPoweredGenerator.label>FrameLabelExtra</Frame_ChemfuelPoweredGenerator.label>
+
+  <WindTurbine.label>wind turbine</WindTurbine.label>
+  <WindTurbine.description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.</WindTurbine.description>
+
+  <Blueprint_WindTurbine.label>BlueprintLabelExtra</Blueprint_WindTurbine.label>
+  <Frame_WindTurbine.label>FrameLabelExtra</Frame_WindTurbine.label>
+
+  <Battery.label>акумулятор</Battery.label>
+  <Battery.description>Stores electricity for later use. Charged batteries explode when exposed to rain or fire.</Battery.description>
+
+  <Blueprint_Battery.label>BlueprintLabelExtra</Blueprint_Battery.label>
+  <Blueprint_Install_Battery.label>BlueprintLabelExtra</Blueprint_Install_Battery.label>
+  <Frame_Battery.label>FrameLabelExtra</Frame_Battery.label>
+
+  <SolarGenerator.label>сонячна панель</SolarGenerator.label>
+  <SolarGenerator.description>Produces electricity from sunlight. Does not work in the dark or under artificial light.</SolarGenerator.description>
+
+  <Blueprint_SolarGenerator.label>BlueprintLabelExtra</Blueprint_SolarGenerator.label>
+  <Frame_SolarGenerator.label>FrameLabelExtra</Frame_SolarGenerator.label>
+
+  <GeothermalGenerator.label>геотермальний генератор</GeothermalGenerator.label>
+  <GeothermalGenerator.description>Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.</GeothermalGenerator.description>
+
+  <Blueprint_GeothermalGenerator.label>BlueprintLabelExtra</Blueprint_GeothermalGenerator.label>
+  <Frame_GeothermalGenerator.label>FrameLabelExtra</Frame_GeothermalGenerator.label>
+
+  <WatermillGenerator.label>watermill generator</WatermillGenerator.label>
+  <WatermillGenerator.description>Produces electricity from river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generated and reduces each other's power generation.</WatermillGenerator.description>
+
+  <Blueprint_WatermillGenerator.label>BlueprintLabelExtra</Blueprint_WatermillGenerator.label>
+  <Frame_WatermillGenerator.label>FrameLabelExtra</Frame_WatermillGenerator.label>
+
 
 </LanguageData>

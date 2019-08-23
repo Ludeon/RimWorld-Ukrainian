@@ -1,45 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Misc chunks -->
+  <!-- =========== Misc chunks =========== -->
 
-	<ChunkSlagSteel.label>Шматки металу</ChunkSlagSteel.label>
+  <ChunkSlagSteel.label>steel slag chunk</ChunkSlagSteel.label>
+  <ChunkSlagSteel.description>A chunk of steel slag. While it's useless in its current form, it can be smelted to recover steel.</ChunkSlagSteel.description>
 
-  <!-- Stone solids, chunks, and blocks -->
 
-	<Sandstone.label>пісковик</Sandstone.label>
-	<Sandstone.description>Осадова порода. Складається з пресованих зерен піска</Sandstone.description>
-	<ChunkSandstone.label>Брила пісковику</ChunkSandstone.label>
-	<BlocksSandstone.label>пісковикова цегла</BlocksSandstone.label>
-	<BlocksSandstone.description>Цегла з пісковику. Пісковик порівняно м'яка порода й легко оброблюється та розділяється.</BlocksSandstone.description>
-	<BlocksSandstone.stuffProps.stuffAdjective>пісковику</BlocksSandstone.stuffProps.stuffAdjective>
+  <!-- ================ Sandstone ================ -->
 
-	<Granite.label>граніт</Granite.label>
-	<Granite.description>Дуже тверда магматична порода.</Granite.description>
-	<ChunkGranite.label>Брила граніту</ChunkGranite.label>
-	<BlocksGranite.label>гранітна цегла</BlocksGranite.label>
-	<BlocksGranite.description>Цегла з бездомішкового граніту. Дуже щільний й твердий матеріал.</BlocksGranite.description>
-	<BlocksGranite.stuffProps.stuffAdjective>граніту</BlocksGranite.stuffProps.stuffAdjective>
+  <Sandstone.label>sandstone</Sandstone.label>
+  <Sandstone.description>A sedimentary rock composed of sand particles compressed together.</Sandstone.description>
 
-	<Limestone.label>вапняк</Limestone.label>
-	<Limestone.description>Осадова гірська порода, що складається з ущільнених залишків давніх морських мушель.</Limestone.description>
-	<ChunkLimestone.label>Брила вапняку</ChunkLimestone.label>
-	<BlocksLimestone.label>вапнякова цегла</BlocksLimestone.label>
-	<BlocksLimestone.description>Цегла з щільного вапняку</BlocksLimestone.description>
-	<BlocksLimestone.stuffProps.stuffAdjective>вапняку</BlocksLimestone.stuffProps.stuffAdjective>
+  <SmoothedSandstone.label>smoothed sandstone</SmoothedSandstone.label>
+  <SmoothedSandstone.description>A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface.</SmoothedSandstone.description>
 
-	<Slate.label>сланець</Slate.label>
-	<Slate.description>Метаморфічна порода темного кольору. Її тонкі шари легко побачити на зрізі.</Slate.description>
-	<ChunkSlate.label>Брила сланцю</ChunkSlate.label>
-	<BlocksSlate.label>сланцева цегла</BlocksSlate.label>
-	<BlocksSlate.description>Цегла з чистого сланцю. Тьмяне матове каміння, легко розщєплюється.</BlocksSlate.description>
-	<BlocksSlate.stuffProps.stuffAdjective>сланцю</BlocksSlate.stuffProps.stuffAdjective>
+  <ChunkSandstone.label>sandstone chunk</ChunkSandstone.label>
+  <ChunkSandstone.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkSandstone.description>
 
-	<Marble.label>мармур</Marble.label>
-	<Marble.description>М'яка метаморфічна порода.</Marble.description>
-	<ChunkMarble.label>Брила мармуру</ChunkMarble.label>
-	<BlocksMarble.label>мармурова цегла</BlocksMarble.label>
-	<BlocksMarble.description>Цегла з мармуру. Мармур відомий своєю красою, м'який і тому добре підходить для виробництва скульптур.</BlocksMarble.description>
-	<BlocksMarble.stuffProps.stuffAdjective>мармуру</BlocksMarble.stuffProps.stuffAdjective>
+  <BlocksSandstone.label>sandstone blocks</BlocksSandstone.label>
+  <BlocksSandstone.description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</BlocksSandstone.description>
+  <BlocksSandstone.stuffProps.stuffAdjective>sandstone</BlocksSandstone.stuffProps.stuffAdjective>
+
+
+  <!-- ================ Granite ================ -->
+
+  <Granite.label>granite</Granite.label>
+  <Granite.description>A very hard igneous rock.</Granite.description>
+
+  <SmoothedGranite.label>smoothed granite</SmoothedGranite.label>
+  <SmoothedGranite.description>A very hard igneous rock. The shining surface is filled with a mosaic of black, white, and pink speckles.</SmoothedGranite.description>
+
+  <ChunkGranite.label>granite chunk</ChunkGranite.label>
+  <ChunkGranite.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkGranite.description>
+
+  <BlocksGranite.label>granite blocks</BlocksGranite.label>
+  <BlocksGranite.description>Blocks of solid granite. Granite is a very hard stone.</BlocksGranite.description>
+  <BlocksGranite.stuffProps.stuffAdjective>granite</BlocksGranite.stuffProps.stuffAdjective>
+
+
+  <!-- ================ Limestone ================ -->
+
+  <Limestone.label>limestone</Limestone.label>
+  <Limestone.description>A sedimentary rock formed from the compacted remains of ancient seashells.</Limestone.description>
+
+  <SmoothedLimestone.label>smoothed limestone</SmoothedLimestone.label>
+  <SmoothedLimestone.description>A sedimentary rock formed from the compacted remains of ancient seashells. It glows a smooth white, with light patterns of impurities suspended within.</SmoothedLimestone.description>
+
+  <ChunkLimestone.label>limestone chunk</ChunkLimestone.label>
+  <ChunkLimestone.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkLimestone.description>
+
+  <BlocksLimestone.label>limestone blocks</BlocksLimestone.label>
+  <BlocksLimestone.description>Blocks of solid limestone.</BlocksLimestone.description>
+  <BlocksLimestone.stuffProps.stuffAdjective>limestone</BlocksLimestone.stuffProps.stuffAdjective>
+
+
+  <!-- ================ Slate ================ -->
+
+  <Slate.label>slate</Slate.label>
+  <Slate.description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage.</Slate.description>
+
+  <SmoothedSlate.label>smoothed slate</SmoothedSlate.label>
+  <SmoothedSlate.description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage. Interior strata are clearly visible through the polished surface.</SmoothedSlate.description>
+
+  <ChunkSlate.label>slate chunk</ChunkSlate.label>
+  <ChunkSlate.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkSlate.description>
+
+  <BlocksSlate.label>slate blocks</BlocksSlate.label>
+  <BlocksSlate.description>Blocks of solid slate. A dull-looking rock that chips easily.</BlocksSlate.description>
+  <BlocksSlate.stuffProps.stuffAdjective>slate</BlocksSlate.stuffProps.stuffAdjective>
+
+
+  <!-- ================ Marble ================ -->
+
+  <Marble.label>marble</Marble.label>
+  <Marble.description>A soft metamorphic rock.</Marble.description>
+
+  <SmoothedMarble.label>smoothed marble</SmoothedMarble.label>
+  <SmoothedMarble.description>A soft metamorphic rock. This semi-transparent rock almost appears to glow with its own inner light.</SmoothedMarble.description>
+
+  <ChunkMarble.label>marble chunk</ChunkMarble.label>
+  <ChunkMarble.description>A chunk of rock. Can be cut into usable stone blocks.</ChunkMarble.description>
+
+  <BlocksMarble.label>marble blocks</BlocksMarble.label>
+  <BlocksMarble.description>Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt.</BlocksMarble.description>
+  <BlocksMarble.stuffProps.stuffAdjective>marble</BlocksMarble.stuffProps.stuffAdjective>
+
 
 </LanguageData>

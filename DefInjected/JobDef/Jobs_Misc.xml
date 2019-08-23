@@ -1,62 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- General -->
+  <!--========= General ============-->
 
-	<Goto.reportString>йде.</Goto.reportString>
-	<GotoSafeTemperature.reportString>шукає приміщення з кращими температурними умовами</GotoSafeTemperature.reportString>
-	<GotoWander.reportString>гуляє.</GotoWander.reportString>
-	<Wait.reportString>стоїть.</Wait.reportString>
-	<WaitDowned.reportString>непритомний.</WaitDowned.reportString>
-	<WaitSafeTemperature.reportString>перечікує небезпечну температуру.</WaitSafeTemperature.reportString>
-	<WaitWander.reportString>гуляє.</WaitWander.reportString>
-	<WaitCombat.reportString>шукає ціль.</WaitCombat.reportString>
-	<AttackStatic.reportString>атакує TargetA.</AttackStatic.reportString>
-	<AttackMelee.reportString>б’є TargetA.</AttackMelee.reportString>
-	<SocialFight.reportString>у бійці з TargetA.</SocialFight.reportString>
-	<UseVerbOnThing.reportString>робить щось.</UseVerbOnThing.reportString>
-	<Equip.reportString>споряджає TargetA.</Equip.reportString>
-	<TakeInventory.reportString>бере TargetA.</TakeInventory.reportString>
-	<GiveToPackAnimal.reportString>бере TargetA.</GiveToPackAnimal.reportString>
-	<Wear.reportString>одягає TargetA.</Wear.reportString>
-	<RemoveApparel.reportString>знімає TargetA.</RemoveApparel.reportString>
-	<DropEquipment.reportString>скидає TargetA.</DropEquipment.reportString>
-	<Strip.reportString>роздягає TargetA.</Strip.reportString>
-	<Open.reportString>відкриває TargetA.</Open.reportString>
-	<RearmTrap.reportString>заряджає TargetA.</RearmTrap.reportString>
-	<Refuel.reportString>заправляє TargetA.</Refuel.reportString>
-	<FillFermentingBarrel.reportString>заповнює TargetA.</FillFermentingBarrel.reportString>
-	<TakeBeerOutOfFermentingBarrel.reportString>переливає пиво з TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
-	<UnloadInventory.reportString>вивантажує TargetA.</UnloadInventory.reportString>
-	<UnloadYourInventory.reportString>вивантажує інвентар.</UnloadYourInventory.reportString>
-	<ManTurret.reportString>веде вогонь.</ManTurret.reportString>
-	<EnterCryptosleepCasket.reportString>занурюється в капсулу криптосну.</EnterCryptosleepCasket.reportString>
-	<UseNeurotrainer.reportString>використовує нейротренер.</UseNeurotrainer.reportString>
-	<UseArtifact.reportString>активує артефакт.</UseArtifact.reportString>
-	<TriggerFirefoamPopper.reportString>активує протипожежну систему.</TriggerFirefoamPopper.reportString>
-	<ClearSnow.reportString>прибирає сніг.</ClearSnow.reportString>
-	<Vomit.reportString>ригає.</Vomit.reportString>
-	<Flick.reportString>перемикає.</Flick.reportString>
-	<TradeWithPawn.reportString>торгує з TargetA.</TradeWithPawn.reportString>
-	<FleeAndCower.reportString>тікає.</FleeAndCower.reportString>
-	<EnterTransporter.reportString>залізає в TargetA.</EnterTransporter.reportString>
+  <Goto.reportString>йде.</Goto.reportString>
+  <Follow.reportString>йде за TargetA.</Follow.reportString>
+  <FollowClose.reportString>йти за TargetA.</FollowClose.reportString>
+  <GotoSafeTemperature.reportString>шукає приємну температуру.</GotoSafeTemperature.reportString>
+  <GotoWander.reportString>блукає.</GotoWander.reportString>
+  <Wait.reportString>стоїть.</Wait.reportString>
+  <Wait_MaintainPosture.reportString>стоїть.</Wait_MaintainPosture.reportString>
+  <Wait_Downed.reportString>збитий.</Wait_Downed.reportString>
+  <Wait_SafeTemperature.reportString>очікує у безпечній температурі.</Wait_SafeTemperature.reportString>
+  <Wait_Wander.reportString>блукає.</Wait_Wander.reportString>
+  <Wait_Combat.reportString>шукає цілі.</Wait_Combat.reportString>
+  <AttackStatic.reportString>атакує TargetA.</AttackStatic.reportString>
+  <AttackMelee.reportString>б'є TargetA.</AttackMelee.reportString>
+  <SocialFight.reportString>б'ється з TargetA.</SocialFight.reportString>
+  <UseVerbOnThing.reportString>Щось робить.</UseVerbOnThing.reportString>
+  <Equip.reportString>екіпує TargetA.</Equip.reportString>
+  <TakeInventory.reportString>підбирає TargetA.</TakeInventory.reportString>
+  <GiveToPackAnimal.reportString>бере TargetA.</GiveToPackAnimal.reportString>
+  <Wear.reportString>одягає TargetA.</Wear.reportString>
+  <RemoveApparel.reportString>прибирає TargetA.</RemoveApparel.reportString>
+  <DropEquipment.reportString>викидує TargetA.</DropEquipment.reportString>
+  <Strip.reportString>роздягає TargetA.</Strip.reportString>
+  <Open.reportString>розкриває TargetA.</Open.reportString>
+  <RearmTrap.reportString>перезаряджає TargetA.</RearmTrap.reportString>
+  <RearmTurret.reportString>перезаряджає TargetA.</RearmTurret.reportString>
+  <RearmTurretAtomic.reportString>перезаряджає TargetA.</RearmTurretAtomic.reportString>
+  <Refuel.reportString>заправляє TargetA.</Refuel.reportString>
+  <RefuelAtomic.reportString>заправляє TargetA.</RefuelAtomic.reportString>
+  <FillFermentingBarrel.reportString>заповнює TargetA.</FillFermentingBarrel.reportString>
+  <TakeBeerOutOfFermentingBarrel.reportString>бере пиво з TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
+  <UnloadInventory.reportString>розвантажує TargetA.</UnloadInventory.reportString>
+  <UnloadYourInventory.reportString>розвантажує інвентар.</UnloadYourInventory.reportString>
+  <ManTurret.reportString>керує турелью.</ManTurret.reportString>
+  <EnterCryptosleepCasket.reportString>лягає в саркофаг криптосну.</EnterCryptosleepCasket.reportString>
+  <UseNeurotrainer.reportString>використовує нейротренер.</UseNeurotrainer.reportString>
+  <UseArtifact.reportString>використовує артефакт.</UseArtifact.reportString>
+  <UseItem.reportString>використовує TargetA.</UseItem.reportString>
+  <TriggerFirefoamPopper.reportString>активує протипожежну систему.</TriggerFirefoamPopper.reportString>
+  <ClearSnow.reportString>прибирає сніг.</ClearSnow.reportString>
+  <Vomit.reportString>блює.</Vomit.reportString>
+  <Flick.reportString>перемикає перемикач.</Flick.reportString>
+  <TradeWithPawn.reportString>торгує з TargetA.</TradeWithPawn.reportString>
+  <Flee.reportString>тікає.</Flee.reportString>
+  <FleeAndCower.reportString>утікає.</FleeAndCower.reportString>
+  <EnterTransporter.reportString>входить в TargetA.</EnterTransporter.reportString>
+  <Resurrect.reportString>відроджує TargetA.</Resurrect.reportString>
+  <Insult.reportString>ображає TargetA.</Insult.reportString>
+  <HaulCorpseToPublicPlace.reportString>переміщує TargetA.</HaulCorpseToPublicPlace.reportString>
+  <InducePrisonerToEscape.reportString>підбурює TargetA до втечі.</InducePrisonerToEscape.reportString>
 
 
-	<!-- Fire -->
+  <!--============ Fire ============-->
 
-	<Ignite.reportString>підпалює TargetA.</Ignite.reportString>
-	<BeatFire.reportString>збиває вогонь.</BeatFire.reportString>
-	<ExtinguishSelf.reportString>гасить вогонь на собі.</ExtinguishSelf.reportString>
-
-
-	<!-- Need satisfaction -->
-
-	<Ingest.reportString>їсть TargetA.</Ingest.reportString>
-	<LayDown.reportString>лягає.</LayDown.reportString>
+  <Ignite.reportString>підпалює TargetA.</Ignite.reportString>
+  <BeatFire.reportString>гасить полум'я.</BeatFire.reportString>
+  <ExtinguishSelf.reportString>гасить себе.</ExtinguishSelf.reportString>
 
 
-	<!-- Love -->
+  <!--============ Need satisfaction ============-->
 
-	<Lovin.reportString>кохає.</Lovin.reportString>
+  <Ingest.reportString>споживає TargetA.</Ingest.reportString>
+  <LayDown.reportString>лежить.</LayDown.reportString>
+
+
+  <!--============ Love ============-->
+
+  <Lovin.reportString>кохає.</Lovin.reportString>
+
 
 </LanguageData>

@@ -1,67 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<OrbitalTradeBeacon.label>Маяк торгівлі</OrbitalTradeBeacon.label>
-	<OrbitalTradeBeacon.description>Потрібен для орбітальної торгівлі. Продавати можна лише ті речі, які знаходяться близько до маяку на відкритому повітрі. Орбітальні торговці також будуть скидати речі коло нього.</OrbitalTradeBeacon.description>
+  <OrbitalTradeBeacon.label>орбітальний маяк</OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon.description>Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors.</OrbitalTradeBeacon.description>
 
-	<CommsConsole.label>Консоль зв’язку</CommsConsole.label>
-	<CommsConsole.description>Зв’язуйтеся з кораблями, що знаходяться поблизу, та фракціями для проведення перемовин і торгівлі.</CommsConsole.description>
-  
-  <!-- Facilities -->
+  <Blueprint_OrbitalTradeBeacon.label>BlueprintLabelExtra</Blueprint_OrbitalTradeBeacon.label>
+  <Blueprint_Install_OrbitalTradeBeacon.label>BlueprintLabelExtra</Blueprint_Install_OrbitalTradeBeacon.label>
+  <Frame_OrbitalTradeBeacon.label>FrameLabelExtra</Frame_OrbitalTradeBeacon.label>
 
-	<MultiAnalyzer.label>Мульти-аналізатор</MultiAnalyzer.label>
-	<MultiAnalyzer.description>Пришвидшує дослідження. Має бути розміщений поруч зі столом досліджень. Один стіл може бути з’єднаний одночасно з не більше ніж одниим аналізатором.</MultiAnalyzer.description>
+  <CommsConsole.label>термінал зв'язку</CommsConsole.label>
+  <CommsConsole.description>Allows radio contact with other factions and orbital traders.</CommsConsole.description>
 
-	<VitalsMonitor.label>Монітор життєвих функцій</VitalsMonitor.label>
-	<VitalsMonitor.description>Покращує догляд за пацієнтом. Має бути розміщений біля лікарняного ліжка. Одне ліжко може бути пов'язане лише з одним монітором.</VitalsMonitor.description>
+  <Blueprint_CommsConsole.label>BlueprintLabelExtra</Blueprint_CommsConsole.label>
+  <Frame_CommsConsole.label>FrameLabelExtra</Frame_CommsConsole.label>
 
-	<ToolCabinet.label>Шафа з інструментами</ToolCabinet.label>
-	<ToolCabinet.description>Збільшує швидкість праці. Має бути розміщена біля робочого місця. Одне робоче місце може бути пов’язане не більше ніж з двома шафами одночасно.</ToolCabinet.description>
+  <FirefoamPopper.label>вогнегасник</FirefoamPopper.label>
+  <FirefoamPopper.description>When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually.</FirefoamPopper.description>
+  <FirefoamPopper.comps.1.useLabel>Пусковий важіль вогнегасника</FirefoamPopper.comps.1.useLabel>
 
-	<FirefoamPopper.label>Розбризкувач протипожежної піни</FirefoamPopper.label>
-	<FirefoamPopper.description>При взаємодії з вогнем чи при ручній активації вибухає і розкидає в певному радіусі навколо себе протипожежну піну.</FirefoamPopper.description>
-	<FirefoamPopper.comps.1.useLabel>Aktiviere Löschschaum Werfer</FirefoamPopper.comps.1.useLabel>
+  <Blueprint_FirefoamPopper.label>BlueprintLabelExtra</Blueprint_FirefoamPopper.label>
+  <Blueprint_Install_FirefoamPopper.label>BlueprintLabelExtra</Blueprint_Install_FirefoamPopper.label>
+  <Frame_FirefoamPopper.label>FrameLabelExtra</Frame_FirefoamPopper.label>
 
-	<MoisturePump.label>Дренажний насос</MoisturePump.label>
-	<MoisturePump.description>Дуже повільно видаляє вологу з ґрунту навколо себе, перетворюючи болота та мілководдя на суху землю. Не здатний осушити глибоку воду.</MoisturePump.description>
+  <MoisturePump.label>водяний насос</MoisturePump.label>
+  <MoisturePump.description>Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.</MoisturePump.description>
 
-	<GroundPenetratingScanner.label>Глибинний сканер</GroundPenetratingScanner.label>
-	<GroundPenetratingScanner.description>Спрямований донизу глибинний радар, об’єднаний із сонаром та датчиками магнітного поля. Дозволяє знаходити (але не розпізнавати) корисні копалини, що знаходяться глибоко під землею. Споживає достобіса енергії.</GroundPenetratingScanner.description>
+  <Blueprint_MoisturePump.label>BlueprintLabelExtra</Blueprint_MoisturePump.label>
+  <Frame_MoisturePump.label>FrameLabelExtra</Frame_MoisturePump.label>
 
-	<LongRangeMineralScanner.label>Сканер мінералів дальної дії</LongRangeMineralScanner.label>
-	<LongRangeMineralScanner.description>Автоматично знаходить корисні копалини (наприклад, золото) в прилеглих областях (але не в тій, де його розміщено). Скупчення копалин можуть бути знайдені, у середньому, раз на 30 днів у радіусі 30 клітинок. Розміщення поруч додаткових сканерів практично не впливає на ефективність пошуку.</LongRangeMineralScanner.description>
+  <GroundPenetratingScanner.label>сканер мінералів</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.description>Направлений униз радар, поєднаний з ехолокатором та сканером магнітних полів, дозволяє вам знайти залежі мінералів, які знаходяться глибоко під земною поверхнею (але не визначити їх тип). Потребує високі потужності живлення.</GroundPenetratingScanner.description>
 
-  <!-- Transport pods -->
+  <Blueprint_GroundPenetratingScanner.label>BlueprintLabelExtra</Blueprint_GroundPenetratingScanner.label>
+  <Frame_GroundPenetratingScanner.label>FrameLabelExtra</Frame_GroundPenetratingScanner.label>
 
-	<PodLauncher.label>Установка запуску транспортних капсул</PodLauncher.label>
-	<PodLauncher.description>Пристрій, що відправляє транспортні капсули на великі відстані. Одночасно можна активувати одразу декілька установок, але для цього вони повинні бути розміщені поруч одна з одною.</PodLauncher.description>
+  <LongRangeMineralScanner.label>сканер мінералів дальньої дії</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.description>Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Встановлення більше одного сканера в цій зоні не дає жодного ефекту.</LongRangeMineralScanner.description>
 
-	<TransportPod.label>Транспортна капсула</TransportPod.label>
-	<TransportPod.description>Капсула для суборбітального польоту. Може застосовуватися не лише для перевезення вантажів, тварин та людей, а ще й задля здійснення раптових атак на інші поселення чи надсилання підкріплень для допомоги у битві.</TransportPod.description>
+  <Blueprint_LongRangeMineralScanner.label>BlueprintLabelExtra</Blueprint_LongRangeMineralScanner.label>
+  <Frame_LongRangeMineralScanner.label>FrameLabelExtra</Frame_LongRangeMineralScanner.label>
 
-  <!-- =================================================== -->
 
-	<Grave.label>Могила</Grave.label>
-	<Grave.description>Гідне місце упокоєння для загиблих.</Grave.description>
+  <!--========================== Transport pods ============================-->
 
-	<Sarcophagus.label>Саркофаг</Sarcophagus.label>
-	<Sarcophagus.description>Місце останнього сідпочинку для мертвих, які заслужили на це при житті.</Sarcophagus.description>
+  <PodLauncher.label>pod launcher</PodLauncher.label>
+  <PodLauncher.description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</PodLauncher.description>
 
-  <!-- Cryptosleep casket -->
 
-	<CryptosleepCasket.label>Крипто-саркофаг</CryptosleepCasket.label>
-	<CryptosleepCasket.description>Камера із власним джерелом живлення, що створена для підтримки персонажа у стані анабіозу впродовж багатьох років.</CryptosleepCasket.description>
+  <!--========================== Transport pods ============================-->
 
-	<AncientCryptosleepCasket.label>Стародавній крипто-саркофаг</AncientCryptosleepCasket.label>
-	<AncientCryptosleepCasket.description>Ця камера має такий вигляд, немов вона лежить тут з давніх давен. Можна лише здогадуватися, що знаходиться всередині.</AncientCryptosleepCasket.description>
+  <Blueprint_PodLauncher.label>BlueprintLabelExtra</Blueprint_PodLauncher.label>
 
-	<MarriageSpot.label>Місце проведення весіль</MarriageSpot.label>
-	<MarriageSpot.description>Визначає місце, де будуть відбуватися весільні церемонії. Глядачі можуть спостерігати з будь-якого боку.</MarriageSpot.description>
 
-	<PartySpot.label>Місце для вечірок</PartySpot.label>
-	<PartySpot.description>Визначає місце, поряд з яким будуть відбуватися вечірки.</PartySpot.description>
+  <!--========================== Transport pods ============================-->
 
-	<CaravanPackingSpot.label>Місце збору караванау</CaravanPackingSpot.label>
-	<CaravanPackingSpot.description>Визначає місце, де будуть формуватися каравани.</CaravanPackingSpot.description>
+  <Frame_PodLauncher.label>FrameLabelExtra</Frame_PodLauncher.label>
+
+  <TransportPod.label>transport pod</TransportPod.label>
+  <TransportPod.description>A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles.</TransportPod.description>
+
+  <Blueprint_TransportPod.label>BlueprintLabelExtra</Blueprint_TransportPod.label>
+  <Frame_TransportPod.label>FrameLabelExtra</Frame_TransportPod.label>
+
+
+  <!--========================== Facilities ============================-->
+
+  <MultiAnalyzer.label>багатофункціональний аналізатор</MultiAnalyzer.label>
+  <MultiAnalyzer.description>Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer.</MultiAnalyzer.description>
+
+
+  <!--========================== Facilities ============================-->
+
+  <Blueprint_MultiAnalyzer.label>BlueprintLabelExtra</Blueprint_MultiAnalyzer.label>
+
+
+  <!--========================== Facilities ============================-->
+
+  <Blueprint_Install_MultiAnalyzer.label>BlueprintLabelExtra</Blueprint_Install_MultiAnalyzer.label>
+
+
+  <!--========================== Facilities ============================-->
+
+  <Frame_MultiAnalyzer.label>FrameLabelExtra</Frame_MultiAnalyzer.label>
+
+  <VitalsMonitor.label>vitals monitor</VitalsMonitor.label>
+  <VitalsMonitor.description>Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect.</VitalsMonitor.description>
+
+  <Blueprint_VitalsMonitor.label>BlueprintLabelExtra</Blueprint_VitalsMonitor.label>
+  <Blueprint_Install_VitalsMonitor.label>BlueprintLabelExtra</Blueprint_Install_VitalsMonitor.label>
+  <Frame_VitalsMonitor.label>FrameLabelExtra</Frame_VitalsMonitor.label>
+
+  <ToolCabinet.label>tool cabinet</ToolCabinet.label>
+  <ToolCabinet.description>Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets.</ToolCabinet.description>
+
+  <Blueprint_ToolCabinet.label>BlueprintLabelExtra</Blueprint_ToolCabinet.label>
+  <Blueprint_Install_ToolCabinet.label>BlueprintLabelExtra</Blueprint_Install_ToolCabinet.label>
+  <Frame_ToolCabinet.label>FrameLabelExtra</Frame_ToolCabinet.label>
+
+
+  <!--=========================== Graves ============================-->
+
+  <Grave.label>могила</Grave.label>
+  <Grave.description>A decent final resting place. Colonists will visit full graves to gain meditative joy.</Grave.description>
+
+
+  <!--=========================== Graves ============================-->
+
+  <Blueprint_Grave.label>BlueprintLabelExtra</Blueprint_Grave.label>
+
+
+  <!--=========================== Graves ============================-->
+
+  <Frame_Grave.label>FrameLabelExtra</Frame_Grave.label>
+
+  <Sarcophagus.label>sarcophagus</Sarcophagus.label>
+  <Sarcophagus.description>An ornamented burial receptacle for the honored dead.</Sarcophagus.description>
+
+  <Blueprint_Sarcophagus.label>BlueprintLabelExtra</Blueprint_Sarcophagus.label>
+  <Frame_Sarcophagus.label>FrameLabelExtra</Frame_Sarcophagus.label>
+
+
+  <!--======================= Cryptosleep caskets ===========================-->
+
+  <CryptosleepCasket.label>cryptosleep casket</CryptosleepCasket.label>
+  <CryptosleepCasket.description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</CryptosleepCasket.description>
+
+
+  <!--======================= Cryptosleep caskets ===========================-->
+
+  <Blueprint_CryptosleepCasket.label>BlueprintLabelExtra</Blueprint_CryptosleepCasket.label>
+
+
+  <!--======================= Cryptosleep caskets ===========================-->
+
+  <Frame_CryptosleepCasket.label>FrameLabelExtra</Frame_CryptosleepCasket.label>
+
+  <AncientCryptosleepCasket.label>ancient cryptosleep casket</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.description>This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain?</AncientCryptosleepCasket.description>
+
+
+  <!--============================ Spots =============================-->
+
+  <MarriageSpot.label>marriage spot</MarriageSpot.label>
+  <MarriageSpot.description>Designates a spot where marriage ceremonies will take place. Spectators can watch from either side.</MarriageSpot.description>
+
+
+  <!--============================ Spots =============================-->
+
+  <Blueprint_MarriageSpot.label>BlueprintLabelExtra</Blueprint_MarriageSpot.label>
+
+
+  <!--============================ Spots =============================-->
+
+  <Frame_MarriageSpot.label>FrameLabelExtra</Frame_MarriageSpot.label>
+
+  <PartySpot.label>party spot</PartySpot.label>
+  <PartySpot.description>Designates a spot for throwing parties.</PartySpot.description>
+
+  <Blueprint_PartySpot.label>BlueprintLabelExtra</Blueprint_PartySpot.label>
+  <Frame_PartySpot.label>FrameLabelExtra</Frame_PartySpot.label>
+
+  <CaravanPackingSpot.label>caravan packing spot</CaravanPackingSpot.label>
+  <CaravanPackingSpot.description>Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process.</CaravanPackingSpot.description>
+
+  <Blueprint_CaravanPackingSpot.label>BlueprintLabelExtra</Blueprint_CaravanPackingSpot.label>
+  <Frame_CaravanPackingSpot.label>FrameLabelExtra</Frame_CaravanPackingSpot.label>
+
 
 </LanguageData>

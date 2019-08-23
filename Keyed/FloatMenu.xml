@@ -1,124 +1,213 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<CallOnRadio>Зв'язатися з {0}</CallOnRadio>
-	<CannotUseReason>Неможливо використовувати ({0})</CannotUseReason>
-	<CannotUseSolarFlare>Неможливо використовувати (сонячний спалах)</CannotUseSolarFlare>
-	<CannotUseNoPower>Неможливо використовувати (немає енергії)</CannotUseNoPower>
-	<CannotUseNoPath>Неможливо використовувати (немає проходу)</CannotUseNoPath>
-	<CannotUseReserved>Неможливо використовувати (зайнято)</CannotUseReserved>
-	<CannotUseFull>Неможливо використовувати (заповнено)</CannotUseFull>
+	<CallOnRadio>Виклик {0}</CallOnRadio>
+  <CannotUseReason>Не можливо використати ({0})</CannotUseReason>
+	<CannotUseSolarFlare>Не можливо використати (сонячний спалах)</CannotUseSolarFlare>
+	<CannotUseNoPower>Не можливо використати (знеструмлено)</CannotUseNoPower>
+	<CannotUseNoPath>Не можливо використати (шлях не знайдено)</CannotUseNoPath>
+  <CannotUseReserved>Не можливо використати (захищено)</CannotUseReserved>
+  <CannotUseFull>Не можливо використати (повний)</CannotUseFull>
+	<LeaderUnavailable>лідер {0} недоступний</LeaderUnavailable>
+	<LeaderUnavailableNoLeader>лідер недоступний</LeaderUnavailableNoLeader>
+  
+  <FireAt>Пожежа в {0}</FireAt>
 
-	<FireAt>Стріляти в {0}</FireAt>
+  <OutOfRange>поза діапазоном</OutOfRange>
+  <CannotHitTarget>не можливо вразити ціль</CannotHitTarget>
+  <IsIncapableOfViolenceLower>{0} не здатний на насильство</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>не здатний(а) на насильство</IncapableOfViolenceLower>
+  <IsNotDraftedLower>{0} is not drafted</IsNotDraftedLower>
+  <CannotOrderNonControlledLower>cannot order characters you do not control</CannotOrderNonControlledLower>
+  <CannotAttackSelf>cannot attack self</CannotAttackSelf>
 
-	<OutOfRange>поза зоною ураження</OutOfRange>
-	<CannotHitTarget>неможливо влучити в ціль</CannotHitTarget>
-	<IsIncapableOfViolenceLower>{0} нездатний(а) до жорстокості</IsIncapableOfViolenceLower>
-	<IsNotDraftedLower>{0} не призваний(а)</IsNotDraftedLower>
-	<CannotOrderNonControlledLower>не можна віддавати накази непідконтрольній істоті</CannotOrderNonControlledLower>
-
-	<OrderManThing>Зайняти {0}</OrderManThing>
-
-	<MeleeAttack>Битися з {0}</MeleeAttack>
-	<MeleeAttackToDeath>Добити {0} врукопаш</MeleeAttackToDeath>
-	<NoPath>немає проходу</NoPath>
+  <OrderManThing>Людина {0}</OrderManThing>
+  
+  <MeleeAttack>Атаки ближнього бою {0}</MeleeAttack>
+  <MeleeAttackToDeath>Атаки ближнього бою {0} до смерті</MeleeAttackToDeath>
+  <NoPath>шлях не знайдено</NoPath>
 
 	<ForbiddenLower>заборонено</ForbiddenLower>
-	<ForbiddenOutsideAllowedAreaLower>поза дозволеною зоною</ForbiddenOutsideAllowedAreaLower>
-	<SociallyImproperLower>соціально неадаптований</SociallyImproperLower>
-	<PrisonerRoomLower>приміщення в'язниці</PrisonerRoomLower>
+	<ForbiddenOutsideAllowedAreaLower>за межами допустимої зони</ForbiddenOutsideAllowedAreaLower>
+	<NotInHomeArea>не в домашнії зоні</NotInHomeArea>
 	<BurningLower>горить</BurningLower>
-	<NoEmptyPlaceLower>немає вільного місця, налаштованого для збереження цього</NoEmptyPlaceLower>
-	<AlreadyFilledLower>вже повний</AlreadyFilledLower>
-	<MissingMaterials>нестача матеріалів</MissingMaterials>
-	<MissingSkill>навички надто низькі</MissingSkill>
-	<NoEmptyGraveLower>немає пустих могиил</NoEmptyGraveLower>
-	<AnimalInteractedTooRecently>занадто часта взаємодія</AnimalInteractedTooRecently>
-	<NoUsableFood>немає необхідної їжі</NoUsableFood>
-	<NoFood>немає їжі</NoFood>
-	<AnimalsSkillTooLow>Тварина недостатньо розумна</AnimalsSkillTooLow>
-	<NoComponentsToRepair>необхідні компоненти</NoComponentsToRepair>
-	<NoFuelToRefuel>необхідне {0}</NoFuelToRefuel>
+	<NoEmptyPlaceLower>відсутні доступні місця налаштовані для зберігання цього</NoEmptyPlaceLower>
+  <NoMergeTarget>no stack available to merge into</NoMergeTarget>
+	<AlreadyFilledLower>заповнено</AlreadyFilledLower>
+	<MissingMaterials>потрібний матеріал</MissingMaterials>
+	<UnderRequiredSkill>under required skill {0}</UnderRequiredSkill>
+  <UnderAllowedSkill>under allowed skill {0}</UnderAllowedSkill>
+  <AboveAllowedSkill>above allowed skill {0}</AboveAllowedSkill>
+  <MissingRequiredSkillLevel>missing required skill level</MissingRequiredSkillLevel>
+	<AnimalInteractedTooRecently>тварина вже спілкувалася нещодавно</AnimalInteractedTooRecently>
+	<NoUsableFood>відсутня їжа (придатна для харчування)</NoUsableFood>
+	<NoFood>відсутня їжі</NoFood>
+	<AnimalsSkillTooLow>animals skill too low - need {0}</AnimalsSkillTooLow>
+  <CantInteractAnimalDowned>animal downed</CantInteractAnimalDowned>
+  <CantInteractAnimalAsleep>animal sleeping</CantInteractAnimalAsleep>
+  <CantInteractAnimalBusy>animal busy</CantInteractAnimalBusy>
+  <ConstructionSkillTooLow>будівельні навички занадто низькі</ConstructionSkillTooLow>
+	<NoComponentsToRepair>потрібні компоненти</NoComponentsToRepair>
+	<NoFuelToRefuel>потрібно {0}</NoFuelToRefuel>
+  <NoWort>необхідні сусла</NoWort>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>доступна їжа на складі з більшим пріорітетом</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>відсутня їжа (бажана для харчування)</NoFoodToFillHopper>
+  <SelfTendDisabled>самостійно, як правило, відключена</SelfTendDisabled>
+  <ReservedForPrisoners>зарезервовано для ув'язнених</ReservedForPrisoners>
+  <CannotReach>не можливо добратися</CannotReach>
+  <NotSurgeryReady>не готовий до операції</NotSurgeryReady>
+  <SkillDisabled>skill incapable</SkillDisabled>
+  <CantSowCavePlantBecauseOfLight>занадто світло</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseUnroofed>без даху</CantSowCavePlantBecauseUnroofed>
+  <IncapableOfDeconstruction>incapable of deconstruction</IncapableOfDeconstruction>
+  
+  <ConsumeThing>Споживати {0}</ConsumeThing>
+  
+  <CannotGoNoPath>Не можливо прийти (шлях не знайдено)</CannotGoNoPath>
+  <GoHere>Іди сюди</GoHere>
+  
+  <Arrest>Арештувати {0}</Arrest>
+  <TryToArrest>Спробувати заарештувати {0}</TryToArrest>
+  <CannotArrest>Не можливо заарештувати</CannotArrest>
 
-	<ConsumeThing>Спожити {0}</ConsumeThing>
-	<Teetotaler>непитущий</Teetotaler>
+  <Capture>Захопити {0}</Capture>
+  <CannotCapture>Не можливо захопити</CannotCapture>
 
-	<CannotGoNoPath>Неможливо пройти сюди (немає проходу)</CannotGoNoPath>
-	<GoHere>Йти сюди</GoHere>
+  <Rescue>Порятунок {0}</Rescue>
+  <CannotRescue>Не можливо врятувати</CannotRescue>
 
-	<Arrest>Заарештувати {0}</Arrest>
-	<TryToArrest>Спробувати арештувати {0}</TryToArrest>
-	<CannotArrest>Неможливо арештувати</CannotArrest>
+  <CarryToCryptosleepCasket>Нести {0} до капсули криптосну</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Не можливо нести {0} до капсули криптосну</CannotCarryToCryptosleepCasket>
 
-	<Capture>Захопити {0}</Capture>
-	<CannotCapture>Неможливо захопити</CannotCapture>
+  <NoCryptosleepCasket>Недоступна капсула криптосну.</NoCryptosleepCasket>
+  <NoPrisonerBed>В не досяжності, не зарезервоване, не закрите ліжко для в'язня, температура безпечна.</NoPrisonerBed>
+  <NoNonPrisonerBed>В не досяжності, не зарезервоване ліжко, температура безпечна.</NoNonPrisonerBed>
+  <NoAnimalBed>В не досяжності, не зарезервоване ліжко для тварини, температура безпечна.</NoAnimalBed>
+  <Reserved>Зарезервовано кимось іншим.</Reserved>
+  <ReservedBy>Зарезервовано {0}</ReservedBy>
+  <IsReservedBy>{0} зарезервований {1}.</IsReservedBy>
+  <TooHeavy>Занадто важко</TooHeavy>
 
-	<Rescue>Врятувати {0}</Rescue>
-	<CannotRescue>Неможливо врятувати</CannotRescue>
+  <Incapable>нездатний</Incapable>
+  <IncapableOfCapacity>нездатний {0}</IncapableOfCapacity>
 
-	<CarryToCryptosleepCasket>Перенести {0} до капсули крипто сну</CarryToCryptosleepCasket>
-	<CannotCarryToCryptosleepCasket>Неможливо перенести до капсули крипто сну</CannotCarryToCryptosleepCasket>
+  <MinSkill>мінімальна навичка</MinSkill>
+  
+  <Equip>Спорядити {0}</Equip>
+  <EquipWarningBrawler>(забіяка буде невдоволена)</EquipWarningBrawler>
+  <CannotEquip>Не можливо обладнати {0}</CannotEquip>
+  <CannotManThing>Cannot man {0}</CannotManThing>
+  
+  <ForceWear>Змусити одягнути {0}</ForceWear>
+  <CannotWear>Не можливо одягнути {0}</CannotWear>
+  <CannotWearBecauseOfMissingBodyParts>відсутні частини тіла</CannotWearBecauseOfMissingBodyParts>
+  
+  <CannotPickUp>Не можливо підібрати {0}</CannotPickUp>
+  <CannotPickUpAll>Не можливо підібрати {0} (все)</CannotPickUpAll>
+  <PickUp>Підібрати {0}</PickUp>
+  <PickUpAll>Підібрати {0} (все)</PickUpAll>
+  <PickUpSome>Підібрати {0}...</PickUpSome>
+  <PickUpCount>Підібрати {0} х{{0}}</PickUpCount>
+  
+  <CannotGiveToPackAnimal>Не можливо дати {0} для стаї тварин</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Не можливо дати {0} (все) для стаї тварин</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Дати {0} для стаї тварин</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Дати {0} (все) для стаї тварин</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Дати {0} для стаї тварин...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Взяти {0} х{{0}}</GiveToPackAnimalCount>
+  
+  <CannotLoadIntoCaravan>Cannot load {0} into caravan</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravanAll>Cannot load {0} (all) into caravan</CannotLoadIntoCaravanAll>
+  <LoadIntoCaravan>Load {0} into caravan</LoadIntoCaravan>
+  <LoadIntoCaravanAll>Load {0} (all) into caravan</LoadIntoCaravanAll>
+  <LoadIntoCaravanSome>Load {0} into caravan...</LoadIntoCaravanSome>
+  <LoadIntoCaravanCount>Load {0} x{{0}}</LoadIntoCaravanCount>
+  <OverweightLower>overweight</OverweightLower>
 
-	<NoCryptosleepCasket>Немає вільних капсул крипто сну.</NoCryptosleepCasket>
-	<NoPrisonerBed>Немає вільних ліжок для в'язнів.</NoPrisonerBed>
-	<NoNonPrisonerBed>Немає вільних ліжок для колоністів.</NoNonPrisonerBed>
-	<NoAnimalBed>Немає доступного місця для сну тварин.</NoAnimalBed>
-	<Reserved>Зайнято кимось іншим.</Reserved>
-	<ReservedBy>Зайнято {0}.</ReservedBy>
-	<IsReservedBy>{0} зайнято {1}.</IsReservedBy>
+  <CannotCarryToExit>Не можливо нести {0} і покинути територію</CannotCarryToExit>
+  <CarryToExit>Нести {0} і покинути територію</CarryToExit>
+  <CarryToExitAndCapture>Capture {0} and leave the area</CarryToExitAndCapture>
+  
+  <Strip>Роздягнути {0}</Strip>
+  <CannotStrip>Не можливо роздягнути {0}</CannotStrip>
 
-	<Incapable>нездатний</Incapable>
-	<IncapableOfCapacity>не в змозі {0}</IncapableOfCapacity>
+  <SelfDestructHere>Самоліквідуватися тут</SelfDestructHere>
+  
+  <Drop>Викинути {0}</Drop>
 
-	<MinSkill>мінімальні навички</MinSkill>
-
-	<Equip>Спорядити {0}</Equip>
-	<EquipWarningBrawler>(забіяка буде незадоволений)</EquipWarningBrawler>
-	<CannotEquip>Неможливо спорядити {0}</CannotEquip>
-
-	<ForceWear>Вдягнути {0}</ForceWear>
-	<CannotWear>Неможливо вдягнути {0}</CannotWear>
-	<CannotWearBecauseOfMissingBodyParts>відсутня частина тіла</CannotWearBecauseOfMissingBodyParts>
-
-	<Strip>Роздягнути {0}</Strip>
-	<CannotStrip>Неможливо роздягнути {0}</CannotStrip>
-
-	<Deposit>Покласти {0} до {1}</Deposit>
-	<CannotDeposit>Неможливо покласти {0} до {1}</CannotDeposit>
-
-	<SelfDestructHere>Самознищитися тут</SelfDestructHere>
-
-	<Drop>Кинути {0}</Drop>
-	<UseMedicalBed>Відпочивати до повного відновлення</UseMedicalBed>
-	<NotInjured>Не має поранень</NotInjured>
-	<SomeoneElseSleeping>Спить хтось інший</SomeoneElseSleeping>
-	<TradeWith>Торгувати з {0}</TradeWith>
-	<CannotTrade>Неможливо торгувати</CannotTrade>
+  <UseMedicalBed>Відпочивати до зцілення</UseMedicalBed>
+  <NotInjured>not injured</NotInjured>
+  <SomeoneElseSleeping>occupied by {0}</SomeoneElseSleeping>
+  
+  <TradeWith>Торгівля з {0}</TradeWith>
+  <CannotTrade>Торгівля не можлива</CannotTrade>
+  
+  <EnterMap>Увійти в {0}</EnterMap>
+  <VisitSettlement>Відвідати {0}</VisitSettlement>
+  <VisitPeaceTalks>Відвідати {0}</VisitPeaceTalks>
+  <VisitEscapeShip>Відвідати {0}</VisitEscapeShip>
+  <AttackSettlement>Атакувати {0}</AttackSettlement>
+  <ApproachSite>Approach {0}</ApproachSite>
+  <ApproachingSite>Approaching {0}</ApproachingSite>
+  <OfferGifts>Offer gifts</OfferGifts>
 
   <!-- Specific thing interactions -->
+  <EnterCryptosleepCasket>Лягти в капсулу криптосну</EnterCryptosleepCasket>
+  <OpenCryptosleepCasket>Відкрити капсулу криптосну</OpenCryptosleepCasket>
 
-	<EnterCryptosleepCasket>Увійти в капсулу крипто сну</EnterCryptosleepCasket>
-	<OpenCryptosleepCasket>Відкрити капсулу</OpenCryptosleepCasket>
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
+  <CannotGenericWork>Не можливо {0} {1}</CannotGenericWork>
+  <CannotGenericWorkCustom>Cannot {0}</CannotGenericWorkCustom>
 
-  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <CannotMissingHealthActivities>Не можливо розставити пріоритети (не в змозі {0})</CannotMissingHealthActivities>
 
-	<CannotGenericWork>Неможливо {0} {1}</CannotGenericWork>
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotGenericAlreadyAm>Вже {0} {1}</CannotGenericAlreadyAm>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc -->
+  <CannotPrioritizeWorkTypeDisabled>Не можливо розставити пріоритети (ніколи не зробить {0})</CannotPrioritizeWorkTypeDisabled>
 
-	<CannotMissingHealthActivities>Неможливо зробити: {0} (через стан здоров'я)</CannotMissingHealthActivities>
+	<CannotPrioritizeWorkGiverDisabled>Не можливо розставити пріоритети (ніколи не зробить {0})</CannotPrioritizeWorkGiverDisabled>
+  <WillNever>will never {0}</WillNever>
 
-	<CannotGenericAlreadyAm>Вже {0} {1}</CannotGenericAlreadyAm>
+	<CannotPrioritizeNotAssignedToWorkType>Не можливо розставити пріоритети (не назначений {0})</CannotPrioritizeNotAssignedToWorkType>
+  <NotAssigned>not assigned</NotAssigned>
 
-	<CannotPrioritizeIsNotA>Зараз немає можливості ({0} не {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeResearch>Не можливо розставити пріоритети (дослідження є довгостроковим завданням)</CannotPrioritizeResearch>
 
-	<CannotPrioritizeResearch>Зараз немає можливості (дослідження це довгострокова задача)</CannotPrioritizeResearch>
+  <CannotPrioritizeForbidden>Не можливо розставити пріоритети ({0} заборонено)</CannotPrioritizeForbidden>
+  <CannotPrioritizeCellForbidden>Cannot prioritize (forbidden)</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Outside allowed area</CannotPrioritizeForbiddenOutsideAllowedArea>
 
-	<CannotPrioritizeForbidden>Зараз немає можливості ({0} заборонено)</CannotPrioritizeForbidden>
-	<CannotPrioritizeForbiddenOutsideAllowedArea>Зараз немає можливості ({0} поза дозволеною зоною)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
+  <PrioritizeGeneric>Виставити пріорітет {0} на {1}</PrioritizeGeneric>
   
-  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <DropAtEdge>Викинути на край</DropAtEdge>
+  <DropInCenter>Викинути на центр</DropInCenter>
+  <AttackAndDropAtEdge>Attack {0}: Drop at edge</AttackAndDropAtEdge>
+  <AttackAndDropInCenter>Attack {0}: Drop in center</AttackAndDropInCenter>
+  
+  <VomitingLower>блювота</VomitingLower>
+  <NotInterruptibleLower>не переривається</NotInterruptibleLower>
+  
+  <AddWaypoint>Додати сюди нову відмітку</AddWaypoint>
+  <RemoveWaypoint>Видалити цю відмітку</RemoveWaypoint>
 
-	<PrioritizeGeneric>Негайно {0} {1}</PrioritizeGeneric>
+  <RemoveAllDesignations>Cancel all designations</RemoveAllDesignations>
+  <DesignateAll>Designate all</DesignateAll>
+  <CountToDesignate>{0} affected</CountToDesignate>
+  <ForbidAllItems>Forbid all items</ForbidAllItems>
+  <UnforbidAllItems>Unforbid all items</UnforbidAllItems>
+  <RearmAllTraps>Rearm all traps</RearmAllTraps>
 
+  <!-- Transport pods -->
+  <LandInExistingMap>Zoom in and choose a landing spot in {0}</LandInExistingMap>
+  <TransportPodsContentsWillBeLost>The contents will be lost</TransportPodsContentsWillBeLost>
+  <FormCaravanHere>Form caravan here</FormCaravanHere>
+  <GiveToCaravan>Give to {0}</GiveToCaravan>
+  <GiveGiftViaTransportPods>Give as a gift to {0} ({1})</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <FreePrisoner>Free prisoner</FreePrisoner>
+  <OfferHelp>Offer help</OfferHelp>
+  
 </LanguageData>
