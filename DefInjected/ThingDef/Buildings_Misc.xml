@@ -3,168 +3,129 @@
 
   <OrbitalTradeBeacon.label>орбітальний маяк</OrbitalTradeBeacon.label>
   <OrbitalTradeBeacon.description>Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors.</OrbitalTradeBeacon.description>
-
-  <Blueprint_OrbitalTradeBeacon.label>BlueprintLabelExtra</Blueprint_OrbitalTradeBeacon.label>
-  <Blueprint_Install_OrbitalTradeBeacon.label>BlueprintLabelExtra</Blueprint_Install_OrbitalTradeBeacon.label>
-  <Frame_OrbitalTradeBeacon.label>FrameLabelExtra</Frame_OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon_Blueprint.label>orbital trade beacon (blueprint)</OrbitalTradeBeacon_Blueprint.label>
+  <OrbitalTradeBeacon_Blueprint_Install.label>orbital trade beacon (blueprint)</OrbitalTradeBeacon_Blueprint_Install.label>
+  <OrbitalTradeBeacon_Frame.label>orbital trade beacon (building)</OrbitalTradeBeacon_Frame.label>
+  <OrbitalTradeBeacon_Frame.description>Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors.</OrbitalTradeBeacon_Frame.description>
 
   <CommsConsole.label>термінал зв'язку</CommsConsole.label>
   <CommsConsole.description>Allows radio contact with other factions and orbital traders.</CommsConsole.description>
-
-  <Blueprint_CommsConsole.label>BlueprintLabelExtra</Blueprint_CommsConsole.label>
-  <Frame_CommsConsole.label>FrameLabelExtra</Frame_CommsConsole.label>
+  <CommsConsole_Blueprint.label>comms console (blueprint)</CommsConsole_Blueprint.label>
+  <CommsConsole_Frame.label>comms console (building)</CommsConsole_Frame.label>
+  <CommsConsole_Frame.description>Allows radio contact with other factions and orbital traders.</CommsConsole_Frame.description>
 
   <FirefoamPopper.label>вогнегасник</FirefoamPopper.label>
   <FirefoamPopper.description>When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually.</FirefoamPopper.description>
   <FirefoamPopper.comps.1.useLabel>Пусковий важіль вогнегасника</FirefoamPopper.comps.1.useLabel>
-
-  <Blueprint_FirefoamPopper.label>BlueprintLabelExtra</Blueprint_FirefoamPopper.label>
-  <Blueprint_Install_FirefoamPopper.label>BlueprintLabelExtra</Blueprint_Install_FirefoamPopper.label>
-  <Frame_FirefoamPopper.label>FrameLabelExtra</Frame_FirefoamPopper.label>
+  <FirefoamPopper_Blueprint.label>firefoam popper (blueprint)</FirefoamPopper_Blueprint.label>
+  <FirefoamPopper_Blueprint_Install.label>firefoam popper (blueprint)</FirefoamPopper_Blueprint_Install.label>
+  <FirefoamPopper_Frame.label>firefoam popper (building)</FirefoamPopper_Frame.label>
+  <FirefoamPopper_Frame.description>When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually.</FirefoamPopper_Frame.description>
 
   <MoisturePump.label>водяний насос</MoisturePump.label>
   <MoisturePump.description>Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.</MoisturePump.description>
-
-  <Blueprint_MoisturePump.label>BlueprintLabelExtra</Blueprint_MoisturePump.label>
-  <Frame_MoisturePump.label>FrameLabelExtra</Frame_MoisturePump.label>
+  <MoisturePump_Blueprint.label>moisture pump (blueprint)</MoisturePump_Blueprint.label>
+  <MoisturePump_Frame.label>moisture pump (building)</MoisturePump_Frame.label>
+  <MoisturePump_Frame.description>Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water.</MoisturePump_Frame.description>
 
   <GroundPenetratingScanner.label>сканер мінералів</GroundPenetratingScanner.label>
   <GroundPenetratingScanner.description>Направлений униз радар, поєднаний з ехолокатором та сканером магнітних полів, дозволяє вам знайти залежі мінералів, які знаходяться глибоко під земною поверхнею (але не визначити їх тип). Потребує високі потужності живлення.</GroundPenetratingScanner.description>
-
-  <Blueprint_GroundPenetratingScanner.label>BlueprintLabelExtra</Blueprint_GroundPenetratingScanner.label>
-  <Frame_GroundPenetratingScanner.label>FrameLabelExtra</Frame_GroundPenetratingScanner.label>
+  <GroundPenetratingScanner_Blueprint.label>ground-penetrating scanner (blueprint)</GroundPenetratingScanner_Blueprint.label>
+  <GroundPenetratingScanner_Frame.label>ground-penetrating scanner (building)</GroundPenetratingScanner_Frame.label>
+  <GroundPenetratingScanner_Frame.description>A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity.</GroundPenetratingScanner_Frame.description>
 
   <LongRangeMineralScanner.label>сканер мінералів дальньої дії</LongRangeMineralScanner.label>
-  <LongRangeMineralScanner.description>Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Встановлення більше одного сканера в цій зоні не дає жодного ефекту.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner_Blueprint.label>long-range mineral scanner (blueprint)</LongRangeMineralScanner_Blueprint.label>
+  <LongRangeMineralScanner_Frame.label>long-range mineral scanner (building)</LongRangeMineralScanner_Frame.label>
+  <LongRangeMineralScanner_Frame.description>Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill.</LongRangeMineralScanner_Frame.description>
 
-  <Blueprint_LongRangeMineralScanner.label>BlueprintLabelExtra</Blueprint_LongRangeMineralScanner.label>
-  <Frame_LongRangeMineralScanner.label>FrameLabelExtra</Frame_LongRangeMineralScanner.label>
 
-
-  <!--========================== Transport pods ============================-->
+  <!-- Transport pods -->
 
   <PodLauncher.label>pod launcher</PodLauncher.label>
   <PodLauncher.description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</PodLauncher.description>
-
-
-  <!--========================== Transport pods ============================-->
-
-  <Blueprint_PodLauncher.label>BlueprintLabelExtra</Blueprint_PodLauncher.label>
-
-
-  <!--========================== Transport pods ============================-->
-
-  <Frame_PodLauncher.label>FrameLabelExtra</Frame_PodLauncher.label>
+  <PodLauncher_Blueprint.label>pod launcher (blueprint)</PodLauncher_Blueprint.label>
+  <PodLauncher_Frame.label>pod launcher (building)</PodLauncher_Frame.label>
+  <PodLauncher_Frame.description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</PodLauncher_Frame.description>
 
   <TransportPod.label>transport pod</TransportPod.label>
   <TransportPod.description>A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles.</TransportPod.description>
+  <TransportPod_Blueprint.label>transport pod (blueprint)</TransportPod_Blueprint.label>
+  <TransportPod_Frame.label>transport pod (building)</TransportPod_Frame.label>
+  <TransportPod_Frame.description>A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles.</TransportPod_Frame.description>
 
-  <Blueprint_TransportPod.label>BlueprintLabelExtra</Blueprint_TransportPod.label>
-  <Frame_TransportPod.label>FrameLabelExtra</Frame_TransportPod.label>
 
-
-  <!--========================== Facilities ============================-->
+  <!-- Facilities -->
 
   <MultiAnalyzer.label>багатофункціональний аналізатор</MultiAnalyzer.label>
   <MultiAnalyzer.description>Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer.</MultiAnalyzer.description>
-
-
-  <!--========================== Facilities ============================-->
-
-  <Blueprint_MultiAnalyzer.label>BlueprintLabelExtra</Blueprint_MultiAnalyzer.label>
-
-
-  <!--========================== Facilities ============================-->
-
-  <Blueprint_Install_MultiAnalyzer.label>BlueprintLabelExtra</Blueprint_Install_MultiAnalyzer.label>
-
-
-  <!--========================== Facilities ============================-->
-
-  <Frame_MultiAnalyzer.label>FrameLabelExtra</Frame_MultiAnalyzer.label>
+  <MultiAnalyzer_Blueprint.label>multi-analyzer (blueprint)</MultiAnalyzer_Blueprint.label>
+  <MultiAnalyzer_Blueprint_Install.label>multi-analyzer (blueprint)</MultiAnalyzer_Blueprint_Install.label>
+  <MultiAnalyzer_Frame.label>multi-analyzer (building)</MultiAnalyzer_Frame.label>
+  <MultiAnalyzer_Frame.description>Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer.</MultiAnalyzer_Frame.description>
 
   <VitalsMonitor.label>vitals monitor</VitalsMonitor.label>
   <VitalsMonitor.description>Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect.</VitalsMonitor.description>
-
-  <Blueprint_VitalsMonitor.label>BlueprintLabelExtra</Blueprint_VitalsMonitor.label>
-  <Blueprint_Install_VitalsMonitor.label>BlueprintLabelExtra</Blueprint_Install_VitalsMonitor.label>
-  <Frame_VitalsMonitor.label>FrameLabelExtra</Frame_VitalsMonitor.label>
+  <VitalsMonitor_Blueprint.label>vitals monitor (blueprint)</VitalsMonitor_Blueprint.label>
+  <VitalsMonitor_Blueprint_Install.label>vitals monitor (blueprint)</VitalsMonitor_Blueprint_Install.label>
+  <VitalsMonitor_Frame.label>vitals monitor (building)</VitalsMonitor_Frame.label>
+  <VitalsMonitor_Frame.description>Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect.</VitalsMonitor_Frame.description>
 
   <ToolCabinet.label>tool cabinet</ToolCabinet.label>
   <ToolCabinet.description>Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets.</ToolCabinet.description>
+  <ToolCabinet_Blueprint.label>tool cabinet (blueprint)</ToolCabinet_Blueprint.label>
+  <ToolCabinet_Blueprint_Install.label>tool cabinet (blueprint)</ToolCabinet_Blueprint_Install.label>
+  <ToolCabinet_Frame.label>tool cabinet (building)</ToolCabinet_Frame.label>
+  <ToolCabinet_Frame.description>Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets.</ToolCabinet_Frame.description>
 
-  <Blueprint_ToolCabinet.label>BlueprintLabelExtra</Blueprint_ToolCabinet.label>
-  <Blueprint_Install_ToolCabinet.label>BlueprintLabelExtra</Blueprint_Install_ToolCabinet.label>
-  <Frame_ToolCabinet.label>FrameLabelExtra</Frame_ToolCabinet.label>
 
-
-  <!--=========================== Graves ============================-->
+  <!-- Graves -->
 
   <Grave.label>могила</Grave.label>
   <Grave.description>A decent final resting place. Colonists will visit full graves to gain meditative joy.</Grave.description>
-
-
-  <!--=========================== Graves ============================-->
-
-  <Blueprint_Grave.label>BlueprintLabelExtra</Blueprint_Grave.label>
-
-
-  <!--=========================== Graves ============================-->
-
-  <Frame_Grave.label>FrameLabelExtra</Frame_Grave.label>
+  <Grave_Blueprint.label>grave (blueprint)</Grave_Blueprint.label>
+  <Grave_Frame.label>grave (building)</Grave_Frame.label>
+  <Grave_Frame.description>A decent final resting place. Colonists will visit full graves to gain meditative joy.</Grave_Frame.description>
 
   <Sarcophagus.label>sarcophagus</Sarcophagus.label>
   <Sarcophagus.description>An ornamented burial receptacle for the honored dead.</Sarcophagus.description>
+  <Sarcophagus_Blueprint.label>sarcophagus (blueprint)</Sarcophagus_Blueprint.label>
+  <Sarcophagus_Frame.label>sarcophagus (building)</Sarcophagus_Frame.label>
+  <Sarcophagus_Frame.description>An ornamented burial receptacle for the honored dead.</Sarcophagus_Frame.description>
 
-  <Blueprint_Sarcophagus.label>BlueprintLabelExtra</Blueprint_Sarcophagus.label>
-  <Frame_Sarcophagus.label>FrameLabelExtra</Frame_Sarcophagus.label>
 
-
-  <!--======================= Cryptosleep caskets ===========================-->
+  <!-- Cryptosleep caskets -->
 
   <CryptosleepCasket.label>cryptosleep casket</CryptosleepCasket.label>
   <CryptosleepCasket.description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</CryptosleepCasket.description>
-
-
-  <!--======================= Cryptosleep caskets ===========================-->
-
-  <Blueprint_CryptosleepCasket.label>BlueprintLabelExtra</Blueprint_CryptosleepCasket.label>
-
-
-  <!--======================= Cryptosleep caskets ===========================-->
-
-  <Frame_CryptosleepCasket.label>FrameLabelExtra</Frame_CryptosleepCasket.label>
+  <CryptosleepCasket_Blueprint.label>cryptosleep casket (blueprint)</CryptosleepCasket_Blueprint.label>
+  <CryptosleepCasket_Frame.label>cryptosleep casket (building)</CryptosleepCasket_Frame.label>
+  <CryptosleepCasket_Frame.description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</CryptosleepCasket_Frame.description>
 
   <AncientCryptosleepCasket.label>ancient cryptosleep casket</AncientCryptosleepCasket.label>
   <AncientCryptosleepCasket.description>This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain?</AncientCryptosleepCasket.description>
 
 
-  <!--============================ Spots =============================-->
+  <!-- Spots -->
 
   <MarriageSpot.label>marriage spot</MarriageSpot.label>
   <MarriageSpot.description>Designates a spot where marriage ceremonies will take place. Spectators can watch from either side.</MarriageSpot.description>
-
-
-  <!--============================ Spots =============================-->
-
-  <Blueprint_MarriageSpot.label>BlueprintLabelExtra</Blueprint_MarriageSpot.label>
-
-
-  <!--============================ Spots =============================-->
-
-  <Frame_MarriageSpot.label>FrameLabelExtra</Frame_MarriageSpot.label>
+  <MarriageSpot_Blueprint.label>marriage spot (blueprint)</MarriageSpot_Blueprint.label>
+  <MarriageSpot_Frame.label>marriage spot (building)</MarriageSpot_Frame.label>
+  <MarriageSpot_Frame.description>Designates a spot where marriage ceremonies will take place. Spectators can watch from either side.</MarriageSpot_Frame.description>
 
   <PartySpot.label>party spot</PartySpot.label>
   <PartySpot.description>Designates a spot for throwing parties.</PartySpot.description>
-
-  <Blueprint_PartySpot.label>BlueprintLabelExtra</Blueprint_PartySpot.label>
-  <Frame_PartySpot.label>FrameLabelExtra</Frame_PartySpot.label>
+  <PartySpot_Blueprint.label>party spot (blueprint)</PartySpot_Blueprint.label>
+  <PartySpot_Frame.label>party spot (building)</PartySpot_Frame.label>
+  <PartySpot_Frame.description>Designates a spot for throwing parties.</PartySpot_Frame.description>
 
   <CaravanPackingSpot.label>caravan packing spot</CaravanPackingSpot.label>
   <CaravanPackingSpot.description>Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process.</CaravanPackingSpot.description>
-
-  <Blueprint_CaravanPackingSpot.label>BlueprintLabelExtra</Blueprint_CaravanPackingSpot.label>
-  <Frame_CaravanPackingSpot.label>FrameLabelExtra</Frame_CaravanPackingSpot.label>
+  <CaravanPackingSpot_Blueprint.label>caravan packing spot (blueprint)</CaravanPackingSpot_Blueprint.label>
+  <CaravanPackingSpot_Frame.label>caravan packing spot (building)</CaravanPackingSpot_Frame.label>
+  <CaravanPackingSpot_Frame.description>Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process.</CaravanPackingSpot_Frame.description>
 
 
 </LanguageData>
