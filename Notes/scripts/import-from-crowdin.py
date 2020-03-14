@@ -15,7 +15,7 @@ def main(args):
         "-p",
         "--project-identifier",
         help="Crowdin project identifier",
-        default=os.environ.get("PROJECT_IDENTIFIER"),
+        default=os.environ.get("PROJECT_IDENTIFIER", 'rimworld-ukr'),
     )
     parser.add_argument(
         "-k",
@@ -31,7 +31,8 @@ def main(args):
 
     project = CrowdinProject(parsed_args.project_identifier, parsed_args.project_key)
     archive = project.download_archive()
-    project.extract_archive(archive, os.getcwd())
+    translations_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    project.extract_archive(archive, translations_root)
 
 
 class CrowdinProject:
