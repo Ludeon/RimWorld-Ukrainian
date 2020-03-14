@@ -7,12 +7,12 @@
   <LowerPriority>низький пріоритет</LowerPriority>
   <RelevantSkills>Необхідні навички: {0}\nв середньому відповідних навичок: {1} / {2}</RelevantSkills>
   <ClickToJumpTo>Натисніть, щоб перейти до:</ClickToJumpTo>
-  <CannotDoThisWork>{0} не може зробити таку роботу.</CannotDoThisWork>
+  <CannotDoThisWork>{1_labelShort} не може виконати подібну роботу.</CannotDoThisWork>
   <NoneBrackets>(не задано)</NoneBrackets>
   <IncapableOfWorkTypeBecauseOfCapacities>Цей колоніст не може робити будь-яку роботу такого типу через його стан здоров'я.</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <SelectedWorkTypeWithVeryBadSkill>Попередження: середнє число відповідних навичок дуже низьке.</SelectedWorkTypeWithVeryBadSkill>
-  
+
   <!-- Assign tab -->
   <ManageOutfits>Керувати одягом</ManageOutfits>
   <ClearForcedApparel>Примусово зняти</ClearForcedApparel>
@@ -20,20 +20,21 @@
   <ForcedApparel>Примусовий одяг</ForcedApparel>
   <AssignTabEdit>Редагувати...</AssignTabEdit>
   <ManageDrugPolicies>Управління політики щодо наркотиків</ManageDrugPolicies>
-  
+  <ManageFoodRestrictions>Управління харчовими обмеженнями</ManageFoodRestrictions>
+
   <!-- Restrictions tab -->
   <Copy>Копіювати</Copy>
   <Paste>Вставити</Paste>
   <AllowedArea>Дозволена зона</AllowedArea>
-  
+
   <!-- Animals tab -->
   <Master>Головний</Master>
   <PregnantIconDesc>Вагітних ({0} / {1})</PregnantIconDesc>
   <BondedTo>Прив'язаний до</BondedTo>
-  
+
   <!-- Wildlife tab -->
   <IsPredator>Це хижак. Ця тварина полюватиме на тварин, що менше за неї, в тому числі - й людей.</IsPredator>
-	
+
   <!-- Factions tab -->
   <Hostile>Вороже</Hostile>
   <Ally>Союзник</Ally>
@@ -45,18 +46,17 @@
   <CurrentGoodwillTip_Neutral>Це нейтральна фракція. Вони будуть вільно з вами торгувати і підтримувати зв'язок. Якщо відносини з ними впадуть нижче {0}, то вони стануть ворогами. Якщо відносини покращаться вище {1}, то вони стануть для вас союзниками та почнуть допомагати вам.</CurrentGoodwillTip_Neutral>
   <CurrentGoodwillTip_Hostile>Це ворожа фракція. Вони нападатимуть на ваші поселення та каравани. Якщо відносини з ними зростуть до {0}, то вони стануть нейтральними.</CurrentGoodwillTip_Hostile>
   <CurrentGoodwillTip_NaturalGoodwill>Зазвичай ця фракція має діапазон репутації від {0} до {1}. Якщо репутація вище {1}, вона зменшується на {3} в день. Якщо репутація нижче {0}, вона зростатиме на {2} в день.</CurrentGoodwillTip_NaturalGoodwill>
-  
-  
-	<!-- Social tab -->
-	<Friend>Друг</Friend>
-	<Rival>Суперник</Rival>
-	<Acquaintance>Знайомство</Acquaintance>
-	
+
+  <!-- Social tab -->
+  <Friend>Друг</Friend>
+  <Rival>Суперник</Rival>
+  <Acquaintance>Знайомство</Acquaintance>
+
   <!-- History tab - subtabs -->
   <Graph>Графіки</Graph>
   <Messages>Повідомлення</Messages>
   <Statistics>Статистика</Statistics>
-  
+
   <!-- History tab - Graphs -->
   <SelectGraph>Виберіть графік</SelectGraph>
   <Last30Days>Останні 30 днів</Last30Days>
@@ -78,7 +78,7 @@
   <ThisMapColonyWealthTotal>Багатство колонії (ця карта)</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>Багатство колонії (предметів) (ця карта)</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>Багатство колонії (споруди) (ця карта)</ThisMapColonyWealthBuildings>
-  <ThisMapColonyWealthTameAnimals>Багатство колонії (тварини) (ця карта)</ThisMapColonyWealthTameAnimals>
+  <ThisMapColonyWealthColonistsAndTameAnimals>Багатство колонії (люди і тварини) (ця карта)</ThisMapColonyWealthColonistsAndTameAnimals>
   <NumThreatBigs>Основні загрози</NumThreatBigs>
   <NumEnemyRaids>Ворожі напади</NumEnemyRaids>
   <ThisMapDamageTaken>Шкода завдана (ця карта)</ThisMapDamageTaken>
@@ -90,5 +90,5 @@
   <YourTechLevel>ваш рівень технологій</YourTechLevel>
   <ResearchCostMultiplier>множник вартості</ResearchCostMultiplier>
   <ResearchCostComparison>Базова вартість проекту {0} стає {1} для вас, через ваш технічний рівень.</ResearchCostComparison>
-  
+
 </LanguageData>

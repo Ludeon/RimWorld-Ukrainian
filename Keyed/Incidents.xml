@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LetterLabelAnimalInsanitySingle>Божевільний {0}</LetterLabelAnimalInsanitySingle>
-  <AnimalInsanitySingle>Місцевий {0} зійшов з розуму. Він буде атакувати все що бачить.</AnimalInsanitySingle>
-  <LetterLabelAnimalInsanityMultiple>Божевільний {0}</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanitySingle>Сказ у {ANIMAL_labelShort}</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>Місцевий {ANIMAL_label} зійшов з розуму. Він буде атакувати все що бачить.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>Скажений {0}</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Якась психічна хвиля прокотилася над землею. Ваші колоністи впорядку, але...\n\nЗдається багато {0} в цьому районі зійшли з розуму.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Чума</LetterLabelCropBlight>
@@ -13,16 +13,16 @@
   <MiracleHeal>{0} дивом видужав(ла)!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidLeaderPresent>Однин з {0} - {1} є лідером цієї фракції.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Один з {LEADER_factionPawnsPlural} - {LEADER_labelShort}, є лідером фракції.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidLeaderPresent>Один з {0} - {1} є лідером цієї фракції.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Один з {LEADER_factionPawnsPlural} - {LEADER_labelShort}, є лідером фракції.</FriendlyRaidLeaderPresent>
 
-  <LetterLabelRefugeePodCrash>Рятувальна капсула</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>[PAWN_title] на ім'я [PAWN_nameDef] падає у рятувальній капсулі неподалеку. Якщо [PAWN_pronoun] переживе приземлення, то [PAWN_pronoun] буде важко поранений.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrash_NonHostile>Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations.</RefugeePodCrash_NonHostile>
+  <LetterLabelRefugeePodCrash>Падіння транспортної капсули</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded.</RefugeePodCrash>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} з {PAWN_factionName}. Якщо ви врятуєте {PAWN_objective}, {PAWN_pronoun} може приєднатися до вас. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
   <CargoPodCrash>You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage.</CargoPodCrash>
@@ -36,25 +36,22 @@
 
   <TraderArrival>A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.</TraderArrival>
 
-  <SingleTravelerPassing>A {0} from {1} is passing by. [PAWN_pronoun] is named {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}.</SingleTravelerPassing>
   <GroupTravelersPassing>A group of travelers from {0} are passing by.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Visitor</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] seems to have a few items to trade.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] is the leader of the faction.</SingleVisitorArrivesLeaderInfo>
-  <LetterLabelGroupVisitorsArrive>Visitors</LetterLabelGroupVisitorsArrive>
-  <GroupVisitorsArrive>A group from {0} are visiting the colony.{1}{2}</GroupVisitorsArrive>
-  <GroupVisitorsArriveTraderInfo>\n\nThey seem to have a few items to trade.</GroupVisitorsArriveTraderInfo>
-  <GroupVisitorsArriveLeaderInfo>\n\nOne of the visitors - {0}, is the leader of the faction.</GroupVisitorsArriveLeaderInfo>
+  <SingleVisitorArrives>{PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} seems to have a few items to trade.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} is the leader of the faction.</SingleVisitorArrivesLeaderInfo>
+  <LetterLabelGroupVisitorsArrive>Відвідувачі</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>Група з {0} відвідують колонію.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>Вони здається, мають кілька речей для торгівлі.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>Один з відвідувачів - {1_labelShort}, є лідером цієї фракції.</GroupVisitorsArriveLeaderInfo>
   <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
-
-  <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
-  <WandererJoin>A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them.</ManhunterPackArrived>
-  
+
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>The ancient structure has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
@@ -62,7 +59,7 @@
   <PsychicDroneLevel>Psychic drone level: {0}</PsychicDroneLevel>
   <LetterLabelPsychicDroneLevelIncreased>Drone intensifies</LetterLabelPsychicDroneLevelIncreased>
   <LetterPsychicDroneLevelIncreased>The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid.</LetterPsychicDroneLevelIncreased>
-  
+
   <!-- Agent revealed -->
   <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
   <LetterAgentRevealed>{0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now.</LetterAgentRevealed>
@@ -77,42 +74,38 @@
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Beavers!</LetterLabelBeaversArrived>
   <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region.</BeaversArrived>
-  
+
   <!-- Refugee chased -->
-	<RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
+  <RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
+  <RefugeeChasedInitial>{PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5}</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Offer safety</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
-  <RefugeeChasedRejected>{0} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>
+  <RefugeeChasedRejected>{1_labelShort} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <LetterLabelAnimalSelfTame>{0} self-tamed</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} self-tamed</LetterLabelAnimalSelfTame>
   <LetterAnimalSelfTame>{0} has become tame.</LetterAnimalSelfTame>
-  <LetterAnimalSelfTameAndNameNumerical>{0} has become tame. It is now designated {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <LetterAnimalSelfTameAndName>{0} has become tame. Colonists have decided to name it {1}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndNameNumerical>{0} has become tame. It is now designated {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <LetterLabelFarmAnimalsWanderIn>{0} join</LetterLabelFarmAnimalsWanderIn>
   <LetterFarmAnimalsWanderIn>A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony.</LetterFarmAnimalsWanderIn>
-  
+
   <!-- Thrumbo passes -->
   <LetterLabelThrumboPasses>Rare thrumbos</LetterLabelThrumboPasses>
   <LetterThrumboPasses>A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days.</LetterThrumboPasses>
-  
+
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>{1} from {0}</LetterLabelTraderCaravanArrival>
   <LetterTraderCaravanArrival>A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction!</LetterTraderCaravanArrival>
-  
-  <!-- Building breaks down -->
-  <LetterLabelBuildingBrokenDown>Breakdown: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it.</LetterBuildingBrokenDown>
-  
+
   <!-- Ransom demand -->
-	<RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
-	<RansomDemand>{1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver.</RansomDemand>
+  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+  <RansomDemand>{1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver.</RansomDemand>
   <RansomDemand_Accept>Accept</RansomDemand_Accept>
   <RansomDemand_Reject>Reject</RansomDemand_Reject>
-  
+
   <!-- Journey-related -->
   <JourneyOffer>A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars.</JourneyOffer>
   <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
@@ -121,18 +114,19 @@
   <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>
 
   <!-- Caravan meeting -->
-	<CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
-	<CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
-  <CaravanMeeting_Trade>Trade</CaravanMeeting_Trade>
-  <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
+  <CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
+  <CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting_Trade>Торгівля</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>Атакувати</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Move on</CaravanMeeting_MoveOn>
   <CaravanMeeting_TradeIncapable>no caravan members capable of trading</CaravanMeeting_TradeIncapable>
-  
+
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Caravan request</LetterLabelCaravanRequest>
   <LetterCaravanRequest>A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map.</LetterCaravanRequest>
-  <CaravanRequestInfo>Requesting: {0}, Reward: {1} ({2} left)</CaravanRequestInfo>
+  <CaravanRequestInfo>Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left)</CaravanRequestInfo>
   <NormalQualityOrBetter>normal quality or better</NormalQualityOrBetter>
+  <NotTainted>not tainted</NotTainted>
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>Caravan demand by {0}</CaravanDemandTitle>
@@ -145,6 +139,5 @@
   <LetterLabelSiteNoLongerHostileMulti>Quests no longer available</LetterLabelSiteNoLongerHostileMulti>
   <LetterSiteNoLongerHostile>Because you are no longer hostile with {0}, the {1} site is no longer available.</LetterSiteNoLongerHostile>
   <LetterSiteNoLongerHostileMulti>Because you are no longer hostile with {0}, the following sites are no longer available</LetterSiteNoLongerHostileMulti>
-
 
 </LanguageData>
