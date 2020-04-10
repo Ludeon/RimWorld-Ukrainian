@@ -1,44 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <WorkSpeedGlobal.label>загальна швидкість роботи</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>A multiplier on a character's speed at doing any kind of work.</WorkSpeedGlobal.description>
-
-  <MiningSpeed.label>швидкість видобутку</MiningSpeed.label>
-  <MiningSpeed.description>Швидкість, з якою людина добуває копалини зі скель та з шахт.</MiningSpeed.description>
-
-  <MiningYield.label>дохідність від добування копалин</MiningYield.label>
-  <MiningYield.description>The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks.</MiningYield.description>
-
-  <SmoothingSpeed.label>швидкість вирівнювання</SmoothingSpeed.label>
-  <SmoothingSpeed.description>A multiplier on the speed at which this person smooths rough stone floors and walls.</SmoothingSpeed.description>
-
-  <ResearchSpeed.label>швидкість досліджень</ResearchSpeed.label>
-  <ResearchSpeed.description>How fast this person performs research and how quickly they can find things using scanning equipment.</ResearchSpeed.description>
-
+  
+  <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>швидкість оббирання тварин</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
   <AnimalGatherSpeed.description>Швидкість, з якою персонаж доїть, стриже, та збирає інші продукти тваринництва.</AnimalGatherSpeed.description>
-
+  
+  <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>ефективність оббирання тварин</AnimalGatherYield.label>
-  <AnimalGatherYield.description>Відсоток ресурсів, які персонаж може надоїти, зістригти, чи здобути іншим чином з живих тварин. Чим більше відсоток, тим менша вірогдність псування продуктів.</AnimalGatherYield.description>
-
-  <PlantWorkSpeed.label>швидкість фермерства</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>The speed at which this person sows and harvests plants.</PlantWorkSpeed.description>
-
-  <PlantHarvestYield.label>урожайність збору</PlantHarvestYield.label>
-  <PlantHarvestYield.description>The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest.</PlantHarvestYield.description>
-
-  <HuntingStealth.label>hunting stealth</HuntingStealth.label>
-  <HuntingStealth.description>This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack.</HuntingStealth.description>
-
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product.</AnimalGatherYield.description>
+  
+  <!-- EN: construction speed -->
   <ConstructionSpeed.label>швидкість будівництва</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
   <ConstructionSpeed.description>The speed at which this person constructs and repairs buildings.</ConstructionSpeed.description>
-
+  
+  <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>шанс успішного будівництва</ConstructSuccessChance.label>
-  <ConstructSuccessChance.description>Шанс, з яким ця людина збудує щось, не напартачивши. Під провадом розуміємо втрату часу та ресурсів.</ConstructSuccessChance.description>
-
+  <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
+  <ConstructSuccessChance.description>The chance that this person will succeed in constructing something.\nFailing means wasting time and resources.</ConstructSuccessChance.description>
+  
+  <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>шанс успішного відновлення</FixBrokenDownBuildingSuccessChance.label>
-  <FixBrokenDownBuildingSuccessChance.description>Шанс, з яким ця людина успішно відновить розтрощену будівлю з використанням ресурсів. Під провалом вважається трата часу та ресурсів. Помітьте, що це відноситься до ремонту поломок, а не реконструкції.</FixBrokenDownBuildingSuccessChance.description>
-
-
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage.</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>hunting stealth</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
+  <HuntingStealth.description>This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack.</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>швидкість видобутку</MiningSpeed.label>
+  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
+  <MiningSpeed.description>Швидкість, з якою людина добуває копалини зі скель та з шахт.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>дохідність від добування копалин</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
+  <MiningYield.description>The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks.</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>урожайність збору</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest.</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>швидкість фермерства</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>The speed at which this person sows and harvests plants.</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>швидкість досліджень</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>How fast this person performs research and how quickly they can find things using scanning equipment.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>швидкість вирівнювання</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>A multiplier on the speed at which this person smooths rough stone floors and walls.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>загальна швидкість роботи</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>A multiplier on a character's speed at doing any kind of work.</WorkSpeedGlobal.description>
+  
 </LanguageData>

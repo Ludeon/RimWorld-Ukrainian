@@ -1,122 +1,209 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CreateWorldParams.text>Вітаємо у грі Rimworld! Цей посібник навчить вас, як грати у гру.\n\nСпочатку необхідно створити світ, в якому будете грати.\n\nНа цій сторінці можна обрати параметри, за якими буде згенерований ваш світ.\n\nНа цей раз вистачить налаштувань за замовчуванням — просто йдіть далі, натиснувши кнопку СТВОРИТИ!</CreateWorldParams.text>
-
-  <ChooseLandingSite.text>Тут ви можете обрати стартову позицію.\n\nОберіть місце з помірним лісонасадженням та відсутністю пагорбів. Це буде світло-зелена клітинка з коричневими крапочками. Тепер натисніть ДАЛІ.\n\nпри необхідності використопуйте кладку МІСЦЕВІСТЬ, щоб ретельно вивчити інформацію про клітинку.</ChooseLandingSite.text>
-  <ChooseLandingSite.rejectInputMessage>Будь ласка, оберіть ділянку з помірними лісами та без пагорбів (світло-зелена клітинка з коричневими крапочками).</ChooseLandingSite.rejectInputMessage>
-
-  <ReorderCharacters.text>Тепер оберіть персонажів яких ви хочете використати.\n\nПЕРЕТЯГНІТЬ персонажа зі списку "невикористані" (ніжня ліва) у верхній "обрані" (верхня ліва)\n\n Також ви маєте смогу переглянути свого персонажа просто натиснувши на нього.</ReorderCharacters.text>
-  <ReorderCharacters.rejectInputMessage>Будь ласка перетягніть персонажа з поля "невикористані"(внизу зліва) до списку "обрані" (зверху зліва).</ReorderCharacters.rejectInputMessage>
-
-  <RandomizeCharacter.text>Якщо створенні персонажі вам не до вподоби, ви можете змінити їх!\n\nНатисніть ВИПАДКОВО, щоб створити нового персонажа.</RandomizeCharacter.text>
-  <RandomizeCharacter.rejectInputMessage>Будь-ласка, натисніть на кнопку ВИПАДКОВО, щоб створити персонажа.</RandomizeCharacter.rejectInputMessage>
-
+  
+  <!-- EN: Great!\n\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\n\nYou can also re-name the characters by clicking on their names.\n\nClick START when you're ready. -->
   <AcceptStartingPawns.text>Чудово!\n\nСпробуйте ще раз, можливо вам вдасться знайти когось кращого? Та не сподівайтеся отримати ідеальних людей. У кожного є свої недоліки, саме вони і роблять історію цікавою!\n\nТакож ви можете перейменувати персонажа, натиснувши на його ім’я.\n\nНатисніть ПОЧАТИ, коли будете готові.</AcceptStartingPawns.text>
-  <MapCameraDolly.text>От ви і прибули!\n\nОзирніться довкола.\n\nВикористовуйте клавіші {Key:MapDolly_Up}{Key:MapDolly_Left}{Key:MapDolly_Down}{Key:MapDolly_Right}, або затисніть середню клавішу миші, та перетягуйте панораму.\n\nСпробуйте!</MapCameraDolly.text>
-  <MapCameraZoom.text>Чудово!\n\nВи можете збільшувати і зменшувати масштаб за допомогою коліщатка миші, або клавішами {Key:MapZoom_In} та {Key:MapZoom_Out}.\n\nСпробуйте і це також!</MapCameraZoom.text>
-  <Pause.text>У грі є пауза.\n\nВсе для того щоб ви могли не спішить або якщо потрібно відійти. Ви завжди можете зупинитися, щоб оглянути усю ситуацію цілком та віддати накази колоністам.\n\nСпробуйте це: натисніть {Key:TogglePause}, або скористайтеся елементами керування часом внизу праворуч.</Pause.text>
-  <TimeControls.text>Ви також можете і прискорити час!\n\nКонтролювання часу здійснюється за допомогою клавіш {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, та {Key:TimeSpeed_Superfast} або за допомогою елементів керування у правому нижньому куті.</TimeControls.text>
-
-  <MakeStockpile.text>Чудово!\n\nТепер позначте зону складу, щоб ваші люди знали, де потрібно зберігати речі.\n\n1. Відкрийте вкладку СТВОРИТИ, знизу ліворуч.\n2. Оберіть категорію ЗОНИ.\n3. Оберіть інструмент СКЛАД.\n4. Розмістіть склад у виділеній області (затисніть ліву кнопку миші, помістивши її вказівник в один кут, та перетягніть до протилежного кута).</MakeStockpile.text>
-  <MakeStockpile.rejectInputMessage>Будь ласка, розмістіть склад у виділеній зоні.</MakeStockpile.rejectInputMessage>
-  <MakeStockpile.onMapInstruction>Зробіть склад тут\n(перетягніть від кута до кута)</MakeStockpile.onMapInstruction>
-
-  <EndStockpileDesignating.text>Натисніть праву кнопку миші щоб вимкнути інструмент створення складів.</EndStockpileDesignating.text>
-
-  <UnforbidStartingResources.text>Що ж, тепер потрібно надати дозвіл вашим колоністам на перенесення "заборонених" речей до складу.\n\n1. Оберіть речі які довкола вас помічені маленьким червоним хрестиком.\n2. Тепер натисніть ДОЗВОЛИТИ щоб ваші персонажі могли з ними взаємодіяти.\n\n(Підказка: зробивши подвійний клік на обраному предметі, ви також обираєте усі такіж самі предмети які видно на екрані.)</UnforbidStartingResources.text>
-  <UnforbidStartingResources.rejectInputMessage>Будь-ласка, зніміть заборону використання зі стартових предметів.</UnforbidStartingResources.rejectInputMessage>
-  <UnforbidStartingResources.onMapInstruction>Можу дозволити</UnforbidStartingResources.onMapInstruction>
-
-  <BuildRoomWalls.text>Супер! А тепер збудуймо кімнату.\n\n1. Відкрийте вкладку СТВОРИТИ.\n2. Натисніть на БУДІВЛІ.\n3. Оберіть СТІНА.\n4. У якості матеріалу для будівництва оберіть ДЕРЕВО.\n5. За допомогою перетягування (майже так само, як ви позначали склад) позначте чотири стіни для побудови у виділених місцях.</BuildRoomWalls.text>
-  <BuildRoomWalls.rejectInputMessage>Будь ласка, побудуйте стіни вздовж сторін виділеного прямокутника.</BuildRoomWalls.rejectInputMessage>
-  <BuildRoomWalls.onMapInstruction>Побудуйте стіни</BuildRoomWalls.onMapInstruction>
-
-  <BuildRoomDoor.text>А тепер побудуйте ДВЕРІ прямо поверх будь-якої із стін новоствореної кімнати.\n\nІнструмент ДВЕРІ ви знайдете поруч із інструментом СТІНА у меню СТВОРИТИ.</BuildRoomDoor.text>
-  <BuildRoomDoor.rejectInputMessage>Будь ласка, розмістіть дерв’яні двері на місці одного із сегментів стіни вашої будівлі.</BuildRoomDoor.rejectInputMessage>
-  <BuildRoomDoor.onMapInstruction>Розмістіть двері на місці сегменту стіни</BuildRoomDoor.onMapInstruction>
-
-  <BuildBeds.text>Тепер ваші колоністи почнуть будівництво!\n\nАле їм також потрібно десь спати. Розмістіть три ліжка в середині кімнати.\n\nЗнайдіть у лівому нижньому куті меню МЕБЛІ.\n\nДля обертання предметів використовуйте клавіші {Key:Designator_RotateLeft} та {Key:Designator_RotateRight} .</BuildBeds.text>
-  <BuildBeds.rejectInputMessage>Побудуйте дерев'яні ліжка в середині кімнаті.</BuildBeds.rejectInputMessage>
-  <BuildBeds.onMapInstruction>Вашим людям немає де спати</BuildBeds.onMapInstruction>
-
-  <BuildTorchLamp.text>В кімнаті темно. Світло впливає на настрій людей та на ефективність роботи.\n\nВстановіть СМОЛОСКИП в кімнаті.</BuildTorchLamp.text>
-  <BuildTorchLamp.rejectInputMessage>Побудуйте смолоскип в кімнаті.</BuildTorchLamp.rejectInputMessage>
-  <BuildTorchLamp.onMapInstruction>Потрібно освітлення</BuildTorchLamp.onMapInstruction>
-
-  <BuildAnimalSleepingSpot.text>Ваші звірі будуть спати там, де є МІСЦЕ СНУ ДЛЯ ТВАРИН. Побудуйте його всередині кімнати.\n\nМісця для сну не є будівлями — це всього лише розмічене місце, на якому можна спати.</BuildAnimalSleepingSpot.text>
-  <BuildAnimalSleepingSpot.rejectInputMessage>Побудуйте місце сну для тварини в кімнаті.</BuildAnimalSleepingSpot.rejectInputMessage>
-  <BuildAnimalSleepingSpot.onMapInstruction>Побудуйте місце сну\nдля тварини в кімнаті</BuildAnimalSleepingSpot.onMapInstruction>
-
-  <BuildHorseshoesPin.text>Ви полюбляєте відпочити та розвіятись? Ось і ваші колоністи потребуют.\n\nПобудуйте СТОВП ДЛЯ КИДАННЯ ПІДКОВ зовні, неподалік від будинку.</BuildHorseshoesPin.text>
-  <BuildHorseshoesPin.rejectInputMessage>Побудуйте Стовп Для Кидання Підков біля вашої кімнати.</BuildHorseshoesPin.rejectInputMessage>
-  <BuildHorseshoesPin.onMapInstruction>Побудуйте стовп для кидання підков\nпоза кімнатою</BuildHorseshoesPin.onMapInstruction>
-
-  <MakeGrowingZone.text>Як ви можете бачити, ваші люди приступили до будівництва.\n\nТепер забезпечимо їх їжею, для цього оберіть ЗОНУ РОСТУ (у меню БУДІВНИЦТВО категорія ЗОНИ) та розмітьте вказану зону\n\n На цьому місці ваші поселенці будуть вирощувати рослини.</MakeGrowingZone.text>
-  <MakeGrowingZone.rejectInputMessage>Розмітьте зону росту у вказаному місці.</MakeGrowingZone.rejectInputMessage>
-  <MakeGrowingZone.onMapInstruction>Розмітьте зону росту тут\n(так само як і розмітити склад)</MakeGrowingZone.onMapInstruction>
-
-  <SetToGrowRice.text>Тепер ви можете обрати, що саме ваші поселенці будуть вирощувати.\n\n1. Натисніть правою кнопкою миші щоб вийти з меню будування.\n2. Натисніть на зону росту, щоб обрати її.\n3. Натисніть на "Обрати рослину" у вкладці знизу, та оберіть там Рис.</SetToGrowRice.text>
-  <SetToGrowRice.rejectInputMessage>Оберіть рис для вирощування.</SetToGrowRice.rejectInputMessage>
-  <SetToGrowRice.onMapInstruction>У зоні для вирощування оберіть рис</SetToGrowRice.onMapInstruction>
-
-  <EquipWeapons.text>Теперь забезпечимо поселенців зброєю. Щоб це зробити:\n\n1. Оберіть колоніста натиснувши на нього на єкрані в полі зору або на портрет у верхній центральній частині єкрану о.\n2. Тепер натисніть правою клавішею миші на спорядження, яке ви хочете екіпірувати.\n3. Обрати "взяти зброю" в меню, що випало.\n\nОберіть зброю для кожного поселенця, враховуючи їх навички.</EquipWeapons.text>
-  <EquipWeapons.rejectInputMessage>Накажіть колоністам екіпірувати зброю.</EquipWeapons.rejectInputMessage>
-  <EquipWeapons.onMapInstruction>Візьміть це</EquipWeapons.onMapInstruction>
-
-  <BuildFueledStove.text>Прекрасно!\n\nТепер нам потрібна плита для приготування їжі.\n\nПобудуйте ДРОВ’ЯНУ ПЛИТУ в кімнаті.</BuildFueledStove.text>
-  <BuildFueledStove.rejectInputMessage>Збудуйте дров’яну плиту в кімнаті.</BuildFueledStove.rejectInputMessage>
-  <BuildFueledStove.onMapInstruction>Побудуйте дров'яну плиту в середині кімнти</BuildFueledStove.onMapInstruction>
-
-  <AddBillSimpleMeal.text>Вкажіть колоністам що саме готувати.\n\nРозпорядження на приготування їжі віддаються на самій плиті. Після створення розпорядження, колоністи будуть виконувати його автоматично.\n\n1. Заждіть поки поселенці побудують плиту.\n2. Теперь натисніть на плиту щоб обрати її.\n3. Відкрийте вкладку ЗАВДАННЯ у меню.\n4. Натисніть ДОДАТИ ЗАВДАННЯ.\n5. Оберіть ПРИГОТУВАТИ ПРОСТУ СТРАВУ у меню, що випаде.\n6. Теперь натискайте на клавішу + щоб збільшити кількість замовлень до 10.\n\nПам'ятайте, що швидкість гри завжди можна збільшити, щоб не чекати так довго.\n\n Ви можете обрати колоніста та власноруч наказати йому будувати плиту, або готувати їжу на ній.</AddBillSimpleMeal.text>
-  <AddBillSimpleMeal.rejectInputMessage>Створіть завдання на приготування їжі на плиті.</AddBillSimpleMeal.rejectInputMessage>
+  
+  <!-- EN: Select this -->
   <AddBillSimpleMeal.onMapInstruction>Оберіть це</AddBillSimpleMeal.onMapInstruction>
-
-  <MineSteel.text>Тепер ваші колоністи будуть готувати їжу! Смакота!\n\nТепер займемось забезпеченням видобуванням корисних копалин. Поряд із поселенням утворена порода зі сталлю.\n\nОберіть наказ ВИДОБУТИ та виділить сталь, щоб добути її.</MineSteel.text>
-  <MineSteel.rejectInputMessage>Використайте наказ "видобувати", щоб добути сталь.</MineSteel.rejectInputMessage>
-  <MineSteel.onMapInstruction>Розьмітьте усю сталь\nдля видобування</MineSteel.onMapInstruction>
-
-  <ChopTrees.text>Нам потрібно більше деревини. Накажіть колоністам зрубити декілька дерев.\n\nОберіть наказ РУБАТИ ДЕРЕВА і вкажіть на 10 дерев, які ви хочете пустити на дрова.\n\n(Наказ можна перетягнути на декілька дерево одразу)</ChopTrees.text>
-  <ChopTrees.rejectInputMessage>Вкажіть на дерева, щоб вирубати їх.</ChopTrees.rejectInputMessage>
-
-  <OpenMainTabWork.text>Ви можете обрати який саме колоніст буде виконувати той, чи інший вид роботи.\n\nВідкрийте вкладу РОБОТА в меню знизу.</OpenMainTabWork.text>
-  <OpenMainTabWork.rejectInputMessage>Відкрийте вкладку "Праця".</OpenMainTabWork.rejectInputMessage>
-
-  <ChangeWorkSettings.text>Оберіть яку саме роботу ви хочете, щоб виконував той чи інший колоніст. Люди виконують завдання по пріоритету, зліва направо.\n\nСпробуйте щось змінити.\n\nНе забувайте — люди завжди виконують роботу по пріоритету, навіть якщо це змушує їх робити щось незрозуміле! Правильно розподілені пріорітети для робітників - ключовий елемент успіху в грі RimWorld так і у реальному житті. Тому визначайте все обачно, та завжди перевіряйте справність виконання!</ChangeWorkSettings.text>
-  <ChangeWorkSettings.rejectInputMessage>Відкрийте вкладку "Праця" та змініть трохи налаштувань.</ChangeWorkSettings.rejectInputMessage>
-
-  <BuildSimpleResearchBench.text>Для розвитку вам необхідно вчити нові технології.\n\nПобудуйте ПРОСТИЙ ДОСЛІДНИЦЬКИЙ СТІЛ з дерева у кімнаті.</BuildSimpleResearchBench.text>
-  <BuildSimpleResearchBench.rejectInputMessage>Побудуйте дослідницький стіл з дерева у кімнаті.</BuildSimpleResearchBench.rejectInputMessage>
-  <BuildSimpleResearchBench.onMapInstruction>Побудуйте дослідницький стіл\nв середині кімнати</BuildSimpleResearchBench.onMapInstruction>
-
-  <OpenMainTabResearch.text>Чудово! Вам потрібно вказати, яку саме технологію вивчати.\n\nВідкрийте вкладу ТЕХНОЛОГІЇ.</OpenMainTabResearch.text>
-  <OpenMainTabResearch.rejectInputMessage>Відкрийте вкладу "досліди".</OpenMainTabResearch.rejectInputMessage>
-
-  <SelectResearchProject.text>Тепер ви можете обрати, що хочете дослідити у першу чергу.\n\nСкоріш за все вам доведеться почекати поки збудують стіл, або підготують деревину.\n\nДля прискорення виконання робіт, розподіліть більше колоністів через вкладку ПРАЦЯ.</SelectResearchProject.text>
-  <SelectResearchProject.rejectInputMessage>Оберіть дослідницький проект.</SelectResearchProject.rejectInputMessage>
-
-  <ExpandAreaHome.text>А тепер ми навчимося розмічати ЖИЛУ ЗОНУ.\n\nПоселенці прибирають, гасять пожежі та використовують предмети лише в жилій зоні, все інше вони ігнорують.\n\nЖила зона автоматично створюється навколо споруд, або зон які ви розмічаєте та будуєте, але її можна розширити і вручну.\n\n Оберіть РОЗШИРИТИ ЖИЛУ ЗОНУ в меню ЗОНИ та розмітьте її в будь-якому місці.</ExpandAreaHome.text>
-  <ExpandAreaHome.rejectInputMessage>Розширте жилу зону, хоча б трошки.</ExpandAreaHome.rejectInputMessage>
-
-  <ExpandAreaBuildRoof.text>ЗОНА БУДУВАННЯ ДАХУ потрібна, щоб розмітити де вашим колоністам потрібен дах над головою.\n\nВона створюється автоматично коли нову кімнату повністю збудовано.\n\nОберіть РОЗШИРИТИ ЗОНУ БУДУВАННЯ ДАХУ та зробіть ґанок перед вашим будинком.</ExpandAreaBuildRoof.text>
-  <ExpandAreaBuildRoof.rejectInputMessage>Розширте зону будування даху, хоча б трошки.</ExpandAreaBuildRoof.rejectInputMessage>
-
-  <BuildSandbags.text>Чудово! Тепер ви знаєте основи будування колонії! Зрештою, хтось може напасти на ваше поселення. Хочеш миру? Готуйся до війни!\n\nОберіть МІШКИ З ПІСКОМ в меню ЗАХИСТ та побудуйте їх у зазначеному місці.</BuildSandbags.text>
-  <BuildSandbags.rejectInputMessage>Побудуйте мішки з піском на підсвіченій ділянці.</BuildSandbags.rejectInputMessage>
+  <!-- EN: Please add a bill to cook simple meals at your cook stove. -->
+  <AddBillSimpleMeal.rejectInputMessage>Створіть завдання на приготування їжі на плиті.</AddBillSimpleMeal.rejectInputMessage>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
+  <AddBillSimpleMeal.text>Вкажіть колоністам що саме готувати.\n\nРозпорядження на приготування їжі віддаються на самій плиті. Після створення розпорядження, колоністи будуть виконувати його автоматично.\n\n1. Заждіть поки поселенці побудують плиту.\n2. Теперь натисніть на плиту щоб обрати її.\n3. Відкрийте вкладку ЗАВДАННЯ у меню.\n4. Натисніть ДОДАТИ ЗАВДАННЯ.\n5. Оберіть ПРИГОТУВАТИ ПРОСТУ СТРАВУ у меню, що випаде.\n6. Теперь натискайте на клавішу + щоб збільшити кількість замовлень до 10.\n\nПам'ятайте, що швидкість гри завжди можна збільшити, щоб не чекати так довго.\n\n Ви можете обрати колоніста та власноруч наказати йому будувати плиту, або готувати їжу на ній.</AddBillSimpleMeal.text>
+  
+  <!-- EN: Build an animal sleeping spot\ninside the room -->
+  <BuildAnimalSleepingSpot.onMapInstruction>Побудуйте місце сну\nдля тварини в кімнаті</BuildAnimalSleepingSpot.onMapInstruction>
+  <!-- EN: Please place an animal sleeping spot inside the room. -->
+  <BuildAnimalSleepingSpot.rejectInputMessage>Побудуйте місце сну для тварини в кімнаті.</BuildAnimalSleepingSpot.rejectInputMessage>
+  <!-- EN: So your pet will sleep inside with you, place an ANIMAL SLEEPING SPOT inside the room.\n\nSleeping spots aren't real buildings - they're just spots on the ground designated for a sleeping. -->
+  <BuildAnimalSleepingSpot.text>Ваші звірі будуть спати там, де є МІСЦЕ СНУ ДЛЯ ТВАРИН. Побудуйте його всередині кімнати.\n\nМісця для сну не є будівлями — це всього лише розмічене місце, на якому можна спати.</BuildAnimalSleepingSpot.text>
+  
+  <!-- EN: Build three beds inside the room -->
+  <BuildBeds.onMapInstruction>Вашим людям немає де спати</BuildBeds.onMapInstruction>
+  <!-- EN: Please build wooden beds inside the room. -->
+  <BuildBeds.rejectInputMessage>Побудуйте дерев'яні ліжка в середині кімнаті.</BuildBeds.rejectInputMessage>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
+  <BuildBeds.text>Тепер ваші колоністи почнуть будівництво!\n\nАле їм також потрібно десь спати. Розмістіть три ліжка в середині кімнати.\n\nЗнайдіть у лівому нижньому куті меню МЕБЛІ.\n\nДля обертання предметів використовуйте клавіші {Key:Designator_RotateLeft} та {Key:Designator_RotateRight} .</BuildBeds.text>
+  
+  <!-- EN: Build a fueled stove inside the room -->
+  <BuildFueledStove.onMapInstruction>Побудуйте дров'яну плиту в середині кімнти</BuildFueledStove.onMapInstruction>
+  <!-- EN: Please build the fueled stove inside the room you built earlier. -->
+  <BuildFueledStove.rejectInputMessage>Збудуйте дров’яну плиту в кімнаті.</BuildFueledStove.rejectInputMessage>
+  <!-- EN: Excellent!\n\nNow you'll need to make a stove to cook food.\n\nBuild a FUELED STOVE inside the room. -->
+  <BuildFueledStove.text>Прекрасно!\n\nТепер нам потрібна плита для приготування їжі.\n\nПобудуйте ДРОВ’ЯНУ ПЛИТУ в кімнаті.</BuildFueledStove.text>
+  
+  <!-- EN: Build a horseshoes pin\noutside the room -->
+  <BuildHorseshoesPin.onMapInstruction>Побудуйте стовп для кидання підков\nпоза кімнатою</BuildHorseshoesPin.onMapInstruction>
+  <!-- EN: Please place a horseshoes pin somewhere near the room. -->
+  <BuildHorseshoesPin.rejectInputMessage>Побудуйте Стовп Для Кидання Підков біля вашої кімнати.</BuildHorseshoesPin.rejectInputMessage>
+  <!-- EN: Your colonists need sources of recreation or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room. -->
+  <BuildHorseshoesPin.text>Ви полюбляєте відпочити та розвіятись? Ось і ваші колоністи потребуют.\n\nПобудуйте СТОВП ДЛЯ КИДАННЯ ПІДКОВ зовні, неподалік від будинку.</BuildHorseshoesPin.text>
+  
+  <!-- EN: Build a door over one wall -->
+  <BuildRoomDoor.onMapInstruction>Розмістіть двері на місці сегменту стіни</BuildRoomDoor.onMapInstruction>
+  <!-- EN: Please build a wooden door over one of your room walls. -->
+  <BuildRoomDoor.rejectInputMessage>Будь ласка, розмістіть дерв’яні двері на місці одного із сегментів стіни вашої будівлі.</BuildRoomDoor.rejectInputMessage>
+  <!-- EN: Now just place a DOOR over any one of the room walls.\n\nDOOR is right beside WALL in the ARCHITECT menu. -->
+  <BuildRoomDoor.text>А тепер побудуйте ДВЕРІ прямо поверх будь-якої із стін новоствореної кімнати.\n\nІнструмент ДВЕРІ ви знайдете поруч із інструментом СТІНА у меню СТВОРИТИ.</BuildRoomDoor.text>
+  
+  <!-- EN: Build walls -->
+  <BuildRoomWalls.onMapInstruction>Побудуйте стіни</BuildRoomWalls.onMapInstruction>
+  <!-- EN: Please build wooden walls along the edges of the highlighted rectangle. -->
+  <BuildRoomWalls.rejectInputMessage>Будь ласка, побудуйте стіни вздовж сторін виділеного прямокутника.</BuildRoomWalls.rejectInputMessage>
+  <!-- EN: Awesome! Next, we'll build a room.\n\n1. Click ARCHITECT.\n2. Click STRUCTURE.\n3. Select WALL.\n4. Select WOOD as the material.\n5. Drag out four walls to form the shape indicated on the map. -->
+  <BuildRoomWalls.text>Супер! А тепер збудуймо кімнату.\n\n1. Відкрийте вкладку СТВОРИТИ.\n2. Натисніть на БУДІВЛІ.\n3. Оберіть СТІНА.\n4. У якості матеріалу для будівництва оберіть ДЕРЕВО.\n5. За допомогою перетягування (майже так само, як ви позначали склад) позначте чотири стіни для побудови у виділених місцях.</BuildRoomWalls.text>
+  
+  <!-- EN: Build sandbags here -->
   <BuildSandbags.onMapInstruction>Побудуйте мішки з піском тут</BuildSandbags.onMapInstruction>
-
-  <FinishSandbags.text>Тепер почекаємо, доки ваші люди збудують укріплення.\n\nВи завжди можете призначити більше людей до "Будування" через вкладку "Праця".\n\nТакож, ви можете пришвидшити час гри, щоб чекати менше.\n\nКоли все буде готово — я пошлю на вас розбійника, щоб випробувати ваш захист!</FinishSandbags.text>
-  <FinishSandbags.rejectInputMessage>Чекайте, доки поселенці добудовують мішки з піском.</FinishSandbags.rejectInputMessage>
-
-  <DownRaider.text>Я наказав бандиту атакувати вашу колонію\n\n1. Поставте гру на паузу кнопкою {Key:TogglePause}!\n2. Прочитайте червоне сповіщення внизу праворуч.\n3. Оберіть всіх колоністів та переведіть їх в бойовий режим. В ньому вони будуть виконувати усі ваші накази, пов'язані з боєм.\n4. Накажіть їм підійти впритул до укріплень.\n5. Зніміть паузу.\n\nКолоністи повинні стояти якомога ближче до укріплень, щоб використати їх як укриття. Коли всі будуть на місцях — просто почекайте, доки зловмисник підійде ближче. Колоністи відкриють вогонь автоматично.</DownRaider.text>
-  <DownRaider.rejectInputMessage>Тепер сфокусуйтесь на перемозі у битві!</DownRaider.rejectInputMessage>
-  <DownRaider.onMapInstruction>Направте колоністів \nв притул до мішків з піском</DownRaider.onMapInstruction>
-
-  <UndraftAll.text>Перемога! Тепер виведіть колоністів з бойового режиму використовуючи ту саму команду, що і раніше\n\nПісля цього вони повернутся до свого буденного життя.</UndraftAll.text>
-  <UndraftAll.rejectInputMessage>Виведіть колоністів з бойового режиму.</UndraftAll.rejectInputMessage>
-
-  <ChooseStoryteller.text>На цьому наш посібник добігає кінця\n\nВам потрібно вивчити ще багато аспектів гри: поводження з полоненими, полювання, виготовлення предметів, приручення звірів, та багато іншого. Але все необхідне на даному моменті вже вивчено.\n\nВипадкові події було вимкнено на час навчання. Щоб почати справжню гру:\n\n1. Відкрийте вкладу МЕНЮ внизу праворуч\n2. Оберіть НАЛАШТУВАННЯ\n3. Натисніть ОБРАТИ ОПОВІДАЧА.\n4. Оберіть оповідача та рівень складності на якому ви хочете грати.\n\nУспіхів вам, бажаємо приємно провести час.</ChooseStoryteller.text>
+  <!-- EN: Please build sandbags in the highlighted area. -->
+  <BuildSandbags.rejectInputMessage>Побудуйте мішки з піском на підсвіченій ділянці.</BuildSandbags.rejectInputMessage>
+  <!-- EN: Great! You've now got a basic colony running! Eventually, enemies will raid your colony. It's time to prepare for that.\n\nSelect the SANDBAGS designator and drag the sandbags out at the designated area. -->
+  <BuildSandbags.text>Чудово! Тепер ви знаєте основи будування колонії! Зрештою, хтось може напасти на ваше поселення. Хочеш миру? Готуйся до війни!\n\nОберіть МІШКИ З ПІСКОМ в меню ЗАХИСТ та побудуйте їх у зазначеному місці.</BuildSandbags.text>
+  
+  <!-- EN: Build a wooden simple research bench\ninside the room -->
+  <BuildSimpleResearchBench.onMapInstruction>Побудуйте дослідницький стіл\nв середині кімнати</BuildSimpleResearchBench.onMapInstruction>
+  <!-- EN: Please place a wooden simple research bench inside the room you built earlier. -->
+  <BuildSimpleResearchBench.rejectInputMessage>Побудуйте дослідницький стіл з дерева у кімнаті.</BuildSimpleResearchBench.rejectInputMessage>
+  <!-- EN: To advance, you'll need to research new technologies.\n\nBuild a wooden SIMPLE RESEARCH BENCH inside your room. -->
+  <BuildSimpleResearchBench.text>Для розвитку вам необхідно вчити нові технології.\n\nПобудуйте ПРОСТИЙ ДОСЛІДНИЦЬКИЙ СТІЛ з дерева у кімнаті.</BuildSimpleResearchBench.text>
+  
+  <!-- EN: Build a torch lamp inside the room -->
+  <BuildTorchLamp.onMapInstruction>Потрібно освітлення</BuildTorchLamp.onMapInstruction>
+  <!-- EN: Please build a torch lamp inside the room. -->
+  <BuildTorchLamp.rejectInputMessage>Побудуйте смолоскип в кімнаті.</BuildTorchLamp.rejectInputMessage>
+  <!-- EN: You'll also want some light inside, or your colonists will get grumpy in the dark.\n\nBuild a TORCH LAMP inside the room. -->
+  <BuildTorchLamp.text>В кімнаті темно. Світло впливає на настрій людей та на ефективність роботи.\n\nВстановіть СМОЛОСКИП в кімнаті.</BuildTorchLamp.text>
+  
+  <!-- EN: Please open the 'Work' tab and change some settings. -->
+  <ChangeWorkSettings.rejectInputMessage>Відкрийте вкладку "Праця" та змініть трохи налаштувань.</ChangeWorkSettings.rejectInputMessage>
+  <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
+  <ChangeWorkSettings.text>Оберіть яку саме роботу ви хочете, щоб виконував той чи інший колоніст. Люди виконують завдання по пріоритету, зліва направо.\n\nСпробуйте щось змінити.\n\nНе забувайте — люди завжди виконують роботу по пріоритету, навіть якщо це змушує їх робити щось незрозуміле! Правильно розподілені пріорітети для робітників - ключовий елемент успіху в грі RimWorld так і у реальному житті. Тому визначайте все обачно, та завжди перевіряйте справність виконання!</ChangeWorkSettings.text>
+  
+  <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
+  <ChooseLandingSite.rejectInputMessage>Будь ласка, оберіть ділянку з помірними лісами та без пагорбів (світло-зелена клітинка з коричневими крапочками).</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>Тут ви обираєте ваше початкове розташування.\n\n Клікніть на помірний ліс (світло-зелений) без коричневих пагорбів. Потім натисніть ДАЛІ.\n\n За бажанням, ви можете скористатися вкладкою МІСЦЕВІСТЬ, щоб переглянути інформацію про обрану клітинку.</ChooseLandingSite.text>
+  
+  <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Оберіть оповідача в налаштуваннях гри, щоб вийти з посібника.</ChooseStoryteller.rejectInputMessage>
-
-
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and difficulty level that appeals to you.\n\nGood luck, and have fun. -->
+  <ChooseStoryteller.text>На цьому наш посібник добігає кінця\n\nВам потрібно вивчити ще багато аспектів гри: поводження з полоненими, полювання, виготовлення предметів, приручення звірів, та багато іншого. Але все необхідне на даному моменті вже вивчено.\n\nВипадкові події було вимкнено на час навчання. Щоб почати справжню гру:\n\n1. Відкрийте вкладу МЕНЮ внизу праворуч\n2. Оберіть НАЛАШТУВАННЯ\n3. Натисніть ОБРАТИ ОПОВІДАЧА.\n4. Оберіть оповідача та рівень складності на якому ви хочете грати.\n\nУспіхів вам, бажаємо приємно провести час.</ChooseStoryteller.text>
+  
+  <!-- EN: Please drag the 'chop wood' designator over some trees. -->
+  <ChopTrees.rejectInputMessage>Вкажіть на дерева, щоб вирубати їх.</ChopTrees.rejectInputMessage>
+  <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
+  <ChopTrees.text>Нам потрібно більше деревини. Накажіть колоністам зрубити декілька дерев.\n\nОберіть наказ РУБАТИ ДЕРЕВА і вкажіть на 10 дерев, які ви хочете пустити на дрова.\n\n(Наказ можна перетягнути на декілька дерево одразу)</ChopTrees.text>
+  
+  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>Вітаємо у грі Rimworld! Цей посібник навчить вас, як грати у гру.\n\nСпочатку необхідно створити світ, в якому будете грати.\n\nНа цій сторінці можна обрати параметри, за якими буде згенерований ваш світ.\n\nНа цей раз вистачить налаштувань за замовчуванням — просто йдіть далі, натиснувши кнопку СТВОРИТИ!</CreateWorldParams.text>
+  
+  <!-- EN: Send colonists here\ntouching sandbags for cover -->
+  <DownRaider.onMapInstruction>Направте колоністів \nв притул до мішків з піском</DownRaider.onMapInstruction>
+  <!-- EN: Please focus on winning the fight! -->
+  <DownRaider.rejectInputMessage>Тепер сфокусуйтесь на перемозі у битві!</DownRaider.rejectInputMessage>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.text>Я наказав бандиту атакувати вашу колонію\n\n1. Поставте гру на паузу кнопкою {Key:TogglePause}!\n2. Прочитайте червоне сповіщення внизу праворуч.\n3. Оберіть всіх колоністів та переведіть їх в бойовий режим. В ньому вони будуть виконувати усі ваші накази, пов'язані з боєм.\n4. Накажіть їм підійти впритул до укріплень.\n5. Зніміть паузу.\n\nКолоністи повинні стояти якомога ближче до укріплень, щоб використати їх як укриття. Коли всі будуть на місцях — просто почекайте, доки зловмисник підійде ближче. Колоністи відкриють вогонь автоматично.</DownRaider.text>
+  
+  <!-- EN: Right-click to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.text>Натисніть праву кнопку миші щоб вимкнути інструмент створення складів.</EndStockpileDesignating.text>
+  
+  <!-- EN: Equip this -->
+  <EquipWeapons.onMapInstruction>Візьміть це</EquipWeapons.onMapInstruction>
+  <!-- EN: Please have your colonists equip weapons. -->
+  <EquipWeapons.rejectInputMessage>Накажіть колоністам екіпірувати зброю.</EquipWeapons.rejectInputMessage>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.text>Теперь забезпечимо поселенців зброєю. Щоб це зробити:\n\n1. Оберіть колоніста натиснувши на нього на єкрані в полі зору або на портрет у верхній центральній частині єкрану о.\n2. Тепер натисніть правою клавішею миші на спорядження, яке ви хочете екіпірувати.\n3. Обрати "взяти зброю" в меню, що випало.\n\nОберіть зброю для кожного поселенця, враховуючи їх навички.</EquipWeapons.text>
+  
+  <!-- EN: Please expand the build roof area a bit, just for practice. -->
+  <ExpandAreaBuildRoof.rejectInputMessage>Розширте зону будування даху, хоча б трошки.</ExpandAreaBuildRoof.rejectInputMessage>
+  <!-- EN: The BUILD ROOF AREA defines where your colonists will try to build roofs.\n\nIt auto-fills when you enclose a new room.\n\nSelect the EXPAND BUILD ROOF AREA tool and drag out the shape of a porch roof on the front of the house. -->
+  <ExpandAreaBuildRoof.text>ЗОНА БУДУВАННЯ ДАХУ потрібна, щоб розмітити де вашим колоністам потрібен дах над головою.\n\nВона створюється автоматично коли нову кімнату повністю збудовано.\n\nОберіть РОЗШИРИТИ ЗОНУ БУДУВАННЯ ДАХУ та зробіть ґанок перед вашим будинком.</ExpandAreaBuildRoof.text>
+  
+  <!-- EN: Please expand the home area a bit, just for practice. -->
+  <ExpandAreaHome.rejectInputMessage>Розширте жилу зону, хоча б трошки.</ExpandAreaHome.rejectInputMessage>
+  <!-- EN: Next, you'll learn to expand the HOME AREA.\n\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\n\nThe home area is added automatically when you build things - but you can also expand it manually.\n\nSelect the EXPAND HOME AREA tool and drag out a new area on the map. -->
+  <ExpandAreaHome.text>А тепер ми навчимося розмічати ЖИЛУ ЗОНУ.\n\nПоселенці прибирають, гасять пожежі та використовують предмети лише в жилій зоні, все інше вони ігнорують.\n\nЖила зона автоматично створюється навколо споруд, або зон які ви розмічаєте та будуєте, але її можна розширити і вручну.\n\n Оберіть РОЗШИРИТИ ЖИЛУ ЗОНУ в меню ЗОНИ та розмітьте її в будь-якому місці.</ExpandAreaHome.text>
+  
+  <!-- EN: Please wait for your colonists to finish building the sandbags. -->
+  <FinishSandbags.rejectInputMessage>Чекайте, доки поселенці добудовують мішки з піском.</FinishSandbags.rejectInputMessage>
+  <!-- EN: Let's just wait for all your constructions to be built.\n\nConsider using the WORK tab to assign more colonists to Construct.\n\nAlso, you can speed up time to shorten the wait.\n\nOnce everything's built, I'll send an attacker to test your defenses! -->
+  <FinishSandbags.text>Тепер почекаємо, доки ваші люди збудують укріплення.\n\nВи завжди можете призначити більше людей до "Будування" через вкладку "Праця".\n\nТакож, ви можете пришвидшити час гри, щоб чекати менше.\n\nКоли все буде готово — я пошлю на вас розбійника, щоб випробувати ваш захист!</FinishSandbags.text>
+  
+  <!-- EN: Place growing zone here\n(drag corner-to-corner) -->
+  <MakeGrowingZone.onMapInstruction>Розмітьте зону росту тут\n(так само як і розмітити склад)</MakeGrowingZone.onMapInstruction>
+  <!-- EN: Please make a growing zone on the indicated area. -->
+  <MakeGrowingZone.rejectInputMessage>Розмітьте зону росту у вказаному місці.</MakeGrowingZone.rejectInputMessage>
+  <!-- EN: The house is being built!\n\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\n\nThis is where your colonists will sow crops. -->
+  <MakeGrowingZone.text>Як ви можете бачити, ваші люди приступили до будівництва.\n\nТепер забезпечимо їх їжею, для цього оберіть ЗОНУ РОСТУ (у меню БУДІВНИЦТВО категорія ЗОНИ) та розмітьте вказану зону\n\n На цьому місці ваші поселенці будуть вирощувати рослини.</MakeGrowingZone.text>
+  
+  <!-- EN: Place stockpile here\n(drag corner-to-corner) -->
+  <MakeStockpile.onMapInstruction>Зробіть склад тут\n(перетягніть від кута до кута)</MakeStockpile.onMapInstruction>
+  <!-- EN: Please make a stockpile on the indicated area. -->
+  <MakeStockpile.rejectInputMessage>Будь ласка, розмістіть склад у виділеній зоні.</MakeStockpile.rejectInputMessage>
+  <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
+  <MakeStockpile.text>Чудово!\n\nТепер позначте зону складу, щоб ваші люди знали, де потрібно зберігати речі.\n\n1. Відкрийте вкладку СТВОРИТИ, знизу ліворуч.\n2. Оберіть категорію ЗОНИ.\n3. Оберіть інструмент СКЛАД.\n4. Розмістіть склад у виділеній області (затисніть ліву кнопку миші, помістивши її вказівник в один кут, та перетягніть до протилежного кута).</MakeStockpile.text>
+  
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
+  <MapCameraDolly.text>От ви і прибули!\n\nОзирніться довкола.\n\nВикористовуйте клавіші {Key:MapDolly_Up}{Key:MapDolly_Left}{Key:MapDolly_Down}{Key:MapDolly_Right}, або затисніть середню клавішу миші, та перетягуйте панораму.\n\nСпробуйте!</MapCameraDolly.text>
+  
+  <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
+  <MapCameraZoom.text>Чудово!\n\nВи можете збільшувати і зменшувати масштаб за допомогою коліщатка миші, або клавішами {Key:MapZoom_In} та {Key:MapZoom_Out}.\n\nСпробуйте і це також!</MapCameraZoom.text>
+  
+  <!-- EN: Designate all this\nfor mining -->
+  <MineSteel.onMapInstruction>Розьмітьте усю сталь\nдля видобування</MineSteel.onMapInstruction>
+  <!-- EN: Please use the 'mine' designator on the compacted steel. -->
+  <MineSteel.rejectInputMessage>Використайте наказ "видобувати", щоб добути сталь.</MineSteel.rejectInputMessage>
+  <!-- EN: Now your colonists will cook some food! Tasty!\n\nNext, you'll want to mine some minerals. I've spawned some mineable steel near your base.\n\nSelect the MINE designator and drag over the steel to designate it for mining. -->
+  <MineSteel.text>Тепер ваші колоністи будуть готувати їжу! Смакота!\n\nТепер займемось забезпеченням видобуванням корисних копалин. Поряд із поселенням утворена порода зі сталлю.\n\nОберіть наказ ВИДОБУТИ та виділить сталь, щоб добути її.</MineSteel.text>
+  
+  <!-- EN: Please open the 'Research' tab. -->
+  <OpenMainTabResearch.rejectInputMessage>Відкрийте вкладу "досліди".</OpenMainTabResearch.rejectInputMessage>
+  <!-- EN: Excellent! Next, you'll want to select what you want to be researched.\n\nOpen the RESEARCH tab. -->
+  <OpenMainTabResearch.text>Чудово! Вам потрібно вказати, яку саме технологію вивчати.\n\nВідкрийте вкладу ТЕХНОЛОГІЇ.</OpenMainTabResearch.text>
+  
+  <!-- EN: Please open the 'Work' tab. -->
+  <OpenMainTabWork.rejectInputMessage>Відкрийте вкладку "Праця".</OpenMainTabWork.rejectInputMessage>
+  <!-- EN: You can control which colonist does what kind of work.\n\nOpen the WORK tab at the bottom of the screen. -->
+  <OpenMainTabWork.text>Ви можете обрати який саме колоніст буде виконувати той, чи інший вид роботи.\n\nВідкрийте вкладу РОБОТА в меню знизу.</OpenMainTabWork.text>
+  
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
+  <Pause.text>У грі є пауза.\n\nВсе для того щоб ви могли не спішить або якщо потрібно відійти. Ви завжди можете зупинитися, щоб оглянути усю ситуацію цілком та віддати накази колоністам.\n\nСпробуйте це: натисніть {Key:TogglePause}, або скористайтеся елементами керування часом внизу праворуч.</Pause.text>
+  
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.rejectInputMessage>Будь-ласка, натисніть на кнопку ВИПАДКОВО, щоб створити персонажа.</RandomizeCharacter.rejectInputMessage>
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.text>Якщо створенні персонажі вам не до вподоби, ви можете змінити їх!\n\nНатисніть ВИПАДКОВО, щоб створити нового персонажа.</RandomizeCharacter.text>
+  
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
+  <ReorderCharacters.rejectInputMessage>Будь ласка перетягніть персонажа з поля "невикористані"(внизу зліва) до списку "обрані" (зверху зліва).</ReorderCharacters.rejectInputMessage>
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
+  <ReorderCharacters.text>Тепер оберіть персонажів яких ви хочете використати.\n\nПЕРЕТЯГНІТЬ персонажа зі списку "невикористані" (ніжня ліва) у верхній "обрані" (верхня ліва)\n\n Також ви маєте смогу переглянути свого персонажа просто натиснувши на нього.</ReorderCharacters.text>
+  
+  <!-- EN: Please choose a research project. -->
+  <SelectResearchProject.rejectInputMessage>Оберіть дослідницький проект.</SelectResearchProject.rejectInputMessage>
+  <!-- EN: Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct. -->
+  <SelectResearchProject.text>Тепер ви можете обрати, що хочете дослідити у першу чергу.\n\nСкоріш за все вам доведеться почекати поки збудують стіл, або підготують деревину.\n\nДля прискорення виконання робіт, розподіліть більше колоністів через вкладку ПРАЦЯ.</SelectResearchProject.text>
+  
+  <!-- EN: Set this growing zone to grow rice -->
+  <SetToGrowRice.onMapInstruction>У зоні для вирощування оберіть рис</SetToGrowRice.onMapInstruction>
+  <!-- EN: Please set your growing zone to grow rice. -->
+  <SetToGrowRice.rejectInputMessage>Оберіть рис для вирощування.</SetToGrowRice.rejectInputMessage>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.text>Тепер ви можете обрати, що саме ваші поселенці будуть вирощувати.\n\n1. Натисніть правою кнопкою миші щоб вийти з меню будування.\n2. Натисніть на зону росту, щоб обрати її.\n3. Натисніть на "Обрати рослину" у вкладці знизу, та оберіть там Рис.</SetToGrowRice.text>
+  
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.text>Ви також можете і прискорити час!\n\nКонтролювання часу здійснюється за допомогою клавіш {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, та {Key:TimeSpeed_Superfast} або за допомогою елементів керування у правому нижньому куті.</TimeControls.text>
+  
+  <!-- EN: Please un-draft your colonists. -->
+  <UndraftAll.rejectInputMessage>Виведіть колоністів з бойового режиму.</UndraftAll.rejectInputMessage>
+  <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
+  <UndraftAll.text>Перемога! Тепер виведіть колоністів з бойового режиму використовуючи ту саму команду, що і раніше\n\nПісля цього вони повернутся до свого буденного життя.</UndraftAll.text>
+  
+  <!-- EN: Allow this -->
+  <UnforbidStartingResources.onMapInstruction>Можу дозволити</UnforbidStartingResources.onMapInstruction>
+  <!-- EN: Please allow your starting items. -->
+  <UnforbidStartingResources.rejectInputMessage>Будь-ласка, зніміть заборону використання зі стартових предметів.</UnforbidStartingResources.rejectInputMessage>
+  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
+  <UnforbidStartingResources.text>Що ж, тепер потрібно надати дозвіл вашим колоністам на перенесення "заборонених" речей до складу.\n\n1. Оберіть речі які довкола вас помічені маленьким червоним хрестиком.\n2. Тепер натисніть ДОЗВОЛИТИ щоб ваші персонажі могли з ними взаємодіяти.\n\n(Підказка: зробивши подвійний клік на обраному предметі, ви також обираєте усі такіж самі предмети які видно на екрані.)</UnforbidStartingResources.text>
+  
 </LanguageData>

@@ -1,113 +1,174 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Concepts taught through the learning readout, with no opportunity needed -->
-
-  <CameraDolly.label>Переміщення камери</CameraDolly.label>
-  <CameraDolly.helpText>Пересувайте камеру натиснувши ТРЕТЮ КНОПКУ МИШІ (зазвичай це коліщатко миші). Також ви можете користуватися клавішами {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
-
-  <CameraZoom.label>Масштабування камери</CameraZoom.label>
-  <CameraZoom.helpText>Збільшити чи зменшити масштаб можна за допомогою КОЛІЩАТКА МИШІ або клавішами {Key:MapZoom_In} та {Key:MapZoom_Out}.</CameraZoom.helpText>
-
-  <TimeControls.label>Швидкість гри</TimeControls.label>
-  <TimeControls.helpText>Ви можете прискорити час.\n\nСпробуйте керувати часом за допомогою клавіш {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} та {Key:TimeSpeed_Superfast}, або використовуючи панель керування часом у правому нижньому куті.</TimeControls.helpText>
-
-  <Pause.label>Ігрова пауза</Pause.label>
-  <Pause.helpText>Натисніть {Key:TogglePause}, щоб призупинити або продовжити гру.\n\nВи можете віддавати накази під час паузи.\n\nЗапам'ятайте: якщо все виходить з-під контролю - просто натисніть {Key:TogglePause}!</Pause.helpText>
-
-  <Stockpiles.label>Склади</Stockpiles.label>
-  <Stockpiles.helpText>Ваші колоністи повинні мати склад, щоб зберігати речі. Позначте СКЛАД для використання з цією метою.\n\nЦе можна зробити на вкладці ЗОНИ в меню СТВОРИТИ у лівому нижньому куту екрана.</Stockpiles.helpText>
-
-  <Forbidding.label>Заборонити і дозволити</Forbidding.label>
-  <Forbidding.helpText>Колоністи не будуть взаємодіяти з предметами які помічені як ЗАБОРОНЕНІ.\n\nЗаборонені предмети мають невеличкий червоний хрест. Оберіть заборонені предмети та скористайтеся кнопкою знизу екрану, щоб дозволити їх використання.</Forbidding.helpText>
-
-  <GrowingFood.label>Фермерські поля</GrowingFood.label>
-  <GrowingFood.helpText>Для вирощування їжі створіть ДІЛЯНКУ, використовуючи меню «Створити».\n\nДілянка може бути розміщена лише на родючому ґрунті.</GrowingFood.helpText>
-
-  <EquippingWeapons.label>Оснащення колоністів</EquippingWeapons.label>
-  <EquippingWeapons.helpText>Ваші колоністи прихопили із собою трохи зброї. Озбройте їх!\n\nОберіть кожного колоніста та натисніть правою кнопкою миші на зброю, яку ви хочете йому дати.</EquippingWeapons.helpText>
-
+  
+  <!-- EN: Alerts -->
   <Alerts.label>Сповіщення</Alerts.label>
+  <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
   <Alerts.helpText>Сповіщення у правому нижньому куті повідомляє вам про проблеми, які потребують вашої уваги.\n\nІгнорувати їх — погана ідея.</Alerts.helpText>
-
-  <Mining.label>Шахтарське ремесло</Mining.label>
-  <Mining.helpText>Ви можете вказати, де вести розкопки, на вкладці НАКАЗИ в меню СТВОРИТИ.\n\nПід час розкопок деяких порід добувається МЕТАЛ, ЗОЛОТО, ПЛАЗМЕТАЛ та інші корисні матеріали.</Mining.helpText>
-
-  <WorkTab.label>Розподіл праці</WorkTab.label>
-  <WorkTab.helpText>Ви можете обрати чим буде займатися кожен колоніст на вкладці РОБОТА, що знаходиться знизу екрану.\n\nКолоністи завжди будуть займатися роботою з найвищим пріоритетом, яку зможуть знайти.\n\nЯкщо якийсь тип робіт нікому не призначений або колоніст зайнятий більш пріоритетним завданням, роботи цього типу ніколи не будуть виконані.</WorkTab.helpText>
-
-  <ForbiddingDoors.label>Заборона дверей</ForbiddingDoors.label>
-  <ForbiddingDoors.helpText>Ви можете ЗАБОРОНИТИ використання дверей, щоб поселенці та приручені тварини не користувалися ними.\n\nЗверніть увагу на те, що це не заблокує їх. Так, звісно, вороги і без цього наказу не зможуть відчинити їх (хоча вони завжди можуть їх виламати). Але що стосується колоністів, то заборона лише вказує їм не користуватися такими дверима. А от поселенці, які знаходяться у стані нервового зриву, можуть ігнорувати такі заборони.</ForbiddingDoors.helpText>
-
-  <CoverAndShooting.label>Укриття та стрільба</CoverAndShooting.label>
-  <CoverAndShooting.helpText>Найголовніше у перестрілці — правильно обрати укриття.\n\nУкриття виконує свою роль лише коли поселенець знаходиться з одного боку, а ворог — з іншого. До того ж колоніст має стояти впритул до укриття.\n\nПоселенці можуть стріляти також з-за рогу. При цьому вони виглядають за нього.\n\nБільшість речей можуть слугувати укриттям, але деякі з них захищають краще за інші. Звісно, ховатися за деревом ліпше, ніж стояти серед поля, та ще краще знаходитися за мішками з піском.</CoverAndShooting.helpText>
-
-  <FormCaravan.label>Формування караванів</FormCaravan.label>
-  <FormCaravan.helpText>Ви можете сформувати караван, щоб відправити групу людей подорожувати цією планетою.\n\nДля цього на вкладці СВІТ оберіть ваше поселення та натисніть кнопку «сформувати караван».</FormCaravan.helpText>
-
-  <AnimalTaming.label>Приручення тварин</AnimalTaming.label>
-  <AnimalTaming.helpText>Скориставшись командою ПРИРУЧИТИ, ви можете вказати поселенцям, яких тварин потрібно приручити.\n\nКолоніст із відповідною професією спробує це зробити, використавши деяку кількість їжі, що належить до раціону тварини.\n\nПопередження: деякі тварини можуть агресивно реагувати на невдалу спробу приручення.</AnimalTaming.helpText>
-
-  <AnimalTraining.label>Тренування тварин</AnimalTraining.label>
-  <AnimalTraining.helpText>Ви можете назначити прирученій тварині тренування певних навичок на її вкладці ТРЕНУВАННЯ.\n\nТварин не можна тренувати безперервно. Між спробами тренування має пройти певний час.</AnimalTraining.helpText>
-
-  <InfoCard.label>Відкрийте інформаційну картку</InfoCard.label>
-  <InfoCard.helpText>Інформаційні картки показують детальні данні про речі, людей та будівлі.\n\nОберіть персону або предмет, після чого натисніть «i» на панелі інформації, щоб відкрити інформаційну картку.</InfoCard.helpText>
-
-  <StorageTab.label>Налаштування складів</StorageTab.label>
-  <StorageTab.helpText>Ви можете налаштувати склади й сховища, обравши їх та відкривши вкладку СКЛАД, трохи вище лівої нижньої панелі інформації.\n\nВідмітьте категорії предметів, які поселенці будуть зберігати на цьому складі. \n\nТакож ви можете змінювати пріоритет складу. При транспортуванні предметів колоністи будуть відносити їх до відповідного складу із найвищим пріоритетом та переноситимуть предмети зі складів, пріоритет яких нижчий.</StorageTab.helpText>
-
-  <HomeArea.label>Домашня зона</HomeArea.label>
-  <HomeArea.helpText>ДОМАШНЯ ЗОНА вкаже вашим колоністам, де потрібно займатися прибиранням, гасити пожежі та ремонтувати об’єкти.\n\nВизначте ДОМАШНЮ ЗОНУ на вкладці ЗОНИ меню СТВОРИТИ.</HomeArea.helpText>
-
-  <SpoilageAndFreezers.label>Гниття та холодильники</SpoilageAndFreezers.label>
-  <SpoilageAndFreezers.helpText>Переважна частина продуктів харчування псується за температури вищої за нуль градусів Цельсія. Деякі з них роблять це досить швидко.\n\nЩоб не залишитися раптово наодинці із голодними колоністами ви можете обладнати окрему кімнату під морозильну камеру.\n\nДля цього вам необхідно створити кімнату зі стелею та розмістити у її стінах холодильні установки, холодний вихід яких (синій квадрат) має бути спрямований у кімнату, а гарячий (червоний квадрат) — назовні. Встановіть холодильні установки на охолодження до температури, нижчої за 0°C.\n\nОхолоджені (0°C - 5°C) продукти псуються повільніше, а заморожені (менше 0°C) можуть зберігатися як завгодно довго.</SpoilageAndFreezers.helpText>
-
-  <Deterioration.label>Псування речей</Deterioration.label>
-  <Deterioration.helpText>Речі, залишені під відкритим небом, повільно псуються.\n\nРозмістіть їх під стелею, якщо ви бажаєте зберегти їх.</Deterioration.helpText>
-
-  <HostilityResponse.label>Рекція на загрозу</HostilityResponse.label>
-  <HostilityResponse.helpText>Вкажіть, як ваші колоністи мають реагувати на загрозу їхньому життю та здоров’ю.\n\nДля цього перейдіть на вкладку ПРИЗНАЧЕННЯ та оберіть необхідний режим: ТІКАТИ, АТАКУВАТИ або ІГНОРУВАТИ.</HostilityResponse.helpText>
-
+  
+  <!-- EN: Allowed areas -->
   <AllowedAreas.label>Дозволені зони</AllowedAreas.label>
-  <AllowedAreas.helpText>Переміщення колоністів та приручених тварин можна обмежити ДОЗВОЛЕНОЮ ЗОНОЮ. Це не дасть їм виконувати дії поза певною територією.\n\nКористуйтеся цим щоб, наприклад, заборонити колоністам виходити назовні.\n\nВи можете створити кілька зон для поселенців та домашніх тварин.\n\nСтворюються, видаляються та призначаються такі зони на вкладці ОБМЕЖЕННЯ.\n\nЇхнє розміщення здійснюється за допомогою інструментів РОЗШИРИТИ ДОЗВОЛЕНУ ЗОНУ та ПРИБРАТИ ДОЗВОЛЕНУ ЗОНУ меню «Створити».</AllowedAreas.helpText>
-
-  <MedicalOperations.label>Медичні операції</MedicalOperations.label>
-  <MedicalOperations.helpText>Щоб призначити медичну операцію, як-то ампутація частини тіла чи встановлення протеза, відкрийте у колоніста вкладку ЗДОРОВ’Я та перейдіть на підвкладку ОПЕРАЦІЇ.</MedicalOperations.helpText>
-
-  <TimeAssignments.label>Розпорядок дня</TimeAssignments.label>
-  <TimeAssignments.helpText>На вкладці ОБМЕЖЕННЯ ви можете вказати поселенцям, чим саме вони повинній займатися у різні частини доби.</TimeAssignments.helpText>
-
-  <ManualWorkPriorities.label>Пріоритетизація робіт</ManualWorkPriorities.label>
-  <ManualWorkPriorities.helpText>Одним із найбільш важливих елементів RimWorld є створення гарних умов для ефективної роботи колоністів.\n\nЧерез погані робочі умови або налаштування пріоритетів деякі основні роботи можуть досить довгий час залишатися невиконаними, оскільки колоністи будуть витрачати час на менш важливі роботи.\n\nЩоб отримати більше контролю над тим, яку роботу колоністи будуть виконувати насамперед, ви можете скористатися режимом ручного встановлення пріоритетів на вкладці РОБОТА.\n\nУ цьому режимі кожен колоніст має певний пріоритет для кожного типу робіт. Спочатку колоністи будуть виконувати роботи із пріоритетом «1», починаючи з найлівішої, далі — роботи з пріоритетом «2», зліва направо, і так далі.\n\nРозумне використання цих налаштувань є необхідною умовою для існування великої, добре автоматизованої колонії.</ManualWorkPriorities.helpText>
-
-  <GettingMoreTraders.label>Приймайте більше караванів</GettingMoreTraders.label>
-  <GettingMoreTraders.helpText>Чим більше у вас союзних фракцій, тим більше караванів буде навідуватися до вас.\n\nЗвісно ж, марно очікувати на караван, якщо ви налаштували проти себе усе населення планети.\n\nВи також можете скористатися консоллю зв’язку, щоб викликати караван від своїх союзників. Але це має свою ціну.</GettingMoreTraders.helpText>
-
-  <InspectRoomStats.label>Огляд приміщень</InspectRoomStats.label>
-  <InspectRoomStats.helpText>Ви можете дізнатися про багатство, красу та чистоту кімнати скористувавшись перемикачем ОГЛЯД ПРИМІЩЕНЬ, що знаходиться знизу праворуч.</InspectRoomStats.helpText>
-
-  <Outfits.label>Набори одягу</Outfits.label>
-  <Outfits.helpText>Колоністи будуть намагатися вдягнути найновіший одяг найкращої якості, який вони зможуть знайти.\n\nВам не потрібно вказувати кожному колоністу, які саме штани він повинен носити (але ніхто не забороняє вам цього робити).\n\nЩоб обмежити колоністів у виборі одягу відкрийте вкладку ПРИЗНАЧЕННЯ та скористайтеся діалогом «Керування одягом», щоб створити новий набір дозволеного одягу та призначте його колоністу.</Outfits.helpText>
-
-  <FirePreparation.label>Протипожежна безпека</FirePreparation.label>
-  <FirePreparation.helpText>Стережіться пожеж, адже вони можуть із легкістю спалити дотла вашу колонію. Щоб ефективно боротися із ними краще здійснити деякі приготування заздалегідь.
-\nВиконання декількох простих правил допоможе вам зменшити ушкодження від пожежі:
-\n1. Не будуйте одну велику будівлю. Краще створіть декілька будівель меншого розміру та не забудьте про вільне місце між ними.
-\n2. Використовуйте негорючі та важкозаймисті матеріали. Хоча на зведення дерев’яних стін потрібно мало часу, та згорають вони теж як той сірник.
-\n3. Створюйте просіки, щоб захистити ваше поселення від лісової пожежі. Просто залийте просіку шириною в 3 чи 4 клітинки бетоном і забудьте про цю небезпеку.</FirePreparation.helpText>
-
-  <HistoryTab.label>Вкладка історії</HistoryTab.label>
-  <HistoryTab.helpText>На вкладці ІСТОРІЯ, що знаходиться знизу екрана, ви можете переглянути події, яких зазнала ваша колонія.</HistoryTab.helpText>
-
+  <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
+  <AllowedAreas.helpText>Колоністи та тварини в колоніях можуть бути обмежені ДОЗВОЛЕНОЮ ЗОНОЮ. Це забороняє їм рухатися поза дозволеною територією. \n\nЦе можна використовувати, наприклад для заборони колоністам виходити на вулицю. \n\nВи можете створити кілька дозволених областей та призначити їх різним колоністам та тваринам. \n\nСтворіть, видаліть та призначте дозволені ділянки на вкладці «ОБМЕЖЕННЯ». \n\nЗмалюйте дозволені ділянки на карті, використовуючи позначення «Розширення дозволів» та «Очистити дозволену область» у вкладці «Архітектор».</AllowedAreas.helpText>
+  
+  <!-- EN: Animal taming -->
+  <AnimalTaming.label>Приручення тварин</AnimalTaming.label>
+  <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
+  <AnimalTaming.helpText>Скориставшись командою ПРИРУЧИТИ, ви можете вказати поселенцям, яких тварин потрібно приручити.\n\nКолоніст із відповідною професією спробує це зробити, використавши деяку кількість їжі, що належить до раціону тварини.\n\nПопередження: деякі тварини можуть агресивно реагувати на невдалу спробу приручення.</AnimalTaming.helpText>
+  
+  <!-- EN: Animal training -->
+  <AnimalTraining.label>Тренування тварин</AnimalTraining.label>
+  <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
+  <AnimalTraining.helpText>Ви можете назначити прирученій тварині тренування певних навичок на її вкладці ТРЕНУВАННЯ.\n\nТварин не можна тренувати безперервно. Між спробами тренування має пройти певний час.</AnimalTraining.helpText>
+  
+  <!-- EN: Camera dolly -->
+  <CameraDolly.label>Переміщення камери</CameraDolly.label>
+  <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
+  <CameraDolly.helpText>Пересувайте камеру натиснувши ТРЕТЮ КНОПКУ МИШІ (зазвичай це коліщатко миші). Також ви можете користуватися клавішами {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  
+  <!-- EN: Camera zoom -->
+  <CameraZoom.label>Масштабування камери</CameraZoom.label>
+  <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
+  <CameraZoom.helpText>Збільшити чи зменшити масштаб можна за допомогою КОЛІЩАТКА МИШІ або клавішами {Key:MapZoom_In} та {Key:MapZoom_Out}.</CameraZoom.helpText>
+  
+  <!-- EN: Clicking messages -->
   <ClickingMessages.label>Інтерактивні сповіщення</ClickingMessages.label>
+  <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
   <ClickingMessages.helpText>Час від часу зліва вгорі з’являються невеликі сповіщення. Щоб швидко перейти до події, про яку повідомляється, просто натисніть на нього.</ClickingMessages.helpText>
-
-  <ShotAccuracyTooltip.label>Зверніть увагу на точність</ShotAccuracyTooltip.label>
-  <ShotAccuracyTooltip.helpText>Під час стрільби ви можете оцінити імовірність влучання у ціль.\n\nДля цього оберіть стрільця та наведіть вказівник миші на ціль. З’явиться невелика підказка, в якій буде вказано імовірність влучання та фактори, які впливають на неї.</ShotAccuracyTooltip.helpText>
-
+  
+  <!-- EN: Cover and shooting -->
+  <CoverAndShooting.label>Укриття та стрільба</CoverAndShooting.label>
+  <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
+  <CoverAndShooting.helpText>Найголовніше у перестрілці — правильно обрати укриття.\n\nУкриття виконує свою роль лише коли поселенець знаходиться з одного боку, а ворог — з іншого. До того ж колоніст має стояти впритул до укриття.\n\nПоселенці можуть стріляти також з-за рогу. При цьому вони виглядають за нього.\n\nБільшість речей можуть слугувати укриттям, але деякі з них захищають краще за інші. Звісно, ховатися за деревом ліпше, ніж стояти серед поля, та ще краще знаходитися за мішками з піском.</CoverAndShooting.helpText>
+  
+  <!-- EN: Item deterioration -->
+  <Deterioration.label>Псування речей</Deterioration.label>
+  <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
+  <Deterioration.helpText>Речі, залишені під відкритим небом, повільно псуються.\n\nРозмістіть їх під стелею, якщо ви бажаєте зберегти їх.</Deterioration.helpText>
+  
+  <!-- EN: Equipping weapons -->
+  <EquippingWeapons.label>Оснащення колоністів</EquippingWeapons.label>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
+  <EquippingWeapons.helpText>Ваші колоністи прихопили із собою трохи зброї. Озбройте їх!\n\nОберіть кожного колоніста та натисніть правою кнопкою миші на зброю, яку ви хочете йому дати.</EquippingWeapons.helpText>
+  
+  <!-- EN: Fire preparation -->
+  <FirePreparation.label>Протипожежна безпека</FirePreparation.label>
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <FirePreparation.helpText>Стережіться пожеж, адже вони можуть із легкістю спалити дотла вашу колонію. Щоб перемогти їх, вимаєте приготуватися до того, як вони стануться.\n\nЦі елементи дизайну можуть допомогти зменшити збитки від вогню:\n\n1. Не будуйте одну велику будівлю. Краще створіть декілька будівель меншого розміру та не забудьте про вільне місце між ними.\n\n2. Використовуйте негорючі та важкозаймисті матеріали. Хоча на зведення дерев’яних стін потрібно мало часу, та згорають вони теж як той сірник.\n\n3. Створюйте просіки, щоб захистити ваше поселення від лісової пожежі. Просто залийте просіку шириною в 3 чи 4 клітинки бетоном і забудьте про цю небезпеку.</FirePreparation.helpText>
+  
+  <!-- EN: Forbid and allow -->
+  <Forbidding.label>Заборонити і дозволити</Forbidding.label>
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
+  <Forbidding.helpText>Колоністи не будуть взаємодіяти з предметами які помічені як ЗАБОРОНЕНІ.\n\nЗаборонені предмети мають невеличкий червоний хрест. Оберіть заборонені предмети та скористайтеся кнопкою знизу екрану, щоб дозволити їх використання.</Forbidding.helpText>
+  
+  <!-- EN: Forbidding doors -->
+  <ForbiddingDoors.label>Заборона дверей</ForbiddingDoors.label>
+  <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
+  <ForbiddingDoors.helpText>Ви можете ЗАБОРОНИТИ використання дверей, щоб поселенці та приручені тварини не користувалися ними.\n\nЗверніть увагу на те, що це не заблокує їх. Так, звісно, вороги і без цього наказу не зможуть відчинити їх (хоча вони завжди можуть їх виламати). Але що стосується колоністів, то заборона лише вказує їм не користуватися такими дверима. А от поселенці, які знаходяться у стані нервового зриву, можуть ігнорувати такі заборони.</ForbiddingDoors.helpText>
+  
+  <!-- EN: Forming caravans -->
+  <FormCaravan.label>Формування караванів</FormCaravan.label>
+  <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
+  <FormCaravan.helpText>Ви можете сформувати караван, щоб відправити групу людей подорожувати цією планетою.\n\nДля цього на вкладці СВІТ оберіть ваше поселення та натисніть кнопку «сформувати караван».</FormCaravan.helpText>
+  
+  <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Не підстрельте союзника</FriendlyFireSafety.label>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>Стрілець ніколи не влучить у союзника, якщо вони знаходяться неподалік один від одного.\n\nНаприклад, ви можете розмістити колоніста із холодною зброєю прямо попереду стрільця, котрий спокійно буде стріляти з-за плеча союзника. \n\nЦе непоганий спосіб поєднання бійців із різними типами зброї.</FriendlyFireSafety.helpText>
-
-
+  
+  <!-- EN: Getting more traders -->
+  <GettingMoreTraders.label>Приймайте більше караванів</GettingMoreTraders.label>
+  <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
+  <GettingMoreTraders.helpText>Чим більше у вас союзних фракцій, тим більше караванів буде навідуватися до вас.\n\nЗвісно ж, марно очікувати на караван, якщо ви налаштували проти себе усе населення планети.\n\nВи також можете скористатися консоллю зв’язку, щоб викликати караван від своїх союзників. Але це має свою ціну.</GettingMoreTraders.helpText>
+  
+  <!-- EN: Growing zones -->
+  <GrowingFood.label>Фермерські поля</GrowingFood.label>
+  <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
+  <GrowingFood.helpText>Для вирощування їжі створіть ДІЛЯНКУ, використовуючи меню «Створити».\n\nДілянка може бути розміщена лише на родючому ґрунті.</GrowingFood.helpText>
+  
+  <!-- EN: History tab -->
+  <HistoryTab.label>Вкладка історії</HistoryTab.label>
+  <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
+  <HistoryTab.helpText>На вкладці ІСТОРІЯ, що знаходиться знизу екрана, ви можете переглянути події, яких зазнала ваша колонія.</HistoryTab.helpText>
+  
+  <!-- EN: Home area -->
+  <HomeArea.label>Домашня зона</HomeArea.label>
+  <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
+  <HomeArea.helpText>ДОМАШНЯ ЗОНА вкаже вашим колоністам, де потрібно займатися прибиранням, гасити пожежі та ремонтувати об’єкти.\n\nВизначте ДОМАШНЮ ЗОНУ на вкладці ЗОНИ меню СТВОРИТИ.</HomeArea.helpText>
+  
+  <!-- EN: Hostility response modes -->
+  <HostilityResponse.label>Рекція на загрозу</HostilityResponse.label>
+  <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
+  <HostilityResponse.helpText>Вкажіть, як ваші колоністи мають реагувати на загрозу їхньому життю та здоров’ю.\n\nДля цього перейдіть на вкладку ПРИЗНАЧЕННЯ та оберіть необхідний режим: ТІКАТИ, АТАКУВАТИ або ІГНОРУВАТИ.</HostilityResponse.helpText>
+  
+  <!-- EN: Info card -->
+  <InfoCard.label>Відкрийте інформаційну картку</InfoCard.label>
+  <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
+  <InfoCard.helpText>Інформаційні картки показують детальні данні про речі, людей та будівлі.\n\nОберіть персону або предмет, після чого натисніть «i» на панелі інформації, щоб відкрити інформаційну картку.</InfoCard.helpText>
+  
+  <!-- EN: Room stats inspector -->
+  <InspectRoomStats.label>Огляд приміщень</InspectRoomStats.label>
+  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
+  <InspectRoomStats.helpText>Ви можете дізнатися про багатство, красу та чистоту кімнати скористувавшись перемикачем ОГЛЯД ПРИМІЩЕНЬ, що знаходиться знизу праворуч.</InspectRoomStats.helpText>
+  
+  <!-- EN: Manual work priorities -->
+  <ManualWorkPriorities.label>Пріоритетизація робіт</ManualWorkPriorities.label>
+  <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
+  <ManualWorkPriorities.helpText>Одним із найбільш важливих елементів RimWorld є створення гарних умов для ефективної роботи колоністів.\n\nЧерез погані робочі умови або налаштування пріоритетів деякі основні роботи можуть досить довгий час залишатися невиконаними, оскільки колоністи будуть витрачати час на менш важливі роботи.\n\nЩоб отримати більше контролю над тим, яку роботу колоністи будуть виконувати насамперед, ви можете скористатися режимом ручного встановлення пріоритетів на вкладці РОБОТА.\n\nУ цьому режимі кожен колоніст має певний пріоритет для кожного типу робіт. Спочатку колоністи будуть виконувати роботи із пріоритетом «1», починаючи з найлівішої, далі — роботи з пріоритетом «2», зліва направо, і так далі.\n\nРозумне використання цих налаштувань є необхідною умовою для існування великої, добре автоматизованої колонії.</ManualWorkPriorities.helpText>
+  
+  <!-- EN: Medical operations -->
+  <MedicalOperations.label>Медичні операції</MedicalOperations.label>
+  <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
+  <MedicalOperations.helpText>Щоб призначити медичну операцію, як-то ампутація частини тіла чи встановлення протеза, відкрийте у колоніста вкладку ЗДОРОВ’Я та перейдіть на підвкладку ОПЕРАЦІЇ.</MedicalOperations.helpText>
+  
+  <!-- EN: Mining -->
+  <Mining.label>Шахтарське ремесло</Mining.label>
+  <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
+  <Mining.helpText>Ви можете вказати, де вести розкопки, на вкладці НАКАЗИ в меню СТВОРИТИ.\n\nПід час розкопок деяких порід добувається МЕТАЛ, ЗОЛОТО, ПЛАЗМЕТАЛ та інші корисні матеріали.</Mining.helpText>
+  
+  <!-- EN: Outfits -->
+  <Outfits.label>Набори одягу</Outfits.label>
+  <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists. -->
+  <Outfits.helpText>Колоністи будуть намагатися вдягнути найновіший одяг найкращої якості, який вони зможуть знайти.\n\nВам не потрібно вказувати кожному колоністу, які саме штани він повинен носити (але ніхто не забороняє вам цього робити).\n\nЩоб обмежити колоністів у виборі одягу відкрийте вкладку ПРИЗНАЧЕННЯ та скористайтеся діалогом «Керування одягом», щоб створити новий набір дозволеного одягу та призначте його колоністу.</Outfits.helpText>
+  
+  <!-- EN: Pausing -->
+  <Pause.label>Ігрова пауза</Pause.label>
+  <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
+  <Pause.helpText>Натисніть {Key:TogglePause}, щоб призупинити або продовжити гру.\n\nВи можете віддавати накази під час паузи.\n\nЗапам'ятайте: якщо все виходить з-під контролю - просто натисніть {Key:TogglePause}!</Pause.helpText>
+  
+  <!-- EN: Shot accuracy tooltip -->
+  <ShotAccuracyTooltip.label>Зверніть увагу на точність</ShotAccuracyTooltip.label>
+  <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
+  <ShotAccuracyTooltip.helpText>Під час стрільби ви можете оцінити імовірність влучання у ціль.\n\nДля цього оберіть стрільця та наведіть вказівник миші на ціль. З’явиться невелика підказка, в якій буде вказано імовірність влучання та фактори, які впливають на неї.</ShotAccuracyTooltip.helpText>
+  
+  <!-- EN: Spoilage and freezers -->
+  <SpoilageAndFreezers.label>Гниття та холодильники</SpoilageAndFreezers.label>
+  <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
+  <SpoilageAndFreezers.helpText>Переважна частина продуктів харчування псується за температури вищої за нуль градусів Цельсія. Деякі з них роблять це досить швидко.\n\nЩоб не залишитися раптово наодинці із голодними колоністами ви можете обладнати окрему кімнату під морозильну камеру.\n\nДля цього вам необхідно створити кімнату зі стелею та розмістити у її стінах холодильні установки, холодний вихід яких (синій квадрат) має бути спрямований у кімнату, а гарячий (червоний квадрат) — назовні. Встановіть холодильні установки на охолодження до температури, нижчої за 0°C.\n\nОхолоджені (0°C - 5°C) продукти псуються повільніше, а заморожені (менше 0°C) можуть зберігатися як завгодно довго.</SpoilageAndFreezers.helpText>
+  
+  <!-- EN: Stockpiles -->
+  <Stockpiles.label>Склади</Stockpiles.label>
+  <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
+  <Stockpiles.helpText>Ваші колоністи повинні мати склад, щоб зберігати речі. Позначте СКЛАД для використання з цією метою.\n\nЦе можна зробити на вкладці ЗОНИ в меню СТВОРИТИ у лівому нижньому куту екрана.</Stockpiles.helpText>
+  
+  <!-- EN: Storage tab -->
+  <StorageTab.label>Налаштування складів</StorageTab.label>
+  <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
+  <StorageTab.helpText>Ви можете налаштувати склади й сховища, обравши їх та відкривши вкладку СКЛАД, трохи вище лівої нижньої панелі інформації.\n\nВідмітьте категорії предметів, які поселенці будуть зберігати на цьому складі. \n\nТакож ви можете змінювати пріоритет складу. При транспортуванні предметів колоністи будуть відносити їх до відповідного складу із найвищим пріоритетом та переноситимуть предмети зі складів, пріоритет яких нижчий.</StorageTab.helpText>
+  
+  <!-- EN: Time assignments -->
+  <TimeAssignments.label>Розпорядок дня</TimeAssignments.label>
+  <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
+  <TimeAssignments.helpText>На вкладці ОБМЕЖЕННЯ ви можете вказати поселенцям, чим саме вони повинній займатися у різні частини доби.</TimeAssignments.helpText>
+  
+  <!-- EN: Time controls -->
+  <TimeControls.label>Швидкість гри</TimeControls.label>
+  <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.helpText>Ви можете прискорити час.\n\nСпробуйте керувати часом за допомогою клавіш {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} та {Key:TimeSpeed_Superfast}, або використовуючи панель керування часом у правому нижньому куті.</TimeControls.helpText>
+  
+  <!-- EN: Work settings -->
+  <WorkTab.label>Розподіл праці</WorkTab.label>
+  <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
+  <WorkTab.helpText>Ви можете обрати чим буде займатися кожен колоніст на вкладці РОБОТА, що знаходиться знизу екрану.\n\nКолоністи завжди будуть займатися роботою з найвищим пріоритетом, яку зможуть знайти.\n\nЯкщо якийсь тип робіт нікому не призначений або колоніст зайнятий більш пріоритетним завданням, роботи цього типу ніколи не будуть виконані.</WorkTab.helpText>
+  
 </LanguageData>

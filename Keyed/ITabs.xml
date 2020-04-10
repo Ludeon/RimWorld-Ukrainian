@@ -1,160 +1,331 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
-  <TabBills>Bills</TabBills>
+  <!-- EN: Bills -->
+  <TabBills>Замовлення</TabBills>
+  <!-- EN: Growing -->
   <TabGrowing>Growing</TabGrowing>
-  <TabCharacter>Bio</TabCharacter>
+  <!-- EN: Bio -->
+  <TabCharacter>Біографія</TabCharacter>
+  <!-- EN: Training -->
   <TabTraining>Training</TabTraining>
-  <TabPrisoner>Prisoner</TabPrisoner>
+  <!-- EN: Prisoner -->
+  <TabPrisoner>В'язень</TabPrisoner>
+  <!-- EN: Guest -->
   <TabGuest>Guest</TabGuest>
-  <TabGear>Gear</TabGear>
-  <TabNeeds>Needs</TabNeeds>
-  <TabStorage>Storage</TabStorage>
+  <!-- EN: Gear -->
+  <TabGear>Манатки</TabGear>
+  <!-- EN: Needs -->
+  <TabNeeds>Потреби</TabNeeds>
+  <!-- EN: Storage -->
+  <TabStorage>Склад</TabStorage>
+  <!-- EN: Shells -->
   <TabShells>Shells</TabShells>
-  <TabHealth>Health</TabHealth>
-  <TabRace>Race</TabRace>
-  <TabBasics>Basics</TabBasics>
+  <!-- EN: Health -->
+  <TabHealth>Здоров'я</TabHealth>
+  <!-- EN: Race -->
+  <TabRace>Раса</TabRace>
+  <!-- EN: Basics -->
+  <TabBasics>Основні</TabBasics>
+  <!-- EN: Stats -->
   <TabStats>Stats</TabStats>
+  <!-- EN: Records -->
   <TabRecords>Records</TabRecords>
-  <TabArt>Art</TabArt>
-  <TabSocial>Social</TabSocial>
-  <TabLog>Log</TabLog>
-  <TabFormingCaravan>Caravan</TabFormingCaravan>
-  <TabTransporterContents>Contents</TabTransporterContents>
-
+  <!-- EN: Art -->
+  <TabArt>Дизайн</TabArt>
+  <!-- EN: Social -->
+  <TabSocial>Взаємини</TabSocial>
+  <!-- EN: Log -->
+  <TabLog>Звіт</TabLog>
+  <!-- EN: Caravan -->
+  <TabFormingCaravan>Караван</TabFormingCaravan>
+  <!-- EN: Contents -->
+  <TabTransporterContents>Вміст</TabTransporterContents>
+  <!-- EN: Contents -->
+  <TabCasketContents>Вміст</TabCasketContents>
+  
   <!-- Bills tab  -->
-  <AddBill>Add bill</AddBill>
+  <!-- EN: Add bill -->
+  <AddBill>Додати замовлення</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
   <RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
   <MinimumSkill>Min skill</MinimumSkill>
+  <!-- EN: SUSPENDED -->
   <SuspendedCaps>SUSPENDED</SuspendedCaps>
-  <BoundWorkerIs>Worker: {1_labelShort}</BoundWorkerIs>
-  <PlantVerb>Plant</PlantVerb>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>Працівник: {1_labelShort}</BoundWorkerIs>
+  <!-- EN: Plant -->
+  <PlantVerb>Посадити</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
   <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here.</ClipboardBillNotAvailableHere>
-  <ReorderBillUpTip>Move up</ReorderBillUpTip>
-  <ReorderBillDownTip>Move down</ReorderBillDownTip>
-  <DeleteBillTip>Delete</DeleteBillTip>
+  <!-- EN: Move up -->
+  <ReorderBillUpTip>Перемістити вище</ReorderBillUpTip>
+  <!-- EN: Move down -->
+  <ReorderBillDownTip>Перемістити нижче</ReorderBillDownTip>
+  <!-- EN: Delete -->
+  <DeleteBillTip>Видалити</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
   <CopyBillTip>Copy to the clipboard</CopyBillTip>
-  <SuspendBillTip>Suspend</SuspendBillTip>
-  <PasteBillTip>Paste</PasteBillTip>
-  <PasteBillTip_LimitReached>can't add more</PasteBillTip_LimitReached>
+  <!-- EN: Suspend -->
+  <SuspendBillTip>Призупинити</SuspendBillTip>
+  <!-- EN: Paste -->
+  <PasteBillTip>Вставити</PasteBillTip>
+  <!-- EN: can't add more -->
+  <PasteBillTip_LimitReached>не можна додати ще</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <RecruitmentResistance>Resistance remaining</RecruitmentResistance>
+  <!-- EN: Resistance remaining -->
+  <RecruitmentResistance>Опору лишилося</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Recruitment difficulty</RecruitmentDifficulty>
-  <GetsFood>Gets food</GetsFood>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Recruitment chance</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nResistance reduction: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Relations gain on release</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Prison break interval</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Never -->
+  <Never>Never</Never>
+  <!-- EN: Slave price -->
+  <SlavePrice>Вартість раба</SlavePrice>
+  <!-- EN: Gets food -->
+  <GetsFood>Отримую їжу</GetsFood>
+  <!-- EN: Doctors care -->
   <DoctorsCare>Doctors care</DoctorsCare>
+  <!-- EN: Gets medicine -->
   <GetsMedicine>Gets medicine</GetsMedicine>
+  <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Try to recruit</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
 
   <!-- Medical - general -->
+  <!-- EN: Move speed -->
   <MoveSpeed>Move speed</MoveSpeed>
+  <!-- EN: Efficiency -->
   <Efficiency>Efficiency</Efficiency>
-  <PartEfficiency>Part efficiency</PartEfficiency>
+  <!-- EN: Part efficiency -->
+  <PartEfficiency>Ефективність органу</PartEfficiency>
+  <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
+  <!-- EN: Gone -->
   <MissingBodyPart>Gone</MissingBodyPart>
-  <DestroyedBodyPart>Destroyed</DestroyedBodyPart>
-  <ShatteredBodyPart>Shattered</ShatteredBodyPart>
-  <RemovedBodyPart>Removed</RemovedBodyPart>
+  <!-- EN: Destroyed -->
+  <DestroyedBodyPart>Знищено</DestroyedBodyPart>
+  <!-- EN: Shattered -->
+  <ShatteredBodyPart>Розбито</ShatteredBodyPart>
+  <!-- EN: Removed -->
+  <RemovedBodyPart>Видалено</RemovedBodyPart>
+  <!-- EN: Healthy -->
   <Healthy>Healthy</Healthy>
+  <!-- EN: In pain -->
   <InPain>In pain</InPain>
-  <PainLevel>Pain</PainLevel>
+  <!-- EN: Pain -->
+  <PainLevel>Біль</PainLevel>
+  <!-- EN: Injured -->
   <Injured>Injured</Injured>
+  <!-- EN: Untended injury -->
+  <UntendedInjury>Untended injury</UntendedInjury>
+  <!-- EN: no health conditions -->
   <NoHealthConditions>no health conditions</NoHealthConditions>
+  <!-- EN: Whole body -->
   <WholeBody>Whole body</WholeBody>
-  <DataProcessing>Data processing</DataProcessing>
-  <Communication>Communication</Communication>
+  <!-- EN: Data processing -->
+  <DataProcessing>Обробка даних</DataProcessing>
+  <!-- EN: Communication -->
+  <Communication>Комунікація</Communication>
+  <!-- EN: Affects -->
   <Affects>Affects</Affects>
+  <!-- EN: Bleeding -->
   <BleedingRate>Bleeding</BleedingRate>
+  <!-- EN: death in {0} -->
   <TimeToDeath>death in {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
   <WontBleedOutSoon>no immediate danger</WontBleedOutSoon>
+  <!-- EN: Overview -->
   <HealthOverview>Overview</HealthOverview>
+  <!-- EN: Operations ({0}) -->
   <MedicalOperationsShort>Operations ({0})</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
-  <MedicalOperations>Medical operations</MedicalOperations>
+  <!-- EN: Medical operations -->
+  <MedicalOperations>Медичні операції</MedicalOperations>
+  <!-- EN: amputate -->
   <Amputate>amputate</Amputate>
-  <HarvestOrgan>harvest</HarvestOrgan>
+  <!-- EN: harvest -->
+  <HarvestOrgan>зібрати</HarvestOrgan>
+  <!-- EN: remove -->
   <RemoveOrgan>remove</RemoveOrgan>
+  <!-- EN: memory -->
   <MemoryLower>memory</MemoryLower>
+  <!-- EN: social interactions -->
   <SocialInteractionsLower>social interactions</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
   <HungerRate>Hunger rate</HungerRate>
-  <Tiredness>Tiredness</Tiredness>
-  <PainFactor>Pain</PainFactor>
+  <!-- EN: Tiredness -->
+  <Tiredness>Втома</Tiredness>
+  <!-- EN: Pain -->
+  <PainFactor>Біль</PainFactor>
+  <!-- EN: Prevents infection -->
   <PreventsInfection>Prevents infection</PreventsInfection>
+  <!-- EN: Self-tend -->
   <SelfTend>Self-tend</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>{0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency.</SelfTendTip>
-
+  
   <!-- Medical - Body and activities condition -->
-  <None>None</None>
+  <!-- EN: None -->
+  <None>Не задано</None>
+  <!-- EN: Very poor -->
   <VeryPoor>Very poor</VeryPoor>
+  <!-- EN: Poor -->
   <Poor>Poor</Poor>
+  <!-- EN: Weakened -->
   <Weakened>Weakened</Weakened>
-  <GoodCondition>OK</GoodCondition>
+  <!-- EN: OK -->
+  <GoodCondition>ОК</GoodCondition>
+  <!-- EN: Enhanced -->
   <Enhanced>Enhanced</Enhanced>
+  <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>Seriously impaired</SeriouslyImpaired>
+  <!-- EN: Impaired -->
   <Impaired>Impaired</Impaired>
+  <!-- EN: Slightly impaired -->
   <SlightlyImpaired>Slightly impaired</SlightlyImpaired>
-  <NoPain>None</NoPain>
-  <LittlePain>Little</LittlePain>
-  <MediumPain>Medium</MediumPain>
-  <SeverePain>Severe</SeverePain>
-  <ExtremePain>Extreme</ExtremePain>
+  <!-- EN: None -->
+  <NoPain>Немає</NoPain>
+  <!-- EN: Little -->
+  <LittlePain>Слабкий</LittlePain>
+  <!-- EN: Medium -->
+  <MediumPain>Середній</MediumPain>
+  <!-- EN: Severe -->
+  <SeverePain>Значний</SeverePain>
+  <!-- EN: Extreme -->
+  <ExtremePain>Надзвичайний</ExtremePain>
 
   <!-- Training tab -->
+  <!-- EN: Trainability -->
   <Trainability>Trainability</Trainability>
-  <CannotTrainNotSmartEnough>Requires trainability {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>Requires {0} trainability.</CannotTrainNotSmartEnough>
+  <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort} is too small to train this.</CannotTrainTooSmall>
 
+  <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Prerequisite needed: {0}</TrainingNeedsPrerequisite>
-
+  
   <!-- Social tab -->
+  <!-- EN: (no relationships) -->
   <NoRelationships>(no relationships)</NoRelationships>
+  <!-- EN: Kidnapped -->
   <Kidnapped>Kidnapped</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Lent to {FACTION_name}, returns in {1}</Lent>
+  <!-- EN: Missing -->
   <Missing>Missing</Missing>
-  <Slave>Slave</Slave>
-  <FactionLeader>Faction leader</FactionLeader>
+  <!-- EN: Slave -->
+  <Slave>Раб</Slave>
+  <!-- EN: Faction leader -->
+  <FactionLeader>Лідер фракції</FactionLeader>
+  <!-- EN: Opinion of {1_labelShort} -->
   <OpinionOf>Opinion of {1_labelShort}</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort}'s opinion of me</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
   <IAmDead>I'm dead</IAmDead>
+  <!-- EN: I'm a psychopath -->
   <IAmPsychopath>I'm a psychopath</IAmPsychopath>
-
+  
   <!-- Gear tab -->
+  <!-- EN: Overall armor -->
   <OverallArmor>Overall armor</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Mass carried: {0} / {1} kg</MassCarried>
+  <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>Comfortable temperature range</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
   <ArmorBlunt>Blunt</ArmorBlunt>
+  <!-- EN: Sharp -->
   <ArmorSharp>Sharp</ArmorSharp>
+  <!-- EN: Heat -->
   <ArmorHeat>Heat</ArmorHeat>
-
+  
   <!-- Log tab -->
+  <!-- EN: Show all -->
   <ShowAll>Show all</ShowAll>
+  <!-- EN: Show combat -->
   <ShowCombat>Show combat</ShowCombat>
+  <!-- EN: Show social -->
   <ShowSocial>Show social</ShowSocial>
+  <!-- EN: no recent entries -->
   <NoRecentEntries>no recent entries</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>Copy log to the clipboard.</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
   <FormingCaravanStatus_GatheringAnimals>Gathering animals</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>Gathering animals (waiting)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>Gathering items</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>Gathering items (waiting)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
   <FormingCaravanStatus_GatheringSlaves>Gathering slaves</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>Gathering slaves (waiting)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Gathering downed people -->
   <FormingCaravanStatus_GatheringDownedPawns>Gathering downed people</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
   <FormingCaravanStatus_GatheringDownedPawns_Pause>Gathering downed people (waiting)</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Leaving</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
   <FormingCaravanStatus_Leaving_Pause>Leaving (waiting)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>Waiting</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
   <CaravanMembers>Members</CaravanMembers>
-  <CaravanAnimals>Animals</CaravanAnimals>
+  <!-- EN: Animals -->
+  <CaravanAnimals>Тварин</CaravanAnimals>
+  <!-- EN: Items to load -->
   <ItemsToLoad>Items to load</ItemsToLoad>
+  <!-- EN: Loaded items -->
   <LoadedItems>Loaded items</LoadedItems>
+  <!-- EN: pack animals -->
   <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
   <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
 
   <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Remove {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Contained items</ContainedItems>
+  <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Do you really want to remove {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires.</QuestDismissed>
+  <!-- EN: Delete this quest and remove it from the quest list forever. -->
+  <DeleteQuest>Delete this quest and remove it from the quest list forever.</DeleteQuest>
 
 </LanguageData>

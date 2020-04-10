@@ -1,32 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Special mental states not from mental breaks -->
-
-  <WanderConfused.label>розгублено блукає</WanderConfused.label>
-  <WanderConfused.beginLetter>{0} зламався(лася) і розгублено блукає навколо.</WanderConfused.beginLetter>
-  <WanderConfused.beginLetterLabel>розгубленість</WanderConfused.beginLetterLabel>
-  <WanderConfused.recoveryMessage>{0} взяв себе в руки.</WanderConfused.recoveryMessage>
-  <WanderConfused.baseInspectLine>Психічний стан: Розгубленість</WanderConfused.baseInspectLine>
-
-  <PanicFlee.label>панічна втеча</PanicFlee.label>
-  <PanicFlee.beginLetter>{0} біжить у паніці.</PanicFlee.beginLetter>
-  <PanicFlee.beginLetterLabel>втікає</PanicFlee.beginLetterLabel>
-  <PanicFlee.recoveryMessage>{0} більше не тікає від загрози.</PanicFlee.recoveryMessage>
-  <PanicFlee.baseInspectLine>Психічний стан: Панічна втечка</PanicFlee.baseInspectLine>
-
+  
+  <!-- EN: manhunter -->
   <Manhunter.label>мисливець на людей</Manhunter.label>
-  <Manhunter.beginLetter>{0} полює на людей!</Manhunter.beginLetter>
-  <Manhunter.recoveryMessage>{0}'ове полювання на людей закінчилось.</Manhunter.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <Manhunter.baseInspectLine>Божевілля: полювання на людей</Manhunter.baseInspectLine>
-
+  <!-- EN: {0} has become a manhunter! -->
+  <Manhunter.beginLetter>{0} полює на людей!</Manhunter.beginLetter>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <Manhunter.recoveryMessage>{0}'ове полювання на людей закінчилось.</Manhunter.recoveryMessage>
+  
+  <!-- EN: manhunter -->
   <ManhunterPermanent.label>мисливець на людей</ManhunterPermanent.label>
-  <ManhunterPermanent.beginLetter>{0} полює на людей!</ManhunterPermanent.beginLetter>
-  <ManhunterPermanent.recoveryMessage>{0}'ове полювання на людей закінчилось.</ManhunterPermanent.recoveryMessage>
+  <!-- EN: Maddened: Manhunter -->
   <ManhunterPermanent.baseInspectLine>Божевілля: полювання на людей</ManhunterPermanent.baseInspectLine>
-
+  <!-- EN: {0} has become a manhunter! -->
+  <ManhunterPermanent.beginLetter>{0} полює на людей!</ManhunterPermanent.beginLetter>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterPermanent.recoveryMessage>{0}'ове полювання на людей закінчилось.</ManhunterPermanent.recoveryMessage>
+  
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>панічна втеча</PanicFlee.label>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>Психічний стан: Панічна втечка</PanicFlee.baseInspectLine>
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} біжить у паніці.</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>втікає</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} більше не тікає від загрози.</PanicFlee.recoveryMessage>
+  
+  <!-- EN: social fighting -->
   <SocialFighting.label>сутичка</SocialFighting.label>
+  <!-- EN: Mental state: Social fighting -->
   <SocialFighting.baseInspectLine>Психічний стан: бійка</SocialFighting.baseInspectLine>
-
-
+  
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>розгублено блукає</WanderConfused.label>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>Психічний стан: Розгубленість</WanderConfused.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} зламався(лася) і розгублено блукає навколо.</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>розгубленість</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} взяв себе в руки.</WanderConfused.recoveryMessage>
+  
 </LanguageData>

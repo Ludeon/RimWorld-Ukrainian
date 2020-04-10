@@ -1,40 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Frenzy_Work.label>завзята праця</Frenzy_Work.label>
-  <Frenzy_Work.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде працювати швидше протягом наступних 8 днів.</Frenzy_Work.beginLetter>
-  <Frenzy_Work.endMessage>{0} більше не відчуває натхнення (завзята праця).</Frenzy_Work.endMessage>
-  <Frenzy_Work.baseInspectLine>Натхнення: завзята праця</Frenzy_Work.baseInspectLine>
-
+  
+  <!-- EN: go frenzy -->
   <Frenzy_Go.label>енергійність</Frenzy_Go.label>
-  <Frenzy_Go.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде рухатись швидше протягом наступних 8 днів.</Frenzy_Go.beginLetter>
-  <Frenzy_Go.endMessage>{0} більше не відчуває натхнення (енергійність).</Frenzy_Go.endMessage>
+  <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>Натхнення: енергійність</Frenzy_Go.baseInspectLine>
-
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will move faster for the next 8 days. -->
+  <Frenzy_Go.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде рухатись швидше протягом наступних 8 днів.</Frenzy_Go.beginLetter>
+  <!-- EN: {0} is no longer inspired (go frenzy). -->
+  <Frenzy_Go.endMessage>{0} більше не відчуває натхнення (енергійність).</Frenzy_Go.endMessage>
+  
+  <!-- EN: shoot frenzy -->
   <Frenzy_Shoot.label>соколине око</Frenzy_Shoot.label>
-  <Frenzy_Shoot.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде стріляти точніше протягом наступних 8 днів.</Frenzy_Shoot.beginLetter>
-  <Frenzy_Shoot.endMessage>{0} більше не відчуває натхнення (соколине око).</Frenzy_Shoot.endMessage>
+  <!-- EN: Inspired: Shoot frenzy -->
   <Frenzy_Shoot.baseInspectLine>Натхнення: соколине око</Frenzy_Shoot.baseInspectLine>
-
-  <Inspired_Trade.label>торгівля</Inspired_Trade.label>
-  <Inspired_Trade.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] отримає значний бонус в цінах на угоду при закритті [PAWN_possessive] наступній торговельній угоді.\n\nнатхнення закінчується через 8 днів, або коли буде виконано угоду.</Inspired_Trade.beginLetter>
-  <Inspired_Trade.endMessage>{0} більше не відчуває натхнення (торгівля).</Inspired_Trade.endMessage>
-  <Inspired_Trade.baseInspectLine>Натхнення: торгівля</Inspired_Trade.baseInspectLine>
-
-  <Inspired_Recruitment.label>вербування</Inspired_Recruitment.label>
-  <Inspired_Recruitment.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] наступний в'язень буде успішно завербований не звачаючи на складність або опір.\n\nнатхнення закінчиться через 8 днів, або коли завербують ув'язненого.</Inspired_Recruitment.beginLetter>
-  <Inspired_Recruitment.endMessage>{0} більше не відчуває натхнення (вербування).</Inspired_Recruitment.endMessage>
-  <Inspired_Recruitment.baseInspectLine>Натхнення: вербування</Inspired_Recruitment.baseInspectLine>
-
-  <Inspired_Surgery.label>хірургія</Inspired_Surgery.label>
-  <Inspired_Surgery.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\nНаступного разу [PAWN_pronoun] при виконанні операції, шанс [PAWN_possessive] успіху буде подвоєний. Маленька вірогідність провалу все ж таки присутня.\n\nНатхнення закінчиться через 8 днів, або коли буде виконана операція.</Inspired_Surgery.beginLetter>
-  <Inspired_Surgery.endMessage>{0} більше не відчуває натхнення (хірургія).</Inspired_Surgery.endMessage>
-  <Inspired_Surgery.baseInspectLine>Натхненний: хірургія</Inspired_Surgery.baseInspectLine>
-
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will shoot more accurately for the next 8 days. -->
+  <Frenzy_Shoot.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде стріляти точніше протягом наступних 8 днів.</Frenzy_Shoot.beginLetter>
+  <!-- EN: {0} is no longer inspired (shoot frenzy). -->
+  <Frenzy_Shoot.endMessage>{0} більше не відчуває натхнення (соколине око).</Frenzy_Shoot.endMessage>
+  
+  <!-- EN: work frenzy -->
+  <Frenzy_Work.label>завзята праця</Frenzy_Work.label>
+  <!-- EN: Inspired: Work frenzy -->
+  <Frenzy_Work.baseInspectLine>Натхнення: завзята праця</Frenzy_Work.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will work faster for the next 8 days. -->
+  <Frenzy_Work.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] буде працювати швидше протягом наступних 8 днів.</Frenzy_Work.beginLetter>
+  <!-- EN: {0} is no longer inspired (work frenzy). -->
+  <Frenzy_Work.endMessage>{0} більше не відчуває натхнення (завзята праця).</Frenzy_Work.endMessage>
+  
+  <!-- EN: inspired creativity -->
   <Inspired_Creativity.label>творчість</Inspired_Creativity.label>
-  <Inspired_Creativity.beginLetter>[PAWN_nameIndef] відчув натхнення!\n\nНаступного разу, створенний предмет мистецтва або меблі [PAWN_pronoun] буде мати на два рівня якості вище, ніж воно могло б бути. Це навіть дозволяє створювати легендарні предмети.\n\nНатхнення закінчиться через 8 днів, або буде закінчено предмет.</Inspired_Creativity.beginLetter>
-  <Inspired_Creativity.endMessage>{0} більше не відчуває натхнення (творчість).</Inspired_Creativity.endMessage>
+  <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>Натхнення: творчість</Inspired_Creativity.baseInspectLine>
-
-
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\nThe next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
+  <Inspired_Creativity.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\nНаступний предмет мистецтва або меблі, які [PAWN_pronoun] створить буде мати на два рівня якості вище, ніж воно могло б бути. Це навіть дозволяє створювати легендарні предмети.\n\nНатхнення закінчиться через 8 днів, або буде закінчено предмет.</Inspired_Creativity.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired creativity). -->
+  <Inspired_Creativity.endMessage>{0} більше не відчуває натхнення (творчість).</Inspired_Creativity.endMessage>
+  
+  <!-- EN: inspired recruitment -->
+  <Inspired_Recruitment.label>вербування</Inspired_Recruitment.label>
+  <!-- EN: Inspired: Inspired recruitment -->
+  <Inspired_Recruitment.baseInspectLine>Натхнення: вербування</Inspired_Recruitment.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
+  <Inspired_Recruitment.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\nНаступний в'язень, якого буде вербувати [PAWN_pronoun], буде успішно завербований не звачаючи на складність або опір.\n\nНатхнення закінчиться через 8 днів, або коли завербують ув'язненого.</Inspired_Recruitment.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired recruitment). -->
+  <Inspired_Recruitment.endMessage>{0} більше не відчуває натхнення (вербування).</Inspired_Recruitment.endMessage>
+  
+  <!-- EN: inspired surgery -->
+  <Inspired_Surgery.label>хірургія</Inspired_Surgery.label>
+  <!-- EN: Inspired: Inspired surgery -->
+  <Inspired_Surgery.baseInspectLine>Натхненний: хірургія</Inspired_Surgery.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\nThe next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
+  <Inspired_Surgery.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\nНаступного разу, коли [PAWN_pronoun] буде проводити операцію, шанс [PAWN_possessive] успіху буде подвоєний. Маленька вірогідність провалу все ж таки присутня.\n\nНатхнення закінчиться через 8 днів, або коли буде виконана операція.</Inspired_Surgery.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired surgery). -->
+  <Inspired_Surgery.endMessage>{0} більше не відчуває натхнення (хірургія).</Inspired_Surgery.endMessage>
+  
+  <!-- EN: inspired taming -->
+  <Inspired_Taming.label>приручення</Inspired_Taming.label>
+  <!-- EN: Inspired: Inspired taming -->
+  <Inspired_Taming.baseInspectLine>Натхнення: приручення</Inspired_Taming.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
+  <Inspired_Taming.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\nНаступна тварина, яку [PAWN_pronoun] буде приручати, буде успішно приборкана не звачаючи на складність.\n\nНатхнення закінчиться через 8 днів, або коли буде приручено тварину.</Inspired_Taming.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired taming). -->
+  <Inspired_Taming.endMessage>{0} більше не відчуває натхнення (приручення).</Inspired_Taming.endMessage>
+  
+  <!-- EN: inspired trade -->
+  <Inspired_Trade.label>торгівля</Inspired_Trade.label>
+  <!-- EN: Inspired: Inspired trade -->
+  <Inspired_Trade.baseInspectLine>Натхнення: торгівля</Inspired_Trade.baseInspectLine>
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
+  <Inspired_Trade.beginLetter>Завдяки гарному настрою, [PAWN_nameIndef] відчув натхнення!\n\n[PAWN_pronoun] отримає значний бонус в цінах на угоду при закритті [PAWN_possessive] наступної торговельної угоди.\n\nНатхнення закінчується через 8 днів, або коли буде виконано угоду.</Inspired_Trade.beginLetter>
+  <!-- EN: {0} is no longer inspired (inspired trade). -->
+  <Inspired_Trade.endMessage>{0} більше не відчуває натхнення (торгівля).</Inspired_Trade.endMessage>
+  
 </LanguageData>

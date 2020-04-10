@@ -1,53 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Chicken.label>chicken</Chicken.label>
-  <Chicken.description>The most traditional farm bird, the chicken is raised for its eggs and meat. It grows very quickly and lays eggs very often.</Chicken.description>
-  <Chicken.tools.0.label>claws</Chicken.tools.0.label>
-  <Chicken.tools.1.label>beak</Chicken.tools.1.label>
-  <Chicken.tools.2.label>head</Chicken.tools.2.label>
-  <!-- Leather Amount: 0 -->
-  <Chicken_Meat.label>chicken meat</Chicken_Meat.label>
-  <Chicken_Meat.description>chicken meat</Chicken_Meat.description>
-  <Chicken_Corpse.label>chicken corpse</Chicken_Corpse.label>
-  <Chicken_Corpse.description>chicken corpse</Chicken_Corpse.description>
-
-  <Pig.label>pig</Pig.label>
-  <Pig.description>The pig was one of the first animals domesticated by humans. It is commonly raised for meat, and is easy to feed because of its omnivorous diet. Though pigs are self-serving by disposition, they can be trained in complex tasks.</Pig.description>
-  <Pig.tools.1.label>head</Pig.tools.1.label>
-  <Pig_Leather.label>pig leather</Pig_Leather.label>
-  <Pig_Leather.description>pig leather</Pig_Leather.description>
-  <Pig_Leather.stuffProps.stuffAdjective>pig leather</Pig_Leather.stuffProps.stuffAdjective>
-  <Pig_Meat.label>pork</Pig_Meat.label>
-  <Pig_Meat.description>pork</Pig_Meat.description>
-  <Pig_Corpse.label>pig corpse</Pig_Corpse.label>
-  <Pig_Corpse.description>pig corpse</Pig_Corpse.description>
-
-  <Cow.label>cow</Cow.label>
-  <Cow.description>A large domesticated ungulate, cows have been bred for millennia to produce huge amounts of milk, meat, and leather. They are exceptionally gentle creatures and will never seek revenge, no matter how many times they are harmed. Most of them are so adapted to farm life that they cannot survive in the wild.</Cow.description>
-  <Cow.tools.1.label>head</Cow.tools.1.label>
-  <Cow.tools.2.label>left hoof</Cow.tools.2.label>
-  <Cow.tools.3.label>right hoof</Cow.tools.3.label>
-  <Cow_Leather.label>cow leather</Cow_Leather.label>
-  <Cow_Leather.description>cow leather</Cow_Leather.description>
-  <Cow_Leather.stuffProps.stuffAdjective>cow leather</Cow_Leather.stuffProps.stuffAdjective>
-  <Cow_Meat.label>beef</Cow_Meat.label>
-  <Cow_Meat.description>beef</Cow_Meat.description>
-  <Cow_Corpse.label>cow corpse</Cow_Corpse.label>
-  <Cow_Corpse.description>cow corpse</Cow_Corpse.description>
-
-  <Alpaca.label>alpaca</Alpaca.label>
+  
+  <!-- EN: alpaca -->
+  <Alpaca.label>альпака</Alpaca.label>
+  <!-- EN: A medium-sized ungulate closely related to the llama, the alpaca is usually raised for its remarkably soft and insulating wool. Alpacas have also been used as pack animals since they hauled cargo on the rugged mountain trails of ancient South America -->
   <Alpaca.description>A medium-sized ungulate closely related to the llama, the alpaca is usually raised for its remarkably soft and insulating wool. Alpacas have also been used as pack animals since they hauled cargo on the rugged mountain trails of ancient South America</Alpaca.description>
-  <Alpaca.tools.0.label>left hoof</Alpaca.tools.0.label>
-  <Alpaca.tools.1.label>right hoof</Alpaca.tools.1.label>
-  <Alpaca.tools.3.label>head</Alpaca.tools.3.label>
-  <Alpaca_Leather.label>alpaca leather</Alpaca_Leather.label>
-  <Alpaca_Leather.description>alpaca leather</Alpaca_Leather.description>
-  <Alpaca_Leather.stuffProps.stuffAdjective>alpaca leather</Alpaca_Leather.stuffProps.stuffAdjective>
-  <Alpaca_Meat.label>alpaca meat</Alpaca_Meat.label>
-  <Alpaca_Meat.description>alpaca meat</Alpaca_Meat.description>
-  <Alpaca_Corpse.label>alpaca corpse</Alpaca_Corpse.label>
-  <Alpaca_Corpse.description>alpaca corpse</Alpaca_Corpse.description>
-
-
+  <!-- EN: left hoof -->
+  <Alpaca.tools.left_hoof.label>left hoof</Alpaca.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Alpaca.tools.right_hoof.label>right hoof</Alpaca.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Alpaca.tools.head.label>голова</Alpaca.tools.head.label>
+  
+  <!-- EN: bison -->
+  <Bison.label>бізон</Bison.label>
+  <!-- EN: A large plant eating mammal appearing in the savannah wilderness. Tamed are quite docile, but enraged are fast and dangerous. -->
+  <Bison.description>A large plant eating mammal appearing in the savannah wilderness. Tamed are quite docile, but enraged are fast and dangerous.</Bison.description>
+  <!-- EN: head -->
+  <Bison.tools.head.label>голова</Bison.tools.head.label>
+  <!-- EN: left hoof -->
+  <Bison.tools.left_hoof.label>left hoof</Bison.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Bison.tools.right_hoof.label>right hoof</Bison.tools.right_hoof.label>
+  
+  <!-- EN: chicken -->
+  <Chicken.label>курка</Chicken.label>
+  <!-- EN: The most traditional farm bird, the chicken is raised for its eggs and meat. It grows very quickly and lays eggs very often. -->
+  <Chicken.description>The most traditional farm bird, the chicken is raised for its eggs and meat. It grows very quickly and lays eggs very often.</Chicken.description>
+  <!-- EN: claws -->
+  <Chicken.tools.claws.label>кігті</Chicken.tools.claws.label>
+  <!-- EN: beak -->
+  <Chicken.tools.beak.label>дзьоб</Chicken.tools.beak.label>
+  <!-- EN: head -->
+  <Chicken.tools.head.label>голова</Chicken.tools.head.label>
+  
+  <!-- EN: cow -->
+  <Cow.label>корова</Cow.label>
+  <!-- EN: A large domesticated ungulate, cows have been bred for millennia to produce huge amounts of milk, meat, and leather. They are exceptionally gentle creatures and will never seek revenge, no matter how many times they are harmed. Most of them are so adapted to farm life that they cannot survive in the wild. -->
+  <Cow.description>A large domesticated ungulate, cows have been bred for millennia to produce huge amounts of milk, meat, and leather. They are exceptionally gentle creatures and will never seek revenge, no matter how many times they are harmed. Most of them are so adapted to farm life that they cannot survive in the wild.</Cow.description>
+  <!-- EN: beef -->
+  <Cow.race.meatLabel>beef</Cow.race.meatLabel>
+  <!-- EN: head -->
+  <Cow.tools.head.label>голова</Cow.tools.head.label>
+  <!-- EN: left hoof -->
+  <Cow.tools.left_hoof.label>left hoof</Cow.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Cow.tools.right_hoof.label>right hoof</Cow.tools.right_hoof.label>
+  
+  <!-- EN: donkey -->
+  <Donkey.label>ослик</Donkey.label>
+  <!-- EN: A small relative of the horse, domesticated in ancient times for farm work. Its goofy call is simultaneously annoying and endearing. -->
+  <Donkey.description>A small relative of the horse, domesticated in ancient times for farm work. Its goofy call is simultaneously annoying and endearing.</Donkey.description>
+  <!-- EN: head -->
+  <Donkey.tools.head.label>голова</Donkey.tools.head.label>
+  <!-- EN: left hoof -->
+  <Donkey.tools.left_hoof.label>left hoof</Donkey.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Donkey.tools.right_hoof.label>right hoof</Donkey.tools.right_hoof.label>
+  
+  <!-- EN: duck -->
+  <Duck.label>качка</Duck.label>
+  <!-- EN: A very common type of farm bird, also appearing in the wild, the duck is raised for its delicious meat. It grows quick but lays eggs quite rarily. -->
+  <Duck.description>A very common type of farm bird, also appearing in the wild, the duck is raised for its delicious meat. It grows quick but lays eggs quite rarily.</Duck.description>
+  <!-- EN: claws -->
+  <Duck.tools.claws.label>кігті</Duck.tools.claws.label>
+  <!-- EN: beak -->
+  <Duck.tools.beak.label>дзьоб</Duck.tools.beak.label>
+  <!-- EN: head -->
+  <Duck.tools.head.label>голова</Duck.tools.head.label>
+  
+  <!-- EN: goat -->
+  <Goat.label>коза</Goat.label>
+  <!-- EN: Naturally curious about the world, goats are among the friendliest domesticated creature bred by mankind. -->
+  <Goat.description>Naturally curious about the world, goats are among the friendliest domesticated creature bred by mankind.</Goat.description>
+  <!-- EN: head -->
+  <Goat.tools.head.label>голова</Goat.tools.head.label>
+  
+  <!-- EN: goose -->
+  <Goose.label>гусак</Goose.label>
+  <!-- EN: A domesticated bird kept by humans as poultry for it's eggs and meat. Lays eggs very often, however they take a long time to hatch. -->
+  <Goose.description>A domesticated bird kept by humans as poultry for it's eggs and meat. Lays eggs very often, however they take a long time to hatch.</Goose.description>
+  <!-- EN: claws -->
+  <Goose.tools.claws.label>кігті</Goose.tools.claws.label>
+  <!-- EN: beak -->
+  <Goose.tools.beak.label>дзьоб</Goose.tools.beak.label>
+  <!-- EN: head -->
+  <Goose.tools.head.label>голова</Goose.tools.head.label>
+  
+  <!-- EN: guinea pig -->
+  <GuineaPig.label>морська свинка</GuineaPig.label>
+  <!-- EN: Neither a pig or a creature from Guinea, these little rodents are bred to be a household pet and a delicious dinner. -->
+  <GuineaPig.description>Neither a pig or a creature from Guinea, these little rodents are bred to be a household pet and a delicious dinner.</GuineaPig.description>
+  <!-- EN: left claw -->
+  <GuineaPig.tools.left_claw.label>left claw</GuineaPig.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <GuineaPig.tools.right_claw.label>right claw</GuineaPig.tools.right_claw.label>
+  <!-- EN: head -->
+  <GuineaPig.tools.head.label>голова</GuineaPig.tools.head.label>
+  
+  <!-- EN: horse -->
+  <Horse.label>кінь</Horse.label>
+  <!-- EN: A large hoofed mammal with a short coat, a long mane, and a long tail. Horses have been domesticated since ancient times. -->
+  <Horse.description>A large hoofed mammal with a short coat, a long mane, and a long tail. Horses have been domesticated since ancient times.</Horse.description>
+  <!-- EN: horse meat -->
+  <Horse.race.meatLabel>horse meat</Horse.race.meatLabel>
+  <!-- EN: head -->
+  <Horse.tools.head.label>голова</Horse.tools.head.label>
+  <!-- EN: left hoof -->
+  <Horse.tools.left_hoof.label>left hoof</Horse.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Horse.tools.right_hoof.label>right hoof</Horse.tools.right_hoof.label>
+  
+  <!-- EN: pig -->
+  <Pig.label>свиня</Pig.label>
+  <!-- EN: The pig was one of the first animals domesticated by humans. It is commonly raised for meat, and is easy to feed because of its omnivorous diet. Though pigs are self-serving by disposition, they can be trained in complex tasks. -->
+  <Pig.description>The pig was one of the first animals domesticated by humans. It is commonly raised for meat, and is easy to feed because of its omnivorous diet. Though pigs are self-serving by disposition, they can be trained in complex tasks.</Pig.description>
+  <!-- EN: pork -->
+  <Pig.race.meatLabel>pork</Pig.race.meatLabel>
+  <!-- EN: head -->
+  <Pig.tools.head.label>голова</Pig.tools.head.label>
+  
+  <!-- EN: sheep -->
+  <Sheep.label>вівця</Sheep.label>
+  <!-- EN: Sheep husbandry is practised throughout the majority of the inhabited worlds, however only recently it has been introduced to the rimworlds. Domestic sheep are relatively small herbivores, usually with yellowish wool and medium sized horns. -->
+  <Sheep.description>Sheep husbandry is practised throughout the majority of the inhabited worlds, however only recently it has been introduced to the rimworlds. Domestic sheep are relatively small herbivores, usually with yellowish wool and medium sized horns.</Sheep.description>
+  <!-- EN: head -->
+  <Sheep.tools.head.label>голова</Sheep.tools.head.label>
+  <!-- EN: left hoof -->
+  <Sheep.tools.left_hoof.label>left hoof</Sheep.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Sheep.tools.right_hoof.label>right hoof</Sheep.tools.right_hoof.label>
+  
+  <!-- EN: yak -->
+  <Yak.label>як</Yak.label>
+  <!-- EN: Yaks are robust cattle with a bulky frame, short but thick legs, and rounded cloven hooves that are splayed to help them walk in snow. -->
+  <Yak.description>Yaks are robust cattle with a bulky frame, short but thick legs, and rounded cloven hooves that are splayed to help them walk in snow.</Yak.description>
+  <!-- EN: yak beef -->
+  <Yak.race.meatLabel>yak beef</Yak.race.meatLabel>
+  <!-- EN: head -->
+  <Yak.tools.head.label>голова</Yak.tools.head.label>
+  <!-- EN: left hoof -->
+  <Yak.tools.left_hoof.label>left hoof</Yak.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Yak.tools.right_hoof.label>right hoof</Yak.tools.right_hoof.label>
+  
 </LanguageData>

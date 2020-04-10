@@ -1,94 +1,270 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
+  <!-- EN: Manual priorities -->
   <ManualPriorities>Пріоритетизація робіт</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>високий пріоритет</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>низький пріоритет</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>Необхідні навички: {0}\nв середньому відповідних навичок: {1} / {2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Натисніть, щоб перейти до:</ClickToJumpTo>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
   <CannotDoThisWork>{1_labelShort} не може виконати подібну роботу.</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(не задано)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Цей колоніст не може робити будь-яку роботу такого типу через його стан здоров'я.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Попередження: середнє число відповідних навичок дуже низьке.</SelectedWorkTypeWithVeryBadSkill>
-
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>Priority 1 is done first. Priority 4 is done last.</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>Не буде робити</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>Найвищий пріоритет</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>Високий пріоритет</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>Звичайний пріоритет</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>Низький пріоритет</Priority4>
+  
   <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
   <ManageOutfits>Керувати одягом</ManageOutfits>
+  <!-- EN: Unchangeable -->
+  <Unchangeable>Unchangeable</Unchangeable>
+  <!-- EN: Clr. forced -->
   <ClearForcedApparel>Примусово зняти</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>примусово</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>locked</ApparelLockedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>Примусовий одяг</ForcedApparel>
-  <AssignTabEdit>Редагувати...</AssignTabEdit>
-  <ManageDrugPolicies>Управління політики щодо наркотиків</ManageDrugPolicies>
-  <ManageFoodRestrictions>Управління харчовими обмеженнями</ManageFoodRestrictions>
-
+  <!-- EN: Edit... -->
+  <AssignTabEdit>Змінити...</AssignTabEdit>
+  <!-- EN: Manage drug policies -->
+  <ManageDrugPolicies>Управління політиками наркотиків</ManageDrugPolicies>
+  <!-- EN: Manage food restrictions -->
+  <ManageFoodRestrictions>Керування харчовими обмеженнями</ManageFoodRestrictions>
+  
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>Копіювати</Copy>
+  <!-- EN: Paste -->
   <Paste>Вставити</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>Дозволена зона</AllowedArea>
-
+  
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>Головний</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Вагітних ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
   <BondedTo>Прив'язаний до</BondedTo>
-
+  
   <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Це хижак. Ця тварина полюватиме на тварин, що менше за неї, в тому числі - й людей.</IsPredator>
-
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>This creature is currently in mental state: {0}</IsInMentalState>
+  
   <!-- Factions tab -->
+  <!-- EN: Hostile -->
   <Hostile>Вороже</Hostile>
+  <!-- EN: Ally -->
   <Ally>Союзник</Ally>
+  <!-- EN: defeated -->
   <DefeatedLower>переможений</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
   <HostileTo>Ворог {0}</HostileTo>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>Ворог:</EnemyOf>
+  <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Поточна репутація і статус відносин з цією фракцією.</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Ця фракція - ворог назавжди. Вони нападатимуть на ваші поселення та каравани. Відносини з ними ні в якому разі не покращаться.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Ця фракція - ваш союзник. Вони при змозі надсилатимуть вам бійців. Якщо відносини з нею впадуть до {0}, то вони стануть нейтральними.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
   <CurrentGoodwillTip_Neutral>Це нейтральна фракція. Вони будуть вільно з вами торгувати і підтримувати зв'язок. Якщо відносини з ними впадуть нижче {0}, то вони стануть ворогами. Якщо відносини покращаться вище {1}, то вони стануть для вас союзниками та почнуть допомагати вам.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Це ворожа фракція. Вони нападатимуть на ваші поселення та каравани. Якщо відносини з ними зростуть до {0}, то вони стануть нейтральними.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
   <CurrentGoodwillTip_NaturalGoodwill>Зазвичай ця фракція має діапазон репутації від {0} до {1}. Якщо репутація вище {1}, вона зменшується на {3} в день. Якщо репутація нижче {0}, вона зростатиме на {2} в день.</CurrentGoodwillTip_NaturalGoodwill>
-
+  
   <!-- Social tab -->
+  <!-- EN: Friend -->
   <Friend>Друг</Friend>
+  <!-- EN: Rival -->
   <Rival>Суперник</Rival>
+  <!-- EN: Acquaintance -->
   <Acquaintance>Знайомство</Acquaintance>
-
+  
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>Графіки</Graph>
+  <!-- EN: Messages -->
   <Messages>Повідомлення</Messages>
+  <!-- EN: Statistics -->
   <Statistics>Статистика</Statistics>
-
+  
   <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>Виберіть графік</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>Останні 30 днів</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>Останні 100 днів</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>Останні 300 днів</Last300Days>
+  <!-- EN: All -->
   <AllDays>Всі дні</AllDays>
+  <!-- EN: Value -->
   <Value>Значення</Value>
+  <!-- EN: External -->
   <External>Зовнішні</External>
 
   <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
   <ShowLetters>Показати листи</ShowLetters>
+  <!-- EN: Show messages -->
   <ShowMessages>Показати повідомлення</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Закріпити чи відкрипити це повідомлення.\n\nНайстаріші незакріплені повідомлення видалятимуться автоматично після досягнення ліміту в {0} повідомлень.</PinArchivableTip>
+  <!-- EN: no messages -->
   <NoMessages>жодного повідомлення</NoMessages>
 
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>Ігровий час</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>Оповідач</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Багатство колонії (ця карта)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>Багатство колонії (предметів) (ця карта)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
   <ThisMapColonyWealthBuildings>Багатство колонії (споруди) (ця карта)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
   <ThisMapColonyWealthColonistsAndTameAnimals>Багатство колонії (люди і тварини) (ця карта)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>Основні загрози</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>Ворожі напади</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>Шкода завдана (ця карта)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>Колоністів загинуло</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>Колоністів запущено в космос</ColonistsLaunched>
 
   <!-- Research tab -->
-  <ProjectTechLevel>технічний рівень проекту</ProjectTechLevel>
-  <YourTechLevel>ваш рівень технологій</YourTechLevel>
-  <ResearchCostMultiplier>множник вартості</ResearchCostMultiplier>
+  <!-- EN: Research -->
+  <Research>Дослідження</Research>
+  <!-- EN: Researched -->
+  <Researched>Досліджено</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>Недосліджено</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Завершено</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>В процесі</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Locked</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>Techprints required {0} / {1}</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>Insufficient techprints applied ({0} / {1})</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>Prerequisite(s) not completed</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Required research bench</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Базова вартість проекту {0} стає {1} для вас, через ваш технічний рівень.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>Techprints are available from these factions via trade and quests:</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}.</TechLevelTooLow>
 
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>Available</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>Active</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>Historical</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>no quest selected</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>Appeared {0} days ago</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>Appeared on {0}</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>Accepted {0} ago</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>Accepted on {0}</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>Accepted {0} ago by {1}</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>Accepted on {0} by {1}</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>Expires in {0}</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>Expires on {0}</QuestExpiresOn>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>Shuttle arrives in {0}</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>Shuttle arrives on {0}</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>Shuttle departs in {0}</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>Shuttle departs on {0}</ShuttleDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>Finished {0} ago</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>Accept quest</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>Accept with {0_labelShort}</AcceptWith>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>The offer expired.</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>You completed this quest.</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>You failed this quest.</QuestOutcomeInfo_Failed>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>Jump to {0}</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>Select hives</SelectHiveTargets>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>To accept this quest, you need</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>free bedrooms that satisfy the title requirements of</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>a free bedroom that satisfies the title requirements of</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a colonist with the title of {0}. -->
+  <QuestNoColonistWithTitle>a colonist with the title of {0}.</QuestNoColonistWithTitle>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>Accept {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests.</AcceptRoyalFavorDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>You are currently opting in to receive {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>You are currently opting out of receiving {FACTION_royalFavorLabel}.</RoyalFavorOff>
+  
 </LanguageData>

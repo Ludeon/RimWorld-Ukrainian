@@ -1,51 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <SolarFlare.label>сонячний спалах</SolarFlare.label>
-  <SolarFlare.description>Сонячний спалах досяг планети. Електромагнітні перешкоди заважають роботі більшості електричних пристроїв.</SolarFlare.description>
-  <SolarFlare.endMessage>Сонячний спалах скінчився.</SolarFlare.endMessage>
-
-  <Eclipse.label>затемнення</Eclipse.label>
-  <Eclipse.description>Планета занурюється в тінь. Деякий час буде темно, як вночі.</Eclipse.description>
-  <Eclipse.endMessage>Затемнення скінчилося.</Eclipse.endMessage>
-
-  <PsychicDrone.label>психічний дрон</PsychicDrone.label>
-  <PsychicDrone.description>Потужний ШІ викидає психоактивні хвилі, які негативно впливають на людей.</PsychicDrone.description>
-  <PsychicDrone.endMessage>Дію психічного дрону завершено.</PsychicDrone.endMessage>
-
-  <PsychicSoothe.label>психічний дрон</PsychicSoothe.label>
-  <PsychicSoothe.description>Потужний ШІ викидає психоактивні хвилі, які заспокоюють людей та піднімають їм настрій.</PsychicSoothe.description>
-  <PsychicSoothe.endMessage>Дію психічного дрону завершено.</PsychicSoothe.endMessage>
-
-  <ToxicFallout.label>токсичні опади</ToxicFallout.label>
-  <ToxicFallout.description>Шлейф токсичного пилу з якогось віддаленого джерела повільно осідає по всьому цьому регіону. Будь-яка жива істота, що не знаходиться під дахом, буде повільно отруюватись, а предмети, залишені зовні, будуть схильні до корозії.</ToxicFallout.description>
-  <ToxicFallout.endMessage>Токсична хмара розвіялась.</ToxicFallout.endMessage>
-
-  <VolcanicWinter.label>вулканічна зима</VolcanicWinter.label>
-  <VolcanicWinter.description>Далекий вулкан забруднив атмосферу вулканічними частинками, що значно зменшить кількість світла, яке досягає поверхні. Температура буде нижче, а рослини ростимуть повільніше.</VolcanicWinter.description>
-  <VolcanicWinter.endMessage>Більшість попелу розвіялась.</VolcanicWinter.endMessage>
-
-  <HeatWave.label>хвиля спеки</HeatWave.label>
-  <HeatWave.description>Хвиля непомірної спеки прокочується вашим поселенням.</HeatWave.description>
-  <HeatWave.endMessage>Хвиля спеки минула.</HeatWave.endMessage>
-
-  <ColdSnap.label>хрещенські морози</ColdSnap.label>
-  <ColdSnap.description>Надзвичайно холодна погода настала в цьому регіоні.</ColdSnap.description>
-  <ColdSnap.endMessage>Суворі морози закінчилися.</ColdSnap.endMessage>
-
-  <Flashstorm.label>грозовий фронт</Flashstorm.label>
-  <Flashstorm.description>Грозовий фронт підриває невелику територію повторними спалахами блискавки.</Flashstorm.description>
-  <Flashstorm.endMessage>Грозовий фронт пройшов.</Flashstorm.endMessage>
-
-  <ClimateCycle.label>кліматичний цикл</ClimateCycle.label>
-  <ClimateCycle.description>Багаторічний цикл зміни клімату, викликаний витягнутою еліптичною орбітою.</ClimateCycle.description>
-
-  <Planetkiller.label>знищувач планет</Planetkiller.label>
-  <Planetkiller.description>Міжзоряна зброя для винищення планет наближається до цієї планети. Вона рознесе планету на шмаття, як куля гвинтівки, що вразила яйце, винищуючи все живе.</Planetkiller.description>
-
+  
+  <!-- EN: aurora -->
   <Aurora.label>полярне сяйво</Aurora.label>
+  <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
   <Aurora.description>Полярне сяйво освітлює небо. Захоплююче видовище підвищить настрій будь-кому ззовні, хто побачити його.</Aurora.description>
-  <Aurora.endMessage>Сяйво скінчилося.</Aurora.endMessage>
-
-
+  <!-- EN: The aurora is ending. -->
+  <Aurora.endMessage>Полярне сяйво меркне.</Aurora.endMessage>
+  <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
+  <Aurora.letterText>На небі яскраво палає полярне сяйво.\n\nКольорові хвилі зроблять ніч яскравішою та підвищать настрій будь-кому, хто вийде на них подивитися.</Aurora.letterText>
+  
+  <!-- EN: climate cycle -->
+  <ClimateCycle.label>кліматичний цикл</ClimateCycle.label>
+  <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
+  <ClimateCycle.description>Багаторічні регулярні коливання клімату через еліптичність орбіти.</ClimateCycle.description>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>заморозки</ColdSnap.label>
+  <!-- EN: An unusual cold snap is freezing the region. -->
+  <ColdSnap.description>Незвичне похоладання накриває ваш регіон.</ColdSnap.description>
+  <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
+  <ColdSnap.descriptionFuture>фронт холодного повітря охолоджуватиме територію навколо [map_definite] протягом [gameConditionDuration_duration], шкодячи рослинам, тваринам та людям, які не матимуть відповідного захисту</ColdSnap.descriptionFuture>
+  <!-- EN: The cold snap is over. -->
+  <ColdSnap.endMessage>Потепління (кінець заморозок)</ColdSnap.endMessage>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>Незвичайне похолодання.\n\nЗаморозки можуть швидко вбити від переохолодження. Подбайте про будівництво опалюваного приміщення для виживання, одягніть відповідний одяг і спробуйте зібрати врожай, перш ніж він замерзне та загине.</ColdSnap.letterText>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>затемнення</Eclipse.label>
+  <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
+  <Eclipse.description>Затемнення затінює поверхню планети. Деякий час буде темно навіть у день.</Eclipse.description>
+  <!-- EN: The eclipse is ending. -->
+  <Eclipse.endMessage>Затемнення скінчилося.</Eclipse.endMessage>
+  <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
+  <Eclipse.letterText>Один з супутників цієї планети вийшов на орбіту напроти сонця. Почалось затемнення.</Eclipse.letterText>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>гроза</Flashstorm.label>
+  <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
+  <Flashstorm.description>Блискавки від грози підпалюють невелики ділянки.</Flashstorm.description>
+  <!-- EN: The flashstorm is over. -->
+  <Flashstorm.endMessage>Гроза скінчилася.</Flashstorm.endMessage>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>Несподівана гроза вражає невелику площу блискавками. Це може викликати масові пожежі.</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>хвиля спеки</HeatWave.label>
+  <!-- EN: An extreme wave of heat is baking the area. -->
+  <HeatWave.description>Найсильніша спека висушує околиці.</HeatWave.description>
+  <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
+  <HeatWave.descriptionFuture>спека буде висушувати [map_definite] і прилеглі околиці протягом [gameConditionDuration_duration], завдаючи шкоди посівам. Тварини і люди, що опинилися поза охолодженних приміщень, можуть загинути</HeatWave.descriptionFuture>
+  <!-- EN: The heat wave is over. -->
+  <HeatWave.endMessage>Хвиля спеки минула.</HeatWave.endMessage>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
+  <HeatWave.letterText>Почалася надзвичайно сильна спека. \n\nОстерігайтесь теплових ударів: вони смертельно небезпечні. Знижуйте температуру в приміщеннях за допомогою випарного охолоджувача або кондиціонера, або приховайтесь глибоко під землею, де гірська порода зберігає природну прохолоду.</HeatWave.letterText>
+  
+  <!-- EN: planetkiller -->
+  <Planetkiller.label>вбивця планет</Planetkiller.label>
+  <!-- EN: An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life. -->
+  <Planetkiller.description>Міжзоряний "вбивця планет" наближається до нас. Воно винищить усе живе та розмаже нашу планету наче яйце.</Planetkiller.description>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>психічний дрон</PsychicDrone.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
+  <PsychicDrone.description>Десь в далечині ШІ предтеч виділяє психічні сигнали через орбітальний підсилювач, доводячи людей до божевілля.</PsychicDrone.description>
+  <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
+  <PsychicDrone.descriptionFuture>[psychicDroneLevel] буде взаємодіяти у [map_definite] протягом [gameConditionDuration_duration], підштовхуючи всіх людей [psychicDroneGender] до божевілля</PsychicDrone.descriptionFuture>
+  <!-- EN: The psychic drone is ending. -->
+  <PsychicDrone.endMessage>Дію психічного дрону завершено.</PsychicDrone.endMessage>
+  <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
+  <PsychicDrone.letterText>Кожен {0} колоніст відчуває хвилю страху і гніву!\n\nЯкийсь далекий двигун ненависті пробуджується. Він проектує психічну хвилю на це місце через орбітальний підсилювач та налаштований щоб впливати тільки на {0}. Протягом декількох днів настрій деяких людей буде трохи гіршим.\n\nРівень дрона - {1}.</PsychicDrone.letterText>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>психічний дрон</PsychicSoothe.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
+  <PsychicSoothe.description>Десь в далечині ШІ предтеч виділяє психічні сигнали через орбітальний підсилювач, які заспокоюють та стабілізують їх психіку.</PsychicSoothe.description>
+  <!-- EN: The psychic soothe is ending. -->
+  <PsychicSoothe.endMessage>Дію заспокійливої хвилі завершено.</PsychicSoothe.endMessage>
+  <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
+  <PsychicSoothe.letterText>Кожен колоніст {0} задоволено посміхається!\n\nЯкийсь далекий двигун щастя запустився. Він проектує заспокійливу хвилю на це місце через орбітальний підсилювач та налаштований щоб впливати тільки на {0}. Протягом декількох днів настрій деяких людей буде трохи кращим.</PsychicSoothe.letterText>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>сонячний спалах</SolarFlare.label>
+  <!-- EN: A solar flare is blasting the planet. The electromagnetic interference will prevent most electrical devices from working. -->
+  <SolarFlare.description>Сонячний спалах вражає планету. Електромагнітні хвилі блокують роботу більшості приладів.</SolarFlare.description>
+  <!-- EN: The solar flare is ending. -->
+  <SolarFlare.endMessage>Сонячний спалах скінчився.</SolarFlare.endMessage>
+  <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
+  <SolarFlare.letterText>Відбувся сонячний спалах.\n\nІнтенсивний потік часток вимкне всі електричні пристрої.\n\nСпалах закінчиться через кілька днів.</SolarFlare.letterText>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>токсичні опади</ToxicFallout.label>
+  <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
+  <ToxicFallout.description>Шлейф токсичного пилу з якогось віддаленого джерела повільно осідає по всьому цьому регіону. Будь-яка жива істота, що не знаходиться під дахом, буде повільно отруюватись, а предмети, залишені зовні, будуть схильні до корозії.</ToxicFallout.description>
+  <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
+  <ToxicFallout.descriptionFuture>хмара токсичних опадів покриватиме територію навколо [map_definite] протягом [gameConditionDuration_duration], знищуючи рослинне і тваринне життя</ToxicFallout.descriptionFuture>
+  <!-- EN: The worst of the toxic fallout has settled. -->
+  <ToxicFallout.endMessage>Токсична хмара розвіялась.</ToxicFallout.endMessage>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
+  <ToxicFallout.letterText>Далеко від вас хімічний вогонь випустив шлейф отрути над цим регіоном\n\nУсі, хто не сховані під дахом, будуть уражені токсичним пилом, повільно падаючим в атмосфері.\n\nЦе може протривати від декількох днів до року.</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>вулканічна зима</VolcanicWinter.label>
+  <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
+  <VolcanicWinter.description>Далекий вулкан чи пожежа забруднює атмосферу попелом, що значно зменшить кількість світла, яке досягає поверхні. Температура буде нижче, а рослини ростимуть повільніше.</VolcanicWinter.description>
+  <!-- EN: a layer of ash will be desposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
+  <VolcanicWinter.descriptionFuture>шар попелу зависне в верхніх шарах атмосфери, зменшуючий сонячне світло навколо [map_definite], протягом [gameConditionDuration_duration], серйозно пошкоджуючи локальну екосистему</VolcanicWinter.descriptionFuture>
+  <!-- EN: Most of the ash has settled. -->
+  <VolcanicWinter.endMessage>Більшість попелу розвіялась.</VolcanicWinter.endMessage>
+  <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>Далекий вулкан чи пожежа забруднює атмосферу масивною кількістю попелу\n\nПопел в атмосфері закриє сонце. Відбудеться різке зниження температури і ваші рослини перестануть рости через відсутність сонячного світла. Це може пройти через кілька тижнів, або тривати багато років.</VolcanicWinter.letterText>
+  
 </LanguageData>
