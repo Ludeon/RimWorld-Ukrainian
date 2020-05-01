@@ -3,17 +3,17 @@
 
   <!-- ITab titles -->
   <!-- EN: Bills -->
-  <TabBills>Замовлення</TabBills>
+  <TabBills>Проекти</TabBills>
   <!-- EN: Growing -->
   <TabGrowing>Growing</TabGrowing>
   <!-- EN: Bio -->
   <TabCharacter>Біографія</TabCharacter>
   <!-- EN: Training -->
-  <TabTraining>Training</TabTraining>
+  <TabTraining>Приручення</TabTraining>
   <!-- EN: Prisoner -->
   <TabPrisoner>В'язень</TabPrisoner>
   <!-- EN: Guest -->
-  <TabGuest>Guest</TabGuest>
+  <TabGuest>Гість</TabGuest>
   <!-- EN: Gear -->
   <TabGear>Манатки</TabGear>
   <!-- EN: Needs -->
@@ -29,9 +29,9 @@
   <!-- EN: Basics -->
   <TabBasics>Основні</TabBasics>
   <!-- EN: Stats -->
-  <TabStats>Stats</TabStats>
+  <TabStats>Статистика</TabStats>
   <!-- EN: Records -->
-  <TabRecords>Records</TabRecords>
+  <TabRecords>Записи</TabRecords>
   <!-- EN: Art -->
   <TabArt>Дизайн</TabArt>
   <!-- EN: Social -->
@@ -47,19 +47,19 @@
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
-  <AddBill>Додати замовлення</AddBill>
+  <AddBill>Додати проект</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>Проект {0} вимагає перелічених далі навичок. Жоден ваш колоніст не має цих навичок, тому ніхто не виконає цей проект.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
-  <MinimumSkill>Min skill</MinimumSkill>
+  <MinimumSkill>Мінімальна навичка</MinimumSkill>
   <!-- EN: SUSPENDED -->
-  <SuspendedCaps>SUSPENDED</SuspendedCaps>
+  <SuspendedCaps>ЗУПИНЕНО</SuspendedCaps>
   <!-- EN: Worker: {1_labelShort} -->
   <BoundWorkerIs>Працівник: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Посадити</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here.</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>Скопійований проект сюди вставити не можна.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Перемістити вище</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -67,7 +67,7 @@
   <!-- EN: Delete -->
   <DeleteBillTip>Видалити</DeleteBillTip>
   <!-- EN: Copy to the clipboard -->
-  <CopyBillTip>Copy to the clipboard</CopyBillTip>
+  <CopyBillTip>Копіювати до буферу обміну</CopyBillTip>
   <!-- EN: Suspend -->
   <SuspendBillTip>Призупинити</SuspendBillTip>
   <!-- EN: Paste -->
@@ -79,49 +79,51 @@
   <!-- EN: Resistance remaining -->
   <RecruitmentResistance>Опору лишилося</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>Recruitment difficulty</RecruitmentDifficulty>
+  <RecruitmentDifficulty>Складність вербування</RecruitmentDifficulty>
   <!-- EN: Recruitment chance -->
-  <RecruitmentChance>Recruitment chance</RecruitmentChance>
+  <RecruitmentChance>Імовірність вербування</RecruitmentChance>
   <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2}</RecruitmentChanceExplanation>
+  <RecruitmentChanceExplanation>Фактор складності вербування: {0}\nФактор настрою: {1}\nКомбінована базова імовірність: {2}</RecruitmentChanceExplanation>
   <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nОстання спроба вербування\nВербувальник: {3}\nФактор переговорних властивостей: {4}\nФактор особистої оцінки: {5} ({6})\nКінцева імовірність для {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
   <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nResistance reduction: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nЗниження опору: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Relations gain on release</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Збільшення прихильності при звільненні</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>Прихильність фракції в'язня, яку ви отримаєте після його звільнення. Об'єм прихильності залежить від стану здоров'я та психічного стану в'язня.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
-  <PrisonBreakMTBDays>Prison break interval</PrisonBreakMTBDays>
+  <PrisonBreakMTBDays>Інтервал втечі</PrisonBreakMTBDays>
   <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
-  <PrisonBreakMTBDaysDescription>The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>Середня кількість діб без врахування сну між спробами втечі. Визначається настроєм, рухомістю та часом з останньої спроби втечі.\n\nЦе число не враховує час сну, тому в середньому інтервал між втечами буде довшим.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
-  <Never>Never</Never>
+  <Never>Ніколи</Never>
+  <!-- EN: Not while asleep -->
+  <NotWhileAsleep>Не під час сну</NotWhileAsleep>
   <!-- EN: Slave price -->
   <SlavePrice>Вартість раба</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>Отримую їжу</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>Doctors care</DoctorsCare>
+  <DoctorsCare>Лікарський догляд</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>Gets medicine</GetsMedicine>
+  <GetsMedicine>Отримує ліки</GetsMedicine>
   <!-- EN: Try to recruit -->
-  <ShouldTryToRecruit>Try to recruit</ShouldTryToRecruit>
+  <ShouldTryToRecruit>Пробувати вербувати</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
-  <ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
+  <ConsideredGuilty>Визнаний винним (ще протягом {0})</ConsideredGuilty>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
-  <MoveSpeed>Move speed</MoveSpeed>
+  <MoveSpeed>Швидкість руху</MoveSpeed>
   <!-- EN: Efficiency -->
-  <Efficiency>Efficiency</Efficiency>
+  <Efficiency>Ефективність</Efficiency>
   <!-- EN: Part efficiency -->
   <PartEfficiency>Ефективність органу</PartEfficiency>
   <!-- EN: Body part efficiency -->
-  <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
+  <BodyPartEfficiency>Ефективність частини тіла</BodyPartEfficiency>
   <!-- EN: Gone -->
-  <MissingBodyPart>Gone</MissingBodyPart>
+  <MissingBodyPart>Втрачено</MissingBodyPart>
   <!-- EN: Destroyed -->
   <DestroyedBodyPart>Знищено</DestroyedBodyPart>
   <!-- EN: Shattered -->
@@ -129,51 +131,51 @@
   <!-- EN: Removed -->
   <RemovedBodyPart>Видалено</RemovedBodyPart>
   <!-- EN: Healthy -->
-  <Healthy>Healthy</Healthy>
+  <Healthy>Здоровий(-ва)</Healthy>
   <!-- EN: In pain -->
-  <InPain>In pain</InPain>
+  <InPain>Болить</InPain>
   <!-- EN: Pain -->
   <PainLevel>Біль</PainLevel>
   <!-- EN: Injured -->
-  <Injured>Injured</Injured>
+  <Injured>Травмовано</Injured>
   <!-- EN: Untended injury -->
-  <UntendedInjury>Untended injury</UntendedInjury>
+  <UntendedInjury>Недоглянуті травми</UntendedInjury>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>no health conditions</NoHealthConditions>
+  <NoHealthConditions>немає хвороб</NoHealthConditions>
   <!-- EN: Whole body -->
-  <WholeBody>Whole body</WholeBody>
+  <WholeBody>Все тіло</WholeBody>
   <!-- EN: Data processing -->
   <DataProcessing>Обробка даних</DataProcessing>
   <!-- EN: Communication -->
   <Communication>Комунікація</Communication>
   <!-- EN: Affects -->
-  <Affects>Affects</Affects>
+  <Affects>Впливає на</Affects>
   <!-- EN: Bleeding -->
-  <BleedingRate>Bleeding</BleedingRate>
+  <BleedingRate>Кровотеча</BleedingRate>
   <!-- EN: death in {0} -->
-  <TimeToDeath>death in {0}</TimeToDeath>
+  <TimeToDeath>смерть через {0}</TimeToDeath>
   <!-- EN: no immediate danger -->
-  <WontBleedOutSoon>no immediate danger</WontBleedOutSoon>
+  <WontBleedOutSoon>безпосередньої небезпеки немає</WontBleedOutSoon>
   <!-- EN: Overview -->
-  <HealthOverview>Overview</HealthOverview>
+  <HealthOverview>Огляд</HealthOverview>
   <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Operations ({0})</MedicalOperationsShort>
+  <MedicalOperationsShort>Операції ({0})</MedicalOperationsShort>
   <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>Modifications ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsMechanoidsShort>Модифікації ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Медичні операції</MedicalOperations>
   <!-- EN: amputate -->
-  <Amputate>amputate</Amputate>
+  <Amputate>ампутувати</Amputate>
   <!-- EN: harvest -->
   <HarvestOrgan>зібрати</HarvestOrgan>
   <!-- EN: remove -->
-  <RemoveOrgan>remove</RemoveOrgan>
+  <RemoveOrgan>видалити</RemoveOrgan>
   <!-- EN: memory -->
-  <MemoryLower>memory</MemoryLower>
+  <MemoryLower>пам'ять</MemoryLower>
   <!-- EN: social interactions -->
   <SocialInteractionsLower>social interactions</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
-  <HungerRate>Hunger rate</HungerRate>
+  <HungerRate>Швидкість зголодніння</HungerRate>
   <!-- EN: Tiredness -->
   <Tiredness>Втома</Tiredness>
   <!-- EN: Pain -->
@@ -197,7 +199,7 @@
   <!-- EN: OK -->
   <GoodCondition>ОК</GoodCondition>
   <!-- EN: Enhanced -->
-  <Enhanced>Enhanced</Enhanced>
+  <Enhanced>Покращено</Enhanced>
   <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>Seriously impaired</SeriouslyImpaired>
   <!-- EN: Impaired -->
@@ -217,18 +219,18 @@
 
   <!-- Training tab -->
   <!-- EN: Trainability -->
-  <Trainability>Trainability</Trainability>
+  <Trainability>Приручуваність</Trainability>
   <!-- EN: Requires {0} trainability. -->
-  <CannotTrainNotSmartEnough>Requires {0} trainability.</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>Потребує приручуваність {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort} is too small to train this.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort} надто {1_gender ? малий : мала} для вивчення цього.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
-  <TrainingNeedsPrerequisite>Prerequisite needed: {0}</TrainingNeedsPrerequisite>
+  <TrainingNeedsPrerequisite>Передумови: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
-  <NoRelationships>(no relationships)</NoRelationships>
+  <NoRelationships>(немає стосунків)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Kidnapped</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -240,9 +242,9 @@
   <!-- EN: Faction leader -->
   <FactionLeader>Лідер фракції</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Opinion of {1_labelShort}</OpinionOf>
+  <OpinionOf>Думка {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>{1_labelShort}'s opinion of me</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>Думка {1_labelShort} про мене</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>I'm dead</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -264,15 +266,15 @@
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Show all</ShowAll>
+  <ShowAll>Показувати все</ShowAll>
   <!-- EN: Show combat -->
-  <ShowCombat>Show combat</ShowCombat>
+  <ShowCombat>Показувати бойове</ShowCombat>
   <!-- EN: Show social -->
-  <ShowSocial>Show social</ShowSocial>
+  <ShowSocial>Показувати соціальне</ShowSocial>
   <!-- EN: no recent entries -->
-  <NoRecentEntries>no recent entries</NoRecentEntries>
+  <NoRecentEntries>записи відсутні</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
-  <CopyLogTip>Copy log to the clipboard.</CopyLogTip>
+  <CopyLogTip>Копіювати звіт до буфера обміну.</CopyLogTip>
 
   <!-- Forming caravan tab -->
   <!-- EN: Gathering animals -->
@@ -298,17 +300,17 @@
   <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>Waiting</FormingCaravanStatus_Waiting>
   <!-- EN: Members -->
-  <CaravanMembers>Members</CaravanMembers>
+  <CaravanMembers>Члени</CaravanMembers>
   <!-- EN: Animals -->
   <CaravanAnimals>Тварин</CaravanAnimals>
   <!-- EN: Items to load -->
-  <ItemsToLoad>Items to load</ItemsToLoad>
+  <ItemsToLoad>Предмети для завантаження</ItemsToLoad>
   <!-- EN: Loaded items -->
-  <LoadedItems>Loaded items</LoadedItems>
+  <LoadedItems>Завантажені предмети</LoadedItems>
   <!-- EN: pack animals -->
-  <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
+  <PackAnimalsCountLower>в’ючні тварини</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
-  <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
+  <InMentalStateCountLower>психічно зломлені</InMentalStateCountLower>
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
@@ -316,7 +318,7 @@
   <!-- EN: Contained items -->
   <ContainedItems>Contained items</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
-  <ConfirmRemoveItemDialog>Do you really want to remove {0}?</ConfirmRemoveItemDialog>
+  <ConfirmRemoveItemDialog>Ви дійсно бажаєте видалити {0}?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
@@ -326,6 +328,6 @@
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
   <QuestDismissed>This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
-  <DeleteQuest>Delete this quest and remove it from the quest list forever.</DeleteQuest>
+  <DeleteQuest>Назавжди видалити це доручення.</DeleteQuest>
 
 </LanguageData>

@@ -38,7 +38,7 @@
   <MessageDeterioratedAway>{0} has deteriorated away in storage.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
-  <MessageSeasonBegun>{0} has begun.</MessageSeasonBegun>
+  <MessageSeasonBegun>Починається {0}.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0} has left comms range.</MessageShipHasLeftCommsRange>
@@ -47,16 +47,16 @@
   <MessageNeedBeaconToTradeWithShip>You need a powered orbital trade beacon to trade with a ship.</MessageNeedBeaconToTradeWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>{0} has been destroyed.</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0} було знищено.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
-  <MessageBillComplete>Bill complete: {0}.</MessageBillComplete>
+  <MessageBillComplete>Проект виконано: {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{1_label} is fully healed.</MessageFullyHealed>
+  <MessageFullyHealed>{1_label} повністю {1_gender ? вилікувався : вилікувалась}.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>Prisoner {1_labelShort} is escaping.</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>В'язень {1_labelShort} втікає.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} found no nearby unreserved shells for {GUN_label}.</MessageOutOfNearbyShellsFor>
@@ -131,10 +131,10 @@
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} has died. Cause: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_labelShort} has died.</PawnDied>
+  <PawnDied>{1_labelShort} {1_gender ? помер : померла}.</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
-  <MessageNoLongerDowned>{1_label} is no longer incapable of walking.</MessageNoLongerDowned>
+  <MessageNoLongerDowned>{1_label} тепер може ходити.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort} has collapsed due to extreme exhaustion.</MessageInvoluntarySleep>
@@ -152,11 +152,11 @@
   <MessageMedicalOperationWillAngerFaction>This operation will anger {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} has miscarried due to starvation.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} мала викидень через голодування.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} has miscarried due to poor health.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} мала викидень через стан здоров'я.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
-  <MessageGaveBirth>{0} has given birth.</MessageGaveBirth>
+  <MessageGaveBirth>{0} народила.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity.</MessagePsychicAmplifierNoSensitivity>
@@ -185,9 +185,9 @@
   <MessageTraderCaravanLeaving>The trade caravan from {0} is leaving.</MessageTraderCaravanLeaving>
   
   <!-- EN: {1_labelShort} is dead. -->
-  <MessageCantSelectDeadPawn>{1_labelShort} is dead.</MessageCantSelectDeadPawn>
+  <MessageCantSelectDeadPawn>{1_labelShort} {1_gender ? мертвий : мертва}.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
-  <MessageCantSelectOffMapPawn>{1_labelShort} is off the map.</MessageCantSelectOffMapPawn>
+  <MessageCantSelectOffMapPawn>{1_labelShort} знаходиться за межами карти.</MessageCantSelectOffMapPawn>
   
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort} started a social fight with {PAWN2_labelShort}.</MessageSocialFight>
@@ -219,10 +219,10 @@
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.</MessageShipChunkDrop>
+  <MessageShipChunkDrop>Уламки космічних кораблів приземлилися неподалік. Ви можете їх розібрати та отримати трохи ресурсів.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>Some items cannot be traded because of:</MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>Деякими товарами не можна торгувати, бо:</MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted.</MessageConstructionFailed>
@@ -584,9 +584,9 @@
   <!-- EN: {0_definite} has accepted a quest: {1} -->
   <MessageQuestAccepted>{0_definite} has accepted a quest: {1}</MessageQuestAccepted>
   <!-- EN: {0} is leaving. -->
-  <MessagePawnLeaving>{0} is leaving.</MessagePawnLeaving>
+  <MessagePawnLeaving>{0} йде.</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
-  <MessagePawnsLeaving>{0} are leaving.</MessagePawnsLeaving>
+  <MessagePawnsLeaving>{0} йдуть.</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>The monument has been destroyed because you've built a disallowed building inside.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
