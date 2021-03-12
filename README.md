@@ -8,13 +8,13 @@ Repository of Ukrainian localization for RimWorld.
   Усі нові переклади варто робити спершу там, задля уникнення розбіжностей
   між перекладами у цьому репозиторі та на CrowdIn. Завантажити переклади з
   CrowdIn у цей репозиторій можна за допомогою скрипта:
-  `./scripts/import-from-crowdin.py -p rimworld-urk -k abcde12345`. Ключ для
-  скрипта можна знайти у вкладці API налаштувань проекту на CrowdIn (доступна
-  для менеджерів проекту). Детальніше про параметри скрипта:
+  `./Notes/scripts/download-translated-files.py -p rimworld-urk -k abcde12345`.
+  Ключ для скрипта можна знайти у вкладці API налаштувань проекту на CrowdIn
+  (доступна для менеджерів проекту). Детальніше про параметри скрипта:
 
   ```console
-  $ ./scripts/import-from-crowdin.py -h
-  usage: import-from-crowdin.py [-h] [-p PROJECT_IDENTIFIER] [-k PROJECT_KEY]
+  $ ./Notes/scripts/download-translated-files.py -h
+  usage: download-translated-files.py [-h] [-p PROJECT_IDENTIFIER] [-k PROJECT_KEY]
 
   Replace local translations with latest version from CrowdIn.
 
