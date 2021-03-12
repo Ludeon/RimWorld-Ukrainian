@@ -5,7 +5,7 @@
   <!-- EN: Forbid -->
   <CommandForbid>Заборонити</CommandForbid>
   <!-- EN: Allow -->
-  <CommandAllow>Дозволено</CommandAllow>
+  <CommandAllow>Дозволити</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Заборонено: Вашим поселенцям не дозволено взаємодіяти з цим. Натисніть, щоб дозволити.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
@@ -70,6 +70,8 @@
   <CommandBedSetOwnerDesc>Призначити це ліжко за конкретним колоністом.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Призначити цей трон за конкретним колоністом.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>Виділити це місце медитації для конкретного колоніста.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Призначити колоніста</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -252,6 +254,12 @@
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Зупинити будь-які атаки.</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>Не лишилося {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>Необхідно зарядити {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Оберіть рослину для вирощування</CommandSelectPlantToGrowMulti>
@@ -278,7 +286,7 @@
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
-  <CommandReformCaravan>Розформувати караван</CommandReformCaravan>
+  <CommandReformCaravan>Переформувати караван</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
   <CommandReformCaravanDesc>Розформувати групу поселенців. Поселенці покинуть нинішню зону та чекатимуть подальших наказів.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
@@ -297,6 +305,8 @@
   <CommandMergeCaravansDesc>Об'єднати обрані каравани.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Оберіть усі каравани, які потрібно об'єднати. Каравани повинні бути близько один до одного.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>Приєднатися</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -397,10 +407,10 @@
   <CommandCancelLoadDesc>Скасувати завантаження цього людьми або предметами та вийняти все, що вже завантажено.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
-  <!-- EN: Launch group -->
-  <CommandLaunchGroup>Запуск групи</CommandLaunchGroup>
-  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
-  <CommandLaunchGroupDesc>Ініціює процес націлювання для запуску групи транспортних капсул. Наступний крок - обрати ціль. Капсули полетять та приземляться разом.</CommandLaunchGroupDesc>
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>Пуск</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>Злетіти та взяти курс до місця призначення.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Деякі транспортні капсули у цій групі не приєднаний до порту для заправки.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
@@ -493,12 +503,22 @@
   <CommandSendShuttleFailUnderRoof>Шаттл під дахом.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>Деякі з необхідних предметів або людей відсутні.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>Відхилити</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>Розвантажити все та відправити човник.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
   <CommandPlaceBlueprints>Розмістити проект</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Розмістити усі необхідні проекти, де це можливо.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>Place {0} blueprints</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>Place all {0} blueprints where possible.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -515,5 +535,11 @@
   <CommandOpenLinkedQuest>Відкрити пов'язане доручення</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Відкрити пов'язане доручення на вкладці Доручення.</CommandOpenLinkedQuestDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>Прийняти припарат...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>Оберіть препарат з інвентярю, щоб прийняти його негайно.</TakeDrugDesc>
   
 </LanguageData>

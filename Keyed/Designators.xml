@@ -76,16 +76,16 @@
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Розширити домашню територію</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
-  <DesignatorAreaHomeExpandDesc>Колоністи будуть ремонтувати будівлі, очищати підлогу і тушити пожежу тільки на домашній території.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>Колоністи будуть ремонтувати будівлі, очищати підлогу і гасити пожежі тільки на домашній території.</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
   <DesignatorAreaHomeClear>Видалити домашню територію</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>Видаляє домашню територію. Колоністи бідьше не будуть ремонтувати будівлі, очищати підлогу і тушити пожежу тут.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>Видаляє домашню територію. Колоністи більше не будуть ремонтувати будівлі, очищати підлогу і гасити пожежі тут.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Будувати дах</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>Колоністи побудують дах на заданій території(будь-те обережні для даху обов'язково потрібні опори).</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>Колоністи побудують дах на заданій території (будьте обережні: для даху обов'язково потрібні опори).</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Видалити дах</DesignatorAreaNoRoofExpand>
@@ -100,7 +100,7 @@
   <!-- EN: Expand snow clear area -->
   <DesignatorAreaSnowClearExpand>Розширити зону очищення снігу</DesignatorAreaSnowClearExpand>
   <!-- EN: Create a area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Створує територію яку колоністи намагатимуться зберігати чистою від снігу.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearExpandDesc>Створює територію, яку колоністи намагатимуться зберігати чистою від снігу.</DesignatorAreaSnowClearExpandDesc>
   <!-- EN: Clear snow clear Area -->
   <DesignatorAreaSnowClearClear>Видалити зону очищення снігу</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
@@ -113,18 +113,18 @@
   <!-- EN: Clear allowed area -->
   <DesignatorClearAreaAllowed>Видалити дозволену територію</DesignatorClearAreaAllowed>
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorClearAreaAllowedDesc>Розширює дозволену територію.\n\nДозволені території визначені зони, які ти можеш призначити колоністам. Колоністи не будуть працювати або виконувати їхні потреби за межою дозвеленої території.</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>Видаляє клітинки дозволеної території.\n\nДозволені території - визначені зони, які ти можеш призначити колоністам. Колоністи не будуть працювати або задовольняти їхні потреби за межами дозволеної території.</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
   <ManageAreas>Керування областями...</ManageAreas>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
-  <DesignatorGrowingZoneDesc>Створує зону на якій колоністи намагатимуться вирощувати певний тип рослин.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>Створює зону, на якій колоністи намагатимуться вирощувати певний тип рослин.</DesignatorGrowingZoneDesc>
 
   <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageResourcesDesc>Створує склад на якому колоністи будуть зберігати ресурси.\nМоже бути використаним для існуючого складу.</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>Створює склад, на якому колоністи будуть зберігати ресурси.\nМоже використовуватись для розширення існуючого складу.</DesignatorZoneCreateStorageResourcesDesc>
 
   <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageDumpingDesc>Створує склад де колоністи будуть зберігати сміття.\nМоже бути використаним для існуючого складу.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>Створює склад, де колоністи будуть складати сміття.\nМоже використовуватись для розширення існуючого складу сміття.</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
   <DesignatorZoneDelete>Зменшити зони</DesignatorZoneDelete>
@@ -214,14 +214,20 @@
   <InteractionSpotWillOverlap>Місце взаємодії буде конфліктувати з місцем взаємодії {1_labelShort}.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>Місце взаємодії конфліктує з місцем взаємодії {1_labelShort}.</InteractionSpotOverlaps>
-  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
-  <MonumentAdjacentToBuilding>Плани монументів не можуть межувати з іншими будівлями.</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>Не можна встановити монумент над: {0}.</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>Не можна будувати на: {0}.</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>Не можна встановити монумент над: {0}.</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>Монумент не можна розташувати впритул до: {0}.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
-  <ExpandOrCreateZone>Розширити {0} або\nСтворити нову {1}</ExpandOrCreateZone>
+  <ExpandOrCreateZone>Розширити {0} або\nСтворити {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
-  <CreateNewZone>Створити нову {0}</CreateNewZone>
+  <CreateNewZone>Створити {0}</CreateNewZone>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

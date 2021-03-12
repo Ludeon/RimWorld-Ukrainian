@@ -11,11 +11,11 @@
   <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>Надзвичайний ризик зриву</BreakRiskExtreme>
   <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
-  <BreakRiskMinorDesc>Ці колоністи в поганому настрої і можуть отримати незначний психічний зрив у будь який час:\n\n{0}</BreakRiskMinorDesc>
+  <BreakRiskMinorDesc>Ці колоністи в поганому настрої і у них може статися незначний психічний зрив у будь-який момент:\n\n{0}</BreakRiskMinorDesc>
   <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
-  <BreakRiskMajorDesc>Ці колоністи в дуже поганому настрої і можуть отримати значний психічний зрив у будь який час:\n\n{0}</BreakRiskMajorDesc>
+  <BreakRiskMajorDesc>Ці колоністи в дуже поганому настрої і у них може статися значний психічний зрив у будь-який момент:\n\n{0}</BreakRiskMajorDesc>
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
-  <BreakRiskExtremeDesc>Ці колоністи панічно нервують і можуть отримати надзвичайний (і, скоріш за все, небезпечний) психічний зрив у будь-який час:\n\n{0}</BreakRiskExtremeDesc>
+  <BreakRiskExtremeDesc>Ці колоністи панічно нервують і у них може статися надзвичайний (і, скоріш за все, небезпечний) психічний зрив у будь-який момент:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Перевірте вкладку «Потреби» цих колоністів, щоб побачити, що їх турбує.\n\n Щоб колоністи почувалися краще, ви можете зробити такі речі, як приготувати для них смачну страву, надати їм більше часів відпочинку в день та кращі предмети для відпочинку, розмістити їх в затишному оточенні, дозволити їм пити та палити, та багато іншого.</BreakRiskDescEnding>
 
@@ -65,13 +65,13 @@
   
   <!-- EN: Colonist left unburied -->
   <AlertColonistLeftUnburied>Колоніст не похований</AlertColonistLeftUnburied>
-  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>Мертвого колоніста не поховали.\n\nЦе може негативно вплинути на настрій живих колоністів.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>У мисливця нема зброї дальнього бою</HunterLacksWeapon>
   <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
-  <HunterLacksWeaponDesc>Колоніст призначений мисливцем, але не має зброї дального бою.\n\nВін не буде полювати доки не отримають зброї.</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>Колоніст призначений мисливцем, але не має зброї дальнього бою.\n\nВін не буде полювати доки не отримає зброї.</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Пошарпаний одяг</AlertTatteredApparel>
@@ -99,9 +99,9 @@
   <ExhaustionDesc>Ці колоністи виснажені та потребують відпочинку:\n\n{0}\nЇм знадобиться ліжка, позначені для використання колоністами. Також переконайтеся, що вони побудовані.</ExhaustionDesc>
 
   <!-- EN: Need food hopper -->
-  <NeedFoodHopper>Потрібен харчовий бункер</NeedFoodHopper>
+  <NeedFoodHopper>Потрібна харчова воронка</NeedFoodHopper>
   <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
-  <NeedFoodHopperDesc>Ви маєте дозатор поживних речовин без бункера поруч з ним.\n\nЩоб працювати, дозатори повинні витягувати з сусіднього бункера, заповненого сирою їжею.\n\nЗбудуйте бункер, що прилягає до дозатора.</NeedFoodHopperDesc>
+  <NeedFoodHopperDesc>Ви маєте дозатор поживних речовин без воронки поруч з ним.\n\nЩоб працювати, дозатори повинні витягувати з сусідньої воронки, заповненої сирою їжею.\n\nЗбудуйте воронку, що прилягає до дозатора.</NeedFoodHopperDesc>
 
   <!-- EN: Need meal source -->
   <NeedMealSource>Потрібно джерело їжі</NeedMealSource>
@@ -226,6 +226,15 @@
   <QuestPartShuttleLeaveDelay>Човник злітає через {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
   <QuestPartShuttleLeaveDelayDesc>Човник злетить через {1}. Доручення {0} вимагає, щоб ви завантажили наступних людей та товари на човник перед його зльотом:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <!-- EN: The shuttle will leave in {0}. -->
+  <QuestPartShuttleLeaveDelayDescHidden>Човник відправиться через {0}.</QuestPartShuttleLeaveDelayDescHidden>
+
+  <!-- EN: Shuttle arriving in {0} -->
+  <QuestPartShuttleArriveDelay>Човник прибуває через {0}</QuestPartShuttleArriveDelay>
+  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleArriveDelayDesc>Човник прибуде через {1}. Доручення {0} вимагає, щоб ви завантажили наступних людей та товари на човник перед його зльотом:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <!-- EN: A shuttle will arrive in {0}. -->
+  <QuestPartShuttleArriveDelayDescHidden>Човник прибуде через {0}.</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
   <DisallowedBuildingInsideMonument>Монумент буде зруйновано</DisallowedBuildingInsideMonument>
