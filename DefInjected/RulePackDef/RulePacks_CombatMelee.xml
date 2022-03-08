@@ -3,10 +3,10 @@
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] з [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] ударив [RECIPIENT_definite] з [damaged_inf] from [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
@@ -32,53 +32,53 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] у [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] з [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] у [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] ударив [RECIPIENT_definite] з [damaged_inf] від [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] використав [implement] до [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>atMaybe-></li>
-    <li>atMaybe->at</li>
-    <li>deflected_result->, but the [TOOL_label] [deflected] off [harmlessly_opt]</li>
-    <li>deflected_result->, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]</li>
+    <li>atMaybe->на</li>
+    <li>deflected_result->, але [TOOL_label] [deflected] вимкнено [harmlessly_opt]</li>
+    <li>deflected_result->, [deflecting] вимкнено [RECIPIENT_possessive] броня [harmlessly_opt]</li>
     <li>harmlessly_opt(p=4)-></li>
     <li>harmlessly_opt->[harmlessly]</li>
-    <li>harmlessly->harmlessly</li>
-    <li>harmlessly->uselessly</li>
-    <li>deflected->deflected</li>
-    <li>deflected->scraped</li>
-    <li>deflected->slid</li>
-    <li>deflected->grazed</li>
-    <li>deflected->bounced</li>
-    <li>deflected->glanced</li>
-    <li>deflecting->deflecting</li>
-    <li>deflecting->scraping</li>
-    <li>deflecting->sliding</li>
-    <li>deflecting->grazing</li>
-    <li>deflecting->bouncing</li>
-    <li>deflecting->glancing</li>
+    <li>harmlessly->нешкідливо</li>
+    <li>harmlessly->марно</li>
+    <li>deflected->відхилений</li>
+    <li>deflected->відхилений</li>
+    <li>deflected->сковзнув</li>
+    <li>deflected->ухилений</li>
+    <li>deflected->відскочив</li>
+    <li>deflected->промайнув</li>
+    <li>deflecting->відхилює</li>
+    <li>deflecting->відхилює</li>
+    <li>deflecting->сковзує</li>
+    <li>deflecting->ухилюється</li>
+    <li>deflecting->відстрибує</li>
+    <li>deflecting->відстрибує</li>
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite] [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite] [damaged_inf].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>result->but [RECIPIENT_definite] leapt out of the way</li>
-    <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
+    <li>result->but was deceived by [RECIPIENT_definite] feint</li>
     <li>result->but the attack was cleverly avoided</li>
   -->
   <Combat_Dodge.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
-    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] ухилився від [INITIATOR_definite] [damaged_inf] від [implement].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] ухилився від [INITIATOR_definite] [damaged_inf].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
-    <li>result->but [RECIPIENT_definite] leapt out of the way</li>
-    <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
-    <li>result->but the attack was cleverly avoided</li>
+    <li>result->але [RECIPIENT_definite] зіскочив з дороги</li>
+    <li>result->але був обдурений фінтом [RECIPIENT_definite].</li>
+    <li>result->але нападу вдало удалося уникнути</li>
   </Combat_Dodge.rulePack.rulesStrings>
   
   <!-- EN:
@@ -87,49 +87,49 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].</li>
-    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] з [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] з [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] з [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement]</li>
+    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] і [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] з [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] ударив [RECIPIENT_definite] з [damaged_inf] from [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] з [damaged_inf] from [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].</li>
-    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement].</li>
-    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] в [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] в [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] в [recipient_part0_label], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] в [recipient_part0_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] в [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] з [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] з [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] з [implement].</li>
     <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
     <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement]</li>
+    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] і [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] з [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] ударив [RECIPIENT_definite] з [damaged_inf] від [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], ударив [RECIPIENT_definite] з [damaged_inf] від [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] використав [implement] для [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] використав [implement] [skillAdv] для [damaged_inf] [RECIPIENT_definite]</li>
   </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite] [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] з [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] з [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].</li>
     <li>skillAdvMaybe-></li>
@@ -146,23 +146,23 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] уник [INITIATOR_definite] [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] пропустив [RECIPIENT_definite] з [damaged_inf] від [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] під час спроби [damaged_inf] [RECIPIENT_definite] за допомогою [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] під час спроби [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] спробував [skillAdvMaybe] до [damaged_inf] [RECIPIENT_definite], але [failtype].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
-    <li>failtype(p=5)->missed</li>
-    <li>failtype->stumbled</li>
-    <li>failtype->tripped</li>
-    <li>failtype->flailed</li>
-    <li>failtype->floundered</li>
-    <li>result(p=4)->but missed</li>
-    <li>result->but hit only air</li>
-    <li>result->but the swing went wide</li>
-    <li>result->but stumbled at the last second</li>
-    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
+    <li>failtype(p=5)->пропустив</li>
+    <li>failtype->спіткнувся</li>
+    <li>failtype->споткнувся</li>
+    <li>failtype->змахнув</li>
+    <li>failtype->пропустив</li>
+    <li>result(p=4)->але пропустив</li>
+    <li>result->але вдарив тільки повітря</li>
+    <li>result->але махи пройшли далеко</li>
+    <li>result->але спіткнувся в останню секунду</li>
+    <li>result(initiator_flesh!=Mechanoid)->але завагався в останню секунду</li>
   </Combat_Miss.rulePack.rulesStrings>
   
 </LanguageData>
