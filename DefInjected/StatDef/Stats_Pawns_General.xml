@@ -1,111 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: animals learning factor -->
-  <AnimalsLearningFactor.label>animals learning factor</AnimalsLearningFactor.label>
-  <!-- EN: A multiplier on the learning rate for animals skill. -->
-  <AnimalsLearningFactor.description>A multiplier on the learning rate for animals skill.</AnimalsLearningFactor.description>
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>meditation psyfocus gain</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / day</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / day</MeditationFocusGain.formatStringUnfinalized>
   
-  <!-- EN: caravan riding speed -->
-  <CaravanRidingSpeedFactor.label>caravan riding speed</CaravanRidingSpeedFactor.label>
-  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans.</CaravanRidingSpeedFactor.description>
+  <!-- EN: neural heat gain -->
+  <PsychicEntropyGain.label>neural heat gain</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on neural heat gained from any source. -->
+  <PsychicEntropyGain.description>A multiplier on neural heat gained from any source.</PsychicEntropyGain.description>
   
-  <!-- EN: carrying capacity -->
-  <CarryingCapacity.label>вантажопідйомність</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips.</CarryingCapacity.description>
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>neural heat limit</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>The maximum amount of neural heat individual can tolerate safely.</PsychicEntropyMax.description>
   
-  <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>Максимальна комфортна температура</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die.</ComfyTemperatureMax.description>
-  
-  <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>Мінімальна комфортна температура</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die.</ComfyTemperatureMin.description>
-  
-  <!-- EN: eating speed -->
-  <EatingSpeed.label>швидкість харчування</EatingSpeed.label>
-  <!-- EN: A multiplier on eating speed. -->
-  <EatingSpeed.description>Множник швидкості харчування.</EatingSpeed.description>
-  
-  <!-- EN: filth rate -->
-  <FilthRate.label>filth rate</FilthRate.label>
-  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
-  <FilthRate.description>How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem.</FilthRate.description>
-  
-  <!-- EN: foraged food amount -->
-  <ForagedNutritionPerDay.label>кількість збираної їжі</ForagedNutritionPerDay.label>
-  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>The amount of nutrition this person will automatically forage per day while traveling by caravan.</ForagedNutritionPerDay.description>
-  
-  <!-- EN: global learning factor -->
-  <GlobalLearningFactor.label>глобальний фактор навчання</GlobalLearningFactor.label>
-  <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>Показник швидкості навчання усіх навичок.</GlobalLearningFactor.description>
-  
-  <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>множник зголодніння</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>Показник того, наскільки швидко істота стає голодною.</HungerRateMultiplier.description>
-  
-  <!-- EN: immunity gain speed -->
-  <ImmunityGainSpeed.label>швидкість посилення імунітету</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity.</ImmunityGainSpeed.description>
-  
-  <!-- EN: injury healing factor -->
-  <InjuryHealingFactor.label>injury healing factor</InjuryHealingFactor.label>
-  <!-- EN: The multiplier applied to a person's injury healing rate. -->
-  <InjuryHealingFactor.description>The multiplier applied to a person's injury healing rate.</InjuryHealingFactor.description>
-  
-  <!-- EN: leather amount -->
-  <LeatherAmount.label>кількість шкіри</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed.</LeatherAmount.description>
-  
-  <!-- EN: meat amount -->
-  <MeatAmount.label>кількість м'яса</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed.</MeatAmount.description>
-  
-  <!-- EN: mental break threshold -->
-  <MentalBreakThreshold.label>поріг психічного зриву</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are.</MentalBreakThreshold.description>
-  
-  <!-- EN: minimum handling skill -->
-  <MinimumHandlingSkill.label>мінімальний рівень приручення</MinimumHandlingSkill.label>
-  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>Це істота не може бути приручена, навчена, або отримувати накази, якщо навичка буде нижче ніж у тварини.</MinimumHandlingSkill.description>
-  
-  <!-- EN: move speed -->
-  <MoveSpeed.label>швидкість руху</MoveSpeed.label>
-  <!-- EN: Speed of movement in cells per second. -->
-  <MoveSpeed.description>Швидкість пересування у клітинках за секунду.</MoveSpeed.description>
-  <!-- EN: {0} c/s -->
-  <MoveSpeed.formatString>{0} к\с</MoveSpeed.formatString>
-  
-  <!-- EN: pain shock threshold -->
-  <PainShockThreshold.label>поріг больового шоку</PainShockThreshold.label>
-  <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>The pain level at which this creature is downed from pain.</PainShockThreshold.description>
-  
-  <!-- EN: psychic sensitivity -->
-  <PsychicSensitivity.label>психічна чутливість</PsychicSensitivity.label>
-  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit.</PsychicSensitivity.description>
-  
-  <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>множник швидкості відпочинку</RestRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>A multiplier on how quickly a creature rests while sleeping.</RestRateMultiplier.description>
-  
-  <!-- EN: toxic sensitivity -->
-  <ToxicSensitivity.label>чутливість до токсинів</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>Multiplier on the impact of toxic buildup on this creature.</ToxicSensitivity.description>
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>neural heat recovery rate</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>The rate at which this person reduces neural heat.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
   
 </LanguageData>
