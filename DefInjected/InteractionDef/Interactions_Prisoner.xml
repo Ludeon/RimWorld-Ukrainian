@@ -1,117 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: try to get to know -->
-  <BuildRapport.label>спроба дізнатись</BuildRapport.label>
+  <!-- EN: enslave attempt -->
+  <EnslaveAttempt.label>спроба поневолення</EnslaveAttempt.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] described [subject] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] offered a chance for [RECIPIENT_nameDef] to [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] expressed interest in [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-    <li>toldastoryabout(p=2)->told a story about</li>
-    <li>toldastoryabout->told a funny story about</li>
-    <li>toldastoryabout->told a heartfelt story about</li>
-    <li>toldastoryabout->told an old story about</li>
-    <li>toldastoryabout->told a family story about</li>
-    <li>toldastoryabout->told a childhood story about</li>
-    <li>toldastoryabout->mentioned an anecdote about</li>
-    <li>talkabout->talk about</li>
-    <li>talkabout->discuss</li>
-    <li>talkabout->have a discussion about</li>
-    <li>talkabout->ask about</li>
-    <li>talkabout->think about</li>
-    <li>talkabout->find common ground around</li>
-    <li>subject->the colony</li>
-    <li>subject->the community</li>
-    <li>subject->joining the colony</li>
-    <li>subject->changing teams</li>
-    <li>subject->finding friends</li>
-    <li>subject->meeting new people</li>
-    <li>subject->reconsidering [RECIPIENT_possessive] ideas</li>
-    <li>subject->rethinking [RECIPIENT_possessive] loyalties</li>
-    <li>subject->health</li>
-    <li>subject->the future</li>
-    <li>subject->letting go</li>
-    <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
-    <li>subject(p=8)->[TalkTopicLight]</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>
+    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
+    <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
-  <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповів [RECIPIENT_nameDef] про [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] описує [subject] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] просив [RECIPIENT_nameDef] [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] пропонує шанс для [RECIPIENT_nameDef] [talkabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] висловив зацікавленість у [RECIPIENT_nameDef] [PersonalCharacteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] запитав [RECIPIENT_nameDef] про [RECIPIENT_possessive] [PersonalCharacteristic].</li>
-    <li>toldastoryabout(p=2)->розповів історію про</li>
-    <li>toldastoryabout->розповів кумедну історію про</li>
-    <li>toldastoryabout->розповів зворушливу історію про</li>
-    <li>toldastoryabout->розповів стару історію про</li>
-    <li>toldastoryabout->розповів сімейну історію про</li>
-    <li>toldastoryabout->розповів історію з дитинства про</li>
-    <li>toldastoryabout->згадує анекдот</li>
-    <li>talkabout-> розповідає про</li>
-    <li>talkabout->обговорює</li>
-    <li>talkabout->дискутує з приводу</li>
-    <li>talkabout->запитує про</li>
-    <li>talkabout->думає про</li>
-    <li>talkabout->знаходить загальну думку</li>
-    <li>subject->колонія</li>
-    <li>subject->населення</li>
-    <li>subject->вступ до колоноії</li>
-    <li>subject->змінити команду</li>
-    <li>subject->пошук друзів</li>
-    <li>subject->нові зустрічі</li>
-    <li>subject->переосмислення ідеї [RECIPIENT_possessive]</li>
-    <li>subject->переосмислення відношення [RECIPIENT_possessive]</li>
-    <li>subject->здоров'я</li>
-    <li>subject->майбутнє</li>
-    <li>subject->відпустити</li>
-    <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
-    <li>subject(p=8)->[TalkTopicLight]</li>
-  </BuildRapport.logRulesInitiator.rulesStrings>
+  <EnslaveAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] сказав [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має працювати на колонію.</li>
+    <li>r_logentry->[INITIATOR_nameDef] повідомив [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має виконувати накази та працювати.</li>
+    <li>r_logentry->[INITIATOR_nameDef] наказав [RECIPIENT_nameDef] готуватися до примусової праці.</li>
+    <li>r_logentry->[INITIATOR_nameDef] пояснив [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має працювати, інакше буде покарано.</li>
+  </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
-  <!-- EN: recruit attempt -->
-  <RecruitAttempt.label>спроба завербувати</RecruitAttempt.label>
+  <!-- EN: try to reduce will -->
+  <ReduceWill.label>спробуйте зменшити волю</ReduceWill.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>
-    <li>r_logentry->[INITIATOR_nameDef] promised [goodthing] to [RECIPIENT_nameDef], and asked [RECIPIENT_objective] to join.</li>
-    <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->free, fresh [Vegetable]s</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony.</li>
+    <li>negative->had no future</li>
+    <li>negative->had no way to escape</li>
+    <li>negative->had no future outside of the colony</li>
+    <li>negative->didn't have the means to escape</li>
+    <li>negative->should submit immediately</li>
+    <li>negative->should forget [RECIPIENT_possessive] aspirations</li>
+    <li>negative->should submit to the colony</li>
+    <li>threat->torture</li>
+    <li>threat->punishment</li>
+    <li>threat->mutilation</li>
+    <li>threat->starvation</li>
+    <li>threat->lifetime incarceration</li>
+    <li>threat->death</li>
+    <li>threat->isolation</li>
+    <li>threat->dismemberment</li>
+    <li>threat->blunt trauma</li>
+    <li>threat->lacerations</li>
+    <li>threat->cannibalism</li>
+    <li>threat->organ harvesting</li>
+    <li>threat->long confinement</li>
+    <li>refused->tried to escape</li>
+    <li>refused->insulted the colony</li>
+    <li>refused->did not work</li>
+    <li>refused->refused a command</li>
+    <li>refused->resisted submitting</li>
+    <li>refused->refused to obey</li>
+    <li>refused->behaved impertinently</li>
+    <li>disillusionment->should accept [RECIPIENT_possessive] situation</li>
+    <li>disillusionment->had no hope for another future</li>
+    <li>disillusionment->would be best off submitting</li>
+    <li>disillusionment->would not survive on [RECIPIENT_possessive] own</li>
+    <li>disillusionment->had no option but to submit</li>
+    <li>givein->give in</li>
+    <li>givein->submit [RECIPIENT_objective]self</li>
+    <li>givein->surrender [RECIPIENT_objective]self</li>
+    <li>givein->yield [RECIPIENT_objective]self</li>
   -->
-  <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] запропонував [RECIPIENT_nameDef] приєднатися.</li>
-    <li>r_logentry->[INITIATOR_nameDef] пообіцяв [goodthing] [RECIPIENT_nameDef], і запропонував [RECIPIENT_objective] приєднатися.</li>
-    <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->безкоштовні, свіжі [Vegetable]</li>
-  </RecruitAttempt.logRulesInitiator.rulesStrings>
-  
-  <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>втеча з в'язниці</SparkJailbreak.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
-    <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
-    <li>r_logentry->[INITIATOR_nameDef] demonstrated a means of escape to [RECIPIENT_nameDef], and promised [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that security is lax, and encouraged escape.</li>
-    <li>freedom->freedom</li>
-    <li>freedom->opportunity</li>
-    <li>freedom->home</li>
-    <li>freedom->self-determination</li>
-  -->
-  <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] говорить про [freedom], і запропонував спосіб порятунку.</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповідав про те, який прекрасний [TerrainFeature], і запропонував свободу.</li>
-    <li>r_logentry->[INITIATOR_nameDef] показав засоби порятунку [RECIPIENT_nameDef], і пообіцяв [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповів [RECIPIENT_nameDef], що охорона слабка, і пропонує втечу.</li>
-    <li>freedom->свободу</li>
-    <li>freedom->можливості</li>
-    <li>freedom->дім</li>
-    <li>freedom->самовизначення</li>
-  </SparkJailbreak.logRulesInitiator.rulesStrings>
+  <ReduceWill.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] розповів [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] пояснив це [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] погрожував [RECIPIENT_nameDef] [threat], якщо [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] сказав [RECIPIENT_nameDef] про [RECIPIENT_pronoun] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] вимагав [RECIPIENT_nameDef] [givein] до колонії.</li>
+    <li>negative->немає майбутнього</li>
+    <li>negative->не зможе втекти</li>
+    <li>negative->не має майбутнього поза колонією</li>
+    <li>negative->не має засобів для втечі</li>
+    <li>negative->повинен негайно покоритися</li>
+    <li>negative->має забути [RECIPIENT_possessive] прагнення</li>
+    <li>negative->повинен покоритися волі поселення</li>
+    <li>threat->тортурами</li>
+    <li>threat->побиттям</li>
+    <li>threat->нівеченням</li>
+    <li>threat->голодуванням</li>
+    <li>threat->пожиттєвим ув'язненням</li>
+    <li>threat->смертю</li>
+    <li>threat->ізоляцією</li>
+    <li>threat->розчленуванням</li>
+    <li>threat->ударами тупим предметом</li>
+    <li>threat->різаниною</li>
+    <li>threat->канібалізмом</li>
+    <li>threat->вирізанням органів</li>
+    <li>threat->довгим утриманням</li>
+    <li>refused->спробує втекти</li>
+    <li>refused->образить колнію</li>
+    <li>refused->не працюватиме</li>
+    <li>refused->не буде слухатись</li>
+    <li>refused->чинитиме опір</li>
+    <li>refused->відмовиться коритись</li>
+    <li>refused->поводитиметься нахабно</li>
+    <li>disillusionment->слід прийняти [RECIPIENT_possessive] ситуацію</li>
+    <li>disillusionment->не має надії на інше майбутнє</li>
+    <li>disillusionment->краще підкоритись</li>
+    <li>disillusionment->не вижити одному</li>
+    <li>disillusionment->залишається тільки підкоритись</li>
+    <li>givein->поступитись</li>
+    <li>givein->підкоритись</li>
+    <li>givein->здатись</li>
+    <li>givein->прийняти</li>
+  </ReduceWill.logRulesInitiator.rulesStrings>
   
 </LanguageData>
