@@ -4,8 +4,8 @@
   <!-- EN: chitchat -->
   <Chitchat.label>балаканина</Chitchat.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] з [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
     <li>talkedabout(p=4)->chatted about</li>
     <li>talkedabout->shared a word about</li>
@@ -41,8 +41,8 @@
   <!-- EN: deep talk -->
   <DeepTalk.label>розмова</DeepTalk.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] з [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
     <li>talkedabout->communicated thoughts about</li>
     <li>talkedabout->exchanged thoughts about</li>
     <li>talkedabout->exchanged ideas about</li>
@@ -67,18 +67,18 @@
     <li>talkedabout->мали щиру розмову про</li>
     <li>talkedabout->попліткували про</li>
     <li>talkedabout->поспілкувались про</li>
-    <li>talkedabout->connected on the topic of</li>
+    <li>talkedabout->пов'язані на тему</li>
     <li>subject->[TalkTopicHeavy]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
   <Insult.label>образа</Insult.label>
   <!-- EN:
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target] [PersonalCharacteristic].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
     <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
     <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>insulted(p=3)->insulted</li>
     <li>insulted->openly insulted</li>
     <li>insulted->loudly insulted</li>
@@ -94,20 +94,20 @@
   -->
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target] [PersonalCharacteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] порівняв [target] з [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] називає [target] [insultcomparison].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>insulted(p=3)->образив (-ла)</li>
     <li>insulted->відкрито образив</li>
     <li>insulted->голосно образив</li>
-    <li>insulted->flagrantly insulted</li>
-    <li>insulted->directly insulted</li>
+    <li>insulted->грубо образив</li>
+    <li>insulted->прямо образив</li>
     <li>insulted->злісно образив</li>
-    <li>insulted->flagrantly disrespected</li>
-    <li>insulted->slandered</li>
-    <li>insulted->hurled invective about</li>
-    <li>insulted->derided</li>
+    <li>insulted->неповажно висловився</li>
+    <li>insulted->оббрехав</li>
+    <li>insulted->облаяв</li>
+    <li>insulted->насміхається</li>
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   </Insult.logRulesInitiator.rulesStrings>
@@ -115,7 +115,7 @@
   <!-- EN: kind words -->
   <KindWords.label>теплі слова</KindWords.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef] [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
     <li>complimented(p=3)->complimented</li>
     <li>complimented->praised</li>
     <li>complimented->commended</li>
@@ -134,25 +134,25 @@
     <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef] [PersonalCharacteristic].</li>
     <li>complimented(p=3)->похвалив (-ла)</li>
     <li>complimented->оцінив (-ла)</li>
-    <li>complimented->commended</li>
-    <li>complimented->lauded</li>
-    <li>complimented->захоплюється</li>
-    <li>complimented->celebrated</li>
-    <li>complimented->вітає</li>
-    <li>complimented->spoke kindly of</li>
-    <li>complimented->expressed good things about</li>
-    <li>complimented->offered kinds words about</li>
-    <li>complimented->verbally appreciated</li>
-    <li>complimented->expressed appreciation for</li>
-    <li>complimented->said good things about</li>
+    <li>complimented->похвалив</li>
+    <li>complimented->вихваляє</li>
+    <li>complimented->аплодує</li>
+    <li>complimented->визнає</li>
+    <li>complimented->салютує</li>
+    <li>complimented->ласкаво говорив про</li>
+    <li>complimented->висловив хороші речі про</li>
+    <li>complimented->пропонував добрі слова про</li>
+    <li>complimented->усно оцінив</li>
+    <li>complimented->висловив вдячність</li>
+    <li>complimented->вимовив приємні думки</li>
   </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
-  <Slight.label>підкол</Slight.label>
+  <Slight.label>нехтування</Slight.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target] [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>madefunof->made fun of</li>
     <li>madefunof->disrespected</li>
     <li>madefunof->subtly scorned</li>
@@ -169,19 +169,19 @@
   <Slight.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target] [PersonalCharacteristic].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[RECIPIENT_nameDef] [PersonFamily]</li>
-    <li>madefunof->made fun of</li>
-    <li>madefunof->disrespected</li>
-    <li>madefunof->subtly scorned</li>
-    <li>madefunof->subtly shamed</li>
-    <li>madefunof->spoke badly of</li>
-    <li>madefunof->spoke negatively of</li>
-    <li>madefunof->laughed at</li>
-    <li>madefunof->sniggered at</li>
-    <li>madefunof->implied negative things about</li>
-    <li>madefunof->belittled</li>
-    <li>madefunof->made a contemptuous remark about</li>
-    <li>madefunof->offered a backhanded compliment about</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>madefunof->висміяв</li>
+    <li>madefunof->не поважливий до</li>
+    <li>madefunof->тонко зневажив</li>
+    <li>madefunof->тонко присоромив</li>
+    <li>madefunof->погано висловився про</li>
+    <li>madefunof->негативно висловився про</li>
+    <li>madefunof->посміявся з</li>
+    <li>madefunof->посміхнувся з</li>
+    <li>madefunof->мав на увазі негативне про</li>
+    <li>madefunof->применшив</li>
+    <li>madefunof->зробив зневажливе зауваження про</li>
+    <li>madefunof->зробив комплімент з боку</li>
   </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

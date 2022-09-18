@@ -3,11 +3,11 @@
 
   <!-- Glow -->
   <!-- EN: Dark -->
-  <Dark>Темно</Dark>
+  <Dark>Темний</Dark>
   <!-- EN: Lit -->
-  <Lit>Світло</Lit>
+  <Lit>Освітлений</Lit>
   <!-- EN: Brightly lit -->
-  <LitBrightly>Яскраво</LitBrightly>
+  <LitBrightly>Яскраво освітлений</LitBrightly>
 
   <!-- Price types -->
   <!-- EN: very cheap -->
@@ -15,25 +15,25 @@
   <!-- EN: cheap -->
   <PriceTypeCheap>дешево</PriceTypeCheap>
   <!-- EN: normal -->
-  <PriceTypeNormal>звичайно</PriceTypeNormal>
+  <PriceTypeNormal>нормальна</PriceTypeNormal>
   <!-- EN: expensive -->
   <PriceTypeExpensive>дорого</PriceTypeExpensive>
   <!-- EN: exorbitant -->
-  <PriceTypeExorbitant>непомірно</PriceTypeExorbitant>
+  <PriceTypeExorbitant>надмірно дорого</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <!-- EN: unstored -->
-  <StoragePriorityUnstored>заборонено</StoragePriorityUnstored>
+  <StoragePriorityUnstored>не зберігається</StoragePriorityUnstored>
   <!-- EN: low -->
   <StoragePriorityLow>низький</StoragePriorityLow>
   <!-- EN: normal -->
-  <StoragePriorityNormal>звичайний</StoragePriorityNormal>
+  <StoragePriorityNormal>нормальний</StoragePriorityNormal>
   <!-- EN: preferred -->
-  <StoragePriorityPreferred>бажаний</StoragePriorityPreferred>
+  <StoragePriorityPreferred>підвищений</StoragePriorityPreferred>
   <!-- EN: important -->
-  <StoragePriorityImportant>пріоритетний</StoragePriorityImportant>
+  <StoragePriorityImportant>важливий</StoragePriorityImportant>
   <!-- EN: critical -->
-  <StoragePriorityCritical>обов'язковий</StoragePriorityCritical>
+  <StoragePriorityCritical>критичний</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <!-- EN: vegetables -->
@@ -51,7 +51,7 @@
   <!-- EN: live trees -->
   <FoodTypeFlags_Tree>живі дерева</FoodTypeFlags_Tree>
   <!-- EN: meals -->
-  <FoodTypeFlags_Meal>готова їжа</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Meal>страви</FoodTypeFlags_Meal>
   <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>оброблені продукти</FoodTypeFlags_Processed>
   <!-- EN: liquor -->
@@ -61,19 +61,19 @@
 
   <!-- Quality category -->
   <!-- EN: awful -->
-  <QualityCategory_Awful>жахливо</QualityCategory_Awful>
+  <QualityCategory_Awful>жахливий</QualityCategory_Awful>
   <!-- EN: poor -->
-  <QualityCategory_Poor>погано</QualityCategory_Poor>
+  <QualityCategory_Poor>поганий</QualityCategory_Poor>
   <!-- EN: normal -->
-  <QualityCategory_Normal>нормально</QualityCategory_Normal>
+  <QualityCategory_Normal>нормальний</QualityCategory_Normal>
   <!-- EN: good -->
-  <QualityCategory_Good>добре</QualityCategory_Good>
+  <QualityCategory_Good>хороший</QualityCategory_Good>
   <!-- EN: excellent -->
-  <QualityCategory_Excellent>відмінно</QualityCategory_Excellent>
+  <QualityCategory_Excellent>чудовий</QualityCategory_Excellent>
   <!-- EN: masterwork -->
-  <QualityCategory_Masterwork>майстерно</QualityCategory_Masterwork>
+  <QualityCategory_Masterwork>майстерний</QualityCategory_Masterwork>
   <!-- EN: legendary -->
-  <QualityCategory_Legendary>легендарно</QualityCategory_Legendary>
+  <QualityCategory_Legendary>легендарний</QualityCategory_Legendary>
   <!-- EN: awfl -->
   <QualityCategoryShort_Awful>жах</QualityCategoryShort_Awful>
   <!-- EN: poor -->
@@ -81,33 +81,33 @@
   <!-- EN: norm -->
   <QualityCategoryShort_Normal>норм</QualityCategoryShort_Normal>
   <!-- EN: good -->
-  <QualityCategoryShort_Good>добр</QualityCategoryShort_Good>
+  <QualityCategoryShort_Good>хор</QualityCategoryShort_Good>
   <!-- EN: exc -->
-  <QualityCategoryShort_Excellent>відм</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Excellent>чуд</QualityCategoryShort_Excellent>
   <!-- EN: mast -->
-  <QualityCategoryShort_Masterwork>маст</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Masterwork>майст</QualityCategoryShort_Masterwork>
   <!-- EN: legd -->
   <QualityCategoryShort_Legendary>лег</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>Голодує</HungerLevel_Starving>
+  <HungerLevel_Starving>Помирає від голоду</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>Недоїдає</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>Терміново потребує їжі</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>Хоче їсти</HungerLevel_Hungry>
+  <HungerLevel_Hungry>{PAWN_gender ? Голодний : Голодна}</HungerLevel_Hungry>
   <!-- EN: Fed -->
-  <HungerLevel_Fed>Ситий(а)</HungerLevel_Fed>
+  <HungerLevel_Fed>{PAWN_gender ? Ситий : Сита}</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>Виснажений(а)</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>{PAWN_gender ? Виснажений : Виснажена}</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
-  <HungerLevel_VeryTired>Дуже втомлений(а)</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>{PAWN_gender ? Дуже стомлений : Дуже стомлена}</HungerLevel_VeryTired>
   <!-- EN: Tired -->
-  <HungerLevel_Tired>Втомлений(а)</HungerLevel_Tired>
+  <HungerLevel_Tired>{PAWN_gender ? Стомлений : Стомлена}</HungerLevel_Tired>
   <!-- EN: Rested -->
-  <HungerLevel_Rested>Повний(а) сил</HungerLevel_Rested>
+  <HungerLevel_Rested>{PAWN_gender ? Повен сил : Повна сил}</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <!-- EN: flat -->
@@ -125,7 +125,7 @@
   <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>Створення</WorkshopInteractStage_CreatingItem>
   <!-- EN: Submitting -->
-  <WorkshopInteractStage_SubmittingItem>Надсилання</WorkshopInteractStage_SubmittingItem>
+  <WorkshopInteractStage_SubmittingItem>Відправлення</WorkshopInteractStage_SubmittingItem>
   <!-- EN: Invalid -->
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Недійсний</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
   <!-- EN: Preparing config data -->
@@ -140,12 +140,12 @@
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Внесенням змін</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
-  <!-- EN: official content -->
-  <ContentSource_OfficialModsFolder>офіційний вміст</ContentSource_OfficialModsFolder>
-  <!-- EN: local folder -->
-  <ContentSource_ModsFolder>локальні файли</ContentSource_ModsFolder>
+  <!-- EN: Official content -->
+  <ContentSource_OfficialModsFolder>Офіційний контент</ContentSource_OfficialModsFolder>
+  <!-- EN: Local folder -->
+  <ContentSource_ModsFolder>Локальна папка</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>Майстерня Steam</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
   <!-- EN: No medical care -->
@@ -155,7 +155,7 @@
   <!-- EN: Herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>Рослині ліки або гірші</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Індустріальні ліки</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Індустріальні ліки або гірші</MedicalCareCategory_NormalOrWorse>
   <!-- EN: Best quality medicine -->
   <MedicalCareCategory_Best>Найкращі ліки</MedicalCareCategory_Best>
 
@@ -165,19 +165,19 @@
   <!-- EN: Attack -->
   <HostilityResponseMode_Attack>Атакувати</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
-  <HostilityResponseMode_Flee>Втеча</HostilityResponseMode_Flee>
+  <HostilityResponseMode_Flee>Бігти</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
   <!-- EN: growing -->
-  <HediffGrowthMode_Growing>зростає</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Growing>росте</HediffGrowthMode_Growing>
   <!-- EN: stable -->
-  <HediffGrowthMode_Stable>вирощений</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Stable>стабільний</HediffGrowthMode_Stable>
   <!-- EN: remission -->
-  <HediffGrowthMode_Remission>заражений</HediffGrowthMode_Remission>
+  <HediffGrowthMode_Remission>ремісія</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
   <!-- EN: animal -->
-  <TechLevel_Animal>тваринництво</TechLevel_Animal>
+  <TechLevel_Animal>тварина</TechLevel_Animal>
   <!-- EN: neolithic -->
   <TechLevel_Neolithic>неоліт</TechLevel_Neolithic>
   <!-- EN: medieval -->
@@ -187,9 +187,9 @@
   <!-- EN: spacer -->
   <TechLevel_Spacer>космічне</TechLevel_Spacer>
   <!-- EN: ultra -->
-  <TechLevel_Ultra>найкращу</TechLevel_Ultra>
+  <TechLevel_Ultra>ультра</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>архотек</TechLevel_Archotech>
+  <TechLevel_Archotech>архотех</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -207,9 +207,9 @@
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>Імена тварин</ShowAnimalNames>
+  <ShowAnimalNames>Показувати імена тварин</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>Приручені (тільки найменовані)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Приручені (тільки названі)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Приручені (всі)</AnimalNameDisplayMode_TameAll>
   
@@ -255,29 +255,29 @@
   <!-- EN: - -->
   <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
   <!-- EN: H -->
-  <DietCategory_Herbivorous_Short>Т</DietCategory_Herbivorous_Short>
+  <DietCategory_Herbivorous_Short>Тр</DietCategory_Herbivorous_Short>
   <!-- EN: D -->
-  <DietCategory_Dendrovorous_Short>Д</DietCategory_Dendrovorous_Short>
+  <DietCategory_Dendrovorous_Short>Др</DietCategory_Dendrovorous_Short>
   <!-- EN: Ov -->
-  <DietCategory_Ovivorous_Short>Я</DietCategory_Ovivorous_Short>
+  <DietCategory_Ovivorous_Short>Яй</DietCategory_Ovivorous_Short>
   <!-- EN: O -->
-  <DietCategory_Omnivorous_Short>В</DietCategory_Omnivorous_Short>
+  <DietCategory_Omnivorous_Short>Вс</DietCategory_Omnivorous_Short>
   <!-- EN: C -->
-  <DietCategory_Carnivorous_Short>Х</DietCategory_Carnivorous_Short>
+  <DietCategory_Carnivorous_Short>Хж</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
   <!-- EN: incompetent cook -->
-  <FoodPoisonCause_IncompetentCook>некомпетентний кухар</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_IncompetentCook>нездара кухар</FoodPoisonCause_IncompetentCook>
   <!-- EN: dirty cooking area -->
   <FoodPoisonCause_FilthyKitchen>брудна кухня</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
   <FoodPoisonCause_Rotten>зіпсована їжа</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
-  <FoodPoisonCause_DangerousFoodType>небезпечна їжа</FoodPoisonCause_DangerousFoodType>
+  <FoodPoisonCause_DangerousFoodType>небезпечний тип їжі</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
-  <PsychicDroneLevel_None>нічого</PsychicDroneLevel_None>
+  <PsychicDroneLevel_None>немає</PsychicDroneLevel_None>
   <!-- EN: medium -->
   <PsychicDroneLevel_GoodMedium>середній</PsychicDroneLevel_GoodMedium>
   <!-- EN: low -->
@@ -285,25 +285,25 @@
   <!-- EN: medium -->
   <PsychicDroneLevel_BadMedium>середній</PsychicDroneLevel_BadMedium>
   <!-- EN: high -->
-  <PsychicDroneLevel_BadHigh>високі</PsychicDroneLevel_BadHigh>
+  <PsychicDroneLevel_BadHigh>сильний</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
-  <PsychicDroneLevel_BadExtreme>сильна</PsychicDroneLevel_BadExtreme>
+  <PsychicDroneLevel_BadExtreme>потужний</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
   <AutomaticPauseMode_Never>Ніколи</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
-  <AutomaticPauseMode_MajorThreat>Основні загрози</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_MajorThreat>Сильна загроза</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
-  <AutomaticPauseMode_AnyThreat>Будь-які загрози</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyThreat>Будь-яка загроза</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>Будь-які події</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>Будь-яка подія</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->
   <PainCategory_LowPain>свербить</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>болить</PainCategory_MediumPain>
+  <PainCategory_MediumPain>поболює</PainCategory_MediumPain>
   <!-- EN: painful -->
   <PainCategory_HighPain>болісний</PainCategory_HighPain>
   
@@ -313,5 +313,20 @@
   <!-- EN: remote host faction -->
   <ExtraFactionType_HostFaction>приймаюча фракція</ExtraFactionType_HostFaction>
   <!-- EN: group -->
-  <ExtraFactionType_MiniFaction>group</ExtraFactionType_MiniFaction>
+  <ExtraFactionType_MiniFaction>група</ExtraFactionType_MiniFaction>
+
+  <!-- DrugCategory -->
+  <!-- EN: drug category -->
+  <DrugCategory>категорія препаратів</DrugCategory>
+  <!-- EN: none -->
+  <DrugCategory_None>жодних</DrugCategory_None>
+  <!-- EN: medical -->
+  <DrugCategory_Medical>медичні</DrugCategory_Medical>
+  <!-- EN: social -->
+  <DrugCategory_Social>соціальні</DrugCategory_Social>
+  <!-- EN: hard -->
+  <DrugCategory_Hard>важкі</DrugCategory_Hard>
+  <!-- EN: any -->
+  <DrugCategory_Any>будь-які</DrugCategory_Any>
+  
 </LanguageData>

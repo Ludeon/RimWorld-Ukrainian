@@ -4,7 +4,7 @@
   <!-- EN: Autosaving -->
   <Autosaving>Автозбереження</Autosaving>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
-  <GameStartDialog>Троє з вас прокинулися в саркофагу криптосну під звуки сирен і скрегіт металу. Ви ледь добігли до рятівних капсул до того, як корабель розвалився на частини. \n\nЧерез деякий час, ви приземляєтеся на цей невідомий край світу.\n\nВ той час, як шматки зорельота падають навколо вас, ви починаєте створювати план виживання.</GameStartDialog>
+  <GameStartDialog>Ви втрьох прокинулися в саркофагах криптосну під звук сирен і рипіння металу. Ви ледь дістаєтеся до рятувальних капсул, як корабель розривається на частини.\n\nЧерез деякий час ви потрапляєте в цей невідомий світ.\n\nКоли навколо вас падають шматки подрібненого корабля, ви починаєте будувати плани, як вижити.</GameStartDialog>
   <!-- EN: Colony -->
   <Colony>Колонія</Colony>
   <!-- EN: You can only change language from the options screen on the main menu. -->
@@ -19,7 +19,7 @@
   <!-- EN: Game version -->
   <GameVersionIndicator>Версія гри</GameVersionIndicator>
   <!-- EN: development build -->
-  <DevelopmentBuildLower>версія розроблення</DevelopmentBuildLower>
+  <DevelopmentBuildLower>версія розробки</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
   <CompiledOn>Складено {0}</CompiledOn>
   <!-- EN: Logged into Steam as {0} -->
@@ -28,6 +28,8 @@
   <!-- ToCommaList() -->
   <!-- EN: {0} and {1} -->
   <ToCommaListAnd>{0} та {1}</ToCommaListAnd>
+  <!-- EN: {0} or {1} -->
+  <ToCommaListOr>{0} або {1}</ToCommaListOr>
   
   <!-- General-use words -->
   <!-- EN: Yes -->
@@ -35,13 +37,15 @@
   <!-- EN: No -->
   <No>Ні</No>
   <!-- EN: new -->
-  <New>створити</New>
+  <New>нове</New>
   <!-- EN: Gender -->
   <Gender>Стать</Gender>
+  <!-- EN: Sex -->
+  <Sex>Стать</Sex>
   <!-- EN: min -->
-  <min>не менше</min>
+  <min>мін</min>
   <!-- EN: max -->
-  <max>не більше</max>
+  <max>макс</max>
   <!-- EN: chance -->
   <chance>шанс</chance>
   <!-- EN: context -->
@@ -53,7 +57,7 @@
   <!-- EN: radius -->
   <radius>радіус</radius>
   <!-- EN: expired -->
-  <expired>термін дії закінчився</expired>
+  <expired>закінчився</expired>
   <!-- EN: duration (days) -->
   <durationDays>тривалість (дні)</durationDays>
   <!-- EN: interval (days) -->
@@ -65,9 +69,9 @@
   <!-- EN: distance -->
   <distance>відстань</distance>
   <!-- EN: YES -->
-  <YesUppercase>Так</YesUppercase>
+  <YesUppercase>ТАК</YesUppercase>
   <!-- EN: NO -->
-  <NoUppercase>Ні</NoUppercase>
+  <NoUppercase>НІ</NoUppercase>
   <!-- EN: kg -->
   <kg>кг</kg>
   <!-- EN: Day -->
@@ -75,15 +79,17 @@
   <!-- EN: day -->
   <day>день</day>
   <!-- EN: Default -->
-  <Default>Стандартні</Default>
+  <Default>За замовчуванням</Default>
   <!-- EN: Average -->
-  <Average>Середня</Average>
+  <Average>Середнє</Average>
   <!-- EN: Cause -->
   <Cause>Причина</Cause>
   <!-- EN: etc -->
-  <Etc>і т. д.</Etc>
+  <Etc>тощо</Etc>
   <!-- EN: ${0} -->
   <MoneyFormat>{0}₴</MoneyFormat>
+  <!-- EN: Factors -->
+  <Factors>Фактори</Factors>
 
   <!-- Content generation-->
   
@@ -97,17 +103,17 @@
   <MeatHumanDesc>Сире м'ясо. З нього можна зробити страви або з'їсти сирим, хоча більшості людей так не подобається.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
-  <TechprintLabel>креслення ({PROJECT_label})</TechprintLabel>
+  <TechprintLabel>техпринт ({PROJECT_label})</TechprintLabel>
   <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
 \nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>Це техпринт для дослідницього проєкту '{PROJECT_label}'.
-\nФізична форма техпринтів може різнитися від куска паперу з графічним зображенням до самостійних продвинутих навчальних машин. Незалежно від форми, вони грають одну й ту саму роль. Вони дають вашим дослідникам упевненість, що цю ідею можливо втілити в реальність і також приблизне уявлення про її застосування в більш розвинутих суспільствах.
-\nВашим дослідникам потрібні базові знання, які надають ці техпринти, щоб почати розвивати дані технології. Тільки після того, як будуть знайдені всі потрібні техпринти, ваші дослідники зможуть приступити до розробки деталей того, як можна застосовувати цю технологію у вашому конкретному випадку.
-\nЗастосування техпринтів до бажаного проєкту заповнює половину прогресу, який залишився до кінця дослідження. Крім того, дослідники завжди отримують приріст інтелектуальних навичок при застосуванні техпринтів, навіть для вже завершених технологій.</TechprintDesc>
+  <TechprintDesc>Це техпринт для дослідницького проєкту "{PROJECT_label}".
+\nФізична форма техпринту може варіюватися від клаптиків паперу з діаграмами до вдосконалених автономних навчальних машин. Незалежно від форми вони виконують однакову роль. Вони дають вашим дослідникам впевненість у тому, що ідея можлива, і приблизить уявлення про конструкції, які використовуються в більш усталених суспільствах.
+\nВашим дослідникам потрібні фундаментальні знання, пропоновані техпринтами, щоб знати, з чого почати з даної технології. Тільки після того, як буде застосовано достатню кількість техпринтів, ваші дослідники можуть опрацювати дрібні деталі того, як використовувати технологію у вашій конкретній ситуації.
+\nЗастосування техпринтів до задоволеного проєкту виконує половину прогресу дослідження, що залишився. Крім того, дослідники завжди отримують поштовх до своїх інтелектуальних навичок при застосуванні техпринтів, навіть на вже завершених технологіях.</TechprintDesc>
   <!-- EN: Unlocks -->
-  <Unlocks>Відчиняє</Unlocks>
+  <Unlocks>Розблоковує</Unlocks>
 
   <!-- EN: {0} corpse -->
   <CorpseLabel>труп {0}</CorpseLabel>
@@ -117,17 +123,17 @@
   <DeadLabel>{1_label} ({1_gender ? мертвий : мертва})</DeadLabel>
 
   <!-- EN: rough {0} -->
-  <RoughStoneTerrainLabel>нерівна {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainLabel>грубий {0}</RoughStoneTerrainLabel>
   <!-- EN: Rough, natural {0} ground. -->
-  <RoughStoneTerrainDesc>Нерівна, природна {0} поверхня.</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Груба, природна {0} поверхня.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>необтесана {0}</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>Обтесаний природний {0}.</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Обтесана природна {0} підлога.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>рівна {0}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Рівна, природна {0}.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Рівна, природна {0} підлога.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra>(креслення)</BlueprintLabelExtra>
@@ -140,7 +146,7 @@
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <!-- EN: {0} {1} -->
-  <ThingMadeOfStuffLabel>{1} з {0}</ThingMadeOfStuffLabel>
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <SomeonesRoom>{1} {PAWN_labelShort}</SomeonesRoom>
@@ -151,7 +157,7 @@
   <StatRelatesToCurrentRoom>Важливо для приміщення такого типу.</StatRelatesToCurrentRoom>
   
   <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
-  <DeepResourceRemaining>{COUNT} {RESOURCE_label} underground here.</DeepResourceRemaining>
+  <DeepResourceRemaining>Тут під землею {COUNT} {RESOURCE_label}.</DeepResourceRemaining>
   
   <!-- EN: (various) -->
   <VariousLabel>(різне)</VariousLabel>
@@ -172,5 +178,9 @@
 
   <!-- EN: applying techprint ({0}) -->
   <ApplyingTechprint>застосовується техпринт ({0})</ApplyingTechprint>
+
+  <!-- Apparel Looks -->
+  <!-- EN: variant of -->
+  <VariantOf>варіант</VariantOf>
   
 </LanguageData>

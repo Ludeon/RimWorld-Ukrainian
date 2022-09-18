@@ -56,7 +56,7 @@
   <Nuzzle.label>пестити</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef] [rubbedpart].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
     <li>nuzzled(p=2)->nuzzled</li>
     <li>nuzzled->snuggled up to</li>
     <li>nuzzleadverb(p=4)-></li>
@@ -106,6 +106,35 @@
     <li>rubbedpart->бік</li>
     <li>rubbedpart->рука</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: release to the wild -->
+  <ReleaseToWild.label>відпустити на свободу</ReleaseToWild.label>
+  <!-- EN:
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
+    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
+    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_pronoun] had with [RECIPIENT_nameDef]</li>
+    <li>released->and released [RECIPIENT_objective] to the wild.</li>
+    <li>released->and set [RECIPIENT_objective] free.</li>
+    <li>released->and sent [RECIPIENT_objective] off.</li>
+    <li>released->and let [RECIPIENT_objective] go.</li>
+    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
+    <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
+  -->
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] пестив [RECIPIENT_nameDef] в останній раз</li>
+    <li>farewell->[INITIATOR_nameDef] промовив декілька теплих слів до [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] почистив комір [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] згадував добрі часи, які [INITIATOR_pronoun] провів з [RECIPIENT_nameDef]</li>
+    <li>released-> та випустив [RECIPIENT_objective] на свободу.</li>
+    <li>released->зробив [RECIPIENT_objective] вільним.</li>
+    <li>released->відправив [RECIPIENT_objective] геть.</li>
+    <li>released->і нехай [RECIPIENT_objective] йде.</li>
+    <li>released->потім відвернувся і дозволив [RECIPIENT_objective] покинути поселення.</li>
+    <li>released->перш ніж відпустити [RECIPIENT_objective] жити на свободі.</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
   <TameAttempt.label>спроба приручити</TameAttempt.label>

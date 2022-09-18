@@ -15,11 +15,11 @@
 
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
-  <EdgeScreenScroll>Прокручування мишею країв екрану</EdgeScreenScroll>
+  <EdgeScreenScroll>Екранна прокрутка миші</EdgeScreenScroll>
   <!-- EN: Pause on load -->
   <PauseOnLoad>Пауза при завантаженні</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
-  <PauseOnUrgentLetter>Пауза на терміновий лист</PauseOnUrgentLetter>
+  <PauseOnUrgentLetter>Пауза при терміновому листі</PauseOnUrgentLetter>
   <!-- EN: Pause on -->
   <AutomaticPauseModeSetting>Призупиняти на</AutomaticPauseModeSetting>
   <!-- EN: Custom cursor -->
@@ -41,17 +41,19 @@
   <!-- EN: Development mode -->
   <DevelopmentMode>Режим розробки</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
-  <ResetModsConfigOnCrash>Автоскидання конфігурацій модів при аварії</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>Автоскидання конфігурацій модів при збої</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>Симулювати відсутність "Вельможі"</SimulateNotOwningRoyalty>
+  <!-- EN: Simulate not owning Ideology -->
+  <SimulateNotOwningIdeology>Симулювати відсутність "Ідеології"</SimulateNotOwningIdeology>
   <!-- EN: Verbose logging -->
   <LogVerbose>Ведення докладного журналу</LogVerbose>
   <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Відкрити теку зі збереженими даними</OpenSaveGameDataFolder>
+  <OpenSaveGameDataFolder>Відкрити папку зі збереженими даними</OpenSaveGameDataFolder>
   <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Показати папку з файлами збережень</ShowSaveGameDataLocation>
+  <ShowSaveGameDataLocation>Показати розташування файлів збережень</ShowSaveGameDataLocation>
   <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Відкрити теку з логами</OpenLogFileFolder>
+  <OpenLogFileFolder>Відкрити папку з логами</OpenLogFileFolder>
   <!-- EN: Show log file location -->
   <ShowLogFileLocation>Показати розташування логів</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
@@ -63,11 +65,11 @@
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Це ім'я вже в списку бажаних.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Вибрати казкаря</ChangeStoryteller>
+  <ChangeStoryteller>Налаштування казкаря</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Автозбереження</AutosaveInterval>
+  <AutosaveInterval>Інтервал автозбереження</AutosaveInterval>
   <!-- EN: Temperature mode -->
-  <TemperatureMode>Температура</TemperatureMode>
+  <TemperatureMode>Режим температури</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Показати реальний час</ShowRealtimeClock>
   <!-- EN: Maximum number of colonies: {0} -->
@@ -84,6 +86,10 @@
   <ModSettings>Налаштування модифікацій</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Назавжди вимкнути режим розробки</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>Стиснення текстур</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>Вимкнення стиснення текстури призведе до використання набагато більшої кількості відеопам'яті, але зробить текстури трохи кращими в деталізованих областях. Вимкніть це, лише якщо ви знаєте, що у вас багато додаткової відеопам'яті.\n\nВрахуйте, що використання певних модів часто буде споживати набагато більше відеопам'яті, тому вам може знадобитися включити це, якщо ви додасте моди.</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -93,7 +99,7 @@
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
-  <SelectMod>Виберіть мод...</SelectMod>
+  <SelectMod>Виберіть модифікацію...</SelectMod>
   <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>Модифікації, які можна налаштовувати, не завантажені.</NoConfigurableMods>
   
@@ -101,8 +107,14 @@
   <!-- EN: Restore to default settings -->
   <RestoreToDefaultSettings>Відновити стандартні налаштування</RestoreToDefaultSettings>
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>Налаштування було перезавантажено. Гра перезапуститься автоматично.</ResetAndRestart>
+  <ResetAndRestart>Налаштування було скинуто. Гра перезапуститься автоматично.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>Усі ваші налаштування буде скинуто до типового стану, і гра буде перезапущена. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ResetAndRestartConfirmationDialog>
+  <ResetAndRestartConfirmationDialog>Всі ваші налаштування будуть скинуті за замовчуванням, і гра буде перезапущена. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>Зміна параметра стиснення текстури вимагає перезапуску. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ChangedTextureCompressionRestart>
   
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>Фон меню</SetBackgroundImage>
+
 </LanguageData>

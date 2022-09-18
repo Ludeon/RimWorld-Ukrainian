@@ -6,11 +6,11 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Ми перехопили повідомлення про схрон з цінними предметами вартістю [itemStashContentsValue] неподалік від [map_definite]. Колекція складається з:\n\n[itemStashContents]\n\nСхоже, що [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] з [asker_faction_name], повідомив нам про схрон з цінними предметами вартістю [itemStashContentsValue] неподалік від нас. Колекція складається з:\n\n[itemStashContents]\n\n[asker_label] каже, що [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Ми перехопили повідомлення про колекцію цінних предметів вартістю [itemStashContentsValue] неподалік від [map_definite]. Колекція складається з:\n\n[itemStashContents]\n\nСхоже, що [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] з [asker_faction_name], повідомив нам про колекцію цінних предметів вартістю [itemStashContentsValue] неподалік від нас. Колекція складається з:\n\n[itemStashContents]\n\n[asker_label] каже, що [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName(priority=1)->[asker_nameDef] [stash] of [treasure]</li>
+    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
     <li>questName->[stash] of [treasure]</li>
     <li>stash->Stash</li>
     <li>stash->Cache</li>
@@ -23,12 +23,12 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[asker_nameDef] [stash] of [treasure]</li>
+    <li>questName(priority=1)->[asker_nameDef] має [stash] [treasure]</li>
     <li>questName->[stash] [treasure]</li>
-    <li>stash->Схрон</li>
+    <li>stash->Сховок</li>
     <li>stash->Схованка</li>
     <li>stash->Колекція</li>
-    <li>stash->Shack</li>
+    <li>stash->Хатинка</li>
     <li>treasure->Скарб</li>
     <li>treasure->Цінності</li>
     <li>treasure->Багатство</li>
