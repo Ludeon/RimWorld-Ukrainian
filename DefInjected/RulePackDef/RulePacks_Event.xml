@@ -5,26 +5,26 @@
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
   <Event_AbilityUsed.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] використав [ABILITY_label] на [SUBJECT_definite].</li>
   </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
   <Event_ItemUsed.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] використав [ITEM_indefinite] на [SUBJECT_definite].</li>
   </Event_ItemUsed.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_logentry->[SUBJECT_definite] був [stunned] by the attack.</li>
-    <li>r_logentry->[SUBJECT_definite] був [stunned] by [INITIATOR_definite] attack.</li>
+    <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
+    <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
     <li>stunned(p=3)->stunned</li>
     <li>stunned->staggered</li>
     <li>stunned->dazed</li>
     <li>stunned->disoriented</li>
     <li>r_logentry->[SUBJECT_definite] [staggered].</li>
     <li>r_logentry->[SUBJECT_definite] [staggered] from the attack.</li>
-    <li>r_logentry->[SUBJECT_definite] [staggered] from [INITIATOR_definite] attack.</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] from [INITIATOR_definite]'s attack.</li>
     <li>staggered(p=3)->staggered</li>
     <li>staggered->faltered</li>
     <li>staggered->wobbled</li>
@@ -37,25 +37,25 @@
     <li>stumbled->staggered</li>
   -->
   <Event_Stun.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite] був [stunned] by the attack.</li>
-    <li>r_logentry->[SUBJECT_definite] був [stunned] by [INITIATOR_definite] attack.</li>
+    <li>r_logentry->[SUBJECT_definite] був [stunned] після нападу.</li>
+    <li>r_logentry->[SUBJECT_definite] був [stunned] після нападу [INITIATOR_definite].</li>
     <li>stunned(p=3)->приголомшений</li>
-    <li>stunned->staggered</li>
-    <li>stunned->dazed</li>
+    <li>приголомшений->розхитаний</li>
+    <li>приголомшений->ошелешений</li>
     <li>stunned->дезорієнтований</li>
     <li>r_logentry->[SUBJECT_definite] [staggered].</li>
-    <li>r_logentry->[SUBJECT_definite] [staggered] from the attack.</li>
-    <li>r_logentry->[SUBJECT_definite] [staggered] from [INITIATOR_definite] attack.</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] від нападу.</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] від атаки [INITIATOR_definite].</li>
     <li>staggered(p=3)->staggered</li>
     <li>staggered->faltered</li>
     <li>staggered->wobbled</li>
     <li>staggered->wavered</li>
-    <li>r_logentry->[SUBJECT_definite] [stumbled] around blearily.</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] навколо помутніло.</li>
     <li>r_logentry->[SUBJECT_definite] [stumbled] around in confusion.</li>
     <li>stumbled(p=3)->stumbled</li>
     <li>stumbled->wavered</li>
     <li>stumbled->wobbled</li>
-    <li>stumbled->staggered</li>
+    <li>спотикання->розхитаний</li>
   </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>

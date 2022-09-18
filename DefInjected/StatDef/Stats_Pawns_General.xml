@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>animals learning factor</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>A multiplier on the learning rate for animals skill.</AnimalsLearningFactor.description>
+  
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>caravan riding speed</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans.</CaravanRidingSpeedFactor.description>
+  
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>вантажопідйомність</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
@@ -20,6 +30,11 @@
   <EatingSpeed.label>швидкість харчування</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Множник швидкості харчування.</EatingSpeed.description>
+  
+  <!-- EN: filth rate -->
+  <FilthRate.label>filth rate</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem.</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>кількість збираної їжі</ForagedNutritionPerDay.label>
@@ -41,15 +56,20 @@
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity.</ImmunityGainSpeed.description>
   
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>injury healing factor</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>The multiplier applied to a person's injury healing rate.</InjuryHealingFactor.description>
+  
   <!-- EN: leather amount -->
   <LeatherAmount.label>кількість шкіри</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>The amount of leather yielded when butchering this creature.</LeatherAmount.description>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <LeatherAmount.description>The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>кількість м'яса</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>Кількість м'яса, отриманої від обробки туші.</MeatAmount.description>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <MeatAmount.description>The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>поріг психічного зриву</MentalBreakThreshold.label>

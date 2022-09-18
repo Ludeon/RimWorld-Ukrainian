@@ -92,9 +92,9 @@
     <li>r_name->The [AdjectiveBadass] [PersonBadass]s</li>
     <li>r_name->The [PersonAlly]s of [ConceptBadass]</li>
     <li>r_name(p=0.4)->The Eaters of [Gore]</li>
-    <li>r_name->[NamePerson] [Enemy]s</li>
-    <li>r_name->[NamePerson] [AnimalBadass]s</li>
-    <li>r_name->[NamePerson] [Weapon]s</li>
+    <li>r_name->[NamePerson]'s [Enemy]s</li>
+    <li>r_name->[NamePerson]'s [AnimalBadass]s</li>
+    <li>r_name->[NamePerson]'s [Weapon]s</li>
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
@@ -121,9 +121,9 @@
     <li>r_name->The [AdjectiveBadass] [PersonBadass]s</li>
     <li>r_name->The [PersonAlly]s of [ConceptBadass]</li>
     <li>r_name(p=0.4)->The Eaters of [Gore]</li>
-    <li>r_name->[NamePerson] [Enemy]s</li>
-    <li>r_name->[NamePerson] [AnimalBadass]s</li>
-    <li>r_name->[NamePerson] [Weapon]s</li>
+    <li>r_name->[NamePerson]'s [Enemy]s</li>
+    <li>r_name->[NamePerson]'s [AnimalBadass]s</li>
+    <li>r_name->[NamePerson]'s [Weapon]s</li>
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
@@ -169,13 +169,13 @@
     <li>topicalnoun->[BodyPart]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
     <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s [Community]</li>
+    <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-    <li>townname_combo(p=3)->[Character] [TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character] [Community]</li>
+    <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character]'s [Community]</li>
     <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
@@ -221,13 +221,13 @@
     <li>topicalnoun->[BodyPart]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
     <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s [Community]</li>
+    <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-    <li>townname_combo(p=3)->[Character] [TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character] [Community]</li>
+    <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character]'s [Community]</li>
     <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
     <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
@@ -268,14 +268,14 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[AnimalBadass] [geography]</li>
-    <li>townname_combo->[AnimalBadass] [geography]</li>
+    <li>townname_combo->[AnimalBadass]'s [geography]</li>
     <li>townname_combo->[ConceptBadass] [geography]</li>
-    <li>townname_combo->[ConceptBadass] [geography]</li>
+    <li>townname_combo->[ConceptBadass]'s [geography]</li>
     <li>townname_combo->[PersonBadass] [geography]</li>
-    <li>townname_combo->[PersonBadass] [geography]</li>
+    <li>townname_combo->[PersonBadass]'s [geography]</li>
+    <li>townname_combo->[Enemy]'s [geography]</li>
     <li>townname_combo->[Enemy] [geography]</li>
-    <li>townname_combo->[Enemy] [geography]</li>
-    <li>townname_combo->[Weapon] [geography]</li>
+    <li>townname_combo->[Weapon]'s [geography]</li>
     <li>townname_combo->[Weapon] [geography]</li>
     <li>townname_combo->[ColorBadass] [geography]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
@@ -310,14 +310,14 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[AnimalBadass] [geography]</li>
-    <li>townname_combo->[AnimalBadass] [geography]</li>
+    <li>townname_combo->[AnimalBadass]'s [geography]</li>
     <li>townname_combo->[ConceptBadass] [geography]</li>
-    <li>townname_combo->[ConceptBadass] [geography]</li>
+    <li>townname_combo->[ConceptBadass]'s [geography]</li>
     <li>townname_combo->[PersonBadass] [geography]</li>
-    <li>townname_combo->[PersonBadass] [geography]</li>
+    <li>townname_combo->[PersonBadass]'s [geography]</li>
+    <li>townname_combo->[Enemy]'s [geography]</li>
     <li>townname_combo->[Enemy] [geography]</li>
-    <li>townname_combo->[Enemy] [geography]</li>
-    <li>townname_combo->[Weapon] [geography]</li>
+    <li>townname_combo->[Weapon]'s [geography]</li>
     <li>townname_combo->[Weapon] [geography]</li>
     <li>townname_combo->[ColorBadass] [geography]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
