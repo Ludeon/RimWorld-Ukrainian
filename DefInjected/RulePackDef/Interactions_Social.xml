@@ -2,10 +2,31 @@
 <LanguageData>
   
   <!-- EN:
-    <li>sent->This drove [RECIPIENT_nameDef] into a rage and [RECIPIENT_pronoun] began a fight!</li>
+    <li>sent->[RECIPIENT_nameDef] was not convinced.</li>
   -->
-  <Sentence_SocialFightStarted.rulePack.rulesStrings>
-    <li>sent->Це розлютило [RECIPIENT_nameDef] і [RECIPIENT_pronoun] розпочинає бійку!</li>
-  </Sentence_SocialFightStarted.rulePack.rulesStrings>
+  <Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
+    <li>sent->Спроба переконання [RECIPIENT_nameDef] не вдалася.</li>
+  </Sentence_ConvertIdeoAttemptFail.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] was not convinced and resented the attempt.</li>
+  -->
+  <Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
+    <li>sent->Спроба переконання [RECIPIENT_nameDef] не вдалась, це викликало обурення.</li>
+  </Sentence_ConvertIdeoAttemptFailResentment.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] reacted in anger and started a social fight.</li>
+  -->
+  <Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
+    <li>sent->Спроба переконання [RECIPIENT_nameDef] не вдалась, [RECIPIENT_pronoun] починає бійку.</li>
+  </Sentence_ConvertIdeoAttemptFailSocialFight.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>sent->[RECIPIENT_nameDef] was convinced and changed [RECIPIENT_possessive] ideoligion.</li>
+  -->
+  <Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
+    <li>sent->Спроба переконання [RECIPIENT_nameDef] була успішною і [RECIPIENT_possessive] прийняв нову ідеологію.</li>
+  </Sentence_ConvertIdeoAttemptSuccess.rulePack.rulesStrings>
   
 </LanguageData>
