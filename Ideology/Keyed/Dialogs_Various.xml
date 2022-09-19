@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+  <!-- EN: add -->
+  <Add>додати</Add>
+  <!-- EN: Trading animal products bonus -->
+  <TradingAnimalProduceBonus>Бонус до продажу продуктів тваринного походження</TradingAnimalProduceBonus>
+  <!-- EN: Slaves -->
+  <SlavesSection>Раби</SlavesSection>
+  <!-- EN: dominant style -->
+  <DominantStyle>домінуючий стиль</DominantStyle>
+  <!-- EN: Date -->
+  <Date>Побачення</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>В залежності від результату, скільки очок розвитку ви зможете отримати</RitualDevelopmentPointRewards>
+
+  <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
+  <ChooseStructureMemesInfo>Виберіть символічну структуру вашої ідеології. Це впливає тільки на символіку - не на геймплей.</ChooseStructureMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>Виберіть {0}-{1} рис, які сформують фундамент вашої ідеології.</ChooseNormalMemesInfo>
+  <!-- EN: Choose at least {0} meme. -->
+  <NotEnoughMemes>Виберіть мінімум {0} рису.</NotEnoughMemes>
+  <!-- EN: Choose at most {0} memes. -->
+  <TooManyMemes>Виберіть максимум {0} рис.</TooManyMemes>
+  <!-- EN: Choose structure. -->
+  <ChooseStructureMeme>Виберіть структуру.</ChooseStructureMeme>
+  <!-- EN: {0_label} and {1_label} are incompatible. -->
+  <IncompatibleMemes>{0_label} та {1_label} не сумісні.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>Деякі з них впливають на геймплей сильніше за інші.</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>Виберіть рису, визначаючу початкову суть вашої ідеології. З часом, у процесі розвитку, ви зможете додати до неї нові риси.</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>Виберіть або приберіть рису.</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>Відмінити зміни</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>Виберіть {0} рис.</NotEnoughMemesFluidIdeo>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>Натиск кнопки "{0}" випадково розподіляє правила, які ви змінили.\n\nПродовжити?</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>Ці правила несумісні з вибраними рисами та будуть видалені:\n\n{0}\n\nПродовжити?</ChangesRemovePrecepts>
+  
+  <!-- EN: Room requirements -->
+  <RoomRequirements>Вимоги до кімнати</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>Ідеологія, яку ви завантажуєте, містить риси, несумісні з новою змінною ідеологією. Їх буде необхідно вибрати знову (змінні ідеологіїї можуть бути засновані тільки на одній рисі зі слабким впливом на геймплей).</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>Ці риси несумісні</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>Бажаєте продовжити?</ConfirmChangeMemesForFluidIdeoContinue>
+
+  <!-- EN: role -->
+  <Role>роль</Role>
+  <!-- EN: Assign role -->
+  <ChooseRole>Призначити роль</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>Виберіть нову роль</ChooseNewRole>
+  <!-- EN: No role assigned -->
+  <NoRoleAssigned>Ролі не призначені</NoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>Зняти роль: {0}</RemoveRole>
+  <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
+  <ChooseRoleConfirmAssign>Ви збираєтесь призначити {ROLE_labelDef} на роль {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <!-- EN: Are you sure? -->
+  <ChooseRoleConfirmAssignPostfix>Ви впевнені?</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} вже займає цю роль і засмутиться, якщо втратить її.</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} вже займає роль {ROLE_label} ізасмутиться, якщо втратить її.</ChooseRoleConfirmAssignHasOtherRole>
+  <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
+  <ChooseRoleConfirmAssignReplaceLeader>Лідер може бути тільки один. Це дозволить відмінити {PAWN_labelShort} від їх {OTHERROLE_labelDef} ролі, зробить {PAWN_objective} засмученим.</ChooseRoleConfirmAssignReplaceLeader>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
+  <ChooseRoleConfirmUnassign>Ви збираєтесь позбавити {PAWN_labelShort} ролі {ROLE_labelIndef}. Це засмутить {PAWN_objective}.</ChooseRoleConfirmUnassign>
+  <!-- EN: {PAWN_labelShort} will gain the following abilities -->
+  <ChooseRoleListAbilities>{PAWN_labelShort} отримає наступні здібності</ChooseRoleListAbilities>
+  <!-- EN: The {ROLE_label} role requires the following apparel -->
+  <ChooseRoleListApparelDemands>Поселенцю, що має роль {ROLE_label} необхідний наступний одяг</ChooseRoleListApparelDemands>
+  <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} не буде виконувати наступні типи робіт</ChooseRoleListWorkTypeRestrictions>
+  <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
+  <ChooseRoleHint>Іноді ролі краще призначати після того, як поселення впевнено стане на ноги.</ChooseRoleHint>
+  <!-- EN: Unlocked by -->
+  <UnlockedByMeme>Доступно дякуючи</UnlockedByMeme>
+  <!-- EN: Unlocked roles -->
+  <MemeUnlocksRoles>Доступні ролі</MemeUnlocksRoles>
+  <!-- EN: Unlocked rituals -->
+  <MemeUnlocksRituals>Доступні ритуали</MemeUnlocksRituals>
+  <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
+  <ChooseRoleRequiredWorkTagsDisabled>Увага: {PAWN_nameDef} не може виконувати роботу, необхідну для ролі{ROLE_label}. Якщо ви не призначите {PAWN_objective} на цю роль, {PAWN_pronoun}, імовірно не зможе використовувати деякі з'вязані з нею здібності. Недоступні види робіт</ChooseRoleRequiredWorkTagsDisabled>
+  <!-- EN: Leader bonus -->
+  <YourLeaderTradeBonus>Бонус лідера</YourLeaderTradeBonus>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
+  <CannotNotAddRoleApparelDueToMeme>Риса {MEME} не дозволяє додавати вимоги до одягу для ролей.</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>не можна носити разом з {0_label}</CannotBeWornWith>
+
+  <!-- EN: Certainty reduction -->
+  <AbilityIdeoConvertBreakdownLabel>Зменшення впевненості</AbilityIdeoConvertBreakdownLabel>
+  <!-- EN: Using {ABILITY} ability -->
+  <AbilityIdeoConvertBreakdownUsingAbility>Використовує можливості {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
+  <!-- EN: {PAWN_labelShort}'s conversion power -->
+  <AbilityIdeoConvertBreakdownConversionPower>Ефективність користування {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
+  <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>Втрата впевненості {PAWN_labelShort} від {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
+  <!-- EN: Trait {TRAIT} -->
+  <AbilityIdeoConvertBreakdownTrait>Риса характеру {TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: {RELICCOUNT} installed relics on map -->
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} реліквій на мапі</AbilityIdeoConvertBreakdownRelic>
+  <!-- EN: {PAWN_labelShort}'s social skill -->
+  <AbilityIdeoConvertBreakdownSocialSkill>Соцальна навичка {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
+  <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
+  <AbilityIdeoConvertBreakdownOpinion>Думка {RECIPIENT_labelShort} про {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
+  <!-- EN: {PAWN_nameDef}'s ideoligion -->
+  <AbilityIdeoConvertBreakdownPawnIdeo>Ідеологія {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
+  <!-- EN: {MEME} vs {TRAIT} trait -->
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} проти риси характеру {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
+
+  <!-- EN: {PAWN_labelShort} was already counselled recently. -->
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} нещодавно вже {PAWN_gender ? отримував : отримувала} настанову.</AbilityCantApplyAlreadyCounselled>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>Реформувати...</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>Реформувати ідеологію</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>Реформувати ідеологію, знінивши її структуру, риси або стиль.</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>Змінити стилі</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>Додати чи видалити рису</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>Додати рису</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>Виберіть</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>Змінити структуру</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>Змініть будь-що з перерахованого</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
+  <ReformIdeoRelicHuntQuestEnd>Реліквія {0} не буде шануватись вашими поселенцями після реформації ідеології. Отже, будівля "{0}", присвячена пошуку цієї реліквії, буде деактивована.</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
+  <ReformIdeoCancelRituals>Ритуал {0}, який зараз проводиться, буде скасовано.</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
+  <ReformIdeoContinue>Ви хочете продовжити?</ReformIdeoContinue>
+
+  <!-- Slavery -->
+  <!-- EN: Slave -->
+  <CannotAssignBedToSlave>Раб</CannotAssignBedToSlave>
+  <!-- EN: Colonist -->
+  <CannotAssignBedToColonist>Поселенець</CannotAssignBedToColonist>
+  <!-- EN: Any slave -->
+  <AnySlave>Будь-який раб</AnySlave>
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} відмовляється продавати людей у рабство, за ідеологічних переконань.</NegotiatorWillNotTradeSlaves>
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
+  <NegotiatorWillNotTradeSlavesTip>Перемовник, {0_nameDef}, не буде продавати людей у рабство через віру у {1}.\n\nЗверніть увагу, {0_nameDef} не проти викупити полонених назад у свою фракцію, але продавати іншим фракціям не стане.</NegotiatorWillNotTradeSlavesTip>
+
+  <!-- EN: Last human meat -->
+  <LastHumanMeat>Останнє людське м'ясо</LastHumanMeat>
+  <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
+  <LastHumanMeatDesc>Через віру у {IDEO_name}, {PAWN_nameDef} засмутиться, якщо не буде їсти людське м'ясо довше {DURATION} днів.</LastHumanMeatDesc>
+  <!-- EN: Last large animal slaughter -->
+  <LastAnimalSlaughter>Останній забій великої тварини</LastAnimalSlaughter>
+
+  <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
+  <ExectueNeutralFactionSlave>Страта {PAWN_labelShort} негативно вплине на відносини з {FACTION_name}.</ExectueNeutralFactionSlave>
+
+  <!-- EN: You must assign at least one non-slave colonist who can walk. -->
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>Ви повинні призначити принаймні одного нерабського колоніста, який може ходити.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <!-- EN: You must leave at least non-slave colonist who can walk. -->
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Ви повинні залишити хоча б нерабського колоніста, який може ходити.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+
+  <!-- Style -->
+  <!-- EN: Style -->
+  <StylePawn>Стиль</StylePawn>
+  <!-- EN: Cancel -->
+  <Cancel>Скасувати</Cancel>
+  <!-- EN: hair -->
+  <Hair>зачіска</Hair>
+  <!-- EN: beard -->
+  <Beard>борода</Beard>
+  <!-- EN: face tattoo -->
+  <TattooFace>татуювання обличчя</TattooFace>
+  <!-- EN: body tattoo -->
+  <TattooBody>татуювання тіла</TattooBody>
+  <!-- EN: apparel color -->
+  <ApparelColor>колір одягу</ApparelColor>
+  <!-- EN: hair color -->
+  <HairColor>колір волосся</HairColor>
+  <!-- EN: Show headgear -->
+  <ShowHeadgear>Показувати головний убір</ShowHeadgear>
+  <!-- EN: Show apparel -->
+  <ShowApparel>Показувати одяг</ShowApparel>
+  <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
+  <PawnUnhappyWithStyleItems>Це засмутить {PAWN_nameDef}</PawnUnhappyWithStyleItems>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescription>Категорія стилю впливає на зовнішній вигляд деяких конструкцій, одягу так зброї, котрі створюють ваші {IDEO_memberNamePlural}. Якщо декілька стилей впливають на один і той самий об'єкт, застосованим буде перший.</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescriptionAbstract>Категорія стилю впливає на зовнішній вигляд деяких конструкцій, одягу так зброї, створених у вашому поселенні. Якщо декілька стилей впливають на один і той самий об'єкт, застосованим буде перший.</StyleCategoryDescriptionAbstract>
+  <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} будуть щасливі бачити структури, покриття та об'єкти мистецтва, відповідні цьому стилю.</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominanceAbstract>Ідеологічні послідовники будуть щасливі бачити структури, підлогу та мистецькі предмети, виконані у відповідному стилі.</StyleCategoryDescStyleDominanceAbstract>
+  <!-- EN: {0} style category affects -->
+  <StyleCategoryDetails>Категорія стилю {0} впливає на</StyleCategoryDetails>
+  <!-- EN: Overriden by {0} -->
+  <OverriddenByStyle>Скасовано {0}</OverriddenByStyle>
+  <!-- EN: New buildables -->
+  <IdeoMakesBuildingBuildable>Нові споруди</IdeoMakesBuildingBuildable>
+  <!-- EN: none usable for {PAWN_nameDef} -->
+  <NoneUsableForPawn>немає нічого для {PAWN_nameDef}</NoneUsableForPawn> 
+  <!-- EN: Hair and beards -->
+  <HairAndBeards>Зачіски та бороди</HairAndBeards>
+  <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
+  <HairAndBeardsDesc>Ці налаштування визначають, як часто кожен стиль з'являється на послідовності цієї ідеології.</HairAndBeardsDesc>
+  <!-- EN: Tattoos -->
+  <Tattoos>Татуювання</Tattoos>
+  <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
+  <TattoosDesc>Ці налаштування визначають, як часто кожне татуювання з'являється на послідовності цієї ідеології.</TattoosDesc>
+  <!-- EN: Never -->
+  <StyleItemFrequencyNever>Ніколи</StyleItemFrequencyNever>
+  <!-- EN: Rare -->
+  <StyleItemFrequencyRare>Рідко</StyleItemFrequencyRare>
+  <!-- EN: Uncommon -->
+  <StyleItemFrequencyUncommon>Іноді</StyleItemFrequencyUncommon>
+  <!-- EN: Normal -->
+  <StyleItemFrequencyNormal>Достатньо</StyleItemFrequencyNormal>
+  <!-- EN: Common -->
+  <StyleItemFrequencyCommon>Часто</StyleItemFrequencyCommon>
+  <!-- EN: Frequent -->
+  <StyleItemFrequencyFrequent>Дуже часто</StyleItemFrequencyFrequent>
+  <!-- EN: Edit appearance -->
+  <EditAppearanceItems>Змінити зовнішній вигляд</EditAppearanceItems>
+  <!-- EN: {0} in use -->
+  <NumAvailable>{0} використовується</NumAvailable>
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Розгорнути все</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Згорнути все</CollapseAllCategories>
+  <!-- EN: Resets all style items to their default values. -->
+  <ResetButtonDesc>Повертає стиль усіх предметів по замовчуванню.</ResetButtonDesc>
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>Фарби можливо отримати, вирощуючи тинкторію або купляючи у торгівельників.</TooltipDyeExplanation>
+
+  <!-- Ancient complex mission -->
+  <!-- EN: Send shuttle anyway -->
+  <SendShuttleAnyway>Все одно відправити шатл</SendShuttleAnyway>
+  <!-- EN: Re-load shuttle -->
+  <ReLoadShuttle>Повторно завантажити шатл</ReLoadShuttle>
+
+  <!-- Medical settings -->
+  <!-- EN: Enslaved colonist -->
+  <MedGroupEnslavedColonist>Поселенець-раб</MedGroupEnslavedColonist>
+
+  <!-- Dryad upgrades -->
+  <!-- EN: Choose dryad caste -->
+  <ChangeMode>Виберіть касту дріад</ChangeMode>
+  <!-- EN: Required memes -->
+  <RequiredMemes>Необхідні риси</RequiredMemes>
+  <!-- EN: Required caste -->
+  <RequiredStage>Необхідна каста</RequiredStage>
+  <!-- EN: Missing required memes -->
+  <MissingRequiredMemes>Недостатньо необхідних рис</MissingRequiredMemes>
+  <!-- EN: Missing required caste -->
+  <MissingRequiredCaste>Відсутня необхідна кста</MissingRequiredCaste>
+  <!-- EN: Already selected -->
+  <AlreadySelected>Вже обрано</AlreadySelected>
+  <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
+  <ChooseProductionModeInitialDesc>Тут можна вибрати, яку з каст дріад створить {TREE_label}.\n\nДріади з'являться з коконів, що ростуть поруч з деревом. Максимальна кількість дріад залежить від сили зв'язку між {TREE_definite} та зв'язаною людиною.</ChooseProductionModeInitialDesc>
+
+  <!-- Archonexus -->
+  <!-- EN: Choose who to convert to your ideoligion -->
+  <ChooseColonistsForIdeoTitle>Виберіть того, кого хочете завербувати у свою ідеологію</ChooseColonistsForIdeoTitle>
+  <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
+  <ChooseColonistsForIdeoDesc>Ви можете завербувати своїх поселенців у свою основу ідеологію, коли засновуєте нове поселення.</ChooseColonistsForIdeoDesc>
+  <!-- EN: New Colony -->
+  <ChooseThingsForNewColonyTitle>Нове поселення</ChooseThingsForNewColonyTitle>
+  <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
+  <ChooseThingsForNewColonyDesc>Виберіть поселенців, тварин та реліквії, які ви бажаєте залишити в новому поселенні.</ChooseThingsForNewColonyDesc>
+  <!-- EN: Choose up to {0} {1}. -->
+  <ChooseThingsDesc>Виберіть до {0} {1}.</ChooseThingsDesc>
+  <!-- EN: Choose up to {0} people. -->
+  <ChoosePeopleDesc>Виберіть до {0} людей.</ChoosePeopleDesc>
+  <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
+  <ChooseOnlySlavesInfo>Якщо оберете лише рабів, тоді ви гратимете ними як колоністами у наступній колонії.</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>Підтвердити рішення</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>Космічний корабель, про який повідомив ШІ по імені (*Name)Шарлон Вайтстоун(/Name), полетить до моменту створення нового поселення. Покинути планету на цьому судні буде неможливо.</ShipEscapeWillEndDescription>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>Нові власники поселення дозволять вам взити з собою тільки одну реліквію. Всі інші реліквії (включаючи ті, що вже носять поселенці) залишаться тут:</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? -->
+  <WantToProceed>Ви впевнені, що бажаєте продовжити? Повернутись назад вже не вийде.</WantToProceed>
+  <!-- EN: Convert -->
+  <ConvertToPlayerIdeoligion>Прийняти</ConvertToPlayerIdeoligion>
+  <!-- EN: Revert -->
+  <RevertToPreviousIdeoligion>Скасувати</RevertToPreviousIdeoligion>
+  <!-- EN: Existing follower -->
+  <ExistingFollowerOfPlayerIdeoligion>Існуючий послідовник</ExistingFollowerOfPlayerIdeoligion>
+  <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
+  <AbandonArchotechStructuresWarningDialog>Ви залишаєте місце, яке містить структури архотехів, які ви ще не повністю вивчили.\n\nВи зможете переселитися сюди пізніше, але ваша минула колонія буде знищена.</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>Кількість {0}, яку можна взяти з собою у нове поселення.\n\nМаксимальна кількість - {1}</ItemQuantityTooltip>
+
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
+  <ConfirmHackEnenyTerminal>Злом {0} попередить ворогів і вони нападуть на вас. Ви дійсно хочете зламати {0}?</ConfirmHackEnenyTerminal>
+
+  <!-- EN: Relics -->
+  <RelicsSection>Реліквії</RelicsSection>
+
+</LanguageData>

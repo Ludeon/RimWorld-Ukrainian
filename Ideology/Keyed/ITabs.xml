@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Character -->
+  <!-- EN: Overrides some precepts related to -->
+  <OverridesSomePrecepts>Скасовує дію деяких правил</OverridesSomePrecepts>
+  <!-- EN: Agrees with memes -->
+  <AgreeableMemes>Доповнюється рисами</AgreeableMemes>
+  <!-- EN: Conflicts with memes -->
+  <DisagreeableMemes>Несумісно з рисами</DisagreeableMemes>
+
+  <!-- ITab titles -->
+  <!-- EN: Slave -->
+  <TabSlave>Раб</TabSlave>
+  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
+  <SlaveReleaseRelationGainsDesc>Репутація, яку ви отримаєте у фракції, якщо відпустите раба. На показник впливає здоров'я та психологічний стан.</SlaveReleaseRelationGainsDesc>
+  <!-- EN: Relations gain on release -->
+  <SlaveReleasePotentialRelationGains>Бонус до відносин за звільнення</SlaveReleasePotentialRelationGains>
+  <!-- EN: Slave rebellion interval -->
+  <SlaveRebellionMTBDays>Інтервал між повстаннями</SlaveRebellionMTBDays>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>Середня кількість днів між спробами повстання рабів. На це впливають: настрій раба, його здоров'я, пригнічення, близість до зброї, кількість інших рабів та наявність поселенців на мапі.</SlaveRebellionMTBDaysDescription>
+
+  <!-- Slave tab -->
+  <!-- EN: Suppression -->
+  <Suppression>Пригнічення</Suppression>
+  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
+  <SuppressionDesc>Пригнічення є психологічним наслідком страху та контролю над рабом. Якщо пригнічення низьке, раби швидше за все збунтуються.</SuppressionDesc>
+  <!-- EN: Suppression fall rate -->
+  <SuppressionFallRate>Темп зменшення пригнічення</SuppressionFallRate>
+  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
+  <SuppressionFallRateDesc>Пригнічення зменшується з часом в залежності від її наявного рівня:\n\n- {1}+ пригнічення: {0} в день\n- {4}-{3} пригнічення: {2} в день\n- {6}- пригніченість: {5} в день\n\nОдяг та залякування також впливає на темп зменшення пригнічення. Пригнічення цього раба зменшується так</SuppressionFallRateDesc>
+  <!-- EN: Cannot emancipate -->
+  <CannotEmancipate>Неможливо звільнити</CannotEmancipate>
+  <!-- EN: Cannot imprison -->
+  <CannotImprison>Неможливо ув'язнити</CannotImprison>
+  <!-- EN: Current suppression -->
+  <CurrentSuppression>Поточне пригнічення</CurrentSuppression>
+  <!-- EN: Terror -->
+  <Terror>Залякування</Terror>
+  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
+  <TerrorDescription>Залякування допомагає тримати рабів пригніченими. Раби страхаються, коли вони поруч зі страшними скульптурами. На раба може діяти водночас тільки три джерела пригнічення.\n\nПоки раб заляканий, його рівнень пригнічення буде зменшуватись настільки повільніше</TerrorDescription>
+  <!-- EN: Recent terrifying observations -->
+  <TerrorCurrentThoughts>Побачене жахає</TerrorCurrentThoughts>
+
+  <!-- EN: Base interval -->
+  <SuppressionBaseInterval>Інтервал</SuppressionBaseInterval>
+  <!-- EN: Moving capacity -->
+  <SuppressionMovingCapacityFactor>Жвавість</SuppressionMovingCapacityFactor>
+  <!-- EN: Suppression -->
+  <SuppressionFactor>Пригнічення</SuppressionFactor>
+  <!-- EN: Mood -->
+  <SuppressionMoodFactor>Настрій</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>Кількість рабів</SuppressionSlaveCountFactor>
+  <!-- EN: Escape route -->
+  <SuppressionEscapeFactor>Шлях втечі</SuppressionEscapeFactor>
+  <!-- EN: Weapon proximity -->
+  <SuppressionWeaponProximityFactor>Близість зброї</SuppressionWeaponProximityFactor>
+  <!-- EN: Final interval -->
+  <SuppressionFinalInterval>Останній інтервал</SuppressionFinalInterval>
+  <!-- EN: Unattended -->
+  <SuppressionUnattendedByColonists>Не під наглядом</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>Як мінімум один з {0} рабів на мапі ймовірно буде підіймати повстання у середньому кожні {1}.</SuppressionRebellionAnySlave>
+
+  <!-- EN: Will -->
+  <WillLevel>Воля</WillLevel>
+  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
+  <WillLevelDesc>Визначає супротив в'язня. Коли значення досягне нуля, його можна буде поневолити.</WillLevelDesc>
+  <!-- EN: {0} base will -->
+  <WillFromPawnKind>Базова воля {0}</WillFromPawnKind>
+  <!-- EN: Target ideoligion -->
+  <IdeoConversionTarget>Вибрана ідеологія</IdeoConversionTarget>
+  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
+  <IdeoConversionTargetDesc>Ідеологія, в яку ваші наглядачі будуть намагатись завербувати в'язня.</IdeoConversionTargetDesc>
+
+  <!-- Social -->
+  <!-- EN: Change per day due to mood -->
+  <CertaintyChangePerDay>Зміна в день через настрій</CertaintyChangePerDay>
+  <!-- EN: Change rate based on mood -->
+  <MoodChangeRate>Темп зміни через настрій</MoodChangeRate>
+  <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
+  <CertaintyInIdeo>Впевненість {PAWN_nameDef} у {IDEO_name}</CertaintyInIdeo>
+  <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
+  <RoleDesc>Особливий статус цієї персони в його ідеології. Він засмутиться, якщо ви зміните або заберете цю роль.</RoleDesc>
+  <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
+  <RoleAssignmentTip>Зміна ролі потребує проведення відповідної церемонії. Виберіть будь-яке місце проведення ритуалу або вівтар та натисніть кнопку "Почати зміну ролі".</RoleAssignmentTip>
+  <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
+  <ConversionWeakerDueToTraitAgreements>Спроби вербування будуть менш успішними через несумісність ідеології з рисами характеру</ConversionWeakerDueToTraitAgreements>
+  <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
+  <ConversionStrongerDueToTraitAgreements>Спроби вербування будуть успішнішими через несумісність ідеології з рисами характеру</ConversionStrongerDueToTraitAgreements>
+
+  <!-- EN: Cut -->
+  <Cut>Вирізати</Cut>
+  <!-- EN: Cut both eyes -->
+  <CutBothEyes>Вирізати обидва ока</CutBothEyes>
+
+</LanguageData>
