@@ -8,22 +8,22 @@ Repository of Ukrainian localization for RimWorld.
   Усі нові переклади варто робити спершу там, задля уникнення розбіжностей
   між перекладами у цьому репозиторі та на CrowdIn. Завантажити переклади з
   CrowdIn у цей репозиторій можна за допомогою скрипта:
-  `./Notes/scripts/download-translated-files.py -p rimworld-urk -k abcde12345`.
-  Ключ для скрипта можна знайти у вкладці API налаштувань проекту на CrowdIn
-  (доступна для менеджерів проекту). Детальніше про параметри скрипта:
+  `./Notes/scripts/download-translated-files.py --access-token abcde12345`.
+  Токен для скрипта можна створити в [налаштуваннях](https://crowdin.com/settings#api-key)
+  профілю користувача на CrowdIn. Детальніше про параметри скрипта:
 
   ```console
   $ ./Notes/scripts/download-translated-files.py -h
-  usage: download-translated-files.py [-h] [-p PROJECT_IDENTIFIER] [-k PROJECT_KEY]
+usage: download-translatef-files.py [-h] [--project-identifier PROJECT_IDENTIFIER] [--access-token ACCESS_TOKEN]
 
-  Replace local translations with latest version from CrowdIn.
+Replace local files with latest version from CrowdIn.
 
-  optional arguments:
-    -h, --help            show this help message and exit
-    -p PROJECT_IDENTIFIER, --project-identifier PROJECT_IDENTIFIER
-                          Crowdin project identifier
-    -k PROJECT_KEY, --project-key PROJECT_KEY
-                          Crowdin API project key
+options:
+  -h, --help            show this help message and exit
+  --project-identifier PROJECT_IDENTIFIER
+                        Crowdin project identifier
+  --access-token ACCESS_TOKEN
+                        Crowdin API v2 access token
   ```
 
   Для запуску скрипта потрібен Python 3.6+.
