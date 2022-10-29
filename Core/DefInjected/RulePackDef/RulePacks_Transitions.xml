@@ -16,18 +16,18 @@
     <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   -->
   <Transition_Died.rulePack.rulesStrings>
-    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->die</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->perish</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->expire</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->shut down</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->stop functioning</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->lose power</li>
-    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->died</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->perished</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->expired</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->shut down</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->смерті</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->загибелі</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->сконання</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->відключення</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->припинення функціонування</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->втрати енергії</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->помер{SUBJECT_gender ?  : ла}</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->загину{SUBJECT_gender ? в : ла}</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->скона{SUBJECT_gender ? вся : лася}</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->відключи{SUBJECT_gender ? вся : лась}</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->переста{SUBJECT_gender ? в : ла} функціонувати</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->втрати{SUBJECT_gender ? в : ла} енергію</li>
   </Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
@@ -98,8 +98,8 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
-    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] призвело [SUBJECT_definite] до [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] призвело [SUBJECT_definite] до [die].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died].</li>
@@ -137,8 +137,8 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
-    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] призвело [SUBJECT_definite] до [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] призвело [SUBJECT_definite] до [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] made [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] made [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>

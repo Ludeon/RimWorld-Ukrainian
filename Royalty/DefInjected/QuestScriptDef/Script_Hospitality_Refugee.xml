@@ -101,15 +101,15 @@
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
-    <li>mutinyLetterLabel->Betrayal</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>
+    <li>mutinyLetterLabel->Зрада</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] Повернулись проти нас!\n\nЗдається, [lodgersPronoun] це все було заплановано від самого початку.</li>
     <li>areIs(lodgerCount==1)->is</li>
     <li>areIs(lodgerCount>=2)->are</li>
     <li>betrayalOfferLetterLabel->Betrayal offer: [factionOpponent_nameDef]</li>
     <li>betrayalOffserLetterText->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
-    <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedLetterLabel->Зрада винагорода скасована</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->and another [lodgersLabel]</li>
@@ -117,7 +117,7 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} дякують, що дозволили {FACTION_leaderObjective} залишитися в [map_definite] для них [questDurationTicks_duration]. {FACTION_leaderPronoun} тепер рухається далі {FACTION_leaderPossessive} люди.\n\n{FACTION_leaderNameDef} кажуть {FACTION_leaderPronoun} не забудуть, що ви зробили.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>

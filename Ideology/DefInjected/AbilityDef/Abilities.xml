@@ -2,29 +2,29 @@
 <LanguageData>
   
   <!-- EN: Animal calm -->
-  <AnimalCalm.label>Угамовування тварин</AnimalCalm.label>
+  <AnimalCalm.label>Заспокоєння тварин</AnimalCalm.label>
   <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
   <AnimalCalm.description>Використайте унікальні методи взаємодії з тваринами для заспокоєння розлюченої тварини.</AnimalCalm.description>
   <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
-  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} успішно {1_gender ? вгамував : вгамувала} {RECIPIENT_labelShort}.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} успішно заспокої{1_gender ? в : ла} {RECIPIENT_labelShort}.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
   
   <!-- EN: berserk trance -->
-  <BerserkTrance.label>бойовий транс</BerserkTrance.label>
+  <BerserkTrance.label>берсерк</BerserkTrance.label>
   <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>Заклинатель сповнює себе гнівом через ідеологічні образи. Це зміцнює тіло понад норми, але також означає втрату контролю та напад на всіх ворогів поблизу в нестримній люті. Стан берсерка триватиме 3 години.</BerserkTrance.description>
+  <BerserkTrance.description>Заклинач сповнює себе гнівом через ідеологічні образи. Це зміцнює тіло понад норми, але також означає втрату контролю та напад на всіх ворогів поблизу в нестримній люті. Стан берсерка триватиме 3 години.</BerserkTrance.description>
   
   <!-- EN: combat command -->
-  <CombatCommand.label>бойова команда</CombatCommand.label>
+  <CombatCommand.label>бойовий клич</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
   <CombatCommand.description>Створює ауру, що підвищить бойові навички всіх, хто знаходиться поблизу. Ефект триває 24 години і залишається закріпленим до лідера на весь час.</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
-  <ConversionRitual.label>ритуал перетворення</ConversionRitual.label>
+  <ConversionRitual.label>ритуал навернення</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
   <ConversionRitual.description>Спробуйте переконати когось прийняти ваші переконання. Якщо все піде добре, вони частково втратять впевненість у своїй ідеолігії і можуть навернутися в вашу віру. Якщо це матиме зворотний ефект, вони здобудуть певність у своїх старих віруваннях.\n\nЩоб почати цей ритуал у певному місці, виберіть ритуальне місце або відповідний вівтар/ідеограму.</ConversionRitual.description>
   
   <!-- EN: convert -->
-  <Convert.label>прозелітизм</Convert.label>
+  <Convert.label>навернути</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>Спроба навернути когось у ідеолігію оратора. Це зменшить впевненість цілі у її власних переконаннях. Зменшення впевненості залежить від умінь оратора до переговорів.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
@@ -34,20 +34,20 @@
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} навернув {RECIPIENT_labelShort} до {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
-  <Counsel.label>Радник</Counsel.label>
+  <Counsel.label>Обговорення</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
-  <Counsel.description>Запропонувати людині дорадити задля того щоб позбутись ефектів від сумної згадки. Шанс на успіх залежить від соціальних навичок радника та його відносин з слухачем.</Counsel.description>
+  <Counsel.description>Запропонувати людині обговорити її проблеми задля знаття негативного впливу від згадки. Вірогідність успіху залежить від соціальних навичок ініціюючого та їх відносин із слухачем.</Counsel.description>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} зірвав спробу наради {RECIPIENT_labelShort}. {RECIPIENT_labelShort} засмутився.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} зірвав спробу обговорення {RECIPIENT_labelShort}. {RECIPIENT_labelShort} засмутився.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} успішно нарадив {RECIPIENT_labelShort}, скасовуючи ефекти настрою {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} успішно обговорив {RECIPIENT_labelShort}, знавши ефекти настрою {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} успішно нарадив {RECIPIENT_labelShort}, покращивши {RECIPIENT_possessive} настрій {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} успішно обговорив {RECIPIENT_labelShort}, покращивши {RECIPIENT_possessive} настрій {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
-  <FarmingCommand.label>фермерство</FarmingCommand.label>
+  <FarmingCommand.label>фермерський клич</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <FarmingCommand.description>Надає особливі навички фермерства, що підвищують фермерські здібності для всіх поряд. Ефект залишається у заклинателя протягом 24 годин.</FarmingCommand.description>
+  <FarmingCommand.description>Надає особливі навички фермерства, що підвищують фермерські здібності для всіх поряд. Ефект залишається у заклинача протягом 24 годин.</FarmingCommand.description>
   
   <!-- EN: Immunity drive -->
   <ImmunityDrive.label>Стимулювання імунітету</ImmunityDrive.label>
@@ -57,17 +57,17 @@
   <!-- EN: leader speech -->
   <LeaderSpeech.label>лідерська промова</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
-  <LeaderSpeech.description>Почати лідерську промову. Якщо все буде добре, слухачі матимуть покращений настрій, повагу до спікера та, можливо, нові натхнення. Якщо вона піде погано, відбудеться соціальна шкода.</LeaderSpeech.description>
+  <LeaderSpeech.description>Провести надихаючу промову. Якщо все буде добре, слухачі матимуть покращений настрій, повагу до спікера та, можливо, нові натхнення. При невдачі слухачам це не сподобається.</LeaderSpeech.description>
   
   <!-- EN: marksman command -->
-  <MarksmanCommand.label>стрілецька команда</MarksmanCommand.label>
+  <MarksmanCommand.label>коригування стрільби</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MarksmanCommand.description>Викличте постріли та підвищуйте навички стрільби всіх неподалік. Ефект залишається у заклинателя протягом 24 годин.</MarksmanCommand.description>
+  <MarksmanCommand.description>Коригуйте вогонь та підвищуйте навички стрільби всіх неподалік. Ефект залишається у заклинача протягом 24 годин.</MarksmanCommand.description>
   
   <!-- EN: mining command -->
-  <MiningCommand.label>видобування</MiningCommand.label>
+  <MiningCommand.label>мотивація гірників</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>Запропонуйте рекомендації щодо техніки видобутку, підвищуючи швидкість видобутку для всіх поблизу. Ефект зберігається на заклинателі протягом 24 годин.</MiningCommand.description>
+  <MiningCommand.description>Запропонуйте рекомендації щодо техніки видобутку, підвищуючи швидкість видобутку для всіх поблизу. Ефект зберігається на заклиначі протягом 24 годин.</MiningCommand.description>
   
   <!-- EN: preach health -->
   <PreachHealth.label>проповідь здоров'я</PreachHealth.label>
@@ -75,24 +75,24 @@
   <PreachHealth.description>Проповідуйте моральну силу для хворої чи пораненої людини через концепції вашої ідеології. Це покращить їх швидкість лікування ран та стимулювання імунітету.</PreachHealth.description>
   
   <!-- EN: production command -->
-  <ProductionCommand.label>команда виробництва</ProductionCommand.label>
+  <ProductionCommand.label>мотивація будівельників</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>Запропонуйте рекомендації щодо технік будівництва, покращуючи здібності до будівництва та ремесла для всіх, хто поруч. Ефект зберігається на заклинателі протягом 24 годин.</ProductionCommand.description>
+  <ProductionCommand.description>Запропонуйте рекомендації щодо технік будівництва, покращуючи здібності до будівництва та ремесла для всіх, хто поруч. Ефект зберігається на заклиначі протягом 24 годин.</ProductionCommand.description>
   
   <!-- EN: reassure -->
-  <Reassure.label>заспокоїти</Reassure.label>
+  <Reassure.label>запевнити</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Збільшуйте впевненість когось у його власних переконаннях. Відновлена впевненість ґрунтується на здібності промовця до переговорів.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} заспокоїв {RECIPIENT_labelShort}, збільшивши {RECIPIENT_possessive} впевненість у {IDEO} з {BEFORECERTAINTY} до {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
-  <ResearchCommand.label>команда дослідження</ResearchCommand.label>
+  <ResearchCommand.label>мотивація дослідників</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>Надавайте пропозиції та розумову підтримку, підвищуючи швидкість дослідження для всіх, хто поруч. Ефект зберігається на заклинателі протягом 24 годин.</ResearchCommand.description>
+  <ResearchCommand.description>Надавайте пропозиції та розумову підтримку, підвищуючи швидкість дослідження для всіх, хто поруч. Ефект зберігається на заклиначі протягом 24 годин.</ResearchCommand.description>
   
   <!-- EN: trial -->
-  <Trial.label>випробування</Trial.label>
+  <Trial.label>суд</Trial.label>
   <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
   <Trial.description>Звинувачувати когось у жахливому злочині та розпочати судовий процес, у якому вони будуть або засуджені, або виправдані. Якщо мішень визнана винною, її можна вільно ув’язнити, стратити або вислати без покарання. Шанс засудження залежить від соціальних здібностей обвинувача й обвинуваченого.</Trial.description>
   
