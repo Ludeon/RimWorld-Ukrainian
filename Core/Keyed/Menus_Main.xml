@@ -3,9 +3,9 @@
 
   <!-- Main menu -->
   <!-- EN: Tutorial -->
-  <Tutorial>Посібник</Tutorial>
+  <Tutorial>Навчання</Tutorial>
   <!-- EN: New colony -->
-  <NewColony>Нова колонія</NewColony>
+  <NewColony>Нове поселення</NewColony>
   <!-- EN: Back to game -->
   <BackToGame>Повернутися до гри</BackToGame>
   <!-- EN: Review scenario -->
@@ -17,9 +17,11 @@
   <!-- EN: Options -->
   <Options>Налаштування</Options>
   <!-- EN: Mod -->
-  <Mod>Модифікація</Mod>
+  <Mod>Мод</Mod>
   <!-- EN: Mods -->
-  <Mods>Модифікації</Mods>
+  <Mods>Моди</Mods>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>Швидкий тест розробки</DevQuickTest>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Зберегти звіт перекладу</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -80,6 +82,8 @@
   <WorldSaveAndFinish>Зберегти і завершити</WorldSaveAndFinish>
   <!-- EN: Reset -->
   <Reset>Скинути</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>Скинути фракції</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Покриття земної кулі</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -121,7 +125,7 @@
   <!-- EN: Select -->
   <WorldChooseButton>Вибрати</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
-  <NoWorldsFilesFound>Не знайдено файлів світу. Спочатку створіть світ.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>Не знайдено файлів світу. Спочатку створіть та збережіть світ.</NoWorldsFilesFound>
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
@@ -152,6 +156,8 @@
   <ConfirmDeleteMod>Ви впевнені, що хочете видалити весь контент для {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Впорядкувати моди</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>Зберігти та застосувати</SaveModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Неможливо перемістити {0}: його потрібно завантажити після {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
@@ -160,12 +166,56 @@
   <Unsubscribe>Відписатися</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>Ви впевнені, що хочете відписатися від {0}?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>Ви впевнені, що хочете відписатися від:\n\n{0} ?</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Автор</Author>
+  <!-- EN: Enabled -->
+  <Enabled>Увімкнуті</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>Вимкнуті</Disabled>
+  <!-- EN: Enable -->
+  <Enable>Увімкнути</Enable>
+  <!-- EN: Disable -->
+  <Disable>Вимкнути</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>Скачати моди з...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>Відписатись від...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>Зберегти/завантажити...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>Зберегти моди</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>Завантажити моди</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>Добавлені моди</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>Відсутні моди</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>Моди якими поділились</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>Веб-сайт</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>Відкрити папку</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>Налаштування мода</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>Майстерні</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>Форуму</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>Додатково...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>Усіх вибраних модів</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>Усіх вимкнених модів</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>Усіх несумісних модів</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Сторінка в Майстерні</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Опублікувати в Майстерню Steam</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Опублікувати у Майстерню</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Оновити в Майстерні Steam</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
@@ -277,9 +327,9 @@
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Оберіть ШІ казкаря</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Оберіть ШІ оповідача</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>ШІ казкаря створює події, такі як піратські набіги, випадіння ресурсів або напади тварин. Їх вибір вплине на історію вашої колонії. Ці налаштування можна змінити в будь-який час.</HowStorytellersWork>
+  <HowStorytellersWork>ШІ оповідача створює події, такі як піратські набіги, випадіння ресурсів або напади тварин. Їх вибір вплине на історію вашої колонії. Ці налаштування можна змінити в будь-який час.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Будь ласка, оберіть рівень складності.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -287,7 +337,7 @@
   <!-- EN: Commitment mode -->
   <CommitmentMode>Відповідальний режим</CommitmentMode>
   <!-- EN: Reload anytime mode -->
-  <ReloadAnytimeMode>Перезавантаження будь-коли</ReloadAnytimeMode>
+  <ReloadAnytimeMode>Завантаження гри будь-коли</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Будь ласка, оберіть відповідальний режим, або режим перезавантаження будь-коли.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->

@@ -13,7 +13,22 @@
   <Close>Закрити</Close>
   <!-- EN: Accept -->
   <Accept>Прийняти</Accept>
-  
+  <!-- EN: Cancel -->
+  <Cancel>Відмінити</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Скинути</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Скинути усе</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Відключити</Disable>
+  <!-- EN: Modify -->
+  <Modify>Змінити</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Все одно висадитися тут?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>Додати</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Неможливо стріляти</CannotShoot>
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld було оновлено з версії {0} до версії {1}.</GameUpdatedToNewVersionInitial>
@@ -82,7 +97,7 @@
   <!-- EN: Spawning things -->
   <SpawningAllThings>Розкладання речей</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>Розташовуємо колоністів</SpawningColonists>
+  <SpawningColonists>Розташовуємо поселенців</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -94,7 +109,7 @@
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Дійсно видалити {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
-  <DeleteThisSavegame>Видалити цю сесію.</DeleteThisSavegame>
+  <DeleteThisSavegame>Видалити це збереження.</DeleteThisSavegame>
   <!-- EN: Saved as {0}. -->
   <SavedAs>Збережено як {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
@@ -161,11 +176,28 @@
   <ZoneGainsName>Ця зона тепер називається {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>Вкажане ім'я недопустимо</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Прізвисько цієї особи тепер {0}. {PAWN_possessive} спеціалізація - {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Кличка цієї тварини відтепер {0}.</AnimalGainsName>
-
+  <!-- EN: rename person -->
+  <RenamePerson>змінити ім'я</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>мати</Mother>
+  <!-- EN: father -->
+  <Father>батько</Father>
+  <!-- EN: unknown -->
+  <Unknown>невідомо</Unknown>
+  <!-- EN: first name -->
+  <FirstName>ім'я</FirstName>
+  <!-- EN: nickname -->
+  <NickName>прізвисько</NickName>
+  <!-- EN: last name -->
+  <LastName>фамілія</LastName>
+  <!-- EN: suggested -->
+  <Suggested>запропоновано</Suggested>
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
   <VersionMismatch>Невідповідність версій</VersionMismatch>
@@ -179,7 +211,10 @@
   <ModsMismatchWarningTitle>Невідповідність модів</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
   <ModsMismatchWarningText>Цей файл було збережено з використанням іншого набору модифікацій ніж активні зараз. Це може не викликати жодних проблем, залежно від того, на що впливають ці модифікації.\n\nФайли було збережено з такими модами (в такому порядку):\n\n{0}\n\nЗараз список модів виглядає так:\n\n{1}</ModsMismatchWarningText>
-
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Моди не було видалено або додано, але їхній порядок змінився.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Ви впевнені що бажаете загрузити набір модів з цього файлу?</ConfirmLoadSaveList>  
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
   <ConfirmResolutionChange>Ви змінили налаштування екрану. Все працює добре?\n\nСтарі налаштування буде автоматично відновлено через {0}...</ConfirmResolutionChange>
@@ -191,7 +226,15 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Ви дійсно хочете назавжди вимкнути режим розробника на цьому комп'ютері?\n\nЦей варіант для людей, які хочуть зіграти в чисту гру без спокуси використання інструментів для розробки, щоб отримати перевагу в грі.\n\nРежим розробки можна повторно включити, але це вимагає ручного редагування конфігураційних файлів. Можливо доведеться пошукати в інтернеті як саме це зробити.</ConfirmPermanentlyDisableDevMode>
-  
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Ви впевнені що бажаете скинути навчання?\n\nУсе ваше навчання буде видалено, його потрібно будте проходити спочатку.</ConfirmResetLearningHelper>
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Біографії відтепер імпліментовані як def, усі біографії що були раніше імпортовані в цей файл. Файл {0} було імпортовано та переміщено в {1}. Цей файл можна видалити.\n\nДля прийняття змін потрібно перезапустити гру.</RestartAfterImportingLegacyBackstoryTanslations>
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Необхідно обрати рівно {SUMMARY}</SelectedCharactersMustInclude>
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Попередження: Ви приземлитесь у холодному середовищі. Може бути складно або майже неможливо вижити. Якщо ви не збираєтеся кинути собі виклик, виберіть інше місце або сезон.</MapTemperatureDangerWarning>
@@ -311,9 +354,9 @@
   <!-- EN: Warmup -->
   <WarmupTime>Розігрів</WarmupTime>
   <!-- EN: Melee warmup -->
-  <MeleeWarmupTime>Розмах в ближньому бою</MeleeWarmupTime>
+  <MeleeWarmupTime>Розігрів у ближньому бою</MeleeWarmupTime>
   <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Розігрів в дальньому бою</RangedWarmupTime>
+  <RangedWarmupTime>Розігрів у дальньому бою</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Час відновлення</CooldownTime>
   <!-- EN: Disarmed -->
