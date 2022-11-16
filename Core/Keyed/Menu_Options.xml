@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Звук та відео</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>Загальна гучність</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Гучність гри</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>Гучність музики</MusicVolume>
-  <!-- EN: Ambient volume -->
-  <AmbientVolume>Гучність довкілля</AmbientVolume>
+  <!-- EN: Ambience volume -->
+  <AmbientVolume>Гучність оточення</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>Гучність інтерфейсу</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>Впливає на всі звуки.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>Впливає на всі звуки світу, наприклад, рубка дерев чи будівництво стін.</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>Впливає на музику.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>Впливає на всі звуки оточення, наприклад, звуки вітру чи комах.</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>Впливає на всі звуки інтерфейсу, наприклад, натискання кнопок чи сповіщення.</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Згладжування</Antialiasing>
 
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
-  <EdgeScreenScroll>Екранна прокрутка миші</EdgeScreenScroll>
+  <EdgeScreenScroll>Прокрутка мишею по краях екрану</EdgeScreenScroll>
   <!-- EN: Pause on load -->
   <PauseOnLoad>Пауза при завантаженні</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Пауза при терміновому листі</PauseOnUrgentLetter>
-  <!-- EN: Pause on -->
-  <AutomaticPauseModeSetting>Призупиняти на</AutomaticPauseModeSetting>
-  <!-- EN: Custom cursor -->
-  <CustomCursor>Власний курсор</CustomCursor>
-  <!-- EN: Hats shown only on game map -->
-  <HatsShownOnlyOnMap>Показувати капелюхи лише на мапі</HatsShownOnlyOnMap>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>Пауза при отриманні сповіщення</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>Вимкнути внутрішньоігровий курсор</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>Сховати капелюхи в інтерфейсі</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Розмір Інтерфейсу</UIScale>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Конфігурація клавіатури</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>Налаштування контроллера</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>Змінити</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Змінити Мову</ChooseLanguage>
   <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>Скинути помічника в навчанні</ResetAdaptiveTutor>
   <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
   <AdaptiveTutorIsReset>Наставник скинутий. Тепер ви будете знову вчити всі уроки з нуля.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>Режим клавіатури</SteamDeckKeyboardMode>
   <!-- EN: Run in background -->
   <RunInBackground>Працювати у фоновому режимі</RunInBackground>
   <!-- EN: Development mode -->
@@ -46,18 +66,26 @@
   <SimulateNotOwningRoyalty>Симулювати відсутність "Роялті"</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>Симулювати відсутність "Ідеології"</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>Симулювати відсутність Biotech</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Ведення докладного журналу</LogVerbose>
-  <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Відкрити папку зі збереженими даними</OpenSaveGameDataFolder>
-  <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Показати розташування файлів збережень</ShowSaveGameDataLocation>
-  <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Відкрити папку з логами</OpenLogFileFolder>
-  <!-- EN: Show log file location -->
-  <ShowLogFileLocation>Показати розташування логів</ShowLogFileLocation>
-  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
-  <NamesYouWantToSee>Улюблені персонажі. Ці персонажі будуть з'являтися у грі частіше:</NamesYouWantToSee>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>Тека зі збереженими даними</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>Показати розташування файлів збережень</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>Відкрити теку з логами</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>Показати розташування файлу з логами</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>Відкрити</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>Показати</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>Персонажі з бажаними іменами</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>Ці персонажі більш імовірно з'являтимуться випадково під час гри.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Додати ім'я</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -65,13 +93,17 @@
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Це ім'я вже в списку бажаних.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Налаштування казкаря</ChangeStoryteller>
+  <ChangeStoryteller>Налаштування оповідача</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Інтервал автозбереження</AutosaveInterval>
-  <!-- EN: Temperature mode -->
-  <TemperatureMode>Режим температури</TemperatureMode>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>Кількість внутрішньоігрових днів між кожним автозбереженням.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>Одиниці вимірювання температури</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Показати реальний час</ShowRealtimeClock>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>Вимкнути крихітний шрифт</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Максимальна кількість колоній: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
@@ -90,28 +122,38 @@
   <TextureCompression>Стиснення текстур</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Вимкнення стиснення текстури призведе до використання набагато більшої кількості відеопам'яті, але зробить текстури трохи кращими в деталізованих областях. Вимкніть це, лише якщо ви знаєте, що у вас багато додаткової відеопам'яті.\n\nВрахуйте, що використання певних модів часто буде споживати набагато більше відеопам'яті, тому вам може знадобитися включити це, якщо ви додасте моди.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>Плавне переміщення камери</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>Коли увімкнено, камера плавно переміщатиметься при фокусуванні на новій місцевості. Коли вимкнено, камера переміщатиметься миттєво.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Роздільна здатність</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>Повноекранний режим</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>Повноекранний без рамок</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>Для запуску RimWorld у безрамковому повноекранному режимі:\n\n1) Відкрийте Steam\n2) Перейдіть до вкладки "Бібліотека" вгорі\n3) Знайдіть RimWorld у списку та натисніть правою клавішею миші\n4) Оберіть "Властивості..."\n5) Додайте "-popupwindow" без лапок у "Параметри запуску" у вкладці "Головне"\n6) Перезапустіть гру\n7) Якщо все зроблено правильно, ви не побачите це вікно\n\nПідказка: Використайте Win + Shift + Вліво/Вправо щоб перемістити вікно між моніторами.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
-  <SelectMod>Виберіть модифікацію...</SelectMod>
+  <SelectMod>Оберіть модифікацію...</SelectMod>
   <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>Модифікації, які можна налаштовувати, не завантажені.</NoConfigurableMods>
   
   <!-- Options reset -->
-  <!-- EN: Restore to default settings -->
-  <RestoreToDefaultSettings>Відновити стандартні налаштування</RestoreToDefaultSettings>
-  <!-- EN: Your options have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>Налаштування було скинуто. Гра перезапуститься автоматично.</ResetAndRestart>
-  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>Всі ваші налаштування будуть скинуті за замовчуванням, і гра буде перезапущена. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ResetAndRestartConfirmationDialog>
-  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
-  <ChangedTextureCompressionRestart>Зміна параметра стиснення текстури вимагає перезапуску. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ChangedTextureCompressionRestart>
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>Скинути всі налаштування до стандартних</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>Скинути налаштування</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>Усі налаштування скинуто. Гра перезапуститься автоматично.</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>Усі налаштування буде скинуто до стандартних і гра автоматично перезапуститься. Не збережений прогрес буде втрачено.\n\nПродовжити?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>Зміна налаштувань стиснення текстур вимагає перезапуску. Не збережений прогрес буде втрачено.\n\nПродовжити?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->

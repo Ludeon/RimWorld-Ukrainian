@@ -76,20 +76,20 @@
   <MessageCharityEventRefused>Милосердя не наша риса</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>Проявлене милосердя</MessageCharityEventFulfilled>
-  <!-- EN: {0} leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0} {replace: {0}; "жебрак"-"залишився з пустими руками та пішов"; "жебраки"-"залишились з пустими руками та пішли"}.</MessageBeggarsLeavingWithNoItems>
-  <!-- EN: {0} leaving with requested items. -->
-  <MessageBeggarsLeavingWithItems>{0} {replace: {0}; "жебрак"-"отримав те, про що просив тай йде"; "жебраки"-"отримали те, про що просили та йдуть"}.</MessageBeggarsLeavingWithItems>
+  <!-- EN: {0} are leaving empty-handed. -->
+  <MessageBeggarsLeavingWithNoItems>{0} are leaving empty-handed.</MessageBeggarsLeavingWithNoItems>
+  <!-- EN: {0} have accepted the requested items and are leaving. -->
+  <MessageBeggarsLeavingWithItems>{0} have accepted the requested items and are leaving.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} {0_gender ? помер : померла}, бо не {0_gender ? отримав : отримала} допомогу.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef} {0_gender ? завербований : завербована}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
   <MessageWandererLeftHealthy>{0_nameDef} {0_gender ? пішов : пішла} здоровим.</MessageWandererLeftHealthy>
-  <!-- EN: {0} failed. -->
-  <MessageCharityQuestEndedFailed>Завдання "{0}" провалено.</MessageCharityQuestEndedFailed>
-  <!-- EN: {0} succesfully completed. -->
-  <MessageCharityQuestEndedSuccess>Завданна "{0}" успішно завершено.</MessageCharityQuestEndedSuccess>
+  <!-- EN: {0} has been failed. -->
+  <MessageCharityQuestEndedFailed>{0} has been failed.</MessageCharityQuestEndedFailed>
+  <!-- EN: {0} has been successfully completed. -->
+  <MessageCharityQuestEndedSuccess>{0} has been successfully completed.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
@@ -103,8 +103,10 @@
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
   <OverlappingRoleApparel>Вимоги ролей до одягу не мають бути взаємовиключними.</OverlappingRoleApparel>
   
-  <!-- EN: {0_label} will self-destruct in {1}. -->
-  <SelfDestructCountdown>{0_label} самознищиться через {1}.</SelfDestructCountdown>
+  <!-- EN: {0} will self-destruct in {1}. -->
+  <SelfDestructCountdown>{0} will self-destruct in {1}.</SelfDestructCountdown>
+  <!-- EN: Precept name is too long (maximum {0} letters) -->
+  <PreceptNameTooLong>Precept name is too long (maximum {0} letters)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->

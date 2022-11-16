@@ -49,8 +49,8 @@
   <Psyfocus>Психофокус</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Психофокус</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Психофокус - це спеціальний тип будови психіки, який необхідний для використання психічних здібностей. Психофокус з часом розсіюється, тож має регулярно зміцнюватись медитацією. Втрата всього психофокусу зробить людину нездатною до використання психіки, але не матиме жодних інших наслідків.\n\nВищі рівні психофокусу потребують здібностей вищого рівня, при цьому підвищуючи швидкість розсіювання психофокусу</PsyfocusDesc>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>Натисніть для встановлення бажаного рівня психофокусу.</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>повинні бути складені.</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>здатність на відновленні. Він буде доступний через {0}.</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>здатність вже в черзі.</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>немає напруги для скидання.</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Здатність готова: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} готовий до використання {1}.</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>трон не призначено.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -171,8 +157,8 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Немає колоністів із природним типом фокусування на медитації.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>Потрібно принаймні {0} аніма-трави.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
-  <RitualTargetAnimaTreeInfo>Аніма-дерево.</RitualTargetAnimaTreeInfo>
+  <!-- EN: an anima tree -->
+  <RitualTargetAnimaTreeInfo>an anima tree</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Має бути колоніст із природним типом фокусування на медитації, який нижчий за максимальний рівень пси-зв'язку.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
@@ -182,4 +168,11 @@
   <AnimaLinkingExplanationBase>Церемонія з’єднання аніми є сильнішою з більшою кількістю учасників. Що більше людей візьме участь, то менше часу займає церемонія, і тим більше аніма-трави виросте.\n\nЯкщо буде ще {0} учасників, {1} аніма-трава буде відновлено наприкінці церемонії.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Завантажено не весь необхідний вантаж!</ShuttleRequiredItemsNotSatisfied>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>немає напруги для скидання.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>level {0}</LevelNum> <!-- Psylink level as reported in health tab-->
+
 </LanguageData>

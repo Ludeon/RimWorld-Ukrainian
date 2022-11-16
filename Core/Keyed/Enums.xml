@@ -3,9 +3,9 @@
 
   <!-- Glow -->
   <!-- EN: Dark -->
-  <Dark>Темний</Dark>
+  <Dark>Темно</Dark>
   <!-- EN: Lit -->
-  <Lit>Освітлений</Lit>
+  <Lit>Світло</Lit>
   <!-- EN: Brightly lit -->
   <LitBrightly>Яскраво освітлений</LitBrightly>
 
@@ -57,7 +57,7 @@
   <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>алкогольні напої</FoodTypeFlags_Liquor>
   <!-- EN: kibble -->
-  <FoodTypeFlags_Kibble>корм</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>комбікорм</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <!-- EN: awful -->
@@ -148,15 +148,15 @@
   <ContentSource_SteamWorkshop>Майстерня Steam</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
+  <!-- EN: no medical care -->
   <MedicalCareCategory_NoCare>Без медичної допомоги</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
+  <!-- EN: doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>Допомога лікаря, але без ліків</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Рослині ліки або гірші</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Індустріальні ліки або гірші</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
+  <!-- EN: herbal medicine or worse -->
+  <MedicalCareCategory_HerbalOrWorse>Рослинні ліки або гірші</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: industrial-tech medicine or worse -->
+  <MedicalCareCategory_NormalOrWorse>Промислові ліки або гірші</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: best quality medicine -->
   <MedicalCareCategory_Best>Найкращі ліки</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
@@ -165,7 +165,7 @@
   <!-- EN: Attack -->
   <HostilityResponseMode_Attack>Атакувати</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
-  <HostilityResponseMode_Flee>Бігти</HostilityResponseMode_Flee>
+  <HostilityResponseMode_Flee>Тікати</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
   <!-- EN: growing -->
@@ -177,19 +177,19 @@
 
   <!-- TechLevel -->
   <!-- EN: animal -->
-  <TechLevel_Animal>тварина</TechLevel_Animal>
+  <TechLevel_Animal>тваринний</TechLevel_Animal>
   <!-- EN: neolithic -->
-  <TechLevel_Neolithic>неоліт</TechLevel_Neolithic>
+  <TechLevel_Neolithic>неолітичний</TechLevel_Neolithic>
   <!-- EN: medieval -->
-  <TechLevel_Medieval>середньовіччя</TechLevel_Medieval>
+  <TechLevel_Medieval>середньовічний</TechLevel_Medieval>
   <!-- EN: industrial -->
-  <TechLevel_Industrial>промислове</TechLevel_Industrial>
+  <TechLevel_Industrial>промисловий</TechLevel_Industrial>
   <!-- EN: spacer -->
-  <TechLevel_Spacer>космічне</TechLevel_Spacer>
+  <TechLevel_Spacer>космічний</TechLevel_Spacer>
   <!-- EN: ultra -->
-  <TechLevel_Ultra>ультра</TechLevel_Ultra>
+  <TechLevel_Ultra>ультратехнологічний</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>архотех</TechLevel_Archotech>
+  <TechLevel_Archotech>архотехнологічний</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -204,6 +204,10 @@
   <PawnGenerationContext_PlayerStarter>стартові персонажі гравця</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>неігрові персонажі</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>Тремтіння камери</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
@@ -213,13 +217,31 @@
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Приручені (всі)</AnimalNameDisplayMode_TameAll>
   
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>Показувати ім'я мехів гравця</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>у бойовому режимі</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>завжди</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>Показувати зброю під портретом</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>Показувати зброю поселенців під їхніми портретами у верхній частині екрану</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>завжди</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>у бойовому режимі</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
   <Celsius>За Цельсієм</Celsius>
   <!-- EN: Fahrenheit -->
   <Fahrenheit>За Фаренгейтом</Fahrenheit>
   <!-- EN: Kelvin -->
-  <Kelvin>У кельвінах</Kelvin>
+  <Kelvin>У Кельвінах</Kelvin>
   
   <!-- Direction8Way -->
   <!-- EN: N -->
@@ -243,13 +265,13 @@
   <!-- EN: Never eats -->
   <DietCategory_NeverEats>Взагалі не їсть</DietCategory_NeverEats>
   <!-- EN: Herbivorous -->
-  <DietCategory_Herbivorous>Травоїдне</DietCategory_Herbivorous>
+  <DietCategory_Herbivorous>Травоїдний</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
-  <DietCategory_Dendrovorous>Деревоїдне</DietCategory_Dendrovorous>
+  <DietCategory_Dendrovorous>Деревоїдний</DietCategory_Dendrovorous>
   <!-- EN: Ovivorous -->
-  <DietCategory_Ovivorous>Яйцеїдне</DietCategory_Ovivorous>
+  <DietCategory_Ovivorous>Яйцеїдний</DietCategory_Ovivorous>
   <!-- EN: Omnivorous -->
-  <DietCategory_Omnivorous>Всеїдне</DietCategory_Omnivorous>
+  <DietCategory_Omnivorous>Всеїдний</DietCategory_Omnivorous>
   <!-- EN: Carnivorous -->
   <DietCategory_Carnivorous>Хижак</DietCategory_Carnivorous>
   <!-- EN: - -->
@@ -303,9 +325,9 @@
   <!-- EN: itchy -->
   <PainCategory_LowPain>свербить</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>поболює</PainCategory_MediumPain>
+  <PainCategory_MediumPain>болить</PainCategory_MediumPain>
   <!-- EN: painful -->
-  <PainCategory_HighPain>болісний</PainCategory_HighPain>
+  <PainCategory_HighPain>сильно болить</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
   <!-- EN: home faction -->

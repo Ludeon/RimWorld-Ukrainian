@@ -24,6 +24,10 @@
   <Owners>Власники</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Призначений колоніст</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>Uncomfortable room temperature</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>Unsafe room temperature</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Дата смерті: {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -248,8 +252,8 @@
   <CaravanAttacking>Атакує {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Пропонує подарунок {0}.</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>Торгує з {0}</CaravanTrading>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>Trading with {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Знято з мертвого.</WasWornByCorpse>
   <!-- EN: T -->
@@ -258,8 +262,14 @@
   <DeterioratingUnroofed>без даху</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>зовнішнє середовище</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>Деградує через</DeterioratingBecauseOf>
+  <!-- EN: raining -->
+  <DeterioratingRaining>raining</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>protected</Protected>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>Deteriorating</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>Will deteriorate in {0}.</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>Мапа</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -270,10 +280,10 @@
   <Room>Кімната</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>Краса тут</BeautyHere>
-  <!-- EN: No power -->
-  <NoPower>Немає живлення</NoPower>
-  <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>Штраф до швидкості роботи</WorkSpeedPenalty>
+  <!-- EN: no power -->
+  <NoPower>no power</NoPower>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>Work speed</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Вимкнено</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -330,6 +340,10 @@
   <SkillRequirements>Вимоги до навичок</SkillRequirements>
   <!-- EN: Products -->
   <Products>Результат</Products>
+  <!-- EN: Requires -->
+  <Requires>Requires</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>{0}x any of</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} з {1}</Relationship>
   <!-- EN: Prisoner -->
@@ -448,8 +462,8 @@
   <ViewHyperlink>Переглянути: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Днів до детонації: {0}</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
-  <ExplosionOnDamageWarning>Великий пожежний вибух у разі пошкодження</ExplosionOnDamageWarning>
+  <!-- EN: Large fire explosion if damaged. -->
+  <ExplosionOnDamageWarning>Large fire explosion if damaged.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Скупчення механоїдів</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -526,6 +540,26 @@
   <AttackToDestroy>Атакуйте це, щоб знищити.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Видаліть це, атакуючи його.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>Food</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>Ingredients</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>Shield pack</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>Punctured - will explode soon.</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>Click to open research window</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>Target belongs to another faction.</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>more</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>Requires</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>size</Size>
+  <!-- EN: cost -->
+  <Cost>cost</Cost>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -650,7 +684,54 @@
   <PenCapacityDesc>місткість {ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Приклад тварин</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>No exterior access - Animals cannot be moved in or out.</NoExteriorAccess>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>Beauty</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>Zone</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>Roof</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>Terrain</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>Snow</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>Walk speed</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>Fertility</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>Temperature</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>Light level</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>Biome</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>Hilliness</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>Road</Road_Label>
+  <!-- EN: River -->
+  <River_Label>River</River_Label> 
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>Movement difficulty</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>Pollution</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>Filth</Filth_Label>
+  
+  <!-- EN: Faction -->
+  <Faction_Label>Faction</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>Relationship</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>Colonists</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>Status</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>Time to destination</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -665,16 +746,18 @@
   <ApparelPreventsShooting>{PAWN_nameDef} не може використовувати дальнобійну зброю через {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>Snow</Snow>
   <!-- EN: No snow -->
   <SnowNone>Без снігу</SnowNone>
-  <!-- EN: Snow (dusting) -->
-  <SnowDusting>Сніг (присипало)</SnowDusting>
-  <!-- EN: Snow (thin) -->
-  <SnowThin>Сніг (тонкий)</SnowThin>
-  <!-- EN: Snow (medium) -->
-  <SnowMedium>Сніг (середній)</SnowMedium>
-  <!-- EN: Snow (thick) -->
-  <SnowThick>Сніг (товстий)</SnowThick>
+  <!-- EN: dusting -->
+  <SnowDusting>dusting</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>thin</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>medium</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>thick</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -691,6 +774,22 @@
   <ShellLoaded>Заряджений снаряд: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Не заряджено</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>Already active</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>Order activation</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>Order a colonist to activate {THING_definite}.</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>Must be activated by a colonist.</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>No nearby fire</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>No nearby fire. No fuel was used.</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>Choose who should activate this.</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>No fuel</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -735,6 +834,10 @@
   <ReportExtinguishingFireOn>гасить вогонь на {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>викопує труп.</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>being carried by {0_labelShort}.</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>inside {0_labelShort}.</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -817,8 +920,6 @@
   <PawnTitleDescWrap>{0} в {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} (підпорядковується {1})</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} (підпорядковується {1})\nДомашня фракція: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
@@ -853,12 +954,16 @@
   <State>Стан</State>
   <!-- EN: stun -->
   <StunLower>оглушення</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>Slowed by damage</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Виберіть наступну річ у тому самому квадраті.\n\n(*SectionTitle) Гаряча клавіша: (/SectionTitle) {0}\n\nВи також можете це зробити, натиснувши повільніше на той самий квадрат знову.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Переглянути інформацію.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -901,8 +1006,8 @@
   <Indoors>Всередині</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Без даху</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
-  <Outdoors>Зовні</Outdoors>
+  <!-- EN: outdoors -->
+  <Outdoors>outdoors</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -933,6 +1038,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Інгредієнти</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>The ingredients used to make this meal.</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>Dietary type</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>The type of meal produced. Some people have preferences for specific types of meals.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>тільки схожі продукти</OnlyStacksWithCompatibleMeals>
 
@@ -955,6 +1066,10 @@
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Дозріло.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>Average plant age</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>Oldest plant age</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>Сезон росту</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -975,6 +1090,10 @@
   <HarvestGerund>збирання</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>зрізання</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>Cut all blight</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads.</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1009,12 +1128,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Перемкнути видимість помічника навчання, коли він порожній.\n\nПомічник у навчанні завжди видно, якщо є активована концепція, яку потрібно вивчити. Цей перемикач прибирає помічника, якщо жодна концепція не активна.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Перемкнути видимість зон.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Перемикач відображення краси.\n\nПоказує красу світу, як її сприймає персонаж, який стоїть на місці вказівника миші.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>Показати/приховати статистику кімнати.\n\nПоказує статистику кімнати в кімнаті, на яку вказує миша.</ShowRoomStatsToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Відображення колоністської панелі.\n\nПоказує іконки і базовий стан всіх колоністів уверху екрану.\n\nВи можете посортувати колоністів на цій панелі клікнувши правою кнопкою миші і перетягнувши їх.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Перемкнути автоматичне розширення домашньої території навколо нових конструкцій.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1037,6 +1158,8 @@
   <ShowExpandingIconsToggleButton>Перемкнути збільшення іконок для далеких об'єктів.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Показувати назви форм рельєфу.</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death.</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1293,6 +1416,8 @@
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Навчальний помічник</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>In-game tutor that aims to teach you information about topics relevant to your colony's current state</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Позначити вивченим</MarkLearned>
   <!-- EN: Already learned -->
@@ -1319,10 +1444,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Розрахунок для: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Права кнопка миші: Додати/видалити точки.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Left trigger button: Add/remove waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Вийти з режиму планування.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Exit planning mode.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Повернутися до формування каравану.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Return to the caravan formation dialog.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Прибл. час подорожі: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1363,8 +1494,8 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Нервова напруга: {0} / {1}\nШвидкість  зниження: {2} / с ({3}с до нуля)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Fall rate: {0} / s ({1}s until zero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>Нервовий напруга збільшується після використання психічної сили. Перевищення норми може спричинити психічний зрив на кілька днів.\n\nНейронне напруга з часом розсіюється. Цей процес можна прискорити, якщо носити одяг з елтекса або відчувати біль.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1373,7 +1504,7 @@
   <PawnTooltipPsychicEntropyLimit>Змініть ліміт нервової напруги. Перевищення норми може призвести до психічного зриву найближчими днями. Це не призведе до непоправних наслідків.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Психофокус: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1496,6 +1627,14 @@
   <RitualFinished>{0} було завершено.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>закінчиться через {0}</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>Can start any time</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>Can start after event</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>Focus objects</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>Participating roles</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>Організатори</Organizers>
   <!-- EN: Quality factors -->
@@ -1510,6 +1649,8 @@
   <NotParticipating>Не бере участі</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Перетягніть або клацніть лівою/правою кнопкою миші, щоб перемістити людей.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>Drag and drop or click to move people.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Раб. Людська власність.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1542,6 +1683,8 @@
   <AbilityDisabledNoCapacity>{0_labelShort} не має можливості {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Усі, хто бере участь у ритуалі, отримують {0} настрій протягом {1} днів.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>This ritual has no quality offsets, so the best outcome is always expected</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>Виберіть, хто має брати участь у {RITUAL_labelDef}.</ChooseParticipants>
@@ -1575,6 +1718,10 @@
   <RitualPredictedOutcomeDescParticipantCount>Учасники</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>очікування {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>Loved one present</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>Any person that {PAWN_labelShort} considers their friend or more.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Будь-яке з цих</RitualOutcomeLabelAnyOfThese>
@@ -1601,6 +1748,16 @@
   <ThingOf>{0} з</ThingOf>
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0} з {1}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{0} of {1} and {2}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>blind smoke</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>tox gas</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>rot stink</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1613,5 +1770,33 @@
   <AbilityReadyLabel>Готова здатність: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} готовий до використання {1}.</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>{0_labelShort} is participating in {1}.</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>Charges</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>{0_nameDef} is in an aggressive mental state.</PawnIsInMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>Disabled work</DisabledWorkLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>change color</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>Change the color of the light.</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>You must research {0} to change light color.</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP.</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>{PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner.</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>Random</Random>
 
 </LanguageData>

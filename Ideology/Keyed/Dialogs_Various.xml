@@ -2,8 +2,6 @@
 <LanguageData>
 
   <!-- Misc -->
-  <!-- EN: add -->
-  <Add>додати</Add>
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>Бонус до продажу продуктів тваринного походження</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
@@ -14,6 +12,10 @@
   <Date>Побачення</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>В залежності від результату, скільки очок розвитку ви зможете отримати</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>Use global style</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>No style variations available</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Виберіть символічну структуру вашої ідеології. Це впливає тільки на символіку - не на геймплей.</ChooseStructureMemesInfo>
@@ -60,6 +62,8 @@
   <ChooseNewRole>Виберіть нову роль</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Ролі не призначені</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>Children cannot take on roles</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>Зняти роль: {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
@@ -164,8 +168,6 @@
   <LastHumanMeat>Останнє людське м'ясо</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>Через віру у {IDEO_name}, {PAWN_nameDef} засмутиться, якщо не буде їсти людське м'ясо довше {DURATION} днів.</LastHumanMeatDesc>
-  <!-- EN: Last large animal slaughter -->
-  <LastAnimalSlaughter>Останній забій великої тварини</LastAnimalSlaughter>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>Страта {PAWN_labelShort} негативно вплине на відносини з {FACTION_name}.</ExectueNeutralFactionSlave>
@@ -178,8 +180,6 @@
   <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>Стиль</StylePawn>
-  <!-- EN: Cancel -->
-  <Cancel>Скасувати</Cancel>
   <!-- EN: hair -->
   <Hair>зачіска</Hair>
   <!-- EN: beard -->
@@ -238,14 +238,8 @@
   <EditAppearanceItems>Змінити зовнішній вигляд</EditAppearanceItems>
   <!-- EN: {0} in use -->
   <NumAvailable>{0} використовується</NumAvailable>
-  <!-- EN: Expand all -->
-  <ExpandAllCategories>Розгорнути все</ExpandAllCategories>
-  <!-- EN: Collapse all -->
-  <CollapseAllCategories>Згорнути все</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>Повертає стиль усіх предметів по замовчуванню.</ResetButtonDesc>
-  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>Фарби можливо отримати, вирощуючи тинкторію або купляючи у торгівельників.</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -292,10 +286,14 @@
   <ConfirmDecisionsTitle>Підтвердити рішення</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>Космічний корабель, про який повідомив ШІ по імені (*Name)Шарлон Вайтстоун(/Name), полетить до моменту створення нового поселення. Покинути планету на цьому судні буде неможливо.</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>Нові власники поселення дозволять вам взити з собою тільки одну реліквію. Всі інші реліквії (включаючи ті, що вже носять поселенці) залишаться тут:</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>Ви впевнені, що бажаєте продовжити? Повернутись назад вже не вийде.</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>No relic was chosen to be brought to the new colony.</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>{0} out of a possible {1} items were selected to be brought to the new colony.</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including:</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>Would you like to proceed? Past this point, there's no going back.</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Прийняти</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -306,6 +304,8 @@
   <AbandonArchotechStructuresWarningDialog>Ви залишаєте місце, яке містить структури архотехів, які ви ще не повністю вивчили.\n\nВи зможете переселитися сюди пізніше, але ваша минула колонія буде знищена.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>Кількість {0}, яку можна взяти з собою у нове поселення.\n\nМаксимальна кількість - {1}</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>Your colony was sold. Its purchasers are ready for you to choose where to land next.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Злом {0} попередить ворогів і вони нападуть на вас. Ви дійсно хочете зламати {0}?</ConfirmHackEnenyTerminal>
@@ -313,4 +313,18 @@
   <!-- EN: Relics -->
   <RelicsSection>Реліквії</RelicsSection>
 
+  <!-- Food restrictions -->
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>Vegetarian</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>Carnivore</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>Cannibal</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>Insect meat</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>Styles in use</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>Add a style.</StyleCategoryAddDesc>
 </LanguageData>

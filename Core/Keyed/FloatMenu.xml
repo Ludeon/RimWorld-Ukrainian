@@ -45,6 +45,8 @@
   <CannotAttackSelf>неможна атакувати себе</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>неможна атакувати союзника</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>Incapable of firefighting.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Людина {1_labelShort}</OrderManThing>
@@ -74,8 +76,10 @@
   <NoMergeTarget>немає наявної стопки для згуртування</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>заповнено</AlreadyFilledLower>
-  <!-- EN: need material -->
-  <MissingMaterials>потрібен матеріал</MissingMaterials>
+  <!-- EN: missing {0} -->
+  <MissingMaterials>missing {0}</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>No medicine for restriction '{CATEGORY}'.</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>вміння нижче необхідного {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,14 @@
   <MissingRequiredSkillLevel>відсутній необхідний рівень вміння</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>тварина вже щойно взаємодіяла</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>interacted with too recently</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>немає придатної їжі</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>відсутня їжа</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>no food matching restrictions</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Немає {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -158,14 +166,24 @@
   <InstallImplantNotAllowedForNonColonists>не колоніст</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>вже встановлено</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>requires an existing {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>максимальний рівень</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>requires min level {0}</InstallImplantMinLevel><!-- text_todo -->
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>psychically deaf</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Оновіть {0} до рівня {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>наруга над членом дружньої фракції</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>в руках у {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>full</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>already assigned</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Вживати {1_labelShort}</ConsumeThing>
@@ -188,9 +206,15 @@
   <Capture>Захопити {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Неможливо захопити</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>unwaveringly loyal</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Рятувати {1_label}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>Put {1_label} somewhere safe</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>Taking {0_labelShort} to bed.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Неможливо врятувати</CannotRescue>
 
@@ -231,6 +255,8 @@
   <Incapable>нездатний</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>нездатний {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>Must have {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>мінімальний навик</MinSkill>
@@ -261,13 +287,15 @@
   <ReloadFull>Повністю заряджено</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостатньо для перезарядки</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>Cannot carry enough {AMMO_label} to reload 1 charge.</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
-  <CannotPickUp>Неможливо підібрати {1_label}</CannotPickUp>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUp>Cannot pick up {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Не можливо підібрати {1_label} (все)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Підібрати {1_label}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>Pick up {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Підібрати {1_label} (все)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -346,6 +374,8 @@
   <UseMedicalBed>Відпочивати до зцілення</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>не травмований</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>no doctor</NoDoctor><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>зайнятий {0}</SomeoneElseSleeping>
   
@@ -374,7 +404,7 @@
   <!-- EN: Approaching {0} -->
   <ApproachingSite>Наближається {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
-  <OfferGifts>Запропонувати подарунки</OfferGifts>
+  <OfferGifts>Віддаритися</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>Торгівля з {0}</TradeWithSettlement>
 
@@ -518,5 +548,14 @@
   <RepairThing>Ремонтувати {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Неможливо ремонтувати {0}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Cannot enter</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>Cannot romance {0}</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>Romance {0}</CanRomance>
+
 </LanguageData>

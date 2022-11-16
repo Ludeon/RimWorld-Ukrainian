@@ -7,9 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
-    <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
-    <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
+    <li>questDescription->[introduction], на ім'я [joiner_nameDef] кликче про допомогу. [joiner_pronoun] переслідують [enemyFaction_pawnsPlural] з [enemyFaction_name]!\n\n[joiner_pronoun] благає про захист і обіцяє приєднатися до вас в [map_definite].[joiner_relationInfo]\n\nЯкщо ви погодитеся, вам доведеться битися з  [enemyFaction_pawnsPluralDef], що у [joiner_possessive] на хвості. Група [enemyFaction_pawnsPlural] складається з: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] надто наляканий, щоб надати більше інформації.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_age]-річний [joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -39,7 +39,7 @@
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->біженець</li>
-    <li>runnerIndef(childCount==1,priority=1)->a child</li>
+    <li>runnerIndef(childCount==1,priority=1)->дитина</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} наздоганяє [../joiner_name>]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>

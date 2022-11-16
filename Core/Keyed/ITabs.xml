@@ -11,7 +11,7 @@
   <!-- EN: Training -->
   <TabTraining>Навчання</TabTraining>
   <!-- EN: Prisoner -->
-  <TabPrisoner>В'язень</TabPrisoner>
+  <TabPrisoner>Полонений</TabPrisoner>
   <!-- EN: Guest -->
   <TabGuest>Гість</TabGuest>
   <!-- EN: Gear -->
@@ -50,6 +50,8 @@
   <TabTransporterContents>Вміст</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Вміст</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>Auto-cut</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Визнаний винним (ще протягом {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Вважається винним</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>Last resistance reduction</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited.</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>Opinion of recruiter</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>Recruiter negotiation ability</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>Unwavering loyalty</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely.</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>Their loyalty extends to their beliefs and they cannot be converted.</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,10 +187,10 @@
   <WontBleedOutSoon>безпосередньої небезпеки немає</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Огляд</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Операції ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>Модифікації ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>Operations</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>Modifications</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Медичні операції</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>соціальні взаємодії</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Швидкість зголодніння</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>Food consumption</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Втома</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Передумови: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(немає відносин)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Викрадений(а)</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +272,10 @@
   <Slave>Раб</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Лідер фракції</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Думка {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>Думка {1_labelShort} про мене</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Opinion of {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>{0}'s opinion of me</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Я мертвий(а)</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -398,7 +417,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>Загін не замкнений</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>Загін не замкнений, автозрізання не працює.</AutocutUnenclosedPenTip>
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
+  <AutocutUnenclosedPenTip>Pen is not enclosed now, so auto-cut won't occur.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>Auto-cut plants blocking wind turbine</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

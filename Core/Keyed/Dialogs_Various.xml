@@ -13,24 +13,42 @@
   <Close>Закрити</Close>
   <!-- EN: Accept -->
   <Accept>Прийняти</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Cancel</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Reset</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Reset all</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Disable</Disable>
+  <!-- EN: Modify -->
+  <Modify>Modify</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Settle here anyways?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>add</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Cannot shoot</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld було оновлено з версії {0} до версії {1}.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>Це може зашкодити роботі збережених ігор та модифікацій зі старої версії.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>Це може зашкодити роботі збережень та модифікацій зі старої версії.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
-  <GameUpdatedToNewVersionSavesCompatible>Збережені ігри зі старої версії повинні бути сумісними, але модифікації можуть перестати працювати.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Збереження зі старої версії повинні бути сумісними, проте модифікації можуть перестати працювати.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>Оскільки ця копія гри не містить DRM, ви можете встановити її у дві окремі папки, щоб мати змогу грати і стару і нову версії.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>Оскільки ця копія гри не містить DRM, ви можете встановити її у дві окремі теки, щоб мати змогу грати і у стару, і у нову версії.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Якщо ви хочете продовжуввати грати у стару версію, ви можете це зробити за допомогою функції "Тестування" в Steam.\n\n  1. В бібліотеці Steam натисніть на RimWorld правою кнопкою миші.\n  2. Натисніть  "Властивості...".\n  3. Перейдіть у вкладку "Тестування".\n  4. Оберіть бажану версію з випадаючого списку.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
+  <GameUpdatedToNewVersionSteamController>If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>Відновлено від помилок несумісних чи пошкоджених модифікацій</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>Схоже, що деякі активні модифікації спричиняли помилки.\n\nВони були несумісні між собою, спроектовані для іншої версії гри, чи пошкоджені.\n\nВсі модифікації було деактивовано. Їх можна активувати знову через меню модифікацій.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Схоже, що деякі активні модифікації спричиняли помилки.\n\nВони були несумісні між собою, спроєктовані для іншої версії гри, чи пошкоджені.\n\nВсі модифікації було деактивовано. Їх можна активувати знову через меню модифікацій.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -38,7 +56,7 @@
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
   <ErrorWhileLoadingAssets>Сталася помилка при завантаженні ігрових ресурсів. Перегляньте журнал помилок для отримання додаткової інформації.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
-  <ErrorWhileLoadingAssets_ModsInfo>На даний момент у грі присутні модифікації - є вірогідність того, що вони можуть викликати збої та помилки.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>Наразі у грі присутні модифікації - є вірогідність того, що вони можуть викликати збої та помилки.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>Помилка при створенні мапи</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
@@ -52,7 +70,7 @@
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
   <ModsChanged>Список модифікацій було змінено. Гра автоматично перезавантажиться.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>Щось пішло не так при перезапуску гри. Гра не може повністю деактивувати код модифікацій, тому деякі модифікації все ще можуть працювати.\n\n Рекомендуємо негайно повністю перезавантажити гру для чистої активації модів.</FailedToRestart>
+  <FailedToRestart>Щось пішло не так при перезапуску гри. Гра не може повністю деактивувати код модифікацій, тому деякі модифікації все ще можуть працювати.\n\n Рекомендуємо повністю перезавантажити гру для правильної активації модифікацій.</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>Перезавантаження</Restarting>
   
@@ -64,9 +82,9 @@
   <!-- EN: Initializing interface -->
   <InitializingInterface>Ініціалізація інтерфейсу</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>Вивантаження незадіяних ресурсів</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Вивантаження незалучених ресурсів</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>Завантаження усіх активних модів</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Завантаження усіх активних модифікацій</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
   <LoadingDefs>Завантаження локалізації</LoadingDefs>
   <!-- EN: Loading assets -->
@@ -106,9 +124,9 @@
   <!-- EN: (Permadeath) -->
   <PermadeathModeSaveSuffix>(Незворотна смерть)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
-  <SaveIsFromDifferentGameVersion>Ми працюємо з версією {0}, але дані збереження взяті з {1}, що є зовсім іншою версією.\n\nСпроба завантажити ці дані, ймовірно, буде марною.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Ми працюємо з версією {0}, але дані збереження взяті з {1}, яка є зовсім іншою версією.\n\nСпроба завантажити ці дані, ймовірно, буде марною.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
-  <SaveIsFromDifferentGameBuild>Ми працюємо з версією {0}, але дані збереження взяті з {1}, що є іншим білдом.\n\nСпроба завантажити ці дані має шанс спрацювати.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromDifferentGameBuild>Ми працюємо з версією {0}, але дані збереження взяті з {1}, яка є зовсім іншою збіркою.\n\nСпроба завантажити ці дані має шанс спрацювати.</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Дані були збережені поточною версією гри й мають працювати без проблем.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
@@ -120,7 +138,7 @@
   <!-- EN: Load mod list from save -->
   <ChangeLoadedMods>Завантажити моди з файлу збереження</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>Деякі моди відсутні, тому їх треба спершу встановити</MissingMods>
+  <MissingMods>Деякі модифікації відсутні, тому їх треба спершу встановити</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>Офіційний контент</OfficialContent>
   <!-- EN: Active -->
@@ -161,10 +179,28 @@
   <ZoneGainsName>Ця зона тепер називається {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>Chosen name is invalid.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Прізвисько цієї особи тепер {0}. {PAWN_possessive} спеціалізація - {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Кличка цієї тварини відтепер {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>rename person</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>mother</Mother>
+  <!-- EN: father -->
+  <Father>father</Father>
+  <!-- EN: unknown -->
+  <Unknown>unknown</Unknown>
+  <!-- EN: first name -->
+  <FirstName>first name</FirstName>
+  <!-- EN: nickname -->
+  <NickName>nickname</NickName>
+  <!-- EN: last name -->
+  <LastName>last name</LastName>
+  <!-- EN: suggested -->
+  <Suggested>suggested</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -174,11 +210,15 @@
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
   <WorldFileVersionMismatch>Файл світу був створений у версії гри {0}\nМи використовуємо версію гри {1}\n\nЗавантаження цього світу може викликати помилки і збої. Вам слід згенерувати новий світ з початку.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
-  <FileIncompatibleWarning>Цей файл був збережений у версії гри {0}\nМи використовуємо версію гри {1}\n\nЗавантаження цього файлу може викликати помилки і збої.</FileIncompatibleWarning>
+  <FileIncompatibleWarning>Цей файл був збережений у версії гри {0}\nМи використовуємо версію гри {1}\n\nЗавантаження цього файлу може викликати помилки та збої.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
-  <ModsMismatchWarningTitle>Невідповідність модів</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
-  <ModsMismatchWarningText>Цей файл було збережено з використанням іншого набору модифікацій ніж активні зараз. Це може не викликати жодних проблем, залежно від того, на що впливають ці модифікації.\n\nФайли було збережено з такими модами (в такому порядку):\n\n{0}\n\nЗараз список модів виглядає так:\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningTitle>Невідповідність модифікацій</ModsMismatchWarningTitle>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
+  <ModsMismatchWarningText>This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>No mods have been added or removed, but the order of your mod list has changed.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Are you sure you want to load the mod list from this save file?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -191,12 +231,24 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Ви дійсно хочете назавжди вимкнути режим розробника на цьому комп'ютері?\n\nЦей варіант для людей, які хочуть зіграти в чисту гру без спокуси використання інструментів для розробки, щоб отримати перевагу в грі.\n\nРежим розробки можна повторно включити, але це вимагає ручного редагування конфігураційних файлів. Можливо доведеться пошукати в інтернеті як саме це зробити.</ConfirmPermanentlyDisableDevMode>
-  
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Must include exactly {SUMMARY}</SelectedCharactersMustInclude>
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Попередження: Ви приземлитесь у холодному середовищі. Може бути складно або майже неможливо вижити. Якщо ви не збираєтеся кинути собі виклик, виберіть інше місце або сезон.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Гра продумувалась для гри на середньому розмірі мапи. Цей розмір дає вдосталь простору!\n\nБільші розміри мапи не просто впливають на швидкодію - вони можуть зламати аспекти ігрового дизайну. Штучний інтелект буде робити дурниці і ігровий баланс буде порушено у багатьох аспектах. Ці розміри доступні за традицією та для тестування, будь-ласка, не використовуйте їх без особливої причини.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Гра продумувалась, щоб грати на середньому розмірі мапи. Цей розмір дає вдосталь простору!\n\nБільші розміри мапи не просто впливають на швидкодію - вони можуть зламати аспекти ігрового дизайну. Штучний інтелект буде робити дурниці і ігровий баланс буде порушено у багатьох аспектах. Ці розміри доступні за традицією та для тестування, будь-ласка, не використовуйте їх без особливої причини.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Розмір мапи</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -252,14 +304,14 @@
   <WorkAmount>Обсяг роботи</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Мінімальні навички:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
-  <BillRequires>Необхідно {0} {1}</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>Необхідно {0} поживності</BillRequiresNutrition>
+  <!-- EN: Requires -->
+  <BillRequires>Requires</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>nutrition</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Примітка: інгредієнти, що вимірюються малими об'ємами, як золото, потребують у {0} раз більше.</BillRequiresMayVary>
+  <BillRequiresMayVary>Примітка: інгредієнти, що вимірюються малими об'ємами, такі як золото, потребують у х{0} раз більше.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Цей інгредієнт вимірюється малими об'ємами. Це означає, що кожна "одиниця" в {0} разів менша, ніж у інгредієнта, що вимірюється типовим об'ємом. Тому, щоб заповнити таку ж потребу у інгредієнті, вам необхідно в {0} разів більше, ніж зазвичай.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Цей інгредієнт вимірюється малими об'ємами. Це означає, що кожна "одиниця" у {0} разів менша, ніж в інгредієнта, що вимірюється типовим об'ємом. Тому, щоб заповнити таку ж потребу в інгредієнті, вам необхідно в {0} разів більше, ніж зазвичай.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>інгредієнти</UsableIngredients>
   <!-- EN: To {0} -->
@@ -283,7 +335,7 @@
   <!-- EN: Look everywhere -->
   <IncludeFromAll>Шукати всюди</IncludeFromAll>
   <!-- EN: Look in {0} -->
-  <IncludeSpecific>Шукати в радіусі {0}</IncludeSpecific>
+  <IncludeSpecific>Шукати в області {0}</IncludeSpecific>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -309,17 +361,17 @@
   <!-- EN: Burst shot count -->
   <BurstShotCount>Пострілів в черзі</BurstShotCount>
   <!-- EN: Warmup -->
-  <WarmupTime>Розігрів</WarmupTime>
+  <WarmupTime>Підготовка</WarmupTime>
   <!-- EN: Melee warmup -->
-  <MeleeWarmupTime>Розмах в ближньому бою</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Розігрів в дальньому бою</RangedWarmupTime>
+  <MeleeWarmupTime>Підготовка в ближньому бою</MeleeWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>Aiming time</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Час відновлення</CooldownTime>
   <!-- EN: Disarmed -->
   <DisarmedTime>Знешкодження</DisarmedTime>
   <!-- EN: Charging -->
-  <ChargingTime>Зарядження</ChargingTime>
+  <ChargingTime>Заряджається</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
   <ChargingNext>Наступне перезаряджання (для {1}) в: {0}\nЦикл зарядки: {2}</ChargingNext>
   <!-- EN: Shut down -->
@@ -329,13 +381,13 @@
   <!-- EN: Range -->
   <Range>Дальність</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>Зупиняюча сила</StoppingPower>
+  <StoppingPower>Зупиняюча здатність</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Попадання з цієї зброї похитнуть ціль, сповільнюючи її рух на декілька секунд. \n\nЦілі, що мають тіло розміром більше, ніж зупиняюча сила, не будуть сповільнені.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Попадання з цієї зброї похитнуть ціль, сповільнюючи її рух на декілька секунд. \n\nЦілі, що мають тіло розміром більше, ніж зупиняюча здатність, не будуть сповільнені.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Шанс прямого попадання</DirectHitChance>
   <!-- EN: Miss radius -->
-  <MissRadius>Радіус промаху</MissRadius>
+  <MissRadius>Радіус розкиду</MissRadius>
   <!-- EN: Grows wild -->
   <GrowsWild>Зростає в дикій природі</GrowsWild>
   <!-- EN: Harvestable -->
@@ -351,7 +403,7 @@
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>Максимальна температура для росту</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>Рослини ростуть тільки частину дня, і тільки коли освітлені.\n\nЦя статистика вимірює час, який потрібен рослині, щоб дорости до її спілого розміру.\nФактичний реальний час зростання буде приблизно в два рази довший.\nНизькі температури також сповільнюють ріст рослин.</GrowingTimeDesc>
+  <GrowingTimeDesc>Рослини ростуть тільки у певну частину дня, і тільки коли освітлені.\n\nЦя статистика вимірює час, який потрібен рослині, щоб дорости до її зрілого розміру.\nРеальний час зростання буде приблизно у два рази довший.\nНизькі температури також сповільнюють ріст рослин.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>днів</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -377,7 +429,7 @@
   <!-- EN: Min. food quality -->
   <MinFoodQuality>Мін. якість їжі</MinFoodQuality>
   <!-- EN: Diet -->
-  <Diet>Дієта</Diet>
+  <Diet>Харчування</Diet>
   <!-- EN: Nutrition need per day -->
   <NutritationEatenPerDay>Норма харчування на день</NutritationEatenPerDay>
   <!-- EN: Leather type -->
@@ -399,7 +451,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Ефективність укриття</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>Наскільки цей об'єкт ефективний в якості укриття під час перестрілки.\n\nЧим вищий відсоток, тим більше пострілів блокуватиметься.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>Наскільки цей об'єкт ефективний у якості укриття під час перестрілки.\n\nЧим вищий відсоток, тим більше пострілів блокуватиметься.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Множник приросту досвіду</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -432,8 +484,12 @@
   <ToleranceFallRate>Зниження толерантності за дозу</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Мінімальна толерантність для залежності</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
-  <SafeDoseInterval>Інтервал безпечного прийому</SafeDoseInterval>
+  <!-- EN: Safe dose interval for adults -->
+  <SafeDoseInterval>Safe dose interval for adults</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>age {0}-{1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>age {0}+</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Шанс отримання залежності</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -489,15 +545,17 @@
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Шанс нападу за невдале приручення</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
-  <TerrainRequirement>Вимога до місцевості</TerrainRequirement>
+  <TerrainRequirement>Вимога до ґрунту</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>Витримує</Supports>
   <!-- EN: Trap armor penetration -->
   <TrapArmorPenetration>Пробиття броні пасткою</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>Вартість перезарядки</RearmCost>
-  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
-  <RearmCostExplanation>Ресурси, необхідні для перезарядки цієї турелі (залежить від складності).</RearmCostExplanation>
+  <!-- EN: Resources needed to rearm this turret -->
+  <RearmCostExplanation>Resources needed to rearm this turret</RearmCostExplanation>
+  <!-- EN: affected by difficulty -->
+  <RearmCostExplanationDifficulty>affected by difficulty</RearmCostExplanationDifficulty>
   <!-- EN: Shots before rearm -->
   <ShotsBeforeRearm>Пострілів до перезарядки</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
@@ -505,7 +563,7 @@
   <!-- EN: Power consumption -->
   <PowerConsumption>Споживання електроенергії</PowerConsumption>
   <!-- EN: Target -->
-  <Target>Ціль</Target>
+  <Target>Можливі цілі</Target>
   <!-- EN: The types of targets on which this ability can be used. -->
   <AbilityTargetDesc>Види цілей, на яких можна використовувати цю здібність.</AbilityTargetDesc>
   <!-- EN: human -->
@@ -513,7 +571,7 @@
   <!-- EN: animal -->
   <TargetAnimal>тварина</TargetAnimal>
   <!-- EN: self -->
-  <TargetSelf>на себе</TargetSelf>
+  <TargetSelf>ініціатор</TargetSelf>
   <!-- EN: ground -->
   <TargetGround>земля</TargetGround>
   <!-- EN: Click to learn more. -->
@@ -524,8 +582,8 @@
   <MeditationFocuses>тип фокусу медитації</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Вмикає типи фокусу медитацій</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>Види фокусу медитації, які може використовувати ця особа. Медитуючи, особа може фокусуватись на об'єкт, щоб збільшити швидкість набору пси-фокусу, але тільки якщо цей об'єкт має тип фокусу який підходить цій особі. Вид медитації залежить від минулого, характеру, позиції в суспільстві тощо.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Типи фокусу медитації які дає цей об'єкт. Медитуючи, особа може фокусуватись на цьому об'єкті для збільшення швидкості набору пси-фокусу, але тільки якщо вони можуть використовувати один з типів, які дає цей об'єкт. Вид медитації залежить від минулого, характеру, позиції в суспільстві тощо.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
@@ -547,17 +605,17 @@
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
-  <PositiveBuysNegativeSells>Додатні числа купівля.\nВід'ємні числа продаж.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Додатні числа для купівлі.\nВід'ємні числа для продажу.</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
-  <BuyPriceDesc>Ціна, яку ви платите, щоб купити це.</BuyPriceDesc>
+  <BuyPriceDesc>Ціна, за якою можна купити товар.</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
-  <SellPriceDesc>Ціна, яку ви отримаєте при продажу цього.</SellPriceDesc>
+  <SellPriceDesc>Ціна, за яку ви можете продати цей товар.</SellPriceDesc>
   <!-- EN: For this item, this price is {0}. -->
-  <PriceTypeDesc>Для цього предмету ціна {0}.</PriceTypeDesc>
+  <PriceTypeDesc>Ціна для цього предмета {0}.</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
-  <ColonyCount>Скільки з цього предмету колонія готова продати.\n\nВи можете продавати предмети орбітальним торговцям тільки якщо вони знаходяться поблизу маяка орбітальної торгівлі.</ColonyCount>
+  <ColonyCount>Кількість товару, яку колонія має для продажу.\n\nВи можете продавати предмети орбітальним торговцям тільки якщо вони знаходяться поблизу маяка орбітальної торгівлі.</ColonyCount>
   <!-- EN: How many of this item the trader has to trade. -->
-  <TraderCount>Скільки цього купець може продати.</TraderCount>
+  <TraderCount>Кількість товару, яку продавець має для продажу.</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>Прийняти</AcceptButton>
   <!-- EN: Load selected -->
@@ -571,11 +629,11 @@
   <!-- EN: Your tradeable silver: {0} -->
   <YourTradeableSilver>Ваше срібло для торгівлі: {0}</YourTradeableSilver>
   <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
-  <YourTradeableSilverTip>Торгувати можна тільки за срібло, яке знаходиться поблизу маяка орбітальної торгівлі та не під дахом.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Торгувати можна лише тим сріблом, яке знаходиться поблизу маяка орбітальної торгівлі та не під дахом.</YourTradeableSilverTip>
   <!-- EN: Trader has no more. -->
-  <TraderHasNoMore>У купця більше немає.</TraderHasNoMore>
+  <TraderHasNoMore>У купця більше немає товару для продажу.</TraderHasNoMore>
   <!-- EN: No more to sell. -->
-  <ColonyHasNoMore>Більше не продати.</ColonyHasNoMore>
+  <ColonyHasNoMore>Більше нема чого продати.</ColonyHasNoMore>
   <!-- EN: Trader is not willing to buy this. -->
   <TraderWillNotTrade>Купець не бажає це купувати.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
@@ -583,9 +641,9 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Дипломат: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Ваш дипломат {1_labelShort} не може говорити належним чином через погане самопочуття.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Ваш дипломат {1_labelShort} має проблеми з мовою.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Ваш дипломат {1_labelShort} не може чути належним чином через погане самопочуття.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Ваш дипломат {1_labelShort} має проблемі зі слухом.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Це вплине на ціни при торгівлі.\n\nСпробуйте використати здоровішого колоніста для перемовин.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -603,19 +661,19 @@
   <!-- EN: difficulty level -->
   <DifficultyLevel>рівень складності</DifficultyLevel>
   <!-- EN: global post-process curve -->
-  <PostCurve>глобальна крива постобробки</PostCurve>
+  <PostCurve>інтерполяція</PostCurve>
   <!-- EN: Your negotiator bonus -->
-  <YourNegotiatorBonus>Ваш бонус дипломатії</YourNegotiatorBonus>
+  <YourNegotiatorBonus>Бонус дипломата</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
-  <TradeWithFactionBaseBonus>Бонус за торгівлю з базою фракції</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>Бонус за торгівлю з фракцією</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
-  <JoinsAsSlave>Приєднується в якості раба</JoinsAsSlave>
+  <JoinsAsSlave>Приєднується у якості раба</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>Приєднується в якості колоніста</JoinsAsColonist>
+  <JoinsAsColonist>Приєднується у якості колоніста</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
-  <JoinsAsSlaveDesc>Якщо купити, ця особа приєднається до вашої колонії в якості раба.</JoinsAsSlaveDesc> <!--  -->
+  <JoinsAsSlaveDesc>Якщо купити, ця особа приєднається до вашої колонії у якості раба.</JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>Якщо купити, ця особа приєднається до вашої колонії в якості колоніста.</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>Якщо купити, ця особа приєднається до вашої колонії у якості колоніста.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
   <TradingDrugsBonus>Бонуси за торгівлю наркотиками</TradingDrugsBonus>
   <!-- EN: minimum -->
@@ -625,7 +683,7 @@
   <!-- EN: Gift mode - offer gifts to {0}. -->
   <GiftModeTip>Режим подарунка - пропонуйте подарунки {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
-  <TradeModeTip>Повернутися в режим торгівлі.</TradeModeTip>
+  <TradeModeTip>Повернутися до режиму торгівлі.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} не бажає відправляти караван, тому що {NEGOTIATOR_nameDef} не має належного титулу {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
@@ -633,9 +691,9 @@
   <!-- EN: Things this trader will buy -->
   <SellableItemsTitle>Речі, які цей купець хоче придбати</SellableItemsTitle>
   <!-- EN: Never visited - stock unknown -->
-  <TraderNotVisitedYet>Ніколи не відвідувався - наявність невідома</TraderNotVisitedYet>
+  <TraderNotVisitedYet>Ніколи не відвідувався - список товарів невідомий</TraderNotVisitedYet>
   <!-- EN: Restocked since your last visit -->
-  <TraderRestockedSinceLastVisit>Оновився після вашого останнього відвідування</TraderRestockedSinceLastVisit>
+  <TraderRestockedSinceLastVisit>Список товарів оновився після вашого останнього відвідування</TraderRestockedSinceLastVisit>
   <!-- EN: Next restock: {0} days -->
   <NextTraderRestock>Наступне оновлення: {0} днів</NextTraderRestock>
   <!-- EN: Creatures -->
@@ -673,31 +731,31 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Включає запаковані речі та вагу спорядження. Навантаження менше максимального дає бонус до швидкості.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>Видимість це те, наскільки ваш караван помітний.\n\nВін множить шанс, що ваш караван буде перехоплений ворогами.\n\nВидимість не впливає на здатність знайти речі, які вам потрібні.\n\nВидимість ґрунтується на загальному розмірі тіл всіх людей і тварин у каравані.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>Помітність - це наскільки легко ваш караван виявити.\n\nПомітність не впливає на здатність знайти речі, які вам потрібні.\n\nПомітність ґрунтується на загальному розмірі тіл всіх людей і тварин у каравані.\n\nЧим більше це значення, тим більша ймовірність нападу на караван.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
-  <DaysWorthOfFood>Днів харчування</DaysWorthOfFood>
+  <DaysWorthOfFood>Запас їжі</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>зіпсується через {0}</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>згниє через {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
-  <InfiniteDaysWorthOfFoodInfo>Необмежено</InfiniteDaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Необмежений</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Приблизна кількість днів до моменту, коли мінімум одна людина чи тварина в каравані залишиться без їжі. Різні види потребують різної дієти, тобу якийсь тип харчів може закінчитись раніше інших. Ця величина обраховується точніше, після вибору маршруту.\n\nНа це впливає:\n - Поточний інвентар колоніста\n - Тип і кількість їжі в каравані\n - Члени караванута їх дієти\n - Можливість збору дикої їжі\n - Чи зможуть тварини пастись\n - Як швидко псується їжа\n - В спеку їжа псується швидше</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>Приблизна кількість днів до моменту, коли мінімум одна людина чи тварина в каравані залишиться без їжі. Різні види потребують різної дієти, тому якийсь тип харчів може закінчитись раніше інших. Ця величина вбраховується точніше, після вибору маршруту.\n\nНа це впливає:\n - Поточний інвентар колоніста\n - Тип та кількість їжі в каравані\n - Члени каравану та їх дієти\n - Можливість збору дикої їжі\n - Чи зможуть тварини пастись\n - Як швидко псується їжа\n - В спеку їжа псується швидше</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(враховується лише перша точка шляху)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
-  <DaysWorthOfFoodWarningDialog>Ваш караван має їжі лише на {0} днів та швидко стане почне голодувати.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Ваш караван має їжі лише на {0} днів та швидко почне голодувати.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
-  <DaysWorthOfFoodDietWarningDialog>Дієти деяких осіб не дозволяють їм їсти більшість їжі у вашому каравані. Якщо їм доведеться порушити дієту через голод, вони будуть невдоволені.</DaysWorthOfFoodDietWarningDialog>
+  <DaysWorthOfFoodDietWarningDialog>Дієти деяких осіб не дозволяють їм їсти більшість їжі у вашому каравані. Якщо їм доведеться порушити дієту через голод, вони будуть незадоволені.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Ваш караван не має їжі, він дуже швидко зголодніє.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
   <ForagedFoodPerDayTip>Середня кількість їжі на день, яку ваші люди можуть збирати. Це значення буде змінюватися під час подорожі біомами з різними показниками врожайності.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
-  <ForagedFoodPerDay>Збору за день</ForagedFoodPerDay>
+  <ForagedFoodPerDay>Збір за день</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>Значна частина їжі в каравані скоро зіпсується і буде непридатною.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>Значна частина їжі в каравані скоро зіпсується та буде непридатною.</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
-  <CaravanIncapableOfSocial>В каравані немає осіб, здатних до переговорів або торгівлі.</CaravanIncapableOfSocial>
+  <CaravanIncapableOfSocial>В каравані немає осіб, які здатні до переговорів або торгівлі.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
   <CaravanAreYouSure>Ви впевнені, що хочете сформувати цей караван?</CaravanAreYouSure>
   <!-- EN: You must choose a route for the caravan first. -->
@@ -711,13 +769,13 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>Кількість днів, допоки цей предмет не почне псуватись, виходячи з середньої температури у цій зоні.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>Скільки харчування забезпечить ця їжа.\n\nДля довідки: для дорослої людини потрібно {0} харчування на день.</ItemNutritionTip>
+  <ItemNutritionTip>Скільки поживності забезпечить ця їжа.\n\nДля довідки: для дорослої людини потрібно {0} одиниць на день.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
   <AnimalCanGrazeTip>Ця тварина може пастися у навколишньому середовищі, замість того, щоб їсти запаси їжі. Випас тварин можливий лише в деяких біомах і діапазонах температур.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>Харчова цінність того, що можна зібрати за день. На фактичну кількість зібраного також впливає придатність біома до збору.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Кількість харчів, що можна зібрати за день. На фактичну кількість зібраного також впливає придатність біомів до збору.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
-  <NutritionEatenPerDayTip>Поживності з'їдається протягом дня. Для довідки, прості страви мають {0} поживності.</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>Скільки їжі з'їдається протягом дня. Для довідки, прості страви мають {0} поживності.</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
   <CanEat>Можуть їсти</CanEat>
   <!-- EN: Legend -->
@@ -741,7 +799,7 @@
   <!-- EN: Colonists -->
   <ColonistsSection>Колоністи</ColonistsSection>
   <!-- EN: Prisoners -->
-  <PrisonersSection>В'язні</PrisonersSection>
+  <PrisonersSection>Полонені</PrisonersSection>
   <!-- EN: Capture -->
   <CaptureSection>Захопити</CaptureSection>
   <!-- EN: Animals -->
@@ -755,13 +813,13 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>Швидкість руху</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>клітинок/день</TilesPerDay>
+  <TilesPerDay>клітин/день</TilesPerDay>
   <!-- EN: None - too heavy -->
-  <TilesPerDayImmobile>Стоїмо - надто важке</TilesPerDayImmobile>
+  <TilesPerDayImmobile>Відсутня - надто важке</TilesPerDayImmobile>
   <!-- EN: None -->
   <TilesPerDayImmobileShort>Стоїмо</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>На швидкість пересування впливає маса вантажу, осідлані тварини та складності пересування місцевістю.</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>На швидкість руху впливає маса вантажу, осідлані тварини та складності пересування місцевістю.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>Тварини зможуть пастися</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
@@ -786,6 +844,8 @@
   <TotalBodySize>Сумарний розмір тіл</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Автоматично обрати необхідне для подорожі</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>This animal is sick. It is suffering from the following illnesses</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -797,7 +857,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>Ви впевнені, що хочете атакувати {0}?\n\nЦе зробить {1} ворожими до вас, і, врешті-решт, вони почнуть нападати на вашу колонію!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>Ви впевнені, що хочете атакувати {0}?\n\nЦе зробить {1} ворожими до вас і вони почнуть нападати на вашу колонію!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -851,17 +911,17 @@
   
   <!-- Outfit management -->
   <!-- EN: Outfit -->
-  <Outfit>Вбрання</Outfit>
+  <Outfit>Одяг</Outfit>
   <!-- EN: Select outfit... -->
-  <SelectOutfit>Обрати вбрання...</SelectOutfit>
+  <SelectOutfit>Обрати набір...</SelectOutfit>
   <!-- EN: New outfit -->
-  <NewOutfit>Нове вбрання</NewOutfit>
+  <NewOutfit>Новий набір</NewOutfit>
   <!-- EN: Delete outfit... -->
-  <DeleteOutfit>Видалити вбрання...</DeleteOutfit>
+  <DeleteOutfit>Видалити набір...</DeleteOutfit>
   <!-- EN: Outfit is in use by {0}. -->
-  <OutfitInUse>Вбрання використовується {0}.</OutfitInUse>
+  <OutfitInUse>Цей набір використовується {0}.</OutfitInUse>
   <!-- EN: No outfit selected -->
-  <NoOutfitSelected>Не вибрано вбрання</NoOutfitSelected>
+  <NoOutfitSelected>Набір одягу не вибрано</NoOutfitSelected>
   
   <!-- Drug policy management -->
   <!-- EN: Drug policy -->
@@ -883,13 +943,13 @@
   <!-- EN: Drug -->
   <DrugColumnLabel>Препарат</DrugColumnLabel>
   <!-- EN: Usage -->
-  <DrugUsageColumnLabel>Використання</DrugUsageColumnLabel>
+  <DrugUsageColumnLabel>Прийом</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>Частота</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
   <MoodThresholdColumnLabel>Якщо настрій нижче за</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
-  <JoyThresholdColumnLabel>Якщо потреба у дозвіллі нижча за</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Якщо дозвілля нижча за</JoyThresholdColumnLabel>
   <!-- EN: Keep in inventory -->
   <TakeToInventoryColumnLabel>Зберігати при собі</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
@@ -901,7 +961,7 @@
   <!-- EN: Every {0} days -->
   <EveryDays>Кожні {0} днів</EveryDays>
   <!-- EN: Any -->
-  <NoDrugUseRequirement>Будь-які</NoDrugUseRequirement>
+  <NoDrugUseRequirement>Будь-який</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
   <DeleteDrugTooltip>Видалити цей препарат.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
@@ -913,47 +973,51 @@
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
   <MoodThresholdColumnDesc>Колоністи прийматимуть цей препарат лише якщо рівень настрою нижче цього порогу.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>Колоністи прийматимуть цей препарат лише якщо рівень потреба у дозвіллі нижче цього порогу.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Колоністи прийматимуть цей препарат лише якщо рівень дозвілля нижче цього порогу.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>Скільки препарату колоніст братиме з собою для споживання, коли поповнюватиме свої запаси на складі, щоб не ходити на склад щоразу.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForAddiction>Для залежностей\n\nВикористовувати цей препарат для підживлення існуючих залежностей.\n\nНавіть якщо це вимкнено, певні особливості характеру або нервові зриви можуть змусити персонажа вжити препарат.</DrugUsageTipForAddiction>
+  <DrugUsageTipForAddiction>Для залежностей\n\nВикористовувати цей препарат для підживлення існуючих залежностей.\n\nНавіть якщо це вимкнено, певні риси характеру або нервові зриви можуть змусити персонажа вжити препарат.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
-  <DrugUsageTipForJoy>Для дозвілля\n\nВикористовувати цей препарат з метою відпочинку і соціалізації.\n\nНавіть якщо це вимкнено, певні особливості характеру або нервові зриви можуть змусити персонажа вжити препарат.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>Для дозвілля\n\nВикористовувати цей препарат з метою відпочинку і соціалізації.\n\nНавіть якщо це вимкнено, певні риси характеру або нервові зриви можуть змусити персонажа вжити препарат.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
-  <DrugUsageTipScheduled>За графіком\n\nВикористовувати цей препарат за визначеним графіком, за виконання всіх інших умов.</DrugUsageTipScheduled>
+  <DrugUsageTipScheduled>За графіком\n\nВикористовувати цей препарат за визначеним графіком, якщо виконуються всіх інші умови.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
-  <FoodRestriction>Обмеження дієти</FoodRestriction>
+  <FoodRestriction>Дієта</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>Food</FoodRestrictionShort>
   <!-- EN: Lavish -->
-  <FoodRestrictionLavish>Вишукане</FoodRestrictionLavish>
+  <FoodRestrictionLavish>Вишукана</FoodRestrictionLavish>
   <!-- EN: Fine -->
-  <FoodRestrictionFine>Хороше</FoodRestrictionFine>
+  <FoodRestrictionFine>Хороша</FoodRestrictionFine>
   <!-- EN: Simple -->
-  <FoodRestrictionSimple>Просте</FoodRestrictionSimple>
+  <FoodRestrictionSimple>Проста</FoodRestrictionSimple>
   <!-- EN: Paste -->
   <FoodRestrictionPaste>Паста</FoodRestrictionPaste>
   <!-- EN: Raw -->
-  <FoodRestrictionRaw>Сире</FoodRestrictionRaw>
+  <FoodRestrictionRaw>Сира</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Нічого</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Вибрати обмеження дієти</SelectFoodRestriction>
+  <SelectFoodRestriction>Вибрати дієту</SelectFoodRestriction>
   <!-- EN: New food restriction -->
-  <NewFoodRestriction>Нове обмеження</NewFoodRestriction>
+  <NewFoodRestriction>Нова дієта</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Видалити обмеження</DeleteFoodRestriction>
+  <DeleteFoodRestriction>Видалити дієту</DeleteFoodRestriction>
   <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>Немає обраних обмежень</NoFoodRestrictionSelected>
+  <NoFoodRestrictionSelected>Немає обраних дієт</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Default medicine settings</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Стандарт</MedGroupDefaults>
   <!-- EN: Colonist -->
   <MedGroupColonist>Колоніст</MedGroupColonist>
   <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>Ув'язнений колоніст</MedGroupImprisonedColonist>
+  <MedGroupImprisonedColonist>Полонений</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
   <MedGroupColonyAnimal>Тварина колонії</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
@@ -977,7 +1041,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Деякі тварини чи в'язні намагаються приєднатись до цього каравану. Якщо ви його перемістите їм це не вдасться.\n\nТварини, в'язні і непритомні колоністи, що залишились без жодного притомного колоніста вважаються покинутими і можуть бути захоплені ворогом.\n\nВи впевнені, що хочете почати рух каравану?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Деякі тварини чи полонені намагаються приєднатись до цього каравану. Якщо ви його перемістите їм це не вдасться.\n\nТварини, полонені та непритомні колоністи, що залишились без жодного притомного колоніста вважаються покинутими і можуть бути захоплені ворогом.\n\nВи впевнені, що хочете почати рух каравану?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
@@ -996,8 +1060,8 @@
   <ConfirmSendNotCompletelyLoadedPods>Група капсул не завантажена повністю. Не завантажено {1_labelShort}. Все-одно запустити?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Оскільки це місце знаходиться в межах {0} клітинок від бази іншої фракції, вони сприймуть це як зазіхання на їх землі. Тому відносини з цими фракціями будуть погіршуватись кожні {1} днів.\n\nПоселитись незважаючи?</ConfirmSettleNearFactionBase>
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
+  <ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1014,6 +1078,8 @@
   <ConfirmCancelMonumentMarker>Ви дійсно хочете видалити цей маркер монумента?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Cannot use {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Потребує прямої видимості</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1028,16 +1094,18 @@
   <AbilityCastingTime>Час виконання</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Відсутня пряма видимість цілі.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Target is out of range.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Ціль поза зоною досяжності.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Надостатньо вільного місця.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
-  <AbilityOccupiedCells>{0} має націлюватись на порожнє місце.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
-  <AbilityUnwalkable>{0} має націлюватись на прохідну ділянку.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>{0} має націлюватись на ділянку без даху.</AbilityRoofed>
+  <!-- EN: Must target an empty area. -->
+  <AbilityOccupiedCells>Must target an empty area.</AbilityOccupiedCells>
+  <!-- EN: Must target a walkable area. -->
+  <AbilityUnwalkable>Must target a walkable area.</AbilityUnwalkable>
+  <!-- EN: Must target an unroofed area. -->
+  <AbilityRoofed>Must target an unroofed area.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort} психічно зломлений.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
@@ -1056,6 +1124,10 @@
   <AbilityCantApplyOnAsexual>Неможливо використати: {0} {0_gender ? асексуальний : асексуальна : асексуальне}.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} не тієї статі для {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} is too young.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>Cannot target a baby.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Вартість психофокусу за рівень інтенсивності нервового зриву</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1176,14 +1248,78 @@
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>ефектність кімнати</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
-  <RoomRequirementAllFloored>повністю покрита підлога</RoomRequirementAllFloored>
+  <RoomRequirementAllFloored>покриття по всій площі</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>усі жаровні мусять горіти</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>покриття підлоги виключно вишукане</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>виключно вишукане покриття по всій площі</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
   <RoomRequirementNoProductionFacilities>жодного робочого обладнання</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>жодних алтарів</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>Lifestage max food factor</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Expand all</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Collapse all</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>Dye can be farmed from tinctoria or purchased from traders.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>Zoom range {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>color temperature</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>choose a color</ChooseAColor>
+  <!-- EN: red -->
+  <Red>red</Red>
+  <!-- EN: green -->
+  <Green>green</Green>
+  <!-- EN: blue -->
+  <Blue>blue</Blue>
+  <!-- EN: hue -->
+  <Hue>hue</Hue>
+  <!-- EN: sat -->
+  <Saturation>sat</Saturation>
+  <!-- EN: value -->
+  <Value>value</Value>
+  <!-- EN: darklight -->
+  <Darklight>darklight</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>not darklight</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>current color</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>old color</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Copy color</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Copy the current color to the clipboard.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Paste color</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Overwrite the color with the color in the clipboard.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>The clipboard does not contain a valid color.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Color copied to clipboard.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Updated color from the clipboard.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Change to normal light</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Change the light color to its normal color.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Change to darklight</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Change the light color to darklight.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Choose a color by setting the color temperature. Note: This only affects visual color, not heat output.</ColorTemperatureTooltip>
 
 </LanguageData>

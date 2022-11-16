@@ -3,7 +3,7 @@
 
   <!-- Main menu -->
   <!-- EN: Tutorial -->
-  <Tutorial>Посібник</Tutorial>
+  <Tutorial>Навчання</Tutorial>
   <!-- EN: New colony -->
   <NewColony>Нова колонія</NewColony>
   <!-- EN: Back to game -->
@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>Оновити файли перекладів (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Очищення файлів перекладу</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>Швидкий тест розробки</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>Автори</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,8 +80,8 @@
   <WorldGenerate>Згенерувати</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Зберегти і завершити</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>Скинути</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>Скинути фракції</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Покриття земної кулі</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -152,16 +154,66 @@
   <ConfirmDeleteMod>Ви впевнені, що хочете видалити весь контент для {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Впорядкувати моди</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>Зберегти та застосувати</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>Зміни модів не збережено. Ви впевнені, що бажаєте продовжити?</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Неможливо перемістити {0}: його потрібно завантажити після {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>Неможливо перемістити {0}: його потрібно завантажити до {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Відписатися</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>Ви впевнені, що хочете відписатися?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>Ви впевнені, що хочете відписатися від {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribeFrom>Ви впевнені, що хочете відписатися від {0}?</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>Ви впевнені, що хочете відписатися від:\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Автор</Author>
+  <!-- EN: Enabled -->
+  <Enabled>Увімкнуті</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>Вимкнуті</Disabled>
+  <!-- EN: Enable -->
+  <Enable>Увімкнути</Enable>
+  <!-- EN: Disable -->
+  <Disable>Вимкнути</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>Скачати моди з...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>Відписатись від...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>Зберегти/завантажити...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>Зберегти список модів</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>Завантажити список модів</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>Додані моди</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>Відсутні моди</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>Моди якими поділились</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>Вебсайт</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>Відкрити папку</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>Налаштування мода</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>Майстерні</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>Форуму</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>Додатково...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>Усіх вибраних модів</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>Усіх вимкнених модів</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>Усіх несумісних модів</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Сторінка в Майстерні</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,16 +228,20 @@
   <WorkshopUploadSucceeded>Успішно завантажено {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Завантаження</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>ID у Майстерні</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Показати виконані вимоги</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
   <ModClickToSelect>Натисніть для вибору.</ModClickToSelect>
   <!-- EN: Click to go to website. -->
-  <ModClickToGoToWebsite>Натисніть, щоб перейти на веб-сайт.</ModClickToGoToWebsite>
+  <ModClickToGoToWebsite>Натисніть, щоб перейти на вебсайт.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Джерело</Source>
-  <!-- EN: For game version(s) -->
+  <!-- EN: Game versions -->
   <ModTargetVersion>Сумісний з версіями гри</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>Версія моду</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -204,7 +260,7 @@
   <ModWithSameIdAlreadyActive>Інший активний мод використовує такий самий ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>Є циклічна залежність модів, що починається з {0}.</ModCyclicDependency>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Для роботи потрібні наступні моди: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Цей мод розроблений не для цієї версії RimWorld і, ймовірно, не буде правильно працювати.</ModNotMadeForThisVersion>
@@ -274,12 +330,14 @@
   <TooMany>Забагато (максимум {0}):</TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Може бути оновлено у Майстерні, оскільки ви є автором.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>Цей сценарій було змінено.\n\nБажаєте зберегти зміни?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Оберіть ШІ казкаря</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Оберіть ШІ оповідача</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>ШІ казкаря створює події, такі як піратські набіги, випадіння ресурсів або напади тварин. Їх вибір вплине на історію вашої колонії. Ці налаштування можна змінити в будь-який час.</HowStorytellersWork>
+  <HowStorytellersWork>ШІ оповідача створює події, такі як піратські набіги, випадіння ресурсів або напади тварин. Їх вибір вплине на історію вашої колонії. Ці налаштування можна змінити в будь-який час.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Будь ласка, оберіть рівень складності.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -308,15 +366,15 @@
   <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>Масштаб загрози</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>Налаштуйте розмір загроз, таких як рейди та зараження, а також складність квестів.</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>Налаштуйте розмір загроз, таких як рейди та зараження, а також складність завдань.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>Основні загрози</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
   <Difficulty_AllowBigThreats_Info>Вмикає такі великі загрози, як рейди, напади, зграї мисливців, розбиті кораблі механоїдів тощо.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
-  <Difficulty_AllowViolentQuests_Label>Квестові загрози</Difficulty_AllowViolentQuests_Label>
+  <Difficulty_AllowViolentQuests_Label>Загрози у завданнях</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>Дозволити жорстокі квестові загрози та виклики. Якщо вимкнено, квести будуть змінені так, щоб вони не були насильницькими.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Дозволити жорстокі загрози та виклики у завданнях. Якщо вимкнено, завдання будуть змінені так, щоб вони не були насильницькими.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>Початкові загрози</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
@@ -353,9 +411,9 @@
   <!-- EN: Adjust the speed of research. -->
   <Difficulty_ResearchSpeedFactor_Info>Налаштуйте швидкість досліджень.</Difficulty_ResearchSpeedFactor_Info>
   <!-- EN: Quest rewards -->
-  <Difficulty_QuestRewardValueFactor_Label>Нагороди за квести</Difficulty_QuestRewardValueFactor_Label>
+  <Difficulty_QuestRewardValueFactor_Label>Нагороди за завдання</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>Налаштуйте вартість нагород, що надаються за квести.\n\nПримітка: Значення винагороди за квест також автоматично масштабується, щоб компенсувати масштаб загрози. Якщо ви налаштуєте цей параметр, ви додасте додатковий множник.</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Налаштуйте вартість нагород, що надаються за завдання.\n\nПримітка: Значення винагороди за завдання також автоматично масштабується, щоб компенсувати масштаб загрози. Якщо ви налаштуєте цей параметр, ви додасте додатковий множник.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>Рейдовий лут</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
@@ -419,6 +477,10 @@
   <Difficulty_AllowCaveHives_Label>Генерування карти природних вуликів</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>Сплячі вулики комах можуть з'являтись у природних печерах.\n\nЦе налаштування стосується лише створення карт і не впливає на активних комах, які роблять тунелі під час гри.</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>Додати непохитних в'язнів</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>Цей параметр дозволяє додати до гри додаткових полонених, яких не можна вербувати через непохитні вірність.\n\nНепохитні полонені додаються до звичайних полонених, тож вимкнення цього параметру не збільшить кількість полонених яких можна вербувати, він просто прибере непохитних.\n\nНепохитних полонених можна так само відпустити для підняття дипломатії, продати, взяти в рабство, розібрати на органи та інше. Взагалом, цей параметр пропонує більше різномаїття, робить гру більш легкою та насиченою.</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Інструменти гравця</DifficultyPlayerToolsSection>
@@ -462,8 +524,8 @@
   <DifficultyIdeologySection>Ідеологія</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Низький приріст конверсії населення</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>З одним колоністом початкової ідеолігії гравця шанс переходу в його ідеолігію помножується на цю суму. Спроби звернення проти них мають вплив, поділений на цю суму.\n\nЗ двома колоністами початкової ідеолігії гравця, ефект зменшується вдвічі.\n\nЗ трьома чи більше колоністами початкової ідеолігії гравця, це не впливає.</Difficulty_LowPopConversionBoost_Info>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>При наявності одного колоніста з початковою ідеологією гравця, шанс звернути інших людей до цієї ідеології помножується на це значення. Результативність спроб звернути цього колоніста до іншої ідеології ділиться на це значення.\n\nПри наявності двух колоністів з початковою ідеологієї гравця, вплив цієї величини зменшується вдвічі.\n\nПри наявності трьох, або більше колоністів з початковою релігією гравця це значення не враховується.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -500,6 +562,8 @@
   <Elevation>Висота</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Родючість</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>родючість</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Середня температура</AvgTemp>
   <!-- EN: Rainfall -->
@@ -534,16 +598,20 @@
   <Forageability>Наявність харчів</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Ніхто з обраних людей не може виконувати наступні завдання:\n\n{0}\n\nЦе може зробити гру складнішою ніж зазвичай. Ви впевнені, що хочете продовжити?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>температура</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>світло</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Створення персонажів</CreateCharacters>
+  <CreateCharacters>Створити персонажів</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
-  <FirstNameDesc>Імʼя персонажа.\n\nВідображається лише в деяких меню.</FirstNameDesc>
+  <FirstNameDesc>Імʼя персонажа.\n\nВоно буде показуватися лише в деяких меню.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
-  <ShortIdentifierDesc>Короткий ідентифікатор персонажа.\n\nВідображається завжди. Це може бути імʼя або прізвище, або повністю окреме прізвисько.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>Короткий ідентифікатор персонажа.\n\nВін буде показуватися завжди. Це може бути імʼя або прізвище, або повністю окреме прізвисько.</ShortIdentifierDesc>
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
-  <LastNameDesc>Прізвище персонажа.\n\nВідображається лише в деяких меню.</LastNameDesc>
+  <LastNameDesc>Прізвище персонажа.\n\nВоно буде показуватися лише в деяких меню.</LastNameDesc>
   <!-- EN: Randomize -->
   <Randomize>Рандомізувати</Randomize>
   <!-- EN: age {0} -->
@@ -558,20 +626,22 @@
   <IncapableOf>Нездатний</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Здібності</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Спричинено передісторією: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>Спричинено назвою: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>Спричинено рисою: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
-  <IncapableOfTooltipHediff>Спричинено: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>Через</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Неактивні види праці:</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
-  <IncapableOfTooltipQuest>Спричинено статусом завдання: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>Спричинено роллю: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>Через передісторію</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>Через титул</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>Через рису</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>Через статус завдання</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>Через роль</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>Через ген</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Риси</Traits>
   <!-- EN: Permanent mood effect -->
@@ -584,8 +654,6 @@
   <Adulthood>Повноліття</Adulthood>
   <!-- EN: Childhood -->
   <Childhood>Дитинство</Childhood>
-  <!-- EN: Current -->
-  <Current>Поточний</Current>
   <!-- EN: male -->
   <Male>чоловік</Male>
   <!-- EN: female -->
@@ -602,6 +670,8 @@
   <Health>Здоров'я</Health>
   <!-- EN: Relations -->
   <Relations>Відносини</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>Одержимості</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>Командні навички</TeamSkills>
   <!-- EN: Selected -->
@@ -645,31 +715,27 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Створення мапи для нової зустрічі</GeneratingMapForNewEncounter>
 
-  <!-- EN: Click for more info -->
-  <ClickForMoreInfo>Натисніть, щоб дізнатися більше</ClickForMoreInfo>
+  <!-- EN: Click for more info. -->
+  <ClickForMoreInfo>Натисніть, щоб дізнатися більше.</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Більше інформації недоступно.</NoMoreInfoAvailable>
 
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Фракції</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Проблеми з ігровим процесом можуть виникати з більш ніж {0} фракціями.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
-  <TotalFactionsAllowed>Кількість максимально допустимих фракцій рівна {0}.</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>Там може бути не більше ніж {0}{1}.</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Скинути за замовчуванням</ResetFactionsToDefault>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>максимум {0} основних фракцій дозволено</TotalFactionsAllowed>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>максимум {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Оберіть кількість фракцій у світі. Ви можете обрати до {0} фракцій усього.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>Вимкнення {0} означає меншу різноманітність квестів та зменшення іншого вмісту.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>Вимкнення {0} означає меншу різноманітність завдань та зменшення іншого вмісту.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
   <InsectsDisabledContentWarning>Вимкнення {0} означає меншу кількість різноманітних загроз.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>Вимкнення {0} означає менше різноманітності квестів і спонтанних загроз.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>Вимкнення {0} означає менше різноманітності завдань і спонтанних загроз.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Без інших фракцій рейди, торгівля та квести не відбуватимуться нормально.</FactionsDisabledWarning>
+  <FactionsDisabledWarning>Без інших фракцій. Рейди, торгівля та завдання не відбуватимуться нормально.</FactionsDisabledWarning>
 
 </LanguageData>

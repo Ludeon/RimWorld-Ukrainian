@@ -5,24 +5,24 @@
   <CustomizeIdeoligion>Налаштування ідеології</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Виберіть свою ідеологію</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Випадково</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Випадкова структура вашої ідеології.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Випадковий стиль для вашої ідеології.</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Налаштувати</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>Грати класично</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>З можливістю розвитку</CreateFluid>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>Ideology system inactive</PlayClassic>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Create custom\n(fluid)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Create custom\n(fixed)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>Custom ideoligions</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Завантажити</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Структура</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>У що мають вірити ваші перші поселенці? Їх переконання впливають на ігровий процес та візуальне оформлення. Ці переконання ви зможете поширювати серед інших людей, або ж прийняти чужі.</ChooseYourIdeoligionDesc>
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <ChooseYourIdeoligionDesc>What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Створити свою</CreateCustom>
   <!-- EN: Delete custom -->
@@ -93,16 +93,16 @@
   <RequiredPrecepts>Обов'язкові правила</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Обов'язкові ритуали</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Виключає правила</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Виключає {0} правила.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Prevents precepts</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>Стилі</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Шанс отримати принцип</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Улюблений колір {PAWN_labelShort}. Носіння більше {PERCENTAGE} одягу цього кольору чи кольору {PAWN_possessive} ідеології покращить {PAWN_objective} настрій.\n\nКолір одягу можна змінити на перукарському столику, використовуючи барвники.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>{PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>, or the color of {PAWN_possessive} ideoligion,</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Пофарбувати у колір фракції</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -147,6 +147,14 @@
   <ReformDevelopmentPoints>Для реформації потрібно</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>завдання</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>Vegetarian</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>Contains meat</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>Acceptable food for everyone</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>this outfit</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Неможливо завантажити ідеологію</UnableToLoadIdeoTitle>
@@ -159,14 +167,16 @@
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>Правило "{PRECEPT}" не підходить для фракцій, якими не керує гравець</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
-  <RitualTargetGraveInfo>У могилі знаходиться труп {PAWN_labelShort}.</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>Порожня могила для оплакування {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>У могилі знаходиться труп {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>Пуста могила для оплакування {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
+  <RitualTargetGraveInfo>Grave containing {PAWN_labelShort}'s corpse</RitualTargetGraveInfo>
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
+  <RitualTargetEmptyGraveInfo>Empty grave to mourn {PAWN_labelShort}'s passing</RitualTargetEmptyGraveInfo>
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
+  <RitualTargetGraveInfoAbstract>Grave containing {IDEO_memberNameIndef}'s corpse</RitualTargetGraveInfoAbstract>
+  <!-- EN: Grave containing a corpse -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Grave containing a corpse</RitualTargetGraveInfoAbstractNoIdeo>
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
+  <RitualTargetEmptyGraveInfoAbstract>Empty grave to mourn {IDEO_memberNameIndef}'s passing</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>Тіло {PAWN_labelShort} спочатку має бути поховано</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
@@ -175,8 +185,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>Вівтар або інше ритуальне місце.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Вівтар, ідеограма чи інше ритуальне місце.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Диско-куля або ритуальне місце. Диско-куля та гучномовці мають бути підключені.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>Диско-куля не підключена.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -189,28 +197,30 @@
   <RitualTargetNoDrum>Немає барабанів.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Необхідно хоча б {0} клітинок без даху.</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>Запалене багаття або місце для ритуалу.</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>Запалене багаття або місця для ритуалу. Необхідно прибрати дах хочаб у радіусі 25 клітинок.</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Нез'єднане дерево Гауранлена.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: a lit campfire -->
+  <RitualTargetCampfirePartyInfo>a lit campfire</RitualTargetCampfirePartyInfo>
+  <!-- EN: an unconnected Gauranlen tree -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>an unconnected Gauranlen tree</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Вже зв'язано до {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>Зв'язок з {TREE_definite} обірвався. Зв'язування можливо повторити через {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Вам потрібно {0} одиниць дерева для кожного учасника (всього {2}). Зараз у вас {1}.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>{0} must be able to reach ritual target.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Звинуватити</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} не вірить у ідеологічне шрамування і не хоче бути {PAWN_gender ? шрамованим : шрамованою}.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} слабак і не хоче бути {PAWN_gender ? шрамованим : шрамованою}.</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} не вірить в ідеологічне осліплення і не хоче бути {PAWN_gender ? осліпленим : осліпленою}.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} слабке і не хоче бути {PAWN_gender ? осліпленим : осліпленою}.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>Blinding is expected for each current and joining {IDEOMEMBER} colonist.</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Загальна швидківть праці усіх учасників ритуалу на один виросла на {PERCENTAGE}.</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -227,6 +237,8 @@
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Відповідно до якості ритуалу, кількість ваших очок розвитку зросло на {2} (з {0} да {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Can't award development points beyond {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Через низьку якість ритуалу ви не отримали очок розвитку.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -269,24 +281,12 @@
   <IdeoBuildingVariationOf>Ця будівля є варіацією</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>Мінімальні очікування</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>розмір</Size>
-  <!-- EN: cost -->
-  <Cost>вартість</Cost>
   <!-- EN: optional -->
   <Optional>необов'язково</Optional>
   <!-- EN: expectations -->
   <Expectations>очікування</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>Може почати у будь-який час</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>Можна почати після події</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>Об'єкти концентрації</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Повторне проведення ритуалу протягом {0} днів зменшить його якість. З минулого ритуалу пройшло {1} днів, при повторному проведенні його якість понизиться на {2}. Цей штраф знизиться до нуля через {3} днів.</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>Ролі учасників</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Щоб отримати кращий результат, почніть {0} у {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
@@ -295,6 +295,8 @@
   <RitualDevelopmentPoints>Очки розвитку</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Завершення цього ритуалу дає {0}-{1} балів розвитку в залежності від якості.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>{0} needs to be powered.</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Для рабів</ForSlaveUse>
@@ -323,9 +325,9 @@
   <RoleRequirementLabelSameIdeo>Має бути {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Має бути {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>Cannot be child</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Недоступна робота</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Здібності</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -348,6 +350,8 @@
   <AbilityDisabledNoAltarOrRitualsSpot>Ніякого досяжного вівтаря чи ритуального місця.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Немає досяжного вівтаря, ідеограм чи ритуальних місць.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <!-- EN: No reachable ritual spot. -->
+  <AbilityDisabledNoRitualSpot>No reachable ritual spot.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Воля послаблена\nз {0} до {1}</TextMote_WillReduced>
@@ -593,22 +597,38 @@
   <BiosculpterPodCycleLabel>Цикл</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>завантаження інгредієнтів</BiosculpterPodCycleLabelLoading>
-  <!-- EN: ready -->
-  <BiosculpterPodCycleLabelReady>готово</BiosculpterPodCycleLabelReady>
-  <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>Почати цикл {0}</BiosculpterPodCycleCommand>
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>(and biotuning)</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
+  <BiosculpterPodCycleCommand>Begin {0} cycle</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>Duration</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>Duration (transhumanists)</BiosculpterPodCycleDurationTranshumanists>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>Ready for cycle selection</BiosculpterPodCycleSelection>
+  <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
+  <BiosculpterPodCycleStandby>On standby for {CYCLE} cycle with {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>Nutrition loaded, no power</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Завершиться через</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>accelerated for transhumanists</BiosculpterCycleAccelerated>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>Paused: No power (interrupt in {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Калібрований для</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Перервати цикл</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Перервати поточний цикл. Людина, що була всередені, буде викинута з капсули, не отримавши позитивних ефектів циклу, також буде деякий час страждати від біоскульпторної хвороби.</BiosculpterInteruptCycleDesc>
-  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>Увага: Неможливо запустити цикл зміни віку, поки біоскульптор налаштовано на {PAWN_labelShort}, оскільки {PAWN_labelShort} менше {ADULTAGE} років.</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} збере {INGREDIENTS} та почне цикл {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>{PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle.</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} одиниць їжі</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -617,12 +637,16 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл лікування.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл оздоровлення, а {PAWN_possessive} {HEDIFF_label} {PAWN_gender ? був вилікуваний : була вилікувана : було вилікувано : були вилікувані}.</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл омолодження. наступний цикл {PAWN_pronoun} очікує пройти через {DEADLINE} день.</BiosculpterAgeReversalCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл задоволення.</BiosculpterPleasureCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completed {PAWN_possessive} age reversal cycle.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} expects the next age reversal in {DEADLINE} days.</AgeReversalExpectationDeadline>
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}'s pleasure cycle is complete.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Модифікатор санітарних умов</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>Biotuned speed factor</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Наступні проблеми зі здоров'ям будуть вирішені</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
@@ -635,5 +659,12 @@
   <OnCompletionOfCycle>При заверщенні циклу {CYCLE} відбудеться наступне</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} не має проблем зі здоров'ям, які міг би вирішити цей цикл {CYCLE}.\n\nБажаєте продовжити?</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>basic</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>Change the style this will be built in. This is purely visual and has no gameplay impact.</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>No available styles.</ChangeStyleDisabledNoCategories>
 
 </LanguageData>
