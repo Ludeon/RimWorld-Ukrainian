@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Call {0} -->
-  <CallOnRadio>Виклик {0}</CallOnRadio>
+  <CallOnRadio>Викликати {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
   <CannotUseReason>Неможливо використати:{0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
@@ -12,9 +12,9 @@
   <!-- EN: Cannot use: No path -->
   <CannotUseNoPath>Неможливо використати: немає шляху</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>Неможливо використати: Зарезервовано</CannotUseReserved>
+  <CannotUseReserved>Неможливо використати: Зайнято</CannotUseReserved>
   <!-- EN: Cannot use: Full -->
-  <CannotUseFull>Неможливо використати, переповнено</CannotUseFull>
+  <CannotUseFull>Неможливо використати: переповнено</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>лідер {1_labelShort} недоступний</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
@@ -26,7 +26,7 @@
   <FireAt>Вогонь по {1_label}</FireAt>
 
   <!-- EN: out of range -->
-  <OutOfRange>за межою</OutOfRange>
+  <OutOfRange>за межею ураження</OutOfRange>
   <!-- EN: too close -->
   <TooClose>надто близько</TooClose>
   <!-- EN: Cannot hit target -->
@@ -38,7 +38,7 @@
   <!-- EN: {0_labelShort} is incapable of shooting -->
   <IsIncapableOfShootingLower>{0_labelShort} не може стріляти</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} не складено</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} не в бойовому режимі</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>неможна наказувати персонажам, яких ви не контролюєте</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>неможна атакувати союзника</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>Incapable of firefighting.</IncapableOfFirefighting>
+  <IncapableOfFirefighting>Нездатний до гасіння пожежі.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Людина {1_labelShort}</OrderManThing>
@@ -56,7 +56,7 @@
   <!-- EN: Melee attack {1_label} to death -->
   <MeleeAttackToDeath>Атака ближнього бою {1_label} до смерті</MeleeAttackToDeath>
   <!-- EN: no path -->
-  <NoPath>немає шляху</NoPath>
+  <NoPath>немає проходу</NoPath>
   <!-- EN: burying -->
   <Burying>поховання</Burying>
   <!-- EN: designated for {0} -->
@@ -65,9 +65,9 @@
   <!-- EN: forbidden -->
   <ForbiddenLower>заборонено</ForbiddenLower>
   <!-- EN: outside allowed area -->
-  <ForbiddenOutsideAllowedAreaLower>за межами допустимої зони</ForbiddenOutsideAllowedAreaLower>
+  <ForbiddenOutsideAllowedAreaLower>за межами допустимої області</ForbiddenOutsideAllowedAreaLower>
   <!-- EN: not in home area -->
-  <NotInHomeArea>не в домашній зоні</NotInHomeArea>
+  <NotInHomeArea>не в домашній області</NotInHomeArea>
   <!-- EN: burning -->
   <BurningLower>палає</BurningLower>
   <!-- EN: no empty, accessible spot configured to store it -->
@@ -77,9 +77,9 @@
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>заповнено</AlreadyFilledLower>
   <!-- EN: missing {0} -->
-  <MissingMaterials>missing {0}</MissingMaterials>
+  <MissingMaterials>відсутнє {0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>No medicine for restriction '{CATEGORY}'.</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>Немає ліків для обмеження "{CATEGORY}".</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>вміння нижче необхідного {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -89,23 +89,23 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>немає доступних клітинок на мапі світу</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
-  <MissingRequiredSkillLevel>відсутній необхідний рівень вміння</MissingRequiredSkillLevel>
+  <MissingRequiredSkillLevel>відсутній необхідний рівень навичок</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
-  <AnimalInteractedTooRecently>тварина вже щойно взаємодіяла</AnimalInteractedTooRecently>
+  <AnimalInteractedTooRecently>тварина навчалась нещодавно</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
-  <PrisonerInteractedTooRecently>interacted with too recently</PrisonerInteractedTooRecently>
+  <PrisonerInteractedTooRecently>нещодавно взаємодіяли</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>немає придатної їжі</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>відсутня їжа</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>no food matching restrictions</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>відсутність обмежень у їжі</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Немає {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
-  <FoodBelowTitleRequirements>нижче від вимог {0}</FoodBelowTitleRequirements>
+  <FoodBelowTitleRequirements>не відповідає вимогам {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>навичка тваринництва занадто низька - потрібно {0}</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>навичка Тваринництва занизька - потрібно {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
   <CantInteractAnimalDowned>тварина непритомна</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
@@ -125,55 +125,55 @@
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>немає місця у загоні</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
-  <CantRopeAnimalMentalState>{0_labelShort} перебуває в {1} стані</CantRopeAnimalMentalState>
+  <CantRopeAnimalMentalState>{0_labelShort} перебуває в стані: {1}</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
   <CantRopeAnimalAlreadyInBestPen>вже у найкращому загоні</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
-  <SkillTooLowForConstruction>{0} вміння занадто низьке</SkillTooLowForConstruction>
+  <SkillTooLowForConstruction>{0} вміння занизьке</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>потрібні компоненти</NoComponentsToRepair>
   <!-- EN: need {0} -->
   <NoFuelToRefuel>потрібно {0}</NoFuelToRefuel>
   <!-- EN: need wort -->
-  <NoWort>необхідне сусло</NoWort>
+  <NoWort>потрібно сусло</NoWort>
   <!-- EN: available food is in storage of higher priority -->
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>доступна їжа є на складі з більшим пріорітетом</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <!-- EN: no suitable food -->
   <NoFoodToFillHopper>немає відповідної їжі</NoFoodToFillHopper>
   <!-- EN: self-tend disabled -->
-  <SelfTendDisabled>самолікування вимкнуто</SelfTendDisabled>
+  <SelfTendDisabled>самолікування не доступне</SelfTendDisabled>
   <!-- EN: reserved for prisoners -->
-  <ReservedForPrisoners>зарезервовано для ув'язнених</ReservedForPrisoners>
+  <ReservedForPrisoners>зарезервовано для полонених</ReservedForPrisoners>
   <!-- EN: cannot reach -->
   <CannotReach>недосяжне</CannotReach>
   <!-- EN: not ready for surgery -->
-  <NotSurgeryReady>не готовий до операції</NotSurgeryReady>
+  <NotSurgeryReady>пацієнт не готовий до операції</NotSurgeryReady>
   <!-- EN: skill incapable -->
-  <SkillDisabled>нездібний</SkillDisabled>
+  <SkillDisabled>навичка недоступна</SkillDisabled>
   <!-- EN: too bright -->
   <CantSowCavePlantBecauseOfLight>занадто яскраво</CantSowCavePlantBecauseOfLight>
   <!-- EN: unroofed -->
-  <CantSowCavePlantBecauseUnroofed>без даху</CantSowCavePlantBecauseUnroofed>
+  <CantSowCavePlantBecauseUnroofed>не під дахом</CantSowCavePlantBecauseUnroofed>
   <!-- EN: incapable of deconstruction -->
-  <IncapableOfDeconstruction>неможливо знести</IncapableOfDeconstruction>
+  <IncapableOfDeconstruction>не в змозі розбирати</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
-  <IncapableOfMining>неможливо видобувати</IncapableOfMining>
+  <IncapableOfMining>не в змозі видобувати</IncapableOfMining>
   <!-- EN: angers faction -->
-  <AngersFaction>розізлити фракцію</AngersFaction>
+  <AngersFaction>розізлить фракцію</AngersFaction>
   <!-- EN: no body part -->
   <InstallImplantNoBodyPart>немає частини тіла</InstallImplantNoBodyPart>
   <!-- EN: not a colonist -->
-  <InstallImplantNotAllowedForNonColonists>не колоніст</InstallImplantNotAllowedForNonColonists>
+  <InstallImplantNotAllowedForNonColonists>не є колоністом</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>вже встановлено</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
-  <InstallImplantHediffRequired>requires an existing {0}</InstallImplantHediffRequired>
+  <InstallImplantHediffRequired>вимагає наявності {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>максимальний рівень</InstallImplantAlreadyMaxLevel>
   <!-- EN: requires min level {0} -->
-  <InstallImplantMinLevel>requires min level {0}</InstallImplantMinLevel><!-- text_todo -->
+  <InstallImplantMinLevel>вимагає мінімального рівня {0}</InstallImplantMinLevel><!-- text_todo -->
   <!-- EN: psychically deaf -->
-  <InstallImplantPsychicallyDeaf>psychically deaf</InstallImplantPsychicallyDeaf>
+  <InstallImplantPsychicallyDeaf>психічна глухота</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Оновіть {0} до рівня {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
@@ -181,9 +181,9 @@
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>в руках у {0_labelShort}</BeingCarriedBy>
   <!-- EN: full -->
-  <ContainerFull>full</ContainerFull>
+  <ContainerFull>повний</ContainerFull>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>already assigned</AlreadyAssigned>
+  <AlreadyAssigned>вже призначене</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Вживати {1_labelShort}</ConsumeThing>
@@ -196,56 +196,56 @@
   <!-- EN: Arrest {0} -->
   <Arrest>Арештувати {0}</Arrest>
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>Спробувати заарештувати {1_label} ({2} шанс)</TryToArrest>
+  <TryToArrest>Спробувати арештувати {1_label} (шанс {2})</TryToArrest>
   <!-- EN: Cannot arrest -->
-  <CannotArrest>Неможливо заарештувати</CannotArrest>
+  <CannotArrest>Неможливо арештувати</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>шанс арешту — {0}</ArrestChance>
+  <ArrestChance>шанс арешту - {0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>Захопити {1_label}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Неможливо захопити</CannotCapture>
   <!-- EN: unwaveringly loyal -->
-  <Unrecruitable>unwaveringly loyal</Unrecruitable>
+  <Unrecruitable>непохитно відданий</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Рятувати {1_label}</Rescue>
   <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>Put {1_label} somewhere safe</PutSomewhereSafe>
+  <PutSomewhereSafe>Перенесіть {1_label} у безпечне місце</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
-  <TakingToBed>Taking {0_labelShort} to bed.</TakingToBed>
+  <TakingToBed>Переносить {0_labelShort} до ліжка.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Неможливо врятувати</CannotRescue>
 
   <!-- EN: Carry {1_label} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>Нести {1_label} до капсули криптосну</CarryToCryptosleepCasket>
+  <CarryToCryptosleepCasket>Перенести {1_label} до капсули криптосну</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
-  <CannotCarryToCryptosleepCasket>Неможливо нести до капсули криптосну</CannotCarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Неможливо перенести до капсули криптосну</CannotCarryToCryptosleepCasket>
 
   <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>Нести {0_label} до човника</CarryToShuttle>
+  <CarryToShuttle>Перенести {0_label} до шатлу</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Немає доступних капсул для криптосну.</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
-  <CryptosleepCasketGuestsNotAllowed>Тимчасові члени фракції не допускаються.</CryptosleepCasketGuestsNotAllowed>
+  <CryptosleepCasketGuestsNotAllowed>Заборонено для тимчасових членів фракції.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>Ув'язнені, що приймаються, не допускаються.</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>Заборонено для полонених.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>Вже зайнято</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>Немає доступного, незарезервованого, закритого ліжка для в'язня при безпечній температурі.</NoPrisonerBed>
+  <NoPrisonerBed>Немає доступного, вільного, закритого ліжка для полоненого при безпечній температурі.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>Немає доступного, незарезервованого ліжка не для в'язня при безпечній температурі.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Немає доступного, вільного ліжка не для полоненого при безпечній температурі.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
-  <NoAnimalBed>Немає доступного, не зарезервованого ліжка для тварин при безпечній температурі.</NoAnimalBed>
+  <NoAnimalBed>Немає доступного, вільного ліжка для тварин при безпечній температурі.</NoAnimalBed>
   <!-- EN: Reserved by someone else. -->
-  <Reserved>Зарезервовано кимось іншим.</Reserved>
+  <Reserved>Зайнято кимось іншим.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
-  <ReservedBy>Зарезервовано {1_labelShort}</ReservedBy>
+  <ReservedBy>Зайнято {1_labelShort}</ReservedBy>
   <!-- EN: {0} is reserved by {1}. -->
-  <IsReservedBy>{0} зарезервований {1}.</IsReservedBy>
+  <IsReservedBy>{0} вже використовує {1}.</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Занадто важко</TooHeavy>
   <!-- EN: {0_labelShort} is in the same faction. -->
@@ -256,28 +256,28 @@
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>нездатний {0}</IncapableOfCapacity>
   <!-- EN: Must have {0_label} -->
-  <MustHaveHediff>Must have {0_label}</MustHaveHediff>
+  <MustHaveHediff>Необхідно {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
-  <MinSkill>мінімальний навик</MinSkill>
+  <MinSkill>мін. рівень навички</MinSkill>
   
   <!-- EN: Equip {0} -->
-  <Equip>Оснастити {0}</Equip>
+  <Equip>Озброїтися {0}</Equip>
   <!-- EN: (brawler will be unhappy) -->
-  <EquipWarningBrawler>(забіяка буде невдоволена)</EquipWarningBrawler>
+  <EquipWarningBrawler>(забіяка буде невдоволений)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>Неможливо оснастити {0}</CannotEquip>
+  <CannotEquip>Неможливо озброїтися {0}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
-  <CannotManThing>Не може людина {1_labelShort}</CannotManThing>
+  <CannotManThing>Не можливо зайняти {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Змусити одягнути {1_labelShort}</ForceWear>
+  <ForceWear>Надягнути {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Не можливо одягнути {1_label}</CannotWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Змусити екіпірувати {1_labelShort}</ForceEquipApparel>
+  <ForceEquipApparel>Озброїтися {1_labelShort}</ForceEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
-  <CannotEquipApparel>Неможливо екіпірувати {1_label}</CannotEquipApparel>
+  <CannotEquipApparel>Неможливо озброїтися {1_label}</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>відсутні частини тіла</CannotWearBecauseOfMissingBodyParts>
   
@@ -288,14 +288,14 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>Недостатньо для перезарядки</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>Cannot carry enough {AMMO_label} to reload 1 charge.</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>Немає достатньо {AMMO_label}, щоб перезарядити хоч 1 заряд.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUp>Cannot pick up {1_labelShort}</CannotPickUp>
+  <CannotPickUp>Неможливо підібрати {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
-  <CannotPickUpAll>Не можливо підібрати {1_label} (все)</CannotPickUpAll>
+  <CannotPickUpAll>Неможливо підібрати {1_label} (все)</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
-  <PickUpOne>Pick up {1_labelShort} x1</PickUpOne>
+  <PickUpOne>Підібрати 1x{1_labelShort} </PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Підібрати {1_label} (все)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -333,10 +333,10 @@
   <!-- EN: Load {1_labelShort} x{{0}} -->
   <LoadIntoCaravanCount>Завантажити {1_labelShort} x{{0}}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
-  <OverweightLower>перенавантаження</OverweightLower>
+  <OverweightLower>занадто важко</OverweightLower>
 
   <!-- EN: Cannot carry {1_label} and leave the area -->
-  <CannotCarryToExit>Не можливо нести {1_label} і покинути територію</CannotCarryToExit>
+  <CannotCarryToExit>Не можливо покинути територію, несучи {1_label}</CannotCarryToExit>
   <!-- EN: Carry {1_label} and leave the area -->
   <CarryToExit>Нести {1_label} і покинути територію</CarryToExit>
   <!-- EN: Capture {1_label} and leave the area -->
@@ -353,11 +353,11 @@
   <!-- EN: Cannot carry {0_label} -->
   <CannotCarry>Неможливо нести {0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
-  <QuestRelated>тимчасовий учасник ватаги</QuestRelated>
+  <QuestRelated>тимчасовий член фракції</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
-  <QuestRelated_Outfit>Не можна змінити екіпірування тимчасових членів ватаги</QuestRelated_Outfit>
+  <QuestRelated_Outfit>Не можна змінити одяг тимчасових членів фракції</QuestRelated_Outfit>
   <!-- EN: would replace locked apparel -->
-  <WouldReplaceLockedApparel>замінить заблоковане спорядження</WouldReplaceLockedApparel>
+  <WouldReplaceLockedApparel>не можна змінити одяг</WouldReplaceLockedApparel>
 
   <!-- EN: Cannot place {0_label} in {1_label} -->
   <CannotPlaceIn>Неможливо помістити {0_label} у {1_label}</CannotPlaceIn>
@@ -375,14 +375,14 @@
   <!-- EN: not injured -->
   <NotInjured>не травмований</NotInjured>
   <!-- EN: no doctor -->
-  <NoDoctor>no doctor</NoDoctor><!-- text_todo -->
+  <NoDoctor>немає лікаря</NoDoctor><!-- text_todo -->
   <!-- EN: occupied by {0} -->
-  <SomeoneElseSleeping>зайнятий {0}</SomeoneElseSleeping>
+  <SomeoneElseSleeping>{0} вже спить тут</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
-  <TradeWith>Торгівля з {0}</TradeWith>
+  <TradeWith>Торгувати з {0}</TradeWith>
   <!-- EN: Cannot trade -->
-  <CannotTrade>Торгівля не можлива</CannotTrade>
+  <CannotTrade>Не може торгувати</CannotTrade>
 
   <!-- EN: Open {0_label} -->
   <Open>Відкрити {0_label}</Open>
@@ -400,13 +400,13 @@
   <!-- EN: Attack {0} -->
   <AttackSettlement>Атакувати {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
-  <ApproachSite>Підійти {0}</ApproachSite>
+  <ApproachSite>Підійти до {0}</ApproachSite>
   <!-- EN: Approaching {0} -->
-  <ApproachingSite>Наближається {0}</ApproachingSite>
+  <ApproachingSite>Наближається до {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
-  <OfferGifts>Віддаритися</OfferGifts>
+  <OfferGifts>Зробити подарунок</OfferGifts>
   <!-- EN: Trade with {0} -->
-  <TradeWithSettlement>Торгівля з {0}</TradeWithSettlement>
+  <TradeWithSettlement>Торгувати з {0}</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -414,7 +414,7 @@
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Відкрити капсулу криптосну</OpenCryptosleepCasket>
   <!-- EN: Get in shuttle -->
-  <EnterShuttle>Сісти у човник</EnterShuttle>
+  <EnterShuttle>Сісти у шатл</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -439,24 +439,24 @@
   <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Неможливо виконати: колоніст ніколи не буде {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>ніколи не {0}</WillNever>
+  <WillNever>ніколи не буде {0}</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Неможливо виконати: колоніст не призначений {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>не призначено</NotAssigned>
+  <NotAssigned>не призначений</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>не {PAWN_gender ? призначений : призначена} {0}</NotAssignedToWorkType>
+  <NotAssignedToWorkType>не призначений {0}</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch>Неможливо обрати: дослідження - це довготривале завдання</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Неможливо обрати: пріоритет для дослідження обирається пріоритетом робіт</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>Неможливо виконати: заборонено {1_label}</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Неможливо виконати: {1_label} заборонено</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Неможливо виконати: заборонено</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
-  <CannotPrioritizeForbiddenOutsideAllowedArea>Поза дозволеною зоною</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Поза дозволеною областю</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
   <CannotPrioritizeBurying>Неможливо виконати поховання</CannotPrioritizeBurying>
 
@@ -465,54 +465,54 @@
   <PrioritizeGeneric>{0} {1}</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
-  <DropAtEdge>Викинути на край</DropAtEdge>
+  <DropAtEdge>Скинути з краю</DropAtEdge>
   <!-- EN: Drop in center -->
-  <DropInCenter>Викинути на центр</DropInCenter>
+  <DropInCenter>Скинути у центр</DropInCenter>
   <!-- EN: Attack {0} -->
   <AttackShuttle>Атакувати {0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>Атака {0}: падіння на ребро</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Атакувати {0}: Висадитись на краю</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>Атака {0}: падіння в центр</AttackAndDropInCenter>
+  <AttackAndDropInCenter>Атакувати {0}: Висадитись у центр</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
-  <VomitingLower>блювота</VomitingLower>
+  <VomitingLower>блює</VomitingLower>
   <!-- EN: not interruptible -->
   <NotInterruptibleLower>не переривається</NotInterruptibleLower>
   
   <!-- EN: Add a new waypoint here -->
-  <AddWaypoint>Додати сюди нову відмітку</AddWaypoint>
+  <AddWaypoint>Додати нову точку маршруту</AddWaypoint>
   <!-- EN: Remove this waypoint -->
-  <RemoveWaypoint>Видалити цю відмітку</RemoveWaypoint>
+  <RemoveWaypoint>Видалити цю точку маршруту</RemoveWaypoint>
 
   <!-- EN: Cancel all designations -->
   <RemoveAllDesignations>Скасувати всі призначення</RemoveAllDesignations>
   <!-- EN: Designate all -->
-  <DesignateAll>Призначити всіх</DesignateAll>
+  <DesignateAll>Призначити все</DesignateAll>
   <!-- EN: {0} affected -->
-  <CountToDesignate>{0} уражено</CountToDesignate>
+  <CountToDesignate>{0} виділено</CountToDesignate>
   <!-- EN: Forbid all items -->
-  <ForbidAllItems>Заборонити всі елементи</ForbidAllItems>
+  <ForbidAllItems>Заборонити все</ForbidAllItems>
   <!-- EN: Unforbid all items -->
-  <UnforbidAllItems>Скасувати заборону всіх елементів</UnforbidAllItems>
+  <UnforbidAllItems>Дозволити все</UnforbidAllItems>
 
   <!-- Transport pods -->
   <!-- EN: Zoom in and choose a landing spot in {0} -->
-  <LandInExistingMap>Збільшити та вибрати місце для посадки у {0}</LandInExistingMap>
+  <LandInExistingMap>Збільшити масштаб та вибрати місце для посадки</LandInExistingMap>
   <!-- EN: The contents will be lost -->
-  <TransportPodsContentsWillBeLost>Вміст буде втрачено</TransportPodsContentsWillBeLost>
+  <TransportPodsContentsWillBeLost>Вантаж буде втрачено назавжди</TransportPodsContentsWillBeLost>
   <!-- EN: Form caravan here -->
   <FormCaravanHere>Сформувати караван тут</FormCaravanHere>
   <!-- EN: Give to {0} -->
   <GiveToCaravan>Віддати {0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
-  <GiveGiftViaTransportPods>Подарувати {0} ({1})</GiveGiftViaTransportPods>
+  <GiveGiftViaTransportPods>Дати в подарунок фракції {0} ({1})</GiveGiftViaTransportPods>
   <!-- EN: Not part of launch group -->
   <NotPartOfLaunchGroup>Не належить до групи запуску</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
-  <FreePrisoner>Звільнити в'язня</FreePrisoner>
+  <FreePrisoner>Звільнити полоненого</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Запропонувати допомогу</OfferHelp>
 
@@ -524,21 +524,21 @@
 
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
-  <NoCommsTarget>Ні з ким зв'язуватись</NoCommsTarget>
+  <NoCommsTarget>Нема з ким зв'язуватись</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
   <Invoke>Звернутись до {0}</Invoke>
   <!-- EN: Cannot invoke {0} -->
   <CannotInvoke>Неможливо звернутись до {0}</CannotInvoke>
   <!-- EN: power -->
-  <Power>енергія</Power>
+  <Power>силі</Power>
   <!-- EN: already invoked -->
   <AlreadyInvoked>зв'язок вже почато</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
-  <Tend>Піклуватись про {0}</Tend>
+  <Tend>Лікувати {0}</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>Неможливо піклуватись про {0}</CannotTend>
+  <CannotTend>Неможливо лікувати {0}</CannotTend>
   <!-- EN: {0} does not require tending -->
   <TendingNotRequired>{0} не потрібне лікування</TendingNotRequired>
   <!-- EN: without medicine -->
@@ -550,12 +550,12 @@
   <CannotRepair>Неможливо ремонтувати {0}</CannotRepair>
 
   <!-- EN: Cannot enter -->
-  <CannotEnter>Cannot enter</CannotEnter>
+  <CannotEnter>Неможливо увійти</CannotEnter>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
-  <CannotRomance>Cannot romance {0}</CannotRomance>
+  <CannotRomance>Не можна завести роман {0}</CannotRomance>
   <!-- EN: Romance {0} -->
-  <CanRomance>Romance {0}</CanRomance>
+  <CanRomance>Романтичні відношення {0}</CanRomance>
 
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: raw humanlike meat eaten -->
-  <AteRawHumanlikeMeat.label>сира їжа для людей</AteRawHumanlikeMeat.label>
+  <AteRawHumanlikeMeat.label>сире людське м'ясо з'їдено</AteRawHumanlikeMeat.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
     <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
@@ -30,16 +30,16 @@
     <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] їв м'ясо людини</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] м'ясо співкланівця</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] шматок людини</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] свіжу чоловічину</li>
-    <li>eat_gerund->їв</li>
-    <li>eat_gerund->проковтнув</li>
-    <li>eat_gerund->жував</li>
+    <li>tale_noun->[PAWN_nameDef] їсть м'ясо людини</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] м'ясо людини</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] м'ясо людини з руки</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] плоть людини</li>
+    <li>eat_gerund->їсть</li>
+    <li>eat_gerund->проковтує</li>
+    <li>eat_gerund->жує</li>
     <li>eat_gerund->пережовує</li>
-    <li>eat_gerund->споживав</li>
-    <li>eat_gerund->ковтав</li>
+    <li>eat_gerund->споживає</li>
+    <li>eat_gerund->ковтає</li>
     <li>eat_gerund->пожирає</li>
     <li>circumstance_phrase->з почуттям мети</li>
     <li>circumstance_phrase->без сорому</li>
@@ -47,17 +47,17 @@
     <li>circumstance_phrase->поки інші дивляться</li>
     <li>circumstance_phrase->із смаком</li>
     <li>circumstance_phrase->шалено, наче [PAWN_possessive] життя залежало від цього</li>
-    <li>desc_sentence->[PAWN_nameDef] обличчя вкрите кров'ю та рідиною.</li>
-    <li>desc_sentence->[PAWN_nameDef] облизує [PAWN_possessive] пальці.</li>
-    <li>desc_sentence->[PAWN_nameDef] має шматки крові та крові спереду [PAWN_possessive].</li>
+    <li>desc_sentence->Обличчя [PAWN_nameDef] вкрите кров'ю.</li>
+    <li>desc_sentence->[PAWN_nameDef] облизує свої пальці.</li>
+    <li>desc_sentence->[PAWN_nameDef] має крові на собі спереду.</li>
     <li>desc_sentence->[PAWN_nameDef] знаходиться посеред великої калюжі крові.</li>
     <li>desc_sentence->[PAWN_nameDef] кровожерливо дивиться на когось поруч.</li>
     <li>desc_sentence->М'ясо блищить і виглядає дуже соковитим.</li>
-    <li>desc_sentence->Сила жертви розливається по всьому тілу [PAWN_nameDef].</li>
+    <li>desc_sentence->Куски м'яса розлітаються по всьому тілу [PAWN_nameDef].</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
   
   <!-- EN: humanlike corpse butchered -->
-  <ButcheredHumanlikeCorpse.label>пошматований гуманоїдний труп</ButcheredHumanlikeCorpse.label>
+  <ButcheredHumanlikeCorpse.label>труп людини, яку жорстоко вбили</ButcheredHumanlikeCorpse.label>
   
   <!-- EN: art crafted -->
   <CraftedArt.label>витвір мистецтва</CraftedArt.label>
@@ -90,18 +90,18 @@
   -->
   <CraftedArt.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] створив [THING_indefinite]</li>
-    <li>image->[PAWN_nameFull] створено [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] закінчено [PAWN_possessive] працю над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] працював над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] виготовив [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>circumstance_phrase->повніст'ю сконцентрувавшись</li>
-    <li>circumstance_phrase->вираз задоволення на обличчі [PAWN_possessive]</li>
-    <li>circumstance_phrase->на робочому столі [PAWN_possessive]</li>
+    <li>image->[PAWN_nameFull] виготовляє [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] закінчує свою працю над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] працює над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] робить [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->повністю сконцентрувавшись</li>
+    <li>circumstance_phrase->з виразом задоволення на своєму обличчі</li>
+    <li>circumstance_phrase->на своєму робочому столі</li>
     <li>circumstance_phrase->з великим старанням</li>
-    <li>desc_sentence->There are tools scattered all around.</li>
-    <li>desc_sentence->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
-    <li>desc_sentence->[PAWN_pronoun] is covered in sweat.</li>
-    <li>desc_sentence->The work area is highly organized, with every tool in its proper place.</li>
+    <li>desc_sentence->Деякі інструменти розкидані навколо.</li>
+    <li>desc_sentence->[PAWN_pronoun] має подряпини та шрами від робочих ушкоджень.</li>
+    <li>desc_sentence->[PAWN_pronoun] у поті.</li>
+    <li>desc_sentence->Робочий простір організовано так, що кожен інструмент на своєму місці.</li>
     <li>desc_sentence->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
     <li>desc_sentence->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
     <li>desc_sentence->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
