@@ -12,8 +12,8 @@
   <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] розійтися.</li>
     <li>r_logentry->[INITIATOR_nameDef] просить у [RECIPIENT_nameDef] особистого простору.</li>
-    <li>r_logentry->[INITIATOR_nameDef] каже для [RECIPIENT_nameDef], що у них не дуже добре виходить.</li>
-    <li>r_logentry->[INITIATOR_nameDef] каже для [RECIPIENT_nameDef], що буде краще, якщо вони зустрічатимуться з іншими людьми.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що у них не дуже добре виходить.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що буде краще, якщо вони зустрічатимуться з іншими людьми.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -26,7 +26,7 @@
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] одружитися.</li>
     <li>r_logentry->[INITIATOR_nameDef] робить пропозицію руки та серця для [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] каже для [RECIPIENT_nameDef], що [INITIATOR_pronoun] хоче прожити решту [INITIATOR_possessive] життя з [RECIPIENT_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що [INITIATOR_pronoun] хоче прожити решту [INITIATOR_possessive] життя з [RECIPIENT_objective].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->

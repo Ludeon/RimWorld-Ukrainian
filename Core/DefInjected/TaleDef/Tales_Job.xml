@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: attended party -->
-  <AttendedParty.label>{Pawn_gender? Відвідав: Відвідала} вечірку</AttendedParty.label>
+  <AttendedParty.label>{PAWN_gender? Відвідав: Відвідала} вечірку</AttendedParty.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
     <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
@@ -21,25 +21,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
   -->
   <AttendedParty.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] відвідує вечірку яку організовує[ORGANIZER_nameDef]</li>
+    <li>tale_noun->[ATTENDER_nameDef] відвідує вечірку яку організовує [ORGANIZER_nameDef]</li>
     <li>tale_noun->[ATTENDER_nameDef] розслабляється з[ORGANIZER_nameDef] на вечірці</li>
-    <li>image->[ATTENDER_nameFull] having a conversation with [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] getting a drink from [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] chatting with [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] welcoming [ATTENDER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] introducing [ATTENDER_nameFull] to a friend [circumstance_group]</li>
-    <li>circumstance_phrase->with a broad grin</li>
-    <li>circumstance_phrase->with a laugh</li>
-    <li>circumstance_phrase->with a [AdjectiveFriendly] smile</li>
-    <li>circumstance_phrase->while laughing uproariously</li>
-    <li>circumstance_phrase->while [AdjectiveFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are involved in the conversation.</li>
-    <li>desc_sentence->The area is decorated with [Color] and [Color].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+    <li>image->[ATTENDER_nameFull] розмов{Pawn_gender?ляв:ляла} з [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] пи{Pawn_gender?в:ла} з [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] ма{Pawn_gender?в:ла} розмову з [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] привіта{Pawn_gender?в:ла} [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] представи{Pawn_gender?в:ла} [ATTENDER_nameFull] друзям [circumstance_group]</li>
+    <li>circumstance_phrase->з широкою усмішкою</li>
+    <li>circumstance_phrase->зі сміхом</li>
+    <li>circumstance_phrase->з [AdjectiveFriendly] посмішкою</li>
+    <li>circumstance_phrase->при цьому галасливо сміючись</li>
+    <li>circumstance_phrase->з [AdjectiveFriendly]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] беруть участь у розмові.</li>
+    <li>desc_sentence->Приміщеня прикрашене у [Color] та [Color] кольорах.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] граються поряд.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
-  <BuiltSnowman.label>built snowman</BuiltSnowman.label>
+  <BuiltSnowman.label>ліпить сніговика</BuiltSnowman.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] building a snowman</li>
     <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
@@ -57,24 +57,24 @@
     <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
   -->
   <BuiltSnowman.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] building a snowman</li>
-    <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
-    <li>image->[PAWN_nameFull] forming a snowball [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] rolling a giant ball of snow on the ground [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] arranging [Vegetable]s into a rough human face [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lying down in the snow [circumstance_group]</li>
-    <li>circumstance_phrase->while enveloped in [Quantity_adjphrase] parkas</li>
-    <li>circumstance_phrase->while obscured in a light snowstorm</li>
-    <li>circumstance_phrase->while [PAWN_possessive] friends build a fort</li>
-    <li>circumstance_phrase->while [PAWN_possessive] friends build a snowman family</li>
-    <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
-    <li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
-    <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+    <li>tale_noun->[PAWN_nameDef] ліпить сніговика</li>
+    <li>tale_noun->[PAWN_nameDef] грається у снігу</li>
+    <li>image->[PAWN_nameFull] ліпить сніжки [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] катає снігові кулі [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] додає [Vegetable] до обличча сніговика [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] лежить у снігу [circumstance_group]</li>
+    <li>circumstance_phrase->одягнені у [Quantity_adjphrase] пуховик</li>
+    <li>circumstance_phrase->під час невеликої хуртовини</li>
+    <li>circumstance_phrase->коли [PAWN_possessive] друзі будують укріплення</li>
+    <li>circumstance_phrase->коли [PAWN_possessive] друзі будують сім'ю сніговиків</li>
+    <li>desc_sentence->[Color] полярне сяйво сяє навкруги.</li>
+    <li>desc_sentence->Вдалині [Community] вкрита снігом.</li>
+    <li>desc_sentence->Поле [Vegetable] ледь помітне скрізь сніг.</li>
+    <li>desc_sentence->Засніжене [TerrainFeature] видніється вдалені.</li>
   </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
-  <BuriedCorpse.label>buried corpse</BuriedCorpse.label>
+  <BuriedCorpse.label>{PAWN_gender ? бачив : бачила} труп</BuriedCorpse.label>
   <!-- EN:
     <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
     <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
@@ -97,29 +97,29 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <BuriedCorpse.rulePack.rulesStrings>
-    <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
-    <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
-    <li>image->[DIGGER_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] scribing text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] drawing art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->and consumed in thought</li>
-    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
-    <li>circumstance_phrase->and talking quietly to the memorial</li>
-    <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveFriendly] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>tale_noun->[DIGGER_nameDef] ховає [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] кладе [CORPSE_nameDef] на спочинок</li>
+    <li>image->[DIGGER_nameFull] стоячи біля могили [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] {Pawn_gender? сидів: сиділа} поряд [CORPSE_nameFull] могилою [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] {Pawn_gender? спирався: спиралася} на могилу [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] пишить напис на могилі [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] робить малюнок на могилі [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] кладе тіло [CORPSE_nameFull] до могили [circumstance_group]</li>
+    <li>circumstance_phrase->з [AdjectiveAngsty] виразом</li>
+    <li>circumstance_phrase->та з думками про спільні події</li>
+    <li>circumstance_phrase->дивлячись в далечінь [TerrainFeature]</li>
+    <li>circumstance_phrase->та тихо розмовля{Pawn_gender?в:ла} з надгробком</li>
+    <li>desc_sentence->[Color] полярне сяйво сяє навкруги.</li>
+    <li>desc_sentence->Вдалині [Community] вкрита снігом.</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] дивиться з [AdjectiveFriendly] виразом.</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] постає поряд з [DIGGER_nameDef], з [AdjectiveFriendly] виразом.</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] дивиться навкруги з виразом [AdjectiveAngsty].</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] постає поряд з [DIGGER_nameDef], з [AdjectiveAngsty] виразом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] відпочиває поряд.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
-  <CompletedLongConstructionProject.label>completed long construction project</CompletedLongConstructionProject.label>
+  <CompletedLongConstructionProject.label>завершено довгий проект будівництва</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
@@ -138,25 +138,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] putting together a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
-    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
-    <li>circumstance_phrase->while covered in grime</li>
-    <li>circumstance_phrase->while smiling proudly</li>
-    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
-    <li>desc_sentence->The [OBJECT_label] appears to tower above [PAWN_nameDef].</li>
-    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
-    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+    <li>tale_noun->[PAWN_nameDef] завершили будівництво [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] будують [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] доставляє матеріали до [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] полірує поверхню [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] вписування імені [PAWN_possessive] на [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->з блиском в очах [PAWN_possessive]</li>
+    <li>circumstance_phrase->витираючи піт із чола [PAWN_possessive]</li>
+    <li>circumstance_phrase->вкриті брудом</li>
+    <li>circumstance_phrase->при цьому гордо посміхаючись</li>
+    <li>circumstance_phrase->із задоволеним виразом обличчя [PAWN_possessive]</li>
+    <li>desc_sentence->[OBJECT_label] вищий за [PAWN_nameDef].</li>
+    <li>desc_sentence->[OBJECT_label] у [Color] кольорі.</li>
+    <li>desc_sentence->[OBJECT_label] має багато єлементів.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивуеться [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] погляд [PersonJob] в страху.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
-  <CompletedLongCraftingProject.label>completed long crafting project</CompletedLongCraftingProject.label>
+  <CompletedLongCraftingProject.label>завершено довгий проект створення</CompletedLongCraftingProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
@@ -175,25 +175,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
-    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
-    <li>circumstance_phrase->while covered in grime</li>
-    <li>circumstance_phrase->while smiling proudly</li>
-    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
-    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
-    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
-    <li>desc_sentence->[PAWN_nameDef] lifts the [OBJECT_label] seemingly without effort.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the device.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+    <li>tale_noun->[PAWN_nameDef] завершено створення [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] працює над [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] полірує поверхню [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] додає частини до [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] вписував ім'я [PAWN_possessive] на [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->з блиском в очах [PAWN_possessive]</li>
+    <li>circumstance_phrase->витираючи піт із чола [PAWN_possessive]</li>
+    <li>circumstance_phrase->вкриті брудом</li>
+    <li>circumstance_phrase->при цьому гордо посміхаючись</li>
+    <li>circumstance_phrase->із задоволеним виразом обличчя [PAWN_possessive]</li>
+    <li>desc_sentence->[OBJECT_label] у [Color] кольорі.</li>
+    <li>desc_sentence->[OBJECT_label] має багато єлементів.</li>
+    <li>desc_sentence->[PAWN_nameDef] піднімає [OBJECT_label], здавалося б, без зусиль.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивується пристрою.</li>
+    <li>desc_sentence->[Quantity_adjphrase] погляд [PersonJob] в страху.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
-  <EnteredCryptosleep.label>entered cryptosleep</EnteredCryptosleep.label>
+  <EnteredCryptosleep.label>активовано криптосон</EnteredCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
     <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
@@ -212,25 +212,25 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
-    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->while consumed in thought</li>
-    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
-    <li>circumstance_phrase->and talking quietly to themselves</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
-    <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
-    <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
-    <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+    <li>tale_noun->[PAWN_nameDef] кативовано криптосон</li>
+    <li>image->[PAWN_nameFull] лежачи в саркофазі криптосну [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] відкриття порожнього саркофагу криптосону [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] запечатує себе в саркофазі криптосну [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] дивиться крізь стіну саркофагу криптосну на світ, який вони збираються покинути [circumstance_group]</li>
+    <li>circumstance_phrase->з [AdjectiveAngsty] виразом</li>
+    <li>circumstance_phrase->та з думками про спільні події</li>
+    <li>circumstance_phrase->дивлячись в далечінь [TerrainFeature]</li>
+    <li>circumstance_phrase->та тихо розмовля{Pawn_gender?в:ла} з собою</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] відпочиває поряд.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] наближаються.</li>
+    <li>desc_sentence->[PAWN_nameDef] випромінює рішучість.</li>
+    <li>desc_sentence->[PAWN_nameDef] помітно поранений.</li>
+    <li>desc_sentence->[Color] полярне сяйво сяє навкруги.</li>
+    <li>desc_sentence->[Quantity_adjphrase] заповнені саркофаги кріптосну навкруги.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
-  <GainedMasterSkillWithoutPassion.label>gained master skill</GainedMasterSkillWithoutPassion.label>
+  <GainedMasterSkillWithoutPassion.label>покращив майстерність</GainedMasterSkillWithoutPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -250,26 +250,26 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
-    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] receiving training in [SKILL_label] skills [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
-    <li>circumstance_phrase->while covered in sweat</li>
-    <li>circumstance_phrase->with visible exhaustion</li>
-    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->with a bored expression</li>
-    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] failed experiments.</li>
-    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] books.</li>
-    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+    <li>tale_noun->[PAWN_nameDef] став майстром у виконанні завдань [SKILL_label]</li>
+    <li>image->[PAWN_nameFull] покращує [SKILL_label] навички [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] читає книжки про методи [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] проходить навчання по навичкам [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] працює з бажанням [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] завершує проєкт [circumstance_group]</li>
+    <li>circumstance_phrase->поки покриті потом</li>
+    <li>circumstance_phrase->з видимими ознаками виснаження</li>
+    <li>circumstance_phrase->з [AdjectiveAngsty] виразом</li>
+    <li>circumstance_phrase->з нудьгуючим виразом</li>
+    <li>desc_sentence->Навколо видно [Quantity_adjphrase] невдалі експерименти.</li>
+    <li>desc_sentence->Навколо багато [Quantity_adjphrase] книг.</li>
+    <li>desc_sentence->[PAWN_possessive] в праці видно майстерність.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивитися з подивом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться з подивом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] Душі стародавніх майстрів поглядають зверху.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
-  <GainedMasterSkillWithPassion.label>gained master skill with passion</GainedMasterSkillWithPassion.label>
+  <GainedMasterSkillWithPassion.label>покращив майстерність у бажаній професії</GainedMasterSkillWithPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -291,28 +291,28 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
-    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] receiving training for [SKILL_label] skills [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
-    <li>circumstance_phrase->with a joyous expression</li>
-    <li>circumstance_phrase->while [VerbFriendly]</li>
-    <li>circumstance_phrase->with an exuberant shout</li>
-    <li>circumstance_phrase->while covered in sweat</li>
-    <li>circumstance_phrase->with visible exhaustion</li>
-    <li>desc_sentence->The subject is surrounded by the results of [Quantity_adjphrase] failed experiments.</li>
-    <li>desc_sentence->The subject is surrounded by [Quantity_adjphrase] books.</li>
-    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
-    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+    <li>tale_noun->[PAWN_nameDef] став майстром у виконанні завдань [SKILL_label]</li>
+    <li>image->[PAWN_nameFull] покращує [SKILL_label] навички [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] читає книжки про методи [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] проходить навчання по навичкам [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] працює з бажанням [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] завершує проєкт [circumstance_group]</li>
+    <li>circumstance_phrase->з [AdjectiveFriendly] виразом</li>
+    <li>circumstance_phrase->з радісним виразом обличчя</li>
+    <li>circumstance_phrase->поки [VerbFriendly]</li>
+    <li>circumstance_phrase->з буйним криком</li>
+    <li>circumstance_phrase->поки покриті потом</li>
+    <li>circumstance_phrase->з видимими ознаками виснаження</li>
+    <li>desc_sentence->Навколо видно [Quantity_adjphrase] невдалі експерименти.</li>
+    <li>desc_sentence->Навколо багато [Quantity_adjphrase] книг.</li>
+    <li>desc_sentence->[PAWN_possessive] в праці видно майстерність.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивитися з подивом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться з подивом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] душі стародавніх майстрів поглядають зверху.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
   <!-- EN: increased menagerie -->
-  <IncreasedMenagerie.label>increased menagerie</IncreasedMenagerie.label>
+  <IncreasedMenagerie.label>збільшено звіринець</IncreasedMenagerie.label>
   <!-- EN:
     <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
@@ -331,25 +331,25 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
-    <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
-    <li>circumstance_phrase->with great care and caution</li>
-    <li>circumstance_phrase->with a smile</li>
-    <li>circumstance_phrase->while exhausted but happy</li>
-    <li>circumstance_phrase->with a [AnimalGroup] in the background</li>
-    <li>desc_sentence->[HUMAN_nameDef] is surrounded by uncountable [Animal]s.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] is moving to join a [AnimalGroup] of its kin.</li>
-    <li>desc_sentence->The scene is packed with [Animal]s and [Animal]s.</li>
-    <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] вербує ще одну тварину для вирощування [HUMAN_possessive] [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] за ним слідує [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] приручає [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] приручена [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] пропонує шматочок їжі [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] шепочеться із норовливим [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] заспокоює дикого [ANIMAL_label] [circumstance_group]</li>
+    <li>circumstance_phrase->з великою обережністю та обачністью</li>
+    <li>circumstance_phrase->з посмішкою</li>
+    <li>circumstance_phrase->коли виснажений, але щасливий</li>
+    <li>circumstance_phrase->з [AnimalGroup] навкруги</li>
+    <li>desc_sentence->[HUMAN_nameDef] оточений незліченими [Animal].</li>
+    <li>desc_sentence->[ANIMAL_nameDef] збирається приєднати [AnimalGroup] до свого роду.</li>
+    <li>desc_sentence->Навкруги кілька [Animal] та [Animal].</li>
+    <li>desc_sentence->Кілька [Animal] чекає, щоб [HUMAN_nameDef] їх приручив.</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
-  <Meditated.label>meditated</Meditated.label>
+  <Meditated.label>медитація</Meditated.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] meditating</li>
     <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
@@ -367,24 +367,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] meditating</li>
-    <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
-    <li>circumstance_phrase->radiating serenity</li>
-    <li>circumstance_phrase->with a tranquil smile</li>
-    <li>circumstance_phrase->with a [VerbFriendly] smile</li>
-    <li>circumstance_phrase->glowing softly</li>
-    <li>circumstance_phrase->surrounded by a [Color] aura</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+    <li>tale_noun->[PAWN_nameDef] медітує</li>
+    <li>image->[PAWN_nameFull] сидячи під деревом [TreeType], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] тихо сидить, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] вдивляеться у далечінь та [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] закриває [PAWN_possessive] очі та [circumstance_group]</li>
+    <li>circumstance_phrase->випромінює спокій</li>
+    <li>circumstance_phrase->зі спокійною усмішкою</li>
+    <li>circumstance_phrase->зі [VerbFriendly] усмішкою</li>
+    <li>circumstance_phrase->м'яко світиться</li>
+    <li>circumstance_phrase->навколо [Color] аура</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивитися на [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] оточений [Quantity_adjphrase] [Animal].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] мирно відпочиває.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] вражені цією сценою.</li>
   </Meditated.rulePack.rulesStrings>
   
   <!-- EN: mined valuable -->
-  <MinedValuable.label>mined valuable</MinedValuable.label>
+  <MinedValuable.label>добуті ресурси</MinedValuable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
@@ -405,27 +405,27 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <MinedValuable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
-    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
-    <li>circumstance_phrase->sweating heavily</li>
-    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
-    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
-    <li>circumstance_phrase->smiling proudly</li>
-    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
-    <li>desc_sentence->There is a [Community] in the background.</li>
-    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
-    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
-    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+    <li>tale_noun->[PAWN_nameDef] добувати багату жилу [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] добуває [MATERIAL_label] використовуючи гірничи інструменти, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] тримає шматок [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] відпочиває спираючись на стіну [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] координація команди для розкопок багатої жили [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] обережно оглядаючи багату жилу [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->сильно пітніти</li>
+    <li>circumstance_phrase->має [AdjectiveFriendly] вигляд</li>
+    <li>circumstance_phrase->має [AdjectiveFriendly] вигляд</li>
+    <li>circumstance_phrase->гордо посміхається</li>
+    <li>circumstance_phrase->вираз задоволення на обличчі [PAWN_possessive]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally] допомагає.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] блукає територією.</li>
+    <li>desc_sentence->[Community] видно недалеко.</li>
+    <li>desc_sentence->[Quantity_adjphrase] далі видно жилу.</li>
+    <li>desc_sentence->Вдалині видніється [TerrainFeature].</li>
+    <li>desc_sentence->[PAWN_nameDef] спітнілий та брудний від праці.</li>
   </MinedValuable.rulePack.rulesStrings>
   
   <!-- EN: played game -->
-  <PlayedGame.label>played game</PlayedGame.label>
+  <PlayedGame.label>грати у гру</PlayedGame.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
     <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
@@ -453,34 +453,34 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
   -->
   <PlayedGame.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] winning at a [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] losing at a [OBJECT_label], [circumstance_group]</li>
-    <li>circumstance_phrase->tense with energy</li>
-    <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
-    <li>circumstance_phrase->planning [PAWN_possessive] next action</li>
-    <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
-    <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look</li>
+    <li>tale_noun->[PAWN_nameDef] відпочиває біля [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] грає у гру біля [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] насолоджуеться [PAWN_objective] собою біля [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] чекає на стільці, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] тримається над [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] сидить поряд з [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] перемога на [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] програв у [OBJECT_label], [circumstance_group]</li>
+    <li>circumstance_phrase->напонений енергією</li>
+    <li>circumstance_phrase->[PAWN_possessive] тіло невагоме та розслаблене</li>
+    <li>circumstance_phrase->планує [PAWN_possessive] наступну дію</li>
+    <li>circumstance_phrase->обережно масажуэ зап’ястки [PAWN_possessive]</li>
+    <li>circumstance_phrase->[angstyverb] з [AdjectiveAngsty] виразом</li>
+    <li>circumstance_phrase->має [AdjectiveAngsty] вигляд</li>
     <li>circumstance_phrase->[angstyverb]</li>
-    <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->In the distance, a [Community] is visible.</li>
-    <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
-    <li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
-    <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
-    <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
+    <li>desc_sentence->[Color] полярне сяйво сяє навкруги.</li>
+    <li>desc_sentence->Здалеку спостерігає [Community].</li>
+    <li>desc_sentence->Здалеку спостерігає [TerrainFeature].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] грає добрє.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] грається поряд.</li>
+    <li>desc_sentence->[PAWN_nameDef] сяє [Color] аурою.</li>
+    <li>desc_sentence->[PAWN_nameDef] риси перебільшені.</li>
+    <li>desc_sentence->[PAWN_nameDef] вежа домунє.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] впали в поразці.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
-  <Prayed.label>prayed</Prayed.label>
+  <Prayed.label>{Pawn_gender? молився: молилася}</Prayed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] praying</li>
     <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
@@ -499,25 +499,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] praying</li>
-    <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
-    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] clasping [PAWN_possessive] hands and [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] looking into the sky and [circumstance_group]</li>
-    <li>circumstance_phrase->radiating serenity</li>
-    <li>circumstance_phrase->whispering softly</li>
-    <li>circumstance_phrase->wearing a hopeful expression</li>
-    <li>circumstance_phrase->glowing softly</li>
-    <li>circumstance_phrase->surrounded by a [Color] aura</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+    <li>tale_noun->[PAWN_nameDef] {Pawn_gender? молився: молилася}</li>
+    <li>tale_noun->[PAWN_nameDef] {Pawn_gender? молився: молилася} до вищих сил</li>
+    <li>image->[PAWN_nameFull] вдивляеться у далечінь та [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] закриває [PAWN_possessive] очі та [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [PAWN_possessive] хлопає у долоні та [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] дивиться у небо та [circumstance_group]</li>
+    <li>circumstance_phrase->випромінює спокій</li>
+    <li>circumstance_phrase->тихо шепоче</li>
+    <li>circumstance_phrase->з надією</li>
+    <li>circumstance_phrase->м'яко світиться</li>
+    <li>circumstance_phrase->навколо [Color] аура</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивитися на [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] оточений [Quantity_adjphrase] [Animal].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] мирно відпочиває.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] вражені цією сценою.</li>
   </Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
-  <PutIntoCryptosleep.label>put into cryptosleep</PutIntoCryptosleep.label>
+  <PutIntoCryptosleep.label>покласти у криптосон</PutIntoCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
     <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
@@ -536,25 +536,25 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
-    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
-    <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
-    <li>circumstance_phrase->while consumed in thought</li>
-    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
-    <li>circumstance_phrase->with visible tension between the two</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
-    <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
-    <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
-    <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
-    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+    <li>tale_noun->[CARRIER_nameDef] кладє [SLEEPER_nameDef] у криптосон</li>
+    <li>image->[CARRIER_nameFull] розміщує [SLEEPER_nameDef] в середині саркофагу криптосну [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] відкриває пустий саркофаг криптосну для використання [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] закриває [SLEEPER_nameDef] всередині саркофагу криптосну [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] проходить поряд, а [SLEEPER_nameDef] дивиться крізь стінку саркофагу криптосну [circumstance_group]</li>
+    <li>circumstance_phrase(p=3)->з [AdjectiveAny] виразом</li>
+    <li>circumstance_phrase->та з думками про спільні події</li>
+    <li>circumstance_phrase->дивлячись в далечінь [TerrainFeature]</li>
+    <li>circumstance_phrase->з видимою напругою між ними</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] відпочиває поряд.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] наближаються.</li>
+    <li>desc_sentence->[CARRIER_nameDef] випромінює рішучість.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] помітно поранений.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] виглядає виснаженим.</li>
+    <li>desc_sentence->[Quantity_adjphrase] заповнені саркофаги кріптосну навкруги.</li>
   </PutIntoCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: stripped -->
-  <Stripped.label>stripped</Stripped.label>
+  <Stripped.label>роздягнений</Stripped.label>
   <!-- EN:
     <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
@@ -573,25 +573,25 @@
     <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
   -->
   <Stripped.rulePack.rulesStrings>
-    <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
-    <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
-    <li>circumstance_phrase->with a sense of purpose</li>
-    <li>circumstance_phrase->with no hint of shame</li>
-    <li>circumstance_phrase->while others look on</li>
-    <li>circumstance_phrase->for no apparent reason</li>
-    <li>circumstance_phrase->while confused animals look on</li>
-    <li>desc_sentence->[STRIPPED_nameDef] is visibly aroused.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] is covered in unexplained moisture.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] is breathing heavily for no obvious reason.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] is fondling a shrub.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
+    <li>tale_noun->[TAKER_nameDef] роздягає [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] публічно роздягає [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] знімає одяг з [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] тримає купу [[Apparel], стоїть поруч із [STRIPPED_nameFull], {PAWN_gender ? який : яка} повністю {PAWN_gender ? голий : гола} [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] терпляче чекає доки [STRIPPED_nameFull] знімає [STRIPPED_possessive] одяг [circumstance_group]</li>
+    <li>circumstance_phrase->з почуттям мети</li>
+    <li>circumstance_phrase->без сорому</li>
+    <li>circumstance_phrase->поки інші дивляться</li>
+    <li>circumstance_phrase->без видимої причини</li>
+    <li>circumstance_phrase->а збентежені тварини дивляться</li>
+    <li>desc_sentence->[STRIPPED_nameDef] помітно збуджений.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] вкривається незрозумілою вологою.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] важко дихає без видимих причин.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] пестить кущ.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] носить лише вираз [AdjectiveAngsty].</li>
   </Stripped.rulePack.rulesStrings>
   
   <!-- EN: visited grave -->
-  <VisitedGrave.label>visited grave</VisitedGrave.label>
+  <VisitedGrave.label>{Pawn_gender? відвідував: відвідувала} могилу</VisitedGrave.label>
   <!-- EN:
     <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
     <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
@@ -613,24 +613,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <VisitedGrave.rulePack.rulesStrings>
-    <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
-    <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
-    <li>image->[VISITOR_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] reading the text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
-    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
-    <li>circumstance_phrase->and consumed in thought</li>
-    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
-    <li>circumstance_phrase->and talking quietly to the memorial</li>
-    <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveFriendly] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
-    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveAngsty] expression.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>tale_noun->[VISITOR_nameDef] {Pawn_gender? відвідував: відвідувала} могилу [CORPSE_nameDef]</li>
+    <li>tale_noun->[VISITOR_nameDef] {Pawn_gender? відвідував: відвідувала} [CORPSE_nameDef] могилу</li>
+    <li>image->[VISITOR_nameFull] залишався поряд з [CORPSE_nameFull] могилою [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] {Pawn_gender? сидів: сиділа} поряд [CORPSE_nameFull] могилою [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] {Pawn_gender? спирався: спиралася} на могилу [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] {Pawn_gender? читав: читала} написи на [CORPSE_nameFull] могилі[circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] {Pawn_gender? роздивлявся: роздивлялася} барельеф на [CORPSE_nameFull] могилі [circumstance_group]</li>
+    <li>circumstance_phrase->з [AdjectiveAngsty] виразом</li>
+    <li>circumstance_phrase->і спілкува{Pawn_gender?вся:лася} в думках</li>
+    <li>circumstance_phrase->дивлячись на далечінь [TerrainFeature]</li>
+    <li>circumstance_phrase->та тихо розмовля{Pawn_gender?в:ла} з надгробком</li>
+    <li>desc_sentence->[Color] полярне сяйво сяє навколо.</li>
+    <li>desc_sentence->Вдалині [Community] вкрита снігом.</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] дивиться з [AdjectiveFriendly] виразом.</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] постає поряд з [VISITOR_nameDef], з виразом [AdjectiveFriendly].</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] дивиться навкруги з виразом [AdjectiveAngsty].</li>
+    <li>desc_sentence->Привид [CORPSE_nameDef] постає поряд з [VISITOR_nameDef], з [AdjectiveAngsty] виразом.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] відпочиває поряд.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

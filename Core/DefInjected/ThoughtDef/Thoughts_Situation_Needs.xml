@@ -184,17 +184,17 @@
   <NeedOutdoors.stages.stuck_indoors.description>Я хотів би вийти назовні й отримати трохи свіжого повітря.</NeedOutdoors.stages.stuck_indoors.description>
   
   <!-- EN: drowsy -->
-  <NeedRest.stages.drowsy.label>сонний</NeedRest.stages.drowsy.label>
+  <NeedRest.stages.drowsy.label>{PAWN_gender ? Сонний : Сонна}</NeedRest.stages.drowsy.label>
   <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
-  <NeedRest.stages.drowsy.description>Я деякий час не спав. Важко підтримувати увагу.</NeedRest.stages.drowsy.description>
+  <NeedRest.stages.drowsy.description>Я деякий час не {PAWN_gender ? спав : спала}. Важко підтримувати увагу.</NeedRest.stages.drowsy.description>
   <!-- EN: tired -->
-  <NeedRest.stages.tired.label>{0_gender ? стомлений : стомлена}</NeedRest.stages.tired.label>
+  <NeedRest.stages.tired.label>{PAWN_gender ? Стомлений : Стомлена}</NeedRest.stages.tired.label>
   <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
   <NeedRest.stages.tired.description>Я такий змучений. Хочу тільки прилягти й відпочити кілька хвилин...</NeedRest.stages.tired.description>
   <!-- EN: exhausted -->
   <NeedRest.stages.exhausted.label>{0_gender ? виснажений : виснажена}</NeedRest.stages.exhausted.label>
   <!-- EN: I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep... -->
-  <NeedRest.stages.exhausted.description>Я такий виснажений, що ледве можу стояти. На моїх повіках свинець. Дозволь поспати...</NeedRest.stages.exhausted.description>
+  <NeedRest.stages.exhausted.description>Я {PAWN_gender ? такий виснажений : така виснажена}, що ледве можу стояти. На моїх повіках свинець. Дозволь поспати...</NeedRest.stages.exhausted.description>
   
   <!-- EN: confined interior -->
   <NeedRoomSize.stages.confined_interior.label>тісний інтер'єр</NeedRoomSize.stages.confined_interior.label>
@@ -207,6 +207,6 @@
   <!-- EN: spacious interior -->
   <NeedRoomSize.stages.spacious_interior.label>просторий інтер'єр</NeedRoomSize.stages.spacious_interior.label>
   <!-- EN: This room is so expansive, I feel free. -->
-  <NeedRoomSize.stages.spacious_interior.description>Ця кімната така велика, я почуваюся вільним.</NeedRoomSize.stages.spacious_interior.description>
+  <NeedRoomSize.stages.spacious_interior.description>Ця кімната така велика, я почуваюся вільною людиною.</NeedRoomSize.stages.spacious_interior.description>
   
 </LanguageData>

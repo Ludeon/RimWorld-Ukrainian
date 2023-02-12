@@ -83,9 +83,9 @@
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
   <MessageRecruitSuccess>{RECRUITER_nameFull} успішно {1_gender ? завербований : завербована} {RECRUITEE_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} успішно {1_gender ? приручив : приручила} {1}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} успішно {PAWN_gender ? приручив : приручила} {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успішно {1_gender ? приручив : приручила} {1}. Тепер відзивається на {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успішно {PAWN_gender ? приручив : приручила} {1}. Тепер відзивається на {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>Немає відповідного загону для тварин для {ANIMAL_labelShort}. Врешті-решт він піде геть.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -195,7 +195,7 @@
   <MessageAttackedByPredator>{PREY_labelShort} атаковано {PREDATOR}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} {1_gender ? почав : почала} йти геть! {PAWN_pronoun} залишить карту, якщо тваринник не прив’яже {PAWN_objective} назад до загону.</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort} {1_gender ? почав : почала} йде геть! {PAWN_pronoun} вийде з карти, якщо скотар не поверне {PAWN_objective} назад до загону.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Вулик жуків самовідтворився.</MessageHiveReproduced>
@@ -427,7 +427,7 @@
   <MessageCantBanishDownedPawn>Неможливо вигнати {1_labelShort}, оскільки {1_pronoun} не може ходити.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} {0_gender ? прокинувся : прокинулася}.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} {0_gender ? прокинувся : прокинулась}.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
   <MessageMechClusterDefeated>Кластер мехів було розбито.</MessageMechClusterDefeated>
 

@@ -119,9 +119,9 @@
 
   <!-- Social tab -->
   <!-- EN: Friend -->
-  <Friend>Друг</Friend>
+  <Friend>{PAWN_gender ? Друг : Подруга}</Friend>
   <!-- EN: Rival -->
-  <Rival>Суперник</Rival>
+  <Rival>{PAWN_gender ? Суперник : Суперниця}</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>Знайомий</Acquaintance>
   
@@ -161,7 +161,7 @@
 
   <!-- History tab - Statistics -->
   <!-- EN: Play time -->
-  <Playtime>Зіграно часів</Playtime>
+  <Playtime>Ігровий час</Playtime>
   <!-- EN: Storyteller -->
   <Storyteller>Оповідач</Storyteller>
   <!-- EN: Colony wealth (this map) -->
@@ -211,7 +211,7 @@
   <!-- EN: Required research bench -->
   <RequiredResearchBench>Потрібен дослідницький стіл</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Потрібне приміщення для досліднецького столу</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Необхідне обладнання для дослідницького столу</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Базова вартість проєкту {0} стає {1} для вас, через ваш технічний рівень.</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
@@ -287,7 +287,7 @@
   <!-- EN: This quest became invalid before it was accepted. -->
   <QuestOutcomeInfo_Invalid>Це доручення стало недійсним, ще до його прийняття.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
-  <JumpToTargetCustom>Стрибок до {0}</JumpToTargetCustom>
+  <JumpToTargetCustom>Перейти до {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
   <SelectHiveTargets>Обрати вулики</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->

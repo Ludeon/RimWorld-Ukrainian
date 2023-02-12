@@ -88,7 +88,7 @@
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewDisease>{PAWN} захворіла у {1}.\n\nПереконайся, що у вас медичне ліжко та лікар. Переконайтеся, що {PAWN_definite} отримує належне лікування та витрачає якомога більше часу на ліжко.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} захворів від {3}. Інфекція знаходиться в {PAWN_possessive}{1}.\n\nПереконайтеся, що у вас є медичне ліжко та лікар. Переконайтеся, що {PAWN_definite} отримує належне лікування і проводить якомога більше часу в ліжку.</NewPartDisease>
+  <NewPartDisease>У {PAWN} {3}. Інфекція знаходиться в {PAWN_possessive} {1}.\n\nЗабезпечте медичне ліжко й лікаря. Також переконайтеся, що {PAWN_definite} отримує відповідне лікування й проводить у ліжку якнайбільше часу.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} хвороба прогресувала: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
@@ -107,7 +107,7 @@
   <AncientShrineWarning>Коли {PAWN_nameDef} малює біля стародавньої стіни, почуття передчуття долає {PAWN_objective}. {PAWN_pronoun} не впевнений, чому, але {PAWN_pronoun} відчуває, що ця заброшена структура може містити велику небезпеку.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>Ми вразили {0}!</StruckMineable>
+  <StruckMineable>Ми знайшли {0}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} помста</LetterLabelAnimalManhunterRevenge>
@@ -149,7 +149,7 @@
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Останньою краплею було: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
-  <MentalStateReason_Mood>Так сталося через поганий настрій.</MentalStateReason_Mood>
+  <MentalStateReason_Mood>Це сталось через поганий настрій.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
   <MentalStateReason_Trait>Це сталося через особливість: {0}.</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
@@ -260,9 +260,9 @@
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>{0} випивка</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Вживання {0}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{2_label} є під кайфом {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} вживає {1}.</LetterDrugBinge>
 
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -414,7 +414,7 @@
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Врятований приєднується</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Ви врятували {PAWN_nameDef}, і {PAWN_pronoun} долучився до вашої групи.\n\nВи можете взяти {PAWN_objective} з собою, переформувавши караван на екрані Світу, вибравши цю область і вибравши опцію «Переформувати караван».</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Ви врятували {PAWN_nameDef}, тому {PAWN_pronoun} {PAWN_gender ? долучився : долучилась} до вашої групи.\n\nВи можете взяти {PAWN_objective} із собою шляхом створення каравану на вкладці "Світ", обравши цю місцевість, а потім - опцію "Створити караван".</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -428,7 +428,7 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Хвороба: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} захворів від {1}.\n\nЗабезпечте медичне ліжко й лікаря. Також переконайтеся, що {PAWN_pronoun} отримує відповідне лікування й проводить у ліжку якнайбільше часу.</LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label} {PAWN_gender ? захворів : захворіла} на {1}.\n\nЗабезпечте медичне ліжко й лікаря. Також переконайтеся, що {PAWN_pronoun} отримує відповідне лікування й проводить у ліжку якнайбільше часу.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -545,7 +545,7 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Виявлено караван</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Ваш караван виявлений. У {0}, підсилення {1} із {2} почнеться приїзд у регіоні.\n\nПерегляньте свій караван і почніть рухатися так, щоб уникнути {1}. Тепер видно таймер, що веде відлік до їх прибуття.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Ваш караван виявлений. Через {0}, підсилення для {1} із {2} почне прибувати у регіон.\n\nСформуйте свій караван і почніть рухатися так, щоб уникнути {1}. Тепер видно таймер, що веде відлік до їх прибуття.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
   <LetterLabelUnrecruitablePawnCaptured>Непохитний в'язень</LetterLabelUnrecruitablePawnCaptured>

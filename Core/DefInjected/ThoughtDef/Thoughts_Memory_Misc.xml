@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: ate without table -->
-  <AteWithoutTable.stages.ate_without_table.label>{PAWN_gender ? поїв : поїла} не за столом</AteWithoutTable.stages.ate_without_table.label>
+  <AteWithoutTable.stages.ate_without_table.label>{PAWN_gender ? Поїв : Поїла} не за столом</AteWithoutTable.stages.ate_without_table.label>
   <!-- EN: I had to eat a meal off the ground. Can't we get a table around here? -->
-  <AteWithoutTable.stages.ate_without_table.description>Мені довелося з’їсти страву з землі. Невже ми невзмозі встановити тут стіл?</AteWithoutTable.stages.ate_without_table.description>
+  <AteWithoutTable.stages.ate_without_table.description>Мені довелося з’їсти страву з землі. Невже ми не можемо встановити тут стіл?</AteWithoutTable.stages.ate_without_table.description>
   
   <!-- EN: bonded animal {0} banished -->
   <BondedAnimalBanished.stages.bonded_animal_banished.label>пов'язану тварину {0} вигнано</BondedAnimalBanished.stages.bonded_animal_banished.label>
@@ -12,9 +12,9 @@
   <BondedAnimalBanished.stages.bonded_animal_banished.description>Мого улюбленця вигнали з поселення!</BondedAnimalBanished.stages.bonded_animal_banished.description>
   
   <!-- EN: I butchered humanlike -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{Pawn_gender? Розчленив: Розчленила} людину</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>{PAWN_gender? Розчленив: Розчленила} людину</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.label>
   <!-- EN: I butchered someone up like an animal. -->
-  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Я {Pawn_gender? зарізав: зарізав} людину, немов це тварина.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
+  <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Я {PAWN_gender? зарізав: зарізав} людину, немов це тварина.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
   <!-- EN: butchered humanlike corpse -->
   <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>людське тіло було пущене на м'ясо</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
@@ -70,7 +70,7 @@
   <!-- EN: freed from slavery -->
   <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ?  Звільнений : Звільнена} з рабства</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
-  <FreedFromSlavery.stages.freed_from_slavery.description>Мене звільнили з рабства. Я так {Pawn_gender ? вдячний : вдячна}!</FreedFromSlavery.stages.freed_from_slavery.description>
+  <FreedFromSlavery.stages.freed_from_slavery.description>Мене звільнили з рабства. Я так {PAWN_gender? вдячний : вдячна}!</FreedFromSlavery.stages.freed_from_slavery.description>
   
   <!-- EN: bloodlust organ harvested -->
   <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>вирізано орган</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
@@ -163,7 +163,7 @@
   <RescuedRelative.stages.rescued.description>Ми врятували одного з моїх родичів. Нарешті, я можу зітхнути з полегшенням.</RescuedRelative.stages.rescued.description>
   
   <!-- EN: disturbed sleep -->
-  <SleepDisturbed.stages.disturbed_sleep.label>погано{PAWN_gender ? спав : спала}</SleepDisturbed.stages.disturbed_sleep.label>
+  <SleepDisturbed.stages.disturbed_sleep.label>Погано {PAWN_gender ? спав : спала}</SleepDisturbed.stages.disturbed_sleep.label>
   <!-- EN: I was disturbed during sleep by people moving around nearby. A private room would solve this. -->
   <SleepDisturbed.stages.disturbed_sleep.description>Мене турбували під час сну люди, що пересувалися неподалік. Це вирішила б особиста кімната.</SleepDisturbed.stages.disturbed_sleep.description>
   
@@ -188,9 +188,9 @@
   <SleptOutside.stages.slept_outside.description>Довелося спати просто неба, без жодного захисту від непогоди.</SleptOutside.stages.slept_outside.description>
   
   <!-- EN: soaking wet -->
-  <SoakingWet.stages.soaking_wet.label>{PAWN_gender ? вимок : вимокла}</SoakingWet.stages.soaking_wet.label>
+  <SoakingWet.stages.soaking_wet.label>{PAWN_gender ? Промок : Промокла}</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
-  <SoakingWet.stages.soaking_wet.description>Я{PAWN_gender ? вимок : вимокла} наскрізь</SoakingWet.stages.soaking_wet.description>
+  <SoakingWet.stages.soaking_wet.description>Я {PAWN_gender ? промок : промокла} наскрізь</SoakingWet.stages.soaking_wet.description>
   
   <!-- EN: eager to travel -->
   <TravelAnticipation.stages.eager_to_travel.label>очікує походу</TravelAnticipation.stages.eager_to_travel.label>
@@ -202,7 +202,7 @@
   <TravelAnticipation.stages.excited_to_travel.description>На цю пригоду було витрачено стільки роздумів і часу на підготовку. Я не можу дочекатися, щоб вирушити!</TravelAnticipation.stages.excited_to_travel.description>
   
   <!-- EN: was imprisoned -->
-  <WasImprisoned.stages.was_imprisoned.label>{PAWN_gender ? сидів : сиділа} у в'язниці</WasImprisoned.stages.was_imprisoned.label>
+  <WasImprisoned.stages.was_imprisoned.label>{PAWN_gender ? Сидів : Сиділа} у в'язниці</WasImprisoned.stages.was_imprisoned.label>
   <!-- EN: The colony had me in jail for a while, like a caged animal. -->
   <WasImprisoned.stages.was_imprisoned.description>Мене кинули до в'язниці, й тримали там деякий час, як тварину в клітці.</WasImprisoned.stages.was_imprisoned.description>
   
@@ -214,7 +214,7 @@
   <!-- EN: witnessed death with bloodlust -->
   <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>{PAWN_gender ? Бачив : Бачила} смерть людини</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.label>
   <!-- EN: I saw someone die! That was intense! -->
-  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Я{PAWN_gender ? бачив : бачила} смерть людини, оце так видовище!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
+  <WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>Я {PAWN_gender ? бачив : бачила} смерть людини, оце так видовище!</WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust.description>
   
   <!-- EN: witnessed family member's death -->
   <WitnessedDeathFamily.stages.witnessed_family_members_death.label>{PAWN_gender ? Став : Стала} свідком смерті члена родиини</WitnessedDeathFamily.stages.witnessed_family_members_death.label>

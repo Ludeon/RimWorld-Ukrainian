@@ -52,46 +52,46 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
-    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->An animal rescue organization wants you to take care of a [lodgersLabel] named [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe animal rescue activists stole [lodgers0_nameDef] from a slaughtering ceremony being held by [enemyFaction_name]. Now the [enemyFaction_pawnsPlural] are coming to seek revenge. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfoMechClustersSingleAnimal->З невідомих причин [lodgersLabel] став ціллю орбітального рою механоїдів.</li>
+    <li>threatsInfoMechClustersMultiAnimal->З невідомих причин на [lodgersLabelPlural] націлився орбітальний рій механоїдів.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->З невідомих причин [lodgersLabel] став мішенню механоїдного вулика.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->З невідомих причин [lodgersLabelPlural] стали мішенню механоїдного вулика.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Організація порятунку тварин хоче, щоб ви подбали про [lodgersLabel] на ім’я [lodgers0_nameDef] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nАктивісти з порятунку тварин викрали [lodgers0_nameDef] із церемонії забою тварин, яку проводив [enemyFaction_name]. Тепер [enemyFaction_pawnsPlural] приходять, щоб помститися. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->An animal rescue organization wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
-    <li>victim->child</li>
-    <li>victim->woman</li>
-    <li>victim->man</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Організація порятунку тварин хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>victim->дитина</li>
+    <li>victim->жінка</li>
+    <li>victim->чоловік</li>
     <li>victim->[PersonJob]</li>
-    <li>victim(generateThreats==true,threatType==Raids)->friend of the [enemyFaction_leaderTitle] of [enemyFaction_name]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, these [lodgersLabelPlural] were recently implicated in the death of a [victim]. Now, [enemyFaction_pawnsPlural] from [enemyFaction_name] are hunting them for ritual revenge. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>victim(generateThreats==true,threatType==Raids)->друг з [enemyFaction_leaderTitle] [enemyFaction_name]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, ці [lodgersLabelPlural] нещодавно були причетні до смерті [victim].Тепер [enemyFaction_pawnsPlural] з [enemyFaction_name] полюють на них заради ритуальної помсти. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is looking for a safe settlement to take care of [asker_possessive] pet [lodgersLabel] [lodgers0_nameDef] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] are trying to kill poor little [lodgers0_nameDef] to get at [asker_nameDef]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name] шукає безпечне місце для догляду за [asker_possessive] домашнім улюбленцем [lodgersLabel] [lodgers0_nameDef] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] з [enemyFaction_name] намагаються вбити маленького бідолашного [lodgers0_nameDef], щоб дістатися до [asker_nameDef]. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe [lodgersLabelPlural] are necessary for [asker_nameDef] to fulfill an important trade promise. To provoke conflict, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after them. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] необхідні [asker_nameDef] для виконання важливої ​​торгової обіцянки. Щоб спровокувати конфлікт, [enemyFaction_name] посилає за ними [enemyFaction_pawnsPlural]. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [asker_possessive] favorite pet, the [lodgersLabel] [lodgers0_nameDef], at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] is a gift promised to [asker_nameDef]'s child for a marriage ceremony. To try to prevent the marriage, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after [lodgers0_objective]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви піклувалися про улюблену тварину [asker_possessive], [lodgersLabel] [lodgers0_nameDef], у [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] — це подарунок, обіцяний дитині [asker_nameDef] на церемонію одруження. Щоб спробувати запобігти шлюбу, [enemyFaction_name] надсилає [enemyFaction_pawnsPlural] після [lodgers0_objective]. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull],[asker_royalTitleInCurrentFaction] із [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] в [map_definite] для [shuttleDelayTicks_duration]. The [lodgersLabelPlural] це [asker_nameDef] улюблені домашні тварини, і [asker_pronoun] хоче, щоб вони бачили світ поза [asker_possessive] Королівського Двору. [healthInfo][threatsInfo6][commonDescEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] is hunting the [lodgersLabelPlural] to try to hurt [asker_nameDef] personally. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [lodgersLabelPlural] — улюблені домашні тварини [asker_nameDef], і [asker_pronoun] хоче, щоб вони побачили світ за межами [asker_possessive] королівського двору. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, [enemyFaction_name] переслідує [lodgersLabelPlural], щоб завдати шкоди [asker_nameDef] особисто. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
-    <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} в [lodgersLabel]</li>
   </Hospitality_Animals.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
@@ -116,26 +116,26 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->a [animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->в [animalAdj] [lodgersLabel]</li>
     <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[lodgersLabel]-sitting</li>
-    <li>questName(lodgersCount==1)->keeping [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->poor little [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount>=2)->the [animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel]-сидить</li>
+    <li>questName(lodgersCount==1)->утримується [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->бідолашна малеча [lodgers0_nameDef]</li>
     <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
     <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[lodgersLabel]-sitting</li>
-    <li>questName(lodgersCount==2)->keeping [lodgersLabelPlural]</li>
-    <li>animalAdj->adorable</li>
-    <li>animalAdj->doe-eyed</li>
-    <li>animalAdj->loyal</li>
-    <li>animalAdj->loving</li>
-    <li>animalAdj->quiet</li>
-    <li>animalAdj->gentle</li>
-    <li>animalAdj->proud</li>
-    <li>animalAdj(generateThreats==true)->hunted</li>
-    <li>animalAdj(generateThreats==true)->frightened</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabel]-сидить</li>
+    <li>questName(lodgersCount==2)->утримується [lodgersLabelPlural]</li>
+    <li>animalAdj->чарівний</li>
+    <li>animalAdj->лане ока</li>
+    <li>animalAdj->відданий</li>
+    <li>animalAdj->люблячий</li>
+    <li>animalAdj->тиха</li>
+    <li>animalAdj->слабкий</li>
+    <li>animalAdj->гордий</li>
+    <li>animalAdj(generateThreats==true)->полює</li>
+    <li>animalAdj(generateThreats==true)->налякана</li>
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

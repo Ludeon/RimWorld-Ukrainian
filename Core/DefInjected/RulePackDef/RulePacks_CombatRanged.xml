@@ -135,22 +135,22 @@
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
     <li>r_logentry->[INITIATOR_definite] [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets].</li>
-    <li>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] by [INITIATOR_definite]'s [projectile].</li>
-    <li>r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] into [destroyed_suffix] by [INITIATOR_definite]'s [projectile].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite]'s [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [projectile].</li>
-    <li>r_logentry(p=3)->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [projectile].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]'s [projectile] hit [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [projectile].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [projectile] intended for [ORIGINALTARGET_definite].</li>
-    <li>projectile(p=0.05)->shot</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] бажав [destroyed_past] з [INITIATOR_definite] [projectile].</li>
+    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] бажав [destroyed_past] в [destroyed_suffix] з [INITIATOR_definite] [projectile].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [projectile] [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] [damaged_targets] бажав [damaged_past] з [INITIATOR_definite] [projectile].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] та [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] [destroyed_targets] та [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite] з [projectile].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [projectile] б'є [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite] з [projectile].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite] з [projectile] призначений для [ORIGINALTARGET_definite].</li>
+    <li>projectile(p=0.05)->постріл</li>
     <li>destroyed_past->розбитий</li>
     <li>destroyed_past->зім'ятий</li>
     <li>destroyed_past->знищений</li>
@@ -169,25 +169,25 @@
     <li>destroyed_suffix->в труху</li>
     <li>destroyed_suffix->вщент</li>
     <li>destroyed_suffix->дотла</li>
-    <li>destroyed_suffix(p=0.5)->a holey mess</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->ground beef</li>
-    <li>damaged_past->wounded</li>
-    <li>damaged_past->injured</li>
-    <li>damaged_past->pierced</li>
-    <li>damaged_past->damaged</li>
-    <li>damaged_past->shot</li>
-    <li>damaged_present->wounding</li>
-    <li>damaged_present->injuring</li>
-    <li>damaged_present->piercing</li>
-    <li>damaged_present->damaging</li>
-    <li>damaged_present->shooting</li>
-    <li>damaged_suffix->in an ugly fashion</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with visible blood</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->with the flesh visible</li>
-    <li>to->to</li>
-    <li>to->into</li>
-    <li>missed->missed</li>
-    <li>missed->narrowly missed</li>
+    <li>destroyed_suffix(p=0.5)->дірявий безлад</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->яловичий фарш</li>
+    <li>damaged_past->поранений</li>
+    <li>damaged_past->ушкоджено</li>
+    <li>damaged_past->пробито</li>
+    <li>damaged_past->пошкоджено</li>
+    <li>damaged_past->постріл</li>
+    <li>damaged_present->поранено</li>
+    <li>damaged_present->отримано травму</li>
+    <li>damaged_present->пробито</li>
+    <li>damaged_present->пошкоджено</li>
+    <li>damaged_present->прострелено</li>
+    <li>damaged_suffix->в жахливому вигляді</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->з видимою кров'ю</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->з видимим пошкодженням шкіри</li>
+    <li>to->до</li>
+    <li>to->в</li>
+    <li>missed->промазав</li>
+    <li>missed->ледве промахнувся</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -216,29 +216,29 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] was [damaged_past] by [INITIATOR_definite]'s [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]'s [projectile] hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [projectile] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [projectile] intended for [ORIGINALTARGET_definite] [deflected_result].</li>
-    <li>projectile(p=0.05)->shot</li>
+    <li>r_logentry->[INITIATOR_definite] [projectile] [damaged_past] [RECIPIENT_definite] [damaged_target] [deflected_result].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] бажав [damaged_past] з [INITIATOR_definite] [projectile] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite][damaged_target_possessive_opt] з [projectile] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [projectile] б'є [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite][damaged_target_possessive_opt] з [projectile] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] ь'є [RECIPIENT_definite][damaged_target_possessive_opt] з [projectile] призначений для [ORIGINALTARGET_definite] [deflected_result].</li>
+    <li>projectile(p=0.05)->постріл</li>
     <li>damaged_target_possessive_opt-></li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [recipient_part_damaged0_label]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)-> [recipient_part_damaged0_label]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->harmlessly</li>
-    <li>adverb_deflected->uselessly</li>
-    <li>deflected_consequence->but it [scraped_past] off [adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present] off [RECIPIENT_possessive] armor [adverb_deflected_opt]</li>
-    <li>scraped_past->ricocheted</li>
-    <li>scraped_present->ricocheting</li>
-    <li>missed->missed</li>
-    <li>missed->narrowly missed</li>
+    <li>adverb_deflected->нешкідливо</li>
+    <li>adverb_deflected->марно</li>
+    <li>deflected_consequence->але це [scraped_past] вимикає [adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_present] вимикає [RECIPIENT_possessive] обладунок [adverb_deflected_opt]</li>
+    <li>scraped_past->рікошет</li>
+    <li>scraped_present->рикошетом</li>
+    <li>missed->промазав</li>
+    <li>missed->ледве промахнувся</li>
   </Combat_RangedDeflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -271,33 +271,33 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] з [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] у [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] [burst] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot_a] [projectile] [burst] у [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [projectile].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>shot_a(p=2)->[verb_shot] a</li>
-    <li>shot_a->[skillAdv] [verb_shot] a</li>
+    <li>shot_a(p=2)->[verb_shot]</li>
+    <li>shot_a->[skillAdv] [verb_shot]</li>
     <li>shot(p=2)->[verb_shot]</li>
     <li>shot->[skillAdv] [verb_shot]</li>
-    <li>shotat->shot [aburst] at</li>
-    <li>shotat->[skillAdv] shot [aburst] at</li>
-    <li>shotat(p=0.5)->tried to shoot [aburst] at</li>
-    <li>shotat(p=0.3)->took a shot at</li>
-    <li>shotat(p=0.2)->[skillAdv] took a shot at</li>
-    <li>shotat->fired [aburst] at</li>
-    <li>shotat->fired [aburst] [skillAdv] at</li>
-    <li>shotat(p=0.5)->aimed and fired [aburst] at</li>
-    <li>shotat(p=0.5)->[skillAdv] aimed and fired [aburst] at</li>
-    <li>shotat(p=0.3)->opened fire at</li>
+    <li>shotat->shot [aburst] у</li>
+    <li>shotat->[skillAdv] стріляє [aburst] у</li>
+    <li>shotat(p=0.5)->намагався влучити [aburst] у</li>
+    <li>shotat(p=0.3)->влучив у</li>
+    <li>shotat(p=0.2)->[skillAdv] влучив у</li>
+    <li>shotat->влучив [aburst] у</li>
+    <li>shotat->влучив [aburst] [skillAdv] у</li>
+    <li>shotat(p=0.5)->цілився та влучив [aburst] у</li>
+    <li>shotat(p=0.5)->[skillAdv] цілився та влучив [aburst] у</li>
+    <li>shotat(p=0.3)->відкрив вогонь по</li>
     <li>aburst-></li>
-    <li>aburst(BURST==True,p=3)->a burst</li>
+    <li>aburst(BURST==True,p=3)->вибух</li>
     <li>burst-></li>
-    <li>burst(BURST==True,p=3)->burst</li>
-    <li>verb_shot->shot</li>
-    <li>verb_shot->fired</li>
-    <li>verb_shot(p=0.2)->discharged</li>
+    <li>burst(BURST==True,p=3)->вибух</li>
+    <li>verb_shot->постріл</li>
+    <li>verb_shot->влучено</li>
+    <li>verb_shot(p=0.2)->розряджений</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -326,29 +326,29 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile] at [RECIPIENT_definite].</li>
-    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] at [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile] в [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw_a] [projectile] в [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [projectile].</li>
-    <li>threw_a->[adverb_threw] [verb_threw] a</li>
-    <li>threw_a(p=2)->[verb_threw] a</li>
+    <li>threw_a->[adverb_threw] [verb_threw]</li>
+    <li>threw_a(p=2)->[verb_threw]</li>
     <li>threw(p=2)->[verb_threw]</li>
     <li>threw->[adverb_threw] [verb_threw]</li>
-    <li>verb_threw->threw</li>
-    <li>verb_threw->flung</li>
-    <li>verb_threw->launched</li>
-    <li>adverb_threw->carefully</li>
-    <li>adverb_threw->quickly</li>
-    <li>adverb_threw->precisely</li>
-    <li>adverb_threw->deliberately</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->gingerly</li>
-    <li>adverb_threw->precisely</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->warily</li>
-    <li>adjective_threw->careful</li>
-    <li>adjective_threw->quick</li>
-    <li>adjective_threw->deliberate</li>
-    <li>adjective_threw->precise</li>
-    <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
+    <li>verb_threw->кидає</li>
+    <li>verb_threw->шпурляє</li>
+    <li>verb_threw->запускає</li>
+    <li>adverb_threw->обережно</li>
+    <li>adverb_threw->швидко</li>
+    <li>adverb_threw->прицільно</li>
+    <li>adverb_threw->навмисно</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->несміливо</li>
+    <li>adverb_threw->точно</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->обачно</li>
+    <li>adjective_threw->обережно</li>
+    <li>adjective_threw->швидко</li>
+    <li>adjective_threw->навмисно</li>
+    <li>adjective_threw->точно</li>
+    <li>adjective_threw(initiator_flesh!=Mechanoid)->насторожено</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
@@ -396,48 +396,48 @@
     <li>ducked->hid</li>
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite]'s [projectile] [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] missed [ORIGINALTARGET_definite].</li>
-    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite]'s [projectile] [missing].</li>
-    <li>missed(p=4)->missed</li>
-    <li>missed(p=2)->missed by a small margin</li>
-    <li>missed(p=2)->missed by a wide margin</li>
-    <li>missed->went wide</li>
-    <li>missed->flew into the air</li>
-    <li>missed->flew high into the air</li>
-    <li>missed->dug into the ground</li>
-    <li>missed->skipped off the ground and was lost</li>
-    <li>missed->dug a divot out of the ground</li>
-    <li>missed(p=0.2)->passed within millimeters of [ORIGINALTARGET_definite]</li>
-    <li>missed->passed within centimeters of [ORIGINALTARGET_definite]</li>
-    <li>missed->passed within a meter of [ORIGINALTARGET_definite]</li>
-    <li>missed->was blown off course</li>
-    <li>missing->missing</li>
-    <li>missing->missing by a small margin</li>
-    <li>missing->missing by a wide margin</li>
-    <li>missing->going wide</li>
-    <li>missing->flying into the air</li>
-    <li>missing->flying high into the air</li>
-    <li>missing->digging into the ground</li>
-    <li>missing->skipping off the ground and becoming lost</li>
-    <li>missing->digging a divot out of the ground</li>
-    <li>missing(p=0.2)->passing within millimeters of [ORIGINALTARGET_definite]</li>
-    <li>missing->passing within centimeters of [ORIGINALTARGET_definite]</li>
-    <li>missing->passing within a meter of [ORIGINALTARGET_definite]</li>
-    <li>missing->blowing offcourse</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] aside at the last [moment]</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] behind [COVER_definite]</li>
-    <li>moved->moved</li>
-    <li>moved->jerked</li>
-    <li>moved->jolted</li>
-    <li>moved->ducked</li>
-    <li>moment->moment</li>
-    <li>moment->second</li>
-    <li>moment->instant</li>
-    <li>ducked->ducked</li>
-    <li>ducked->crouched</li>
-    <li>ducked->bent down</li>
-    <li>ducked->hid</li>
+    <li>r_logentry->[INITIATOR_definite] [projectile] [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] промазав [ORIGINALTARGET_definite].</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance] [INITIATOR_definite][projectile] [missing].</li>
+    <li>missed(p=4)->промазав</li>
+    <li>missed(p=2)->промазав але дуже близько</li>
+    <li>missed(p=2)->промазав ще й дуже далеко</li>
+    <li>missed->дуже далеко</li>
+    <li>missed->кудись у повітря</li>
+    <li>missed->дуже далеко у повітря</li>
+    <li>missed->поряд у землю</li>
+    <li>missed->рикошет від землі та повз ціль</li>
+    <li>missed->все пішло у землю</li>
+    <li>missed(p=0.2)->пройшов в межах міліметрів від [ORIGINALTARGET_definite]</li>
+    <li>missed->пройшов в межах сантиметрів від [ORIGINALTARGET_definite]</li>
+    <li>missed->пройшов в межах метрів від [ORIGINALTARGET_definite]</li>
+    <li>missed->був збитий з курсу</li>
+    <li>missing->промазати</li>
+    <li>missing->промазав але дуже близько</li>
+    <li>промазав ще й дуже далеко</li>
+    <li>missing->дуже далеко</li>
+    <li>missing->кудись у повітря</li>
+    <li>missing->дуже далеко у повітря</li>
+    <li>missing->поряд у землю</li>
+    <li>missing->рикошет від землі та повз ціль</li>
+    <li>missing->усе пішло у землю</li>
+    <li>missing(p=0.2)->у міліметріх від [ORIGINALTARGET_definite]</li>
+    <li>missing->у сантиметрах від [ORIGINALTARGET_definite]</li>
+    <li>missing->у метрах від [ORIGINALTARGET_definite]</li>
+    <li>missing->збивається з курсу</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] в сторону в останній [moment]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] позаду [COVER_definite]</li>
+    <li>moved->перемісти{Pawn_gender?вся:лася}</li>
+    <li>moved->стрибну{Pawn_gender?в:ла}</li>
+    <li>moved->струснуло</li>
+    <li>moved->пригну{Pawn_gender?вся:лася}</li>
+    <li>moment->момент</li>
+    <li>moment->секунда</li>
+    <li>moment->миттєво</li>
+    <li>ducked->нахили{Pawn_gender?вся:лася}</li>
+    <li>ducked->згорби{Pawn_gender?вся:лася}</li>
+    <li>ducked->нахили{Pawn_gender?вся:лася} вбік</li>
+    <li>ducked->схова{Pawn_gender?вся:лася}</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

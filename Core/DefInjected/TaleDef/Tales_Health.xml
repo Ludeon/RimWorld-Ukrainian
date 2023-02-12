@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: downed -->
-  <Downed.label>{0_gender ? уражений: уражена}</Downed.label>
+  <Downed.label>{0_gender ? збитий : збита}</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -46,7 +46,7 @@
     <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef] зроблена [KILLER_nameDef]</li>
     <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef] від [WEAPON_label]</li>
     <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] {VICTIM_gender ? отримав : отримала} [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] жорстко [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[VICTIM_nameFull] отримав [wound_name_past] [with_weapon_optional]</li>
@@ -321,7 +321,7 @@
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] використовуючи [WEAPON_label]</li>
-    <li>зображення->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull] ємність для [CAPACITY_label] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull] здатність до [CAPACITY_label] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] від [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->знищено</li>
     <li>cap_removal->усуненно</li>
