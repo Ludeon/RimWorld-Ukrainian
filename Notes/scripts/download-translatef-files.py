@@ -77,7 +77,8 @@ class CrowdinProject:
         for info in archive.infolist():
             print(info)
 
-            file_name = info.filename[len(prefix) :]
+            parts = info.filename.split("/", 3)
+            file_name = parts[-1]
             if file_name.startswith("old/"):
                 continue  # skip the "old" folder
 
@@ -85,7 +86,7 @@ class CrowdinProject:
             if _is_dir(info):
                 continue  # skip directories
 
-            path.parent.mkdir(exist_ok=True)
+            path.parent.mkdir(exist_ok=True, parents=True)
             content = archive.read(info)
             with path.open("wb") as f:
                 f.write(content)
