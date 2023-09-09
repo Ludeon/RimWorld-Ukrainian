@@ -10,8 +10,8 @@
   
   <!-- EN: berserk trance -->
   <BerserkTrance.label>берсерк</BerserkTrance.label>
-  <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>Заклинач сповнює себе гнівом через ідеологічні образи. Це зміцнює тіло понад норми, але також означає втрату контролю та напад на всіх ворогів поблизу в нестримній люті. Стан берсерка триватиме 3 години.</BerserkTrance.description>
+  <!-- EN: The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
+  <BerserkTrance.description>The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours.</BerserkTrance.description>
   
   <!-- EN: combat command -->
   <CombatCommand.label>бойовий клич</CombatCommand.label>
@@ -28,8 +28,7 @@
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
   <Convert.description>Спроба навернути когось у ідеолігію оратора. Це зменшить впевненість цілі у її власних переконаннях. Зменшення впевненості залежить від умінь оратора до переговорів.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} не вдалося навернути {RECIPIENT_labelShort}. {RECIPIENT_labelShort} був засмучений спробою, але впевненість 
- {RECIPIENT_possessive} впала з {CERTAINTYBEFORE} до {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} не вдалося навернути {RECIPIENT_labelShort}. {RECIPIENT_labelShort} {RECIPIENT_gender?був засмучений:була засмучена} спробою, але {RECIPIENT_possessive} впевненість впала з {CERTAINTYBEFORE} до {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} навернув {RECIPIENT_labelShort} до {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
@@ -40,7 +39,7 @@
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
   <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} зірвав спробу обговорення {RECIPIENT_labelShort}. {RECIPIENT_labelShort} засмутився.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} успішно обговорив {RECIPIENT_labelShort}, знавши ефекти настрою {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} успішно обговорив {RECIPIENT_labelShort}, знявши ефекти настрою {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
   <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} успішно обговорив {RECIPIENT_labelShort}, покращивши {RECIPIENT_possessive} настрій {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   

@@ -10,8 +10,8 @@
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->термінал взламаний. {COUNT} із [terminalCount] завершено.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural].</li>
-    <li>passengersIncapableOfHackingDialogText->Шатл для квесту «[resolvedQuestName]» не має пасажира, здатного до взламу комп'ютерів. Ви повинні надіслати принаймні одну розумну людину для дослідження стародавнього комплексу.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] не може хакнути.</li>
+    <li>passengersIncapableOfHackingDialogText->Шатл для квесту '[resolvedQuestName]' не має пасажира, здатного до взламу комп'ютерів. Ви повинні надіслати принаймні одну розумну людину для дослідження стародавнього комплексу.</li>
     <li>passengersSingularOrPlural(colonistCount==1)->пасажир</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->пасажири</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
@@ -31,8 +31,8 @@
     <li>complex->комплексу</li>
     <li>complex->сектору</li>
     <li>complex->району</li>
-    <li>complex->структури</li>
-    <li>complex->будівлі</li>
+    <li>complex->бункеру</li>
+    <li>complex->приміщення</li>
     <li>investigation->дослідження</li>
     <li>investigation->вивчення</li>
     <li>investigation->розкопки</li>
@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle][asker_faction_name], виявив стародавній комплекс на великій відстані. [asker_pronoun] вважає, що він містить інформацію про реліквію, відому як [relic_name].\n\n[asker_nameDef] не може відправити людей, щоб дослідити це, але сподівається, що ви можете допомогти, надавши саме [colonistCount] [colonistsSingularOrPlural] для виконання розслідування.\n\nКомплекс містить невідомі загрози, і його також шукають вороги [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] надішле шаттл, щоб забрати ваших колоністів і доставити їх до комплексу, а потім забере їх додому. Їх годуватимуть і доглядатимуть по дорозі.\n\nКоли ви приземлитеся, ви повинні зламати всі термінали в комплексі протягом [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] із [asker_faction_name], виявив стародавній комплекс на великій відстані. [asker_pronoun] вважає, що він містить інформацію про реліквію, відому як [relic_name].\n\n[asker_nameDef] не може відправити своїх людей, щоб дослідити це місце, але сподівається, що ви можете допомогти, надавши саме [colonistCount] [colonistsSingularOrPlural] щоб провести там розслідування.\n\nКомплекс містить невідомі загрози, і його також шукають вороги - фракція [enemyFaction_name].\n\n[asker_nameDef] надішле шаттл, щоб забрати ваших колоністів і доставити їх до комплексу, а потім поверне додому. Їх годуватимуть і доглядатимуть під час перельоту.\n\nКоли ви приземлитеся, ви повинні зламати всі термінали в комплексі протягом [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->колоніста</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->поселенців</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
@@ -56,7 +56,7 @@
     <li>missionAdj->secret</li>
   -->
   <AncientComplex_Mission.questNameRules.rulesStrings>
-    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>questName->[investigation] [missionAdj] [complex]</li>
     <li>missionAdj->прихованого</li>
     <li>missionAdj->таємного</li>
     <li>missionAdj->секретного</li>

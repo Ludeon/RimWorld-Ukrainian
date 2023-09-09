@@ -363,17 +363,17 @@
   -->
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
     <li>damaged_inf->удар</li>
-    <li>damaged_inf->розбити</li>
+    <li>damaged_inf->розбиває</li>
     <li>damaged_inf->бити</li>
-    <li>damaged_inf->грюкнути</li>
+    <li>damaged_inf->сильно б'є</li>
     <li>damaged_inf->вражає</li>
-    <li>damaged_inf->вдарити</li>
-    <li>damaged_past->удар</li>
-    <li>damaged_past->розбито</li>
-    <li>damaged_past->бито</li>
+    <li>damaged_inf->б'є</li>
+    <li>damaged_past->влучив</li>
+    <li>damaged_past->розтрощив</li>
+    <li>damaged_past->розбив</li>
     <li>damaged_past->грюкнуло</li>
-    <li>damaged_past->вражено</li>
-    <li>damaged_past->вдарити</li>
+    <li>damaged_past->вразив</li>
+    <li>damaged_past->вдарив</li>
     <li>damaged_present->нищівний</li>
     <li>damaged_present->збито</li>
     <li>damaged_present(deflected!=True)->синці</li>
@@ -432,20 +432,20 @@
     <li>damaged_present(deflected!=True)->проколото</li>
     <li>damaged_present(deflected!=True)->проникаючий</li>
     <li>damaged_present(deflected!=True)->наса́джено</li>
-    <li>woundname->а діра</li>
+    <li>woundname->у діру</li>
     <li>woundname->є поранення</li>
     <li>woundname->ий розріз</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->залишивши кривав[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->залишивши розірван[woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->залишаючи кровоточач[woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->витікає через кров[woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->залишив розірван[woundname]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->залишаючи кровав[woundname]</li>
     <li>destroyed_past->насаджений на кол</li>
     <li>destroyed_past->перфорований</li>
     <li>destroyed_past->пронизувати</li>
-    <li>destroyed_present->насаджено на кол</li>
+    <li>destroyed_present->насаджено на кіл</li>
     <li>destroyed_present->перфоровано</li>
     <li>destroyed_present->пронизано</li>
     <li>destroyed_suffix->чисто скрізь</li>
-    <li>destroyed_suffix->залишаючи чисту яму</li>
+    <li>destroyed_suffix->залишаючи чисту діру</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->з нього продовжує витікати кривава рідина</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->з нього продовжує витікати невідома рідина</li>
   </Maneuver_Stab.rulePack.rulesStrings>

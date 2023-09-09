@@ -60,7 +60,7 @@
     <li>verb_genericattack->відлупцюва{INITIATOR_gender ? в : ла}</li>
     <li>verb_genericattack->поби{INITIATOR_gender ? в : ла}</li>
     <li>tried->спробува{INITIATOR_gender ? в : ла}</li>
-    <li>tried->спробува{INITIATOR_gender ? в : ла}</li>
+    <li>tried->зроби{INITIATOR_gender ? в : ла} спробу</li>
   </Combat_FailIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -133,14 +133,14 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] [WEAPON_label] [INITIATOR_possessive]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label] [INITIATOR_possessive]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] [WEAPON_label] [INITIATOR_possessive]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label] [INITIATOR_possessive]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label] та [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] та [recipient_part2_label]</li>
@@ -224,16 +224,16 @@
   <Combat_SkillIncludes.rulePack.rulesStrings>
     <li>skillDescMelee->[INITIATOR_possessive] [skillAdv] [wielding] [WEAPON_label]</li>
     <li>skillDescMelee->[skillAdv] [using] [implement]</li>
-    <li>wielding(p=4)->тримаючи</li>
-    <li>wielding(p=3)->взявшись</li>
-    <li>wielding(p=2)->застовуючи</li>
+    <li>wielding(p=4)->орудуючи</li>
+    <li>wielding(p=3)->використовуючи</li>
+    <li>wielding(p=2)->тримаючи</li>
     <li>wielding->розмахуючи</li>
-    <li>wielding->керуючи</li>
+    <li>wielding->маніпулюючи</li>
     <li>using(p=4)->використовуючи</li>
     <li>using->ведучи</li>
-    <li>using->тягнувши</li>
-    <li>using->закидаючи</li>
-    <li>using->рухаючись</li>
+    <li>using->прискорюючи</li>
+    <li>using->використовуючи</li>
+    <li>using->рухаючи</li>
     <li>skillAdv(INITIATOR_skill&lt;=3)->невпевненно</li>
     <li>skillAdv(INITIATOR_skill&lt;=3)->невміло</li>
     <li>skillAdv(INITIATOR_skill&lt;=3)->люто</li>
@@ -242,8 +242,8 @@
     <li>skillAdv(INITIATOR_skill&lt;=4)->ніяково</li>
     <li>skillAdv(INITIATOR_skill&lt;=4)->незграбно</li>
     <li>skillAdv(INITIATOR_skill&lt;=5)->боязливо</li>
-    <li>skillAdv(INITIATOR_skill&lt;=5)->з опаскою</li>
-    <li>skillAdv(INITIATOR_skill&lt;=5)->бездумно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->невпевнено</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->безглуздо</li>
     <li>skillAdv(INITIATOR_skill&lt;=6)->нерішуче</li>
     <li>skillAdv(INITIATOR_skill&lt;=6)->неохоче</li>
     <li>skillAdv(INITIATOR_skill&lt;=6)->повільно</li>
@@ -253,7 +253,7 @@
     <li>skillAdv(INITIATOR_skill&lt;=6)->боязко</li>
     <li>skillAdv(INITIATOR_skill&lt;=8)-> з ентузіазмом</li>
     <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->майстерно</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->впевненно</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->впевнено</li>
     <li>skillAdv(INITIATOR_skill>=8)->професійно</li>
     <li>skillAdv(INITIATOR_skill>=8)->зухвало</li>
     <li>skillAdv(INITIATOR_skill>=8)->влучно</li>

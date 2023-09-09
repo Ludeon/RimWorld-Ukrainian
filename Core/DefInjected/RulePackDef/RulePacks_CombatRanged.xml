@@ -133,31 +133,31 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry->[INITIATOR_definite] [projectile] [destroyed_past] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] [to] [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [destroyed_past] [RECIPIENT_definite] [destroyed_targets].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [destroyed_past] [destroyed_targets] у [RECIPIENT_definite].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] [destroyed_targets].</li>
-    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] бажав [destroyed_past] з [INITIATOR_definite] [projectile].</li>
-    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] бажав [destroyed_past] в [destroyed_suffix] з [INITIATOR_definite] [projectile].</li>
+    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] отримав [destroyed_past] [projectile] від [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] [destroyed_targets] отримав [destroyed_past] [destroyed_suffix] [projectile] від [INITIATOR_definite].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] [projectile] [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [damaged_past] [RECIPIENT_definite] [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite] [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] [damaged_targets] бажав [damaged_past] з [INITIATOR_definite] [projectile].</li>
-    <li>r_logentry(p=3)->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] та [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] [destroyed_targets] та [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite] з [projectile].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] [projectile] б'є [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite] з [projectile].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]'s [projectile] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite] з [projectile] призначений для [ORIGINALTARGET_definite].</li>
-    <li>projectile(p=0.05)->постріл</li>
-    <li>destroyed_past->розбитий</li>
-    <li>destroyed_past->зім'ятий</li>
-    <li>destroyed_past->знищений</li>
-    <li>destroyed_past->анігільований</li>
-    <li>destroyed_past->понівечений</li>
-    <li>destroyed_past->дірявий</li>
-    <li>destroyed_past->пробитий</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] [damaged_targets] отримав [damaged_past] [projectile] від [INITIATOR_definite].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite] [projectile] [destroyed_past] [RECIPIENT_definite] [destroyed_targets] та [damaged_past] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] [destroyed_targets] та [damaged_present] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [projectile] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] влучає в [RECIPIENT_definite] за допомогою [projectile].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] та б'є [projectile] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [projectile] [ORIGINALTARGET_definite] та поцілює [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] поцілює [projectile] [RECIPIENT_definite] призначений для [ORIGINALTARGET_definite].</li>
+    <li>projectile(p=0.05)->пострілом</li>
+    <li>destroyed_past->було роздроблено</li>
+    <li>destroyed_past->було розбито</li>
+    <li>destroyed_past->було знищено</li>
+    <li>destroyed_past->було анігільовано</li>
+    <li>destroyed_past->понівечено</li>
+    <li>destroyed_past->було пробито</li>
+    <li>destroyed_past->було проколото</li>
     <li>destroyed_present->розбив</li>
     <li>destroyed_present->зім'яв</li>
     <li>destroyed_present->знищів</li>
@@ -169,13 +169,13 @@
     <li>destroyed_suffix->в труху</li>
     <li>destroyed_suffix->вщент</li>
     <li>destroyed_suffix->дотла</li>
-    <li>destroyed_suffix(p=0.5)->дірявий безлад</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->яловичий фарш</li>
-    <li>damaged_past->поранений</li>
+    <li>destroyed_suffix(p=0.5)->діряве місиво</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->фарш</li>
+    <li>damaged_past->поранено</li>
     <li>damaged_past->ушкоджено</li>
     <li>damaged_past->пробито</li>
     <li>damaged_past->пошкоджено</li>
-    <li>damaged_past->постріл</li>
+    <li>damaged_past->прострелено</li>
     <li>damaged_present->поранено</li>
     <li>damaged_present->отримано травму</li>
     <li>damaged_present->пробито</li>
@@ -218,7 +218,7 @@
   <Combat_RangedDeflect.rulePack.rulesStrings>
     <li>r_logentry->[INITIATOR_definite] [projectile] [damaged_past] [RECIPIENT_definite] [damaged_target] [deflected_result].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite] [projectile] [missed] [ORIGINALTARGET_definite] та [damaged_past] [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] бажав [damaged_past] з [INITIATOR_definite] [projectile] [deflected_result].</li>
+    <li>r_logentry->[damaged_target_possessive_opt] [RECIPIENT_definite] отримав [damaged_past] від [INITIATOR_definite] за допомогою [projectile] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] б'є [RECIPIENT_definite][damaged_target_possessive_opt] з [projectile] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [projectile] б'є [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] та б'є [RECIPIENT_definite][damaged_target_possessive_opt] з [projectile] [deflected_result].</li>
@@ -283,7 +283,7 @@
     <li>shot->[skillAdv] [verb_shot]</li>
     <li>shotat->shot [aburst] у</li>
     <li>shotat->[skillAdv] стріляє [aburst] у</li>
-    <li>shotat(p=0.5)->намагався влучити [aburst] у</li>
+    <li>shotat(p=0.5)->намага{INITIATOR_gender ? вся : лась} влучити [aburst] у</li>
     <li>shotat(p=0.3)->влучив у</li>
     <li>shotat(p=0.2)->[skillAdv] влучив у</li>
     <li>shotat->влучив [aburst] у</li>

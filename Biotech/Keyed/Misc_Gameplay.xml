@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>Неактивен самозаряд</SelfShutdown>
+  <SelfShutdown>Неактивний самозаряд</SelfShutdown>
   <!-- EN: Carry to recharger -->
   <CarryToRecharger>Нести до зарядки</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
@@ -46,7 +46,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>пропускна спроможність</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>Механізатор може наглядати за мехом лише в тому випадку, якщо для цього достатньо пропускної здатності. Кожен мех споживає різну кількість пропускної здатності.\n\nНакопичуйте більше пропускної здатності, будуючи вузли зв'язку та налаштовуючи механізатора на них, або оснащуючи його спеціальним одягом.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>Механітор може наглядати за мехом лише в тому випадку, якщо для цього достатньо пропускної здатності. Кожен мех споживає різну кількість пропускної здатності.\n\nНакопичуйте більше пропускної здатності, будуючи вузли зв'язку та налаштовуючи механітора на них, або оснащуючи його спеціальним одягом.</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>Підконтрольна група</ControlGroup>
   <!-- EN: Current mode -->
@@ -62,9 +62,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>Переналаштувати</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>Налаштуйте цей вузол зв'язку до механізатора. Для завершення налаштування потрібно {0}.</BandNodeTuningDesc>
+  <BandNodeTuningDesc>Налаштуйте цей вузол зв'язку до механітора. Для завершення налаштування потрібно {0}.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>Повторити цей вузол зв'язку на іншого механізатора. Відновлення займе {0} до завершення.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>Повторно налаштуйте цей вузол зв'язку на іншого механітора. Відновлення займе {0} до завершення.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>Видалення {0} змінить пропускну здатність {1_labelShort} з {2} на {3}. Це означатиме, що наступні мехи більше не будуть під контролем</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -122,15 +122,15 @@
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>місткість вічного покою</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Це визначає, скільки будівель смертельного покою людина може підключити під час вічного сну. Кожна будівля смерті надає певну користь, тому краще мати можливість підключитися до більшої кількості з них.\n\nМісткість смерті може бути збільшена за допомогою сироватки місткості смерті. Ці сироватки можна придбати у торговців.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Це визначає, скільки будівель летаргічного сну людина може під'єднати під час летаргічного сну. Кожна будівля надає певний бонус, тому краще мати можливість під'єднатися до більшої кількості.\n\nМісткість летаргічного сну може бути збільшена за допомогою сироватки місткості летаргічного сну. Ці сироватки можна придбати у торговців.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef} підключеній до {CURRENT} / {MAX} (max) будівель смертного відпочинку.</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} підключений до {CURRENT} / {MAX} (max) будівель летаргічного сну.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>прокинутися зараз</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>Прокидаеться від смертоспочинку.\n\n{PAWN_nameDef} був у смертоспочинку {DURATION}.</WakeDesc>
+  <WakeDesc>Прокидається від летаргічного сну.\n\n{PAWN_nameDef} був у летаргічному сні {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} потребує упокоєння протягом{TOTAL}. Пробудження {PAWN_objective} раніше, зробіть {PAWN_objective} хворим, і {PAWN_pronoun} не матиме користи від споруд смертоспочинку.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} потребує летаргічного сну протягом {TOTAL}. Пробудження {PAWN_objective} раніше, зробить {PAWN_objective} хворим, і {PAWN_pronoun} не матиме користи від споруд летаргічного сну.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} тепер може безпечно прокинутися.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -138,17 +138,17 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Автоматичне пробудження</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Коли увімкнено, {PAWN_nameDef} автоматично прокинеться одразу {PAWN_possessive} завершиться вічний покій.\n\nКоли вимкнено, {PAWN_pronoun} продовже спати, до поки не пробудиться {PAWN_objective} вручну.</AutoWakeDesc>
+  <AutoWakeDesc>Коли увімкнено, {PAWN_nameDef} автоматично прокинеться одразу як завершиться летаргічний сон.\n\nКоли вимкнено, {PAWN_pronoun} продовжуватиме спати, до поки ви не пробудете {PAWN_possessive} вручну.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
-  <IsDeathresting>{PAWN_nameDef} у вічному ложі.</IsDeathresting>
+  <IsDeathresting>{PAWN_nameDef} у летаргічному сні.</IsDeathresting>
   <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>Неможливо спочити</CannotDeathrest>
+  <CannotDeathrest>Неможливо почати летаргічний сон</CannotDeathrest>
   <!-- EN: Start deathrest -->
-  <StartDeathrest>Старт до спочинку</StartDeathrest>
+  <StartDeathrest>Розпочати летаргічний сон</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>Безпечне завершення смертного спочинку займає {MINDURATION}, але {PAWN_nameDef} знаходився в стані вічного спочинку {CURDURATION}.\n\nПробудження {PAWN_nameDef} зараз, це призведе до переривання {PAWN_possessive} порушення вічного спочинку {PAWN_possessive} метаболізм виведений з рівноваги {PAWN_objective} буде хварий наступні дні.\n\nВи впевнені, що хочете щоб {PAWN_objective} прокинутися?</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Безпечне завершення смертного спочинку займає {MINDURATION}, але {PAWN_nameDef} знаходився в стані вічного спочинку {CURDURATION}.\n\nПробудження {PAWN_nameDef} зараз, призведе до переривання {PAWN_possessive} летаргічного сну {PAWN_possessive} метаболізм буде виведений з рівноваги та {PAWN_objective} буде хворіти ще декілька днів.\n\nВи впевнені, що хочете щоб {PAWN_objective} {PAWN_gender?пробудився:пробудилася}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
-  <Deathresting>впокоєння</Deathresting>
+  <Deathresting>в летаргічному сні</Deathresting>
   <!-- EN: complete -->
   <Complete>завершено</Complete>
   <!-- EN: can wake safely now. -->
@@ -162,9 +162,9 @@
   <!-- EN: Regeneration rate -->
   <RegenerationRate>Швидкість регенерування</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>{PAWN_nameDef} повинен упокоїтись через {DURATION} щоб уникнути виснаження.</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} повинен почати летаргічний сон через {DURATION}, щоб уникнути виснаження.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>{PAWN_nameDef} повинен незабаром упокоїтись, щоб уникнути виснаження.</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} повинен незабаром почати летаргічний сон, щоб уникнути виснаження.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>Це визначає, чи буде {PAWN_nameDef} автоматично вводити гематогенні пакети, коли рівень {PAWN_possessive} гематогену нижче {MIN}.\n\nЗараз автоматичне вживання {ONOFF}.</AutoTakeHemogenDesc><!-- text_todo -->
   <!-- EN: Consume hemogen below -->
@@ -184,11 +184,11 @@
   <!-- EN: Will bind permanently on first use. -->
   <WillBindOnFirstUse>Буде назавжди прив'язано при першому використанні.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>Час активації цього упокоєння</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>Час активації цього летаргічного сну</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
   <MinimumNeededToApply>Мінімум {0} для застосування</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>Неможливо спочити</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>Неможливо почати летаргічний сон</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
   <CannotAssignAlreadyBound>Вже прив'язаний до {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
@@ -310,7 +310,7 @@
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
   <ArchitesRequiredDesc>Архітехи — це архотехмеханіти — мікроскопічні пристрої, здатні діяти безпосередньо на клітини та молекули, створені надрозумними архотехами. Вони здатні на незрозумілі подвиги, а деякі гени функціонують лише за підтримки потойбічної машини архотехів. Люди не можуть створювати архітехи — знаходять їх лише тоді, коли архотех виробляє їх з власної незрозумілої для людей причини.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>Відмінити ксеноген</CancelXenogerm>
+  <CancelXenogerm>Скасувати ксеноген</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>Зупинити роботу над поточним ксеногеном.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
@@ -378,7 +378,7 @@
   <!-- EN: Insert person -->
   <InsertPerson>Додати особу</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>Вставте людину в генний екстрактор. Їхній генетичний матеріал буде вилучено та використано для створення генного пакету, що містить випадковий вибір їх генів.\n\nВидалення гена є болісним і залишає суб’єкта слабким і сонливим протягом кількох днів. Процес є смертельним для тих, чиї гени зараз відростають.</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>Помістіть людину в екстрактор генів. Її генетичний матеріал буде вилучено та використано для створення генної капсули, що міститиме випадковий набір з одного або декількох генів цієї людини.\n\nЕкстракція гена є болісним процесом, який після свого завершення залишає суб’єкта слабким і сонливим протягом кількох днів. Процес є смертельним для тих, чиї гени не закінчили відновлення.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>Увага: {PAWN_nameDef} гени відростають. Вилучення генів {PAWN_possessive} до того як вони відростуть призведе до смерті {PAWN_objective}.\n\nВи впевнені, що хочете продовжувати?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
@@ -404,7 +404,7 @@
   <!-- EN: Required gene bank unpowered -->
   <GenebankUnpowered>Необхідний банк генів знеструмлений</GenebankUnpowered>
   <!-- EN: deathless -->
-  <Deathless>безсмертний</Deathless>
+  <Deathless>безсмертність</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
   <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} потрібно приймати {0} на регулярній основі, щоб вижити. Після {DEFICIENCYDURATION} без {0}, {PAWN_pronoun} буде страждати від {0} дефіциту. Після {COMADURATION}, {PAWN_pronoun} впаде в кому. Після {DEATHDURATION}, {PAWN_pronoun} помре.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
@@ -412,15 +412,15 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>Ксеноген</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} буде продовжувати спочивати доти, поки {PAWN_pronoun} має смертельні травми.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} буде продовжувати летаргічний сон доти, поки {PAWN_pronoun} має смертельні травми.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
   <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} залишатиметься в регенераційній комі до тих пір, поки {PAWN_pronoun} має смертельні травми.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
-  <DeathrestPaused>Упокоєння закінчилось</DeathrestPaused>
+  <DeathrestPaused>Летаргічний сон закінчився</DeathrestPaused>
   <!-- EN: Lethal injuries -->
   <LethalInjuries>Летальні травми</LethalInjuries>
   <!-- EN: deathrest -->
-  <Deathrest>смертний відпочинок</Deathrest>
+  <Deathrest>летаргічний сон</Deathrest>
   <!-- EN: Buildings -->
   <Buildings>Будівлі</Buildings>
   <!-- EN: capacity -->
@@ -468,11 +468,11 @@
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>Поточний цикл вагітності</CurrentGestationCycle>
+  <CurrentGestationCycle>Поточний цикл формування</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>Циклів вагітності залишилось</RemainingGestationCycles>
+  <RemainingGestationCycles>Циклів формування залишилось</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>Циклів вагітності</GestationCycles>
+  <GestationCycles>Циклів формування</GestationCycles>
   <!-- EN: Gestating {0} -->
   <GestatingMech>Вагітність {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
@@ -511,7 +511,7 @@
   <!-- EN: available in {0}. -->
   <BossgroupAvailableIn>доступно через {0}.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
-  <RequiresMechanitor>вимагає механізатора</RequiresMechanitor>
+  <RequiresMechanitor>вимагає механітора</RequiresMechanitor>
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
@@ -753,7 +753,7 @@
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>Дистанційний щит, спроєктований механізатором. Він намагатиметься зупинити вхідні снаряди чи осколки, але нічого не робитиме проти атак ближнього бою чи тепла. Він запобігає вистрілу власника та миттєво вимикається, якщо потрапляє на ЕМП</RemoteMechShieldTip>
+  <RemoteMechShieldTip>Дистанційний щит, спроєктований механітором. Він намагатиметься зупинити вхідні снаряди чи осколки, але нічого не робитиме проти атак ближнього бою чи тепла. Також запобігає пострілу власника та миттєво вимикається, якщо отримує ЕМП-ураження</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->

@@ -5,7 +5,7 @@
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name] дзвонить неподалік. [asker_possessive] охоронці були вбиті із засідки. [asker_pronoun] втікає, але тепер слідом йдуть (*Threat) [animalKindDef_label](/Threat).\n\n[asker_nameDef] хоче, щоб ви тримали [asker_objective] у безпеці в [map_definite] протягом кількох годин, поки [ asker_possessive] транспорт може прийти забрати [asker_objective].\n\n[asker_pronoun] нагородить [royalFavorReward] [asker_faction_royalFavorLabel] того, хто прийме цей квест. Цього достатньо [asker_faction_royalFavorLabel], щоб отримати королівський титул Йомена та всі пов’язані з ним переваги, включаючи перший рівень психічних здібностей.</li>
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
@@ -15,57 +15,57 @@
     <li>adjAny->ambushed</li>
   -->
   <Intro_Wimp.questNameRules.rulesStrings>
-    <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny->hunted</li>
-    <li>adjAny->fleeing</li>
-    <li>adjAny->solitary</li>
-    <li>adjAny->ambushed</li>
+    <li>questName->[adjAny] [asker_royalTitleInCurrentFaction]</li>
+    <li>adjAny->переслідується</li>
+    <li>adjAny->женеться</li>
+    <li>adjAny->утискається</li>
+    <li>adjAny->гониться</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
-  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] arrived</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
+  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] йде</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.LetterTextAnimalArrived.slateRef>The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>[animalKindDef_label], тварина, від якої [asker_nameDef] тікає прибула.\n\nВиявилось це достатньо тихе та миле створіння, зовсім не агресивне.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Manhunting [animalKindDef_label] -->
-  <Intro_Wimp.LetterLabelAngryAnimal.slateRef>Manhunting [animalKindDef_label]</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
+  <Intro_Wimp.LetterLabelAngryAnimal.slateRef>[animalKindDef_label] розлючено</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
-  <Intro_Wimp.LetterTextAngryAnimal.slateRef>The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area.</Intro_Wimp.LetterTextAngryAnimal.slateRef>
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>[animalKindDef_label], тварина, що переслідувала [asker_nameFull], прийшла.</Intro_Wimp.LetterTextAngryAnimal.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Intro_Wimp.InspectStringDepartShuttle.slateRef>Should depart on shuttle</Intro_Wimp.InspectStringDepartShuttle.slateRef>
+  <Intro_Wimp.InspectStringDepartShuttle.slateRef>Має відправитись на шаттлі</Intro_Wimp.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <Intro_Wimp.LetterLabelShuttleArrived.slateRef>Shuttle arrived</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
+  <Intro_Wimp.LetterLabelShuttleArrived.slateRef>Шаттл прибув</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
-  <Intro_Wimp.LetterTextShuttleArrived.slateRef>The shuttle has arrived to collect [asker_nameDef].</Intro_Wimp.LetterTextShuttleArrived.slateRef>
+  <Intro_Wimp.LetterTextShuttleArrived.slateRef>Шаттл прибув забрати [asker_nameDef].</Intro_Wimp.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelGuestDied.slateRef>Guest died: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
+  <Intro_Wimp.LetterLabelGuestDied.slateRef>ГІсть загинув: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
+  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, гість, якого ви повинні були захищати, загинув. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Unauthorized surgery: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
+  <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Заборонена операція: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>Несанкціонована, жорстока хірургічна операція була проведена на {SUBJECT_definite}, на гості, якого ви повинні були захищати. По цій причині [asker_pronoun] спробує покинути ваше поселення. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>Xenogerm absorbed: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>Поглинання ксеногену: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. Because of this violation, {SUBJECT_pronoun} will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. Because of this violation, {SUBJECT_pronoun} will now attempt to leave. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, кого вам доручено захищати, насильно поглинає ксеноген. Через це порушення {SUBJECT_pronoun} тепер спробує покинути поселення. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelCaptured.slateRef>Captured: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
+  <Intro_Wimp.LetterLabelCaptured.slateRef>Ув'язнено: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, гість, якого ви були повинні захищати, ув'язнений. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelGuestLost.slateRef>Guest lost: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
+  <Intro_Wimp.LetterLabelGuestLost.slateRef>Гість зник: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
+  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, гість, якого ви повинні були захищати, зник. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Guest lost: {SUBJECT_definite}</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Гість зник: {SUBJECT_definite}</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, гість, якого ви повинні були захищати, тав диким. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>Shuttle destroyed</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
+  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>Транспорт зруйновано</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
+  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>Транспорт, відправлений забрати [asker_nameDef], був знищений. [asker_pronoun] покине поселення пішечком. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Intro_Wimp.LetterLabelQuestFailed.slateRef>Quest failed: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
+  <Intro_Wimp.LetterLabelQuestFailed.slateRef>Завдання провалене: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextQuestFailed.slateRef>The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>Транспорт, відправлений забрати [asker_nameDef], відлетів без пасажира [asker_objective]. [asker_pronoun] покине поселення пішечком. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

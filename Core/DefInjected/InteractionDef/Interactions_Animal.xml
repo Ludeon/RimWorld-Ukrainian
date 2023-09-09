@@ -164,7 +164,7 @@
     <li>r_logentry->[INITIATOR_nameDef] подає команду [RECIPIENT_nameDef] сидіти.</li>
     <li>r_logentry->[INITIATOR_nameDef] уважно переслідував [RECIPIENT_nameDef] та подав команду.</li>
     <li>r_logentry->[INITIATOR_nameDef] спроба утримувати [RECIPIENT_nameDef] струнко.</li>
-    <li>r_logentry->[INITIATOR_nameDef] викрикує команду [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] доєднатися.</li>
     <li>r_logentry->[INITIATOR_nameDef] поплескав [RECIPIENT_nameDef] в знак поваги.</li>
     <li>r_logentry->[INITIATOR_nameDef] направляє [RECIPIENT_nameDef] повернутися назад до спільноти.</li>
     <li>r_logentry->[INITIATOR_nameDef] кличе [RECIPIENT_nameDef] повернутися назад до спільноти.</li>
@@ -190,14 +190,14 @@
   <TrainAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
     <li>trained(p=2)->[tried] тренувати</li>
-    <li>trained->[tried] показує новий трюк</li>
-    <li>trained->[tried] вишкалює</li>
-    <li>trained->[tried] пояснює</li>
+    <li>trained->[tried] показати новий трюк</li>
+    <li>trained->[tried] вишколити</li>
+    <li>trained->[tried] пояснити</li>
     <li>trained->[tried] перевірити нову навичку у</li>
     <li>trained->демонструє вивчені навички</li>
     <li>trained->перевіряє вивчення навичок</li>
-    <li>tried->спроба</li>
-    <li>tried->спроба</li>
+    <li>tried->спробува{INITIATOR_gender ? в : ла}</li>
+    <li>tried->зроби{INITIATOR_gender ? в : ла} спробу</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

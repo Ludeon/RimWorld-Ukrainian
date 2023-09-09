@@ -51,19 +51,19 @@
   -->
   <Hospitality_Refugee.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-></li>
-    <li>lastOrNot(lodgerCount>=2)->останній</li>
+    <li>lastOrNot(lodgerCount>=2)->останні</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] прибув</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] прибув. [lodgersPronoun] залишиться з вами на [questDurationTicks_duration] [lodgersPronoun], щоб відпочити та перегрупуватись.</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] прибули. [lodgersPronoun] залишиться з вами на [questDurationTicks_duration] [lodgersPronoun], щоб відпочити та перегрупуватись.</li>
     <li>hasHave(lodgerCount==1)->має</li>
-    <li>hasHave(lodgerCount>=2)->має</li>
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} приголомшені цим, але {PAWNSALIVECOUNT_multiple ? are: is} не вживатимуть заходів проти вас.</li>
-    <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} не бажають змиритися з цим</li>
-    <li>turnedViolent->[othersWillNotAccept], і {PAWNSALIVECOUNT_multiple ? have : has } обернулися проти вас.</li>
-    <li>decidedToLeave->[othersWillNotAccept], і {PAWNSALIVECOUNT_multiple ? have : has } вирішив піти.</li>
-    <li>whoAskedToStay->попросив залишитись</li>
-    <li>oneOfThe->один із відчайдухів [faction_pawnsPlural], попросив залишитися з вами</li>
+    <li>hasHave(lodgerCount>=2)->мають</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} приголомшені цим, але {PAWNSALIVECOUNT_multiple ? are: is} не будуть робити шкоди вам.</li>
+    <li>othersWillNotAccept->Ці {PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} не бажають миритися з ситуаціею</li>
+    <li>turnedViolent->[othersWillNotAccept], і {PAWNSALIVECOUNT_multiple ? have : has } спробували захопити владу.</li>
+    <li>decidedToLeave->[othersWillNotAccept], та {PAWNSALIVECOUNT_multiple ? have : has } вирішив піти.</li>
+    <li>whoAskedToStay->просив залишитись</li>
+    <li>oneOfThe->один із відчайдухів [faction_pawnsPlural], згодився залишитися з вами</li>
     <li>questOver->Квест '[resolvedQuestName]' завершено.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] помер.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] помер: Гнів</li>
@@ -73,7 +73,7 @@
     <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] помер: Відхід</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Квест провалено</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [lastOrNot] з відчайдух [faction_pawnSingular] [whoAskedToStay], помер.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [lastOrNot] відчайдух [faction_pawnSingular] [whoAskedToStay], помер.\n\n[questOver]</li>
     <li>letterIntroArrested->Ви заарештували {SUBJECT_definite}, [oneOfThe].</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] арештований: Гнів</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -95,7 +95,7 @@
     <li>areIs(lodgerCount==1)->є</li>
     <li>areIs(lodgerCount>=2)->є</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] залишають</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} дякує, що дозволили {FACTION_leaderObjective} залишитися на [map_definite] протягом [questDurationTicks_duration]. {FACTION_leaderPronoun} тепер іде далі з {FACTION_leaderPossessive} людей.\n\n{FACTION_leaderNameDef} каже, що {FACTION_leaderPronoun} не забуде, що ви зробили.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} дякує, що дозволили {FACTION_leaderObjective} залишитися на [map_definite] протягом [questDurationTicks_duration]. {FACTION_leaderPronoun} тепер іде далі з {FACTION_leaderPossessive} людьми.\n\n{FACTION_leaderNameDef} каже, що не забуде вашу милосердність.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -143,8 +143,8 @@
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
-    <li>offer(lodgerCount==1)->пропозиції</li>
-    <li>offer(lodgerCount>=2)->пропозиція</li>
+    <li>offer(lodgerCount==1)->пропонує</li>
+    <li>offer(lodgerCount>=2)->пропонують</li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->вони</li>
     <li>lodgersPreposition(lodgerCount==1)->[asker_objective]себе</li>
@@ -154,14 +154,14 @@
     <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
     <li>lodgersPossessive(lodgerCount>=2)->їх</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
-    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->в [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] просить дозволу залишитися на [map_definite] протягом [questDurationTicks_duration], щоб [lodgersPronoun] міг відпочити та перегрупуватися.\n\n У відповідь [lodgersPronoun] [offer] працювати та боротися безплатно протягом цього часу.\n\n[joinInfo] [lodgersPronoun] також може винагородити вас пізніше за допомогу [lodgersObjective] - але немає способу дізнатися справжні наміри [lodgersPossessive].\n\n[travelerInfo] не належить до жодної фракції. За бажанням ви можете вбити, заарештувати, продати чи забрати в рабство [lodgersObjective] без дипломатичних наслідків.</li>
-    <li>approachInfo(lodgerCount==1)->Відчайдух з [faction_pawnSingular] на ім'я [asker_nameDef] наближається.</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] просить дозволу залишитися на [map_definite] протягом [questDurationTicks_duration], щоб [lodgersPronoun] міг відпочити та перегрупуватися.\n\n У відповідь [lodgersPronoun] [offer] працювати та боротися безплатно протягом цього часу.\n\n[joinInfo] [lodgersPronoun] також може винагородити вас пізніше за допомогу [lodgersObjective] - але немає способу дізнатися [lodgersPossessive] справжні наміри.\n\n[travelerInfo] не належить до жодної фракції. За бажанням ви можете вбити, заарештувати, продати чи забрати в рабство [lodgersObjective] без дипломатичних наслідків.</li>
+    <li>approachInfo(lodgerCount==1)->Відчайдуха з [faction_pawnSingular] на ім'я [asker_nameDef] наближається.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] і ще один відчайдух з [faction_pawnSingular] наближаються.</li>
-    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] наближається з дитиною на буксирі.</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount] відчайдухи з [faction_pawnsPlural] наближаються. Їх лідера звуть [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] відчайдухи з [faction_pawnsPlural], включаючи дитину, наближаються. Їх лідера звуть [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] відчайдухи з [faction_pawnsPlural], включаючи дітей, наближаються. Їх лідера звуть [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] наближається з дитиною на руках.</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] відчайдухи фракції [faction_pawnsPlural] наближаються. Їх лідера звуть [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] відчайдухи фракції [faction_pawnsPlural], включаючи дитину, наближаються. Їх лідера звуть [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] відчайдухи фракції [faction_pawnsPlural], включаючи дітей, наближаються. Їх лідера звуть [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Наближається група [lodgerCount] відчайдухів з [faction_pawnsPlural], що складається з [asker_nameDef] і [lodgersCountMinusOne] дітей [asker_pronoun] узяв під [asker_possessive] своє крило.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] стверджує, що втратив дім [asker_possessive] під час нещодавньої атаки.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] стверджує, що прокинувся від криптосну абсолютно один і без друзів.</li>
@@ -170,7 +170,7 @@
     <li>claimInfo(lodgerCount>=2)->Вони стверджують, що втратили свій будинок під час недавнього нападу.</li>
     <li>laimInfo(lodgerCount>=2)->Вони стверджують, що уникли операції з вилучення органів.</li>
     <li>claimInfo(lodgerCount>=2)->Кажуть, вони втекли з каравану рабів.</li>
-    <li>claimInfo(lodgerCount>=2)->Кажуть, що хвороба врожаю вигнала їх із села голодом.</li>
+    <li>claimInfo(lodgerCount>=2)->Кажуть, що голод виник з за хвороби врожаю, тому вони пішли.</li>
     <li>claimInfo(lodgerCount>=2)->Кажуть, сильна буря знищила їхній дім.</li>
     <li>claimInfo(lodgerCount>=2)->Кажуть, їхній караван потрапив у засідку і вони все втратили.</li>
     <li>claimInfo(lodgerCount>=2)->Кажуть, їх вигнали з міста через моральні розбіжності.</li>
@@ -262,7 +262,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Нагорода за зраду: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] пообіцяв вам винагороду, якщо ви вб'єте [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] дізнався, що це було зроблено, і надсилає вам наступне через капсули ([betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] пообіцяв вам винагороду, якщо ви вб'єте [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] дізнався, що це було зроблено, і надсилає вам наступне капсулами ([betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->Нагорода за зраду скасована</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] дізнався, що одного з членів [faction_name] більше немає на [map_definite]. [factionOpponent_nameDef] хотів, щоб усі члени [faction_name] померли, тому відкликав пропозицію [factionOpponent_possessive].</li>
     <li>otherLodgers(lodgerCount==1)-></li>

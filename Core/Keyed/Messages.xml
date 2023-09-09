@@ -71,7 +71,7 @@
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Попередження: {ANIMAL_kindBasePlural} з вірогідністю {1} може напасти при завданні йому шкоди. Шанс залежить від дальності та показника скритності мисливця.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Попередження: {ANIMAL_kindBasePlural} з вірогідністю у {1}% може атакувати при невдалій спробі приручення.</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalManhuntsOnTameFailed>Попередження: {ANIMAL_kindBasePlural} з вірогідністю у {1} може атакувати при невдалій спробі приручення.</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Приручити {INSECT_indefinite} можуть лише ті, хто володіє рисою симпатії до комах.</MessageInsectTameDesignated>
 
@@ -85,7 +85,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort} успішно {PAWN_gender ? приручив : приручила} {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успішно {PAWN_gender ? приручив : приручила} {1}. Тепер відзивається на {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} успішно {RECRUITER_gender ? приручив : приручила} {1}. Тепер відзивається на {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>Немає відповідного загону для тварин для {ANIMAL_labelShort}. Врешті-решт він піде геть.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -163,7 +163,7 @@
   <MessageNoLongerDowned>{1_label} тепер може ходити.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>Стан {1_labelShort} погіршується через надзвичайне виснаження.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} заснув на місці через надзвичайне виснаження.</MessageInvoluntarySleep>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Ця операція розлютить {0}.</MessageMedicalOperationWillAngerFaction>
@@ -178,7 +178,7 @@
   <MessageGaveBirth>{0} народила.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} не зможе використовувати псилінк, поки {PAWN_pronoun} має нульову психічну чутливість.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} не зможе використовувати пси-зв'язок, поки {PAWN_pronoun} має нульову психічну чутливість.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} втратив {1} рівень імплантату через {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -209,7 +209,7 @@
   <MessageCantSelectOffMapPawn>{1_labelShort} знаходиться за межами карти.</MessageCantSelectOffMapPawn>
   
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
-  <MessageSocialFight>{PAWN1_labelShort} розпочав соціальну боротьбу з {PAWN2_labelShort}.</MessageSocialFight>
+  <MessageSocialFight>{PAWN1_labelShort} розпоча{0_gender?в:ла} побутову бійку з {PAWN2_labelShort}.</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
   <MessageNewMarriageCeremony>Колоністи збираються відсвяткувати шлюб {PAWN1_labelShort} з {PAWN2_labelShort}.</MessageNewMarriageCeremony>
@@ -328,9 +328,9 @@
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Процес завантаження було скасовано, оскільки один із пускових установок було знищено.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Призначені колоністи та речі не будуть завантажені у трансортні капсули.</MessageTransportersLoadingProcessStarted>
+  <MessageTransportersLoadingProcessStarted>Призначені предмети та люди зараз будуть завантажені в транспортні капсули.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageTransporterSingleLoadingProcessStarted>Призначені колоністи та речі не будуть завантажені до космічного шатлу.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Призначені предмети та люди зараз будуть завантажені у транспорт.</MessageTransporterSingleLoadingProcessStarted>
   
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Ваші транспортні капсули прибули.</MessageTransportPodsArrived>
@@ -432,7 +432,7 @@
   <MessageMechClusterDefeated>Кластер мехів було розбито.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
-  <MessageCompSpawnerSpawnedItem>Товар виготовлено: {0}.</MessageCompSpawnerSpawnedItem>
+  <MessageCompSpawnerSpawnedItem>Предмет вироблено: {0}.</MessageCompSpawnerSpawnedItem>
 
   <!-- EN: Health condition healed: {0}. -->
   <MessageHediffCuredByItem>Стан здоров'я відновлено: {0}.</MessageHediffCuredByItem>
