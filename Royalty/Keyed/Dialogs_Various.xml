@@ -3,37 +3,35 @@
 
   <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
-  <RoyalFavorDescription>Сума {FACTION_royalFavorLabel}, яку ваш переговорник особисто отримає в результаті цієї угоди.</RoyalFavorDescription>
+  <RoyalFavorDescription>Кількість {lookup: {FACTION_royalFavorLabel}; Case; 1}, яку ваш перемовник отримає в результаті цієї угоди.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
   <RoyalTitleTooltipRequiredApparel>Необхідний одяг</RoyalTitleTooltipRequiredApparel>
   <!-- EN: Minimum apparel quality -->
   <RoyalTitleTooltipRequiredApparelQuality>Найнижча якість одягу</RoyalTitleTooltipRequiredApparelQuality>
   <!-- EN: Bedroom requirements -->
-  <RoyalTitleTooltipBedroomRequirements>Вимоги до спальні</RoyalTitleTooltipBedroomRequirements>
+  <RoyalTitleTooltipBedroomRequirements>Вимоги до спочивальні</RoyalTitleTooltipBedroomRequirements>
   <!-- EN: Throneroom requirements -->
   <RoyalTitleTooltipThroneroomRequirements>Вимоги до тронної зали</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>Титульні привілеї</RoyalTitleTooltipPermits>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>Володарі цього титулу повинні мати певну комбінацію</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>Володарі цього титулу повинні носити будь-який з переліченого одягу</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
   <ApparelRequirementAnyPrestigeArmor>Будь-яка престижна броня</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
-  <ApparelRequirementAnyPsycasterApparel>Будь-який псикастер одяг</ApparelRequirementAnyPsycasterApparel>
+  <ApparelRequirementAnyPsycasterApparel>Будь-який одяг з ельтексу</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: or any psycaster or prestige apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>або будь-який псикастер чи престижний одяг</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>будь-який одяг з ельтексу або престижний одяг</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <!-- EN: Disallowed work types -->
-  <DisabledWorkTypes>Заборонені типи робіт</DisabledWorkTypes>
+  <DisabledWorkTypes>Негідні типи робіт</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
-  <RoyalTitleRequiredMeals>Досволена їжа</RoyalTitleRequiredMeals>
+  <RoyalTitleRequiredMeals>Гідна їжа</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>Володар цього титулу буде їсти лише цю їжу, якщо він не голодує або не перебуває в каравані.</RoyalTitleRequiredMealsDesc>
-  <!-- EN: Choose who should participate in bestowing ceremony. -->
-  <ChooseParticipantsBestow>Виберіть, хто має брати участь у церемонії нагородження.</ChooseParticipantsBestow>
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>Відповідно до законів {FACTION_name}, щоб легально використовувати {IMPLANT}, потрібно мати титул {TITLE}.\n\n{VIOLATIONTRIGGER}, існує ймовірність, що {FACTION_name} виявить його психічний імпульс. Це призведе до дипломатичних наслідків.</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>Відповідно до законів фракції {FACTION_name}, щоб легально використовувати {lookup: {IMPLANT}; Case; 3}, потрібно мати титул {lookup: {TITLE}; Case; 1}.\n\n{VIOLATIONTRIGGER}, існує ймовірність, що {FACTION_name} виявить його характерний психічний імпульс. Це призведе до небажаних дипломатичних наслідків.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Усе одно встановити цей імплант?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -41,40 +39,40 @@
 
   <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
-  <BladelinkEquipWarning>Після зв’язування з власником зброї особа відмовиться від володіння будь-ким іншим.</BladelinkEquipWarning>
+  <BladelinkEquipWarning>Після зв’язування з власником, зброя не буде працювати в руках будь-кого іншого.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
   <BladelinkEquipWarningTraits>Зброя має такі особливості</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
-  <RoyalWeaponEquipConfirmation>Ви впевнені, що хочете спорядити цей предмет?</RoyalWeaponEquipConfirmation>
+  <RoyalWeaponEquipConfirmation>Ви впевнені, що хочете спорядити цю зброю?</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
-  <AbilityTargetPsychicallyDeaf>Ціль - психічно глухий.</AbilityTargetPsychicallyDeaf>
+  <AbilityTargetPsychicallyDeaf>Ціль має психічну глухість.</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
-  <PsycastIsIllegal>Це незаконно для {PAWN_labelShort}. Потрібен титул {TITLE}.</PsycastIsIllegal>
+  <PsycastIsIllegal>Це незаконно для {PAWN_labelShort}. Потрібен титул {lookup: {TITLE}; Case; 1}.</PsycastIsIllegal>
 
   <!-- Skip -->
   <!-- EN: Cannot skip {PAWN_labelShort} -->
   <CannotSkipTarget>Неможливо перемістити {PAWN_labelShort}</CannotSkipTarget>
   <!-- EN: Too large -->
-  <CannotSkipTargetTooLarge>Ціль надто велика</CannotSkipTargetTooLarge>
+  <CannotSkipTargetTooLarge>Ціль завелика</CannotSkipTargetTooLarge>
   <!-- EN: Psychic resistance -->
-  <CannotSkipTargetPsychicResistant>Психічний опір</CannotSkipTargetPsychicResistant>
+  <CannotSkipTargetPsychicResistant>Ціль має пси-спротив</CannotSkipTargetPsychicResistant>
 
   <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
-  <QuestGivesRoyalFavor>Цей квест нагородить {FACTION_royalFavorLabel} і, отже, королівські титули для {PAWN_labelShort}.</QuestGivesRoyalFavor>
+  <QuestGivesRoyalFavor>Нагородою за це завдання буде {FACTION_royalFavorLabel} і, отже, королівські титули для {PAWN_labelShort}.</QuestGivesRoyalFavor>
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
-  <RoyalIncapableOfSocial>{PAWN_labelShort} не може виконувати соціальні завдання. Тим, хто має королівські титули, дуже потрібні соціальні навички, тому, якщо {PAWN_labelShort} отримає титул, {PAWN_pronoun} може мати труднощі. Інший колоніст може бути більш соціально адаптованим.</RoyalIncapableOfSocial>
+  <RoyalIncapableOfSocial>{PAWN_labelShort} не має соціальних навичок. Тим, хто має королівські титули вони дуже потрібні. Якщо {PAWN_labelShort} отримає титул, {PAWN_objective} може бути дуже складно. Інший колоніст може бути більш соціально адаптованим.</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
-  <RoyalWithConceitedTrait>Оскільки {PAWN_labelShort} — {2}, {PAWN_pronoun} вимагатиме повного дотримання привілеїв титулу. {PAWN_labelShort} може відмовитися виконувати певні види роботи або їсти неякісну їжу та видаватиме накази. Інший колоніст, ймовірно, був би більш гнучким.</RoyalWithConceitedTrait>
+  <RoyalWithConceitedTrait>Оскільки у {PAWN_labelShort} є {2}, {PAWN_pronoun} вимагатиме повного дотримання привілеїв титулу. {PAWN_labelShort} може відмовитися виконувати певні види роботи або їсти неякісну їжу та буде видавати накази. Інший колоніст, ймовірно, був би більш гнучким.</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
-  <RoyalWithTraitAffectingPsylinkNegatively>Оскільки {PAWN_labelShort} — {2}, пси-зв'язок може бути некорисним для {PAWN_objective}.</RoyalWithTraitAffectingPsylinkNegatively>
+  <RoyalWithTraitAffectingPsylinkNegatively>Оскільки у {PAWN_labelShort} є {2}, пси-зв'язок може бути безкорисним для {PAWN_gender ? нього : неї}.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
-  <PsylinkTooLowForGainAbility>Пси-зв'язок {PAWN_labelShort} недостатньо високого рівня, щоб використовувати {ABILITY}.\n\nВсе одно отримати цю силу?</PsylinkTooLowForGainAbility>
+  <PsylinkTooLowForGainAbility>Пси-зв'язок {PAWN_labelShort} недостатньо високого рівня, щоб використовувати "{lookup: {ABILITY}; Case; 3}".\n\nВи впевнені, що хочете вивчити цю здібність?</PsylinkTooLowForGainAbility>
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
-  <SendShuttleWithNoContents>Цей шатл порожній. Якщо ви надішлете його, ви не зможете використати його знову.\n\nУсе одно надіслати?</SendShuttleWithNoContents>
+  <SendShuttleWithNoContents>Цей шатл порожній. Якщо ви надішлете його, ви не зможете використати його знову.\n\nВи впевнені, що хочете надіслати цей шатл?</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
-  <DropResourcesOverweightConfirm>Ці ресурси обтяжуватимуть караван і він не зможе рухатися.\n\nВсе одно їх призвати?</DropResourcesOverweightConfirm>
+  <DropResourcesOverweightConfirm>Ці ресурси обтяжуватимуть караван і він не зможе рухатися.\n\nВи впевнені, що хочете надіслати ці ресурси?</DropResourcesOverweightConfirm>
 
 </LanguageData>

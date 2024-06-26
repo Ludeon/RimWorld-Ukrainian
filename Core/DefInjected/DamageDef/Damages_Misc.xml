@@ -1,44 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>кислотний опік</AcidBurn.label>
+  <!-- EN: {0} has burned to death. -->
+  <AcidBurn.deathMessage>{0} {0_gender? згорів: згоріла} заживо.</AcidBurn.deathMessage>
+  
   <!-- EN: bomb -->
   <Bomb.label>вибух</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
-  <Bomb.deathMessage>{0} загинув від вибуху.</Bomb.deathMessage>
+  <Bomb.deathMessage>{0} {0_gender ? загинув : загинула} від вибуху.</Bomb.deathMessage>
   
   <!-- EN: bomb -->
-  <BombSuper.label>бомба</BombSuper.label>
+  <BombSuper.label>вибух</BombSuper.label>
   <!-- EN: {0} has died in an explosion. -->
-  <BombSuper.deathMessage>{0} загинув від вибуху.</BombSuper.deathMessage>
+  <BombSuper.deathMessage>{0} {0_gender ? загинув : загинула} від вибуху.</BombSuper.deathMessage>
+  
+  <!-- EN: decayed organ -->
+  <Decayed.label>деградація органу</Decayed.label>
+  <!-- EN: {0} died from metabolic disruptions caused by organ decay. -->
+  <Decayed.deathMessage>{0} помирає від метаболічних порушень, спричинених деградацією органу.</Decayed.deathMessage>
   
   <!-- EN: deterioration -->
   <Deterioration.label>псування</Deterioration.label>
   <!-- EN: {0} has been killed. -->
-  <Deterioration.deathMessage>{0} був убитий.</Deterioration.deathMessage>
+  <Deterioration.deathMessage>{0} {0_gender ? зіпсувався : зіпсувалася : зіпсувалось}.</Deterioration.deathMessage>
   
   <!-- EN: extinguish -->
   <Extinguish.label>гасіння</Extinguish.label>
   <!-- EN: {0} has been killed. -->
-  <Extinguish.deathMessage>{0} був убитий.</Extinguish.deathMessage>
+  <Extinguish.deathMessage>{0} {0_gender ? убитий : убита : убито}.</Extinguish.deathMessage>
   
   <!-- EN: mining -->
-  <Mining.label>видобуток</Mining.label>
+  <Mining.label>гірництво</Mining.label>
   <!-- EN: {0} has been killed. -->
-  <Mining.deathMessage>{0} був убитий.</Mining.deathMessage>
+  <Mining.deathMessage>{0} {0_gender ? убитий : убита : убито}.</Mining.deathMessage>
   
   <!-- EN: rotting -->
   <Rotting.label>гниття</Rotting.label>
   <!-- EN: {0} has been killed. -->
-  <Rotting.deathMessage>{0} був убитий.</Rotting.deathMessage>
+  <Rotting.deathMessage>{0} {0_gender ? згнив : згнила : згнило}.</Rotting.deathMessage>
   
   <!-- EN: smoke -->
   <Smoke.label>дим</Smoke.label>
   <!-- EN: {0} has been killed. -->
-  <Smoke.deathMessage>{0} задихнувся.</Smoke.deathMessage>
+  <Smoke.deathMessage>{0} {0_gender ? убитий : убита : убито}.</Smoke.deathMessage>
   
   <!-- EN: thump -->
-  <Thump.label>попав</Thump.label>
+  <Thump.label>удар</Thump.label>
   <!-- EN: {0} has been shot to death. -->
-  <Thump.deathMessage>{0} застрелений.</Thump.deathMessage>
+  <Thump.deathMessage>{0} {0_gender ? застрелений : застрелена : застрелено}.</Thump.deathMessage>
+  
+  <!-- EN: vaporize -->
+  <Vaporize.label>випарування</Vaporize.label>
+  <!-- EN: {0} has been vaporized by extreme heat. -->
+  <Vaporize.deathMessage>{0} {0_gender? випарувався: випарувалася} від екстремальних температур.</Vaporize.deathMessage>
   
 </LanguageData>

@@ -2,144 +2,166 @@
 <LanguageData>
   
   <!-- EN: animals learning factor -->
-  <AnimalsLearningFactor.label>коефіцієнт навчання тварин</AnimalsLearningFactor.label>
+  <AnimalsLearningFactor.label>ефективність навчання тварини</AnimalsLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for animals skill. -->
-  <AnimalsLearningFactor.description>Множник швидкості навчання для навичок тварин.</AnimalsLearningFactor.description>
+  <AnimalsLearningFactor.description>Множник швидкості навчання тварини будь-якої навички.</AnimalsLearningFactor.description>
   
   <!-- EN: bed hunger rate multiplier -->
-  <BedHungerRateFactor.label>множник швидкості голоду у ліжку</BedHungerRateFactor.label>
+  <BedHungerRateFactor.label>множник голоду в ліжку</BedHungerRateFactor.label>
   
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>швидкість їзди каравану</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>Множник, що застосовується до швидкості руху людини, коли вона їде верхи на цій тварині в складі каравану. Їздити верхи на тваринах можна лише в караванах.</CaravanRidingSpeedFactor.description>
+  <CaravanRidingSpeedFactor.description>Множник, що застосовується до швидкості руху персонажу, коли він їде верхи в складі каравану. Їздити верхи на тваринах можна лише в караванах.</CaravanRidingSpeedFactor.description>
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>вантажопідйомність</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>Кількість речей, які ця істота може носити в руках, роті чи інших маніпуляторах.\n\nЦе окремо від можливості перевозити вантаж у тривалих міжсвітніх подорожах.</CarryingCapacity.description>
+  <CarryingCapacity.description>Кількість речей, які ця істота може носити в руках, зубах або інших маніпуляторах.\n\nЦя характеристика відрізняється від вантажопідйомності під час подорожей в складі каравану.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
+  <!-- EN: max comfortable temperature -->
   <ComfyTemperatureMax.label>Максимальна комфортна температура</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Вище цієї температури персонажі будуть незадоволені.\n\nЗначно вище цієї температури у них розвинеться тепловий удар і зрештою вони загинуть.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>Якщо температура буде вищою за цей показник, персонаж буде незадоволений.\n\nЯкщо температура буде значно вищою - персонаж отримає тепловий удар, і зрештою може померти.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
+  <!-- EN: min comfortable temperature -->
   <ComfyTemperatureMin.label>Мінімальна комфортна температура</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Нижче цієї температури персонажі будуть незадоволені.\n\nПри значно нижчій температурі у них розвивається гіпотермія та обмороження, і врешті-решт смерть.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>Якщо температура буде нижчою за цей показник, персонаж буде незадоволений.\n\nЯкщо температура буде значно нижчою - персонаж отримає гіпотермію, і зрештою може померти.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>швидкість повзання</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>Швидкість повзання в клітинах на секунду.</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>{0} кл/с</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>швидкість харчування</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
-  <EatingSpeed.description>Множник швидкості харчування.</EatingSpeed.description>
+  <EatingSpeed.description>Множник швидкості поглинання їжі.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>EMP resistance</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP.</EMPResistance.description>
   
   <!-- EN: filth rate -->
-  <FilthRate.label>рівень бруду</FilthRate.label>
+  <FilthRate.label>рівень забруднення</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
-  <FilthRate.description>Скільки бруду виробляє це створіння.\n\nНайкраще тримати нечистих тварин на відкритому повітрі або на солом’яній циновці, де їхній бруд не буде проблемою.</FilthRate.description>
+  <FilthRate.description>Скільки бруду приносить це створіння.\n\nТварин з високим рівнем забруднення, краще тримати на відкритому просторі або в приміщеннях, вкритих соломою. Тоді їхній бруд не буде проблемою.</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>кількість збираної їжі</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>Кількість поживних речовин, яку ця людина автоматично збиратиме на день під час подорожі караваном.</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>Кількість дикоростучої їжі, яку ця персона автоматично збиратиме за день подорожі караваном.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
-  <GlobalLearningFactor.label>глобальний фактор навчання</GlobalLearningFactor.label>
+  <GlobalLearningFactor.label>ефективність навчання</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>Показник швидкості навчання для всіх видів діяльності.</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>Множник швидкості навчання будь-яких навичок.</GlobalLearningFactor.description>
   
   <!-- EN: immunity gain speed -->
-  <ImmunityGainSpeed.label>швидкість набуття імунітету</ImmunityGainSpeed.label>
+  <ImmunityGainSpeed.label>швидкість вироблення імунітету</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Швидкість, з якою цей персонаж отримує імунітет до хвороб.\n\nЯкщо це буде занадто повільно, персонаж помре від хвороби до того, як виробить імунітет.</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>Швидкість, з якою цей персонаж виробляє імунітет до хвороб.\n\nЯкщо цей параметр занадто низький, персонаж помре від хвороби до того, як виробить імунітет.</ImmunityGainSpeed.description>
   
   <!-- EN: injury healing factor -->
-  <InjuryHealingFactor.label>коефіцієнт загоєння травм</InjuryHealingFactor.label>
+  <InjuryHealingFactor.label>Множник загоєння травм</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
-  <InjuryHealingFactor.description>Множник, застосований до швидкості загоєння травм людини.</InjuryHealingFactor.description>
+  <InjuryHealingFactor.description>Множник, застосований до швидкості загоєння травм персонажа.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>швидкість зниження дозвілля</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>Множник, який впливає на швидкість зменшення шкали дозвілля.</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>кількість шкіри</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>Кількість шкіри, що виходить під час різання цієї істоти. Це значення зменшується, якщо істота не чисто забита, або якщо вона поранена під час убивства.</LeatherAmount.description>
+  <LeatherAmount.description>Кількість шкіри, що отримується після білування цієї істоти. Кількість зменшується, якщо істота забита неправильно, або якщо вона скалічена.</LeatherAmount.description>
   
   <!-- EN: lifespan factor -->
-  <LifespanFactor.label>фактор тривалості життя</LifespanFactor.label>
+  <LifespanFactor.label>множник тривалості життя</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>Фактор тривалості життя змінює ефективність тривалості життя істоти, зменшуючи чи збільшуючи час необхідний для розвитку вікових хвороб. Фактор тривалості життя понад 100% затримує початок розвитку хвороби та підвищує загальну тривалість життя, якщо фактор тривалості життя менше ніж 100% - прискорює початок розвитку хвороби та зменшує тривалість життя.</LifespanFactor.description>
+  <LifespanFactor.description>Множник, що впливає на тривалість життя істоти, прискорюючи або сповільнюючи час до розвитку вікових захворювань. При значенні більше 100% сповільнюється розвиток захворювань та збільшується загальна тривалість життя. При значенні менше 100% - навпаки.</LifespanFactor.description>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>максимальна ситість</MaxNutrition.label>
   <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
-  <MaxNutrition.description>Кількість харчування, що необхідна для повного заповнення шлунку істоти.</MaxNutrition.description>
+  <MaxNutrition.description>Кількість їжі, необхідної для повного заповнення шлунку істоти.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>кількість м'яса</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>Кількість м'яса, що виходить при різанні цієї істоти. Це значення зменшується, якщо істота не чисто забита, або якщо вона поранена під час убивства.</MeatAmount.description>
+  <MeatAmount.description>Кількість м'яса, що отримується після білування цієї істоти. Кількість зменшується, якщо істота забита неправильно, або якщо вона скалічена.</MeatAmount.description>
   
   <!-- EN: meditation psyfocus gain -->
-  <MeditationFocusGain.label>бонус психофукосної медитації</MeditationFocusGain.label>
+  <MeditationFocusGain.label>ефективність медитації</MeditationFocusGain.label>
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>Обсяг психофокусу, який людина отримує за день медитації, ігноруючи бонуси від об’єктів фокусування.</MeditationFocusGain.description>
+  <MeditationFocusGain.description>Кількість пси-фокусу, яку отримує цей персонаж за день медитації, без урахування бонуса від об'єктів для концентрації.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>{0} на день</MeditationFocusGain.formatString>
+  <MeditationFocusGain.formatString>{0} / день</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>{0} на день</MeditationFocusGain.formatStringUnfinalized>
+  <MeditationFocusGain.formatStringUnfinalized>{0} / день</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
-  <MentalBreakThreshold.label>поріг психічного зриву</MentalBreakThreshold.label>
+  <MentalBreakThreshold.label>поріг нервового зриву</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>Поки чийсь настрій нижче цього рівня, вони знаходяться під загрозою психічного зриву.\n\nСерйозність психічного розладу залежатиме від того, наскільки вони нижче порогу.</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>Якщо настрій персонажа нижчий за цей показник, йому загрожує нервовий розрив.\n\nСерйозність нервового зриву залежить від того, наскільки настрій нижче цього показника.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
-  <MinimumHandlingSkill.label>мінімальний рівень приручення</MinimumHandlingSkill.label>
+  <MinimumHandlingSkill.label>необхідний рівень Тваринництва</MinimumHandlingSkill.label>
   <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>Це істота не може бути приручена, навчена, або отримувати накази, якщо навичка буде нижче ніж у тварини.</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>Тварина не може бути приручена, якщо рівень навички тваринника меньше цього значення.</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
   <MoveSpeed.label>швидкість руху</MoveSpeed.label>
   <!-- EN: Speed of movement in cells per second. -->
-  <MoveSpeed.description>Швидкість пересування у клітинках за секунду.</MoveSpeed.description>
+  <MoveSpeed.description>Швидкість пересування цієї істоти світом у клітинках за секунду.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
-  <MoveSpeed.formatString>{0} к\с</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0} кл/с</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
-  <PainShockThreshold.label>поріг больового шоку</PainShockThreshold.label>
+  <PainShockThreshold.label>межа больового шоку</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>Рівень болю, при якому ця істота втрачає свідомість.</PainShockThreshold.description>
+  <PainShockThreshold.description>Максимальний рівень болю, при якому ця істота здатна стояти на ногах.</PainShockThreshold.description>
   
   <!-- EN: neural heat limit -->
-  <PsychicEntropyMax.label>ліміт пси-напруги</PsychicEntropyMax.label>
+  <PsychicEntropyMax.label>межа нейро-напруги</PsychicEntropyMax.label>
   <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
-  <PsychicEntropyMax.description>Максимальна кількість пси-напруги яку людина може безпечно перенести.</PsychicEntropyMax.description>
+  <PsychicEntropyMax.description>Максимальний рівень нейро-напруги, яку цей персонаж здатен витримати.</PsychicEntropyMax.description>
   
   <!-- EN: neural heat recovery rate -->
-  <PsychicEntropyRecoveryRate.label>швидкість відновлення пси-напруги</PsychicEntropyRecoveryRate.label>
+  <PsychicEntropyRecoveryRate.label>швидкість розсіювання нейро-напруги</PsychicEntropyRecoveryRate.label>
   <!-- EN: The rate at which this person reduces neural heat. -->
-  <PsychicEntropyRecoveryRate.description>Швидкість з якою колоніст зменшує пси-напругу.</PsychicEntropyRecoveryRate.description>
+  <PsychicEntropyRecoveryRate.description>Швидкість, з якою цей персонаж зменшує свій рівень нейро-напруги.</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/s -->
   <PsychicEntropyRecoveryRate.formatString>{0}/с</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>психічна чутливість</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>Більш чутливі люди більше страждають від негативних психічних впливів і отримують більше користі від позитивних. Вища психічна чутливість також збільшує межу психічної напруги.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>Більш чутливі люди більше страждають від негативних психічних впливів і отримують більше користі від позитивних. Вища психічна чутливість також збільшує межу нейро-напруги.</PsychicSensitivity.description>
+  
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>необхідність у сні</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>Множник того, як швидко наростає необхідність людини у сні.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>множник швидкості відпочинку</RestRateMultiplier.label>
+  <RestRateMultiplier.label>ефективність відпочинку</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>Множник того, як швидко істота відпочиває під час сну.</RestRateMultiplier.description>
+  <RestRateMultiplier.description>Показник, що вказує на швидкість відпочинку істоти під час сну.</RestRateMultiplier.description>
   
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>стійкість до токсичного середовища</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>Наскільки ця істота стійка до впливу токсинів навколишнього середовища. Це захищає від токсичного газу, смороду гнилі, токсичних опадів і забрудненої місцевості, але не від прямих атак отрутою чи введеною отрутою. Коли цей показник вищий, вплив забруднення призводить до пропорційно меншого накопичення токсичних речовин в організмі.</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>Наскільки ця істота стійка до впливу токсинів навколишнього середовища. Захищає від токсичного і трупного газу, токсичних опадів і забрудненої місцевості, але не від прямих атак отрутою чи отруєння. Чим вище цей показник, тим менше тіло персонажа схильне до отруєння токсинами від перерахованих факторів.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
-  <ToxicResistance.label>токсична стійкість</ToxicResistance.label>
+  <ToxicResistance.label>стійкість до токсинів</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
-  <ToxicResistance.description>Наскільки добре ця істота протистоїть накопиченню токсичних речовин.</ToxicResistance.description>
+  <ToxicResistance.description>Наскільки ефективно ця істота протистоїть отруєнню токсинами.</ToxicResistance.description>
   
 </LanguageData>

@@ -4,22 +4,18 @@
   <!-- EN:
     <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
     <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
-    <li>argumentLetterLabel->Sanguophage argument</li>
-    <li>argumentLetterText->The sanguophages got into an argument and it has now escalated to violence!</li>
     <li>successLetterLabel->Meeting complete</li>
     <li>successLetterText->The sanguophages have completed their meeting and will now give you your reward.</li>
     <li>raidArrivedLetterLabel->Sanguophage hunters</li>
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
   <SanguophageMeetingHost.questContentRules.rulesStrings>
-    <li>sanguophagesArriveLetterLabel->Сангофаги прибули</li>
-    <li>sanguophagesArriveLetterText->[sanguophageCount] сангвофагів прибудуть до [map_definite] з різних сторін. Вони проведуть зустріч і обговорять кілька питань у колонії.</li>
-    <li>argumentLetterLabel->Аргумент сангофага</li>
-    <li>argumentLetterText->Сангвофаги посварилися, і тепер це переросло в насильство!</li>
-    <li>successLetterLabel->Зустріч завершена</li>
-    <li>successLetterText->Сангвофаги завершили свою зустріч і тепер дадуть, вам, вашу нагороду.</li>
-    <li>raidArrivedLetterLabel->Полювання на сангофагів</li>
-    <li>raidArrivedLetterText->Наближається група мисливців за сангвофагами з [enemyFaction_name]!\n\nВони нападуть на зустрічних сангофагів, а також на тих, хто їх приймав.</li>
+    <li>sanguophagesArriveLetterLabel->Сангвофаги прибули</li>
+    <li>sanguophagesArriveLetterText->[sanguophageCount] сангвофагів прибули до вас в [map_definite] з різних місць. Вони проведуть зустріч та обговорять свої справи.</li>
+    <li>argumentLetterLabel->Суперечка</li>
+    <li>argumentLetterText->Сангвофаги почали сперечатися, що згодом переосло в бійку!</li>
+    <li>successLetterLabel->Зустріч завершено</li>
+    <li>successLetterText->Сангвофаги завершили свою зустріч й дають обіцяну нагороду.</li>
   </SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
@@ -28,10 +24,10 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->Сангофаг на ім’я [asker_nameDef] шукає безпечне місце для зустрічі з [sanguophageCountMinusOne] іншими [sanguophageSingOrPlural], де їх не відстежуватимуть. Їх лідер [asker_nameDef] просить дозвіл провести зустріч на [map_definite].\n\nЯкщо ви погодитеся, [sanguophageCount] сангофагів прибудуть на [map_definite] з різних сторін. Вони проведуть кілька годин, обговорюючи власні таємні питання перед від'їздом. Вони обіцяють дати вам вашу винагороду, перш ніж підуть.\n\nВи можете зрадити сангофагів і напасти на них. Поранених сангвофагів можна змусити перетворити одного з ваших власних колоністів на сангофага.\n\n[sanguophageInfo]</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->сангофаг</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->сангофаги</li>
-    <li>sanguophageInfo->(*Gray)Про сангофагів: сангофаги — це нестаріючі, безсмертні надлюди, що живляться архітами, штучно утвореними архотехом у крові. Вони красиві та надзвичайно розумні. Вони можуть вилікувати будь-яку травму і ніколи не страждають від хвороби чи отрути. У бою вони можуть запускати смертоносні шипи та лікувати поранених друзів. Ціна полягає в тому, що сангвофаги повинні споживати гемоген, отриманий з людської крові, щоб вижити, і вони повинні періодично впадати у летаргічний сон, відпочиваючи у труні тривалий час. Вони легко знищуються вогнем і сповільнюються ультрафіолетовим світлом.(/Gray)</li>
+    <li>questDescription->Сангвофаг на ім'я [asker_nameDef] шукає безпечне місце для зустрічі з [sanguophageCountMinusOne] [sanguophageSingOrPlural], де їх не зможуть вислідити. [asker_nameDef] просить дозволити провести цю зустріч у вас в [map_definite].\n\nЯкщо ви погодитесь, до вас прийдуть [sanguophageCount] сангвофагів з різних місць. Вони проведуть у вас декілька годин за обговоренням їхніх проблем. Перед тим як піти, вони обіцяють залишити винагороду.\n\nВи можете зрадити та атакувати їх. Знерухомлених сангвофагів можна змусити перетворити одного з ваших власних колоністів на сангвофага.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->іншим сангвофагом</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->іншими сангвофагами</li>
+    <li>sanguophageInfo->(*Gray)Про сангвофагів: Сангвофаги - вічні, безсмертні супер-люди, кров яких містить створених архотеками архітів. Вони красиві та дуже розумні. Вони можуть зцілитися від будь-яких поранень, хвороб або отруєнь. В бою вони можуть випускати смертельні шипи та зціляти поранених союзників. Ціною за це є необхідність вживати гемоген з людської крові, щоб вижити. Також, їм періодично необхідно впадати в летаргічний сон на декілька днів. Вони смертельно вразливі до вогню а ультрафіолетові промені сповільнюють їх.(/Gray)</li>
   </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
@@ -56,24 +52,24 @@
   -->
   <SanguophageMeetingHost.questNameRules.rulesStrings>
     <li>questName->[meetNoun] [meetAdjective]</li>
-    <li>meetAdjective->сангофагів</li>
-    <li>meetAdjective->кровожерних</li>
-    <li>meetAdjective->крові</li>
-    <li>meetAdjective->тіні</li>
-    <li>meetAdjective->темряви</li>
-    <li>meetAdjective->багрянцю</li>
-    <li>meetAdjective->червногих</li>
-    <li>meetAdjective->корости</li>
-    <li>meetAdjective->гемогенів</li>
-    <li>meetAdjective->сангвінів</li>
-    <li>meetNoun->зустріч</li>
-    <li>meetNoun->прийняття гостей,</li>
+    <li>questName->[meetAdjectiveFem] [meetNounFem]</li>
+    <li>meetAdjective->кровопивчий</li>
+    <li>meetAdjective->кривавий</li>
+    <li>meetAdjective->тіньовий</li>
+    <li>meetAdjective->темний</li>
+    <li>meetAdjective->червоний</li>
+    <li>meetAdjective->гемогенний</li>
+    <li>meetAdjective->сангвофагський</li>
+    <li>meetAdjectiveFem->кровопивча</li>
+    <li>meetAdjectiveFem->кривава</li>
+    <li>meetAdjectiveFem->тіньова</li>
+    <li>meetAdjectiveFem->темна</li>
+    <li>meetAdjectiveFem->червона</li>
+    <li>meetAdjectiveFem->гемогенна</li>
+    <li>meetAdjectiveFem->сангвофагська</li>
+    <li>meetNounFem->зустріч</li>
+    <li>meetNoun->прийом</li>
     <li>meetNoun->збір</li>
-    <li>meetNoun->возз'єднання</li>
-    <li>meetNoun->зібрання</li>
-    <li>meetNoun->конклав</li>
-    <li>meetNoun->з'їзд</li>
-    <li>meetNoun->переговори</li>
   </SanguophageMeetingHost.questNameRules.rulesStrings>
   
 </LanguageData>

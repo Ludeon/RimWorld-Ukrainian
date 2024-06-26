@@ -2,35 +2,35 @@
 <LanguageData>
 
   <!-- EN: Ideoligion forbids -->
-  <IdeoligionForbids>Ідеологія заборонена</IdeoligionForbids>
+  <IdeoligionForbids>Ідеологія забороняє</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
   <OnlyMembersCanBuild>Будувати можуть тільки {0}</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} вже у процесі.</CantStartRitualAlreadyInProgress>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>Один або кілька учасників не можуть приєднатися через екстримальну температуру.</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>Мінімум один з учасників не може приєднатися через небезпечну температуру..</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} вже бере участь у ритуалі.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
   <CantStartRitualRoleNotAssigned>Ви повинні призначити роль {0} для того, щоб розпочати ритуал.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>Немає кого завербувати у {0}. Для цього необхідний посеенець, в'язень чи раб, який належить іншій ідеології.</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>Немає кого конвертувати в {0}. Для цього необхідний колоніст, в'язень чи раб, що належить іншій ідеології.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} не може займати роль {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} не може взяти на себе роль {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} має бути {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} психічно {PAWN_gender ? глухий : глуха}.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} має психічну глухоту.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>Недостатньо місця для глядачів. Має бути чітке коло радіусом {MINRADIUS}. Потрібно принаймні {1} вільних місць у цьому радіусі.</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelSpectators>Не вистачає місця для спостерігачів. Необхідна область з радіусом {MINRADIUS} та принаймні {1} стоячими місцями.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>Недостатньо місця для дуелянтів. Має бути чітке коло радіусом {MINRADIUS}. Потрібно принаймні {1} вільних місць у цьому радіусі.</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelDuelists>Не вистачає місця для дуелянтів. Необхідна область з радіусом {MINRADIUS} та принаймні {1} стоячими місцями.</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>Недостатньо місця для промовця. Має бути чітке коло радіусом {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>Не вистачає місця для оратора. Необхідна область з радіусом {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>{0_labelShort} - раб. Раби на мають похорони.</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} - {0_gender ? раб : рабиня}. Раби на проводять похорони.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>Необхідне доступне ліжко для рабів, не зайняте, та, що знаходиться в місці з безпечною температурою.</NoSlaveBed>
+  <NoSlaveBed>Необхідне доступне ліжко для рабів, що знаходиться в місці з безпечною температурою.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
   <ReturnToSlaveBed>Повернути до рабського ліжка</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
@@ -55,11 +55,11 @@
   <!-- EN: Add style category -->
   <AddStyleCategory>Додати категорію стилю</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>Неможливо додати більше {0} ритуалів.</MaxRitualCount>
+  <MaxRitualCount>Максимум ритуалів: {0}.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>Неможливо додати більше {0} реліквій.</MaxRelicCount>
+  <MaxRelicCount>Максимум реліквій: {0}.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>неможна мати більше {0} спеціалістів.</MaxMultiRolesCount>
+  <MaxMultiRolesCount>максимум спеціалістів: {0}.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
   <MaxPreceptCount>максимум {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
@@ -75,11 +75,11 @@
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>не можна носити з призначеним одягом</BodyPartAlreadyCovered>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>Люди радіють, коли їх потреби в одязі виконуються та засмучуються, коли ні.</NoteRoleApparelRequirementEffects>
+  <NoteRoleApparelRequirementEffects>Колоністи радіють, коли їх потреби в одязі виконуються та засмучуються, коли ні.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>надзаряд не готовий</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>нейтронний надзаряд не готовий</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
-  <NeuralSuperchargeAlreadyGetting>вже отримує</NeuralSuperchargeAlreadyGetting>
+  <NeuralSuperchargeAlreadyGetting>в процесі</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
   <SetApparelType>Задати тип</SetApparelType>
 
@@ -98,33 +98,33 @@
   <!-- EN: conflicts with memes -->
   <ConflictsWithMemes>несумісно з рисами</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>дозволено тільки один вівтар/ідеограма</IdeoAlreadyHasAltar>
+  <IdeoAlreadyHasAltar>дозволяється тільки один вівтар/ідеограма</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>перефарбувати одяг</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>Зламати {0}</Hack>
+  <Hack>Зламати {lookup: {0}; Case; 3}</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>Неможливо зламати {0}</CannotHack>
+  <CannotHack>Неможливо зламати {lookup: {0}; Case; 3}</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>Вже взламано</AlreadyHacked>
+  <AlreadyHacked>Вже зламано</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
   <IncapableOfHacking>Не може зламувати</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>для скинутих припасів</ToDropSupplies>
+  <ToDropSupplies>для скидання припасів</ToDropSupplies>
 
   <!-- EN: Install {0} -->
-  <InstallRelic>Встановити {0}</InstallRelic>
+  <InstallRelic>Встановити реліквію {0}</InstallRelic>
   <!-- EN: Extract {0} -->
-  <ExtractRelic>Добути {0}</ExtractRelic>
+  <ExtractRelic>Вилучити реліквію {0}</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>Добути {0} у інвентар ({1})</ExtractRelicToInventory>
+  <ExtractRelicToInventory>Вилучити реліквію {0} у інвентар ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
   <NoRelicToInstall>Немає реліквій для встановлення</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
   <InstallInReliquary>Встановити у релікварій</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>немає порожнього релікварію</NoEmptyReliquary>
+  <NoEmptyReliquary>немає доступного порожнього релікварію</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
   <NoWardenOfIdeo>Немає наглядача {MEMBERNAME}</NoWardenOfIdeo>
@@ -133,43 +133,43 @@
   <RemoveCurrentRole>Прибрати поточну роль</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
-  <EnterBiosculpterPod>Увійти у біоскульптор для циклу {0} ({1})</EnterBiosculpterPod>
+  <EnterBiosculpterPod>Зайти в біоскульптор для циклу {lookup: {0}; Case; 1} ({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Відкалібрований для когось іншого.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
-  <UnderMinBiosculpterAgeReversalAge>Для омодження необхідно бути не молодше {0} років.</UnderMinBiosculpterAgeReversalAge>
+  <UnderMinBiosculpterAgeReversalAge>Для циклу омолодження необхідно бути не молодше {0} р.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>Нести {PAWN_labelShort} у капсулу біоскульптора ({CYCLE})</CarryToBiosculpterPod>
+  <CarryToBiosculpterPod>Віднести {PAWN_labelShort} в біоскульптор ({CYCLE} cycle)</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
-  <CannotCarryToBiosculpterPod>Неможливо нести у біоскульптор</CannotCarryToBiosculpterPod>
+  <CannotCarryToBiosculpterPod>Неможливо нести в біоскульптор</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Немає вільного біоскульптора.</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>Харчування не завантажене</BiosculpterNutritionNotLoaded>
+  <BiosculpterNutritionNotLoaded>Їжа не завантажена</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Зайнято</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>Неможливо увійти</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>Неможливо запустити цикл {0}</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>Неможливо розпочати цикл {lookup: {0}; Case; 1}</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>Не вдалося знайти інгредієнти циклу ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <BiosculpterMissingIngredients>Відсутні інгредієнти для циклу ({INGREDIENTS})</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>Ніхто не може використовувати цей біоскульптор</BiosculpterNoEligiblePawns>
+  <BiosculpterNoEligiblePawns>Ніхто не може використати цей біоскульптор</BiosculpterNoEligiblePawns>
   <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
-  <BiosculpterNoEligiblePawnsBiotuned>Відкалібровано для {PAWN_labelShort}, але {PAWN_pronoun} немає поруч</BiosculpterNoEligiblePawnsBiotuned>
+  <BiosculpterNoEligiblePawnsBiotuned>Відкалібрований для {PAWN_labelShort}, а {PAWN_possessive} немає поруч</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>Автозавантаження харчування</BiosculpterAutoLoadNutritionLabel>
+  <BiosculpterAutoLoadNutritionLabel>Завантажувати їжу автоматично</BiosculpterAutoLoadNutritionLabel>
   <!-- EN: Automatically load the nutrition required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>Автоматично завантажувати харчування необхідне для запуску циклу</BiosculpterAutoLoadNutritionDescription>
+  <BiosculpterAutoLoadNutritionDescription>Автоматично завантажувати необхідну для процедури їжу</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
   <BiosculpterAutoAgeReversalLabel>Автоматичне омолодження для {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>Дозволити {PAWN_labelShort} проводити цикл омолодження щорічно у цьому біоскульпторі відповідно до {PAWN_possessive} переконань. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>Дозволити {PAWN_labelShort} самостійно проходити цикл омолодження щороку, відповідно до {PAWN_possessive} переконань. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>Якщо увімкнено, {PAWN_labelShort} самостійно пройде {PAWN_possessive} цикл через {TIME} якщо капсула буде готова.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionFuture>Якщо активно, {PAWN_labelShort} самостійно пройде цикл через {TIME}, якщо біоскульптор буде готовий.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} вже планує своє наступне омолодження і автоматично почне, якщо це дозволено.</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} вже планує свій наступний цикл омолодження, якщо відповідно опція активна.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>Збір інгредієнтів для циклу біоскульптора</BiosculpterJobReportCollectIngredients>
+  <BiosculpterJobReportCollectIngredients>збирає інгредієнти для циклу біоскульптора</BiosculpterJobReportCollectIngredients>
 </LanguageData>

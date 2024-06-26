@@ -26,25 +26,25 @@
     <li>placeEnd->vel</li>
   -->
   <ImpidUtility.rulePack.rulesStrings>
-    <li>placeNameCore->[SylI][SylI]</li>
-    <li>placeNameCore->[SylI][SylI][SylI]</li>
-    <li>placeNameCore->[SylI][placeEnd]</li>
-    <li>placeNameCore->[SylI][SylI][placeEnd]</li>
+    <li>placeNameCore->[SylICap][SylI]</li>
+    <li>placeNameCore->[SylICap][SylI][SylI]</li>
+    <li>placeNameCore->[SylICap][placeEnd]</li>
+    <li>placeNameCore->[SylICap][SylI][placeEnd]</li>
     <li>placeEnd->ач</li>
     <li>placeEnd->аз</li>
     <li>placeEnd->ет</li>
     <li>placeEnd->зоз</li>
     <li>placeEnd->оч</li>
     <li>placeEnd->оз</li>
-    <li>placeEnd->ехз</li>
-    <li>placeEnd->есс</li>
-    <li>placeEnd->онсс</li>
+    <li>placeEnd->еч</li>
+    <li>placeEnd->ес</li>
+    <li>placeEnd->онс</li>
     <li>placeEnd->ін</li>
-    <li>placeEnd->іхс</li>
+    <li>placeEnd->ічс</li>
     <li>placeEnd->ізз</li>
-    <li>placeEnd->сезз</li>
+    <li>placeEnd->сез</li>
     <li>placeEnd->тч</li>
-    <li>placeEnd->тз</li>
+    <li>placeEnd->тчз</li>
     <li>placeEnd->кен</li>
     <li>placeEnd->кев</li>
     <li>placeEnd->вел</li>
@@ -74,21 +74,21 @@
   -->
   <NamerFactionOutlanderPig.rulePack.rulesStrings>
     <li>r_name(p=2)->[nameCore]</li>
-    <li>r_name->[nameCore] [political_union_outlander]</li>
-    <li>r_name->[political_union_outlander] з [nameCore]</li>
+    <li>r_name->[PoliticalUnions_OutlanderFem] [nameCore]</li>
+    <li>r_name->[political_union_outlanderMasc] [nameCore]</li>
     <li>maybeHyphen(p=3)-></li>
     <li>maybeHyphen->-</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP]</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
-    <li>nameCore->[SylP][maybeHyphen][end]</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][end]</li>
-    <li>end->у</li>
+    <li>nameCore->[SylPCap][maybeHyphen][SylP]</li>
+    <li>nameCore->[SylPCap][maybeHyphen][SylP][maybeHyphen][SylP]</li>
+    <li>nameCore->[SylPCap][maybeHyphen][end]</li>
+    <li>nameCore->[SylPCap][maybeHyphen][SylP][maybeHyphen][end]</li>
+    <li>end->оо</li>
     <li>end->лок</li>
     <li>end->лом</li>
     <li>end->оінк</li>
-    <li>end->ґуґ</li>
+    <li>end->ґуг</li>
     <li>end->унд</li>
-    <li>end->уг</li>
+    <li>end->оог</li>
     <li>end->піг</li>
     <li>end->пог</li>
     <li>end->мок</li>
@@ -114,22 +114,22 @@
     <li>men->trash</li>
   -->
   <NamerFactionPirateWaster.rulePack.rulesStrings>
-    <li>r_name->[poison] [groupname]</li>
-    <li>r_name->[poison]-[men]</li>
-    <li>men->чолов'яги</li>
-    <li>men->бригада</li>
-    <li>men->банда</li>
+    <li>r_name->[poisonMasc] [groupnameMasc]</li>
+    <li>r_name->[poisonFem] [groupnameFem]</li>
+    <li>r_name->[poisonPlu] [men]</li>
+    <li>men->люди</li>
     <li>men->душителі</li>
-    <li>men->стовпи</li>
     <li>men->психи</li>
-    <li>men->токсики</li>
-    <li>men->губителі</li>
-    <li>men->нероби</li>
-    <li>men->сальники</li>
-    <li>men->слизняки</li>
-    <li>men->молюски</li>
-    <li>men->шкідники</li>
+    <li>men->токсери</li>
+    <li>men->гнильці</li>
     <li>men->сміттярі</li>
+    <li>men->слікери</li>
+    <li>men->паразити</li>
+    <li>men->packers</li>
+    <li>men->slickers</li>
+    <li>men->slickers</li>
+    <li>men->pests</li>
+    <li>men->trash</li>
   </NamerFactionPirateWaster.rulePack.rulesStrings>
   
   <!-- EN:
@@ -147,16 +147,16 @@
   -->
   <NamerFactionPirateYttakin.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>r_name->[faction] з [placeNameCore]</li>
-    <li>faction->ватага</li>
+    <li>r_name->[faction] [placeNameCore]</li>
+    <li>faction->рико-клан</li>
     <li>faction->плем'я</li>
     <li>faction->клан</li>
-    <li>faction->община</li>
+    <li>faction->рик</li>
     <li>faction->зграя</li>
     <li>faction->сім'я</li>
-    <li>faction->хутро</li>
-    <li>faction->рід</li>
+    <li>faction->family</li>
+    <li>faction->fur</li>
+    <li>faction->kinroar</li>
   </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
@@ -172,14 +172,14 @@
   -->
   <NamerFactionTribalImpid.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [faction]</li>
-    <li>r_name->[faction] з [placeNameCore]</li>
-    <li>faction->гілка</li>
+    <li>r_name->[faction] [placeNameCore]</li>
+    <li>faction->клада</li>
     <li>faction->ліга</li>
-    <li>faction->шлях</li>
-    <li>faction->човен</li>
-    <li>faction->дім вогню</li>
-    <li>faction->багаття</li>
+    <li>faction->вогняний дім</li>
+    <li>faction->полум'я</li>
+    <li>faction->sprintship</li>
+    <li>faction->flamehome</li>
+    <li>faction->firehome</li>
   </NamerFactionTribalImpid.rulePack.rulesStrings>
   
   <!-- EN:
@@ -189,8 +189,8 @@
   -->
   <NamerFactionTribalNeanderthal.rulePack.rulesStrings>
     <li>r_name(p=2)->[placeNameCore]</li>
-    <li>r_name->[placeNameCore] [political_union_tribal]</li>
-    <li>r_name->[political_union_tribal] з [placeNameCore]</li>
+    <li>r_name->[political_union_tribalMasc] [placeNameCore]</li>
+    <li>r_name->[political_union_tribalFem] [placeNameCore]</li>
   </NamerFactionTribalNeanderthal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -228,31 +228,31 @@
     <li>r_name->[townname_wordgen]</li>
     <li>maybeHyphen(p=3)-></li>
     <li>maybeHyphen->-</li>
-    <li>townname_wordgen->[SylP][maybeHyphen][SylP]</li>
-    <li>townname_wordgen->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
-    <li>townname_wordgen->[SylP][maybeHyphen][townend]</li>
-    <li>townname_wordgen->[SylP][maybeHyphen][SylP][maybeHyphen][townend]</li>
+    <li>townname_wordgen->[SylPCap][maybeHyphen][SylP]</li>
+    <li>townname_wordgen->[SylPCap][maybeHyphen][SylP][maybeHyphen][SylP]</li>
+    <li>townname_wordgen->[SylPCap][maybeHyphen][townend]</li>
+    <li>townname_wordgen->[SylPCap][maybeHyphen][SylP][maybeHyphen][townend]</li>
     <li>townend->біл</li>
-    <li>townend->вілл</li>
-    <li>townend->ваг</li>
+    <li>townend->віл</li>
+    <li>townend->бвуг</li>
     <li>townend->борн</li>
     <li>townend->граб</li>
     <li>townend->бал</li>
-    <li>townend->воп</li>
-    <li>townend->townend->іг</li>
-    <li>townend->кес</li>
+    <li>townend->вопе</li>
+    <li>townend->іг</li>
+    <li>townend->кніс</li>
     <li>townend->мур</li>
     <li>townend->віг</li>
-    <li>townend->ґон</li>
-    <li>townend->оґ</li>
+    <li>townend->гон</li>
+    <li>townend->ог</li>
     <li>townend->вен</li>
     <li>townend->ваг</li>
-    <li>townend->вуґ</li>
-    <li>townend->ворґ</li>
-    <li>townend->руґ</li>
-    <li>townend->роґ</li>
-    <li>townend->велґ</li>
-    <li>townend->ор</li>
+    <li>townend->вуг</li>
+    <li>townend->ворг</li>
+    <li>townend->руг</li>
+    <li>townend->рог</li>
+    <li>townend->велг</li>
+    <li>townend->оп</li>
     <li>townend->піг</li>
   </NamerSettlementOutlanderPig.rulePack.rulesStrings>
   
@@ -285,28 +285,28 @@
   <NamerSettlementPirateWaster.rulePack.rulesStrings>
     <li>r_name->[townNameWordgen]</li>
     <li>r_name->[townNameCombo]</li>
-    <li>townNameWordgen->[SylE][SylE]</li>
-    <li>townNameWordgen->[SylE][SylE][SylE]</li>
-    <li>townNameWordgen->[SylE][townEndToxic]</li>
-    <li>townNameWordgen->[SylE][SylE][townEndToxic]</li>
-    <li>townEndToxic->газ</li>
+    <li>townNameWordgen->[SylECap][SylE]</li>
+    <li>townNameWordgen->[SylECap][SylE][SylE]</li>
+    <li>townNameWordgen->[SylECap][townEndToxic]</li>
+    <li>townNameWordgen->[SylECap][SylE][townEndToxic]</li>
+    <li>townEndToxic->токс</li>
     <li>townEndToxic->вор</li>
     <li>townEndToxic->сон</li>
     <li>townEndToxic->зон</li>
-    <li>townEndToxic->тот</li>
-    <li>townEndToxic->зун</li>
+    <li>townEndToxic->тотх</li>
+    <li>townEndToxic->зоун</li>
     <li>townEndToxic->слік</li>
     <li>townEndToxic->піл</li>
-    <li>townEndToxic->еш</li>
+    <li>townEndToxic->аш</li>
     <li>townEndToxic->вен</li>
-    <li>townNameCombo->[town]-[poison]</li>
-    <li>town->місто</li>
-    <li>town->база</li>
-    <li>town->форт</li>
-    <li>town->порт</li>
-    <li>town->бійня</li>
-    <li>town->м'ясниця</li>
-    <li>town->діжка</li>
+    <li>townNameCombo->[poisonFem] [townFem]</li>
+    <li>townNameCombo->[poisonMasc] [townMasc]</li>
+    <li>townFem->база</li>
+    <li>townMasc->форт</li>
+    <li>townMasc->порт</li>
+    <li>townFem->бійня</li>
+    <li>townFem->цистерна</li>
+    <li>town->tank</li>
   </NamerSettlementPirateWaster.rulePack.rulesStrings>
   
   <!-- EN:
@@ -359,28 +359,28 @@
   <NeanderthalUtility.rulePack.rulesStrings>
     <li>maybeApo(p=8)-></li>
     <li>maybeApo->'</li>
-    <li>placeNameCore->[SylN][maybeApo][SylN]</li>
-    <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][SylN]</li>
-    <li>placeNameCore->[SylN][maybeApo][placeEnd]</li>
-    <li>placeNameCore->[SylN][maybeApo][SylN][maybeApo][placeEnd]</li>
+    <li>placeNameCore->[SylNCap][maybeApo][SylN]</li>
+    <li>placeNameCore->[SylNCap][maybeApo][SylN][maybeApo][SylN]</li>
+    <li>placeNameCore->[SylNCap][maybeApo][placeEnd]</li>
+    <li>placeNameCore->[SylNSylNCapmaybeApo][SylN][maybeApo][placeEnd]</li>
     <li>placeEnd->ілс</li>
     <li>placeEnd->ілт</li>
     <li>placeEnd->іг</li>
-    <li>placeEnd->веґ</li>
-    <li>placeEnd->тен</li>
-    <li>placeEnd->тор</li>
+    <li>placeEnd->фвег</li>
+    <li>placeEnd->тхен</li>
+    <li>placeEnd->тхор</li>
     <li>placeEnd->бог</li>
     <li>placeEnd->тон</li>
     <li>placeEnd->тен</li>
     <li>placeEnd->мур</li>
-    <li>placeEnd->мок</li>
+    <li>placeEnd->моук</li>
     <li>placeEnd->мун</li>
     <li>placeEnd->мурш</li>
-    <li>placeEnd->мен</li>
+    <li>placeEnd->ман</li>
     <li>placeEnd->бел</li>
     <li>placeEnd->сіл</li>
     <li>placeEnd->сонк</li>
-    <li>placeEnd->сод</li>
+    <li>placeEnd->соуд</li>
   </NeanderthalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -405,25 +405,25 @@
     <li>poison->pest</li>
   -->
   <WasterUtility.rulePack.rulesStrings>
-    <li>poison->отрута</li>
-    <li>poison->токсин</li>
-    <li>poison->токс</li>
-    <li>poison->задуха</li>
-    <li>poison->газ</li>
-    <li>poison->пігулка</li>
-    <li>poison->псих</li>
-    <li>poison->вірус</li>
-    <li>poison->отрута</li>
-    <li>poison->рак</li>
-    <li>poison->токсин</li>
-    <li>poison->хвороба</li>
-    <li>poison->міазм</li>
-    <li>poison->бруд</li>
-    <li>poison->сміття</li>
-    <li>poison->забруднення</li>
-    <li>poison->занепад</li>
-    <li>poison->смітник</li>
-    <li>poison->чума</li>
+    <li>poisonMasc->отруйний</li>
+    <li>poisonMasc->токсичний</li>
+    <li>poisonMasc->газовий</li>
+    <li>poisonMasc->психічний</li>
+    <li>poisonMasc->вірусний</li>
+    <li>poisonMasc->раковий</li>
+    <li>poisonMasc->токсоідний</li>
+    <li>poisonMasc->хворобний</li>
+    <li>poisonMasc->міазмовий</li>
+    <li>poisonMasc->брудний</li>
+    <li>poisonMasc->сміттєвий</li>
+    <li>poisonMasc->забруднений</li>
+    <li>poisonMasc->розпадний</li>
+    <li>poisonMasc->паразитний</li>
+    <li>poisonFem->отруйна</li>
+    <li>poisonFem->токсична</li>
+    <li>poisonFem->газова</li>
+    <li>poisonFem->психічна</li>
+    <li>poisonFem->вірусна</li>
   </WasterUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -452,27 +452,27 @@
     <li>placeEnd->yn</li>
   -->
   <YttakinUtility.rulePack.rulesStrings>
-    <li>placeNameCore->[SylY][SylY]</li>
-    <li>placeNameCore->[SylY][SylY][SylY]</li>
-    <li>placeNameCore->[SylY][placeEnd]</li>
-    <li>placeNameCore->[SylY][SylY][placeEnd]</li>
-    <li>placeEnd->еш</li>
-    <li>placeEnd->сіт</li>
-    <li>placeEnd->віт</li>
-    <li>placeEnd->вот</li>
+    <li>placeNameCore->[SylYCap][SylY]</li>
+    <li>placeNameCore->[SylYCap][SylY][SylY]</li>
+    <li>placeNameCore->[SylYCap][placeEnd]</li>
+    <li>placeNameCore->[SylYCap][SylY][placeEnd]</li>
+    <li>placeEnd->іш</li>
+    <li>placeEnd->сітт</li>
+    <li>placeEnd->вітт</li>
+    <li>placeEnd->вотт</li>
     <li>placeEnd->вош</li>
     <li>placeEnd->барг</li>
     <li>placeEnd->берг</li>
     <li>placeEnd->берш</li>
-    <li>placeEnd->баг</li>
-    <li>placeEnd->бут</li>
-    <li>placeEnd->бон</li>
+    <li>placeEnd->буг</li>
+    <li>placeEnd->бітт</li>
+    <li>placeEnd->біон</li>
     <li>placeEnd->ден</li>
     <li>placeEnd->ген</li>
-    <li>placeEnd->ул</li>
+    <li>placeEnd->уюл</li>
     <li>placeEnd->я</li>
-    <li>placeEnd->уш</li>
-    <li>placeEnd->ут</li>
+    <li>placeEnd->іш</li>
+    <li>placeEnd->ітт</li>
     <li>placeEnd->іс</li>
     <li>placeEnd->ін</li>
   </YttakinUtility.rulePack.rulesStrings>

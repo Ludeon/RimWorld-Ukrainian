@@ -20,22 +20,22 @@
     <li>maybe_adjective->[AdjectiveBadass]</li>
   -->
   <NamerTraderGeneral.rulePack.rulesStrings>
-    <li>r_name(p=4)->[businessname] [businesstype]</li>
-    <li>r_name->[NamePerson] [businesstype]</li>
-    <li>r_name->[maybe_adjective] [Animal] [businesstype]</li>
-    <li>r_name->[Letter][Letter] [businesstype]</li>
-    <li>r_name(p=0.5)->[PersonAlly] [businesstype]</li>
-    <li>r_name(p=0.5)->[AdjectiveFriendly] [businesstype]</li>
-    <li>r_name(p=0.5)->[AdjectiveBadass] [businesstype]</li>
-    <li>r_name(p=0.3)->[PersonFamily] [businesstype]</li>
-    <li>r_name(p=0.3)->[maybe_adjective] [NaturalObject] [businesstype]</li>
-    <li>r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]</li>
-    <li>r_name(p=0.2)->[maybe_adjective] [Vegetable] [businesstype]</li>
-    <li>r_name(p=0.2)->[Direction] [businesstype]</li>
-    <li>maybe_adjective-></li>
-    <li>maybe_adjective->[Color]</li>
-    <li>maybe_adjective->[AdjectiveFriendly]</li>
-    <li>maybe_adjective->[AdjectiveBadass]</li>
+    <li>r_name(p=4)->[BusinessType] [BusinessName]</li>
+    <li>r_name->ФОП [NamePerson]</li>
+    <li>r_name(p=0.5)->[BusinessType] [maybe_adjectiveMasc][AnimalMasc]</li>
+    <li>r_name(p=0.5)->[BusinessType] [maybe_adjectiveFem][AnimalFem]</li>
+    <li>r_name(p=0.2)->[BusinessType] [Letter][Letter]</li>
+    <li>r_name(p=0.5)->[BusinessType] [PersonAllyPluGen]</li>
+    <li>r_name(p=0.15)->[AdjectiveFriendlyMasc] [BusinessTypeMasc]</li>
+    <li>r_name(p=0.15)->[AdjectiveBadassMasc] [BusinessTypeMasc]</li>
+    <li>r_name(p=0.15)->[AdjectiveFriendlyFem] [BusinessTypeFem]</li>
+    <li>r_name(p=0.15)->[AdjectiveBadassFem] [BusinessTypeFem]</li>
+    <li>r_name(p=0.15)->[AdjectiveFriendlyPlu] [BusinessTypePlu]</li>
+    <li>r_name(p=0.15)->[AdjectiveBadassPlu] [BusinessTypePlu]</li>
+    <li>r_name(p=0.3)->[BusinessType] [PersonFamilyPluGenCAP]</li>
+    <li>r_name(p=0.15)->[BusinessType] [maybe_adjectiveMasc][TerrainFeatureMascCAP]</li>
+    <li>r_name(p=0.15)->[BusinessType] [maybe_adjectiveFem][TerrainFeatureFemCAP]</li>
+    <li>r_name(p=0.1)->[BusinessType] [maybe_adjectiveMasc][TreeTypeMascCAP]</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
   
 </LanguageData>

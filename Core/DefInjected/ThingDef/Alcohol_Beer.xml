@@ -4,11 +4,11 @@
   <!-- EN: beer -->
   <Beer.label>пиво</Beer.label>
   <!-- EN: The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction. -->
-  <Beer.description>Перший напій, окрім води, який спробувало людство. Пиво має приємний смак, але викликає алкогольне сп'яніння. Надмірне вживання пива може призвести до алкоголізму.</Beer.description>
+  <Beer.description>Перший, окрім води, напій, який спробувало людство. Пиво має приємний смак та викликає алкогольне сп'яніння. Надмірне вживання може призвести до алкоголізму.</Beer.description>
   <!-- EN: Drink {0} -->
-  <Beer.ingestible.ingestCommandString>Випити {0}</Beer.ingestible.ingestCommandString>
+  <Beer.ingestible.ingestCommandString>Випити {lookup: {0}; Case; 3}</Beer.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <Beer.ingestible.ingestReportString>П'є {0}.</Beer.ingestible.ingestReportString>
+  <Beer.ingestible.ingestReportString>П'є {lookup: {0}; Case; 3}.</Beer.ingestible.ingestReportString>
   <!-- EN: bottle -->
   <Beer.tools.bottle.label>пляшка</Beer.tools.bottle.label>
   <!-- EN: neck -->
@@ -17,6 +17,6 @@
   <!-- EN: wort -->
   <Wort.label>сусло</Wort.label>
   <!-- EN: Un-fermented beer. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer. -->
-  <Wort.description>Неферментоване пиво. Сусло потрібно витримати у діжці, перш ніж воно стане придатним до вживання пивом.</Wort.description>
+  <Wort.description>Неферментоване пиво. Інгредієнти вже перемішані, але сусло має витриматись у спеціальній бочці, перш ніж воно стане справжнім пивом.</Wort.description>
   
 </LanguageData>

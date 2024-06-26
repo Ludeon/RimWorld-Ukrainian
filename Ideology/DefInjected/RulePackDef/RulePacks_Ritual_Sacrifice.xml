@@ -16,18 +16,18 @@
     <li>sacrifice->slaughtering</li>
   -->
   <NamerRitualSacrifice.rulePack.rulesStrings>
-    <li>r_ritualName(p=2)->[memeAdjective] [sacrifice]</li>
+    <li>r_ritualName(p=0.5)->[memeAdjective_masc] [sacrifice_masc]</li>
+    <li>r_ritualName(p=0.3)->[memeAdjective_fem] [sacrifice_fem]</li>
+    <li>r_ritualName(p=1.2)->[memeAdjective_neutral] [sacrifice_neutral]</li>
     <li>r_ritualName->[sacrifice] [chosenTheme]</li>
-    <li>r_ritualName->[chosenAdjective] [sacrifice]</li>
-    <li>r_ritualName->[keyDeity] [sacrifice]</li>
+    <li>r_ritualName->[chosenAdjective] [sacrifice_masc]</li>
     <li>r_ritualName->[sacrifice] [keyDeity]</li>
     <li>r_ritualName->[sacrifice] [memeConcept]</li>
-    <li>r_ritualName->[sacrifice] [chosenIdeoName]</li>
-    <li>sacrifice->жертва</li>
-    <li>sacrifice->пожертва</li>
-    <li>sacrifice->убій</li>
-    <li>sacrifice->дар</li>
-    <li>sacrifice->вбивство</li>
+    <li>sacrifice->[sacrifice_neutral]</li>
+    <li>sacrifice->[sacrifice_masc]</li>
+    <li>sacrifice->[sacrifice_fem]</li>
+    <li>sacrifice_fem->жертва</li>
+    <li>sacrifice_fem->пожертва</li>
   </NamerRitualSacrifice.rulePack.rulesStrings>
   
 </LanguageData>

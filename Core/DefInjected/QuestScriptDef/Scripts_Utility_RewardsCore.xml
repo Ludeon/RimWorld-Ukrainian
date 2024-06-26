@@ -7,8 +7,8 @@
     <li>joinerFactionInfo-></li>
   -->
   <Util_JoinerDropIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_age]-річний [joiner_title] на ім'я [joiner_nameDef] прибуде у транспортній капсулі.[joinerFactionInfo][joiner_relationInfo]</li>
-    <li>joinerFactionInfo(priority=1)-> [joiner_pronoun] є членом [joiner_factionName].</li>
+    <li>rewardDescription->[joiner_age]-{joiner_gender ? річний : річна} [joiner_title] на ім'я [joiner_nameDef] прибуде у транспортній капсулі.[joinerFactionInfo][joiner_relationInfo]</li>
+    <li>joinerFactionInfo(priority=1)-> [joiner_pronoun] член фракції [joiner_factionName].</li>
     <li>joinerFactionInfo-></li>
   </Util_JoinerDropIn.questDescriptionRules.rulesStrings>
   
@@ -16,14 +16,14 @@
     <li>rewardDescription->a [joiner_age]-year-old [joiner_title] named [joiner_nameDef] will arrive and join you. [joiner_relationInfo]</li>
   -->
   <Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription-> [joiner_age]-річний [joiner_title] на ім'я [joiner_nameDef] прибуде та приєднаться до вас. [joiner_relationInfo]</li>
+    <li>rewardDescription->[joiner_age]-{joiner_gender ? річний : річна} [joiner_title] на ім'я [joiner_nameDef] прибуде та приєднається до вас. [joiner_relationInfo]</li>
   </Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>rewardDescription->transport pods with the following resources will arrive (total value [itemPodsTotalMarketValue_money]):\n\n[itemPodsContents]</li>
   -->
   <Util_SendItemPods.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->прибудуть транспортній капсули з такими ресурсами (загальна вартість [itemPodsTotalMarketValue_money]):\n\n[itemPodsContents]</li>
+    <li>rewardDescription->прибудуть транспортні капсули з наступними ресурсами (загальна вартість [itemPodsTotalMarketValue_money]):\n\n[itemPodsContents]</li>
   </Util_SendItemPods.questDescriptionRules.rulesStrings>
   
 </LanguageData>

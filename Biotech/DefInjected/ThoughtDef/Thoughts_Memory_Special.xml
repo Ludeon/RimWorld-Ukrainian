@@ -2,29 +2,34 @@
 <LanguageData>
   
   <!-- EN: {0} was born healthy -->
-  <BabyBorn.stages.was_born_healthy.label>{0} народився здоровим</BabyBorn.stages.was_born_healthy.label>
+  <BabyBorn.stages.was_born_healthy.label>{1_labelShort} {1_gender ? народився здоровим : народилася здоровою}</BabyBorn.stages.was_born_healthy.label>
   <!-- EN: My baby brings me so much joy. I would move earth and sky for my little one. -->
-  <BabyBorn.stages.was_born_healthy.description>Дитина приносить мені так багато радості. Я готовий рухати небо і землю заради неї.</BabyBorn.stages.was_born_healthy.description>
+  <BabyBorn.stages.was_born_healthy.description>Дитина приносить мені так багато радості! Я {PAWN_gender ? готовий : готова} рухати небо і землю заради неї.</BabyBorn.stages.was_born_healthy.description>
   
   <!-- EN: fed on by {0} -->
-  <FedOn.stages.fed_on_by.label>годувався {0}</FedOn.stages.fed_on_by.label>
+  <FedOn.stages.fed_on_by.label>{0} {1_gender ? смоктав : смоктала} мою кров</FedOn.stages.fed_on_by.label>
   <!-- EN: I was violated by a bloodfeeder like some kind of livestock. -->
-  <FedOn.stages.fed_on_by.description>Мене висмоктав кровипився, я наче якась худоба.</FedOn.stages.fed_on_by.description>
+  <FedOn.stages.fed_on_by.description>Кровопивця висмоктав мою кров, я наче якась худоба.</FedOn.stages.fed_on_by.description>
   
   <!-- EN: ingested hemogen pack -->
-  <IngestedHemogenPack.stages.ingested_hemogen_pack.label>випив пакет гемогену</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
+  <IngestedHemogenPack.stages.ingested_hemogen_pack.label>{PAWN_gender ? Випив : Випила} гемоген</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
   <!-- EN: I ingested a hemogen pack. It might keep me alive, but it was absolutely disgusting. -->
-  <IngestedHemogenPack.stages.ingested_hemogen_pack.description>Я випив пакет гемогену. Це допомогло залишитись мені живим, але все одно абсолютно огидно.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
+  <IngestedHemogenPack.stages.ingested_hemogen_pack.description>Я {PAWN_gender ? випив : випила} гемоген. Це допомогло мені залишитися {PAWN_gender ? живим : живою}, але все одно - це абсолютно огидно.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
   
   <!-- EN: miscarried -->
   <Miscarried.stages.miscarried.label>викидень</Miscarried.stages.miscarried.label>
   <!-- EN: I lost my child. -->
-  <Miscarried.stages.miscarried.description>Я втратив свою дитину.</Miscarried.stages.miscarried.description>
+  <Miscarried.stages.miscarried.description>Я втратила свою дитину.</Miscarried.stages.miscarried.description>
+  
+  <!-- EN: {0} miscarried -->
+  <PartnerMiscarried.stages.miscarried.label>{0} miscarried</PartnerMiscarried.stages.miscarried.label>
+  <!-- EN: My child's story ended before it started. -->
+  <PartnerMiscarried.stages.miscarried.description>My child's story ended before it started.</PartnerMiscarried.stages.miscarried.description>
   
   <!-- EN: pregnancy ended -->
   <PregnancyEnded.stages.pregnancy_ended.label>вагітність закінчилася</PregnancyEnded.stages.pregnancy_ended.label>
   <!-- EN: I'm relieved I'm not pregnant any more. -->
-  <PregnancyEnded.stages.pregnancy_ended.description>Я відчула полегшення, що більше не вагітна.</PregnancyEnded.stages.pregnancy_ended.description>
+  <PregnancyEnded.stages.pregnancy_ended.description>Мені легше, що більше не вагітна.</PregnancyEnded.stages.pregnancy_ended.description>
   
   <!-- EN: pregnancy terminated -->
   <PregnancyTerminated.stages.pregnancy_terminated-0.label>вагітність перервана</PregnancyTerminated.stages.pregnancy_terminated-0.label>
@@ -40,9 +45,9 @@
   <PregnancyTerminated.stages.pregnancy_terminated-2.description>Моя вагітність була перервана.</PregnancyTerminated.stages.pregnancy_terminated-2.description>
   
   <!-- EN: psychic bond torn ({0}) -->
-  <PsychicBondTorn.stages.psychic_bond_torn.label>психічний зв'язок з({0}) розірваний</PsychicBondTorn.stages.psychic_bond_torn.label>
+  <PsychicBondTorn.stages.psychic_bond_torn.label>розірвано психічний зв'язок з {0}</PsychicBondTorn.stages.psychic_bond_torn.label>
   <!-- EN: My psychic bond with {OTHERPAWN} was torn apart. I feel like part of my mind and emotions are missing. -->
-  <PsychicBondTorn.stages.psychic_bond_torn.description>Мій психічний зв'язок з {OTHERPAWN} був розірваний. Я відчуваю, що частина мого розуму й емоцій загублена.</PsychicBondTorn.stages.psychic_bond_torn.description>
+  <PsychicBondTorn.stages.psychic_bond_torn.description>Мій психічний зв'язок з {OTHERPAWN} був розірваний. Я відчуваю, що частина мого розуму й емоцій втрачена.</PsychicBondTorn.stages.psychic_bond_torn.description>
   
   <!-- EN: stillbirth -->
   <Stillbirth.stages.stillbirth.label>мертвонародження</Stillbirth.stages.stillbirth.label>
@@ -50,7 +55,7 @@
   <Stillbirth.stages.stillbirth.description>Моя дитина померла під час пологів.</Stillbirth.stages.stillbirth.description>
   
   <!-- EN: genes harvested -->
-  <XenogermHarvested_Prisoner.stages.genes_harvested.label>гени зібрано</XenogermHarvested_Prisoner.stages.genes_harvested.label>
+  <XenogermHarvested_Prisoner.stages.genes_harvested.label>вилучено гени</XenogermHarvested_Prisoner.stages.genes_harvested.label>
   <!-- EN: They extracted my genes like I'm some sort of lab creature. -->
   <XenogermHarvested_Prisoner.stages.genes_harvested.description>Вони витягли мої гени, наче я якась лабораторна істота.</XenogermHarvested_Prisoner.stages.genes_harvested.description>
   

@@ -18,20 +18,20 @@
     <li>festival->fiesta</li>
   -->
   <NamerFestivalGlobal.rulePack.rulesStrings>
-    <li>festivalName(p=2)->[memeAdjective] [festival]</li>
+    <li>festivalName(p=1)->[memeAdjective_masc] [festival_masc]</li>
+    <li>festivalName(p=1)->[memeAdjective_fem] [festival_fem]</li>
+    <li>festivalName(p=1)->[memeAdjective_neutral] [festival_neutral]</li>
+    <li>festivalName->[chosenAdjective] [festival_masc]</li>
     <li>festivalName->[festival] [chosenTheme]</li>
-    <li>festivalName->[chosenAdjective] [festival]</li>
-    <li>festivalName->[keyDeity] [festival]</li>
     <li>festivalName->[festival] [keyDeity]</li>
     <li>festivalName->[festival] [memeConcept]</li>
-    <li>festivalName->[festival] [chosenIdeoName]</li>
-    <li>festival->фестиваль</li>
-    <li>festival->свято</li>
-    <li>festival->вечірка</li>
-    <li>festival->фієста</li>
-    <li>festival->ярмарок</li>
-    <li>festival->ювілей</li>
-    <li>festival->святвечір</li>
+    <li>festival->[festival_masc]</li>
+    <li>festival->[festival_fem]</li>
+    <li>festival->[festival_neutral]</li>
+    <li>festival_masc->фестиваль</li>
+    <li>festival_neutral->свято</li>
+    <li>festival_fem->вечірка</li>
+    <li>festival_fem->фієста</li>
   </NamerFestivalGlobal.rulePack.rulesStrings>
   
   <!-- EN:

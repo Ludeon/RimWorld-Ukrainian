@@ -5,7 +5,7 @@
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>Задовільняє титул</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>({0} враження)</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>(враження: {0})</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>Трон має знаходитись у приміщенні.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
@@ -17,26 +17,26 @@
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
-  <PsycastNeurotrainerLabel>пситренер ({0})</PsycastNeurotrainerLabel>
+  <PsycastNeurotrainerLabel>пси-тренажер ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Використайте пситренер для вивчення психокасту {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Використати пси-тренажер для вивчення "{lookup: {0}; Case; 3}"</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
-  <PsycastNeurotrainerDescription>Одноразова велика доза механітів, які тренують певну психічну здібність.\n\nДоза вводиться через очну ямку. Після проникнення у мозок механіти формують знання певної здібності, перетворюючи себе на нейронні зв'язки за потреби.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Одноразова велика доза механітів, які тренують певну пси-здібність.\n\nДоза вводиться через очницю. Після проникнення у мозок, механіти формують знання певної здібності, перетворюючись на нейронні зв'язки.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} {0_gender ? використав : використала} нейротренера для вивчення здібності {1}.</AbilityNeurotrainerUsed>
-  <!-- EN: Requires psylink -->
+  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? використав : використала} пси-тренажер для вивчення "{lookup: {1}; Case; 3}".</AbilityNeurotrainerUsed>
+  <!-- EN: requires psylink -->
   <PsycastNeurotrainerNoPsylink>Необхідний пси-зв'язок</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
-  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} вже знає {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} вже знає "{lookup: {1}; Case; 3}".</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor>будь-хто, хто прийме квест отримає {1} {0_royalFavorLabel} від {0_name}</Reward_RoyalFavor>
+  <Reward_RoyalFavor>той, хто прийме завдання отримає {1} од. {lookup: {0_royalFavorLabel}; Case; 1} від фракції {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>ви маєте вибрати одного з учасників {2} аби отримати {1} {0_royalFavorLabel} від {0_name}</Reward_RoyalFavor_ChoosePawn>
+  <Reward_RoyalFavor_ChoosePawn>ви маєте вибрати одного з учасників завдання аби отримати {1} од. {lookup: {0_royalFavorLabel}; Case; 1} від фракції {0_name}</Reward_RoyalFavor_ChoosePawn>
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
-  <NotUsable>Недоступне</NotUsable>
+  <NotUsable>Неможливо використати</NotUsable>
   <!-- EN: unpowered -->
   <Unpowered>немає живлення</Unpowered>
   <!-- EN: blocked by roof -->
@@ -46,131 +46,127 @@
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
-  <Psyfocus>Псифокус</Psyfocus>
+  <Psyfocus>Пси-фокус</Psyfocus>
   <!-- EN: Psyfocus -->
-  <PsyfocusLabelGizmo>Псифокус</PsyfocusLabelGizmo>
+  <PsyfocusLabelGizmo>Пси-фокус</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Психофокус - це особливий тип структурування психіки, необхідний для використання психічних сил. Псифокус з часом розсіюється, і його потрібно відновлювати регулярними медитаціями. Втрата усіх психічних здібностей робить нездатним використовувати психічні здібності, але не має інших наслідків.\n\nВищі рівні психічного фокусу дозволяють здібності більшого рівня, але також збільшують швидкість розсіювання психофокусу</PsyfocusDesc>
+  <PsyfocusDesc>Пси-фокус - це особливий тип психічного структурування, що необхідний для використання пси-здібностей. Пси-фокус з часом розсіюється, його потрібно підтримувати регулярними медитаціями. За відсутності пси-фокуса, користуватися пси-здібностями неможливо.\n\nЧим більше пси-фокусу - тим могутніші пси-здібності можна використовувати, але також й збільшується швидкість його розсіювання</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>Здібності до рівня {0}.</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>Для пси-здібностей {0} рівня.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
-  <PsyfocusLevelInfoFallRate>Психофокус щодня спадає на {0}.</PsyfocusLevelInfoFallRate>
+  <PsyfocusLevelInfoFallRate>Пси-фокус щодня буде розсіюватися на {0}.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>Сила концентрації медитації для {LASTUSER_labelShort}</UserMeditationFocusStrength>
+  <UserMeditationFocusStrength>Сила концентрації {LASTUSER_labelShort} під час медитації</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
-  <MeditationFocusImpacted>На ефект фокусування впливає</MeditationFocusImpacted>
+  <MeditationFocusImpacted>На концентрацію впливають</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1} за кожний аніма-камінь поблизу (максимум {0})</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1} за кожний аніма-камінь поблизу (максимум аніма-каменів - {0})</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
   <MeditationFocusPerAnimusStone>{2} за кожний аніма-камінь поблизу ({0} / {1})</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>За найближчий аніма-камінь {2}, природний храм {1} (макс. {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>За кожний аніма-камінь поблизу - {2}, за природний храм - {1} (максимум об'єктів - {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>За найближчий аніма-камінь {3}, природний храм {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>За кожний аніма-камінь поблизу - {3}, за природний храм - {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>Макс. {1} на скульптуру поблизу залежно від якості (макс. {0})</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculptureAbstract>Максимум {1} за кожну скульптуру поблизу, в залежності від її якості (максимум скульптур - {0})</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>Макс. {2} на скульптуру поблизу залежно від якості ({0} / {1})</MeditationFocusPerSculpture>
+  <MeditationFocusPerSculpture>Максимум {2} за кожну скульптуру поблизу, в залежності від її якості ({0} / {1})</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
-  <MeditationFocusPerGraveAbstract>На могилу поблизу {1}, якщо порожня, {2} для людського трупа (до {0})</MeditationFocusPerGraveAbstract>
+  <MeditationFocusPerGraveAbstract>За кожну порожню могилу поблизу - {1}, за могилу, яка містить тіло людини - {2} (максимум могил - {0})</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
-  <MeditationFocusPerGrave>На могилу поблизу {2}, якщо порожня, {3} для людського трупа ({0} / {1})</MeditationFocusPerGrave>
+  <MeditationFocusPerGrave>За кожну порожню могилу поблизу - {2}, за могилу, яка містить тіло людини - {3} ({0} / {1})</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>{1} на найближче запалене джерело полум’я (до {0})</MeditationFocusPerFlameAbstract>
+  <MeditationFocusPerFlameAbstract>{1} за кожне джерело полум’я поблизу (максимум джерел - {0})</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
-  <MeditationFocusPerFlame>{2} на найближче запалене джерело полум’я ({0} / {1})</MeditationFocusPerFlame>
+  <MeditationFocusPerFlame>{2} за кожне джерело полум’я поблизу ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>Швидкість отримання психофокусу: {0} на день</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>Швидкість отримання пси-фокусу: {0} на день</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
-  <DesiredPsyfocus>Бажаний психофокус</DesiredPsyfocus>
+  <DesiredPsyfocus>Бажаний пси-фокус</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
-  <DesiredPsyfocusDesc>Натисніть для встановлення бажаного рівня психофокусу.</DesiredPsyfocusDesc>
+  <DesiredPsyfocusDesc>Натисніть для встановлення бажаного рівня пси-фокусу.</DesiredPsyfocusDesc>
 
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>трон не призначено.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
-  <AbilitySpeechDisabledNoThroneIsNotAccessible>трон недоступний.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>трон поза досяжністю.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
-  <AbilitySpeechDisabledNoThroneUndignified>трон непридатний для використання, оскільки він негідний.</AbilitySpeechDisabledNoThroneUndignified>
+  <AbilitySpeechDisabledNoThroneUndignified>трон непридатний для використання, оскільки він не відповідає титулу.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
-  <AbilitySpeechDisabledAlreadyGivingSpeech>вже виголошує промову.</AbilitySpeechDisabledAlreadyGivingSpeech>
-  <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>тривають інші заходи.</AbilitySpeechDisabledAnotherGatheringInProgress>
-  <!-- EN: Next speech ready in -->
-  <AbilitySpeechCooldown>Наступна промова доступна через</AbilitySpeechCooldown>
+  <AbilitySpeechDisabledAlreadyGivingSpeech>промова вже оголошена.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: Outcome chances -->
-  <AbilitySpeechPossibleOutcomes>Шанси на результат</AbilitySpeechPossibleOutcomes>
+  <AbilitySpeechPossibleOutcomes>Можливі результати</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
-  <AbilitySpeechStatInfo>Статистика {1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
-  <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>Започатковано о</AbilitySpeechTargetsLabel>
+  <AbilitySpeechStatInfo>{1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>Гідний трон</AbilitySpeechTargetDescThrone>
+  <AbilitySpeechTargetDescThrone>Гідному троні</AbilitySpeechTargetDescThrone>
   
   <!-- EN: no accessible altar. -->
   <RitualDisabledNoAltar>немає доступного вівтаря.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
-  <RitualBestowingCeremony>Церемонія вручення</RitualBestowingCeremony>
+  <RitualBestowingCeremony>Церемонія вручення титулу</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Загальна кількість медитацій сьогодні: {0} (множник прогресу {1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
   <ProgressToNextSubplant>прогрес {0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
-  <BeginLinkingRitualFloatMenu>Почати ритуал створення зв'язку</BeginLinkingRitualFloatMenu>
+  <BeginLinkingRitualFloatMenu>Почати ритуал зв'язування</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Необхідно {0} {1} тут (є {2})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Необхідно {0} од. {lookup: {1}; Case; 1} (є {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>Потрібен тип фокусу пси-зв'язку {0}</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>Потрібен тип медитації: {0}</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
-  <BeginLinkingRitualMaxPsylinkLevel>Максимальний рівень психозв'язку</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualMaxPsylinkLevel>Максимальний рівень пси-зв'язку</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
-  <BeginLinkingRitualNeedLinkSpot>Для утворення зв'язку необіхне досяжне доступне місце в межах 3 клітинок</BeginLinkingRitualNeedLinkSpot>
+  <BeginLinkingRitualNeedLinkSpot>Для проведення ритуалу зв'язування необхідне досяжне для колоністів місце в радіусі 3 клітинок</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
-  <LetterLabelLinkingRitualCompleted>Ритуал з'єднання завершено</LetterLabelLinkingRitualCompleted>
+  <LetterLabelLinkingRitualCompleted>Ритуал зв'язування завершено</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} завершив ритуал зв’язування з {LINKABLE_labelShort}.\n\n{PAWN_pronoun} тепер має оновлене пси-зв'язок, що дозволяє використовувати нові психічні сили.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? завершив : завершила} ритуал зв'язування з {LINKABLE_labelShort}.\n\n{PAWN_pronoun} {PAWN_gender ? покращив : покращила} свій пси-зв'язок, що дозволяє {PAWN_objective} використовувати нові пси-здібності.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>Крім того, було відновлено {0} аніма-трави.</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>Крім того, було відновлено {0} од. аніма-трави.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
-  <LandHere>Наземний шаттл тут</LandHere>
+  <LandHere>Посадити шатл тут</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>Місце призначення поза досяжністю.</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
-  <BeginCeremony>Почати церемонію вручення для {0_labelShort}</BeginCeremony>
+  <BeginCeremony>Почати церемонію вручення титулу для {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Тронна зала {PAWN_definite} не відповідає вимогам титулу {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Тронна зала {PAWN_definite} не відповідає вимогам титулу {lookup: {TITLE}; Case; 1}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Вручителя ображає, що тронна зала {PAWN_definite} не відповідає вимогам титулу {TITLE}. Церемонію вручення скасовано.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Представника імперії ображає те, що тронна зала {PAWN_definite} не відповідає вимогам титулу {lookup: {TITLE}; Case; 1}. Церемонію вручення титулу скасовано.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
-  <BestowingCeremonyLabel>церемонія вручення</BestowingCeremonyLabel>
+  <BestowingCeremonyLabel>церемонія вручення титулу</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
-  <BestowingOutcomeQualitySpecific>Загальна якість церемонії вручення склала {0}, що визначається цими факторами</BestowingOutcomeQualitySpecific>
+  <BestowingOutcomeQualitySpecific>Загальна якість церемонії вручення титулу склала {0}. На якість вплинули наступні фактори</BestowingOutcomeQualitySpecific>
   
   <!-- EN: No colonists that can link with anima tree right now. -->
   <RitualTargetAnimaTreeNoPawnsToLink>Зараз немає колоністів, які можуть зв’язатися з аніма-деревом.</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
-  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Немає колоністів із природним типом фокусування на медитації.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Немає колоністів із природним типом медитації.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
-  <RitualTargetAnimaTreeNotEnoughAnimaGrass>Потрібно принаймні {0} аніма-трави.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>Потрібно принаймні {0} од. аніма-трави.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
   <!-- EN: an anima tree -->
-  <RitualTargetAnimaTreeInfo>дерево душі</RitualTargetAnimaTreeInfo>
+  <RitualTargetAnimaTreeInfo>аніма-дерево</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
-  <RitualTargetAnimaTreeMustBeCapableOfNature>Має бути колоніст із природним типом фокусування на медитації, який нижчий за максимальний рівень пси-зв'язку.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>Потрібен колоніст із природним типом медитації та який має не максимальний рівень пси-зв'язку.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
-  <RitualTargetAnimaTreeMustBePsychicallySensitive>Не повинен бути психічно глухим.</RitualTargetAnimaTreeMustBePsychicallySensitive>
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>Потрібен колоніст без психічної глухоти.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>Церемонія з’єднання аніми є сильнішою з більшою кількістю учасників. Що більше людей візьме участь, то менше часу займає церемонія, і тим більше аніма-трави виросте.\n\nЯкщо буде ще {0} учасників, {1} аніма-трава буде відновлено наприкінці церемонії.</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>Ритуал зв'язування ефективніший з більшою кількістю учасників. Що більше людей візьме участь, то менше часу займає ритуал і тим більше аніма-трави виросте.\n\nЯкщо буде ще {0} учасн., то під кінець ритуалу відновиться {1} од. аніма-трави.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
-  <ShuttleRequiredItemsNotSatisfied>Завантажено не весь необхідний вантаж!</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>Не вистачає необхідного вантажу!</ShuttleRequiredItemsNotSatisfied>
+  <!-- EN: Cannot load {0_labelShort} -->
+  <CannotLoadIntoShuttle>Cannot load {0_labelShort}</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>немає напруги для скидання.</AbilityNoEntropyToDump>
+  <AbilityNoEntropyToDump>немає нейро-напруги для скидання.</AbilityNoEntropyToDump>
 
   <!-- EN: level {0} -->
   <LevelNum>рівень {0}</LevelNum> <!-- Psylink level as reported in health tab-->

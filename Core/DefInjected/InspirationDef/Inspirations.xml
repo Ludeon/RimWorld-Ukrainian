@@ -6,9 +6,9 @@
   <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>Натхнення: енергійність</Frenzy_Go.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will move faster for the next 8 days. -->
-  <Frenzy_Go.beginLetter>[PAWN_pronoun] буде рухатись швидше протягом наступних 8 днів.</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetter>{PAWN_pronoun} буде рухатись швидше протягом наступних 8 днів.</Frenzy_Go.beginLetter>
   <!-- EN: {0} is no longer inspired (go frenzy). -->
-  <Frenzy_Go.endMessage>{0} більше не відчуває натхнення (енергійність).</Frenzy_Go.endMessage>
+  <Frenzy_Go.endMessage>{PAWN_nameIndef} втрачає натхнення (енергійність).</Frenzy_Go.endMessage>
   
   <!-- EN: shoot frenzy -->
   <Frenzy_Shoot.label>соколине око</Frenzy_Shoot.label>
@@ -17,7 +17,7 @@
   <!-- EN: [PAWN_pronoun] will shoot more accurately for the next 8 days. -->
   <Frenzy_Shoot.beginLetter>[PAWN_pronoun] буде стріляти точніше протягом наступних 8 днів.</Frenzy_Shoot.beginLetter>
   <!-- EN: {0} is no longer inspired (shoot frenzy). -->
-  <Frenzy_Shoot.endMessage>{0} більше не відчуває натхнення (соколине око).</Frenzy_Shoot.endMessage>
+  <Frenzy_Shoot.endMessage>{PAWN_nameIndef} втрачає натхнення (соколине око).</Frenzy_Shoot.endMessage>
   
   <!-- EN: work frenzy -->
   <Frenzy_Work.label>завзята праця</Frenzy_Work.label>
@@ -26,51 +26,51 @@
   <!-- EN: [PAWN_pronoun] will work faster for the next 8 days. -->
   <Frenzy_Work.beginLetter>[PAWN_pronoun] буде працювати швидше протягом наступних 8 днів.</Frenzy_Work.beginLetter>
   <!-- EN: {0} is no longer inspired (work frenzy). -->
-  <Frenzy_Work.endMessage>{0} більше не відчуває натхнення (завзята праця).</Frenzy_Work.endMessage>
+  <Frenzy_Work.endMessage>{PAWN_nameIndef} втрачає натхнення (завзята праця).</Frenzy_Work.endMessage>
   
   <!-- EN: inspired creativity -->
-  <Inspired_Creativity.label>творчість</Inspired_Creativity.label>
+  <Inspired_Creativity.label>творчий підйом</Inspired_Creativity.label>
   <!-- EN: Inspired: Inspired creativity -->
-  <Inspired_Creativity.baseInspectLine>Натхнення: творчість</Inspired_Creativity.baseInspectLine>
+  <Inspired_Creativity.baseInspectLine>Натхнення: творчий підйом</Inspired_Creativity.baseInspectLine>
   <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
-  <Inspired_Creativity.beginLetter>Наступний елемент - з мистецтва чи меблів, який створить [PAWN_pronoun], буде на два рівні вище, ніж це було б інакше. Це навіть дозволяє створювати легендарні предмети.\n\nНатхнення закінчиться через 8 днів, або буде закінчено предмет.</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetter>Рівень якості, з яким {PAWN_pronoun} завершить будь-який виріб, предмет мистецтва або меблі, зросте на два. Творчий підйом полегшує створення предметів з легендарною якістю.\n\nНатхнення закінчиться через 8 днів або з першою завершеною роботою.</Inspired_Creativity.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired creativity). -->
-  <Inspired_Creativity.endMessage>{0} більше не відчуває натхнення (творчість).</Inspired_Creativity.endMessage>
+  <Inspired_Creativity.endMessage>{PAWN_nameIndef} втрачає натхнення (творчий підйом).</Inspired_Creativity.endMessage>
   
   <!-- EN: inspired recruitment -->
-  <Inspired_Recruitment.label>вербування</Inspired_Recruitment.label>
+  <Inspired_Recruitment.label>красномовність</Inspired_Recruitment.label>
   <!-- EN: Inspired: Inspired recruitment -->
-  <Inspired_Recruitment.baseInspectLine>Натхнення: вербування</Inspired_Recruitment.baseInspectLine>
-  <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
-  <Inspired_Recruitment.beginLetter>[PAWN_pronoun] успішно завербує наступного в'язна, незалежно від складності чи спротиву. \n\nНатхнення закінчиться через 8 днів, або коли ув'язнений буде завербований.</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.baseInspectLine>Натхнення: красномовність</Inspired_Recruitment.baseInspectLine>
+  <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance, as long as they are not unwaveringly loyal.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
+  <Inspired_Recruitment.beginLetter>[PAWN_pronoun] успішно завербує будь-якого в'язня, незалежно від психічного спротиву.\n\nНатхнення закінчиться через 8 днів, або коли ув'язнений буде завербований.</Inspired_Recruitment.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired recruitment). -->
-  <Inspired_Recruitment.endMessage>{0} більше не відчуває натхнення (вербування).</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.endMessage>{PAWN_nameIndef} втрачає натхнення (красномовність).</Inspired_Recruitment.endMessage>
   
   <!-- EN: inspired surgery -->
   <Inspired_Surgery.label>хірургія</Inspired_Surgery.label>
   <!-- EN: Inspired: Inspired surgery -->
   <Inspired_Surgery.baseInspectLine>Натхненний: хірургія</Inspired_Surgery.baseInspectLine>
   <!-- EN: The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
-  <Inspired_Surgery.beginLetter>Наступного разу коли [PAWN_pronoun] буде виконувати операцію, [PAWN_possessive] шанс на успіх буде подвоєний. Маленька вірогідність провалу все ж таки присутня.\n\nНатхнення закінчиться через 8 днів, або коли буде виконана операція.</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetter>Наступного разу коли [PAWN_pronoun] буде виконувати операцію шанс на успіх буде подвоєний. Проте невелика ймовірність помилки все одно залишається.\n\nНатхнення закінчиться через 8 днів, або після виконання операції.</Inspired_Surgery.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired surgery). -->
-  <Inspired_Surgery.endMessage>{0} більше не відчуває натхнення (хірургія).</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.endMessage>{PAWN_nameIndef} втрачає натхнення (хірургія).</Inspired_Surgery.endMessage>
   
   <!-- EN: inspired taming -->
-  <Inspired_Taming.label>приручення</Inspired_Taming.label>
+  <Inspired_Taming.label>спільна мова з тваринами</Inspired_Taming.label>
   <!-- EN: Inspired: Inspired taming -->
-  <Inspired_Taming.baseInspectLine>Натхнення: приручення</Inspired_Taming.baseInspectLine>
+  <Inspired_Taming.baseInspectLine>Натхнення: спільна мова з тваринами</Inspired_Taming.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed. -->
   <Inspired_Taming.beginLetter>[PAWN_pronoun] успішно приручить наступну тварину, незалежно від складності.\n\nНатхнення закінчиться через 8 днів, або коли тварина буде приручена.</Inspired_Taming.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired taming). -->
-  <Inspired_Taming.endMessage>{0} більше не відчуває натхнення (приручення).</Inspired_Taming.endMessage>
+  <Inspired_Taming.endMessage>{PAWN_nameIndef} втрачає натхнення (спільна мова з тваринами).</Inspired_Taming.endMessage>
   
   <!-- EN: inspired trade -->
   <Inspired_Trade.label>торгівля</Inspired_Trade.label>
   <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>Натхнення: торгівля</Inspired_Trade.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
-  <Inspired_Trade.beginLetter>[PAWN_pronoun] отримає значні бонуси при наступній торгівельній угоді з {PAWN_gender?ним:нею}.\n\nНатхнення згасне через 8 днів, або коли буде укладено угоду.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetter>[PAWN_pronoun] отримає значні бонуси при наступній торговельній угоді.\n\nНатхнення закінчиться через 8 днів, або коли буде укладено угоду.</Inspired_Trade.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired trade). -->
-  <Inspired_Trade.endMessage>{0} більше не відчуває натхнення (торгівля).</Inspired_Trade.endMessage>
+  <Inspired_Trade.endMessage>{PAWN_nameIndef} втрачає натхнення (торгівля).</Inspired_Trade.endMessage>
   
 </LanguageData>

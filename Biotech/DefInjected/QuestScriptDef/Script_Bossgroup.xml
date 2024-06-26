@@ -10,24 +10,24 @@
     <li>study->\n\nYou can study the [reward_label] by selecting a mechanitor and right-clicking the chip. Studying a [reward_label] helps unlock higher tiers of mechtech research.</li>
   -->
   <Bossgroup.questContentRules.rulesStrings>
-    <li>bossDefeatedLetterLabel->[escortees0_label] переможено: [reward_label]</li>
+    <li>bossDefeatedLetterLabel->{lookup: [escortees0_label]; Case; 3} переможено: [reward_label]</li>
     <li>bossDefeatedStudyChipLetterText->[defeated][study][manufacture]</li>
     <li>bossDefeatedLetterText->[defeated][manufacture]</li>
-    <li>defeated->Ворожий [escortees0_label] був переможений і скинув [reward_label]!</li>
-    <li>manufacture->\n\nЧіп також можна використовувати для створення вдосконалених механоїдів.</li>
-    <li>study->\n\nВи можете вивчити [reward_label], вибравши механітора і клацнувши фішку правою кнопкою миші. Вивчення [reward_label] допомагає розблокувати вищі рівні науково-технічних досліджень.</li>
+    <li>defeated->Надважкого механоїда, {lookup: [escortees0_label]; Case; 3}, переможено! Як винагороду, ви отримуєте {lookup: [reward_label]; Case; 3}.</li>
+    <li>manufacture->\n\nЦей чип можна використати для створення більш технологічних механоїдів.</li>
+    <li>study->\n\nВи можете дослідити {lookup: [reward_label]; Case; 3} вибравши механізатора та натиснувши ПКМ по чипу. Дослідження {lookup: [reward_label]; Case; 1} допоможе розблокувати більш складні технології механоїдів.</li>
   </Bossgroup.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->bossgroup</li>
   -->
   <Bossgroup.questDescriptionRules.rulesStrings>
-    <li>questDescription->бос групи</li>
+    <li>questDescription->Древній механоїд</li>
   </Bossgroup.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->bossgroup</li>
   -->
   <Bossgroup.questNameRules.rulesStrings>
-    <li>questName->бос групи</li>
+    <li>questName->Древній механоїд</li>
   </Bossgroup.questNameRules.rulesStrings>
   
 </LanguageData>

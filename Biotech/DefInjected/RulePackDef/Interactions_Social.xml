@@ -9,11 +9,11 @@
     <li>situation(p=0.2)->while drunk</li>
   -->
   <LessonInteractionCommonSituations.rulePack.rulesStrings>
-    <li>situation(p=2)->безпечно</li>
     <li>situation->вночі</li>
     <li>situation->на холоді</li>
     <li>situation->під час поранення</li>
-    <li>situation(p=0.2)->напідпитку</li>
+    <li>situation(p=0.2)->під час сп'яніння</li>
+    <li>situation(p=0.2)->while drunk</li>
   </LessonInteractionCommonSituations.rulePack.rulesStrings>
   
   <!-- EN:
@@ -21,8 +21,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] як [action] [article_tool] для [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] як [action] [article_tool] для [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], як [action] [article_toolAbl].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], як [action] [article_toolAbl].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
@@ -33,11 +33,11 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] на [action_gerund] [article_tool] [situation].</li>
-    <li>teach_test->розпитує</li>
-    <li>teach_test->тестує</li>
-    <li>teach_test->перевіряє</li>
-    <li>teach_test->екзаменує</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] про [action_gerund] [article_toolGen][Maybesituation]</li>
+    <li>Maybesituation-> [situation].</li>
+    <li>Maybesituation(p=3)->.</li>
+    <li>teach_test->питає</li>
+    <li>teach_test->перевіряє знання</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
@@ -51,10 +51,10 @@
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] з [RECIPIENT_nameDef].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] з [RECIPIENT_nameDef].</li>
-    <li>study_verb->вивчає</li>
-    <li>study_verb->перечитує</li>
+    <li>study_verb->розмовляє про</li>
+    <li>study_verb->перебирає</li>
     <li>study_verb->досліджує</li>
-    <li>study_verb->обдумує</li>
+    <li>study_verb->вивчає</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
@@ -71,7 +71,7 @@
     <li>teach_adverb->уважно</li>
     <li>teach_adverb->швидко</li>
     <li>teach_adverb->безтурботно</li>
-    <li>teach_adverb->обережно</li>
+    <li>teach_adverb->ретельно</li>
   </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -96,12 +96,12 @@
     <li>talk_verb->lectured about</li>
   -->
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] для [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] для [RECIPIENT_nameDef].</li>
-    <li>talk_verb->розповідає про</li>
-    <li>talk_verb->дає огляд про</li>
-    <li>talk_verb->дає короткий зміст про</li>
-    <li>talk_verb->читає лекцію про</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] до [RECIPIENT_nameDef] про [subject].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] до [RECIPIENT_nameDef] про [subject].</li>
+    <li>talk_verb->говорить</li>
+    <li>talk_verb->дає огляд</li>
+    <li>talk_verb->дає короткий зміст</li>
+    <li>talk_verb->читає лекцію</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

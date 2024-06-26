@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Knowledge gain from study -->
+  <KnowledgeFromStudy>Отримані знання</KnowledgeFromStudy>
+  <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
+  <KnowledgeFromStudyDesc>Тип та обсяг знань про аномалії, які можна отримати при дослідженні цієї істоти. Небезпечніші істоти можуть відкрити просунуті проєкти дослідження аномалій.</KnowledgeFromStudyDesc>
+  <!-- EN: {0} {1} -->
+  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
+  <!-- EN: Study interval -->
+  <StudyFrequency>Інтервал досліджень</StudyFrequency>
+  <!-- EN: The duration between available study periods for this entity. -->
+  <StudyFrequencyDesc>Тривалість між доступними періодами дослідження для цієї істоти.</StudyFrequencyDesc>
+  
+  <!-- EN: Healing -->
+  <Stat_Hediff_Regeneration_Name>Зцілення</Stat_Hediff_Regeneration_Name>
+  <!-- EN: A flat amount of healing per day. -->
+  <Stat_Hediff_Regeneration_Desc>Певна кількість зцілення на день.</Stat_Hediff_Regeneration_Desc>
+  <!-- EN: {0} hp/day -->
+  <Stat_Hediff_Regeneration_Stat>{0} оз/день</Stat_Hediff_Regeneration_Stat>
+
+  <!-- EN: Average lighting -->
+  <Stat_ContainmentStrength_AverageLighting>Середня освітленість</Stat_ContainmentStrength_AverageLighting>
+  <!-- EN: Average wall HP -->
+  <Stat_ContainmentStrength_AverageWallHp>Середня міцність стіни</Stat_ContainmentStrength_AverageWallHp>
+  <!-- EN: Average door HP -->
+  <Stat_ContainmentStrength_AverageDoorHp>Середня міцність дверей</Stat_ContainmentStrength_AverageDoorHp>
+  <!-- EN: Multiple ({0}) holding platforms -->
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>Кілька ({0}) платформ для утримання</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <!-- EN: Map-wide offset -->
+  <Stat_ContainmentStrength_MapwideOffset>Map-wide offset</Stat_ContainmentStrength_MapwideOffset>
+  <!-- EN: door open -->
+  <Stat_ContainmentStrength_DoorForcedOpen>двері відкриті</Stat_ContainmentStrength_DoorForcedOpen>
+  <!-- EN: Not fully roofed -->
+  <Stat_ContainmentStrength_NotFullyRoofed>Частково без даху</Stat_ContainmentStrength_NotFullyRoofed>
+  <!-- EN: Flooring -->
+  <Stat_ContainmentStrength_Flooring>Підлога</Stat_ContainmentStrength_Flooring>
+  <!-- EN: Building -->
+  <Stat_ContainmentStrength_Platform>Будівництво</Stat_ContainmentStrength_Platform>
+
+  <!-- EN: Bioferrite generation -->
+  <StatsReport_BioferriteGeneration>Генерація біофериту</StatsReport_BioferriteGeneration>
+  <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
+  <StatsReport_BioferriteGeneration_Desc>Кількість біофериту, яку генерує ця істота за день. Після розміщення захопленої істоти на стримуючу платформу, встановіть біоферитовий збирач для збору біофериту.</StatsReport_BioferriteGeneration_Desc>
+  <!-- EN: Multiplier for bioferrite density -->
+  <StatsReport_BioferriteDensityMultiplier>Коефіцієнт збільшення щільності біофериту</StatsReport_BioferriteDensityMultiplier>
+  
+  <!-- EN: Offering -->
+  <StatsReport_Offering>Пропозиція</StatsReport_Offering>
+  <!-- EN: The ingredients required to perform the psychic ritual. -->
+  <StatsReport_Offering_Desc>Необхідні інгредієнти для виконання психічного ритуалу.</StatsReport_Offering_Desc>
+
+  <!-- EN: Ritual duration -->
+  <StatsReport_RitualDuration>Тривалість ритуалу</StatsReport_RitualDuration>
+  <!-- EN: The time it takes to perform this ritual. -->
+  <StatsReport_RitualDuration_Desc>Час, необхідний для виконання цього ритуалу.</StatsReport_RitualDuration_Desc>
+
+  <!-- EN: Cooldown -->
+  <StatsReport_RitualCooldown>Час відновлення</StatsReport_RitualCooldown>
+  <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
+  <StatsReport_RitualCooldown_Desc>Виконання ритуалу руйнує навколишню психічну енергію на певний час. Протягом цього часу ритуал не можна виконати повторно.</StatsReport_RitualCooldown_Desc>
+
+  <!-- EN: Containment offset -->
+  <StatsReport_ContainmentStrengthOffset>Containment offset</StatsReport_ContainmentStrengthOffset>
+  <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
+  <StatsReport_ContainmentStrengthOffset_Desc>Наскільки це впливає на здатність платформи стримувати істоту. Істоти, які краще утримуються, менше схильні до втечі та надають більше знань під час вивчення.</StatsReport_ContainmentStrengthOffset_Desc>
+
+  <!-- EN: Duration -->
+  <StatsReport_SerumDuration>Тривалість</StatsReport_SerumDuration>
+  <!-- EN: How long the effects of a serum last. -->
+  <StatsReport_SerumDuration_Desc>Як довго триває дія сироватки.</StatsReport_SerumDuration_Desc>
+  
+  <!-- EN: Occupied -->
+  <StatsReport_Occupied>Зайнято</StatsReport_Occupied>
+  <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
+  <MeditationFocusPerBuilding>По {2} поруч з {BUILDING_label} ({0} / {1})</MeditationFocusPerBuilding>
+  <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
+  <MeditationFocusPerBuildingAbstract>{1} поруч з {BUILDING_label} (до {0})</MeditationFocusPerBuildingAbstract>
+
+</LanguageData>

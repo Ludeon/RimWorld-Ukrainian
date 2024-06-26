@@ -2,29 +2,29 @@
 <LanguageData>
 
   <!-- EN: Not a mechanitor -->
-  <NotAMechanitor>Не механітор</NotAMechanitor>
+  <NotAMechanitor>Не механізатор</NotAMechanitor>
   <!-- EN: Not enough bandwidth -->
   <NotEnoughBandwidth>Недостатня пропускна здатність</NotEnoughBandwidth>
   <!-- EN: Take control of {0} -->
-  <ControlMech>Взяти під контроль {0}</ControlMech>
+  <ControlMech>Взяти під контроль {lookup: {0}; Case; 3}</ControlMech>
   <!-- EN: Cannot control {0} -->
-  <CannotControlMech>Неможливо контролювати {0}</CannotControlMech>
+  <CannotControlMech>Неможливо контролювати {lookup: {0}; Case; 3}</CannotControlMech>
   <!-- EN: Already controlled by {0} -->
   <CannotControlMechAlreadyControlled>{0} вже контролює ціль</CannotControlMechAlreadyControlled>
   <!-- EN: Not enough bandwidth -->
   <CannotControlMechNotEnoughBandwidth>Недостатня пропускна здатність</CannotControlMechNotEnoughBandwidth>
   <!-- EN: Never controllable -->
-  <CannotControlMechNeverControllable>Ніяк не контролюється</CannotControlMechNeverControllable>
+  <CannotControlMechNeverControllable>Неможливо контролювати</CannotControlMechNeverControllable>
   <!-- EN: Cannot disconnect from {0} -->
-  <CannotDisconnectMech>Неможливо від'єднатися від {0}</CannotDisconnectMech>
+  <CannotDisconnectMech>Неможливо відключитися від {lookup: {0}; Case; 1}</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>Відключитися від {0}</DisconnectMech>
+  <DisconnectMech>Відключитися від {lookup: {0}; Case; 1}</DisconnectMech>
   <!-- EN: Permanently disassemble {0} -->
-  <DisassembleMech>Назавжди розібрати {0}</DisassembleMech>
+  <DisassembleMech>Розібрати {lookup: {0}; Case; 3}</DisassembleMech>
   <!-- EN: Cannot permanently disassemble {0} -->
-  <CannotDisassembleMech>Неможливо назавжди розібрати {0}</CannotDisassembleMech>
+  <CannotDisassembleMech>Неможливо назавжди розібрати {lookup: {0}; Case; 3}</CannotDisassembleMech>
   <!-- EN: Must be overseer -->
-  <MustBeOverseer>Має бути наглядач</MustBeOverseer>
+  <MustBeOverseer>Потрібен наглядач</MustBeOverseer>
   <!-- EN: Extract -->
   <Extract>Вилучити</Extract>
   <!-- EN: Out of command range -->
@@ -34,51 +34,51 @@
   <!-- EN: Must be emptied -->
   <WasteContainerFull>Повинен бути спустошений</WasteContainerFull>
   <!-- EN: Cannot repair mech {0} -->
-  <CannotRepairMech>Неможливо відремонтувати меха {0}</CannotRepairMech>
+  <CannotRepairMech>Неможливо відремонтувати {lookup: {0}; Case; 3}</CannotRepairMech>
 
   <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
-  <ExtractXenogermFrom>Видобути ксеноген з {PAWN_nameDef}</ExtractXenogermFrom>
+  <ExtractXenogermFrom>Вилучити ксенозародок з {PAWN_nameDef}</ExtractXenogermFrom>
   <!-- EN: Enter {0_labelShort} -->
-  <EnterBuilding>Увійти в {0_labelShort}</EnterBuilding>
+  <EnterBuilding>Увійти в {lookup: {0_labelShort}; Case; 3}</EnterBuilding>
   <!-- EN: {PAWN_nameDef} has no genes -->
   <PawnHasNoGenes>{PAWN_nameDef} не має генів</PawnHasNoGenes>
   <!-- EN: {PAWN_nameDef} has no extractable genes. -->
-  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} не має генів на видобування.</PawnHasNoNonArchiteGenes>
+  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} не має генів, що можна вилучити.</PawnHasNoNonArchiteGenes>
   <!-- EN: In xenogermination coma -->
-  <InXenogerminationComa>В ксеногермінатаційна кома</InXenogerminationComa>
+  <InXenogerminationComa>В ксенозародковій комі</InXenogerminationComa>
   <!-- EN: Occupied -->
   <Occupied>Зайнято</Occupied>
   <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
-  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} був вилучений з камери вирощування</OccupantEjectedFromGrowthVat>
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} {PAWN_gender ? вилучений : вилучена} з інкубатору</OccupantEjectedFromGrowthVat>
   <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
   <TooOld>{PAWN_nameDef} має бути молодше за {AGEYEARS} років.</TooOld>
   <!-- EN: {PAWN_nameDef} is too old. -->
-  <PawnIsTooOld>{PAWN_nameDef} занадто старий.</PawnIsTooOld>
+  <PawnIsTooOld>{PAWN_nameDef} занадто {PAWN_gender ? дорослий : доросла}.</PawnIsTooOld>
   <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
   <PawnBiostarving>{PAWN_nameDef} страждає від біоголоду.</PawnBiostarving>
   <!-- EN: No available people -->
   <NoViablePawns>Немає доступних людей</NoViablePawns>
   <!-- EN: No extractable people -->
-  <NoExtractablePawns>Немає людей до вилучення</NoExtractablePawns>
+  <NoExtractablePawns>Немає людей для вилучення</NoExtractablePawns>
   <!-- EN: No implantable people -->
-  <NoImplantablePawns>Немає імплантаційних людей</NoImplantablePawns>
+  <NoImplantablePawns>Немає людей для імплантації</NoImplantablePawns>
   <!-- EN: Cannot enter {0_labelShort} -->
-  <CannotEnterBuilding>Неможливо увійти в {0_labelShort}</CannotEnterBuilding>
+  <CannotEnterBuilding>Неможливо увійти в {lookup: {0_labelShort}; Case; 3}</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
   <AssignedToOtherPawn>{0_labelShort} призначено іншій особі.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
-  <AbsorbXenogerm>Поглинає ксеногерм {PAWN_nameDef}</AbsorbXenogerm>
+  <AbsorbXenogerm>Поглинає ксенозародок {PAWN_nameDef}</AbsorbXenogerm>
   <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
-  <CannotAbsorbXenogerm>Неможливо поглинути {PAWN_nameDef} ксеногерм</CannotAbsorbXenogerm>
+  <CannotAbsorbXenogerm>Неможливо поглинути ксенозародок {PAWN_nameDef}</CannotAbsorbXenogerm>
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
   <SameXenotype>{PAWN_nameDef} вже {PAWN_xenotype}</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>{PAWN_nameDef} страждає від шоку після втрати ксеногерма</XenogermLossShockPresent>
+  <XenogermLossShockPresent>{PAWN_nameDef} страждає від шоку після втрати ксенозародку</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
-  <CarryToSpecificThing>Перенести до {0_labelShort}</CarryToSpecificThing>
+  <CarryToSpecificThing>Перенести до {lookup: {0_labelShort}; Case; 1}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>Немає доступного вільного ліжка або гробу для сну при безпечній температурі.</NoCasketOrBed>
+  <NoCasketOrBed>Немає доступного вільного ліжка або гробу для летаргічного сну при безпечній температурі.</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
   <TemporaryFactionMember>{PAWN_nameDef} тимчасовий член фракції.</TemporaryFactionMember>
 
@@ -89,7 +89,7 @@
   <!-- EN: Occupied -->
   <SubcoreScannerOccupied>Зайнято</SubcoreScannerOccupied>
   <!-- EN: Enter {0} -->
-  <EnterSubcoreScanner>Увійти в {0}</EnterSubcoreScanner>
+  <EnterSubcoreScanner>Увійти в {lookup: {0}; Case; 3}</EnterSubcoreScanner>
 
   <!-- EN: Breastfeed {BABY_labelShort} -->
   <BabyCareBreastfeed>Годувати груддю {BABY_labelShort}</BabyCareBreastfeed>
@@ -99,7 +99,7 @@
   <NoBabyFood>Немає їжі для малюків</NoBabyFood>
 
   <!-- EN: play need full -->
-  <CannotInteractBabyPlayFull>необхідно більше грати</CannotInteractBabyPlayFull>
+  <CannotInteractBabyPlayFull>потреба у грі на максимумі</CannotInteractBabyPlayFull>
 
   <!-- EN: Feed on {PAWN_nameDef} -->
   <BloodfeedOn>Нагодувати {PAWN_nameDef}</BloodfeedOn>
@@ -110,54 +110,59 @@
 
   <!-- BreastfeedFailReason strings-->
   <!-- EN: {MOM_labelShort} does not have enough milk -->
-  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} не достатньо молока</BreastfeedFailReason_MomNotEnoughMilk>
+  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} не має достатньої кількості молока</BreastfeedFailReason_MomNotEnoughMilk>
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
-  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} неможливо зараз годувати грудьми</BreastfeedFailReason_MomInMentalState>
+  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} зараз не може годувати грудьми</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
   <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} занадто ситий, щоб смоктати грудь</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} заборонено {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
+  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} під забороною для {MOM_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} заборонено {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
+  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} під забороною для {HAULER_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
   <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} заборонено {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
+  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} під забороною для {HAULER_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
   <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
   <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} може годувати груддю {BABY_labelShort} без допомоги</BreastfeedFailReason_MomIsMobile>
   <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort} не може дійти з {BABY_labelShort} до {MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
-  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} не може дотягнутися до {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
+  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} не може дійти до {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>Годувальниця {BABY_factionPawnsPlural} не призначена для {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>Нянька {lookup: {BABY_factionPawnsPlural}; Case; 1} не призначена для {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} не закріплена за дитиною</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} зараз недоступна</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} зараз переноситься</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>Замовити імплантацію в {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>Наказати імплантацію в {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>Прийняти {0_xenotype} ксеноген</AcceptXenogerm>
+  <AcceptXenogerm>Прийняти {0_xenotype} ксенозародку</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
-  <CarryToRechargerOrdered>Нести {PAWN_labelShort} до зарядного пристрою</CarryToRechargerOrdered>
+  <CarryToRechargerOrdered>Нести {lookup: {PAWN_labelShort}; Case; 1} до зарядного пристрою</CarryToRechargerOrdered>
   <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
-  <CannotCarryToRecharger>Не можу нести {PAWN_labelShort} до зарядного пристрою</CannotCarryToRecharger>
+  <CannotCarryToRecharger>Неможливо нести {lookup: {PAWN_labelShort}; Case; 1} до зарядного пристрою</CannotCarryToRecharger>
   <!-- EN: No available recharger -->
-  <CannotCarryToRechargerNoneAvailable>Немає доступних підзарядок</CannotCarryToRechargerNoneAvailable>
-
-  <!-- EN: Cannot study -->
-  <CannotStudy>Не можу вчитися</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>вже вивчено</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>немає доступного і незарезервованого дослідницького верстака</NoResearchBench>
+  <CannotCarryToRechargerNoneAvailable>Немає доступних зарядних пристроїв</CannotCarryToRechargerNoneAvailable>
 
   <!-- EN: Hemogen packs disabled by food restriction. -->
-  <NotAllowedHemogen>Пакети гемогенів вимкнено шляхом обмеження їжі.</NotAllowedHemogen>
+  <NotAllowedHemogen>Пакети гемогенів недоступні за визначеною дієтою.</NotAllowedHemogen>
 
   <!-- EN: Eject genepack from gene bank -->
-  <EjectGenepackFromGeneBank>Вийняти пакунок генів з банку генів</EjectGenepackFromGeneBank>
+  <EjectGenepackFromGeneBank>Вийняти генопак з банку генів</EjectGenepackFromGeneBank>
 
   <!-- EN: Resulting metabolism would be too low -->
-  <ResultingMetTooLow>Результат метаболізму було б занадто низьким</ResultingMetTooLow>
+  <ResultingMetTooLow>Кінцевий метаболізм буде занадто низьким</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>Спроба завести роман відбувалася нещодавно</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>Перенести до безпечного місця</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>Неможливо перенести до безпечного місця</CannotCarryToSafePlace>
 
 </LanguageData>

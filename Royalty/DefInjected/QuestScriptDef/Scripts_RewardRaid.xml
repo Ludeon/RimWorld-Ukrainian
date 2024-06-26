@@ -10,12 +10,12 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] із [asker_faction_name], хоче, щоб ви допомогли врятувати один із [asker_possessive] караванів. За караваном поблизу [map_definite] полюють (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) з [enemyFaction_name]. [asker_nameDef] хоче, щоб ви дали сигнал [enemyFaction_pawnsPlural], щоб відтягнути їх від каравану — на себе.[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name], звертається до вас із проханням.\n\n(*Threat)[groupsOf](/Threat) з [enemyFaction_name] переслідують [asker_possessive] каравани в цьому районі. [asker_nameDef] просить надіслати йому повідомлення про виклик, змусивши їх атакувати та самостійно усунути загрозу.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить вас врятувати один з [asker_possessive] караванів. Група з (*Threat)[numGroupsOf](/Threat) (*Threat){lookup: [enemyFaction_pawnsPlural]; Case; 3}(/Threat) фракції [enemyFaction_name] атакувала караван неподалік від [map_definite]. [asker_nameDef] просить вас надіслати їм повідомлення, що приверне їхню увагу до вас.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], просить вас про допомогу.\n\nГрупа з (*Threat)[numGroupsOf](/Threat) (*Threat){lookup: [enemyFaction_pawnsPlural]; Case; 3}(/Threat) фракції [enemyFaction_name] атакувала караван неподалік від [map_definite]. [asker_nameDef] просить вас надіслати їм провокуюче повідомлення та кинути їм виклик, щоб відволікти їх на себе.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nЯкщо ви приймете, [enemyFaction_pawnsPlural] прибуде за [firstRaidDelayTicks_duration].</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Якщо ви погодитесь, [enemyFaction_pawnsPlural] прибуде за [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nЯкщо ви погодитесь, [enemyFaction_pawnsPlural] нападуть через [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph] Якщо ви погодитесь, [enemyFaction_pawnsPlural] нападуть через [firstRaidDelayTicks_duration].</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
@@ -41,25 +41,25 @@
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
     <li>questName->[enemyFaction_pawnsPlural] Фортуни</li>
-    <li>questName->[violence] у Фортуні</li>
-    <li>questName->[violence] у Волі</li>
-    <li>questName->[violence] у Прибутку</li>
-    <li>questName->Народжений [violence]</li>
-    <li>questName->Заплачено [violence]</li>
-    <li>questName->Надолужений [violence]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] у Блазі</li>
-    <li>questName(reward==royalFavor)->[violence] у Блазі</li>
-    <li>violence->Жорстокість</li>
+    <li>questName->[violence] Фортуни</li>
+    <li>questName->Наймана [violence]</li>
+    <li>questName->[violence] за оплату</li>
+    <li>questName->[violence] за нагороду</li>
+    <li>questName->Проплачена [violence]</li>
+    <li>questName->[violence] за компенсацію</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] за Честь</li>
+    <li>questName(reward==royalFavor)->[violence] за Честь</li>
     <li>violence->Битва</li>
-    <li>violence->Бій</li>
-    <li>violence->Війна</li>
     <li>violence->Сутичка</li>
-    <li>violence->Кровопролиття</li>
+    <li>violence->Війна</li>
+    <li>violence->Боротьба</li>
+    <li>violence->Різня</li>
     <li>violence->Атака</li>
-    <li>violence->Захист</li>
-    <li>violence->Конфлікт</li>
+    <li>violence->Оборона</li>
     <li>violence->Ворожість</li>
-    <li>violence->Ведучі Війни</li>
+    <li>violence->Conflict</li>
+    <li>violence->Hostility</li>
+    <li>violence->Warfare</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

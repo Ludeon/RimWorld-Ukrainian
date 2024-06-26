@@ -9,11 +9,11 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви виявили орбітальний космічний дрон, який може містити дані про [relic_name]. У вас є код, який змусить його здійснити вимушену посадку на [map_definite].\n\nЩоб отримати цінну інформацію, необхідно хакнути бортовий комп’ютер дрона. Злам потребує часу, але високий рівень інтелекту здатен пришвидшити цей процес.[raidsDescription]\n\nКосмічний дрон  самознищиться через [destroyDelayTicks_duration] після приземлення.</li>
-    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] з [enemyFaction_name] [droneDetectionMethod]. Поки він присутній, нападники прибуватимуть приблизно кожні [raidIntervalAvg_duration], щоб знищити його та вкрасти багатство, яке, на їхню думку, там знаходиться. У вас буде трохи часу, щоб підготувати оборону навколо, перш ніж прибудуть вороги.</li>
+    <li>questDescription->Ви виявили орбітальний космічний дрон, який може містити інформацію про реліквію, відому як [relic_name]. У вас є код, який змусить його приземлитися в цій місцевості.\n\nЩоб отримати інформацію, вам потрібно зламати термінал дрона. Злом потребує часу, інтелектуальні навички впливають на швидкість процесу.[raidsDescription]\n\nПісля приземлення космічний дрон самознищиться через [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] [droneDetectionMethod]. Поки він присутній, вони надсилатимуть рейди приблизно кожні [raidIntervalAvg_duration], щоб знищити його та заволодіти цінностями, які, на їхню думку, він містить. У вас буде деякий час, щоб підготувати оборону навколо нього, перш ніж вони прибудуть.</li>
+    <li>raidsDescription(allowViolence==true,enemyFaction==Mechanoid)->\n\n[enemyFaction_pawnsPlural] [droneDetectionMethod]. Поки він присутній, вони надсилатимуть рейди приблизно кожні [raidIntervalAvg_duration], щоб знищити його. У вас буде деякий час, щоб підготувати оборону навколо нього, перш ніж вони прибудуть.</li>
     <li>raidsDescription(allowViolence==false)-></li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==true)->виявлять місце посадки дрона під час його зниження</li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==false)->виявлять місце посадки дрона за допомогою сигнатури його енергоустановки</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->виявлять дрон під час його зниження</li>
   </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
@@ -31,7 +31,8 @@
   -->
   <Hack_Spacedrone.questNameRules.rulesStrings>
     <li>questName->злам [droneAdj] [drone]</li>
-    <li>questName-> злам [drone] [data]</li>
+    <li>questName->злам [drone] [data]</li>
+    <li>questName(p=0.2)->злам [droneAdj] [drone] [data]</li>
     <li>droneAdj->орбітального</li>
     <li>droneAdj->давнього</li>
     <li>droneAdj->стародавнього</li>
@@ -41,7 +42,6 @@
     <li>drone->криптодрона</li>
     <li>data->з інформацією</li>
     <li>data->з розвідданими</li>
-    <li>data->з даними</li>
   </Hack_Spacedrone.questNameRules.rulesStrings>
   
 </LanguageData>

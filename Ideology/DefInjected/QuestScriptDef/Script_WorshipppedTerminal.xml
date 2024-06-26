@@ -13,9 +13,9 @@
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
   <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви дізналися про стародавній термінал, який містить інформацію про [relic_name]. Однак термінал в оточенні племінного села, і місцеві жителі його шанують. Вони не входять до жодної великої фракції.\n\n[visitInfo]</li>
-    <li>visitInfo(allowViolentQuests==true)->Вони готові дозволити вам відвідати під виглядом паломництва, але вони нападуть, якщо ви торкнетесь його.\n\nВи можете напасти на село ззовні або мирно увійти та спробувати швидко втекти з даними з термінала. \n\nОбережно: якщо ви проведете більше [timer_duration] у селі або побудуєте щось поблизу нього, місцеві жителі атакуватимуть і викличуть підкріплення.</li>
-    <li>visitInfo(allowViolentQuests==false)->Вони готові дозволити вам увійти.</li>
+    <li>questDescription->Ви дізналися про стародавній термінал, який містить інформацію про реліквію, відому як [relic_name]. Однак термінал знаходиться в оточенні племінного села, і місцеві жителі його шанують. Вони не належать до жодної з відомих фракцій.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Вони готові дозволити вам відвідати термінал під виглядом паломництва, але вони нападуть, якщо ви його торкнетесь.\n\nВи можете напасти на село ззовні або мирно увійти й спробувати швидко зламати термінал та втекти з даними.\n\nОбережно: якщо ви проведете більше [timer_duration] у селі або побудуєте щось поблизу, місцеві жителі нападуть та викличуть підкріплення.</li>
+    <li>visitInfo(allowViolentQuests==false)->Вони готові дозволити вам відвідати термінал під виглядом паломництва.</li>
   </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
@@ -45,13 +45,13 @@
     <li>adj->племінний</li>
     <li>adj->секретний</li>
     <li>terminalName(p=4)->термінал</li>
-    <li>terminalName->машина</li>
     <li>terminalName->пристрій</li>
     <li>terminalName->екран</li>
     <li>terminalName->комп'ютер</li>
     <li>terminalName->банк даних</li>
-    <li>terminalName->база даних</li>
     <li>terminalName->обчислювач</li>
+    <li>terminalName->database</li>
+    <li>terminalName->silicon</li>
   </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>

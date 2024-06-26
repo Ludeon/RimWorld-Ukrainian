@@ -3,51 +3,60 @@
   <!-- EN: Auto-repair -->
   <CommandAutoRepair>Авторемонт</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>Якщо активна, механіст автоматично відновить цього механоїда. Ремонт механоїда витрачатиме його енергію.</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>Якщо активно, механізатор автоматично відновить цього механоїда. Ремонт механоїда витрачає енергію.</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
-  <CommandDisabledDeathresting>{0_labelShort} у вічному ложі.</CommandDisabledDeathresting>
+  <CommandDisabledDeathresting>{0_labelShort} у стані летаргії.</CommandDisabledDeathresting>
 
   <!-- EN: Cancel vatgrowth -->
   <CommandCancelGrowth>Скасувати вирощування</CommandCancelGrowth>
   <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
-  <CommandCancelGrowthDesc>Скасовувати вирощування для поточного колоніста. Колоніста буде вилучено з камери.</CommandCancelGrowthDesc>
+  <CommandCancelGrowthDesc>Скасувати вирощування поточної особи. Особу буде вилучено з камери.</CommandCancelGrowthDesc>
 
   <!-- EN: Select overseer -->
   <CommandSelectOverseer>Обрати наглядача</CommandSelectOverseer>
   <!-- EN: Select the mechanitor who is the overseer of this mech. -->
-  <CommandSelectOverseerDesc>Виберіть механіста, який є наглядачем цього механоїда.</CommandSelectOverseerDesc>
+  <CommandSelectOverseerDesc>Виберіть механізатора, який буде наглядати за цим механоїдом.</CommandSelectOverseerDesc>
   <!-- EN: No overseer. -->
   <CommandSelectOverseerDisabledDesc>Не наглядач.</CommandSelectOverseerDisabledDesc>
 
   <!-- EN: Cancel extraction -->
-  <CommandCancelExtraction>Скасувати видобуток</CommandCancelExtraction>
+  <CommandCancelExtraction>Скасувати вилучення</CommandCancelExtraction>
   <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
-  <CommandCancelExtractionDesc>Скасувати процес вилучення. Утримана особа буде викинута.</CommandCancelExtractionDesc>
+  <CommandCancelExtractionDesc>Скасувати процес вилучення. Утриману особу буде вилучено.</CommandCancelExtractionDesc>
 
   <!-- EN: Summon mech threat... -->
   <CommandCallBossgroup>Викликати механічну загрозу...</CommandCallBossgroup>
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>Викликати ворожого ватажка механоїда.\n\nЯкщо ви переможете ватажка механоїдів, він скине спеціальний чіп, який ви можете використовувати для отримання нових технологій.\n\nЄ три типи ватажків механоїдів, кожен викликається чипом якій скидає інший ватажок.</CommandCallBossgroupDesc>
+  <CommandCallBossgroupDesc>Викликати ворожого ватажка механоїдів.\n\nЯкщо ви переможете - отримаєте спеціальний чіп, який ви можете використовувати для отримання нових технологій.\n\nЄ три типи ватажків механоїдів, кожен викликається різним способом й кожний має різний тип чипів, які ви можете отримати.</CommandCallBossgroupDesc>
 
   <!-- EN: Toggle auto load {0} -->
-  <CommandAutoLoad>Перемикач автоматичного завантаження {0}</CommandAutoLoad>
+  <CommandAutoLoad>Перемикач автоматичного завантаження {lookup: {0}; Case; 1}</CommandAutoLoad>
   <!-- EN: If active, colonists will automatically load this with {0}. -->
-  <CommandAutoLoadDesc>Якщо увімкнено, колоністи автоматично завантажать це за допомогою {0}.</CommandAutoLoadDesc>
+  <CommandAutoLoadDesc>Якщо увімкнено, колоністи автоматично завантажать це за допомогою {lookup: {0}; Case; 1}.</CommandAutoLoadDesc>
 
   <!-- EN: Eject contents -->
-  <CommandEjectContents>Звільнити вміст</CommandEjectContents>
+  <CommandEjectContents>Скинути вміст</CommandEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <CommandEjectContentsDesc>Викинути все що міститься {0} на землю.</CommandEjectContentsDesc>
+  <CommandEjectContentsDesc>Викинути все що містить {0} на землю.</CommandEjectContentsDesc>
 
   <!-- EN: Select all mechs -->
-  <CommandSelectAllMechs>Обрати всіх мехів</CommandSelectAllMechs>
+  <CommandSelectAllMechs>Обрати всіх механоїдів</CommandSelectAllMechs>
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
-  <CommandSelectAllMechsDesc>Вибери всіх мехів, контрольованих цим механістом.</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechsDesc>Обрати всіх механоїдів, контрольованих цим механітором.</CommandSelectAllMechsDesc>
 
   <!-- EN: Turret enabled -->
-  <CommandToggleTurret>Турель включена</CommandToggleTurret>
+  <CommandToggleTurret>Автоматичний вогонь</CommandToggleTurret>
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
-  <CommandToggleTurretDesc>Переключить башту, здатну стріляти за бажанням.\n\nЯкщо відключити, башта не буде автоматично стріляти. Це корисно під час підкрадання ворогів.</CommandToggleTurretDesc>
+  <CommandToggleTurretDesc>Дозволити турелі автоматично стріляти.\n\nЯкщо відключено, турель не буде стріляти автоматично. Це корисно під час підкрадання до ворогів.</CommandToggleTurretDesc>
 
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>Скасувати сканування</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>Скасувати процес сканування. Особу буде вилучено.</CommandCancelSubcoreScanDesc>
+
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>Примусова імплантація ксенозародку</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>Змусити цю людину імплантувати свій ксенозародок іншій людині за допомогою спеціального органу. Якщо гени цієї людини перебувають у процесі відновлення - вона загине в процесі.\n\nІмплантація ксенозародку заміщує ксеногени цілі. Наслідувані гени залишаються незмінними.</ForceXenogermImplantationDesc>
 </LanguageData>

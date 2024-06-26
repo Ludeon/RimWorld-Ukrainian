@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Ші-персона на орбітальному кораблі хоче провести планетарні експерименти. Однак, якщо вона проведе свій експеримент, [gameConditionDescriptionFuture].\n\nВона стурбована тим, що може мати проблеми з комісією етичною, і просить вашої згоди.</li>
-    <li>questDescription(asker_factionLeader==True)->Мстива Ші-машина загрожує [asker_faction_name]. [asker_faction_leaderTitle] [asker_nameFull] хоче, щоб ви надіслали бляшанці повідомлення про те, що берете на себе відповідальність за чужу провину.\n\nЯкщо ви це зробите, Ші-персона зірве на вас свій гнів. [gameConditionDescriptionFuture].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name], хоче провести випробування малої потужності одного з [asker_possessive] корабельних озброєнь для атаки по території. Якщо [asker_pronoun] зробить, [gameConditionDescriptionFuture].\n\nОскільки ви є місцевим землевласником згідно з імперським законом, [asker_nameDef] потребує вашого шановного дозволу, щоб продовжити.</li>
+    <li>questDescription(askerIsNull==true)->ШІ-персона корабля на орбіті планети хоче провести деякі планетарні експерименти. Однак, через ці експерименти, [gameConditionDescriptionFuture].\n\nШІ-персона стурбована тим, що може мати проблеми з етичною комісією, тому просить вашої згоди.</li>
+    <li>questDescription(asker_factionLeader==True)->Мстива ШІ-персона погрожує {lookup: [asker_faction_pawnsPlural]; Case; 2} фракції [asker_faction_name]. [asker_faction_leaderTitle] фракції, [asker_nameFull], хоче, щоб ви надіслали повідомлення цьому ШІ, в якому візьмете всю провину на себе.\n\nЯкщо ви це зробите, ШІ-персона зверне свою лють на вас. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], хоче провести малопотужні випробування нового експериментального корабельного озброєння. Однак, через це випробування, [gameConditionDescriptionFuture].\n\nОскільки ви є місцевим землевласником, згідно з імперським законом, [asker_nameDef] потребує вашого дозволу, щоб продовжити.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -20,8 +20,8 @@
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
     <li>questName->[gameCondition_label] від [asker_nameDef]</li>
     <li>questName->[gameCondition_indefinite] для [asker_nameDef]</li>
-    <li>questName->[gameCondition_label] з компенсацією</li>
-    <li>questName->[gameCondition_label] за плату</li>
+    <li>questName->[gameCondition_label] за оплату</li>
+    <li>questName->[gameCondition_label] for Pay</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -33,12 +33,12 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Дослідницький корабель на орбіті хоче випробувати новий тип феромону комах. Якщо ви погодитеся, вони почнуть кропити [map_definite] феромоном, спровокувавши (*Threat) зараження [hivesCount] вуликами (/Threat).[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(askerIsNull==true)->Вулики були приваблені феромоном з орбітального дослідницького корабля.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name], каже, що вони не здатні вправитись з постійними атаками жуків на землях поблизу [map_definite]. [asker_pronoun] хоче привернути до вас зараження. Це спровокує (*Threat) зараження [hivesCount] вуликами (/Threat).[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(asker_factionLeader==True)->Комахи спочатку заражали сусідні місцини, що належать [asker_nameFull] з [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], має проблеми з приземленням поблизу [map_definite] через рій комах. [asker_pronoun] хоче заманити їх до вас, щоб ви розібрались з ними. Це спровокує (*Threat) зараження [hivesCount] вуликами (/Threat).[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->Зараження, що привернув до вас [asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name].</li>
+    <li>questDescription(askerIsNull==true)->Науковці з корабля на орбіті планети хочуть провести експеримент з новим феромоном комах. Якщо ви погодитесь, вони розповсюдять цей феромон над [map_definite], що спровокує появу (*Threat)[hivesCount](/Threat) (*Threat)вуликів комах(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->Розповсюдження феромону з корабля на орбіті планети викликало появу вуликів комах.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] стикається з нашестям комах неподалік від [map_definite]. [asker_pronoun] просить вас взяти частину комах на себе. Це спровокує появу (*Threat)[hivesCount](/Threat) (*Threat)вуликів комах(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->З'явились комахи, що атакували [asker_nameFull] з фракції [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], має проблеми з посадкою поблизу [map_definite] через нашестя комах. [asker_pronoun] хоче привести цих комах до вас, щоб ви з ними розібралися. Це спровокує появу (*Threat)[hivesCount](/Threat) (*Threat)вуликів комах(/Threat).[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->З'явились комахи, яких {asker_gender ? привів : привела} [asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name].</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Pods and [insects]</li>
@@ -52,13 +52,13 @@
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
     <li>questName->Капсули та [insects]</li>
-    <li>questName->[asker_nameDef] та [insects]</li>
+    <li>questName->[insects] від [asker_nameDef]</li>
     <li>questName->[insects] за [itemPodsTotalMarketValue_money]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->Спостереження за [insects]</li>
-    <li>questName(p=0.3)->Капсули з роєм</li>
+    <li>questName(asker_royalInCurrentFaction==True)->Спектакль з [insectsAbl]</li>
     <li>insects->комахи</li>
     <li>insects->жуки</li>
     <li>insects->вулики</li>
+    <li>insects->нашестя комах</li>
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -67,35 +67,35 @@
     <li>manhuntingBeastIndef(animalCount==1)->a (*Threat)manhunting [animalKind_label](/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat)</li>
     <li>endSection->[helpersParagraph]The [animalKindLabelCorrect] will arrive at [map_definite] [manhuntersDelayTicks_duration] after you accept.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->A trader is calling. (*Threat)A wild [animalKind_label](/Threat) is hunting him! He wants your help to draw the beast away from him. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->The [animalKind_label] was hunting a nearby trader.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->A trader is calling. A pack of (*Threat)[animalCount] wild [animalKind_labelPlural](/Threat) are hunting him! He wants your help to draw the animals away from him. [endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->The [animalKind_labelPlural] were hunting a nearby trader.</li>
-    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans.[endSection]</li>
+    <li>questDescription(asker_factionLeader==True)->Caravans of [asker_faction_name] are being harassed by [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] wants your help to draw the beasts away from the caravans. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->The [animalKind_label] was harassing caravans from [asker_faction_name].</li>
     <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->The [animalKind_labelPlural] were harassing caravans from [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scout to (*Threat)a manhunting [animalKind_label](/Threat). [asker_pronoun] wants to draw it towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->This is the [animalKind_label] that killed the scout of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor.[endSection]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], recently lost a scouting party to a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat). [asker_pronoun] wants to draw the beasts towards you to be killed, to uphold [asker_possessive] honor. [endSection]</li>
     <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->These are the [animalKind_labelPlural] that killed the scouting party of the [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name].</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
-    <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
-    <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)полювання [animalKind_label](/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->зграя (*Threat)[animalCount] переслідує [animalKind_labelPlural](/Threat)</li>
-    <li>endSection->[helpersParagraph]Якщо ви згодні допомогти, то [animalKindLabelCorrect] прибудуть на [map_definite] через [manhuntersDelayTicks_duration].</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Дзвонить торговець. (*Threat) Дика [animalKind_label](/Threat) полює на нього! Йому потрібна ваша допомога, щоб відвести від звіра.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] нападало на каравани неподалік.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->Зграя (*Threat)[animalCount] диких [animalKind_labelPlural](/Threat) полюють на караван! Йому потрібна ваша допомога, щоб відвести тварин від нього.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural] полювали на каравани поблизу.</li>
-    <li>questDescription(asker_factionLeader==True)->Каравани [asker_faction_name] зазнають переслідувань [manhuntingBeastIndef]. [asker_faction_leaderTitle] [asker_nameFull] хоче вашої допомоги, щоб відтягнути звірів від караванів.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label] переслідувли каравани з [asker_faction_name].</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural] переслідували каравани з [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name], нещодавно втратив розвідника через (*Threat)полювання на людей [animalKind_label](/Threat). [asker_pronoun] хоче притягнути тварину до вас, щоб ви її вбили, щоб захистили [asker_possessive] честь.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Це [animalKind_label], який убив розвідника [asker_royalTitleInCurrentFaction] [asker_nameFull] з [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] з [asker_faction_name], нещодавно втратив розвідувальну групу через зграю (*Threat)[animalCount] голодних [animalKind_labelPlural](/Threat). [asker_pronoun] хоче привернути до вас звірів, щоб ви їх убили, щоб захистити [asker_possessive] честь.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Це [animalKind_labelPlural], які вбили розвідувальну групу [asker_royalTitleInCurrentFaction] [asker_nameFull] з [asker_faction_name].</li>
+    <li>animalKindLabelCorrectAttack(animalCount==1)->(*Threat)[animalKind_label](/Threat) нападе</li>
+    <li>animalKindLabelCorrectAttack(animalCount>=2)->(*Threat)[animalKind_labelPlural](/Threat) нападуть</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat){lookup: [animalKind_label]; Case; 1} в стані агресії(/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->зграї (*Threat)агресивних {lookup: [animalKind_labelPlural]; Case; 1}(/Threat), в кількості (*Threat)[animalCount](/Threat) тварин</li>
+    <li>endSection->[helpersParagraph] Якщо ви погодитесь, [animalKindLabelCorrectAttack] на [map_definite] через [manhuntersDelayTicks_duration].</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Караван торговців потребує допомоги! (*Threat)[animalKind_label] в стані агресії(/Threat) переслідує їх! Вони хочуть, щоб ви розібралися з цим звіром.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label], що полює на караван.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->Караван торговців потребує допомоги! Зграя (*Threat)агресивних {lookup: [animalKind_labelPlural]; Case; 4}(/Threat), в кількості (*Threat)[animalCount](/Threat) тварин, переслідують їх! Вони хочуть, щоб ви розібралися з цими звірами.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Зграя {lookup: [animalKind_labelPlural]; Case; 3}, що полюють на караван.</li>
+    <li>questDescription(asker_factionLeader==True)->Каравани фракції [asker_faction_name] постійно потрапляють в засідки [manhuntingBeastIndef]. [asker_faction_leaderTitle] фракції, [asker_nameFull], хоче, щоб ви розібралися з [thisbeast].[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label], що нападає на каравани фракції [asker_faction_name].</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural], що нападають на каравани фракції [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], нещодавно {asker_gender ? втратив : втратила} розвідника через (*Threat){lookup: [animalKind_label]; Case; 3} в стані агресії(/Threat). [asker_pronoun] хоче, щоб ви вбили цього звіра, щоб відстояти [asker_possessive] честь.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->[animalKind_label], звір, через якого помер розвідник фракції [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], {asker_gender ? втратив : втратила} розвідника через зграю (*Threat)агресивних {lookup: [animalKind_labelPlural]; Case; 3}(/Threat), в кількості (*Threat)[animalCount](/Threat) тварин. [asker_pronoun] хоче, щоб ви вбили цих звірів, щоб відстояти [asker_possessive] честь.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->[animalKind_labelPlural], звірі, через яких помер розвідник фракції [asker_faction_name].</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
@@ -111,17 +111,17 @@
     <li>beasts->animals</li>
   -->
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
-    <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
-    <li>beast(p=4)->[animalKind_label]</li>
+    <li>questName(animalCount==1)->{ANIMAL_gender ? [AdjectiveBadass] [animalKind_label] : [AdjectiveBadassFem] [animalKind_label]}</li>
+    <li>questName(animalCount==1,p=0.5)->[AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1,p=0.5)->[AdjectiveBadassFem] [beastFem]</li>
+    <li>questName(animalCount>=2)->[AdjectiveBadassPlu] [beasts]</li>
     <li>beast->звір</li>
-    <li>beast->тварина</li>
-    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beastFem->тварина</li>
     <li>beasts->звірі</li>
     <li>beasts->тварини</li>
+    <li>beasts(p=4)->[animalKind_labelPlural]</li>
+    <li>beasts->beasts</li>
+    <li>beasts->animals</li>
   </ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
   <ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_ItemPod.LetterTextManhunterArrival.slateRef>
@@ -142,10 +142,10 @@
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[threat] полюють на караван! Він просить вас подати сигнал та відволікти їх до [map_definite], щоб втекти.\n\nЯкщо ви надішлете сигнал, [askerEnemies] влаштують табір, щоб потім атакувати вас. [site/allSitePartsDescriptions] Атаки не припиняться, доки ви його не знищите.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name], просить вашої допомоги. [askerEnemies] турбують поселення [asker_possessive]. [asker_pronoun] потребує вашої допомоги, використайте сигнали, щоб привернути їх до [map_definite] і подалі від [asker_possessive] людей.\n\nЯкщо [asker_pronoun] це зробить, [askerEnemies] збудують форпост поблизу, щоб атакувати вас. [site/allSitePartsDescriptions] Це місце залишатиметься, доки ви його не знищите.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], подорожує поблизу [map_definite]. [asker_pronoun] переслідує [threat] та просить вашої допомоги. Використайте сигнали, щоб привернути їх до [map_definite].\n\nЯкщо ви це зробите, [askerEnemies] створять табір поблизу, щоб переслідувати вас. [site/allSitePartsDescriptions] Це місце залишатиметься, доки ви його не знищите.</li>
-    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] з [site/enemyFaction_name]</li>
+    <li>questDescription(askerIsNull==true)->Мандрівний крамар просить про послугу. [threat] переслідують його. Він просить вас надіслати їм повідомлення, що приверне їхню увагу до [map_definite], а він зміг втекти.\n\nЯкщо ви на це погодитесь, [askerEnemies] стануть табором неподалік та будуть періодично атакувати вас. [site/allSitePartsDescriptions] Цей табір буде знаходитись там, допоки ви не розіб'єте його.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить про допомогу. [askerEnemies] атакують [asker_possessive] поселення. [asker_pronoun] просить вас надіслати їм повідомлення, що приверне їхню увагу до [map_definite], подалі від [asker_possessive] людей.\n\nЯкщо ви на це погодитесь, [askerEnemies] стануть табором неподалік та будуть періодично атакувати вас. [site/allSitePartsDescriptions] Цей табір буде знаходитись там, допоки ви не розіб'єте його.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], {asker_gender ? мандрував : мандрувала} неподалік від [map_definite] і тепер, [asker_objective] переслідують [threat]. [asker_pronoun] просить вас надіслати їм повідомлення, що приверне їхню увагу до [map_definite].\n\nЯкщо ви на це погодитесь, [askerEnemies] стануть табором неподалік та будуть періодично атакувати вас. [site/allSitePartsDescriptions] Цей табір буде знаходитись там, допоки ви не розіб'єте його.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] з фракції [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->механоїди</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->механоїди</li>
     <li>threat->вороги</li>
@@ -165,10 +165,10 @@
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef] та [site/site_label]</li>
     <li>questName->[site/site_label] для [asker_nameDef]</li>
-    <li>questName->Спасіння [asker_nameDef]</li>
-    <li>questName->[site/site_label] за гроші</li>
+    <li>questName->Порятунок [asker_nameDef]</li>
+    <li>questName->[site/site_label] за оплату</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
-  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nЦей табір було створено у відповідь на ваші образливі повідомлення.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>

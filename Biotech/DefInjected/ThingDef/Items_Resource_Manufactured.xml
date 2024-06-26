@@ -5,34 +5,54 @@
   <Bullet_Shell_Tox.label>токсичний снаряд</Bullet_Shell_Tox.label>
   
   <!-- EN: deathrest capacity serum -->
-  <DeathrestCapacitySerum.label>сироватка місткості летаргічного сну</DeathrestCapacitySerum.label>
+  <DeathrestCapacitySerum.label>сироватка місткості летаргії</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
-  <DeathrestCapacitySerum.description>Сироватка, яка назавжди збільшує кількість будівель летаргічного сну до яких можна під'єднатися під час летаргічного сну.\n\nЦю сироватку можуть приймати лише люди з геном летаргії.</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.description>Сироватка, яка назавжди збільшує кількість споруд, до яких людина може підключитися під час летаргії.\n\nСироватку можуть використовувати тільки люди з геном летаргії.</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
-  <DeathrestCapacitySerum.comps.CompUsable.useLabel>Увести {0_label}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
+  <DeathrestCapacitySerum.comps.CompUsable.useLabel>Ввести {lookup: {0_label}; Case; 3}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
   
   <!-- EN: nano structuring chip -->
-  <NanostructuringChip.label>нано структурний чіп</NanostructuringChip.label>
+  <NanostructuringChip.label>наноструктурний чип</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <NanostructuringChip.description>Механоїдний мікроорган із молекулярною реструктуризацією. Необхідно при виготовленні певних вдосконалених механоїдів та обладнання.\n\n Механітор може вивчити цей чіп, щоб розблокувати вищі рівні науково-технічних досліджень.</NanostructuringChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterText>Вивчаючи {PARENT_label}, {STUDIER_labelShort} отримав інформацію, необхідну для дослідницького проєкту {RESEARCH}.\n\nТепер ваші дослідники можуть використовувати дослідницькі стенди, щоб почати досліджувати, як насправді використовувати цю технологію.</NanostructuringChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} вивчено: {RESEARCH} розблоковано</NanostructuringChip.comps.CompStudiable.completedLetterTitle>
+  <NanostructuringChip.description>Компонент механоїда із молекулярною реструктуризацією. Необхідний для виготовлення певних вдосконалених механоїдів та обладнання.\n\nМеханізатор може дослідити цей чип, щоб розблокувати більш просунуті мех-технології.</NanostructuringChip.description>
+  <!-- EN: Analyze the nano structuring chip. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>Проаналізувати наноструктурний чип</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Аналіз...</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the nano structuring chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>Досліджуючи {PARENT_label}, {STUDIER_labelShort} отримує знання, необхідні для дослідницького проекту "{RESEARCH}".\n\nВаші дослідники тепер можуть використати стіл для досліджень, щоб вивчити цю технологію.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Nano structuring chip studied: {RESEARCH} unlocked -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>{PARENT_label} досліджено: {RESEARCH}</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Оберіть, хто має проаналізувати чип</NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>Може бути проаналізований колоністом</NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze nano structuring chip -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>Аналіз наноструктурного чипу</NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: powerfocus chip -->
-  <PowerfocusChip.label>чип фокусування енергії</PowerfocusChip.label>
+  <PowerfocusChip.label>чип концентрації енергії</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <PowerfocusChip.description>Механічний мікроорган, що фокусує енергію. Необхідно при вироблянні певних передових типів механоїдів і обладнання.\n\n Механітор може вивчити цей чіп, щоб допомогти розблокувати вищі рівні науково-технічних досліджень.</PowerfocusChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <PowerfocusChip.comps.CompStudiable.completedLetterText>Вивчаючи {PARENT_label}, {STUDIER_labelShort} отримав інформацію, необхідну для дослідницького проєкту {RESEARCH}.\n\nТепер ваші дослідники можуть використовувати дослідницькі стенди, щоб почати досліджувати, як насправді використовувати цю технологію.</PowerfocusChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} вивчено: {RESEARCH} розблоковано</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
+  <PowerfocusChip.description>Компонент механоїда, що концентрує енергію. Необхідний для виготовлення певних вдосконалених механоїдів та обладнання.\n\nМеханізатор може дослідити цей чип, щоб розблокувати більш просунуті мех-технології.</PowerfocusChip.description>
+  <!-- EN: Analyze the powerfocus chip. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>Проаналізувати чип концентрації енергії</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Аналіз...</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the powerfocus chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>Досліджуючи {PARENT_label}, {STUDIER_labelShort} отримує знання, необхідні для дослідницького проекту "{RESEARCH}".\n\nВаші дослідники тепер можуть використати стіл для досліджень, щоб вивчити цю технологію.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Powerfocus chip studied: {RESEARCH} unlocked -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>{PARENT_label} досліджено: {RESEARCH}</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Оберіть, хто має проаналізувати чип</PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>Може бути проаналізований колоністом</PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze powerfocus chip -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>Аналіз чипу концентрації енергії</PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: tox shell -->
   <Shell_Toxic.label>токсичний снаряд</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
-  <Shell_Toxic.description>Артилерійська оболонка, яка містить реагентів, які при поєднанні створюють смертельну дошку газу. Після пожежі він деякий час буде дотримуватися землі і вивільняти токсовий газ.\n\nТокс спалює легені та очі, викликаючи тимчасову нестачу дихання та зниження. Продовження впливу токсичного газу при токсичному нарощуванні, яке може бути смертельним.</Shell_Toxic.description>
+  <Shell_Toxic.description>Артилерійський снаряд, що містить реагенти, які у поєднанні утворюють смертоносний отруйний газ. Під час пострілу він застряє в землі та виділяє токсичний газ протягом деякого часу.\n\nТоксичний газ обпалює легені та очі, викликаючи тимчасову задишку та погіршення зору. Тривалий вплив токсичного газу призводить до накопичення токсичних речовин, що може призвести до смерті.</Shell_Toxic.description>
   
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>токсичний снаряд</Shell_Toxic_Releasing.label>
@@ -41,32 +61,42 @@
   <Shell_Toxic_Releasing_Water.label>токсичний снаряд</Shell_Toxic_Releasing_Water.label>
   
   <!-- EN: signal chip -->
-  <SignalChip.label>сигнальний чіп</SignalChip.label>
+  <SignalChip.label>сигнальний чип</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <SignalChip.description>Мікроорган синхронізації механоїдної смуги. Необхідно при вироблянні певних передових типів механоїдів і обладнання.\n\n Механітор може вивчити цей чіп, щоб допомогти розблокувати вищі рівні науково-технічних досліджень.</SignalChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <SignalChip.comps.CompStudiable.completedLetterText>Вивчаючи {PARENT_label}, {STUDIER_labelShort} отримав інформацію, необхідну для дослідницького проєкту {RESEARCH}.\n\nТепер ваші дослідники можуть використовувати дослідницькі стенди, щоб почати досліджувати, як насправді використовувати цю технологію.</SignalChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} вивчено: {RESEARCH} розблоковано</SignalChip.comps.CompStudiable.completedLetterTitle>
+  <SignalChip.description>Компонент синхронізації механоїдної смуги. Необхідний для виготовлення певних вдосконалених механоїдів та обладнання.\n\nМеханізатор може дослідити цей чип, щоб розблокувати більш просунуті мех-технології.</SignalChip.description>
+  <!-- EN: Analyze the signal chip. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>Проаналізувати сигнальний чип</SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Аналіз...</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the signal chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>Досліджуючи {PARENT_label}, {STUDIER_labelShort} отримує знання, необхідні для дослідницького проекту "{RESEARCH}".\n\nВаші дослідники тепер можуть використати стіл для досліджень, щоб вивчити цю технологію.</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Signal chip studied: {RESEARCH} unlocked -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>{PARENT_label} досліджено: {RESEARCH}</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Оберіть, хто має проаналізувати чип</SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>Може бути проаналізований колоністом</SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze signal chip -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.jobString>Аналіз сигнального чипу</SignalChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>базове суб'ядро</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
-  <SubcoreBasic.description>Найпростіший із можливих механоїдних мізків, це крихітна психодинамічна субстратна одиниця, що містить тупу суб'особу. Оскільки це суб'ядро базового рівня, воно може керувати лише найпростішим із механоїдів.\n\nЯк і всі суб'ядра механоїдів, воно містить суб'особу з психічною присутністю, хоча й дуже слабкою.</SubcoreBasic.description>
+  <SubcoreBasic.description>Найпростіший механоїдний мозок, крихітна психодинамічна субстратна одиниця, що містить просту субособу. Оскільки це суб'ядро лише базового рівня, воно може керувати лише найпростішим із механоїдів.\n\nЯк і всі суб'ядра механоїдів, воно містить субособу з психічною присутністю, хоча й дуже слабкою.</SubcoreBasic.description>
   
   <!-- EN: high subcore -->
-  <SubcoreHigh.label>високе суб'ядро</SubcoreHigh.label>
+  <SubcoreHigh.label>високотехнологічне суб'ядро</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
-  <SubcoreHigh.description>Механоїдний мозок високого рівня, це психодинамічний субстратний блок, який підтримує складну суб'особу. Це конкретне суб'ядро є найпотужнішим рівнем і може керувати складними надважкими механоїдами.\n\nСуб'особа всередині цього ядра за своєю складністю наближається до живої людини, хоча має зовсім іншу природу. Як і будь-який подібний розум, він має помітну психічну присутність.\n\nЦе суб'ядро могло бути створено лише шляхом багатої передачі шаблонів від іншого витонченого розуму. Єдиний спосіб зробити це без величезних можливостей — сканувати мозок живої людини, вбиваючи її в процесі.</SubcoreHigh.description>
+  <SubcoreHigh.description>Механоїдний мозок високого рівня, це психодинамічний субстратний блок, який підтримує складну субособу. Це суб'ядро високотехнологічного рівня і може керувати складними надважкими механоїдами.\n\nСубособа всередині цього ядра за своєю складністю наближається до живої людини, хоча має зовсім іншу природу. Як і будь-який такий розум, він має помітну психічну присутність.\n\nЦе суб'ядро могло бути створене лише шляхом передачі патерну від іншого витонченого розуму. Єдиний спосіб зробити це без величезних можливостей — сканувати мозок живої людини летальним сканером, вбиваючи її в процесі.</SubcoreHigh.description>
   
   <!-- EN: standard subcore -->
-  <SubcoreRegular.label>стандартне суб'ядро</SubcoreRegular.label>
+  <SubcoreRegular.label>просунуте суб'ядро</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
-  <SubcoreRegular.description>Механоїдний мозок стандартного рівня, це психодинамічний субстратний блок, що підтримує мислячу суб'особу. Це суб'ядро достатньо потужне, щоб керувати механоїдами стандартного рівня.\n\nМеханоїди — це більше, ніж роботи, а це — більше, ніж кремнієвий комп’ютер. Його мислення, психічно поточна суб'особа робить його більш адаптивним, ніж кремнієві системи. Однак це також означає, що його можна створити лише шляхом передачі аналогового шаблону від іншого мислячого розуму.</SubcoreRegular.description>
+  <SubcoreRegular.description>Механоїдний мозок стандартного рівня, це психодинамічний субстратний блок, що підтримує мислячу субособу. Це суб'ядро достатньо потужне, щоб керувати механоїдами стандартного рівня.\n\nМеханоїди — це більше, ніж роботи, а суб'ядро - це більше, ніж кремнієвий комп’ютер. Мисляча субособа робить його більш адаптивним, ніж кремнієві системи. Однак це також означає, що його можна створити лише шляхом передачі аналогового патерну від іншого мислячого розуму.</SubcoreRegular.description>
   
   <!-- EN: toxic wastepack -->
-  <Wastepack.label>упаковка для токсичних відходів</Wastepack.label>
+  <Wastepack.label>пакет з відходами</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
-  <Wastepack.description>Ущільнений пакет токсичних відходів, який повільно розчиняється, якщо його не заморозити. Поверхня термозварена для безпечного транспортування. Сміттєві пакети забруднюватимуть навколишню місцевість, якщо вони розчиняться, псуються або знищаться іншим чином.\n\nТоксичні сміттєві пакети легкозаймисті. У разі спалення або пошкодження вони виділяють отруйний газ.</Wastepack.description>
+  <Wastepack.description>Ущільнений пакет токсичних відходів, який повільно розчиняється, якщо його не заморозити. Пакети з відходами забруднюватимуть навколишню місцевість, якщо почнуть розчинятися, псуватися або знищуватися іншим чином.\n\nПакети легкозаймисті, вони будуть виділяти отруйний газ в разі горіння або механічних пошкоджень.</Wastepack.description>
   
 </LanguageData>

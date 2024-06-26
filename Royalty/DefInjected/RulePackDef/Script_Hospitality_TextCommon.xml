@@ -55,53 +55,53 @@
   <QuestHospitalityCommon.rulePack.rulesStrings>
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlu]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->в[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlu]</li>
+    <li>lodgersLabelSingOrPluralGen(lodgersCount==1)->[lodgersLabelGen]</li>
+    <li>lodgersLabelSingOrPluralGen(lodgersCount>=2)->[lodgersLabelPluGen]</li>
+    <li>lodgersLabelSingOrPluralAcc(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralAcc(lodgersCount>=2)->[lodgersLabelPluAcc]</li>
+    <li>lodgersLabelSingOrPluralAbl(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralAbl(lodgersCount>=2)->[lodgersLabelPluAbl]</li>
     <li>includesChildren(priority=-999)-></li>
-    <li>includesChildren(childCount==1)->\n\nОдин з [lodgersLabelSingOrPluralDef] є дитиною.</li>
-    <li>includesChildren(childCount>=2)->\n\nДеякі з [lodgersLabelSingOrPluralDef] є дітьми.</li>
+    <li>includesChildren(childCount==1)->\n\nСеред [lodgersLabelSingOrPluralGen] є дитина.</li>
+    <li>includesChildren(childCount>=2)->\n\nСеред [lodgersLabelSingOrPluralGen] є діти.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] страждає від паралітичної абазії, тому має лежати у ліжку.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] страждає через гниючу кров та вимагає щоденного лікування. Захворювання можна уповільнити з якісним доглядом та медициною, але, як правило, неможливо вилікувати. Якщо стан пацієнта стає важким, [lodgersLabelSingOrPluralDef] помре - переконайтеся, що у вас є необхідні медичні засоби.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [suffer] від паралітичної абазії та [must] знаходитися у ліжку.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [suffer] від гниття крові та [need] щоденного лікування. Хворобу можна сповільнити за допомогою якісного догляду, але, як правило, не можна повністю вилікувати. Без догляду хвороба призводить до смерті.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold&gt;0,priority=1)->\n\n ви повинні зберігати настрій [lodgersLabelSingOrPluralDef] вище [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nви повинні підтримувати настрій [lodgersLabelSingOrPlural_gen] вище [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] не працюватиме.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] не [lodgers_will] працювати.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->на вас буде здійснено напад приблизно у такому складі:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize&gt;1)->на вас буде здійснено напад з потужністю [threatSize]x та приблизно таким угрупованням:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount&gt;1,threatSize==1)->на вас буде здійснено [threatCount] нападів у приблизно такому складі:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount&gt;1,threatSize&gt;1)->на вас буде здійснено [threatCount] нападів з силою x[threatSize] приблизно у наступному складі:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->поруч десантується кластер механоїдів.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->поруч десантується два кластери механоїдів.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize&gt;1)->поруч десантується кластер механоїдів розміром х[threatSize].</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize&gt;1)->поруч десантується два кластери механоїдів розміром х[threatSize].</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], та переслідується роєм механоїдів, що базується на орбіті.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Ці в'язні нещодавно [mechViolation], та переслідується роєм механоїдів, що базується на орбіті.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], та переслідуються роєм механоїдів.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Вони нещодавно [mechViolation], та переслідуються роєм механоїдів.</li>
-    <li>mechViolation->якось розлютив архотека</li>
-    <li>mechViolation->торкнувся стародавнього суперкомп'ютерного терміналу</li>
-    <li>mechViolation->вбив людську дитину, котра була фаворитом архотека</li>
-    <li>mechViolation->спробував зламати контрольний вузол механоїдів</li>
-    <li>mechViolation->спробував щось викрасти зі стародавнього комплексу</li>
-    <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersHasHave(lodgersCount==1)->має</li>
-    <li>lodgersHasHave(lodgersCount>=2)->мають</li>
-    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->вони</li>
-    <li>areIs(lodgersCount==1)->є</li>
-    <li>areIs(lodgersCount>=2)->є</li>
-    <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Усі інші [lodgersLabelPlural] покинуть поселення. </li>
-    <li>failLetterEndingQuest->Ви провалили завдання '[resolvedQuestName]'.</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
-    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nВаша репутація у [asker_faction_name] погіршилась на [goodwillPenalty].</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->на вас здійснять (*Threat)рейд(/Threat), приблизно такою групою:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->на вас здійснять (*Threat)рейд(/Threat) силою х[threatSize], приблизно такою групою:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->на вас здійснять (*Threat)[threatCount](/Threat) (*Threat)рейди(/Threat), приблизно такою групою:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->на вас здійснять (*Threat)[threatCount](/Threat) (*Threat)рейди(/Threat) силою х[threatSize], приблизно такою групою:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->неподалік десантується (*Threat)кластер механоїдів(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->неподалік десантуються (*Threat)два кластери механоїдів(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->неподалік десантується (*Threat)кластер механоїдів(/Threat), розміром х[threatSize].</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->неподалік десантуються (*Threat)два кластери механоїдів(/Threat), розміром х[threatSize].</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], тепер [lodgers0_possessive] переслідує рій механоїдів.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Ці в'язні нещодавно [mechViolationPlu], тепер їх переслідує рій механоїдів.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], тепер [lodgers0_possessive] переслідує рій механоїдів.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Вони нещодавно [mechViolationPlu], тепер їх переслідує рій механоїдів.</li>
+    <li>mechViolation(lodgers0_gender==Male)->якимось чином розлютив архотека</li>
+    <li>mechViolation(lodgers0_gender==Male)->осквернив старовинний термінал суперкомп'ютера</li>
+    <li>mechViolation(lodgers0_gender==Male)->вбив дитину, яку полюбляв архотек</li>
+    <li>mechViolation(lodgers0_gender==Male)->намагався зламати вузол керування механоїдами</li>
+    <li>mechViolation(lodgers0_gender==Male)->намагався щось вкрасти зі старовинного сховища</li>
+    <li>mechViolation(lodgers0_gender==Female)->якимось чином розлютила архотека</li>
+    <li>mechViolation(lodgers0_gender==Female)->осквернила старовинний термінал суперкомп'ютера</li>
+    <li>mechViolation(lodgers0_gender==Female)->вбила дитину, яку полюбляв архотек</li>
+    <li>mechViolation(lodgers0_gender==Female)->намагалася зламати вузол керування механоїдами</li>
+    <li>mechViolation(lodgers0_gender==Female)->намагалася щось вкрасти зі старовинного сховища</li>
+    <li>mechViolationPlu->якимось чином розлютили архотека</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

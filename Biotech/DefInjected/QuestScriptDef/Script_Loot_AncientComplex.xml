@@ -7,9 +7,9 @@
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви [discoveryDesc] стародавнього комплексу поблизу, який містить останки давно померлого механітора.\n\nМеханітори можуть створювати, контролювати та керувати механоїдами для роботи та бою. Якщо ви можете проникнути в комплекс і зібрати труп механітора, ви можете витягти його мехлінк і перетворити одного зі своїх колоністів на механітора.\n\nБудьте обережні: такі місця можуть містити різноманітні загрози, а ваша діяльність в комплексі може привернути небажану увагу.</li>
-    <li>discoveryDesc(discovered==true)->дізнались розташування</li>
-    <li>discoveryDesc(discovered==true)->визначили розташування</li>
+    <li>questDescription->Ви [discoveryDesc] місцезнаходження старовинного комплексу, в якому знаходяться залишки давно померлого механізатора.\n\nМеханізатори можуть створювати та контролювати механоїдів, для допомоги в бою та роботі. Якщо вам вдасться проникнути в комплекс та дістатися тіла механізатора, ви зможете вилучити його мехлінк, щоб зробити механізатором когось з ваших колоністів.\n\nБудьте обережні: такі структури можуть містити різноманітні загрози, а ваша активність в тій місцевості може привернути небажану увагу.</li>
+    <li>discoveryDesc(discovered==false)->дізналися про</li>
+    <li>discoveryDesc(discovered==true)->визначили</li>
   </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
@@ -30,22 +30,22 @@
     <li>complex->mechsite</li>
   -->
   <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] механітора</li>
-    <li>questName->[complex] механітора</li>
-    <li>complexAdj->секретний комплекс</li>
-    <li>complexAdj->стародавнє лігво</li>
-    <li>complexAdj->стародавня база</li>
-    <li>complexAdj->прихований склад</li>
-    <li>complexAdj->запилена крипта</li>
-    <li>complexAdj->небезпечний мех-комплекс</li>
-    <li>complexAdj->прихована мех-структура</li>
+    <li>questName(p=1.5)->[complexAdj] [complex] механізатора </li>
+    <li>questName(p=0.5)->[complex] механізатора</li>
+    <li>questName(p=1.5)->[complexAdjFem] [complexFem] механізатора </li>
+    <li>questName(p=0.5)->[complexFem] механізатора</li>
+    <li>complexAdj->секретний</li>
+    <li>complexAdj->старовинний</li>
+    <li>complexAdj->старий</li>
+    <li>complexAdj->схований</li>
+    <li>complexAdj->небезпечний</li>
+    <li>complexAdjFem->секретний</li>
+    <li>complexAdjFem->старовинний</li>
+    <li>complexAdjFem->старий</li>
+    <li>complexAdjFem->схований</li>
+    <li>complexAdjFem->небезпечний</li>
     <li>complex->комплекс</li>
-    <li>complex->лігво</li>
-    <li>complex->база</li>
-    <li>complex->склад</li>
-    <li>complex->крипта</li>
-    <li>complex->мех-комплекс</li>
-    <li>complex->мех-структура</li>
+    <li>complexFem->печера</li>
   </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>

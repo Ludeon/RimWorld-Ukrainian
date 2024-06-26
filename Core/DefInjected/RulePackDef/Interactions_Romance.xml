@@ -5,21 +5,21 @@
     <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
   -->
   <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] погодився і вони двоє тепер заручені.</li>
+    <li>sent->[RECIPIENT_nameDef] приймає пропозицію. Тепер вони зарученні.</li>
   </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] rejected the proposal.</li>
   -->
   <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] відмовився від пропозиції.</li>
+    <li>sent->[RECIPIENT_nameDef] відмовляється.</li>
   </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->It was too much for the relationship to continue, and the two have now broken up.</li>
   -->
   <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
-    <li>sent->Це було останньою краплею в їх відносинах, тепер вони розлучені.</li>
+    <li>sent->Це було останньою краплею в їх відносинах. Вони розлучаються.</li>
   </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
   
   <!-- EN:
@@ -28,9 +28,9 @@
     <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
   -->
   <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
-    <li>sent->[RECIPIENT_nameDef] заінтересовався і тепер вони з [INITIATOR_nameDef] зустрічаються.</li>
-    <li>sent->[RECIPIENT_nameDef] відповідає взаємністю і тепер вони з [INITIATOR_nameDef] починають зустрічатись.</li>
-    <li>sent->[RECIPIENT_nameDef] приходить в захват і погоджується зустрічатись з [INITIATOR_nameDef].</li>
+    <li>sent->[RECIPIENT_nameDef] виглядає {RECIPIENT_gender ? зацікавленим : зацікавленою}. Вони тепер зустрічаються.</li>
+    <li>sent->[RECIPIENT_nameDef] відповідає [INITIATOR_objective] взаємністю. Вони тепер зустрічаються.</li>
+    <li>sent->[RECIPIENT_nameDef] просто в захваті!  Вони тепер зустрічаються.</li>
   </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
@@ -44,12 +44,12 @@
   -->
   <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
     <li>sent->[RECIPIENT_nameDef] відмовляється від пропозиції.</li>
-    <li>sent->[RECIPIENT_nameDef] ігнорує пропозицію.</li>
-    <li>sent->[RECIPIENT_nameDef] повертається спиною до [RECIPIENT_possessive].</li>
+    <li>sent->[RECIPIENT_nameDef] робить вигляд, що не {RECIPIENT_gender ? почув : почула} [INITIATOR_possessive].</li>
+    <li>sent->[RECIPIENT_nameDef] повертається спиною до {INITIATOR_gender ? нього : неї}.</li>
     <li>sent->[RECIPIENT_nameDef] відвертається.</li>
-    <li>sent->[RECIPIENT_nameDef] майже не реагує.</li>
+    <li>sent->[RECIPIENT_nameDef] ніяк не реагує.</li>
     <li>sent->[RECIPIENT_nameDef] не відповідає.</li>
-    <li>sent->[RECIPIENT_nameDef] відшиває [INITIATOR_objective].</li>
+    <li>sent->[RECIPIENT_nameDef] відшиває [INITIATOR_possessive].</li>
   </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>

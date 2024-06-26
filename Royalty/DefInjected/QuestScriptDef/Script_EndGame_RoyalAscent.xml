@@ -9,10 +9,12 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>[intro][asker_faction_leaderTitle] [asker_faction_name] здійснить звичайний візит до будь-якого графа свого домену за запитом. Запросіть його, задовольніть його королівські потреби протягом [shuttleDelayTicks_duration], і ви всі зможете злітати на шатлі до імперської флотилії. Потім ви можете приєднатися до імператорського двору або втекти до нового життя серед зірок.\n\nОтримання титулу Графа означає виконання квестів, щоб отримати [asker_faction_royalFavorLabel] з [asker_faction_name]. Щоб нарешті отримати титул графа, можуть знадобитися роки.\n\nПід час його візиту ви повинні підтримувати його настрій вище [lodgersMoodThreshold_percent]. Це означає надання королівських переваг, таких як розкішна спальня.[threatsInfo]\n\n[asker_faction_leaderTitle] приведе чотирьох своїх особистих охоронців і віддасть їх під ваше командування. Ви повинні розмістити цих охоронців, але [asker_faction_leaderTitle] не буде скаржитися, якщо вони будуть убиті або незадоволені.\n\nВи повинні тримати відвідувачів на [map_definite] і не посилати їх кудись. Якщо ви провалите цей квест або переїдете, у вас буде інший шанс пізніше.</li>
-    <li>intro(sameQuestsCount==0)->Ви дізналися про спосіб як покинути цю планету!\n\n</li>
-    <li>intro(sameQuestsCount>=1)->Вам дали ще один шанс на королівське сходження.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nІнші скористаються можливістю спробувати вбити [asker_faction_leaderTitle], і будуть атакувати з великою інтенсивністю. Будьте готові до захисту.</li>
+    <li>questDescription->[intro][asker_faction_leaderTitle] фракції [asker_faction_name] відвідає вас в якості гостя. Задовольняйте {asker_gender ? його : її} королівські потреби протягом [shuttleDelayTicks_duration] і {asker_gender ? він : вона} надасть вам можливість дістатися шатлом до флоту імперії, після чого ви можете приєднатися до імператорського двору або відправитися до нового життя серед зірок.
+		\n\nЩоб отримати титул Графа фракції [asker_faction_name], вам потрібно накопичити достатню кількість {lookup: [asker_faction_royalFavorLabel]; Case; 1}, яка здебільшого здобувається за виконання доручень. На це можуть знадобитися роки.\n\nПід час {asker_gender ? його : її} візиту, ви повинні підтримувати {asker_gender ? його : її} настрій вище [lodgersMoodThreshold_percent] та мати умови, які відповідають {asker_gender ? його : її} титулу.[threatsInfo]
+		\n\n[asker_faction_leaderTitle] приведе чотирьох своїх особистих охоронців і віддасть їх під ваше командування, ви повинні надати їм ліжка. [asker_faction_leaderTitle] не буде скаржитися, якщо вони загинуть в бою чи будуть незадоволені.\n\nВи повинні тримати гостів в межах [map_definite] і нікуди їх не посилати. Якщо ви провалите це завдання, вам, згодом, нададуть ще одну можливість.</li>
+    <li>intro(sameQuestsCount==0)->Ви дізналися про можливість покинути цю планету!\n\n</li>
+    <li>intro(sameQuestsCount>=1)->Вам випала ще одна можливість на королівське сходження.\n\n</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nІнші скористаються можливістю дістати {lookup: [asker_faction_leaderTitle]; Case; 1} в менш захищеному місці, і будуть атакувати вас з великою інтенсивністю. Підготуйте надійну оборону.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -32,64 +34,64 @@
     <li>titleEnd->піднесення</li>
     <li>titleEnd->відвідання</li>
     <li>titleEnd->гостювання</li>
-    <li>titleEnd->головування</li>
-    <li>titleEnd->закінчення</li>
+    <li>titleEnd->сходження</li>
+    <li>titleEnd->Victory</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Завдання провалене: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
+  <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Завдання провалено: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
   <!-- EN: [faction_name] became hostile to you.  -->
-  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>[faction_name] став ворожо відноситись до вас.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
+  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>Фракція [faction_name] стала ворожою до вас.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
-  <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>змінився голова фракції</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>[asker_nameDef] більше не лідер фракції</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] прибув</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] {asker_gender ? прийшов : прийшла}</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_leaderTitle] [asker_faction_name] прибув.\n\nЗахищайте його та задовольняйте його королівські потреби, доки шатл не прибуде через [shuttleDelayTicks_duration].\n\nУсі ви можете супроводжувати [asker_faction_leaderTitle] на шатлі та подорожувати до Імперської флотилії, щоб почати нове життя.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_leaderTitle] фракції [asker_faction_name] {asker_gender ? прийшов : прийшла}.\n\nЗахищайте {asker_gender ? його : її} та задовольняйте {asker_gender ? його : її} королівські потреби, доки не прибуде шатл (через [shuttleDelayTicks_duration]).\n\nУсі ваші колоністи зможуть супроводжувати {lookup: [asker_faction_leaderTitle]; Case; 3} шатлом, щоб розпочати нове життя.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Гість помер: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Гість {asker_gender ? помер : померла}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_definite}, як{INITIATOR_gender ? ого : у} вам доручили захищати, помер.[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати, помер : яку ви зобов'язалися захищати, померла}.[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>Має відправитись на шатлі</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>Шатл прибув</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>Шатл прилетів</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>Шатл прибув, щоб забрати [asker_faction_leaderTitle].\n\nУсі ви можете супроводжувати [asker_faction_leaderTitle] на шатлі та подорожувати до Імперської флотилії, щоб почати нове життя.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>Висланий за [asker_nameDef] шатл прилетів.\n\nУсі ваші колоністи зможуть супроводжувати {lookup: [asker_faction_leaderTitle]; Case; 3} шатлом, щоб розпочати нове життя.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
-  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Високий стеларх тепер вітатиме вас в імперській флотилії як почесну шляхетну группу.\n\nВи можете залишитися в імператорському дворі та боротися за політичну владу. Можливо, ви уникнете драми та зосередитеся на насолоді ультратехнологічною розкішшю. Або ви навіть можете купити корабель і взяти курс на свій давно втрачений дім.\n\nВибір тільки за вами.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
+  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Вищий Стелларх тепер вітатиме вас в імперській флотилії як почесну групу.\n\nВи можете залишитися в імператорському дворі та боротися за політичну владу. Можливо, ви уникнете драми та будете насолоджуватися ультратехнологічною розкішшю. Або ви навіть можете купити корабель і взяти курс на свій давно втрачений дім.\n\nВибір тільки за вами.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
-  <EndGame_RoyalAscent.EndGameIntroText.slateRef>Ви втекли на Імператорському шатлі!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
+  <EndGame_RoyalAscent.EndGameIntroText.slateRef>Ви покинули цю планету на Імператорському шатлі!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
-  <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle} нещасний</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
+  <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>У {asker_bestRoyalTitle} поганий настрій</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite}, як{INITIATOR_gender ? ого : у} вам доручили захищати та підтримувати щасливою, надто довго перебував у настрої нижче мінімального [lodgersMoodThreshold]. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
+  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite}, {asker_gender ? якого : яку} ви зобов'язалися захищати та підтримувати у гарному настрої, задовго перебуває у настрої нижче мінімального ([lodgersMoodThreshold]). [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Гість у полоні: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Арешт: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>{SUBJECT_definite}, особу що ви повинні були захищати, заарештовано. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>{SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати, заарештований : яку ви зобов'язалися захищати, заарештована}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>Заборонена операція: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
+  <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>Примусова операція: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Проведення операції яка нанесла шкоду {SUBJECT_definite} як{INITIATOR_gender ? ого : у} вам дали захищати. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
+  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Проведення примусової, нелегальної операції над {SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати : яку ви зобов'язалися захищати}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Поглинання ксеногену: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Вилучено ксенозародок: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, якого вам доручено захищати, насильно поглинув ксеноген {SUBJECT_possessive}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>Примусово вилучено ксенозародок у {SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати : яку ви зобов'язалися захищати}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Гість загубився: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Guest lost: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}, як{INITIATOR_gender ? ого : у} вам було доручено захищати, покинув межі визначенного поселення.[failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>Шатл зруйновано</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>Шатл знищено</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>Шатл, надісланий за [asker_faction_leaderTitle], було знищено. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>Гість втік: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>Гість {asker_gender ? утік : втекла}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, як{INITIATOR_gender ? ого : у} вам було доручено захищати втік. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати, втік : яку ви зобов'язалися захищати, втекла}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Завдання провалено: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Quest failed: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>Шаттл, надісланий за [asker_faction_leaderTitle], відлетів без [asker_objective]. [asker_pronoun] тепер піде пішки. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

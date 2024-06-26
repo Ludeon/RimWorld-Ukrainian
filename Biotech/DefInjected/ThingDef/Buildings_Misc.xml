@@ -2,48 +2,50 @@
 <LanguageData>
   
   <!-- EN: band node -->
-  <BandNode.label>смуговий вузол</BandNode.label>
+  <BandNode.label>вузол зв'язку</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>Підсилювач сигналу смуги механоїдів. Смугові вузли повинні бути налаштовані на певний механітор. Це додасть 1 смугу до загальної смуги цього механізму, дозволяючи їм контролювати більше механоїдів.\n\nПісля створення вузла смуги його можна швидко налаштувати на механітора. Однак заміна смугового вузла на інший займає значно більше часу.</BandNode.description>
+  <BandNode.description>Підсилювач сигналу механоїдів. Вузли зв'язку повинні бути налаштовані на конкретного механізатора. Це збільшить його пропускну здатність, дозволяючи контролювати більше механоїдів.\n\nПерше налаштування вузлу зв'язку займає небагато часу, але якщо ви пізніше захочете переналаштувати на іншого механізатора, це займе значно більше часу.</BandNode.description>
   
   <!-- EN: mechband antenna -->
-  <BurnoutMechlinkBooster.label>мехдіапазонна антена</BurnoutMechlinkBooster.label>
+  <BurnoutMechlinkBooster.label>мех-діапазонна антена</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
-  <BurnoutMechlinkBooster.description>Сигналізатор на мехдіапазоні. Коли його активовано, він видає потужний сигнальний імпульс механізму, який привабить надважкого дикого механоїда до атаки зі своїм супроводом. Якщо ви можете перемогти його, ви можете зібрати спеціальні технології з його трупа. Імпульс сигналу спалює передавач, тому цю будівлю можна використовувати лише один раз.</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.description>Пристрій для відправлення сигналу в мех-діапазоні. При активації випускає потужний сигнал, який привертає увагу надважкого механоїда та його супроводу. Якщо ви переможете їх, ви зможете отримати доступ до спеціальних технологій. Сигнал настільки потужний, що спалює трансмітер. Тому цей пристрій одноразовий.</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
-  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Виклик королеви війни</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Викликати королеву війни</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
   <!-- EN: gene assembler -->
   <GeneAssembler.label>збирач генів</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
-  <GeneAssembler.description>Верстак для створення імплантованих ксеногенів із пакетів генів, що зберігаються в банках генів поблизу. Генопаки не витрачаються в цьому процесі та можуть бути використані повторно.</GeneAssembler.description>
+  <GeneAssembler.description>Верстат для створення ксенозародків із генопаків, що зберігаються в банках генів поблизу. Генопаки не витрачаються в цьому процесі та можуть бути використані повторно.</GeneAssembler.description>
   
   <!-- EN: gene bank -->
   <GeneBank.label>банк генів</GeneBank.label>
   <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
-  <GeneBank.description>Ця будівля може зберігати пакети генів і робити їх придатними для створення нових ксеногенів, якщо розмістити їх біля збирача генів. Великі генні бібліотеки вимагають багатьох генних банків.\n\nПри включенні генні банки запобігають пошкодженню генетичних пакетів і повільно відновлюють пошкодження.</GeneBank.description>
+  <GeneBank.description>Ця споруда може зберігати генопаки і робити їх придатними для створення нових ксенозародків, якщо розмістити їх біля збирача генів. Великі генні бібліотеки потребують багатьох генних банків.\n\nПід час роботи, банки генів запобігають пошкодженню генопаків і повільно відновлюють наявні пошкодження.</GeneBank.description>
   
   <!-- EN: gene extractor -->
-  <GeneExtractor.label>екстрактор генів</GeneExtractor.label>
+  <GeneExtractor.label>генний екстрактор</GeneExtractor.label>
   <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
-  <GeneExtractor.description>Автоматизована хірургічна машина, яка може витягувати гени людини та створювати з них генпак. Витягнуті гени будуть випадковим чином вибрані з ксеногенів людини та генів зародкової лінії. Ви можете змусити когось увійти в машину, але їм це не сподобається.\n\nВилучення генів людини під час відновлення їхнього гена вб’є її. В іншому випадку екстракція генів не завдає тривалої шкоди.\n\nГени, які потребують архітових капсул, надто складні, щоб їх виділити.</GeneExtractor.description>
+  <GeneExtractor.description>Автоматизована хірургічна машина, яка може витягувати гени людини та створювати з них генопак. Витягнуті гени будуть випадковим чином вибрані з ксенозародку людини та успадкованих генів. Ви можете когось загнати цей пристрій, але їм це не сподобається.\n\nВилучення генів під час їх відновлення вб'є людину. В іншому випадку екстракція не завдає тривалої шкоди.\n\nГени, що потребують архітних капсул надто комплексні для вилучення.</GeneExtractor.description>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>генний процесор</GeneProcessor.label>
   <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
-  <GeneProcessor.description>Система генетичного аналізу та обробки. Розміщений біля збирача генів, він збільшує максимальну генетичну складність ксеногенів, які ви можете зібрати. Створення кількох генних процесорів ще більше збільшить межу генетичної складності.</GeneProcessor.description>
+  <GeneProcessor.description>Система генетичного аналізу та обробки. Розміщений біля збирача генів, він збільшує максимальну комплексність ксенозародків, які ви можете зібрати. Більше процесорів дадуть додаткове збільшення максимальної комплексності.</GeneProcessor.description>
+  <!-- EN: Gene complexity increase -->
+  <GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>Підвищення комплексності генів</GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>
   
   <!-- EN: growth vat -->
-  <GrowthVat.label>камера вирощування</GrowthVat.label>
+  <GrowthVat.label>інкубатор</GrowthVat.label>
   <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
-  <GrowthVat.description>Чан із рідиною, який може виношувати ембріон або прискорювати ріст дитини.\n\nПід час росту чи виношування чан має постійно харчуватися поживними речовинами, щоб забезпечити поживну сировину для росту. Для виношування ембріона потрібно вдвічі більше поживних речовин, ніж для прискорення росту дитини.\n\nЕмбріони виношуються протягом 9 днів до формування дитини. Є ризик ускладнень зі здоров’ям.\n\nРіст дитини можна прискорити лише до 18 років, але не далі. Під час росту навички дитини повільно зростатимуть. Діти, вирощені в ростових чанах, матимуть нижчі навички та отримають менше пристрастей, ніж зазвичай.\n\nПристрій використовує хімічні ін’єкції, електричну стимуляцію та прості механічні процедури, щоб підштовхнути тіло до зростання. Чани для росту часто використовуються для швидкого виготовлення робітників або воїнів.</GrowthVat.description>
+  <GrowthVat.description>Камера з рідиною, яка сприяє розвитку ембріона або прискорює ріст дитини.\n\nПід час росту або виношування, камеру необхідно постійно підтримувати поживними речовинами, щоб забезпечити поживну сировину для росту. Виношування ембріона вимагає вдвічі більше сировини, ніж прискорення росту дитини.\n\nЕмбріони виношуються протягом 9 днів до того, як утвориться дитина. Є ризик виникнення проблем зі здоров'ям.\n\nПрискорити ріст можна лише до 18 років. Під час росту навички дитини повільно зростатимуть. Діти, вирощені в інкубаторах, матимуть нижчі навички та отримають менше пристрастей, ніж зазвичай.\n\nПристрій використовує хімічні ін’єкції, електростимуляцію та прості механічні процедури, щоб стимулювати тіло до росту. Інкубатори часто використовуються для швидкого виготовлення робітників або воїнів.</GrowthVat.description>
   
   <!-- EN: mechband dish -->
-  <MechbandDish.label>мехдіапазонна тарілка</MechbandDish.label>
+  <MechbandDish.label>мех-діапазонна станція</MechbandDish.label>
   <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
-  <MechbandDish.description>Сигнальний пристрій мехдіапазону, потужніший за звичайну мехлінкову антену. Коли його активовано, він видає надпотужний сигнальний імпульс механізму, який приверне командира механоїда до атаки зі своїм ескортом. Якщо ви можете перемогти його, ви можете зібрати спеціальні технології з його трупа. Сигнальний імпульс спалює тарілку, тому цю будівлю можна використовувати тільки один раз.</MechbandDish.description>
+  <MechbandDish.description>Пристрій для відправлення сигналу в мех-діапазоні, значно потужніший, ніж мех-діапазонна антена.При активації випускає потужний сигнал, який привертає увагу надважкого механоїда та його супроводу. Якщо ви переможете їх, ви зможете отримати доступ до спеціальних технологій. Сигнал настільки потужний, що спалює станцію. Тому цей пристрій одноразовий.</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
-  <MechbandDish.comps.CompUsable.useLabel>Виклик апокриптона</MechbandDish.comps.CompUsable.useLabel>
+  <MechbandDish.comps.CompUsable.useLabel>Викликати сотника</MechbandDish.comps.CompUsable.useLabel>
   
   <!-- EN: mech booster -->
   <MechBooster.label>підсилювач механоїдів</MechBooster.label>
@@ -51,38 +53,38 @@
   <MechBooster.description>Дистанційний пристрій для покращення енергії та обчислень. Будь-які дружні механоїди в його радіусі дії рухатимуться та працюватимуть швидше.</MechBooster.description>
   
   <!-- EN: pollution pump -->
-  <PollutionPump.label>фільтраційна помпа</PollutionPump.label>
+  <PollutionPump.label>помпа для забруднень</PollutionPump.label>
   <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
   <PollutionPump.description>Помпа для фільтрації ґрунтових вод, яка повільно очищає забруднену місцевість. Витягнуте забруднення перетворюється на токсичні пакети відходів, які необхідно вивозити.</PollutionPump.description>
   
   <!-- EN: blood torch -->
-  <SanguphageMeetingTorch.label>смолоскип крові</SanguphageMeetingTorch.label>
+  <SanguphageMeetingTorch.label>кривавий смолоскип</SanguphageMeetingTorch.label>
   <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
-  <SanguphageMeetingTorch.description>Спеціально оброблений дерев’яний смолоскип, який випромінює червоне світло на велику площу. Сангофаги збираються навколо таких факелів під час своїх урочистих зустрічей. Криваве сяйво особливо подобається особам з геном кровожерства. Він може автоматично заправлятися дровами й виробляє невелику кількість тепла.</SanguphageMeetingTorch.description>
+  <SanguphageMeetingTorch.description>Спеціально оброблений дерев’яний факел, який випромінює червоне світло на велику площу. Сангвофаги збираються навколо таких факелів під час своїх урочистих зустрічей. Сангвінічне сяйво особливо подобається особам з геном кровопивства. Він може автоматично заправлятися дровами і виробляє невелику кількість тепла.</SanguphageMeetingTorch.description>
   
   <!-- EN: crashed shuttle -->
   <ShuttleCrashed_Exitable.label>розбитий шатл</ShuttleCrashed_Exitable.label>
   <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
-  <ShuttleCrashed_Exitable.description>Космічний технічний шатл, призначений для транзиту між поверхнею та орбітою або між супутниками планетної системи.</ShuttleCrashed_Exitable.description>
+  <ShuttleCrashed_Exitable.description>Космічний шатл, розроблений для подорожей від поверхні до орбіти, або між планетою та супутниками.</ShuttleCrashed_Exitable.description>
   
   <!-- EN: crashed mechanitor ship -->
-  <ShuttleCrashed_Exitable_Mechanitor.label>розбитий шаттл механітора</ShuttleCrashed_Exitable_Mechanitor.label>
+  <ShuttleCrashed_Exitable_Mechanitor.label>розбитий корабель механізатора</ShuttleCrashed_Exitable_Mechanitor.label>
   <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
-  <ShuttleCrashed_Exitable_Mechanitor.description>Корабель малого радіуса дії, який використовується механітором для транспортування механоїдів для низькоорбітальних або планетарних подорожей.</ShuttleCrashed_Exitable_Mechanitor.description>
+  <ShuttleCrashed_Exitable_Mechanitor.description>Корабель малого радіусу дії, який використовується механізатором для транспортування механоїдів, для низькоорбітальних або міжпланетних подорожей.</ShuttleCrashed_Exitable_Mechanitor.description>
   
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>токсичний генератор</ToxifierGenerator.label>
   <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
-  <ToxifierGenerator.description>Цей електрогенератор дуже повільно забруднює місцевість у радіусі навколо себе, виробляючи енергію. Якщо вся місцевість в радіусі забруднена, генератор вимкнеться.</ToxifierGenerator.description>
+  <ToxifierGenerator.description>Генератор, що виробляє енергію й повільно забруднює прилеглу місцевість. Якщо вся місцевість навколо генератора забруднена - припиняє роботу.</ToxifierGenerator.description>
   
   <!-- EN: IED tox trap -->
-  <TrapIED_ToxGas.label>СВП токсична пастка</TrapIED_ToxGas.label>
+  <TrapIED_ToxGas.label>токсична пастка</TrapIED_ToxGas.label>
   <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_ToxGas.description>Пара оболонок з отруйним газом, з’єднаних зі спусковим гачком, який детонує від дотику або удару кулі. Оскільки він прихований у навколишній місцевості, його не можна розміщувати поруч з іншими пастками. Тварини можуть це відчути, коли спокійні.</TrapIED_ToxGas.description>
+  <TrapIED_ToxGas.description>Пара снарядів з токсичним газом, з’єднаних зі спусковим гачком, які детонують від дотику або пострілу. Оскільки пастки призначені для прихованого встановлення, їх не можна ставити поряд з іншими подібними пристроями. Тварини у спокійному стані обходять міни та пастки стороною, але все-одно можуть зачепити їх.</TrapIED_ToxGas.description>
   
   <!-- EN: wastepack atomizer -->
-  <WastepackAtomizer.label>розпилювач відходів</WastepackAtomizer.label>
+  <WastepackAtomizer.label>розщеплювач відходів</WastepackAtomizer.label>
   <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
-  <WastepackAtomizer.description>Пристрій, який розкладає токсичні відходи на інертні гази за допомогою передових молекулярних процесів. Процес вимагає значної кількості енергії.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>Пристрій з блискосвітів, який розкладає токсичні відходи на інертні гази за допомогою передових молекулярних процесів. Процес вимагає значної кількості енергії.</WastepackAtomizer.description>
   
 </LanguageData>

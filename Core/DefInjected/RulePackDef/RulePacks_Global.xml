@@ -51,53 +51,53 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
-    <li>Trans->з</li>
-    <li>Trans->для</li>
-    <li>Trans->від</li>
-    <li>Trans->разом</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->два</li>
-    <li>Quantity_adjphrase->три</li>
-    <li>Quantity_adjphrase->чотири</li>
-    <li>Quantity_adjphrase->п'ять</li>
-    <li>Quantity_adjphrase->шість</li>
-    <li>Quantity_adjphrase->сім</li>
-    <li>Quantity_adjphrase->вісім</li>
-    <li>Quantity_adjphrase->дев'ять</li>
-    <li>Quantity_adjphrase->десять</li>
-    <li>Quantity_adjphrase->кілька</li>
-    <li>Quantity_adjphrase->група з</li>
-    <li>Quantity_adjphrase->велика група із</li>
-    <li>Quantity_adjphrase->десятки з</li>
-    <li>Quantity_adjphrase->сотні з</li>
-    <li>Quantity_adjphrase->тисяча</li>
-    <li>Quantity_adjphrase->тисячи з</li>
-    <li>Shape->трикутник</li>
-    <li>Shape->квадрат</li>
-    <li>Shape->прямокутник</li>
-    <li>Shape->конус</li>
-    <li>Shape->лінія</li>
-    <li>Shape->серце</li>
-    <li>Shape->зірка</li>
-    <li>Shape->коло</li>
-    <li>Shape->еліпс</li>
+    <li>CharacterMasc(p=6)->[PersonJobMasc]</li>
+    <li>CharacterMasc(p=4)->[AnimalMasc]</li>
+    <li>CharacterMasc(p=3)->[Enemy]</li>
+    <li>CharacterMasc->[Mechanoid]</li>
+    <li>CharacterFem(p=6)->[PersonJobFem]</li>
+    <li>CharacterFem(p=4)->[AnimalFem]</li>
+    <li>CharacterFem(p=3)->[EnemyFem]</li>
+    <li>CharacterAcc(p=6)->[PersonJobAcc]</li>
+    <li>CharacterAcc(p=4)->[AnimalAcc]</li>
+    <li>CharacterAcc(p=3)->[EnemyAcc]</li>
+    <li>CharacterAcc->[MechanoidAcc]</li>
+    <li>CharacterGen(p=6)->[PersonJobGen]</li>
+    <li>CharacterGen(p=4)->[AnimalGen]</li>
+    <li>CharacterGen(p=3)->[EnemyGen]</li>
+    <li>CharacterGen->[MechanoidGen]</li>
+    <li>CharacterPluGen(p=6)->[PersonJobPluGen]</li>
+    <li>CharacterPluGen(p=4)->[AnimalPluGen]</li>
+    <li>CharacterPluGen(p=3)->[EnemyPluGen]</li>
+    <li>CharacterPluGen->[MechanoidPluGen]</li>
+    <li>CharacterAnyGen->[CharacterGen]</li>
+    <li>CharacterAnyGen->[CharacterPluGen]</li>
+    <li>CharacterPluAbl(p=6)->[PersonJobPluAbl]</li>
+    <li>CharacterPluAbl(p=4)->[AnimalPluAbl]</li>
+    <li>CharacterPluAbl(p=3)->[EnemyPluAbl]</li>
+    <li>CharacterPluAbl->[MechanoidPluAbl]</li>
+    <li>Shape->трикутників</li>
+    <li>Shape->квадратів</li>
+    <li>Shape->прямокутників</li>
+    <li>Shape->конусів</li>
+    <li>Shape->ліній</li>
+    <li>Shape->сердець</li>
+    <li>Shape->зірок</li>
+    <li>Shape->кіл</li>
+    <li>Shape->овалів</li>
     <li>AdjectiveAny->[AdjectiveBadass]</li>
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
     <li>AdjectiveAny->[AdjectiveNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
-    <li>PersonalCharacteristic(p=0.15)->геніталії</li>
-    <li>PersonalCharacteristic(p=0.15)->лобкове волосся</li>
-    <li>PersonalCharacteristic(p=0.15)->волосся на тілі</li>
-    <li>PersonalCharacteristic(p=0.15)->туалетні звички</li>
-    <li>PersonalCharacteristic(p=0.15)->сексуальна доблесть</li>
-    <li>PersonalCharacteristic(p=0.15)->сексуальні уподобання</li>
-    <li>PersonalCharacteristic(p=0.15)->сексуальний досвід</li>
+    <li>AdjectiveAnyCap->[AdjectiveBadassCap]</li>
+    <li>AdjectiveAnyCap->[AdjectiveAngstyCap]</li>
+    <li>AdjectiveAnyCap->[AdjectiveFriendlyCap]</li>
+    <li>AdjectiveAnyCap->[AdjectiveNaturalCap]</li>
+    <li>AdjectiveAnyFem->[AdjectiveBadassFem]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -140,43 +140,43 @@
     <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
   -->
   <TalkTopicsUtility.rulePack.rulesStrings>
+    <li>TalkAnyReason->[Game]</li>
+    <li>TalkAnyReason->[AnimalMasc]</li>
+    <li>TalkAnyReason->[Weapon]</li>
+    <li>TalkAnyReason->[TerrainFeature]</li>
+    <li>TalkAnyReason->[Character]</li>
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
-    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->контакти між [talktopicheavyfile] і [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->зв'язок між [talktopicheavyfile] та [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->віднросини між [talktopicheavyfile] і [talktopicheavyfile]</li>
-    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]</li>
-    <li>TalkTopicLight->про користь [Vegetable]</li>
-    <li>TalkTopicLight->про готування з [Vegetable]</li>
-    <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->грає [Game]</li>
-    <li>TalkTopicLight->практика [Game]</li>
-    <li>TalkTopicLight->навчався [Game]</li>
-    <li>TalkTopicLight->[Animal]</li>
-    <li>TalkTopicLight->тренує [Animal]</li>
-    <li>TalkTopicLight->приручує [Animal]</li>
-    <li>TalkTopicLight->бореться [Animal]</li>
-    <li>TalkTopicLight->шалені [Animal]</li>
-    <li>TalkTopicLight->[Weapon]</li>
-    <li>TalkTopicLight->використовує [Weapon]</li>
-    <li>TalkTopicLight->практикується з [Weapon]</li>
-    <li>TalkTopicLight->[TerrainFeature]</li>
-    <li>TalkTopicLight->[NaturalObject]</li>
-    <li>TalkTopicLight->[TreeType] дерева</li>
-    <li>TalkTopicLight->[PersonJob]</li>
-    <li>TalkTopicLight->дружній [PersonJob]</li>
-    <li>TalkTopicLight->ворожий [PersonJob]</li>
-    <li>TalkTopicLight->[Enemy]</li>
-    <li>TalkTopicLight->бореться [Enemy]</li>
-    <li>TalkTopicLight->[Apparel]</li>
-    <li>TalkTopicLight->одягнуто [Apparel]</li>
-    <li>TalkTopicLight->зроблено [Apparel]</li>
-    <li>talktopicheavyfile(p=0.15)->секс</li>
-    <li>talktopicheavyfile(p=0.15)->спокуса</li>
-    <li>talktopicheavyfile(p=0.15)->тваринна сексуальність</li>
-    <li>talktopicheavyfile(p=0.15)->сексуальні фетиші</li>
+    <li>TalkTopicHeavy->про [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=30)->про те, як [TalkAnyReason] може вплинути на [talktopicheavyfile]</li>
+    <li>TalkTopicAny(p=30)->про зв'язок між [TalkAnyReasonAbl] та [TalkAnyReasonAbl]</li>
+    <li>TalkTopicAny(p=30)->про те, як [TalkAnyReason] може вплинути на [TalkAnyReasonAcc]</li>
+    <li>TalkTopicLight(p=25)->про [talktopiclightfile]</li>
+    <li>TalkTopicLight->про [VegetableAcc]</li>
+    <li>TalkTopicLight->про користь [VegetableGen]</li>
+    <li>TalkTopicLight->про способи приготування [VegetableGen]</li>
+    <li>TalkTopicLight->про [Game]</li>
+    <li>TalkTopicLight->про правила гри в [Game]</li>
+    <li>TalkTopicLight->про практику гри в [Game]</li>
+    <li>TalkTopicLight->про [AnimalGen]</li>
+    <li>TalkTopicLight->про способи приручення [AnimalGen]</li>
+    <li>TalkTopicLight->про способи тренування [AnimalGen]</li>
+    <li>TalkTopicLight->про те, як б'ється [Animal]</li>
+    <li>TalkTopicLight->про небезпечність [AnimalGen]</li>
+    <li>TalkTopicLight->про [WeaponAcc]</li>
+    <li>TalkTopicLight->про те, як використовувати [WeaponAcc]</li>
+    <li>TalkTopicLight->про небезпечність [WeaponGen]</li>
+    <li>TalkTopicLight->про [TerrainFeatureAcc]</li>
+    <li>TalkTopicLight->про [NaturalObject]</li>
+    <li>TalkTopicLight->про [TreeTypeAcc]</li>
+    <li>TalkTopicLight->про [PersonJobPluGen]</li>
+    <li>TalkTopicLight->про [EnemyPluGen]</li>
+    <li>TalkTopicLight->про те, як перемогти [EnemyPluGen]</li>
+    <li>TalkTopicLight->про небезпеки, які можуть становити [EnemyPlu]</li>
+    <li>TalkTopicLight->про [ApparelAcc]</li>
+    <li>TalkTopicLight->про те, як носити [ApparelAcc]</li>
+    <li>TalkTopicLight->про те, як зробити [ApparelAcc]</li>
+    <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>

@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: animal chat -->
-  <AnimalChat.label>чат тварини</AnimalChat.label>
+  <AnimalChat.label>спілкування з твариною</AnimalChat.label>
   <!-- EN:
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
@@ -29,31 +29,31 @@
   -->
   <AnimalChat.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] сів біля [RECIPIENT_nameDef] та спілкувався з [INITIATOR_objective]про [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] наближався до [RECIPIENT_nameDef] шепотівши [INITIATOR_objective]про [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] наблизився до [RECIPIENT_nameDef] поки розмовляв [INITIATOR_objective]про [TalkTopicAny].</li>
-    <li>tamed->видає заспокійливі звуки</li>
-    <li>tamed->робить повільні, доброзичливі жести</li>
-    <li>tamed->видає шиплячий звук</li>
-    <li>tamed->робить радісні клікаючі звуки</li>
-    <li>tamed->м'яко жестикулює та наближається</li>
-    <li>tamed->повільно наближується</li>
-    <li>tamed->ніжно доторкнувся</li>
-    <li>tamed->заспокоїв та підбадьорив</li>
-    <li>tamed->дихає в один такт</li>
-    <li>tamed->наближувався в присядь</li>
-    <li>tamed->не виказує ніяких ознак страху чи гніву</li>
-    <li>tamed->робить вигляд, що не помічає</li>
-    <li>tamed->ніжно мурликає якусь пісню</li>
-    <li>tamed->заспівав старовинну колискову</li>
+    <li>r_logentry->[INITIATOR_nameDef] сідає біля [RECIPIENT_nameDef] та розказує [RECIPIENT_objective] [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] наближається до [RECIPIENT_nameDef] та шепоче [RECIPIENT_objective] [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] наближується до [RECIPIENT_nameDef], розповідаючи [TalkTopicAny].</li>
+    <li>tamed->видає заспокійливі звуки в бік</li>
+    <li>tamed->робить повільні, доброзичливі жести до</li>
+    <li>tamed->свистить в сторону</li>
+    <li>tamed->робить радісні клікаючі звуки в бік</li>
+    <li>tamed->м'яко жестикулює та наближується до</li>
+    <li>tamed->повільно наближується до</li>
+    <li>tamed->ніжно дотикається до</li>
+    <li>tamed->заспокоює та підбадьорює</li>
+    <li>tamed->дихає в один такт з</li>
+    <li>tamed->наближувався в присядь до</li>
+    <li>tamed->не виказує ніяких ознак страху чи гніву до</li>
+    <li>tamed->ніжно муркоче якусь пісню до</li>
+    <li>tamed->заспівав старовинну колискову до</li>
     <li>tamed->рішуче проте ніжно торкнувся</li>
-    <li>tamed->демонструє байдуже відношення</li>
-    <li>tamed->терпляче сидить поряд</li>
-    <li>tamed->прошепотів історію про [TalkTopicAny] до</li>
+    <li>tamed->терпляче сидить поряд з</li>
+    <li>tamed->проявляє спокійне ставлення до</li>
+    <li>tamed->терпляче сидить поряд з</li>
+    <li>tamed->шепоче історію про [TalkTopicAny] до</li>
   </AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
-  <Nuzzle.label>пестити</Nuzzle.label>
+  <Nuzzle.label>ласка</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
@@ -81,30 +81,30 @@
     <li>rubbedpart->arm</li>
   -->
   <Nuzzle.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] потер [INITIATOR_possessive] ніс проти [RECIPIENT_nameDef] [rubbedpart].</li>
-    <li>nuzzled(p=2)->понюхав</li>
-    <li>nuzzled->притиснулась до</li>
-    <li>nuzzleadverb(p=4)-></li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] до [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] до [rubbedpart] [RECIPIENT_nameDef].</li>
+    <li>nuzzled(p=2)->пеститься</li>
+    <li>nuzzled->{INITIATOR_gender ? притиснувся : притиснулась}</li>
     <li>nuzzleadverb->ніжно</li>
     <li>nuzzleadverb->заохочуючи</li>
     <li>nuzzleadverb->щасливо</li>
     <li>nuzzleadverb->м'яко</li>
-    <li>nuzzleadverb->прихильно</li>
-    <li>nuzzleadverb->злегка</li>
     <li>nuzzleadverb->тепло</li>
     <li>nuzzleadverb->жалібно</li>
     <li>nuzzleadverb->любовно</li>
     <li>nuzzleadverb->ласкаво</li>
     <li>rubbedpart->ноги</li>
-    <li>rubbedpart->коліно</li>
-    <li>rubbedpart->стопу</li>
-    <li>rubbedpart->лікоть</li>
-    <li>rubbedpart->стегно</li>
-    <li>rubbedpart->плече</li>
+    <li>rubbedpart->коліна</li>
+    <li>rubbedpart->стопи</li>
+    <li>rubbedpart->ліктя</li>
+    <li>rubbedpart->стегна</li>
+    <li>rubbedpart->плеча</li>
+    <li>rubbedpart->руки</li>
+    <li>rubbedpart->талії</li>
+    <li>rubbedpart->плеча</li>
     <li>rubbedpart->рука</li>
-    <li>rubbedpart->бік</li>
-    <li>rubbedpart->рука</li>
+    <li>rubbedpart->боку</li>
+    <li>rubbedpart->руки</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
@@ -124,20 +124,20 @@
   -->
   <ReleaseToWild.logRulesInitiator.rulesStrings>
     <li>r_logentry->[farewell] [released]</li>
-    <li>farewell->[INITIATOR_nameDef] пестив [RECIPIENT_nameDef] в останній раз</li>
-    <li>farewell->[INITIATOR_nameDef] промовив декілька теплих слів до [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] почистив комір [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] згадував добрі часи, які [INITIATOR_pronoun] провів з [RECIPIENT_nameDef]</li>
-    <li>released-> та випустив [RECIPIENT_objective] на свободу.</li>
-    <li>released->зробив [RECIPIENT_objective] вільним.</li>
-    <li>released->відправив [RECIPIENT_objective] геть.</li>
-    <li>released->і нехай [RECIPIENT_objective] йде.</li>
-    <li>released->потім відвернувся і дозволив [RECIPIENT_objective] покинути поселення.</li>
-    <li>released->перш ніж відпустити [RECIPIENT_objective] жити на свободі.</li>
+    <li>farewell->[INITIATOR_nameDef] пестить [RECIPIENT_nameDef] в останній раз</li>
+    <li>farewell->[INITIATOR_nameDef] промовляє декілька теплих слів до [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] знімає з [RECIPIENT_nameDef] нашийник</li>
+    <li>farewell->[INITIATOR_nameDef] згадує добрі моменти з [RECIPIENT_nameDef]</li>
+    <li>released-> та випускає [RECIPIENT_possessive] на свободу.</li>
+    <li>released->і робить [RECIPIENT_possessive] {RECIPIENT_gender ? вільним : вільною}.</li>
+    <li>released->та відправляє [RECIPIENT_possessive] геть.</li>
+    <li>released->та відпускає [RECIPIENT_possessive].</li>
+    <li>released->потім відвертається і дозволяє [RECIPIENT_objective] покинути колонію.</li>
+    <li>released->перш ніж відпустити [RECIPIENT_possessive] на волю.</li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
-  <TameAttempt.label>спроба приручити</TameAttempt.label>
+  <TameAttempt.label>спроба приручення</TameAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
@@ -156,21 +156,21 @@
     <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
   -->
   <TameAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] спроба приручити [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] приручення [RECIPIENT_nameDef] під контролем.</li>
-    <li>r_logentry->[INITIATOR_nameDef] пробує взяти за комір [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається приручити [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається отримати контроль над [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається надягнути нашийник на [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] потребує слухняності від [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] кличе [RECIPIENT_nameDef] до себе [INITIATOR_objective].</li>
-    <li>r_logentry->[INITIATOR_nameDef] подає команду [RECIPIENT_nameDef] сидіти.</li>
-    <li>r_logentry->[INITIATOR_nameDef] уважно переслідував [RECIPIENT_nameDef] та подав команду.</li>
-    <li>r_logentry->[INITIATOR_nameDef] спроба утримувати [RECIPIENT_nameDef] струнко.</li>
-    <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] доєднатися.</li>
-    <li>r_logentry->[INITIATOR_nameDef] поплескав [RECIPIENT_nameDef] в знак поваги.</li>
-    <li>r_logentry->[INITIATOR_nameDef] направляє [RECIPIENT_nameDef] повернутися назад до спільноти.</li>
-    <li>r_logentry->[INITIATOR_nameDef] кличе [RECIPIENT_nameDef] повернутися назад до спільноти.</li>
-    <li>r_logentry->[INITIATOR_nameDef] затиснув вразливу частину тіла [RECIPIENT_nameDef], вимагаючи слухняності.</li>
-    <li>r_logentry->[INITIATOR_nameDef] вказав на землю з наказом [RECIPIENT_nameDef] підійти.</li>
-    <li>r_logentry->[INITIATOR_nameDef] подав [RECIPIENT_nameDef] першу команду.</li>
+    <li>r_logentry->[INITIATOR_nameDef] кличе [RECIPIENT_nameDef] до себе.</li>
+    <li>r_logentry->[INITIATOR_nameDef] подає до [RECIPIENT_nameDef] команду "сидіти".</li>
+    <li>r_logentry->[INITIATOR_nameDef] уважно спостерігає за [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається утримати [RECIPIENT_nameDef] струнко.</li>
+    <li>r_logentry->[INITIATOR_nameDef] викрикує команду до [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] дає тумака [RECIPIENT_nameDef], демонструючи домінування.</li>
+    <li>r_logentry->[INITIATOR_nameDef] вказує [RECIPIENT_nameDef] на колонію.</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається вговорити [RECIPIENT_nameDef] приєднатися до колонії.</li>
+    <li>r_logentry->[INITIATOR_nameDef] торкається вразливої частини тіла [RECIPIENT_nameDef], вимагаючи покори.</li>
+    <li>r_logentry->[INITIATOR_nameDef] вказує пальцем на землю, вимагаючи, щоб [RECIPIENT_nameDef] туди {RECIPIENT_gender ? пішов : пішла}.</li>
+    <li>r_logentry->[INITIATOR_nameDef] подав до [RECIPIENT_nameDef] першу команду.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: train attempt -->
@@ -191,13 +191,13 @@
     <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
     <li>trained(p=2)->[tried] тренувати</li>
     <li>trained->[tried] показати новий трюк</li>
-    <li>trained->[tried] вишколити</li>
-    <li>trained->[tried] пояснити</li>
-    <li>trained->[tried] перевірити нову навичку у</li>
-    <li>trained->демонструє вивчені навички</li>
-    <li>trained->перевіряє вивчення навичок</li>
-    <li>tried->спробува{INITIATOR_gender ? в : ла}</li>
-    <li>tried->зроби{INITIATOR_gender ? в : ла} спробу</li>
+    <li>trained->[tried] дисциплінувати</li>
+    <li>trained->[tried] пояснити нові навички</li>
+    <li>trained->[tried] закріпити вивчені навичку у</li>
+    <li>trained->демонструє нові навички</li>
+    <li>trained->перевіряє вивчення навичок у</li>
+    <li>tried->намагається</li>
+    <li>tried->attempted</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

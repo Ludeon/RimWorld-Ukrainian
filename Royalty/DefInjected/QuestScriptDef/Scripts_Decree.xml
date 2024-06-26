@@ -5,30 +5,30 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nВи повинні побудувати монумент. Його розмір [monumentSize] та потребує таких ресурсів (загальна вартість [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nВи повинні зберігати пам’ятник цілим [keepMonumentTicks_duration] після завершення, інакше замовник буде незадоволений.</li>
+    <li>questDescription->[decreeIntro]\n\nВи маєте побудувати монумент розміру [monumentSize]. Для будівництва потрібні наступні матеріали (загальна вартість [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nПісля завершення будівництва, вам потрібно захищати монумент протягом [keepMonumentTicks_duration], інакше [asker_nameDef] образиться.</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
   -->
   <Decree_BuildMonument.questNameRules.rulesStrings>
-    <li>questName->наказ про монумент</li>
+    <li>questName->указ про монумент</li>
   </Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
-  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>Новий маркер монументу прибув</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>Прибув новий маркер монументу</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>Оскільки маркер монументу знищено, вам відправлено новий.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>Так як минулий маркер монументу було зруйновано, вам надіслали новий.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>Монумент завершено</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
   <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
-  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>Ви завершили будівництво монументу.\n\nЗберігайте його в безпеці протягом [keepMonumentTicks_duration], інакше [asker_nameDef] буде не задовільнено.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>Ви завершили будівництво монументу.\n\nВи повинні зберігати його протягом [keepMonumentTicks_duration], інакше [asker_nameDef] образиться.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>Монумент знищено</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
-  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] не в собі через те, що ви дозволили зіпсувати монумент невдовзі після завершення\n\n[asker_pronoun] запам'ятає цю безвідповідальність.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] сильно ображається через те, що ви допустили руйнування монументу так швидко.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>Не допустіть руйнування монументу протягом {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>Не допустіть знищення монументу протягом {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>Не допустіть руйнування монументу протягом {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>Не допустіть знищення монументу протягом {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.KeepMonument.slateRef>Зберігайте монумент {0}</Decree_BuildMonument.KeepMonument.slateRef>
   
@@ -36,13 +36,13 @@
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->
   <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nВи повинні зібрати врожай [plantToHarvest_label] x[harvestItemCount].\n\nСпочатку вам доведеться посадити та виростити [plantToHarvest_label].\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nВам необхідно зібрати {lookup: [plantToHarvest_label]; Case; 3} (x[harvestItemCount]).\n\nМожливо, вам спочатку доведеться посадити цю рослину.\n\n[decreeThreatInfo]</li>
   </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[plantToHarvest_label] harvest decree</li>
   -->
   <Decree_HarvestCrop.questNameRules.rulesStrings>
-    <li>questName->наказ про збір ([plantToHarvest_label])</li>
+    <li>questName->указ про збір {lookup: [plantToHarvest_label]; Case; 3}</li>
   </Decree_HarvestCrop.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -51,7 +51,7 @@
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   -->
   <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nВам потрібно вбити на полюванні чи забити [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nВам потрібно вполювати або забити {lookup: [animalToHuntWithCount]; Case; 3}.\n\n[decreeThreatInfo]</li>
     <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
     <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
   </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
@@ -59,20 +59,20 @@
     <li>questName->[animalToHunt_label] hunting decree</li>
   -->
   <Decree_HuntAnimal.questNameRules.rulesStrings>
-    <li>questName->наказ про полювання ([animalToHunt_label])</li>
+    <li>questName->указ про полювання на {lookup: [animalToHuntWithCount]; Case; 3}</li>
   </Decree_HuntAnimal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   -->
   <Decree_ProduceItem.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nВи повинні виготовити:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+    <li>questDescription->[decreeIntro]\n\nВам потрібно виготовити:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
   </Decree_ProduceItem.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
   -->
   <Decree_ProduceItem.questNameRules.rulesStrings>
-    <li>questName->наказ про виробництво [defToProduce_label]</li>
+    <li>questName->Указ про виробництво</li>
   </Decree_ProduceItem.questNameRules.rulesStrings>
   
 </LanguageData>

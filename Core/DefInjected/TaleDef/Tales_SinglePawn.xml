@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: raw humanlike meat eaten -->
-  <AteRawHumanlikeMeat.label>з'їдене сире м'ясо людиноподібної істоти</AteRawHumanlikeMeat.label>
+  <AteRawHumanlikeMeat.label>поїдання людського м'яса</AteRawHumanlikeMeat.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
     <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
@@ -30,37 +30,37 @@
     <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] їсть м'ясо людини</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] м'ясо людини</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] м'ясо людини з руки</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] [eat_gerund] плоть людини</li>
+    <li>tale_noun->[PAWN_nameDef] їсть людське м'ясо</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], [eat_gerund] м'ясо побратима-гуманоїда</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], [eat_gerund] м'ясо з людської руки</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], [eat_gerund] плоть гуманоїда</li>
     <li>eat_gerund->їсть</li>
     <li>eat_gerund->проковтує</li>
-    <li>eat_gerund->жує</li>
     <li>eat_gerund->пережовує</li>
     <li>eat_gerund->споживає</li>
-    <li>eat_gerund->ковтає</li>
-    <li>eat_gerund->пожирає</li>
-    <li>circumstance_phrase->з почуттям мети</li>
-    <li>circumstance_phrase->без сорому</li>
-    <li>circumstance_phrase->соромлячись</li>
-    <li>circumstance_phrase->поки інші дивляться</li>
-    <li>circumstance_phrase->із смаком</li>
-    <li>circumstance_phrase->шалено, наче [PAWN_possessive] життя залежало від цього</li>
-    <li>desc_sentence->Обличчя [PAWN_nameDef] вкрите кров'ю.</li>
-    <li>desc_sentence->[PAWN_nameDef] облизує свої пальці.</li>
-    <li>desc_sentence->[PAWN_nameDef] має крові на собі спереду.</li>
-    <li>desc_sentence->[PAWN_nameDef] знаходиться посеред великої калюжі крові.</li>
-    <li>desc_sentence->[PAWN_nameDef] кровожерливо дивиться на когось поруч.</li>
-    <li>desc_sentence->М'ясо блищить і виглядає дуже соковитим.</li>
-    <li>desc_sentence->Куски м'яса розлітаються по всьому тілу [PAWN_nameDef].</li>
+    <li>circumstance_phrase->без натяку на сором</li>
+    <li>circumstance_phrase->доки інші спостерігають</li>
+    <li>circumstance_phrase->без видимої причини</li>
+    <li>circumstance_phrase->доки збентежені тварини спостерігають</li>
+    <li>circumstance_phrase->із задоволенням</li>
+    <li>circumstance_phrase->шалено, ніби від цього залежить [PAWN_possessive] життя</li>
+    <li>desc_sentence->Обличчя [PAWN_nameDef] вкрито кров'ю та іншими рідинами</li>
+    <li>desc_sentence->[PAWN_nameDef] облизує свої пальці</li>
+    <li>desc_sentence->[PAWN_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[PAWN_nameDef] стоїть посеред невеликого басейну, заповненого кров'ю</li>
+    <li>desc_sentence->[PAWN_nameDef], темним поглядом, дивиться на когось поруч</li>
+    <li>desc_sentence->М'ясо блищить і виглядає дуже соковитим</li>
+    <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+    <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+    <li>desc_sentence->The meat is glistening and appears very succulent.</li>
+    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
   
   <!-- EN: humanlike corpse butchered -->
-  <ButcheredHumanlikeCorpse.label>розчленовано людський труп </ButcheredHumanlikeCorpse.label>
+  <ButcheredHumanlikeCorpse.label>розібрано людське тіло</ButcheredHumanlikeCorpse.label>
   
   <!-- EN: art crafted -->
-  <CraftedArt.label>витвір мистецтва</CraftedArt.label>
+  <CraftedArt.label>створено витвір мистецтва</CraftedArt.label>
   <!-- EN:
     <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
     <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -89,35 +89,35 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] створив [THING_indefinite]</li>
-    <li>image->[PAWN_nameFull] виготовляє [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] закінчує свою працю над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] працює над [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] робить [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>circumstance_phrase->повністю сконцентрувавшись</li>
-    <li>circumstance_phrase->з виразом задоволення на своєму обличчі</li>
-    <li>circumstance_phrase->на своєму робочому столі</li>
-    <li>circumstance_phrase->з великим старанням</li>
-    <li>desc_sentence->Деякі інструменти розкидані навколо.</li>
-    <li>desc_sentence->[PAWN_pronoun] має подряпини та шрами від робочих ушкоджень.</li>
-    <li>desc_sentence->[PAWN_pronoun] у поті.</li>
-    <li>desc_sentence->Робочий простір організовано так, що кожен інструмент на своєму місці.</li>
-    <li>desc_sentence->[PAWN_pronoun] передається у перебільшений спосіб, щоб виглядати потужнішим.</li>
-    <li>desc_sentence->Розмір [THING_definite] перебільшено, щоб підкреслити його важливість.</li>
-    <li>desc_sentence->[THING_definite] має мистецьке сяйво. Здається майже ангельським.</li>
-    <li>desc_sentence->[PAWN_nameDef] відходить на задній план, щоб підкреслити нове створення [PAWN_possessive].</li>
-    <li>desc_sentence->[Quantity_adjphrase] глядачі оточують [PAWN_objective].</li>
-    <li>desc_sentence->Натовп вигукує на задньому плані.</li>
-    <li>quality_sentence->[THING_definite] виглядає як [THING_quality]</li>
-    <li>quality_sentence->[THING_definite] має якість [THING_quality]</li>
-    <li>quality_sentence->[PAWN_nameDef] зроблено з якістю [THING_quality]</li>
-    <li>title_sentence->[PAWN_nameDef] автор назвав вітвір [THING_definite] написана під: [THING_title]</li>
-    <li>title_sentence->[THING_definite] прикрашено назвою: [THING_title]</li>
-    <li>title_sentence->Назва [THING_title], висить над [THING_definite]</li>
+    <li>tale_noun->[PAWN_nameDef] створює {lookup: [THING_indefinite]; Case; 3}</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], створює {lookup: [THING_indefinite]; Case; 3}. [quality_sentence]. [title_sentence]</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], закінчує роботу над {lookup: [THING_indefinite]; Case; 3}. [quality_sentence]. [title_sentence]</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], працює над {lookup: [THING_indefinite]; Case; 3}. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->неймовірно концентруючись</li>
+    <li>circumstance_phrase->із задоволеним обличчям</li>
+    <li>circumstance_phrase->за своїм верстатом</li>
+    <li>circumstance_phrase->з великою інтенсивністю</li>
+    <li>desc_sentence->Навколо розкидані інструменти</li>
+    <li>desc_sentence->[PAWN_pronoun] має подряпини та невеликі поранення, отриманні за працею</li>
+    <li>desc_sentence->[PAWN_pronoun] {PAWN_gender ? покритий : покрита} потом</li>
+    <li>desc_sentence->Робоча зона добре організована, кожен інструмент на своєму місці</li>
+    <li>desc_sentence->[PAWN_nameDef] зображений із перебільшеннями, щоб мати більш потужний вигляд</li>
+    <li>desc_sentence->Розмір {lookup: [THING_indefinite]; Case; 3} навмисно збільшено, щоб підкреслити значність</li>
+    <li>desc_sentence->[THING_definite] має художнє сяйво [ColorGen] кольору</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? зображений : зображена} на задньому плані, щоб підкреслити {PAWN_possessive} нове творіння</li>
+    <li>desc_sentence->[Quantity_adjphrase] глядачів оточують [PAWN_nameDef]</li>
+    <li>desc_sentence->Натовп вигукує на задньому плані</li>
+    <li>quality_sentence->[THING_definite] має [THING_quality] рівень якості</li>
+    <li>quality_sentence->Робота [PAWN_nameDef] має [THING_quality] рівень якості</li>
+    <li>title_sentence->Напис [PAWN_nameDef] знизу {lookup: [THING_indefinite]; Case; 1} каже: "[THING_title]"</li>
+    <li>title_sentence->{lookup: [THING_indefinite]; Case; 3} прикрашений його назвою: "[THING_title]"</li>
+    <li>title_sentence->Назва {lookup: [THING_indefinite]; Case; 3}, [THING_title], висить на задньому плані</li>
+    <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
+    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   </CraftedArt.rulePack.rulesStrings>
   
   <!-- EN: drunk -->
-  <Drunk.label>п’яний</Drunk.label>
+  <Drunk.label>пияцтво</Drunk.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
     <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
@@ -151,40 +151,40 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <Drunk.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] п'яний до смерті</li>
-    <li>tale_noun->[PAWN_nameDef] дуже п'яний</li>
-    <li>image->[PAWN_nameFull] хитається п'яний [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] підіймає [PAWN_possessive] голову щоб влити напій в горлянку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] жадібно збирає пляшки з алкоголем [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] важко п'є [circumstance_group]</li>
-    <li>circumstance_phrase->не звертає уваги на оточення [PAWN_possessive]</li>
-    <li>circumstance_phrase->в задумливому ступорі</li>
-    <li>circumstance_phrase->ставлячи під сумнів власне існування [PAWN_possessive]</li>
-    <li>circumstance_phrase->зі слізьми в [PAWN_possessive] очах</li>
-    <li>circumstance_phrase->шалено посміхаючись</li>
-    <li>circumstance_phrase->ридаючи</li>
-    <li>circumstance_phrase->виглядає патетично</li>
-    <li>circumstance_phrase->сердито дивиться на людей навколо [PAWN_objective]</li>
-    <li>circumstance_phrase->дивиться на когось поруч</li>
-    <li>circumstance_phrase->робить спроби роздягнутися</li>
-    <li>circumstance_phrase->з пальцем у [PAWN_possessive] роті</li>
-    <li>circumstance_phrase->стримуючи блювоту</li>
-    <li>circumstance_phrase->без турботи про світ</li>
-    <li>circumstance_phrase->з хтивим блиском в очах [PAWN_possessive]</li>
-    <li>circumstance_phrase->роздумуючи про події минулого [PAWN_possessive]</li>
-    <li>desc_sentence->[PAWN_pronoun] здається, абсолютно не знає, що навколо [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_possessive] обличчя ніби набрякло.</li>
-    <li>desc_sentence->[PAWN_pronoun] майже без свідомості, [PAWN_possessive] язик висунуся, слина тече.</li>
-    <li>desc_sentence->[PAWN_pronoun] виглядає щасливим і сумним водночас.</li>
-    <li>desc_sentence->[PAWN_pronoun] має спереду плями [PAWN_possessive].</li>
-    <li>desc_sentence->За [PAWN_objective] є сліди від викинутих емностей для напоїв.</li>
-    <li>desc_sentence->На штанах [PAWN_possessive] видно білу речовину.</li>
-    <li>desc_sentence->[PAWN_pronoun] схоже загубив черевик.</li>
-    <li>desc_sentence->[PAWN_possessive] волосся повністю скуйовджене.</li>
+    <li>tale_noun->[PAWN_nameDef] {PAWN_gender ? напився : напилася} до чортиків</li>
+    <li>tale_noun->[PAWN_nameDef] сильно {PAWN_gender ? напився : напилася}</li>
+    <li>image->, як [PAWN_nameFull] сп'яніло хитається[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] п'є алкоголь, закинувши голову назад[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] жадібно збирає пляшки від алкоголю[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] п'є, як кінь[circumstance_phrase]</li>
+    <li>circumstance_phrase->, навіть не помічаючи, що відбувається навколо {PAWN_gender ? неї : нього}</li>
+    <li>circumstance_phrase-> в задумливому ступорі</li>
+    <li>circumstance_phrase->, ставлячи під сумнів власне існування</li>
+    <li>circumstance_phrase-> зі сльозами на очах</li>
+    <li>circumstance_phrase->, при цьому шалено посміхаючись</li>
+    <li>circumstance_phrase-> та ридає</li>
+    <li>circumstance_phrase->, при цьому маючи жалюгідний вигляд</li>
+    <li>circumstance_phrase-> та сердито дивиться на оточуючих</li>
+    <li>circumstance_phrase-> та дивиться на [CharacterGen]</li>
+    <li>circumstance_phrase-> та намагається роздягнутися</li>
+    <li>circumstance_phrase-> та тримає палець на губах</li>
+    <li>circumstance_phrase-> та стримує блювоту</li>
+    <li>circumstance_phrase-> з хтивим блиском в очах</li>
+    <li>circumstance_phrase-> та дивиться на привидів свого минулого</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, зовсім не розуміє, що відбувається навколо {PAWN_gender ? нього : неї}</li>
+    <li>desc_sentence->[PAWN_possessive] обличчя ніби набрякає</li>
+    <li>desc_sentence->[PAWN_nameDef] знаходиться в напівсвідомому стані; має висунутий язик, з якого стікає слина</li>
+    <li>desc_sentence->[PAWN_nameDef] має щасливий та сумний вигляд одночасно</li>
+    <li>desc_sentence->[PAWN_possessive] одяг покритий якимось брудом</li>
+    <li>desc_sentence->На фоні можна побачити [Quantity_adjphrase] відкритих ящиків від алкоголю</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, десь {PAWN_gender ? загубив : загубила} черевик</li>
+    <li>desc_sentence->[PAWN_possessive] волосся повністю скуйовджене</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   </Drunk.rulePack.rulesStrings>
   
   <!-- EN: research project finished -->
-  <FinishedResearchProject.label>проект дослідження завершено</FinishedResearchProject.label>
+  <FinishedResearchProject.label>дослідницький проект завершено</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] working on the [PROJECT_label] research project [circumstance_group]</li>
@@ -200,22 +200,22 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] завершено дослідження [PROJECT_label]</li>
-    <li>image->[PAWN_nameFull] працює над [PROJECT_label] достідницьким проєктом [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] вивчає секрети [PROJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] досліджує [PROJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->з великим старанням</li>
-    <li>circumstance_phrase->сам на лавці [PAWN_possessive]</li>
-    <li>circumstance_phrase->тримаючи папери в руці [PAWN_possessive]</li>
-    <li>circumstance_phrase->з радісним поглядом очікування</li>
-    <li>desc_sentence->[PAWN_nameDef] пітніє.</li>
-    <li>desc_sentence->Робота, як видається, є надзвичайно складною.</li>
-    <li>desc_sentence->[PAWN_nameDef] в оточені безлічі інструментів і приладів.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться на відкриття [PAWN_possessive] із почуттям подиву.</li>
+    <li>tale_noun->[PAWN_nameDef] завершує дослідження {lookup: [PROJECT_label]; Case; 1}</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], працює над дослідженням {lookup: [PROJECT_label]; Case; 1}</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], пізнає таємниці {lookup: [PROJECT_label]; Case; 1}</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], досліджує {lookup: [PROJECT_label]; Case; 1}</li>
+    <li>circumstance_phrase->з великою інтенсивністю</li>
+    <li>circumstance_phrase->наодинці за дослідницьким столом</li>
+    <li>circumstance_phrase->тримаючи папери у руках</li>
+    <li>circumstance_phrase->з [AdjectiveFriendlyAbl] поглядом</li>
+    <li>desc_sentence->[PAWN_nameDef] виглядає {PAWN_gender ? втомленим : втомленою}</li>
+    <li>desc_sentence->Робота видається надзвичайно складною</li>
+    <li>desc_sentence->[PAWN_nameDef] повністю {PAWN_gender ? оточений : оточена} безліччю інструментів і приладів</li>
+    <li>desc_sentence->[PAWN_nameDef] дивиться на своє відкриття з почуттям подиву</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
   <!-- EN: landed in pod -->
-  <LandedInPod.label>сісти у капсулу</LandedInPod.label>
+  <LandedInPod.label>приземлення транспортної капсули</LandedInPod.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
     <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
@@ -240,31 +240,31 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] сідає до скидувальної капсули</li>
-    <li>image->[PAWN_nameFull] сідає до скидувальної капсули [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] торкається скидувальної капсули [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] врізається у землю в скидувальній капсулі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] рухаеться в скидувальній капсулі [circumstance_group]</li>
-    <li>circumstance_phrase->з переду [TerrainFeature]</li>
-    <li>circumstance_phrase->з неймовірною силою</li>
-    <li>circumstance_phrase->в хмарах пилі та каміння</li>
-    <li>circumstance_phrase->з працюючими ракето-двигунами</li>
-    <li>circumstance_phrase->в точному приземлені</li>
-    <li>desc_sentence->[PAWN_pronoun] зосереджий на елементах керування.</li>
-    <li>desc_sentence->[PAWN_pronoun] із [PAWN_possessive] закритими очима та виглядає наляканим.</li>
-    <li>desc_sentence->[PAWN_pronoun] непритомний, [PAWN_possessive] язик висуното, слина тече.</li>
-    <li>desc_sentence->[PAWN_pronoun] зловісно посміхається.</li>
-    <li>desc_sentence->[PAWN_pronoun], здається, не має жодного уявлення, що він робить [PAWN_pronoun].</li>
-    <li>desc_sentence->[PAWN_pronoun] прив’язаний із закритими очима [PAWN_possessive], абсолютно безпорадний.</li>
-    <li>desc_sentence->На задній частині капсули видно слід полум’я.</li>
-    <li>desc_sentence-> [Animal] злякано споглядає догори.</li>
-    <li>desc_sentence->[Animal] у страху тікає від удару.</li>
-    <li>desc_sentence->[TerrainFeature] видно недалеко.</li>
-    <li>desc_sentence->[PersonJob] мовчки дивиться іздалека.</li>
+    <li>tale_noun->[PAWN_nameDef] приземлюється на транспортній капсулі</li>
+    <li>image->, як [PAWN_nameFull] приземлюється на транспортній капсулі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] торкається землі в транспортній капсулі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] падає на землю в транспортній капсулі[circumstance_phrase]</li>
+    <li>circumstance_phrase-> перед [TerrainFeaturePluAbl]</li>
+    <li>circumstance_phrase-> з неймовірною силою</li>
+    <li>circumstance_phrase->, залишаючи слід з пилу та каміння</li>
+    <li>circumstance_phrase-> в точній посадці</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? зосереджений : зосереджена} на керуванні капсулою</li>
+    <li>desc_sentence->[PAWN_nameDef] має закриті очі та виглядає {PAWN_gender ? наляканим : наляканою}</li>
+    <li>desc_sentence->[PAWN_nameDef] знаходиться в напівсвідомому стані; має висунутий язик, з якого стікає слина</li>
+    <li>desc_sentence->[PAWN_nameDef] радісно посміхається</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, зовсім не розуміє, що робить</li>
+    <li>desc_sentence->На задній частині капсули видно слід полум’я</li>
+    <li>desc_sentence->[Quantity_adjphrase] місцевих [AnimalPluGen] здивовано дивляться у небо</li>
+    <li>desc_sentence->[AnimalPluGen] налякано тікають від місця приземлення</li>
+    <li>desc_sentence->На фоні можна побачити [TerrainFeatureAcc]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає здалеку</li>
+    <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   </LandedInPod.rulePack.rulesStrings>
   
   <!-- EN: berserk rage -->
-  <MentalStateBerserk.label>несамовита лють</MentalStateBerserk.label>
+  <MentalStateBerserk.label>стан берсерка</MentalStateBerserk.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] going berserk</li>
     <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
@@ -291,33 +291,33 @@
     <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] стає берсеркером</li>
-    <li>image->[PAWN_nameFull] впадає в шалений гнів [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] стає божевільним, жорстоко божевільним [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] іде вперед із застиглимвиглядом на обличчі [PAWN_possessive] [circumstance_group]</li>
-    <li>circumstance_phrase->робить спроби роздягнутися</li>
-    <li>circumstance_phrase->начебто без причини</li>
-    <li>circumstance_phrase->тоді як інші здригаються від страху</li>
-    <li>circumstance_phrase->як друг тікає</li>
-    <li>circumstance_phrase->через стрес</li>
-    <li>circumstance_phrase->як останній крок</li>
-    <li>desc_sentence->[PAWN_pronoun] тремтить від нестримної люті.</li>
-    <li>desc_sentence->[PAWN_possessive] шкірить зуби в смертельному гарчанні.</li>
-    <li>desc_sentence->[PAWN_possessive] очі - це мертві водойми божевілля.</li>
-    <li>desc_sentence->З рота [PAWN_possessive] летять слюні, та [PAWN_possessive] кричить від божевільної люті.</li>
-    <li>desc_sentence->[PAWN_pronoun] останні частини одягу [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_pronoun] кривиться в нещасті.</li>
-    <li>desc_sentence->[PAWN_pronoun] маніакально посміхається.</li>
-    <li>desc_sentence->[PAWN_pronoun] виглядає з гарчачим обличчям як [Animal].</li>
-    <li>desc_sentence->[Animal] символічно оточують голову [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_pronoun] має вбивчий блиск в очах [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_possessive] здається, усе тіло тремтить від ненависті.</li>
-    <li>desc_sentence->[PAWN_possessive] обличчя має спотворений спокій.</li>
-    <li>desc_sentence->Одна сльоза скочується по обличчю [PAWN_possessive].</li>
+    <li>tale_noun->[PAWN_nameDef] впадає в стан берсерка</li>
+    <li>image->, як [PAWN_nameFull] впадає в стан берсерка[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] стає божевільним, надзвичайно божевільним[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] рухається вперед з [AdjectiveBadassAbl] блиском в очах[circumstance_phrase]</li>
+    <li>circumstance_phrase->, начебто без причини</li>
+    <li>circumstance_phrase->, доки інші здригаються від страху</li>
+    <li>circumstance_phrase->, доки {PAWN_gender ? його : її} друзі налякано тікають</li>
+    <li>circumstance_phrase-> через стрес</li>
+    <li>desc_sentence->[PAWN_nameDef] тремтить від нестримної люті</li>
+    <li>desc_sentence->[PAWN_possessive] зуби вискалюються в смертельному гарчанні</li>
+    <li>desc_sentence->[PAWN_possessive] очі — мертві водойми божевілля</li>
+    <li>desc_sentence->Слинка летить з [PAWN_possessive] рота, коли [PAWN_pronoun] кричить від шаленої люті</li>
+    <li>desc_sentence->[PAWN_nameDef] кривиться в нещасті</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, маніакально посміхається</li>
+    <li>desc_sentence->[PAWN_nameDef] зображується з рикаючою мордою [AnimalGen]</li>
+    <li>desc_sentence->[AnimalPluGen] символічно оточують [PAWN_possessive] голову</li>
+    <li>desc_sentence->[PAWN_pronoun] має вбивчий блиск в очах</li>
+    <li>desc_sentence->Усе [PAWN_possessive] тіло, здається, тремтить від ненависті</li>
+    <li>desc_sentence->[PAWN_possessive] обличчя має спотворений спокій</li>
+    <li>desc_sentence->Одна сльозинка скочується по [PAWN_possessive] обличчю</li>
+    <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+    <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
   
   <!-- EN: gave up -->
-  <MentalStateGaveUp.label>здався</MentalStateGaveUp.label>
+  <MentalStateGaveUp.label>опустилися руки</MentalStateGaveUp.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
     <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
@@ -340,29 +340,60 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] здаючись у розпачі</li>
-    <li>image->[PAWN_nameFull] нарешті здався під час стресу [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] нестримно ридає [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] спотикаючись із повністю розгубленим виразом обличчя [PAWN_possessive] [circumstance_group]</li>
-    <li>circumstance_phrase->робить спроби роздягнутися</li>
+    <li>tale_noun->[PAWN_nameDef] здається у розпачі</li>
+    <li>image->, як у [PAWN_nameFull] опустилися руки через стрес, [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] нестримно ридає, [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull], спотикаючись йде, із абсолютно розбитим виразом обличчя, [circumstance_phrase]</li>
     <li>circumstance_phrase->начебто без причини</li>
-    <li>circumstance_phrase->як інші висловлюють співчуття</li>
-    <li>circumstance_phrase->як друг плаче</li>
-    <li>circumstance_phrase->через стрес</li>
-    <li>circumstance_phrase->як останній крок</li>
-    <li>desc_sentence->[PAWN_pronoun] по обличчю [PAWN_possessive] течуть сльози.</li>
-    <li>desc_sentence->[PAWN_pronoun] сміється в глибокій [PAWN_possessive] депресії.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться вгору, ніби просить допомоги з небес.</li>
-    <li>desc_sentence->[PAWN_pronoun] рве [PAWN_possessive] власний одяг.</li>
-    <li>desc_sentence->[PAWN_pronoun] здається, абсолютно не знає, що навколо [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] виглядає щасливим і сумним водночас.</li>
-    <li>desc_sentence->[PAWN_pronoun] має спереду плями [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_pronoun] схоже загубив черевик.</li>
-    <li>desc_sentence->[PAWN_possessive] волосся повністю скуйовджене.</li>
+    <li>circumstance_phrase->доки інші висловлюють співчуття</li>
+    <li>circumstance_phrase->доки {PAWN_gender ? його : її} друзі ридають</li>
+    <li>desc_sentence->По [PAWN_possessive] обличчю стікають сльози</li>
+    <li>desc_sentence->[PAWN_nameDef] сміється в глибині своєї депресії</li>
+    <li>desc_sentence->[PAWN_nameDef] дивиться вгору, ніби просить допомоги вищих сил</li>
+    <li>desc_sentence->[PAWN_nameDef] витирає сльози власним одягом</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, зовсім не розуміє, що робить</li>
+    <li>desc_sentence->[PAWN_nameDef] має щасливий та сумний вигляд одночасно</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, десь {PAWN_gender ? загубив : загубила} черевик</li>
+    <li>desc_sentence->[PAWN_possessive] волосся повністю скуйовджене</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
   
+  <!-- EN: read a book -->
+  <ReadBook.label>читання книги</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] закінчує читати [THING_title]</li>
+    <li>image->, як [PAWN_nameFull] із задоволеною посмішкою закриває [THING_title] в останній раз[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] гортає сторінки [THING_title], поглинаючи знання[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] ставить [THING_title] назад на полицю, [PAWN_possessive] охоплює відчуття завершеності[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] сидить у тихих роздумах, розмірковуючи про глибокі істини, написані в [THING_title][circumstance_phrase]</li>
+    <li>circumstance_phrase->, відпочиваючи в улюбленому куточку для читання</li>
+    <li>circumstance_phrase->. Збоку від {PAWN_gender ?нього : неї} стоїть чашка чаю</li>
+    <li>circumstance_phrase->, м'яке світло лампи для читання освічує [PAWN_possessive] обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] знаходиться в оточенні своїх нотаток з [THING_title]</li>
+    <li>desc_sentence->Очі [PAWN_nameDef] сяють від отриманої мудрості</li>
+    <li>desc_sentence->Отриманий досвід назавжди змінює [PAWN_possessive]</li>
+    <li>desc_sentence->Є відчуття, що деякі з таємниць ще не розкриті</li>
+  </ReadBook.rulePack.rulesStrings>
+  
   <!-- EN: struck mineable -->
-  <StruckMineable.label>гірництво</StruckMineable.label>
+  <StruckMineable.label>знайдено поклади</StruckMineable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
     <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
@@ -380,24 +411,24 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <StruckMineable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] попадає по [THING_label]</li>
-    <li>image->[PAWN_nameFull] вдаряє по [THING_label] [circumstance_group]</li>
-    <li>circumstance_phrase->добуваючи</li>
-    <li>circumstance_phrase->копає</li>
-    <li>circumstance_phrase->прокладає тунель</li>
-    <li>circumstance_phrase->виглядає сюрприз</li>
-    <li>circumstance_phrase->із задоволеним виразом обличчя</li>
-    <li>desc_sentence->[PAWN_nameDef] витирається чоло [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] стрибає від радості.</li>
-    <li>desc_sentence->[PAWN_nameDef] дає п'ять другу.</li>
-    <li>desc_sentence->[PAWN_nameDef] кричить від щастя.</li>
-    <li>desc_sentence->[PAWN_nameDef] нестримно сміється.</li>
-    <li>desc_sentence->[PAWN_nameDef] спітнілий та брудний від праці.</li>
-    <li>desc_sentence->[PAWN_nameDef] втомлений та брудний від праці.</li>
+    <li>tale_noun->[PAWN_nameDef] знаходить {lookup: [THING_label]; Case; 3}</li>
+    <li>image->, як [PAWN_nameFull] знаходить {lookup: [THING_label]; Case; 3} [circumstance_phrase]</li>
+    <li>circumstance_phrase->під час видобутку</li>
+    <li>circumstance_phrase->під час прокладання тунелю</li>
+    <li>circumstance_phrase->під час розкопок</li>
+    <li>circumstance_phrase->та дивується від цього</li>
+    <li>circumstance_phrase->та виглядає {PAWN_gender ? задоволеним : задоволеною} цим</li>
+    <li>desc_sentence->[PAWN_nameDef] витирає лоб</li>
+    <li>desc_sentence->[PAWN_nameDef] стрибає від радості</li>
+    <li>desc_sentence->[PAWN_nameDef] дає п'ять своєму другу</li>
+    <li>desc_sentence->[PAWN_nameDef] кричить від радості</li>
+    <li>desc_sentence->[PAWN_nameDef] нестримно сміється від радості</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? спітнілий і брудний : спітніла і брудна} від роботи.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   </StruckMineable.rulePack.rulesStrings>
   
   <!-- EN: vomited -->
-  <Vomited.label>блювати</Vomited.label>
+  <Vomited.label>блювота</Vomited.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
     <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
@@ -419,26 +450,26 @@
   -->
   <Vomited.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] блює</li>
-    <li>image->[PAWN_nameFull] склоняєтся блюючи на землю [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] виглядати огидно, коли він покритий засохлою блювотою [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] блював та підковзнувся, впав на підлогу [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [PAWN_possessive] на колінах, бдюєть на підлозі [circumstance_group]</li>
-    <li>circumstance_phrase->боляче дивитись</li>
-    <li>circumstance_phrase->з великим соромом</li>
-    <li>circumstance_phrase->як інші дивляться на</li>
-    <li>desc_sentence->[PAWN_pronoun] здається, абсолютно не знає, що навколо [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_possessive] обличчя ніби набрякло.</li>
-    <li>desc_sentence->[PAWN_pronoun] майже без свідомості, [PAWN_possessive] язик висунуся, слина тече.</li>
-    <li>desc_sentence->[PAWN_pronoun] сильно судомиться.</li>
-    <li>desc_sentence->[PAWN_pronoun] виглядає соромно.</li>
-    <li>desc_sentence->[PAWN_pronoun] намагається сміятися, незважаючи на обставини.</li>
-    <li>desc_sentence->[PAWN_pronoun] виглядає майже спустошеним, через інтенсивну блювоту.</li>
-    <li>desc_sentence->[PAWN_pronoun] оточений художньо переданим ореолом бруду.</li>
-    <li>desc_sentence->[Animal] їсть зі сліду блювоти позаду.</li>
+    <li>image->, як [PAWN_nameFull] блює на землю[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] має огидний, весь у блювоті, вигляд[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить на землі, згорнувшись калачиком[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] блює на землю, стоячи на колінах[circumstance_phrase]</li>
+    <li>circumstance_phrase->. [PAWN_pronoun], здається, відчуває сильний біль</li>
+    <li>circumstance_phrase->. [PAWN_pronoun], здається, відчуває сильний сором</li>
+    <li>circumstance_phrase->, доки інші дивляться</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, зовсім не розуміє, що відбувається навколо {PAWN_gender ? нього : неї}</li>
+    <li>desc_sentence->[PAWN_possessive] обличчя ніби набрякає</li>
+    <li>desc_sentence->[PAWN_nameDef] знаходиться в напівсвідомому стані; має висунутий язик, з якого стікає слина</li>
+    <li>desc_sentence->[PAWN_nameDef] сильно судомиться</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, намагається сміятися, незважаючи на обставини</li>
+    <li>desc_sentence->[PAWN_nameDef] виглядає майже {PAWN_gender ? спустошеним : спустошеною} через інтенсивну блювоту</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? оточений : оточена} художньо переданим ореолом бруду</li>
+    <li>desc_sentence->[Animal] їсть зі сліду блювоти на задньому плані</li>
+    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
   </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->
-  <WalkedNaked.label>ходити голим</WalkedNaked.label>
+  <WalkedNaked.label>оголена прогулянка</WalkedNaked.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] walking around naked</li>
     <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
@@ -465,33 +496,33 @@
     <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] ходити голим</li>
-    <li>image->[PAWN_nameFull] [nude_action] близький до природи [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action] {0_gender ? оголений : оголена}[circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action], нагий, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [nude_action] без будьякого одягу [circumstance_group]</li>
-    <li>nude_action->підстрибуючи</li>
-    <li>nude_action->пустуючий</li>
-    <li>nude_action->азартний</li>
-    <li>nude_action->гуляючий</li>
-    <li>nude_action->пихатий [PAWN_possessive] речі</li>
-    <li>nude_action->виступає</li>
-    <li>nude_action->іде навшпиньки</li>
-    <li>nude_action->прогулюеться</li>
+    <li>tale_noun->[PAWN_nameDef] прогулюється, повністю {PAWN_gender ? оголений : оголена}</li>
+    <li>image->, як [PAWN_nameFull] [nude_action] у чому мати народила [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] [nude_action] без одягу, [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] [nude_action], {PAWN_gender ? оголений : оголена}, [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] [nude_action] без жодного одягу, [circumstance_phrase]</li>
+    <li>nude_action->підстрибує</li>
+    <li>nude_action->пустує</li>
+    <li>nude_action->стрибає</li>
+    <li>nude_action->прогулюється</li>
+    <li>nude_action->хизуватися своїми речами</li>
+    <li>nude_action->йде навшпиньках</li>
     <li>nude_action->оглядає місцевість</li>
     <li>circumstance_phrase->з почуттям мети</li>
-    <li>circumstance_phrase->без сорому</li>
+    <li>circumstance_phrase->без натяку на сором</li>
     <li>circumstance_phrase->поки інші дивляться</li>
-    <li>circumstance_phrase->без видимої причини</li>
-    <li>circumstance_phrase->а збентежені тварини дивляться</li>
-    <li>desc_sentence->[PAWN_nameDef] помітно збуджений.</li>
-    <li>desc_sentence->[PAWN_nameDef] вкривається незрозумілою вологою.</li>
-    <li>desc_sentence->[PAWN_nameDef] важко дихає без видимих причин.</li>
-    <li>desc_sentence->[PAWN_nameDef] пестить кущ.</li>
+    <li>circumstance_phrase->без видимої на те причини</li>
+    <li>circumstance_phrase->а збентежені тварини спостерігають</li>
+    <li>desc_sentence->[PAWN_nameDef] помітно {PAWN_gender ? збуджений : збуджена}</li>
+    <li>desc_sentence->[PAWN_nameDef] вкривається незрозумілою вологою</li>
+    <li>desc_sentence->[PAWN_nameDef] важко дихає без видимих на те причин</li>
+    <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   </WalkedNaked.rulePack.rulesStrings>
   
   <!-- EN: on fire -->
-  <WasOnFire.label>у полум'ї</WasOnFire.label>
+  <WasOnFire.label>у вогні</WasOnFire.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] catching fire</li>
     <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
@@ -513,24 +544,24 @@
     <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
   -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] спалахнув</li>
-    <li>image->[PAWN_nameFull] несамовито гасити вогонь на тілі [PAWN_possessive] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] охоплений полум'ям [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] стоячи на колінах, руки над головою, намагаеться загасити полум’я на тілі [PAWN_possessive] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] катаеться по підлозі під час горіння [circumstance_group]</li>
-    <li>circumstance_phrase->поки інші дивляться</li>
-    <li>circumstance_phrase->поки майже голий</li>
-    <li>circumstance_phrase->з цілеспрямованим наміром</li>
-    <li>desc_sentence->[PAWN_possessive] м'якоть помітно обвуглюється.</li>
-    <li>desc_sentence->[PAWN_possessive] очи широко відкриті від паніки.</li>
-    <li>desc_sentence->[PAWN_pronoun] здається, що ледве притомний; [PAWN_possessive] очі неживі.</li>
-    <li>desc_sentence->[PAWN_possessive] рот відкритий, коли [PAWN_pronoun] кричить, кличе допомогу.</li>
-    <li>desc_sentence->Полум’я ось-ось огорне голову [PAWN_possessive].</li>
-    <li>desc_sentence->Символічний ореол вогню оточує обличчя [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_pronoun] маніакально сміється.</li>
-    <li>desc_sentence->[PAWN_pronoun] здається, втрачає себе [PAWN_objective].</li>
-    <li>desc_sentence->Стовп диму піднімається над [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] художньо передає трупоподібний вигляд.</li>
+    <li>tale_noun->[PAWN_nameDef] горить</li>
+    <li>image->, як [PAWN_nameFull]  шалено збиває вогонь зі свого тіла[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] {PAWN_gender ? охоплений : охоплена} полум’ям[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] стоїть на колінах та розмахує руками, намагаючись загасити вогонь на своєму тілі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] катається по підлозі та горить[circumstance_phrase]</li>
+    <li>circumstance_phrase->, поки інші дивляться</li>
+    <li>circumstance_phrase->, майже повністю {PAWN_gender ? оголений : оголена}</li>
+    <li>circumstance_phrase-> з цілеспрямованим наміром</li>
+    <li>desc_sentence->[PAWN_possessive] тіло помітно обвуглюється</li>
+    <li>desc_sentence->[PAWN_possessive] очі широко розкриті від паніки</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, ледве {PAWN_gender ? притомний : притомна}; {PAWN_possessive} очі неживі</li>
+    <li>desc_sentence->[PAWN_nameDef] благає про допомогу</li>
+    <li>desc_sentence->Полум'я ось-ось огорне [PAWN_possessive] голову</li>
+    <li>desc_sentence->[PAWN_possessive] обличчя оточує символічний ореол вогню</li>
+    <li>desc_sentence->[PAWN_nameDef] маніакально сміється</li>
+    <li>desc_sentence->[PAWN_nameDef], здається, втрачає себе</li>
+    <li>desc_sentence->Над {PAWN_gender ? ним : нею} піднімається клубок диму</li>
+    <li>desc_sentence->[PAWN_nameDef] художньо {PAWN_gender ? відтворений : відтворена} у вигляді трупа</li>
   </WasOnFire.rulePack.rulesStrings>
   
 </LanguageData>

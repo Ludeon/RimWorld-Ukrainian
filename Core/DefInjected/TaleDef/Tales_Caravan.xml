@@ -28,32 +28,32 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
-    <li>tale_noun->успішний захист каравану [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] успішно відбивається від засідки</li>
-    <li>image->[PAWN_nameFull] організує опір, у той час як [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] захищається з [Weapon] в той час, як [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] б'є у відповідь [PAWN_possessive] [Weapon] поки [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] стоїть у весь зріст, мов стіна, поки [circumstance_group]</li>
-    <li>[PAWN_nameFull] із виразом [AdjectiveBadass] під час [circumstance_group]</li>
-    <li>image->[PAWN_nameFull], одягнений у [AdjectiveAngsty], в той час як [circumstance_group]</li>
-    <li>circumstance_phrase->тримають оборону проти наступаючої орди</li>
-    <li>circumstance_phrase->кружляння вагонів</li>
-    <li>circumstance_phrase->ревуть від перемоги</li>
-    <li>circumstance_phrase->розмахують [Weapon]</li>
-    <li>circumstance_phrase->вкритий [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] Просування [Enemy], розмахуючи [Weapon].</li>
-    <li>desc_sentence->Величезний [Enemy] наступає, розмахуючи [Weapon].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] наступає з [AdjectiveBadass] нахабним поглядом.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] наступає з [AdjectiveAngsty] нахабним поглядом.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] наступає з палаючими [Color] очима.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] наступає, вкрита [Gore].</li>
-    <li>desc_sentence->Ґрунт покритий [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікає з зони.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають з зони.</li>
+    <li>tale_noun->[PAWN_nameDef] успішно захищає караван</li>
+    <li>tale_noun->караван [PAWN_nameDef] успішно відбивається від засідки</li>
+    <li>image->, як [PAWN_nameFull] організує опір[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] захищається, тримаючи [HisWeapon][circumstance_phrase]</li>
+    <li>image->, як[PAWN_nameFull] атакує ворогів, тримаючи [HisWeapon][circumstance_phrase]</li>
+    <li>image-> [PAWN_nameFull], що стоїть у весь зріст, мов стіна[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] стоїть з [AdjectiveBadassAbl] виразом обличчя[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] стоїть з [AdjectiveAngstyAbl] виразом обличчя[circumstance_phrase]</li>
+    <li>circumstance_phrase->, в той час як караван тримає оборону проти наступаючої орди</li>
+    <li>circumstance_phrase->, під час оборонних маневрів каравану</li>
+    <li>circumstance_phrase-> та кидає переможний клич</li>
+    <li>circumstance_phrase-> та покривається [GoreAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] наступають, розмахуючи своїми [WeaponPluAbl]</li>
+    <li>desc_sentence->Величезний [AnimalMasc] наступає, розмахуючи [HisWeaponAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] наступають з [AdjectiveBadassAbl] поглядом</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] наступають з [AdjectiveAngstyAbl] поглядом</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] наступають з палаючими [ColorAbl] кольором очима</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen], покритих [GoreAbl], атакують караван</li>
+    <li>desc_sentence->Ґрунт покритий [GoreGen]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] тікають з місця подій</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] тікають місця подій</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
-  <CaravanAssaultSuccessful.label>успішний напад на караван</CaravanAssaultSuccessful.label>
+  <CaravanAssaultSuccessful.label>успішна атака караваном</CaravanAssaultSuccessful.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan defeating an enemy stronghold</li>
     <li>image->[PAWN_nameFull] running towards a [Enemy], [circumstance_group]</li>
@@ -74,27 +74,27 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->караван [PAWN_nameDef] атакує ворожу фортецю</li>
-    <li>image->[PAWN_nameFull] біжить назустріч [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] озброєний [Weapon], [circumstance_group]</li>
-    <li>&lt;li>image->[PAWN_nameFull] розмахуючи [Weapon], [circumstance_group]&lt;/li></li>
-    <li>image->[PAWN_nameFull] стоїть у весь зріст, мов стіна, [circumstance_group]</li>
-    <li>&lt;li>circumstance_phrase->носить [AdjectiveBadass] дивиться в [PAWN_possessive] eyes&lt;/li></li>
-    <li>&lt;li>circumstance_phrase->носить [AdjectiveAngsty] дивиться в [PAWN_possessive] eyes&lt;/li></li>
-    <li>&lt;li>circumstance_phrase->переможно реве&lt;/li></li>
-    <li>&lt;li>circumstance_phrase->прикрив [Gore]&lt;/li></li>
-    <li>&lt;li>desc_sentence->[Quantity_adjphrase] [Enemy]s здригнувся від нападу.&lt;/li>.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] тікають з зони.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] мають помітну кількість травмованих.</li>
-    <li>desc_sentence->Вдалині видніється [Community].</li>
-    <li>desc_sentence->Вдалині видно дим від [Community].</li>
-    <li>desc_sentence->Ґрунт покритий [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікає з зони.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають з зони.</li>
+    <li>tale_noun->караван [PAWN_nameDef] розбиває ворожий форпост</li>
+    <li>image->, як [PAWN_nameFull] біжить назустріч [EnemyPluGen][circumstance_phrase]</li>
+    <li>image-> [PAWN_nameFull] що тримає [HisWeapon][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] розмахує [HisWeaponAbl][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] стоїть у весь зріст, наче стіна[circumstance_phrase]</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] поглядом</li>
+    <li>circumstance_phrase-> з [AdjectiveAngstyAbl] поглядом</li>
+    <li>circumstance_phrase-> та кидає переможний клич</li>
+    <li>circumstance_phrase->, з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] здригнулися від атаки</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] мають помітні поранення</li>
+    <li>desc_sentence->Вдалині видніється [Community]</li>
+    <li>desc_sentence->Вдалині видно дим від [CommunityGen]</li>
+    <li>desc_sentence->Ґрунт покритий [GoreAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [CharacterPluGen] тікають від місця подій</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
-  <CaravanFled.label>караван утік</CaravanFled.label>
+  <CaravanFled.label>караван рятується бігством</CaravanFled.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan fleeing danger</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan escaping danger</li>
@@ -118,26 +118,26 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun-> караван [PAWN_nameDef] тікає від небезпеки</li>
-    <li>tale_noun->караван [PAWN_nameDef] втікає від небезпеки</li>
-    <li>fleetale_noun->караван [PAWN_nameDef] ледве втікає від небезпеки</li>
+    <li>tale_noun->караван [PAWN_nameDef] тікає від небезпеки</li>
+    <li>tale_noun->караван [PAWN_nameDef] рятується бігством</li>
+    <li>tale_noun->караван [PAWN_nameDef] ледве втікає від небезпеки</li>
     <li>tale_noun->караван [PAWN_nameDef] переслідують вороги</li>
-    <li>image->[PAWN_nameFull] відчайдушно втікає до [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] біжить до [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] пригнулися за [TerrainFeature], ховаючись від [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] вирішує зробити тактичний відступ [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] мимохідь прогулюється повз [circumstance_group]</li>
-    <li>circumstance_phrase->поки [Quantity_adjphrase] [Enemy] переслідують</li>
-    <li>circumstance_phrase->поки [Quantity_adjphrase] [Enemy] шукають</li>
-    <li>circumstance_phrase->від [Quantity_adjphrase] [Enemy]</li>
-    <li>circumstance_phrase->від ворожих [Quantity_adjphrase] [Animal]</li>
-    <li>circumstance_phrase->від [AdjectiveLarge] [Enemy]</li>
-    <li>desc_sentence->Переслідувачі [PAWN_nameDef] розмахують [Weapon].</li>
-    <li>desc_sentence->Переслідувачів [PAWN_nameDef] оповиває [Color] дим.</li>
-    <li>desc_sentence->переслідувачі [PAWN_nameDef] мають [AdjectiveAngsty] вирази обличчя.</li>
-    <li>desc_sentence->Переслідувачі [PAWN_nameDef] розмахують [Weapon].</li>
-    <li>desc_sentence->[PAWN_nameDef] пітніє.</li>
-    <li>desc_sentence->[PAWN_nameDef] задихається.</li>
+    <li>image->, як [PAWN_nameFull] відчайдушно втікає[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] ховається за [TerrainFeature][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] вирішує зробити тактичний відступ[circumstance_phrase]</li>
+    <li>circumstance_phrase->, поки [Quantity_adjphrase] [EnemyPluGen] переслідують караван</li>
+    <li>circumstance_phrase->, поки [Quantity_adjphrase] [EnemyPluGen] полюють на караван</li>
+    <li>circumstance_phrase-> від [Quantity_adjphrase] [EnemyPluGen]</li>
+    <li>circumstance_phrase-> від [Quantity_adjphrase] ворожих [AnimalPluGen]</li>
+    <li>circumstance_phrase-> від [AdjectiveLargeAbl] [animal]</li>
+    <li>circumstance_phrase-> від [AdjectiveLarge] [animal]</li>
+    <li>desc_sentence->Переслідувачі розмахують своїми [WeaponPluAbl]</li>
+    <li>desc_sentence->Переслідувачів оповиває [Color] дим</li>
+    <li>desc_sentence->Переслідувачі наздоганяють з [AdjectiveAngstyAbl] виразом обличчя</li>
+    <li>desc_sentence->Переслідувачі наздоганяють з [AdjectiveBadassAbl] виразом обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? весь покритий : вся покрита} потом</li>
+    <li>desc_sentence->[PAWN_nameDef] ледве дихає</li>
   </CaravanFled.rulePack.rulesStrings>
   
   <!-- EN: caravan formed -->
@@ -162,27 +162,27 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
   -->
   <CaravanFormed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] вирушає у пригоди</li>
+    <li>tale_noun->[PAWN_nameDef] вирушає у подорож</li>
     <li>tale_noun->[PAWN_nameDef] збирає караван</li>
-    <li>image->[PAWN_nameFull] цілеспрямовано прямує до [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] дивиться у бік горизонту [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] збирає припаси для подорожі до [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] планує подорож до [circumstance_group]</li>
-    <li>circumstance_phrase-> і споряджений до бою</li>
-    <li>circumstance_phrase->і споряджений для виживання</li>
-    <li>circumstance_phrase->і споряджений для розвідки</li>
-    <li>circumstance_phrase->палко дивиться в очі [PAWN_possessive]</li>
-    <li>circumstance_phrase->з [AdjectiveAny] дивиться в очі [PAWN_possessive]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally] дивляться на підготовку.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally] допомагають у підготовці.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] відступають з місця подій.</li>
-    <li>desc_sentence->Видніється [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] спостерігають з відстані.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] мирно бродять.</li>
+    <li>image->, як [PAWN_nameFull][circumstance_phrase], цілеспрямовано прямує у подорож</li>
+    <li>image->, як [PAWN_nameFull][circumstance_phrase], дивиться у бік горизонту</li>
+    <li>image->, як [PAWN_nameFull][circumstance_phrase], збирає припаси для подорожі</li>
+    <li>image->, як [PAWN_nameFull][circumstance_phrase], планує подорож</li>
+    <li>circumstance_phrase->, {PAWN_gender ? споряджений : споряджена} до бою</li>
+    <li>circumstance_phrase->, {PAWN_gender ? споряджений : споряджена} для виживання</li>
+    <li>circumstance_phrase->, {PAWN_gender ? споряджений : споряджена} для розвідки</li>
+    <li>circumstance_phrase->, з [AdjectiveAnyAbl] виразом обличчя</li>
+    <li>circumstance_phrase->, з [AdjectiveAnyAbl] поглядом</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] спостерігають за підготовкою</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] допомагають підготувати караван</li>
+    <li>desc_sentence->[TerrainFeature] видніється на фоні</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] спостерігають з відстані</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] мирно бродять неподалік</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
   <!-- EN: caravan remote mining -->
-  <CaravanRemoteMining.label>караванський дистанційний видобуток</CaravanRemoteMining.label>
+  <CaravanRemoteMining.label>видобуток караваном</CaravanRemoteMining.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan mining a rich vein of [MATERIAL_label] in a foreign land</li>
     <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
@@ -203,23 +203,23 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <CaravanRemoteMining.rulePack.rulesStrings>
-    <li>tale_noun->караван [PAWN_nameDef] добуває багату жилу [MATERIAL_label] в далеких краях</li>
-    <li>image->[PAWN_nameFull] добуває [MATERIAL_label] використовуючи гірничи інструменти, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] тримаючи шматок [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] спираючись на стіну [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] координація команди видобутку проти багатої жили [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] обережно оглядаючи багату жилу [MATERIAL_label], [circumstance_group]</li>
-    <li>circumstance_phrase->сильно пітніти</li>
-    <li>circumstance_phrase->має [AdjectiveFriendly] вигляд</li>
-    <li>circumstance_phrase->гордо посміхається</li>
-    <li>circumstance_phrase->вираз задоволення на обличчі [PAWN_possessive]</li>
-    <li>circumstance_phrase >обережно озирається у пошуках небезпеки</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ally] допомагає.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] блукає територією.</li>
-    <li>desc_sentence->На задньому плані є імпровізоване укриття.</li>
-    <li>desc_sentence->[Quantity_adjphrase] далі видно жилу.</li>
-    <li>desc_sentence->Вдалині видніється [TerrainFeature].</li>
-    <li>desc_sentence->[PAWN_nameDef] спітнілий та брудний від праці.</li>
+    <li>tale_noun->караван [PAWN_nameDef] видобуває багаті поклади {lookup: [MATERIAL_label]; Case; 1} в далеких краях</li>
+    <li>image->[PAWN_nameFull], [circumstance_phrase], видобуває поклади {lookup: [MATERIAL_label]; Case; 1} голими руками</li>
+    <li>image->[PAWN_nameFull], [circumstance_phrase], тримає видобутий шматок {lookup: [MATERIAL_label]; Case; 1}</li>
+    <li>image->[PAWN_nameFull], [circumstance_phrase], відпочиває, притулившись до покладів {lookup: [MATERIAL_label]; Case; 1}</li>
+    <li>image->[PAWN_nameFull], [circumstance_phrase], командує групою шахтарів з видобутку {lookup: [MATERIAL_label]; Case; 1}</li>
+    <li>image->[PAWN_nameFull], [circumstance_phrase], ретельно оглядає поклади {lookup: [MATERIAL_label]; Case; 1}</li>
+    <li>circumstance_phrase->сильно пітніючи</li>
+    <li>circumstance_phrase->з [AdjectiveFriendlyAbl] виразом обличчя</li>
+    <li>circumstance_phrase->гордо посміхаючись</li>
+    <li>circumstance_phrase->з [AdjectiveFriendlyAbl] поглядом</li>
+    <li>circumstance_phrase->обережно озираючись у пошуках небезпеки</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] допомагають {PAWN_gender ? йому : їй}</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] мирно бродять неподалік</li>
+    <li>desc_sentence->На задньому плані є імпровізоване укриття</li>
+    <li>desc_sentence->на задньому плані можна побачити ще [Quantity_adjphrase] рудних жил</li>
+    <li>desc_sentence->Вдалині видніється [TerrainFeature]</li>
+    <li>desc_sentence->[PAWN_nameDef] {PAWN_gender ? спітнілий та брудний : спітніла та брудна} від праці</li>
   </CaravanRemoteMining.rulePack.rulesStrings>
   
 </LanguageData>

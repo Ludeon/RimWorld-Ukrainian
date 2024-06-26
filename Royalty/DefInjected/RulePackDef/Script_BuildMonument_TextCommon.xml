@@ -28,30 +28,30 @@
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestConstructionDescriptionCommon.rulePack.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Пришло таємниче повідомлення. Схоже, було передане від Ші-персони, яка відмовляється називати себе. Повідомлення просить створити конкретний монумент.\n\n[commonEnding]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лідер фракції [asker_faction_name], просить, щоб ви збудували монумент [buildReason].\n\n[commonEnding]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull], з [asker_faction_name] вказує вам збудувати монумент [buildReason].\n\n[commonEnding]</li>
-    <li>asker2(askerIsNull==true)-> архотек</li>
+    <li>questDescription(askerIsNull==true)->Надійшло таємниче повідомлення. Здається, воно було передано ШІ-персоною, яка відмовляється називати себе. У повідомленні пропонується побудувати специфічний монумент.\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull], лідер фракції [asker_faction_name] пропонує вам побудувати монумент, [buildReason].\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull], лідер фракції [asker_faction_name] наказує вам побудувати монумент, [buildReason].\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->архотек</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
-    <li>buildReason->для вшанування [PersonalCharacteristic] [asker_possessive] [PersonFamily]</li>
-    <li>buildReason->для вшанування [asker_possessive] [PersonalCharacteristic]</li>
-    <li>buildReason->для образи [PersonalCharacteristic] [asker_possessive] суперника</li>
-    <li>buildReason->щоб зменшити відчуття [ConceptAngsty] серед людей</li>
-    <li>buildReason->щоб показати як [AdjectiveBadass] [asker_pronoun]</li>
-    <li>buildReason->щоб виказати повагу [asker_possessive] [asker_faction_pawnsPlural], що віддали своє життя у битві</li>
-    <li>buildReason->щоб вшанувати [asker_possessive] [PersonFamily]</li>
-    <li>buildReason->щоб вшанувати працю [PersonJob]</li>
-    <li>buildReason->для поширення пам'яті [asker_possessive] [glory] в цих краях</li>
-    <li>glory->славі</li>
-    <li>glory->бойових заслугах</li>
-    <li>glory->перемогах</li>
-    <li>glory->владі</li>
-    <li>glory->чудовому кораблі</li>
-    <li>glory->багатстві</li>
+    <li>buildReason->щоб вшанувати [PersonalCharacteristic] [asker_possessive] [PersonFamilyGen]</li>
+    <li>buildReason->щоб вшанувати [asker_possessive] [PersonalCharacteristic]</li>
+    <li>buildReason->щоб образити [PersonalCharacteristic] [asker_possessive] суперника</li>
+    <li>buildReason->щоб зменшити [ConceptAngsty] серед людей</li>
+    <li>buildReason->щоб показати, наскільки [asker_pronoun] {asker_gender ? [AdjectiveBadass] : [AdjectiveBadassFem]}</li>
+    <li>buildReason->щоб вшанувати [asker_possessive] [asker_faction_pawnsPlural], які загинули в бою</li>
+    <li>buildReason->щоб вшанувати [asker_possessive] [PersonFamilyAcc]</li>
+    <li>buildReason->щоб вшанувати працю [PersonJobPluGen]</li>
+    <li>buildReason->щоб поширити відображення [asker_possessive] [glory] всім світом</li>
+    <li>glory->слави</li>
+    <li>glory->бойової честі</li>
+    <li>glory->перемоги</li>
+    <li>glory->влади</li>
+    <li>glory->великого корабля</li>
+    <li>glory->вагомості</li>
     <li>glory->сім'ї</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Ви провалили завдання '[resolvedQuestName]'.</li>
-    <li>failLetterEndingCommon->Ви провалили завдання '[resolvedQuestName]'.\n\nВаші відносини з [asker_faction_name] зменшені на [goodwillPenalty].</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Ви провалили завдання "[resolvedQuestName]".</li>
+    <li>failLetterEndingCommon->Ви провалили завдання "[resolvedQuestName]".\n\nВаші відносини з фракцією [asker_faction_name] знизились на [goodwillPenalty].</li>
   </QuestConstructionDescriptionCommon.rulePack.rulesStrings>
   
   <!-- EN:
@@ -84,33 +84,33 @@
     <li>construction->assembly</li>
   -->
   <QuestConstructionNameCommon.rulePack.rulesStrings>
-    <li>questName->[constAdj] [construction]</li>
-    <li>questName->[constAdj] [construction]</li>
-    <li>questName->[constAdj] [construction]</li>
-    <li>constAdj(p=20)->[AdjectiveLarge]</li>
-    <li>constAdj->жахлива</li>
-    <li>constAdj->чудова</li>
-    <li>constAdj->грандіозна</li>
-    <li>constAdj->небезпечна</li>
-    <li>constAdj->монументальна</li>
-    <li>constAdj->екстравагантна</li>
-    <li>constAdj->чутлива</li>
-    <li>constAdj->лякаюча</li>
-    <li>constAdj->лячна</li>
-    <li>constAdj->боязка</li>
-    <li>constAdj->дивовижна</li>
-    <li>constAdj->пророча</li>
-    <li>constAdj->нестерпна</li>
-    <li>constAdj->блискуча</li>
-    <li>constAdj->видатна</li>
-    <li>constAdj->приголомшлива</li>
+    <li>questName->[AdjectiveAny] [constructionMasc]</li>
+    <li>questName->[AdjectiveAnyFem] [construction]</li>
     <li>construction(p=3)->конструкція</li>
-    <li>construction(p=3)->структура</li>
-    <li>construction(p=3)->споруда</li>
-    <li>construction->монументальність</li>
-    <li>construction->будівля</li>
-    <li>construction->мазанка</li>
-    <li>construction->халупа</li>
+    <li>construction(p=2)->структура</li>
+    <li>construction(p=2)->будівля</li>
+    <li>constructionMasc->монумент</li>
+    <li>construction->споруда</li>
+    <li>construction->асамблея</li>
+    <li>constAdj->monumental</li>
+    <li>constAdj->extravagant</li>
+    <li>constAdj->foreboding</li>
+    <li>constAdj->frightening</li>
+    <li>constAdj->dreadful</li>
+    <li>constAdj->fearful</li>
+    <li>constAdj->awesome</li>
+    <li>constAdj->prophetic</li>
+    <li>constAdj->harrowing</li>
+    <li>constAdj->glittering</li>
+    <li>constAdj->shining</li>
+    <li>constAdj->amazing</li>
+    <li>construction(p=3)->construction</li>
+    <li>construction(p=2)->structure</li>
+    <li>construction(p=2)->building</li>
+    <li>construction->monument</li>
+    <li>construction->edifice</li>
+    <li>construction->blueprint</li>
+    <li>construction->assembly</li>
   </QuestConstructionNameCommon.rulePack.rulesStrings>
   
 </LanguageData>

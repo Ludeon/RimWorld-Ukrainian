@@ -68,18 +68,22 @@
   <NamerIdeoRelic.rulePack.rulesStrings>
     <li>r_ideoRelicName(p=2)->[first][second]</li>
     <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
-    <li>r_ideoRelicName->[memeAdjective] [thingLabel]</li>
-    <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
-    <li>r_ideoRelicName->[memeAdjective] [relic]</li>
+    <li>r_ideoRelicName->[memeAdjective_masc] [thingLabel]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix][thingLabel]</li>
+    <li>r_ideoRelicName(p=0.25)->[memeAdjective_masc] [relic_masc]</li>
+    <li>r_ideoRelicName(p=0.25)->[memeAdjective_fem] [relic_fem]</li>
+    <li>r_ideoRelicName(p=0.50)->[memeAdjective_neutral] [relic_neutral]</li>
     <li>r_ideoRelicName->[relic] [memeConcept]</li>
     <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
-    <li>relic->реліквія</li>
-    <li>relic->артефакт</li>
-    <li>relic->скарб</li>
-    <li>relic->спадок</li>
-    <li>relic->спадщина</li>
-    <li>relic->реліквія</li>
-    <li>relic->нагадування</li>
+    <li>relic(p=1)->[relic_masc]</li>
+    <li>relic(p=1)->[relic_fem]</li>
+    <li>relic(p=2)->[relic_neutral]</li>
+    <li>relic_fem->реліквія</li>
+    <li>relic_masc->артефакт</li>
+    <li>relic_masc->скарб</li>
+    <li>relic_masc->спадок</li>
+    <li>relic_fem->спадщина</li>
+    <li>relic_neutral->нагадування</li>
     <li>first(p=5)->[memeHyphenPrefix]</li>
     <li>first->довго</li>
     <li>first->небесно</li>
@@ -124,10 +128,6 @@
     <li>second->тінь</li>
     <li>second->упевненість</li>
     <li>second->локус</li>
-    <li>second->форма</li>
-    <li>second->палець</li>
-    <li>second->батіг</li>
-    <li>second->крім</li>
   </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>

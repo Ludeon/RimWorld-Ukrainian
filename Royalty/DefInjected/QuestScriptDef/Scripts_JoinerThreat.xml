@@ -23,25 +23,25 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім'я [joiner_nameFull] кличе на поміч! [joiner_pronoun] ховається від [hidingFrom]. [joiner_pronoun] хоче втекти та обіцяє приєднатися до вашого поселення.[joiner_relationInfo]\n\n[condDesc]\n\nВідчайдушно намагаючись бути непоміченим, [joiner_nameDef] стверджує, що не може розповісти вам більше про себе.</li>
+    <li>questDescription->[introduction] на ім'я [joiner_nameFull] потребує допомоги! [joiner_pronoun] ховається від [hidingFrom]. [joiner_pronoun] хоче піти з тимчасового прихистку та приєднатися до вас в [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nБажаючи анонімності, [joiner_nameDef] каже, що більше нічого про себе сказати не може.</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->зграї голодних вовків</li>
-    <li>condDesc(gameCondition==ToxicFallout)->Нажаль [joiner_nameDef] може вбити вовків, лише підпаливши колосальне звалище токсичних хімікатів неподалік. Після цього буде [gameConditionDuration_duration] токсичних опадів.</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Однак, [joiner_nameDef] може позбавитися цих вовків тільки підпаливши величезне звалище токсичних хімікатів неподалік. Якщо ви погодитесь, місцевість на [gameConditionDuration_duration] накриють токсичні опади.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->банди канібалів</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->Однак [joiner_nameDef] може позбавитись канібалів, лише підпаливши величезну покинуту купу сміття поблизу. Якщо [joiner_pronoun] приєднається до вас, димні опади закриють сонце на [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Однак, [joiner_nameDef] може позбавитися цих канібалів тільки підпаливши величезну купу сміття неподалік. Якщо ви погодитесь, місцевість на [gameConditionDuration_duration] накриє величезна кількість диму.</li>
     <li>hidingFrom(gameCondition==EMIField)->групи механоїдів</li>
-    <li>condDesc(gameCondition==EMIField)->Нажаль [joiner_nameDef] може знищити механоїдів лише шляхом активації стародавнього генератора EMI. Якщо [joiner_pronoun] приєднається до вас, буде згенеровано поле EMI, яке вимкне електричні пристрої на [gameConditionDuration_duration].</li>
-    <li>hidingFrom(gameCondition==HeatWave)->несправного супутника управління кліматом</li>
-    <li>condDesc(gameCondition==HeatWave)->Якщо [joiner_pronoun] приєднається до вас, інтенсивна хвиля спеки триватиме [gameConditionDuration_duration], доки супутник не перезапуститься.</li>
-    <li>hidingFrom(gameCondition==ColdSnap)->несправного супутника клімат-контролю</li>
-    <li>condDesc(gameCondition==ColdSnap)->Якщо [joiner_pronoun] приєднається до вас, інтенсивне похолодання триватиме протягом [gameConditionDuration_duration], доки супутник не скинеться.</li>
-    <li>hidingFrom(gameCondition==WeatherController)->помилки в супутнику контролю за погодою</li>
-    <li>condDesc(gameCondition==WeatherController)->Якщо [joiner_pronoun] приєднається до вас, погода буде [forcedWeather_label] протягом [gameConditionDuration_duration] до скидання супутника.</li>
-    <li>hidingFrom(gameCondition==PsychicDrone)->мстивій Ші-персоні, яку нещодавно [joiner_pronoun]</li>
-    <li>condDesc(gameCondition==PsychicDrone)->Якщо [joiner_pronoun] приєднається до вас, розум машини підірве [map_definite] психічним дроном рівня [psychicDroneLevel] протягом [gameConditionDuration_duration], знижуючи настрій усіх [psychicDroneGender].</li>
-    <li>hidingFrom(gameCondition==PsychicSuppression)->ворожої Ші-особи, яку [joiner_pronoun] нещодавно пробудив</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->Якщо [joiner_pronoun] приєднається до вас, персона вразить [map_definite] хвилями психічного придушення протягом [gameConditionDuration_duration], зменшуючи свідомість усіх [psychicSuppressorGender].</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
+    <li>condDesc(gameCondition==EMIField)->Однак, [joiner_nameDef] може позбавитися цих механоїдів тільки активувавши старовинний генератор ЕМІ-поля неподалік. Якщо ви погодитесь, електрика не буде працювати у цій місцевості протягом [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==HeatWave)->несправного супутника контролю погоди</li>
+    <li>condDesc(gameCondition==HeatWave)->Якщо ви погодитесь, місцевість накриє аномальна спека, яка буде тривати [gameConditionDuration_duration], допоки супутник не перезавантажиться.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->несправного супутника контролю погоди</li>
+    <li>condDesc(gameCondition==ColdSnap)->Якщо ви погодитесь, місцевість накриють заморозки, які будуть тривати [gameConditionDuration_duration], допоки супутник не перезавантажиться.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->несправного супутника контролю погоди</li>
+    <li>condDesc(gameCondition==WeatherController)->Якщо ви погодитесь, у місцевості протягом [gameConditionDuration_duration] буде [forcedWeather_label], допоки супутник не перезавантажиться.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->від мстивої ШІ-персони, яку [joiner_pronoun] нещодавно {joiner_gender ? образив : образила}</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Якщо ви погодитесь, місцевість на [gameConditionDuration_duration] накриє [psychicDroneLevel] психоактивний гул, зводячи з розуму всіх {replace: [psychicDroneGender]; "чоловік"-"чоловіків"; "жінка"-"жінок"}.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->від агресивної ШІ-персони, яку [joiner_pronoun] нещодавно {joiner_gender ? пробудив : пробудила}</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Якщо ви погодитесь, на місцевість протягом [gameConditionDuration_duration] буде впливати поле психічного пригнічення, погіршуючи свідомість всіх {replace: [psychicSuppressorGender]; "чоловік"-"чоловіків"; "жінка"-"жінок"}.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
@@ -49,9 +49,9 @@
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
-    <li>questName->[gameCondition_label] наслідок дій [joiner_nameDef]</li>
     <li>questName->[joiner_nameDef] та [gameCondition_label]</li>
-    <li>questName->[gameCondition_label] та [joiner_nameDef]</li>
+    <li>questName->[gameCondition_label] заради [joiner_nameDef]</li>
+    <li>questName->[gameCondition_label] для [joiner_nameDef]</li>
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -60,9 +60,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім'я [joiner_nameDef] звідкись телефонує. [joiner_pronoun] розповідає про досвід отруєння підземного рою комах, де головне не просочитись феромонами цих комах. Та судячи по агресивному клацанню на фоні, [joiner_pronoun] це не вдалось. На [joiner_pronoun] полюють жуки!\n\n[joiner_pronoun] благає про допомогу та пропонує приєднатися до вашого поселення.[joiner_relationInfo]\n\nЯкщо ви погодитесь, до вас добереться (*Threat)[hivesCount] груп комах(/Threat) через [infestationDelayTicks_duration].\n\n[joiner_nameDef] не має часу, щоб надати більше інформації.</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
+    <li>questDescription->З вами зв'язується [introduction] на ім'я [joiner_nameDef] звідкись неподалік. [joiner_pronoun] каже, що [joiner_objective] вдалося отруїти підземне лігво комах, але тепер [joiner_pronoun] {joiner_gender ? весь покритий : вся покрита} феромонами комах, через що ті полюють на {joiner_gender ? нього : неї}!\n\n[joiner_pronoun] благає вас про захист і пропонує приєднатися до вас у [map_definite].[joiner_relationInfo]\n\nЯкщо ви погодитесь, (*Threat)[hivesCount](/Threat) (*Threat)вуликів комах(/Threat) з'являться з-під землі через [infestationDelayTicks_duration].\n\n[joiner_nameDef] надто {joiner_gender ? наляканий : налякана}, щоб надати більше інформації.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років,</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -71,17 +71,17 @@
     <li>questName->[joiner_nameDef]'s insects</li>
   -->
   <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
-    <li>questName->зараження від [joiner_nameDef]</li>
-    <li>questName->рій від [joiner_nameDef]</li>
-    <li>questName->жуки від [joiner_nameDef]</li>
-    <li>questName->комахи від [joiner_nameDef]</li>
+    <li>questName->[joiner_nameDef] та нашестя комах</li>
+    <li>questName->[joiner_nameDef] та вулики</li>
+    <li>questName->[joiner_nameDef] та жуки</li>
+    <li>questName->[joiner_nameDef] та комахи</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] просочується феромонами комах і тікає від нападу. Незабаром прибудуть жуки-переслідувачі.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} у гонитві за [joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: Chasing [joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
-  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nКомахи прибули за [joiner_nameDef].</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nThe insects are here for [joiner_nameDef].</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
   
   <!-- EN:
     <li>questDescription(animalCount==1)->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says (*Threat)a manhunting [animalKind_label](/Threat) is hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_label] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -92,12 +92,12 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->[introduction] на ім’я [joiner_nameDef] каже, що [joiner_possessive] переслідує (*Threat)агресивна тварина, [animalKind_label](/Threat)!\n\n[joiner_pronoun] благає про допомогу та пропонує приєднатися до вас.[joiner_relationInfo]\n\nЯкщо ви приймаєте [joiner_nameDef], [animalKind_label] розпочне полювання на вашій території через [manhuntersDelayTicks_duration].\n\n[joiner_possessive] надто налякано, щоб надати більше інформації.</li>
-    <li>manhunterArrivalterLetterEnd(animalCount==1)-> [animalKind_label] переслідує [joiner_nameDef].</li>
-    <li>questDescription(animalCount>=2)->[introduction] на ім’я [joiner_nameDef] кличе на поміч. [joiner_pronoun] каже, що [joiner_possessive] переслідуює (*Threat)зграя тварин, [animalKind_labelPlural](/Threat)!\n\n[joiner_pronoun] благає про допомогу та пропонує приєднатися до вас.[joiner_relationInfo]\n\nЯкщо ви приймете [joiner_nameDef], [animalKind_labelPlural] прийдуть у ваш регін через [manhuntersDelayTicks_duration].\n\n[joiner_possessive] надто лячно, щоб надати більше інформації.</li>
-    <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural] переслідують [joiner_nameDef].</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
+    <li>questDescription(animalCount==1)->[introduction] на ім'я [joiner_nameDef] потребує допомоги! [joiner_pronoun] каже, що на {joiner_gender ? нього : неї} полює (*Threat)[animalKind_label](/Threat)!\n\n[joiner_pronoun] благає вас про захист і пропонує приєднатися до вас у [map_definite].[joiner_relationInfo]\n\nЯкщо ви допоможете [joiner_nameDef], [animalKind_label] атакує вас через [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] надто {joiner_gender ? наляканий : налякана}, щоб надати більше інформації.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label], що полює на [joiner_nameDef].</li>
+    <li>questDescription(animalCount>=2)->[introduction] на ім'я [joiner_nameDef] потребує допомоги! [joiner_pronoun] каже, що на {joiner_gender ? нього : неї} полює (*Threat) зграя агресивних {lookup: [animalKind_labelPlural]; Case; 3}(/Threat) в кількості (*Threat)[animalCount](/Threat) тварин!\n\n[joiner_pronoun] благає вас про захист і пропонує приєднатися до вас у [map_definite].[joiner_relationInfo]\n\nЯкщо ви допоможете [joiner_nameDef], [animalKind_labelPlural] нападуть на вас через [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] надто {joiner_gender ? наляканий : налякана}, щоб надати більше інформації.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural], що полюють на [joiner_nameDef].</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років,</li>
   </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
@@ -108,15 +108,15 @@
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
-    <li>questName->полювання на [joiner_nameDef]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] та [animalKind_label]</li>
-    <li>questName(animalCount==1)->[animalKind_label] і [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->захист [joiner_nameDef] від {lookup: [animalKind_label]; Case; 1}</li>
+    <li>questName(animalCount==1)->полювання на мисливця</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] та [animalKind_labelPlural]</li>
-    <li>questName(animalCount>=2)->[joiner_nameDef] і [animalKind_labelPlural]</li>
-    <li>questName(animalCount>=2)->[animalKind_labelPlural] та [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->захист [joiner_nameDef] від {lookup: [animalKind_labelPlural]; Case; 1}</li>
+    <li>questName(animalCount>=2)->полювання на мисливців</li>
   </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL} у гонитві за [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
+  <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: Chasing [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
   <ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>
   
@@ -126,9 +126,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім'я [joiner_nameDef] хоче приєднатися до вас.[joiner_relationInfo]\n\n[joiner_nameDef] переслідує якась загроза, але [joiner_pronoun] не бажає розповідати, що це або коли. [joiner_pronoun] також не бажає розповідати вам більше про [joiner_objective].</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
+    <li>questDescription->[introduction] на ім'я [joiner_nameDef] потребує допомоги! [joiner_pronoun] благає вас дозволити [joiner_objective] приєднатися до вас у [map_definite].[joiner_relationInfo]\n\n[joiner_nameDef], здається, тікає від якоїсь небезпеки, але від якої саме - мовчить. Також [joiner_pronoun] не хоче надавати більше інформації і про себе.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років,</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
@@ -142,24 +142,24 @@
     <li>questName->[problem] [joiner_nameDef]</li>
     <li>problem->проблема</li>
     <li>problem->сором</li>
-    <li>problem->секрет</li>
+    <li>problem->таємниця</li>
   </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} у гонитві за [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} chasing [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] розповідає, від чого [joiner_pronoun] довелось тікати.\n    \n[joiner_pronoun] має свої обов'язки, і цього разу, це — піти під вінець з дитиною лідера фракції [enemyFaction_name]. Пізніше виявилося, що напиватися перед церемонією та вирвати на вівтар — кричуща образа для всієї родини [enemyFaction_leader_nameDef].\n \n[enemyFaction_leader_nameDef] клянеться помститися [joiner_nameDef] та всім, хто пов’язаний з [joiner_objective], і надіслав [enemyFaction_pawnsPlural] для помсти.\n \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL} у гонитві за [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: Chasing [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] зізнається, від чого [joiner_pronoun] тікає.\n \n[joiner_nameDef], через свою жагу до веселощів та грошей, які може принести желе комах, має намір знищити великий вулик жуків за допомогою отрути. [joiner_pronoun] це не вдається, зате вдається вимазатися феромонами комах. З того часу комахи полюють на [joiner_objective]. Жуки готові розпочати вирішальну атаку.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>[joiner_nameDef] та нове небезпечне місце [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Site appeared to harass [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] зізнається, від чого [joiner_pronoun] довелось тікати.\n \n[joiner_nameDef] подорожуючи та натрапивши на [enemyFaction_leader_nameFull], лідера [enemyFaction_name], хворого на узбіччі дороги. [joiner_nameDef] ображає [enemyFaction_leader_nameDef], порівнявши [enemyFaction_leader_objective] із [Animal].\n \nПісля цього [enemyFaction_pawnsPlural] за наказом [enemyFaction_leader_nameDef] збудують форпост поблизу, щоб атакувати вас.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL} у гонитві за [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: Chasing [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] зізнається, чому [joiner_pronoun] довелось тікати.\n    \n[joiner_nameDef] подорожуючи натрапляє на розгублену групу [animalKind_labelPlural]. [joiner_pronoun], у поганому настрої, підбурює [animalKind_labelPlural]. Але вони неочікувано нападають та змушують розминати ноги протягом кількох годин у бік вашого поселення. Зараз вони слідкують на більшій відстані, мабуть вичікують поки [joiner_objective] виснажиться остаточно.\n \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -167,26 +167,26 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім'я [joiner_nameDef] телефонує звідкись. [joiner_pronoun] визнає, що [joiner_pronoun] оскверняти ритуал примирення між [raid1/enemyFaction_name] і [raid2/enemyFaction_name] було поганим вчинком. Тепер вони обоє переслідують [joiner_objective]!\n\n[joiner_pronoun] благає про безпеку та пропонує приєднатися до вас на [map_definite].[joiner_relationInfo]\n\nЯкщо ви приймете [joiner_nameDef], [raid1/enemyFaction_name] і [ raid2/enemyFaction_name] здійснять наліт на вас через [raidDelayTicks_duration].\n\n[joiner_nameDef] не має можливості надати більше інформації.</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
+    <li>questDescription->[introduction] на ім'я [joiner_nameDef] потребує допомоги. [joiner_pronoun] зізнається, що [joiner_pronoun] {joiner_gender ? спаплюжив : спаплюжила} ритуал примирення між фракціями [raid1/enemyFaction_name] та [raid2/enemyFaction_name]. Тепер, всі вони переслідують [joiner_possessive]!\n\n[joiner_pronoun] благає вас про захист і пропонує приєднатися до вас у [map_definite].[joiner_relationInfo]\n\nЯкщо ви допоможете [joiner_objective], фракції [raid1/enemyFaction_name] та [raid2/enemyFaction_name] нападуть на вас одночасно через [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років,</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef] та [joiner_possessive] друзі</li>
+    <li>questName->[joiner_nameDef] та [joiner_possessive] "друзі"</li>
     <li>questName->[joiner_nameDef] та [joiner_possessive] вороги</li>
   </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL} у гонитві за [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL} chasing [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \n[enemyFaction_pawnsPlural] йдуть за [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL} у гонитві за [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL} chasing [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \n[enemyFaction_pawnsPlural] йдуть за [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
@@ -202,14 +202,14 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім’я [joiner_nameFull] телефонує звідкись неподалік. [joiner_pronoun] ховається від [threat]. [joiner_pronoun] хоче втекти зі [joiner_possessive] схованки і приєднатися до вас.[joiner_relationInfo]\n\nЯкщо ви приймете [joiner_objective], [joinersEnemies] створять форпост неподалік, щоб атакувати вас. [site/allSitePartsDescriptions]\n\nЗагроза залишатиметься, доки ви не знищите її.</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річна дитина</li>
-    <li>introduction->[joiner_age]-річну дитину, [joiner_title]</li>
-    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] з [site/enemyFaction_name]</li>
+    <li>questDescription->[introduction] на ім'я [joiner_nameDef] потребує допомоги. [joiner_pronoun] ховається від [threat]. [joiner_pronoun] хоче піти з тимчасового прихистку та приєднатися до вас в [map_definite].[joiner_relationInfo]\n\nЯкщо ви допоможете [joiner_objective], [joinersEnemies] стануть табором неподалік та будуть періодично нападати на вас. [site/allSitePartsDescriptions]\n\nЦей табір залишиться там, допоки ви його не розіб'єте.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
+    <li>introduction->[joiner_title] віком [joiner_age] років,</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->{lookup: [site/enemyFaction_pawnsPlural]; Case; 3} фракції [site/enemyFaction_name]</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->механоїдів</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->механоїдів</li>
     <li>threat->своїх ворогів</li>
-    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->{lookup: [site/enemyFaction_pawnsPlural]; Case; 3} [site/enemyFaction_name]</li>
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->механоїди</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->механоїди</li>
     <li>joinersEnemies->[joiner_possessive] вороги</li>
@@ -220,11 +220,11 @@
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
+    <li>questName->[site/site_label] через [joiner_nameDef]</li>
     <li>questName->[joiner_nameDef] та [site/site_label]</li>
-    <li>questName->[joiner_nameDef] та [joiner_possessive] вороги</li>
-    <li>questName->the [site/site_label] та [joiner_nameDef]</li>
+    <li>questName->[site/site_label] для [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
-  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Так як ви прийняли [../joiner_nameDef], [../threat] встановили форпост поблизу для атаки вашого поселення.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>

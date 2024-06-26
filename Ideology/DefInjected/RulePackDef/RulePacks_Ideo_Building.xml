@@ -8,10 +8,10 @@
     <li>buildingName->platform</li>
   -->
   <NamerAltar.rulePack.rulesStrings>
-    <li>buildingName->вівтар</li>
-    <li>buildingName->святиня</li>
-    <li>buildingName->каплиця</li>
-    <li>buildingName->площа</li>
+    <li>buildingName(p=1)->[buildingName_masc]</li>
+    <li>buildingName(p=3)->[buildingName_fem]</li>
+    <li>buildingName_masc->вівтар</li>
+    <li>buildingName_fem->святиня</li>
   </NamerAltar.rulePack.rulesStrings>
   
   <!-- EN:
@@ -20,9 +20,9 @@
     <li>buildingName->pyre</li>
   -->
   <NamerBurnTarget.rulePack.rulesStrings>
-    <li>buildingName->тотем</li>
-    <li>buildingName->статуя</li>
-    <li>buildingName->багаття</li>
+    <li>buildingName->[buildingName_masc]</li>
+    <li>buildingName->[buildingName_neutral]</li>
+    <li>buildingName->[buildingName_fem]</li>
   </NamerBurnTarget.rulePack.rulesStrings>
   
   <!-- EN:
@@ -32,10 +32,10 @@
     <li>buildingName->manpork</li>
   -->
   <NamerCannibalPlatter.rulePack.rulesStrings>
-    <li>buildingName->тарілка</li>
-    <li>buildingName->страва</li>
-    <li>buildingName->бенкет</li>
-    <li>buildingName->людо-джерки</li>
+    <li>buildingName(p=1)->[buildingName_masc]</li>
+    <li>buildingName(p=3)->[buildingName_fem]</li>
+    <li>buildingName_fem->тарілка</li>
+    <li>buildingName_fem->страва</li>
   </NamerCannibalPlatter.rulePack.rulesStrings>
   
   <!-- EN:
@@ -43,8 +43,8 @@
     <li>buildingName->pine</li>
   -->
   <NamerChristmasTree.rulePack.rulesStrings>
-    <li>buildingName->ялинка</li>
-    <li>buildingName->сосна</li>
+    <li>buildingName->[buildingName_fem]</li>
+    <li>buildingName_fem->ялинка</li>
   </NamerChristmasTree.rulePack.rulesStrings>
   
   <!-- EN:
@@ -57,13 +57,13 @@
     <li>r_ideoBuildingName->[buildingName] of [chosenIdeoName]</li>
   -->
   <NamerIdeoBuilding.rulePack.rulesStrings>
-    <li>r_ideoBuildingName(p=2)->[memeAdjective] [buildingName]</li>
+    <li>r_ideoBuildingName(p=0.66)->[memeAdjective_masc] [buildingName_masc]</li>
+    <li>r_ideoBuildingName(p=0.66)->[memeAdjective_fem] [buildingName_fem]</li>
+    <li>r_ideoBuildingName(p=0.66)->[memeAdjective_neutral] [buildingName_neutral]</li>
     <li>r_ideoBuildingName->[buildingName] [chosenTheme]</li>
-    <li>r_ideoBuildingName->[chosenAdjective] [buildingName]</li>
-    <li>r_ideoBuildingName->[keyDeity]'s [buildingName]</li>
+    <li>r_ideoBuildingName->[chosenAdjective] [buildingName_masc]</li>
     <li>r_ideoBuildingName->[buildingName] [keyDeity]</li>
     <li>r_ideoBuildingName->[buildingName] [memeConcept]</li>
-    <li>r_ideoBuildingName->[buildingName] [chosenIdeoName]</li>
   </NamerIdeoBuilding.rulePack.rulesStrings>
   
   <!-- EN:
@@ -77,14 +77,14 @@
     <li>buildingName->logo</li>
   -->
   <NamerIdeogram.rulePack.rulesStrings>
-    <li>buildingName->ідеограма</li>
-    <li>buildingName->символ</li>
-    <li>buildingName->образ</li>
-    <li>buildingName->фігура</li>
-    <li>buildingName->емблема</li>
-    <li>buildingName->форма</li>
-    <li>buildingName->зображення</li>
-    <li>buildingName->логотип</li>
+    <li>buildingName(p=3)->[buildingName_masc]</li>
+    <li>buildingName(p=3)->[buildingName_fem]</li>
+    <li>buildingName(p=1)->[buildingName_neutral]</li>
+    <li>buildingName_fem->ідеограма</li>
+    <li>buildingName_masc->символ</li>
+    <li>buildingName_masc->образ</li>
+    <li>buildingName_fem->фігура</li>
+    <li>buildingName_fem->емблема</li>
   </NamerIdeogram.rulePack.rulesStrings>
   
   <!-- EN:
@@ -96,12 +96,12 @@
     <li>buildingName->shape</li>
   -->
   <NamerIdeoSculpture.rulePack.rulesStrings>
-    <li>buildingName->статуя</li>
-    <li>buildingName->скульптура</li>
-    <li>buildingName->різьблення</li>
-    <li>buildingName->образ</li>
-    <li>buildingName->форма</li>
-    <li>buildingName->фігура</li>
+    <li>buildingName(p=1)->[buildingName_masc]</li>
+    <li>buildingName(p=4)->[buildingName_fem]</li>
+    <li>buildingName(p=1)->[buildingName_neutral]</li>
+    <li>buildingName_fem->статуя</li>
+    <li>buildingName_fem->скульптура</li>
+    <li>buildingName_neutral->різьблення</li>
   </NamerIdeoSculpture.rulePack.rulesStrings>
   
   <!-- EN:
@@ -111,10 +111,10 @@
     <li>buildingName->smolderer</li>
   -->
   <NamerSmoker.rulePack.rulesStrings>
-    <li>buildingName->курець</li>
-    <li>buildingName->пихало</li>
-    <li>buildingName->чадило</li>
-    <li>buildingName->смалитель</li>
+    <li>buildingName->[buildingName_masc]</li>
+    <li>buildingName_masc->курець</li>
+    <li>buildingName_masc->пихало</li>
+    <li>buildingName_masc->чадило</li>
   </NamerSmoker.rulePack.rulesStrings>
   
 </LanguageData>

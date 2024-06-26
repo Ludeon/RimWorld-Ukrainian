@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: play -->
-  <BabyPlay.label>грати</BabyPlay.label>
+  <BabyPlay.label>гра з немовлям</BabyPlay.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] made [RECIPIENT_nameDef] [reaction].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
@@ -36,40 +36,40 @@
     <li>babyGame->fingerpuppets</li>
   -->
   <BabyPlay.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] зробив [RECIPIENT_nameDef] [reaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? змусив : змусила} [RECIPIENT_nameDef] [reaction].</li>
     <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] грався у [babyGame] з [RECIPIENT_nameDef].</li>
-    <li>reaction->хіхікає</li>
-    <li>reaction->посміхається</li>
-    <li>reaction->корчиться від щастя</li>
-    <li>reaction->сміється</li>
-    <li>reaction->грайливо пускає слину</li>
-    <li>reaction->клекоче</li>
-    <li>reaction->верещить</li>
-    <li>reaction->відригує</li>
-    <li>reaction->захоплено витріщається</li>
-    <li>interaction->задоволений</li>
-    <li>interaction->грав з</li>
-    <li>interaction->розважали</li>
-    <li>interaction->потішив</li>
-    <li>interaction->лоскотав</li>
-    <li>interaction->водити носом</li>
-    <li>interaction->сопе</li>
-    <li>interaction->обійняв</li>
-    <li>interaction->кинув</li>
-    <li>interaction->співав</li>
-    <li>interaction->розповів історію</li>
-    <li>interaction->зіграв чарівний трюк</li>
+    <li>r_logentry->[INITIATOR_nameDef] грається з [RECIPIENT_nameDef] в [babyGame].</li>
+    <li>reaction->хіхікати</li>
+    <li>reaction->посміхатися</li>
+    <li>reaction->корчитися від щастя</li>
+    <li>reaction->сміятися</li>
+    <li>reaction->грайливо пускати слину</li>
+    <li>reaction->клекотати</li>
+    <li>reaction->верещати</li>
+    <li>reaction->відригувати</li>
+    <li>reaction->захоплено витріщатися</li>
+    <li>interaction->чарується</li>
+    <li>interaction->грає з</li>
+    <li>interaction->розважає</li>
+    <li>interaction->тішить</li>
+    <li>interaction->лоскоче</li>
+    <li>interaction->притискається носом до</li>
+    <li>interaction->нюхає</li>
+    <li>interaction->обіймає</li>
+    <li>interaction->підкидує</li>
+    <li>interaction->співає до</li>
+    <li>interaction->розповідає історію до</li>
+    <li>interaction->показує магічні трюки</li>
     <li>babyGame->хованки</li>
-    <li>babyGame->бачу не бачу</li>
-    <li>babyGame->загублений палець</li>
-    <li>babyGame->мавпувати</li>
-    <li>babyGame->покажи та розкажи</li>
-    <li>babyGame->пальчикова лялька</li>
+    <li>babyGame->"ку-ку"</li>
+    <li>babyGame->"знайди палець"</li>
+    <li>babyGame->"мавпа бачить мавпа робить"</li>
+    <li>babyGame->"покажи і розкажи"</li>
+    <li>babyGame->"пальчикові ляльки"</li>
   </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
-  <LessonAnimals.label>урок про тварин</LessonAnimals.label>
+  <LessonAnimals.label>урок тваринництва</LessonAnimals.label>
   <!-- EN:
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
     <li>article_animal->a megasloth</li>
@@ -99,11 +99,11 @@
     <li>subject->kibble</li>
   -->
   <LessonAnimals.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef] як [animal_verb] [article_animal].</li>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], як [animal_verb] [article_animal].</li>
     <li>article_animal->гігантського лінивця</li>
     <li>article_animal->гігантського павука</li>
     <li>article_animal->трумбо</li>
-    <li>article_animal->бум щура</li>
+    <li>article_animal->бумщура</li>
     <li>article_animal->шиншилу</li>
     <li>article_animal->морську свинку</li>
     <li>article_animal->кобру</li>
@@ -114,17 +114,17 @@
     <li>article_animal->яка</li>
     <li>article_animal->білку</li>
     <li>article_animal->муффало</li>
-    <li>animal_verb->приручити</li>
+    <li>article_animal->[AnimalAcc]</li>
+    <li>animal_verb->приручати</li>
     <li>animal_verb->годувати</li>
     <li>animal_verb->заспокоювати</li>
-    <li>animal_verb->лякати</li>
-    <li>animal_verb->завоювати довіру</li>
-    <li>subject->тваринна психологія</li>
-    <li>subject->техніка приручення</li>
-    <li>subject->небезпека дикої природи</li>
-    <li>subject->плазування</li>
+    <li>animal_verb->налякати</li>
+    <li>animal_verb->доглядати</li>
+    <li>subject->психологію тварин</li>
+    <li>subject->способи приручення</li>
+    <li>subject->небезпечність дикої природи</li>
     <li>subject->сказ</li>
-    <li>subject->годування</li>
+    <li>subject->скаріоз</li>
   </LessonAnimals.logRulesInitiator.rulesStrings>
   
   <!-- EN: art lesson -->
@@ -150,28 +150,28 @@
     <li>subject->mixing paints</li>
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
-    <li>article_tool->кисть</li>
-    <li>article_tool->вугільний олівець</li>
-    <li>article_tool->зубило</li>
-    <li>article_tool->полотно</li>
-    <li>article_tool->грудка глини</li>
-    <li>action->робити мистецтво</li>
-    <li>action->використовувати</li>
-    <li>action->виражає себе</li>
-    <li>action_gerund->створення мистецтва</li>
-    <li>action_gerund->використаний</li>
-    <li>action_gerund->самовираження</li>
-    <li>subject->матеріали скульптури</li>
-    <li>subject->знамениті артисти</li>
-    <li>subject->відомі картини</li>
-    <li>subject->галереї Блискосвіту</li>
-    <li>subject->портрет</li>
-    <li>subject->абстрактне мистецтво</li>
-    <li>subject->змішування кольорів</li>
+    <li>article_toolAbl->пензлем</li>
+    <li>article_toolAbl->вугільним олівцем</li>
+    <li>article_toolAbl->долотом</li>
+    <li>article_toolAbl->полотном</li>
+    <li>article_toolAbl->грудкою глини</li>
+    <li>article_toolGen->пензля</li>
+    <li>article_toolGen->вугільного олівця</li>
+    <li>article_toolGen->долота</li>
+    <li>article_toolGen->полотна</li>
+    <li>article_toolGen->грудки глини</li>
+    <li>action->створювати мистецтво</li>
+    <li>action->користуватися</li>
+    <li>action->виражати себе</li>
+    <li>action_gerund->створення мистецтва за допомогою</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->самовираження за допомогою</li>
+    <li>subject->скульптурні матеріали</li>
+    <li>subject->відомих артистів</li>
   </LessonArtistic.logRulesInitiator.rulesStrings>
   
   <!-- EN: construction lesson -->
-  <LessonConstruction.label>урок конструювання</LessonConstruction.label>
+  <LessonConstruction.label>урок будівництва</LessonConstruction.label>
   <!-- EN:
     <li>article_tool->a hammer</li>
     <li>article_tool->a table saw</li>
@@ -192,27 +192,27 @@
     <li>subject->blueprints</li>
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
-    <li>article_tool->молоток</li>
-    <li>article_tool->настільна пила</li>
-    <li>article_tool->лінійка</li>
-    <li>article_tool->драбина</li>
-    <li>article_tool->рівень</li>
-    <li>action->використовувати</li>
-    <li>action->працювати з</li>
-    <li>action->перевіряти</li>
-    <li>action_gerund->використаний</li>
-    <li>action_gerund->працювати з</li>
-    <li>action_gerund->інспектування</li>
-    <li>subject->архітектура</li>
-    <li>subject->технології конструювання</li>
-    <li>subject->технології деконструювання</li>
-    <li>subject->будівельні матеріали</li>
-    <li>subject->софт для моделювання</li>
-    <li>subject->креслення</li>
+    <li>article_toolAbl->молотком</li>
+    <li>article_toolAbl->настільною пилою</li>
+    <li>article_toolAbl->лінійкою</li>
+    <li>article_toolAbl->драбиною</li>
+    <li>article_toolAbl->рівнем</li>
+    <li>article_toolGen->молотка</li>
+    <li>article_toolGen->настільної пили</li>
+    <li>article_toolGen->лінійки</li>
+    <li>article_toolGen->драбини</li>
+    <li>article_toolGen->рівня</li>
+    <li>action->користуватися</li>
+    <li>action->працювати</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->огляд</li>
+    <li>subject->архітектуру</li>
+    <li>subject->техніки будівництва</li>
+    <li>subject->техніки демонтажу</li>
   </LessonConstruction.logRulesInitiator.rulesStrings>
   
   <!-- EN: cooking lesson -->
-  <LessonCooking.label>урок кулінарії</LessonCooking.label>
+  <LessonCooking.label>урок готування</LessonCooking.label>
   <!-- EN:
     <li>article_tool->a stove</li>
     <li>article_tool->a spatula</li>
@@ -236,30 +236,30 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
-    <li>article_tool->кухонна плита</li>
-    <li>article_tool->лопатка</li>
-    <li>article_tool->піч</li>
-    <li>article_tool->каструля</li>
-    <li>article_tool->дозатор поживної пасти</li>
-    <li>article_tool->стіл м'ясника</li>
-    <li>action->очищати</li>
-    <li>action->готує з</li>
+    <li>article_toolAbl->плитою</li>
+    <li>article_toolAbl->кондитерським шпателем</li>
+    <li>article_toolAbl->піччю</li>
+    <li>article_toolAbl->каструлею</li>
+    <li>article_toolAbl->дозатором поживної пасти</li>
+    <li>article_toolAbl->столом м'ясника</li>
+    <li>article_toolGen->плити</li>
+    <li>article_toolGen->кондитерського шпателю</li>
+    <li>article_toolGen->печі</li>
+    <li>article_toolGen->каструлі</li>
+    <li>article_toolGen->дозатора поживної пасти</li>
+    <li>article_toolGen->стола м'ясника</li>
+    <li>action->доглядати за</li>
+    <li>action->користуватися</li>
     <li>action_gerund->очищення</li>
-    <li>action_gerund->готування з</li>
+    <li>action_gerund->готування за допомогою</li>
     <li>subject->спеції</li>
-    <li>subject->сухпаї</li>
-    <li>subject->яєчні сорти</li>
-    <li>subject->сорти м'яса</li>
-    <li>subject->смаки</li>
-    <li>subject->рецепти</li>
-    <li>situation->під час каравану</li>
-    <li>situation->із зав'язаними очима</li>
-    <li>situation->у поспіху</li>
-    <li>situation->безпечно</li>
+    <li>subject->сухпайки</li>
+    <li>subject->види яєць</li>
+    <li>subject->види м'яса</li>
   </LessonCooking.logRulesInitiator.rulesStrings>
   
   <!-- EN: crafting lesson -->
-  <LessonCrafting.label>урок ремісництва</LessonCrafting.label>
+  <LessonCrafting.label>урок ремесла</LessonCrafting.label>
   <!-- EN:
     <li>article_tool->a screwdriver</li>
     <li>article_tool->a pair of pliers</li>
@@ -287,30 +287,30 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-    <li>article_tool->викрутка</li>
-    <li>article_tool->плоскогубці</li>
-    <li>article_tool->мікросхема</li>
-    <li>article_tool-> стіл для шиття</li>
-    <li>article_tool->стіл для обробки</li>
-    <li>article_tool->фабрикатор</li>
-    <li>action->використовувати</li>
-    <li>action->працювати з</li>
-    <li>action->перевіряти</li>
-    <li>action_gerund->використаний</li>
-    <li>action_gerund->працював з</li>
-    <li>action_gerund->перевірив</li>
-    <li>subject->організація інструментів</li>
+    <li>article_toolAbl->викруткою</li>
+    <li>article_toolAbl->плоскогубцями</li>
+    <li>article_toolAbl->друкованою платою</li>
+    <li>article_toolAbl->швацькою машинкою</li>
+    <li>article_toolAbl->столом для обробки</li>
+    <li>article_toolGen->викрутки</li>
+    <li>article_toolGen->плоскогубців</li>
+    <li>article_toolGen->друкованої плати</li>
+    <li>article_toolGen->швацької машинки</li>
+    <li>article_toolGen->столу для обробки</li>
+    <li>action->користуватися</li>
+    <li>action->працювати</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->працю за допомогою</li>
+    <li>action_gerund->огляд</li>
+    <li>subject->організацію інструменту</li>
     <li>subject->майстерні досягнення</li>
     <li>subject->гаджети</li>
-    <li>subject->різновиди тканини</li>
-    <li>subject->техніка ткацтва полотна</li>
-    <li>subject->пластинчатий обладунок</li>
-    <li>subject->пояс інструментів</li>
-    <li>subject->біоніка</li>
-    <li>subject->безпека</li>
-    <li>situation->без інструкцій</li>
-    <li>situation->при свічках</li>
-    <li>situation(p=0.1)->напідпитку</li>
+    <li>subject->види тканин</li>
+    <li>subject->техніку ткацтва полотна</li>
+    <li>subject->пластинчату броню</li>
+    <li>subject->допоміжне спорядження</li>
+    <li>subject->біоніку</li>
+    <li>situation->безпечно</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
   
   <!-- EN: lesson -->
@@ -319,7 +319,7 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
   -->
   <LessonGeneric.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] провів урок для [RECIPIENT_nameDef]</li>
+    <li>r_logentry->[INITIATOR_nameDef] проводить урок для [RECIPIENT_nameDef]</li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
   
   <!-- EN: intellectual lesson -->
@@ -339,17 +339,17 @@
     <li>subject->Johnson-Tanaka propulsion</li>
   -->
   <LessonIntellectual.logRulesInitiator.rulesStrings>
-    <li>subject->генетика</li>
-    <li>subject->технологія</li>
+    <li>subject->генетику</li>
+    <li>subject->креслення</li>
     <li>subject->функції мультианалізатора</li>
-    <li>subject->філософія</li>
-    <li>subject->математика</li>
-    <li>subject->біологія</li>
-    <li>subject->хімія</li>
-    <li>subject->таємниці архотеч</li>
-    <li>subject->ректор зоряного корабля</li>
-    <li>subject->урок наукових методик</li>
-    <li>subject->основні технічні документи</li>
+    <li>subject->філософію</li>
+    <li>subject->математику</li>
+    <li>subject->біологію</li>
+    <li>subject->хімію</li>
+    <li>subject->таємниці архотеків</li>
+    <li>subject->космічні реактори</li>
+    <li>subject->наукові методи</li>
+    <li>subject->основну технічні документи</li>
     <li>subject->двигун Джонсона-Танака</li>
   </LessonIntellectual.logRulesInitiator.rulesStrings>
   
@@ -390,38 +390,38 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] як [medical_verb] [hediff] до [RECIPIENT_nameDef].</li>
-    <li>article_tool->пакет ліків</li>
-    <li>article_tool->бинт</li>
-    <li>article_tool->шприц</li>
-    <li>article_tool->лікарські трави</li>
-    <li>article_tool->монітор стану здоров'я</li>
-    <li>article_tool->скальпель</li>
-    <li>article_tool->дозу механітів</li>
-    <li>article_tool->знеболююче</li>
-    <li>action->використовувати</li>
-    <li>action->перевіряти</li>
-    <li>action_gerund->використовувати</li>
-    <li>action_gerund->перевірка</li>
-    <li>hediff->втрата крові</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], як [medical_verb] [hediff].</li>
+    <li>article_toolAbl->медичними засобами</li>
+    <li>article_toolAbl->бинтом</li>
+    <li>article_toolAbl->шприцом</li>
+    <li>article_toolAbl->цілющим коренем</li>
+    <li>article_toolAbl->монітором життєвих показників</li>
+    <li>article_toolAbl->скальпелем</li>
+    <li>article_toolAbl->лікувальною сироваткою</li>
+    <li>article_toolAbl->знеболювачем</li>
+    <li>article_toolGen->медичних засобів</li>
+    <li>article_toolGen->бинтів</li>
+    <li>article_toolGen->шприца</li>
+    <li>article_toolGen->цілющого кореня</li>
+    <li>article_toolGen->монітору життєвих показників</li>
+    <li>article_toolGen->скальпеля</li>
+    <li>article_toolGen->лікувальної сироватки</li>
+    <li>article_toolGen->знеболювача</li>
+    <li>action->користуватися</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->огляд</li>
+    <li>hediff->втрату крові</li>
     <li>hediff->серцевий напад</li>
-    <li>hediff->тепловий удар</li>
+    <li>hediff->сонячний удар</li>
     <li>hediff->харчове отруєння</li>
-    <li>hediff->карцинома</li>
-    <li>hediff->глисти</li>
-    <li>hediff->м'язові паразити</li>
-    <li>hediff->паралітична абазія</li>
-    <li>hediff->малярія</li>
-    <li>hediff->грип</li>
+    <li>hediff->рак</li>
+    <li>hediff->кишкових паразитів</li>
+    <li>hediff->м'язових паразитів</li>
+    <li>hediff->паралітичну абазію</li>
+    <li>hediff->малярію</li>
+    <li>hediff->чуму</li>
     <li>hediff->цироз печінки</li>
     <li>medical_verb->діагностувати</li>
-    <li>medical_verb->тривалість</li>
-    <li>medical_verb->лікувати</li>
-    <li>subject->дозування анестезії</li>
-    <li>subject->види раку</li>
-    <li>subject->хірургічні процедури</li>
-    <li>subject->манери</li>
-    <li>subject->методи стерилізації</li>
   </LessonMedicine.logRulesInitiator.rulesStrings>
   
   <!-- EN: melee lesson -->
@@ -453,34 +453,34 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-    <li>article_tool->сокира</li>
-    <li>article_tool->палиця</li>
-    <li>article_tool->меч</li>
-    <li>article_tool->ліктьове лезо</li>
-    <li>article_tool->кістьовий кіготь</li>
-    <li>article_tool->довгий меч</li>
-    <li>article_tool->мономеч</li>
-    <li>article_tool->плазмомеч</li>
-    <li>article_tool->спис</li>
-    <li>article_tool->булава</li>
-    <li>article_tool->бойовий молот</li>
-    <li>article_tool->кулаки</li>
-    <li>action->парирувати</li>
-    <li>action->боротися з</li>
-    <li>action->лічити</li>
-    <li>action->дбати про</li>
-    <li>action->використовувати</li>
-    <li>action->розмахувати</li>
-    <li>action_gerund->парирування</li>
-    <li>action_gerund->бій з</li>
-    <li>action_gerund->протидія</li>
-    <li>action_gerund->догляд за</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->розмахування</li>
+    <li>article_toolAbl->сокирою</li>
+    <li>article_toolAbl->дубиною</li>
+    <li>article_toolAbl->мечем</li>
+    <li>article_toolAbl->ліктьовим лезом</li>
+    <li>article_toolAbl->силовим кігтем</li>
+    <li>article_toolAbl->довгим мечем</li>
+    <li>article_toolAbl->мономечем</li>
+    <li>article_toolAbl->плазмовим мечем</li>
+    <li>article_toolAbl->списом</li>
+    <li>article_toolAbl->булавою</li>
+    <li>article_toolAbl->бойовим молотом</li>
+    <li>article_toolAbl->кулаком</li>
+    <li>article_toolGen->сокири</li>
+    <li>article_toolGen->дубини</li>
+    <li>article_toolGen->меча</li>
+    <li>article_toolGen->ліктьового леза</li>
+    <li>article_toolGen->силового кігтя</li>
+    <li>article_toolGen->довгого меча</li>
+    <li>article_toolGen->мономеча</li>
+    <li>article_toolGen->плазмового меча</li>
+    <li>article_toolGen->списа</li>
+    <li>article_toolGen->булави</li>
+    <li>article_toolGen->бойового молота</li>
+    <li>article_toolGen->кулака</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
   
   <!-- EN: mining lesson -->
-  <LessonMining.label>урок шахтарства</LessonMining.label>
+  <LessonMining.label>урок видобутку</LessonMining.label>
   <!-- EN:
     <li>article_tool->a pickaxe</li>
     <li>article_tool->a deep drill</li>
@@ -504,26 +504,26 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
-    <li>article_tool->кайло</li>
-    <li>article_tool->глибоке буріння</li>
-    <li>article_tool->лопата</li>
-    <li>article_tool->сканер мінералів дальньої дії</li>
-    <li>article_tool->сканер мінералів</li>
-    <li>action->використовувати</li>
-    <li>action->копати з</li>
+    <li>article_toolAbl->кіркою</li>
+    <li>article_toolAbl->глибинним буром</li>
+    <li>article_toolAbl->лопатою</li>
+    <li>article_toolAbl->сканером мінералів дальньої дії</li>
+    <li>article_toolAbl->глибинним сканером</li>
+    <li>article_toolGen->кірки</li>
+    <li>article_toolGen->глибинного буру</li>
+    <li>article_toolGen->лопати</li>
+    <li>article_toolGen->сканеру мінералів дальньої дії</li>
+    <li>article_toolGen->глибинного сканера</li>
+    <li>action->користуватися</li>
+    <li>action->видобувати</li>
     <li>action->працювати з</li>
-    <li>action->перевіряти</li>
-    <li>action_gerund->користування</li>
-    <li>action_gerund->копання з</li>
-    <li>action_gerund->працювати з</li>
-    <li>action_gerund->перевірка</li>
-    <li>subject->мінеральні вени</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->можливості</li>
+    <li>action_gerund->роботу</li>
+    <li>action_gerund->огляд</li>
+    <li>subject->жили мінералів</li>
     <li>subject->дорогоцінні камені</li>
-    <li>subject->геологія</li>
-    <li>subject->тунелювання</li>
-    <li>subject->аналіз осаду</li>
-    <li>subject->печерні комахи</li>
-    <li>situation(p=2)->під землею</li>
+    <li>subject->геологію</li>
   </LessonMining.logRulesInitiator.rulesStrings>
   
   <!-- EN: gardening lesson -->
@@ -548,23 +548,23 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
-    <li>article_tool->лампа</li>
-    <li>article_tool->басейн гідропоніки</li>
-    <li>article_tool->розбризкувач</li>
-    <li>article_tool->лопата</li>
-    <li>article_tool->садові ножиці</li>
+    <li>article_toolAbl->сонячною лампою</li>
+    <li>article_toolAbl->гідропонною фермою</li>
+    <li>article_toolAbl->спринклером</li>
+    <li>article_toolAbl->лопатою</li>
+    <li>article_toolAbl->секатором</li>
+    <li>article_toolGen->сонячної лампи</li>
+    <li>article_toolGen->гідропонної ферми</li>
+    <li>article_toolGen->спринклера</li>
+    <li>article_toolGen->лопати</li>
+    <li>article_toolGen->секатора</li>
     <li>action->садити з</li>
-    <li>action->використовувати</li>
-    <li>action->перевіряти</li>
-    <li>action_gerund->використовувати</li>
-    <li>action_gerund->садівництво з</li>
-    <li>action_gerund->перевірка</li>
+    <li>action->користуватися</li>
+    <li>action_gerund->використання</li>
+    <li>action_gerund->садівництво за допомогою</li>
+    <li>action_gerund->огляд</li>
     <li>subject->типи ґрунту</li>
     <li>subject->пестициди</li>
-    <li>subject->Методи зрошення</li>
-    <li>subject->варіації кактусів</li>
-    <li>subject->дерева душ</li>
-    <li>subject->Гауранленове дерево</li>
   </LessonPlants.logRulesInitiator.rulesStrings>
   
   <!-- EN: shooting lesson -->
@@ -589,23 +589,23 @@
     <li>action_gerund->reloading</li>
   -->
   <LessonShooting.logRulesInitiator.rulesStrings>
-    <li>article_tool->гвинтівка</li>
-    <li>article_tool->пістолет</li>
-    <li>article_tool->дробовик</li>
-    <li>article_tool->ракетниця</li>
-    <li>article_tool->важкий ПК</li>
-    <li>article_tool->мініґан</li>
-    <li>article_tool->короткий лук</li>
-    <li>article_tool->композитний лук</li>
-    <li>article_tool->довгий лук</li>
-    <li>action->прицілювання</li>
-    <li>action->постріл</li>
-    <li>action->догляд за</li>
-    <li>action->перезавантаження</li>
-    <li>action_gerund->прицілювання</li>
-    <li>action_gerund->стрільба</li>
-    <li>action_gerund->догляд за</li>
-    <li>action_gerund->перезавантаження</li>
+    <li>article_toolAbl->гвинтівкою</li>
+    <li>article_toolAbl->пістолетом</li>
+    <li>article_toolAbl->дробовиком</li>
+    <li>article_toolAbl->пусковою установкою</li>
+    <li>article_toolAbl->ручним кулеметом</li>
+    <li>article_toolAbl->мініґаном</li>
+    <li>article_toolAbl->коротким луком</li>
+    <li>article_toolAbl->композитним луком</li>
+    <li>article_toolAbl->довгим луком</li>
+    <li>article_toolGen->гвинтівки</li>
+    <li>article_toolGen->пістолета</li>
+    <li>article_toolGen->дробовика</li>
+    <li>article_toolGen->пускової установки</li>
+    <li>article_toolGen->ручного кулемета</li>
+    <li>article_toolGen->мініґану</li>
+    <li>article_toolGen->короткого лука</li>
+    <li>article_toolGen->композитного лука</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
   
   <!-- EN: social lesson -->
@@ -622,19 +622,19 @@
     <li>subject->sign language</li>
   -->
   <LessonSocial.logRulesInitiator.rulesStrings>
-    <li>subject->публічне спілкування</li>
-    <li>subject->міжфракційні відносини</li>
+    <li>subject->публічні промови</li>
+    <li>subject->відносини між фракціями</li>
     <li>subject->вербування в'язнів</li>
-    <li>subject->прийоми торгівлі</li>
-    <li>subject->підтримка взаємозв'язків</li>
+    <li>subject->мистецтво торгівлі</li>
+    <li>subject->підтримання стосунків</li>
     <li>subject->етикет комунікаційної консолі</li>
-    <li>subject->покращення репутації</li>
-    <li>subject->грубі слова</li>
-    <li>subject->мова жестів</li>
+    <li>subject->підвищення моралі</li>
+    <li>subject->погані слова</li>
+    <li>subject->мову жестів</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
-  <SanguophageChat.label>розмова з сангвофагом</SanguophageChat.label>
+  <SanguophageChat.label>бесіда сангвофагів</SanguophageChat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
@@ -708,28 +708,28 @@
     <li>planType->enjoying endless life</li>
   -->
   <SanguophageChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] та [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] з [RECIPIENT_nameDef].</li>
-    <li>talkedabout->каже про</li>
-    <li>talkedabout->розповідає про</li>
-    <li>talkedabout->шепоче про</li>
-    <li>talkedabout(p=0.5)->говорили [adverb] про</li>
-    <li>talkedabout(p=0.5)->казали [adverb] про</li>
-    <li>talkedabout(p=0.5)->натякали [adverb] про</li>
-    <li>talkedabout->ділиться своєю думкою стосовно</li>
-    <li>talkedabout->обмінялися думками про</li>
-    <li>talkedabout->обміняні ідеї про</li>
-    <li>talkedabout->висловлюють спільний інтерес до</li>
-    <li>talkedabout->обговорювалося</li>
-    <li>talkedabout->стверджувалося про</li>
-    <li>talkedabout->ділилися історіями</li>
+    <li>r_logentry->[INITIATOR_nameDef] та [RECIPIENT_nameDef] [talkedabout] про [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] про [subject] з [RECIPIENT_nameDef].</li>
+    <li>talkedabout->розмовляють</li>
+    <li>talkedabout->говорять</li>
+    <li>talkedabout->шепочуться</li>
+    <li>talkedabout(p=0.5)->[adverb] розмовляють</li>
+    <li>talkedabout(p=0.5)->[adverb] говорять</li>
+    <li>talkedabout(p=0.5)->[adverb] шепочуться</li>
+    <li>talkedabout->діляться словами</li>
+    <li>talkedabout->діляться думками</li>
+    <li>talkedabout->діляться ідеями</li>
+    <li>talkedabout->розділяють інтерес</li>
+    <li>talkedabout->дискутують</li>
+    <li>talkedabout->сперечаються</li>
+    <li>talkedabout->діляться історіями</li>
     <li>adverb->дружньо</li>
     <li>adverb->тихо</li>
-    <li>adverb->ніжно</li>
-    <li>adverb->огидно</li>
-    <li>adverb->гірко</li>
+    <li>adverb->м'яко</li>
+    <li>adverb->бридко</li>
+    <li>adverb->розлючено</li>
     <li>adverb->втомлено</li>
-    <li>adverb->продумано</li>
+    <li>adverb->задумливо</li>
     <li>adverb->тверезо</li>
     <li>adverb->похмуро</li>
     <li>adverb->урочисто</li>
@@ -741,43 +741,43 @@
     <li>subject->безсмертя</li>
     <li>subject->ентропію</li>
     <li>subject->вічність</li>
-    <li>subject->уривок часу</li>
+    <li>subject->плин часу</li>
     <li>subject->життя та смерть</li>
-    <li>subject->летаргічний сон</li>
-    <li>subject->хитру смерть</li>
+    <li>subject->летаргію</li>
+    <li>subject->обман смерті</li>
     <li>subject->рабів</li>
-    <li>subject->людство</li>
+    <li>subject->людяність</li>
     <li>subject->вогонь</li>
     <li>subject->горіння</li>
     <li>subject->біль</li>
     <li>subject->агонію</li>
     <li>subject->обезголовлення</li>
-    <li>subject->роздирання ворогів</li>
+    <li>subject->летючих ворогів</li>
     <li>subject->тортури</li>
-    <li>subject->архіти</li>
+    <li>subject->архітів</li>
     <li>subject->генетику</li>
     <li>subject->гени</li>
-    <li>subject->ксеногени</li>
-    <li>subject->сангофагів</li>
+    <li>subject->ксенотипи</li>
+    <li>subject->сангвофагів</li>
     <li>subject->гусарів</li>
-    <li>subject->бісів</li>
-    <li>subject->протів</li>
-    <li>subject->джинів</li>
+    <li>subject->імпідів</li>
+    <li>subject->людокротів</li>
+    <li>subject->духів</li>
     <li>subject->неандертальців</li>
-    <li>subject->свиномордих</li>
+    <li>subject->свиношкірих</li>
     <li>subject->пустотників</li>
-    <li>subject->глибоку історію</li>
-    <li>subject->історію майбутнього</li>
-    <li>planType->домінування</li>
+    <li>subject->стародавню історію</li>
+    <li>subject->майбутнє</li>
+    <li>planType->домінацію</li>
     <li>planType->втечу</li>
-    <li>planType->змішування</li>
-    <li>planType->володіння та вплив</li>
+    <li>planType->кровопускання</li>
+    <li>planType->впливовість</li>
     <li>planType->збір гемогену</li>
-    <li>planType->оволодіння технологіями</li>
-    <li>planType->розповсюдження в інші світи</li>
-    <li>planType->вплив на людей</li>
-    <li>planType->знищення мисливців на сангофагів</li>
-    <li>planType->насолодження нескінченним життям</li>
+    <li>planType->освоєння технології</li>
+    <li>planType->подорож до інших світів</li>
+    <li>planType->вплив над людьми</li>
+    <li>planType->знищення мисливців на сангвофагів</li>
+    <li>planType->насолоду вічним життям</li>
   </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>

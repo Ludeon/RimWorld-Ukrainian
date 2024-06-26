@@ -2,143 +2,165 @@
 <LanguageData>
   
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>Вагітність {PAWN_labelShort} прогресувала з 1-го до 2-го триместру.</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} тепер на другому триместрі.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>Вагітність {PAWN_labelShort} прогресувала з 2-го до 3-го триместру.</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort} тепер на третьому триместрі.</MessageColonistReaching3rdTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>Пологи {PAWN_labelShort} на останній стадії.</MessageColonistInFinalStagesOfLabor>
+  <MessageColonistInFinalStagesOfLabor>Вагітність {PAWN_labelShort} на останній стадії.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>Станція зарядки була знищена під час заряджання {PAWN_nameDef}! Перебої з електропостачанням зашифрували його мозок, і він божеволіє.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>Зарядна станція була знищена під час заряджання {PAWN_nameDef}! Перебої з електропостачанням пошкодили його мозок, і він божеволіє.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <MessageCantUseOnResistingPerson>Неможливо використовувати {ABILITY_label} для тих, хто активно чинить опір.</MessageCantUseOnResistingPerson>
+  <MessageCantUseOnResistingPerson>Неможливо використати здібність "{ABILITY_label}" на тих, хто активно чинить опір.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>{0_labelShort} наразі має ксенотип {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_xenotype} - поточний ксенотип {0_labelShort}.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>{0_labelShort} не має доступних для імплантації ксеногенів.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Ксеноген може бути імплантований тільки в поселенців, полонених та рабів.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>ксенозародок можна імплантувати тільки в колоністів, в'язнів чи рабів.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
   <MessageCannotImplantInTempFactionMembers>Неможливо імплантувати в тимчасових членів фракції.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>Ксеноген завершено.</MessageXenogermCompleted>
+  <MessageXenogermCompleted>Ксенозародок завершено.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>Робота з ксеногеном на {0_labelShort} була скасована: відсутній необхідний пакет генів.</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>Робота з ксеногеном на {0_labelShort} була скасована: відсутній необхідний генопак.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
-  <MessageAbsorbingXenogermWillAngerFaction>Поглинання ксеногену {PAWN_nameDef} розлютить {0}.</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageAbsorbingXenogermWillAngerFaction>Вилучення ксенозародку {PAWN_nameDef} розлютить фракцію {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>{ABILITY_label} може бути використаний тільки на поселенців, полонених та рабів.</MessageCannotUseOnOtherFactions>
+  <MessageCannotUseOnOtherFactions>{lookup: {ABILITY_label}; Case; 3} можна використати тільки на колоністів, в'язнів чи рабів.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} відмовляється отримати небажаний ксенотип.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>Автоматичне додавання {MECH_nameDef} до каравану, оскільки він супроводжує{OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanAddingEscortingMech>Автоматичне додавання {MECH_nameDef} до каравану, оскільки він супроводжує {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>Автовидалення {MECH_nameDef} з каравану, оскільки він супроводжує {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>Автоматичне видалення {MECH_nameDef} з каравану, оскільки він супроводжує {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0} був механізмом. Ви можете видалити {0_possessive} {1_label} та застосувати його на колоністі.</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0} {0_gender ? був : була} механізатором. Ви можете вилучити {0_possessive} {lookup: {1_label}; Case; 3} та імплантувати його вашому колоністу.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>Взаємодія з деякими в'язнями встановлена на ферма крові. Оскільки більше кровопивць в поселенню немає, їх режим змінили на "Без взаємодії".</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>Деякі з ваших в'язнів використовувалися як ферма крові. Оскільки ваша колонія більше не має кровопивць, їх режим змінено на "Не взаємодіяти".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>{PAWN_nameDef} вагітність була успішно припинена.</MessagePregnancyTerminated>
+  <MessagePregnancyTerminated>Вагітність {PAWN_nameDef} успішно припинено.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>фракція {0} розлючується ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Потрібна незабруднена земля.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
   <MessageWarningNotPollutedCell>Потрібна забруднена земля.</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
-  <MessagePlantDiedOfPollution>{0} загинув через забруднення.</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfPollution>{0} помирає через забруднення.</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
-  <MessagePlantDiedOfNoPollution>{0} помер через відсутність забруднення.</MessagePlantDiedOfNoPollution>
+  <MessagePlantDiedOfNoPollution>{0} помирає через відсутність забруднення.</MessagePlantDiedOfNoPollution>
   <!-- EN: Pollution has increased by {0} at {1}. -->
   <MessageWorldTilePollutionChanged>Забруднення підвищилося з {0} до {1}.</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>Кокон потривожений і відкривається!</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>Кокон потривожено, він відкривається!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>Кокони були потривожені і відкриваються!</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>Кокони потривожено, вони відкриваються!</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>{0} гниє через забруднення території.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} потрібно бути захопленим, перш ніж ви зможете примусити {PAWN_objective} повторно імплантувати {PAWN_possessive} ксеноген.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} має бути {PAWN_gender ? знерухомленим : знерухомленою}, перш ніж ви зможете примусити {PAWN_possessive} повторно імплантувати {PAWN_possessive} ксенозародок.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef} лише {1} років. Роботу {2} можна виконувати тільки з віку {3}.</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef} лише {1} років. Роботу "{2}" можна виконувати тільки з віку {3}.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
-  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} тепер може безпечно прокинутися від спочину.</MessageDeathrestingPawnCanWakeSafely>
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} тепер може безпечно прокинутися від летаргічного сну.</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
-  <MessageMechanitorLostControlOfMech>{0_nameDef} втратив контроль над мехом {1_kindBase}</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef} втрачає контроль над {1_kindBase}</MessageMechanitorLostControlOfMech>
   <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
-  <MessageMechanitorDisconnectedFromMech>{0_nameDef} від'єднався від меха {1_nameDef}.</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} від'єднується від {1_nameDef}.</MessageMechanitorDisconnectedFromMech>
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>Загальний метаболізм обраних генів повинен бути {MIN} або вище, щоб продовжити, але наразі це лише {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <MetabolismTooLowToCreateXenogerm>Загальний метаболізм обраних генів повинен бути {MIN} або вище. Наразі це лише {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>Загальна складність вибраних генів має бути {MAX} або менше, щоб створити ксеноген, але наразі це {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>Загальна комплексність вибраних генів має бути {MAX} або менше. Наразі це {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>Не вдається створити ксеноген без генів.</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenepacks>Неможливо створити ксенозародок без генів.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>Не вдалось створити ксеноген без генів.</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>Неможливо створити ксенотип без генів.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>{0_label} може містити тільки {1} пакетів генів.</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>{0_label} може містити тільки {1} генопаки.</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
   <XenotypeNameCannotBeEmpty>Впишіть назву ксенотипу.</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
   <MessageGeneMissingPrerequisite>{0} не має необхідного гена</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
-  <MessageDeathrestCapacityChanged>{PAWN_nameDef} місткість спочину збільшилась з {OLD} до {NEW}.</MessageDeathrestCapacityChanged>
+  <MessageDeathrestCapacityChanged>Місткість летаргії {PAWN_nameDef} збільшилась з {OLD} на {NEW}.</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>Сангвофаги приїдуть через кілька годин на свою зустріч.</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>Сангвофаги прибудуть через кілька годин.</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>Сангвофаги розпочали свою зустріч.</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>Сангвофаги розпочинають свою зустріч.</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>Сангвофаги йдуть через небезпечну для нежиття температуру.</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>Сангвофаги йдуть через небезпечну температуру.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>{PAWN_nameDef} був розбуджений {PAWN_possessive} від спочину через вплив сонячних променів.</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} пробуджується від летаргічного сну через сонячні промені.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>{BED_labelShort} {PAWN_nameDef} призначене для використання під час спочину уражене сонячним світлом. {PAWN_nameDef} не може там спочити.</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>{BED_labelShort} {PAWN_nameDef}, призначене для використання для летаргічного сну, уражене сонячним світлом. {PAWN_nameDef} не може там спочивати.</MessageBedExposedToSunlight>
+
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} було викинуто з екстрактора генів через відсутність енергії.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>{PAWN_nameDef} мозок був знищений суб'ядерним смерто-сканером.</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>Мозок {PAWN_nameDef} знищено суб'ядерним летальним сканером.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>Сканування мозку {PAWN_nameDef} завершено.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
-  <MessageCannotResurrectDessicatedCorpse>Неможливо воскресити висохлі трупи.</MessageCannotResurrectDessicatedCorpse>
+  <MessageCannotResurrectDessicatedCorpse>Неможливо воскресити висушені трупи.</MessageCannotResurrectDessicatedCorpse>
 
   <!-- EN: {0} is about to explode! -->
   <MessageAboutToExplode>{0} ось-ось вибухне!</MessageAboutToExplode>
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>{FEEDER_labelShort} не може виконувати завдання по догляду за дітьми.</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort} не може доглядати за дітьми.</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>{FEEDER_labelShort} не назначений виконувати завдання по догляду за дітьми.</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} не {FEEDER_gender ? призначений : призначена} доглядати за дітьми.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>Ви вже маєте максимальне число користувацьких ксенотипів. Вам потрібно видалити хоча б один, якщо бажаєте створити новий.</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>Ви вже маєте максимальне число створених ксенотипів. Вам потрібно видалити хоча б один, якщо бажаєте створити новий.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>Неможливо зберегти ксенотип з кількома конфліктуючими генами.</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>Неможливо зберегти ксенотип з кількома несумісними генами.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>{BUILDING_labelShort} був призначений за {PAWN_nameDef} ({CUR}/{MAX} смертною здатністю).</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort} призначено для {PAWN_nameDef} (місткість летаргії: {CUR}/{MAX}).</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>Вибір етапів розвитку вимкнуто за сценарієм.</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Вибір етапів розвитку вимкнений за сценарієм.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} не має достатньо крові для вироблення гематогену.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} не має достатньої кількості крові для вироблення гемогену.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} не має достатньо крові для вироблення гематогену.</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} не має достатньої кількості крові для вироблення гемогену.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>Ви повинні вибрати, як {PAWN_nameDef} буде рости.</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>Вам необхідно вибрати як {PAWN_nameDef} буде рости.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>Попередження: {0_labelShort} несе дитину під час призову.</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>Увага: {0_labelShort} несе дитину та знаходиться в бойовому режимі.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} переносить {BABY_nameDef} до місця з безпечною температурою.</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>Спроба {MOTHER_nameDef} та {FATHER_nameDef} завагітніти - невдала.</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>{PAWN_nameDef} не зміг запліднити яйцеклітину</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>Комбіновані гени перетинають межі метаболізму.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

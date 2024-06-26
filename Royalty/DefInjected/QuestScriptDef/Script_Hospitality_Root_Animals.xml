@@ -7,7 +7,7 @@
   -->
   <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
     <li>lodgersLabel->[lodgersPawnKind_label]</li>
-    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+    <li>lodgersLabelPlu->[lodgersPawnKind_labelPlural]</li>
   </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
@@ -52,46 +52,46 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->З невідомих причин [lodgersLabel] став ціллю орбітального рою механоїдів.</li>
-    <li>threatsInfoMechClustersMultiAnimal->З невідомих причин на [lodgersLabelPlural] націлився орбітальний рій механоїдів.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->З невідомих причин [lodgersLabel] став мішенню механоїдного вулика.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->З невідомих причин [lodgersLabelPlural] стали мішенню механоїдного вулика.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Організація порятунку тварин хоче, щоб ви подбали про [lodgersLabel] на ім’я [lodgers0_nameDef] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nАктивісти з порятунку тварин викрали [lodgers0_nameDef] із церемонії забою тварин, яку проводив [enemyFaction_name]. Тепер [enemyFaction_pawnsPlural] приходять, щоб помститися. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfoMechClustersSingleAnimal->За невідомої причини, за твариною полює орбітальний рій механоїдів.</li>
+    <li>threatsInfoMechClustersMultiAnimal->За невідомої причини, за тваринами полює орбітальний рій механоїдів.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->За невідомої причини, за твариною полює рій механоїдів.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->За невідомої причини, за тваринами полює рій механоїдів.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Організація порятунку тварин хоче, щоб ви подбали про {lookup: [lodgersPawnKind_label]; Case; 3} на ім'я [lodgers0_nameDef] в [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nОрганізація порятунку тварин викрала [lodgers0_nameDef] з церемонії принесення в жертву, яку проводила фракція [enemyFaction_name]. Тепер вони шукають помсти. Якщо ви надасте {lookup: [lodgersPawnKind_label]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Організація порятунку тварин хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
-    <li>victim->дитина</li>
-    <li>victim->жінка</li>
-    <li>victim->чоловік</li>
-    <li>victim->[PersonJob]</li>
-    <li>victim(generateThreats==true,threatType==Raids)->друг з [enemyFaction_leaderTitle] [enemyFaction_name]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, ці [lodgersLabelPlural] нещодавно були причетні до смерті [victim].Тепер [enemyFaction_pawnsPlural] з [enemyFaction_name] полюють на них заради ритуальної помсти. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Організація порятунку тварин хоче, щоб ви подбали про [lodgersCount] {lookup: [lodgersPawnKind_labelPlural]; Case; 1} в [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>victim->дитини</li>
+    <li>victim->жінки</li>
+    <li>victim->чоловіка</li>
+    <li>victim->[PersonJobGen]</li>
+    <li>victim(generateThreats==true,threatType==Raids)->друга {lookup: [enemyFaction_leaderTitle] Case; 1} фракції [enemyFaction_name]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, нещодавно ці [lodgersPawnKind_label] були причетні до смерті [victim]. Тепер, [enemyFaction_pawnsPlural] фракції [enemyFaction_name] шукають помсти. Якщо ви надасте {lookup: [lodgersPawnKind_labelPlural]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name] шукає безпечне місце для догляду за [asker_possessive] домашнім улюбленцем [lodgersLabel] [lodgers0_nameDef] на [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
-    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] з [enemyFaction_name] намагаються вбити маленького бідолашного [lodgers0_nameDef], щоб дістатися до [asker_nameDef]. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_faction_leaderTitle] фракції [asker_faction_name] на ім'я [asker_nameFull], шукає місце, де можуть подбати про [asker_possessive] {lookup: [lodgersPawnKind_label]; Case; 3} на ім'я [lodgers0_nameDef] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] намагалися вбити {lodgers0_gender ? бідолашного : бідолашну} {lookup: [lodgersPawnKind_label]; Case; 3}, щоб дістатися до [asker_nameDef]. Якщо ви надасте {lookup: [lodgersPawnKind_label]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
-    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] необхідні [asker_nameDef] для виконання важливої ​​торгової обіцянки. Щоб спровокувати конфлікт, [enemyFaction_name] посилає за ними [enemyFaction_pawnsPlural]. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_faction_leaderTitle] фракції [asker_faction_name] на ім'я [asker_nameFull], просить допомоги. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] {lookup: [lodgersPawnKind_labelPlural]; Case; 1} в [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nЦі [lodgersPawnKind_labelPlural] дуже потрібні [asker_nameDef], щоб укласти торгову угоду. Щоб спровокувати конфлікт, фракція [enemyFaction_name] буде надсилати {lookup: [enemyFaction_pawnsPlural]; Case; 3}. Якщо ви надасте {lookup: [lodgersPawnKind_labelPlural]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви піклувалися про улюблену тварину [asker_possessive], [lodgersLabel] [lodgers0_nameDef], у [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] — це подарунок, обіцяний дитині [asker_nameDef] на церемонію одруження. Щоб спробувати запобігти шлюбу, [enemyFaction_name] надсилає [enemyFaction_pawnsPlural] після [lodgers0_objective]. Якщо ви приймаєте [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_royalTitleInCurrentFaction] фракції [asker_faction_name] на ім'я [asker_nameFull], просить допомоги. [asker_pronoun] хоче, щоб ви подбали про [asker_possessive] улюблену тварину, {lookup: [lodgersPawnKind_label]; Case; 3} на ім'я [lodgers0_nameDef] в [map_definite] протягом [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] є подарунком від [asker_nameDef], [asker_possessive] дитині в честь шлюбної церемонії. Щоб спробувати запобігти шлюбу, фракція [enemyFaction_name] буде надсилати {lookup: [enemyFaction_pawnsPlural]; Case; 3}. Якщо ви надасте {lookup: [lodgersPawnKind_label]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name], робить запит. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] [lodgersLabelPlural] на [map_definite] протягом [shuttleDelayTicks_duration]. [lodgersLabelPlural] — улюблені домашні тварини [asker_nameDef], і [asker_pronoun] хоче, щоб вони побачили світ за межами [asker_possessive] королівського двору. [healthInfo][threatsInfo6][commonDescEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, [enemyFaction_name] переслідує [lodgersLabelPlural], щоб завдати шкоди [asker_nameDef] особисто. Якщо ви приймаєте [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_royalTitleInCurrentFaction] фракції [asker_faction_name] на ім'я [asker_nameFull], просить допомоги. [asker_pronoun] хоче, щоб ви подбали про [lodgersCount] {lookup: [lodgersPawnKind_labelPlural]; Case; 1} в [map_definite] протягом [shuttleDelayTicks_duration]. Ці [lodgersPawnKind_labelPlural] -  улюблені домашні тварини [asker_nameDef] і [asker_pronoun] хоче, щоб вони побачили світ за межами королівського двору. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНа жаль, фракція [enemyFaction_name] полює на {lookup: [lodgersPawnKind_labelPlural]; Case; 1}, щоб через них вийти на [asker_nameDef]. Якщо ви надасте {lookup: [lodgersPawnKind_labelPlural]; Case; 2} прихисток, [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
-    <li>letterSubject(priority=1)->{SUBJECT_definite} в [lodgersLabel]</li>
+    <li>letterSubject(priority=1)->[lodgersLabel] {SUBJECT_definite}</li>
   </Hospitality_Animals.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
@@ -116,26 +116,26 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->в [animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
-    <li>questName(lodgersCount==1)->[lodgersLabel]-сидить</li>
-    <li>questName(lodgersCount==1)->утримується [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->бідолашна малеча [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
-    <li>questName(lodgersCount>=2)->[lodgersLabel]-сидить</li>
-    <li>questName(lodgersCount==2)->утримується [lodgersLabelPlural]</li>
-    <li>animalAdj->чарівний</li>
-    <li>animalAdj->лане ока</li>
+    <li>questName(lodgersCount==1)->{lodgers0_gender ? [animalAdj] : [animalAdjFem]} [lodgersPawnKind_label]</li>
+    <li>questName(lodgersCount==1)->прихисток для [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->{lodgers0_gender ? бідний маленький : бідна маленька} [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->[animalAdjPlu] [lodgersPawnKind_labelPlural]</li>
+    <li>questName(lodgersCount>=2)->прихисток для {lookup: [lodgersPawnKind_labelPlural]; Case; 1}</li>
+    <li>animalAdj->прекрасний</li>
+    <li>animalAdj->вірний</li>
     <li>animalAdj->відданий</li>
-    <li>animalAdj->люблячий</li>
-    <li>animalAdj->тиха</li>
-    <li>animalAdj->слабкий</li>
+    <li>animalAdj->тихий</li>
+    <li>animalAdj->ніжний</li>
     <li>animalAdj->гордий</li>
-    <li>animalAdj(generateThreats==true)->полює</li>
-    <li>animalAdj(generateThreats==true)->налякана</li>
+    <li>animalAdj(generateThreats==true)->загнаний</li>
+    <li>animalAdj(generateThreats==true)->наляканий</li>
+    <li>animalAdjFem->прекрасна</li>
+    <li>animalAdjFem->вірна</li>
+    <li>animalAdjFem->віддана</li>
+    <li>animalAdjFem->тиха</li>
+    <li>animalAdjFem->ніжна</li>
+    <li>animalAdjFem->горда</li>
+    <li>animalAdjFem(generateThreats==true)->загнана</li>
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

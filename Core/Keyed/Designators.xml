@@ -4,12 +4,12 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>Скасувати</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>Скасувати призначені будівництва, видобуток, перевезення, збір врожаю та всі інші накази.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Скасувати призначені будівництва, видобуток, перенесення, збір врожаю та інші призначення.</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
-  <DesignatorCutPlants>Вирізати рослини</DesignatorCutPlants>
+  <DesignatorCutPlants>Зрізати</DesignatorCutPlants>
   <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
-  <DesignatorCutPlantsDesc>Позначити рослини які буде вирізані та знищені. Рослини буде повністю знищено, будь-які харчові рослини або джерело ресурсів буде зібрано.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Позначити рослини які необхідно зрізати. Рослини будуть повністю зрізані, будь-яка харчові або інші ресурси будуть зібрані.</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>Розібрати</DesignatorDeconstruct>
@@ -17,128 +17,141 @@
   <DesignatorDeconstructDesc>Розібрати та повернути частину ресурсів.</DesignatorDeconstructDesc>
 
   <!-- EN: Uninstall -->
-  <DesignatorUninstall>Прибрати</DesignatorUninstall>
+  <DesignatorUninstall>Демонтувати</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
-  <DesignatorUninstallDesc>Прибрати обрані предмети, для переміщення, продажу, або розміщення в іншому місці.</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>Демонтувати обране для переміщення, продажу, або розміщення в іншому місці.</DesignatorUninstallDesc>
 
   <!-- EN: Extract tree -->
   <DesignatorExtractTree>Викопати дерево</DesignatorExtractTree>
   <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
-  <DesignatorExtractTreeDesc>Викопати обране дерево, залишаючи його живим аби його можна було пересадити десь в іншому місці.</DesignatorExtractTreeDesc>
+  <DesignatorExtractTreeDesc>Викопати обране дерево, залишаючи його живим аби його можна було посадити десь в іншому місці.</DesignatorExtractTreeDesc>
 
   <!-- EN: Harvest -->
-  <DesignatorHarvest>Зібрати врожай</DesignatorHarvest>
+  <DesignatorHarvest>Зібрати</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
-  <DesignatorHarvestDesc>Позначати рослини для збору їжі та інших продуктів.</DesignatorHarvestDesc>
+  <DesignatorHarvestDesc>Позначати рослини для збору їжі та інших ресурсів.</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
-  <DesignatorHarvestWood>Зрубати дерево</DesignatorHarvestWood>
+  <DesignatorHarvestWood>Зрубати</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
   <DesignatorHarvestWoodDesc>Позначає дерева, які необхідно зрубати.</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
   <DesignatorHaulThings>Перенести</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>Позначте уламки гірських порід та інші предмети, які необхідно перенести на місця звалищ. Не потрібно для таких речей, які завжди можна перенести, наприклад їжа чи трупи.</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>Позначте уламки гірських порід, металобрухт чи інші предмети, які необхідно перенести на місця звалищ. Не потрібно предметів, які колоністи переносять самостійно (їжа, речі, трупи та інше).</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>Можна призначити лише те, що рідко переноситься (наприклад, шматки каменю).</MustHaulHaulables>
+  <MustHaulHaulables>Можна позначити лише те, що колоністи не переносять самостійно (наприклад, уламки гірських порід чи металобрухт).</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Полювати</DesignatorHunt>
   <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Позначити тварин на яких будуть полювати ваші мисливці.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>Позначити тварин, на яких будуть полювати ваші мисливці.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
-  <DesignatorMine>Видобувати</DesignatorMine>
+  <DesignatorMine>Видобути</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Позначити ділянки породи для видобування.</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>Видобути жилу</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>Позначити усю пов'язану між собою породу одного типу для видобування.</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
-  <DesignatorSmoothSurface>Полірувати поверхню</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>Відполірувати поверхню</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
-  <DesignatorSmoothSurfaceDesc>Призначити полірування кам'яного покриття чи стін.</DesignatorSmoothSurfaceDesc>
+  <DesignatorSmoothSurfaceDesc>Позначити кам'яне покриття та стіни для полірування.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>Полірувати стіну</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>Позначити кам'яну стіну для полірування.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>Полірувати покриття</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>Позначити кам'яне покриття для полірування.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
-  <DesignatorPlan>Планувати</DesignatorPlan>
+  <DesignatorPlan>Планування</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Встановити позначки планування. Вони нічого не роблять, а лише допомагають планувати майбутні розширення.</DesignatorPlanDesc>
+  <DesignatorPlanDesc>Встановити позначки планування. Вони нічого не роблять, а лише допомагають планувати майбутні споруди.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Видалити планування</DesignatorPlanRemove>
   <!-- EN: Remove planning designations. -->
-  <DesignatorPlanRemoveDesc>Видаляє заплановані планування.</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemoveDesc>Видалити позначки планування.</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
   <DesignatorForbid>Заборонити</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>Позначте предмети як заборонені. Колоністи не зможуть взаємодіяти із позначеними предметами.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>Позначте предмети як заборонені. Колоністи не зможуть взаємодіяти з позначеними предметами.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
   <DesignatorUnforbid>Дозволити</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>Позначити предмет як дозволений. Колоністи зможуть взаємодіяти із обраними предметами.</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>Позначити предмет як дозволені. Колоністи зможуть взаємодіяти з обраними предметами.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Розширити домашню область</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
-  <DesignatorAreaHomeExpandDesc>Колоністи будуть ремонтувати будівлі, очищати підлогу та гасити пожежі тільки на домашній території.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>Колоністи будуть ремонтувати будівлі, очищати підлогу і гасити пожежі тільки в домашній області.</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
-  <DesignatorAreaHomeClear>Видалити домашню область</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClear>Зменшити домашню область</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>Видаляє домашню територію. Колоністи більше не будуть ремонтувати, очищати підлогу та гасити пожежі тут.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>Зменшує домашню область. Колоністи більше не будуть ремонтувати, очищати підлогу і гасити пожежі тут.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Будувати дах</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>Колоністи будуть будувати дахи на заданій території.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>Колоністи побудують дах на заданій території.</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
-  <DesignatorAreaNoRoofExpand>Видалити дах</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpand>Розібрати дах</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Колоністи приберуть дахи на заданій території (окрім стелі гори, яка не можна прибрати).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Колоністи знімуть дах на заданій території (за винятком товщі гірської породи, яку неможливо прибрати).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
-  <DesignatorAreaIgnoreRoofExpand>Ігнорувати дахи</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpand>Ігнорувати дах</DesignatorAreaIgnoreRoofExpand>
   <!-- EN: Colonists will ignore roofs in this area. -->
-  <DesignatorAreaIgnoreRoofExpandDesc>Колоністи будуть ігнорувати дахи на заданій території.</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpandDesc>Колоністи не будуть автоматично будувати дах на заданій території.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Snow removal area -->
-  <DesignatorAreaSnowClearExpand>Розширити зону очищення снігу</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpand>Зона очищення снігу</DesignatorAreaSnowClearExpand>
   <!-- EN: Create an area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Створює територію, яку колоністи намагатимуться зберігати чистою від снігу.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearExpandDesc>Створює область, яку колоністи будуть намагатися зберігати чистою від снігу.</DesignatorAreaSnowClearExpandDesc>
   <!-- EN: Clear snow removal area -->
-  <DesignatorAreaSnowClearClear>Видалити зону очищення снігу</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClear>Зменшити зону очищення снігу</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Видаляє зону очищення снігу. Колоністи більше не намагатимуться зберігати цю зону чистою від снігу.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>Зменшує зону очищення снігу. Колоністи більше не будуть намагатися зберігати цю зону чистою від снігу.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
-  <DesignatorExpandAreaAllowed>Розширити дозволену територію</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowed>Розширити дозволену область</DesignatorExpandAreaAllowed>
   <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorExpandAreaAllowedDesc>Розширює дозволену територію.\n\nДозволені території визначені зони, які можна призначити колоністам. Колоністи не будуть працювати або виконувати їхні потреби за межею дозволеної території.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>Розширює дозволену область.\n\nДозволені області - визначені зони, які ви можете призначити колоністам. Колоністи не будуть працювати або виконувати їх потреби за межами дозволеної території.</DesignatorExpandAreaAllowedDesc>
   <!-- EN: Clear allowed area -->
-  <DesignatorClearAreaAllowed>Видалити дозволену територію</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowed>Зменшити дозволену область</DesignatorClearAreaAllowed>
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorClearAreaAllowedDesc>Видаляє клітинки дозволеної території.\n\nДозволені території - визначені зони, які можна призначити колоністам. Колоністи не будуть працювати або задовольняти їхні потреби за межами дозволеної території.</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>Зменшує дозволену область.\n\nДозволені області - визначені зони, які ви можете призначити колоністам. Колоністи не будуть працювати або виконувати їх потреби за межами дозволеної території.</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
-  <ManageAreas>Керування областями...</ManageAreas>
+  <ManageAreas>Керування областями</ManageAreas>
   <!-- EN: Manage auto-slaughter... -->
-  <ManageAutoSlaughter>Керування автоматичним забоєм...</ManageAutoSlaughter>
+  <ManageAutoSlaughter>Керування забоєм</ManageAutoSlaughter>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
-  <DesignatorGrowingZoneDesc>Створює зону, на якій колоністи вирощуватимуть певний тип рослин.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>Створює зону, на якій колоністи будуть намагатися виростити певний тип рослин.</DesignatorGrowingZoneDesc>
 
   <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageResourcesDesc>Створює склад, на якому колоністи будуть зберігати ресурси.\nМоже використовуватись для розширення чинного складу.</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>Створює склад, на якому колоністи будуть зберігати ресурси.\nМоже використовуватись для розширення наявного складу.</DesignatorZoneCreateStorageResourcesDesc>
 
   <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageDumpingDesc>Створює склад, де колоністи будуть складати сміття.\nМоже використовуватись для розширення чинного складу сміття.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>Створює звалище, де колоністи будуть складати сміття.\nМоже використовуватись для розширення наявного звалища.</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
-  <DesignatorZoneDelete>Зменшити зони</DesignatorZoneDelete>
+  <DesignatorZoneDelete>Зменшити зону</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
   <DesignatorZoneDeleteSingular>Зменшити зону</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
-  <DesignatorZoneDeleteDesc>Видаляє зони, наприклад: склад або зона для вирощування.</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDeleteDesc>Зменшує зони, наприклад: склад або зону посіву.</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
   <DesignatorZoneExpand>Розширити зону</DesignatorZoneExpand>
@@ -146,17 +159,17 @@
   <!-- EN: Claim -->
   <DesignatorClaim>Привласнити</DesignatorClaim>
   <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
-  <DesignatorClaimDesc>Привласнити нейтральні споруди, в тому числі старовинні руїни та покинуті бази. Привласнені споруди можуть ремонтуватися та утримуватися колоністами.</DesignatorClaimDesc>
+  <DesignatorClaimDesc>Привласнити нейтральні споруди, в тому числі старовинні руїни і покинуті облогові бази. Привласнені споруди можуть ремонтуватися і обслуговуватися вашими колоністами.</DesignatorClaimDesc>
 
   <!-- EN: Remove floor -->
-  <DesignatorRemoveFloor>Розібрати підлогу</DesignatorRemoveFloor>
+  <DesignatorRemoveFloor>Зняти підлогу</DesignatorRemoveFloor>
   <!-- EN: Remove floors to reveal the terrain underneath. -->
-  <DesignatorRemoveFloorDesc>Видаляє підлогу до природного ландшафту.</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>Зняти підлогу лишаючи природній ландшафт.</DesignatorRemoveFloorDesc>
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Розібрати міст</DesignatorRemoveBridge>
   <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Розібрати мости та залишити природний ландшафт.</DesignatorRemoveBridgeDesc>
+  <DesignatorRemoveBridgeDesc>Розібрати мости лишаючи природній ландшафт.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Роздягнути</DesignatorStrip>
@@ -166,7 +179,7 @@
   <!-- EN: Open -->
   <DesignatorOpen>Відкрити</DesignatorOpen>
   <!-- EN: Open containers. -->
-  <DesignatorOpenDesc>Відкрити контейнери.</DesignatorOpenDesc>
+  <DesignatorOpenDesc>Відкрити контейнер, чи могилу.</DesignatorOpenDesc>
   
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Забити</DesignatorSlaughter>
@@ -189,43 +202,43 @@
   <DesignatorStudyDesc>Дослідіть цей об'єкт, щоб дізнатися більше про нього.</DesignatorStudyDesc>
 
   <!-- EN: Paint building... -->
-  <DesignatorPaintBuilding>Фарбувати споруди...</DesignatorPaintBuilding>
+  <DesignatorPaintBuilding>Розфарбувати будівлю</DesignatorPaintBuilding>
   <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
-  <DesignatorPaintBuildingDesc>Запланувати які стіни або споруди потрібно пофарбувати, використовуючи фарбник із красильної рослини, яку ви можете виростити. Тільки певні споруди можна пофарбувати.</DesignatorPaintBuildingDesc>
+  <DesignatorPaintBuildingDesc>Позначте стіни та будівлі, які потрібно розфарбувати, використовуючи природний барвник, що ви можете виростити. Розфарбовувати можна лише певні будівлі.</DesignatorPaintBuildingDesc>
   <!-- EN: Paint floor... -->
-  <DesignatorPaintFloor>Фарбувати покриття...</DesignatorPaintFloor>
+  <DesignatorPaintFloor>Розфарбувати підлогу</DesignatorPaintFloor>
   <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
-  <DesignatorPaintFloorDesc>Запланувати які покриття потрібно пофарбувати, використовуючи фарбник із фарбувальної рослини, яку ви можете виростити. Тільки певні покриття можна пофарбувати.</DesignatorPaintFloorDesc>
+  <DesignatorPaintFloorDesc>Позначте підлогу, яку потрібно розфарбувати, використовуючи природний барвник, що ви можете виростити. Розфарбовувати можна лише певну підлогу.</DesignatorPaintFloorDesc>
 
   <!-- EN: Remove paint -->
   <DesignatorRemovePaint>Прибрати фарбу</DesignatorRemovePaint>
   <!-- EN: Remove paint from walls, buildings, and floors. -->
-  <DesignatorRemovePaintDesc>Прибрати фарбу зі стін, споруд та покриттів.</DesignatorRemovePaintDesc>
+  <DesignatorRemovePaintDesc>Прибирає фарбу зі стін, будівель та підлоги</DesignatorRemovePaintDesc>
   <!-- EN: Remove floor paint -->
-  <DesignatorRemoveFloorPaint>Прибрати фарбу з покриттів</DesignatorRemoveFloorPaint> 
+  <DesignatorRemoveFloorPaint>Прибрати фарбу з підлоги</DesignatorRemoveFloorPaint> 
   <!-- EN: Remove paint from floors. -->
-  <DesignatorRemoveFloorPaintDesc>Прибрати фарбу з покриттів.</DesignatorRemoveFloorPaintDesc> 
+  <DesignatorRemoveFloorPaintDesc>Прибрати фарбу з підлоги</DesignatorRemoveFloorPaintDesc> 
   <!-- EN: Paint -->
-  <Paint>Колір</Paint>
+  <Paint>Розфарбувати</Paint>
   <!-- EN: Color -->
   <Color>Колір</Color>
 
   <!-- EN: Color picker -->
-  <DesignatorEyedropper>Палітра кольорів</DesignatorEyedropper>
+  <DesignatorEyedropper>Копіювати колір</DesignatorEyedropper>
   <!-- EN: Grab existing color -->
-  <GrabExistingColor>Обрати існуючий колір</GrabExistingColor>
+  <GrabExistingColor>Вибрати наявний колір</GrabExistingColor>
   <!-- EN: Grab a color from an existing building. -->
-  <DesignatorEyeDropperDesc_Paint>Обрати колір з уже пофарбованої споруди.</DesignatorEyeDropperDesc_Paint>
+  <DesignatorEyeDropperDesc_Paint>Вибрати колір з наявної будівлі</DesignatorEyeDropperDesc_Paint>
   <!-- EN: Grab a color from an existing carpet. -->
-  <DesignatorEyeDropperDesc_Carpet>Обрати колір з уже пофарбованого килима.</DesignatorEyeDropperDesc_Carpet>
+  <DesignatorEyeDropperDesc_Carpet>Вибрати колір з наявної підлоги</DesignatorEyeDropperDesc_Carpet>
   <!-- EN: Select a painted building. -->
-  <SelectAPaintedBuilding>Оберіть пофарбовану споруду.</SelectAPaintedBuilding>
+  <SelectAPaintedBuilding>Вибрати розфарбовану будівлю</SelectAPaintedBuilding>
   <!-- EN: Select colored carpet. -->
-  <SelectColoredFloor>Оберіть пофарбований килим.</SelectColoredFloor>
+  <SelectColoredFloor>Вибрати розфарбовану підлогу</SelectColoredFloor>
   <!-- EN: Grab -->
-  <Grab>Обрати</Grab>
+  <Grab>Вибрати</Grab>
   <!-- EN: Grabbed color -->
-  <GrabbedColor>Обраний колір</GrabbedColor>
+  <GrabbedColor>Вибраний колір</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
@@ -233,9 +246,9 @@
   <!-- EN: Too close to map edge. -->
   <TooCloseToMapEdge>Дуже близько до краю карти.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
-  <OutOfBounds>Поза межами.</OutOfBounds>
+  <OutOfBounds>Поза межами карти.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
-  <CannotPlaceInUndiscovered>Не можна розмістити в невідкритих областях.</CannotPlaceInUndiscovered>
+  <CannotPlaceInUndiscovered>Не можна розмістити в невідомих областях.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
   <InteractionSpotBlocked>{1_labelShort} блокує місце взаємодії.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
@@ -243,43 +256,43 @@
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
   <InteractionSpotWillBeBlocked>{1_labelShort} заблокує місце взаємодії.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
-  <WouldBlockInteractionSpot>{0} блокує місце взаємодії {1}.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} блокує місце взаємодії {lookup: {1}; Case; 1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
-  <TerrainIsAlready>Вибрана територія вже тут {0}.</TerrainIsAlready>
+  <TerrainIsAlready>Тут уже є {0}.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
-  <SurfaceBeingSmoothed>Територія вже позначена для полірування.</SurfaceBeingSmoothed>
+  <SurfaceBeingSmoothed>Територія вже відмічена для вирівнювання.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
-  <IdenticalThingExists>Ідентична річ вже тут.</IdenticalThingExists>
+  <IdenticalThingExists>Ідентичний об'єкт вже тут.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
-  <IdenticalBlueprintExists>Ідентичний план вже тут.</IdenticalBlueprintExists>
+  <IdenticalBlueprintExists>Ідентичний проєкт вже тут.</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} не можна будувати на цій поверхні.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_label} потребує поверхні, що втримає {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (зроблені з {2_label}) потребує поверхні, що втримає {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (зроблені з {lookup: {2_label}; Case; 1}) потребує поверхні, що втримає {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
-  <SpaceAlreadyOccupied>Територія вже зайнята.</SpaceAlreadyOccupied>
+  <SpaceAlreadyOccupied>Місце вже зайнято.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
-  <SpaceBeingSmoothed>Територія вже вирівнюється.</SpaceBeingSmoothed>
+  <SpaceBeingSmoothed>Територія вирівнюється.</SpaceBeingSmoothed>
   <!-- EN: Must target a removable floor. -->
-  <TerrainMustBeRemovable>Потрібно вибрати покриття з можливістю знищення.</TerrainMustBeRemovable>
+  <TerrainMustBeRemovable>Потрібно вибрати знімну підлогу.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
-  <MustBeOnMovingWater>Водяне колесо має бути розміщенно у руслі ріки.</MustBeOnMovingWater>
+  <MustBeOnMovingWater>Водяне колесо має стояти на річці.</MustBeOnMovingWater>
   <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotWillOverlap>Місце взаємодії буде конфліктувати з місцем взаємодії {1_labelShort}.</InteractionSpotWillOverlap>
+  <InteractionSpotWillOverlap>Місце взаємодії буде конфліктувати з місцем взаємодії {lookup: {1_labelShort}; Case; 1}.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotOverlaps>Місце взаємодії конфліктує з місцем взаємодії {1_labelShort}.</InteractionSpotOverlaps>
+  <InteractionSpotOverlaps>Місце взаємодії конфліктує з місцем взаємодії {lookup: {1_labelShort}; Case; 1}.</InteractionSpotOverlaps>
   <!-- EN: Cannot place monument over: {0}. -->
-  <CannotPlaceMonumentOver>Не можна встановити монумент на: {0}.</CannotPlaceMonumentOver>
+  <CannotPlaceMonumentOver>Монумент не можна розміщати поверх {lookup: {0}; Case; 3}.</CannotPlaceMonumentOver>
   <!-- EN: Cannot build on: {0}. -->
-  <CannotPlaceMonumentOnTerrain>Не можна будувати на: {0}.</CannotPlaceMonumentOnTerrain>
+  <CannotPlaceMonumentOnTerrain>Не можна будувати на такій місцевості: {0}.</CannotPlaceMonumentOnTerrain>
   <!-- EN: Cannot place monument over: {0}. -->
-  <MonumentOverlapsBuilding>Не можна встановити монумент на: {0}.</MonumentOverlapsBuilding>
+  <MonumentOverlapsBuilding>Монумент не можна розміщати поверх {lookup: {0}; Case; 3}.</MonumentOverlapsBuilding>
   <!-- EN: Monument cannot be placed adjacent to: {0}. -->
-  <MonumentAdjacentToBuilding>Монумент не можна розташувати поруч з: {0}.</MonumentAdjacentToBuilding>
+  <MonumentAdjacentToBuilding>Монумент не можна розташувати поруч з {lookup: {0}; Case; 4}.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
-  <CannotBePlantedHere>Не можна посадити тут</CannotBePlantedHere>
+  <CannotBePlantedHere>Не посіяти тут</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -289,16 +302,21 @@
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
-  <TransmitsPower>Передача потужності</TransmitsPower>
+  <TransmitsPower>Передає потужність</TransmitsPower>
   <!-- EN: Construction needed -->
-  <ConstructionNeeded>Потрібно будівництво</ConstructionNeeded>
+  <ConstructionNeeded>Потрібний рівень навички</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithSkillTip>Жоден з ваших {0} не має цих навичок.</NoColonistWithSkillTip>
+  <NoColonistWithSkillTip>Жоден з ваших {lookup: {0}; Case; 1} не має необхідних навичок.</NoColonistWithSkillTip>
   <!-- EN: {0} needed -->
-  <SkillNeededForConstructing>потрібно {0}</SkillNeededForConstructing>
+  <SkillNeededForConstructing>Необхідна навичка: {0}</SkillNeededForConstructing>
   <!-- EN: None of your {0} have all skills required. -->
-  <NoColonistWithAllSkillsForConstructing>Жоден з ваших {0} не має усіх необхідних навичок.</NoColonistWithAllSkillsForConstructing>
+  <NoColonistWithAllSkillsForConstructing>Жоден з ваших {lookup: {0}; Case; 1} не має необхідних навичок.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithSkillHaveDisabledConstructingTip>Всі ваші {0}, які володіють цим навиком, не призначені {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Жоден з ваших {lookup: {0}; Case; 1}, що володіють цією навичкою, не призначені {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>Extract skull</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>Extract the skull from a corpse.</DesignatorExtractSkullDesc>
 
 </LanguageData>

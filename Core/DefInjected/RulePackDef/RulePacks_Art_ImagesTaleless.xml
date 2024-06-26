@@ -38,40 +38,40 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->самотній [Character] [desc_pawn]</li>
-    <li>image->самотній [Character] [desc_pawn] біля [TerrainFeature]</li>
-    <li>image->самотній [Character] [desc_pawn] біля [Community]</li>
-    <li>image->a [Character] [desc_pawn] в оточенні [Character]</li>
-    <li>image->[Character] грає в [Game]</li>
-    <li>image->a [Character] [desc_pawn] грає [Game] з [Quantity_adjphrase] [Character]</li>
-    <li>image->a [Character] [desc_pawn] тримає [Weapon]</li>
-    <li>image >а [Character] [desc_pawn] їсть [Vegetable]</li>
-    <li>image->[Quantity_adjphrase] [PersonJob] та [PersonJob] їдять [Vegetable] разом</li>
-    <li>image->незначна знаменитість [NamePerson] [desc_pawn]</li>
-    <li>image-> [Character] одягається в [Apparel] [desc_pawn]</li>
-    <li>image-> [Community]</li>
-    <li>image-> [TerrainFeature]</li>
-    <li>image-> [Weapon]</li>
-    <li>image->a [TreeType]</li>
-    <li>image-> [NaturalObject]</li>
-    <li>image->[Quantity_adjphrase] [Weapon]</li>
-    <li>image->[Quantity_adjphrase] [Vegetable]</li>
-    <li>image-> [Apparel]</li>
-    <li>image-> [Shape]</li>
-    <li>image->a [Shape] в оточені [Shape]</li>
-    <li>image->абстрактне зображення [ConceptAny]</li>
-    <li>image-> [AdjectiveAny]</li>
-    <li>desc_pawn(p=12)-></li>
-    <li>desc_pawn->летить у повітрі</li>
-    <li>desc_pawn->зависає у повітрі</li>
-    <li>desc_pawn->рухається ліворуч</li>
-    <li>desc_pawn->рухається праворуч</li>
-    <li>desc_pawn->сидить на столі</li>
-    <li>desc_pawn->видно крізь дзеркало</li>
-    <li>desc_pawn->зображено в силуеті</li>
-    <li>desc_pawn->верхи на [Animal] в [Apparel]]</li>
-    <li>desc_pawn->дивится [AdjectiveAny]</li>
-    <li>desc_pawn->увесь в [Gore]</li>
+    <li>image(p=0.3)->, як [adj] [CharacterMasc] [action]</li>
+    <li>image(p=0.3)->, як [adj] [CharacterMasc], [desc_pawn], [action]</li>
+    <li>image(p=0.3)->, як [adj] [CharacterMasc] [actionmove], оминаючи [TerrainFeatureAcc]</li>
+    <li>image(p=0.3)->, як [adj] [CharacterMasc], [desc_pawn], [action] біля [CommunityGen]</li>
+    <li>image(p=0.3)->, як [AdjectiveAnyFem] [CharacterFem] [action]</li>
+    <li>image(p=0.3)->, як [AdjectiveAnyFem] [CharacterFem], [desc_pawnFem], [action]</li>
+    <li>image(p=0.3)->, як [AdjectiveAnyFem] [CharacterFem] [actionmove] оминаючи [TerrainFeatureAcc]</li>
+    <li>image(p=0.3)->, як [AdjectiveAnyFem] [CharacterFem], [desc_pawnFem], [action] біля [CommunityGen]</li>
+    <li>image(p=0.5)-> [CharacterAcc] в оточенні [CharacterPluGen]</li>
+    <li>image(p=0.5)-> [CharacterAcc], що грає в [Game]</li>
+    <li>image(p=0.5)-> [CharacterAcc], що грає в [Game] з [CharacterPluAbl]</li>
+    <li>image-> [CharacterAcc], що нахваляє [HisPersonalCharacteristic] перед [CharacterPluAbl]</li>
+    <li>image(p=0.5)->, як [CharacterMasc], [desc_pawn], тримає [HisWeapon]</li>
+    <li>image(p=0.5)->, як [CharacterFem], [desc_pawnFem], тримає [HisWeapon]</li>
+    <li>image->, як [Character] [interaction] [ThingAnyAcc] у [CharacterAnyGen]</li>
+    <li>image(p=0.8)->, як [CharacterMasc], [desc_pawn], їсть [VegetableAcc]</li>
+    <li>image(p=0.8)->, як [CharacterFem], [desc_pawnFem], їсть [VegetableAcc]</li>
+    <li>image(p=0.8)->, як [Quantity_adjphrase] [CharacterPluGen] та [CharacterPluGen] їдять [VegetableAcc] разом</li>
+    <li>image->, як [Character] одягається в [ApparelAcc]</li>
+    <li>image-> бійку [CharacterPluGen] з [CharacterPluAbl]</li>
+    <li>image-> війну [CharacterAcc] з [CharacterPluAbl]</li>
+    <li>image->, як [Character] тікає від [CharacterPluGen]</li>
+    <li>image-> [Community] [CharacterPluGen]</li>
+    <li>image(p=0.5)-> [TerrainFeature] [ConceptAnyGen]</li>
+    <li>image-> [Quantity_adjphrase] [CharacterPluGen]</li>
+    <li>image-> [Quantity_adjphrase] [VegetablePluGen]</li>
+    <li>image-> [CharacterAcc] в оточені [Shape]</li>
+    <li>image(p=0.5)-> ідею [ConceptAnyGen]</li>
+    <li>actionmove->летить у повітрі</li>
+    <li>actionmove->зависає у повітрі</li>
+    <li>actionmove->біжить</li>
+    <li>action->сидить за столом</li>
+    <li>action->йде центром [CommunityGen]</li>
+    <li>action->танцює</li>
   </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

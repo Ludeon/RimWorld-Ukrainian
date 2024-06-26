@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: downed -->
-  <Downed.label>{0_gender ? збитий : збита}</Downed.label>
+  <Downed.label>знерухомлено</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -42,44 +42,44 @@
   -->
   <Downed.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] використовуючи [WEAPON_label]</li>
-    <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef] зроблена [KILLER_nameDef]</li>
-    <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef] від [WEAPON_label]</li>
-    <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef]</li>
-    <li>image->[VICTIM_nameFull] {VICTIM_gender ? отримав : отримала} [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] жорстко [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] [with_weapon_optional]</li>
-    <li>wound_name_past->недієздатний</li>
-    <li>wound_name_past->скалічений</li>
-    <li>wound_name_past->знепритомнів(ла)</li>
-    <li>wound_name_past->скалічений</li>
-    <li>wound_name_present->став недієздатним</li>
-    <li>wound_name_present->отримано шкоди</li>
-    <li>wound_name_present->втрачає свідомість</li>
-    <li>wound_name_present->отримує інвалідність</li>
-    <li>with_weapon_optional->через [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->здається, без каяття</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->із пристрасною люттю</li>
-    <li>circumstance_phrase->швидкими, ефективними рухами</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>circumstance_phrase->з похмурої необхідності</li>
-    <li>circumstance_phrase->боягузливо, нерішуче</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] заплющені.</li>
-    <li>desc_sentence->[KILLER_nameDef] шкірить зуби при [KILLER_possessive].</li>
-    <li>desc_sentence->[KILLER_nameDef] здається задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає вдоволенним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфально.</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] за допомогою {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
+    <li>wound_name_present->знерухомлює</li>
+    <li>wound_name_present->калічить</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s look on.</li>
+    <li>desc_sentence->A [PersonJob] watches silently [side_position].</li>
+    <li>desc_sentence->[VICTIM_nameDef] looks [AdjectiveAngsty].</li>
+    <li>desc_sentence->[VICTIM_nameDef]'s eyes are closed.</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
-  <Exhausted.label>{0_gender ? виснажений : виснажена}</Exhausted.label>
+  <Exhausted.label>виснаження</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -98,25 +98,25 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] падає від виснаження</li>
-    <li>image->[PAWN_nameFull] падає на землю [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить на землі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить в ліжку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] розвалився в кріслі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] спокійно спить [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] виснажено падає</li>
+    <li>image->, як [PAWN_nameFull] падає на землю [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить на землі [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить у ліжку [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] падає у крісло [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] спокійно спить [circumstance_phrase]</li>
     <li>circumstance_phrase->з закритими очима</li>
-    <li>circumstance_phrase->з видимими ознаками виснаження</li>
-    <li>circumstance_phrase->поки покриті потом</li>
-    <li>circumstance_phrase->і не може поворухнути жодним м’язом</li>
-    <li>desc_sentence->[PAWN_nameDef] завершив останній проект, знаходиться поруч.</li>
-    <li>desc_sentence->Навколо дивовижна споруда [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] вдячні за героїчні зусилля [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] лежать поруч у подібному стані.</li>
-    <li>desc_sentence->Дія відбувається в новому будинку [Community].</li>
+    <li>circumstance_phrase->з явно виснаженим виглядом</li>
+    <li>circumstance_phrase->з [AdjectiveAngstyAbl] виразом обличчя</li>
+    <li>circumstance_phrase->без змоги поворухнути пальцем</li>
+    <li>desc_sentence->Останнє завдання, над яким {PAWN_gender ? працював : працювала} [PAWN_nameDef] стоїть поруч, завершене</li>
+    <li>desc_sentence->Чудова конструкція оточує [PAWN_nameDef]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen], з подякою за {PAWN_possessive} героїчний вчинок, дивляться на [PAWN_nameDef]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] лежать поруч в схожій позі</li>
+    <li>desc_sentence->Сцена відбувається всередині нового [CommunityGen]</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
-  <GaveBirth.label>народила</GaveBirth.label>
+  <GaveBirth.label>народження</GaveBirth.label>
   <!-- EN:
     <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
@@ -136,26 +136,26 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] народила [CHILD_nameDef]</li>
-    <li>image->[MOTHER_nameFull] народила для [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] тримала [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] лежить у ліжку поряд з [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] у кріслі разом з [MOTHER_possessive] [baby] [circumstance_group]</li>
-    <li>baby->немовля</li>
-    <li>baby->новонароджений</li>
-    <li>baby->дитина</li>
-    <li>circumstance_phrase->[CHILD_nameFull], який скривавлений та плаче</li>
-    <li>circumstance_phrase->[CHILD_nameFull], котра ніжно світиться [Color]</li>
-    <li>circumstance_phrase->[CHILD_nameFull], який уже намагається витягнути [CHILD_objective] себе</li>
-    <li>circumstance_phrase->[CHILD_nameFull], дивиться навколо з виразом спокою</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] спокійно спить поруч.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] споглядає на сцену.</li>
-    <li>desc_sentence->A [PersonJob] спостерігає здалеку.</li>
-    <li>desc_sentence->Дія відбувається в новоствореному [Community].</li>
+    <li>tale_noun->[MOTHER_nameDef] народжує [CHILD_nameDef]</li>
+    <li>image->, як [MOTHER_nameFull] народжує [circumstance_phrase]</li>
+    <li>image->, як [MOTHER_nameFull] тримає своє [babyAcc], [circumstance_phrase]</li>
+    <li>image->, як [MOTHER_nameFull] лежить у ліжку зі своїм [babyAbl], [circumstance_phrase]</li>
+    <li>image->, як [MOTHER_nameFull] падає у крісло зі своїм [babyAbl], [circumstance_phrase]</li>
+    <li>babyAcc->немовля</li>
+    <li>babyAcc->новонародженого</li>
+    <li>babyAcc->дитя</li>
+    <li>babyAbl->немовлям</li>
+    <li>babyAbl->новонародженим</li>
+    <li>babyAbl->дитям</li>
+    <li>circumstance_phrase->[CHILD_nameFull]; {CHILD_gender ? він весь : вона вся} у крові та сльозах</li>
+    <li>circumstance_phrase->[CHILD_nameFull]; {CHILD_possessive} шкіра відсвічує [ColorAbl] кольором</li>
+    <li>circumstance_phrase->[CHILD_nameFull]; {CHILD_pronoun} вже {CHILD_gender ? намагався : намагалася} вилізти самостійно</li>
+    <li>circumstance_phrase->[CHILD_nameFull]; {CHILD_pronoun} дивиться навколо з виразом спокою</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] мирно сплять неподалік</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
-  <HeatstrokeRevealed.label>виявлено тепловий удар</HeatstrokeRevealed.label>
+  <HeatstrokeRevealed.label>тепловий удар</HeatstrokeRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting heatstroke</li>
     <li>tale_noun->[PAWN_nameDef] overheating</li>
@@ -178,30 +178,29 @@
   -->
   <HeatstrokeRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] отримує тепловий удар</li>
-    <li>tale_noun->[PAWN_nameDef] перегрівся</li>
-    <li>image->[PAWN_nameFull] пробираючись скрізь пісок [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] тулився в тіні [TerrainFeature] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] шукає воду [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] шукає тінь [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] повзає по випаленому сонцем бруду [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] перегрівається</li>
+    <li>image->, як [PAWN_nameFull] пробирається крізь піски [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] ховається в тіні [TerrainFeatureGen] [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] шукає воду [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] шукає тінь [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] повзе по випаленій сонцем землі [circumstance_phrase]</li>
     <li>circumstance_phrase->з червоною сухою шкірою</li>
-    <li>circumstance_phrase->і вкритий потом</li>
+    <li>circumstance_phrase->і покривається потом</li>
     <li>circumstance_phrase->з потрісканими сухими губами</li>
-    <li>circumstance_phrase->коли блює</li>
-    <li>desc_sentence->[Quantity_adjphrase] висушені трупи [Animal] оточують територію.</li>
-    <li>desc_sentence->[PAWN_nameDef] одяг пошарпаний та порваний.</li>
-    <li>desc_sentence->Палаюче сонце сяє на навкруги.</li>
-    <li>desc_sentence->Подія відбувається в палаючій пустелі.</li>
-    <li>desc_sentence->Сцена, здається, відбувається всередині, поруч з обігрівачем.</li>
-    <li>desc_sentence->[Quantity_adjphrase] нерухомі [Animal] оточують навколо.</li>
-    <li>desc_sentence->[Quantity_adjphrase] вмираючі [Animal] лежали на землі.</li>
+    <li>desc_sentence->[Quantity_adjphrase] покійних [AnimalPluGen] лежать навколо</li>
+    <li>desc_sentence->{PAWN_possessive} одяг пошарпаний і поношений</li>
+    <li>desc_sentence->Палаюче сонце маячить на задньому плані</li>
+    <li>desc_sentence->Сцена відбувається в палаючій пустелі</li>
+    <li>desc_sentence->Сцена, здається, відбувається в приміщені, поруч з обігрівачем</li>
+    <li>desc_sentence->[Quantity_adjphrase] нерухомих [AnimalPluGen] лежать навколо</li>
+    <li>desc_sentence->[Quantity_adjphrase] вмираючих [AnimalPluGen] лежать навколо</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
-  <HypothermiaRevealed.label>виявлено гіпотермію</HypothermiaRevealed.label>
+  <HypothermiaRevealed.label>гіпотермія</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
-    <li>tale_noun->[PAWN_nameDef] freezing to death</li>
     <li>image->[PAWN_nameFull] trudging through snow [circumstance_group]</li>
     <li>image->[PAWN_nameFull] huddled beside a [TerrainFeature] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
@@ -220,28 +219,27 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] отримує переохолодження</li>
-    <li>tale_noun->[PAWN_nameDef] замерз до смерті</li>
-    <li>image->[PAWN_nameFull] бредучи скрізь сніг [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] тулився біля [TerrainFeature] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] у пошуках тепла [Apparel] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] присівши біля багаття [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] намагається розпалити багаття [circumstance_group]</li>
-    <li>circumstance_phrase->поки обличчя [PAWN_possessive] повільно синіє</li>
-    <li>circumstance_phrase->і нестримно тремтить</li>
-    <li>circumstance_phrase->поки вкрите інеєм</li>
-    <li>circumstance_phrase->видихає хмари пару</li>
-    <li>desc_sentence->[Quantity_adjphrase] проморожені [Animal] трупи навкруги.</li>
-    <li>desc_sentence->одяг [PAWN_nameDef] подраний і заношений.</li>
-    <li>desc_sentence->На небі вимальовується холодний блакитний місяць.</li>
-    <li>desc_sentence->Подія відбувається в засніженому [TreeType] лісі.</li>
-    <li>desc_sentence->Здається, подія відбувається в морозильній камері.</li>
-    <li>desc_sentence->[Quantity_adjphrase] тремтячі [Animal]оточують навколо.</li>
-    <li>desc_sentence->[Quantity_adjphrase] вмираючи [Animal] лежать на землі.</li>
+    <li>tale_noun->[PAWN_nameDef] отримує гіпотермію</li>
+    <li>tale_noun->[PAWN_nameDef] сильно замерзає</li>
+    <li>image->, як [PAWN_nameFull] йде снігом[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] шукає [ApparelAcc][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] сідає біля багаття[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] намагається розпалити багаття[circumstance_phrase]</li>
+    <li>circumstance_phrase->, доки [PAWN_possessive] face slowly turns blue</li>
+    <li>circumstance_phrase-> і неконтрольовано тремтить</li>
+    <li>circumstance_phrase-> і покривається інеєм</li>
+    <li>circumstance_phrase-> та видихає хмари туману</li>
+    <li>desc_sentence->[Quantity_adjphrase] заморожених [AnimalPluGen] лежать навколо</li>
+    <li>desc_sentence->{PAWN_possessive} одяг пошарпаний і поношений</li>
+    <li>desc_sentence->На задньому плані вимальовується холодний блакитний місяць</li>
+    <li>desc_sentence->Події відбуваються в засніженому лісі</li>
+    <li>desc_sentence->Сцена, здається, відбувається в морозильній камері</li>
+    <li>desc_sentence->[Quantity_adjphrase] тремтячих [AnimalPluGen] лежать навколо</li>
+    <li>desc_sentence->[Quantity_adjphrase] помираючих [AnimalPluGen] лежать на землі</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
-  <IllnessRevealed.label>виявлено хворобу</IllnessRevealed.label>
+  <IllnessRevealed.label>хвороба</IllnessRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being stricken with [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] staggering through a field [circumstance_group]</li>
@@ -264,29 +262,29 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] захворів на [ILLNESS_label]</li>
-    <li>image->[PAWN_nameFull] хитаючись полем [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить на землі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить у ліжку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить у лікарняному ліжку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] розвалився у кріслі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] присівши біля багаття [circumstance_group]</li>
-    <li>circumstance_phrase->та піт проймає ніскрізь</li>
-    <li>circumstance_phrase->та неспинно тремтить</li>
-    <li>circumstance_phrase->одночасно потіючи та здригаючись</li>
-    <li>circumstance_phrase->з потрісканими сухими губами</li>
-    <li>circumstance_phrase->коли блює</li>
-    <li>circumstance_phrase->з висипаннями по шкірі</li>
-    <li>circumstance_phrase->перебуваючи під наглядом лікаря</li>
-    <li>desc_sentence->[Quantity_adjphrase] мухи літать навколо трупів [Animal].</li>
-    <li>desc_sentence->[Quantity_adjphrase] поєднання [Color] [TerrainFeature] навкруги.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] уражені тим же недугом.</li>
-    <li>desc_sentence->Подія відбувається всередині [TreeType] лісу.</li>
-    <li>desc_sentence->[Quantity_adjphrase] помираючи [Animal] лежав на землі.</li>
+    <li>tale_noun->[PAWN_nameDef] хворіє {lookup: [ILLNESS_label]; Case; 4}</li>
+    <li>image->, як [PAWN_nameFull], хитаючись, йде полем[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить на землі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить у ліжку[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить в лікарні[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] падає на крісло[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] відпочиває біля багаття[circumstance_phrase]</li>
+    <li>circumstance_phrase-> та пітніє</li>
+    <li>circumstance_phrase-> та неконтрольовано тремтить</li>
+    <li>circumstance_phrase->, пітніє та тремтить</li>
+    <li>circumstance_phrase-> з потрісканими сухими губами</li>
+    <li>circumstance_phrase-> та блює</li>
+    <li>circumstance_phrase-> з видимою висипкою</li>
+    <li>circumstance_phrase->, перебуваючи під наглядом лікаря</li>
+    <li>desc_sentence->[Quantity_adjphrase] мертвих [AnimalPluGen], оточених мухами, лежать навколо</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] вражені тією ж бідою</li>
+    <li>desc_sentence->Сцена відбувається в лісі</li>
+    <li>desc_sentence->[Quantity_adjphrase] помираючих [AnimalPluGen] лежать на землі</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
-  <KilledCapacity.label>вбито</KilledCapacity.label>
+  <KilledCapacity.label>вбивство</KilledCapacity.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -320,38 +318,38 @@
   -->
   <KilledCapacity.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] використовуючи [WEAPON_label]</li>
-    <li>image->[KILLER_nameFull] [cap_removal] [VICTIM_nameFull] здатність [CAPACITY_label] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] від [cap_removal] [VICTIM_possessive] [CAPACITY_label] [with_weapon_optional]</li>
-    <li>cap_removal->знищено</li>
-    <li>cap_removal->усуненно</li>
-    <li>cap_removal->завершено</li>
-    <li>wound_name_past->вбито</li>
-    <li>wound_name_past->страчено</li>
-    <li>wound_name_past->вбито</li>
-    <li>wound_name_past->ліквідовано</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef], використовуюючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
     <li>wound_name_present->вбиває</li>
-    <li>wound_name_present->страчує</li>
-    <li>wound_name_present->вбиває</li>
-    <li>wound_name_present->усуває</li>
-    <li>with_weapon_optional->з [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->начебто без докорів сумління</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->швидкими, ефективними рухами</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] заплющені.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
+    <li>wound_name_present->ліквідує</li>
+    <li>wound_name_present->анігілює</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
-  <KilledLongRange.label>гине на відстані</KilledLongRange.label>
+  <KilledLongRange.label>вбивство на дистанції</KilledLongRange.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance with a [WEAPON_label]</li>
@@ -388,43 +386,43 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledLongRange.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] на значній відстані</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] на значній відстані з [WEAPON_label]</li>
-    <li>tale_noun->у дальньому бії [wound_name_present] отримав [VICTIM_nameDef] від [KILLER_nameDef]</li>
-    <li>tale_noun->[VICTIM_nameDef] у дальньому бії отримав [wound_name_present] від [KILLER_nameDef] з [WEAPON_label]</li>
-    <li>image->[KILLER_nameFull] прицілився на [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] холодно [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>wound_name_past->вбитий</li>
-    <li>wound_name_past->страчено</li>
-    <li>wound_name_past->зарізано</li>
-    <li>wound_name_past->ліквідовано</li>
-    <li>wound_name_present->замордовано</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] з великої відстані</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef], використовуюючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] прицілюється в [VICTIM_nameFull][with_weapon_optional]</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
     <li>wound_name_present->вбиває</li>
-    <li>wound_name_present->ріже</li>
     <li>wound_name_present->ліквідує</li>
-    <li>with_weapon_optional->з [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->здається, без каяття</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->на великій відстані</li>
-    <li>circumstance_phrase->з великої висоти</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>circumstance_phrase->боягузливо, нерішуче</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] заплющені.</li>
-    <li>desc_sentence->[VICTIM_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] шкірить зуби при [KILLER_possessive].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>desc_sentence->[VICTIM_nameDef]'s eyes are closed.</li>
+    <li>desc_sentence->[VICTIM_nameDef] is covered in [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
-  <KilledMajorThreat.label>вбито головну загрозу</KilledMajorThreat.label>
+  <KilledMajorThreat.label>ліквідовано серйозну загрозу</KilledMajorThreat.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -465,45 +463,45 @@
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] з [WEAPON_label]</li>
-    <li>tale_noun->[wound_name_present] з [VICTIM_nameDef] від [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] з [VICTIM_nameDef] від [KILLER_nameDef] із [WEAPON_label]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] жорстоко [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] [with_weapon_optional]</li>
-    <li>wound_name_past->вбитий</li>
-    <li>wound_name_past->переможений</li>
-    <li>wound_name_past->подолано</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] за допомогою {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
     <li>wound_name_present->вбиває</li>
-    <li>wound_name_present->перемагає</li>
-    <li>wound_name_present->долає</li>
-    <li>with_weapon_optional->з [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->швидкими, ефективними рухами</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>circumstance_phrase->з великим героїзмом</li>
-    <li>circumstance_phrase->з неймовірною силою</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] мовчки дивиться [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] заплющені.</li>
-    <li>desc_sentence->[VICTIM_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[VICTIM_nameDef] та [KILLER_nameDef] вдвох охоплені [Gore].</li>
-    <li>desc_sentence->труп [VICTIM_nameDef] височіє над [KILLER_nameDef].</li>
-    <li>desc_sentence->Труп [VICTIM_nameDef] височіє над [TerrainFeature].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] світяться [Color].</li>
-    <li>desc_sentence->[KILLER_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] шкірить зуби при [KILLER_possessive].</li>
-    <li>desc_sentence->[KILLER_nameDef] здається задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає [AdjectiveBadass].</li>
-    <li>desc_sentence->[KILLER_nameDef] сяє героїчною аурою.</li>
+    <li>wound_name_present->ліквідує</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[VICTIM_nameDef] та [KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->Тіло [VICTIM_nameDef] лежить біля ніг [KILLER_nameDef]</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] світяться [ColorAbl]</li>
+    <li>desc_sentence->[KILLER_nameDef] має навколо себе героїчну ауру</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>desc_sentence->[KILLER_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[KILLER_nameDef] is covered in [Gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks [AdjectiveBadass].</li>
+    <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
-  <KilledMelee.label>гине в сутичці</KilledMelee.label>
+  <KilledMelee.label>вбивство ближнього бою</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
@@ -544,45 +542,45 @@
   -->
   <KilledMelee.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] в ближньому бою</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] в рукопашному бою з [WEAPON_label]</li>
-    <li>tale_noun->кулачному бою [wound_name_present] з [VICTIM_nameDef] від [KILLER_nameDef]</li>
-    <li>tale_noun->ближній бій [wound_name_present] з [VICTIM_nameDef] від [KILLER_nameDef] із [WEAPON_label]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] жорстоко [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] [with_weapon_optional]</li>
-    <li>wound_name_past->вбитий</li>
-    <li>wound_name_past->страчений</li>
-    <li>wound_name_past->зарізано</li>
-    <li>wound_name_past->понівечено</li>
-    <li>wound_name_present->замордовано</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] за допомогою {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
     <li>wound_name_present->вбиває</li>
-    <li>wound_name_present->ріже</li>
-    <li>wound_name_present->калічить</li>
-    <li>with_weapon_optional->з [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->здається, без каяття</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->швидкими, ефективними рухами</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>circumstance_phrase->боягузливо, нерішуче</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->очі [VICTIM_nameDef] заплющені.</li>
-    <li>desc_sentence->[VICTIM_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[VICTIM_nameDef] та [KILLER_nameDef] вдвох охоплені [Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[KILLER_nameDef] шкірить зуби при [KILLER_possessive].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
-    <li>desc_sentence->[KILLER_nameDef] з диким виразом обличчя.</li>
+    <li>wound_name_present->ліквідує</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[VICTIM_nameDef] та [KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->Тіло [VICTIM_nameDef] лежить біля ніг [KILLER_nameDef]</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] світяться [ColorAbl]</li>
+    <li>desc_sentence->[KILLER_nameDef] має навколо себе героїчну ауру</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>desc_sentence->[KILLER_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
+    <li>desc_sentence->[KILLER_nameDef] wears a feral expression.</li>
   </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
-  <KilledMortar.label>вбито з міномета</KilledMortar.label>
+  <KilledMortar.label>вбивство артилерією</KilledMortar.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a mortar</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]'s artillery</li>
@@ -606,30 +604,30 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledMortar.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] з міномета</li>
-    <li>tale_noun->[VICTIM_nameDef] було вбито [KILLER_nameDef] артилерією</li>
-    <li>image->[KILLER_nameFull] обережно направлюячи ствол [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] дивіться у бік [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] робити розрахунок на папері [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] перевірити напрям вітру [circumstance_group]</li>
-    <li>circumstance_phrase->коли [VICTIM_nameFull] перебуває у зоні вибуху</li>
-    <li>circumstance_phrase->як снаряд прямує назустріч [VICTIM_nameFull]</li>
-    <li>circumstance_phrase->коли [VICTIM_nameFull] ходить непомітно</li>
-    <li>circumstance_phrase->[VICTIM_nameFull] швидко</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->[VICTIM_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[VICTIM_nameDef] оточений вибухами.</li>
-    <li>desc_sentence->[VICTIM_nameDef] оточений кратерами.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef], використовуючи міномет</li>
+    <li>tale_noun->[VICTIM_nameDef] помирає від артилерійського пострілу [KILLER_nameDef]</li>
+    <li>image->, як [KILLER_nameFull] ретельно прицілюється[circumstance_phrase]</li>
+    <li>image->, як [KILLER_nameFull] розраховує відстань до цілі[circumstance_phrase]</li>
+    <li>image->, як [KILLER_nameFull] записує розрахунки на папері[circumstance_phrase]</li>
+    <li>image->, як [KILLER_nameFull] перевіряє напрямок вітру[circumstance_phrase]</li>
+    <li>wound_name_present->вбиває</li>
+    <li>wound_name_present->ліквідує</li>
+    <li>circumstance_phrase->, в той час як [VICTIM_nameFull] накриває потужний вибух</li>
+    <li>circumstance_phrase->, в той час як снаряд летить назустріч [VICTIM_nameFull]</li>
+    <li>circumstance_phrase->, в той час як [VICTIM_nameFull] нічого не підозрює</li>
+    <li>circumstance_phrase->, в той час як [VICTIM_nameFull] тікає</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
   </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
-  <ToxicityRevealed.label>виявлена токсичність</ToxicityRevealed.label>
+  <ToxicityRevealed.label>отруєння токсинами</ToxicityRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s body becoming toxic</li>
     <li>tale_noun->[PAWN_nameDef] being poisoned by toxins</li>
@@ -653,30 +651,30 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <ToxicityRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] тіло стає токсичним</li>
-    <li>tale_noun->[PAWN_nameDef] початковє отруєння токсинами</li>
-    <li>image->[PAWN_nameFull] хитаючись полем [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить на землі [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лежить у ліжку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] присівши біля багаття [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] намагається запалити вогонь [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] бездумно знімає [PAWN_possessive] одяг [circumstance_group]</li>
-    <li>circumstance_phrase->та піт проймає ніскрізь</li>
-    <li>circumstance_phrase->та неспинно тремтить</li>
-    <li>circumstance_phrase->одночасно потіючи та здригаючись</li>
-    <li>circumstance_phrase->з потрісканими сухими губами</li>
-    <li>circumstance_phrase->коли блює</li>
-    <li>circumstance_phrase->з висипаннями на шкірі</li>
-    <li>desc_sentence->[Quantity_adjphrase] покручені тіла [Animal] навкруги.</li>
-    <li>desc_sentence->одяг [PAWN_nameDef] розвалюється.</li>
-    <li>desc_sentence->Мутнє небо [Color] кольору.</li>
-    <li>desc_sentence->[Quantity_adjphrase] поєднання [Color] [TerrainFeature] навкруги.</li>
-    <li>desc_sentence->Подія відбувається всередині [TreeType] лісу.</li>
-    <li>desc_sentence->[Quantity_adjphrase] помираючи [Animal] лежав на землі.</li>
+    <li>tale_noun->[PAWN_nameDef] переносить токсичне отруєння</li>
+    <li>tale_noun->[PAWN_nameDef] страждає від отруєння токсинами</li>
+    <li>image->, як [PAWN_nameFull], хитаючись, йде полем[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить на землі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить у ліжку[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] лежить в лікарні[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] падає на крісло[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] відпочиває біля багаття[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] намагається розпалити багаття[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] бездумно знімає свій одяг[circumstance_phrase]</li>
+    <li>circumstance_phrase-> та пітніє</li>
+    <li>circumstance_phrase-> та неконтрольовано тремтить</li>
+    <li>circumstance_phrase->, пітніє та тремтить</li>
+    <li>circumstance_phrase-> з потрісканими сухими губами</li>
+    <li>circumstance_phrase-> та блює</li>
+    <li>circumstance_phrase-> з видимою висипкою</li>
+    <li>circumstance_phrase->, перебуваючи під наглядом лікаря</li>
+    <li>desc_sentence->[Quantity_adjphrase] мертвих [AnimalPluGen], оточених мухами, лежать навколо</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] вражені тією ж бідою</li>
+    <li>desc_sentence->Сцена відбувається в лісі</li>
   </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- EN: wounded -->
-  <Wounded.label>{0_gender ? поранений: поранена}</Wounded.label>
+  <Wounded.label>поранення</Wounded.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -721,45 +719,45 @@
   -->
   <Wounded.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] використовуючи [WEAPON_label]</li>
-    <li>tale_noun->the [wound_name_present] у [VICTIM_nameDef] зроблена [KILLER_nameDef]</li>
-    <li>tale_noun->[wound_name_present] у [VICTIM_nameDef] отримана від [WEAPON_label]</li>
-    <li>tale_noun->[wound_name_present] у [VICTIM_nameDef]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] від [KILLER_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[KILLER_nameFull] жорстко [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] отримав [wound_name_past] [with_weapon_optional]</li>
-    <li>wound_name_past->поранений</li>
-    <li>wound_name_past->зіпсовано</li>
-    <li>wound_name_past->боляче</li>
-    <li>wound_name_past->напали</li>
-    <li>wound_name_past->атаковано</li>
-    <li>wound_name_present->поранено</li>
-    <li>wound_name_present->зіпсовано</li>
-    <li>wound_name_present->болить</li>
-    <li>wound_name_present->напад</li>
-    <li>wound_name_present->атакований</li>
-    <li>with_weapon_optional->з [WEAPON_label] [circumstance_group]</li>
-    <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->здається, без каяття</li>
-    <li>circumstance_phrase->з холодною ефективністю</li>
-    <li>circumstance_phrase->з пристрасною люттю</li>
-    <li>circumstance_phrase->швидкими, ефективними рухами</li>
-    <li>circumstance_phrase->без емоцій чи експресії</li>
-    <li>circumstance_phrase->з похмурої необхідності</li>
-    <li>circumstance_phrase->боягузливо, нерішуче</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] дивиться.</li>
-    <li>desc_sentence->[PersonJob] спостерігає мовчки [side_position].</li>
-    <li>desc_sentence->Навколо тіла [VICTIM_nameDef] калюжа крові.</li>
-    <li>desc_sentence->[VICTIM_nameDef] охоплений [Gore].</li>
-    <li>desc_sentence->[VICTIM_nameDef] виглядає [AdjectiveAngsty].</li>
-    <li>desc_sentence->[VICTIM_nameDef] морщиться від болю.</li>
-    <li>desc_sentence->[VICTIM_nameDef] перебуває в агонії.</li>
-    <li>desc_sentence->[KILLER_nameDef] шкірить зуби при [KILLER_possessive].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає засмученим тим, що коїть [KILLER_pronoun].</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає задоволеним ситуацією.</li>
-    <li>desc_sentence->[KILLER_nameDef] виглядає тріумфатором.</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] за допомогою {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>image->, як [KILLER_nameFull][circumstance_phrase] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
+    <li>wound_name_present->знерухомлює</li>
+    <li>wound_name_present->калічить</li>
+    <li>wound_name_present->поранює</li>
+    <li>wound_name_present->завдає шкоди</li>
+    <li>wound_name_present->шкодить</li>
+    <li>with_weapon_optional->, використовуючи {lookup: [WEAPON_label]; Case; 3}</li>
+    <li>with_weapon_optional-></li>
+    <li>circumstance_phrase-> без сумнівів</li>
+    <li>circumstance_phrase->, з холодною ефективністю,</li>
+    <li>circumstance_phrase->, з пристрасною люттю,</li>
+    <li>circumstance_phrase->, швидкими та ефективними рухами,</li>
+    <li>circumstance_phrase-> беземоційно</li>
+    <li>circumstance_phrase->, з похмурої необхідності,</li>
+    <li>circumstance_phrase-> боягузливо</li>
+    <li>circumstance_phrase-> брутально</li>
+    <li>desc_sentence->[VICTIM_nameDef] та [KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->Тіло [VICTIM_nameDef] лежить біля ніг [KILLER_nameDef]</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] світяться [ColorAbl]</li>
+    <li>desc_sentence->[KILLER_nameDef] має навколо себе героїчну ауру</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спостерігають [side_position]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає [side_position]</li>
+    <li>desc_sentence->[VICTIM_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Очі [VICTIM_nameDef] закриті</li>
+    <li>desc_sentence->[KILLER_nameDef] вишкіряє зуби</li>
+    <li>desc_sentence->[KILLER_nameDef] з голови до ніг у [GoreLoc]</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною}</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає засмучено від того, що робить</li>
+    <li>desc_sentence->[KILLER_nameDef] виглядає {KILLER_gender ? задоволеним : задоволеною} ситуацією</li>
+    <li>desc_sentence->[KILLER_nameDef] має тріумфальний вигляд</li>
+    <li>desc_sentence->[KILLER_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[VICTIM_nameDef] is wincing in pain.</li>
+    <li>desc_sentence->[VICTIM_nameDef] is wincing in agony.</li>
+    <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>
+    <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   </Wounded.rulePack.rulesStrings>
   
 </LanguageData>

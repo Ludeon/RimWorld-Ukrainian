@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>кислотний опік</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Кислотний опік.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>шрам від кислотного опіку</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Розчинено</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>кислотний опік</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{0} на {1}</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>укус</Bite.label>
   <!-- EN: A bite wound. -->
-  <Bite.description>Кусана рана.</Bite.description>
+  <Bite.description>Поранення від укусу.</Bite.description>
   <!-- EN: bite scar -->
   <Bite.comps.HediffComp_GetsPermanent.permanentLabel>рубець від укусу</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Bitten off -->
-  <Bite.injuryProps.destroyedLabel>Відкушено</Bite.injuryProps.destroyedLabel>
+  <Bite.injuryProps.destroyedLabel>відгризено</Bite.injuryProps.destroyedLabel>
   <!-- EN: Bitten out -->
-  <Bite.injuryProps.destroyedOutLabel>Вигризено</Bite.injuryProps.destroyedOutLabel>
+  <Bite.injuryProps.destroyedOutLabel>вигризено</Bite.injuryProps.destroyedOutLabel>
   <!-- EN: a bite wound -->
-  <Bite.labelNoun>рана від укусу</Bite.labelNoun>
+  <Bite.labelNoun>укус</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Bite.labelNounPretty>{0} на {1}</Bite.labelNounPretty>
+  <Bite.labelNounPretty>{0} {1}</Bite.labelNounPretty>
   
   <!-- EN: bruise -->
-  <Bruise.label>синець</Bruise.label>
+  <Bruise.label>забій</Bruise.label>
   <!-- EN: A bruise. -->
-  <Bruise.description>Синець.</Bruise.description>
+  <Bruise.description>Пошкодження із вираженою на поверхні гематомою.</Bruise.description>
   <!-- EN: a bruise -->
-  <Bruise.labelNoun>синець</Bruise.labelNoun>
+  <Bruise.labelNoun>забій</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>{0} на {1}</Bruise.labelNounPretty>
   
@@ -30,11 +43,11 @@
   <!-- EN: A burn. -->
   <Burn.description>Опік.</Burn.description>
   <!-- EN: burn scar -->
-  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>шрам від опіку</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>рубець від опіку</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
-  <Burn.injuryProps.destroyedLabel>Згоріло</Burn.injuryProps.destroyedLabel>
+  <Burn.injuryProps.destroyedLabel>спалено</Burn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
-  <Burn.injuryProps.destroyedOutLabel>Вигоріло</Burn.injuryProps.destroyedOutLabel>
+  <Burn.injuryProps.destroyedOutLabel>спалено</Burn.injuryProps.destroyedOutLabel>
   <!-- EN: a burn -->
   <Burn.labelNoun>опік</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -45,24 +58,24 @@
   <!-- EN: A chemical burn. -->
   <ChemicalBurn.description>Хімічний опік.</ChemicalBurn.description>
   <!-- EN: chemical burn scar -->
-  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>шрам від хімічного опіку</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>рубець від хім. опіку</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedLabel>Спалено (хімічно)</ChemicalBurn.injuryProps.destroyedLabel>
+  <ChemicalBurn.injuryProps.destroyedLabel>спалено</ChemicalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedOutLabel>Випалено (хімічно)</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <ChemicalBurn.injuryProps.destroyedOutLabel>спалено</ChemicalBurn.injuryProps.destroyedOutLabel>
   <!-- EN: a chemical burn -->
   <ChemicalBurn.labelNoun>хімічний опік</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ChemicalBurn.labelNounPretty>{0} на {1}</ChemicalBurn.labelNounPretty>
+  <ChemicalBurn.labelNounPretty>{0} {1}</ChemicalBurn.labelNounPretty>
   
   <!-- EN: crack -->
-  <Crack.label>перелом</Crack.label>
+  <Crack.label>тріщина</Crack.label>
   <!-- EN: A crack. -->
-  <Crack.description>Перелом.</Crack.description>
+  <Crack.description>Тріщина або надлом кістки.</Crack.description>
   <!-- EN: permanent crack -->
-  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>перелом зі зміщенням</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>невиліковна тріщина</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: a crack wound -->
-  <Crack.labelNoun>тріснута рана</Crack.labelNoun>
+  <Crack.labelNoun>тріщина</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Crack.labelNounPretty>{0} на {1}</Crack.labelNounPretty>
   
@@ -71,7 +84,7 @@
   <!-- EN: A crushing wound. -->
   <Crush.description>Розтрощена рана.</Crush.description>
   <!-- EN: mangled scar -->
-  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>шрам після розтрощення</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>рубець</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: a crush wound -->
   <Crush.labelNoun>розтрощена рана</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -84,104 +97,128 @@
   <!-- EN: cut scar -->
   <Cut.comps.HediffComp_GetsPermanent.permanentLabel>рубець від порізу</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
-  <Cut.injuryProps.destroyedLabel>Відрубано</Cut.injuryProps.destroyedLabel>
+  <Cut.injuryProps.destroyedLabel>відрізано</Cut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <Cut.injuryProps.destroyedOutLabel>Вирізано</Cut.injuryProps.destroyedOutLabel>
+  <Cut.injuryProps.destroyedOutLabel>вирізано</Cut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
   <Cut.labelNoun>поріз</Cut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{0} на {1}</Cut.labelNounPretty>
   
+  <!-- EN: decayed organ -->
+  <Decayed.label>деградація органу</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>Цей орган повністю деградував</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>деградований орган</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>{1} (деградовано)</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>електричний опік</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>Електричний опік.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>рубець від електричного опіку</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>випалено</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>випалено</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>електричний опік</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{0} на {1}</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
-  <ExecutionCut.label>поріз</ExecutionCut.label>
+  <ExecutionCut.label>розріз</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
-  <ExecutionCut.description>Поріз, зроблений під час страти.</ExecutionCut.description>
+  <ExecutionCut.description>Рана, завдана під час страти.</ExecutionCut.description>
   <!-- EN: Cut off -->
-  <ExecutionCut.injuryProps.destroyedLabel>Відрізано</ExecutionCut.injuryProps.destroyedLabel>
+  <ExecutionCut.injuryProps.destroyedLabel>відрізано</ExecutionCut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <ExecutionCut.injuryProps.destroyedOutLabel>Вирізано</ExecutionCut.injuryProps.destroyedOutLabel>
+  <ExecutionCut.injuryProps.destroyedOutLabel>вирізано</ExecutionCut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
-  <ExecutionCut.labelNoun>поріз (страта)</ExecutionCut.labelNoun>
+  <ExecutionCut.labelNoun>розріз</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ExecutionCut.labelNounPretty>{0} на {1}</ExecutionCut.labelNounPretty>
   
   <!-- EN: frostbite -->
   <Frostbite.label>обмороження</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
-  <Frostbite.description>Замерзання тканини тіла, спричинене впливом холоду без належного захисту. Обмороження дуже болюче і нерідко призводить до втрати частини тіла.</Frostbite.description>
+  <Frostbite.description>Пошкодження, спричинене перебуванням на холоді без належного одягу. Обмороження - дуже болюче. Сильно обморожені частини тіла часто не вдається врятувати.</Frostbite.description>
   <!-- EN: frostbite scar -->
-  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>шрам від обмороження</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>рубець від обмороження</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Lost to frostbite -->
-  <Frostbite.injuryProps.destroyedLabel>Відморожено</Frostbite.injuryProps.destroyedLabel>
+  <Frostbite.injuryProps.destroyedLabel>відморожено</Frostbite.injuryProps.destroyedLabel>
   <!-- EN: {0} in the {1} -->
-  <Frostbite.labelNounPretty>{0} на {1}</Frostbite.labelNounPretty>
+  <Frostbite.labelNounPretty>{0} {1}</Frostbite.labelNounPretty>
   
   <!-- EN: gunshot -->
   <Gunshot.label>вогнепальне поранення</Gunshot.label>
   <!-- EN: A gunshot wound. -->
   <Gunshot.description>Вогнепальне поранення.</Gunshot.description>
   <!-- EN: permanent gunshot injury -->
-  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>перманентна травма після кульового поранення</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>вогнепальне поранення</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old gunshot -->
-  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>старе вогнепальне поранення</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>рубець від кулі</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shot off -->
-  <Gunshot.injuryProps.destroyedLabel>Відстрелено</Gunshot.injuryProps.destroyedLabel>
+  <Gunshot.injuryProps.destroyedLabel>відстрілено</Gunshot.injuryProps.destroyedLabel>
   <!-- EN: Shot out -->
-  <Gunshot.injuryProps.destroyedOutLabel>Прострелено</Gunshot.injuryProps.destroyedOutLabel>
+  <Gunshot.injuryProps.destroyedOutLabel>прострілено</Gunshot.injuryProps.destroyedOutLabel>
   <!-- EN: a gunshot wound -->
   <Gunshot.labelNoun>вогнепальне поранення</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Gunshot.labelNounPretty>{0} на {1}</Gunshot.labelNounPretty>
+  <Gunshot.labelNounPretty>{0} {1}</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
-  <Misc.label>інше</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
-  <Misc.description>Різноманітні травми.</Misc.description>
+  <!-- EN: wound -->
+  <Misc.label>різне</Misc.label>
+  <!-- EN: Miscellaneous injuries. -->
+  <Misc.description>Різні травми та поранення.</Misc.description>
   <!-- EN: scar -->
   <Misc.comps.HediffComp_GetsPermanent.permanentLabel>рубець</Misc.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: an injury -->
-  <Misc.labelNoun>ушкодження</Misc.labelNoun>
+  <Misc.labelNoun>поранення</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Misc.labelNounPretty>{0} на {1}</Misc.labelNounPretty>
+  <Misc.labelNounPretty>{0} {1}</Misc.labelNounPretty>
   
   <!-- EN: missing body part -->
-  <MissingBodyPart.label>відсутні частини тіла</MissingBodyPart.label>
+  <MissingBodyPart.label>відсутня частина тіла</MissingBodyPart.label>
   <!-- EN: A body part is entirely missing. -->
-  <MissingBodyPart.description>Частина тіла повністю відсутня.</MissingBodyPart.description>
+  <MissingBodyPart.description>Частина тіло повністю відсутня.</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>відсутня частина тіла</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
-  <MissingBodyPart.labelNounPretty>відсутнє {1}</MissingBodyPart.labelNounPretty>
+  <MissingBodyPart.labelNounPretty>відсутня частина тіла: {0}</MissingBodyPart.labelNounPretty>
   
   <!-- EN: scratch -->
-  <Scratch.label>подряпина</Scratch.label>
+  <Scratch.label>рвана рана</Scratch.label>
   <!-- EN: A scratch or tear. -->
-  <Scratch.description>Подряпина або розрив.</Scratch.description>
+  <Scratch.description>Подряпина або глибока рвана рана.</Scratch.description>
   <!-- EN: scratch scar -->
-  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>рубець від подряпини</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>рубець від рваної рани</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
-  <Scratch.injuryProps.destroyedLabel>Відірвано</Scratch.injuryProps.destroyedLabel>
+  <Scratch.injuryProps.destroyedLabel>відірвано</Scratch.injuryProps.destroyedLabel>
   <!-- EN: Torn out -->
-  <Scratch.injuryProps.destroyedOutLabel>Видерто</Scratch.injuryProps.destroyedOutLabel>
+  <Scratch.injuryProps.destroyedOutLabel>вирвано</Scratch.injuryProps.destroyedOutLabel>
   <!-- EN: a scratch -->
-  <Scratch.labelNoun>подряпина</Scratch.labelNoun>
+  <Scratch.labelNoun>рвана рана</Scratch.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Scratch.labelNounPretty>{0} на {1}</Scratch.labelNounPretty>
   
   <!-- EN: shredded -->
-  <Shredded.label>пошматовано</Shredded.label>
+  <Shredded.label>вибухова травма</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
-  <Shredded.description>Частина тіла була розтрощена та розірвана.</Shredded.description>
+  <Shredded.description>Тяжка травма від вибуху. Частина тіла вкрита численними глибокими пораненнями.</Shredded.description>
   <!-- EN: shredded scar -->
-  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>пошматований шрам</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>рубець</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
-  <Shredded.injuryProps.destroyedLabel>Відірвано</Shredded.injuryProps.destroyedLabel>
+  <Shredded.injuryProps.destroyedLabel>відірвано</Shredded.injuryProps.destroyedLabel>
   <!-- EN: Torn out -->
-  <Shredded.injuryProps.destroyedOutLabel>Вирвано</Shredded.injuryProps.destroyedOutLabel>
+  <Shredded.injuryProps.destroyedOutLabel>розірвано</Shredded.injuryProps.destroyedOutLabel>
   <!-- EN: a shredded wound -->
-  <Shredded.labelNoun>рвана рана</Shredded.labelNoun>
+  <Shredded.labelNoun>вибухова травма</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Shredded.labelNounPretty>{0} на {1}</Shredded.labelNounPretty>
+  <Shredded.labelNounPretty>{0} {1}</Shredded.labelNounPretty>
   
   <!-- EN: stab -->
   <Stab.label>колота рана</Stab.label>
@@ -190,20 +227,20 @@
   <!-- EN: stab scar -->
   <Stab.comps.HediffComp_GetsPermanent.permanentLabel>рубець від колотої рани</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
-  <Stab.injuryProps.destroyedLabel>Відрізаний</Stab.injuryProps.destroyedLabel>
+  <Stab.injuryProps.destroyedLabel>відрізано</Stab.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <Stab.injuryProps.destroyedOutLabel>Вирізаний</Stab.injuryProps.destroyedOutLabel>
+  <Stab.injuryProps.destroyedOutLabel>вирізано</Stab.injuryProps.destroyedOutLabel>
   <!-- EN: a stab wound -->
   <Stab.labelNoun>колота рана</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <Stab.labelNounPretty>{0} на {1}</Stab.labelNounPretty>
+  <Stab.labelNounPretty>{0} {1}</Stab.labelNounPretty>
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>хірургічний поріз</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
-  <SurgicalCut.description>Поріз, зроблений під час виконання хірургічної операції.</SurgicalCut.description>
+  <SurgicalCut.description>Розріз, зроблений під час операції.</SurgicalCut.description>
   <!-- EN: surgical scar -->
-  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>хірургічний рубець</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>рубець від порізу</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: a surgical cut -->
   <SurgicalCut.labelNoun>хірургічний поріз</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->

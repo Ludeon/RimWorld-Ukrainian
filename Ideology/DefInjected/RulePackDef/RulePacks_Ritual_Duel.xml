@@ -16,12 +16,12 @@
     <li>r_ritualName->[ritNoun] [keyDeity]</li>
     <li>r_ritualName->[ritNoun] [chosenTheme]</li>
     <li>r_ritualName->[ritNoun] [memeConcept]</li>
-    <li>r_ritualName->[memeAdjective] [ritNoun]</li>
-    <li>ritNoun->бій</li>
-    <li>ritNoun->поєдинок</li>
-    <li>ritNoun->битва</li>
-    <li>ritNoun->бійка</li>
-    <li>ritNoun->суперечка</li>
+    <li>r_ritualName(p=0.5)->[memeAdjective_masc] [ritNoun_masc]</li>
+    <li>r_ritualName(p=0.5)->[memeAdjective_fem] [ritNoun_fem]</li>
+    <li>ritNoun->[ritNoun_masc]</li>
+    <li>ritNoun->[ritNoun_fem]</li>
+    <li>ritNoun_masc->бій</li>
+    <li>ritNoun_masc->поєдинок</li>
   </NamerRitualGladiatorDuel.rulePack.rulesStrings>
   
 </LanguageData>

@@ -2,43 +2,43 @@
 <LanguageData>
   
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>вербування не вдалося</Convert_Failure.label>
+  <Convert_Failure.label>конвертація не вдалася</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
   <Convert_Failure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається завербувати [RECIPIENT_nameDef], але не вдалося.</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається конвертувати [RECIPIENT_nameDef], але [INITIATOR_objective] це не вдається.</li>
   </Convert_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful conversion -->
-  <Convert_Success.label>успішне вербування</Convert_Success.label>
+  <Convert_Success.label>успішна конвертація</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
   <Convert_Success.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] спробував завербувати [RECIPIENT_nameDef]. Успіх.</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається конвертувати [RECIPIENT_nameDef] і [INITIATOR_objective] це вдається.</li>
   </Convert_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: convert ideoligion attempt -->
-  <ConvertIdeoAttempt.label>спроба переконати змінити релігію</ConvertIdeoAttempt.label>
+  <ConvertIdeoAttempt.label>спроба конвертації</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
   <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] наманається переконати [RECIPIENT_nameDef] прийняти [INITIATOR_possessive] у свою ідеологію.</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається переконати [RECIPIENT_nameDef] прийняти нову ідеологію.</li>
   </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>невдала порада</Counsel_Failure.label>
+  <Counsel_Failure.label>невдала консультація</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
   <Counsel_Failure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається дати пораду [RECIPIENT_nameDef], але ця спроба зробила тільки гірше.</li>
+    <li>r_logentry->[INITIATOR_nameDef] намагається дати пораду [RECIPIENT_nameDef], але робить тільки гірше.</li>
   </Counsel_Failure.logRulesInitiator.rulesStrings>
   
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>успішна порада</Counsel_Success.label>
+  <Counsel_Success.label>успішна консультація</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -49,13 +49,13 @@
     <li>problems->recent difficulties</li>
   -->
   <Counsel_Success.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] консультував [RECIPIENT_nameDef] в [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] допомагає [RECIPIENT_nameDef] з [problemsAbl].</li>
     <li>r_logentry->[INITIATOR_nameDef] допомагає [RECIPIENT_nameDef] обдумати [problems].</li>
-    <li>r_logentry->[INITIATOR_nameDef] дав [RECIPIENT_nameDef] пораду щодо подолання негативу.</li>
-    <li>problems->[RECIPIENT_possessive] проблеми</li>
-    <li>problems->[RECIPIENT_possessive] складності</li>
-    <li>problems->[RECIPIENT_possessive] болючі відчуття</li>
-    <li>problems->нещодавні труднощі</li>
+    <li>r_logentry->[INITIATOR_nameDef] дає [RECIPIENT_nameDef] пораду щодо подолання негативу.</li>
+    <li>problemsAbl->[RECIPIENT_possessive] проблемами</li>
+    <li>problemsAbl->[RECIPIENT_possessive] складностями</li>
+    <li>problemsAbl->[RECIPIENT_possessive] болючими відчуттями</li>
+    <li>problemsAbl->нещодавніми труднощами</li>
   </Counsel_Success.logRulesInitiator.rulesStrings>
   
   <!-- EN: preached health -->
@@ -67,19 +67,19 @@
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
   <PreachHealth.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] зміцнив здоров'я [RECIPIENT_nameDef], проповідуючи про [preaching_topic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] зміцнює здоров'я [RECIPIENT_nameDef], проповідуючи про [preaching_topic].</li>
     <li>preaching_topic->важливість життя</li>
     <li>preaching_topic->вищі ідеологічні цілі</li>
     <li>preaching_topic->[RECIPIENT_possessive] мету існування</li>
   </PreachHealth.logRulesInitiator.rulesStrings>
   
   <!-- EN: reassurance -->
-  <Reassure.label>спроба заспокоїти</Reassure.label>
+  <Reassure.label>укріплення віри</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
   <Reassure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] посилює переконання [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] укріплює переконання [RECIPIENT_nameDef].</li>
   </Reassure.logRulesInitiator.rulesStrings>
   
   <!-- EN: accuse -->
@@ -103,22 +103,22 @@
     <li>wrongdoing->disloyalty</li>
   -->
   <Trial_Accuse.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] надав деякі дані.</li>
+    <li>r_logentry->[INITIATOR_nameDef] надає деякі дані.</li>
     <li>r_logentry->[INITIATOR_nameDef] звертається до емоцій глядачів.</li>
-    <li>r_logentry->[INITIATOR_nameDef] консультував [RECIPIENT_nameDef] в [wrongdoing].</li>
-    <li>wrongdoing->саботуванні колонії</li>
-    <li>wrongdoing->ліні</li>
-    <li>wrongdoing->надмірного вживання їжі</li>
-    <li>wrongdoing->крадіжках</li>
-    <li>wrongdoing->жахливій поведінці</li>
-    <li>wrongdoing->неповазі до священних ідей</li>
-    <li>wrongdoing->неповазі до шановних людей</li>
-    <li>wrongdoing->єресі</li>
-    <li>wrongdoing->вбивстві</li>
-    <li>wrongdoing->богохульстві</li>
-    <li>wrongdoing->зраді</li>
-    <li>wrongdoing->поширенні ненависті</li>
-    <li>wrongdoing->нелояльності</li>
+    <li>r_logentry->[INITIATOR_nameDef] звинувачує [RECIPIENT_nameDef] [wrongdoing].</li>
+    <li>wrongdoing->в саботуванні колонії</li>
+    <li>wrongdoing->в ліні</li>
+    <li>wrongdoing->в надмірному вживанні їжі</li>
+    <li>wrongdoing->в крадіжках</li>
+    <li>wrongdoing->у жахливій поведінці</li>
+    <li>wrongdoing->в неповазі до священних ідей</li>
+    <li>wrongdoing->в неповазі до шановних людей</li>
+    <li>wrongdoing->в єресі</li>
+    <li>wrongdoing->у вбивстві</li>
+    <li>wrongdoing->в богохульстві</li>
+    <li>wrongdoing->у зраді</li>
+    <li>wrongdoing->в поширенні ненависті</li>
+    <li>wrongdoing->в нелояльності</li>
   </Trial_Accuse.logRulesInitiator.rulesStrings>
   
   <!-- EN: defend -->
@@ -133,22 +133,22 @@
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
   <Trial_Defend.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] відхилив звинувачення.</li>
-    <li>r_logentry->[INITIATOR_nameDef] показав ще одне трактування.</li>
-    <li>r_logentry->[INITIATOR_nameDef] взявся за присяжних.</li>
+    <li>r_logentry->[INITIATOR_nameDef] відхиляє звинувачення.</li>
+    <li>r_logentry->[INITIATOR_nameDef] показує ще одне трактування.</li>
+    <li>r_logentry->[INITIATOR_nameDef] звертається до присяжних.</li>
     <li>r_logentry->[INITIATOR_nameDef] просить милосердя.</li>
-    <li>r_logentry->[INITIATOR_nameDef] затримав провадження.</li>
-    <li>r_logentry->[INITIATOR_nameDef] відхилює звинувачення.</li>
-    <li>r_logentry->[INITIATOR_nameDef] назвав суд фіктивним.</li>
+    <li>r_logentry->[INITIATOR_nameDef] затримує провадження.</li>
+    <li>r_logentry->[INITIATOR_nameDef] відкидає звинувачення.</li>
+    <li>r_logentry->[INITIATOR_nameDef] називає суд фіктивним.</li>
   </Trial_Defend.logRulesInitiator.rulesStrings>
   
   <!-- EN: work drive -->
-  <WorkDrive.label>робочий драйв</WorkDrive.label>
+  <WorkDrive.label>заклик до праці</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
   <WorkDrive.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] закликає [RECIPIENT_nameDef] працювати додатково та старанно для добра колонії.</li>
+    <li>r_logentry->[INITIATOR_nameDef] закликає [RECIPIENT_nameDef] завзято працювати для блага колонії.</li>
   </WorkDrive.logRulesInitiator.rulesStrings>
   
 </LanguageData>

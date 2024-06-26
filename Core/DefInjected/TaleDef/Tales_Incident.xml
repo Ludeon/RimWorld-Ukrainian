@@ -24,28 +24,28 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Aurora.rulePack.rulesStrings>
-    <li>tale_noun->час, коли над [Community] з'явилося полярне сяйво</li>
-    <li>tale_noun->коли полярне сяйво сяяло над [Community]</li>
-    <li>tale_noun->[Community] освітлено світлом полярного сяйва</li>
-    <li>image->небо змінює кольори на [Color] та [Color][circumstance_phrase]</li>
-    <li>image->[Color] промінь створює казковий візерунок [circumstance_phrase]</li>
-    <li>image->[Color] вогник впадає у мережу кольорів [circumstance_phrase]</li>
-    <li>image->ширяючі дуги мають [Color] та [Color] кольори, виблискуючи [circumstance_phrase]</li>
-    <li>image->[Color] сполох танцює [circumstance_group]</li>
-    <li>circumstance_phrase->над [TerrainFeature]</li>
-    <li>circumstance_phrase->і освітлює [TerrainFeature]</li>
-    <li>circumstance_phrase->і пливе над [Community]</li>
-    <li>circumstance_phrase->між [TerrainFeature] та [TerrainFeature]</li>
-    <li>desc_sentence->Нижче [PAWN_nameDef] грає в [Game] маючи [AdjectiveFriendly] вигляд.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться з трепетним виразом обличчя.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивіться знизу.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться на небо з відкритим ротом.</li>
-    <li>desc_sentence->[PAWN_nameDef] з незвичайним здивуванням дивиться на небо.</li>
-    <li>desc_sentence->[PAWN_nameDef] з умиротворінням дивиться на небо.</li>
+    <li>tale_noun->в небі над [CommunityAbl] [PAWN_nameDef] сіяє полярне сяйво</li>
+    <li>tale_noun->полярне сяйво освічує [Community] [PAWN_nameDef]</li>
+    <li>image-> небо, що сіяє [ColorAbl] та [ColorAbl] кольорами[circumstance_phrase]</li>
+    <li>image-> казкові відтінки [ColorGen] кольору на небі[circumstance_phrase]</li>
+    <li>image-> [ColorPlu] кружляючі дуги з [ColorPluAbl] відблисками[circumstance_phrase]</li>
+    <li>image-> танцюючі [ColorPlu] вогники[circumstance_phrase]</li>
+    <li>circumstance_phrase-> над [TerrainFeaturePluAbl]</li>
+    <li>circumstance_phrase->, що освітлюють [TerrainFeatureAcc]</li>
+    <li>circumstance_phrase->, що пролітають над [CommunityAbl]</li>
+    <li>circumstance_phrase-> між [TerrainFeaturePluAbl] та [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->Нижче, [PAWN_nameDef] грає в [Game] з [AdjectiveFriendlyAbl] поглядом</li>
+    <li>desc_sentence->[PAWN_nameDef] із захопленням спостерігає</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] спостерігають здалеку</li>
+    <li>desc_sentence->[PAWN_nameDef] сидить біля [TerrainFeatureGen] та дивиться у небо</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спокійно блукають неподалік</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
+    <li>desc_sentence->There is no [Enemy] in sight.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
-  <CaravanAmbushedByHumanlike.label>засідка</CaravanAmbushedByHumanlike.label>
+  <CaravanAmbushedByHumanlike.label>караван потрапив у засідку людей</CaravanAmbushedByHumanlike.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -68,29 +68,29 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->караван [PAWN_nameDef] потрапляє в засідку</li>
-    <li>image->[PAWN_nameFull] здригаючись [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] рухаеться на захист союзника [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] рухається в атаку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] атакує [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] гучно стріляє [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] біжить [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] {PAWN_gender ? зчепився : зчепилась} із суперником [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] захищає [PAWN_objective] себе [circumstance_group]</li>
-    <li>circumstance_phrase->з [AdjectiveBadass] виразом</li>
-    <li>circumstance_phrase->з [AdjectiveBadass] виразом</li>
-    <li>circumstance_phrase->володіючи [PAWN_possessive] зброєю</li>
-    <li>circumstance_phrase->від напруги обливаеться потом</li>
-    <li>desc_sentence->[Quantity_adjphrase] хтось наближається з-за [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] можна побачити вдалині.</li>
-    <li>desc_sentence->[PAWN_nameDef] практично оточений [Enemy].</li>
-    <li>desc_sentence->[PAWN_nameDef] стикається з [Enemy].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] з страху тікає з місця конфлікту.</li>
-    <li>desc_sentence->Здалеку спостерігає [PersonJob].</li>
+    <li>tale_noun->караван [PAWN_nameDef] потрапляє у засідку</li>
+    <li>image->, як [PAWN_nameFull] ховається в укритті[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить на допомогу союзнику[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить в атаку[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] атакує[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] голосно кричить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] б'ється з супротивником[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] захищається[circumstance_phrase]</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] поглядом</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] виразом обличчя</li>
+    <li>circumstance_phrase->, тримаючи [HisWeapon]</li>
+    <li>circumstance_phrase-> та пітніє від напруги</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] ховаються за [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] наступають здалеку</li>
+    <li>desc_sentence->[PAWN_nameDef] в оточені [EnemyPluGen]</li>
+    <li>desc_sentence->[PAWN_nameDef] в протистоянні з [EnemyPluAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] боязливо тікають від місця подій</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає здалеку</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>караван потрапив у засідку работорговців</CaravanAmbushedByManhunter.label>
+  <CaravanAmbushedByManhunter.label>караван потрапив у засідку тварин</CaravanAmbushedByManhunter.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -111,27 +111,27 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->караван [PAWN_nameDef] потрапляє в засідку</li>
-    <li>image->[PAWN_nameFull] здригаючись [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] рухаеться на захист союзника [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] рухається в атаку [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] атакує [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] гучно стріляє [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] біжить [circumstance_group]</li>
-    <li>circumstance_phrase->з [AdjectiveBadass] виразом</li>
-    <li>circumstance_phrase->з [AdjectiveBadass] виразом</li>
-    <li>circumstance_phrase->володіючи [PAWN_possessive] зброєю</li>
-    <li>circumstance_phrase->від напруги обливаеться потом</li>
-    <li>circumstance_phrase->весь у [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] хтось наближається з-за [TerrainFeature].</li>
-    <li>desc_sentence->[Gore] покриває землю.</li>
-    <li>desc_sentence->Земля була вкрити [Gore] та затоптана.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] з страху тікає з місця конфлікту.</li>
-    <li>desc_sentence->Здалеку спостерігає [PersonJob].</li>
+    <li>tale_noun->караван [PAWN_nameDef] потрапляє у засідку</li>
+    <li>image->, як [PAWN_nameFull] ховається в укритті[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить на допомогу союзнику[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить в атаку[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] атакує[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] голосно кричить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] біжить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] захищається[circumstance_phrase]</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] поглядом</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] виразом обличчя</li>
+    <li>circumstance_phrase->, тримаючи [HisWeapon]</li>
+    <li>circumstance_phrase-> та пітніє від напруги</li>
+    <li>circumstance_phrase-> з ніг до голови у [GoreLoc]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] ховаються за [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->Ґрунт поритий [GoreAbl]</li>
+    <li>desc_sentence->Ґрунт поритий купами [GoreGen]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] боязливо тікають від місця подій</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>запит каравана</CaravanDemand.label>
+  <CaravanDemand.label>караван під загрозою</CaravanDemand.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
@@ -157,32 +157,32 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] отримує запит каравану</li>
-    <li>tale_noun->[PAWN_nameDef] каравану під загрозою</li>
-    <li>image->[PAWN_nameFull] здригаючись [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] гучно стріляє [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] роздумує [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] грубий [circumstance_group]</li>
-    <li>image->[PAWN_nameFull], під загрозою [PersonJob], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] розмахує [Weapon] [circumstance_group]</li>
-    <li>circumstance_phrase->з [AdjectiveBadass] виразом</li>
-    <li>circumstance_phrase->з [AdjectiveAngsty] виразом</li>
-    <li>circumstance_phrase->як інші дивляться на</li>
-    <li>circumstance_phrase->під час загрози від [Enemy]</li>
-    <li>desc_sentence->[PAWN_nameDef] практично оточений [Enemy].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] десь поряд, [action].</li>
-    <li>desc_sentence->Сонце сідає над [TerrainFeature].</li>
-    <li>desc_sentence->Сонце сходить над [TerrainFeature].</li>
-    <li>desc_sentence->Здалеку спостерігає [PersonJob].</li>
-    <li>action->гострили свою зброю</li>
-    <li>операція ->спостерігає за небезпекою</li>
-    <li>action->охороняє заручників</li>
-    <li>action->чекаю рішення</li>
-    <li>action->кепкує [PAWN_nameDef]</li>
+    <li>tale_noun->караван [PAWN_nameDef] опинився під загрозою</li>
+    <li>image->, як [PAWN_nameFull] здригається circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] голосно кричить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] розмірковує[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] кричить[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] розмахує [HisWeaponAbl][circumstance_phrase]</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] поглядом</li>
+    <li>circumstance_phrase-> з [AdjectiveBadassAbl] виразом обличчя</li>
+    <li>circumstance_phrase->, доки інші дивляться</li>
+    <li>circumstance_phrase->, під загрозою з боку [EnemyPluGen]</li>
+    <li>circumstance_phrase->, під загрозою з боку [PersonJobPluGen]</li>
+    <li>desc_sentence->[PAWN_nameDef] в оточені [EnemyPluGen]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [EnemyPluGen] наближаються, [action]</li>
+    <li>desc_sentence->Сонце здіймається над [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->Сонце палає над [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає здалеку</li>
+    <li>action->розмахуючи своїми [WeaponPluAbl]</li>
+    <li>action->захищаючи заручників</li>
+    <li>action->глузуючи з [PAWN_nameDef]</li>
+    <li>action->guarding hostages</li>
+    <li>action->waiting for a decision</li>
+    <li>action->taunting [PAWN_nameDef]</li>
   </CaravanDemand.rulePack.rulesStrings>
   
   <!-- EN: caravan meeting -->
-  <CaravanMeeting.label>зустріч каравану</CaravanMeeting.label>
+  <CaravanMeeting.label>зустріч караванів</CaravanMeeting.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
     <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
@@ -209,29 +209,29 @@
     <li>event->talking hesitantly</li>
   -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] караван зустрічають інших</li>
-    <li>image->[PAWN_nameFull] вітає [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] інспектує [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] звертається до [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] йде до [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] тихо розмовляє [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] гучно стріляє [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] грає у [Game] з [PersonJob] [circumstance_group]</li>
-    <li>circumstance_phrase->з [AdjectiveFriendly] виразом</li>
-    <li>circumstance_phrase->з [AdjectiveFriendly] виразом</li>
-    <li>circumstance_phrase->поки [VerbFriendly]</li>
-    <li>circumstance_phrase->як інші дивляться на</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] навколо групи.</li>
-    <li>desc_sentence->Сонце сідає над [TerrainFeature].</li>
-    <li>desc_sentence->Сонце підіймається над [TerrainFeature].</li>
-    <li>desc_sentence->Здалеку спостерігає [PersonJob].</li>
-    <li>event->влаштувує вечірки</li>
-    <li>event->вживає спільну їжу</li>
+    <li>tale_noun->караван [PAWN_nameDef] зустрічає інший</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] вітає [PersonJobGen] [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] роздивляється [PersonJobGen] [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] кличе [PersonJobGen] [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] йде до [PersonJobGen] [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] тихо говорить до [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] голосно кричить до [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull][MaybeTransFriendly] грає в [Game] з [PersonJobAbl] [circumstance_phrase]</li>
+    <li>circumstance_phrase-> з [AdjectiveFriendlyAbl] поглядом</li>
+    <li>circumstance_phrase-> з [AdjectiveFriendlyAbl] виразом обличчя</li>
+    <li>circumstance_phrase->, доки інші дивляться</li>
+    <li>MaybeTransFriendly->, [TransFriendly],</li>
+    <li>MaybeTransFriendly(p=5)-></li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] [event]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спокійно блукають неподалік</li>
+    <li>desc_sentence->Сонце здіймається над [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->Сонце палає над [TerrainFeaturePluAbl]</li>
+    <li>desc_sentence->[PersonJob] мовчки спостерігає здалеку</li>
+    <li>event->розпочинають вечірку</li>
+    <li>event->розділюють обід</li>
     <li>event->обговорюють останні події</li>
-    <li>event->поновлюють стару дружбу</li>
-    <li>event->розмовляє нерішуче</li>
+    <li>event->відновлюють стару дружбу</li>
+    <li>event->нерішуче спілкуються</li>
   </CaravanMeeting.rulePack.rulesStrings>
   
   <!-- EN: eclipse -->
@@ -254,25 +254,25 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->затемнення над [Community] та [PAWN_nameDef]</li>
-    <li>image->неприродно темне небо, [circumstance_phrase]</li>
-    <li>image->сутінкове небо [circumstance_phrase]</li>
-    <li>image->місяць, оточений слабким колом сонячного світла [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal] метушиться навколо в темряві, [circumstance_phrase]</li>
-    <li>circumstance_phrase->повітря спокійне та тихе</li>
-    <li>circumstance_phrase->сутінки, що вкривають сусідню [TerrainFeature]</li>
-    <li>circumstance_phrase->сутінкова ковдра [Quantity_adjphrase] поблизу [TerrainFeature]</li>
-    <li>circumstance_phrase->з видимими зірками</li>
-    <li>desc_sentence-> Нижче [PAWN_nameDef] грає в [Game] з [AdjectiveFriendly] виглядом.</li>
-    <li>desc_sentence->[PAWN_nameDef] з виразом [PAWN_possessive] на обличчі.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] дивіться знизу.</li>
-    <li>desc_sentence->[PAWN_nameDef] сидить біля [TerrainFeature], дивлячись на небо.</li>
-    <li>desc_sentence->[Community] глядачів мирно дивиться на небо.</li>
-    <li>desc_sentence->[Enemy] не видно.</li>
+    <li>tale_noun->розпочинається затемнення над [CommunityAbl] [PAWN_nameDef]</li>
+    <li>image-> неприродно темне небо, [circumstance_phrase]</li>
+    <li>image-> сутінкове небо, [circumstance_phrase]</li>
+    <li>image-> місяць, оточений слабким колом сонячного світла, [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] [AnimalPluGen] невпевнено блукають у темряві, [circumstance_phrase]</li>
+    <li>circumstance_phrase->повітря спокійне і тихе</li>
+    <li>circumstance_phrase->сутінки покривають [TerrainFeatureAcc]</li>
+    <li>circumstance_phrase->на небі можна побачити [Quantity_adjphrase] зірок</li>
+    <li>desc_sentence->Знизу можна побачити, як [PAWN_nameDef] грає в [Game] з [AdjectiveFriendlyAbl] виглядом</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] спостерігають здалеку</li>
+    <li>desc_sentence->[PAWN_nameDef] сидить біля [TerrainFeatureGen] та дивиться у небо</li>
+    <li>desc_sentence->Мешканці [CommunityGen] спокійно дивляться у небо</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
+    <li>desc_sentence->A [Community] of spectators watches the sky peacefully.</li>
+    <li>desc_sentence->There is no [Enemy] in sight.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
-  <EndGame_ShipEscape.label>пропозиція подорожі</EndGame_ShipEscape.label>
+  <EndGame_ShipEscape.label>до зірок</EndGame_ShipEscape.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
     <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
@@ -303,37 +303,37 @@
     <li>desc_sentence->A spaceship is visible in the far distance.</li>
   -->
   <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] отримав повідомлення від старого друга</li>
-    <li>tale_noun->з’являється можливість для [Community][PAWN_nameDef]</li>
-    <li>image->[PAWN_nameDef] відкриває лист, доставлений [delivery_method] від [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] використовує кристал даних, доставлений [delivery_method] від [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] розгортає сувій, доставлений [delivery_method] від [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] отримує передачу через [transmission_source] від [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] отримує повідомлення через [transmission_source] від [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] налаштовується на повідомлення через [transmission_source] від [circumstance_group]</li>
-    <li>delivery_method->[Animal]</li>
-    <li>delivery_method->[PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase] [Animal]</li>
-    <li>transmission_source->рідко використовувану частоту</li>
-    <li>transmission_source->старовинний передавач</li>
-    <li>transmission_source->короткохвільовий сигнал</li>
-    <li>transmission_source->довго хвильовий сигнал</li>
-    <li>transmission_source->таємничий сигнал</li>
-    <li>circumstance_phrase->окремого об'екту біля [TerrainFeature]</li>
-    <li>circumstance_phrase->розвіданої [TerrainFeature]</li>
-    <li>circumstance_phrase->спостереження за уламками</li>
-    <li>circumstance_phrase->[Animal] блукючого повз</li>
-    <li>circumstance_phrase->граючись у [Game]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] блукають неподалік, не помічаючи.</li>
-    <li>desc_sentence->Коли [PAWN_pronoun] читається, [PAWN_pronoun] починає [VerbFriendly].</li>
-    <li>desc_sentence->Привид [PersonJob] дивиться з хмар.</li>
-    <li>desc_sentence->[PAWN_nameDef] знаходиться біля [TerrainFeature].</li>
-    <li>desc_sentence->Вдалині видніється [Community].</li>
-    <li>desc_sentence->Космічний корабель видніється здалеку.</li>
+    <li>tale_noun->[PAWN_nameDef] отримує повідомлення від старого знайомого</li>
+    <li>tale_noun->[PAWN_nameDef] отримує змогу покинути цю планету</li>
+    <li>image->, як [PAWN_nameDef] відкриває конверт, доставлений [delivery_method][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameDef] використовую кристал з даними, доставлений [delivery_method][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameDef] розгортає сувій, доставлений [delivery_method][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameDef] отримує передачу сигналу [transmission_source][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameDef] отримує повідомлення [transmission_source][circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameDef] налаштовується на повідомлення [transmission_source][circumstance_phrase]</li>
+    <li>delivery_method->[AnimalAbl]</li>
+    <li>delivery_method->[PersonJobAbl]</li>
+    <li>transmission_source->на рідко використовуємій частоті</li>
+    <li>transmission_source->за допомогою старовинного передавача</li>
+    <li>transmission_source->на низьких частотах</li>
+    <li>circumstance_phrase->, доки стоїть біля [TerrainFeatureGen]</li>
+    <li>circumstance_phrase->, досліджуючи [TerrainFeatureAcc]</li>
+    <li>circumstance_phrase->, копаючись в трупах</li>
+    <li>circumstance_phrase->, доки [Animal] блукає неподалік</li>
+    <li>circumstance_phrase->, граючи в [Game]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] спокійно блукають неподалік</li>
+    <li>desc_sentence->Усмішка [PAWN_nameDef] розширюється з кожним прочитаним словом</li>
+    <li>desc_sentence->Привид [PersonJobGen] дивиться з хмар</li>
+    <li>desc_sentence->Здалеку видніється [Community]</li>
+    <li>desc_sentence->Здалеку видніється космічний корабель</li>
+    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
+    <li>desc_sentence->A [Community] is visible in the far distance.</li>
+    <li>desc_sentence->A spaceship is visible in the far distance.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>гроза з блискавками</Flashstorm.label>
+  <Flashstorm.label>грозовий шторм</Flashstorm.label>
   <!-- EN:
     <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
@@ -357,30 +357,30 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->шторм, який загрожував [Community][PAWN_nameDef]</li>
-    <li>tale_noun->[Community] [PAWN_nameDef] загрожує смертоносна буря</li>
-    <li>image->[Quantity_adjphrase] блискавка [circumstance_phrase]</li>
-    <li>image->[behavior] стіна вогню [circumstance_phrase]</li>
-    <li>image->[behavior] стіна [Color] вогню [circumstance_phrase]</li>
-    <li>image->[behavior] хмара попелу та диму [circumstance_phrase]</li>
-    <li>image->[behavior] хвиля вогню [circumstance_phrase]</li>
-    <li>behavior-></li>
-    <li>behavior->наступаюча</li>
-    <li>behavior->наближається</li>
-    <li>circumstance_phrase->просування до [Community]</li>
-    <li>circumstance_phrase->під страшною хмарою</li>
-    <li>circumstance_phrase->майже охоплює [TerrainFeature]</li>
-    <li>circumstance_phrase->майже обволікаючий [Quantity_adjphrase] [TerrainFeature]</li>
-    <li>desc_sentence->[PAWN_nameDef] спостерігає з видимим переляком.</li>
-    <li>desc_sentence->[PAWN_nameDef] із благоговінням дивиться на обличчя [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] координує оборонні заходи.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] поспішає підготуватися.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>desc_sentence->Всі тварини покинули цю територію.</li>
+    <li>tale_noun->грозовий шторм бушує над [CommunityAbl] [PAWN_nameDef]</li>
+    <li>tale_noun->[Community] [PAWN_nameDef] під загрозою від шторму</li>
+    <li>image->[Quantity_adjphrase] блискавок б'ють [circumstance_phrase]</li>
+    <li>image->, як стіна полум'я наближується [circumstance_phrase]</li>
+    <li>image->, як стіна [ColorGen] полум'я наближується [circumstance_phrase]</li>
+    <li>image->, як хмара попелу та пилу наближується [circumstance_phrase]</li>
+    <li>circumstance_phrase->в бік [CommunityGen]</li>
+    <li>circumstance_phrase->під похмурою хмарою</li>
+    <li>circumstance_phrase->майже огортаючи a [TerrainFeatureAcc]</li>
+    <li>desc_sentence->[PAWN_nameDef] перелякано спостерігає</li>
+    <li>desc_sentence->[PAWN_nameDef] із захопленням спостерігає</li>
+    <li>desc_sentence->[PAWN_nameDef] координує оборонні заходи</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] поспішають боротися з наслідками</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with visible fright.</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
   </Flashstorm.rulePack.rulesStrings>
   
   <!-- EN: infestation -->
-  <Infestation.label>зараження</Infestation.label>
+  <Infestation.label>атака комах</Infestation.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</li>
     <li>image->a swarm of beetles [circumstance_phrase]</li>
@@ -404,30 +404,30 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->[Community] [PAWN_nameDef] заражена гігантськими комахами</li>
-    <li>image->рій комах [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] великі павуки [circumstance_phrase]</li>
-    <li>image->величезна хвиля [Color] комах [circumstance_phrase]</li>
-    <li>image->густий туман із чорних цяток [circumstance_phrase]</li>
-    <li>circumstance_phrase->просуваеться над [TerrainFeature]</li>
+    <li>tale_noun->[Community] [PAWN_nameDef] атаковано комахами</li>
+    <li>image->, як рій комах [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] мегапавуків [circumstance_phrase]</li>
+    <li>image->, як велика хвиля комах [ColorGen] кольору [circumstance_phrase]</li>
+    <li>circumstance_phrase->наближаються з [TerrainFeatureGen]</li>
     <li>circumstance_phrase->повністю оточують [Community]</li>
-    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJob]</li>
-    <li>circumstance_phrase->виривається з-під землі</li>
-    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [Animal]</li>
-    <li>desc_sentence->[PAWN_nameDef] організовує опір.</li>
-    <li>desc_sentence->[PAWN_nameDef] готує [Weapon] до захисту.</li>
-    <li>desc_sentence->[PAWN_nameDef] лежить на землі, поранений.</li>
-    <li>desc_sentence->[PAWN_nameDef] мститься [PAWN_possessive] [Weapon].</li>
-    <li>desc_sentence->[PAWN_nameDef] з [AdjectiveBadass] виразом.</li>
-    <li>desc_sentence->[PAWN_nameDef] має вираз [AdjectiveAngsty].</li>
-    <li>desc_sentence->Ґрунт вкрито [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікають із території.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>desc_sentence->Всі тварини покинули цю територію.</li>
+    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJobPluGen]</li>
+    <li>circumstance_phrase->вириваються з-під землі</li>
+    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [AnimalPluGen]</li>
+    <li>desc_sentence->[PAWN_nameDef] організує опір</li>
+    <li>desc_sentence->[PAWN_nameDef] тримає [HisWeapon] та готується до оборони</li>
+    <li>desc_sentence->[PAWN_nameDef] з пораненням лежить на землі</li>
+    <li>desc_sentence->[PAWN_nameDef] мститься [HisWeaponAbl]</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Ґрунт покритий [GoreAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] перелякано тікають</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
   </Infestation.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
-  <ManhunterPack.label>зграя скажених звірів</ManhunterPack.label>
+  <ManhunterPack.label>зграя агресивних тварин</ManhunterPack.label>
   <!-- EN:
     <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
@@ -456,35 +456,35 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->мисливські звірі, що загрожують [Community] [PAWN_nameDef]</li>
-    <li>tale_noun->Скажені тварини атакують [Community] [PAWN_nameDef]</li>
-    <li>image->зграя [Animal] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal] [circumstance_phrase]</li>
-    <li>image->[AdjectiveLarge] [Animal] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] примарні фігури [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] примарні чотирилапі [circumstance_phrase]</li>
-    <li>circumstance_phrase->просуваеться по [TerrainFeature]</li>
+    <li>tale_noun->зграя агресивних тварин наближається до [CommunityGen] [PAWN_nameDef] </li>
+    <li>tale_noun->[Community] [PAWN_nameDef] під атакою агресивної тварин</li>
+    <li>image->, як зграя [AnimalPluGen] [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] [AnimalPluGen] [circumstance_phrase]</li>
+    <li>image->, як [AdjectiveLargeFem] [AnimalFem] [circumstance_phrase]</li>
+    <li>image->, як [AdjectiveLarge] [AnimalMasc] [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] затінених фігур [circumstance_phrase]</li>
     <li>circumstance_phrase->повністю оточують [Community]</li>
-    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJob]</li>
-    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [Animal]</li>
-    <li>circumstance_phrase->одержимий [hate_emotion]</li>
-    <li>circumstance_phrase->вкритий [Gore]</li>
-    <li>hate_emotion->ненавістю</li>
-    <li>hate_emotion->гнівом</li>
-    <li>hate_emotion->люттю</li>
-    <li>desc_sentence->[PAWN_nameDef] організовує опір.</li>
-    <li>desc_sentence->[PAWN_nameDef] готує [Weapon] до захисту.</li>
-    <li>desc_sentence->[PAWN_nameDef] лежить на землі, поранений.</li>
-    <li>desc_sentence->[PAWN_nameDef] мститься [PAWN_possessive] [Weapon].</li>
-    <li>desc_sentence->[PAWN_nameDef] з [AdjectiveBadass] виразом.</li>
-    <li>desc_sentence->[PAWN_nameDef] має вираз [AdjectiveAngsty].</li>
-    <li>desc_sentence->Ґрунт вкрито [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікають із території.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
+    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJobPluGen]</li>
+    <li>circumstance_phrase->вириваються з-під землі</li>
+    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [AnimalPluGen]</li>
+    <li>desc_sentence->[PAWN_nameDef] організує опір</li>
+    <li>desc_sentence->[PAWN_nameDef] тримає [HisWeapon] та готується до оборони</li>
+    <li>desc_sentence->[PAWN_nameDef] з пораненням лежить на землі</li>
+    <li>desc_sentence->[PAWN_nameDef] мститься [HisWeaponAbl]</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Ґрунт покритий [GoreAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] перелякано тікають</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveBadass] expression.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   </ManhunterPack.rulePack.rulesStrings>
   
   <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>падіння метеорита</MeteoriteImpact.label>
+  <MeteoriteImpact.label>падіння метеориту</MeteoriteImpact.label>
   <!-- EN:
     <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
@@ -511,33 +511,33 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->падіння метеорита поблизу [PAWN_nameDef] [Community]</li>
-    <li>tale_noun->ударна хвиля від падіння метеорита [PAWN_nameDef] [Community]</li>
-    <li>image->[AdjectiveLarge] камінь, за яким тягнеться [Color] полум'я [airborne_circumstance]</li>
-    <li>image->яскраво світле сяйво [airborne_circumstance]</li>
-    <li>image->[AdjectiveLarge] [Color] вогняна куля [airborne_circumstance]</li>
-    <li>airborne_circumstance->палаючи по небу</li>
-    <li>airborne_circumstance->падає на землю в хмарі попелу</li>
-    <li>airborne_circumstance->розпадається на частини під час польоту</li>
-    <li>image->[AdjectiveLarge] моноліт, [ground_circumstance]</li>
-    <li>image->[AdjectiveLarge] [Color] обпалений камінь, [ground_circumstance]</li>
-    <li>image->[Color] скельний уламок, [ground_circumstance]</li>
-    <li>ground_circumstance->оточений димом і попелом</li>
-    <li>ground_circumstance->димиться від спеки</li>
+    <li>tale_noun->метеорит падає неподалік від [CommunityGen] [PAWN_nameDef]</li>
+    <li>image->, як [AdjectiveLargeNeu] каміння, залишаючи [Color] слід [airborne_circumstance]</li>
+    <li>image->, як щось дуже яскраве [airborne_circumstance]</li>
+    <li>image->, як [AdjectiveLargeFem] [ColorFem] вогняна куля [airborne_circumstance]</li>
+    <li>airborne_circumstance->летить по небу</li>
+    <li>airborne_circumstance->падає на землю</li>
+    <li>image-> [AdjectiveLarge] метеорит, що [ground_circumstance]</li>
+    <li>image-> [AdjectiveLarge] метеорит [ColorGen] кольору, що [ground_circumstance]</li>
+    <li>ground_circumstance->лежить у кратері</li>
+    <li>ground_circumstance->димить від жару</li>
     <li>ground_circumstance->оточений розплавленим сміттям</li>
-    <li>ground_circumstance->частково заглиблений у землю</li>
-    <li>ground_circumstance->лежить у вибитому кратері</li>
-    <li>desc_sentence->[PAWN_nameDef] здивовано дивиться.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться з хвилюванням.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться у шоці.</li>
-    <li>desc_sentence->[Quantity_adjphrase] фігури наближаються з сусіднього [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] фігури готують інструменти та обладнання.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] на велику відстань навколо.</li>
-    <li>desc_sentence->Оточення тихе й сумне.</li>
+    <li>ground_circumstance->частково заглибився у землю</li>
+    <li>ground_circumstance->лежить у тріснутому кратері</li>
+    <li>desc_sentence->[PAWN_nameDef] має здивований вигляд</li>
+    <li>desc_sentence->[PAWN_nameDef] в захваті</li>
+    <li>desc_sentence->[PAWN_nameDef] в стані шоку</li>
+    <li>desc_sentence->[Quantity_adjphrase] фігур наближаються з-за [TerrainFeatureGen]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] готують інструмент та обладнання</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] невпевнено блукають неподалік</li>
+    <li>desc_sentence->Оточення тихе і сумне</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+    <li>desc_sentence->The surroundings are muted and dull.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
   
   <!-- EN: raid -->
-  <Raid.label>наліт</Raid.label>
+  <Raid.label>рейд</Raid.label>
   <!-- EN:
     <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an assault on [PAWN_nameDef]'s [Community]</li>
@@ -570,39 +570,39 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <Raid.rulePack.rulesStrings>
-    <li>tale_noun->набіг на [PAWN_nameDef]'s [Community]</li>
-    <li>tale_noun->напад на [Community] [PAWN_nameDef]</li>
-    <li>tale_noun->[Enemy] починають атаку на [PAWN_nameDef] [Community]</li>
-    <li>image->[Quantity_adjphrase] [Enemy] [circumstance_phrase]</li>
-    <li>image->армія [circumstance_phrase]</li>
-    <li>image->переважаюча сила [circumstance_phrase]</li>
-    <li>image->сила вторгнення [circumstance_phrase]</li>
-    <li>image->стилізовані [Color] банери [circumstance_phrase]</li>
-    <li>image->величезний [Enemy] [circumstance_phrase]</li>
-    <li>circumstance_phrase->просуваеться по [TerrainFeature]</li>
+    <li>tale_noun->райд на [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->атака на [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->[Community] [PAWN_nameDef] під атакою [EnemyPluGen]</li>
+    <li>image->, як [Quantity_adjphrase] [EnemyPluGen] [circumstance_phrase]</li>
+    <li>image->, як  армія [EnemyPluGen] [circumstance_phrase]</li>
+    <li>image->, як переважаючі сили [EnemyPluGen] [circumstance_phrase]</li>
     <li>circumstance_phrase->повністю оточують [Community]</li>
-    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJob]</li>
-    <li>circumstance_phrase->ревуть від перемоги</li>
-    <li>circumstance_phrase->розмахують [Weapon]</li>
-    <li>circumstance_phrase->вкритий [Gore]</li>
-    <li>desc_sentence->[PAWN_nameDef] організовує опір під час [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] володіє [Weapon] для захисту, поки [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] лежить на землі, поранений.</li>
-    <li>desc_sentence->[PAWN_nameDef] мститься [PAWN_possessive][Weapon], поки [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] зілишається стійким, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] з [AdjectiveBadass] виразом.</li>
-    <li>desc_sentence->[PAWN_nameDef] має вираз [AdjectiveAngsty].</li>
-    <li>desc_sentence->Ґрунт вкрито [Gore].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікають із території.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>defender_circumstance->переможно кричать</li>
-    <li>defender_circumstance->сяє [Color]</li>
-    <li>defender_circumstance->підняти кулак на знак виклику</li>
-    <li>defender_circumstance-> [PAWN_possessive] напружуючи мускули</li>
+    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJobPluGen]</li>
+    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [AnimalPluGen]</li>
+    <li>circumstance_phrase->розмахують своїми [WeaponPluAbl]</li>
+    <li>desc_sentence->[PAWN_nameDef] організує опір</li>
+    <li>desc_sentence->[PAWN_nameDef] тримає [HisWeapon] та готується до оборони</li>
+    <li>desc_sentence->[PAWN_nameDef] з пораненням лежить на землі</li>
+    <li>desc_sentence->[PAWN_nameDef] мститься [HisWeaponAbl]</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Ґрунт покритий [GoreAbl]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] перелякано тікають</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[PAWN_nameDef] стоїть у весь зріст, мов стіна та [defender_circumstance]</li>
+    <li>defender_circumstance->кидає переможний клич</li>
+    <li>defender_circumstance->світиться [ColorAbl] кольором</li>
+    <li>defender_circumstance->погрожує кулаком</li>
+    <li>defender_circumstance->грає мускулами</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>defender_circumstance->shouting triumphantly</li>
+    <li>defender_circumstance->glowing [Color]</li>
+    <li>defender_circumstance->raising a fist in defiance</li>
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   </Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
-  <ShipPartCrash.label>падіння частини корабля</ShipPartCrash.label>
+  <ShipPartCrash.label>падіння уламка корабля механоїдів</ShipPartCrash.label>
   <!-- EN:
     <li>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community]</li>
@@ -636,36 +636,36 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->стародавня частина корабля розбивається поблизу [PAWN_nameDef] [Community]</li>
-    <li>tale_noun->частина стародавнього корабля приземлилася біля [Community] [PAWN_nameDef]</li>
-    <li>tale_noun->пошкоджена частина корабля приземлилася біля [Community] [PAWN_nameDef]</li>
-    <li>image->рій [Mechanoid] [circumstance_phrase]</li>
-    <li>image->армія [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] силуети [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid] з [Color] кольором сенсорів [circumstance_phrase]</li>
-    <li>circumstance_phrase->просуваеться по [TerrainFeature]</li>
+    <li>tale_noun->уламок старовинного корабля механоїдів падає біля [CommunityGen] [PAWN_nameDef]</li>
+    <li>tale_noun->уламок пошкодженого корабля механоїдів падає біля [CommunityGen] [PAWN_nameDef]</li>
+    <li>image->, як рій [MechanoidPluGen] [circumstance_phrase]</li>
+    <li>image->, як армія [MechanoidPluGen] [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] [MechanoidPluGen]s [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] силуетів [MechanoidPluGen] [circumstance_phrase]</li>
+    <li>image->, як [Quantity_adjphrase] [MechanoidPluGen]з палаючими [ColorAbl] кольором сенсорами [circumstance_phrase]</li>
+    <li>circumstance_phrase->наближаються з [TerrainFeatureGen]</li>
     <li>circumstance_phrase->повністю оточують [Community]</li>
-    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJob]</li>
-    <li>circumstance_phrase->вбивають [Quantity_adjphrase] [Animal]</li>
-    <li>circumstance_phrase->вкритий [Gore]</li>
-    <li>circumstance_phrase->пом'ятий та сипалячий іскрами</li>
-    <li>desc_sentence->[PAWN_nameDef] організовує опір під час [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] володіє [Weapon] для захисту, під час [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] лежить на землі, поранений.</li>
-    <li>desc_sentence->[PAWN_nameDef] мститься [PAWN_possessive][Weapon], під час [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] зілишається стійким, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] з [AdjectiveBadass] виразом.</li>
-    <li>desc_sentence->[PAWN_nameDef] має вираз [AdjectiveAngsty].</li>
-    <li>desc_sentence->Ґрунт вкрито [Gore].</li>
-    <li>desc_sentence->Земля вкрита металобрухтом.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] тікають із території.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>defender_circumstance->переможно кричать</li>
-    <li>defender_circumstance->сяє [Color]</li>
-    <li>defender_circumstance->підняти кулак на знак виклику</li>
-    <li>defender_circumstance-> [PAWN_possessive] напружуючи мускули</li>
+    <li>circumstance_phrase->атакують [Quantity_adjphrase] [PersonJobPluGen]</li>
+    <li>circumstance_phrase->десантуються в транспортних капсулах</li>
+    <li>desc_sentence->[PAWN_nameDef] організує опір</li>
+    <li>desc_sentence->[PAWN_nameDef] тримає [HisWeapon] та готується до оборони</li>
+    <li>desc_sentence->[PAWN_nameDef] з пораненням лежить на землі</li>
+    <li>desc_sentence->[PAWN_nameDef] мститься [HisWeaponAbl]</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveBadassAbl] вираз обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] має [AdjectiveAngstyAbl] вираз обличчя</li>
+    <li>desc_sentence->Ґрунт покритий [GoreAbl]</li>
+    <li>desc_sentence->Ґрунт покритий металобрухтом</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] перелякано тікають</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[PAWN_nameDef] стоїть у весь зріст, мов стіна та [defender_circumstance]</li>
+    <li>defender_circumstance->кидає переможний клич</li>
+    <li>defender_circumstance->світиться [ColorAbl] кольором</li>
+    <li>defender_circumstance->погрожує кулаком</li>
+    <li>defender_circumstance->грає мускулами</li>
+    <li>defender_circumstance->shouting triumphantly</li>
+    <li>defender_circumstance->glowing [Color]</li>
+    <li>defender_circumstance->raising a fist in defiance</li>
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   </ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
@@ -693,30 +693,30 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->торнадо, що торкнувся біля [PAWN_nameDef] [Community]</li>
-    <li>tale_noun->Торнадо загрожує [Community] [PAWN_nameDef]</li>
-    <li>image->[behavior] конус обертаючогося повітря [circumstance_phrase]</li>
-    <li>image->[behavior] смерч [circumstance_phrase]</li>
-    <li>image->[behavior] ураган [circumstance_phrase]</li>
-    <li>image->[behavior] утворення [Color] хмар [circumstance_phrase]</li>
-    <li>behavior->просувається</li>
-    <li>behavior->наближається</li>
-    <li>behavior->швидко рухається</li>
-    <li>behavior->вихровий</li>
-    <li>circumstance_phrase->несучи з собою сміття</li>
-    <li>circumstance_phrase->проходження по [TerrainFeature]</li>
-    <li>circumstance_phrase->затьмарена [TerrainFeature]</li>
-    <li>circumstance_phrase->огортає [TerrainFeature]</li>
-    <li>desc_sentence->[PAWN_nameDef] спостерігає з видимим переляком.</li>
-    <li>desc_sentence->[PAWN_nameDef] із благоговінням виразом на обличчі [PAWN_possessive].</li>
-    <li>desc_sentence->[PAWN_nameDef] координує оборонні заходи.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] поспішає підготуватися.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>desc_sentence->Всі тварини покинули цю територію.</li>
+    <li>tale_noun->торнадо поглинає [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->[Community] [PAWN_nameDef] знаходиться під загрозою торнадо</li>
+    <li>image->, як конусно закручене повітря [circumstance_phrase]</li>
+    <li>image->, як торнадо [circumstance_phrase]</li>
+    <li>image->, як смерч [circumstance_phrase]</li>
+    <li>image->, як [Color] торнадо [circumstance_phrase]</li>
+    <li>circumstance_phrase->наближується, несучи з собою сміття</li>
+    <li>circumstance_phrase->наближується, проходячи через [TerrainFeature]</li>
+    <li>circumstance_phrase->затемнює [TerrainFeature]</li>
+    <li>circumstance_phrase->поглинає [TerrainFeature]</li>
+    <li>desc_sentence->[PAWN_nameDef] перелякано спостерігає</li>
+    <li>desc_sentence->[PAWN_nameDef] із захопленням спостерігає</li>
+    <li>desc_sentence->[PAWN_nameDef] координує оборонні заходи</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] поспішають боротися з наслідками</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
   </Tornado.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
-  <TornadoFromItem.label>смерч</TornadoFromItem.label>
+  <TornadoFromItem.label>згенероване торнадо</TornadoFromItem.label>
   <!-- EN:
     <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
     <li>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</li>
@@ -742,28 +742,28 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->торнадо, що торкнувся біля [COLONIST_nameDef] [Community]</li>
-    <li>tale_noun->Торнадо загрожує [Community] [COLONIST_nameDef]</li>
-    <li>image->[behavior] конус обертаючогося повітря [circumstance_phrase]</li>
-    <li>image->[behavior] смерч [circumstance_phrase]</li>
-    <li>image->[behavior] ураган [circumstance_phrase]</li>
-    <li>image->[behavior] утворення [Color] хмар [circumstance_phrase]</li>
-    <li>behavior->просувається</li>
-    <li>behavior->наближається</li>
-    <li>behavior->швидко рухається</li>
-    <li>behavior->вихровий</li>
-    <li>circumstance_phrase->несучи з собою сміття</li>
-    <li>circumstance_phrase->проходження по [TerrainFeature]</li>
-    <li>circumstance_phrase->затьмарена [TerrainFeature]</li>
-    <li>circumstance_phrase->огортає [TerrainFeature]</li>
-    <li>desc_sentence->[COLONIST_nameDef] спостерігає з видимим переляком.</li>
-    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] із благоговінням виразом на обличчі [COLONIST_possessive].</li>
-    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] із благоговінням виразом на обличчі [ATTACKER_possessive].</li>
-    <li>desc_sentence->[COLONIST_nameDef] координує оборонні заходи.</li>
-    <li>desc_sentence->[ATTACKER_nameDef] радісно регоче.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] поспішає підготуватися.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] тікають із території.</li>
-    <li>desc_sentence->Всі тварини покинули цю територію.</li>
+    <li>tale_noun->згенероване торнадо поглинає [Community]</li>
+    <li>tale_noun->[Community] [COLONIST_nameDef] знаходиться під загрозою згенерованого торнадо</li>
+    <li>image->, як конусно закручене повітря [circumstance_phrase]</li>
+    <li>image->, як торнадо [circumstance_phrase]</li>
+    <li>image->, як смерч [circumstance_phrase]</li>
+    <li>image->, як [Color] торнадо [circumstance_phrase]</li>
+    <li>circumstance_phrase->наближується, несучи з собою сміття</li>
+    <li>circumstance_phrase->наближується, проходячи через [TerrainFeature]</li>
+    <li>circumstance_phrase->затемнює [TerrainFeature]</li>
+    <li>circumstance_phrase->поглинає [TerrainFeature]</li>
+    <li>desc_sentence->[COLONIST_nameDef] перелякано спостерігає</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] із захопленням спостерігає</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] із захопленням спостерігає</li>
+    <li>desc_sentence->[COLONIST_nameDef] координує оборонні заходи</li>
+    <li>desc_sentence->[ATTACKER_nameDef] радісно регоче</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] поспішають боротися з наслідками</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] перелякано тікають</li>
+    <li>desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.</li>
+    <li>desc_sentence->[ATTACKER_nameDef] cackles with glee.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+    <li>desc_sentence->All animal life has left the area.</li>
   </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
@@ -789,24 +789,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->негаразди над [Community] [PAWN_nameDef]</li>
-    <li>tale_noun->атмосфера біля [PAWN_nameDef] [Community] стає токсичною</li>
-    <li>image->зловісне небо, [circumstance_group]</li>
-    <li>image->повітря стає густішим і [circumstance_group]</li>
-    <li>image->земля ніжно світиться та [circumstance_group]</li>
-    <li>image->поля мертвих рослин [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] могили [circumstance_group]</li>
-    <li>circumstance_phrase->без жодного життя в полі зору</li>
-    <li>circumstance_phrase->покриті слабким блиском сяючого пилу</li>
-    <li>circumstance_phrase->залишки кісток</li>
-    <li>circumstance_phrase->чекаючи, поки отруєння припиниться</li>
-    <li>desc_sentence->[PAWN_nameDef] лежить на землі, тіло [PAWN_possessive] зкручено у дивній позі.</li>
-    <li>desc_sentence->[PAWN_nameDef] ховається біля [TerrainFeature], дивлячись на нього [AdjectiveAngsty] поглядом.</li>
-    <li>desc_sentence->[PAWN_nameDef] дивиться у шоці.</li>
-    <li>desc_sentence->[PAWN_nameDef] спокійно відпочиває з шаром поту на обличчі [PAWN_possessive].</li>
-    <li>desc_sentence->[Quantity_adjphrase] мертві [Animal] лежать на землі.</li>
-    <li>desc_sentence->[Quantity_adjphrase] помираюча [Animal] лежала на землі.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] на велику відстань навколо.</li>
+    <li>tale_noun->токсичні опади опускаються на [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->середовище біля [CommunityGen] [PAWN_nameDef] стає токсичним</li>
+    <li>image-> зловісне небо[circumstance_phrase]</li>
+    <li>image-> густе повітря[circumstance_phrase]</li>
+    <li>image-> ґрунт, що світиться [ColorAbl] кольором[circumstance_phrase]</li>
+    <li>image-> поля мертвих [VegetablePluGen][circumstance_phrase]</li>
+    <li>image-> безліч могил[circumstance_phrase]</li>
+    <li>circumstance_phrase->, без жодних ознак життя</li>
+    <li>circumstance_phrase-> та пролітаючий повз, сіяючий [ColorAbl] кольором, пил</li>
+    <li>circumstance_phrase-> та купи кісток</li>
+    <li>desc_sentence->[PAWN_nameDef] лежить на землі в неприродній позі</li>
+    <li>desc_sentence->[PAWN_nameDef] ховається біля [TerrainFeatureGen], з [AdjectiveAngstyAbl] виразом обличчя</li>
+    <li>desc_sentence->[PAWN_nameDef] має шокований вигляд</li>
+    <li>desc_sentence->[Quantity_adjphrase] мертвих [AnimalPluGen] лежать на землі</li>
+    <li>desc_sentence->[Quantity_adjphrase] вмираючих [AnimalPluGen] лежать на землі</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] невпевнено блукають неподалік</li>
+    <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   </ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
@@ -830,22 +830,22 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->вулканічна зима починається в [PAWN_nameDef] [Community]</li>
-    <li>image->темне та холодне небо, [circumstance_group]</li>
-    <li>image->наповненє золою повітря [circumstance_group]</li>
-    <li>image->покритиа інеєм безплідна [TerrainFeature] [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] поля рослин, вкритих золою [circumstance_group]</li>
-    <li>circumstance_phrase->без жодного життя в полі зору</li>
-    <li>circumstance_phrase->ледве освітлені тонкими променями світла</li>
-    <li>circumstance_phrase->різко освітлений холодним блакитним світлом</li>
-    <li>desc_sentence->[PAWN_nameDef] тулиться біля багаття.</li>
-    <li>desc_sentence->Щоб зігрітися, [PAWN_nameDef] одягає [Quantity_adjphrase] [Apparel].</li>
-    <li>desc_sentence->[PAWN_nameDef] сидить поруч, помітно виснажений випробуванням.</li>
-    <li>desc_sentence->[PAWN_nameDef] ховається біля [TerrainFeature], дивлячись на нього [AdjectiveAngsty] поглядом.</li>
-    <li>desc_sentence->[Quantity_adjphrase] голодуючи [Animal] оточують вас.</li>
-    <li>desc_sentence->[Quantity_adjphrase] тремтячі [Animal]оточують навколо.</li>
-    <li>desc_sentence->[Quantity_adjphrase] помираюча [Animal] лежала на землі.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] на велику відстань навколо.</li>
+    <li>tale_noun->вулканічна зима накриває [Community] [PAWN_nameDef]</li>
+    <li>image-> темне та холодне небо[circumstance_phrase]</li>
+    <li>image-> наповнене попелом повітря[circumstance_phrase]</li>
+    <li>image-> ґрунт, покритий інеєм, [TerrainFeature][circumstance_phrase]</li>
+    <li>image-> поля вкритих попелом [VegetablePluGen][circumstance_phrase]</li>
+    <li>circumstance_phrase->, без жодних ознак життя</li>
+    <li>circumstance_phrase-> та ледь пробиваючимися променями світла</li>
+    <li>circumstance_phrase-> з різко холодним, блакитним освітленням</li>
+    <li>desc_sentence->[PAWN_nameDef] тремтить біля вогнища</li>
+    <li>desc_sentence->Аби зігрітися, [PAWN_nameDef] одягає [Quantity_adjphrase] [ApparelPluGen]</li>
+    <li>desc_sentence->[PAWN_nameDef] сидить неподалік, з помітним виснаженням від тяжких випробувань</li>
+    <li>desc_sentence->[PAWN_nameDef] ховається біля [TerrainFeatureGen], з [AdjectiveAngstyAbl] виразом обличчя</li>
+    <li>desc_sentence->[Quantity_adjphrase] голодаючих [AnimalPluGen] невпевнено блукають неподалік</li>
+    <li>desc_sentence->[Quantity_adjphrase] мертвих [AnimalPluGen] лежать на землі</li>
+    <li>desc_sentence->[Quantity_adjphrase] вмираючих [AnimalPluGen] лежать на землі</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] невпевнено блукають неподалік</li>
   </VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

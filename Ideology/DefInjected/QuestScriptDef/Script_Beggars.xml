@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN:
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
-    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] harmed</li>
+    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been harmed. Colonists with charitable beliefs will be unhappy.</li>
     <li>hasHave(beggarCount==1)->has</li>
     <li>hasHave(beggarCount>=2)->have</li>
     <li>wasWere(beggarCount==1)->was</li>
@@ -12,14 +12,14 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] зраджені</li>
-    <li>letterTextBeggarsBetrayed-> [groupLabelSingleOrPlural], [wasWere] вашого милосердя, [hasHave]. Колоністи з благодійними переконаннями будуть незадоволені.</li>
-    <li>hasHave(beggarCount==1)->який шукав</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [wasWere]</li>
+    <li>letterTextBeggarsBetrayed-> [groupLabelSingleOrPlural], [hasHave] вашого милосердя, [wasWere]. Колоністи з милосердними переконаннями будуть засмучені.</li>
+    <li>hasHave(beggarCount==1)->{beggars0_gender ? який шукав : яка шукала}</li>
     <li>hasHave(beggarCount>=2)->які шукали</li>
-    <li>wasWere(beggarCount==1)->був зраджений</li>
-    <li>wasWere(beggarCount==2)->були зраджені</li>
-    <li>groupLabelSingleOrPlural(beggarCount==1)->мандрівник</li>
-    <li>groupLabelSingleOrPlural(beggarCount==2)->мандрівники</li>
+    <li>wasWere(beggarCount==1)->{beggars0_gender ? був зраджений : була зраджена}</li>
+    <li>wasWere(beggarCount>=2)->були зраджені</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->{beggars0_gender ? мандрівник : мандрівниця}</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->мандрівники</li>
   </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
@@ -60,40 +60,40 @@
   -->
   <Beggars.questDescriptionRules.rulesStrings>
     <li>groupLabelPlural->мандрівники</li>
+    <li>groupLabelPluralAcc->мандрівників</li>
     <li>groupLabelPlural(allChildren==true,priority=1)->діти</li>
-    <li>groupLabelSingle->мандрівник</li>
-    <li>groupLabelSingle(childCount>=1,priority=1)->дитина</li>
-    <li>travelerInfo(beggarCount==1)->[groupLabelSingle] не належить</li>
+    <li>groupLabelPluralAcc(allChildren==true,priority=1)->дітей</li>
+    <li>groupLabelSingle->{beggars0_gender ? мандрівник : мандрівниця}</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->бідна дитина</li>
+    <li>travelerInfo(beggarCount==1)->{beggars0_gender ? Цей : Ця} [groupLabelSingle] не належить</li>
     <li>travelerInfo(beggarCount>=2)->Ці [groupLabelPlural] не належать</li>
-    <li>beggingForInfo->[requestedThing_label] у кількості [requestedThingCount] одиниць</li>
-    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>beggingForInfo->[requestedThing_label] в кількості [requestedThingCount] од</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_possessive]</li>
     <li>traverObjective(beggarCount>=2)->їх</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] будь-якій фракції. За бажанням ви можете вбити, арештувати, продати чи вирізати органи [traverObjective] без дипломатичних наслідків.</li>
-    <li>approachInfo(beggarCount==1)->Бідолаха [groupLabelSingle] на ім’я [beggars0_nameDef] наближається, шукаючи допомоги</li>
-    <li>approachInfo(beggarCount>=2)->Група бідняків [groupLabelPlural] наближається, шукаючи допомоги</li>
-    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Група бідняків [groupLabelPlural], у тому числі дитина, наближається, шукаючи допомоги</li>
-    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Група бідняків [groupLabelPlural], у тому числі кілька дітей, наближається, шукаючи допомоги</li>
-    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] просить [beggingForInfo]</li>
-    <li>equestInfo(beggarCount>=2)->[groupLabelPlural] просять [beggingForInfo]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] бажає срібла, щоб погасити борг банді піратів, які полюють на [beggars0_objective]</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] просить срібло, щоб купити свободу [beggars0_possessive] старшої сестри, яку поневолили пірати</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] потрібні ліки, щоб допомогти мандрівнику, який поранений поблизу</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] потрібні ліки, щоб допомогти [beggars0_possessive] маленькому братові, який поранений неподалік</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] хоче отримати ліки, щоб врятувати [beggars0_possessive] відданого вихованця, який постраждав на дорозі</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] потрібно [requestedThing_label], щоб прищепити хворого друга від смертельних хвороб</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] хоче приглушити [beggars0_possessive] печаль після втрати попутника в жахливій аварії</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] просить [requestedThing_label], щоб полегшити страждання хворого дядька</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Вони хочуть срібло, щоб викупити друга, якого нещодавно викрали</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Їм потрібні ліки, щоб спробувати врятувати життя попутнику, на якого напали механоїди</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] до будь-якої фракції. Ви можете [traverObjective] вбити, заарештувати або розібрати на органи без будь-яких дипломатичних наслідків.</li>
+    <li>approachInfo(beggarCount==1)->Наближається {beggars0_gender ? бідний : бідна} [groupLabelSingle] на ім'я [beggars0_nameDef], [beggars0_pronoun] потребує допомоги</li>
+    <li>approachInfo(beggarCount>=2)->Наближається група бідних [groupLabelPluralAcc], вони потребують допомоги</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Наближається група бідних [groupLabelPluralAcc], серед них є дитина. Вони потребують допомоги</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Наближається група бідних [groupLabelPluralAcc], серед них є діти. Вони потребують допомоги</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] благає про [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] благають про [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_objective] потрібно це срібло, щоб оплатити борг банді піратів, що на {beggars0_gender ? нього : неї} полюють</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_objective] потрібно це срібло, щоб викупити свободу своєї старшої сестри, яку поневолили пірати</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_objective] потрібні ліки, щоб допомогти пораненому мандрівнику неподалік</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_objective] потрібні ліки, щоб допомогти пораненому молодшому брату неподалік</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_objective] потрібні ліки, щоб врятувати свою тварину, яка постраждала в дорозі</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_objective] потрібен [requestedThing_label], щоб захистити свого друга від смертельних хвороб</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_pronoun] хоче напитися через жахливу смерть свого друга, з яким [beggars0_pronoun] {beggars0_gender ? мандрував : мандрувала}</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_objective] потрібне це [requestedThing_label], щоб полегшити страждання хворого дядька</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Їм потрібне це срібло, щоб викупити свого друга, якого нещодавно викрали</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Їм потрібні ліки, що провести важливу операцію над своїм другом, який постраждав від нападу механоїдів</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Їм потрібні ліки, щоб приготувати трав’яний засіб для друга, який прикутий до ліжка високою температурою</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Їм потрібні ліки, щоб допомогти друзям у сусідньому поселенні, спустошеному рейдерами</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Вони хочуть [requestedThing_label], щоб продовжити безпечно подорожувати, шукаючи нове місце, яке назвуть домом</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Вони хочуть [requestedThing_label], щоб втопити свій смуток після втрати дому під час жахливої атаки</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Вони сподіваються використати [requestedThing_label], щоб звільнити свого друга від работорговців, сп’янивши вартових перед втечею</li>
-    <li>interactionInfo(beggarCount==1)->Ви можете дати предмети [beggars0_nameDef], вибравши колоніста та клацнувши правою кнопкою миші на [beggars0_objective]</li>
-    <li>interactionInfo(beggarCount>=2)->Ви можете дати предмети [groupLabelPlural], вибравши колоніста та клацнувши правою кнопкою миші на [beggars0_nameDef]</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] піде далі через [visitDurationTicks_duration]</li>
-    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] підуть далі через [visitDurationTicks_duration]</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Їм потрібні ліки, щоб допомогти своїм друзям в найближчому поселенні, що постраждало від атаки рейдерів</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Їм потрібен [requestedThing_label], щоб вони могли спокійно продовжити подорож та шукати новий дім</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Їм потрібно [requestedThing_label], щоб залити своє горе від втрати домівки через рейдерів</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Вони хочуть використати це [requestedThing_label], щоб напоїти работорговців та викрасти в них свого друга</li>
+    <li>interactionInfo(beggarCount==1)->Ви можете віддати ці предмети до [beggars0_nameDef], вибравши колоніста та натиснувши на {beggars0_gender ? мандрівника : мандрівницю} ПКМ</li>
+    <li>interactionInfo(beggarCount>=2)->Ви можете віддати ці предмети до [groupLabelPlural], вибравши колоніста та натиснувши на [beggars0_nameDef] ПКМ</li>
   </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
@@ -124,30 +124,30 @@
   -->
   <Beggars.questNameRules.rulesStrings>
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
-    <li>questName(beggarCount==1,childCount==1,priority=1)->малолітній [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingleGen] [almsGen]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->[young] [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->[young] [beggarSingle] [seekingSingleGen] [almsGen]</li>
     <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
-    <li>questName(beggarCount>=2,allChildren==true,priority=1)->малолітній [beggarPlural] [seekingPlural] [alms]</li>
-    <li>beggarSingle->жебрак</li>
-    <li>beggarSingle->волоцюга</li>
-    <li>beggarSingle->безхатько</li>
-    <li>beggarSingle->мандрівник</li>
-    <li>beggarPlural->волоцюги</li>
-    <li>seekingSingle->шукає</li>
-    <li>seekingSingle->бажає</li>
-    <li>seekingSingle->просить</li>
-    <li>seekingSingle->потребує</li>
-    <li>seekingSingle->хоче</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPluralGen] [almsGen]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->молоді [beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->молоді [beggarPlural] [seekingPluralGen] [almsGen]</li>
+    <li>beggarSingle(beggars0_gender==Male)->мандрівник</li>
+    <li>beggarSingle(beggars0_gender==Female)->мандрівниця</li>
+    <li>beggarSingle(beggars0_gender==Male)->жебрак</li>
+    <li>beggarSingle(beggars0_gender==Female)->жебрачка</li>
+    <li>young(beggars0_gender==Male)->молодий</li>
+    <li>young(beggars0_gender==Female)->молода</li>
+    <li>beggarSingle->бродяга</li>
+    <li>beggarPlural->мандрівники</li>
+    <li>beggarPlural->жебраки</li>
+    <li>beggarPlural->бродяги</li>
+    <li>seekingSingleGen->шукає</li>
+    <li>seekingSingleGen->потребує</li>
+    <li>seekingSingleGen->хоче</li>
+    <li>seekingSingle->благає про</li>
+    <li>seekingSingle->просить про</li>
     <li>seekingSingle->сподівається на</li>
-    <li>seekingPlural->шукають</li>
-    <li>seekingPlural->бажають</li>
-    <li>seekingPlural->просять</li>
-    <li>seekingPlural->потребують</li>
-    <li>seekingPlural->запитують про</li>
-    <li>seekingPlural->сподіваються на</li>
-    <li>alms->подаяння</li>
-    <li>alms->допомогу</li>
-    <li>alms->милосердя</li>
-    <li>alms->ресурси</li>
+    <li>seekingPluralGen->шукають</li>
   </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -20,18 +20,18 @@
   -->
   <CollapseDodged.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] ухиляється від уламків стелі</li>
-    <li>tale_noun-> [PAWN_nameDef] ледь не потрапив під обвал стелі</li>
-    <li>image->[PAWN_nameFull] відскочив в сторону від падаючих уламків</li>
-    <li>image->[PAWN_nameFull] ледве ухиляється від уламків стелі</li>
-    <li>image->[PAWN_nameFull] Майже попав під що падає стелю[circumstance_group]</li>
-    <li>image->[PAWN_nameFull] дивом уникає смерті від падаючих уламків</li>
-    <li>circumstance_phrase-> зникає за завісою сміття та пилу</li>
-    <li>circumstance_phrase-> перетворює в пил все, що знаходиться під ним</li>
-    <li>circumstance_phrase->яка впливає з неймовірною силою</li>
-    <li>desc_sentence->[PAWN_pronoun] пітніє від напруження.</li>
-    <li>desc_sentence->[PAWN_pronoun] сильно наляканий.</li>
-    <li>desc_sentence->[PAWN_pronoun] поранений.. та стікає кров'ю.</li>
-    <li>desc_sentence->[PAWN_pronoun] втратив [PAWN_possessive] баланс.</li>
+    <li>tale_noun->[PAWN_nameDef] ледь не {PAWN_gender ? потрапив : потрапила} під обвал стелі</li>
+    <li>image->, як [PAWN_nameFull] відскакує в сторону від падаючих уламків[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] ледве ухиляється від уламків стелі[circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] дивом уникає смерті від падаючих уламків[circumstance_phrase]</li>
+    <li>circumstance_phrase-> та зникає за завісою сміття та пилу</li>
+    <li>circumstance_phrase->, що перетворюють на пил усе під ним</li>
+    <li>circumstance_phrase->, що падають з неймовірною силою</li>
+    <li>desc_sentence->[PAWN_pronoun] пітніє від напруження</li>
+    <li>desc_sentence->[PAWN_pronoun] сильно {PAWN_gender ? наляканий : налякана}</li>
+    <li>desc_sentence->[PAWN_pronoun] {PAWN_gender ? поранений : поранена} та стікає кров'ю</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and bleeding.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   </CollapseDodged.rulePack.rulesStrings>
   
   <!-- EN: launched ship -->
@@ -62,25 +62,25 @@
   <LaunchedShip.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] покидає планету</li>
     <li>tale_noun->[PAWN_nameDef] злітає на космічному кораблі</li>
-    <li>image->[PAWN_nameFull] мчиться до зірок [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] лине до небес [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] виходить на другу космічну швидкість [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] пілотує ракету[circumstance_group]</li>
-    <li>circumstance_phrase->з переду [TerrainFeature]</li>
-    <li>circumstance_phrase->з неймовірною силою</li>
+    <li>image->, як [PAWN_nameFull], [circumstance_phrase], мчиться до зірок </li>
+    <li>image->, як [PAWN_nameFull] лине до небес [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] виходить на другу космічну швидкість [circumstance_phrase]</li>
+    <li>image->, як [PAWN_nameFull] пілотує ракету[circumstance_phrase]</li>
+    <li>circumstance_phrase->покидаючи [TerrainFeatureAcc]</li>
+    <li>circumstance_phrase->з неймовірною швидкістю</li>
     <li>circumstance_phrase->в хмарах пилі та каміння</li>
     <li>circumstance_phrase->з нормально працюючими двигунами</li>
     <li>circumstance_phrase->не відхиляючись від траєкторії</li>
-    <li>desc_sentence->[PAWN_pronoun] увага зосереджена на пілотуванні корабля.</li>
-    <li>desc_sentence->[PAWN_pronoun] має [PAWN_possessive] сплющені очі.</li>
-    <li>desc_sentence->[PAWN_pronoun] спить, [PAWN_possessive] очі мирно сплющені.</li>
-    <li>desc_sentence->[PAWN_pronoun] зловісно посміхається.</li>
-    <li>desc_sentence->[PAWN_pronoun] схоже тримає ситуацію під контролем.</li>
-    <li>desc_sentence->Задня частина корабля повністю охоплена полум'ям.</li>
-    <li>desc_sentence-> [Animal] злякано споглядає догори.</li>
-    <li>desc_sentence->[Animal] тікає зі страху геть.</li>
-    <li>desc_sentence->На фоні видніється [TerrainFeature].</li>
-    <li>desc_sentence->[PersonJob] мовчки дивиться іздалека.</li>
+    <li>desc_sentence->[PAWN_possessive] увага зосереджена на пілотуванні корабля</li>
+    <li>desc_sentence->[PAWN_possessive] очі закриті</li>
+    <li>desc_sentence->[PAWN_pronoun] спить, [PAWN_possessive] очі мирно сплющені</li>
+    <li>desc_sentence->[PAWN_pronoun] зловісно посміхається</li>
+    <li>desc_sentence->[PAWN_pronoun], схоже, тримає ситуацію під контролем</li>
+    <li>desc_sentence->Задня частина корабля повністю охоплена полум'ям</li>
+    <li>desc_sentence->[Animal] налякано споглядає догори</li>
+    <li>desc_sentence->[Animal] тікає зі страху геть</li>
+    <li>desc_sentence->На фоні видніється [TerrainFeature]</li>
+    <li>desc_sentence->[PersonJob] мовчки дивиться здалеку</li>
   </LaunchedShip.rulePack.rulesStrings>
   
   <!-- EN: social fight -->
@@ -120,34 +120,34 @@
   -->
   <SocialFight.rulePack.rulesStrings>
     <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
-    <li>image->[INITIATOR_nameFull] ображає [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] підколює [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] погрожує [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] залякує [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] атакує [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] нападає на [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] лупить [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] б'є [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] ховається від [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>fight_name_present->нападає</li>
+    <li>image->, як [INITIATOR_nameFull] ображає [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] підколює [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] погрожує [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] залякує [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] атакує [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] нападає на [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] лупить [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] б'є [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>image->, як [INITIATOR_nameFull] ховається від [RESPONDER_nameFull], [circumstance_phrase]</li>
+    <li>fight_name_present->нападає на</li>
     <li>fight_name_present->атакує</li>
-    <li>fight_name_present->б'ється</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] ображає [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] глузує [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] погрожує [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] залякує [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] атакує [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] нападає [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] гамселить [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] лупцює [INITIATOR_objective]</li>
-    <li>circumstance_phrase->коли [RESPONDER_nameDef] ховається від [INITIATOR_objective]</li>
-    <li>desc_sentence->[target] не відчуває докорів сумління.</li>
-    <li>desc_sentence->[target] гнівно огризається.</li>
-    <li>desc_sentence->[target] не показує емоцій.</li>
-    <li>desc_sentence-> [target] тіло вкрите [Gore].</li>
-    <li>desc_sentence->[target] несамовито кричить.</li>
-    <li>desc_sentence->[target] помітно поранений.</li>
-    <li>desc_sentence->в очах [target] горить не добрий [Color] вогник.</li>
+    <li>fight_name_present->б'ється з</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] ображає [INITIATOR_possessive]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] глузує {INITIATOR_gender ? нього : неї}</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] погрожує [INITIATOR_objective]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] залякує [INITIATOR_possessive]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] атакує [INITIATOR_possessive]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] нападає на {INITIATOR_gender ? нього : неї}</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] гамселить [INITIATOR_possessive]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] лупцює [INITIATOR_possessive]</li>
+    <li>circumstance_phrase->доки [RESPONDER_nameDef] ховається від {INITIATOR_gender ? нього : неї}</li>
+    <li>desc_sentence->[target] не відчуває докорів сумління</li>
+    <li>desc_sentence->[target] гнівно огризається</li>
+    <li>desc_sentence->[target] не показує емоцій</li>
+    <li>desc_sentence->тіло [target] покрите [GoreAbl]</li>
+    <li>desc_sentence->[target] несамовито кричить</li>
+    <li>desc_sentence->[target] має поранення</li>
+    <li>desc_sentence->в очах [target] горить недобрий [Color] вогник</li>
     <li>target->[INITIATOR_nameDef]</li>
     <li>target->[RESPONDER_nameDef]</li>
   </SocialFight.rulePack.rulesStrings>

@@ -4,7 +4,7 @@
   <!-- EN: Create or select an ideoligion for your faction. -->
   <MessageMustChooseIdeo>Створіть або виберіть ідеологію для своєї фракції.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>Назва ідеології не може бути порожьою.</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>Назва ідеології не може бути порожньою.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} та {PRECEPT2} несумісні.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
@@ -12,19 +12,19 @@
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
   <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>Використання {DESIREDAPPAREL} взаємовиключає носіння одягу, необхідного для ролі "{ROLE}" ({ROLEAPPAREL}). Ніякий {ROLE} не зможе поєднувати одяг, необхідний для його ролі, з особливим одягом.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>Для {PRECEPT} необхідна одня з будівель</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>Для {lookup: {PRECEPT}; Case; 1} необхідна одна з будівель</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>Для {PRECEPT} необхідний відповідний ритуал.</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>Для {lookup: {PRECEPT}; Case; 1} необхідний відповідний ритуал.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} відмовляється це робити через ідеологічні переконання.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} {INITIATOR_gender ? спробував : спробувала} завербувати {RECIPIENT_nameDef} у свою ідеологію. Впевненість {RECIPIENT_nameDef} в {RECIPIENT_possessive} поглядах опустилась з {CERTAINTYBEFORE} до {CERTAINTYAFTER}. {RECIPIENT_pronoun} {INITIATOR_gender ? ображений : ображена} спробою вербування.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} {INITIATOR_gender ? спробував : спробувала} конвертувати {RECIPIENT_nameDef} в свою ідеологію. Впевненість {RECIPIENT_nameDef} в {RECIPIENT_possessive} поглядах знизилась з {CERTAINTYBEFORE} до {CERTAINTYAFTER}. {RECIPIENT_pronoun} {RECIPIENT_gender ? ображений : ображена} спробою вербування.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} {PAWN1_gender ? спробував : спробувала} завербувати {PAWN2_nameDef} у свою ідеологію. Це призвело до бійки!</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} {PAWN1_gender ? спробував : спробувала} конвертувати {PAWN2_nameDef} у свою ідеологію. Це призвело до бійки!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>Необхідно вибрати хоча б {0} рис.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>Мінімум рис: {0}.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>Вибрати більше {0} рис не можна.</MessageTooManyMemes>
+  <MessageTooManyMemes>Максимум рис: {0}.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
   <MessageNotEnoughStructureMemes>Необхідно вибрати основну рису.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
@@ -32,7 +32,7 @@
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>Щоб почати {1}, потрібно {0}.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>Для того, що б почати {1} необхідно як мінімум {0} глядачів.</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>Мінімальна кількість глядачів, щоб розпочати що б почати {1}: {0}.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
   <MessageRoleChangeChooseDifferentRole>Потрібно вибрати роль.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
@@ -43,13 +43,13 @@
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} приймає роль {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>Оскільки {0_labelShort} є в'язнем, {0_pronoun} відтепер не може мати роль {1}.</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>Оскільки {0_labelShort} є в'язнем, {0_pronoun} не може виконувати роль {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Увага: настрій {0} погіршиться, якщо буде зрубане дерево.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Увага: настрій {0} погіршиться, якщо зрубати дерево.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Увага: настрій {0} погіршиться, якщо буде добута порода.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Увага: настрій {0} погіршиться, якщо видобути породу.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>Зв'язок дерева {TREE_label} з {PAWN_nameDef} розірвана. Дереву необхідно відновитись протягом {DURATION} перед тим, як можна буде повторити ритуал зв'язку.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>Зв'язок {lookup: {TREE_label}; Case; 3} з {PAWN_nameDef} розірваний. Дереву необхідно відновитись протягом {DURATION} перед тим, як можна буде повторити ритуал зв'язку.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
@@ -63,9 +63,9 @@
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>Ні один з наглядачів не здатний до поневолення.</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>Жоден з наглядачів не може поневолювати.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>Ви не маєте наглядачів {MEMBERNAME} для поневолення {PRISONER_nameDef}. Тип взаємодії з цим в'язнем тепер у статусі "Без взаємодії".</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>Ви не маєте наглядачів {MEMBERNAME} для поневолення {PRISONER_nameDef}. Тип взаємодії з цим в'язнем тепер у статусі "Не взаємодіяти".</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -73,13 +73,15 @@
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>Милосердя не наша риса</MessageCharityEventRefused>
+  <MessageCharityEventRefused>Милосердя не проявлено</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>Проявлене милосердя</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>Проявлено милосердя</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
   <MessageBeggarsLeavingWithNoItems>{0} {replace: {0}; "жебрак"-"йде"; "жебраки"-"йдуть"} з порожніми руками.</MessageBeggarsLeavingWithNoItems>
+  <!-- EN: The {0} has accepted the requested items and is leaving. -->
+  <MessageBeggarsLeavingWithItemsSingular>{0} отримує необхідні предмети та йде.</MessageBeggarsLeavingWithItemsSingular>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItems>{0} {replace: {0}; "жебрак"-"отримав бажане та йде"; "жебраки"-"отримали бажане та йдуть"}.</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItemsPlural>{0} отримують необхідні предмети та йдуть.</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} {0_gender ? помер : померла}, бо не {0_gender ? отримав : отримала} допомогу.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
@@ -89,30 +91,30 @@
   <!-- EN: {0} has been failed. -->
   <MessageCharityQuestEndedFailed>Завдання "{0}" провалене.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
-  <MessageCharityQuestEndedSuccess>Завдання "{0}" успішно завершене.</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>Завдання "{0}" успішно виконане.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
   <CannotRemove>Неможливо прибрати</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>Неможливо прибрати {MEME}</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>Неможливо прибрати {lookup: {MEME}; Case; 3}</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>Неможливо прибрати {MEME}: Необхідно для фракції гравця.</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>Неможливо прибрати {lookup: {MEME}; Case; 3}: Необхідно для фракції гравця.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
   <RequiredByFaction>Необхідно для {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
   <OverlappingRoleApparel>Вимоги ролей до одягу не мають бути взаємовиключними.</OverlappingRoleApparel>
   
   <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>{0} самознищиться через {1}.</SelfDestructCountdown>
+  <SelfDestructCountdown>{0} проведе процедуру самознищення через {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
-  <PreceptNameTooLong>Назва правила занадто довга (максимум {0} літер)</PreceptNameTooLong>
+  <PreceptNameTooLong>Назва правила задовга (максимум {0} символів)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>Ви знайшли стародавній термінал, у якому зберігалась інформація про {0}!</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>Ви знайшли стародавній термінал, у якому є інформація про реліквію {0}!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>Ви отримали секретну інформацію про {0}! Поверніться у шатл, щоб полетіти звідси.</MessageAncientComplexBackToShuttle>
+  <MessageAncientComplexBackToShuttle>Ви отримали секретну інформацію про реліквію {0}! Поверніться у шатл, щоб полетіти звідси.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
   <MessageAncientSignalActivated>Ви активували стародавній супутник з запасами. Вони впадуть десь поблизу.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
@@ -126,13 +128,13 @@
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Увага: {PAWNKINDLABELPLURAL} вважається шанованою твариною в усіх {PAWNS}, та їм не буде нанесена шкода.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Увага: {PAWNKINDLABELPLURAL} вважається шанованою твариною у всіх {lookup: {PAWNS}; Case; 1}, та їм не буде нанесена шкода.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>Виберіть не більше за {0} {1} для переносу в нове поселення.</MessageNewColonyMax>
+  <MessageNewColonyMax>Виберіть не більше {0} {lookup: {1}; Case; 1} для переносу в нову колонію.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>Необхідно вибрати хоч одного поселенця.</MessageNewColoyRequiresOneColonist>
+  <MessageNewColoyRequiresOneColonist>Необхідно вибрати хоч одного колоніста.</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
@@ -140,15 +142,15 @@
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} прокинеться через {1}.</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} прокинуться через {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>Комахи прибувають.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} було потривожено, незабаром буде вибух!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0} зазнає критичних пошкоджень, незабаром буде вибух!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
-  <MessageDevelopmentPointsEarned>Кількість очок розвитку змінилась з {0} до {1} ({2}).</MessageDevelopmentPointsEarned>
+  <MessageDevelopmentPointsEarned>Кількість балів розвитку змінилась з {0} до {1} ({2}).</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
   <MessageFluidIdeoOneChangeAllowed>Дозволена лише одна зміна структури, рис та стилей.</MessageFluidIdeoOneChangeAllowed>
 

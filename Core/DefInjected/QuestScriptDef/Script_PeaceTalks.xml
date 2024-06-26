@@ -12,13 +12,13 @@
     <li>leaderPawnInfo-></li>
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] з [faction_name] надіслав нам повідомлення. [faction_leader_pronoun] хоче провести перемови з нами неподалік.\n\nЦе може бути хороша нагода покращити відносини з їхньою фракцією та отримати подарунки, але будьте обережні - поганий перемовник може принести більше шкоди ніж користі чи навіть розізлити їх.[extraLeaderPart][favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспішні мирні переговори дозволяють отримати вашому перемовнику трохи особистого [faction_royalFavorLabel] за допомогою [faction_name].</li>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] з фракції [faction_name] надіслав нам повідомлення. [faction_leader_pronoun] хоче провести з вами переговори на нейтральній території.\n\nЦе хороша нагода покращити відносини між фракціями та отримати дипломатичні подарунки, але будьте обережні - поганий перемовник може принести більше шкоди ніж користі чи навіть взагалі розлютити їх.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nУспішні мирні переговори дозволяють отримати вашому перемовнику трохи {lookup: faction_royalFavorLabel]; Case; 1}.</li>
     <li>favorRewardDetails-></li>
     <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
     <li>extraLeaderPart-></li>
-    <li>leaderRoleEffect->Інші фракції поважатимуть вас більше, якщо ви надішлете свого лідера на перемови</li>
-    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] отримає бонус до шансу на успішний результат.</li>
+    <li>leaderRoleEffect->Інші фракції поважатимуть вас більше, якщо перемовником з вашого боку виступить лідер вашої фракції</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)->[playerFaction_leaderTitle] ([playerFaction_leader_nameFull]) отримає бонус до успішності переговорів.</li>
     <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -31,17 +31,17 @@
     <li>peaceTalks->Meeting</li>
   -->
   <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-    <li>questName->[faction_leader_nameDef] [peaceTalks]</li>
+    <li>questName->[peaceTalks] з [faction_leader_nameDef]</li>
     <li>questName->[peaceTalks] з [faction_leader_nameDef]</li>
     <li>questName->[peaceTalks]</li>
     <li>questName->[peaceTalks]</li>
-    <li>peaceTalks->Мирні Переговори</li>
+    <li>peaceTalks->Мирні переговори</li>
     <li>peaceTalks->Дипломатія</li>
     <li>peaceTalks->Зустріч</li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Минув термін доручення: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>Пропозиція щодо мирних перемов з [faction_name] минула. Ви провалили [resolvedQuestName].</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>Пропозиція щодо мирних переговорів з фракцією [faction_name] минула. Завдання "[resolvedQuestName]" більше не актуальне.</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

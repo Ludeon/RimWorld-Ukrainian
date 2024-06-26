@@ -7,8 +7,8 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Найближче поселення, [settlement_label], мають особливий торговий запит. Вони би хотіли придбати:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](коштує [requestedThingMarketValue_money])\n\nIf аби вам заключити торг, необхідно відрядити караван з належним товаром. Приблизний час мандрівки складає [estimatedTravelTime_duration].</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->нормальний+ якість </li>
+    <li>questDescription->Сусіднє поселення, [settlement_label], мають особливий торговий запит. Вони би хотіли придбати:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](загальна вартість [requestedThingMarketValue_money])\n\nЩоб успішно виконати завдання - необхідно доставити товари караваном. Приблизний час дороги до поселення складає [estimatedTravelTime_duration]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->нормальної якості або краще</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -27,25 +27,25 @@
   -->
   <TradeRequest.questNameRules.rulesStrings>
     <li>questName->Караван до [settlement_label]</li>
-    <li>questName->Торгувати з [settlement_label]</li>
+    <li>questName->Торгівля з [settlement_label]</li>
     <li>questName->Продаж до [settlement_label]</li>
     <li>questName->Поставки для [settlement_label]</li>
     <li>questName->[special] [trade]</li>
-    <li>special->Особливий</li>
-    <li>special->Унікальний</li>
-    <li>special->Нетрадиційний</li>
-    <li>trade->Торгівля</li>
-    <li>trade->Обмін</li>
-    <li>trade->Угода</li>
+    <li>special->Особлива</li>
+    <li>special->Унікальна</li>
+    <li>special->Нетрадиційна</li>
+    <li>trade->торгівля</li>
+    <li>trade->угода</li>
+    <li>trade->угода</li>
     <li>trade->Пропозиція</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>Доручення провалено: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>Завдання провалено: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] став ворожо приймати вас.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>Фракція [faction_name] тепер ворожа до вас.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Кому повинен бути зарахований [asker_faction_royalFavorLabel] за виконання торгового запиту?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Кому належить призначити [asker_faction_royalFavorLabel] за виконання торгового запиту?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

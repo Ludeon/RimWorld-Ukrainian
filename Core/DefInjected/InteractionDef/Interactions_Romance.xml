@@ -12,8 +12,8 @@
   <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] розійтися.</li>
     <li>r_logentry->[INITIATOR_nameDef] просить у [RECIPIENT_nameDef] особистого простору.</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що у них не дуже добре виходить.</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що буде краще, якщо вони зустрічатимуться з іншими людьми.</li>
+    <li>r_logentry->[INITIATOR_nameDef] каже [RECIPIENT_nameDef], що у них все не дуже добре виходить.</li>
+    <li>r_logentry->[INITIATOR_nameDef] каже [RECIPIENT_nameDef], що буде краще, якщо вони зроблять перерву у їхніх відносинах.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -25,8 +25,8 @@
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] одружитися.</li>
-    <li>r_logentry->[INITIATOR_nameDef] робить пропозицію руки та серця для [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що [INITIATOR_pronoun] хоче прожити решту [INITIATOR_possessive] життя з [RECIPIENT_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] робить [RECIPIENT_nameDef] пропозицію руки та серця.</li>
+    <li>r_logentry->[INITIATOR_nameDef] каже [RECIPIENT_nameDef], що [INITIATOR_pronoun] хоче прожити решту [INITIATOR_possessive] життя з {RECIPIENT_gender ? ним : нею}.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -94,66 +94,66 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef], [wootactic].</li>
-    <li>wooed->Намагається фліртувати</li>
-    <li>wooed->фліртує</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef], [wootactic].</li>
+    <li>wooed->намагається фліртувати з</li>
+    <li>wooed->фліртує з</li>
     <li>wooed->привертає увагу</li>
     <li>wooed->заграє до</li>
     <li>wooed->намагається здобути прихильність</li>
     <li>wooed->пробує завести роман з</li>
-    <li>wooed->Намагається пікапити</li>
-    <li>wooed->обворожений</li>
-    <li>wooed->заграє</li>
+    <li>wooed->намагається пікапити</li>
+    <li>wooed->обворожує</li>
     <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic]</li>
-    <li>wootactic(p=2)->розповідає історію [TalkTopicLight]</li>
-    <li>wootactic(p=2)->розповідає історію [TalkTopicHeavy]</li>
-    <li>wootactic->шуткує про [TalkTopicAny]</li>
-    <li>wootactic->Дискутує з приводу [TalkTopicAny]</li>
-    <li>wootactic(p=2)->[boasting] [INITIATOR_possessive] свою [PersonalCharacteristic]</li>
-    <li>wootactic->порівнює [RECIPIENT_possessive] з [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->описує [RECIPIENT_possessive] як [romantic_adj] [romantic_noun]</li>
-    <li>boasting->[boasting_adverb] хвалиться</li>
-    <li>boasting->[boasting_adverb] показує</li>
-    <li>boasting->[boasting_adverb] згадуючи про хороше</li>
-    <li>boasting->[boasting_adverb] перебільшуючи</li>
-    <li>boasting->[boasting_adverb] розповідає про</li>
-    <li>boasting->[boasting_adverb] згадуючи в розмові</li>
-    <li>complimenting(p=3)->[complimenting_adverb] хвалячи</li>
-    <li>complimenting->[complimenting_adverb] обсипаючи компліментами</li>
-    <li>complimenting->[complimenting_adverb] нахвалюючи</li>
+    <li>wootactic(p=2)->розповідаючи історію [TalkTopicLight]</li>
+    <li>wootactic(p=2)->розповідаючи історію [TalkTopicHeavy]</li>
+    <li>wootactic->жартуючи [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] [HisPersonalCharacteristic]</li>
+    <li>wootactic->кажучи, що [RECIPIENT_pronoun] як [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->описуючи [RECIPIENT_possessive] як [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->кажучи, що [RECIPIENT_pronoun] як [romantic_adjM] [romantic_nounM]</li>
+    <li>wootactic->описуючи [RECIPIENT_possessive] як [romantic_adjM] [romantic_nounM]</li>
+    <li>boasting->демонструючи</li>
+    <li>boasting->виставляючи напоказ</li>
+    <li>complimenting(p=3)->хвалячи</li>
+    <li>complimenting->обсипаючи компліментами</li>
+    <li>complimenting->нахвалюючи</li>
     <li>complimenting->по достоїнству оцінюючи</li>
-    <li>complimenting->[complimenting_adverb] кажучи приємні слова про</li>
-    <li>complimenting(p=2)->[complimenting_adverb] шуткуючи про</li>
-    <li>complimenting->лоскочучи</li>
-    <li>complimenting->тролить</li>
-    <li>complimenting->задаючи єхидно питання про</li>
-    <li>complimenting->привітно кепкує з</li>
-    <li>romantic_adj->красивий(а)</li>
-    <li>romantic_adj->сяючий(а)</li>
-    <li>romantic_adj->мерехтливий(а)</li>
-    <li>romantic_adj->неземний(а)</li>
-    <li>romantic_adj->золотистий(а)</li>
-    <li>romantic_adj->світлий(а)</li>
-    <li>romantic_adj->захоплюючий(а)</li>
-    <li>romantic_adj->чарівний(а)</li>
-    <li>romantic_adj->разливий(а)</li>
-    <li>romantic_adj->витончений(а)</li>
-    <li>romantic_adj->добрий(а)</li>
-    <li>romantic_adj->розкішний(а)</li>
-    <li>romantic_adj->милий(а)</li>
-    <li>romantic_adj->чудовий(а)</li>
-    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>complimenting->кажучи приємні слова про</li>
+    <li>complimenting(p=2)->шуткуючи про</li>
+    <li>complimenting->задаючи єхидне питання про</li>
+    <li>complimenting->привітно кепкуючи про</li>
+    <li>romantic_adj->красива</li>
+    <li>romantic_adj->сяюча</li>
+    <li>romantic_adj->мерехтлива</li>
+    <li>romantic_adj->неземна</li>
+    <li>romantic_adj->золотиста</li>
+    <li>romantic_adj->світла</li>
+    <li>romantic_adj->захоплююча</li>
+    <li>romantic_adj->чарівна</li>
+    <li>romantic_adj->разлива</li>
+    <li>romantic_adj->витончена</li>
+    <li>romantic_adj->добра</li>
+    <li>romantic_adj->розкішна</li>
+    <li>romantic_adj->мила</li>
+    <li>romantic_adj->чудова</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadassFem]</li>
     <li>romantic_noun->квітка</li>
     <li>romantic_noun->весна</li>
     <li>romantic_noun->річка</li>
     <li>romantic_noun->зірка</li>
-    <li>romantic_noun->місяць</li>
-    <li>romantic_noun->сонце</li>
-    <li>romantic_noun->будинок</li>
-    <li>romantic_noun->північне сяйво</li>
-    <li>romantic_noun->[TreeType] дерево</li>
-    <li>romantic_noun(p=2)->[TerrainFeature]</li>
-    <li>romantic_noun(p=2)->[NaturalObject]</li>
+    <li>romantic_noun->пташка</li>
+    <li>romantic_noun->веселка</li>
+    <li>romantic_noun->хатинка</li>
+    <li>romantic_noun->гора</li>
+    <li>romantic_noun->зайка</li>
+    <li>romantic_noun->[WeaponFem]</li>
+    <li>romantic_noun(p=2)->[TerrainFeatureFem]</li>
+    <li>romantic_adjM->красивий</li>
+    <li>romantic_adjM->сяючий</li>
+    <li>romantic_adjM->мерехтливий</li>
+    <li>romantic_adjM->неземний</li>
+    <li>romantic_adjM->золотистий</li>
+    <li>romantic_adjM->світлий</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

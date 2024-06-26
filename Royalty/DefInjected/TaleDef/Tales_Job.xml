@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: attended concert -->
-  <AttendedConcert.label>відвідав концерт</AttendedConcert.label>
+  <AttendedConcert.label>відвідини концерту</AttendedConcert.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s concert</li>
     <li>tale_noun->[ATTENDER_nameDef] listening to [ORGANIZER_nameDef]'s performance</li>
@@ -17,17 +17,17 @@
   <AttendedConcert.rulePack.rulesStrings>
     <li>tale_noun->[ATTENDER_nameDef] відвідує концерт [ORGANIZER_nameDef]</li>
     <li>tale_noun->[ATTENDER_nameDef] слухає виступ [ORGANIZER_nameDef]</li>
-    <li>image->[ATTENDER_nameFull] тихо слухає, [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] насолоджується виступом [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] погойдується під музику [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] поглинений звуком [circumstance_group]</li>
-    <li>circumstance_phrase->під час плескання</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] танцює разом.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] слухає уважно.</li>
+    <li>image->, як [ATTENDER_nameFull], [circumstance_group], мовчки слухає</li>
+    <li>image->, як [ATTENDER_nameFull], [circumstance_group], насолоджується виступом [ORGANIZER_nameFull]</li>
+    <li>image->, як [ATTENDER_nameFull], [circumstance_group], тупає в такт музики</li>
+    <li>image->, як [ATTENDER_nameFull], [circumstance_group], повністю поглинається музикою</li>
+    <li>circumstance_phrase->плескаючи в долоні</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] [concert_action]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] [concert_action]</li>
   </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
-  <HeldConcert.label>провели концерт</HeldConcert.label>
+  <HeldConcert.label>організація концерту</HeldConcert.label>
   <!-- EN:
     <li>tale_noun->[ORGANIZER_nameDef] performing a concert</li>
     <li>image->[ORGANIZER_nameFull] playing their signature song [circumstance_group]</li>
@@ -39,14 +39,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
   <HeldConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ORGANIZER_nameDef] виступає з концертом</li>
-    <li>image->[ORGANIZER_nameFull] грає свою фірмову пісню [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull], запрошуючи натовп підспівувати</li>
+    <li>tale_noun->[ORGANIZER_nameDef] проводить концерт</li>
+    <li>image->[ORGANIZER_nameFull] грає власну мелодію [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] запрошує натовп підспівувати</li>
     <li>image->[ORGANIZER_nameFull] грає надихаючу пісню</li>
-    <li>image->[ORGANIZER_nameFull] виконує складний твір [circumstance_group]</li>
-    <li>circumstance_phrase->з інтенсивним виразом</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] слухає поруч.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] слухає поблизу.</li>
+    <li>image->[ORGANIZER_nameFull] виконую складну мелодію [circumstance_group]</li>
+    <li>circumstance_phrase->з напруженим обличчям</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJobPluGen] [concert_action]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPluGen] [concert_action]</li>
   </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>

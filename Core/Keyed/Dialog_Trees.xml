@@ -4,14 +4,14 @@
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
   <FactionGreetingHostile>{0} прокрикує декілька яскравих епітетів у мікрофон та відключається.</FactionGreetingHostile>
   <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
-  <FactionGreetingHostileAppreciative>{0} вимагає від вас жесту доброї волі, наприклад подарунку для поселення {0_possessive} або звільнення полонених фракції {0_possessive}. Без цього, {0_pronoun} відмовляються розмовляти.\n\nБурмочучи про себе прокльони, {0_pronoun} відключається.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>{0} вимагає від вас "жесту доброї волі", наприклад подарунку для їх поселення або звільнення полоненого {0_possessive} фракції. До тих пір, {0_pronoun} відмовляються розмовляти.\n\nНаостанок {0} бурчить якісь образи у вашу сторону та відключається.</FactionGreetingHostileAppreciative>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
-  <FactionGreetingWary>{0} вітає {NEGOTIATOR_labelShort} та запитує, яку справу ви бажаєте владнати.</FactionGreetingWary>
+  <FactionGreetingWary>{0} вітає {NEGOTIATOR_labelShort} та запитує в чому справа.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0} радісно вітає {NEGOTIATOR_labelShort} та цікавиться, чим {LEADER_pronoun} може вам допомогти.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0} радісно вітає {NEGOTIATOR_labelShort} та цікавиться чим {LEADER_pronoun} може вам допомогти.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
-  <WorkTypeDisablesOption>не буде виконувати {0}</WorkTypeDisablesOption>
+  <WorkTypeDisablesOption>{0} недоступне</WorkTypeDisablesOption>
   <!-- EN: Disconnect -->
   <Disconnect>Відключитися</Disconnect>
 
@@ -33,11 +33,11 @@
 
   <!-- Trade caravan request -->
   <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
-  <RequestTrader>Запросити торговий караван (коштує: {0} прихильності)</RequestTrader>
+  <RequestTrader>Запросити торговий караван (вартість: {0} прихильності)</RequestTrader>
   <!-- EN: {0} asks what kind of trade caravan you want. -->
-  <ChooseTraderKind>{0} запитує, який тип торгового каравану вам потрібен.</ChooseTraderKind>
+  <ChooseTraderKind>{0} запитує, який караван вам потрібен.</ChooseTraderKind>
   <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
-  <TraderSent>{0} зобов'язується надіслати вам торговий караван. Він прибуде протягом декількох днів.</TraderSent>
+  <TraderSent>{0} погоджується надіслати вам торговий караван. Він прибуде протягом декількох днів.</TraderSent>
   <!-- EN: wait {0} -->
   <WaitTime>очікуйте {0}</WaitTime>
   
@@ -47,22 +47,22 @@
   <!-- EN: {0} sends the requested information and wishes you good luck. -->
   <RequestAICoreInformationResult>{0} надсилає запитану інформацію та бажає вам успіху.</RequestAICoreInformationResult>
   <!-- EN: no more locations known -->
-  <NoKnownAICore>відсутні відомі локації</NoKnownAICore>  
+  <NoKnownAICore>більше нема відомих локацій</NoKnownAICore>  
   
   <!-- Military aid request -->
   <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
-  <RequestMilitaryAid>Запросити негайну військову допомогу (Вартість: {0} прихильності)</RequestMilitaryAid>
+  <RequestMilitaryAid>Викликати негайну військову допомогу (Вартість: {0} прихильності)</RequestMilitaryAid>
   <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
-  <MilitaryAidConfirmMutualEnemy>Фракція {0} не допоможе вам боротися з тими, хто не є їх ворогами. Серед таких фракцій є {1}, які зараз вам загрожують. Усе одно запитати про допомогу?</MilitaryAidConfirmMutualEnemy>
+  <MilitaryAidConfirmMutualEnemy>Фракція {0} не допоможе вам боротися з тими, хто не є їхніми ворогами. Серед таких фракцій - {1}, які зараз вам загрожують. Все одно запросити допомогу?</MilitaryAidConfirmMutualEnemy>
   <!-- EN: Yes, call them anyway. -->
   <CallConfirm>Так, все-одно викликати.</CallConfirm>
   <!-- EN: No, never mind. -->
   <CallCancel>Ні, забудьте.</CallCancel>
   <!-- EN: {0} agrees to send fighters to help you. -->
-  <MilitaryAidSent>{0} зобов'язується надіслати бійців, щоб допомогти вам.</MilitaryAidSent>
+  <MilitaryAidSent>{0} погоджується надіслати вам бійців на допомогу.</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
-  <CantSendMilitaryAidInTime>{0} перепрошує, що допомога не надійде вчасно.\n\n(Рівень технологій цієї фракції занизький для транспортних капсул)</CantSendMilitaryAidInTime>
+  <CantSendMilitaryAidInTime>{0} просить вибачення і каже, що допомога не надійде вчасно.\n\n(Рівень технологій цієї фракції занизький для транспортних капсул)</CantSendMilitaryAidInTime>
   <!-- EN: hostile visitors present -->
-  <HostileVisitorsPresent>ворожі відвідувачі поблизу</HostileVisitorsPresent>
+  <HostileVisitorsPresent>в колонії знаходяться представники ворожої фракції</HostileVisitorsPresent>
 
 </LanguageData>

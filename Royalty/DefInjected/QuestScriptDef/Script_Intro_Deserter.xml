@@ -5,23 +5,23 @@
     <li>questDescription->[asker_nameFull], [asker_titleIndef], is calling from nearby. [asker_pronoun] has deserted the army of [asker_factionName] and is being hunted by (*Threat)a loyalty squad(/Threat). [asker_pronoun] wishes to join you at [map_definite].\n\n[asker_nameDef] knows the location of key outpost containing everything needed to develop psychic powers:\n\n[sitePart1_itemStashContents]\n\nBeware - If you accept [asker_nameDef], you will become an enemy of [asker_factionName]! The pursuing loyalty squad will attack immediately. It is composed of: \n\n[raid/raidPawnKinds]\n\nOnly accept if you wish to fight against [asker_factionName] and develop your psycasters on your own. You will have one year to attack the outpost before it is moved.</li>
   -->
   <Intro_Deserter.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_titleIndef], телефонує поблизу. [asker_pronoun] покидаючи армію [asker_factionName], бачить як за [asker_pronoun] слідує (*Threat)загін вірності (/Threat). [asker_pronoun] бажає приєднатися до вас у [map_definite].\n\n[asker_nameDef] знає розташування ключового форпосту, де міститься все необхідне для розвитку психічних здібностей:\n\n[sitePart1_itemStashContents]\n\nБережіться – якщо ви приймете [asker_nameDef], то станете ворогом для [asker_factionName]! Переслідуючий загін атакує негайно. Він складається з: \n\n[raid/raidPawnKinds]\n\nПрийміть, лише якщо ви бажаєте боротися проти [asker_factionName] і самостійно розвивати своїх псионіків. У вас буде один рік, щоб атакувати форпост, перш ніж його перемістять.</li>
+    <li>questDescription->[asker_titleIndef] на ім'я [asker_nameFull] просить про послугу. [asker_pronoun] {asker_gender ? втік : утекла} з армії фракції [asker_factionName] і тепер [asker_possessive] переслідує (*Threat) загін вірності(/Threat). [asker_pronoun] бажає приєднатися до вас в [map_definite].\n\n[asker_nameDef] знає координати сховища, де зберігаються технології для розвитку пси-здібностей:\n\n[sitePart1_itemStashContents]\n\nМайте на увазі: якщо ви допоможете [asker_nameDef], фракція [asker_factionName] стане ворожою до вас! (*Threat)Загін вірності(/Threat), що переслідує [asker_nameDef], нападе негайно. Він має такий склад:\n\n[raid/raidPawnKinds]\n\nПриймайте це завдання, якщо ви вирішили боротися з фракцією  [asker_factionName] та розвивати свої пси-здібності самостійно. У вас буде 1 рік, щоб підготувати атаку на сховище, після чого воно змінить свою локацію на невідому.</li>
   </Intro_Deserter.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The Deserter</li>
   -->
   <Intro_Deserter.questNameRules.rulesStrings>
-    <li>questName->Дезертир</li>
+    <li>questName(asker_gender==Male)->Дезертир</li>
   </Intro_Deserter.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
-  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\nТому що ви прийняли [asker_nameDef] в своє поселення, [asker_factionName] тепер став ворожим до вас.\n\nВірний загін, що полює за [asker_objective], незабаром з'явиться.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
+  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\nТак як ви вирішили допомогти [asker_nameDef], фракція [asker_factionName] стає ворожою до вас.\n\n(*Threat)Загін вірності(/Threat), що переслідує [asker_possessive], скоро буде тут.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
   <!-- EN: {BASELABEL}: Loyalty squad -->
-  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: Вірний загін</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: Загін вірності</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
   <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].\n               -->
-  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\nЦе загін, що переслідував [../asker_nameFull].\n</Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\nЗагін, що переслідує [../asker_nameFull].\n</Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <Intro_Deserter.LetterLabelQuestExpired.slateRef>Минув термін доручення: [resolvedQuestName]</Intro_Deserter.LetterLabelQuestExpired.slateRef>
+  <Intro_Deserter.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</Intro_Deserter.LetterLabelQuestExpired.slateRef>
   <!-- EN: The key imperial outpost, containing items needed for secret psychic powers, has packed up and moved on. -->
-  <Intro_Deserter.LetterTextQuestExpired.slateRef>Важливий імперський аванпост, що містив усе необхідне для пси-розвитку, переміщений у невідоме місце.</Intro_Deserter.LetterTextQuestExpired.slateRef>
+  <Intro_Deserter.LetterTextQuestExpired.slateRef>Сховище, що містить технології для розвитку пси-здібностей, змінило свою локацію на невідому.</Intro_Deserter.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

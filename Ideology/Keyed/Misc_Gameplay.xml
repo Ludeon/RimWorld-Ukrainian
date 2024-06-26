@@ -14,21 +14,23 @@
   <!-- EN: Create custom\n(fluid) -->
   <CreateCustomFluid>Створити свою\n(змінну)</CreateCustomFluid>
   <!-- EN: Create custom\n(fixed) -->
-  <CreateCustomFixed>Створити свою\n(сталу)</CreateCustomFixed>
+  <CreateCustomFixed>Створити свою\n(незмінну)</CreateCustomFixed>
   <!-- EN: Custom ideoligions -->
-  <CustomIdeoligions>Створювані ідеології</CustomIdeoligions>
+  <CustomIdeoligions>Створення ідеології</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Завантажити</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Структура</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>У що повинні вірити ваші початкові колоністи? Ці переконання впливають на ігровий процес і візуальні ефекти. Ви зможете залучити інших до своїх переконань або прийняти їх переконання.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>В що повинні вірити ваші початкові колоністи? Їх переконання впливають на візуальний стиль та ігровий процес. Ви зможете конвертувати інших в свою ідеологію, або прийняти їхню.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Створити свою</CreateCustom>
   <!-- EN: Delete custom -->
   <DeleteCustom>Видалити свою</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Створити нову</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>Створити змінну</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>Завантажити збережену</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -62,7 +64,7 @@
   <!-- EN: altar -->
   <Altar>вівтар</Altar>
   <!-- EN: base -->
-  <Base>база</Base>
+  <Base>фундамент</Base>
   <!-- EN: min expectation -->
   <MinExpectation>мін. очікування</MinExpectation>
   <!-- EN: {0} to {1} -->
@@ -70,21 +72,13 @@
   <!-- EN: Comes from ideo -->
   <ComesFromIdeo>Засновано на ідеології</ComesFromIdeo>
   <!-- EN: Current total animal bodysize per colonist -->
-  <CurrentTotalAnimalBodySizePerColonist>Поточний загальний розмір тіл тварин на поселенця</CurrentTotalAnimalBodySizePerColonist>
+  <CurrentTotalAnimalBodySizePerColonist>Поточний загальний розмір тіл тварин на колоніста</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
-  <AnimalsBodySizePerColonist>загальний розмір тіл на поселенця</AnimalsBodySizePerColonist>
+  <AnimalsBodySizePerColonist>загальний розмір тіл на колоніста</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
-  <VeneratedAnimalsBodySizePerColonist>загальний розмір тіл тварин на поселенця поруч</VeneratedAnimalsBodySizePerColonist>
+  <VeneratedAnimalsBodySizePerColonist>загальний розмір тіл тварин на колоніста поруч</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
-  <MinAnimalBodySizePerColonist>Необхідно хоча б {0} одиниць розміру тіл тварин на поселенця.</MinAnimalBodySizePerColonist>
-  <!-- EN: Plant {0_label} -->
-  <PlantThing>Посадити {0_label}</PlantThing>
-  <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Посадити {0_label} на обраній території.</PlantThingDesc>
-  <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Скасувати посадку {0_label}</CancelPlantThing>
-  <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Скасувати посадку {0_label}.</CancelPlantThingDesc>
+  <MinAnimalBodySizePerColonist>Необхідно хоча б {0} одиниць розміру тіл тварин на колоніста.</MinAnimalBodySizePerColonist>
   <!-- EN: Disables -->
   <Disables>Блокує</Disables>
   <!-- EN: Requires one of precepts -->
@@ -98,31 +92,35 @@
   <!-- EN: Styles -->
   <Styles>Стилі</Styles>
   <!-- EN: Chance to have precept -->
-  <ChanceToHavePrecept>Можливість мати правило</ChanceToHavePrecept>
+  <ChanceToHavePrecept>Шанс отримати правило</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Улюблений колір {PAWN_labelShort}. Маючи понад {PERCENTAGE} {PAWN_possessive} одягу в цьому кольорі{ORIDEO}, {PAWN_objective} стане трохи щасливішим.\n\nВи можете змінити кольори одягу в стилістському столі за допомогою барвника.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>Улюблений колір {PAWN_labelShort}. Якщо одягнено більше {PERCENTAGE} одягу цього кольору {ORIDEO} настрій {PAWN_labelShort} покращиться.\n\nЗмінити колір можна за допомогою барвника тинкторії на перукарському столику.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>або колір {PAWN_possessive} ідеології</OrIdeoColor>
+  <OrIdeoColor>, або кольору {PAWN_possessive} ідеології,</OrIdeoColor>
   <!-- EN: Set ideo color -->
-  <SetIdeoColor>Пофарбувати у колір фракції</SetIdeoColor>
+  <SetIdeoColor>Пофарбувати у колір ідеології</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Пофарбувати улюбленим кольором</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>Улюблений колір {PAWN_nameDef}. Якщо {PAWN_pronoun} матиме 60%+ елементів одягу пофарбованих в улюблений колір або в колір ідеології, {PAWN_possessive} настрій буде трохи кращим.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>Колір ідеології {PAWN_nameDef}. Якщо {PAWN_pronoun} матиме 60%+ елементів одягу пофарбованих в улюблений колір або в колір ідеології, {PAWN_possessive} настрій буде трохи кращим.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Налаштувати ідеологію фракції</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
   <NotEnoughDye>Недостатньо барвників.</NotEnoughDye>
   <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
-  <ApparelLockedCannotRecolor>{PAWN_nameDef} не бажає перефарбовувати {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} не бажає перефарбовувати {PAWN_possessive} {lookup: {APPAREL_labelShort}; Case; 3}.</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDyeWillRecolorApparel>Поселенець пофарбує одяг, як фарба буде у наявності.</NotEnoughDyeWillRecolorApparel>
+  <NotEnoughDyeWillRecolorApparel>Колоніст пофарбує одяг, як барвник буде у наявності.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
-  <NotEnoughDyeWillRecolorHair>Поселенець пофарбує волосся, коли буде фарба у наявності.</NotEnoughDyeWillRecolorHair>
+  <NotEnoughDyeWillRecolorHair>Поселенець пофарбує волосся, коли барвник буде у наявності.</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>{PAWN_labelShort} {PAWN_gender ? впевнений : впевнена} у {IDEO} на {PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
   <DisabledByPrecept>Заблоковано правилом {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
-  <Everyone>Всi</Everyone>
+  <Everyone>Усі</Everyone>
   <!-- EN: Narrative -->
   <Narrative>Опис</Narrative>
   <!-- EN: narrative -->
@@ -138,28 +136,28 @@
   <!-- EN: memes -->
   <MemesLower>рис</MemesLower>
   <!-- EN: Development points -->
-  <Reward_DevelopmentPointsLabel>Очки розвитку</Reward_DevelopmentPointsLabel>
+  <Reward_DevelopmentPointsLabel>Бали розвитку</Reward_DevelopmentPointsLabel>
   <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
-  <Reward_DevelopmentPoints>Ви отримаєте {1} очок розвитку ідеології {0}.\n\nЗараз у вас {1} очок розвитку. Коли у вас буде {3} очок, ви зможете реформуватиідеологію.\n\nЗаробляйте очки розвитку, виконуючи завдання та проводячи ритуали.</Reward_DevelopmentPoints>
+  <Reward_DevelopmentPoints>Ви отримаєте {1} балів розвитку ідеології {0}.\n\nЗараз у вас {1} балів розвитку. Коли у вас буде {3}, ви зможете реформувати ідеологію.\n\nЗаробляйте балів розвитку, виконуючи завдання та проводячи ритуали.</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
-  <CurrentDevelopmentPoints>Зараз очок</CurrentDevelopmentPoints>
+  <CurrentDevelopmentPoints>Зараз балів</CurrentDevelopmentPoints>
   <!-- EN: Points needed to reform -->
   <ReformDevelopmentPoints>Для реформації потрібно</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>завдання</QuestLower>
   <!-- EN: Vegetarian -->
-  <MealKindVegetarian>Вегетеріанське</MealKindVegetarian>
+  <MealKindVegetarian>Вегетаріанське</MealKindVegetarian>
   <!-- EN: Contains meat -->
-  <MealKindMeat>Містить м’ясо</MealKindMeat>
+  <MealKindMeat>Містить м'ясо</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
-  <MealKindAny>Прийнятна для всіх їжа</MealKindAny>
+  <MealKindAny>Їжа, що підходить всім</MealKindAny>
   <!-- EN: this outfit -->
-  <WearingDesiredApparelMulti>це вбрання</WearingDesiredApparelMulti>
+  <WearingDesiredApparelMulti>свій одяг</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Неможливо завантажити ідеологію</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>Неможливо завантажити обрану ідеологію через вимогуфракцій, які будуть їй слідувати. Несумісні ось ці вимоги:</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>Неможливо завантажити обрану ідеологію через вимогу фракцій, які будуть їй слідувати. Несумісні ось ці вимоги:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
   <UnableToLoadIdeoMemeNotAllowed>Риса "{MEME}" неприпустима для фракцій типу "{FACTIONTYPE}"</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
@@ -168,19 +166,19 @@
   <UnableToLoadIdeoPreceptNotAllowed>Правило "{PRECEPT}" не підходить для фракцій, якими не керує гравець</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
-  <RitualTargetGraveInfo>У могилі знаходиться тіло {PAWN_labelShort}</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>В могилі знаходиться тіло {PAWN_labelShort}</RitualTargetGraveInfo>
   <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
-  <RitualTargetEmptyGraveInfo>Порожня могила для оплакування {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Порожня могила, щоб оплакувати смерть {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
   <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>У могилі знаходиться тіло {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>В могилі знаходиться тіло {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: Grave containing a corpse -->
-  <RitualTargetGraveInfoAbstractNoIdeo>Могила містить труп</RitualTargetGraveInfoAbstractNoIdeo>
+  <RitualTargetGraveInfoAbstractNoIdeo>В могилі знаходиться тіло</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
-  <RitualTargetEmptyGraveInfoAbstract>Порожня могила для оплакування {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>Порожня могила, щоб оплакувати смерть {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>Тіло {PAWN_labelShort} спочатку має бути поховано</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>Будь-яке місце збору, як стіл</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>Будь-яке місце збору, наприклад стіл</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>Вівтар або інше ритуальне місце.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
@@ -188,27 +186,27 @@
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>Диско-куля не підключена.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>Немає підключених гучномовців.</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>Немає підключених динаміків.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
   <RitualTargetCampfireNoFuel>Багаття не розпалене.</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
-  <RitualTargetCampfireMustBeUnroofed>Багаття повинне бути ззовні.</RitualTargetCampfireMustBeUnroofed>
+  <RitualTargetCampfireMustBeUnroofed>Багаття повинне бути назовні.</RitualTargetCampfireMustBeUnroofed>
   <!-- EN: No nearby drum. -->
   <RitualTargetNoDrum>Немає барабанів.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Необхідно хоча б {0} клітинок без даху.</RitualTargetNeedUnroofedCells>
   <!-- EN: a lit campfire -->
-  <RitualTargetCampfirePartyInfo>запалене багаття</RitualTargetCampfirePartyInfo>
+  <RitualTargetCampfirePartyInfo>розпалене багаття</RitualTargetCampfirePartyInfo>
   <!-- EN: an unconnected Gauranlen tree -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>не зв'язане дерево Гауранлена</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>дерево Гуаранлен без зв'язку</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
-  <RitualTargetConnectedGauranlenTree>Вже зв'язано з {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <RitualTargetConnectedGauranlenTree>Вже прив'язано до {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>Зв'язок з {TREE_definite} обірвався. Зв'язування можливо повторити через {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>Зв'язок з {TREE_definite} обірвався. Ритуал зв'язування можна повторити через {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Вам потрібно {0} одиниць дерева для кожного учасника (всього {2}). Зараз у вас {1}.</RitualTargeWoodInfo>
+  <RitualTargeWoodInfo>Вам потрібно {0} од. деревини для кожного учасника (всього {2}). Зараз у вас {1} од.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
-  <RitualTargetUnreachable>{0} має мати можливість досягти ритуальної цілі.</RitualTargetUnreachable>
+  <RitualTargetUnreachable>{0} не має можливості добратися до цілі ритуалу.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Звинуватити</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
@@ -218,52 +216,52 @@
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} слабке і не хоче бути {PAWN_gender ? осліпленим : осліпленою}.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>{IDEOMEMBERPLURAL} бажатимуть шрамування доти, доки не буде {0} чи більше шрамованих послідовників.</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>{IDEOMEMBERPLURAL} будуть проводити шрамування, допоки не набереться {0} чи більше шрамованих послідовників їхньої ідеології.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>Кожен член {IDEOMEMBER}, що знаходиться у поселенні чи приєднується до нього, буде прагнути осліплення.</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Кожен {IDEOMEMBER} поточний та новий колоніст буде бажати осліплення.</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
-  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Загальна швидківть праці усіх учасників ритуалу на один виросла на {PERCENTAGE}.</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Загальна швидкість праці усіх учасників ритуалу виросла на {PERCENTAGE} на один день.</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Завдяки ритуалу осліплення, {PAWN_labelShort} отримав новий рівень пси-зв'язку!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>З новим рівнем пси-зв'язку {PAWN_pronoun} отримує здатність: {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>З новим рівнем пси-зв'язку {PAWN_pronoun} отримує пси-здібність "{0}".</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
-  <RitualOutcomeExtraDesc_ConsumableInspiration>Завдяки ритуалу {RITUAL}, {PAWN_labelShort} отримає {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>Завдяки ритуалу {RITUAL}, {PAWN_labelShort} отримує {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
-  <RitualOutcomeExtraDesc_SkylanternWanderers>Ваші небесні ліхтарики привабили дружніх мандрівників. Вони залишать подарунок.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Ваші небесні ліхтарики привабили дружніх мандрівників. Вони пропонують подарунок.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
-  <RitualOutcomeExtraDesc_Execution>Усі присутні раби були шоковані сценою смерті. Їх пригнічення досягла максимуму.</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_Execution>Усі присутні раби були шоковані сценою смерті. Їх пригнічення досягло максимуму.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Відповідно до якості ритуалу, кількість ваших очок розвитку зросла на {2} (з {0} до {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Відповідно до якості ритуалу, кількість ваших балів розвитку зросло на {2} (з {0} до {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Can't award development points beyond {0}. -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Очки розвитку не можна збільшити більш ніж на {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Максимальна кількість балів розвитку, що можна отримати: {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Через низьку якість ритуалу ви не отримали очок розвитку.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Через низьку якість ритуалу ви не отримали балів розвитку.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>Додаткова нагорода</RitualAttachedReward>
   <!-- EN: Choose -->
   <RitualAttachedRewardChoose>Вибрати</RitualAttachedRewardChoose>
   <!-- EN: Can't use {0} with {1}. -->
-  <RitualAttachedRewardCantUseWithRitual>Неможливо використати {0} з {1}.</RitualAttachedRewardCantUseWithRitual>
+  <RitualAttachedRewardCantUseWithRitual>Неможливо використати {0} з ритуалом {1}.</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Потребує хоча б одну з рис</RitualAttachedRewardRequiredMemeAny>
   <!-- EN: Requires {0} faction -->
   <RitualAttachedRewardRequiredFaction>Потребує фракцію {0}</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
-  <RitualAttachedOutcomes_Positive>позитивом</RitualAttachedOutcomes_Positive>
+  <RitualAttachedOutcomes_Positive>позитивному</RitualAttachedOutcomes_Positive>
   <!-- EN: negative -->
-  <RitualAttachedOutcomes_Negative>негативом</RitualAttachedOutcomes_Negative>
+  <RitualAttachedOutcomes_Negative>негативному</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>Якщо ритуал {0} пройшов {1}</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>Результат "{0}"</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcome>При результат "{0}"</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>При будь-якому "{0}"</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedApplliesForOutcomes>При будь-якому {0} результаті</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум від {0} привернув тварин!\n\nВони, мабуть, звикли до людей і тому приєднуються до поселення.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>Шум від ритуалу {0} привернув тварин!\n\nВони, мабуть, звикли до людей і тому приєднуються до колонії.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
   <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0} спровокував проростання стручка Gauranlen поблизу.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
@@ -271,7 +269,7 @@
   <!-- EN: No valid spot -->
   <RitualAttachedOutcomeCantApply_NoValidSpot>Немає місця</RitualAttachedOutcomeCantApply_NoValidSpot>
   <!-- EN: Extreme biome -->
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>Екстримальна місцевість</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Екстремальна місцевість</RitualAttachedOutcomeCantApply_ExtremeBiome>
   <!-- EN: There is already a known ancient complex to explore. -->
   <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Стародавній комплекс вже знайдений поруч.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
   <!-- EN: Not available right now. -->
@@ -286,22 +284,20 @@
   <!-- EN: expectations -->
   <Expectations>очікування</Expectations>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
-  <RitualRepeatPenaltyTip>Повторне проведення ритуалу протягом {0} днів зменшить його якість. З минулого ритуалу пройшло {1} днів, при повторному проведенні його якість понизиться на {2}. Цей штраф знизиться до нуля через {3} днів.</RitualRepeatPenaltyTip>
+  <RitualRepeatPenaltyTip>Повторне проведення ритуалу протягом {0} днів зменшить його якість. З минулого ритуалу пройшло {1} дн., при повторному проведенні його якість знизиться на {2}. Цей штраф знизиться до нуля через {3} дн.</RitualRepeatPenaltyTip>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Щоб отримати кращий результат, почніть {0} у {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>Зараз поруч з місцем ритуалу {0} знаходиться {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
-  <RitualDevelopmentPoints>Очки розвитку</RitualDevelopmentPoints>
+  <RitualDevelopmentPoints>Бали розвитку</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Завершення цього ритуалу дає {0}-{1} балів розвитку в залежності від якості.</RitualDevelopmentPointsTip>
   <!-- EN: {0} needs to be powered. -->
-  <RitualOutcomeBlockedNoPower>{0} має бути заряджено.</RitualOutcomeBlockedNoPower>
+  <RitualOutcomeBlockedNoPower>{lookup: {0}; Case; 3} необхідно підключити.</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Для рабів</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>Раб</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Якщо ви продаєте людину не його початковій фракції, він стане рабом.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -322,9 +318,9 @@
   <!-- EN: Passive effects -->
   <RoleEffectsLabel>Пасивні ефекти</RoleEffectsLabel>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSameIdeo>Має бути {0}</RoleRequirementLabelSameIdeo>
+  <RoleRequirementLabelSameIdeo>Не {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
-  <RoleRequirementLabelSupremeGender>Має бути {0}</RoleRequirementLabelSupremeGender>
+  <RoleRequirementLabelSupremeGender>Не {0}</RoleRequirementLabelSupremeGender>
   <!-- EN: Cannot be child -->
   <RoleRequirementCannotBe>Не може бути дитиною</RoleRequirementCannotBe>
 
@@ -333,7 +329,7 @@
   <!-- EN: Required apparel -->
   <RoleRequiredApparelLabel>Необхідний одяг</RoleRequiredApparelLabel>
   <!-- EN: Has role in rituals -->
-  <RoleRitualsLabel>Бере участь в ритуалі</RoleRitualsLabel>
+  <RoleRitualsLabel>Бере участь в ритуалах</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
   <RoleBelieverCountDesc>Ця роль стає активною, коли ваша фракція має {1} {0}. Вона перестає бути активною, коли у вас всього {3} {2}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
@@ -347,20 +343,20 @@
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} не буде виконувати роботу: {1}.</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
-  <AbilityDisabledNoAltarOrRitualsSpot>Ніякого досяжного вівтаря чи ритуального місця.</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarOrRitualsSpot>Немає досяжного вівтаря чи ритуального місця.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Немає досяжного вівтаря, ідеограм чи ритуальних місць.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
-  <AbilityDisabledNoRitualSpot>Немає досяжного ритуального місця.</AbilityDisabledNoRitualSpot>
+  <AbilityDisabledNoRitualSpot>Немає досяжних ритуальних місць.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Воля послаблена\nз {0} до {1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>Прийняття цієї людини до поселення вважається милосердям. Якщо ви відмовите йому, то наступні поселенці засмутяться:\n{0}\n\nВи дійсно хочете відмовити цій людині?</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>Прийняття цієї людини до колонії вважається милосердям. Якщо ви відмовите, то наступні колоністи засмутяться:\n{0}\n\nВи дійсно хочете відмовити цій людині?</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
-  <BelieversIn>Віруючі в {0} ({1})</BelieversIn>
+  <BelieversIn>Послідовники {0} ({1})</BelieversIn>
   <!-- EN: add {0} -->
   <AddPrecept>додати {0}</AddPrecept>
   <!-- EN: precept -->
@@ -372,11 +368,11 @@
   
   <!-- Beggars -->
   <!-- EN: Give {0} to {1_nameDef} -->
-  <GiveItemsTo>Дати {0} {1_nameDef}</GiveItemsTo>
+  <GiveItemsTo>Дати {lookup: {0}; Case; 3} {1_nameDef}</GiveItemsTo>
   <!-- EN: Cannot give {0} to {1_nameDef} -->
-  <CannotGiveItemsTo>Не можна дати {0} {1_nameDef}</CannotGiveItemsTo>
+  <CannotGiveItemsTo>Неможливо дати {lookup: {0}; Case; 3} {1_nameDef}</CannotGiveItemsTo>
   <!-- EN: No item found -->
-  <NoItemFound>Предмет не знайдений</NoItemFound>
+  <NoItemFound>Предмет не знайдено</NoItemFound>
 
   <!-- Outfits -->
   <!-- EN: Slave -->
@@ -388,7 +384,7 @@
   <!-- EN: hacking speed -->
   <HackingSpeed>швидкість зламу</HackingSpeed>
   <!-- EN: {0}'s -->
-  <HackingLastUser>{0}</HackingLastUser>
+  <HackingLastUser>У {0}</HackingLastUser>
   <!-- EN: hacked -->
   <Hacked>зламано</Hacked>
   <!-- EN: Terminals hacked -->
@@ -396,7 +392,7 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Знайдено відомості про реліквію</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>неактивна, необхідно хоча б {0} {1} (є {2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
@@ -404,22 +400,22 @@
 
   <!-- Slave interaction -->
   <!-- EN: The slave will leave the map on foot and return to their home faction, {0}. -->
-  <EmancipateNonCololonistWithFactionTooltip>Раб піде пішки та повернеться у свою фракцію, {0}.</EmancipateNonCololonistWithFactionTooltip>
+  <EmancipateNonCololonistWithFactionTooltip>Раб піде пішки та повернеться до своєї фракції, {0}.</EmancipateNonCololonistWithFactionTooltip>
   <!-- EN: The slave will leave on foot and exit the map. -->
   <EmancipateNonCololonistWithoutFactionTooltip>Раб піде пішки.</EmancipateNonCololonistWithoutFactionTooltip>
   <!-- EN: The slave will return to being a colonist. -->
-  <EmancipateCololonistTooltip>Раби знову будуть поселенцями.</EmancipateCololonistTooltip>
+  <EmancipateCololonistTooltip>Раби знову стануть колоністами.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
-  <WorshippedTerminalFactionBecameHostileTimed>Ви пробули у поселенні надто довго. Люди з {FACTION_name} нападають на вас!</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalFactionBecameHostileTimed>Ви пробули у цій місцевості надто довго. Люди з фракції {FACTION_name} атакують вас!</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
-  <WorshippedTerminalRaidIncoming>Жителі з найближчого поселення прийшли захищати священний термінал!</WorshippedTerminalRaidIncoming>
+  <WorshippedTerminalRaidIncoming>Мешканці найближчого поселення прийшли захищати священний термінал!</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>Реліквія знаходиться в стародавньому комплексі під захистом багаторівневої системи захисту.\n\nВи можете вбити ворогів один за одним або спробувати втекти з краденою реліквією.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>Реліквія знаходиться в стародавньому комплексі під захистом багаторівневої системи захисту.\n\nВи можете вбити всіх ворогів або спробувати викрасти реліквією та втекти.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
-  <RelicHuntFoundRelicSitePeaceful>Реліквія знаходиться у стародавньому комплексі поруч.</RelicHuntFoundRelicSitePeaceful>
+  <RelicHuntFoundRelicSitePeaceful>Реліквія знаходиться у стародавньому комплексі неподалік.</RelicHuntFoundRelicSitePeaceful>
 
   <!-- EN: relic -->
   <Relic>реліквія</Relic>
@@ -428,12 +424,12 @@
 
   <!-- Ritual requirements -->
   <!-- EN: Active loudspeakers -->
-  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Активні динаміки</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Динаміки</RitualPredictedOutcomeDescNumActiveLoudspeakers>
   <!-- EN: Drums -->
   <RitualPredictedOutcomeDescNumDrums>Барабани</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Використання ритуального місця зменщить бонус до настрою на {0} для учасників.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Використання ритуального місця зменшить бонус до настрою на {0} для учасників.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Будь-яке з</RitualOutcomeLabelAnyOfThese>
@@ -452,21 +448,21 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>З'єднувач</ConnectedPawn>
+  <ConnectedPawn>Зв'язуючий</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>Ніхто</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>Людина, з якою зв'язано {TREE_label}. Якщо з'єднувач помре, {TREE_label} буде недоступне для зв'язування протягом {DURATION}.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>Людина, з якою зв'язано {TREE_label}. Якщо зв'язуючий помре, {TREE_label} буде недоступне для зв'язування протягом {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>Зв'язок розірвано. Зв'язування повторити можна через {0}.</ConnectionTorn>
+  <ConnectionTorn>Зв'язок розірвано. Ритуал зв'язування можна буде повторити через {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef} надто далеко</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>Саджання {PLANT_definite} поряд з будівлями приведе до того, що сила зв'язку буде гіршати з часом. Сила зв'язку визначає максимальну кількість дріад, яке воно зможе підтримувати.\n\nВи впевнені,, що хочете посадити дерево тут?</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Саджання {lookup: {PLANT_definite}; Case; 1} поряд з будівлями приведе до того, що сила зв'язку буде гіршати з часом. Сила зв'язку визначає максимальну кількість дріад.\n\nВи впевнені, що хочете посадити дерево тут?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Зміна касти дріад у {TREE_definite} потребує час та енергію.\n\nПісля того, як зв'язана людина почне цей процес, усі дріади сховаються у кокони для трансформації на {DURATION} днів.\n\nДріади, що вже в коконах, зупинять поточну трансформацію і почнуть нову.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Зміна касти дріад {lookup: {PLANT_definite}; Case; 1} потребує часу та енергії.\n\nПісля того, як прив'язана людина почне цей процес, усі дріади сховаються у кокони для трансформації на {DURATION} дн.\n\nДріади, що вже у коконах, зупинять поточну трансформацію і почнуть нову.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>Змінити тип дріад, створених деревом {TREE_definite}.</ChangeModeDesc>
+  <ChangeModeDesc>Змінити тип дріад, створених {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>Падіння сили зв'язку</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
@@ -474,11 +470,11 @@
   <!-- EN: {0} strength -->
   <ConnectionStrengthDisplay>{0} сили</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
-  <ConnectionStrengthDesc>Визначає, скільки дріад дерево може підтримувати.</ConnectionStrengthDesc>
+  <ConnectionStrengthDesc>Визначає, скільки дріад може підтримувати дерево.</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
   <MaximumDryads>Максимум дріад</MaximumDryads>
   <!-- EN: The maximum number of dryads this tree can support. -->
-  <MaximumDryadsDesc>Максимальна кількість дріад, яку може ідтримувати дерево.</MaximumDryadsDesc>
+  <MaximumDryadsDesc>Максимальна кількість дріад, яку може підтримувати дерево.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
   <MaxDryadsBasedOnConnectionStrength>Максимум дріад визначається силою зв'язку</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
@@ -488,7 +484,7 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Бажана</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} буде доглядати за деревом{TREE_definite} так часто, щоб забезпечити силу зв'язку на цьому рівні.\n\nЧим сильніше зв'язок, тим більше дріад може утримувати дерево, але й швидше він буде падати, і тим частіше доведеться доглядати.\n\nНатисніть на смужку, щоб задати бажану силу зв'язку.\n\nСила зв'язку падає на {FALL} одиниць кожного дня.\n\nНа силу зв'язку впливають найближчі будівлі.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} буде доглядати за {TREE_definite} стільки, скільки потрібно щоб забезпечити силу зв'язку на цьому рівні.\n\nЧим сильніше зв'язок, тим більше дріад може підтримувати дерево, але й швидше вона буде знижуватись, і тим більше доведеться доглядати за деревом.\n\nНатисніть на смужку, щоб задати бажану силу зв'язку.\n\nСила зв'язку падає на {FALL} одиниць щодня.\n\nНа силу зв'язку впливають найближчі будівлі.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Очікує {CONNECTEDPAWN_nameDef} для зміни касти дріад.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -496,17 +492,17 @@
   <!-- EN: no caste -->
   <NoCaste>немає касти</NoCaste>
   <!-- EN: Determines the currently created dryad caste. -->
-  <GauranlenTreeModeDesc>Визначає касту на вже народжених дріад.</GauranlenTreeModeDesc>
+  <GauranlenTreeModeDesc>Визначає касту вже народжених дріад.</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>{DRYAD_label} народиться через {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>Трансформує {DRYAD_labelShort} у {TYPE_label}.</ChangingDryadIntoType>
+  <ChangingDryadIntoType>Трансформує {lookup: {DRYAD_labelShort}; Case; 3} у {lookup: {TYPE_label}; Case; 3}.</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
-  <HoursEveryDay>{0} годин кожного дня</HoursEveryDay>
+  <HoursEveryDay>{0} год. щодня</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
-  <HoursEveryOtherDay>{0} годин кожен другий день</HoursEveryOtherDay>
+  <HoursEveryOtherDay>{0} год. кожен другий день</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>{DRYAD_labelPlural} виробляють {RESOURCES} кожні {DURATION}.</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_labelPlural} виробляють {lookup: {RESOURCES}; Case; 3} кожні {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef} має зв'язок з {MASTER_nameDef} через своє дерево Гауранлен. {ANIMAL_possessive} господар не може бути змінений.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
@@ -526,11 +522,11 @@
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
-  <TargetNightOutdoors>Ціль ззовні вночі</TargetNightOutdoors>
+  <TargetNightOutdoors>Ціль назовні вночі</TargetNightOutdoors>
   <!-- EN: Target indoors and dark -->
   <TargetDarkIndoors>Ціль у темному приміщенні</TargetDarkIndoors>
   <!-- EN: Target outdoors and daytime -->
-  <TargetDayOutdoors>Ціль зовні вдень</TargetDayOutdoors>
+  <TargetDayOutdoors>Ціль назовні вдень</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
   <TargetLitIndoors>Ціль в освітленому приміщенні</TargetLitIndoors>  
   <!-- EN: Charging -->
@@ -543,18 +539,18 @@
   <!-- EN: Any of skills -->
   <RoleRequirementSkillAny>Будь-яка з навичок</RoleRequirementSkillAny>
   <!-- EN: Won't use ranged weapons -->
-  <RoleEffectWontUseRangedWeapons>Не використовувати далекобійну зброю</RoleEffectWontUseRangedWeapons>
+  <RoleEffectWontUseRangedWeapons>Не використовувати зброю дальнього бою</RoleEffectWontUseRangedWeapons>
   <!-- EN: Won't use melee weapons -->
   <RoleEffectWontUseMeleeWeapons>Не використовувати зброю ближнього бою</RoleEffectWontUseMeleeWeapons>
   <!-- EN: {0} quality to crafting or construction -->
-  <RoleEffectProductionQualityOffset>{0} одиниць якості до виробу або споруди</RoleEffectProductionQualityOffset>
+  <RoleEffectProductionQualityOffset>{0} од. якості до виробу або споруди</RoleEffectProductionQualityOffset>
   <!-- EN: Hunting revenge chance {0} -->
-  <RoleEffectHuntingRevengeChance>Шанс нападу у відповідь під час полювання: {0}.</RoleEffectHuntingRevengeChance>
+  <RoleEffectHuntingRevengeChance>Шанс помсти під час полювання: {0}.</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
   <RoleEffectGiveThoughtOnTended>Дати думку</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
-  <AssignColonists>Призначити поселенцям вашу ідеологію</AssignColonists>
+  <AssignColonists>Конвертувати колоністів</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Видалити нову ідеологію</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
@@ -564,9 +560,9 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>Ви активували ядро архонексуса. Світ наповнюється засліплюючим світлом, а час мов повільнішає...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>Бог-машина помітив вас. Ніхто не знає, що буде далі. Він може знищити вас, зв'язатись з вами прямо чи перенести свідомість в іншу пласкість реальності.\n\nВи відчуваєте, як велика нелюдська сутність нескінченної фрактальної складності проникає у вашу свідомість. Простір та час перестали існувати. Це вселяє страх. І це так, прекрасно...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>Бог-машина помітив вас. Ніхто не знає, що буде далі. Він може знищити вас, зв'язатись з вами чи перенести свідомість в кіберпростір.\n\nВи відчуваєте, як велика нелюдська сутність нескінченної фрактальної складності проникає у вашу свідомість. Простір та час перестали існувати. Це вселяє страх. І це так, прекрасно...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
-  <GameOverColonistsTranscended>Ці поселенці піднеслись:\n\n{0}</GameOverColonistsTranscended>
+  <GameOverColonistsTranscended>Ці колоністи піднеслись:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
   <Reward_ArchonexusMapPart>Частина мапи архонексуса</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
@@ -583,9 +579,9 @@
   <SupplySatellite>Супутник постачання</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>Поселенець не бажає вилучати череп з тіла (немає ідеологічного принципу, який дозволить це)</CannotExtractSkull>
+  <CannotExtractSkull>Колоніст не бажає вилучати череп з тіла (немає ідеологічного принципу, який дозволить це)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
-  <TipPreviewRitualAmbienceSound>Прослухати мелодію, що супроводжує ритуал</TipPreviewRitualAmbienceSound>
+  <TipPreviewRitualAmbienceSound>Прослухати мелодію, що супроводжує ритуали</TipPreviewRitualAmbienceSound>
 
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Виберіть</ChooseStuffForRelic>
@@ -600,47 +596,47 @@
   <!-- EN: (and biotuning) -->
   <BiosculpterPodCycleWillBiotune>(та біокалібрування)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
-  <BiosculpterPodCycleCommand>Почати {0} цикл</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>Розпочати цикл {lookup: {0}; Case; 1}</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
   <BiosculpterPodCycleDuration>Тривалість</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
   <BiosculpterPodCycleDurationTranshumanists>Тривалість (для трансгуманістів)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>Готовий до вибору циклу</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>Готовий для вибору циклу</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>Готовий до циклу {CYCLE} для {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>Готовий до циклу {lookup: {CYCLE}; Case; 1} для {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>Харчування завантажене, немає живлення</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>Їжа завантажена, відсутнє живлення</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Завершиться через</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
   <BiosculpterCycleAccelerated>прискорено для трансгуманістів</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>Призупинено: немає живлення (перерветься за {TIME})</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>Пауза: Відсутнє живлення (цикл перерветься через {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Калібрований для</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Перервати цикл</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>Перервати поточний цикл. Людина, що була всередені, буде викинута з капсули, не отримавши позитивних ефектів циклу, також буде деякий час страждати від біоскульпторної хвороби.</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Перервати поточний цикл. Людина, що була всередині, буде викинута з капсули, не отримавши позитивних ефектів циклу, також буде деякий час страждати від біоскульпторної хвороби.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>{PAWN_labelShort} увійде у капсулу та почне цикл {CYCLE}.</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} увійде в біоскульптор та розпочне цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} збере {INGREDIENTS} та почне цикл {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} збере {INGREDIENTS} та розпочне цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} збере {INGREDIENTS}, розмістить {DOWNED_labelShort} всередині капсули біоскульптора та розпочне цикл {CYCLE}.</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} збере {INGREDIENTS}, помістить {DOWNED_labelShort} в біоскульптор, та розпочне цикл {lookup: {CYCLE}; Case; 1}.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>{0} одиниць їжі</NumNutrition>
+  <NumNutrition>{0} од. їжі</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} викинуто з капсули біоскульптора через брак електроенергії.</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} викинуто з біоскульптора через брак електроенергії.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл лікування.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл оздоровлення, а {PAWN_possessive} {HEDIFF_label} {PAWN_gender ? був вилікуваний : була вилікувана : було вилікувано : були вилікувані}.</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл лікування, а {PAWN_possessive} захворювання ({HEDIFF_label}) виліковане.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл омолодження.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>Наступний цикл {PAWN_pronoun} очікується через {DEADLINE} днів.</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} очікую нового циклу через {DEADLINE} дн.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? пройшов : пройшла} цикл задоволення.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -656,14 +652,14 @@
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>Вимагає</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>При заверщенні циклу {CYCLE} відбудеться наступне</OnCompletionOfCycle>
+  <OnCompletionOfCycle>При завершенні циклу {lookup: {CYCLE}; Case; 1} відбудеться наступне</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} не має проблем зі здоров'ям, які міг би вирішити цей цикл {CYCLE}.\n\nБажаєте продовжити?</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} не має проблем зі здоров'ям, які міг би вирішити цикл {lookup: {CYCLE}; Case; 1}.\n\nБажаєте продовжити?</BiosculpterNoCoditionsToHeal>
 
   <!-- EN: basic -->
-  <Basic>базовий</Basic>
+  <Basic>основний</Basic>
   <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
-  <ChangeStyleDesc>Змініть його вбудований стиль. Це лише впливає на зовнішній вигляд і не впливає на ігровий процес.</ChangeStyleDesc>
+  <ChangeStyleDesc>Змінити стиль майбутньої споруди. Ефект чисто візуальний, не має впливу на ігровий процес.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Немає доступних стилів.</ChangeStyleDisabledNoCategories>
 

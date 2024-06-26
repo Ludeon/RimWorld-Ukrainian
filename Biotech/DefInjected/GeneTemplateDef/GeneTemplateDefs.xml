@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: {0} addict-immune -->
-  <AddictionImmune.label>{0} імунітет до залежностей</AddictionImmune.label>
+  <!-- EN: {0} impervious -->
+  <AddictionImmune.label>імунітет до залежності від {lookup: {0}; Case; 1}</AddictionImmune.label>
   <!-- EN: Carriers of this gene never get addicted to {0}. -->
-  <AddictionImmune.description>Носії цього гена ніколи не звикають до {0}.</AddictionImmune.description>
-  <!-- EN: {0}-immune -->
-  <AddictionImmune.labelShortAdj>{0}- імунітет</AddictionImmune.labelShortAdj>
+  <AddictionImmune.description>Носії цього гена ніколи не сформують залежність від {lookup: {0}; Case; 1}.</AddictionImmune.description>
+  <!-- EN: {0}-impervious -->
+  <AddictionImmune.labelShortAdj>{0}-імунність</AddictionImmune.labelShortAdj>
   
-  <!-- EN: {0} addict-resist -->
-  <AddictionResistant.label>{0} стійкий до наркотиків</AddictionResistant.label>
+  <!-- EN: {0} resistant -->
+  <AddictionResistant.label>стійкість до залежності від {lookup: {0}; Case; 1}</AddictionResistant.label>
   <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
-  <AddictionResistant.description>Носії вдвічі менше мають шанси стати залежними від {0}.</AddictionResistant.description>
+  <AddictionResistant.description>Носії цього гена мають вдвічі менші шанси сформувати залежність від {lookup: {0}; Case; 1}.</AddictionResistant.description>
   <!-- EN: {0}-resistant -->
-  <AddictionResistant.labelShortAdj>{0}- стійкість</AddictionResistant.labelShortAdj>
+  <AddictionResistant.labelShortAdj>{0}-стійкість</AddictionResistant.labelShortAdj>
   
   <!-- EN: poor {0} -->
-  <AptitudePoor.label>кепський {0}</AptitudePoor.label>
+  <AptitudePoor.label>погіршення {lookup: {0}; Case; 1}</AptitudePoor.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudePoor.description>Здібності носія в {0} зменшуються на 4. Здібність діє як компенсація рівня навичок.</AptitudePoor.description>
+  <AptitudePoor.description>Носії цього гена мають погіршення навички {lookup: {0}; Case; 1} на 4 рівня.</AptitudePoor.description>
   
   <!-- EN: great {0} -->
-  <AptitudeRemarkable.label>чудовий {0}</AptitudeRemarkable.label>
+  <AptitudeRemarkable.label>сильне покращення {lookup: {0}; Case; 1}</AptitudeRemarkable.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}. -->
-  <AptitudeRemarkable.description>Здібності носія в {0} збільшено на 8. Здібності діють як компенсація рівня навичок. Крім того, до {0} додається один рівень пристрасті.</AptitudeRemarkable.description>
+  <AptitudeRemarkable.description>Носії цього гена мають покращення навички {lookup: {0}; Case; 1} на 8 рівнів. Крім того, до {lookup: {0}; Case; 1} додається один рівень пристрасті.</AptitudeRemarkable.description>
   
   <!-- EN: strong {0} -->
-  <AptitudeStrong.label>сильний {0}</AptitudeStrong.label>
+  <AptitudeStrong.label>покращення {lookup: {0}; Case; 1}</AptitudeStrong.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudeStrong.description>Здібності носія в {0} збільшено на 4. Здібності діють як компенсація рівня навичок.</AptitudeStrong.description>
+  <AptitudeStrong.description>Носії цього гена мають покращення навички {lookup: {0}; Case; 1} на 4 рівня.</AptitudeStrong.description>
   
   <!-- EN: awful {0} -->
-  <AptitudeTerrible.label>жахливий {0}</AptitudeTerrible.label>
+  <AptitudeTerrible.label>сильне погіршення {lookup: {0}; Case; 1}</AptitudeTerrible.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 8. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}. -->
-  <AptitudeTerrible.description>Здібності носія в {0} зменшуються на 8. Здібності діють як компенсація рівня навичок. Крім того, {0} видаляє всю пристрасть.</AptitudeTerrible.description>
+  <AptitudeTerrible.description>Носії цього гена мають погіршення навички {lookup: {0}; Case; 1} на 8 рівнів. Крім того, втрачають пристрасть до цієї навички, якщо вона була.</AptitudeTerrible.description>
   
   <!-- EN: {0} dependency -->
-  <ChemicalDependency.label>{0} залежність</ChemicalDependency.label>
+  <ChemicalDependency.label>залежність від {lookup: {0}; Case; 1}</ChemicalDependency.label>
   <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
-  <ChemicalDependency.description>Носії цього гена повинні регулярно вживати {0}, щоб вижити. Після {DEFICIENCYDURATION} без {0} носії страждатимуть від дефіциту {0}. Після {COMADURATION} вони впадуть у кому. Через {DEATHDURATION} вони помруть.</ChemicalDependency.description>
+  <ChemicalDependency.description>Носії цього гена повинні регулярно вживати {lookup: {0}; Case; 3}, щоб вижити. Після {DEFICIENCYDURATION} без {lookup: {0}; Case; 1} носії страждатимуть від дефіциту. Після {COMADURATION} вони впадуть у кому. Через {DEATHDURATION} вони помруть.</ChemicalDependency.description>
   <!-- EN: {0}-dependent -->
   <ChemicalDependency.labelShortAdj>{0}-залежний</ChemicalDependency.labelShortAdj>
   

@@ -59,33 +59,33 @@
   <NamerIdeoGlobal.rulePack.rulesStrings>
     <li>r_ideoName->[keyDeity]ізм</li>
     <li>r_ideoName->[hyphenPrefix]-[keyDeity]ізм</li>
-    <li>r_ideoName->[keyDeity] [creed]</li>
     <li>r_ideoName->[creed] [keyDeity]</li>
     <li>r_ideoAdjective->[keyDeity]</li>
     <li>r_memberName->[keyDeity]іст</li>
     <li>r_memberName->[keyDeity]іт</li>
     <li>r_ideoName(p=6)->[packIdeoName]</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
-    <li>r_ideoName(p=2)->[memeAdjective] [creed]</li>
-    <li>r_ideoName(p=1)->[creed] of [packTheme]</li>
-    <li>r_ideoName(p=1)->[place_adjective] [creed]</li>
-    <li>r_ideoName(p=0.25)->The [memeCreed]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix][packIdeoNameStructure]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective_masc] [creed_masc]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective_fem] [creed_fem]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective_neutral] [creed_neutral]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective_plural] [creed_plural]</li>
+    <li>r_ideoName(p=1)->[creed] [packTheme]</li>
+    <li>r_ideoName(p=0.25)->[place_adjective_masc] [creed_masc]</li>
+    <li>r_ideoName(p=0.25)->[place_adjective_fem] [creed_fem]</li>
+    <li>r_ideoName(p=0.25)->[place_adjective_neutral] [creed_neutral]</li>
+    <li>r_ideoName(p=0.25)->[place_adjective_plural] [creed_plural]</li>
+    <li>r_ideoName(p=0.25)->[memeCreed]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
-    <li>creed(priority=1)->[memeCreed]</li>
-    <li>creed->[genericCreed]</li>
-    <li>genericCreed->creed</li>
-    <li>genericCreed->doctrine</li>
-    <li>genericCreed->way</li>
-    <li>genericCreed->path</li>
-    <li>hyphenPrefix->[globalHyphenPrefix]</li>
-    <li>hyphenPrefix->[memeHyphenPrefix]</li>
-    <li>globalHyphenPrefix(p=4)->neo</li>
-    <li>globalHyphenPrefix(p=2)->post</li>
-    <li>globalHyphenPrefix->nova</li>
-    <li>globalHyphenPrefix->archaeo</li>
-    <li>globalHyphenPrefix->hyper</li>
+    <li>creed->[creed_masc]</li>
+    <li>creed->[creed_fem]</li>
+    <li>creed->[creed_neutral]</li>
+    <li>creed->[creed_plural]</li>
+    <li>creed_masc(priority=1)->[memeCreed_masc]</li>
+    <li>creed_masc->[genericCreed_masc]</li>
+    <li>creed_fem(priority=1)->[memeCreed_fem]</li>
+    <li>creed_fem->[genericCreed_fem]</li>
   </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>
