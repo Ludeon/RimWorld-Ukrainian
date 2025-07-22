@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription(classicMode==True)->You've learned that a valuable relic is nearby.\n\nThe [relic_name] is one of [relicGlobalCount] ancient objects venerated by many people. If you could collect it, you could build a reliquary to make your colonists happy and attract wealthy pilgrims.</li>
     <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
@@ -26,18 +25,17 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->[huntAcc] [itemAcc]</li>
-    <li>questName->[huntGen] [itemGen]</li>
-    <li>questName->[itemAdjMasc] [itemMasc]</li>
-    <li>questName->[itemAdjFem] [itemFem]</li>
-    <li>questName(classicMode==False)->[item] {lookup: [ideo_name]; Case; 3}</li>
-    <li>huntAcc->полювання на</li>
-    <li>huntGen->пошук</li>
-    <li>huntGen->добути</li>
+    <li>questName->The [hunt] for the [item]</li>
+    <li>questName->The [itemAdj] [item]</li>
+    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
+    <li>hunt->hunt</li>
+    <li>hunt->search</li>
+    <li>hunt->quest</li>
     <li>item(p=4)->[relic_name]</li>
-    <li>item->реліквія</li>
-    <li>item->артефакт</li>
-    <li>itemGen(p=4)->[relic_name]</li>
+    <li>item->relic</li>
+    <li>item->artifact</li>
+    <li>itemAdj->ancient</li>
+    <li>itemAdj->revered</li>
+    <li>itemAdj->venerated</li>
   </RelicHunt.questNameRules.rulesStrings>
-  
 </LanguageData>

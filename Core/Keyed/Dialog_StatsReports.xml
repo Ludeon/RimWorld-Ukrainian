@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Tool -->
   <Tool>Частина</Tool>
   <!-- EN: damage -->
   <DamageLower>шкоди</DamageLower>
   <!-- EN: seconds per attack -->
   <SecondsPerAttackLower>секунд між атаками</SecondsPerAttackLower>
-
   <!-- EN: Base value -->
   <StatsReport_BaseValue>Базове значення</StatsReport_BaseValue>
   <!-- EN: Relevant traits -->
@@ -142,7 +140,8 @@
   <StatsReport_Ideoligion>Ідеологія</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Множник неправильного харчування {0}</StatsReport_Malnutrition>
-
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>Optimal room</StatsReport_OptimalRoom>
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Можливі модифікатори</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
@@ -161,7 +160,6 @@
   <StatsReport_NearbyArtificialStructures>Поруч штучні споруди</StatsReport_NearbyArtificialStructures>
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Задовольняє вимоги до титулу користувача</StatsReport_SatisfiesTitle>
-
   <!-- EN: Age -->
   <Stat_Age_Label>Вік</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
@@ -229,7 +227,7 @@
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
   <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Максимальна температура, яку може витримати ця рослина.\n\nТемператури вище цього рівня з часом завдають рослині шкоду.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
-  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Мінімальний рівень навички, необхідний фермеру для посіву цієї рослини.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Мінімальні навички, необхідні фермеру для того, щоб посіяти цю рослину.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
   <Stat_Race_Diet_Desc>Їжа, якою харчується ця істота.\n\nМоже їсти: {0}</Stat_Race_Diet_Desc>
   <!-- EN: The type of leather this creature will yield when butchered. -->
@@ -246,6 +244,14 @@
   <Stat_Race_RoamInterval_Desc>Як часто приручена тварина намагатиметься бродити за межі мапи.\n\nТварини розбрідаються тільки якщо мають прямий шлях до межі мапи. Ви можете використовувати огорожі, барикади, стіни та двері щоб цьому запобігти.\n\nТваринники можуть повернути їх до загону.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Реакція на споживання цієї речовини. Більші значення сильніше задовольняють потреби у розвагах.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>The weight of this creature and their equipment.</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>Base mass</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>Mass from equipment</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>Total mass</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Розмір тіла цієї істоти, порівняно з середньою дорослою людиною.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +266,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>Скорострільність зброї під час кожної черги.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Максимальна дальність пострілу.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>Range multiplier</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>Reduced from {ORIGINAL} to {CAP} by weather.</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Aiming time multiplier</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Радіус розльоту пострілів для цієї зброї.\n\nВелике значення говорить про те, що кулі частіше відхиляються від обраної цілі.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -396,7 +408,8 @@
   <Stat_Thing_TurretDesc>Встановлена зброя</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
   <Stat_Thing_Ingredients>Необхідні інгредієнти.</Stat_Thing_Ingredients>
-
+  <!-- EN: Working at this building will be slower if it's not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>Working at this building will be slower if it's not in this room type.</Stat_Building_OptimalRoom_Desc>
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>Активна речовина.\n\nВ деяких випадках, один і той самий хімікат присутній в різних препаратах. Ці препарати можуть задовільнити одну і ту саму залежність різними способами.</Stat_Thing_Drug_Chemical_Desc>
@@ -434,12 +447,10 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Як швидко зростає потреба у цьому хімікаті.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>Щоденна ціна прийому препарату, щоб підтримувати залежність від нього без викликання ломки.\n\nЦіна розраховується з показника задовільнення потреби від дози, швидкості її зниження, та ринкової вартості препарату.\n\nЗверніть увагу, що можуть існувати різні способи задовільнити потребу в одному хімікаті, проте в різних препаратах, за іншими цінами.</Stat_Thing_Drug_AddictionCost_Desc>
-
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>Стиль</Stat_Thing_StyleLabel>
   <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
   <Stat_Thing_StyleDesc>Стиль об'єкту визначає його зовнішній вигляд. Це ніяк не впливає не ігровий процес. Стилі часто формуються різними технологіями будівництва і людьми з різною вірою та культурою.</Stat_Thing_StyleDesc>
-
   <!-- EN: Gestation time -->
   <Stat_Animal_GestationTime>Термін вагітності</Stat_Animal_GestationTime>
   <!-- EN: The time this species takes to gestate its offspring or eggs. -->
@@ -536,19 +547,26 @@
   <Stat_Animal_WoolValuePerYear>Вартість вовни за рік</Stat_Animal_WoolValuePerYear>
   <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
   <Stat_Animal_WoolValuePerYearDesc>Ринкова вартість вовни, зібраної протягом року з цієї тварини.\n\nЦей показник розраховується на основі кількості вовни за рік та її ринкової вартості.</Stat_Animal_WoolValuePerYearDesc>
-
   <!-- EN: How much of the total possible study you have performed on this object. -->
   <Stat_Studiable_Desc>Як добре ви дослідили цей об'єкт.</Stat_Studiable_Desc>
-
   <!-- EN: Source -->
   <Stat_Source_Label>Походження</Stat_Source_Label>
   <!-- EN: This content came from the official expansion -->
   <Stat_Source_OfficialExpansionReport>Контент з офіційного розширення</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Контент з модифікації</Stat_Source_ModReport>
-
   <!-- EN: Contained book beauty -->
   <ContainedBookBeauty>Краса зберіганих книг</ContainedBookBeauty>
   <!-- EN: {0} hits -->
   <Stat_TrapDamageHitCount>Влучань: {0}</Stat_TrapDamageHitCount>
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>The amount of progress that has been made towards hacking this object.</Stat_Thing_HackingProgress>
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>Multiplier for {0} terrain</StatsReport_TerrainSpeedMultiplier>
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>{0} trained</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>Available training</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species.</StatsReport_AvailableTraining_Desc>
 </LanguageData>

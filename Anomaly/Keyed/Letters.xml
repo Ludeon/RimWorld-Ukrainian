@@ -1,294 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Inhumanization -->
   <!-- EN: Rehumanized -->
-  <ReHumanizedLabel>Регуманізований</ReHumanizedLabel>
+  <ReHumanizedLabel>Регуманізація</ReHumanizedLabel>
   <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
-  <ReHumanizedText>{0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed.</ReHumanizedText>
+  <ReHumanizedText>{0_nameDef} відновлює свій зв’язок із людством. "Нелюдський" стан здоров'я {0_nameDef} видалено.</ReHumanizedText>
   <!-- EN: Warning from {0_nameDef} -->
   <WarningFromLabel>Попередження від {0_nameDef}</WarningFromLabel>
-
   <!-- Hate chanters -->
   <!-- EN: Cultist hate chanters -->
-  <HateChantersLabel>Cultist hate chanters</HateChantersLabel>
+  <HateChantersLabel>Культисти-співаки ненависті</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
-  <HateChantersText>Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped.</HateChantersText>
+  <HateChantersText>Прибули культисти-співаки ненависті. Вони збираються виконати наспів ненависті, щоб змусити ваших колоністів відчувати сильну лють. Наспів буде все гучнішим, доки культисти не зупиняться.</HateChantersText>
   <!-- EN: Cultists attacking -->
-  <HateChantersAttackingLabel>Cultists attacking</HateChantersAttackingLabel>
-  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend. -->
-  <HateChantersAttackingText>The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend.</HateChantersAttackingText>
-
+  <HateChantersAttackingLabel>Культисти атакують</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
+  <HateChantersAttackingText>The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend.</HateChantersAttackingText>
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
-  <PsychicRitualCompleteLabel>{0} завершено</PsychicRitualCompleteLabel>
-
+  <PsychicRitualCompleteLabel>{lookup: {0}; Case; 3} завершено</PsychicRitualCompleteLabel>
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
-  <VoidProvocationCompletedText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities.</VoidProvocationCompletedText>
+  <VoidProvocationCompletedText>{INVOKER_nameDef} завершує проводити ритуал {lookup: {RITUAL_definite}; Case; 1}, надсилаючи психічний імпульс, що привабить сутностей.</VoidProvocationCompletedText>
   <!-- EN: Prepare for what comes next. -->
-  <VoidProvocationSucceeded>Prepare for what comes next.</VoidProvocationSucceeded>
+  <VoidProvocationSucceeded>Приготуйтесь до того, що буде далі.</VoidProvocationSucceeded>
   <!-- EN: Unfortunately, your call has been left unanswered. -->
-  <VoidProvocationFailed>Unfortunately, your call has been left unanswered.</VoidProvocationFailed>
+  <VoidProvocationFailed>На жаль, ваш заклик залишився без відповіді.</VoidProvocationFailed>
   <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
-  <VoidProvocationDarkPsychicShock>In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma.</VoidProvocationDarkPsychicShock>
+  <VoidProvocationDarkPsychicShock>У процесі {INVOKER_nameDef} бачить щось жахливе, за межами людського розуміння. Психічна темрява ввела {PAWN_possessive} у короткочасну кому.</VoidProvocationDarkPsychicShock>
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
-  <PhilophagyCompleteText>{INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}.</PhilophagyCompleteText>
+  <PhilophagyCompleteText>{INVOKER_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}, поглинаючи навички та спогади {TARGET_nameDef}.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>{0_nameDef} gained {1} XP in {2_label}</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef} отримує {1} од. досвіду {lookup: {2_label}; Case; 1}</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>{0_nameDef} lost {1} XP in {2_label}</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef} втрачає {1} од. досвіду {lookup: {2_label}; Case; 1}</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
-  <PhilophagySkillLevelGained>rising from skill level {0} to {1}.</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelGained>підвищення навичка з рівня {0} до {1}.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
-  <PhilophagySkillLevelLost>falling from skill level {0} to {1}.</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelLost>зниження навичка з рівня {0} до {1}.</PhilophagySkillLevelLost>
   <!-- EN: remaining at skill level {0}. -->
-  <PhilophagySkillLevelRemains>remaining at skill level {0}.</PhilophagySkillLevelRemains>
+  <PhilophagySkillLevelRemains>рівень навички залишиться {0}.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PhilophagyDamagedTarget>
-
+  <PhilophagyDamagedTarget>Процес пошкоджує мозок {TARGET_nameDef} та вводить {PAWN_possessive} у кому.</PhilophagyDamagedTarget>
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
-  <ImbueDeathRefuralCompleteText>{0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills.</ImbueDeathRefuralCompleteText>
-
+  <ImbueDeathRefuralCompleteText>{0_nameDef} приймає відмову від смерті. {0_pronoun} тепер може самостійно воскреснути після смерті.\n\nПроцес пошкодив мозок {0_nameDef}, через що {0_pronoun} втрачає {1} од. досвіду у {0_possessive} навичках.</ImbueDeathRefuralCompleteText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
-  <SummonAnimalsSuccessText>{0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly.</SummonAnimalsSuccessText>
+  <SummonAnimalsSuccessText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Незабаром очікуйте стадо тварин.</SummonAnimalsSuccessText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
-  <SummonAnimalsFailureText>{0_nameDef} завершив {RITUAL_definite} ритуал, але щось пішло не так! Ритуал приваблює заражених сказом тварин. Prepare for their arrival!</SummonAnimalsFailureText>
-  
+  <SummonAnimalsFailureText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}, але щось пішло не так! Ритуал привабив тварин, що вражені скаріозом. Приготуйтесь до їхнього прибуття!</SummonAnimalsFailureText>
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
-  <SummonShamblersCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival.</SummonShamblersCompleteText>
-
+  <SummonShamblersCompleteText>{0_nameDef} успішно завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Приготуйтесь до їхнього прибуття!</SummonShamblersCompleteText>
   <!-- EN: They are attacking from multiple directions. -->
-  <AttackingFromMultipleDirections>They are attacking from multiple directions.</AttackingFromMultipleDirections> 
-
+  <AttackingFromMultipleDirections>Вони нападуть з різних сторін.</AttackingFromMultipleDirections>
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
-  <ChronophagyCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects:</ChronophagyCompleteText>
+  <ChronophagyCompleteText>{0_nameDef} успішно завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Ритуал має наступні ефекти:</ChronophagyCompleteText>
   <!-- EN: {0_nameDef} aged {1} years -->
-  <ChronophagyTargetAged>{0_nameDef} aged {1} years</ChronophagyTargetAged>
+  <ChronophagyTargetAged>{0_nameDef} стає старше на {1} років</ChronophagyTargetAged>
   <!-- EN: {0_nameDef} became {1} years younger -->
-  <ChronophagyInvokerRejuvenated>{0_nameDef} became {1} years younger</ChronophagyInvokerRejuvenated>
+  <ChronophagyInvokerRejuvenated>{0_nameDef} стає молодше на {1} років</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
-  <ChronophagyTargetDiedOfOldAge>{0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age.</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} не може витримати ритуал хронофагії та померає через старість.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
-  <ChronophagyTargetOldAgeDiseases>While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions</ChronophagyTargetOldAgeDiseases>
+  <ChronophagyTargetOldAgeDiseases>Хоча {0_nameDef} і витримує ритуал, у {0_gender ? нього : неї} розвинулись наступні проблеми</ChronophagyTargetOldAgeDiseases>
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
-  <ChronophagyInvokerCuredDiseases>Additionally, the process has cured {0_nameDef} of the following ailments:</ChronophagyInvokerCuredDiseases>
+  <ChronophagyInvokerCuredDiseases>Крім того, цей процес вилікував {0_nameDef} від наступних захворювань:</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
-  <ChronophagyCurrentAge>and is now {0} years old</ChronophagyCurrentAge>
-
+  <ChronophagyCurrentAge>і тепер має вік {0} років</ChronophagyCurrentAge>
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
-  <PleasurePulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower.</PleasurePulseCompleteText>
-
+  <PleasurePulseCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Протягом наступних {1} усі, на кого вплинув {RITUAL_definite}, будуть щасливіші, але працюватимуть повільніше.</PleasurePulseCompleteText>
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
-  <NeurosisPulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable.</NeurosisPulseCompleteText>
-
+  <NeurosisPulseCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Протягом наступних {1} усі, хто dslxed svgekmc, працюватимуть швидше, але будуть більш дратівливими.</NeurosisPulseCompleteText>
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
-  <BloodRainCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk.</BloodRainCompleteText>
-
+  <BloodRainCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. З неба почали падати густі червоні краплі. Тримайте всіх в приміщенні, щоб не довести їх до стану люті.</BloodRainCompleteText>
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
-  <BrainwipeCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories.</BrainwipeCompleteText>
+  <BrainwipeCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}, хаотично стираючи спогади {TARGET_nameDef}.</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
-  <BrainwipeTargetComa>{TARGET_pronoun} will remain in a coma for {1}.</BrainwipeTargetComa>
+  <BrainwipeTargetComa>{TARGET_pronoun} буде у комі протягом {1}.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
-  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} is no longer unwaveringly loyal.</BrainwipeUnwaveringlyLoyal>
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} більше не непохитно {PAWN_gender ? відданий : віддана}</BrainwipeUnwaveringlyLoyal>
   <!-- EN: {TARGET_nameDef} has been re-humanized. -->
-  <BrainwipeRehumanized>{TARGET_nameDef} has been re-humanized.</BrainwipeRehumanized>
-
+  <BrainwipeRehumanized>{TARGET_nameDef} регуманізовано.</BrainwipeRehumanized>
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
-  <PsychophagyCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence.</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1} та поглинає психічну чутливість {TARGET_nameDef}.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>{TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PsychophagyTargetSurvived>
-  
+  <PsychophagyTargetSurvived>{TARGET_nameDef} тепер має психічну глухоту. Процес пошкодив мозок {TARGET_nameDef} та ввів {PAWN_possessive} у кому.</PsychophagyTargetSurvived>
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}.</PsychicRitualTargetBrainLiquified>
-
+  <PsychicRitualTargetBrainLiquified>Процес розрідив мозок {TARGET_nameDef}, убивши {PAWN_possessive}.</PsychicRitualTargetBrainLiquified>
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
-  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground!</SummonFleshbeastsPlayerCompleteText>
-
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Звірі плоті з'являються з-під землі!</SummonFleshbeastsPlayerCompleteText>
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>{INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. Якщо вони голодують, вони можуть стати ворожими.</GhoulInfusionCompleteText>
-  
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} закінчує накачувати {TARGET_nameDef} біоферритом. Ритуал спотворив розум {TARGET_nameDef} і мутував {TARGET_possessive} тіло, утворивши жахливу істоту, відому як гуль. {INVOKER_nameDef} має психічний зв’язок із {TARGET_nameDef}, що дозволяє {INVOKER_gender ? йому : їй} контролювати {TARGET_nameDef}.\n\nГулі їдять сире м’ясо, щоб вижити. Якщо вони голодують, то можуть стати ворожими.</GhoulInfusionCompleteText>
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
-  <AttackersMayCastRitualMultipleTimes>They might perform the ritual multiple times. Вам необхідно зупинити їх.</AttackersMayCastRitualMultipleTimes>
-
+  <AttackersMayCastRitualMultipleTimes>Вони можуть проводити ритуал кілька разів. Вам потрібно зупинити їх.</AttackersMayCastRitualMultipleTimes>
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma.</SkipAbductionPlayerCompleteText>
-
+  <SkipAbductionPlayerCompleteText>{0_nameDef} завершує ритуал {lookup: {RITUAL_definite}; Case; 1}. Маніпулюючи простором і часом, {INVOKER_nameDef} викрадає {TARGET_nameDef} із фракції {FACTION_name}. Жахлива природа ритуалу ввела {TARGET_nameDef} у короткочасну кому.</SkipAbductionPlayerCompleteText>
   <!-- EN: Fleshmass response -->
-  <FleshmassResponseLabel>Fleshmass response</FleshmassResponseLabel> 
+  <FleshmassResponseLabel>Відповідь м'ясної маси</FleshmassResponseLabel>
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself.</FleshmassResponseText> 
-
+  <FleshmassResponseText>Смерть м'ясної маси викликала бурхливу реакцію! Маса здригається та народжує нових звірів плоті, щоб захистити себе.</FleshmassResponseText>
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
-  <VoidAwakeningStageOneStructuresActivatedLabel>Dimming sky</VoidAwakeningStageOneStructuresActivatedLabel>
+  <VoidAwakeningStageOneStructuresActivatedLabel>Затемнене небо</VoidAwakeningStageOneStructuresActivatedLabel>
   <!-- EN: Structures activated -->
-  <VoidAwakeningStageTwoStructuresActivatedLabel>Structures activated</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Споруди активуються</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
-  <VoidAwakeningStageOneStructuresActivatedText>As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon.</VoidAwakeningStageOneStructuresActivatedText>
+  <VoidAwakeningStageOneStructuresActivatedText>Після активації другої споруди, темрява почала посилюватися. Скоро настане неприродна темрява. Переконайтеся, що ваша колонія підготовлена. Зберіть ресурси, подбайте про освітлення, створіть руйнівні фальшфеєри та зміцнюйте захист. Лише ті, хто на світлі, будуть у безпеці.\n\nНевдовзі з’явиться більше покручених споруд.</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
-  <VoidAwakeningStageTwoStructuresActivatedText>All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <VoidAwakeningStageTwoStructuresActivatedText>Усі споружи порожнечі активовані. Простір навколо моноліту порожнечі почав мерехтіти. Будьте готові.</VoidAwakeningStageTwoStructuresActivatedText>
   <!-- EN: {STUDIER_nameDef} teleported -->
-  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} teleported</VoidAwakeningFinalStructuresActivatedLabel> 
-  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence.</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} телепортовано</VoidAwakeningFinalStructuresActivatedLabel>
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence.</VoidAwakeningFinalStructuresActivatedText>
   <!-- EN: Shambler assault -->
-  <VoidAwakeningShamblerArrivalLabel>Shambler assault</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalLabel>Атака волокунів</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
-  <VoidAwakeningShamblerArrivalText>A horde of shamblers have been attracted by the void structures. Приготуйтеся!</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningShamblerArrivalText>Порожнеча привабила орду волокунів. Будьте готові!</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
-  <VoidAwakeningFleshbeastBurrowLabel>Fleshbeast tunneling</VoidAwakeningFleshbeastBurrowLabel>
+  <VoidAwakeningFleshbeastBurrowLabel>Тунель звірів плоті</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
-  <VoidAwakeningFleshbeastBurrowText>The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Приготуйтеся!</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningFleshbeastBurrowText>Моноліт генерує потужний психічний імпульс, який приваблює сутностей поблизу.\n\nПід землею можна почути м'ясисті верески та дряпання пазурів. Звірі плоті прокопують тунель до вас. Будьте готові!</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>Metalhorror attack</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>Атака металевих жахів</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>Metalhorrors are appearing near the void monolith. Приготуйтеся!</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>Поруч з монолітом порожнечі з'являються металеві жахи. Будьте готові!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
-  <VoidAwakeningEntityArrivalLabel>Entity attack</VoidAwakeningEntityArrivalLabel> 
+  <VoidAwakeningEntityArrivalLabel>Атака сутностей</VoidAwakeningEntityArrivalLabel>
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
-  <VoidAwakeningEntityArrivalText>The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Приготуйтеся!</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningEntityArrivalText>Активація споруди порожнечі породила спотворений психічний імпульс, який приваблює сутностей поблизу. Будьте готові!</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
-  <VoidAwakeningBreadcrumbLetterLabel>Прийміть порожнечу</VoidAwakeningBreadcrumbLetterLabel>
+  <VoidAwakeningBreadcrumbLetterLabel>Обійми порожнечі</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities.</VoidAwakeningBreadcrumbLetterText>
-
+  <VoidAwakeningBreadcrumbLetterText>Під час взаємодії зі спорудою порожнечі {PAWN_nameDef} бачить видіння порожнечі. На мить {PAWN_pronoun} пропливає чорним океаном нескінченної глибини та відчуває його нескінченну нелюдську силу.\n\n{PAWN_nameDef} вважає, що, можливо, є спосіб контролювати цю силу, обійнявши порожнечу. Якщо ви назавжди відкриєте канал до порожнечі, а не закриєте його, це може запропонувати незлічені можливості.</VoidAwakeningBreadcrumbLetterText>
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
-  <VoidNodeReturnedLabel>{PAWN_nameDef} returns</VoidNodeReturnedLabel>
+  <VoidNodeReturnedLabel>{PAWN_nameDef} повертається</VoidNodeReturnedLabel>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
-  <VoidNodeReturnedMessage>{PAWN_nameDef} has reappeared.</VoidNodeReturnedMessage>
+  <VoidNodeReturnedMessage>{PAWN_nameDef} з'являється знову</VoidNodeReturnedMessage>
   <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
-  <EmbracedVoidText>{PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent.</EmbracedVoidText>
+  <EmbracedVoidText>{PAWN_nameDef} з'являється знову.\n\n{PAWN_pronoun} виглядає {PAWN_gender ? виснаженим : виснаженим} нелюдськими моделями думок порожнечі. Усі сліди людяності залишили {PAWN_possessive} очі.\n\n Розум і тіло {PAWN_nameDef} тепер назавжди пов’язані з темною порожнечею нелюдської люті. Завдяки цьому новому з’єднанню {PAWN_nameDef} більше не відчуває необхідність до таких життєвих потреб, як комфорт чи сон. {PAWN_pronoun} отримує здатність наводити жах на інших, використовуючи силу порожнечі.\n\nМоноліт пробуджується. З повторною появою {PAWN_nameDef} він гуде голосніше, нагадуючи про те, що його зв’язок із порожнечею відкритий і тепер постійний.</EmbracedVoidText>
   <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
-  <DisruptedLinkText>{PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide.</DisruptedLinkText>
+  <DisruptedLinkText>{PAWN_nameDef} з'являється знову. {PAWN_pronoun} втомлюється від своїх зусиль, але в іншому виглядає нормально.\n\nЗакривши канал у порожнечу, {PAWN_nameDef} зупиняє будь-які неприродні явища, що намагались увійти в наш світ. Ворожі сутності у цій місцевості падають на землю без ознак життя.\n\nРозповіді про {PAWN_possessive} героїзм неодмінно поширяться на весь світ.</DisruptedLinkText>
   <!-- EN: fleshcrafting -->
-  <RewardFleshcraftingAbility>fleshcrafting</RewardFleshcraftingAbility>
+  <RewardFleshcraftingAbility>ремесло плоті</RewardFleshcraftingAbility>
   <!-- EN: slaughter -->
-  <RewardSlaughterAbility>slaughter</RewardSlaughterAbility>
+  <RewardSlaughterAbility>забій</RewardSlaughterAbility>
   <!-- EN: shambler control -->
-  <RewardShamblerControlAbility>shambler control</RewardShamblerControlAbility>
-
+  <RewardShamblerControlAbility>контроль волокунів</RewardShamblerControlAbility>
   <!-- Duplicate sickness -->
   <!-- EN: Duplicate sickness -->
-  <DuplicateSicknessLabel>Duplicate sickness</DuplicateSicknessLabel>
+  <DuplicateSicknessLabel>Хвороба дублювання</DuplicateSicknessLabel>
   <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
-  <DuplicateSicknessText>Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies.</DuplicateSicknessText>
-
+  <DuplicateSicknessText>Обидва, {0_nameDef} і {0_possessive} дублікат почуваються погано. Їхній стан, схоже, пов’язаний із процесом дублювання і він погіршується. Психічний зв'язок, який пов'язує їх, змушує їх повільно втрачати свідомість. Стан не покращиться, поки один із них не помре.</DuplicateSicknessText>
   <!-- Frenzied animals -->
   <!-- EN: Frenzied animals -->
-  <FrenziedAnimalsLabel>Frenzied animals</FrenziedAnimalsLabel>
+  <FrenziedAnimalsLabel>Розлючені тварини</FrenziedAnimalsLabel>
   <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
-  <FrenziedAnimalsText>A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them.</FrenziedAnimalsText>
-
+  <FrenziedAnimalsText>Зграя агресивних {lookup: {0}; Case; 1} увійшла у цю місцевість! Їх привернув ваш ритуал. Вони блукатимуть тут у пошуках людської плоті.\n\nВони не атакуватимуть двері, якщо не побачать, що хтось крізь двері проходить. Сховайтеся всередині, і будете у безпеці. Вони також не атакуватимуть вимкнені турелі, тому вимкніть їх, якщо не хочете провокувати тварин.\n\n{0} залишать територію через кілька днів. Ви можете сховатися і почекати цього або атакувати їх.</FrenziedAnimalsText>
   <!-- Ghouls -->
   <!-- EN: Ghoul betrayal -->
-  <GhoulBetrayalLabel>Ghoul betrayal</GhoulBetrayalLabel>
+  <GhoulBetrayalLabel>Зрада гуля</GhoulBetrayalLabel>
   <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
-  <GhoulBetrayalText>{PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat!</GhoulBetrayalText>
-  
+  <GhoulBetrayalText>{PAWN_nameDef} сильно розлючується через жагу до сирого м'яса!</GhoulBetrayalText>
   <!-- Distress signal -->
   <!-- EN: Distress signal -->
-  <DistressSignalLabel>Distress signal</DistressSignalLabel>
+  <DistressSignalLabel>Сигнал лиха</DistressSignalLabel>
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
-  <DistressSignalText>You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead.</DistressSignalText>
+  <DistressSignalText>Ви перехопили сигнал лиха з сусіднього табору фракції [faction_name].\n\nПанічний голос благав про негайну допомогу у захисті від загрози, і пропонував в якості нагороди усе, що можна знайти в їхньому таборі, включаючи нещодавно виявлені фрагменти архотехнологій усім, хто бажає прийти на допомогу.\n\nПоки промовець намагався пояснити природу загрози, сигнал зник.</DistressSignalText>
   <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>Засідка</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
-  <DistressSignalAmbushText>Fleshbeasts are emerging from a nearby pit burrow!</DistressSignalAmbushText>
-
+  <DistressSignalAmbushText>Звірі плоті з'являються з нір неподалік!</DistressSignalAmbushText>
   <!-- Chimeras -->
   <!-- EN: Chimeras approach -->
-  <ChimeraAssaultLabel>Chimeras approach</ChimeraAssaultLabel>
+  <ChimeraAssaultLabel>Наближення химер</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
-  <ChimeraAssaultText>A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked.</ChimeraAssaultText>
-
+  <ChimeraAssaultText>Поруч з’явилася група спотворених тварин - це химери.\n\nДеформовані звірі спостерігатимуть за вашою колонією та чекатимуть нагоди атакувати. Вони вередливі і можуть помститися, якщо їх спровокувати.</ChimeraAssaultText>
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
-  <DarknessLiftingEarlyLetterLabel>Darkness lifting</DarknessLiftingEarlyLetterLabel>
+  <DarknessLiftingEarlyLetterLabel>Темрява розсіюється</DarknessLiftingEarlyLetterLabel>
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
-  <DarknessLiftingEarlyLetterText>The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air.</DarknessLiftingEarlyLetterText>
+  <DarknessLiftingEarlyLetterText>Останній із кошмарних стовпів завалився. Неприродна темрява почала розсіюватися. Колоністи зітхають із полегшенням у більш чистому повітрі.</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
-  <PawnAttackedInDarknessLabel>{0_nameDef} attacked</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>{0_nameDef} атаковано</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
-  <PawnAttackedInDarknessText>Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light.</PawnAttackedInDarknessText>
+  <PawnAttackedInDarknessText>Щось у темряві атакувало {0_nameDef}!\n\nЦі атаки триватимуть, доки {0_pronoun} не опиниться в безпеці на світлі.</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
-  <NoctolAttackLetterLabel>Noctol attack</NoctolAttackLetterLabel>
+  <NoctolAttackLetterLabel>Атака ноктолів</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
-  <NoctolAttackLetterText>The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon.</NoctolAttackLetterText>
+  <NoctolAttackLetterText>Темрява почала ворушитися. Звідкись із темряви лунає нелюдське клекотіння.\n\nНевдовзі з темряви атакуватимуть чорні, схожі на комах, ноктоли.</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
-  <DarknessWarningLetterLabel>Darkness soon</DarknessWarningLetterLabel>
+  <DarknessWarningLetterLabel>Наближення темряви</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
-  <DarknessWarningLetterText>The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas.</DarknessWarningLetterText>
+  <DarknessWarningLetterText>Темрява майже тут. Лише ті, хто потрапляє під пряме світло від ламп, смолоскипів або фальшфеєрів будуть у безпеці.\n\nЩоб тримати колоністів у світлі, ви можете обмежити їх пересування на вкладці "Графік", призначивши дозволені зони.</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
-  <DarknessWaveringLetterLabel>Darkness wavering</DarknessWaveringLetterLabel>
+  <DarknessWaveringLetterLabel>Темрява коливається</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness.</DarknessWaveringLetterText>
-
+  <DarknessWaveringLetterText>З руйнуванням ноктоліти в темряві з’являється ледь помітна тріщина, яка потім заповнюється ще більш густою темрявою.\n\nЗнищіть решту ноктолітів, щоб покласти край неприродній темряві.</DarknessWaveringLetterText>
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
-  <LetterLabelShamblerSwarmArrived>Shamblers approach</LetterLabelShamblerSwarmArrived>
+  <LetterLabelShamblerSwarmArrived>Наближення волокунів</LetterLabelShamblerSwarmArrived>
   <!-- EN: Shambler approaches -->
-  <LetterLabelShamblerArrived>Shambler approaches</LetterLabelShamblerArrived>
+  <LetterLabelShamblerArrived>Наближення волокуна</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerSwarmArrived>A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge.</LetterShamblerSwarmArrived>
+  <LetterShamblerSwarmArrived>Наближається група з {0} гнилих трупів. Якась нелюдська сила реанімувала ці бездиханні тіла та налаштувала їх на вбивство.\n\nТепер вони блукатимуть цією місцевістю. Якщо вони побачать людину, то нападуть. Якщо ні, вони підуть через кілька днів.\n\nЯкщо ви зможете захопити одного з них, ви зможете вивчати його та отримувати знання про аномалії.</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
-  <LetterShamblerArrived>A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge.</LetterShamblerArrived>
+  <LetterShamblerArrived>Наближається волокун, гниючий труп. Якась нелюдська сила реанімувала це бездиханне тіло та налаштувала його на вбивство.\n\nТепер воно блукатиме цією місцевістю. Якщо воно побачить людину, воно нападе. Якщо ні, воно піде за кілька днів.\n\nЯкщо ви зможете його захопити, ви зможете вивчати його та отримувати знання про аномалії.</LetterShamblerArrived>
   <!-- EN: {ANIMALKIND_label} shamblers -->
-  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} shamblers</LetterLabelShamblerAnimalsArrived>
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} волокунів</LetterLabelShamblerAnimalsArrived>
   <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerAnimalsArrived>A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge.</LetterShamblerAnimalsArrived>
-
+  <LetterShamblerAnimalsArrived>Наближається група немертвих {lookup: {ANIMALKIND_label}; Case; 3}. Якась нелюдська сила реанімувала ці бездиханні тіла та налаштувала їх на вбивство.\n\nТепер вони блукатимуть цією місцевістю. Якщо вони побачать людину, то нападуть. Якщо ні, вони підуть через кілька днів.\n\nЯкщо ви зможете захопити одного з них, ви зможете вивчати його та отримувати знання про аномалії.</LetterShamblerAnimalsArrived>
   <!-- Ghoul pod crash -->
   <!-- EN: Transport pod crash -->
-  <GhoulPodCrashLabel>Transport pod crash</GhoulPodCrashLabel>
+  <GhoulPodCrashLabel>Падіння транспортної капсули</GhoulPodCrashLabel>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashText>A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes.</GhoulPodCrashText>
+  <GhoulPodCrashText>Транспортна капсула з ненажерливим ворожим гулем упала неподалік.\n\nНаразі гуль перебуває в стані шоку, але незабаром одужає й нападатиме на всіх, кого побачить. Його можна захопити та розмістити на платформі для подальшого вивчення.\n\nЗахопіть або вбийте його, перш ніж він прокинеться.</GhoulPodCrashText>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashStartingPawnText>A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes.</GhoulPodCrashStartingPawnText>
-
+  <GhoulPodCrashStartingPawnText>Транспортна капсула з ненажерливим ворожим гулем упала неподалік. При ближчому розгляді здається, що це {PAWN_nameDef}, попередній член вашої команди.\n\nНаразі гуль перебуває в стані шоку, але незабаром одужає й нападатиме на всіх, кого побачить. Його можна захопити та розмістити на платформі для подальшого вивчення.\n\nЗахопіть або вбийте його, перш ніж він прокинеться.</GhoulPodCrashStartingPawnText>
   <!-- Entity codex -->
   <!-- EN: New research available -->
-  <LetterLabelEntityDiscovery>New research available</LetterLabelEntityDiscovery>
+  <LetterLabelEntityDiscovery>Доступне нове дослідження</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects</LetterTextEntityDiscoveryResearch>
-
+  <LetterTextEntityDiscoveryResearch>Ваше відкриття {lookup: {ENTITY_definite}; Case; 1} дало нові знання. Тепер ви можете досліджувати наступні проекти Аномалій</LetterTextEntityDiscoveryResearch>
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
-  <NociosphereDefeatedLabel>Nociosphere defeated</NociosphereDefeatedLabel>
+  <NociosphereDefeatedLabel>Сферу ночі переможено</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
-  <NociosphereDefeatedText>The nociosphere has been destroyed, leaving behind a number of valuable resources.</NociosphereDefeatedText>
+  <NociosphereDefeatedText>Сферу ночі було знищено, вона залишила ряд цінних ресурсів.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
-  <NociosphereBecomingUnstableLabel>Nociosphere destabilising</NociosphereBecomingUnstableLabel> 
-  <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed.</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableLabel>Дестабілізація сфери ночі</NociosphereBecomingUnstableLabel>
+  <!-- EN: The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
+  <NociosphereBecomingUnstableText>The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed.</NociosphereBecomingUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereBecomingUnstableTextExtraSendable>Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart.</NociosphereBecomingUnstableTextExtraSendable>
+  <NociosphereBecomingUnstableTextExtraSendable>Позбутися сфери ночі, відправивши її атакувати потужну ворожу силу. Коли її натиск завершиться, вона назавжди відійде.</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
-  <NociosphereBecomingUnstableTextExtraNotSendable>Study the nociosphere to find a way to dispose of it.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <NociosphereBecomingUnstableTextExtraNotSendable>Вивчайте сферу ночі, щоб зрозуміти, як її позбутися.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
-  <NociosphereUnstableLabel>Nociosphere unstable</NociosphereUnstableLabel>
+  <NociosphereUnstableLabel>Сфера ночі нестабільна</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
-  <NociosphereUnstableText>The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken.</NociosphereUnstableText>
+  <NociosphereUnstableText>Сфера ночі стала нестабільною і більше не реагує на придушення. Коли її активність досягне 100%, вона активується.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereUnstableTextExtraSendable>Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart.</NociosphereUnstableTextExtraSendable> 
-  <!-- EN: Prepare for the nociosphere’s onslaught. -->
-  <NociosphereUnstableTextExtraNotSendable>Prepare for the nociosphere’s onslaught.</NociosphereUnstableTextExtraNotSendable>
-
+  <NociosphereUnstableTextExtraSendable>Позбутися сфери ночі, відправивши її атакувати потужну ворожу силу. Коли її натиск завершиться, вона назавжди відійде.</NociosphereUnstableTextExtraSendable>
+  <!-- EN: Prepare for the nociosphere's onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>Prepare for the nociosphere's onslaught.</NociosphereUnstableTextExtraNotSendable>
   <!-- EN: Strange corpse -->
-  <UnnaturalCorpseArrivalLabel>Strange corpse</UnnaturalCorpseArrivalLabel>
+  <UnnaturalCorpseArrivalLabel>Дивний труп</UnnaturalCorpseArrivalLabel>
   <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
-  <UnnaturalCorpseArrivalText>An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it.</UnnaturalCorpseArrivalText>
-
+  <UnnaturalCorpseArrivalText>Наче з повітря з’являється неприродний людський труп.\n\nПід час подальшого огляду виявлено, що труп виглядає ідентично до {PAWN_nameDef}. Його шкіра виглядає восковою та теплою на дотик.\n\nДосліджуйте труп, щоб дізнатися більше.</UnnaturalCorpseArrivalText>
   <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>Золотий куб</GoldenCubeArrivalLabel>
   <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
-  <GoldenCubeArrivalText>Дивний куб приземлився неподалік. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it.</GoldenCubeArrivalText>
-
+  <GoldenCubeArrivalText>Неподалік приземлився дивний куб. Він блищить, як золото, але його неможливо подряпати. Він легкий і теплий на дотик. Те, як світло грає на його поверхні, захоплює.\n\n{PAWN_nameDef} відчуває незрозумілу тягу до куба.\n\nДосліджуйте куб, щоб дізнатися про нього більше.</GoldenCubeArrivalText>
   <!-- EN: Void curiosity -->
-  <VoidCuriosityLabel>Void curiosity</VoidCuriosityLabel>
+  <VoidCuriosityLabel>Цікавість порожнечі</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef} починає зосереджуватися на порожнечі та хоче дослідити її за допомогою ритуалу провокації порожнечі.\n\nВикористовуйте ритуал провокації порожнечі, щоб виявити та захопити сутності. Захоплених сутностей можна вивчати, щоб завершити дослідницькі проекти аномалій, або до них можна підключити поглинач біоферриту для генерації біоферриту.\n\nРозмістіть місце психічного ритуалу, щоб виконати ритуал провокації порожнечі.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual.</VoidCuriosityText_NotResearched>
-
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} починає зосереджуватися на порожнечі та хоче дослідити її за допомогою ритуалу провокації порожнечі.\n\nВикористовуйте ритуал провокації порожнечі, щоб виявити та захопити сутності. Захоплених сутностей можна вивчати, щоб завершити дослідницькі проекти аномалій, або до них можна підключити поглинач біоферриту для генерації біоферриту.\n\nВивчить ритуал провокації порожнечі, а потім розмістіть місце психічного ритуалу, щоб виконати його.</VoidCuriosityText_NotResearched>
 </LanguageData>

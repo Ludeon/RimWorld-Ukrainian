@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: healed me -->
-  <HealedMe.label>healed me</HealedMe.label>
-  
+  <HealedMe.label>зцілення</HealedMe.label>
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>mutated my arm</MutatedMyArm.label>
-  
+  <MutatedMyArm.label>мутація руки</MutatedMyArm.label>
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>studied an entity</StudiedEntity.label>
+  <StudiedEntity.label>вивчення істоти</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -24,18 +21,17 @@
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
   <StudiedEntity.rulePack.rulesStrings>
-    <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
-    <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
-    <li>image->[STUDIER_nameFull] conducting experiments, seeking to understand the secrets of [ENTITY_nameDef], [circumstance_group]</li>
-    <li>image->[STUDIER_nameFull] striving to comprehend the nature of [ENTITY_nameDef] [circumstance_group]</li>
-    <li>circumstance_phrase->with barely concealed disgust in [STUDIER_possessive] eyes</li>
-    <li>circumstance_phrase->while scribbling in a notebook</li>
-    <li>circumstance_phrase->while consulting an ancient tome</li>
-    <li>desc_sentence->The steady work of bioferrite harvesters can be seen in the background.</li>
-    <li>desc_sentence->The colonist's deep fascination with [ENTITY_nameDef] is evident.</li>
-    <li>desc_sentence->[STUDIER_nameDef] is completely absorbed in [STUDIER_possessive] study of [ENTITY_nameDef], striving to unlock its secrets.</li>
-    <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
-    <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
+    <li>tale_noun->[STUDIER_nameDef] вивчає [ENTITY_nameIndef]</li>
+    <li>image->, як [STUDIER_nameFull] обережно вивчає [ENTITY_nameDef][circumstance_phrase]</li>
+    <li>image->, як [STUDIER_nameFull] проводить експерименти у спробах зрозуміти секрети [ENTITY_nameDef][circumstance_phrase]</li>
+    <li>image->, як [STUDIER_nameFull] намагається зрозуміти природу [ENTITY_nameDef][circumstance_phrase]</li>
+    <li>circumstance_phrase->. [STUDIER_nameFull] не може приховати огиду в своїх очах</li>
+    <li>circumstance_phrase-> та робить нотатки у свій ноутбук</li>
+    <li>circumstance_phrase->, паралельно переглядаючи старовинний фоліант</li>
+    <li>desc_sentence->На задньому плані видно стабільну роботу поглиначів біоферриту</li>
+    <li>desc_sentence->Глибоке захоплення колоніста {lookup: [ENTITY_nameDef]; Case; 4} очевидно</li>
+    <li>desc_sentence->[STUDIER_nameDef] повністю {STUDIER_gender ? поглинений : поглинена} своїм дослідженням {lookup: [ENTITY_nameDef]; Case; 1}, прагнучи розкрити його секрети</li>
+    <li>desc_sentence->[ENTITY_nameDef] утримується на місці лише безперервною роботою інгібіторів</li>
+    <li>desc_sentence->Здається, [ENTITY_nameDef] не реагує на зусилля [STUDIER_nameDef]</li>
   </StudiedEntity.rulePack.rulesStrings>
-  
 </LanguageData>

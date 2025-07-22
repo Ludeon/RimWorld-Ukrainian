@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed and medically tended en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
@@ -8,7 +7,7 @@
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
     <li>questDescription->[enemiesLabel] стали табором та атакують каравани фракції [asker_faction_name]. Табір охороняють [enemiesCount] {lookup: [enemiesLabel]; Case; 3}. [asker_nameDef] хоче надати вам [soldiers] для допомоги ти висадити, в якості десанту на околицях цього табору.\n\n[asker_pronoun] надішле шатл, щоб підібрати ваших бійців та доставити їх в місце призначення. В дорозі їх нагодують та, за потреби, нададуть медичний догляд.\n\nВи повинні будете знищити всіх ворогів та турелі протягом [timeoutTicks_duration].</li>
-    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] солдатів</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] солдата</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -30,20 +29,19 @@
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
-    <li>questName->[questNameInner] для [asker_nameDef]</li>
+    <li>questName->[asker_nameDef]'s [questNameInner]</li>
     <li>questNameInner->[aerial] [attack]</li>
-    <li>questNameInner->[attack] [target]</li>
-    <li>questNameInner->[aerial] [attack] [target]</li>
-    <li>target->бази</li>
-    <li>target->табору</li>
-    <li>target->форпосту</li>
-    <li>aerial->повітряний</li>
-    <li>aerial->небесний</li>
-    <li>attack->рейд</li>
-    <li>attack->штурм</li>
+    <li>questNameInner->[target] [attack]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->camp</li>
+    <li>target->base</li>
+    <li>target->fort</li>
+    <li>aerial->aerial</li>
+    <li>aerial->air</li>
+    <li>aerial->shuttle-borne</li>
+    <li>attack->attack</li>
     <li>attack->assault</li>
     <li>work->work</li>
     <li>work->job</li>
   </Mission_BanditCamp.questNameRules.rulesStrings>
-  
 </LanguageData>

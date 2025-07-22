@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
@@ -10,23 +9,21 @@
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
   <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>r_art_description->[physical_description_root]. [maybe_artextra] [context_sentence]</li>
-    <li>desc_sentence_group->[desc_sentence]. [style_group]</li>
-    <li>context_sentence->ця робота [depicts], як [tale_noun] [DATE].</li>
-    <li>context_sentence->цей витвір [depicts], як [tale_noun] [DATE].</li>
-    <li>maybe_artextra(p=10)-></li>
-    <li>maybe_artextra->[artextra_clause].</li>
+    <li>r_art_description->[physical_description_root] [context_sentence]</li>
+    <li>circumstance_group->[circumstance_phrase]</li>
+    <li>desc_sentence_group->[desc_sentence] [style_group]</li>
+    <li>context_sentence->[depiction] розповідає, як [tale_noun] [DATE].</li>
+    <li>context_sentence->[depiction] стосується того, як [tale_noun] [DATE].</li>
+    <li>context_sentence->[depiction] розповідає історію, як [tale_noun] [DATE].</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_art_description->[physical_description_root]</li>
     <li>desc_sentence_group->[style_group]</li>
   -->
   <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-    <li>r_art_description->[physical_description_root] [maybe_artextra]</li>
-    <li>desc_sentence_group->[style_group].</li>
+    <li>r_art_description->[physical_description_root]</li>
+    <li>desc_sentence_group->[style_group]</li>
   </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>style_group->[artextra_clause]. [style_clause].</li>
     <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
@@ -51,14 +48,14 @@
     <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
     <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
     <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->a [pawn_adj] [Character] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]s appear [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position]</li>
     <li>artextra_clause->a [Animal] [idles] [side_position]</li>
     <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-    <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
-    <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->the [emotional_expression] head of a [pawn_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->a [pawn_adj] [PersonJob] watches over all while [emotional_expression]</li>
+    <li>artextra_clause->the head of a [pawn_adj] [PersonJob] watches over all</li>
     <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -201,177 +198,176 @@
     <li>artstyle_adj->heartfelt</li>
   -->
   <ArtDescriptionUtility_Global.rulePack.rulesStrings>
-    <li>style_group->[artextra_clause]. [style_clause]</li>
-    <li>style_group->[artextra_clause]. [artconjunction] [style_clause]</li>
-    <li>style_group->[style_clause]</li>
-    <li>style_group->[artextra_clause]</li>
-    <li>artconjunction->Як цікавий контраст,</li>
-    <li>artconjunction->На додаток до цього,</li>
-    <li>artconjunction->Провокаційно,</li>
-    <li>artconjunction->Незвично для такого роду робіт,</li>
-    <li>artconjunction->Хоча мало хто очікував би цього,</li>
-    <li>artconjunction->Крім того,</li>
-    <li>artextra_clause->на краю зображення є [subimageplural]</li>
-    <li>artextra_clause->тут є [subimagesingle] [side_position]</li>
-    <li>artextra_clause->на передньому плані - [subimageany]</li>
-    <li>artextra_clause->у нижній частині зображення переважає [subimageany]</li>
-    <li>artextra_clause->сцена відбувається в центрі [CommunityGen]</li>
-    <li>artextra_clause->сцена відбувається на околицях [CommunityGen]</li>
-    <li>artextra_clause->сцена відбувається всередині [CommunityGen], що базується біля [TerrainFeatureGen]</li>
-    <li>artextra_clause->локацією служить [TreeTypeAdj] ліс</li>
-    <li>artextra_clause->локацією служить [TreeTypeAdj] ліс біля [TerrainFeatureGen]</li>
-    <li>artextra_clause->[side_position] [idles] [Character]</li>
-    <li>artextra_clause->[adj] [CharacterMasc] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [CharacterPluGen] з'являються [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adjPluGen] [CharacterPluGen] з'являються [side_position]</li>
-    <li>artextra_clause->[side_position] [idles] [Animal]</li>
-    <li>artextra_clause->якщо ви прижмурите очі - можна побачити [subimageAlmostany]</li>
-    <li>artextra_clause->[adj] [PersonJobMasc] [emotional_expression] [AndLook]</li>
-    <li>artextra_clause->[PersonJob] [emotional_expression] [AndLook]</li>
-    <li>artextra_clause->поруч стоїть [adj] [PersonJobMasc] [AndLook]</li>
-    <li>artextra_clause->[subimageplural] ретельно розташовані, щоб створити цей образ</li>
-    <li>AndLook->та спостерігає за всіма</li>
-    <li>AndLook->та спостерігає здалеку</li>
-    <li>AndLook->та спостерігає за цим всім</li>
-    <li>AndLook->та милується краєвидом</li>
+    <li>style_group->[artextra_clause]. [style_clause].</li>
+    <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
+    <li>style_group->[style_clause].</li>
+    <li>style_group->[artextra_clause].</li>
+    <li>style_group-></li>
+    <li>artconjunction(p=6)-></li>
+    <li>artconjunction->as an interesting contrast,</li>
+    <li>artconjunction->rounding out the work,</li>
+    <li>artconjunction->in addition to that,</li>
+    <li>artconjunction->strikingly,</li>
+    <li>artconjunction->provocatively,</li>
+    <li>artconjunction->unusually for this kind of work,</li>
+    <li>artconjunction->though few would expect it,</li>
+    <li>artconjunction->besides that,</li>
+    <li>artextra_clause->зображення облямоване [subimageplural]</li>
+    <li>artextra_clause->at the edge of the image are [subimageplural]</li>
+    <li>artextra_clause->there is [subimagesingle] [side_position]</li>
+    <li>artextra_clause->the subjects are in front of [subimageany]</li>
+    <li>artextra_clause->the lower part of the image is dominated by [subimageany]</li>
+    <li>artextra_clause->the scene takes place in the middle of a [Community]</li>
+    <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
+    <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
+    <li>artextra_clause->a [Character] [idles] [side_position]</li>
+    <li>artextra_clause->a [pawn_adj] [Character] [idles] [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position]</li>
+    <li>artextra_clause->a [Animal] [idles] [side_position]</li>
+    <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
+    <li>artextra_clause->the [emotional_expression] head of a [pawn_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->a [pawn_adj] [PersonJob] watches over all while [emotional_expression]</li>
+    <li>artextra_clause->the head of a [pawn_adj] [PersonJob] watches over all</li>
+    <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
-    <li>subimageAlmostany->[subimagesinglespesial]</li>
-    <li>subimageAlmostany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->[Character]</li>
-    <li>subimagesingle->[TerrainFeature]</li>
-    <li>subimagesingle->[Community]</li>
-    <li>subimagesingle->[TreeType]</li>
-    <li>subimagesingle->[Vegetable]</li>
-    <li>subimagesinglespesial(p=4)->[CharacterAcc]</li>
-    <li>subimagesinglespesial->[TerrainFeatureAcc]</li>
-    <li>subimagesinglespesial->[Community]</li>
-    <li>subimagesinglespesial->[TreeTypeAcc]</li>
-    <li>subimagesinglespesial->[VegetableAcc]</li>
-    <li>subimageplural->[AnimalGroup] [AnimalPluGen]</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [CharacterPluGen]</li>
-    <li>subimageplural->[Quantity_adjphrase] [VegetablePluGen]</li>
-    <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
-    <li>adj->[AdjectiveAny]</li>
-    <li>adj->[pawn_adj]</li>
-    <li>pawn_adj->вмираючий</li>
-    <li>pawn_adj->поранений</li>
-    <li>pawn_adj->сплячий</li>
-    <li>pawn_adj->сонний</li>
-    <li>pawn_adj->божевільний</li>
-    <li>pawn_adj->молодий</li>
-    <li>pawn_adj->старий</li>
-    <li>pawn_adj->покритий [GoreAbl]</li>
-    <li>pawn_adj->брудний</li>
-    <li>pawn_adj->одягнений в [ApparelAcc]</li>
-    <li>pawn_adj->тримаючи [HisWeapon],</li>
-    <li>pawn_adj->тримаючи [Vegetable],</li>
-    <li>PAWN_adjPluGen->вмираючих</li>
-    <li>PAWN_adjPluGen->поранених</li>
-    <li>PAWN_adjPluGen->сплячих</li>
-    <li>PAWN_adjPluGen->сонних</li>
-    <li>PAWN_adjPluGen->божевільних</li>
-    <li>PAWN_adjPluGen->молодих</li>
-    <li>PAWN_adjPluGen->старих</li>
-    <li>PAWN_adjPluGen->покритих [GoreAbl]</li>
-    <li>PAWN_adjPluGen->брудних</li>
-    <li>PAWN_adjPluGen->одягнених в [ApparelAcc]</li>
-    <li>PAWN_adjPluGen->тримаючих [HisWeapon]</li>
-    <li>PAWN_adjPluGen->тримаючих [VegetablePlu]</li>
-    <li>emotional_expression->посміхається</li>
-    <li>emotional_expression->насупується</li>
-    <li>emotional_expression->хмуриться</li>
-    <li>emotional_expression->сміється</li>
-    <li>emotional_expression->плаче</li>
-    <li>emotional_expression->кричить</li>
-    <li>emotional_expression->радіє</li>
-    <li>idles->сидить</li>
-    <li>idles->обідає</li>
-    <li>idles->лежить</li>
-    <li>idles->пробігає</li>
-    <li>idles->стоїть</li>
-    <li>idles->чекає</li>
-    <li>idles->посміхається</li>
-    <li>idles->пролітає</li>
-    <li>idles->позує</li>
-    <li>idles->з'являється</li>
-    <li>idles->показується</li>
-    <li>idles->ховається</li>
-    <li>idles->плаває</li>
-    <li>side_position->збоку</li>
-    <li>side_position->на задньому плані</li>
-    <li>side_position->на відстані</li>
-    <li>side_position->у нижній частині твору</li>
-    <li>side_position->у верхній частині твору</li>
-    <li>side_position->зліва від основної сцени</li>
-    <li>side_position->праворуч від основної сцени</li>
-    <li>side_position->біля краю зображення</li>
-    <li>side_position->біля головної теми</li>
-    <li>side_position->далеко від основної теми</li>
-    <li>side_position->під основною темою</li>
-    <li>side_position->за точкою фокусу</li>
-    <li>style_clause(p=4)->робота[symbolizes] [ConceptAny]</li>
-    <li>artextra_clause->[subimagesingle] [side_position][symbolizes] [ConceptAny]</li>
-    <li>artextra_clause->[subimageplural] [side_position][symbolizesPlu] [ConceptAny]</li>
-    <li>style_clause->робота виведена в ідею [ConceptAnyGen] і має [artstyle_adj] стиль</li>
-    <li>style_clause->робота має [artstyle_adj] стиль</li>
-    <li>style_clause->[artstyle_adj] стиль переднього плану конфліктує з [Whatartstyle_adj] елементами фону</li>
-    <li>style_clause->робота має [artstyle_adj] стиль і [composition] структуру</li>
-    <li>style_clause->загальна композиція має [composition] структуру</li>
-    <li>style_clause->робота має [artstyle_adj] стиль з [Whatartstyle_adj] елементами</li>
-    <li>style_clause->зображення якимось чином виражає як ідею [ConceptAnyGen], так і ідею [ConceptAnyGen]</li>
-    <li>style_clause->робота має контраст [ConceptAnyGen] та [ConceptAnyGen]</li>
-    <li>style_clause->робота має [composition] структуру зображення та [artstyle_adj] стиль, вони майже не суперечать один одному</li>
-    <li>style_clause->робота містить [ColorAny] і [ColorAny] кольори та їхні відтінки</li>
-    <li>style_clause->здається, що майже кожна фігура має [composition] форму</li>
-    <li>symbolizes-> символізує</li>
-    <li>symbolizes->, ніби, символізує</li>
-    <li>symbolizes-> представляє</li>
-    <li>symbolizes->, здається, представляє</li>
-    <li>symbolizes->, здається, виражає</li>
-    <li>symbolizes-> нагадує глядачу про</li>
-    <li>symbolizes-> змушує глядача думати про</li>
-    <li>symbolizesPlu-> символізують</li>
-    <li>symbolizesPlu->, ніби, символізують</li>
-    <li>symbolizesPlu-> представляють</li>
-    <li>symbolizesPlu->, здається, представляють</li>
-    <li>symbolizesPlu->, здається, виражають</li>
-    <li>symbolizesPlu-> нагадують глядачу про</li>
-    <li>symbolizesPlu-> змушують глядача думати про</li>
-    <li>depicts->зображує</li>
-    <li>depicts->показує</li>
-    <li>depicts->відображає</li>
-    <li>depicts->зображує</li>
-    <li>depicts->ілюструє</li>
-    <li>composition->трикутну</li>
-    <li>composition->прямокутну</li>
-    <li>composition->квадратну</li>
-    <li>composition->незбалансовану</li>
-    <li>composition->добре збалансовану</li>
-    <li>composition->динамічну</li>
-    <li>composition->статистичну</li>
-    <li>composition->вертикальну</li>
-    <li>composition->горизонтальну</li>
-    <li>composition->сюрреалістичну</li>
-    <li>composition->гіперреалістичну</li>
-    <li>composition->просту</li>
-    <li>artstyle_adj->неоригінальний</li>
-    <li>artstyle_adj->простий</li>
-    <li>artstyle_adj->складний та реалістичний</li>
-    <li>artstyle_adj->сюреалістичний</li>
-    <li>artstyle_adj->класичний</li>
-    <li>artstyle_adj->сучасний</li>
-    <li>artstyle_adj->символічний</li>
-    <li>artstyle_adj->дилетантський, але привабливий</li>
-    <li>artstyle_adj->деталізований</li>
-    <li>artstyle_adj->блочний</li>
-    <li>artstyle_adj->кубічний</li>
-    <li>artstyle_adj->імпресіоністичний</li>
-    <li>artstyle_adj->експресіоністичний</li>
-    <li>artstyle_adj->фотографічний</li>
-    <li>artstyle_adj->дадаїстський</li>
-    <li>artstyle_adj->піксельний</li>
-    <li>artstyle_adj->фовістський</li>
+    <li>subimagesingle(p=4)->a [Character]</li>
+    <li>subimagesingle->a [TerrainFeature]</li>
+    <li>subimagesingle->a [Community]</li>
+    <li>subimagesingle->a [TreeType] tree</li>
+    <li>subimagesingle->a [Vegetable]</li>
+    <li>subimagesingle->a [AnimalGroup] of [Animal]s</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->{lookup: [Quantity_adjphrase]; Quantity; 4} {lookup: [Shape]; Nouns; 1-10}</li>
+    <li>pawn_adj->dead</li>
+    <li>pawn_adj->dying</li>
+    <li>pawn_adj->injured</li>
+    <li>pawn_adj->sleeping</li>
+    <li>pawn_adj->standing</li>
+    <li>pawn_adj->sitting</li>
+    <li>pawn_adj->crazy</li>
+    <li>pawn_adj->young</li>
+    <li>pawn_adj->old</li>
+    <li>pawn_adj->[Gore]-covered</li>
+    <li>pawn_adj->filthy</li>
+    <li>pawn_adj->[Apparel]-wearing</li>
+    <li>pawn_adj->[Weapon]-wielding</li>
+    <li>pawn_adj->[Vegetable]-eating</li>
+    <li>emotional_expression->smiling</li>
+    <li>emotional_expression->frowning</li>
+    <li>emotional_expression->scowling</li>
+    <li>emotional_expression->laughing</li>
+    <li>emotional_expression->staring</li>
+    <li>emotional_expression->crying</li>
+    <li>emotional_expression->screaming</li>
+    <li>emotional_expression->overjoyed</li>
+    <li>idles->sits</li>
+    <li>idles->stands</li>
+    <li>idles->waits</li>
+    <li>idles->smiles</li>
+    <li>idles->lies</li>
+    <li>idles->poses</li>
+    <li>idles->appears</li>
+    <li>idles->is shown</li>
+    <li>idles->fades in</li>
+    <li>idles->floats</li>
+    <li>side_position->off to one side</li>
+    <li>side_position->in the background</li>
+    <li>side_position->in the distance</li>
+    <li>side_position->in the lower part of the image</li>
+    <li>side_position->in the upper part of the image</li>
+    <li>side_position->to the left of the main scene</li>
+    <li>side_position->to the right of the main scene</li>
+    <li>side_position->near the edge of the image</li>
+    <li>side_position->near the main subject</li>
+    <li>side_position->far from the main subject</li>
+    <li>side_position->beneath the main subject</li>
+    <li>side_position->behind the focal point</li>
+    <li>style_clause(p=4)->the work [symbolizes] [ConceptAny]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>style_clause->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
+    <li>style_clause->the work is executed in a [artstyle_adj] style</li>
+    <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
+    <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
+    <li>style_clause->the overall composition is [composition]</li>
+    <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
+    <li>style_clause->the image somehow expresses both [ConceptAny] and [ConceptAny]</li>
+    <li>style_clause->the image contrasts [ConceptAny] with [ConceptAny]</li>
+    <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
+    <li>style_clause->the work is shaded in hues of [Color] and [Color]</li>
+    <li>style_clause->almost every shape in the image seems to be [composition]</li>
+    <li>symbolizes->symbolizes</li>
+    <li>symbolizes->seems to symbolize</li>
+    <li>symbolizes->represents</li>
+    <li>symbolizes->seems to represent</li>
+    <li>symbolizes->seems to express</li>
+    <li>symbolizes->reminds the viewer of</li>
+    <li>symbolizes->conveys the emotions of</li>
+    <li>symbolizes->makes the viewer think of</li>
+    <li>symbolizes->represents the artist's</li>
+    <li>symbolizes->suggests the concept of</li>
+    <li>depicts->depicts</li>
+    <li>depicts->shows</li>
+    <li>depicts->portrays</li>
+    <li>depicts->resembles</li>
+    <li>depicts->illustrates</li>
+    <li>depicts->represents</li>
+    <li>depicts->is shaped like</li>
+    <li>depiction->картина</li>
+    <li>depiction->зображення</li>
+    <li>depiction->образ</li>
+    <li>depiction->репрезентація</li>
+    <li>depiction->ілюстрація</li>
+    <li>depiction->твір мистецтва</li>
+    <li>composition->triangular</li>
+    <li>composition->rectangular</li>
+    <li>composition->square</li>
+    <li>composition->unbalanced</li>
+    <li>composition->well-balanced</li>
+    <li>composition->dynamic</li>
+    <li>composition->static</li>
+    <li>composition->vertical</li>
+    <li>composition->horizontal</li>
+    <li>composition->focused</li>
+    <li>artstyle_adj->unoriginal</li>
+    <li>artstyle_adj->simple</li>
+    <li>artstyle_adj->complex and realistic</li>
+    <li>artstyle_adj->surrealistic</li>
+    <li>artstyle_adj->classical</li>
+    <li>artstyle_adj->modern</li>
+    <li>artstyle_adj->symbolic</li>
+    <li>artstyle_adj->amateurish yet attractive</li>
+    <li>artstyle_adj->detail-oriented</li>
+    <li>artstyle_adj->blocky</li>
+    <li>artstyle_adj->cubist</li>
+    <li>artstyle_adj->impressionistic</li>
+    <li>artstyle_adj->expressionistic</li>
+    <li>artstyle_adj->photographic</li>
+    <li>artstyle_adj->baroque</li>
+    <li>artstyle_adj->dadaist</li>
+    <li>artstyle_adj->glitch-art</li>
+    <li>artstyle_adj->pixelated</li>
+    <li>artstyle_adj->fauvist</li>
+    <li>artstyle_adj->folksy</li>
+    <li>artstyle_adj->figurative</li>
+    <li>artstyle_adj->sinuous</li>
+    <li>artstyle_adj->geometric</li>
+    <li>artstyle_adj->abstract</li>
+    <li>artstyle_adj->hyper-realistic</li>
+    <li>artstyle_adj->pop art</li>
+    <li>artstyle_adj->minimalistic</li>
+    <li>artstyle_adj->neoclassical</li>
+    <li>artstyle_adj->cel-shaded</li>
+    <li>artstyle_adj->post-impressionistic</li>
+    <li>artstyle_adj->purist</li>
+    <li>artstyle_adj->rococo</li>
+    <li>artstyle_adj->romanesque</li>
+    <li>artstyle_adj->romantic</li>
+    <li>artstyle_adj->graffiti-like</li>
+    <li>artstyle_adj->erotic</li>
+    <li>artstyle_adj->sensual</li>
+    <li>artstyle_adj->heartfelt</li>
   </ArtDescriptionUtility_Global.rulePack.rulesStrings>
-  
 </LanguageData>

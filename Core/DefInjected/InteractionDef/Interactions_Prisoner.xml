@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: try to get to know -->
   <BuildRapport.label>спроба налагодити контакт</BuildRapport.label>
   <!-- EN:
@@ -40,13 +39,13 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [talkabout] [toldastoryabout] [subject] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkabout] [RECIPIENT_nameDef] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] просить [RECIPIENT_nameDef] розповісти [toldastoryabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] просить [RECIPIENT_nameDef] розповісти [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] дізнатися [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] робить комплімент [RECIPIENT_nameDef] про [RECIPIENT_possessive] [PersonalCharacteristics].</li>
-    <li>r_logentry->[INITIATOR_nameDef] запитує [RECIPIENT_nameDef] про [RECIPIENT_possessive] [PersonalCharacteristics].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkabout] [toldastoryabout] про [subject] з [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] розповів [RECIPIENT_nameDef] про [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] описав [subject] для [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] заохочується [RECIPIENT_nameDef] описати [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] запропонував шанс для [RECIPIENT_nameDef] розповісти про [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] висловили зацікавленість про [RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}.</li>
+    <li>r_logentry->[INITIATOR_nameDef] питає [RECIPIENT_nameDef] про [RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}.</li>
     <li>toldastoryabout(p=2)->історію</li>
     <li>toldastoryabout->кумедну історію</li>
     <li>toldastoryabout->зворушливу історію</li>
@@ -56,26 +55,25 @@
     <li>toldastoryabout->анекдот</li>
     <li>talkabout->розповідає</li>
     <li>talkabout->говорить</li>
-    <li>talkabout->запитує</li>
+    <li>talkabout->подискутував</li>
+    <li>talkabout->питає</li>
     <li>talkabout->згадує</li>
-    <li>subject->про колонію</li>
-    <li>subject->про населення</li>
-    <li>subject->про вступ до колонії</li>
-    <li>subject->про нову команду</li>
-    <li>subject->про нових друзів</li>
-    <li>subject->про нові знайомства</li>
-    <li>subject->про переосмислення своїх ідей</li>
-    <li>subject->про переосмислення своїх цінностей</li>
+    <li>talkabout->запитує</li>
+    <li>subject->колонію</li>
+    <li>subject->громаду</li>
+    <li>subject->вступ до колонії</li>
+    <li>subject->зміну команд</li>
+    <li>subject->пошук друзів</li>
+    <li>subject->знайомство з новими людьми</li>
+    <li>subject->переосмислення [RECIPIENT_possessive] ідей</li>
+    <li>subject->переосмислення [RECIPIENT_possessive] лояльності</li>
     <li>subject->про здоров'я</li>
     <li>subject->про майбутнє</li>
     <li>subject->про свободу</li>
-    <li>subject(p=4)->про [ConceptPositiveGen]</li>
-    <li>subject(p=2)->про [RECIPIENT_possessive] [PersonalCharacteristic]</li>
-    <li>subject(p=8)->[TalkTopicLight]</li>
-    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
+    <li>subject(p=4)->{lookup: [ConceptPositive]; Nouns; 3}</li>
+    <li>subject(p=2)->[RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
-  
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>спроба вербування</RecruitAttempt.label>
   <!-- EN:
@@ -87,10 +85,9 @@
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] приєднатися.</li>
     <li>r_logentry->[INITIATOR_nameDef] обіцяє [RECIPIENT_nameDef] [goodthing], і пропонує [RECIPIENT_objective] приєднатися.</li>
-    <li>goodthing(p=15)->[ConceptPositiveGen]</li>
-    <li>goodthing->безкоштовну, свіжу страву з [VegetableGen]</li>
+    <li>goodthing(p=15)->{lookup: [ConceptPositive]; Nouns; 3}</li>
+    <li>goodthing->безплатні, свіжі {lookup: [Vegetable]; Nouns; 9}</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
-  
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>спроба втечі</SparkJailbreak.label>
   <!-- EN:
@@ -105,13 +102,12 @@
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] говорить про [freedom], і пропонує спосіб порятунку.</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповідає про красу [TerrainFeatureGen] і пропонує свободу.</li>
-    <li>r_logentry->[INITIATOR_nameDef] показує [RECIPIENT_nameDef] способи порятунку і обіцяє [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] розповідає про красу {lookup: [TerrainFeature]; Nouns; 7} і пропонує свободу.</li>
+    <li>r_logentry->[INITIATOR_nameDef] показує [RECIPIENT_nameDef] способи порятунку та обіцяє [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] розповідає [RECIPIENT_nameDef], що охорона слабка, і пропонує втечу.</li>
     <li>freedom->свободу</li>
     <li>freedom->можливості</li>
     <li>freedom->дім</li>
     <li>freedom->самовизначення</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
-  
 </LanguageData>

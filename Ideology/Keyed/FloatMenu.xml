@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>Ідеологія забороняє</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
   <OnlyMembersCanBuild>Будувати можуть тільки {0}</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} вже у процесі.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>{RITUAL} cannot be performed {GERUND} {LAYER}.</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>Мінімум один з учасників не може приєднатися через небезпечну температуру..</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -35,9 +36,6 @@
   <ReturnToSlaveBed>Повернути до рабського ліжка</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>не дозволено для фракцій</NotAllowedForFaction>
-
-  <!-- EN: Remove -->
-  <Remove>Видалити</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>Видалити правило</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -82,7 +80,6 @@
   <NeuralSuperchargeAlreadyGetting>в процесі</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
   <SetApparelType>Задати тип</SetApparelType>
-
   <!-- EN: change style -->
   <ChangeStyle>змінити стиль</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
@@ -101,18 +98,6 @@
   <IdeoAlreadyHasAltar>дозволяється тільки один вівтар/ідеограма</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>перефарбувати одяг</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>Зламати {lookup: {0}; Case; 3}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>Неможливо зламати {lookup: {0}; Case; 3}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>Вже зламано</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>Не може зламувати</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>для скидання припасів</ToDropSupplies>
-
   <!-- EN: Install {0} -->
   <InstallRelic>Встановити реліквію {0}</InstallRelic>
   <!-- EN: Extract {0} -->
@@ -125,13 +110,10 @@
   <InstallInReliquary>Встановити у релікварій</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
   <NoEmptyReliquary>немає доступного порожнього релікварію</NoEmptyReliquary>
-
   <!-- EN: No {MEMBERNAME} warden -->
   <NoWardenOfIdeo>Немає наглядача {MEMBERNAME}</NoWardenOfIdeo>
-
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Прибрати поточну роль</RemoveCurrentRole>
-
   <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
   <EnterBiosculpterPod>Зайти в біоскульптор для циклу {lookup: {0}; Case; 1} ({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->

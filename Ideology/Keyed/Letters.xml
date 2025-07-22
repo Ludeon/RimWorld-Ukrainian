@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
   <LetterLabelConvertIdeoAttempt_Success>Конвертація</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
   <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} успішно {INITIATOR_gender ? конвертував : конвертувала} {RECIPIENT_nameDef} з {OLDIDEO_name} у {IDEO_name}.</LetterConvertIdeoAttempt_Success>
-
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
   <LetterLabelGrandSlaveRebellion>Масове повстання рабів</LetterLabelGrandSlaveRebellion>
@@ -15,12 +13,11 @@
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>Повстання рабів</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>Почалось повстання рабів! {0_nameDef} та кілька інших рабів підіймаються на боротьбу з вами. Вони будуть шукати зброю та спробують вбити ваших колоністів.\n\nБунтують:\n\n{1}</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>Почалось повстання рабів! {0_nameDef} та кілька інших рабів підіймаються на боротьбу з вами. Вони будуть шукати зброю та спробують вбити ваших колоністів.\n\nБунтують:\n\n{1}</LetterLocalSlaveRebellion>
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>Раб бунтує</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
   <LetterSingleSlaveRebellion>{0_nameDef} повстав проти вас! {0_pronoun} буде шукати зброю і спробує вбити ваших колоністів.</LetterSingleSlaveRebellion>
-
   <!-- Slave escape -->
   <!-- EN: Grand slave escape -->
   <LetterLabelGrandSlaveEscape>Велика рабська втеча</LetterLabelGrandSlaveEscape>
@@ -34,21 +31,17 @@
   <LetterLabelSingleSlaveEscape>Втеча раба</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
   <LetterSingleSlaveEscape>{0_nameDef} намагається втекти!</LetterSingleSlaveEscape>
-
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
   <SlaveRebellionSuppressionExplanation>Раби з більшою імовірністю почнуть повстання, якщо рівень їх пригнічення низький.</SlaveRebellionSuppressionExplanation>
-  
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
   <LetterLabelRoleActive>Роль {0} доступна</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
   <LetterLabelRoleActiveDesc>Кількість {lookup: {0}; Case; 3} досягла {1}. Тепер ви можете призначити одному з ваших колоністів роль {ROLE_labelDef}.\n\nЩоб призначити роль, перейдіть у вкладку "Взаємини" або виберіть ритуальне місце або вівтар та натисніть "Розпочати зміну ролі".</LetterLabelRoleActiveDesc>
-
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>Роль {0} недоступна</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
   <LetterLabelRoleInactiveDesc>Кількість послідовників ({0}) знизилась до {1}. Роль {ROLE_labelDef} зараз недоступна. Вона стане доступною, коли число {lookup: {0}; Case; 3} досягне {2}.</LetterLabelRoleInactiveDesc>
-
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
   <LetterLabelRoleLost>{PAWN_labelShort} {PAWN_gender ? втратив : втратила} роль {ROLE_labelIndef}</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
@@ -59,15 +52,13 @@
   <LetterRoleLostReasonLowBelieversDesc>Роль стала недоступною через малу кількість {lookup: {0}; Case; 3}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} {PAWN_gender ? втратив : втратила} свою роль {ROLE_labelDef}, тому що {PAWN_gender ? відмовився : відмовилася} від {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
-  <!-- EN: {0} skipped. -->
-  <LetterObligationRoleInactive>{0} пропущено.</LetterObligationRoleInactive>
+  <!-- EN: {0} skipped -->
+  <LetterObligationRoleInactive>{0} skipped</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
   <LetterObligationRoleInactiveDateDesc>{0} - день, коли відбувається {1}, але так як роль {ROLE_labelDef} недоступна, то {2} пропустять {1}.</LetterObligationRoleInactiveDateDesc>
-  
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
   <LetterSpeechConvertedListeners>Після {PAWN_possessive} промови наступні люди прийняли {IDEO}</LetterSpeechConvertedListeners>
-
   <!-- EN: {0} rituals activated -->
   <LetterTitleObligationsActivated>{0}: ритуали доступні</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
@@ -78,24 +69,20 @@
   <LetterTitleObligationsActivatedEnoughBelievers>Оскільки у вашій фракції вже {1} {IDEO_memberNamePlural}, вони не будуть вимагати провести ритуали {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
   <LetterTitleObligationsActivatedIdeoBecameMajor>Оскільки {IDEO} - основна ідеологія вашої фракції, {IDEO_memberNamePlural} будуть вимагати проведення ритуалів {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
-
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Прив'язаність зникла</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
   <LetterBondRemovedDesc>{PAWN_nameDef} {PAWN_gender ? прийняв : прийняла} {IDEO}. Оскільки в {IDEO} не схвалюється прив'язаність до тварин, {PAWN_pronoun} відмовляється від наступних тварин:\n\n{BONDS}</LetterBondRemovedDesc>
-
   <!-- Slave will -->
   <!-- EN: Enslaved -->
   <LetterLabelEnslavementSuccess>Поневолення</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
   <LetterEnslavementSuccess>{0_nameDef} успішно {0_gender ? поневолив : поневолила} {1_nameDef}.</LetterEnslavementSuccess>
-
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>Основна ідеологія змінена</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
   <LetterNewPrimaryIdeo>Основа ідеологія вашої фракції змінилась з {OLDIDEO_name} на {NEWIDEO_name}.\n\nЦе сталось через те, що {NEWIDEO_name} зараз переважає серед ваших {lookup: {FACTION_pawnsPlural}; Case; 1}.\n\nСхожість ідеологій впливає на відносини між фракціями.</LetterNewPrimaryIdeo>
-
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
   <JoinerCharityInfo>Це акт милосердя. Якщо ви не приймете {0}, милосердні послідовники будуть засмучені.</JoinerCharityInfo>
@@ -103,7 +90,6 @@
   <AfflictedJoinerChartityInfo>Це акт милосердя. Якщо {0} помре, не отримавши допомоги (і після {1}), милосердні послідовники будуть засмучені. Якщо {0} отримає допомогу або приєднається до колонії, послідовники будуть щасливі.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
   <PawnsHaveCharitableBeliefs>Наступні послідовники є милосердними</PawnsHaveCharitableBeliefs>
-
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
   <LetterIdeoChangeConverted>{PAWN_pronoun} {PAWN_gender ? вирішив : вирішила}, що її переконання більше не мають сенсу.\n\n{PAWN_pronoun} {PAWN_gender ? відмовився : відмовилась} від {OLDIDEO_name} і тепер живе за правилами {NEWIDEO_name}.</LetterIdeoChangeConverted>
@@ -113,25 +99,21 @@
   <LetterIdeoChangedWanderOwnRoom>Щоб розібратись зі своїми переконаннями, {PAWN_nameDef} ховається у своїй кімнаті.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_nameDef} блукає, намагаючись зібратись з думками.</LetterIdeoChangedSadWander>
-
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Розлучення</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
   <LetterIdeoChangedDivorcedPawns>Нові переконання {PAWN_nameDef} не дозволяють мати таку кількість партнерів.\n\n{PAWN_nameDef} розлучається з наступними людьми:\n{1}</LetterIdeoChangedDivorcedPawns>
-
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
   <LetterLabelSurpriseReinforcements>Підкріплення!</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
   <LetterSurpriseReinforcements>Прибули підкріплення з {1}! Вони поспішають на допомогу {0}.</LetterSurpriseReinforcements>
-
   <!-- Style change -->
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Необхідна зміна зовнішнього вигляду</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
   <LetterWantLookChangeDesc>{PAWN_nameDef} хоче змінити свій зовнішній вигляд, бо він не відповідає {PAWN_possessive} переконанням.\n\n{PAWN_pronoun} самостійно використає перукарський столик та вибере собі нову зовнішність. Якщо ви хочете зробити проконтролювати це, виберіть {PAWN_possessive} та натисніть правою клавішею миші по перукарському столику.</LetterWantLookChangeDesc>
-
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
   <LetterLabelSpacedroneIncoming>Космічний дрон наближається</LetterLabelSpacedroneIncoming>
@@ -139,33 +121,27 @@
   <LetterTextSpacedroneIncoming>Космічний дрон приземлився неподалік.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
   <LetterTextRaidSpacedrone>Рейдери з фракції {0} прибули, щоб знищити {lookup: {1}; Case; 3}, що приземлився неподалік.</LetterTextRaidSpacedrone>
-
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
   <LetterTextSpacedroneHacked>Ви успішно зламали {lookup: {0}; Case; 3} та дізнались де знаходиться стародавня реліквія - {1}.</LetterTextSpacedroneHacked>
-
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
   <LetterLabelRelicDestroyed>Реліквію зруйновано</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicDestroyed>Реліквія {0} знищена!\n\nУ наступних послідовників погіршиться настрій:\n{1}</LetterTextRelicDestroyed>
-  
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
   <LetterLabelRelicLost>Реліквію втрачено</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicLost>Реліквія {0} втрачена!\n\nУ наступних послідовників погіршиться настрій:\n{1}</LetterTextRelicLost>
-
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
   <LetterOnlySlaveCaravanColonistsLeft>Усі не поневолені учасники {0} загинули. Інші раби пішли своїм шляхом. Караван втрачено.</LetterOnlySlaveCaravanColonistsLeft>
-
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
   <LetterLabelLastHackerLost>Останній хакер втрачений</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
   <LetterTextLastHackerLost>Останній хакер, здатний розблокувати секрети давнього комплексу - втрачений. Викличте підмогу з іншим хакером або відмовтеся від завдання.</LetterTextLastHackerLost>
-
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
   <LetterLabelRelicFound>Реліквія знайдена</LetterLabelRelicFound>
@@ -173,7 +149,6 @@
   <LetterTextRelicFoundLocation>Ви нарешті знайшли місце розташування реліквії {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
   <LetterTextRelicFoundSecurityThreats>Реліквія знаходиться у стародавній будівлі. Вона від захистом системи охорони, що складається з кількох незалежних елементів. Ви можете послідовно розібратись з усією системою захисту, перед тим, як забрати реліквію, або спробувати втекти з нею до того, як вам завдадуть шкоди.\n\nЧерез {0} охоронна система активується.</LetterTextRelicFoundSecurityThreats>
-
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
   <LetterLabelRelicsCollected>Всі реліквії зібрані</LetterLabelRelicsCollected>
@@ -181,7 +156,6 @@
   <LetterTextRelicsCollected>Всі реліквії ідеології {0} були зібрані. Наступні люди будуть в захваті</LetterTextRelicsCollected>
   <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
   <LetterTextRelicsCollectedClassic>Ви зібрали всі відомі реліквії цієї планети! Наступні люди будуть в захваті</LetterTextRelicsCollectedClassic>
-
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>Зв'язок з {lookup: {TREE_label}; Case; 4}</LetterLabelPawnConnected>
@@ -191,7 +165,6 @@
   <LetterLabelConnectedTreeDestroyed>Прив'язане {TREE_label} знищено</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
   <LetterTextConnectedTreeDestroyed>{TREE_label}, зв'язане з {CONNECTEDPAWN_nameDef}, було знищене. Королева дріад, що знаходилась всередині, загинула.\n\nЗі смертю королеви загинув колективний розум дріад, а з ним й усі дріади.</LetterTextConnectedTreeDestroyed>
-
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
   <LetterLabelArchonexusWealthReached>Завдання "{0}" доступне</LetterLabelArchonexusWealthReached>
@@ -205,11 +178,9 @@
   <LetterLabelArchotechStructuresAbandoned>Споруди архотеків покинуті</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
   <LetterTextArchotechStructuresAbandoned>Ви покинули структури архотеків у {0_definite}.\n\nЛюди поруч кажуть, що бачили яскравий спалах у цій місцевості зразу після того, як ви пішли.</LetterTextArchotechStructuresAbandoned>
-
   <!-- Reforming ideo -->
   <!-- EN: Reform ideoligion -->
   <LetterLabelReformIdeo>Розвиток ідеології</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
   <LetterTextReformIdeo>У вас достатньо очок розвитку для реформації {0}!\n\nРеформація дозволяє внести у вашу ідеологію одну з наступних змін:\n\n- Додати рису\n- Видалити рису\n- Змінити структуру\n- Змінити стиль\n\nВи також можете без усяких обмежень змінювати правила, опис та символіку.\n\nЩоб реформувати ідеологію, виберіть її у відповідній вкладці.</LetterTextReformIdeo>
-
 </LanguageData>

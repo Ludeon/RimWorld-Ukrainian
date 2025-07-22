@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Mechanitors -->
   <!-- EN: Any mechanitor -->
   <AnyMechanitor>Будь-який механізатор</AnyMechanitor>
@@ -26,25 +25,21 @@
   <InsufficientBandwidth>недостатньо пропускної здатності</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
   <MechanitorLeftMapWithoutMechs>{PAWN_labelShort} залишає наступних механоїдів:\n\n{MECHS}\n\nМеханоїди залишатимуться тут, доки їх не заберуть.\n\nЧи бажаєте ви встановити для них режим супроводу, щоб вони слідували за {PAWN_labelShort} за межі місцевості?</MechanitorLeftMapWithoutMechs>
-
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
   <ApparelRequirementAnyMechlordApparel>будь-яке спорядження мех-лорда</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
   <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>будь-яке елітне спорядження, спорядження псионіка чи мех-лорда</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
-
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
   <GestationCyclesCompleted>Гестаційний цикл завершено</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
   <FormerIngredients>Зібрані інгредієнти</FormerIngredients>
-
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
   <ConfirmRipscanPawn>Сканування {PAWN_nameDef} вб'є {PAWN_possessive}. Ви впевнені, що бажаєте продовжити?</ConfirmRipscanPawn>
   <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
   <ConfirmCancelRipscan>Скасування сканування все-одно вб'є {PAWN_nameDef}. Ви впевнені, що бажаєте продовжити?</ConfirmCancelRipscan>
-
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
   <AssembleGenes>Зібрати гени</AssembleGenes>
@@ -79,7 +74,7 @@
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <WarningPawnWillDieFromReimplanting>Увага: гени {PAWN_nameDef} наразі відновлюються. Якщо {PAWN_pronoun} імплантує свій ксенозародок перед повним відновленням генів - {PAWN_pronoun} помре.\n\nВи впевнені, що хочете продовжити?</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
-  <NotEnoughArchites>Недостатньо архітних капсул.</NotEnoughArchites>
+  <NotEnoughArchites>Не достатньо архітних капсул.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
   <XenogenesDesc>Ксеногени - це гени, виведені з імплантованого ксенозародка. Якщо ксенозародок вилучається або замінюється - міняються і ксеногени. Оскільки ксеногени не входять до складу ДНК, вони не передаються дітям.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
@@ -89,7 +84,7 @@
   <!-- EN: xenotype name -->
   <XenotypeName>назва ксенотипу</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>Заблокувати або розблокувати фіксацію назви ксенотипу. Якщо зафіксовано, назва ксенотипу не буде автоматично змінюватись після зміні генів.</LockNameButtonDesc>
+  <LockNameButtonDesc>Заблокувати або розблокувати фіксацію назви ксенотипу. Якщо зафіксовано, назва ксенотипу не буде автоматично змінюватись при зміні генів.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
   <LockNameOn>Фіксація назви ксенотипу увімкнена. Назва ксенотипу не буде автоматично змінюватись при зміні генів.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
@@ -107,14 +102,13 @@
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
   <MustResearchProject>Ви повинні дослідити {lookup: {0_label}; Case; 3}, щоб мати можливість зібрати ксенозародок, який вимагає архітних капсул.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
-  <AssemblingRequiresResearch>Створення ксенозародків з архітними генами потребує дослідження технології "{0_label}".</AssemblingRequiresResearch>
+  <AssemblingRequiresResearch>Складальні ксенозародки з архітними генами потребують дослідження технології "{0_label}".</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
   <ConfirmStartNewXenogerm>Ви зараз створюєте ксенозародок "{XENOGERMNAME}". Робота над новим ксенозародком скасує роботу над поточним.\n\nВи дійсно бажаєте продовжити?</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
   <SelectAGeneToRandomizeName>Виберіть принаймні один ген, щоб випадково змінити назву цього ксенотипу.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
   <SelectAGeneToChooseAName>Виберіть принаймні один ген, щоб дати назву цьому ксенотипу.</SelectAGeneToChooseAName>
-
   <!-- View genes -->
   <!-- EN: Inspect genes -->
   <InspectGenes>Оглянути гени</InspectGenes>
@@ -136,7 +130,6 @@
   <MoreInfoInInfoScreen>Додаткова інформація доступна на інформаційному екрані ксенотипу.</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
   <TakesEffectAfterAge>Застосовується ефект віку</TakesEffectAfterAge>
-
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
   <XenotypeEditor>Редактор ксенотипу</XenotypeEditor>
@@ -196,7 +189,6 @@
   <GenesConflict>Конфлікт генів</GenesConflict>
   <!-- EN: {FIRST_label}, {SECOND_label} -->
   <GenesConflictDesc>{FIRST_label} та {SECOND_label}</GenesConflictDesc>
-
   <!-- Xenogerm editor -->
   <!-- EN: Load template -->
   <LoadXenogermTemplate>Завантажити шаблон</LoadXenogermTemplate>
@@ -212,19 +204,15 @@
   <MissingGenepackForXenogerm>Відсутній генопак для шаблону "{NAME}"</MissingGenepackForXenogerm>
   <!-- EN: Delete this xenogerm. -->
   <DeleteThisXenogerm>Видалити цей ксенозародок.</DeleteThisXenogerm>
-
   <!-- Babies -->
   <!-- EN: Select at least one child or adult. -->
   <ChooseChildOrAdult>Виберіть принаймні одну дитину або дорослого.</ChooseChildOrAdult>
-
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
   <WarningWakingInterruptsDeathrest>Пробудження {PAWN_nameDef}, доки не пройде {MINDURATION}, порушить {PAWN_possessive} летаргічний сон. {PAWN_pronoun} буде страждати, поки не відновиться. Раннє пробудження скасує бонуси від споруд летаргії. {PAWN_pronoun} спочиває протягом {CURDURATION}.\n\nВи впевнені що хочете пробудити {PAWN_nameDef}?</WarningWakingInterruptsDeathrest>
-
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
   <NumWoundsTended>{0} рани доглянуті</NumWoundsTended>
-
   <!-- Mechs -->
   <!-- EN: Weight class -->
   <MechWeightClass>Ваговий клас</MechWeightClass>
@@ -252,32 +240,27 @@
   <CaravanLacksMechMechanitorWarning>Ваш караван містить механоїда, але не його наглядача. У вас буде обмежений контроль над ним, коли ви досягнете призначення.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
   <MechsSection>Механоїди</MechsSection>
-
   <!-- Pawn naming -->
   <!-- EN: Rename mech -->
   <RenameMech>Перейменувати механоїда</RenameMech>
   <!-- EN: The mech's name is now {0}. -->
   <MechGainsName>Тепер механоїда звуть {0}.</MechGainsName>
-
   <!-- EN: {FATHER_nameDef} is {MOTHER_nameDef}'s {RELATION}. There's a {CHANCE} chance that the resulting baby will have genetic abnormalities due to inbreeding.\n\nAre you sure you want to continue? -->
   <FertilizeOvumInbredChance>{FATHER_nameDef} - {RELATION} {MOTHER_nameDef}. Існує шанс в {CHANCE}, що дитина буде мати генетичні порушення через інцест.\n\nВи впевнені, що хочете продовжити?</FertilizeOvumInbredChance>
-
   <!-- EN: {PAWN_nameDef} is pregnant. Implanting an IUD while {PAWN_pronoun} is in {PAWN_possessive} first trimester of pregnancy will terminate the pregnancy.\n\nAre you sure you want to continue? -->
   <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} вагітна. Імплантація ВМС поки {PAWN_pronoun} знаходиться на {PAWN_possessive} першому триместрі припинить вагітність.\n\nВи впевнені, що хочете продовжити?</ConfirmationPawnPregnancyTerminated>
-
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>Ця плитка знаходиться поблизу забруднень, тому тут буде кислотний смог приблизно кожні {0} дн. Кислотний смог уповільнює ріст рослин, псує предмети та робить людей нещасними.</ConfirmSettleNearPollution>
-
+  <ConfirmSettleNearPollution>Ця місцевість знаходиться поблизу забруднень, тому тут буде кислий смог приблизно кожні {0} дн. Кислий смог уповільнює ріст рослин, псує предмети та робить людей нещасними.</ConfirmSettleNearPollution>
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
   <PawnIsAway>{PAWN_nameDef} дуже далеко.</PawnIsAway>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are the same gender. -->
   <PawnsHaveSameGender>{PAWN1_nameDef} і {PAWN2_nameDef} мають ту саму стать.</PawnsHaveSameGender>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are sterile. -->
-  <PawnsAreSterile>{PAWN1_nameDef} і {PAWN2_nameDef} стерилізовані.</PawnsAreSterile>
+  <PawnsAreSterile>{PAWN1_nameDef} і {PAWN2_nameDef} є стерильними.</PawnsAreSterile>
   <!-- EN: {PAWN_nameDef} is sterile. -->
-  <PawnIsSterile>{PAWN_nameDef} {PAWN_gender ? стерилізований : стерилізована}.</PawnIsSterile>
+  <PawnIsSterile>{PAWN_nameDef} {PAWN_gender ? стерильний : стерильна}.</PawnIsSterile>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are infertile. -->
   <PawnsAreInfertile>{PAWN1_nameDef} і {PAWN2_nameDef} безплідні.</PawnsAreInfertile>
   <!-- EN: {PAWN_nameDef} is infertile. -->
@@ -288,39 +271,33 @@
   <PawnIsTooYoung>{PAWN_nameDef} {PAWN_gender ? замолодий : замолода}, щоб мати дітей.</PawnIsTooYoung>
   <!-- EN: {PAWN_nameDef} is dead. -->
   <PawnIsDead>{PAWN_nameDef} {PAWN_gender ? мертвий : мертва}.</PawnIsDead>
-
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
   <PsychicBondDistanceWillBeActive_Cryptosleep>Введення {PAWN_nameDef} в стан криптосну призведе до порушення {PAWN_possessive} психічного зв'язку з {BOND_nameDef}, спричинивши стрес обом партнерам.\n\nВи впевнені, що хочете продовжити?</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
   <PsychicBondDistanceWillBeActive_Caravan>Хтось із цього каравану має психічний зв'язок з партнером, який не йде з ними. Ці люди будуть страждати, якщо будуть відокремлені один від одного</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
   <Partner>партнер {0_nameFull}</Partner>
-
-
   <!-- EN: Choose mech accent color -->
   <ChooseMechAccentColor>Оберіть колір механоїдів</ChooseMechAccentColor>
-
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
   <PigFactionGreetingHostile>{0} вигукує ряд проклять в мікрофон та відключається.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
   <PigFactionGreetingHostileAppreciative>{0} вимагає, щоб ви зробили "жест доброї волі", як, наприклад, подарунок до одного з {0_possessive} поселень або звільнення в'язнів {0_possessive} фракції неушкодженими. До того, {0_pronoun} не бажає розмовляти.\n\nДалі багато слів на собачій, після чого відключення.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>{0} привітно хрюкає та запитує, що вам потрібно.</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0} вітає вас та запитує як справи.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
   <PigFactionGreetingWarm>{0} радісно вітає {NEGOTIATOR_labelShort} та запитує, що {LEADER_pronoun} може зробити, щоб допомогти вам.</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
   <PigMilitaryAidSent>{0} погоджується відправити свиношкірих бійців вам на допомогу.</PigMilitaryAidSent>
-
   <!-- EN: {0} roars into the microphone and disconnects. -->
   <YttakinFactionGreetingHostile>{0} ричить в мікрофон та відключається.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>Фиркаючи собі під ніс {0} вимагає, щоб ви зробили дружній жест, як, наприклад, подарунок до одного з {0_possessive} поселень або звільнення в'язнів {0_possessive} фракції неушкодженими. До того, {0_pronoun} не бажає розмовляти.\n\nВикрикуючи образу, {0_pronoun} відключається.</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>{0} вимагає, щоб ви зробили "жест доброї волі", як, наприклад, подарунок до одного з {0_possessive} поселень або звільнення в'язнів {0_possessive} фракції неушкодженими. До того, {0_pronoun} не бажає розмовляти.\n\nСильно лаючись в мікрофон, {0_pronoun} відключається.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
   <YttakinFactionGreetingWary>{0} бурмотить привітання до {NEGOTIATOR_labelShort} і запитує, чому ви телефонуєте.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
   <YttakinFactionGreetingWarm>{0} заводить дружнє привітання і запитує, чим {LEADER_pronoun} може вам допомогти.</YttakinFactionGreetingWarm>
-
   <!-- EN: {0} grunts angrily and disconnects. -->
   <NeanderthalFactionGreetingHostile>{0} сердито бурчить та від’єднується.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
@@ -329,7 +306,6 @@
   <NeanderthalFactionGreetingWary>{0} буркоче привітання.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
   <NeanderthalFactionGreetingWarm>{0} тепло вітається з {NEGOTIATOR_labelShort}.</NeanderthalFactionGreetingWarm>
-
   <!-- EN: Max tier -->
   <MaxTier>Максимальний Рівень</MaxTier>
   <!-- EN: {PAWN_nameDef} has accumulated the maximum number of growth points. -->
@@ -346,20 +322,15 @@
   <NumTraitsFromOptions>Вибір {0} рис з {1} варіантів.</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
   <NextGrowthMomentAt>Наступний момент зростання</NextGrowthMomentAt>
-
   <!-- EN: no biotech buildings allowed -->
   <RoomRequirementNoBiotechBuildings>біотехнологічні споруди заборонені</RoomRequirementNoBiotechBuildings>
-
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
   <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>Поглинання крові {PAWN_nameDef} призведе до серйозної втрати крові, залишивши {PAWN_possessive} без свідомості.\n\nВи впевнені?</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
   <WarningPawnWillDieFromBloodfeeding>Поглинання крові {PAWN_nameDef} вб'є {PAWN_possessive}.\n\nВи впевнені?</WarningPawnWillDieFromBloodfeeding>
-
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>{0_labelShort} не має придатної для догляду рани.</AbilityMustHaveTendableWound>
-
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>Деякі з ваших колоністів, або тварин знаходяться в цій місцевості. Ви впевнені, що хочете їх покинути?\n\nЦі люди, тварини чи механоїди будуть залишені назавжди:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
-
 </LanguageData>

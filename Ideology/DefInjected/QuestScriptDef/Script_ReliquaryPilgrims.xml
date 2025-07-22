@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] arrived</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
@@ -18,20 +17,20 @@
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
   <ReliquaryPilgrims.questContentRules.rulesStrings>
-    <li>pilgrimsArrivedLetterLabel->[factionAdj][pilgrimSingularOrPlural] [arrived]</li>
+    <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] arrived</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef] дякує, за те що ви дозволили [pawns0_objective] [andFollowers] вшанувати [relic_name]. Як подяку, [pawns0_nameDef] надсилає вам транспортну капсулу (загальна вартість [rewardsMarketValue_money]):\n\n[rewards].</li>
-    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] поклонятися [relic_name] і тепер [leave].</li>
-    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave].</li>
-    <li>leave(pilgrimCount==1)->уходить</li>
-    <li>leave(pilgrimCount>=2)->уходять</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] thanks you for letting [pawns0_objective] [andFollowers] venerate [relic_name] on the [venerateDate]. As a reward, [pawns0_nameDef] is sending you the following via drop pod (total value [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] finished venerating [relic_name] and [areIs] now leaving.</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] left the map.</li>
+    <li>areIs(pilgrimCount==1)->is</li>
+    <li>areIs(pilgrimCount>=2)->are</li>
     <li>andFollowers(pilgrimCount==1)-></li>
-    <li>andFollowers(pilgrimCount==2)->та іншому {lookup: [faction_pawnSingular]; Case; 2}</li>
-    <li>andFollowers(pilgrimCount>=3)->та іншим {lookup: [faction_pawnsPlural]; Case; 2}</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount==1)->паломник</li>
-    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->паломники</li>
-    <li>arrived(pilgrimCount==1)->прибув</li>
-    <li>arrived(pilgrimCount>=2)->прибули</li>
+    <li>andFollowers(pilgrimCount==2)->and the other [faction_pawnSingular]</li>
+    <li>andFollowers(pilgrimCount>=3)->and the other [faction_pawnsPlural]</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->pilgrim</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->pilgrims</li>
+    <li>factionAdj(pilgrimFaction==true)-></li>
+    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
@@ -47,7 +46,7 @@
     <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
     <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
     <li>hasHave(pilgrimCount==1)->закінчив</li>
-    <li>hasHave(pilgrimCount>=2)->закінчили</li>
+    <li>hasHave(pilgrimCount>=2)->have</li>
   </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
@@ -63,17 +62,17 @@
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
-    <li>questDescription->[pilgrimsLabelSingularOrPlural] [arrived], щоб поклонитися реліквії [relic_name].\n\nЯкщо ви переконаєтеся, що [pronounSingularOrPlural] [will] у безпеці та повазі, поки [visitSingularOrPlural] стародавню реліквію, [pronounSingularOrPlural] [can] запропонувати вам нагороду.</li>
-    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], дитина, прибула, щоб поклонитися реліквії [relic_name].\n\nЯкщо ви переконаєтеся, що [pronounSingularOrPlural] буде у безпеці та повазі, поки [visitSingularOrPlural] стародавню реліквію, [pronounSingularOrPlural] [can] запропонувати вам нагороду.</li>
-    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Група [pilgrimsLabelSingularOrPlural], серед яких є дитина, прибули, щоб поклонитися реліквії [relic_name].\n\nЯкщо ви переконаєтеся, що [pronounSingularOrPlural] [will] у безпеці та повазі, поки [visitSingularOrPlural] стародавню реліквію, [pronounSingularOrPlural] [can] запропонувати вам нагороду.</li>
-    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Група [pilgrimsLabelSingularOrPlural], серед яких є діти, прибули, щоб поклонитися реліквії [relic_name].\n\nЯкщо ви переконаєтеся, що [pronounSingularOrPlural] [will] у безпеці та повазі, поки [visitSingularOrPlural] стародавню реліквію, [pronounSingularOrPlural] [can] запропонувати вам нагороду.</li>
-    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Діти-[pilgrimsLabelSingularOrPlural] прибули, щоб поклонитися реліквії [relic_name].\n\nЯкщо ви переконаєтеся, що [pronounSingularOrPlural] [will] у безпеці та повазі, поки [visitSingularOrPlural] стародавню реліквію, [pronounSingularOrPlural] [can] запропонувати вам нагороду.</li>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], a child, [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including a child has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->A group of [pilgrimsLabelSingularOrPlural] including some children has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->A group of child [pilgrimsLabelSingularOrPlural] has arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
+    <li>isAre(pilgrimCount==1)->is</li>
+    <li>isAre(pilgrimCount>=2)->are</li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
-    <li>pronounSingularOrPlural(pilgrimCount>=2)->вони</li>
-    <li>will(pilgrimCount==1)->буде</li>
-    <li>will(pilgrimCount>=2)->будуть</li>
-    <li>can(pilgrimCount==1)->може</li>
-    <li>can(pilgrimCount>=2)->можуть</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->they</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->visits</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
@@ -96,24 +95,23 @@
     <li>visit->veneration</li>
   -->
   <ReliquaryPilgrims.questNameRules.rulesStrings>
-    <li>questName->[visitAdjMasc] [visitMasc]</li>
-    <li>questName->[visitAdjFem] [visitFem]</li>
+    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
+    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
     <li>visitAdj(p=6)-></li>
-    <li>visitAdjMasc->святий</li>
-    <li>visitAdjMasc->священний</li>
-    <li>visitAdjMasc->духовний</li>
-    <li>visitAdjMasc->божественний</li>
-    <li>visitAdjMasc->освячений</li>
-    <li>visitAdjMasc->урочистий</li>
-    <li>visitAdjMasc->сакральний</li>
-    <li>visitAdjMasc->бажаний</li>
-    <li>visitAdjFem->свята</li>
-    <li>visitAdjFem->священна</li>
-    <li>visitAdjFem->духовна</li>
-    <li>visitAdjFem->божественна</li>
-    <li>visitAdjFem->освячена</li>
-    <li>visitAdjFem->урочиста</li>
-    <li>visitAdjFem->сакральна</li>
+    <li>visitAdj->holy</li>
+    <li>visitAdj->sacred</li>
+    <li>visitAdj->spiritual</li>
+    <li>visitAdj->divine</li>
+    <li>visitAdj->hallowed</li>
+    <li>visitAdj->solemn</li>
+    <li>visitAdj->sacramental</li>
+    <li>visitAdj->sanctified</li>
+    <li>visit->visit</li>
+    <li>visit->pilgrimage</li>
+    <li>visit->mission</li>
+    <li>visit->expedition</li>
+    <li>visit->excursion</li>
+    <li>visit->tour</li>
+    <li>visit->veneration</li>
   </ReliquaryPilgrims.questNameRules.rulesStrings>
-  
 </LanguageData>

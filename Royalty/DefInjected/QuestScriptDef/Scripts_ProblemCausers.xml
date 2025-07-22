@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
-    <li>questDescription(siteFaction==Mechanoids)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
     <li>questDescription(siteFaction==Pirate)->Пірати стали табором неподалік від [map_definite], щоб надсилати на вас рейди. [allSitePartsDescriptions]\n\nЦей табір залишиться там, допоки ви його не розіб'єте.</li>
-    <li>questDescription(siteFaction==Mechanoids)->Кластер механоїдів приземлився неподалік від [map_definite]. [allSitePartsDescriptions]\n\nЦей кластер залишиться там, допоки ви його не знищите.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoids)->Mech cluster with a [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   -->
   <ProblemCauser.questNameRules.rulesStrings>
-    <li>questName(siteFaction==Pirate)->[problemCauserLabel] та табір піратів</li>
-    <li>questName(siteFaction==Mechanoids)->[problemCauserLabel] та кластер механоїдів</li>
+    <li>questName(siteFaction==Pirate)->Пірати та [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
   <ProblemCauser.LetterLabelSuccess.slateRef>[problemCauserLabel] знищено</ProblemCauser.LetterLabelSuccess.slateRef>
   <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
   <ProblemCauser.LetterTextSuccess.slateRef>Ви знищили [problemCauserLabel], що впливав на [map_definite]!</ProblemCauser.LetterTextSuccess.slateRef>
-  
 </LanguageData>

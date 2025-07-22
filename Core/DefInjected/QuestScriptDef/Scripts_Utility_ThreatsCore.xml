@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li><li>root->there's a [label]</li></rulesStrings> -->
-  <Util_GenerateSite.root.singleSitePartRules.slateRef><rulesStrings><li>root(priority=1,sitePartPart==ClimateAdjuster)->там знаходиться (*Threat)регулятор клімату(/Threat), який змінює температуру на [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->там знаходиться (*Threat)джерело психічного гулу(/Threat), спрямоване на {replace: [affectedGender]; "чоловік"-"чоловіків"; "жінка"-"жінок"}</li><li>root(priority=1,sitePart==PsychicSuppressor)->там знаходиться (*Threat)психічний пригнічувач(/Threat), спрямований на {replace: [affectedGender]; "чоловік"-"чоловіків"; "жінка"-"жінок"}</li><li>root(priority=1,sitePart==WeatherController)->там знаходиться (*Threat)регулятор погоди(/Threat), який змінює її на [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->там знаходиться (*Threat)димова машина(/Threat), яка покриває димом весь регіон</li><li>root(priority=1,sitePart==SunBlocker)->там знаходиться (*Threat)блокатор сонячних променів(/Threat), через який весь регіон буде в напівтемряві</li><li>root(priority=1,sitePart==EMIDynamo)->там знаходиться (*Threat)ЕМІ-машина(/Threat), що деактивує електричні пристрої в регіоні</li><li>root(priority=1,sitePart==ToxicSpewer)->там знаходиться (*Threat)токсична димова машина(/Threat), яка покриває отруйним туманом весь регіон</li><li>root(priority=1,sitePart==RaidSource)->там знаходиться військовий плацдарм. (*Threat)Кількість [enemiesLabelPlural]: [enemiesCount](/Threat). Вони будуть здійснювати на вас рейди кожні [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->там знаходиться ворожий форпост. (*Threat)Кількість [enemiesLabelPlural]: [enemiesCount](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->там знаходиться розбійницький табір. (*Threat)Кількість [enemiesLabelPlural]: [enemiesCount](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->там блукає (*Threat)[kindLabel] в агресивному стані(/Threat)</li><li>root(priority=1,sitePart==Manhunters,count>1)->там блукають (*Threat)[count] [kindLabelPlural] в агресивному стані(/Threat)</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->там знаходиться (*Threat)механоїд(/Threat) в режимі гібернації</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->там знаходяться (*Threat)[count] механоїдів(/Threat) в режимі гібернації</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) захищають цю місцевість</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)ворожі сили(/Threat) чекають у засідці і готові напасти на будь-кого, хто пройде поряд</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)ворожі сили(/Threat) чекають у засідці і готові напасти на будь-кого, хто пройде поряд</li><li>root(priority=1,sitePart==MechCluster)->там знаходиться (*Threat)кластер ворожих механоїдів(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->там може бути (*Threat)невідома загроза(/Threat)</li><li>root->там знаходиться [label]</li></rulesStrings></Util_GenerateSite.root.singleSitePartRules.slateRef>
-  
+  <Util_GenerateSite.root.singleSitePartRules.slateRef><rulesStrings>
+    <li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li>
+    <li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li>
+    <li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li>
+    <li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li>
+    <li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li>
+    <li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li>
+    <li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li>
+    <li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li>
+    <li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li>
+    <li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
+    <li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
+    <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li>
+    <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li>
+    <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li>
+    <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li>
+    <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li>
+    <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li>
+    <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li>
+    <li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li>
+    <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li>
+    <li>root->there's a [label]</li></rulesStrings>
+  </Util_GenerateSite.root.singleSitePartRules.slateRef>
   <!-- EN:
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
     <li>threatDescription->Кластер механоїдів приземлиться до [map_definite]. Він містить:\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
-  
   <!-- EN:
     <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   -->
   <Util_Raid.questDescriptionRules.rulesStrings>
     <li>threatDescription->[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] атакуватимуть вас. Їх група містить:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
-  
   <!-- EN:
     <li>pawnKindsParagraph(raidCount==1)->The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
     <li>pawnKindsParagraph(raidCount==2)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nThe second similar-sized group will follow soon after.</li>
@@ -29,14 +47,13 @@
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)->Група {lookup: [enemyFaction_pawnsPlural]; Case; 1} складається з: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->Перша група {lookup: [enemyFaction_pawnsPlural]; Case; 1} складається з: \n\n[raid0/raidPawnKinds]\n\nЗгодом прибуде друга група схожого складу.</li>
-    <li>pawnKindsParagraph(raidCount==3)->Перша група {lookup: [enemyFaction_pawnsPlural]; Case; 1} складається з: \n\n[raid0/raidPawnKinds]\n\nЗгодом прибудуть ще дві групи схожого складу.</li>
-    <li>pawnKindsParagraph(raidCount>=4)->Перша група {lookup: [enemyFaction_pawnsPlural]; Case; 1} складається з: \n\n[raid0/raidPawnKinds]\n\nЗгодом прибудуть ще [raidCountMinusOne] груп схожого складу.</li>
+    <li>pawnKindsParagraph(raidCount==1)->The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nThe second similar-sized group will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount==3)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nTwo similar-sized groups will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] similar-sized groups will follow soon after.</li>
     <li>numGroupsOf(raidCount==1)-></li>
-    <li>numGroupsOf(raidCount==2)->дві групи</li>
-    <li>numGroupsOf(raidCount==3)->три групи</li>
-    <li>numGroupsOf(raidCount==4)->чотири групи</li>
+    <li>numGroupsOf(raidCount==2)->two groups of</li>
+    <li>numGroupsOf(raidCount==3)->three groups of</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-  
 </LanguageData>

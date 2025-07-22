@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Royalty and throne -->
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>Задовільняє титул</ThroneMaxSatisfiedTitle>
@@ -14,7 +13,6 @@
   <RequiresTradePermission>Торгівля тут вимагає титулу {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>Персональна спальня (можна розділити з партнером)</RequirementPersonalBedroom>
-  
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>пси-тренажер ({0})</PsycastNeurotrainerLabel>
@@ -25,25 +23,20 @@
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? використав : використала} пси-тренажер для вивчення "{lookup: {1}; Case; 3}".</AbilityNeurotrainerUsed>
   <!-- EN: requires psylink -->
-  <PsycastNeurotrainerNoPsylink>Необхідний пси-зв'язок</PsycastNeurotrainerNoPsylink>
+  <PsycastNeurotrainerNoPsylink>requires psylink</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} вже знає "{lookup: {1}; Case; 3}".</PsycastNeurotrainerAbilityAlreadyLearned>
-
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>той, хто прийме завдання отримає {1} од. {lookup: {0_royalFavorLabel}; Case; 1} від фракції {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor_ChoosePawn>ви маєте вибрати одного з учасників завдання аби отримати {1} од. {lookup: {0_royalFavorLabel}; Case; 1} від фракції {0_name}</Reward_RoyalFavor_ChoosePawn>
-  
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
   <NotUsable>Неможливо використати</NotUsable>
   <!-- EN: unpowered -->
   <Unpowered>немає живлення</Unpowered>
-  <!-- EN: blocked by roof -->
-  <BlockedByRoof>заблоковано дахом</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Надто близько до іншого маяка</TooCloseToOtherBeacon>
-  
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
   <Psyfocus>Пси-фокус</Psyfocus>
@@ -87,7 +80,6 @@
   <DesiredPsyfocus>Бажаний пси-фокус</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>Натисніть для встановлення бажаного рівня пси-фокусу.</DesiredPsyfocusDesc>
-
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>трон не призначено.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -102,12 +94,12 @@
   <AbilitySpeechStatInfo>{1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
   <AbilitySpeechTargetDescThrone>Гідному троні</AbilitySpeechTargetDescThrone>
-  
   <!-- EN: no accessible altar. -->
   <RitualDisabledNoAltar>немає доступного вівтаря.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
   <RitualBestowingCeremony>Церемонія вручення титулу</RitualBestowingCeremony>
-
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>No suitable location near bestower</BestowingSpotUnavailable>
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Загальна кількість медитацій сьогодні: {0} (множник прогресу {1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
@@ -128,12 +120,10 @@
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? завершив : завершила} ритуал зв'язування з {LINKABLE_labelShort}.\n\n{PAWN_pronoun} {PAWN_gender ? покращив : покращила} свій пси-зв'язок, що дозволяє {PAWN_objective} використовувати нові пси-здібності.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>Крім того, було відновлено {0} од. аніма-трави.</LetterTextLinkingRitualCompletedAnimaGrass>
-
   <!-- EN: Land shuttle here -->
   <LandHere>Посадити шатл тут</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>Місце призначення поза досяжністю.</MessageShuttleDestinationIsTooFar>
-
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Почати церемонію вручення титулу для {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
@@ -144,7 +134,6 @@
   <BestowingCeremonyLabel>церемонія вручення титулу</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
   <BestowingOutcomeQualitySpecific>Загальна якість церемонії вручення титулу склала {0}. На якість вплинули наступні фактори</BestowingOutcomeQualitySpecific>
-  
   <!-- EN: No colonists that can link with anima tree right now. -->
   <RitualTargetAnimaTreeNoPawnsToLink>Зараз немає колоністів, які можуть зв’язатися з аніма-деревом.</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
@@ -156,19 +145,16 @@
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Потрібен колоніст із природним типом медитації та який має не максимальний рівень пси-зв'язку.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
-  <RitualTargetAnimaTreeMustBePsychicallySensitive>Потрібен колоніст без психічної глухоти.</RitualTargetAnimaTreeMustBePsychicallySensitive>
-
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>Потрібен колоніст психічної глухоти.</RitualTargetAnimaTreeMustBePsychicallySensitive>
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>Ритуал зв'язування ефективніший з більшою кількістю учасників. Що більше людей візьме участь, то менше часу займає ритуал і тим більше аніма-трави виросте.\n\nЯкщо буде ще {0} учасн., то під кінець ритуалу відновиться {1} од. аніма-трави.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Не вистачає необхідного вантажу!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
   <CannotLoadIntoShuttle>Cannot load {0_labelShort}</CannotLoadIntoShuttle>
-
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>немає нейро-напруги для скидання.</AbilityNoEntropyToDump>
-
   <!-- EN: level {0} -->
-  <LevelNum>рівень {0}</LevelNum> <!-- Psylink level as reported in health tab-->
-
+  <LevelNum>рівень {0}</LevelNum>
+  <!-- Psylink level as reported in health tab-->
 </LanguageData>

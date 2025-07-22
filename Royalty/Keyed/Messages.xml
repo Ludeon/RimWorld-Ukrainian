@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>Шатл не може приземлитися на майданчик: {0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>Шатл прибув.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>Шатл прибув, але оскільки всередині не було ваших колоністів, його вантаж втрачено.</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>Неможливо викликати шатл</CannotCallShuttle>
-
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>Неможливо приземлитись на нерозвіданих територіях.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>Територія повинна мати прохід.</ShuttleCannotLand_Unwalkable>
-
-  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>Виберіть {BESTOWER_definite} і натисніть "Почати церемонію вручення титулу".</MessageBestowerWaiting>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>Terrain does not support {0}.</ShuttleCannotLand_Unaffordable>
+  <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Неможливо дістатися до представника імперії!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
@@ -29,21 +24,17 @@
   <!-- EN: The bestower is leaving due to life-threatening temperature. -->
   <MessageBestowingDangerTemperature>Емісар уходить через небезпечну для життя температуру.</MessageBestowingDangerTemperature>
   <!-- EN: The bestower is leaving due to dangerous gases in the area. -->
-  <MessageBestowingDangerGas>Емісар уходить через небезпечні для життя гази.</MessageBestowingDangerGas>
+  <MessageBestowingDangerGas>The bestower is leaving due to dangerous gases in the area.</MessageBestowingDangerGas>
   <!-- EN: The bestowing ceremony has been interrupted. -->
   <MessageBestowingInterrupted>Церемонію вручення титулу було перервано.</MessageBestowingInterrupted>
-
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
-  <MessageBestowingCeremonyStarted>Церемонія вручення титулу для {PAWN_definite} розпочалася.</MessageBestowingCeremonyStarted>
+  <MessageBestowingCeremonyStarted>Почати церемонію вручення титулу для {PAWN_definite} розпочалася.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
   <MessageMissionGetBackToShuttle>Ви перемогли всіх {FACTION_pawnsPlural}! Поверніться на шатл, щоб залишити цю місцевість.</MessageMissionGetBackToShuttle>
-
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
   <MessagePermitTransportDrop>Ресурси від фракції {FACTION_name} доставлені.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
   <MessagePermitTransportDropCaravan>Фракція {FACTION_name} надсилають ресурси до каравану {PAWN_nameDef}.</MessagePermitTransportDropCaravan>
-
   <!-- EN: No orbiting mechanoids found. -->
   <MessageNoFactionForVerbMechCluster>Орбітальних механоїдів не знайдено.</MessageNoFactionForVerbMechCluster>
-
 </LanguageData>

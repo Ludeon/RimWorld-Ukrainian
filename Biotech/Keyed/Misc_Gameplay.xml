@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Dormant self-charging -->
   <SelfShutdown>Автономне заряджання</SelfShutdown>
   <!-- EN: Carry to recharger -->
@@ -26,16 +25,17 @@
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} механоїдів</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>{BOSS} з {lookup: {APPAREL}; Case; 4}</BossWithApparel>
-
+  <BossWithApparel>{BOSS} with {APPAREL}</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>Resulting from gene</ComesFromGene>
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>видалення {lookup: {0}; Case; 3}.</ReportRemovingMechlink>
-
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>from {TEACHER_labelShort}</ReportTakingLessonFrom>
   <!-- Areas -->
   <!-- EN: Pollution clear -->
   <PollutionClear>Забруднення відсутні</PollutionClear>
-
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
   <Overseer>Наглядач</Overseer>
@@ -48,7 +48,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>пропускна здатність</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>Механітор може наглядати за механоїдом лише в тому випадку, якщо для цього достатньо пропускної здатності. Кожен з мехів потребує різної кількості пропускної здатності.\n\nОтримайте більшу пропускну здатність, побудувавши вузли зв'язку та налаштувавши механітора на них, або оснащуйте його спеціальним спорядженням.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>Механізатор може наглядати за механоїдом лише в тому випадку, якщо для цього достатньо пропускної здатності. Кожен потребує різної кількості пропускної здатності.\n\nЩоб збільшити пропускну здатність, будуйте вузли зв'язку та налаштовуючи механізатора на них, або оснащуйте його спеціальним спорядженням.</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>Підконтрольна група</ControlGroup>
   <!-- EN: Current mode -->
@@ -99,6 +99,8 @@
   <ReadyToSummonThreat>Можна викликати {lookup: {0}; Case; 3}</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Викликати {lookup: {0}; Case; 3}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>Mechanoids disabled</MechsDisabled>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>Немає доступного {lookup: {0}; Case; 3}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -119,7 +121,6 @@
   <Uncontrolled>Неконтрольований</Uncontrolled>
   <!-- EN: incoming {0} -->
   <BossgroupIncoming>{0} наближається</BossgroupIncoming>
-
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
   <Hemogen>гемоген</Hemogen>
@@ -136,7 +137,7 @@
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
   <WakeDesc>Прокидається від летаргічного сну.\n\n{PAWN_nameDef} {PAWN_gender ? перебував : перебувала} у летаргічному сні {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} потребує летаргічного сну, принаймні {TOTAL}. Пробудження раніше послабить {PAWN_possessive} і позбавить бонусів від допоміжних споруд.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} потребує летаргічного сну, принаймні {TOTAL}. Пробудження раніше послабить {PAWN_objective} і позбавить бонусів від допоміжних споруд.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
   <WakeExtraDesc_Safe>{PAWN_nameDef} може безпечно прокинутися.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
@@ -148,7 +149,7 @@
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} у стані летаргічного сну.</IsDeathresting>
   <!-- EN: cannot deathrest -->
-  <CannotDeathrest>Летаргічний сон неможливий</CannotDeathrest>
+  <CannotDeathrest>cannot deathrest</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Розпочати летаргічний сон</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
@@ -164,7 +165,7 @@
   <!-- EN: Drain rate -->
   <DrainRate>Швидкість виснаження</DrainRate>
   <!-- EN: Regeneration rate -->
-  <RegenerationRate>Швидкість регенерації</RegenerationRate>
+  <RegenerationRate>Швидкість регенерування</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
   <NextDeathrestNeed>{PAWN_nameDef} має впасти в летаргічний сон через {DURATION}, щоб уникнути виснаження.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
@@ -181,7 +182,6 @@
   <WillCauseSeriousBloodloss>Спричинить велику втрату крові</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
   <TooSmall>занадто малий</TooSmall>
-
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
   <BoundTo>Пов'язано до</BoundTo>
@@ -197,7 +197,6 @@
   <CannotAssignAlreadyBound>Вже прив'язано до {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
   <CannotAssignBedCannotBindToMoreBuildings>Не можна прив'язати більше {lookup: {BUILDING_labelPlural}; Case; 1}</CannotAssignBedCannotBindToMoreBuildings>
-
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
   <Aptitude>здібність</Aptitude>
@@ -209,7 +208,6 @@
   <AptitudesDesc>Здібності змушують людину працювати на вищому або нижчому рівні, ніж її набуті навички.\n\nНаприклад, здібність +1 для навички означає, що особа з рівнем навички 5 працюватиме так, ніби має рівень 6.\n\nЗагальне значення не може перевищувати 20, або впасти нижче 1.</AptitudesDesc>
   <!-- EN: total -->
   <Total>всього</Total>
-  
   <!-- Human pregnancy -->
   <!-- EN: Father -->
   <FatherTip>Батько</FatherTip>
@@ -240,20 +238,13 @@
   <!-- EN: Pregnancy approach -->
   <PregnancyApproach>Підхід до вагітності</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
-  <ClickToChangePregnancyApproach>Натисніть, щоб змінити підхід до вагітності.</ClickToChangePregnancyApproach>
+  <ClickToChangePregnancyApproach>Натисніть, щоб змінити підхід вагітності.</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
   <PregnancyNotPossible>Вагітність неможлива</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
   <BirthRitualHealthyBabyChance>Імовірність здорових пологів для цього рівня якості становила {0_percentage}.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>Народження.</GivingBirth>
-
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Заряд щита</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Час відновлення</ShieldTimeToRecovery>
-
   <!-- Genes -->
   <!-- EN: genes -->
   <Genes>гени</Genes>
@@ -298,7 +289,7 @@
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>Складність усіх використаних генів.</ComplexityTotalDesc>
   <!-- EN: metabolic efficiency -->
-  <Metabolism>Метаболічна ефективність</Metabolism>
+  <Metabolism>metabolic efficiency</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>Загальна метаболічна ефективність цих генів. Висока ефективність означає, що людині потрібно менше їжі; низька ефективність - навпаки.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
@@ -316,37 +307,37 @@
   <!-- EN: Archite capsules -->
   <ArchitesRequired>Капсули архіту</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>Архіти — це створені надрозумними архотехами механіти, мікроскопічні пристрої, що здатні діяти безпосередньо на клітини та молекули. Вони здатні на незбагненні подвиги, а деякі гени функціонують лише за підтримки потойбічної технології архотехів. Люди не можуть створювати архітів, а знаходять їх лише тоді, коли архотех виробляє їх з власної, незрозумілої причини.</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>Архіти — це створені надрозумними архотеками механіти; мікроскопічні пристрої, здатні діяти безпосередньо на клітини та молекули. Вони здатні на незрозумілі подвиги. Деякі гени функціонують лише за підтримки потойбічної машини архотеків. Люди не можуть створювати архіт, а знаходять їх лише тоді, коли архотек виробляє їх з власної незрозумілої для людей причини.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
   <CancelXenogerm>Скасувати ксенозародок</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>Зупинити роботу над поточним ксенозародком.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>Дозволити всі генопаки</AllowAllGenepacks> 
+  <AllowAllGenepacks>Дозволити всі генопаки</AllowAllGenepacks>
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Чи дозволено колоністам автоматично зберігати будь-який генопак у цьому контейнері. Вимкніть, якщо ви хочете зберігати тут конкретні генопаки.</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>Чи дозволено колоністам автоматично зберігати будь-який генопак у цьому контейнері. Вимкніть, якщо ви хочете зберігати тут конкретні генопаки.</AllowAllGenepacksDesc>
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>Генопаки в цьому контейнері.</ContainedGenepacksDesc> 
+  <ContainedGenepacksDesc>Генопаки в цьому контейнері.</ContainedGenepacksDesc>
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>Генопаки, призначені для завантаження в цей контейнер.</GenepacksToLoadDesc> 
+  <GenepacksToLoadDesc>Генопаки, призначені для завантаження в цей контейнер.</GenepacksToLoadDesc>
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>Генопаки, які не призначені для завантаження в цей контейнер та не зберігаються.</GenepacksIgnoredDesc> 
+  <GenepacksIgnoredDesc>Генопаки, які не призначені для завантаження в цей контейнер та не зберігаються.</GenepacksIgnoredDesc>
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>Генопаки для завантаження</GenepacksToLoad> 
+  <GenepacksToLoad>Генопаки для завантаження</GenepacksToLoad>
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>Ігноровані генопаки</GenepacksToIgnore> 
+  <GenepacksToIgnore>Ігноровані генопаки</GenepacksToIgnore>
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>Вилучити цей генопак з контейнера.</EjectGenepackDesc> 
+  <EjectGenepackDesc>Вилучити цей генопак з контейнера.</EjectGenepackDesc>
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>Ви дійсно бажаєте вилучити {0}? Його буде скинуто на землю неподалік.</ConfirmRemoveGenepack> 
+  <ConfirmRemoveGenepack>Ви дійсно бажаєте вилучити {0}? Його буде скинуто на землю неподалік.</ConfirmRemoveGenepack>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Відсутня необхідна технологія</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>У найближчих генних банках відсутні генопаки.</NoGenepacksAvailable> 
+  <NoGenepacksAvailable>У найближчих генних банках відсутні генопаки.</NoGenepacksAvailable>
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>Дозволити завантажувати цей генопак у цей контейнер.</AddToLoadingListDesc> 
+  <AddToLoadingListDesc>Дозволити завантажувати цей генопак у цей контейнер.</AddToLoadingListDesc>
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>Видаліть цей генопак зі списку завантаження.</RemoveFromLoadingListDesc> 
+  <RemoveFromLoadingListDesc>Видаліть цей генопак зі списку завантаження.</RemoveFromLoadingListDesc>
   <!-- EN: Recombine -->
   <Recombine>Рекомбінувати</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
@@ -400,7 +391,7 @@
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Вилучити гени з {PAWN_nameDef}.</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
-  <ExtractionPausedNoPower>Вилучення зупинено: немає живлення</ExtractionPausedNoPower>
+  <ExtractionPausedNoPower>Extraction paused: No power (interrupt in {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Останнє вживання {lookup: {CHEMICAL_label}; Case; 3} {DURATION} тому.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -435,18 +426,15 @@
   <MissingGeneRomanceChance>Не-{GENE} шанс роману</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
   <NotInGeneBank>Немає в генному банку</NotInGeneBank>
-
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
   <ChildBirthAlwaysHealthy_Desc>Зберіться, щоб допомогти матері народити. Лікар може допомогти народити дитину.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
   <UntilBabyIsBorn>до народження дитини</UntilBabyIsBorn>
-
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Діти хочуть вчитися різним видам діяльності.</LearningDesireTooltip>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>Розвиток - це середній показник навчання дитини з моменту останнього дня народження.\n\nДіти з більшою кількістю балів розвитку матимуть більше варіантів у моменти зростання і отримають більше пристрастей та навичок.</DevelopmentHealthGizmoTooltip>
-
   <!-- EN: Must not be placed close to another {0_label} -->
   <MustNotBePlacedCloseToAnother>Не можна розміщувати поруч з {lookup: {0_label}; Case; 4}</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
@@ -461,7 +449,6 @@
   <CannotAssignMechToControlGroup>Неможливо призначити до контрольної групи {0}</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
   <AssignMechAlreadyAssigned>Вже призначено</AssignMechAlreadyAssigned>
-
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>Споживання додаткових {0} од. поживності на добу для виробництва молока (швидкість виробництва молока становить {1_percentage} через поточний рівень харчування).</LactatingAddedNutritionPerDay>
@@ -469,7 +456,6 @@
   <LactatingStoppedBecauseFull>Лактація призупинена, оскільки рівень молока заповнено до 100%</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
   <LactatingStoppedBecauseHungry>Лактацію призупинено через голод.</LactatingStoppedBecauseHungry>
-
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
   <CurrentGestationCycle>Поточний цикл гестації</CurrentGestationCycle>
@@ -491,7 +477,6 @@
   <ResurrectingMech>Воскресіння {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
   <ResurrectedMech>{0} воскрес</ResurrectedMech>
-
   <!-- Carrier -->
   <!-- EN: Release {0} -->
   <MechCarrierRelease>Рій {0}</MechCarrierRelease>
@@ -505,20 +490,16 @@
   <MechCarrierClickToSetAutofillAmount>Натисніть, щоб встановити бажаний рівень автозаповнення.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
   <MechCarrierAutofillDesc>Цей показник визначає максимальну кількість ресурсів, які ваші колоністи автоматично розмістять у цьому {lookup: {0}; Case; 3}. Ресурси можна використовувати для створення {lookup: {1}; Case; 3}.</MechCarrierAutofillDesc>
-
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
   <MechPowerCell>Елемент живлення</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
   <MechPowerCellTip>Бойові їжаки мають одноразове джерело живлення. Коли елемент живлення виснажується, механоїд гине.</MechPowerCellTip>
-  
-
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
   <BossgroupAvailableIn>доступно через {0}.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
   <RequiresMechanitor>потрібен механізатор</RequiresMechanitor>
-
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
   <AbilityDisabledNoHemogenGene>{0_labelShort} не потребує гемогену.</AbilityDisabledNoHemogenGene>
@@ -540,10 +521,8 @@
   <AbilityMechFirefoampopCharged>Протипожежна піна зарядилась</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
   <AbilityMechFirefoampopRecharging>Протипожежна піна перезаряджається ({0})</AbilityMechFirefoampopRecharging>
-
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>Забруднено {0}</PollutedTerrain>
-
   <!-- Growth vat -->
   <!-- EN: Biostarvation -->
   <Biostarvation>Біоголод</Biostarvation>
@@ -552,7 +531,7 @@
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Помістіть людину в інкубатор. Вони старітимуть у 20 разів швидше, ніж зазвичай.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Помістити ембріон в інкубатор. Після 18-денної вагітності в чані народиться повністю сформована дитина. Сподіваємось здорова.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Помістити ембріон</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -573,27 +552,22 @@
   <NoPawnsCanEnterGrowthVat>Немає людей прийнятного віку без біоголоду. Щоб потрапити в інкубатор, людині має бути менше {0} років і вона не повинна відчувати біоголод.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
   <AgingSpeed>Швидкість старіння</AgingSpeed>
-
   <!-- Mech charger -->
   <!-- EN: Waste -->
   <WasteLevel>Відходи</WasteLevel>
-
   <!-- Dissolution -->
   <!-- EN: indoors -->
-  <DissolutionRateIndoors>в приміщенні</DissolutionRateIndoors>
+  <DissolutionRateIndoors>у приміщенні</DissolutionRateIndoors>
   <!-- EN: raining -->
   <DissolutionRain>дощ</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
   <DissolvesEvery>Розчиняє пакет з відходами кожні {0}</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
   <DissolutionFrozen>Заморожений (не розчиняється).</DissolutionFrozen>
-
   <!-- EN: {0} cells / day -->
   <CellsPerDay>{0} клітин на день</CellsPerDay>
-
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>{0} не може носити одяг для {1}</WrongDevelopmentalStageForClothing> 
-
+  <WrongDevelopmentalStageForClothing>{0} не може носити одяг для {1}</WrongDevelopmentalStageForClothing>
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
   <SubcoreScannerStart>Запустити сканер</SubcoreScannerStart>
@@ -615,10 +589,8 @@
   <SubcoreScannerBabyNotAllowed>Діти не допускаються</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
   <InsertPersonSubcoreScannerDesc>Помістити людину до {lookup: {0}; Case; 2}.</InsertPersonSubcoreScannerDesc>
-
   <!-- EN: Duration (hours) -->
   <DurationHours>Тривалість (годин)</DurationHours>
-
   <!-- Age -->
   <!-- EN: adult -->
   <Adult>дорослий</Adult>
@@ -636,22 +608,18 @@
   <FeralChild>дике дитя</FeralChild>
   <!-- EN: Wearable by -->
   <WearableBy>Одяг для</WearableBy>
-
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Імплантація ксенозародку</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Один з членів групи пересадить свій ксенозародок колоністу на ваш вибір, таким чином перетворивши вашого колоніста в одного з них. Ваш колоніст залишиться частиною вашої фракції та під вашим контролем.</Reward_ReimplantXenogerm_Desc>
-
+  <Reward_ReimplantXenogerm_Desc>Один з члені групи пересадить свій ксенозародок колоністу на ваш вибір, таким чином перетворивши вашого колоніста в одного з них. Ваш колоніст залишиться частиною вашої фракції та під вашим контролем.</Reward_ReimplantXenogerm_Desc>
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
   <MechResurrectionCharges>Підготовка воскресіння механоїда</MechResurrectionCharges>
-
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
   <MechStunPulseWarning>Механоїд випускає імпульс після смерті</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>{PAWN_nameDef} знаходиться в режимі автономного заряджання через низький рівень енергії.</IsLowEnergySelfShutdown>
-  
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
   <ShowPollutionOverlayToggleButton>Перемкнути відображення забруднення. Показує забруднені ділянки місцевості.\n\nВплив забрудненої місцевості спричиняє накопичення токсичних речовин, які можуть призвести до смерті. Більшість рослин не можуть жити на забрудненій місцевості.</ShowPollutionOverlayToggleButton>
@@ -668,11 +636,11 @@
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>Забруднення поблизу</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>Сума рівнів забруднення всіх плиток у радіусі {0}. Зі збільшенням відстані частка забруднення зменшується:\n\n{1}\n\nЧим більший рівень забруднення поблизу, тим більша ймовірність появи кислотного смогу.</NearbyPollutionTip>
+  <NearbyPollutionTip>Сума рівнів забруднення всіх клітин у радіусі {0}. Зі збільшенням відстані частка забруднення зменшується:\n\n{1}\n\nЦим більше забруднення поблизу, тим більша ймовірність появи кислотного смогу.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
   <NoxiousHazeInterval>Ця клітина буде мати кислотний смог, в середньому, кожні {0} дн.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
-  <NoxiousHazeNeverOccurring>Ця плитка ніколи не матиме кислотний смог.</NoxiousHazeNeverOccurring>
+  <NoxiousHazeNeverOccurring>Ця клітина ніколи не матиме кислий смог.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
   <NearbyPollutionTilesAway>клітин</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
@@ -684,18 +652,15 @@
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>Поглинання забруднення: Наступне через {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>Наскільки забруднена земля у цій місцевості.\n\nВплив забрудненої місцевості викликає накопичення токсичних речовин, що може призвести до смерті. Більшість культур не можуть жити на забрудненій місцевості.</TerrainPollutionTip>
-
+  <TerrainPollutionTip>Наскільки ту земля забруднена.\n\nВплив забрудненої землі приводить до токсичного отруєння, яке може бути смертельним. Більшість рослин не можуть вижити на забрудненій землі.</TerrainPollutionTip>
   <!-- Research -->
   <!-- EN: Requires study of -->
   <StudyRequirementTip>Вимагає вивчення</StudyRequirementTip>
-
   <!-- Insect -->
   <!-- EN: Trigger radius -->
   <TriggerRadius>Радіус активації</TriggerRadius>
   <!-- EN: Opening -->
   <DormantCompOpening>Відкриття</DormantCompOpening>
-  
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>яйцеклітина нещодавно вилучена</SurgeryDisableReasonOvumExtracted>
@@ -721,14 +686,12 @@
   <DisabledOption>{0} ({1})</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
   <FertilizeDisabledNoMales>Жоден чоловік не може запліднити цю яйцеклітину.</FertilizeDisabledNoMales>
-  
   <!-- EN: Implant embryo -->
   <ImplantLabel>Імплантувати ембріон</ImplantLabel>
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantDescription>Імплантувати цей ембріон сурогатній матері для початку вагітності.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
   <InsertGrowthVatLabel>Помістити в інкубатор</InsertGrowthVatLabel>
-
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>Не може бути імплантований</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
@@ -749,24 +712,20 @@
   <EmbryoEjectedFromGrowthVat>{0} було вилучено з інкубатору та знищено.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
   <EmbryoEjectedFromGrowthVatBiostarvation>{0} було знищено в інкубаторі через біоголод.</EmbryoEjectedFromGrowthVatBiostarvation>
-
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0} успішно завагітніла від імплантації ембріона!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>Дитина матиме генетичний склад {0} і {1}.</IvfPregnancyLetterParents>
-
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Енерго-щит під малим кутом, який намагатиметься зупинити вхідні снаряди чи осколки. Миттєво вимикається, якщо потрапляє під дію ЕМІ.</ProjectileInterceptorTip>
-
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Дистанційний енерго-щит, спроєктований механізатором. Він намагатиметься зупинити вхідні снаряди чи осколки, але не допоможе проти атак ближнього бою чи високих температур. Запобігає пострілу власника та миттєво вимикається, якщо потрапляє під дію ЕМІ</RemoteMechShieldTip>
-
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
   <MyChildIsHappy>моя дитина щаслива</MyChildIsHappy>
   <!-- EN: my child is sad -->
-  <MyChildIsSad>моя дитина засмучена</MyChildIsSad> 
-
+  <MyChildIsSad>моя дитина засмучена</MyChildIsSad>
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>Genetic {CHEMICAL_label} dependency</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any.</GeneticChemicalDependency_Desc>
 </LanguageData>

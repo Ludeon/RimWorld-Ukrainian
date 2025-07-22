@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
   <LetterLabelLostRoyalTitle>Титул {lookup: {TITLE}; Case; 1} втрачено: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>Титул {lookup: {TITLE}; Case; 1} отримано: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
-
   <!-- EN: Permit points awarded: {0}. -->
   <PermitPointsAwarded>Нараховано одиниць привілей: {0}.</PermitPointsAwarded>
-
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>Цей титул вимагає одягу з якістю {1} або краще.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
   <LetterRoyalTitleApparelRequirement>Потрібен одяг, який відповідає {PAWN_possessive} титулу:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
   <LetterRoyalTitleExpectation>{PAWN_possessive} очікування ніколи не будуть нижчими ніж {1}.</LetterRoyalTitleExpectation>
-  
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
   <LetterRoyalTitleConceitedTrait>Оскільки у {PAWN_labelShort} є {1}, {PAWN_pronoun} вимагатиме повного дотримання привілеїв цього титулу. {PAWN_pronoun} може відмовлятися виконувати певні види праці, їсти неякісну їжу та розпочне видавати накази.</LetterRoyalTitleConceitedTrait>
-
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} титул {lookup: {TITLE}; Case; 1} від фракції {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
@@ -32,20 +27,16 @@
   <LetterRewardsForNewTitleDeliveryBase>Дари прибули до вашої колонії в транспортних капсулах.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
   <LetterRewardsForNewTitleDeliveryDirect>Дари були доставлені безпосередньо до рук {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
-
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} має наступні привілеї:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
   <LetterRoyalTitleLostPermits>{PAWN_pronoun} {PAWN_gender ? втратив : втратила} наступні привілеї:</LetterRoyalTitleLostPermits>
-
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} не бажає виконувати наступні види праці:\n{1}</LetterRoyalTitleDisabledWorkTag>
-
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
   <LetterRoyalTitleEnabledJoyKind>{PAWN_objective} тепер доступний вид дозвілля:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
   <LetterRoyalTitleDisabledJoyKind>Цей титул забороняє такий вид дозвілля:</LetterRoyalTitleDisabledJoyKind>
-
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} має право використовувати наступні імпланти:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
@@ -60,12 +51,10 @@
   <LetterRoyalTitleBedroomRequirements>Цей титул вимагає спальню, що відповідає таким вимогам:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
   <LetterRoyalTitleFoodRequirements>Цей титул передбачає, що {PAWN_pronoun} має їсти лише такі види страв:{1}</LetterRoyalTitleFoodRequirements>
-
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} отримає наступні предмети за допомогою транспортної капсули:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
   <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. {lookup: {FACTION_royalFavorLabel}; Case; 1} від фракції {FACTION_name}.</PeaceTalksRoyalFavorGain>
-
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
   <LetterRoyalTitleHeir>Якщо {PAWN_pronoun} помре, {PAWN_possessive} титул успадкує {HEIR_nameFull}.</LetterRoyalTitleHeir>
@@ -81,8 +70,6 @@
   <LetterTitleHeirLost>{HEIR_nameFull} {PAWN_gender ? помер : померла}, залишивши {HOLDER_labelShort} без спадкоємця титулу від фракції {FACTION_name}. Ви можете зв’язатися із фракцією {FACTION_name} через консоль зв’язку, щоб призначити нового спадкоємця.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>Титул {lookup: {TITLE}; Case; 1} не можна успадкувати.</LetterRoyalTitleCantBeInherited>
-
-
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Спадкування титулу</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
@@ -95,13 +82,11 @@
   <LetterTitleInheritance_WasInherited>{PAWN_possessive} титул, {TITLE}, {HEIR_gender ? успадкував : успадкувала} {HEIR_nameFull}, відповідно до законів про спадщину фракції {FACTION_name}. {HEIR_nameDef} отримає свій новий титул після завершення церемонії вручення.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} титул, {TITLE}, ніхто не успадковує, оскільки {PAWN_pronoun} не {PAWN_gender ? мав : мала} призначеного спадкоємця для цього титулу.</LetterTitleInheritance_NoHeirFound>
-
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Порушник: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
   <LetterLawViolationDetectedForbiddenThingUse>Фракція {FACTION_name} виявила, що {PAWN_labelShort} незаконно {PAWN_gender ? використав : використала}: {lookup: {CULPRIT}; Case; 3} (шанс виявлення {CHANCE}).\n\nВідповідно до законів фракції {FACTION_name}, лише ті, хто має титул {lookup: {TITLE}; Case; 1}, можуть використовувати {lookup: {CULPRIT}; Case; 3}.\n\nВідношення до вашої фракції знизилось на {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
-
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>Дикий указ</WildDecree>
@@ -117,11 +102,9 @@
     \nЯкщо це не буде виконано вчасно, {0_nameIndef} стане дуже незадоволеним.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>Указ має назву "{0}".</LetterDecree_Quest>
-  
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef} було тимчасово передано фракції {FACTION}. Вони незабаром повернуть вам {PAWN_possessive} тіло.</LentColonistDied>  
-
+  <LentColonistDied>{PAWN_nameDef} було тимчасово передано фракції {FACTION}. Вони незабаром повернуть вам {PAWN_possessive} тіло.</LentColonistDied>
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>Отримано пси-зв'язок</LetterLabelPsylinkLevelGained>
@@ -131,41 +114,33 @@
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} отримує новий рівень пси-зв'язку! {USER_pronoun} тепер може використовувати пси-здібності більш високого рівня, але спочатку їх треба вивчити.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Отримавши новий рівень пси-зв'язку, {USER_labelShort} автоматично навчається цим пси-здібностям: {2}</LetterPsylinkLevelGained_PsycastLearned>
-  
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
   <LetterPsychicInspiration>Завдяки впливу псионіка {CASTER_nameIndef}, {PAWN_nameIndef} отримує натхнення!</LetterPsychicInspiration>
-
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>Час на церемонію вручення вичерпано</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
   <LetterTextBestowingCeremonyExpired>{TARGET_definite} не {TARGET_gender ? прийшов : прийшла} на церемонію вручення титулу. Церемонію скасовано.</LetterTextBestowingCeremonyExpired>
-
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>Титул {TARGET_definite} змінено</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
   <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? отримав : отримала} новий титул, до того як був отриманий попередній титул. Щоб церемонія відповідала новому титулу, незабаром буде запланована нова церемонія.\n\nНова церемонія вручення включатиме нагороди рівнями пси-зв'язку для всіх титулів, нагороди за які ще не були отримані.</LetterTextBestowingCeremonyTitleUpdated>
-  
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. честі імперії на знак поваги від фракції {FACTION_name} за те, що {PAWN_gender ? зібрав : зібрала} таку кількість глядачів ({3}).</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. честі імперії на знак поваги від фракції {FACTION_name} за те, що зібрав таку кількість глядачів ({3}).</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
   <LetterPartNoExtraHonor>{PAWN_labelShort} не отримує додаткову честь імперії, оскільки глядачів було небагато.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
   <LetterPartMoodBonus>Всі глядачі церемонії покращили свій настрій.</LetterPartMoodBonus>
-
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>Кому слід приписати {0} за перемогу над табором бандитів?</LetterTextHonorAward_BanditCamp>
-
   <!-- Shuttle crash -->
   <!-- EN: Shuttle crashed -->
   <LetterLabelShuttleCrashed>Шатл розбився</LetterLabelShuttleCrashed>
   <!-- EN: A shuttle has crashed nearby -->
   <LetterTextShuttleCrashed>Поруч розбився шатл</LetterTextShuttleCrashed>
-
   <!-- Wanderer joins -->
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Транспортна капсула розбилась: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
   <LetterTextWandererJoinsAbasia>{0_title} на ім’я {0_nameDef} розбивається в транспортній капсулі неподалік.\n\n{0_nameDef} страждає від {lookup: {1_label}; Case; 1} і не може ходити.\n\nХвороба відступить сама, через багато днів. Також є шанс на щасливе швидке одужання. {lookup: {1_label}; Case; 3} також можна вилікувати за допомогою спеціальної операції, яка потребує великої кількості надсучасних ліків.\n\n{0_pronoun} {0_gender ? готовий : готова} допомагати вам як може, коли одужає, та ніколи не піде від вас добровільно.\n\nЯкщо вам не {0_gender ? потрібен : потрібна} {0_nameDef}, ви можете ігнорувати {0_possessive}, продати у рабство або залишити помирати. Однак це може викликати занепокоєння у ваших колоністів.</LetterTextWandererJoinsAbasia>
-
 </LanguageData>

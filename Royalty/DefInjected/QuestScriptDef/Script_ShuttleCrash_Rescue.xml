@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
     <li>successLetterEndingCommon->You have succesfully completed the quest '[resolvedQuestName]'.</li>
@@ -22,40 +21,52 @@
     <li>allLostLetterText->The rescue shuttle for the crashed [asker_faction_pawnsPlural] has departed without anyone on board.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] has died.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->a civilian has died.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been left behind. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->The map was left behind before the crashed [asker_faction_pawnsPlural] could be collected. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-    <li>failLetterEndingCommon->Ви провалили завдання "[resolvedQuestName]".</li>
-    <li>successLetterEndingCommon->Ви успішно виконали завдання "[resolvedQuestName]".</li>
-    <li>goodwillSomeCiviliansLost->Не всі [pawnLabelPlural] з фракції [asker_faction_pawnSingular] були врятовані. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->Жоден з [pawnLabelPluralGen] фракції [asker_faction_pawnSingular] не був врятований. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->Ваші відносини з фракцією [asker_faction_name] за кожного з не врятованих [pawnLabelPluralGen].</li>
-    <li>commanderLandingDesc->[asker_nameDef], командир, {asker_gender ? який попросив : яка попросила} дозволу на посадку у [map_definite]</li>
-    <li>commanderLandingDescAcc->[asker_nameDef], командиру, {asker_gender ? який попросив : яка попросила} дозволу на посадку у [map_definite]</li>
+    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->You have succesfully completed the quest '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Not all the [asker_faction_pawnSingular] [pawnLabel] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->None of the [asker_faction_pawnSingular] [pawnLabelPlural] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->Your goodwill with [asker_faction_name] has been negatively affected for every [pawnLabel] left.</li>
+    <li>commanderLandingDesc->[asker_nameDef], {asker_gender ? (командир, що попросив) : (командирка, що попросила) } приземлити [asker_possessive] шатл на [map_definite]</li>
     <li>raidArrivedLetterLabel->Рейд: [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->Прийшли [enemyFaction_pawnsPlural] з фракції [enemyFaction_name]. Вони атакують {lookup: [asker_faction_pawnsPlural]; Case; 3}, що приземлились у [map_definite].\n\nЗахищайте їх, доки за ними не прилетить шатл (через [rescueShuttleAfterRaidDelay_duration]).</li>
-    <li>rescueShuttleArrivedLetterLabel->Прилетів рятувальний шатл</li>
-    <li>rescueShuttleArrivedLetterText->Прилетів шатл, надісланий за [pawnLabelSingleOrPluralAbl]. Переконайтесь, що ці люди будуть на шатлі, перш ніж він полетить через [leaveDelay_duration]:\n\n[civilians]</li>
-    <li>questCompletedSuccessLetterLabel->Завдання виконано: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDescAcc], вдалося врятуватися. [asker_pronoun] дякує вам за допомогу у [map_definite].\n\n[successLetterEndingCommon]</li>
-    <li>questCompletedCiviliansLostSuccessLetterLabel->Завдання виконано: [resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDescAcc], вдалося врятуватися.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
-    <li>askerLostLetterLabel->Завдання провалено: [resolvedQuestName]</li>
-    <li>askerLostLetterText->[commanderLandingDesc] не {asker_gender ? був : була} на шатлі, під час його відльоту.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
-    <li>allLostLetterLabel->Завдання провалено: [resolvedQuestName]</li>
-    <li>allLostLetterText->Рятувальний шатл, надісланий за {lookup: [asker_faction_pawnsPlural]; Case; 4}, полетів без пасажирів.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
-    <li>askerDiedLetterLabel->Завдання провалено: [resolvedQuestName]</li>
-    <li>askerDiedLetterText->[commanderLandingDesc], {asker_gender ? помер : померла}.\n\n[failLetterEndingCommon]</li>
-    <li>shuttleDestroyedLetterLabel->Завдання провалено: [resolvedQuestName]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] з [enemyFaction_name] прибули. Вони атакуватимуть [asker_faction_pawnsPlural], котрі розбилися на [map_definite].\n\nЗахистіть [asker_faction_pawnsPlural], поки їх шатл не прибуде через [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Rescue shuttle arrived</li>
+    <li>rescueShuttleArrivedLetterText->The rescue shuttle has arrived to collect the [pawnLabelSingleOrPlural] who crashed landed. Make sure to have these people on the shuttle before it leaves in [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], успішно {asker_gender ? (врятувався) : (врятувалася) }. [asker_pronoun] {asker_gender ? (вдячний) : (вдячна) } за отриману у [map_definite] допомогу.\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], has escaped.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] was not on board when the shuttle departed.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>allLostLetterText->The rescue shuttle for the crashed [asker_faction_pawnsPlural] has departed without anyone on board.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] has died.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->a civilian has died.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been left behind. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->The map was left behind before the crashed [asker_faction_pawnsPlural] could be collected. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
   <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
-    <li>pawnLabel->цивільний</li>
-    <li>pawnLabelGen->цивільного</li>
+    <li>pawnLabel->civilian</li>
+    <li>pawnLabelPlural->civilians</li>
   </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
@@ -73,15 +84,15 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>pawnLabelSingleOrPluralAbl(civilians_count==1)->{lookup: [asker_faction_pawnSingular]; Case; 4}</li>
-    <li>pawnLabelSingleOrPluralAbl(civilians_count>=2)->{lookup: [asker_faction_pawnsPlural]; Case; 4}</li>
-    <li>questDescription->Шатл фракції [asker_faction_name] пошкоджено, йому потрібно здійснити аварійне приземлення. Командир шатлу, [asker_nameDef] хоче приземлитися у [map_definite].\n\n[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] нападуть на шатл, щоб вбити його пасажирів. Ви маєте допомогти в обороні.\n\nШатлом летіли [asker_nameDef][andOtherCivilians] [soldierCountKinds]. Командира[andCivilians] потрібно врятувати, але [soldierCountKindsAbl] можна пожертвувати.\n\nЧерез [rescueDelay_duration], прилетить рятівний шатл. Вам потрібно буде посадити їх усіх на борт протягом [leaveDelay_duration].</li>
-    <li>andOtherCivilians(civilians_count==1)-> та</li>
-    <li>andOtherCivilians(civilians_count==2)->, інший [pawnLabel] та</li>
-    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] інших [pawnLabelPluralGen] та</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kindPlural] may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
     <li>andCivilians(civilians_count==1)-></li>
-    <li>andCivilians(civilians_count==2)-> та [pawnLabelGen]</li>
-    <li>andCivilians(civilians_count>=3)-> та [pawnLabelPluralGen]</li>
+    <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -105,25 +116,24 @@
     <li>landing->approach</li>
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings>
-    <li>questName->[crash] [shuttleGen]</li>
-    <li>questName->[crash] [shuttleGen] {lookup: [asker_faction_pawnSingular]; Case; 1}</li>
+    <li>questName->[crash] [shuttle]</li>
+    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
     <li>questName->[damaged] [shuttle]</li>
-    <li>questName->[damaged] [shuttle] [asker_nameDef]</li>
+    <li>questName->[asker_nameDef]'s [damaged] [shuttle]</li>
     <li>questName->[emergency] [landing]</li>
-    <li>questName->[emergency] [landing] [asker_nameDef]</li>
+    <li>questName->[asker_nameDef]'s [emergency] [landing]</li>
     <li>shuttle->шатл</li>
-    <li>shuttle->транспортер</li>
+    <li>shuttle->шатл</li>
     <li>shuttle->корабель</li>
-    <li>shuttleGen->шатла</li>
-    <li>shuttleGen->транспортера</li>
-    <li>shuttleGen->корабля</li>
-    <li>crash->падіння</li>
-    <li>crash->аварійне приземлення</li>
-    <li>damaged->пошкоджений</li>
-    <li>damaged->розбитий</li>
-    <li>damaged->несправний</li>
-    <li>emergency->аварійне</li>
-    <li>emergency->примусове</li>
+    <li>crash->розбитий</li>
+    <li>crash->down</li>
+    <li>damaged->damaged</li>
+    <li>damaged->busted</li>
+    <li>damaged->failing</li>
+    <li>emergency->emergency</li>
+    <li>emergency->forced</li>
+    <li>landing->landing</li>
+    <li>landing->descent</li>
+    <li>landing->approach</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
-  
 </LanguageData>

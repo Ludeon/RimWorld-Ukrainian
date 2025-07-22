@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>Неконтрольовані механоїди</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
@@ -9,41 +8,34 @@
   <AlertMechLacksOverseerUncontrolled>Неконтрольовані механоїди:</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
   <AlertMechLacksOverseerMayGoFeral>Наступні механоїди неконтрольовані і можуть здичавіти в будь-який момент</AlertMechLacksOverseerMayGoFeral>
-
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>Королева війни має мало ресурсів</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
   <AlertWarqueenHasLowResourcesDesc>Одна чи більше королев війни мають мало ресурсів. Вони втратять можливість виробляти механоїдів, якщо у них закінчаться ресурси.</AlertWarqueenHasLowResourcesDesc>
-
   <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN} потребує летаргічного сну</AlertLowDeathrestPawn>
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
   <AlertLowDeathrestPawns>{NUMCULPRITS} колоністам потрібен летаргічний сон</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
   <AlertLowDeathrestDesc>Колоніст давно не мав летаргічного сну. Якщо вони пройдуть занадто довго без спочинку, вони будуть страждати від виснаження.\n\nДля летаргічного сну, виберіть колоніста, потім клацніть правою кнопкою миші на призначеному ліжку або труні.\n\nНаступним людям потрібен летаргічний сон:\n{CULPRITS}</AlertLowDeathrestDesc>
-
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>Низький рівень гемогену</AlertLowHemogen>
   <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
-  <AlertLowHemogenDesc>Колоніст має низький рівень гемогену. При нульовому рівні вони будуть відчувати болючу жагу.\n\nЩоб цього не трапилося дайте йому гемопак. Ви можете отримати гемопаки, провівши медичну процедуру "Вилучити гемоген" людині що не потребує гемоген.\n\nНаступні колоністи мають низький рівень гемогену</AlertLowHemogenDesc>
-
+  <AlertLowHemogenDesc>Колоніст має низький рівень гемогену. При нульовому рівні вони будуть відчувати болючу жагу.\n\nНагодуйте їх пакетами з гемогеном, щоб цього не трапилося. Ви можете отримати ці пакети використовуючи функцію "видобути гемоген" в меню процедур людини, що не потребує гемоген.\n\nНаступні колоністи мають низький рівень гемогену</AlertLowHemogenDesc>
   <!-- EN: Recharger full -->
   <AlertRechargerFull>Зарядні станції переповнені</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>Деякі зарядні станції мехів зберігають максимальну кількість токсичних відходів. Мехи не можуть використовувати ці станції, поки відходи не будуть вивантажені.\n\nВиберіть колоніста і клацніть правою кнопкою миші по зарядній станції, щоб розвантажити її.</AlertRechargerFullDesc>
-
+  <AlertRechargerFullDesc>Деякі зарядні станції механоїдів зберігають максимальну кількість токсичних відходів. Механоїди не можуть використовувати ці станції, поки відходи не будуть вивезені.\n\nВиберіть колоніста і клацніть правою кнопкою миші по зарядномій станції, щоб розвантажити його.</AlertRechargerFullDesc>
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>Потрібні зарядні станції</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
   <AlertNeedMechChargersDesc>У вас недостатньо зарядних станцій для всіх ваших механоїдів. Якщо у механоїда закінчиться енергія він впаде в неактивний стан і буде повільно заряджатися.\n\nПобудуйте більше зарядних станцій:\n\n{0}\n\nПримітка: Тільки легкі механоїди можуть використовувати стандартну станцію підзарядки. Середні або важкі механоїди потребують великих зарядних станцій.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
   <AlertNeedMechChargerBasicMechtech>Дослідіть базові технології механоїдів або вище, щоб побудувати зарядні станції.</AlertNeedMechChargerBasicMechtech>
-
   <!-- EN: Reimplantation available -->
   <AlertReimplantationAvailable>Доступна повторна імплантація</AlertReimplantationAvailable>
   <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
   <AlertReimplantationAvailableDesc>{0_nameDef} чекає на повторну імплантацію {0_possessive} ксенозародку в одного з ваших колоністів.</AlertReimplantationAvailableDesc>
-
   <!-- EN: Low baby food -->
   <AlertLowBabyFood>Мало дитячої їжі</AlertLowBabyFood>
   <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
@@ -55,18 +47,15 @@
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>Покинута дитина</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>Поруч є покинуті немовлята, про яких не піклуються. Якщо ви їх не усиновите, вони, ймовірно, помруть від голоду.\n\nЩоб усиновити дитину, виберіть її та натисніть "{0}".</AlertAbandonedBabyDesc>
-
+  <AlertAbandonedBabyDesc>There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}".</AlertAbandonedBabyDesc>
   <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>Відсутня дитяча їжа в каравані</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
   <AlertNoBabyFoodCaravanDesc>Немовлята в цьому каравані не мають дитячого харчування та {lookup: {FACTION_pawnsPlural}; Case; 1}, щоб годувати їх.</AlertNoBabyFoodCaravanDesc>
-
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>Отруєння токсинами</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
   <AlertToxicBuildupDesc>Ці колоністи мають серйозне отруєння токсинами:\n\n{0}\n\nПеремістіть їх подалі від джерел токсинів.\n\nОтруєння токсинами може бути викликане багатьма факторами, включаючи токсичні опади, токсичний газ та забруднену землю.</AlertToxicBuildupDesc>
-
   <!-- EN: Need baby cribs -->
   <AlertNeedBabyCribs>Потрібні дитячі ліжка</AlertNeedBabyCribs>
   <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
@@ -75,49 +64,40 @@
   <AlertNeedSlaveCribs>Потрібні дитячі ліжка для рабів</AlertNeedSlaveCribs>
   <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
   <AlertNeedSlaveCribsDesc>У вас більше немовлят-рабів, ніж дитячих ліжок, позначених для використання рабами.\n\nАбо зробіть більше ліжечок, або препризначте вільне ліжко колоніста.\n\nЯкщо у вас немає вільних ресурсів, позначте кілька спальних місць для дітей.</AlertNeedSlaveCribsDesc>
-
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>Забруднена місцевість</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
   <AlertPollutedTerrainDesc>Людина чи тварина страждає від токсичного отруєння та знаходиться на забрудненій місцевості. Поки істота перебуває на забрудненій місцевості, накопичення токсинів буде збільшуватися з часом, поки вона не помре.\n\nПостраждалі:\n\n{0}\n\nТримайте цих людей чи тварин якомога далі від забрудненої місцевості, або знайдіть спосіб захистити їх. Певний одяг, імплантати та генні модифікації можуть захистити від токсинів. Забруднена земля не може бути покрита підлогою, але може бути очищена руками чи іншими методами.</AlertPollutedTerrainDesc>
-
   <!-- EN: Mechanoid missing part -->
   <AlertMechMissingBodyPart>У механоїда відсутня частина тіла</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
   <AlertMechsMissingBodyPart>Відсутні частини механоїдів</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
   <AlertMechMissingBodyPartDesc>У одного чи декількох з ваших механоїдів відсутні частини тіла. Механізатор може відремонтувати їх.\n\nМеханоїди з відсутніми частинами</AlertMechMissingBodyPartDesc>
-
   <!-- EN: Mechanoid repair needed -->
   <AlertMechNeedsRepair>Механоїду потрібен ремонт</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>Ці механоїди пошкоджені та потребують ремонту</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
   <AlertMechNeedsRepairDesc>Накажіть механізатору відремонтувати їх, або виберіть механоїда і увімкніть авторемонт. Для ремонту потрібна енергія. Якщо у механоїда замало енергії, він не зможе рухатися. Хтось повинен перенести його до зарядного пристрою.</AlertMechNeedsRepairDesc>
-  
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} зупинився</AlertToxifierGeneratorStopped>
   <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
   <AlertToxifierGeneratorStoppedDesc>{0} більше не виробляє енергію, бо поблизу більше немає родючої землі для конвертації.\n\nОчистіть місцевість за допомогою очисних помп, або позначте зону очищення забруднень.</AlertToxifierGeneratorStoppedDesc>
-
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>Психічна дистанція</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
   <AlertPsychicBondedPawnsSeparatedDesc>Деякі колоністи з психічним зв’язком були розділені і відчувають негативні наслідки через це. Люди з психічним зв’язком повинні бути в одній місцевості, каравані чи транспортному засобі. Крім того, вони не повинні бути в стані криптосну чи іншому подібному статусі.\n\nНаступні люди страждають</AlertPsychicBondedPawnsSeparatedDesc>
-
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>Банк генів потребує електроенергії</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
   <AlertGenebankUnpoweredDesc>Банк генів знеживлений, тому гени в ньому повільно псуються. Відновіть живлення, щоб запобігти знищенню генів.\n\nПісля відновлення живлення, банк генів буде поступово відновлювати стан генів в ньому.</AlertGenebankUnpoweredDesc>
-
   <!-- EN: {0} incoming -->
   <AlertBossgroupIncoming>{0} прибуває</AlertBossgroupIncoming>
   <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
-  <AlertBossgroupIncomingDesc>Прибуває викликаний вашим механітором ворожий механоїд {0} та його супровід. Будьте готові, це буде непростий бій. Ворожі механоїди прибудуть через кілька годин або днів.</AlertBossgroupIncomingDesc>
-
+  <AlertBossgroupIncomingDesc>Прибуває викликаний вашим механізатором, ворожий механоїд "{0}" та його супровід. Приготуйся. Це буде непростий бій. Ворожі механоїди прибудуть через кілька годин або днів.</AlertBossgroupIncomingDesc>
   <!-- EN: Deathrest complete -->
   <AlertDeathrestComplete>Летаргічний сон завершено</AlertDeathrestComplete>
   <!-- EN: The following people have completed their deathrest and can wake up safely -->
   <AlertDeathrestCompleteDesc>Наступні люди закінчили свій летаргічний сон і можуть безпечно прокинутися</AlertDeathrestCompleteDesc>
-
 </LanguageData>

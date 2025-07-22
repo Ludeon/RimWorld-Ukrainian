@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: enslave attempt -->
   <EnslaveAttempt.label>спроба поневолення</EnslaveAttempt.label>
   <!-- EN:
@@ -15,7 +14,6 @@
     <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? наказав : наказала} [RECIPIENT_nameDef] готуватися до примусової праці.</li>
     <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? пояснив : пояснила} [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має працювати, інакше [RECIPIENT_possessive] буде покарано.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
-  
   <!-- EN: try to reduce will -->
   <ReduceWill.label>спроба зменшити волю</ReduceWill.label>
   <!-- EN:
@@ -62,47 +60,46 @@
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
   <ReduceWill.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] розповідає [RECIPIENT_nameDef], що [RECIPIENT_pronoun] [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] пояснює до [RECIPIENT_nameDef], що [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] погрожує [RECIPIENT_nameDef] [threat], якщо [RECIPIENT_pronoun] [refused].</li>
-    <li>r_logentry->[INITIATOR_nameDef] каже [RECIPIENT_nameDef], що [disillusionment].</li>
-    <li>r_logentry->[INITIATOR_nameDef] вимагає від [RECIPIENT_nameDef], щоб [RECIPIENT_pronoun] [givein] до колонії.</li>
-    <li>negative->немає майбутнього</li>
-    <li>negative->не зможе втекти</li>
-    <li>negative->не має майбутнього поза колонією</li>
-    <li>negative->не має засобів для втечі</li>
-    <li>negative->{RECIPIENT_gender ? повинен : повинна} негайно покоритися</li>
-    <li>negative->має забути свої прагнення</li>
-    <li>negative->{RECIPIENT_gender ? повинен : повинна} покоритися волі колонії</li>
-    <li>threat->тортурами</li>
-    <li>threat->побиттям</li>
-    <li>threat->нівеченням</li>
-    <li>threat->голодуванням</li>
-    <li>threat->вічним ув'язненням</li>
-    <li>threat->смертю</li>
-    <li>threat->ізоляцією</li>
-    <li>threat->розчленуванням</li>
-    <li>threat->ударами тупим предметом</li>
-    <li>threat->різаниною</li>
-    <li>threat->канібалізмом</li>
-    <li>threat->вирізанням органів</li>
-    <li>threat->довгим утриманням</li>
-    <li>refused->спробує втекти</li>
-    <li>refused->образить колонію</li>
-    <li>refused->не працюватиме</li>
-    <li>refused->не буде слухатись</li>
-    <li>refused->чинитиме опір</li>
-    <li>refused->відмовиться коритись</li>
-    <li>refused->поводитиметься нахабно</li>
-    <li>disillusionment->[RECIPIENT_objective] слід прийняти ситуацію</li>
-    <li>disillusionment->[RECIPIENT_pronoun] більше не має надії на інше майбутнє</li>
-    <li>disillusionment->[RECIPIENT_objective] краще підкоритись</li>
-    <li>disillusionment->[RECIPIENT_objective] не вижити {RECIPIENT_gender ? одному : одній}</li>
-    <li>disillusionment->[RECIPIENT_objective] залишається тільки підкоритись</li>
-    <li>givein->{RECIPIENT_gender ? поступився : поступилась}</li>
-    <li>givein->{RECIPIENT_gender ? підкорився : підкорилась}</li>
-    <li>givein->{RECIPIENT_gender ? здався : здалася}</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony.</li>
+    <li>negative->had no future</li>
+    <li>negative->had no way to escape</li>
+    <li>negative->had no future outside of the colony</li>
+    <li>negative->didn't have the means to escape</li>
+    <li>negative->should submit immediately</li>
+    <li>negative->should forget [RECIPIENT_possessive] aspirations</li>
+    <li>negative->should submit to the colony</li>
+    <li>threat->torture</li>
+    <li>threat->punishment</li>
+    <li>threat->mutilation</li>
+    <li>threat->starvation</li>
+    <li>threat->lifetime incarceration</li>
+    <li>threat->death</li>
+    <li>threat->isolation</li>
+    <li>threat->dismemberment</li>
+    <li>threat->blunt trauma</li>
+    <li>threat->lacerations</li>
+    <li>threat->cannibalism</li>
+    <li>threat->organ harvesting</li>
+    <li>threat->long confinement</li>
+    <li>refused->tried to escape</li>
+    <li>refused->insulted the colony</li>
+    <li>refused->did not work</li>
+    <li>refused->refused a command</li>
+    <li>refused->resisted submitting</li>
+    <li>refused->refused to obey</li>
+    <li>refused->behaved impertinently</li>
+    <li>disillusionment->should accept [RECIPIENT_possessive] situation</li>
+    <li>disillusionment->had no hope for another future</li>
+    <li>disillusionment->would be best off submitting</li>
+    <li>disillusionment->would not survive on [RECIPIENT_possessive] own</li>
+    <li>disillusionment->had no option but to submit</li>
+    <li>givein->give in</li>
+    <li>givein->submit [RECIPIENT_objective]self</li>
+    <li>givein->surrender [RECIPIENT_objective]self</li>
     <li>givein->yield [RECIPIENT_objective]self</li>
   </ReduceWill.logRulesInitiator.rulesStrings>
-  
 </LanguageData>

@@ -1,91 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>швидкість роботи з тваринами</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
   <AnimalGatherSpeed.description>Швидкість, з якою персонаж доїть, стриже, та збирає інші продукти тваринництва.</AnimalGatherSpeed.description>
-  
   <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>ефективність роботи з тваринами</AnimalGatherYield.label>
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
   <AnimalGatherYield.description>Відсоток ресурсів, які персонаж зможе надоїти, зістригти, чи іншим способом отримати з тварини.\n\nВисокий відсоток зменшує імовірність втрати ресурсів.</AnimalGatherYield.description>
-  
   <!-- EN: cleaning speed multiplier -->
   <CleaningSpeed.label>множник швидкості прибирання</CleaningSpeed.label>
   <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
   <CleaningSpeed.description>Множник швидкості, з якою персонаж прибирає бруд з поверхонь.</CleaningSpeed.description>
-  
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>швидкість будівництва</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
   <ConstructionSpeed.description>Швидкість, з якою персонаж будує та ремонтує споруди.</ConstructionSpeed.description>
-  
   <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>шанс успішного будівництва</ConstructSuccessChance.label>
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
   <ConstructSuccessChance.description>Імовірність того, що персонаж успішно завершить будівництво.\nНевдача призведе до втрати часу та частини ресурсів.</ConstructSuccessChance.description>
-  
   <!-- EN: deep drilling speed -->
   <DeepDrillingSpeed.label>швидкість глибинного буріння</DeepDrillingSpeed.label>
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
   <DeepDrillingSpeed.description>Швидкість, з якою персонаж застосовує бурову установку для видобутку корисних копалин.</DeepDrillingSpeed.description>
-  
   <!-- EN: drug crop harvest yield -->
   <DrugHarvestYield.label>урожайність наркотиків</DrugHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
   <DrugHarvestYield.description>Кількість врожаю, яку персонаж отримує при зборі наркотичних культур.\n\nЧим нижче це значення, тим вищий шанс, що персонаж втратить зібраний врожай. Високий показник збільшує кількість врожаю із кожної рослини.</DrugHarvestYield.description>
-  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>шанс успішного ремонту</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>Імовірність, з якою персонаж зможе полагодити зламаний механізм чи прилад, маючи в руках компонент.\n\nНевдача призведе до втрати часу та частини ресурсів.\nЗауважте, що це стосується лише усунення поламок, яке відрізняється від усунення пошкоджень.</FixBrokenDownBuildingSuccessChance.description>
-  
+  <!-- EN: hacking speed -->
+  <HackingSpeed.label>швидкість зламу</HackingSpeed.label>
+  <!-- EN: How fast this person can hack into computer terminals. -->
+  <HackingSpeed.description>How fast this person can hack into computer terminals.</HackingSpeed.description>
+  <!-- EN: hacking stealth -->
+  <HackingStealth.label>hacking stealth</HackingStealth.label>
+  <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
+  <HackingStealth.description>How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking.</HackingStealth.description>
   <!-- EN: hunting stealth -->
   <HuntingStealth.label>скритність на полюванні</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
   <HuntingStealth.description>Цей показник зменшує імовірність відповіді тварини на завдану шкоду.\n\n0% означає, що імовірність відповіді не знизиться.\n100% означає, що тварина ніколи нападе у відповідь.</HuntingStealth.description>
-  
   <!-- EN: mining speed -->
-  <MiningSpeed.label>швидкість видобутку</MiningSpeed.label>
+  <MiningSpeed.label>швидкість гірництва</MiningSpeed.label>
   <!-- EN: A speed at which this person mines away walls. -->
   <MiningSpeed.description>Множник швидкість, з якою персонаж видобуває гірську породу.</MiningSpeed.description>
-  
   <!-- EN: mining yield -->
-  <MiningYield.label>ефективність видобутку</MiningYield.label>
+  <MiningYield.label>ефективність гірництва</MiningYield.label>
   <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
   <MiningYield.description>Відсоток корисних копалин, який зможе видобути шахтар.\n\nЦей показник застосовується як до поверхневого, так і глибинного видобутку.\nНе впливає на видобуток пустих клітин при глибинному бурінні.</MiningYield.description>
-  
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>ефективність збору</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
   <PlantHarvestYield.description>Кількість врожаю, яку персонаж отримує при зборі рослин.\n\nЧим нижче це значення, тим вищий шанс, що персонаж втратить зібраний урожай.</PlantHarvestYield.description>
-  
   <!-- EN: plant work speed -->
   <PlantWorkSpeed.label>швидкість фермерства</PlantWorkSpeed.label>
   <!-- EN: The speed at which this person sows and harvests plants. -->
   <PlantWorkSpeed.description>Швидкість, з якою персонаж сіє та збирає рослини.</PlantWorkSpeed.description>
-  
   <!-- EN: reading speed -->
   <ReadingSpeed.label>швидкість читання</ReadingSpeed.label>
   <!-- EN: A multiplier on how fast this person can read. -->
   <ReadingSpeed.description>Множник до швидкості читання.</ReadingSpeed.description>
-  
   <!-- EN: research speed -->
   <ResearchSpeed.label>швидкість досліджень</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
   <ResearchSpeed.description>Швидкість, з якою цей персонаж проводить інтелектуальну роботу.</ResearchSpeed.description>
-  
   <!-- EN: smoothing speed -->
   <SmoothingSpeed.label>швидкість вирівнювання</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
   <SmoothingSpeed.description>Множник швидкості, з якою персонаж вирівнює грубе кам’яне покриття та стіни.</SmoothingSpeed.description>
-  
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>загальна швидкість роботи</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
   <WorkSpeedGlobal.description>Множник швидкості, з якою персонаж виконує будь-яку роботу.</WorkSpeedGlobal.description>
   <!-- EN: Offset from mechanitor -->
   <WorkSpeedGlobal.parts.2.label>Приріст від механізатора</WorkSpeedGlobal.parts.2.label>
-  
 </LanguageData>

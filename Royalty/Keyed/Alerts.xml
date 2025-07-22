@@ -1,75 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Room requirements -->
   <!-- EN: Need throneroom -->
   <NeedThroneAssigned>Потрібна тронна зала</NeedThroneAssigned>
   <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
   <NeedThroneAssignedDesc>Колоніст королівським титулом не має відповідної тронної зали.\n\nПереконайтеся, що власнику титулу призначено трон, який знаходиться у тронній залі.\n\nТронна зала має бути відповідного розміру та повинна мати відповідні декорації, щоб задовольнити вимоги титулу.\n\nВ одній тронній залі можна розмістити декілька тронів.</NeedThroneAssignedDesc>
-
   <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>Негідна спочивальня</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>Один із ваших людей має королівський титул, який вимагає особливу спальню. Або не призначено жодної спальні, або призначена спальня не відповідає вимогам.</UndignifiedBedroomDesc>
-
+  <UndignifiedBedroomDesc>Колоніст королівським титулом не має відповідної спочивальні: або не призначено жодної спочивальні, або призначена невідповідна вимогам.</UndignifiedBedroomDesc>
   <!-- EN: Title requires bedroom -->
   <NeedBedroomAssigned>Необхідна відповідна спочивальня</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
   <NeedBedroomAssignedDesc>Колоніст з королівським титулом не має відповідної спочивальні.\n\nПризначте їм особисту спочивальню, вона має бути відповідного розміру та повинна мати відповідні декорації, щоб задовольнити вимоги титулу.</NeedBedroomAssignedDesc>
-
   <!-- EN: Undignified throneroom -->
   <UndignifiedThroneroom>Негідна тронна зала</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
   <UndignifiedThroneroomDesc>Колоніст з королівським титулом має трон, але тронна зала не відповідає вимогам титулу.</UndignifiedThroneroomDesc>
-  
   <!-- EN: No acceptable food -->
   <RoyalNoAcceptableFood>Немає відповідної їжі</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
   <RoyalNoAcceptableFoodDesc>Колоніст з королівським титулом має особливі вимоги до їжі. Проте їжі, яка б відповідала цим вимогам, немає.</RoyalNoAcceptableFoodDesc>
-
   <!-- EN: {0} days until requirement begins -->
   <RoomRequirementGracePeriodDesc>{0} дн. до набрання чинності вимогами</RoomRequirementGracePeriodDesc>
-
   <!-- EN: Throne not usable -->
   <ThroneroomInvalidConfiguration>Трон не придатний до використання</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
   <ThroneroomInvalidConfigurationDesc>Трон не можна використовувати через те, як він встановлений:</ThroneroomInvalidConfigurationDesc>
-  
   <!-- EN: Monument missing blueprints -->
   <MonumentMarkerMissingBlueprints>Відсутні плани монументу</MonumentMarkerMissingBlueprints>
   <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
   <MonumentMarkerMissingBlueprintsDesc>Монумент не буде завершено, оскільки плани деяких з його частин не були розміщенні.\n\nВиберіть план монумента та натисніть "Розмістити проєкт" або розмістіть план вручну.</MonumentMarkerMissingBlueprintsDesc>
-
   <!-- EN: Beacon unusable -->
   <ShipLandingBeaconUnusable>Посадковий майданчик непридатний</ShipLandingBeaconUnusable>
   <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
   <ShipLandingBeaconUnusableDesc>Маяки для посадки корабля включені, але майданчиком не можна скористатися. Щоб можна було використовувати, чотири маяки повинні бути розміщені у кутах квадрата щонайменше 9х9 клітинок, вся площа квадрата повинна бути вільною від перешкод, включаючи будівлі, людей і тварин.</ShipLandingBeaconUnusableDesc>
-
   <!-- EN: Need meditation spot -->
   <NeedMeditationSpotAlert>Потрібне місце для медитації</NeedMeditationSpotAlert>
-  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
-  <NeedMeditationSpotAlertDesc>Цим колоністам необхідно накопичувати пси-фокус, але для них немає доступних місць для медитації.\n\n{0}\n\nРозмістіть місце для медитації та переконайтеся, що воно досяжне та придатне для використання. Колоністи віддадуть перевагу місцям біля найкращого для них об’єкта концентрації.</NeedMeditationSpotAlertDesc>
-
+  <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. Colonists won't meditate in another colonist's bedroom. -->
+  <NeedMeditationSpotAlertDesc>These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. Colonists won't meditate in another colonist's bedroom.</NeedMeditationSpotAlertDesc>
   <!-- EN: Unusable meditation focus -->
   <UnusableMeditationFocusAlert>Непридатний тип медитації</UnusableMeditationFocusAlert>
   <!-- EN: These colonists are meditating near a focus object they can't use.\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
   <UnusableMeditationFocusAlertDesc>Ці колоністи медитують біля об’єкта концентрації, яким вони не можуть скористатися.\n\n{0}\n\nРізним людям потрібні різні об’єкти концентрації. Типи концентрації людини залежать від її передісторії, рис і титулу. Ви можете побачити доступні типи медитації, переглянувши більш детальну інформацію про них за допомогою кнопки "i" на їхній панелі в лівому нижньому кутку.</UnusableMeditationFocusAlertDesc>
-
   <!-- EN: Permit choice ready -->
   <PermitChoiceReadyAlert>Доступний новий привілей</PermitChoiceReadyAlert>
   <!-- EN: {PAWN_nameDef} can choose a new permit. -->
   <PermitChoiceReadyAlertDesc>{PAWN_nameDef} може вибрати новий привілей.</PermitChoiceReadyAlertDesc>
-  
   <!-- EN: Bestower waiting -->
   <BestowerWaitingAlert>Представник імперії чекає</BestowerWaitingAlert>
   <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
   <BestowerWaitingAlertDesc>Представник імперії чекає, щоб розпочати церемонію вручення титулу.</BestowerWaitingAlertDesc>
-  
   <!-- EN: Anima linking ceremony ready -->
   <AnimaLinkingReadyLabel>Церемонія зв’язуванням з аніма-деревом готова</AnimaLinkingReadyLabel>
   <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
   <AnimaLinkingReadyDesc>Аніма-дерево має достатньо аніма-трави, щоб провести церемонію зв’язування та підвищити рівень пси-зв'язку для цих колоністів</AnimaLinkingReadyDesc>
   <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
   <AnimaLinkingReadyDescExtra>Щоб розпочати церемонію, виберіть колоніста, натисніть кнопку "розпочати ритуал зв’язування" та виберіть аніма-дерево, яке ви хочете використати.</AnimaLinkingReadyDescExtra>
-  
 </LanguageData>
