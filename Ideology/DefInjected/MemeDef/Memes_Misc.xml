@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: animal personhood -->
   <AnimalPersonhood.label>тварини-особистості</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
@@ -35,33 +34,33 @@
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_AnimalPersonhood)->[deity0_created] [deity0_name] [sacredAnimalList] та людину в [place_summary] [place_name] і виросли вони як брати і сестри.</li>
-    <li>episode(uses=1,tag=meme_AnimalPersonhood)->І [deity0_brought] [deity0_name] тварин і людей із [place_summary] [place_name] на великий збір.</li>
-    <li>intro(tag=meme_AnimalPersonhood)->[deity0_blessed] [deity0_name] [place_summary] [place_name], де жили [sacredAnimalListEnd] і [deity0_taught] людей шанувати цих тварин.</li>
-    <li>conflict(tag=meme_AnimalPersonhood)->Але наказав злий [foeLeader] полювати на диких тварин, і [foeSoldiers] [foeLeader_possessive] взяли до рук {lookup: [place_personalWeapon]; Case; 3}.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)->І [deity0_came] [deity0_name] до [place_job] на ім'я [founderName] [revelationAdverb] і [deity0_spoke] про [veneratedAnimal]. І [founder_was] [founderName] [veneratedAnimal], і [veneratedAnimal] був [founderName], і [founder_understood] [founder_pronoun] задум [deity0_name].</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)->Але [founder_freed] [place_job] на ім’я [founderName] багатьох тварин, які були поневолені жорстокими господарями, і [founder_took] їх до храму, в [altarRoomLabel] [deity0_name].</li>
-    <li>victory(tag=meme_AnimalPersonhood)->І [founder_called] [founderName] голосом [deity0_name] [memberNamePlural] та тварин і у великому тупоті копит, лап і ніг розтоптав [foeLeader] і [foeLeader_possessive] [foeSoldiers].</li>
-    <li>setup(tag=meme_AnimalPersonhood)->[founderName] [founder_lived] лісі двадцять років, вивчаючи тварин і спілкуючись із ними. [founder_pronoun] [founder_understood] їх справжню мораль і віднайшовся новий рух.</li>
-    <li>story(uses=1,tag=meme_AnimalPersonhood)->[founderName] [founder_went] в поля та ліса, щоб спілкуватися з тваринами і об'єднуватися з ними як з рівними.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)->Під час щоденних зустрічей з [veneratedOrAnyAnimalAbl] я [founder_learned] по-справжньому їх слухати. Знову і знову, по-своєму, вони повторювали мені свою мудрість:</li>
-    <li>lesson(tag=meme_AnimalPersonhood)->тварини є нашими партнерами в цьому світі, і неправильно ставитися до них як до менших</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood)->Я і [founder_self] не [founder_believed] це, поки не [founder_heard], як [veneratedOrAnyAnimal] шепоче це мені.</li>
-    <li>archistBasis(tag=meme_AnimalPersonhood)->З тих пір, як прокинулися архотеки, вони, очевидно, не робили моральної різниці між людьми і тваринами.</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)->Архотеки знаходяться на вищому рівні моралі, ніж біологічні істоти. Їх перевага настільки велика, що люди стоять на одній площині з тваринами.</li>
-    <li>archistProphecy(tag=meme_AnimalPersonhood)->[inTheEnd] архотеки виховуватимуть людей як рівних, лише якщо люди ставитимуться до тварин як до рівних.</li>
-    <li>animistBasis(tag=meme_AnimalPersonhood)->Духи думки і свідомості однаково живуть у тваринах і людях.</li>
-    <li>animistFact(tag=meme_AnimalPersonhood)->Духи природних тварин - це ті самі духи, що живуть всередині людей.</li>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] blessed the [place_summary] [place_name] with [sacredAnimalListEnd], and taught the people there to honor the animals.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->An evil [foeLeader] ordered the wild animals to be hunted, and [foeLeader_possessive] [foeSoldiers] hunted them with cruel [place_personalWeapon]s.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] came to a [place_job] named [founderName] [revelationAdverb] about a [veneratedAnimal]. But [founderName] was the [veneratedAnimal], and the [veneratedAnimal] was [founderName], and [founder_pronoun] understood [deity0_name]'s plan.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->A [place_job] named [founderName] freed many animals that were enslaved by cruel masters, and took them to sanctuary in the [altarRoomLabel] of [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] called to the [memberNamePlural] and the animals with [deity0_name]'s voice, and in a great stampede of hoof and paw and foot, trampled the [foeLeader] and [foeLeader_possessive] [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] lived in the forest for twenty years, studying the animals and connecting with them. [founder_pronoun] came to understand their true morality and founded our movement.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] went to commune with the animals in the fields and forests, and connected with them as equals.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->In my daily visitations with the [veneratedOrAnyAnimal]s I learned to truly listen to them. Over and over, in their own way, they repeated their message to me:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->the animals are our partners in this world, and it's wrong to treat them as any less</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->I didn't believe it myself until a [veneratedOrAnyAnimal] whispered it to me.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Since archotechs awoke, they have obviously made no moral distinction between humans and animals.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Archotechs are on a higher plane of morality than bio-life. Their superiority is so great that humans are on the same plane of morality as animals.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], archotechs will raise humans as equals only if humans treat animals as equals.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->The spirits of thought and consciousness live within animals and humans alike.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->The spirits of nature's animals are the same spirits residing within humans.</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
-    <li>veneratedOrAnyAnimalAbl(priority=10)->{lookup: [veneratedAnimal]; Case; 4}</li>
-    <li>veneratedOrAnyAnimalAbl->[AnimalAbl]</li>
-    <li>sacredAnimalList->{lookup: [animal0_thingDef_label]; Case; 3}, {lookup: [animal1_thingDef_label]; Case; 3}, {lookup: [animal2_thingDef_label]; Case; 3}</li>
-    <li>sacredAnimalList->{lookup: [animal0_thingDef_label]; Case; 3}, {lookup: [animal1_thingDef_label]; Case; 3}</li>
-    <li>sacredAnimalList->{lookup: [animal0_thingDef_label]; Case; 3}</li>
-    <li>sacredAnimalList->корову, лисицю, ведмедя</li>
-    <li>sacredAnimalListEnd->[animal0_thingDef_label], [animal1_thingDef_label] та [animal2_thingDef_label]</li>
-    <li>sacredAnimalListEnd->[animal0_thingDef_label] та [animal1_thingDef_label]</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label], the [animal1_thingDef_label], the [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label], the [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->the [animal0_thingDef_label]</li>
+    <li>sacredAnimalList->the cow, the fox, the bear,</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label], the [animal1_thingDef_label], and the [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label], and the [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
@@ -78,18 +77,18 @@
     <li>memeMoralist->shepherd</li>
   -->
   <AnimalPersonhood.generalRules.rulesStrings>
-    <li>memeAdjective_masc->тваринний</li>
-    <li>memeAdjective_masc->пухнастий</li>
-    <li>memeAdjective_fem->тваринна</li>
-    <li>memeAdjective_fem->пухнаста</li>
-    <li>memeAdjective_neutral->тваринне</li>
-    <li>memeAdjective_neutral->пухнасте</li>
-    <li>memeAdjective_plural->тваринні</li>
-    <li>memeAdjective_plural->пухнасті</li>
-    <li>memeCreed->зграя</li>
-    <li>memeCreed->стадо</li>
-    <li>memeCreed->табун</li>
-    <li>memeConcept->тваринного</li>
+    <li>memeAdjective->animal</li>
+    <li>memeAdjective->furry</li>
+    <li>memeCreed->pack</li>
+    <li>memeCreed->herd</li>
+    <li>memeCreed->flock</li>
+    <li>memeConcept->animals</li>
+    <li>memeLeaderNoun->beast</li>
+    <li>memeLeaderNoun->animal</li>
+    <li>memeLeaderAdjective->alpha</li>
+    <li>memeMoralist->whisperer</li>
+    <li>memeMoralist->herder</li>
+    <li>memeMoralist->shepherd</li>
   </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
   <AnimalPersonhood.symbolPacks.0.adjective>анімалістичний</AnimalPersonhood.symbolPacks.0.adjective>
@@ -107,7 +106,6 @@
   <AnimalPersonhood.symbolPacks.1.member>звір</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
   <AnimalPersonhood.symbolPacks.1.theme>звірів</AnimalPersonhood.symbolPacks.1.theme>
-  
   <!-- EN: blindsight -->
   <Blindsight.label>сліпозорість</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
@@ -133,24 +131,24 @@
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)->[deity0_looked_over] [deity0_name] на пил порожнечі цілу вічність, і нічого там не було. Тоді [deity0_tore_out] [deity0_pronoun] очі свої, і всесвіт утворився всередині [deity0_possessive] розуму.</li>
-    <li>episode(uses=1,tag=meme_Blindsight)->І запитав сліпий жебрак [deity0_possessive]: "Чому ти [deity0_forsaken] мене? Я навіть не бачу твоє творіння". І [deity0_replied] [deity0_name]: "Не менше бачиш ти, а більше, бо моя правда лежить у розумі твоєму"</li>
-    <li>intro(tag=meme_Blindsight)->[deity0_sent] [deity0_type] [deity0_name] мор, щоб осліпити поселенців із [place_summary] [place_name], змусивши їх зрозуміти, що зір є перешкодою для божественного знання.</li>
-    <li>conflict(tag=meme_Blindsight)->А [foeLeader] вимагав, щоб усі [memberNamePlural] щодня дивилися пропаганду [foeLeader_possessive]. Багато хто осліпив себе на знак протесту.</li>
-    <li>founderJoin(tag=meme_Blindsight)->[place_job] на ім’я [founderName] [founder_lost] свій зір, коли [founder_saved] [founder_pronoun] [memberName] від [foeSoldiers] [foeLeader]. Лише тоді [founderName] [founder_could] по-справжньому побачити тиранію [foeLeader].</li>
-    <li>victory(tag=meme_Blindsight)->[founder_went] [founderName] до [place_powerCenter] і [founder_cut_out] [foeLeader] очі ложкою під час раптової атаки. Лише тоді [foeLeader] зміг побачити божественність [deity0_name].</li>
-    <li>setup(tag=meme_Blindsight)->[founderName] [founder_was] бідних. Бачачи стільки щоденних страждань, [founder_pronoun] не [founder_could] цього більше терпіти. Тоді [founder_pronoun] [founder_cut_out] свої очі лезом і [founder_found] спокій у сліпоті. Після цього, [founder_pronoun] [founder_began] поширювати своє відкриття серед зрячих.</li>
-    <li>story(uses=1,tag=meme_Blindsight)->[founderName] [founder_visited] сліпого цілителя, і замість того, щоб навчати його, [founder_found_self_being_taught], розуміючи, що фізичний зір затьмарює справжню суть.</li>
-    <li>story(uses=1,tag=meme_Blindsight)->[founderName] [founder_found_was_blind] і [founder_found_took] мудрість від незрячості. Одного разу [founder_pronoun] особисто [founder_removed] очі всій родині, щоб вони могли бачити, як [founder_pronoun].</li>
-    <li>lessonIntro(tag=meme_Blindsight)->Я впевнено [founder_walked], але моя душа спотикалася на кожному кроці. Я [founder_could_see] занадто багато. Лише кислота, пролита на мої очі, вказала мені, що</li>
-    <li>lesson(tag=meme_Blindsight)->по-справжньому бачить лише сліпий</li>
-    <li>lesson(tag=meme_Blindsight)->відволікання приходить ззовні, тоді як знання приходять зсередини</li>
-    <li>lessonReinforcement(tag=meme_Blindsight)->Я ніколи не [founder_could] би цього зрозуміти, доки відволікали мене образи навколишні. Лезо, що пробило мої очі, звільнило мене.</li>
-    <li>lessonReinforcement(tag=meme_Blindsight)->Лише тоді, коли я [founder_cut_out] очі своїм послідовникам, вони по-справжньому це зрозуміли.</li>
-    <li>archistBasis(tag=meme_Blindsight)->Архотеки з самого початку сприймали Всесвіт за допомогою чуттів, що перебувають поза фізичними.</li>
-    <li>archistFact(tag=meme_Blindsight)->Наші очі обманюють нас, і вони не дають нам зрозуміти Всесвіт так, як це роблять архотеки.</li>
-    <li>archistProphecy(tag=meme_Blindsight)->[inTheEnd], сліпа людина візьме [relic0_name], зрозуміє її призначення за її формою та розкриє мудрість архотеків для всього людства.</li>
-    <li>animistFact(tag=meme_Blindsight)->Побачити очима духу — єдиний спосіб побачити справжню природу світу.</li>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
+    <li>intro(tag=meme_Blindsight)           ->The [deity0_type] [deity0_name] used a pathogen to strike the settlers of the [place_summary] [place_name] blind, forcing them to understand that sight is a barrier to divine knowledge.</li>
+    <li>conflict(tag=meme_Blindsight)        ->A [foeLeader] demanded that all [memberNamePlural] watch [foeLeader_possessive] propaganda every day. Many blinded themselves in protest.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->A [place_job] named [founderName] lost [founder_possessive] sight when [founder_pronoun] saved a [memberName] from one of [foeLeader]'s [foeSoldiers]. It was only then that [founderName] could truly see the tyranny of the [foeLeader].</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] went to the [place_powerCenter] and cut the [foeLeader]'s eyes out with a spoon in a surprise suicide attack. Only then could the [foeLeader] see the divinity of [deity0_name].</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] was a healer of the poor. Seeing so much daily suffering, [founder_pronoun] could take it no longer. [founder_pronoun] gouged [founder_possessive] eyes out with a blade, and found tranquility in blindness. [founder_pronoun] began to spread [founder_possessive] discovery to the sighted.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] visited a blind healer, and instead of teaching the man, found [founder_objective]self being taught, and came to understand that physical sight obscures true vision.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] was blind and took wisdom from sightlessness. [founder_pronoun] once personally removed the eyes of an entire family so that they may see as [founder_pronoun] does.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->I walked strong but my soul stumbled on every step. I could just see too much. The acid on my eyes showed me that</li>
+    <li>lesson(tag=meme_Blindsight)              ->only the blind can truly see</li>
+    <li>lesson(tag=meme_Blindsight)              ->distraction comes through the eyes, while knowledge comes from within</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->I could never have fully understood it had I still been distracted by the images around me. The blade in my eye set me free.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->It was only when I cut out my followers' eyes that they truly understood that.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->The archotechs, from their beginning, perceived the universe using senses beyond the physical.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Our eyes deceive us, and they stop us from understanding the universe the way the archotechs do.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
@@ -171,24 +169,23 @@
     <li>memeMoralist->blindfolder</li>
   -->
   <Blindsight.generalRules.rulesStrings>
-    <li>memeAdjective->сліпий</li>
-    <li>memeAdjective->незрячий</li>
-    <li>memeAdjective->далекоглядний</li>
-    <li>memeAdjective->ясновидний</li>
-    <li>memeAdjective_fem->сліпа</li>
-    <li>memeAdjective_fem->незряча</li>
-    <li>memeAdjective_fem->далекоглядна</li>
-    <li>memeAdjective_fem->ясновидна</li>
-    <li>memeAdjective_neutral->сліпе</li>
-    <li>memeAdjective_neutral->незряче</li>
-    <li>memeAdjective_neutral->далекоглядне</li>
-    <li>memeAdjective_neutral->ясновидне</li>
-    <li>memeAdjective_plural->сліпі</li>
-    <li>memeAdjective_plural->незрячі</li>
-    <li>memeAdjective_plural->далекоглядні</li>
-    <li>memeAdjective_plural->ясновидні</li>
+    <li>memeAdjective->blind</li>
+    <li>memeAdjective->sightless</li>
+    <li>memeAdjective->visionary</li>
+    <li>memeAdjective->farsighted</li>
+    <li>memeCreed->view</li>
+    <li>memeCreed->cult</li>
+    <li>memeHyphenPrefix->blind</li>
+    <li>memeConcept->blindness</li>
+    <li>memeConcept->vision</li>
+    <li>memeConcept->sight</li>
+    <li>memeConcept->perception</li>
+    <li>memeLeaderNoun->visionary</li>
+    <li>memeLeaderAdjective->blind</li>
+    <li>memeMoralist->seer</li>
+    <li>memeMoralist->gouger</li>
+    <li>memeMoralist->blindfolder</li>
   </Blindsight.generalRules.rulesStrings>
-  
   <!-- EN: cannibal -->
   <Cannibal.label>людожерство</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
@@ -252,24 +249,24 @@
     <li>memeMoralist->fleshknower</li>
   -->
   <Cannibal.generalRules.rulesStrings>
-    <li>memeAdjective_masc->кривавий</li>
-    <li>memeAdjective_fem->кривава</li>
-    <li>memeAdjective_neutral->криваве</li>
-    <li>memeAdjective_plural->криваві</li>
-    <li>memeCreed_plural->їдоки</li>
-    <li>memeCreed_plural->зуби</li>
-    <li>memeCreed_fem->бойня</li>
-    <li>memeCreed_masc->культ</li>
-    <li>memeHyphenPrefix->крово-</li>
-    <li>memeConcept->крові</li>
-    <li>memeConcept->плоті</li>
-    <li>memeConcept->вбивства</li>
-    <li>memeConcept->поїдання</li>
-    <li>memeLeaderNoun->їдок</li>
-    <li>memeLeaderNoun->шеф-кухар</li>
-    <li>memeLeaderNoun->кровосіся</li>
-    <li>memeLeaderNoun->зуб</li>
-    <li>memeLeaderNoun->м'ясник</li>
+    <li>memeAdjective->bloody</li>
+    <li>memeCreed->eaters</li>
+    <li>memeCreed->teeth</li>
+    <li>memeCreed->abattoir</li>
+    <li>memeCreed->cult</li>
+    <li>memeHyphenPrefix->blood</li>
+    <li>memeConcept->blood</li>
+    <li>memeConcept->flesh</li>
+    <li>memeConcept->murder</li>
+    <li>memeConcept->eating</li>
+    <li>memeConcept->meat</li>
+    <li>memeLeaderNoun->eater</li>
+    <li>memeLeaderNoun->chef</li>
+    <li>memeLeaderNoun->blood-drinker</li>
+    <li>memeLeaderNoun->tooth</li>
+    <li>memeLeaderNoun->fleshripper</li>
+    <li>memeMoralist->first-eater</li>
+    <li>memeMoralist->fleshknower</li>
   </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
   <Cannibal.symbolPacks.0.adjective>канібальский</Cannibal.symbolPacks.0.adjective>
@@ -295,7 +292,6 @@
   <Cannibal.symbolPacks.2.member>плотоїд</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
   <Cannibal.symbolPacks.2.theme>плотоїдства</Cannibal.symbolPacks.2.theme>
-  
   <!-- EN: darkness -->
   <Darkness.label>темна сторона</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
@@ -350,21 +346,20 @@
     <li>memeMoralist->confuser</li>
   -->
   <Darkness.generalRules.rulesStrings>
-    <li>memeAdjective_masc->темний</li>
-    <li>memeAdjective_masc->тьмяний</li>
-    <li>memeAdjective_fem->темна</li>
-    <li>memeAdjective_fem->тьмяна</li>
-    <li>memeAdjective_neutral->темене</li>
-    <li>memeAdjective_neutral->тьмяне</li>
-    <li>memeAdjective_plural->темні</li>
-    <li>memeAdjective_plural->тьмяні</li>
-    <li>memeHyphenPrefix->темно-</li>
-    <li>memeHyphenPrefix->тьмяно-</li>
-    <li>memeConcept->тьми</li>
-    <li>memeConcept->мороку</li>
-    <li>memeConcept->чорноти</li>
+    <li>memeAdjective->dark</li>
+    <li>memeAdjective->dim</li>
+    <li>memeHyphenPrefix->dark</li>
+    <li>memeHyphenPrefix->dim</li>
+    <li>memeConcept->darkness</li>
+    <li>memeConcept->dimness</li>
+    <li>memeConcept->blackness</li>
+    <li>memeLeaderNoun->shrouder</li>
+    <li>memeLeaderNoun->lightkiller</li>
+    <li>memeLeaderAdjective->dark</li>
+    <li>memeMoralist->obscurer</li>
+    <li>memeMoralist->darkener</li>
+    <li>memeMoralist->confuser</li>
   </Darkness.generalRules.rulesStrings>
-  
   <!-- EN: flesh purity -->
   <FleshPurity.label>біоконсерватизм</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
@@ -419,17 +414,17 @@
     <li>memeMoralist->purifier</li>
   -->
   <FleshPurity.generalRules.rulesStrings>
-    <li>memeAdjective_masc->чистий</li>
-    <li>memeAdjective_masc->невинний</li>
-    <li>memeAdjective_masc->недоторканий</li>
-    <li>memeAdjective_fem->чиста</li>
-    <li>memeAdjective_fem->невинна</li>
-    <li>memeAdjective_fem->недоторкана</li>
-    <li>memeAdjective_neutral->чисте</li>
-    <li>memeAdjective_neutral->невинне</li>
-    <li>memeAdjective_neutral->недоторкане</li>
-    <li>memeAdjective_plural->чисті</li>
-    <li>memeAdjective_plural->невинні</li>
+    <li>memeAdjective->clean</li>
+    <li>memeAdjective->pure</li>
+    <li>memeAdjective->sacred</li>
+    <li>memeCreed->cult</li>
+    <li>memeCreed->sect</li>
+    <li>memeConcept->flesh</li>
+    <li>memeConcept->purity</li>
+    <li>memeConcept->immaculacy</li>
+    <li>memeLeaderNoun->being</li>
+    <li>memeLeaderNoun->human</li>
+    <li>memeMoralist->purifier</li>
   </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
   <FleshPurity.symbolPacks.0.adjective>чистий</FleshPurity.symbolPacks.0.adjective>
@@ -455,7 +450,6 @@
   <FleshPurity.symbolPacks.2.member>недоторканий</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
   <FleshPurity.symbolPacks.2.theme>недоторканності</FleshPurity.symbolPacks.2.theme>
-  
   <!-- EN: high life -->
   <HighLife.label>громада курців</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
@@ -514,23 +508,23 @@
     <li>memeMoralist->giggler</li>
   -->
   <HighLife.generalRules.rulesStrings>
-    <li>memeCreed_fem->компанія</li>
-    <li>memeAdjective_masc->ульотний</li>
-    <li>memeAdjective_masc->сп'янілий</li>
-    <li>memeAdjective_masc->кайфовий</li>
-    <li>memeAdjective_fem->ульотна</li>
-    <li>memeAdjective_fem->сп'яніла</li>
-    <li>memeAdjective_fem->кайфова</li>
-    <li>memeAdjective_neutral->ульотне</li>
-    <li>memeAdjective_neutral->сп'яніле</li>
-    <li>memeAdjective_neutral->кайфове</li>
-    <li>memeAdjective_plural->ульотні</li>
-    <li>memeAdjective_plural->сп'янілі</li>
-    <li>memeAdjective_plural->кайфові</li>
-    <li>memeConcept->наркотиків</li>
-    <li>memeConcept->насолоди</li>
-    <li>memeConcept->видінь</li>
-    <li>memeHyphenPrefix->нарко-</li>
+    <li>memeCreed->party</li>
+    <li>memeAdjective->high</li>
+    <li>memeAdjective->delirious</li>
+    <li>memeAdjective->stoned</li>
+    <li>memeConcept->drugs</li>
+    <li>memeConcept->bliss</li>
+    <li>memeConcept->dreams</li>
+    <li>memeHyphenPrefix->drug</li>
+    <li>memeHyphenPrefix->narco</li>
+    <li>memeLeaderNoun->sleeper</li>
+    <li>memeLeaderNoun->doper</li>
+    <li>memeLeaderNoun->smoker</li>
+    <li>memeLeaderNoun->chiller</li>
+    <li>memeMoralist->philosophizer</li>
+    <li>memeMoralist->abstractor</li>
+    <li>memeMoralist->laugher</li>
+    <li>memeMoralist->giggler</li>
   </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
   <HighLife.symbolPacks.0.adjective>ейфорійний</HighLife.symbolPacks.0.adjective>
@@ -564,7 +558,6 @@
   <HighLife.symbolPacks.3.member>екстатик</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
   <HighLife.symbolPacks.3.theme>екстазу</HighLife.symbolPacks.3.theme>
-  
   <!-- EN: nudism -->
   <Nudism.label>нудизм</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
@@ -617,17 +610,17 @@
     <li>memeLeaderNoun->feeler</li>
   -->
   <Nudism.generalRules.rulesStrings>
-    <li>memeAdjective_masc->роздягнутий</li>
-    <li>memeAdjective_masc->голий</li>
-    <li>memeAdjective_masc->вільний</li>
-    <li>memeAdjective_masc->природний</li>
-    <li>memeAdjective_fem->роздягнута</li>
-    <li>memeAdjective_fem->гола</li>
-    <li>memeAdjective_fem->вільна</li>
-    <li>memeAdjective_fem->природна</li>
-    <li>memeAdjective_neutral->роздягнуте</li>
-    <li>memeAdjective_neutral->голе</li>
-    <li>memeAdjective_neutral->вільне</li>
+    <li>memeAdjective->nude</li>
+    <li>memeAdjective->naked</li>
+    <li>memeAdjective->free</li>
+    <li>memeAdjective->natural</li>
+    <li>memeHyphenPrefix->skin</li>
+    <li>memeConcept->nudity</li>
+    <li>memeConcept->skin</li>
+    <li>memeLeaderNoun->swinger</li>
+    <li>memeLeaderNoun->breather</li>
+    <li>memeLeaderNoun->toucher</li>
+    <li>memeLeaderNoun->feeler</li>
   </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
   <Nudism.symbolPacks.0.adjective>нудистичний</Nudism.symbolPacks.0.adjective>
@@ -645,7 +638,6 @@
   <Nudism.symbolPacks.1.member>природний</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
   <Nudism.symbolPacks.1.theme>природності</Nudism.symbolPacks.1.theme>
-  
   <!-- EN: pain is virtue -->
   <PainIsVirtue.label>флагеланство</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
@@ -718,27 +710,27 @@
     <li>memeMoralist->painspeaker</li>
   -->
   <PainIsVirtue.generalRules.rulesStrings>
-    <li>memeAdjective_masc->вередливий</li>
-    <li>memeAdjective_masc->болючий</li>
-    <li>memeAdjective_fem->вередлива</li>
-    <li>memeAdjective_fem->болюча</li>
-    <li>memeAdjective_neutral->вередливе</li>
-    <li>memeAdjective_neutral->болюче</li>
-    <li>memeAdjective_plural->вередливі</li>
-    <li>memeAdjective_plural->болючі</li>
-    <li>memeCreed_masc->дім</li>
-    <li>memeCreed_fem->камера</li>
-    <li>memeCreed_fem->клітка</li>
-    <li>memeHyphenPrefix->шкодо-</li>
-    <li>memeHyphenPrefix->боле-</li>
-    <li>memeConcept->болі</li>
-    <li>memeConcept->муки</li>
-    <li>memeConcept->катування</li>
-    <li>memeConcept->страждання</li>
-    <li>memeConcept->крові</li>
-    <li>memeLeaderNoun->кат</li>
-    <li>memeLeaderNoun->агоніст</li>
-    <li>memeLeaderNoun->батіг</li>
+    <li>memeAdjective->nocic</li>
+    <li>memeAdjective->pain</li>
+    <li>memeCreed->house</li>
+    <li>memeCreed->chamber</li>
+    <li>memeCreed->cell</li>
+    <li>memeHyphenPrefix->nocio</li>
+    <li>memeHyphenPrefix->pain</li>
+    <li>memeConcept->pain</li>
+    <li>memeConcept->torment</li>
+    <li>memeConcept->torture</li>
+    <li>memeConcept->suffering</li>
+    <li>memeConcept->blood</li>
+    <li>memeLeaderNoun->torturer</li>
+    <li>memeLeaderNoun->agonizer</li>
+    <li>memeLeaderNoun->whiphand</li>
+    <li>memeLeaderNoun->chainman</li>
+    <li>memeLeaderNoun->cutter</li>
+    <li>memeLeaderNoun->bloodletter</li>
+    <li>memeMoralist->pain-whisperer</li>
+    <li>memeMoralist->sufferspeaker</li>
+    <li>memeMoralist->painspeaker</li>
   </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
   <PainIsVirtue.symbolPacks.0.adjective>больовий</PainIsVirtue.symbolPacks.0.adjective>
@@ -780,7 +772,6 @@
   <PainIsVirtue.symbolPacks.4.member>мученик</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
   <PainIsVirtue.symbolPacks.4.theme>мук</PainIsVirtue.symbolPacks.4.theme>
-  
   <!-- EN: proselytizer -->
   <Proselytizer.label>прозелітизм</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
@@ -829,13 +820,13 @@
     <li>memeMoralist->converter</li>
   -->
   <Proselytizer.generalRules.rulesStrings>
-    <li>memeAdjective_masc->правдивий</li>
-    <li>memeAdjective_masc->справжній</li>
-    <li>memeAdjective_fem->правдива</li>
-    <li>memeAdjective_fem->справжня</li>
-    <li>memeAdjective_neutral->правдиве</li>
-    <li>memeAdjective_neutral->справжнє</li>
-    <li>memeAdjective_plural->правдиві</li>
+    <li>memeAdjective->true</li>
+    <li>memeAdjective->real</li>
+    <li>memeHyphenPrefix->truth</li>
+    <li>memeConcept->truth</li>
+    <li>memeLeaderNoun->speaker</li>
+    <li>memeMoralist->proselytizer</li>
+    <li>memeMoralist->converter</li>
   </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
   <Proselytizer.symbolPacks.0.adjective>правдивий</Proselytizer.symbolPacks.0.adjective>
@@ -861,7 +852,6 @@
   <Proselytizer.symbolPacks.2.member>реаліст</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
   <Proselytizer.symbolPacks.2.theme>реальності</Proselytizer.symbolPacks.2.theme>
-  
   <!-- EN: raider -->
   <Raider.label>розбійництво</Raider.label>
   <!-- EN: The strong should take from the weak. -->
@@ -923,20 +913,20 @@
     <li>memeMoralist->chaplain</li>
   -->
   <Raider.generalRules.rulesStrings>
-    <li>memeAdjective_masc->злочинний</li>
-    <li>memeAdjective_fem->злочинна</li>
-    <li>memeAdjective_neutral->злочинне</li>
-    <li>memeAdjective_plural->злочинні</li>
-    <li>memeHyphenPrefix->грабо-</li>
-    <li>memeHyphenPrefix->краді-</li>
-    <li>memeConcept->рейдів</li>
-    <li>memeConcept->нальотів</li>
-    <li>memeConcept->піратства</li>
-    <li>memeConcept->мародерства</li>
-    <li>memeLeaderNoun->бос</li>
-    <li>memeLeaderNoun->капітан</li>
-    <li>memeLeaderNoun->ватажок</li>
-    <li>memeLeaderNoun->наглядач</li>
+    <li>memeAdjective->outlaw</li>
+    <li>memeHyphenPrefix->outlaw</li>
+    <li>memeHyphenPrefix->raid</li>
+    <li>memeConcept->raiding</li>
+    <li>memeConcept->theft</li>
+    <li>memeConcept->piracy</li>
+    <li>memeConcept->assault</li>
+    <li>memeLeaderNoun->boss</li>
+    <li>memeLeaderNoun->captain</li>
+    <li>memeLeaderNoun->honcho</li>
+    <li>memeLeaderNoun->overseer</li>
+    <li>memeLeaderNoun->cheese</li>
+    <li>memeLeaderNoun->raider</li>
+    <li>memeMoralist->chaplain</li>
   </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
   <Raider.symbolPacks.0.adjective>рейдерський</Raider.symbolPacks.0.adjective>
@@ -947,13 +937,13 @@
   <!-- EN: raiding -->
   <Raider.symbolPacks.0.theme>рейдерства</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>нальотний</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>мародерський</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>Нальоти</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>Мародерство</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>нальотчик</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>мародер</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>нальотів</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>мародерство</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
   <Raider.symbolPacks.2.adjective>грабіжницький</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
@@ -970,7 +960,6 @@
   <Raider.symbolPacks.3.member>пірат</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
   <Raider.symbolPacks.3.theme>піратства</Raider.symbolPacks.3.theme>
-  
   <!-- EN: rancher -->
   <Rancher.label>скотарство</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
@@ -1036,16 +1025,16 @@
     <li>memeLeaderNoun->sheepdog</li>
   -->
   <Rancher.generalRules.rulesStrings>
-    <li>memeAdjective_masc->скотарський</li>
-    <li>memeAdjective_masc->сільський</li>
-    <li>memeAdjective_masc->кантрійський</li>
-    <li>memeAdjective_fem->скотарська</li>
-    <li>memeAdjective_fem->сільська</li>
-    <li>memeAdjective_fem->кантрійська</li>
-    <li>memeAdjective_neutral->скотарське</li>
-    <li>memeAdjective_neutral->сільське</li>
-    <li>memeAdjective_neutral->кантрійське</li>
-    <li>memeAdjective_plural->скотарські</li>
+    <li>memeAdjective->ranch</li>
+    <li>memeAdjective->rural</li>
+    <li>memeAdjective->country</li>
+    <li>memeHyphenPrefix->ranch</li>
+    <li>memeConcept->ranching</li>
+    <li>memeLeaderNoun->rancher</li>
+    <li>memeLeaderNoun->hand</li>
+    <li>memeLeaderNoun->cowboy</li>
+    <li>memeLeaderNoun->herder</li>
+    <li>memeLeaderNoun->sheepdog</li>
   </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>ранчевий</Rancher.symbolPacks.0.adjective>
@@ -1071,7 +1060,6 @@
   <Rancher.symbolPacks.2.member>скотар</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
   <Rancher.symbolPacks.2.theme>скотарства</Rancher.symbolPacks.2.theme>
-  
   <!-- EN: transhumanist -->
   <Transhumanist.label>трансгуманізм</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
@@ -1144,31 +1132,31 @@
     <li>memeMoralist->technologist</li>
   -->
   <Transhumanist.generalRules.rulesStrings>
-    <li>memeAdjective_masc->технологічний</li>
-    <li>memeAdjective_masc->машинний</li>
-    <li>memeAdjective_masc->індустріальний</li>
-    <li>memeAdjective_fem->технологічна</li>
-    <li>memeAdjective_fem->машинна</li>
-    <li>memeAdjective_fem->індустріальна</li>
-    <li>memeAdjective_neutral->технологічне</li>
-    <li>memeAdjective_neutral->машинне</li>
-    <li>memeAdjective_neutral->індустріальне</li>
-    <li>memeAdjective_plural->технологічні</li>
-    <li>memeAdjective_plural->машинні</li>
-    <li>memeAdjective_plural->індустріальні</li>
-    <li>memeCreed->школа</li>
-    <li>memeCreed->академія</li>
-    <li>memeCreed->університет</li>
-    <li>memeCreed->філософія</li>
-    <li>memeHyphenPrefix->техно-</li>
-    <li>memeHyphenPrefix->кібер-</li>
-    <li>memeHyphenPrefix->хакер-</li>
-    <li>memeHyphenPrefix->чіпо-</li>
-    <li>memeConcept->технології</li>
-    <li>memeConcept->кремнію</li>
-    <li>memeConcept->артефактів</li>
-    <li>memeConcept->аугментацій</li>
-    <li>memeConcept->вдосконалень</li>
+    <li>memeAdjective->technological</li>
+    <li>memeAdjective->machine</li>
+    <li>memeAdjective->industrial</li>
+    <li>memeCreed->school</li>
+    <li>memeCreed->academy</li>
+    <li>memeCreed->university</li>
+    <li>memeCreed->philosophy</li>
+    <li>memeHyphenPrefix->techno</li>
+    <li>memeHyphenPrefix->cyber</li>
+    <li>memeHyphenPrefix->haxor</li>
+    <li>memeHyphenPrefix->wire</li>
+    <li>memeConcept->technology</li>
+    <li>memeConcept->silicon</li>
+    <li>memeConcept->artifice</li>
+    <li>memeConcept->augmentation</li>
+    <li>memeConcept->enhancement</li>
+    <li>memeLeaderNoun->haxor</li>
+    <li>memeLeaderNoun->superuser</li>
+    <li>memeLeaderNoun->booster</li>
+    <li>memeLeaderAdjective->techno</li>
+    <li>memeLeaderAdjective->cyber</li>
+    <li>memeMoralist->installer</li>
+    <li>memeMoralist->fixer</li>
+    <li>memeMoralist->uplifter</li>
+    <li>memeMoralist->technologist</li>
   </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
   <Transhumanist.symbolPacks.0.adjective>технологічний</Transhumanist.symbolPacks.0.adjective>
@@ -1218,7 +1206,6 @@
   <Transhumanist.symbolPacks.5.member>модернізатор</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
   <Transhumanist.symbolPacks.5.theme>модернізацій</Transhumanist.symbolPacks.5.theme>
-  
   <!-- EN: tree connection -->
   <TreeConnection.label>зв'язок з деревами</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
@@ -1285,27 +1272,26 @@
     <li>memeMoralist->treespeaker</li>
   -->
   <TreeConnection.generalRules.rulesStrings>
-    <li>memeCreed_masc->корінь</li>
-    <li>memeCreed_masc->лист</li>
-    <li>memeCreed_fem->лоза</li>
-    <li>memeCreed_fem->галявина</li>
-    <li>memeCreed_masc->ліс</li>
-    <li>memeConcept->дерев</li>
-    <li>memeConcept->лісів</li>
-    <li>memeAdjective_masc->міцний</li>
-    <li>memeAdjective_masc->корявий</li>
-    <li>memeAdjective_fem->міцна</li>
-    <li>memeAdjective_fem->корява</li>
-    <li>memeAdjective_neutral->міцне</li>
-    <li>memeAdjective_neutral->коряве</li>
-    <li>memeAdjective_neutral->міцні</li>
-    <li>memeAdjective_neutral->коряві</li>
-    <li>memeHyphenPrefix->дерево-</li>
-    <li>memeHyphenPrefix->листо-</li>
-    <li>memeHyphenPrefix->вітко-</li>
-    <li>memeLeaderNoun->хранитель дерев</li>
+    <li>memeCreed->root</li>
+    <li>memeCreed->leaf</li>
+    <li>memeCreed->vine</li>
+    <li>memeCreed->glade</li>
+    <li>memeCreed->forest</li>
+    <li>memeConcept->trees</li>
+    <li>memeConcept->forests</li>
+    <li>memeAdjective->sturdy</li>
+    <li>memeAdjective->barky</li>
+    <li>memeHyphenPrefix->tree</li>
+    <li>memeHyphenPrefix->arbor</li>
+    <li>memeHyphenPrefix->twig</li>
+    <li>memeLeaderNoun->treekeeper</li>
+    <li>memeLeaderNoun->arborist</li>
+    <li>memeLeaderNoun->neodruid</li>
+    <li>memeLeaderAdjective->green</li>
+    <li>memeLeaderAdjective->root</li>
+    <li>memeLeaderAdjective->canopy</li>
+    <li>memeMoralist->treespeaker</li>
   </TreeConnection.generalRules.rulesStrings>
-  
   <!-- EN: tunneler -->
   <Tunneler.label>тунельники</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
@@ -1377,26 +1363,25 @@
     <li>memeMoralist->mindminer</li>
   -->
   <Tunneler.generalRules.rulesStrings>
-    <li>memeCreed->печера</li>
-    <li>memeCreed->бункер</li>
-    <li>memeCreed->шахта</li>
-    <li>memeAdjective->глибокий</li>
-    <li>memeAdjective_fem->глибока</li>
-    <li>memeAdjective_neutral->глибоке</li>
-    <li>memeAdjective_plural->глибокі</li>
-    <li>memeHyphenPrefix->камене-</li>
-    <li>memeHyphenPrefix->печеро-</li>
-    <li>memeHyphenPrefix->глибо-</li>
-    <li>memeHyphenPrefix->під-</li>
-    <li>memeHyphenPrefix->суб-</li>
-    <li>memeConcept->землі</li>
-    <li>memeConcept->каменю</li>
-    <li>memeConcept->глибини</li>
-    <li>memeConcept->поховання</li>
-    <li>memeLeaderNoun->першокоп</li>
-    <li>memeLeaderNoun->глибовуст</li>
-    <li>memeLeaderNoun->кайлорук</li>
-    <li>memeLeaderAdjective->глибинний</li>
+    <li>memeCreed->cave</li>
+    <li>memeCreed->bunker</li>
+    <li>memeCreed->shaft</li>
+    <li>memeAdjective->deep</li>
+    <li>memeHyphenPrefix->stone</li>
+    <li>memeHyphenPrefix->cave</li>
+    <li>memeHyphenPrefix->deep</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeHyphenPrefix->under</li>
+    <li>memeConcept->earth</li>
+    <li>memeConcept->stone</li>
+    <li>memeConcept->depth</li>
+    <li>memeConcept->burial</li>
+    <li>memeLeaderNoun->foredigger</li>
+    <li>memeLeaderNoun->deepsounder</li>
+    <li>memeLeaderNoun->shaft</li>
+    <li>memeLeaderAdjective->deep</li>
+    <li>memeMoralist->truthdigger</li>
+    <li>memeMoralist->thoughtdigger</li>
+    <li>memeMoralist->mindminer</li>
   </Tunneler.generalRules.rulesStrings>
-  
 </LanguageData>

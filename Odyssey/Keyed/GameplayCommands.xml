@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Grav engine -->
   <!-- EN: Show substructure overlay -->
   <CommandShowSubstructureOverlay>Показати шар субструктури</CommandShowSubstructureOverlay>
@@ -14,30 +13,34 @@
   <CommandChooseNavigator>Оберіть навігатора</CommandChooseNavigator>
   <!-- EN: Cannot navigate -->
   <CannotChooseNavigator>Навігація неможлива</CannotChooseNavigator>
-
   <!-- EN: Launch -->
   <CommandLaunchGravship>Пуск</CommandLaunchGravship>
-  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned. -->
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
   <CommandLaunchGravshipDesc>Оберіть колоніста для пілотування гравкорабля. Усе на субструктурі гравкорабля буде перенесено на нову мапу. Ви назавжди залишите поточну мапу.</CommandLaunchGravshipDesc>
-
   <!-- EN: Allow fishing -->
   <CommandAllowFish>Дозволити риболовлю</CommandAllowFish>
   <!-- EN: When disabled, colonists will never fish in this zone. -->
   <CommandAllowFishDesc>Якщо відключено, колоністи ніколи не рибалитимуть в цій зоні.</CommandAllowFishDesc>
-  
   <!-- EN: Allow removing items -->
-  <CommandAllowRemovingApparel>Дозволити брати предмети</CommandAllowRemovingApparel> <!-- text_todo -->
-  <!-- EN: When disabled, haulers won’t remove items from the outfit stand and colonists won’t equip apparel unless ordered to do so. -->
-  <CommandAllowRemovingApparelDesc>Якщо відключено, носії не будуть брати предмети з підставки, а колоністи не будуть одягати предмети одягу, якщо їм цього не наказали.</CommandAllowRemovingApparelDesc> <!-- text_todo -->
-
+  <CommandAllowRemovingApparel>Дозволити брати предмети</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>Якщо відключено, носії не будуть брати предмети з підставки, а колоністи не будуть одягати предмети одягу, якщо їм цього не наказали.</CommandAllowRemovingApparelDesc>
   <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
   <CommandShuttleNoPilot>Немає колоністів, здатних пілотувати шатл. Мінімально потрібне вміння пілотування 10%.</CommandShuttleNoPilot>
-
   <!-- EN: Confirm landing zone -->
   <ConfirmLandGravship>Підтвердьте зону посадки</ConfirmLandGravship>
   <!-- EN: Land your gravship in the landing zone. -->
   <ConfirmLandGravshipDesc>Посадіть ваш гравкорабель в зоні посадки.</ConfirmLandGravshipDesc>
-
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>Перервати посадку</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>Скасувати посадку на цій карті та примусити гравкорабель приземлитися поблизу на карті світу. Корисно, якщо ви не можете знайти місце для посадки.\n\nПопередження: Це збільшує шанси на нещасний випадок під час посадки.</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>Переривання приземлення примусить гравкорабель сісти на землю у випадковому найближчому місці на мапі світу. Це збільшує шанс нещасного випадку під час приземлення.\n\nВи дійсно бажаєте продовжити?</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>Не вдалося знайти місце падіння.</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>Ви маєте вказати місце приземлення для гравкорабля.</GravshipLandingMarkerNotPlaced>
   <!-- EN: Refuel from cargo -->
   <CommandRefuelShuttleFromCargo>Заправитись вантажем</CommandRefuelShuttleFromCargo>
   <!-- EN: Refuel the passenger shuttle using chemfuel stored within. -->
@@ -48,12 +51,10 @@
   <NoFuelInShuttle>В шатлі немає палива.</NoFuelInShuttle>
   <!-- EN: Shuttle is already fully fueled -->
   <ShuttleFullyFueled>Шатл вже повністю заправлено.</ShuttleFullyFueled>
-
   <!-- EN: Seal entrance... -->
   <SealHatch>Запечатати вхід...</SealHatch>
   <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
   <SealHatchDesc>Оберіть колоніста, що назовсім запечатає вхід. Всі предмети та люди, що залишилися внизу, буде втрачено назавжди.</SealHatchDesc>
-
   <!-- EN: Activate -->
   <GravshipShieldOrderActivation>Активувати</GravshipShieldOrderActivation>
   <!-- EN: Deactivate -->
@@ -62,4 +63,6 @@
   <GravshipShieldOrderActivationDesc>Накажіть пішаку активувати генератор щита корабля.</GravshipShieldOrderActivationDesc>
   <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
   <GravshipShieldOrderDeactivationDesc>Накажіть пішаку деактивувати генератор щита корабля.</GravshipShieldOrderDeactivationDesc>
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>Об'єднання цих караванів призведе до втрати наступного:\n{0}\n\nВи впевнені що бажаєте продовжити?</ConfirmMergeShuttles>
 </LanguageData>

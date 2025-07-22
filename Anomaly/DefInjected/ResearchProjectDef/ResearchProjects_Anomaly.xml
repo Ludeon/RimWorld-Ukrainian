@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: advanced psychic rituals -->
-  <AdvancedPsychicRituals.label>advanced psychic rituals</AdvancedPsychicRituals.label>
+  <AdvancedPsychicRituals.label>просунуті психічні ритуали</AdvancedPsychicRituals.label>
   <!-- EN: Perform advanced psychic rituals. -->
-  <AdvancedPsychicRituals.description>Perform advanced psychic rituals.</AdvancedPsychicRituals.description>
+  <AdvancedPsychicRituals.description>Можливість проводити просунуті психічні ритуали.</AdvancedPsychicRituals.description>
   <!-- EN:
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
@@ -17,15 +16,14 @@
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   </AdvancedPsychicRituals.generalRules.rulesStrings>
-  
   <!-- EN: atmospheric heater -->
-  <AtmosphericHeater.label>atmospheric heater</AtmosphericHeater.label>
+  <AtmosphericHeater.label>нагрівач атмосфери</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>Build bioferrite-powered heaters that produce enough heat to warm an entire region.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>Можливість створювати біоферритовий нагрівач, що виділяє достатньо тепла, щоб нагріти цю місцевість.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -44,11 +42,10 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   </AtmosphericHeater.generalRules.rulesStrings>
-  
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>void provocation</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>провокація порожнечі</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities.</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>Можливість побудувати місце для психічних ритуалів і виконувати там психічні ритуали. Використовуйте ритуал провокації порожнечі, щоб відкрити нові сутності.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -71,11 +68,30 @@
     <li>subject_gerund->establishing ritual spots</li>
     <li>subject_gerund->provoking void entities</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
-  
+  <!-- EN: bioferrite extraction -->
+  <BioferriteExtraction.label>bioferrite extraction</BioferriteExtraction.label>
+  <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
+  <BioferriteExtraction.description>Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper.</BioferriteExtraction.description>
+  <!-- EN:
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  -->
+  <BioferriteExtraction.generalRules.rulesStrings>
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>bioferrite generator</BioferriteGenerator.label>
+  <BioferriteGenerator.label>біоферритовий генератор</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>Build power generators that burn bioferrite as a fuel.</BioferriteGenerator.description>
+  <BioferriteGenerator.description>Можливість будувати генератор, що використовує біоферрит як паливо.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -96,11 +112,10 @@
     <li>subject_gerund->constructing bioferrite-powered generators</li>
     <li>subject_gerund->powering generators using bioferrite</li>
   </BioferriteGenerator.generalRules.rulesStrings>
-  
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>bioferrite harvesting</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms.</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>bioferrite harvester</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -117,11 +132,10 @@
     <li>subject_story->observed strange metal-infested wildlife</li>
     <li>subject_gerund->harvesting bioferrite</li>
   </BioferriteHarvesting.generalRules.rulesStrings>
-  
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>bioferrite weaponry</BioferriteIgnition.label>
+  <BioferriteIgnition.label>біоферритова зброя</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>Create advanced weapons that use bioferrite as a fuel source.</BioferriteIgnition.description>
+  <BioferriteIgnition.description>Просунута зброя, що використовує біоферрит в якості палива.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -140,11 +154,10 @@
     <li>subject_story->cleared biomines in an archotech desert</li>
     <li>subject_gerund->building bioferrite-based weapons</li>
   </BioferriteIgnition.generalRules.rulesStrings>
-  
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>bioferrite shaping</BioferriteShaping.label>
+  <BioferriteShaping.label>обробка біоферриту</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>Shape and re-form bioferrite into useful tools, weapons, flooring, and more.</BioferriteShaping.description>
+  <BioferriteShaping.description>Можливість створювати з біоферриту інструмент, зброю, покриття тощо.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -163,11 +176,10 @@
     <li>subject_story->studied the formation of archotech artefacts</li>
     <li>subject_gerund->shaping bioferrite</li>
   </BioferriteShaping.generalRules.rulesStrings>
-  
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>bliss lobotomy</BlissLobotomy.label>
+  <BlissLobotomy.label>лоботомія</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor.</BlissLobotomy.description>
+  <BlissLobotomy.description>Можливість проводити лоботомію людям, роблячи їх щасливішими, водночас роблячи нездатними до інтелектуальної та кваліфікованої праці.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -184,11 +196,10 @@
     <li>subject_gerund->performing lobotomies</li>
     <li>subject_gerund->excising brain tissue</li>
   </BlissLobotomy.generalRules.rulesStrings>
-  
   <!-- EN: blood rain -->
-  <BloodRain.label>blood rain</BloodRain.label>
+  <BloodRain.label>кривавий дощ</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage.</BloodRain.description>
+  <BloodRain.description>Можливість проводити ритуал, що призводить до дощу зі схожої на кров речовини. Будь-хто, хто буде під цим дощем впадуть у шалену лють.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -205,11 +216,10 @@
     <li>subject_story->was exposed to a psychofluid shower and filled with unmanageable rage</li>
     <li>subject_gerund->causing it to rain blood</li>
   </BloodRain.generalRules.rulesStrings>
-  
   <!-- EN: brainwipe -->
-  <Brainwipe.label>brainwipe</Brainwipe.label>
+  <Brainwipe.label>промивка мізків</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners.</Brainwipe.description>
+  <Brainwipe.description>Можливість проводити ритуал, який стирає велику частину епізодичних спогадів людини. Травматичні події будуть забуті. В'язнів стане легше вербувати. Дозволяє вербувати непохитно відданих в'язнів.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodice amnesia</li>
@@ -228,11 +238,10 @@
     <li>subject_gerund->wiping a subject's mind</li>
     <li>subject_gerund->performing a ritual to erase a subject's mind</li>
   </Brainwipe.generalRules.rulesStrings>
-  
   <!-- EN: chronophagy -->
-  <Chronophagy.label>chronophagy</Chronophagy.label>
+  <Chronophagy.label>хронофагія</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets.</Chronophagy.description>
+  <Chronophagy.description>Можливість проводити ритуал, який змушує ціль швидко старіти. При цьому призовник ритуалу стане молодшим. У результаті ціль отримає пошкодження мозку, що може бути смертельним для літніх цілей.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -253,11 +262,10 @@
     <li>subject_gerund->invoking chronophagy</li>
     <li>subject_gerund->performing a chronophagy ritual</li>
   </Chronophagy.generalRules.rulesStrings>
-  
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>deadlife dust</DeadlifeDust.label>
+  <DeadlifeDust.label>пил несмертя</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies.</DeadlifeDust.description>
+  <DeadlifeDust.description>Можливість створювати пристрої, що випускають мікроскопічних архітів. Архіти можуть реанімувати трупи, перетворюючи їх на смертоносних волокунів, які будуть атакувати ваших ворогів.</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -268,19 +276,18 @@
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
   <DeadlifeDust.generalRules.rulesStrings>
-    <li>subject->deadlife dust</li>
+    <li>subject->пил несмертя</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
     <li>subject_story->used atomic centrifuges to separate out different grades of archite</li>
     <li>subject_story->watched a deadly shambler assault on an Urbworld vidclip</li>
     <li>subject_story->developed an archite control device with autotuned IFF systems</li>
-    <li>subject_gerund->crafting deadlife dust</li>
+    <li>subject_gerund->створення пилу несмертя</li>
     <li>subject_gerund->distributing archites to create shamblers</li>
   </DeadlifeDust.generalRules.rulesStrings>
-  
   <!-- EN: death refusal -->
-  <DeathRefusal.label>death refusal</DeathRefusal.label>
+  <DeathRefusal.label>відмова від смерті</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying.</DeathRefusal.description>
+  <DeathRefusal.description>Можливість проводити ритуал, який дає людині стан відмови від смерті, дозволяючи їй самовоскреснути один раз після смерті.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -299,11 +306,10 @@
     <li>subject_gerund->fending off death</li>
     <li>subject_gerund->performing a ritual to rebuke death</li>
   </DeathRefusal.generalRules.rulesStrings>
-  
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>disruptor flares</DisruptorFlares.label>
+  <DisruptorFlares.label>пси-фальшфеєри</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>Build bioferrite-based flare packs that reveal invisible creatures and light up an area.</DisruptorFlares.description>
+  <DisruptorFlares.description>Створення фальшфеєрів на основі біоферриту, які можуть викривати невидимих сутностей у радіусі дії.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -324,11 +330,10 @@
     <li>subject_gerund->boosting visibility temporarily</li>
     <li>subject_gerund->crafting bioferrite flares</li>
   </DisruptorFlares.generalRules.rulesStrings>
-  
   <!-- EN: electroharvester -->
-  <Electroharvester.label>electroharvester</Electroharvester.label>
+  <Electroharvester.label>поглинач енергії</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain.</Electroharvester.description>
+  <Electroharvester.description>Створення генератора, який поглинає електроенергію від утримуваних сутностей. Цей процес посилює сутностей, ускладнюючи їх утримання.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
@@ -347,11 +352,10 @@
     <li>subject_gerund->harvesting from entities</li>
     <li>subject_gerund->constructing electroharvesters</li>
   </Electroharvester.generalRules.rulesStrings>
-  
   <!-- EN: entity containment -->
-  <EntityContainment.label>entity containment</EntityContainment.label>
+  <EntityContainment.label>утримування сутностей</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>Build holding platforms and inhibitors to better contain entities.</EntityContainment.description>
+  <EntityContainment.description>Створення платформ та інгібіторів для утримування сутностей.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -370,11 +374,10 @@
     <li>subject_gerund->containing entities</li>
     <li>subject_gerund->construction entity containment facilities</li>
   </EntityContainment.generalRules.rulesStrings>
-  
   <!-- EN: frenzy inducer -->
-  <FrenzyInducer.label>frenzy inducer</FrenzyInducer.label>
+  <FrenzyInducer.label>збудник люті</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby.</FrenzyInducer.description>
+  <FrenzyInducer.description>Створення споруд на основі архотегнологічних уламків, які створюють шалене психічне поле, щоб змушувати будь-кого поблизу рухатися та працювати швидше. Однак нестабільна емоційна енергетика породжує схильність до насильства, дратуючи тих, хто знаходиться поруч.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -393,11 +396,10 @@
     <li>subject_gerund->inducing frenzy</li>
     <li>subject_gerund->constructing frenzy inducers from archotech</li>
   </FrenzyInducer.generalRules.rulesStrings>
-  
   <!-- EN: ghoul enhancements -->
-  <GhoulEnhancements.label>ghoul enhancements</GhoulEnhancements.label>
+  <GhoulEnhancements.label>покращення гулів</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>Craft bioferrite prosthetics to make ghouls stronger.</GhoulEnhancements.description>
+  <GhoulEnhancements.description>Створення біоферритових протезів для посилення гулів.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -412,11 +414,10 @@
     <li>subject_story->researched more complex ghoul prosthesis</li>
     <li>subject_gerund->enhancing a ghoul with bioferrite prosthetics</li>
   </GhoulEnhancements.generalRules.rulesStrings>
-  
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>ghoul infusion</GhoulInfusion.label>
+  <GhoulInfusion.label>створення гулів</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat.</GhoulInfusion.description>
+  <GhoulInfusion.description>Процедура, під час якої в живу людину поміщають архотехнічний уламок, перетворюючи її на жахливого гуля. Гулі є сильними бійцями ближнього бою, але вони нездатні виконувати роботу. Гулі збожеволіють, якщо їх не годують достатньою кількістю сирого м’яса.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -433,11 +434,10 @@
     <li>subject_gerund->infusing an archotech shard into a living person</li>
     <li>subject_gerund->creating a ghoul</li>
   </GhoulInfusion.generalRules.rulesStrings>
-  
   <!-- EN: ghoul resurrection -->
-  <GhoulResurrection.label>ghoul resurrection</GhoulResurrection.label>
+  <GhoulResurrection.label>воскресіння гулів</GhoulResurrection.label>
   <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
-  <GhoulResurrection.description>Synthesize a serum that can bring dead ghouls back to life.</GhoulResurrection.description>
+  <GhoulResurrection.description>Створення сироватки для воскресіння гулів.</GhoulResurrection.description>
   <!-- EN:
     <li>subject->ghoul resurrection</li>
     <li>subject_story->developed a new method of resurrecting ghouls</li>
@@ -456,14 +456,13 @@
     <li>subject_gerund->resurrecting a ghoul</li>
     <li>subject_gerund->synthesizing a serum to resurrect ghouls</li>
   </GhoulResurrection.generalRules.rulesStrings>
-  
   <!-- EN: insanity weaponry -->
-  <InsanityWeaponry.label>insanity weaponry</InsanityWeaponry.label>
+  <InsanityWeaponry.label>зброя божевілля</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology.</InsanityWeaponry.description>
+  <InsanityWeaponry.description>Реструктуруйте архотехнічні уламки в зброю обмеженого використання, яка вражає, маніпулює та знищує ворогів за допомогою архотехнологій.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -471,20 +470,19 @@
   -->
   <InsanityWeaponry.generalRules.rulesStrings>
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
     <li>subject_gerund->restructuring archotech into insanity-inducing weaponry</li>
   </InsanityWeaponry.generalRules.rulesStrings>
-  
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>juggernaut serum</JuggernautSerum.label>
+  <JuggernautSerum.label>сироватка джагернаута</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
-  <JuggernautSerum.description>Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood.</JuggernautSerum.description>
+  <JuggernautSerum.description>Створення сироватки, яка збільшує силу та швидкість користувача, а також дозволяє йому швидше відновлюватися після травм. Однак знижує настрій користувача.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -492,17 +490,16 @@
   -->
   <JuggernautSerum.generalRules.rulesStrings>
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
     <li>subject_gerund->synthesizing juggernaut serums</li>
   </JuggernautSerum.generalRules.rulesStrings>
-  
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>metalblood serum</MetalbloodSerum.label>
+  <MetalbloodSerum.label>сироватка залізної крові</MetalbloodSerum.label>
   <!-- EN: Synthesize metalblood serums that make the user more resistant to damage. -->
-  <MetalbloodSerum.description>Synthesize metalblood serums that make the user more resistant to damage.</MetalbloodSerum.description>
+  <MetalbloodSerum.description>Створення сироватки, яка робить користувача більш стійким до пошкоджень.</MetalbloodSerum.description>
   <!-- EN:
     <li>subject->metalblood serums</li>
     <li>subject_story->researched reactive liquids for use in milworld armor</li>
@@ -519,11 +516,10 @@
     <li>subject_story->deployed flamethrowers against a metalblood-using militia</li>
     <li>subject_gerund->synthesizing metalblood serums</li>
   </MetalbloodSerum.generalRules.rulesStrings>
-  
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>mind-numb serum</MindNumbSerum.label>
+  <MindNumbSerum.label>сироватка приглушення почуттів</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
-  <MindNumbSerum.description>Synthesize a serum that stabilizes a person's mood, preventing mental breaks.</MindNumbSerum.description>
+  <MindNumbSerum.description>Створення сироватки, яка стабілізує почуття та запобігає нервовим зривам.</MindNumbSerum.description>
   <!-- EN:
     <li>subject->mind-numb serum</li>
     <li>subject_story->sabotaged an emotional performance by secretly numbing the lead singer</li>
@@ -540,11 +536,10 @@
     <li>subject_story->investigated the use of archotech to numb pain</li>
     <li>subject_gerund->synthesizing mind-numb serums</li>
   </MindNumbSerum.generalRules.rulesStrings>
-  
   <!-- EN: mutation weaponry -->
-  <MutationWeaponry.label>mutation weaponry</MutationWeaponry.label>
+  <MutationWeaponry.label>зброя мутації</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures.</MutationWeaponry.description>
+  <MutationWeaponry.description>Реструктуруйте архотехнічні осколки в зброю обмеженого використання, яка перетворює живі цілі на жахливих істот.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -567,11 +562,10 @@
     <li>subject_gerund->inducing mutations</li>
     <li>subject_gerund->restructuring archotech into mutation-inducing weaponry</li>
   </MutationWeaponry.generalRules.rulesStrings>
-  
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>neurosis pulse</NeurosisPulse.label>
+  <NeurosisPulse.label>нервозний імпульс</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>Perform a psychic ritual that makes everyone in the region work faster but become more irritable.</NeurosisPulse.description>
+  <NeurosisPulse.description>Можливість проводити ритуал, який змусить усіх у регіоні працювати швидше, але стати більш дратівливими.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -592,18 +586,17 @@
     <li>subject_gerund->inducing neuroses psychically</li>
     <li>subject_gerund->performing a ritual to raise worker productivity</li>
   </NeurosisPulse.generalRules.rulesStrings>
-  
   <!-- EN: philophagy -->
-  <Philophagy.label>philophagy</Philophagy.label>
+  <Philophagy.label>філофагія</Philophagy.label>
   <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
-  <Philophagy.description>Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage.</Philophagy.description>
+  <Philophagy.description>Можливість проводити ритуал, який витягує досвід із жертви та передає його тому, хто проводить ритуал. Процес притупить розум цілі, послаблюючи її навички та спричиняючи пошкодження мозку.</Philophagy.description>
   <!-- EN:
     <li>subject->philophagy</li>
     <li>subject->skill transfer</li>
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
@@ -613,15 +606,14 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   </Philophagy.generalRules.rulesStrings>
-  
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>pleasure pulse</PleasurePulse.label>
+  <PleasurePulse.label>заспокійливий імпульс</PleasurePulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
-  <PleasurePulse.description>Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work.</PleasurePulse.description>
+  <PleasurePulse.description>Можливість проводити ритуал, який зробить усіх у регіоні щасливішими, але зменшить їх бажання працювати.</PleasurePulse.description>
   <!-- EN:
     <li>subject->pleasure invocation</li>
     <li>subject_story->read an ancient Earth story that boasted of a miracle food called soma</li>
@@ -640,11 +632,10 @@
     <li>subject_gerund->inducing pleasure psychically</li>
     <li>subject_gerund->performing a psychic ritual to induce pleasure</li>
   </PleasurePulse.generalRules.rulesStrings>
-  
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>proximity detector</ProximityDetector.label>
+  <ProximityDetector.label>детектор руху</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
-  <ProximityDetector.description>Build a device that can detect invisible creatures.</ProximityDetector.description>
+  <ProximityDetector.description>Створення пристрою, що може виявляти невидимих сутностей.</ProximityDetector.description>
   <!-- EN:
     <li>subject->proximity detectors</li>
     <li>subject->motion sensors</li>
@@ -665,11 +656,10 @@
     <li>subject_gerund->revealing the unseen</li>
     <li>subject_gerund->detecting invisible creatures</li>
   </ProximityDetector.generalRules.rulesStrings>
-  
   <!-- EN: psychophagy -->
-  <Psychophagy.label>psychophagy</Psychophagy.label>
+  <Psychophagy.label>психофагія</Psychophagy.label>
   <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
-  <Psychophagy.description>Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect.</Psychophagy.description>
+  <Psychophagy.description>Можливість проводити ритуал, який приглушує психічну чутливість цілі та тимчасово підвищує психічну чутливість того, хто проводить ритуал. Ціль зазнає пошкодження мозку як побічний ефект.</Psychophagy.description>
   <!-- EN:
     <li>subject->psychophagy</li>
     <li>subject_story->studied managed desensitization to psychic effects</li>
@@ -688,11 +678,10 @@
     <li>subject_gerund->stealing psychic abilities</li>
     <li>subject_gerund->performing a psychophagy ritual</li>
   </Psychophagy.generalRules.rulesStrings>
-  
   <!-- EN: revenant invisibility -->
-  <RevenantInvisibility.label>revenant invisibility</RevenantInvisibility.label>
+  <RevenantInvisibility.label>невидимість ревенанта</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
-  <RevenantInvisibility.description>Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible.</RevenantInvisibility.description>
+  <RevenantInvisibility.description>Модифікація хребта ревенанта, щоб його можна було імплантувати в людину, дозволяючи їй стати тимчасово невидимою.</RevenantInvisibility.description>
   <!-- EN:
     <li>subject->invisibility</li>
     <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
@@ -711,11 +700,10 @@
     <li>subject_gerund->adapting a revenant spine</li>
     <li>subject_gerund->implanting a revenant spine into a human</li>
   </RevenantInvisibility.generalRules.rulesStrings>
-  
   <!-- EN: serum synthesis -->
-  <SerumSynthesis.label>serum synthesis</SerumSynthesis.label>
+  <SerumSynthesis.label>синтез сироваток</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
-  <SerumSynthesis.description>Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user.</SerumSynthesis.description>
+  <SerumSynthesis.description>Можливість побудувати лабораторію для сироваток, щоб синтезувати високотехнологічні сироватки. Сироватки використовують архотехнологічну силу, щоб надати користувачеві тимчасовий ефект.</SerumSynthesis.description>
   <!-- EN:
     <li>subject->serum synthesis</li>
     <li>subject_story->was injected with archites to understand their effects</li>
@@ -732,11 +720,10 @@
     <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
     <li>subject_gerund->synthesizing serums</li>
   </SerumSynthesis.generalRules.rulesStrings>
-  
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>skip abduction</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>ритуал викрадення</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
-  <SkipAbductionPlayer.description>Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture.</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>Можливість проводити ритуал, який викрадає випадкову ворожу особу з будь-якої точки світу, вводячи її в короткочасну кому для захоплення.</SkipAbductionPlayer.description>
   <!-- EN:
     <li>subject->psychic abduction</li>
     <li>subject->skip abduction</li>
@@ -757,11 +744,10 @@
     <li>subject_gerund->abducting enemies through psychic ritual</li>
     <li>subject_gerund->performing a ritual of skip abduction</li>
   </SkipAbductionPlayer.generalRules.rulesStrings>
-  
   <!-- EN: sleep suppressor -->
-  <SleepSuppressor.label>sleep suppressor</SleepSuppressor.label>
+  <SleepSuppressor.label>пригнічення сну</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby.</SleepSuppressor.description>
+  <SleepSuppressor.description>Створення споруд, що працюють на архотехнологічних уламках та стимулюють тих, хто поруч, усуваючи їхню потребу у сні. Однак, цей пристрій буде дратувати будь-кого поблизу.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -782,11 +768,10 @@
     <li>subject_gerund->constructing sleep suppressors from archotech</li>
     <li>subject_gerund->suppressing sleep with archotech</li>
   </SleepSuppressor.generalRules.rulesStrings>
-  
   <!-- EN: draw animals -->
-  <SummonAnimals.label>draw animals</SummonAnimals.label>
+  <SummonAnimals.label>виклик тварин</SummonAnimals.label>
   <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
-  <SummonAnimals.description>Perform a psychic ritual which will draw a herd of animals.</SummonAnimals.description>
+  <SummonAnimals.description>Можливість проводити ритуал, який приверне стадо тварин.</SummonAnimals.description>
   <!-- EN:
     <li>subject->stampede invocation</li>
     <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
@@ -803,11 +788,10 @@
     <li>subject_story->watched a nature cult commune with their herds</li>
     <li>subject_gerund->summoning animal herds</li>
   </SummonAnimals.generalRules.rulesStrings>
-  
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>summon fleshbeasts</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>виклик звірів плоті</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby.</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>Можливість проводити ритуал, який спонукає звірів плоті виходити з-під землі поблизу ворогів, атакуючи будь-кого поблизу.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -828,11 +812,10 @@
     <li>subject_gerund->summoning fleshbeasts</li>
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
-  
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>provoke pit gate</SummonPitGate.label>
+  <SummonPitGate.label>виклик котловану</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources.</SummonPitGate.description>
+  <SummonPitGate.description>Можливість проводити ритуал, який змусить підземних звірів плоті відкрити величезну діру в землі. Діра веде вниз до печери, заповненої звірами плоті, яку можна досліджувати в пошуках ресурсів.</SummonPitGate.description>
   <!-- EN:
     <li>subject->pit gate invocation</li>
     <li>subject_story->researched fleshmeld infestations</li>
@@ -851,11 +834,10 @@
     <li>subject_gerund->performing a ritual to create a pit gate</li>
     <li>subject_gerund->summoning a pit gate</li>
   </SummonPitGate.generalRules.rulesStrings>
-  
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>draw shamblers</SummonShamblers.label>
+  <SummonShamblers.label>виклик волокунів</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study.</SummonShamblers.description>
+  <SummonShamblers.description>Можливість проводити ритуал, який приверне орду оживлених трупів. Вони будуть ворожими, але не атакуватимуть вашу колонію безпосередньо. Їх можна відловлювати для вивчення.</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
@@ -874,11 +856,10 @@
     <li>subject_gerund->summoning shamblers</li>
     <li>subject_gerund->calling shamblers through ritual</li>
   </SummonShamblers.generalRules.rulesStrings>
-  
   <!-- EN: void sculptures -->
-  <VoidSculptures.label>void sculptures</VoidSculptures.label>
+  <VoidSculptures.label>скульптури порожнечі</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>Craft special void sculptures from bioferrite to enhance the quality of psychic rituals.</VoidSculptures.description>
+  <VoidSculptures.description>Створення спеціальних скульптур порожнечі з біоферриту, щоб підвищити якість психічних ритуалів.</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -901,5 +882,4 @@
     <li>subject_gerund->sculpting with bioferrite</li>
     <li>subject_gerund->crafting bioferrite ritual sculptures</li>
   </VoidSculptures.generalRules.rulesStrings>
-  
 </LanguageData>

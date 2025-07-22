@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Create or select an ideoligion for your faction. -->
   <MessageMustChooseIdeo>Створіть або виберіть ідеологію для своєї фракції.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
@@ -39,7 +38,6 @@
   <MessageNeedAssignedRoleToBeginRitual>Перед початком {1} потрібно призначити комусь роль {0}.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>Для проведення ритуалу потрібен хоча б один {0}.</MessageNeedAtLeastOneParticipantOfIdeo>
-  
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} приймає роль {1}.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
@@ -50,7 +48,6 @@
   <MessageWarningPlayerDesignatedMining>Увага: настрій {0} погіршиться, якщо видобути породу.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
   <MessageConnectedPawnDied>Зв'язок {lookup: {TREE_label}; Case; 3} з {PAWN_nameDef} розірваний. Дереву необхідно відновитись протягом {DURATION} перед тим, як можна буде повторити ритуал зв'язку.</MessageConnectedPawnDied>
-
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
   <MessageSlaveEmancipated>{1_nameDef} {1_gender ? звільнив : звільнила} {0_nameDef}.</MessageSlaveEmancipated>
@@ -60,17 +57,14 @@
   <MessagePrisonerWillBroken>{0_nameDef} {0_gender ? зломив : зломила} волю {1_gender ? полоненого : полоненої} {1_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Тепер можна почати поневолення.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
-
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>Жоден з наглядачів не може поневолювати.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
   <MessageNoWardenOfIdeo>Ви не маєте наглядачів {MEMBERNAME} для поневолення {PRISONER_nameDef}. Тип взаємодії з цим в'язнем тепер у статусі "Не взаємодіяти".</MessageNoWardenOfIdeo>
-
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
   <MessageCampDetected>Ви виявили поруч {CAMP_label}, який контролює фракція {FACTION_name}.</MessageCampDetected>
-
   <!-- Charity -->
   <!-- EN: Charity refused -->
   <MessageCharityEventRefused>Милосердя не проявлено</MessageCharityEventRefused>
@@ -84,6 +78,8 @@
   <MessageBeggarsLeavingWithItemsPlural>{0} отримують необхідні предмети та йдуть.</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} {0_gender ? помер : померла}, бо не {0_gender ? отримав : отримала} допомогу.</MessageWandererLeftToDie>
+  <!-- EN: {0_nameDef} was left to die. -->
+  <MessageWandererLeftBehind>{0_nameDef} was left to die.</MessageWandererLeftBehind>
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef} {0_gender ? завербований : завербована}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
@@ -92,7 +88,6 @@
   <MessageCharityQuestEndedFailed>Завдання "{0}" провалене.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>Завдання "{0}" успішно виконане.</MessageCharityQuestEndedSuccess>
-
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
   <CannotRemove>Неможливо прибрати</CannotRemove>
@@ -104,12 +99,10 @@
   <RequiredByFaction>Необхідно для {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
   <OverlappingRoleApparel>Вимоги ролей до одягу не мають бути взаємовиключними.</OverlappingRoleApparel>
-  
   <!-- EN: {0} will self-destruct in {1}. -->
   <SelfDestructCountdown>{0} проведе процедуру самознищення через {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
   <PreceptNameTooLong>Назва правила задовга (максимум {0} символів)</PreceptNameTooLong>
-
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
   <MessageAncientTerminalDiscovered>Ви знайшли стародавній термінал, у якому є інформація про реліквію {0}!</MessageAncientTerminalDiscovered>
@@ -119,39 +112,33 @@
   <MessageAncientSignalActivated>Ви активували стародавній супутник з запасами. Вони впадуть десь поблизу.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
   <MessageAncientSignalHostileDetected>{0} з фракцій {1} отримали сигнал про скидання запасів та починають штурм.</MessageAncientSignalHostileDetected>
-
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
   <MessageAncientAltarThreatsWokenUp>Усі системи безпеки активовані!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
   <MessageAncientAltarThreatsAlerted>Всі системи безпеки попереджені про вашу присутність.</MessageAncientAltarThreatsAlerted>
-
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
   <MessageAnimalIsVeneratedForAllColonists>Увага: {PAWNKINDLABELPLURAL} вважається шанованою твариною у всіх {lookup: {PAWNS}; Case; 1}, та їм не буде нанесена шкода.</MessageAnimalIsVeneratedForAllColonists>
-
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
   <MessageNewColonyMax>Виберіть не більше {0} {lookup: {1}; Case; 1} для переносу в нову колонію.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
   <MessageNewColoyRequiresOneColonist>Необхідно вибрати хоч одного колоніста.</MessageNewColoyRequiresOneColonist>
-
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
   <MessageFuelNodeTriggered>{0} палає та скоро вибухне!</MessageFuelNodeTriggered>
-
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} прокинуться через {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
   <MessageInfestationDelayActivated>Комахи прибувають.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} зазнає критичних пошкоджень, незабаром буде вибух!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
-
+  <MessageFuelNodeDelayActivated>{0} зазнає критичних пошкоджень, незабаром буде вибух!</MessageFuelNodeDelayActivated>
+  <!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
   <MessageDevelopmentPointsEarned>Кількість балів розвитку змінилась з {0} до {1} ({2}).</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
   <MessageFluidIdeoOneChangeAllowed>Дозволена лише одна зміна структури, рис та стилей.</MessageFluidIdeoOneChangeAllowed>
-
 </LanguageData>

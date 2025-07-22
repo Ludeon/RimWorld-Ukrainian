@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>die(SUBJECT_flesh!=Mechanoid,p=2)->die</li>
     <li>die(SUBJECT_flesh!=Mechanoid)->perish</li>
@@ -16,12 +15,12 @@
     <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   -->
   <Transition_Died.rulePack.rulesStrings>
-    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->{SUBJECT_gender ? помер : померла}</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->{SUBJECT_gender ? загинув : загинула}</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->{SUBJECT_gender ? сконав : сконала}</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->{SUBJECT_gender ? відключився : відключилася}</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->{SUBJECT_gender ? перестав функціонувати : перестала функціонувати}</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->{SUBJECT_gender ? втратив джерело живлення : втратила джерело живлення}</li>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->die</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->perish</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->expire</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->shut down</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->stop functioning</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->lose power</li>
     <li>died(SUBJECT_flesh!=Mechanoid,p=2)->died</li>
     <li>died(SUBJECT_flesh!=Mechanoid)->perished</li>
     <li>died(SUBJECT_flesh!=Mechanoid)->expired</li>
@@ -29,7 +28,6 @@
     <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
     <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   </Transition_Died.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>die(p=3)->explode [flavor]</li>
     <li>die(p=3)->explode [flavorsuffix]</li>
@@ -60,23 +58,23 @@
     <li>everywhere->far and wide</li>
   -->
   <Transition_DiedExplosive.rulePack.rulesStrings>
-    <li>died(p=3)->{SUBJECT_gender ? зник : зникла} [flavor]</li>
-    <li>died->{SUBJECT_gender ? підірвався : підірвалася} [flavor]</li>
-    <li>died->{SUBJECT_gender ? злетів у повітря : злетіла у повітря} [flavor]</li>
+    <li>die(p=3)->explode [flavor]</li>
+    <li>die(p=3)->explode [flavorsuffix]</li>
+    <li>die->detonate [flavor]</li>
+    <li>die->detonate [flavorsuffix]</li>
+    <li>die->burst [flavor]</li>
+    <li>die->burst [flavorsuffix]</li>
+    <li>died(p=3)->exploded [flavor]</li>
+    <li>died->detonated [flavor]</li>
+    <li>died->burst [flavor]</li>
+    <li>flavor(p=0.2)->in a chemical [fireball]</li>
+    <li>flavor->in a [Color] [fireball]</li>
+    <li>flavor->in a [AdjectiveLarge] [fireball]</li>
+    <li>flavor(p=4)->in a [fireball]</li>
     <li>flavor(p=4)-></li>
-    <li>flavorsuffix->, [everywhere] розкидуючи [pieces] свого тіла</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, розкидуючи [GoreAbl] [everywhere]</li>
-    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, лишаючи невелику купку [GoreGen]</li>
-    <li>flavorsuffix->, лишаючи невеликий кратер</li>
-    <li>flavorsuffix(p=4)-></li>
-    <li>flavor(p=3)->у полум'ї вибуху</li>
-    <li>flavor->у вогненному спалаху</li>
-    <li>flavor->у вогняній кулі вибуху</li>
-    <li>flavor->в ударній хвилі</li>
-    <li>pieces->шматки</li>
-    <li>pieces->клапті</li>
-    <li>everywhere->всюди</li>
-    <li>everywhere->скрізь</li>
+    <li>flavorsuffix->, scattering [pieces] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, leaving a small pile of [Gore]</li>
     <li>flavorsuffix->, leaving a small crater</li>
     <li>flavorsuffix(p=4)-></li>
     <li>fireball(p=3)->fireball</li>
@@ -88,7 +86,6 @@
     <li>everywhere->everywhere</li>
     <li>everywhere->far and wide</li>
   </Transition_DiedExplosive.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [die].</li>
@@ -98,14 +95,13 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] {lookup: [CULPRITHEDIFF_labelNoun]; Case; 3} [SUBJECT_possessive] {lookup: [CULPRITHEDIFF_target_label]; Case; 1}[flavorsuffix].</li>
-    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] {lookup: [CULPRITHEDIFF_labelNoun]; Case; 3}[flavorsuffix].</li>
-    <li>r_logentry(p=0.1)->[SUBJECT_definite] [died].</li>
-    <li>flavorsuffix-></li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [die].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
     <li>r_logentry->[SUBJECT_definite] [died].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
@@ -137,23 +133,23 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[duetoa] {lookup: [CULPRITHEDIFF_labelNoun]; Case; 3} {lookup: [CULPRITHEDIFF_target_label]; Case; 1}, [SUBJECT_definite] [collapsemeta].</li>
-    <li>r_logentry->[duetoa] {lookup: [CULPRITHEDIFF_labelNoun]; Case; 3}, [SUBJECT_definite] [collapsemeta].</li>
-    <li>r_logentry->[SUBJECT_definite] [collapsemeta] [duetoa] [CULPRITHEDIFF_labelNoun] {lookup: [CULPRITHEDIFF_target_label]; Case; 1}.</li>
-    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsemeta].</li>
-    <li>collapse->падає</li>
-    <li>collapse->втрачає рівновагу</li>
-    <li>collapse(SUBJECT_flesh!=Mechanoid)->непритомніє</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->отримує системну помилку</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->входить до петлі перезавантажень</li>
-    <li>collapse(SUBJECT_flesh==Mechanoid)->втрачає основне джерело живлення</li>
-    <li>helplessly->безпорадно</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->без свідомості</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->ослаблено</li>
-    <li>helplessly(SUBJECT_flesh!=Mechanoid)->немічно</li>
-    <li>helplessly(SUBJECT_flesh==Mechanoid)->некеровано</li>
-    <li>collapsemeta->[collapse]</li>
-    <li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] made [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] made [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
+    <li>collapse->collapse</li>
+    <li>collapse->drop</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->crumple</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->crash</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lock up</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lose main power</li>
+    <li>collapsed->collapsed</li>
+    <li>collapsed->впало</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->crumpled</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->crashed</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->locked up</li>
     <li>collapsed(SUBJECT_flesh==Mechanoid)->lost main power</li>
     <li>helplessly->helplessly</li>
@@ -166,16 +162,14 @@
     <li>collapsedmeta->[collapsed]</li>
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   </Transition_Downed.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>duetoa->due to</li>
     <li>duetoa(p=0.5)->because of</li>
     <li>duetoa(p=0.5)->thanks to</li>
   -->
   <Transition_Include.rulePack.rulesStrings>
-    <li>duetoa->через</li>
+    <li>duetoa->due to</li>
     <li>duetoa(p=0.5)->because of</li>
     <li>duetoa(p=0.5)->thanks to</li>
   </Transition_Include.rulePack.rulesStrings>
-  
 </LanguageData>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription-></li>
   -->
@@ -13,9 +12,8 @@
   <EndGame_ArchonexusVictory.questNameRules.rulesStrings>
     <li>questName-></li>
   </EndGame_ArchonexusVictory.questNameRules.rulesStrings>
-  
   <!-- EN:
-    <li>questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of [playerSettlements], including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map.</li>
+    <li>questDescription->[descriptionIntro] looking to expand their territory, and are interested in taking over [playerSettlements] with all [itsTheir] wealth and technology. If you can increase your total wealth to [requiredWealth_money], they will take the [settlementsSingularOrPlural].\n\nIn trade, they offer you part of a map showing the location of an ancient archotech nexus. The archonexus is thought to be a conduit through which an archotech superintelligence influences the physical world. If you could invoke its power, what happens next could go beyond physical reality.\n\n[onlyHaveHas] one piece of the map. The other parts are held by other factions.\n\nIf you accept their offer, the [factionPawnsPlural] will take possession of your settlement, including all items, people, and recorded research. They'll bring [colonistsAllowed] of your people and [animalsAllowed] of your animals to anywhere you want on the planet to start a new colony.\n\nLater, you can trade with others for the final two parts of the map.</li>
     <li>itsTheir(playerSettlementsCount==1)->its</li>
     <li>itsTheir(playerSettlementsCount>=2)->their</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->settlement</li>
@@ -28,14 +26,11 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro] прагнуть розширити свою територію та зацікавлені в {lookup: [playerSettlements]; Case; 2} з усіма [itsTheir] багатствами та дослідженими технологіями. Якщо ви можете збільшити загальне багатство колонії до [requiredWealth_money], вони заберуть [settlementsSingularOrPlural].
-		\n\nВ обмін вони пропонують вам частину мапи, на якій показано розташування старовинного архонексусу. Вважається, що архонексус є каналом, через який архотехнічний суперінтелект впливає на фізичний світ. Якби ви застосували його силу, то далі, могли б вийти за межі фізичної реальності.
-		\n\n[onlyHaveHas] лише одну частину мапи. Інші частини належать іншим фракціям.\n\nЯкщо ви приймете їхню пропозицію, [factionPawnsPlural] заволодіють {lookup: [playerSettlements]; Case; 4}, включаючи всі предмети, людей і досліджені технології. Вони привезуть до [colonistsAllowed] з ваших людей і до [animalsAllowed] з ваших тварин у будь-яку точку планети, де ви хочете створити нову колонію.
-		\n\nПізніше ви зможете виміняти частини мапи у інших фракцій.</li>
+    <li>questDescription->[descriptionIntro] хочуть розширити їхні території, тому вони зацікавилися отриманням [playerSettlements] включно з усіма багатствами та технологіями. Якщо ви зможете підвищити багатство вашої колонії до [requiredWealth_money], вони візьмуть її.\n\nУ обмін, воно пропонують частину мапи, що веде до місця розташування стародавнього архонексуса. Кажуть, що архонексус це провідник, через який архотековий суперінтелект впливає на фізичний світ. Те, що станеться, якщо ви зможете пробудити його сили, може сягати за межі фізичної реальності.\n\n[onlyHaveHas] лише одну частину мапи. Інші частини мапи у власності інших фракцій.\n\nЯкщо ви погодитеся на їхню пропозицію, ваше поселення перейде у власність [factionPawnsPlural], включно з усіма предметами, людьми та записами про дослідження. Вони перенесуть [colonistsAllowed] з ваших колоністів та [animalsAllowed] з ваших тварин будь-куди на планеті, щоб розпочати нову колонію.\n\nПізніше, ви зможете домовитися з іншими фракціями, щоб отримати дві останні частини мапи.</li>
     <li>itsTheir(playerSettlementsCount==1)-></li>
-    <li>itsTheir(playerSettlementsCount==2)->їх</li>
+    <li>itsTheir(playerSettlementsCount>=2)->their</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->її</li>
-    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->їх</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->settlements</li>
     <li>onlyHaveHas(factionless==false)->[civilOutlander_name] мають</li>
     <li>onlyHaveHas(factionless==true)->Ця група має</li>
     <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
@@ -49,7 +44,6 @@
   <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
     <li>questName->архонексус</li>
   </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
-  
   <!-- EN:
     <li>questDescription->With the first archonexus map part securely recorded, you prepare for the next step of your journey.\n\n[cycle1Faction] told you of the cataclysm that destroyed this world. Humans built a great thinking machine here centuries ago. It turned against the people and there was a great war. Only a few were left when the machine transcended and fell dormant.\n\nThe map to the archonexus has three parts, and you hold one of them. [otherMapPartHolders] also each hold parts of the map. They'll trade their parts to you for a wealthy new colony and all of its recorded research.[descriptionStudyRequirement]\n\nIt's time to get building.</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
@@ -83,7 +77,6 @@
   <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
     <li>questName->архонексус</li>
   </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
-  
   <!-- EN:
     <li>questAcceptedLetterLabel->archonexus discovered</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
@@ -127,5 +120,4 @@
   <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
     <li>questName->архонексус</li>
   </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
-  
 </LanguageData>

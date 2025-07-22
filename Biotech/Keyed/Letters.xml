@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- Mechanitor -->
   <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>Механоїди здичавіли</LetterLabelMechsFeral>
@@ -10,46 +9,37 @@
   <LetterLabelMechlinkInstalled>Мехлінк встановлено</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
   <LetterMechlinkInstalled>{PAWN_labelShort} {PAWN_gender ? встановив : встановила} мехлінк! Тепер {PAWN_pronoun} механізатор і може створювати та керувати механоїдами.\n\nДля початку дослідіть базові мехтехнології.\n\n(*SectionTitle)Створення механоїдів:(/SectionTitle) Ваш механізатор може створювати механоїдів у виробничій споруді під назвою гестатор.\n\n(*SectionTitle)Про пропускну здатність:(/SectionTitle) Механізатори можуть контролювати стільки механізмів, скільки дозволяє їх загальна пропускна здатність. Оберіть {PAWN_labelShort} та подивіться {PAWN_possessive} параметр "Пропускна здатність" щоб побачити, скільки пропускної здатності {PAWN_pronoun} в даний час використовує і скільки {PAWN_objective} доступно. Пропускна здатність може бути збільшена за допомогою певного одягу та спеціальних споруд.\n\n(*SectionTitle)Про контрольні групи:(/SectionTitle) Механізатори контролюють механоїдів у групах. Кожна контрольована група може бути встановлена на один із цих режимів:\n\n- Робота\n- Супровід\n- Зарядка\n- Режим сну\n\nЩоб дізнатися більше про кожен з режимів, виберіть значок режиму роботи на одній з контрольованих {PAWN_labelShort} груп та наведіть курсор на різні робочі стани. Максимальна кількість контрольних груп може бути збільшена за допомогою одягу та імплантатів.\n\n(*SectionTitle)Про виклик древніх механоїдів:(/SectionTitle) Механізатори можуть викликати на бій древнього лідера механоїдів, щоб рідкісні предмети з них. Ці предмети необхідні для розвитку механізатора, але будьте обачні: древні механоїди дуже небезпечні, тож добре підготуйтеся.</LetterMechlinkInstalled>
-
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>Це сталося через</MentalStateReason_Gene>
-
   <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>Викликано {lookup: {0}; Case; 3}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
   <LetterBossgroupSummoned>Приваблений вашим викликом, надважкий механоїд з фракції {0} незабаром прибуде. Будьте готові.</LetterBossgroupSummoned>
-
   <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0} прибуває</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
   <LetterBossgroupArrived>Надважкий механоїд з фракції {0} разом із супроводом прибувають щоб знищити вас.\n\n{1}\n\nДо складу штурмової групи входять {3}:\n\n{4}\n\nВони витратять якийсь час на підготовку, перш ніж атакувати.</LetterBossgroupArrived>
-
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Виклик {lookup: {LEADER_label}; Case; 1} доступний</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>Механізатор може використати {lookup: {PARENT_label}; Case; 3}, щоб викликати {lookup: {LEADER_label}; Case; 3}. Якщо ви переможете, ви отримаєте наступні предмети:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
-
+  <LetterCommsConsoleSpawned>Механітор може використати {lookup: {PARENT_label}; Case; 3}, щоб викликати {lookup: {LEADER_label}; Case; 3}. Будьте напоготові, механоїди {LEADER_label} вкрай потужні.\n\nЯкщо ви переможете {LEADER_label}, ви отримаєте наступні предмети:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
   <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>Можливо викликати {lookup: {LEADER_label}; Case; 1}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterBossgroupCallerUnlocked>Тепер ви можете побудувати {lookup: {PARENT_label}; Case; 3}, за допомогою якого ваш механізатор може викликати {lookup: {LEADER_label}; Case; 3}. Якщо ви переможете, ви отримаєте наступні предмети:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
-
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>доступний мехлінк {0_nameDef}</LetterLabelMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketOpened>Доступний мехлінк у {PAWN_nameDef}</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>Ви знайшли труп механізатора!\n\nДля вилучення {0_possessive} мехлінка виберіть колоніста і натисніть правою кнопкою миші по трупу.</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>Ви знайшли труп механітора!\n\nДля вилучення {PAWN_possessive} мехлінка виберіть колоніста і натисніть правою кнопкою миші по трупу.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Механізатор в стані криптосну</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>Ви знайшли саркофаг криптосну з механізатором!\n\nВідкрийте, щоб дістати його.</LetterMechanitorCasketFound>
-  
   <!-- Pawns lost because map closed (including mechs) -->
   <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Ваш караван втрачено. Разом з ним були втрачені люди, тварини та механоїди</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
   <!-- EN: The following people, animals and mechanoids have been abandoned -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Home>Наступні люди, тварини та механоїди були покинуті</LetterPawnsLostIncMechsBecauseMapClosed_Home>
-  
-
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
   <LetterLabelBecameChild>{0_nameDef} стає дитиною</LetterLabelBecameChild>
@@ -75,12 +65,10 @@
   <LetterLabelAdopted>{BABY_nameDef} {BABY_gender ? прийнятий : прийнята}</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
   <LetterTextAdopted>{BABY_nameDef}, дитина, {BABY_gender ? був прийнятий : була прийнята} вашою колонією. Вам потрібно призначити колоніста, щоб піклуватися про {BABY_gender ? нього : неї}.</LetterTextAdopted>
-
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>підготовка до пологів {0_nameDef}</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
   <LetterTextThirdTrimester>{0_nameDef} має народити через 6 чи менше днів. Ви можете підготуватися до пологів та дитини:\n\n- Підготовте кімнату для народження з чистою підлогою та гарним ліжком.\n- Підготуйте кваліфікованого лікаря.\n- У вкладі "Праця" призначте принаймні одну людину на догляд за дітьми\n- Підготуйте їжу для дитини. {0_nameDef} може годувати дитину груддю, або ви можете підготувати дитяче харчування, молоко чи комашине желе.\n- Побудуйте ліжечко. Високоякісні ліжечка зроблять дитину щасливою.\n\nДитяче харчування можна приготувати на плиті або багатті.</LetterTextThirdTrimester>
-
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>{0} народжується в інкубаторі</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
@@ -105,7 +93,6 @@
   <LetterPartSurrogacy>Дитина була утворена штучним заплідненням та має генетичний спадок {0_labelShort} і {1_labelShort}.</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
   <InbredBabyBorn>Дитина показує ознаки генетичних аномалій через інцест.</InbredBabyBorn>
-
   <!-- EN: {0_nameDef} has already been named. -->
   <BabyAlreadyNamed>{0_nameDef} вже має ім'я.</BabyAlreadyNamed>
   <!-- EN: name baby -->
@@ -122,7 +109,6 @@
   <LetterPartStillbirthNameDeadline>Хочете дати дитині інше ім'я?</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
   <LetterPartNameBabyAdopt>Малюк отримав тимчасове ім'я {0_nameFull}. Ви можете змінити його, доки малюк молодше {1}.</LetterPartNameBabyAdopt>
-
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>Зростання {PAWNNAME}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
@@ -139,7 +125,6 @@
   <BirthdayGrowthTier>На момент нового етапу зростання, рівень зростання {0_nameDef} дорівнював {1}. Більший рівень дає більше можливостей для розвитку рис і пристрастей. Задоволення потреби в навчанні допомагає дитині швидше набирати рівні зростання. Рівні зростання скидаються після кожного моменту зростання.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>Натисніть, щоб вибрати, як {0_nameDef} буде розвиватися.</BirthdayChooseHowPawnWillGrow>
-
   <!-- EN: Passion was increased for {0}. -->
   <BirthdayPassionArchive>Посилено пристрасть до {lookup: {0}; Case; 1}.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
@@ -148,7 +133,6 @@
   <BirthdayNoTraitChoice>Без рис</BirthdayNoTraitChoice>
   <!-- EN: {0} does not gain a trait. -->
   <BirthdayNoTraitChoiceTooltip>{0} не отримує рис.</BirthdayNoTraitChoiceTooltip>
-
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Щоб закрити, зробіть вибір</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -161,12 +145,10 @@
   <SelectPassionsPlural>Виберіть {0} пристрасті.</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>Пізніше</Later>
-  
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>Мехлінк доступний</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
   <LetterMechlinkAvailable>Є можливість отримати унікальний імплант - мехлінк; за допомогою завдання "{0}".\n\nІмплантація мехлінку перетворить колоніста в механізатора. Механізатори можуть створювати та контролювати механоїдів, щоб використовувати їх в роботі та в бою.</LetterMechlinkAvailable>
-
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>Призначена імплантація ксенозародку</LetterLabelXenogermOrderedImplanted>
@@ -190,28 +172,22 @@
   <DeathrestLostSkill>Через нейронний шок травматичної смерті, {PAWN_nameDef} втрачає {XPLOSS} од. досвіду {PAWN_possessive} навички {lookup: {SKILL}; Case; 1}.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Отримана смертельна шкода.</DeathrestLethalDamage>
-
   <!-- EN: Xenogerm implantation -->
   <LetterLabelSanguophageWaitingToReimplant>Імплантація ксенозародку</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>В знак подяки, що ви дозволили {PAWN_objective} і {PAWN_possessive} товаришам сангвофагам зустрілися тут, {PAWN_nameDef} пропонує поділитися копією свого ксенозародку з одним із ваших колоністів. Це перетворить вашого колоніста на сангвофага.\n\nЩоб погодитися, виберіть колоніста і клацніть ПКМ по {PAWN_nameDef}.\n\nЯкщо жоден з колоністів не отримає винагороду протягом {DURATION}, сангвофаги підуть.</LetterTextSanguophageWaitingToReimplant>
-
+  <LetterTextSanguophageWaitingToReimplant>Дякую, що дозволили {PAWN_nameDef} і {PAWN_possessive} товаришам сангвофагам зустрілися тут. {PAWN_pronoun} {PAWN_gender ? готовий : готова} поділитися копією свого ксенозародку з одним із ваших колоністів. Це зробить з вашого колоніста на сангвофагом.\n\nЩоб прийняти, виберіть колоніста і клацніть ПКМ по {PAWN_nameDef}.\n\nЧкщо ніхто не погодиться протягом {DURATION}, сангвофаги підуть.</LetterTextSanguophageWaitingToReimplant>
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>ксенозародок імплантований</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
   <LetterTextGenesImplanted>{CASTER_nameDef} {CASTER_gender ? імплантував : імплантувала} копію свого ксенозародку до {TARGET_nameDef}, передаючи {TARGET_objective} всі ксеногени.\n\n{TARGET_nameDef} буде в ксенозародковій комі протягом {COMADURATION}, поки {TARGET_possessive} тіло налаштовується на зміни.\n\n{CASTER_nameDef} буде страждати від шоку по втраті генів протягом {SHOCKDURATION}. {CASTER_possessive} гени також потрібно буде відновити. Цей процес потребує часу. Якщо {CASTER_nameDef} імплантує свій ксенозародок до того, як {CASTER_possessive} гени відновляться - {CASTER_pronoun} загине.</LetterTextGenesImplanted>
-  
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
   <RefugeePodCrashBaby>Дитина на ім’я {PAWN_nameDef} з фракції {PAWN_factionName} розбивається в транспортній капсулі неподалік.\n\nВи можете всиновити {PAWN_possessive} або проігнорувати.</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
   <RefugeePodCrashBabyHasParent>В транспортній капсулі також знаходяться тіла {PAWN_possessive} загиблих батьків.</RefugeePodCrashBabyHasParent>
-
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>Інстинктивно шукаючи партнера, {BONDPAWN_nameDef} формує зв'язок та романтичні відносини з {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} отримує бонуси від зв'язку з {BONDPAWN_nameDef} але якщо їх розділять, то обидва постраждають від стресу. Якщо один помре, інший збожеволіє.</LetterPsychicBondCreated>
-
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>Психічний зв'язок</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} має психічний зв'язок з {OTHERPAWN_nameDef}. Вони отримують бонуси, доки знаходяться в одній місцевості, але якщо вони будуть знаходитися далеко один від одного - їх це нервуватиме. Якщо один з них загине, інший збожеволіє.</LetterPsychicBondCreatedLovinText>
-
 </LanguageData>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: play -->
   <BabyPlay.label>гра з немовлям</BabyPlay.label>
   <!-- EN:
@@ -67,7 +66,6 @@
     <li>babyGame->"покажи і розкажи"</li>
     <li>babyGame->"пальчикові ляльки"</li>
   </BabyPlay.logRulesInitiator.rulesStrings>
-  
   <!-- EN: animal lesson -->
   <LessonAnimals.label>урок тваринництва</LessonAnimals.label>
   <!-- EN:
@@ -101,7 +99,7 @@
   <LessonAnimals.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], як [animal_verb] [article_animal].</li>
     <li>article_animal->гігантського лінивця</li>
-    <li>article_animal->гігантського павука</li>
+    <li>article_animal->мегапавука</li>
     <li>article_animal->трумбо</li>
     <li>article_animal->бумщура</li>
     <li>article_animal->шиншилу</li>
@@ -123,10 +121,9 @@
     <li>subject->психологію тварин</li>
     <li>subject->способи приручення</li>
     <li>subject->небезпечність дикої природи</li>
-    <li>subject->сказ</li>
+    <li>subject->рептилій</li>
     <li>subject->скаріоз</li>
   </LessonAnimals.logRulesInitiator.rulesStrings>
-  
   <!-- EN: art lesson -->
   <LessonArtistic.label>урок мистецтва</LessonArtistic.label>
   <!-- EN:
@@ -150,26 +147,25 @@
     <li>subject->mixing paints</li>
   -->
   <LessonArtistic.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->пензлем</li>
-    <li>article_toolAbl->вугільним олівцем</li>
-    <li>article_toolAbl->долотом</li>
-    <li>article_toolAbl->полотном</li>
-    <li>article_toolAbl->грудкою глини</li>
-    <li>article_toolGen->пензля</li>
-    <li>article_toolGen->вугільного олівця</li>
-    <li>article_toolGen->долота</li>
-    <li>article_toolGen->полотна</li>
-    <li>article_toolGen->грудки глини</li>
-    <li>action->створювати мистецтво</li>
-    <li>action->користуватися</li>
-    <li>action->виражати себе</li>
-    <li>action_gerund->створення мистецтва за допомогою</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->самовираження за допомогою</li>
-    <li>subject->скульптурні матеріали</li>
-    <li>subject->відомих артистів</li>
+    <li>article_tool->a paint brush</li>
+    <li>article_tool->a charcoal pencil</li>
+    <li>article_tool->a chisel</li>
+    <li>article_tool->a canvas</li>
+    <li>article_tool->a lump of clay</li>
+    <li>action->make art with</li>
+    <li>action->use</li>
+    <li>action->express one's self with</li>
+    <li>action_gerund->making art with</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->expressing one's self with</li>
+    <li>subject->sculpture materials</li>
+    <li>subject->famous artists</li>
+    <li>subject->famous paintings</li>
+    <li>subject->glitterworld galleries</li>
+    <li>subject->portraiture</li>
+    <li>subject->abstract art</li>
+    <li>subject->mixing paints</li>
   </LessonArtistic.logRulesInitiator.rulesStrings>
-  
   <!-- EN: construction lesson -->
   <LessonConstruction.label>урок будівництва</LessonConstruction.label>
   <!-- EN:
@@ -192,25 +188,24 @@
     <li>subject->blueprints</li>
   -->
   <LessonConstruction.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->молотком</li>
-    <li>article_toolAbl->настільною пилою</li>
-    <li>article_toolAbl->лінійкою</li>
-    <li>article_toolAbl->драбиною</li>
-    <li>article_toolAbl->рівнем</li>
-    <li>article_toolGen->молотка</li>
-    <li>article_toolGen->настільної пили</li>
-    <li>article_toolGen->лінійки</li>
-    <li>article_toolGen->драбини</li>
-    <li>article_toolGen->рівня</li>
-    <li>action->користуватися</li>
-    <li>action->працювати</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->огляд</li>
-    <li>subject->архітектуру</li>
-    <li>subject->техніки будівництва</li>
-    <li>subject->техніки демонтажу</li>
+    <li>article_tool->a hammer</li>
+    <li>article_tool->a table saw</li>
+    <li>article_tool->a ruler</li>
+    <li>article_tool->a ladder</li>
+    <li>article_tool->a level</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->architecture</li>
+    <li>subject->construction techniques</li>
+    <li>subject->deconstruction techniques</li>
+    <li>subject->building materials</li>
+    <li>subject->modeling software</li>
+    <li>subject->blueprints</li>
   </LessonConstruction.logRulesInitiator.rulesStrings>
-  
   <!-- EN: cooking lesson -->
   <LessonCooking.label>урок готування</LessonCooking.label>
   <!-- EN:
@@ -236,28 +231,27 @@
     <li>situation->safely</li>
   -->
   <LessonCooking.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->плитою</li>
-    <li>article_toolAbl->кондитерським шпателем</li>
-    <li>article_toolAbl->піччю</li>
-    <li>article_toolAbl->каструлею</li>
-    <li>article_toolAbl->дозатором поживної пасти</li>
-    <li>article_toolAbl->столом м'ясника</li>
-    <li>article_toolGen->плити</li>
-    <li>article_toolGen->кондитерського шпателю</li>
-    <li>article_toolGen->печі</li>
-    <li>article_toolGen->каструлі</li>
-    <li>article_toolGen->дозатора поживної пасти</li>
-    <li>article_toolGen->стола м'ясника</li>
-    <li>action->доглядати за</li>
-    <li>action->користуватися</li>
-    <li>action_gerund->очищення</li>
-    <li>action_gerund->готування за допомогою</li>
-    <li>subject->спеції</li>
-    <li>subject->сухпайки</li>
-    <li>subject->види яєць</li>
-    <li>subject->види м'яса</li>
+    <li>article_tool->a stove</li>
+    <li>article_tool->a spatula</li>
+    <li>article_tool->an oven</li>
+    <li>article_tool->a saucepan</li>
+    <li>article_tool->a nutrient paste dispenser</li>
+    <li>article_tool->a butcher table</li>
+    <li>action->clean</li>
+    <li>action->cook with</li>
+    <li>action_gerund->cleaning</li>
+    <li>action_gerund->cooking with</li>
+    <li>subject->spices</li>
+    <li>subject->packaged survival meals</li>
+    <li>subject->egg varieties</li>
+    <li>subject->varieties of meats</li>
+    <li>subject->flavors</li>
+    <li>subject->recipes</li>
+    <li>situation->while caravaning</li>
+    <li>situation->blindfolded</li>
+    <li>situation->in a hurry</li>
+    <li>situation->safely</li>
   </LessonCooking.logRulesInitiator.rulesStrings>
-  
   <!-- EN: crafting lesson -->
   <LessonCrafting.label>урок ремесла</LessonCrafting.label>
   <!-- EN:
@@ -287,32 +281,31 @@
     <li>situation(p=0.1)->while drunk</li>
   -->
   <LessonCrafting.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->викруткою</li>
-    <li>article_toolAbl->плоскогубцями</li>
-    <li>article_toolAbl->друкованою платою</li>
-    <li>article_toolAbl->швацькою машинкою</li>
-    <li>article_toolAbl->столом для обробки</li>
-    <li>article_toolGen->викрутки</li>
-    <li>article_toolGen->плоскогубців</li>
-    <li>article_toolGen->друкованої плати</li>
-    <li>article_toolGen->швацької машинки</li>
-    <li>article_toolGen->столу для обробки</li>
-    <li>action->користуватися</li>
-    <li>action->працювати</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->працю за допомогою</li>
-    <li>action_gerund->огляд</li>
-    <li>subject->організацію інструменту</li>
-    <li>subject->майстерні досягнення</li>
-    <li>subject->гаджети</li>
-    <li>subject->види тканин</li>
-    <li>subject->техніку ткацтва полотна</li>
-    <li>subject->пластинчату броню</li>
-    <li>subject->допоміжне спорядження</li>
-    <li>subject->біоніку</li>
-    <li>situation->безпечно</li>
+    <li>article_tool->a screwdriver</li>
+    <li>article_tool->a pair of pliers</li>
+    <li>article_tool->a circuit board</li>
+    <li>article_tool->a tailor bench</li>
+    <li>article_tool->a machining table</li>
+    <li>article_tool->a fabricator</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->organizing tools</li>
+    <li>subject->tinkering accomplishments</li>
+    <li>subject->gadgets</li>
+    <li>subject->fabric varieties</li>
+    <li>subject->cloth weaving techniques</li>
+    <li>subject->plate armor</li>
+    <li>subject->utility belts</li>
+    <li>subject->bionics</li>
+    <li>situation->safely</li>
+    <li>situation->without instructions</li>
+    <li>situation->by candlelight</li>
+    <li>situation(p=0.1)->while drunk</li>
   </LessonCrafting.logRulesInitiator.rulesStrings>
-  
   <!-- EN: lesson -->
   <LessonGeneric.label>урок</LessonGeneric.label>
   <!-- EN:
@@ -321,7 +314,6 @@
   <LessonGeneric.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] проводить урок для [RECIPIENT_nameDef]</li>
   </LessonGeneric.logRulesInitiator.rulesStrings>
-  
   <!-- EN: intellectual lesson -->
   <LessonIntellectual.label>урок інтелекту</LessonIntellectual.label>
   <!-- EN:
@@ -352,7 +344,6 @@
     <li>subject->основну технічні документи</li>
     <li>subject->двигун Джонсона-Танака</li>
   </LessonIntellectual.logRulesInitiator.rulesStrings>
-  
   <!-- EN: medical lesson -->
   <LessonMedicine.label>урок медицини</LessonMedicine.label>
   <!-- EN:
@@ -390,40 +381,39 @@
     <li>subject->sterilization methods</li>
   -->
   <LessonMedicine.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], як [medical_verb] [hediff].</li>
-    <li>article_toolAbl->медичними засобами</li>
-    <li>article_toolAbl->бинтом</li>
-    <li>article_toolAbl->шприцом</li>
-    <li>article_toolAbl->цілющим коренем</li>
-    <li>article_toolAbl->монітором життєвих показників</li>
-    <li>article_toolAbl->скальпелем</li>
-    <li>article_toolAbl->лікувальною сироваткою</li>
-    <li>article_toolAbl->знеболювачем</li>
-    <li>article_toolGen->медичних засобів</li>
-    <li>article_toolGen->бинтів</li>
-    <li>article_toolGen->шприца</li>
-    <li>article_toolGen->цілющого кореня</li>
-    <li>article_toolGen->монітору життєвих показників</li>
-    <li>article_toolGen->скальпеля</li>
-    <li>article_toolGen->лікувальної сироватки</li>
-    <li>article_toolGen->знеболювача</li>
-    <li>action->користуватися</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->огляд</li>
-    <li>hediff->втрату крові</li>
-    <li>hediff->серцевий напад</li>
-    <li>hediff->сонячний удар</li>
-    <li>hediff->харчове отруєння</li>
-    <li>hediff->рак</li>
-    <li>hediff->кишкових паразитів</li>
-    <li>hediff->м'язових паразитів</li>
-    <li>hediff->паралітичну абазію</li>
-    <li>hediff->малярію</li>
-    <li>hediff->чуму</li>
-    <li>hediff->цироз печінки</li>
-    <li>medical_verb->діагностувати</li>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
+    <li>article_tool->a medicine pack</li>
+    <li>article_tool->a bandage</li>
+    <li>article_tool->a syringe</li>
+    <li>article_tool->a healroot plant</li>
+    <li>article_tool->a vitals monitor</li>
+    <li>article_tool->a scalpel</li>
+    <li>article_tool->a healer mech serum dose</li>
+    <li>article_tool->a painstopper</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->inspecting</li>
+    <li>hediff->blood loss</li>
+    <li>hediff->a heart attack</li>
+    <li>hediff->heatstroke</li>
+    <li>hediff->food poisoning</li>
+    <li>hediff->carcinoma</li>
+    <li>hediff->gut worms</li>
+    <li>hediff->muscle parasites</li>
+    <li>hediff->paralytic abasia</li>
+    <li>hediff->malaria</li>
+    <li>hediff->the flu</li>
+    <li>hediff->cirrhosis</li>
+    <li>medical_verb->diagnose</li>
+    <li>medical_verb->triage</li>
+    <li>medical_verb->treat</li>
+    <li>subject->anesthesia dosing</li>
+    <li>subject->types of cancer</li>
+    <li>subject->surgical procedures</li>
+    <li>subject->bedside manner</li>
+    <li>subject->sterilization methods</li>
   </LessonMedicine.logRulesInitiator.rulesStrings>
-  
   <!-- EN: melee lesson -->
   <LessonMelee.label>урок ближнього бою</LessonMelee.label>
   <!-- EN:
@@ -453,32 +443,31 @@
     <li>action_gerund->swinging</li>
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->сокирою</li>
-    <li>article_toolAbl->дубиною</li>
-    <li>article_toolAbl->мечем</li>
-    <li>article_toolAbl->ліктьовим лезом</li>
-    <li>article_toolAbl->силовим кігтем</li>
-    <li>article_toolAbl->довгим мечем</li>
-    <li>article_toolAbl->мономечем</li>
-    <li>article_toolAbl->плазмовим мечем</li>
-    <li>article_toolAbl->списом</li>
-    <li>article_toolAbl->булавою</li>
-    <li>article_toolAbl->бойовим молотом</li>
-    <li>article_toolAbl->кулаком</li>
-    <li>article_toolGen->сокири</li>
-    <li>article_toolGen->дубини</li>
-    <li>article_toolGen->меча</li>
-    <li>article_toolGen->ліктьового леза</li>
-    <li>article_toolGen->силового кігтя</li>
-    <li>article_toolGen->довгого меча</li>
-    <li>article_toolGen->мономеча</li>
-    <li>article_toolGen->плазмового меча</li>
-    <li>article_toolGen->списа</li>
-    <li>article_toolGen->булави</li>
-    <li>article_toolGen->бойового молота</li>
-    <li>article_toolGen->кулака</li>
+    <li>article_tool->an axe</li>
+    <li>article_tool->a club</li>
+    <li>article_tool->a sword</li>
+    <li>article_tool->an elbow blade</li>
+    <li>article_tool->a hand talon</li>
+    <li>article_tool->a longsword</li>
+    <li>article_tool->a monosword</li>
+    <li>article_tool->a plasmasword</li>
+    <li>article_tool->a spear</li>
+    <li>article_tool->a mace</li>
+    <li>article_tool->a warhammer</li>
+    <li>article_tool->a fist</li>
+    <li>action->parry</li>
+    <li>action->fight with</li>
+    <li>action->counter</li>
+    <li>action->care for</li>
+    <li>action->use</li>
+    <li>action->swing</li>
+    <li>action_gerund->parrying</li>
+    <li>action_gerund->fighting with</li>
+    <li>action_gerund->countering</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->swinging</li>
   </LessonMelee.logRulesInitiator.rulesStrings>
-  
   <!-- EN: mining lesson -->
   <LessonMining.label>урок видобутку</LessonMining.label>
   <!-- EN:
@@ -504,28 +493,27 @@
     <li>situation(p=2)->underground</li>
   -->
   <LessonMining.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->кіркою</li>
-    <li>article_toolAbl->глибинним буром</li>
-    <li>article_toolAbl->лопатою</li>
-    <li>article_toolAbl->сканером мінералів дальньої дії</li>
-    <li>article_toolAbl->глибинним сканером</li>
-    <li>article_toolGen->кірки</li>
-    <li>article_toolGen->глибинного буру</li>
-    <li>article_toolGen->лопати</li>
-    <li>article_toolGen->сканеру мінералів дальньої дії</li>
-    <li>article_toolGen->глибинного сканера</li>
-    <li>action->користуватися</li>
-    <li>action->видобувати</li>
-    <li>action->працювати з</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->можливості</li>
-    <li>action_gerund->роботу</li>
-    <li>action_gerund->огляд</li>
-    <li>subject->жили мінералів</li>
-    <li>subject->дорогоцінні камені</li>
-    <li>subject->геологію</li>
+    <li>article_tool->a pickaxe</li>
+    <li>article_tool->a deep drill</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->a long-range mineral scanner</li>
+    <li>article_tool->a ground-penetrating scanner</li>
+    <li>action->use</li>
+    <li>action->mine with</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->mining with</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->mineral veins</li>
+    <li>subject->precious gemstones</li>
+    <li>subject->geology</li>
+    <li>subject->tunneling</li>
+    <li>subject->sediment analysis</li>
+    <li>subject->cave-dwelling insects</li>
+    <li>situation(p=2)->underground</li>
   </LessonMining.logRulesInitiator.rulesStrings>
-  
   <!-- EN: gardening lesson -->
   <LessonPlants.label>урок садівництва</LessonPlants.label>
   <!-- EN:
@@ -548,25 +536,24 @@
     <li>subject->gauranlen trees</li>
   -->
   <LessonPlants.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->сонячною лампою</li>
-    <li>article_toolAbl->гідропонною фермою</li>
-    <li>article_toolAbl->спринклером</li>
-    <li>article_toolAbl->лопатою</li>
-    <li>article_toolAbl->секатором</li>
-    <li>article_toolGen->сонячної лампи</li>
-    <li>article_toolGen->гідропонної ферми</li>
-    <li>article_toolGen->спринклера</li>
-    <li>article_toolGen->лопати</li>
-    <li>article_toolGen->секатора</li>
-    <li>action->садити з</li>
-    <li>action->користуватися</li>
-    <li>action_gerund->використання</li>
-    <li>action_gerund->садівництво за допомогою</li>
-    <li>action_gerund->огляд</li>
-    <li>subject->типи ґрунту</li>
-    <li>subject->пестициди</li>
+    <li>article_tool->a sun lamp</li>
+    <li>article_tool->a hydroponics basin</li>
+    <li>article_tool->a sprinkler</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->pruning shears</li>
+    <li>action->garden with</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->gardening with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->types of soil</li>
+    <li>subject->pesticides</li>
+    <li>subject->irrigation techniques</li>
+    <li>subject->varieties of cacti</li>
+    <li>subject->anima trees</li>
+    <li>subject->gauranlen trees</li>
   </LessonPlants.logRulesInitiator.rulesStrings>
-  
   <!-- EN: shooting lesson -->
   <LessonShooting.label>урок стрільби</LessonShooting.label>
   <!-- EN:
@@ -589,25 +576,24 @@
     <li>action_gerund->reloading</li>
   -->
   <LessonShooting.logRulesInitiator.rulesStrings>
-    <li>article_toolAbl->гвинтівкою</li>
-    <li>article_toolAbl->пістолетом</li>
-    <li>article_toolAbl->дробовиком</li>
-    <li>article_toolAbl->пусковою установкою</li>
-    <li>article_toolAbl->ручним кулеметом</li>
-    <li>article_toolAbl->мініґаном</li>
-    <li>article_toolAbl->коротким луком</li>
-    <li>article_toolAbl->композитним луком</li>
-    <li>article_toolAbl->довгим луком</li>
-    <li>article_toolGen->гвинтівки</li>
-    <li>article_toolGen->пістолета</li>
-    <li>article_toolGen->дробовика</li>
-    <li>article_toolGen->пускової установки</li>
-    <li>article_toolGen->ручного кулемета</li>
-    <li>article_toolGen->мініґану</li>
-    <li>article_toolGen->короткого лука</li>
-    <li>article_toolGen->композитного лука</li>
+    <li>article_tool->a rifle</li>
+    <li>article_tool->a pistol</li>
+    <li>article_tool->a shotgun</li>
+    <li>article_tool->a rocket launcher</li>
+    <li>article_tool->an SMG</li>
+    <li>article_tool->a minigun</li>
+    <li>article_tool->a short bow</li>
+    <li>article_tool->a recurve bow</li>
+    <li>article_tool->a greatbow</li>
+    <li>action->aim</li>
+    <li>action->shoot</li>
+    <li>action->care for</li>
+    <li>action->reload</li>
+    <li>action_gerund->aiming</li>
+    <li>action_gerund->shooting</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->reloading</li>
   </LessonShooting.logRulesInitiator.rulesStrings>
-  
   <!-- EN: social lesson -->
   <LessonSocial.label>соціальний урок</LessonSocial.label>
   <!-- EN:
@@ -632,7 +618,6 @@
     <li>subject->погані слова</li>
     <li>subject->мову жестів</li>
   </LessonSocial.logRulesInitiator.rulesStrings>
-  
   <!-- EN: sanguophage chat -->
   <SanguophageChat.label>бесіда сангвофагів</SanguophageChat.label>
   <!-- EN:
@@ -779,5 +764,4 @@
     <li>planType->знищення мисливців на сангвофагів</li>
     <li>planType->насолоду вічним життям</li>
   </SanguophageChat.logRulesInitiator.rulesStrings>
-  
 </LanguageData>

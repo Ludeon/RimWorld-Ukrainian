@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: rest effectiveness -->
   <BedRestEffectiveness.label>ефективність відпочинку</BedRestEffectiveness.label>
   <!-- EN: How fast people sleeping on this gain rest. -->
   <BedRestEffectiveness.description>Вказує, наскільки швидко люди відпочинуть, використовуючи цей об'єкт.</BedRestEffectiveness.description>
-  
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>швидкість відчинення</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
   <DoorOpenSpeed.description>Швидкість, з якою відчиняються двері без електроживлення.\n\nПовільні двері затримають кожного, хто ними користується.</DoorOpenSpeed.description>
-  
   <!-- EN: immunity gain speed factor -->
   <ImmunityGainSpeedFactor.label>швидкість вироблення імунітету</ImmunityGainSpeedFactor.label>
   <!-- EN: Immunity gain speed is multiplied by this value. -->
   <ImmunityGainSpeedFactor.description>Базова швидкість вироблення імунітету множиться на це значення.</ImmunityGainSpeedFactor.description>
-  
   <!-- EN: recreation power -->
   <JoyGainFactor.label>ефективність дозвілля</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
   <JoyGainFactor.description>Наскільки ефективно цей предмет розважає людей і задовольняє їхню потребу у відпочинку.</JoyGainFactor.description>
-  
   <!-- EN: medical tend quality offset -->
   <MedicalTendQualityOffset.label>збільшення якості лікування</MedicalTendQualityOffset.label>
   <!-- EN: Medical tend quality is offset by this value. -->
   <MedicalTendQualityOffset.description>Коефіцієнт якості медичного лікування змінюється на це значення.</MedicalTendQualityOffset.description>
-  
   <!-- EN: max power output -->
   <PowerPlantMaxPowerOuput.label>максимальна вихідна потужність</PowerPlantMaxPowerOuput.label>
   <!-- EN: The maximum power that this generator can output in ideal conditions. -->
   <PowerPlantMaxPowerOuput.description>Максимальна потужність, яку цей генератор може видавати в ідеальних умовах.</PowerPlantMaxPowerOuput.description>
-  
+  <!-- EN: {0} W -->
+  <PowerPlantMaxPowerOuput.formatString>{0} W</PowerPlantMaxPowerOuput.formatString>
   <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>швидкість досліджень</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
@@ -39,44 +34,36 @@
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>Чистота приміщення</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
   <!-- EN: Reading bonus -->
   <ResearchSpeedFactor.parts.Reading_bonus.customLabel>Бонус до читання</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
-  
   <!-- EN: reading bonus -->
   <RoomReadingBonus.label>бонус до читання</RoomReadingBonus.label>
   <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
   <RoomReadingBonus.description>Надає бонус до швидкості дослідження та досвіду отриманого від читання, а також відпочинку отриманого від читання в тій самій кімнаті, що й книжкова шафа. Це збільшується завдяки розміщенню в книжковій шафі більшої кількості книжок вищої якості.</RoomReadingBonus.description>
   <!-- EN: Reading bonus -->
   <RoomReadingBonus.parts.Reading_bonus.customLabel>Бонус до читання</RoomReadingBonus.parts.Reading_bonus.customLabel>
-  
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>імовірність успіху операції</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
   <SurgerySuccessChanceFactor.description>Множник імовірності успіху операції, виконаної тут.\n\nІмовірність успіху також залежить від стану та навичок хірурга та медикаментів, що використовуються.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>Чистота приміщення</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
-  
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>шкода від пастки</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>Середня шкода, яку завдає ця пастка.\n\nФінальна кількість завданої шкоди залежить від багатьох випадкових факторів.</TrapMeleeDamage.description>
-  
+  <TrapMeleeDamage.description>How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly.</TrapMeleeDamage.description>
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>імовірність активації</TrapSpringChance.label>
   <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
   <TrapSpringChance.description>Імовірність активації пастки неворожою істотою.</TrapSpringChance.description>
-  
   <!-- EN: work efficiency factor -->
   <WorkTableEfficiencyFactor.label>ефективність роботи</WorkTableEfficiencyFactor.label>
   <!-- EN: Work efficiency is multiplied by this value. -->
   <WorkTableEfficiencyFactor.description>Ефективність роботи множиться на це значення.</WorkTableEfficiencyFactor.description>
-  
   <!-- EN: work speed factor -->
   <WorkTableWorkSpeedFactor.label>швидкість роботи</WorkTableWorkSpeedFactor.label>
   <!-- EN: Work speed is multiplied by this value. -->
   <WorkTableWorkSpeedFactor.description>Швидкість виконання роботи множиться на це значення.</WorkTableWorkSpeedFactor.description>
-  
   <!-- EN: work to build -->
   <WorkToBuild.label>обсяг роботи</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
   <WorkToBuild.description>Обсяг роботи, необхідний для будівництва об'єкту, коли всі матеріали підготовленні.\n\nНа цьому значенні також базується кількість роботи для деконструкції об'єкту.</WorkToBuild.description>
-  
 </LanguageData>

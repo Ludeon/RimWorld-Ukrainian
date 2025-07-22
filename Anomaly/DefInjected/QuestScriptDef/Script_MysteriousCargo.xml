@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
     <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It is a simple cube that shines like gold but is impossible to scratch. It is light and warm to the touch. The way light plays across its surface is captivating.\n\n[pawn_nameDef] feels inexplicably drawn to the cube.</li>
@@ -17,9 +16,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->До вас звертається анонімний ШІ з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж. Він уникає всіх ваших питань щодо вантажу.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(askerIsNull==true)->Анонімний ШІ звертається з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж і уникає всіх запитань щодо нього.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
   </MysteriousCargoCube.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -27,14 +26,13 @@
   <MysteriousCargoCube.questNameRules.rulesStrings>
     <li>questName->Таємничий вантаж</li>
   </MysteriousCargoCube.questNameRules.rulesStrings>
-  
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
     <li>deliveredLetterText->The mysterious cargo has been delivered. It resembles a thick, jagged human spine made out of a rough-cast black metal. It looks like it's covered in a dark fluid.\n\nThe spine vibrates in response to touch and twists angrily. You can study it on a holding platform to learn more.</li>
   -->
   <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Таємничий вантаж</li>
-    <li>deliveredLetterText->Прибув таємничий вантаж. Він нагадує товстий, зубчастий людський хребет, виготовлений із грубого чорного металу. Схоже, він покритий темною рідиною.\n\nХребет вібрує у відповідь на дотик і сердито згинається. Ви можете вивчити його на платформі для утримання, щоб дізнатися більше.</li>
+    <li>deliveredLetterText->Прибув таємничий вантаж. Він нагадує товстий зубчастий людський хребет, виготовлений із грубо литого чорного металу. Схоже, він покритий темною рідиною.\n\nХребет вібрує у відповідь на дотик і сердито згинається. Ви можете вивчити його на платформі для утримування, щоб дізнатися більше.</li>
   </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -42,9 +40,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->До вас звертається анонімний ШІ з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж. Він уникає всіх ваших питань щодо вантажу.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(askerIsNull==true)->Анонімний ШІ звертається з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж і уникає всіх запитань щодо нього.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
   </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -52,7 +50,6 @@
   <MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
     <li>questName->Таємничий вантаж</li>
   </MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
-  
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
     <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
@@ -60,8 +57,8 @@
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
     <li>deliveredLetterLabel->Таємничий вантаж</li>
-    <li>deliveredLetterText(pawnOnMap==true)->Прибув таємничий вантаж. Схоже, що це людський труп.\n\nПри подальшому огляді виявлено, що труп виглядає ідентично до [pawn_nameDef]. Його шкіра виглядає восковою та теплою на дотик. [pawn_nameDef] дуже хвилюється через його присутність.\n\nВивчіть труп, щоб дізнатися більше про нього.</li>
-    <li>deliveredLetterText(pawnOnMap==false)->Прибув таємничий вантаж. Схоже, що це людський труп.\n\nПри подальшому огляді виявлено, що труп виглядає ідентично до [pawn_nameDef]. Його шкіра виглядає восковою та теплою на дотик. [pawn_nameDef] дуже схвилює його присутність.\n\nВивчіть труп, щоб дізнатися більше про нього.</li>
+    <li>deliveredLetterText(pawnOnMap==true)->Прибув таємничий вантаж. Схоже, що це людський труп.\n\nПри подальшому огляді труп виглядає ідентичним до [pawn_nameDef]. Його шкіра виглядає восковою та теплою на дотик. [pawn_nameDef] дуже турбує такий вантаж.\n\nДосліджуйте труп, щоб дізнатися більше про нього.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->Прибув таємничий вантаж. Схоже, що це людський труп.\n\nПри подальшому огляді труп виглядає ідентичним до [pawn_nameDef]. Його шкіра виглядає восковою та теплою на дотик. [pawn_nameDef] дуже стурбує такий вантаж.\n\nДосліджуйте труп, щоб дізнатися більше про нього.</li>
   </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
@@ -69,9 +66,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->До вас звертається анонімний ШІ з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж. Він уникає всіх ваших питань щодо вантажу.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж. Коли ви просите більше деталей, [asker_pronoun] уникає питання. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(askerIsNull==true)->Анонімний ШІ звертається з дивним запитом. Він хотів би, щоб ви прийняли якийсь невизначений вантаж і уникає всіх запитань щодо нього.\n\nЯкщо ви погодитесь, він доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] хоче, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] звертається з дивним запитом. [asker_pronoun] вимагає, щоб ви прийняли якийсь невизначений вантаж та уникає всіх запитань щодо нього. У [asker_possessive] голосі чується відчай.\n\nЯкщо ви погодитеся, [asker_nameFull] доставить таємничий вантаж транспортною капсулою.</li>
   </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
@@ -79,5 +76,4 @@
   <MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
     <li>questName->Таємничий вантаж</li>
   </MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
-  
 </LanguageData>

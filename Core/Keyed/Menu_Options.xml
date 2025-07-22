@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Звук та відео</Audiovisuals>
@@ -26,8 +25,15 @@
   <UIVolumeTooltip>Впливає на звуки інтерфейсу, наприклад, клацання кнопок та повідомлення.</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Згладжування</Antialiasing>
-
   <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>Remember draw styles</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>When enabled, draw styles won't reset to the default draw style when placing new buildings or zones.</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>Zoom switches world map layers</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again.</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Прокручування курсором країв екрану</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -41,7 +47,7 @@
   <!-- EN: Disable game-specific cursor -->
   <CustomCursor>Використовувати системний курсор</CustomCursor>
   <!-- EN: Hide hats on UI -->
-  <HatsShownOnlyOnMap>Не показувати головні убори в інтерфейсі</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>Приховати головні убори в інтерфейсі</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Розмір Інтерфейсу</UIScale>
   <!-- EN: Keyboard configuration -->
@@ -72,14 +78,6 @@
   <OpenLogOnWarnings>Відкривати лог при помилках</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
   <CloseLogWindowOnEscape>Закривати лог клавішею ESC</CloseLogWindowOnEscape>
-  <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>Симулювати відсутність Royalty</SimulateNotOwningRoyalty>
-  <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>Симулювати відсутність Ideology</SimulateNotOwningIdeology>
-  <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>Симулювати відсутність Biotech</SimulateNotOwningBiotech>
-  <!-- EN: Simulate not owning Anomaly -->
-  <SimulateNotOwningAnomaly>Симулювати відсутність Anomaly</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>Детальний журнал</LogVerbose>
   <!-- EN: Save data folder -->
@@ -129,7 +127,7 @@
   <!-- EN: Enable test map sizes -->
   <EnableTestMapSizes>Увімкнути тестові розміри мап</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
-  <MaxPermadeathAutosaveIntervalInfo>Максимальний інтервал днів, між автозбереженнями в режимі остаточної смерті - {0}.</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>Максимальний інтервал днів між автозбереженнями в режимі остаточної смерті - {0}.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
   <ModSettings>Налаштування модифікацій</ModSettings>
   <!-- EN: Permanently disable development mode -->
@@ -142,7 +140,6 @@
   <SmoothCameraJumps>Плавні переміщення камери</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
   <SmoothCameraJumpsDesc>Якщо увімкнено, камера буде швидко, але плавно переміщатися під час переходу до місця призначення. Якщо вимкнено, камера "стрибатиме" миттєво.</SmoothCameraJumpsDesc>
-
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Роздільна здатність екрану</Resolution>
@@ -152,27 +149,23 @@
   <BorderlessFullscreen>На весь екран без рамок</BorderlessFullscreen>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>Щоб запустити RimWorld не весь екран без рамок:\n\n1) Відкрийте Steam\n2) Перейдіть до вкладки "Бібліотека"\n3) Знайдіть RimWorld у списку й натисніть ПКМ но ньому\n4) Виберіть "Властивості..."\n5) Додайте "-popupwindow" без лапок в строку "Параметри запуску" на вкладці "Загальне"\n6) Перезапустіть гру\n7) Якщо все зроблено правильно - ви не побачите цього вікна\n\nЩоб перемістити це вікно між вашими моніторами, використайте комбінацію клавіш  Windows + Shift + Вліво/Вправо.</BorderlessFullscreenInstructions>
-
   <!-- Mods -->
   <!-- EN: Select mod... -->
   <SelectMod>Вибір модифікації</SelectMod>
   <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>Завантаженні модифікації не мають налаштувань.</NoConfigurableMods>
-  
   <!-- Options reset -->
   <!-- EN: Restore all settings to default -->
-  <RestoreToDefaultSettingsLabel>Встановити всі налаштування за замовчуванням</RestoreToDefaultSettingsLabel>
+  <RestoreToDefaultSettingsLabel>Скинути всі налаштування до початкових</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore defaults -->
   <RestoreToDefaultSettings>Відновити стандартні налаштування</RestoreToDefaultSettings>
   <!-- EN: All settings have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>Відновлено налаштування за замовчуванням. Гра перезапуститься автоматично.</ResetAndRestart>
+  <ResetAndRestart>Відновлено початкові налаштування. Гра перезапуститься автоматично.</ResetAndRestart>
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Всі ваші налаштування будуть скинуті, і гра буде перезапущена. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
   <ChangedTextureCompressionRestart>Включення чи відключення стиснення текстур вимагає перезапуску. Весь незбережений прогрес буде втрачено!\n\nПродовжити?</ChangedTextureCompressionRestart>
-  
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>Фон головного меню</SetBackgroundImage>
-
 </LanguageData>

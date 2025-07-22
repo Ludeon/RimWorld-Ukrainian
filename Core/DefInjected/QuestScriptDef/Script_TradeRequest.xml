@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Сусіднє поселення, [settlement_label], мають особливий торговий запит. Вони би хотіли придбати:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](загальна вартість [requestedThingMarketValue_money])\n\nЩоб успішно виконати завдання - необхідно доставити товари караваном. Приблизний час дороги до поселення складає [estimatedTravelTime_duration]</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->нормальної якості або краще</li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
@@ -26,18 +29,18 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->Караван до [settlement_label]</li>
-    <li>questName->Торгівля з [settlement_label]</li>
-    <li>questName->Продаж до [settlement_label]</li>
-    <li>questName->Поставки для [settlement_label]</li>
-    <li>questName->[special] [trade]</li>
-    <li>special->Особлива</li>
-    <li>special->Унікальна</li>
-    <li>special->Нетрадиційна</li>
-    <li>trade->торгівля</li>
-    <li>trade->угода</li>
-    <li>trade->угода</li>
-    <li>trade->Пропозиція</li>
+    <li>questName->Caravan to [settlement_label]</li>
+    <li>questName->Trade with [settlement_label]</li>
+    <li>questName->Selling to [settlement_label]</li>
+    <li>questName->Supplies for [settlement_label]</li>
+    <li>questName->A [special] [trade]</li>
+    <li>special->Special</li>
+    <li>special->Unique</li>
+    <li>special->Non-traditional</li>
+    <li>trade->Trade</li>
+    <li>trade->Exchange</li>
+    <li>trade->Deal</li>
+    <li>trade->Offer</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <TradeRequest.LetterLabelQuestFailed.slateRef>Завдання провалено: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
@@ -47,5 +50,4 @@
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
   <TradeRequest.LetterTextFavorReceiver.slateRef>Кому належить призначити [asker_faction_royalFavorLabel] за виконання торгового запиту?</TradeRequest.LetterTextFavorReceiver.slateRef>
-  
 </LanguageData>

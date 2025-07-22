@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: flu -->
   <Animal_Flu.label>грип</Animal_Flu.label>
   <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
@@ -11,7 +10,6 @@
   <Animal_Flu.stages.major.label>тяжкий</Animal_Flu.stages.major.label>
   <!-- EN: extreme -->
   <Animal_Flu.stages.extreme.label>смертельний</Animal_Flu.stages.extreme.label>
-  
   <!-- EN: plague -->
   <Animal_Plague.label>чума</Animal_Plague.label>
   <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
@@ -24,7 +22,6 @@
   <Animal_Plague.stages.extreme-0.label>тяжка</Animal_Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
   <Animal_Plague.stages.extreme-1.label>смертельна</Animal_Plague.stages.extreme-1.label>
-  
   <!-- EN: fibrous mechanites -->
   <FibrousMechanites.label>волоконні механіти</FibrousMechanites.label>
   <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
@@ -33,7 +30,6 @@
   <FibrousMechanites.stages.mild_pain.label>помірний біль</FibrousMechanites.stages.mild_pain.label>
   <!-- EN: intense pain -->
   <FibrousMechanites.stages.intense_pain.label>сильний біль</FibrousMechanites.stages.intense_pain.label>
-  
   <!-- EN: flu -->
   <Flu.label>грип</Flu.label>
   <!-- EN: An infectious disease caused by the influenza virus. -->
@@ -44,12 +40,10 @@
   <Flu.stages.major.label>тяжкий</Flu.stages.major.label>
   <!-- EN: extreme -->
   <Flu.stages.extreme.label>смертельний</Flu.stages.extreme.label>
-  
   <!-- EN: gut worms -->
   <GutWorms.label>кишкові паразити</GutWorms.label>
   <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
   <GutWorms.description>Паразитичні глисти в кишківнику. Крім виклику блювоти, вони активно поглинають вжиту жертвою їжу, що загалом позначається на апетиті.</GutWorms.description>
-  
   <!-- EN: lung rot -->
   <LungRot.label>легенева гниль</LungRot.label>
   <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
@@ -62,7 +56,6 @@
   <LungRot.stages.major.label>тяжка</LungRot.stages.major.label>
   <!-- EN: extreme -->
   <LungRot.stages.extreme.label>смертельна</LungRot.stages.extreme.label>
-  
   <!-- EN: rot stink exposure -->
   <LungRotExposure.label>отруєння трупним газом</LungRotExposure.label>
   <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
@@ -75,7 +68,6 @@
   <LungRotExposure.stages.major.label>тяжке</LungRotExposure.stages.major.label>
   <!-- EN: serious -->
   <LungRotExposure.stages.serious.label>серйозне</LungRotExposure.stages.serious.label>
-  
   <!-- EN: malaria -->
   <Malaria.label>малярія</Malaria.label>
   <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
@@ -86,12 +78,10 @@
   <Malaria.stages.major.label>тяжка</Malaria.stages.major.label>
   <!-- EN: extreme -->
   <Malaria.stages.extreme.label>смертельна</Malaria.stages.extreme.label>
-  
   <!-- EN: muscle parasites -->
   <MuscleParasites.label>м’язові паразити</MuscleParasites.label>
   <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
   <MuscleParasites.description>Паразитичні мікроорганізми в м'язах, що викликають слабкість та порушення координації.</MuscleParasites.description>
-  
   <!-- EN: plague -->
   <Plague.label>чума</Plague.label>
   <!-- EN: An infectious disease caused by bacteria. -->
@@ -104,7 +94,22 @@
   <Plague.stages.extreme-0.label>тяжка</Plague.stages.extreme-0.label>
   <!-- EN: extreme -->
   <Plague.stages.extreme-1.label>смертельна</Plague.stages.extreme-1.label>
-  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>інфекція скарії</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>Інфекція, спричинена бактерією скаріїсказ. Якщо її не лікувати, інфекція врешті-решт доведе носія до несамовитої люті.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Скарія: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} {PAWN_gender ? заразився : заразилася } скарією від інфекції {PAWN_possessive}, що довело {PAWN_objective} до несамовитої люті. Скарію можна вилікувати за допомогою спеціальної медичної операції, але спочатку потрібно знешкодити {PAWN_nameDef}.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>інфекція скарії</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>легка</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>сильна</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>екстремальна</ScariaInfection.stages.extreme.label>
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>сенсорні механіти</SensoryMechanites.label>
   <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
@@ -113,7 +118,6 @@
   <SensoryMechanites.stages.mild_pain.label>помірний біль</SensoryMechanites.stages.mild_pain.label>
   <!-- EN: intense pain -->
   <SensoryMechanites.stages.intense_pain.label>сильний біль</SensoryMechanites.stages.intense_pain.label>
-  
   <!-- EN: sleeping sickness -->
   <SleepingSickness.label>сонна хвороба</SleepingSickness.label>
   <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
@@ -128,7 +132,6 @@
   <SleepingSickness.stages.extreme-0.label>небезпечна</SleepingSickness.stages.extreme-0.label>
   <!-- EN: extreme -->
   <SleepingSickness.stages.extreme-1.label>смертельна</SleepingSickness.stages.extreme-1.label>
-  
   <!-- EN: infection -->
   <WoundInfection.label>інфекція</WoundInfection.label>
   <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
@@ -143,5 +146,4 @@
   <WoundInfection.stages.extreme-0.label>серйозна</WoundInfection.stages.extreme-0.label>
   <!-- EN: extreme -->
   <WoundInfection.stages.extreme-1.label>смертельна</WoundInfection.stages.extreme-1.label>
-  
 </LanguageData>

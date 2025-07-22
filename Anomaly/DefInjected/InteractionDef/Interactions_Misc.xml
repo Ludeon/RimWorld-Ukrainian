@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN: creepy words -->
-  <CreepyWords.label>creepy words</CreepyWords.label>
+  <CreepyWords.label>моторошні слова</CreepyWords.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <CreepyWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] про [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [rambled] про [subjectInsane].</li>
   </CreepyWords.logRulesInitiator.rulesStrings>
-  
   <!-- EN: strange chat -->
-  <DisturbingChat.label>strange chat</DisturbingChat.label>
+  <DisturbingChat.label>дивна бесіда</DisturbingChat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] by [talkingAbout] [subjectDisturbing].</li>
     <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] to [RECIPIENT_nameDef] about [subjectDisturbing].</li>
@@ -47,51 +45,49 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] by [talkingAbout] [subjectDisturbing].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] to [RECIPIENT_nameDef] about [subjectDisturbing].</li>
-    <li>spoke->spoke</li>
-    <li>spoke->muttered</li>
-    <li>spoke->stammered</li>
-    <li>spoke->whined</li>
-    <li>spoke->grunted</li>
-    <li>spoke->mumbled</li>
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef][talkingAbout] про [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [spoke] до [RECIPIENT_nameDef] про [subjectDisturbing].</li>
+    <li>spoke->говорить</li>
+    <li>spoke->бормоче</li>
+    <li>spoke->затинаючись каже</li>
+    <li>spoke->скиглить</li>
+    <li>spoke->бурчить</li>
+    <li>spoke->мимрить</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
     <li>subjectDisturbing->[subjectInsane]</li>
-    <li>disturbed->disturbed</li>
-    <li>disturbed->horrified</li>
-    <li>disturbed->frightened</li>
-    <li>disturbed->upset</li>
-    <li>disturbed->perturbed</li>
-    <li>disturbed->unsettled</li>
-    <li>disturbed->disconcerted</li>
-    <li>disturbed->unnerved</li>
-    <li>disturbed->alarmed</li>
-    <li>disturbed->distressed</li>
-    <li>disturbed->dismayed</li>
+    <li>disturbed->занепокоює</li>
+    <li>disturbed->жахає</li>
+    <li>disturbed->лякає</li>
+    <li>disturbed->засмучує</li>
+    <li>disturbed->обурює</li>
+    <li>disturbed->розгублює</li>
+    <li>disturbed->збентежує</li>
+    <li>disturbed->нервує</li>
+    <li>disturbed->насторожує</li>
+    <li>disturbed->тривожить</li>
+    <li>disturbed->страхає</li>
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-    <li>talkingAbout->describing</li>
-    <li>talkingAbout->explaining</li>
-    <li>talkingAbout->moaning [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->talking [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->ranting [maybeDarkSpeechAdverb] about</li>
-    <li>talkingAbout->going into detail about</li>
+    <li>talkingAbout-> розповідями</li>
+    <li>talkingAbout-> поясненнями</li>
+    <li>talkingAbout->, [maybeDarkSpeechAdverb] стогнучи</li>
+    <li>talkingAbout->, [maybeDarkSpeechAdverb] говорячи</li>
+    <li>talkingAbout->, [maybeDarkSpeechAdverb] висловлюючись</li>
+    <li>talkingAbout->, вдаючись до подробиць</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
-  
   <!-- EN: inhuman rambling -->
-  <InhumanRambling.label>inhuman rambling</InhumanRambling.label>
+  <InhumanRambling.label>нелюдське бормотіння</InhumanRambling.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <InhumanRambling.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] про [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [darkSpeechAdverb] [rambled] про [subjectInsane].</li>
   </InhumanRambling.logRulesInitiator.rulesStrings>
-  
   <!-- EN: interrogate identity -->
-  <InterrogateIdentity.label>interrogate identity</InterrogateIdentity.label>
+  <InterrogateIdentity.label>допит особи</InterrogateIdentity.label>
   <!-- EN:
     <li>askedAbout->interrogated [RECIPIENT_nameDef] about</li>
     <li>askedAbout->asked [RECIPIENT_nameDef] about</li>
@@ -134,49 +130,48 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->interrogated [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->asked [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->pressed [RECIPIENT_nameDef] for details about</li>
-    <li>askedAbout->inquired [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->grilled [RECIPIENT_nameDef] on</li>
-    <li>askedAbout->pushed [RECIPIENT_nameDef] for answers about</li>
-    <li>askedAbout->asked [RECIPIENT_nameDef] tricky questions about</li>
-    <li>askedAbout->tried to catch [RECIPIENT_nameDef] off-guard with questions about</li>
-    <li>askedAbout->screamed at [RECIPIENT_nameDef], demanding information about</li>
-    <li>askedAbout->bombarded [RECIPIENT_nameDef] with inquiries about</li>
-    <li>askedAbout->confronted [RECIPIENT_nameDef] regarding</li>
-    <li>askedAbout->pestered [RECIPIENT_nameDef] about</li>
-    <li>askedAbout->probed [RECIPIENT_nameDef] on the subject of</li>
-    <li>identityTopic->[RECIPIENT_possessive] previous work</li>
-    <li>identityTopic->[RECIPIENT_possessive] previous relationships with other factions</li>
-    <li>identityTopic->[RECIPIENT_possessive] birth</li>
-    <li>identityTopic->[RECIPIENT_possessive] upbringing</li>
-    <li>identityTopic->[RECIPIENT_possessive] parents</li>
-    <li>identityTopic->[RECIPIENT_possessive] old friends</li>
-    <li>identityTopic->[RECIPIENT_possessive] romantic history</li>
-    <li>identityTopic->[RECIPIENT_possessive] likes and dislikes</li>
-    <li>identityTopic->[RECIPIENT_possessive] emotional responses to disturbing situations</li>
-    <li>identityTopic->[RECIPIENT_possessive] food preferences</li>
-    <li>identityTopic->[RECIPIENT_possessive] deepest fears</li>
-    <li>identityTopic->[RECIPIENT_possessive] cherished memories</li>
-    <li>identityTopic->[RECIPIENT_possessive] personal regrets</li>
-    <li>identityTopic->[RECIPIENT_possessive] dreams and aspirations</li>
-    <li>identityTopic->[RECIPIENT_possessive] reasons for joining [RECIPIENT_possessive] current faction</li>
-    <li>identityTopic->[RECIPIENT_possessive] role in a past significant event</li>
-    <li>identityTopic->[RECIPIENT_possessive] hobbies and pastimes</li>
-    <li>identityTopic->[RECIPIENT_possessive] moral values and principles</li>
-    <li>identityTopic->[RECIPIENT_possessive] motivations</li>
-    <li>identityTopic->reasons behind [RECIPIENT_possessive] major decisions</li>
-    <li>identityTopic->past traumatic experiences</li>
-    <li>identityTopic->human thought processes</li>
-    <li>identityTopic->childhood experiences</li>
-    <li>identityTopic->school experiences</li>
-    <li>identityTopic->cultural experiences</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
+    <li>askedAbout->допитує [RECIPIENT_nameDef] про</li>
+    <li>askedAbout->запитує [RECIPIENT_nameDef] про</li>
+    <li>askedAbout->давить на [RECIPIENT_nameDef], щоб дізнатися деталі про</li>
+    <li>askedAbout->цікавиться у [RECIPIENT_nameDef] про</li>
+    <li>askedAbout->ловить [RECIPIENT_nameDef] на інформації про</li>
+    <li>askedAbout->давить на [RECIPIENT_nameDef], щоб отримати відповіді про</li>
+    <li>askedAbout->ставить [RECIPIENT_nameDef] каверзні запитання про</li>
+    <li>askedAbout->намагається застати [RECIPIENT_nameDef] зненацька запитаннями про</li>
+    <li>askedAbout->кричить на [RECIPIENT_nameDef], вимагаючи інформацію про</li>
+    <li>askedAbout->закидує [RECIPIENT_nameDef] питаннями про</li>
+    <li>askedAbout->сперечається з [RECIPIENT_nameDef] щодо інформації про</li>
+    <li>askedAbout->докучає [RECIPIENT_nameDef] питаннями про</li>
+    <li>askedAbout->досліджує [RECIPIENT_nameDef] на предмет інформації про</li>
+    <li>identityTopic->[RECIPIENT_possessive] минулу роботу</li>
+    <li>identityTopic->[RECIPIENT_possessive] зв'язки з іншими фракціями</li>
+    <li>identityTopic->[RECIPIENT_possessive] народження</li>
+    <li>identityTopic->[RECIPIENT_possessive] виховання</li>
+    <li>identityTopic->[RECIPIENT_possessive] батьків</li>
+    <li>identityTopic->[RECIPIENT_possessive] старих друзів</li>
+    <li>identityTopic->[RECIPIENT_possessive] історію романів</li>
+    <li>identityTopic->[RECIPIENT_possessive] вподобання</li>
+    <li>identityTopic->[RECIPIENT_possessive] реакцію на тривожні ситуації</li>
+    <li>identityTopic->[RECIPIENT_possessive] харчові вподобання</li>
+    <li>identityTopic->[RECIPIENT_possessive] найглибші страхи</li>
+    <li>identityTopic->[RECIPIENT_possessive] важливі спогади</li>
+    <li>identityTopic->те, про що [RECIPIENT_pronoun] жалкує</li>
+    <li>identityTopic->[RECIPIENT_possessive] мрії та натхнення</li>
+    <li>identityTopic->[RECIPIENT_possessive] мотиви приєднатися до цієї фракції</li>
+    <li>identityTopic->[RECIPIENT_possessive] роль у минулих важливих подіях</li>
+    <li>identityTopic->[RECIPIENT_possessive] захоплень і способів розваги</li>
+    <li>identityTopic->[RECIPIENT_possessive] моральні цінності та принципи</li>
+    <li>identityTopic->[RECIPIENT_possessive] мотивацію</li>
+    <li>identityTopic->причини [RECIPIENT_possessive] важливих рішень</li>
+    <li>identityTopic->минулий травматичний досвід</li>
+    <li>identityTopic->людське мислення</li>
+    <li>identityTopic->історії з дитинства</li>
+    <li>identityTopic->шкільний досвід</li>
+    <li>identityTopic->культурний досвід</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
-  
   <!-- EN: occult teaching -->
-  <OccultTeaching.label>occult teaching</OccultTeaching.label>
+  <OccultTeaching.label>окультне навчання</OccultTeaching.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
@@ -185,24 +180,22 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] spoke about [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] went over the subject of [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] пояснює свої теорії про [subjectDarkStudy] до [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ділиться своїми ідеями про [subjectDarkStudy] з [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] говорить про [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] переходить до теми про [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] проводить урок про [subjectDarkStudy].</li>
   </OccultTeaching.logRulesInitiator.rulesStrings>
-  
   <!-- EN: prisoner study -->
-  <PrisonerStudyAnomaly.label>prisoner study</PrisonerStudyAnomaly.label>
+  <PrisonerStudyAnomaly.label>вивчення в'язня</PrisonerStudyAnomaly.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [subjectDarkStudy].</li>
     <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] запитує [RECIPIENT_nameDef] про [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] питає про [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] бурмоче про [subjectInsane].</li>
   </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-  
 </LanguageData>

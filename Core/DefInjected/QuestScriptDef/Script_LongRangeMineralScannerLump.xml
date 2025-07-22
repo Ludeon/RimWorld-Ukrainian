@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
@@ -29,29 +28,28 @@
     <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[lump] {lookup: [targetMineable_label]; Case; 1}</li>
-    <li>questName->[adj_lump] {lookup: [targetMineable_label]; Case; 1}</li>
-    <li>questName->[discovered] [lump] {lookup: [targetMineable_label]; Case; 1}</li>
-    <li>questName->[discovered] [adj_lump] {lookup: [targetMineable_label]; Case; 1}</li>
-    <li>lump->поклади</li>
-    <li>lump->скупчення</li>
-    <li>lump->родовище</li>
-    <li>lump->пласт</li>
-    <li>lump->брила</li>
-    <li>adj_lump->[adjPlu] [lumpPlu]</li>
-    <li>adj_lump->[adj_lumpNeu]</li>
-    <li>adj_lump->[adj_lumpMasc]</li>
-    <li>adjPlu->віддалені</li>
-    <li>adjPlu->далекі</li>
-    <li>adjPlu->невідомі</li>
-    <li>lumpPlu->поклади</li>
-    <li>lumpPlu->брила</li>
-    <li>adj_lumpNeu->віддалене родовище</li>
-    <li>adj_lumpNeu->далеке родовище</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
   <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Поклали {lookup: [targetMineable_label]; Case; 1} були видобуті кимось іншим. Завдання "[resolvedQuestName]" більше не актуальне.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
-  
 </LanguageData>

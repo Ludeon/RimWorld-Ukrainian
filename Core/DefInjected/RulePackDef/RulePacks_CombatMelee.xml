@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
@@ -32,22 +31,22 @@
     <li>deflecting->glancing</li>
   -->
   <Combat_Deflect.rulePack.rulesStrings>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [deflected_adverb] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged] [recipient_part0_label] {lookup: [RECIPIENT_definite]; Case; 1}, [deflected_consequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [skillDescMelee], [deflected_adverb] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdv] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}, [deflected_consequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], [skillDescMelee], але [deflected_adverb] намагається [damaged_inf] {lookup: [RECIPIENT_definite]; Case; 3}.</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdv] намагається [damaged_inf] {lookup: [RECIPIENT_definite]; Case; 3}, [deflected_consequence].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [deflected_adverb] намагається [damaged_inf] {lookup: [RECIPIENT_definite]; Case; 3} [implement].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] намагається [damaged_inf] {lookup: [RECIPIENT_definite]; Case; 3} [implement], [deflected_consequence].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] {lookup: [RECIPIENT_definite]; Case; 3} [implement], [deflected_consequence].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflected_adverb] [damaged] {lookup: [RECIPIENT_definite]; Case; 3} [implement].</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [deflected_adverb] [damaged] {lookup: [RECIPIENT_definite]; Case; 3}.</li>
-    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged] {lookup: [RECIPIENT_definite]; Case; 3}, [deflected_consequence].</li>
-    <li>deflected_consequence->лише [scrap_trans] [RECIPIENT_possessive] броню</li>
-    <li>deflected_consequence->залишаючи лише [scratch] на [RECIPIENT_possessive] броні</li>
-    <li>deflected_consequence->але {lookup: [TOOL_label]; Case; 3} лише [scraped] [RECIPIENT_possessive] броню</li>
-    <li>deflected_consequence->але {lookup: [TOOL_label]; Case; 3} залишає лише [scratch] на [RECIPIENT_possessive] броні</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>atMaybe-></li>
+    <li>atMaybe->at</li>
+    <li>deflected_result->, but the [TOOL_label] [deflected] off [harmlessly_opt]</li>
+    <li>deflected_result->, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]</li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->harmlessly</li>
+    <li>harmlessly->uselessly</li>
     <li>deflected->deflected</li>
     <li>deflected->scraped</li>
     <li>deflected->slid</li>
@@ -61,7 +60,6 @@
     <li>deflecting->bouncing</li>
     <li>deflecting->glancing</li>
   </Combat_Deflect.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
@@ -80,7 +78,6 @@
     <li>result->але [RECIPIENT_definite] робить обманний рух</li>
     <li>result->але супротивник [skillAdvMaybe] ухиляється від удару</li>
   </Combat_Dodge.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
@@ -104,28 +101,27 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
   <Combat_Hit.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [strikeAdv] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite][flavortext_situation] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}, [flavortext_consequence].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged] {lookup: [recipient_part0_label]; Case; 3} {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [destroyed] [destroyed_targets] {lookup: [RECIPIENT_definite]; Case; 1} [destroyed_suffix].</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [skillAdv] [destroyed] [destroyed_targets] {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>r_logentry(recipient_part_destroyed_count!=0,p=0.3)->[INITIATOR_definite] [implement] [destroyed] [destroyed_targets] {lookup: [RECIPIENT_definite]; Case; 1}.</li>
-    <li>result(recipient_part_destroyed_count!=0,recipient_part_damaged_count==0,p=1)->[destroyed_participle] [RECIPIENT_possessive] [destroyed_targets]</li>
-    <li>result(recipient_part_destroyed_count==0,recipient_part_damaged_count!=0,p=1)->[damaged_participle] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>result(recipient_part_destroyed_count!=0,recipient_part_damaged_count!=0,p=1)->[destroyed_participle] [RECIPIENT_possessive] [destroyed_targets] та [damaged_participle] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] б'є {lookup: [RECIPIENT_definite]; Case; 3} [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] намагається [damaged_inf] {lookup: [RECIPIENT_definite]; Case; 3} [implement]</li>
-    <li>action->[INITIATOR_definite] [damaged] {lookup: [RECIPIENT_definite]; Case; 3} [implement]</li>
-    <li>action(p=0.6)->[INITIATOR_definite] [damaged] {lookup: [RECIPIENT_definite]; Case; 3}</li>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   </Combat_Hit.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
@@ -146,23 +142,22 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.2)->[RECIPIENT_definite] уникає [maneuver_noun_gen] {lookup: [WEAPON_label]; Case; 1} [INITIATOR_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] промахується по [RECIPIENT_definite] [maneuver_noun_instr] [implement].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype], намагаючись [damaged_inf] [RECIPIENT_definite] [implement].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype], намагаючись [damaged_inf] [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype].</li>
-    <li>failtype(p=5)->промахується</li>
-    <li>failtype->спотикається</li>
-    <li>failtype->оступається</li>
-    <li>failtype->робить помилку</li>
-    <li>failtype->збивається</li>
-    <li>result(p=4)->але промахується</li>
-    <li>result->але лиш стрясає повітря</li>
-    <li>result->розмах робить надто широкий розмах</li>
-    <li>result->але збивається в останній момент</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>failtype(p=5)->missed</li>
+    <li>failtype->stumbled</li>
+    <li>failtype->tripped</li>
+    <li>failtype->flailed</li>
+    <li>failtype->floundered</li>
+    <li>result(p=4)->but missed</li>
+    <li>result->but hit only air</li>
     <li>result->but the swing went wide</li>
     <li>result->but stumbled at the last second</li>
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   </Combat_Miss.rulePack.rulesStrings>
-  
 </LanguageData>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>title(p=3)->[titleNaked]</li>
     <li>title->[ANYPAWN_nameIndef]'s [titleNaked]</li>
@@ -377,7 +376,6 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   </Namer_Novel.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
     <li>title->Notes on [subject_primary]</li>
@@ -506,9 +504,9 @@
     <li>randTheme->ethics</li>
   -->
   <Namer_Schematic.rulePack.rulesStrings>
-    <li>title->The Design of [subject_primary]</li>
-    <li>title->Notes on [subject_primary]</li>
-    <li>title->A Breakthrough in [subject_primary]</li>
+    <li>title->Дизайн {lookup: [subject_primary]; Case; 1}</li>
+    <li>title->Записи про [subject_primary]</li>
+    <li>title->Прорив у {lookup: [subject_primary]; Case; 5}</li>
     <li>title->A Study in [subject_primary]</li>
     <li>title->Novel Applications for [subject_primary]</li>
     <li>title->Understanding [subject_primary]</li>
@@ -632,7 +630,6 @@
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
   </Namer_Schematic.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>title->[titleBasic]</li>
     <li>title(p=2)->[titleAuthored]</li>
@@ -931,5 +928,4 @@
     <li>randTheme->self-improvement</li>
     <li>randTheme->understanding</li>
   </Namer_TextBook.rulePack.rulesStrings>
-  
 </LanguageData>

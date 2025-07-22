@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] з фракції [asker_faction_name], надіслав вам повідомлення. Схоже, [siteFaction_pawnsPlural], що розташовані табором поблизу, здійснюють рейди на їхні каравани. Табір під контролем фракції [siteFaction_name].\n\n[asker_nameDef] просить нас знищити табір, що значить усунення усіх ворогів і турелів.</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name], надіслав нам повідомлення. Вочевидь, [siteFaction_pawnsPlural], що базується у сусідньому таборі, здійснили напад на їхні каравани. Табір контролюється [siteFaction_name].\n\n[asker_nameDef] просить нас знищити табір, тобто знищити всіх ворогів та турелі. [asker_label] каже, що [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -26,20 +25,20 @@
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[camp] [bandit]</li>
-    <li>questName->[asker_nameDef] і [camp] [bandit]</li>
-    <li>campcap->Табір</li>
-    <li>campcap->Форпост</li>
-    <li>campcap->Лігво</li>
-    <li>campcap->Притулок</li>
-    <li>camp->табір</li>
-    <li>camp->форпост</li>
-    <li>camp->лігво</li>
-    <li>camp->притулок</li>
+    <li>questName->[camp] [bandit]</li>
+    <li>questName->[asker_nameDef] і [camp]</li>
+    <li>camp->Табір</li>
+    <li>camp->Аванпост</li>
+    <li>camp->Лігво</li>
+    <li>camp->Таборування</li>
     <li>bandit->бандитів</li>
     <li>bandit->рейдерів</li>
-    <li>bandit->вигнанців</li>
+    <li>bandit->злочинців</li>
+    <li>bandit->відчайдухів</li>
+    <li>bandit->утікачів</li>
+    <li>bandit->мародерів</li>
     <li>bandit->головорізів</li>
-    <li>bandit->біженців</li>
+    <li>bandit->розбійників</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
@@ -56,6 +55,5 @@
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
-  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Ці колоністи приймали участь у виконанні завдання "[resolvedQuestName]". [asker_definite] хоче знати, кому належить призначити [royalFavorReward_amount] од. [asker_faction_royalFavorLabel] за свою службу.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
-  
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>Ці колоністи брали участь у виконанні доручення [resolvedQuestName]. [asker_definite] хоче знати, кому належить призначити [royalFavorReward_amount] од. [asker_faction_royalFavorLabel] за свою службу.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
 </LanguageData>

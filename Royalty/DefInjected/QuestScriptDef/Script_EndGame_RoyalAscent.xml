@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
-    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Count of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Count means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Count.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
+    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Archon of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Archon means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Archon.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
     <li>intro(sameQuestsCount==0)->You have learned of a way to escape this planet!\n\n</li>
     <li>intro(sameQuestsCount>=1)->You have been given another chance at royal ascent.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOthers will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.</li>
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro][asker_faction_leaderTitle] фракції [asker_faction_name] відвідає вас в якості гостя. Задовольняйте {asker_gender ? його : її} королівські потреби протягом [shuttleDelayTicks_duration] і {asker_gender ? він : вона} надасть вам можливість дістатися шатлом до флоту імперії, після чого ви можете приєднатися до імператорського двору або відправитися до нового життя серед зірок.
-		\n\nЩоб отримати титул Графа фракції [asker_faction_name], вам потрібно накопичити достатню кількість {lookup: [asker_faction_royalFavorLabel]; Case; 1}, яка здебільшого здобувається за виконання доручень. На це можуть знадобитися роки.\n\nПід час {asker_gender ? його : її} візиту, ви повинні підтримувати {asker_gender ? його : її} настрій вище [lodgersMoodThreshold_percent] та мати умови, які відповідають {asker_gender ? його : її} титулу.[threatsInfo]
-		\n\n[asker_faction_leaderTitle] приведе чотирьох своїх особистих охоронців і віддасть їх під ваше командування, ви повинні надати їм ліжка. [asker_faction_leaderTitle] не буде скаржитися, якщо вони загинуть в бою чи будуть незадоволені.\n\nВи повинні тримати гостів в межах [map_definite] і нікуди їх не посилати. Якщо ви провалите це завдання, вам, згодом, нададуть ще одну можливість.</li>
+    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Archon of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Archon means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Archon.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
     <li>intro(sameQuestsCount==0)->Ви дізналися про можливість покинути цю планету!\n\n</li>
-    <li>intro(sameQuestsCount>=1)->Вам випала ще одна можливість на королівське сходження.\n\n</li>
+    <li>intro(sameQuestsCount>=1)->You have been given another chance at royal ascent.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nІнші скористаються можливістю дістати {lookup: [asker_faction_leaderTitle]; Case; 1} в менш захищеному місці, і будуть атакувати вас з великою інтенсивністю. Підготуйте надійну оборону.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
@@ -28,13 +25,13 @@
     <li>titleEnd->Victory</li>
   -->
   <EndGame_RoyalAscent.questNameRules.rulesStrings>
-    <li>questName(sameQuestsCount==0)->Королівське сходження</li>
-    <li>questName(sameQuestsCount>=1)->Королівське [titleEnd]</li>
-    <li>titleEnd->вознесіння</li>
-    <li>titleEnd->піднесення</li>
-    <li>titleEnd->відвідання</li>
-    <li>titleEnd->гостювання</li>
-    <li>titleEnd->сходження</li>
+    <li>questName(sameQuestsCount==0)->Royal Ascent</li>
+    <li>questName(sameQuestsCount>=1)->Royal [titleEnd]</li>
+    <li>titleEnd->Ascension</li>
+    <li>titleEnd->Ascendance</li>
+    <li>titleEnd->Visitor</li>
+    <li>titleEnd->Guest</li>
+    <li>titleEnd->Host</li>
     <li>titleEnd->Victory</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
@@ -62,7 +59,7 @@
   <!-- EN: You've escaped on the Imperial shuttle! -->
   <EndGame_RoyalAscent.EndGameIntroText.slateRef>Ви покинули цю планету на Імператорському шатлі!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
-  <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>У {asker_bestRoyalTitle} поганий настрій</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
+  <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle} unhappy</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite}, {asker_gender ? якого : яку} ви зобов'язалися захищати та підтримувати у гарному настрої, задовго перебуває у настрої нижче мінімального ([lodgersMoodThreshold]). [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
@@ -76,9 +73,9 @@
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Вилучено ксенозародок: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>Примусово вилучено ксенозародок у {SUBJECT_definite}, {asker_gender ? якого ви зобов'язалися захищати : яку ви зобов'язалися захищати}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Guest lost: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Втрачено гостя: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
@@ -93,5 +90,4 @@
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Quest failed: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
-  
 </LanguageData>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>r_name->[msyl][msyl] [mechhive]</li>
     <li>mechhive->mechhive</li>
@@ -26,30 +25,29 @@
     <li>msyl->lite</li>
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
-    <li>r_name->рій [msyl][msyl]</li>
-    <li>msyl->н'яр</li>
-    <li>msyl->алґ</li>
-    <li>msyl->ксан</li>
-    <li>msyl->зел</li>
-    <li>msyl->кіл</li>
-    <li>msyl->лен</li>
-    <li>msyl->лакс</li>
-    <li>msyl->альф</li>
-    <li>msyl->оме</li>
-    <li>msyl->ірі</li>
-    <li>msyl->слін</li>
-    <li>msyl->тотх</li>
-    <li>msyl->арт</li>
-    <li>msyl->унт</li>
-    <li>msyl->окс</li>
-    <li>msyl->арм</li>
-    <li>msyl->мурд</li>
-    <li>msyl->зен</li>
-    <li>msyl->йот</li>
-    <li>msyl->літ</li>
+    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>mechhive->mechhive</li>
+    <li>msyl->nyar</li>
+    <li>msyl->alg</li>
+    <li>msyl->xan</li>
+    <li>msyl->zel</li>
+    <li>msyl->kil</li>
+    <li>msyl->len</li>
+    <li>msyl->lax</li>
+    <li>msyl->alph</li>
+    <li>msyl->ome</li>
+    <li>msyl->iri</li>
+    <li>msyl->slin</li>
+    <li>msyl->toth</li>
+    <li>msyl->arth</li>
+    <li>msyl->unth</li>
+    <li>msyl->ox</li>
+    <li>msyl->arm</li>
+    <li>msyl->murd</li>
+    <li>msyl->zen</li>
+    <li>msyl->yoth</li>
     <li>msyl->lite</li>
   </NamerFactionMechanoid.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[nearnameinitial] [political_union_outlander]</li>
@@ -60,15 +58,14 @@
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>r_name(p=3)->[proper_name_full]</li>
-    <li>r_name(p=3)->[political_name] [PlaceOutlander]</li>
-    <li>r_name->[CompassDirectionMasc] [political_name_masc]</li>
-    <li>r_name->[CompassDirectionFem] [political_name_fem]</li>
-    <li>r_name->[Direction_neutral] [political_name_neutral]</li>
-    <li>r_name->[Color] [political_name_masc]</li>
-    <li>r_name->[ColorFem] [political_name_fem]</li>
+    <li>r_name(p=3)->[nearnameinitial]</li>
+    <li>r_name->[nearnameinitial] [political_union_outlander]</li>
+    <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
+    <li>r_name->[political_union_outlander] of [nearnameinitial]</li>
+    <li>r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]</li>
+    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+    <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
     <li>r_name->The [AnimalBadass] Men</li>
@@ -99,35 +96,34 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->[AnimalBadassPlu]</li>
-    <li>r_name->Люди-[AnimalBadassPlu]</li>
-    <li>r_name->[AnimalBadassPlu] [ConceptBadassGen]</li>
-    <li>r_name->[PersonBadassPlu] [ConceptBadassGen]</li>
-    <li>r_name->[PersonBadassPlu]</li>
-    <li>r_name->[EnemyPlu]</li>
-    <li>r_name->[EnemyPlu]-[AnimalBadassPlu]</li>
-    <li>r_name->[Weapon] [AnimalBadassGen]</li>
-    <li>r_name->Озброєні [WeaponPluAbl] [AnimalBadassPlu]</li>
-    <li>r_name->[ColorPlu] [AnimalBadassPlu]</li>
-    <li>r_name->[ColorPlu] [PersonBadassPlu]</li>
-    <li>r_name->[ColorPlu] [EnemyPlu]</li>
-    <li>r_name->[groupname] [EnemyPluGen]</li>
-    <li>r_name->[groupname] [AnimalBadassPluGen]</li>
-    <li>r_name->[groupname] [EnemyPluGen]</li>
-    <li>r_name->[groupname] [ConceptBadassGen]</li>
-    <li>r_name->[EnemyPlu] [EnemyPluGen]</li>
-    <li>r_name->[AdjectiveBadassPlu] [AnimalBadassPlu]</li>
-    <li>r_name->[AdjectiveBadassPlu] [EnemyPlu]</li>
-    <li>r_name->[AdjectiveBadassPlu] [PersonBadass]</li>
-    <li>r_name->[PersonAllyPlu] [ConceptBadassGen]</li>
-    <li>r_name(p=0.4)->Пожирачі [GoreAbl]</li>
-    <li>r_name->[EnemyPlu] [PersonJobPluGen]</li>
+    <li>r_name->The [AnimalBadass]s</li>
+    <li>r_name->The [AnimalBadass] Men</li>
+    <li>r_name->The [AnimalBadass]s of [ConceptBadass]</li>
+    <li>r_name->The [PersonBadass]s of [ConceptBadass]</li>
+    <li>r_name->The [PersonBadass]s</li>
+    <li>r_name->The [Enemy]s</li>
+    <li>r_name->The [Weapon] Men</li>
+    <li>r_name->The [Weapon]s</li>
+    <li>r_name->The [Weapon] [AnimalBadass]s</li>
+    <li>r_name->The [Weapon] [Enemy]s</li>
+    <li>r_name->The [ColorBadass] [Weapon]s</li>
+    <li>r_name->The [ColorBadass] [AnimalBadass]s</li>
+    <li>r_name->The [ColorBadass] [PersonBadass]s</li>
+    <li>r_name->The [ColorBadass] [Enemy]s</li>
+    <li>r_name->The [PersonBadass] [groupname]</li>
+    <li>r_name->The [Enemy] [Enemy]s</li>
+    <li>r_name->The [AdjectiveBadass] [groupname]</li>
+    <li>r_name->The [AdjectiveBadass] [AnimalBadass]s</li>
+    <li>r_name->The [AdjectiveBadass] [Enemy]s</li>
+    <li>r_name->The [AdjectiveBadass] [PersonBadass]s</li>
+    <li>r_name->The [PersonAlly]s of [ConceptBadass]</li>
+    <li>r_name(p=0.4)->The Eaters of [Gore]</li>
+    <li>r_name->[NamePerson]'s [Enemy]s</li>
     <li>r_name->[NamePerson]'s [AnimalBadass]s</li>
     <li>r_name->[NamePerson]'s [Weapon]s</li>
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->The [WordTribal] [political_union_tribal]</li>
@@ -137,28 +133,25 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] [TerrainFeatureGen]</li>
-    <li>r_name->[political_union_tribal] [WordTribal]</li>
-    <li>r_name->[political_union_tribal] [AnimalBadassPluGen]</li>
-    <li>r_name->[political_union_tribal] [ConceptBadassGen]</li>
-    <li>r_name->[ColorPlu] [AnimalBadassPlu] [WordTribal]</li>
+    <li>r_name->[WordTribal] [political_union_tribal]</li>
+    <li>r_name->The [WordTribal] [political_union_tribal]</li>
+    <li>r_name->The [Color] [TerrainFeature] [political_union_tribal]</li>
+    <li>r_name->[political_union_tribal] of [WordTribal]</li>
+    <li>r_name->The [Color] [Animal] [WordTribal]</li>
+    <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name->Colony</li>
   -->
   <NamerInitialSettlementColony.rulePack.rulesStrings>
     <li>r_name->Колонія</li>
   </NamerInitialSettlementColony.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name->Village</li>
   -->
   <NamerInitialSettlementTribe.rulePack.rulesStrings>
     <li>r_name->Селище</li>
   </NamerInitialSettlementTribe.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
     <li>r_name(p=6)->[townname_fixed]</li>
@@ -218,17 +211,19 @@
     <li>r_name->[townname_near]</li>
     <li>topicalnoun->[Vegetable]</li>
     <li>topicalnoun->[Game]</li>
-    <li>topicalnounGen->[VegetablePluGen]</li>
-    <li>topicalnounGen->[GameGen]</li>
-    <li>townname_combo->[TerrainFeature] [topicalnounGen]</li>
-    <li>townname_combo->[Community] [topicalnounGen]</li>
-    <li>townname_combo(p=2)->[TerrainFeature] [ConceptPositiveGen]</li>
-    <li>townname_combo(p=2)->[Community] [ConceptPositiveGen]</li>
-    <li>townname_combo(p=3)->[TerrainFeature] [CharacterPluGen]</li>
-    <li>townname_combo(p=3)->[Community] [CharacterPluGen]</li>
-    <li>townname_near->[nearnameinitial] [OnTerrainFeatureLoc]</li>
-    <li>townname_near->[nearnameinitial] [OnTerrainFeaturePluLoc]</li>
-    <li>townname_near->[nearnameinitial] між [TerrainFeaturePluAbl]</li>
+    <li>topicalnoun->[BodyPart]</li>
+    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun] [Community]</li>
+    <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun]'s [Community]</li>
+    <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+    <li>townname_combo(p=2)->[concept_positive] [Community]</li>
+    <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character]'s [Community]</li>
+    <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
@@ -237,33 +232,30 @@
     <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
     <li>townname_wordgen->[TerrainFeature][townend]</li>
     <li>townname_wordgen->[topicalnoun][townend]</li>
-    <li>townend->віль</li>
-    <li>townend->таун</li>
-    <li>townend->харст</li>
-    <li>townend->броун</li>
-    <li>townend->брад</li>
-    <li>townend->даль</li>
-    <li>townend->хоуп</li>
-    <li>townend->інг</li>
-    <li>townend->нес</li>
-    <li>townend->мер</li>
-    <li>townend->шав</li>
-    <li>townend->вік</li>
-    <li>townend->тон</li>
-    <li>townend->стон</li>
-    <li>townend->ос</li>
-    <li>townend->ден</li>
-    <li>townend->тас</li>
-    <li>townend->вуд</li>
-    <li>townend->ленд</li>
-    <li>townend->ворт</li>
-    <li>townend->рун</li>
-    <li>townend->рон</li>
-    <li>townend->вел</li>
+    <li>townend->ville</li>
+    <li>townend->town</li>
+    <li>townend->hurst</li>
+    <li>townend->bourne</li>
+    <li>townend->brad</li>
+    <li>townend->dale</li>
+    <li>townend->hope</li>
+    <li>townend->ing</li>
+    <li>townend->ness</li>
+    <li>townend->mere</li>
+    <li>townend->shaw</li>
+    <li>townend->wick</li>
+    <li>townend->ton</li>
+    <li>townend->ston</li>
+    <li>townend->os</li>
+    <li>townend->den</li>
+    <li>townend->tas</li>
+    <li>townend->wood</li>
+    <li>townend->land</li>
+    <li>townend->worth</li>
+    <li>townend->roon</li>
     <li>townend->ron</li>
     <li>townend->well</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
@@ -307,37 +299,37 @@
     <li>townendevil->thad</li>
   -->
   <NamerSettlementPirate.rulePack.rulesStrings>
-    <li>r_name(p=10)->[townname_combo]</li>
+    <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
-    <li>townname_combo->[geography] [AnimalBadassPluGen]</li>
-    <li>townname_combo->[geography] [ConceptBadassGen]</li>
-    <li>townname_combo->[geography] [PersonBadassPluGen]</li>
-    <li>townname_combo->[geography] [EnemyPluGen]</li>
+    <li>townname_combo->[AnimalBadass] [geography]</li>
+    <li>townname_combo->[AnimalBadass]'s [geography]</li>
+    <li>townname_combo->[ConceptBadass] [geography]</li>
+    <li>townname_combo->[ConceptBadass]'s [geography]</li>
+    <li>townname_combo->[PersonBadass] [geography]</li>
+    <li>townname_combo->[PersonBadass]'s [geography]</li>
+    <li>townname_combo->[Enemy]'s [geography]</li>
+    <li>townname_combo->[Enemy] [geography]</li>
+    <li>townname_combo->[Weapon]'s [geography]</li>
+    <li>townname_combo->[Weapon] [geography]</li>
+    <li>townname_combo->[ColorBadass] [geography]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
     <li>geography->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
     <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
-    <li>townendevil->васт</li>
-    <li>townendevil->варг</li>
-    <li>townendevil->вікс</li>
-    <li>townendevil->тор</li>
-    <li>townendevil->тір</li>
-    <li>townendevil->кат</li>
-    <li>townendevil->лоп</li>
-    <li>townendevil->озе</li>
-    <li>townendevil->озл</li>
-    <li>townendevil->латч</li>
-    <li>townendevil->лок</li>
-    <li>townendevil->бьорн</li>
-    <li>townendevil->сір</li>
-    <li>townendevil->шанк</li>
-    <li>townendevil->харст</li>
-    <li>townendevil->вуг</li>
-    <li>townendevil->тот</li>
-    <li>townendevil->тард</li>
-    <li>townendevil->тад</li>
+    <li>townendevil->vast</li>
+    <li>townendevil->varg</li>
+    <li>townendevil->vix</li>
+    <li>townendevil->tor</li>
+    <li>townendevil->tear</li>
+    <li>townendevil->cut</li>
+    <li>townendevil->lop</li>
+    <li>townendevil->oze</li>
+    <li>townendevil->ozzle</li>
+    <li>townendevil->latch</li>
+    <li>townendevil->lock</li>
+    <li>townendevil->burn</li>
     <li>townendevil->sear</li>
     <li>townendevil->shank</li>
     <li>townendevil->hurt</li>
@@ -348,7 +340,6 @@
     <li>townendevil->thard</li>
     <li>townendevil->thad</li>
   </NamerSettlementPirate.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>r_name(p=2)->[WordTribal]</li>
     <li>r_name->[Color] [WordTribal]</li>
@@ -357,9 +348,8 @@
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[Color] [TerrainFeatureMasc]</li>
-    <li>r_name->[ColorFem] [TerrainFeatureFem]</li>
-    <li>r_name->[ColorNeu] [TerrainFeatureNeu]</li>
+    <li>r_name->[Color] [WordTribal]</li>
+    <li>r_name->[Color] [TerrainFeature]</li>
+    <li>r_name->[WordTribal] [TerrainFeature]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
-  
 </LanguageData>

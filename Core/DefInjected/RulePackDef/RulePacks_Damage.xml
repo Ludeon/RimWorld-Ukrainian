@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
     <li>damaged_past(p=2)->exploded</li>
@@ -15,19 +14,18 @@
     <li>destroyed_past->detonated</li>
   -->
   <Damage_Bomb.rulePack.rulesStrings>
-    <li>damaged(p=2)->розриває</li>
-    <li>damaged(p=2)->травмує</li>
-    <li>damaged->ранить</li>
-    <li>damaged->пошкоджує</li>
-    <li>destroyed->роздроблює</li>
-    <li>destroyed->знищує</li>
-    <li>destroyed->підриває</li>
-    <li>destroyed->анігілює</li>
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->exploded</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>destroyed_past->shattered</li>
+    <li>destroyed_past->crushed</li>
     <li>destroyed_past->obliterated</li>
     <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
   </Damage_Bomb.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>damaged_past->electrified</li>
     <li>damaged_past->shocked</li>
@@ -35,12 +33,11 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_EMP.rulePack.rulesStrings>
-    <li>damaged->електрифікує</li>
-    <li>damaged->б'є током</li>
-    <li>damaged->"заряджає"</li>
-    <li>destroyed->[damaged]</li>
+    <li>damaged_past->electrified</li>
+    <li>damaged_past->shocked</li>
+    <li>damaged_past->zapped</li>
+    <li>destroyed_past->damaged_past</li>
   </Damage_EMP.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>damaged_past->extinguished</li>
     <li>damaged_past->swamped</li>
@@ -49,13 +46,12 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Extinguish.rulePack.rulesStrings>
-    <li>damaged->покриває піною</li>
-    <li>damaged->запінює</li>
-    <li>damaged->заливає</li>
-    <li>damaged->гасить піною</li>
-    <li>destroyed->[damaged]</li>
+    <li>damaged_past->extinguished</li>
+    <li>damaged_past->swamped</li>
+    <li>damaged_past->foamed</li>
+    <li>damaged_past->quenched</li>
+    <li>destroyed_past->damaged_past</li>
   </Damage_Extinguish.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
     <li>damaged_past(p=2)->scorched</li>
@@ -91,31 +87,31 @@
     <li>destroyed_present->detonating</li>
   -->
   <Damage_Flame.rulePack.rulesStrings>
-    <li>damaged(p=2)->підсмажує</li>
-    <li>damaged(p=2)->обпалює</li>
-    <li>damaged(p=2)->покриває пухирями</li>
-    <li>damaged(p=2)->підпалює</li>
-    <li>damaged->ранить</li>
-    <li>damaged->пошкоджує</li>
-    <li>damaged->шкодить</li>
-    <li>damaged_participle(p=2)->підсмажуючи</li>
-    <li>damaged_participle(p=2)->обпалюючи</li>
-    <li>damaged_participle(p=2)->покриваючи пухирями</li>
-    <li>damaged_participle(p=2)->підпалюючи</li>
-    <li>damaged_participle(p=2)->запікаючи</li>
-    <li>damaged_participle->ранячи</li>
-    <li>damaged_participle->пошкоджуючи</li>
-    <li>destroyed->спалює</li>
-    <li>destroyed->обуглює</li>
-    <li>destroyed->перетворює на попіл</li>
-    <li>destroyed->спалює вщент</li>
-    <li>destroyed->анігілює</li>
-    <li>damaged_participle->спалюючи</li>
-    <li>damaged_participle->перетворюючи на попіл</li>
-    <li>damaged_participle->обуглюючи</li>
-    <li>damaged_participle->знищуючи</li>
-    <li>damaged_participle->анігілюючи</li>
-    <li>damaged_participle->спалюючи вщент</li>
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->scorched</li>
+    <li>damaged_past(p=2)->burned</li>
+    <li>damaged_past(p=2)->blistered</li>
+    <li>damaged_past(p=2)->ignited</li>
+    <li>damaged_past(p=2)->seared</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>damaged_present(p=2)->blasting</li>
+    <li>damaged_present(p=2)->scorching</li>
+    <li>damaged_present(p=2)->burning</li>
+    <li>damaged_present(p=2)->blistering</li>
+    <li>damaged_present(p=2)->igniting</li>
+    <li>damaged_present(p=2)->searing</li>
+    <li>damaged_present->injuring</li>
+    <li>damaged_present->damaging</li>
+    <li>damaged_present->wounding</li>
+    <li>damaged_present->hurting</li>
+    <li>destroyed_past->cremated</li>
+    <li>destroyed_past->incinerated</li>
+    <li>destroyed_past->charred</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
     <li>destroyed_present->cremating</li>
     <li>destroyed_present->incinerating</li>
@@ -124,7 +120,6 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->detonating</li>
   </Damage_Flame.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>damaged_past->smoked</li>
     <li>damaged_past->fogged</li>
@@ -132,12 +127,11 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Smoke.rulePack.rulesStrings>
-    <li>damaged->задимлює</li>
-    <li>damaged->огортає димом</li>
-    <li>damaged->покриває димом</li>
-    <li>destroyed->[damaged]</li>
+    <li>damaged_past->smoked</li>
+    <li>damaged_past->fogged</li>
+    <li>damaged_past->clouded</li>
+    <li>destroyed_past->damaged_past</li>
   </Damage_Smoke.rulePack.rulesStrings>
-  
   <!-- EN:
     <li>damaged_past->stunned</li>
     <li>damaged_past->confused</li>
@@ -146,11 +140,10 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Stun.rulePack.rulesStrings>
-    <li>damaged->зупиняє</li>
-    <li>damaged->збиває з пантелику</li>
-    <li>damaged->приголомшує</li>
-    <li>destroyed->[damaged]</li>
+    <li>damaged_past->stunned</li>
+    <li>damaged_past->confused</li>
+    <li>damaged_past->stopped</li>
+    <li>damaged_past->dizzied</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Stun.rulePack.rulesStrings>
-  
 </LanguageData>
