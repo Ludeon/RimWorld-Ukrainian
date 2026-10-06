@@ -5,7 +5,7 @@
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
   <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodgersLabelSingOrPluralDef] прибули. Захищайте [lodgersObjective], доки не прибуде шатл (через [shuttleDelayTicks_duration]).[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Should depart on shuttle</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
+  <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Має відправитися на шатлі</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>Шатл прибув</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
@@ -33,7 +33,7 @@
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Вилучено ксенозародок: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? якого : яку} ви зобов'язалися захищати, {SUBJECT_gender ? зазнав : зазнала} примусового вилучення ксенозародка. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Гість зник: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -41,7 +41,7 @@
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>Втрачено гостя: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>[letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>Особа, яку ви зобов'язалися захищати, — [letterSubject] — зникла. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Гість здичавів: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -49,31 +49,31 @@
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>Втрачено гостя: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>[letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>Особа, яку ви зобов'язалися захищати, — [letterSubject] — приєдналася до іншої фракції. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>Quest failed: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>Завдання провалено: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
   <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>[asker_faction_name] are now hostile towards you. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>Фракція [asker_faction_name] стала ворожою до вас. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Shuttle destroyed</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Шатл знищено</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>Надісланий за [lodgersLabelSingOrPluralDef] шатл знищено, тож тепер доведеться йти пішки. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Shuttle left behind -->
-  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>Shuttle left behind</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
+  <Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>Шатл покинуто</Hospitality_Util_Worker.LetterLabelShuttleLeftBehind.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot. -->
-  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been left behind. [lodgersLabelSingOrPluralDef] will now leave on foot.</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>Надісланий за [lodgersLabelSingOrPluralDef] шатл покинуто, тож тепер доведеться йти пішки.</Hospitality_Util_Worker.LetterTextShuttleLeftBehind.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Quest completed</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Завдання завершено</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
   <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Ви успішно завершили квест '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] сказав, що [lodgersPronoun] [lodgersWasWere] готовий винагородити за якісне проживання. Середній настрій [lodgersLabelSingOrPluralDef] під час [theirHisHer] перебування становив {AVERAGEMOOD}, тому ваша прихильність до [asker_faction_name] зросла на {GOODWILL}</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Quest completed</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Завдання завершено</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
   <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Ви успішно завершили квест '[resolvedQuestName]'!\n\nХоча [lodgersLabelSingOrPluralDef] [lodgersWasWere] були готові винагородити якісне проживання, [theirHisHer] середній настрій під час [theirHisHer] перебування становив лише {AVERAGEMOOD}. Ви не отримаєте винагороду за прихильність фракції.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Quest failed: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>Завдання провалено: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>Надісланий за [lodgersLabelSingOrPluralDef] шатл відлетів, тож тепер доведеться йти пішки. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Шатл знищено</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
