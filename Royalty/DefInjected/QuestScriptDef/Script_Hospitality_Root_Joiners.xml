@@ -5,15 +5,8 @@
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
   <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel(lodgers0_gender==Male)->гість</li>
-    <li>lodgersLabel(lodgers0_gender==Female)->гостя</li>
-    <li>lodgersLabelGen(lodgers0_gender==Male)->гостя</li>
-    <li>lodgersLabelGen(lodgers0_gender==Female)->гості</li>
-    <li>lodgersLabelAcc(lodgers0_gender==Male)->гостя</li>
-    <li>lodgersLabelAcc(lodgers0_gender==Female)->гостю</li>
+    <li>lodgersLabel->гість</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
-    <li>lodgersLabelPluralGen->[asker_faction_pawnsPlural]</li>
-    <li>lodgersLabelPluralAcc->[asker_faction_pawnsPlural]</li>
   </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
@@ -62,7 +55,7 @@
     <li>secretInfo->[enemyFaction_leaderTitle]</li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is fleeing a troubling political situation and wants to hide out at [map_definite] for [shuttleDelayTicks_duration]. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective]. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into to hunting [asker_objective]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
     <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to stay at [map_definite] for [shuttleDelayTicks_duration] with [lodgersCountMinusOne] court [allyAllies]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
@@ -75,61 +68,70 @@
   -->
   <Hospitality_Joiners.questDescriptionRules.rulesStrings>
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersDef(lodgersCount>=2)->{lookup: [asker_faction_pawnsPlural]; Case; 4}</li>
+    <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>followOrders(lodgersCount==1)->виконуватиме</li>
+    <li>followOrders(lodgersCount>=2)->виконуватимуть</li>
     <li>joinerEnding(priority=1)-></li>
-    <li>joinerEnding->You'll be able to direct [lodgersDef] the same way you direct your own colonists.[specialNeedsExplanation]</li>
-    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> You'll need to satisfy any special royal needs the [lodgersLabelPlural] may have.</li>
+    <li>joinerEnding->[lodgersDef] [followOrders] ваші накази так само, як і ваші колоністи.[specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Вам доведеться задовольняти особливі королівські потреби гостей.</li>
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
-    <li>theirHisHer(lodgersCount>=2)->їх</li>
+    <li>theirHisHer(lodgersCount>=2)->їхній</li>
     <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
     <li>lodgersPronoun(lodgersCount>=2)->вони</li>
-    <li>lodgersWasVere(lodgersCount==1)->був</li>
+    <li>lodgersWasWere(lodgersCount==1)->{lodgers0_gender ? був : була}</li>
     <li>lodgersWasWere(lodgersCount>=2)->були</li>
     <li>appreciateAppreciates(lodgersCount==1)->цінує</li>
     <li>appreciateAppreciates(lodgersCount>=2)->цінують</li>
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] якісне житло. Ви отримаєте прихильність [asker_faction_name], якщо будете підтримувати [theirHisHer] рівень настрою вище 50%.</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] якісне житло. Якщо [theirHisHer] середній настрій триматиметься вище 50%, прихильність фракції [asker_faction_name] до вас зросте.</li>
     <li>goodwillForMood-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->A [lodgers0_title] named [lodgers0_nameFull] wants you to protect [lodgers0_objective] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] was recently caught [wrongAct]. Seeking revenge, [enemyFaction_pawnsPlural] will come for [lodgers0_objective] as long as [lodgers0_pronoun] is with you. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->[lodgers0_title] на ім'я [lodgers0_nameFull] просить вас захищати {lodgers0_gender ? його : її} у поселенні [map_definite] протягом [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНещодавно [lodgers0_nameDef] {lodgers0_gender ? попався : попалася} на [wrongAct]. Прагнучи помсти, [enemyFaction_pawnsPlural] приходитимуть по {lodgers0_gender ? нього : неї}, доки [lodgers0_pronoun] у вас. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>wrongAct->insulting the [PersonalCharacteristic] of [enemyFaction_leader_nameDef], [enemyFaction_leaderTitle] of [enemyFaction_name]</li>
-    <li>wrongAct->stealing livestock from [enemyFaction_name]</li>
-    <li>wrongAct->stealing food from [enemyFaction_name]</li>
-    <li>wrongAct->stealing spiritual artifacts from [enemyFaction_name]</li>
-    <li>wrongAct->sabotaging the cryptosleep caskets of [enemyFaction_name]</li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->A group of [lodgersCount] travelers want you to host them at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThese travelers were recently invited to an important ceremony with [enemyFaction_name], but showed up drunk and profaned the ritual. [enemyFaction_name] is now sending raids after them. [enemyGroupsParagraph]</li>
+    <li>wrongAct->кпинах з [PersonalCharacteristic_gen] {lookup: [enemyFaction_leaderTitle]; Case; 1} фракції [enemyFaction_name] ([enemyFaction_leader_nameDef])</li>
+    <li>wrongAct->крадіжці худоби у фракції [enemyFaction_name]</li>
+    <li>wrongAct->крадіжці їжі у фракції [enemyFaction_name]</li>
+    <li>wrongAct->крадіжці священних реліквій у фракції [enemyFaction_name]</li>
+    <li>wrongAct->псуванні саркофагів криптосну фракції [enemyFaction_name]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Група з [lodgersCount] мандрівників просить прихистити їх у поселенні [map_definite] протягом [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nНещодавно цих мандрівників запросили на важливу церемонію до фракції [enemyFaction_name], але вони з'явилися п'яними й осквернили ритуал. Тепер фракція [enemyFaction_name] посилає по них рейди. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nThe travelers recently [mechViolation], and have been targeted by an orbiting mechanoid swarm. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nНещодавно мандрівники [mechViolation_pl], і тепер на них полює зграя механоїдів з орбіти. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name] просить про послугу. [asker_possessive] друг [lodgers0_nameFull] зацікавлений у вивченні інших культур, і [asker_pronoun] хоче, щоб ви прийняли [lodgers0_objective] на [map_definite] протягом [shuttleDelayTicks_duration]. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] з [asker_faction_name] просить про послугу. Друг [asker_possessive], [lodgers0_age]-річний [lodgers0_title] на ім'я [lodgers0_nameDef], був спійманий на тому, що писав злісні образи про [enemyFaction_leader_nameFull] [PersonalCharacteristic]. [asker_nameDef] просить вас охороняти [lodgers0_nameDef] протягом [shuttleDelayTicks_duration], поки [asker_pronoun] не налагодить стосунки з [enemyFaction_name]. Оскільки [enemyFaction_leader_nameDef] є [enemyFaction_leaderTitle] [enemyFaction_name], [enemyFaction_leader_pronoun] відправив групи [enemyFaction_pawnsPlural] полювати на кривдника [lodgers0_nameDef].\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration], until [asker_pronoun] can sooth the mechanoid hive.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration].\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from an enemy jail. [asker_pronoun] wants you to guard them at [map_definite] until [asker_pronoun] can send a shuttle to collect them in [shuttleDelayTicks_duration]. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from the prisons of [enemyFaction_name]. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. The [asker_faction_pawnsPlural] know secrets about the [secretInfo] of [enemyFaction_name], so they will be hunted.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from a cryptosleep vault. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. The [asker_faction_pawnsPlural] will be hunted by mechanoids.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from a mechanoid hive's holding pen. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. The mechs are tracking their former prisoners.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>secretInfo->military capabilities</li>
-    <li>secretInfo->moral transgressions</li>
-    <li>secretInfo->weapons research</li>
-    <li>secretInfo->prison camps</li>
-    <li>secretInfo->[enemyFaction_leaderTitle]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is fleeing a troubling political situation and wants to hide out at [map_definite] for [shuttleDelayTicks_duration]. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective]. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]'s enemies provoked mechanoids into to hunting [asker_objective]. [enemyGroupsParagraph]</li>
-    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective]. [enemyGroupsParagraph]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить про послугу. [asker_possessive] {lodgers0_gender ? друг : подруга} [lodgers0_nameFull] хоче ближче пізнати інші культури, тож [asker_pronoun] просить вас прийняти {lodgers0_gender ? його : її} в поселенні [map_definite] протягом [shuttleDelayTicks_duration]. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить про послугу. [asker_possessive] {lodgers0_gender ? друга : подругу} – [lodgers0_title] на ім'я [lodgers0_nameDef] ([lodgers0_age] р.) – спіймали на злісних пасквілях, у яких [enemyFaction_leader_nameFull] постає посміховиськом через [PersonalCharacteristic_acc]. [asker_nameDef] просить вас охороняти {lodgers0_gender ? його : її} протягом [shuttleDelayTicks_duration], поки [asker_pronoun] не владнає стосунки з фракцією [enemyFaction_name]. А оскільки [enemyFaction_leader_nameDef] – [enemyFaction_leaderTitle] фракції [enemyFaction_name], [enemyFaction_leader_pronoun] вже {enemyFaction_leader_gender ? послав : послала} загони {lookup: [enemyFaction_pawnsPlural]; Case; 1} полювати на кривдника.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить про послугу. [asker_possessive] {lodgers0_gender ? друг : подруга} [lodgers0_nameDef] ([lodgers0_title], [lodgers0_age] р.) нещодавно [mechViolation]. [asker_nameDef] просить вас охороняти {lodgers0_gender ? його : її} протягом [shuttleDelayTicks_duration], поки [asker_pronoun] не втихомирить рій механоїдів.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить про послугу. [asker_possessive] {lodgers0_gender ? друг : подруга} [lodgers0_nameDef] ([lodgers0_title], [lodgers0_age] р.) нещодавно [mechViolation]. [asker_nameDef] просить вас охороняти {lodgers0_gender ? його : її} протягом [shuttleDelayTicks_duration].\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], нещодавно {asker_gender ? визволив : визволила} з ворожої в'язниці групу {lookup: [asker_faction_pawnsPlural]; Case; 1} ([lodgersCount]). [asker_pronoun] просить вас охороняти їх у поселенні [map_definite], доки через [shuttleDelayTicks_duration] не зможе прислати по них шатл. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], нещодавно {asker_gender ? визволив : визволила} з в'язниць фракції [enemyFaction_name] групу {lookup: [asker_faction_pawnsPlural]; Case; 1} ([lodgersCount]). [asker_nameDef] просить вас охороняти їх у поселенні [map_definite] протягом [shuttleDelayTicks_duration], доки не зможе прислати по них шатл. Ці [asker_faction_pawnsPlural] знають таємниці про [secretInfo] фракції [enemyFaction_name], тож на них полюватимуть.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], нещодавно {asker_gender ? визволив : визволила} зі сховища криптосну групу {lookup: [asker_faction_pawnsPlural]; Case; 1} ([lodgersCount]). [asker_nameDef] просить вас охороняти їх у поселенні [map_definite] протягом [shuttleDelayTicks_duration], доки не зможе прислати по них шатл. На цих людей полюватимуть механоїди.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], нещодавно {asker_gender ? визволив : визволила} із загону для бранців у рої механоїдів групу {lookup: [asker_faction_pawnsPlural]; Case; 1} ([lodgersCount]). [asker_nameDef] просить вас охороняти їх у поселенні [map_definite] протягом [shuttleDelayTicks_duration], доки не зможе прислати по них шатл. Механоїди вистежують своїх колишніх бранців.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>secretInfo->військову міць</li>
+    <li>secretInfo->моральні злочини</li>
+    <li>secretInfo->дослідження зброї</li>
+    <li>secretInfo->табори для в'язнів</li>
+    <li>secretInfo->{lookup: [enemyFaction_leaderTitle]; Case; 3}</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], тікає від загрозливих політичних негараздів і хоче переховатися в поселенні [map_definite] протягом [shuttleDelayTicks_duration]. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n{asker_gender ? Його : Її} вороги найняли фракцію [enemyFaction_name], щоб вистежити {asker_gender ? його : її}. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n{asker_gender ? Його : Її} вороги нацькували на {asker_gender ? нього : неї} механоїдів. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n{asker_gender ? Його : Її} вороги якимось чином нацькували на {asker_gender ? нього : неї} механоїдів. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to stay at [map_definite] for [shuttleDelayTicks_duration] with [lodgersCountMinusOne] court [allyAllies]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef] and [asker_possessive] [allyAllies] have been targeted for death and need a safe place to stay until they can purge their court. However, [asker_nameDef]'s enemies have hired [enemyFaction_name] to hunt [asker_objective].\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef] and [asker_possessive] [allyAllies] have been targeted for death and need a safe place to stay until they can purge their court. However, [asker_nameDef]'s enemies have provoked [enemyFaction_name] into hunting [asker_objective].\n\n[enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] and [asker_possessive] [allyAllies] have been targeted for death and need a safe place to stay until they can purge their court. However, [asker_nameDef]'s enemies have somehow provoked mechanoids into hunting [asker_objective].\n\n[enemyGroupsParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], хоче пожити в поселенні [map_definite] протягом [shuttleDelayTicks_duration] разом із [allyAlliesIns]. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef] і [asker_possessive] [allyAllies] опинилися під загрозою смерті, тож їм потрібен безпечний прихисток, доки вони не очистять двір від зрадників. Однак {asker_gender ? його : її} вороги найняли фракцію [enemyFaction_name], щоб вистежити {asker_gender ? його : її}.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef] і [asker_possessive] [allyAllies] опинилися під загрозою смерті, тож їм потрібен безпечний прихисток, доки вони не очистять двір від зрадників. Однак {asker_gender ? його : її} вороги нацькували на {asker_gender ? нього : неї} фракцію [enemyFaction_name].\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] і [asker_possessive] [allyAllies] опинилися під загрозою смерті, тож їм потрібен безпечний прихисток, доки вони не очистять двір від зрадників. Однак {asker_gender ? його : її} вороги якимось чином нацькували на {asker_gender ? нього : неї} механоїдів.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
-    <li>allyAllies(lodgersCountMinusOne==1)->ally</li>
-    <li>allyAllies(lodgersCountMinusOne>=2)->allies</li>
+    <li>allyAllies(lodgersCountMinusOne==1)->союзник</li>
+    <li>allyAllies(lodgersCountMinusOne>=2)->союзники</li>
+    <li>allyAlliesIns(lodgersCountMinusOne==1)->одним придворним союзником</li>
+    <li>allyAlliesIns(lodgersCountMinusOne>=2)->придворними союзниками ([lodgersCountMinusOne])</li>
+    <li>mechViolation_pl->чимось розгнівали ШІ-персону</li>
+    <li>mechViolation_pl->осквернили термінал стародавнього суперкомп'ютера</li>
+    <li>mechViolation_pl->убили людську дитину, яку вподобав архотех</li>
+    <li>mechViolation_pl->намагалися зламати вузол керування механоїдами</li>
+    <li>mechViolation_pl->намагалися обікрасти стародавнє сховище</li>
   </Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>
@@ -162,33 +164,48 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
   <Hospitality_Joiners.questNameRules.rulesStrings>
-    <li>questName->укриття для [lodgerIndef]</li>
-    <li>questName->hospitality for [lodgerIndef]</li>
-    <li>questName->hosting [lodgerIndef]</li>
-    <li>questName->[lodgerIndef] потрібна допомога</li>
-    <li>questName(generateThreats==true,priority=1)->protecting [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->safeguarding [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->security for [lodgerIndef]</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] under threat</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in danger</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] with enemies</li>
-    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] in the crosshairs</li>
+    <li>questName->прихисток для [lodgerGen]</li>
+    <li>questName->гостинність для [lodgerGen]</li>
+    <li>questName->притулок для [lodgerGen]</li>
+    <li>questName->[lodgerIndef] просить допомоги</li>
+    <li>questName(generateThreats==true,priority=1)->захист для [lodgerGen]</li>
+    <li>questName(generateThreats==true,priority=1)->охорона для [lodgerGen]</li>
+    <li>questName(generateThreats==true,priority=1)->безпека для [lodgerGen]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] під загрозою</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] у небезпеці</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] і вороги</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] на прицілі</li>
     <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->travelers</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->мандрівники</li>
     <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->a [lodgers0_title]</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->Другу</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->an ally</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->друзям</li>
-    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->allies</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->a [asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->друг</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->союзник</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->друзі</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->союзники</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a royal</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->a noble</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->an aristocrat</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->royals</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->вельможа</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->шляхтич</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократ</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->вельможі</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->шляхта</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократи</li>
+    <li>lodgerGen(askerIsNull==true,lodgersCount==1)->мандрівника</li>
+    <li>lodgerGen(askerIsNull==true,lodgersCount==1)->незнайомця</li>
+    <li>lodgerGen(askerIsNull==true,lodgersCount>=2)->мандрівників</li>
+    <li>lodgerGen(asker_factionLeader==True,lodgersCount==1)->гостя</li>
+    <li>lodgerGen(asker_factionLeader==True,lodgersCount==1)->друга</li>
+    <li>lodgerGen(asker_factionLeader==True,lodgersCount==1)->союзника</li>
+    <li>lodgerGen(asker_factionLeader==True,lodgersCount>=2)->друзів</li>
+    <li>lodgerGen(asker_factionLeader==True,lodgersCount>=2)->союзників</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->вельможі</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount==1)->вельможі</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount==1)->шляхтича</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount==1)->аристократа</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->вельмож</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->шляхти</li>
+    <li>lodgerGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->аристократів</li>
   </Hospitality_Joiners.questNameRules.rulesStrings>
 </LanguageData>

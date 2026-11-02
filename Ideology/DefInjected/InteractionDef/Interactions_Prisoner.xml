@@ -9,10 +9,10 @@
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має працювати на колонію.</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? повідомив : повідомила} [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має виконувати накази та працювати.</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? наказав : наказала} [RECIPIENT_nameDef] готуватися до примусової праці.</li>
-    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? пояснив : пояснила} [RECIPIENT_nameDef], що [RECIPIENT_pronoun] має працювати, інакше [RECIPIENT_possessive] буде покарано.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала}, що відтепер [RECIPIENT_nameDef] мусить працювати на колонію.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? повідомив : повідомила}, що [RECIPIENT_nameDef] має коритися наказам і працювати.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? оголосив : оголосила}, що відтепер [RECIPIENT_nameDef] житиме в примусовій праці.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? пояснив : пояснила}, що [RECIPIENT_nameDef] мусить працювати, інакше буде покарання.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
   <!-- EN: try to reduce will -->
   <ReduceWill.label>спроба зменшити волю</ReduceWill.label>
@@ -60,46 +60,46 @@
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
   <ReduceWill.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
-    <li>r_logentry->[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused].</li>
-    <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment].</li>
-    <li>r_logentry->[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony.</li>
-    <li>negative->had no future</li>
-    <li>negative->had no way to escape</li>
-    <li>negative->had no future outside of the colony</li>
-    <li>negative->didn't have the means to escape</li>
-    <li>negative->should submit immediately</li>
-    <li>negative->should forget [RECIPIENT_possessive] aspirations</li>
-    <li>negative->should submit to the colony</li>
-    <li>threat->torture</li>
-    <li>threat->punishment</li>
-    <li>threat->mutilation</li>
-    <li>threat->starvation</li>
-    <li>threat->lifetime incarceration</li>
-    <li>threat->death</li>
-    <li>threat->isolation</li>
-    <li>threat->dismemberment</li>
-    <li>threat->blunt trauma</li>
-    <li>threat->lacerations</li>
-    <li>threat->cannibalism</li>
-    <li>threat->organ harvesting</li>
-    <li>threat->long confinement</li>
-    <li>refused->tried to escape</li>
-    <li>refused->insulted the colony</li>
-    <li>refused->did not work</li>
-    <li>refused->refused a command</li>
-    <li>refused->resisted submitting</li>
-    <li>refused->refused to obey</li>
-    <li>refused->behaved impertinently</li>
-    <li>disillusionment->should accept [RECIPIENT_possessive] situation</li>
-    <li>disillusionment->had no hope for another future</li>
-    <li>disillusionment->would be best off submitting</li>
-    <li>disillusionment->would not survive on [RECIPIENT_possessive] own</li>
-    <li>disillusionment->had no option but to submit</li>
-    <li>givein->give in</li>
-    <li>givein->submit [RECIPIENT_objective]self</li>
-    <li>givein->surrender [RECIPIENT_objective]self</li>
-    <li>givein->yield [RECIPIENT_objective]self</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала}, що [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? пояснив : пояснила}, що [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? пригрозив : пригрозила} [threat], якщо [RECIPIENT_nameDef] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? дав : дала} зрозуміти, що [RECIPIENT_nameDef] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? зажадав : зажадала}, щоб [RECIPIENT_nameDef] [givein] колонії.</li>
+    <li>negative->не має майбутнього</li>
+    <li>negative->не має жодного шансу втекти</li>
+    <li>negative->не має майбутнього поза колонією</li>
+    <li>negative->не має змоги втекти</li>
+    <li>negative->мусить негайно скоритися</li>
+    <li>negative->має забути про свої сподівання</li>
+    <li>negative->мусить підкоритися колонії</li>
+    <li>threat->катуваннями</li>
+    <li>threat->покаранням</li>
+    <li>threat->каліцтвом</li>
+    <li>threat->голодом</li>
+    <li>threat->довічним ув'язненням</li>
+    <li>threat->смертю</li>
+    <li>threat->ізоляцією</li>
+    <li>threat->четвертуванням</li>
+    <li>threat->побоями</li>
+    <li>threat->різаними ранами</li>
+    <li>threat->канібалізмом</li>
+    <li>threat->вилученням органів</li>
+    <li>threat->тривалим ув'язненням</li>
+    <li>refused->спробує втекти</li>
+    <li>refused->образить колонію</li>
+    <li>refused->не працюватиме</li>
+    <li>refused->відмовиться виконати наказ</li>
+    <li>refused->опиратиметься</li>
+    <li>refused->не послухається</li>
+    <li>refused->поводитиметься зухвало</li>
+    <li>disillusionment->має змиритися зі своїм становищем</li>
+    <li>disillusionment->не має надії на інше майбутнє</li>
+    <li>disillusionment->найкраще вчинить, якщо скориться</li>
+    <li>disillusionment->не виживе без колонії</li>
+    <li>disillusionment->не має іншого вибору, крім як скоритися</li>
+    <li>givein->{RECIPIENT_gender ? скорився : скорилася}</li>
+    <li>givein->{RECIPIENT_gender ? підкорився : підкорилася}</li>
+    <li>givein->{RECIPIENT_gender ? здався : здалася}</li>
+    <li>givein->{RECIPIENT_gender ? покорився : покорилася}</li>
   </ReduceWill.logRulesInitiator.rulesStrings>
 </LanguageData>

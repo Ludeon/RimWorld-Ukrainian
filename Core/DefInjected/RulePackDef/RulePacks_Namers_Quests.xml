@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN:
+    <li>quest->Words/Nouns/Quests</li>
+    <li>adjectiveCurious->Words/Adjectives/Curious</li>
+  -->
+  <NamerQuestDefault.rulePack.rulesFiles>
+    <li>quest->Words/Nouns/Quests</li>
+    <li>quest_m->Words/Nouns/Quests_m</li>
+    <li>quest_f->Words/Nouns/Quests_f</li>
+    <li>quest_n->Words/Nouns/Quests_n</li>
+    <li>adjectiveCurious->Words/Adjectives/Curious</li>
+    <li>adjectiveCurious_f->Words/Adjectives/Curious_f</li>
+    <li>adjectiveCurious_n->Words/Adjectives/Curious_n</li>
+    <li>adjectiveCurious_pl->Words/Adjectives/Curious_pl</li>
+  </NamerQuestDefault.rulePack.rulesFiles>
+  <!-- EN:
     <li>defaultQuestName->[adjectiveCurious] [quest]</li>
   -->
   <NamerQuestDefault.rulePack.rulesStrings>
-    <li>defaultQuestName->[adjectiveCurious] [quest]</li>
+    <li>defaultQuestName(p=1)->[adjectiveCurious] [quest_m]</li>
+    <li>defaultQuestName(p=2)->[adjectiveCurious_f] [quest_f]</li>
+    <li>defaultQuestName(p=0.7)->[adjectiveCurious_n] [quest_n]</li>
   </NamerQuestDefault.rulePack.rulesStrings>
 </LanguageData>

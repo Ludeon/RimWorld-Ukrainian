@@ -4,13 +4,13 @@
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
   <Event_AbilityUsed.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? використав : використала} "[ABILITY_label]" на [SUBJECT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] застосовує здібність «[ABILITY_label]». Ціль: [SUBJECT_definite].</li>
   </Event_AbilityUsed.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
   <Event_ItemUsed.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] {INITIATOR_gender ? використав : використала} [ITEM_indefinite] на [SUBJECT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] використовує {lookup: [ITEM_indefinite]; Case; 3}. Ціль: [SUBJECT_definite].</li>
   </Event_ItemUsed.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
@@ -34,24 +34,24 @@
     <li>stumbled->staggered</li>
   -->
   <Event_Stun.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
-    <li>r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.</li>
-    <li>stunned(p=3)->stunned</li>
-    <li>stunned->staggered</li>
-    <li>stunned->dazed</li>
-    <li>stunned->disoriented</li>
+    <li>r_logentry->Від удару [SUBJECT_definite] [stunned].</li>
+    <li>r_logentry->Від удару, який завдає [INITIATOR_definite], [SUBJECT_definite] [stunned].</li>
+    <li>stunned(p=3)->утрачає тяму</li>
+    <li>stunned->ціпеніє</li>
+    <li>stunned->заточується</li>
+    <li>stunned->утрачає орієнтацію</li>
     <li>r_logentry->[SUBJECT_definite] [staggered].</li>
-    <li>r_logentry->[SUBJECT_definite] [staggered] від атаки.</li>
-    <li>r_logentry->[SUBJECT_definite] [staggered] від атаки [INITIATOR_definite].</li>
-    <li>staggered(p=3)->{SUBJECT_gender ? похитнувся : похитнулася}</li>
-    <li>staggered->{SUBJECT_gender ? спіткнувся : спіткнулася}</li>
-    <li>staggered->wobbled</li>
-    <li>staggered->wavered</li>
-    <li>r_logentry->[SUBJECT_definite] [stumbled] around blearily.</li>
-    <li>r_logentry->[SUBJECT_definite] [stumbled] навколо збентежено.</li>
-    <li>tumbled(p=3)->спіткається</li>
-    <li>stumbled->колихається</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] від удару.</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered] від удару, який завдає [INITIATOR_definite].</li>
+    <li>staggered(p=3)->похитується</li>
+    <li>staggered->хитається</li>
+    <li>staggered->заточується</li>
+    <li>staggered->ледь тримається на ногах</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled], нічого не тямлячи.</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled] в розгубленості.</li>
+    <li>stumbled(p=3)->бреде навмання</li>
     <li>stumbled->хитається</li>
-    <li>stumbled->розхитується</li>
+    <li>stumbled->заточується</li>
+    <li>stumbled->спотикається</li>
   </Event_Stun.rulePack.rulesStrings>
 </LanguageData>

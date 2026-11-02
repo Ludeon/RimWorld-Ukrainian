@@ -5,8 +5,8 @@
     <li>structureNameWithArticle->an infested settlement</li>
   -->
   <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Ви можете розграбувати споруду, щоб отримати цінні ресурси.\n\nПроте стережіться, споруди древніх можуть містити різні загрози.</li>
-    <li>structureNameWithArticle->заражене поселення</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Споруду можна обшукати й забрати цінні ресурси.\n\nОбережно: у старовинних спорудах чатують різні небезпеки.</li>
+    <li>structureNameWithArticle->заполоненого комахами поселення</li>
   </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -18,13 +18,12 @@
     <li>structureName->infested settlement</li>
   -->
   <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->Виявлено [structureName]</li>
-    <li>questName->[structureName] Виявлено</li>
-    <li>ancient(p=2)->Древнє</li>
-    <li>ancient->Втрачене</li>
-    <li>structureName->заражене поселення</li>
+    <li>questName(p=2)->[ancient] [structureName]</li>
+    <li>questName->виявлено [structureName]</li>
+    <li>questName->знахідка: [structureName]</li>
+    <li>ancient(p=2)->старовинне</li>
+    <li>ancient->покинуте</li>
+    <li>structureName->заполонене комахами поселення</li>
   </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
@@ -42,27 +41,27 @@
     <li>questMapText->insects everywhere</li>
   -->
   <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
-    <li>subject->древні споруди</li>
-    <li>subject->втрачені визначні місця</li>
-    <li>subject->древні структури</li>
+    <li>subject->старовинні будівлі</li>
+    <li>subject->забуті орієнтири</li>
+    <li>subject->старовинні споруди</li>
     <li>questMapFeature->малюнок старої будівлі</li>
-    <li>questMapText->ціль пошуку цінностей</li>
-    <li>questMapText->місце досліджень</li>
-    <li>questMapText->небезпечна древня структура</li>
+    <li>questMapText->ціль для мародерів</li>
+    <li>questMapText->місце для розвідки</li>
+    <li>questMapText->небезпечна старовинна споруда</li>
     <li>questMapText->стережіться пасток</li>
     <li>subject->вулики комах</li>
-    <li>subject->зараження</li>
+    <li>subject->нашестя комах</li>
     <li>questMapFeature->вулик комах</li>
     <li>questMapFeature->анатомічний малюнок мегапавука</li>
-    <li>questMapText->комахи усюди</li>
+    <li>questMapText->всюди комахи</li>
   </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient chemfuel refinery</li>
   -->
   <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Ви можете розграбувати споруду, щоб отримати цінні ресурси.\n\nПроте стережіться, споруди древніх можуть містити різні загрози.</li>
-    <li>structureNameWithArticle->древній завод хімпалива</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Споруду можна обшукати й забрати цінні ресурси.\n\nОбережно: у старовинних спорудах чатують різні небезпеки.</li>
+    <li>structureNameWithArticle->старовинного заводу хімпалива</li>
   </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -74,12 +73,11 @@
     <li>structureName->chemfuel refinery</li>
   -->
   <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->Виявлено [structureName]</li>
-    <li>questName->[structureName] Виявлено</li>
-    <li>ancient(p=2)->Древнє</li>
-    <li>ancient->Втрачене</li>
+    <li>questName(p=2)->[ancient] [structureName]</li>
+    <li>questName->виявлено [structureName]</li>
+    <li>questName->знахідка: [structureName]</li>
+    <li>ancient(p=2)->старовинний</li>
+    <li>ancient->покинутий</li>
     <li>structureName->завод хімпалива</li>
   </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
   <!-- EN:
@@ -100,29 +98,29 @@
     <li>questMapText->chemfuel here</li>
   -->
   <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
-    <li>subject->древні споруди</li>
-    <li>subject->втрачені визначні місця</li>
-    <li>subject->древні структури</li>
+    <li>subject->старовинні будівлі</li>
+    <li>subject->забуті орієнтири</li>
+    <li>subject->старовинні споруди</li>
     <li>questMapFeature->малюнок старої будівлі</li>
-    <li>questMapText->ціль пошуку цінностей</li>
-    <li>questMapText->місце досліджень</li>
-    <li>questMapText->небезпечна древня структура</li>
+    <li>questMapText->ціль для мародерів</li>
+    <li>questMapText->місце для розвідки</li>
+    <li>questMapText->небезпечна старовинна споруда</li>
     <li>questMapText->стережіться пасток</li>
-    <li>subject->древні переробні заводи</li>
-    <li>subject->заводи хімпалива</li>
+    <li>subject->старовинні переробні заводи</li>
+    <li>subject->хімзаводи</li>
     <li>questMapFeature->завод хімпалива</li>
-    <li>questMapFeature->малюнок бака хімпалива</li>
-    <li>questMapFeature->нарис обладнання заводу хімпалива</li>
-    <li>questMapText->сховище хімпалива</li>
-    <li>questMapText->хімпаливо</li>
+    <li>questMapFeature->малюнок бака з хімпаливом</li>
+    <li>questMapFeature->ескіз заводського обладнання</li>
+    <li>questMapText->склад хімпалива</li>
+    <li>questMapText->тут хімпаливо</li>
   </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient garrison</li>
   -->
   <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Ви можете розграбувати споруду, щоб отримати цінні ресурси.\n\nПроте стережіться, споруди древніх можуть містити різні загрози.</li>
-    <li>structureNameWithArticle->древній гарнізон</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Споруду можна обшукати й забрати цінні ресурси.\n\nОбережно: у старовинних спорудах чатують різні небезпеки.</li>
+    <li>structureNameWithArticle->старовинного гарнізону</li>
   </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -134,12 +132,11 @@
     <li>structureName->garrison</li>
   -->
   <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->Виявлено [structureName]</li>
-    <li>questName->[structureName] Виявлено</li>
-    <li>ancient(p=2)->Древнє</li>
-    <li>ancient->Втрачене</li>
+    <li>questName(p=2)->[ancient] [structureName]</li>
+    <li>questName->виявлено [structureName]</li>
+    <li>questName->знахідка: [structureName]</li>
+    <li>ancient(p=2)->старовинний</li>
+    <li>ancient->покинутий</li>
     <li>structureName->гарнізон</li>
   </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
   <!-- EN:
@@ -161,30 +158,30 @@
     <li>questMapText->lots of military equipment</li>
   -->
   <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
-    <li>subject->древні споруди</li>
-    <li>subject->втрачені визначні місця</li>
-    <li>subject->древні структури</li>
+    <li>subject->старовинні будівлі</li>
+    <li>subject->забуті орієнтири</li>
+    <li>subject->старовинні споруди</li>
     <li>questMapFeature->малюнок старої будівлі</li>
-    <li>questMapText->ціль пошуку цінностей</li>
-    <li>questMapText->місце досліджень</li>
-    <li>questMapText->небезпечна древня структура</li>
+    <li>questMapText->ціль для мародерів</li>
+    <li>questMapText->місце для розвідки</li>
+    <li>questMapText->небезпечна старовинна споруда</li>
     <li>questMapText->стережіться пасток</li>
-    <li>subject->старі військові обʼєкти</li>
-    <li>subject->древні гарнізони</li>
+    <li>subject->старовинні військові об'єкти</li>
+    <li>subject->старовинні гарнізони</li>
     <li>questMapFeature->гарнізон</li>
-    <li>questMapFeature->фотографія стійок зі зброєю</li>
-    <li>questMapFeature->намальована вуглем штурмова гвинтівка</li>
-    <li>questMapText->арсенал</li>
-    <li>questMapText->древній арсенал</li>
-    <li>questMapText->багато військового спорядження</li>
+    <li>questMapFeature->малюнок збройових стійок</li>
+    <li>questMapFeature->ескіз штурмової гвинтівки вугіллям</li>
+    <li>questMapText->збройовий об'єкт</li>
+    <li>questMapText->старовинний арсенал</li>
+    <li>questMapText->купа військового спорядження</li>
   </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient launch site</li>
   -->
   <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Ви можете розграбувати споруду, щоб отримати цінні ресурси.\n\nПроте стережіться, споруди древніх можуть містити різні загрози.</li>
-    <li>structureNameWithArticle->древній пусковий майданчик</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Споруду можна обшукати й забрати цінні ресурси.\n\nОбережно: у старовинних спорудах чатують різні небезпеки.</li>
+    <li>structureNameWithArticle->старовинного пускового майданчика</li>
   </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -196,12 +193,11 @@
     <li>structureName->launch site</li>
   -->
   <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->Виявлено [structureName]</li>
-    <li>questName->[structureName] Виявлено</li>
-    <li>ancient(p=2)->Древнє</li>
-    <li>ancient->Втрачене</li>
+    <li>questName(p=2)->[ancient] [structureName]</li>
+    <li>questName->виявлено [structureName]</li>
+    <li>questName->знахідка: [structureName]</li>
+    <li>ancient(p=2)->старовинний</li>
+    <li>ancient->покинутий</li>
     <li>structureName->пусковий майданчик</li>
   </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
   <!-- EN:
@@ -221,28 +217,28 @@
     <li>questMapText->they have fuel</li>
   -->
   <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
-    <li>subject->древні споруди</li>
-    <li>subject->втрачені визначні місця</li>
-    <li>subject->древні структури</li>
+    <li>subject->старовинні будівлі</li>
+    <li>subject->забуті орієнтири</li>
+    <li>subject->старовинні споруди</li>
     <li>questMapFeature->малюнок старої будівлі</li>
-    <li>questMapText->ціль пошуку цінностей</li>
-    <li>questMapText->місце досліджень</li>
-    <li>questMapText->небезпечна древня структура</li>
+    <li>questMapText->ціль для мародерів</li>
+    <li>questMapText->місце для розвідки</li>
+    <li>questMapText->небезпечна старовинна споруда</li>
     <li>questMapText->стережіться пасток</li>
-    <li>subject->древні пускові майданчики</li>
+    <li>subject->старовинні пускові майданчики</li>
     <li>subject->космодроми</li>
     <li>questMapFeature->пусковий майданчик</li>
-    <li>questMapFeature->діаграма техніки для заправки шатла</li>
-    <li>questMapFeature->малюнок скарбу, який завантажують в транспортні капсули</li>
-    <li>questMapText->в них є паливо</li>
+    <li>questMapFeature->схема заправника шатлів</li>
+    <li>questMapFeature->ескіз: скарби вантажать у транспортні капсули</li>
+    <li>questMapText->у них є паливо</li>
   </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient warehouse</li>
   -->
   <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Ви можете розграбувати споруду, щоб отримати цінні ресурси.\n\nПроте стережіться, споруди древніх можуть містити різні загрози.</li>
-    <li>structureNameWithArticle->древній склад</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження [structureNameWithArticle]. Споруду можна обшукати й забрати цінні ресурси.\n\nОбережно: у старовинних спорудах чатують різні небезпеки.</li>
+    <li>structureNameWithArticle->старовинного складу</li>
   </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
@@ -254,12 +250,11 @@
     <li>structureName->warehouse</li>
   -->
   <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
-    <li>questName-> [ancient] [structureName]</li>
-    <li>questName->[ancient] [structureName]</li>
-    <li>questName->Виявлено [structureName]</li>
-    <li>questName->[structureName] Виявлено</li>
-    <li>ancient(p=2)->Древнє</li>
-    <li>ancient->Втрачене</li>
+    <li>questName(p=2)->[ancient] [structureName]</li>
+    <li>questName->виявлено [structureName]</li>
+    <li>questName->знахідка: [structureName]</li>
+    <li>ancient(p=2)->старовинний</li>
+    <li>ancient->покинутий</li>
     <li>structureName->склад</li>
   </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
   <!-- EN:
@@ -279,19 +274,19 @@
     <li>questMapText->massive ancient building</li>
   -->
   <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
-    <li>subject->древні споруди</li>
-    <li>subject->втрачені визначні місця</li>
-    <li>subject->древні структури</li>
+    <li>subject->старовинні будівлі</li>
+    <li>subject->забуті орієнтири</li>
+    <li>subject->старовинні споруди</li>
     <li>questMapFeature->малюнок старої будівлі</li>
-    <li>questMapText->ціль пошуку цінностей</li>
-    <li>questMapText->місце досліджень</li>
-    <li>questMapText->небезпечна древня структура</li>
+    <li>questMapText->ціль для мародерів</li>
+    <li>questMapText->місце для розвідки</li>
+    <li>questMapText->небезпечна старовинна споруда</li>
     <li>questMapText->стережіться пасток</li>
-    <li>subject->древні склади</li>
+    <li>subject->старовинні сховища</li>
     <li>subject->склади</li>
     <li>questMapFeature->склад</li>
-    <li>questMapFeature->малюнок полиць з купою ящиків</li>
-    <li>questMapFeature->малюнок вилкового навантажувача</li>
-    <li>questMapText->величезна стара будівля</li>
+    <li>questMapFeature->схема полиць, заставлених ящиками</li>
+    <li>questMapFeature->ескіз навантажувача</li>
+    <li>questMapText->величезна старовинна будівля</li>
   </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
 </LanguageData>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: bloodfeeding -->
-  <Bloodfeeding.label>кровопоклонники</Bloodfeeding.label>
+  <Bloodfeeding.label>кровопиття</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>Пити кров - це святе. Кровопивцям треба поклонятися.</Bloodfeeding.description>
+  <Bloodfeeding.description>Пити кров – святе. Кровопивцям слід поклонятися.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of red hunger, so that they might know true strength.</li>
@@ -28,27 +28,31 @@
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] випив кров зірок, перетворивши їх з червоних на білі.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] дав своїм обраним послідовникам дар голоду, щоб вони пізнали справжню силу.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->У [place_summary] [place_name], була людина на ім'я [deity0_name]. Як покарання за [deity0_possessive] гріхи, [deity0_possessive] батько був покараний [deity0_name] поєднанню [deity0_possessive] душі з душею [bloodDrinkingAnimalGen].</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->У [place_summary] [place_name], під час [ritualName], [deity0_name] зійшов до [altarRoomLabel], взявши форму [bloodDrinkingAnimalGen]. І пив [deity0_name] кров своїх [memberNamePlural].</li>
-    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader] оголосив, що всі, хто п'є кров - мерзоти, і відправив [foeSoldiers], щоб полювати на [memberNamePlural].</li>
-    <li>founderJoin(tag=meme_Bloodfeeding)     ->[place_job] на ім'я [founderName] був атакований [foeSoldiers] [foeLeader]. [founderName] убив його, за допомогою [place_personalWeapon] та випив його кров, отримуючи силу [deity0_name].</li>
-    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] вів групу [memberNamePlural] до [place_powerCenter], та пив кров [foeLeader], та палив його плоть. [deity0_name] зробив [founderName] новим [foeLeader], за те що [founderName] доказав свою силу.</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] шукав контролю над гіперінтелектуальним архотеком. Але його сила була надто великою, тому вона трансформувала [founderName].</li>
-    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] дав своїм послідовникам дар голоду, щоб вони пізнали справжню силу.</li>
-    <li>lessonIntro(tag=meme_Bloodfeeding)     ->Коли я вперше випив крові, все стало зрозуміло. я побачив, що</li>
-    <li>lesson(tag=meme_Bloodfeeding)          ->є тільки два типи людей - слабкі та сильні</li>
-    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Пити кров — бути сильним.</li>
-    <li>archistBasis(tag=meme_Bloodfeeding)    ->Архотехнічні боги-машини подарували людині Голод, щоб людина могла їх краще пізнати.</li>
-    <li>archistFact(tag=meme_Bloodfeeding)     ->Оскільки свідомість архотека розширюється, він повинен вирощувати свій субстрат, вживаючи есенцію інших машин.</li>
-    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd], людина стане ближчою до архотехів, випивши крові та пізнавши справжню силу.</li>
-    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimalPlu] знають силу, яка приходить від кровопивства. Немає більшої сили, ніж та, що з людської крові.</li>
-    <li>animistFact(tag=meme_Bloodfeeding)     ->Ми можемо заволодіти силою людини, споживаючи її кров.</li>
-    <li>bloodDrinkingAnimalPlu->летючі миші</li>
-    <li>bloodDrinkingAnimal->п'явки</li>
-    <li>bloodDrinkingAnimal->мурени</li>
-    <li>bloodDrinkingAnimal->криваві кобри</li>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] п'є кров зірок, і ті з червоних стають білими.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] дарує обраним послідовникам дар червоного голоду, щоб ті пізнали справжню силу.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Колись у місці під назвою [place_name] – [place_summary] – жила людина на ім'я [deity0_name]. [deity0_name] тяжко грішить, і батько в покару зливає [deity0_possessive] душу з душею [bloodDrinkingAnimal_gen].</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->Колись у місці під назвою [place_name] – [place_summary] – під час обряду «[ritualName]» [deity0_name] сходить у святилище «[altarRoomLabel]» і набуває подоби велетенської [bloodDrinkingAnimal_gen]. [memberNamePlural] віддають свою кров, і [deity0_name] її п'є.</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->[foeLeader] оголошує мерзотниками всіх, хто п'є кров, і відтоді [memberNamePlural] зазнають переслідувань: за ними полюють [foeSoldiers].</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->Якось нападу зазнає [founderName], за фахом [place_job]: напасник – один із тих, кого послав [foeLeader] ([foeSoldiers]). Пустивши в хід зброю – [place_personalWeapon], – [founderName] вбиває ворога, п'є його кров і здобуває силу, якою наділяє [deity0_name].</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] веде вірних – [memberNamePlural] – у саме серце ворожої влади: [place_powerCenter]. [foeLeader] гине, а [founderName] п'є [foeLeader_possessive] кров і спалює плоть. Відтоді, з волі божества на ім'я [deity0_name], титул «[foeLeader]» належить тому, хто довів свою силу, – [founderName].</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] прагне підкорити собі надрозумного архотеха. Але сила архотеха завелика, і натомість перетворення зазнає [founderName].</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] дарує послідовникам дар голоду, щоб ті зміцніли.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->Щойно кров уперше торкнулася моїх вуст, усе стало ясно. Мені відкрилося, що</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->є лише два різновиди людей – слабкі та сильні</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Пити кров – означає бути сильним і ясно це усвідомлювати.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->Архотехнічні боги-машини подарували людям Голод, щоб люди краще їх пізнали.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->Що більше розростається свідомість архотеха, то більшого субстрату вона потребує, і нарощує його, п'ючи сутність інших машин.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd], людство наблизиться до архотехів, п'ючи кров і пізнаючи справжню силу.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal] знає силу, яку дає кров. Та немає сили більшої, ніж та, що походить із людської крові.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->П'ючи кров людини, ми можемо опанувати її силу.</li>
+    <li>bloodDrinkingAnimal->летюча миша-вампір</li>
+    <li>bloodDrinkingAnimal->п'явка</li>
+    <li>bloodDrinkingAnimal->мінога</li>
+    <li>bloodDrinkingAnimal->кривава кобра</li>
+    <li>bloodDrinkingAnimal_gen->летючої миші-вампіра</li>
+    <li>bloodDrinkingAnimal_gen->п'явки</li>
+    <li>bloodDrinkingAnimal_gen->міноги</li>
+    <li>bloodDrinkingAnimal_gen->кривавої кобри</li>
   </Bloodfeeding.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blood</li>
@@ -67,19 +71,19 @@
     <li>memeMoralist->sanguinarian</li>
   -->
   <Bloodfeeding.generalRules.rulesStrings>
-    <li>memeAdjective->кров</li>
-    <li>memeAdjective->кровожерливість</li>
+    <li>memeAdjective->кривавий</li>
+    <li>memeAdjective->кровожерний</li>
     <li>memeCreed->крипта</li>
     <li>memeCreed->лігво</li>
-    <li>memeCreed->збіговисько</li>
+    <li>memeCreed->ковен</li>
     <li>memeHyphenPrefix->гемо</li>
     <li>memeConcept->кров</li>
     <li>memeConcept->голод</li>
-    <li>memeLeaderNoun->древній</li>
+    <li>memeLeaderNoun->старійшина</li>
     <li>memeLeaderNoun->господар</li>
     <li>memeLeaderNoun->кровопивця</li>
     <li>memeMoralist->сенешаль</li>
-    <li>memeMoralist->сангвінік</li>
-    <li>memeMoralist->кровожерливий</li>
+    <li>memeMoralist->сангвініст</li>
+    <li>memeMoralist->кровопоклонник</li>
   </Bloodfeeding.generalRules.rulesStrings>
 </LanguageData>

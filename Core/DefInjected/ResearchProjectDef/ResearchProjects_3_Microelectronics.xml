@@ -3,7 +3,7 @@
   <!-- EN: deep drilling -->
   <DeepDrilling.label>глибинне буріння</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
-  <DeepDrilling.description>Будування глибинних бурових установок для видобутку корисних копалин з під землі. Для виявлення покладів, вам потрібен глибинний сканер.</DeepDrilling.description>
+  <DeepDrilling.description>Будуйте бурові установки для видобутку ресурсів з-під землі. Щоб знайти поклади, знадобиться глибинний сканер.</DeepDrilling.description>
   <!-- EN:
     <li>subject->deep mining</li>
     <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
@@ -12,16 +12,16 @@
     <li>subject_gerund->mining deeply</li>
   -->
   <DeepDrilling.generalRules.rulesStrings>
-    <li>subject->deep mining</li>
-    <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
-    <li>subject_story->drilled down to the ice cap's root to discover the world's extinct prehuman biome</li>
-    <li>subject_story->became wealthy from the resources dug out of the world's core</li>
-    <li>subject_gerund->mining deeply</li>
+    <li>subject->глибинне видобування</li>
+    <li>subject_story->{ANYPAWN_gender ? перебрався : перебралася} до корпорації під проводом людокрота й {ANYPAWN_gender ? вивчав : вивчала} її найглибші розкопи</li>
+    <li>subject_story->{ANYPAWN_gender ? пробурився : пробурилася} до самої основи полярної шапки й {ANYPAWN_gender ? відкрив : відкрила} вимерлий долюдський біом цього світу</li>
+    <li>subject_story->{ANYPAWN_gender ? розбагатів : розбагатіла} на ресурсах, видобутих з ядра планети</li>
+    <li>subject_gerund->видобування з надр</li>
   </DeepDrilling.generalRules.rulesStrings>
   <!-- EN: flatscreen television -->
-  <FlatscreenTelevision.label>РК-телевізори</FlatscreenTelevision.label>
+  <FlatscreenTelevision.label>телевізори з плоским екраном</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
-  <FlatscreenTelevision.description>Телевізори з плоским екраном і високою роздільною здатністю зроблять перегляд звичних телепередач ще більш цікавим.</FlatscreenTelevision.description>
+  <FlatscreenTelevision.description>Виготовляйте РК-телевізори з високою роздільною здатністю, щоб отримувати від перегляду ще більше задоволення.</FlatscreenTelevision.description>
   <!-- EN:
     <li>subject->flatscreen televisions</li>
     <li>subject_story->experimented with removing tubes from televisions</li>
@@ -35,21 +35,21 @@
     <li>subject_gerund->producing flatscreen televisions</li>
   -->
   <FlatscreenTelevision.generalRules.rulesStrings>
-    <li>subject->flatscreen televisions</li>
-    <li>subject_story->experimented with removing tubes from televisions</li>
-    <li>subject_story->agitated for galaxy-wide, high-resolution broadcasts of [tv_content]</li>
-    <li>tv_content->soap operas</li>
-    <li>tv_content->news programmes</li>
-    <li>tv_content->revolutionary propaganda</li>
-    <li>tv_content->glitterworld fashion</li>
-    <li>tv_content->docartoons</li>
-    <li>subject_story->became a television executive, in charge of [tv_content]</li>
-    <li>subject_gerund->producing flatscreen televisions</li>
+    <li>subject->РК-телевізори</li>
+    <li>subject_story->{ANYPAWN_gender ? експериментував : експериментувала}, прибираючи з телевізорів трубки</li>
+    <li>subject_story->{ANYPAWN_gender ? агітував : агітувала} за загальногалактичні трансляції [tv_content] у високій роздільності</li>
+    <li>tv_content->мильних опер</li>
+    <li>tv_content->новинних програм</li>
+    <li>tv_content->революційної пропаганди</li>
+    <li>tv_content->моди світів-раїв</li>
+    <li>tv_content->документальних мультфільмів</li>
+    <li>subject_story->{ANYPAWN_gender ? став : стала} телевізійним керівником, відповідальним за показ [tv_content]</li>
+    <li>subject_gerund->виготовлення РК-телевізорів</li>
   </FlatscreenTelevision.generalRules.rulesStrings>
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>глибинний сканер</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
-  <GroundPenetratingScanner.description>Глибинний сканери здатні знаходити поклади під землею. Потребує передових компонентів для конструювання.</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>Будуйте глибинні сканери, що виявляють під поверхнею ресурси, придатні для буріння. Для спорудження потрібен передовий компонент.</GroundPenetratingScanner.description>
   <!-- EN:
     <li>subject->geophysics</li>
     <li>subject->ground-penetrating scanners</li>
@@ -59,17 +59,17 @@
     <li>subject_gerund->constructing geophysical scanners</li>
   -->
   <GroundPenetratingScanner.generalRules.rulesStrings>
-    <li>subject->geophysics</li>
-    <li>subject->ground-penetrating scanners</li>
-    <li>subject_story->discovered the bones of ancient giants, far below the planet's surface</li>
-    <li>subject_story->stumbled across a rich gold seam whilst scanning for tin and became fabulously wealthy</li>
-    <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
-    <li>subject_gerund->constructing geophysical scanners</li>
+    <li>subject->геофізика</li>
+    <li>subject->глибинні сканери</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} глибоко під поверхнею планети кістки древніх велетнів</li>
+    <li>subject_story->шукаючи олово, {ANYPAWN_gender ? натрапив : натрапила} на багату золоту жилу й казково {ANYPAWN_gender ? розбагатів : розбагатіла}</li>
+    <li>subject_story->{ANYPAWN_gender ? сканував : сканувала} землю в пошуках старих мінних полів, щоб уберегти людей</li>
+    <li>subject_gerund->спорудження геофізичних сканерів</li>
   </GroundPenetratingScanner.generalRules.rulesStrings>
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>важкі турелі</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
-  <HeavyTurrets.description>Конструювання важких автоматичних турелів.</HeavyTurrets.description>
+  <HeavyTurrets.description>Будуйте важкі турелі з автоматичною гарматою.</HeavyTurrets.description>
   <!-- EN:
     <li>subject->autocannon turrets</li>
     <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
@@ -78,16 +78,16 @@
     <li>subject_gerund->crafting heavy autocannon turrets</li>
   -->
   <HeavyTurrets.generalRules.rulesStrings>
-    <li>subject->autocannon turrets</li>
-    <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
-    <li>subject_story->was hired to establish a defensive perimeter of sandbags and turrets for the locals</li>
-    <li>subject_story->built turret after turret, never asking who was buying them</li>
-    <li>subject_gerund->crafting heavy autocannon turrets</li>
+    <li>subject->важкі турелі</li>
+    <li>subject_story->самотужки {ANYPAWN_gender ? відбив : відбила} напад культистів, сховавшись за стіною турелей</li>
+    <li>subject_story->{ANYPAWN_gender ? найнявся : найнялася} облаштувати для місцевих оборонний периметр з мішків з піском і турелей</li>
+    <li>subject_story->{ANYPAWN_gender ? будував : будувала} турель за туреллю, ніколи не питаючи, хто їх купує</li>
+    <li>subject_gerund->спорудження важких турелей</li>
   </HeavyTurrets.generalRules.rulesStrings>
   <!-- EN: hospital bed -->
   <HospitalBed.label>лікарняне ліжко</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
-  <HospitalBed.description>Створюйте лікарняні ліжка, що підвищують якість медичних операцій.</HospitalBed.description>
+  <HospitalBed.description>Будуйте лікарняні ліжка, що покращують результати лікування.</HospitalBed.description>
   <!-- EN:
     <li>subject->hospitalization</li>
     <li>subject_story->oversaw a revolution in the standards of medical care</li>
@@ -96,16 +96,16 @@
     <li>subject_gerund->constructing hospital beds</li>
   -->
   <HospitalBed.generalRules.rulesStrings>
-    <li>subject->hospitalization</li>
-    <li>subject_story->oversaw a revolution in the standards of medical care</li>
-    <li>subject_story->constructed the first of the system's public hospitals</li>
-    <li>subject_story->focused on profit, selling [ANYPAWN_pronoun] superior medical suites to the wealthy</li>
-    <li>subject_gerund->constructing hospital beds</li>
+    <li>subject->стаціонарне лікування</li>
+    <li>subject_story->{ANYPAWN_gender ? очолив : очолила} революцію в стандартах медичної допомоги</li>
+    <li>subject_story->{ANYPAWN_gender ? збудував : збудувала} першу громадську лікарню в системі</li>
+    <li>subject_story->{ANYPAWN_gender ? дбав : дбала} лише про прибуток і {ANYPAWN_gender ? продавав : продавала} заможним свої найкращі медичні палати</li>
+    <li>subject_gerund->виготовлення лікарняних ліжок</li>
   </HospitalBed.generalRules.rulesStrings>
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>сканер мінералів далекої дії</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
-  <LongRangeMineralScanner.description>Сканери мінералів далекої дії дозволять вашим вченим знаходити родовища цінних мінералів по всій планеті. Цей прилад можна також налаштувати на пошук конкретного мінералу. Потребує передових компонентів для конструювання.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>Будуйте сканери мінералів далекої дії, якими ваші дослідники зможуть шукати цінні мінерали по всій планеті. Сканер можна налаштувати на пошук конкретного мінералу. Для спорудження потрібні передові компоненти.</LongRangeMineralScanner.description>
   <!-- EN:
     <li>subject->long-range mineral detection</li>
     <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
@@ -114,16 +114,16 @@
     <li>subject_gerund->constructing long-range mineral scanners</li>
   -->
   <LongRangeMineralScanner.generalRules.rulesStrings>
-    <li>subject->long-range mineral detection</li>
-    <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
-    <li>subject_story->discovered with a scanner what the other settlements were mining and made huge profits through trading</li>
-    <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
-    <li>subject_gerund->constructing long-range mineral scanners</li>
+    <li>subject->пошук мінералів на великій відстані</li>
+    <li>subject_story->{ANYPAWN_gender ? збудував : збудувала} стільки сканерів, що стала відома вся геологія планети</li>
+    <li>subject_story->сканером {ANYPAWN_gender ? з'ясував : з'ясувала}, що видобувають інші поселення, і {ANYPAWN_gender ? заробив : заробила} статки на торгівлі</li>
+    <li>subject_story->{ANYPAWN_gender ? вичерпав : вичерпала} весь нефрит планети на релігійні статуї</li>
+    <li>subject_gerund->спорудження сканерів мінералів далекої дії</li>
   </LongRangeMineralScanner.generalRules.rulesStrings>
   <!-- EN: medicine production -->
   <MedicineProduction.label>виробництво медикаментів</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
-  <MedicineProduction.description>Створення стандартного набору ліків з лікарських трав, нейтроаміну і різних видів перев'язувального матеріалу.</MedicineProduction.description>
+  <MedicineProduction.description>Виготовляйте сучасні ліки з лікарських рослин, нейтроаміну й тканини.</MedicineProduction.description>
   <!-- EN:
     <li>subject->medical synthesis</li>
     <li>subject->medicine production</li>
@@ -133,17 +133,17 @@
     <li>subject_gerund->producing industrial-tech medicine</li>
   -->
   <MedicineProduction.generalRules.rulesStrings>
-    <li>subject->medical synthesis</li>
-    <li>subject->medicine production</li>
-    <li>subject_story->researched urbworld medicine, aiming to distribute the knowledge more widely</li>
-    <li>subject_story->was puzzled by the origins of neutroamine and determined to find out more</li>
-    <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
-    <li>subject_gerund->producing industrial-tech medicine</li>
+    <li>subject->синтез ліків</li>
+    <li>subject->виробництво ліків</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} медицину урбанізованих світів, щоб поширити ці знання якомога ширше</li>
+    <li>subject_story->{ANYPAWN_gender ? зацікавився : зацікавилася} походженням нейтроаміну й {ANYPAWN_gender ? вирішив : вирішила} будь-що дізнатися більше</li>
+    <li>subject_story->{ANYPAWN_gender ? відібрав : відібрала} запаси в наркоторговця й {ANYPAWN_gender ? виготовив : виготовила} з них корисні ліки</li>
+    <li>subject_gerund->виготовлення сучасних ліків</li>
   </MedicineProduction.generalRules.rulesStrings>
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>мікроелектроніка</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
-  <MicroelectronicsBasics.description>Знання основ роботи з тонкою та складною електронікою відкриває високотехнологічний стіл для досліджень, консоль зв'язку, а також інші проєкти.</MicroelectronicsBasics.description>
+  <MicroelectronicsBasics.description>Опануйте складну мікроелектроніку. Відкриває високотехнологічний дослідницький стіл і термінал зв'язку.</MicroelectronicsBasics.description>
   <!-- EN:
     <li>subject->microelectronics</li>
     <li>subject_story->moved into the development of microelectronics</li>
@@ -152,16 +152,16 @@
     <li>subject_gerund->crafting microelectronics</li>
   -->
   <MicroelectronicsBasics.generalRules.rulesStrings>
-    <li>subject->microelectronics</li>
-    <li>subject_story->moved into the development of microelectronics</li>
-    <li>subject_story->constructed the first of many research bench variants</li>
-    <li>subject_story->moved from town to town, praising the virtues of pure research</li>
-    <li>subject_gerund->crafting microelectronics</li>
+    <li>subject->мікроелектроніка</li>
+    <li>subject_story->{ANYPAWN_gender ? перейшов : перейшла} до розробки мікроелектроніки</li>
+    <li>subject_story->{ANYPAWN_gender ? сконструював : сконструювала} перший з багатьох різновидів дослідницького стола</li>
+    <li>subject_story->{ANYPAWN_gender ? мандрував : мандрувала} від міста до міста, вихваляючи чесноти фундаментальної науки</li>
+    <li>subject_gerund->виготовлення мікроелектроніки</li>
   </MicroelectronicsBasics.generalRules.rulesStrings>
   <!-- EN: moisture pump -->
   <MoisturePump.label>водяний насос</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
-  <MoisturePump.description>Ці пристрої поступово осушують землю навколо себе. Вони можуть осушити болота і перетворити м’який пісок у звичайний.</MoisturePump.description>
+  <MoisturePump.description>Будуйте водяні насоси, які дуже повільно нормалізують вологість ґрунту навколо себе. Вони можуть осушити вологу землю й перетворити м'який пісок на звичайний.</MoisturePump.description>
   <!-- EN:
     <li>subject->moisture pumps</li>
     <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
@@ -170,16 +170,16 @@
     <li>subject_gerund->constructing moisture pumps</li>
   -->
   <MoisturePump.generalRules.rulesStrings>
-    <li>subject->moisture pumps</li>
-    <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
-    <li>subject_story->drained the great swamps that bred disease</li>
-    <li>subject_story->tried to drain the seas, foolishly</li>
-    <li>subject_gerund->constructing moisture pumps</li>
+    <li>subject->водяні насоси</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} старовинні вітряні водяні насоси Землі</li>
+    <li>subject_story->{ANYPAWN_gender ? осушив : осушила} великі болота, що плодили хвороби</li>
+    <li>subject_story->нерозважливо {ANYPAWN_gender ? намагався : намагалася} осушити моря</li>
+    <li>subject_gerund->спорудження водяних насосів</li>
   </MoisturePump.generalRules.rulesStrings>
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>багатоствольна зброя</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
-  <MultibarrelWeapons.description>Розуміння принципів роботи багатоствольної зброї дозволяє збирати мініґани.</MultibarrelWeapons.description>
+  <MultibarrelWeapons.description>Збирайте мініґани.</MultibarrelWeapons.description>
   <!-- EN:
     <li>subject->miniguns</li>
     <li>subject_story->constructed a unique portable minigun, which was the only thing found after the squad's disappearance</li>
@@ -188,16 +188,16 @@
     <li>subject_gerund->crafting multibarrel weapons</li>
   -->
   <MultibarrelWeapons.generalRules.rulesStrings>
-    <li>subject->мініґан</li>
-    <li>subject_story->сконструював унікальний портативний мініґан, який був єдиною річчю, знайденою після зникнення загону</li>
-    <li>subject_story->розробив великі контейнери, щоб не закінчувалися боєприпаси для мініґана</li>
-    <li>subject_story->built guns explicitly to kill every last person in a room</li>
-    <li>subject_gerund->crafting multibarrel weapons</li>
+    <li>subject->мініґани</li>
+    <li>subject_story->{ANYPAWN_gender ? сконструював : сконструювала} унікальний переносний мініґан – єдине, що знайшли після зникнення загону</li>
+    <li>subject_story->{ANYPAWN_gender ? розробив : розробила} величезні бункери, щоб у мініґана ніколи не закінчувалися набої</li>
+    <li>subject_story->{ANYPAWN_gender ? створював : створювала} зброю з єдиною метою – убити всіх до одного в кімнаті</li>
+    <li>subject_gerund->виготовлення багатоствольної зброї</li>
   </MultibarrelWeapons.generalRules.rulesStrings>
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>високоточна зброя</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
-  <PrecisionRifling.description>Високоточною зброєю вважаються штурмові та снайперські гвинтівки.</PrecisionRifling.description>
+  <PrecisionRifling.description>Виготовляйте точно оброблену зброю, як-от штурмові й снайперські гвинтівки.</PrecisionRifling.description>
   <!-- EN:
     <li>subject->rifles</li>
     <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
@@ -206,16 +206,16 @@
     <li>subject_gerund->crafting rifles</li>
   -->
   <PrecisionRifling.generalRules.rulesStrings>
-    <li>subject->rifles</li>
-    <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
-    <li>subject_story->was hunted by neanderthals but constructed a sniper rifle to safely kill their leader</li>
-    <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
-    <li>subject_gerund->crafting rifles</li>
+    <li>subject->гвинтівки</li>
+    <li>subject_story->{ANYPAWN_gender ? підвищив : підвищила} точність процесів ливарні, що дало змогу робити якісні нарізні стволи</li>
+    <li>subject_story->{ANYPAWN_gender ? став здобиччю : стала здобиччю} неандертальців, але {ANYPAWN_gender ? змайстрував : змайструвала} снайперську гвинтівку й з безпечної відстані {ANYPAWN_gender ? вбив : вбила} їхнього ватажка</li>
+    <li>subject_story->ненадовго {ANYPAWN_gender ? прославився : прославилася}, вибивши пострілом плід амброзії з руки володаря</li>
+    <li>subject_gerund->виготовлення гвинтівок</li>
   </PrecisionRifling.generalRules.rulesStrings>
   <!-- EN: shields -->
   <ShieldBelt.label>генератори щита</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
-  <ShieldBelt.description>Імпульсно-відштовхувальна технологія, що дозволяє конструювати мініатюрні генератори захисного поля, яке не пропускає через себе снаряди, що швидко летять.</ShieldBelt.description>
+  <ShieldBelt.description>Виготовляйте щити, які носять на собі. Щити не дають снарядам перетнути межу поля завдяки технології імпульсного відштовхування.</ShieldBelt.description>
   <!-- EN:
     <li>subject->personal shielding</li>
     <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
@@ -224,16 +224,16 @@
     <li>subject_gerund->crafting personal shields</li>
   -->
   <ShieldBelt.generalRules.rulesStrings>
-    <li>subject->personal shielding</li>
-    <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
-    <li>subject_story->hustled at billiards, using a hidden momentum repeller</li>
-    <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
-    <li>subject_gerund->crafting personal shields</li>
+    <li>subject->персональні щити</li>
+    <li>subject_story->{ANYPAWN_gender ? пережив : пережила} замах завдяки прототипу щита</li>
+    <li>subject_story->{ANYPAWN_gender ? обігрував : обігрувала} простаків у більярд за допомогою прихованого імпульсного відштовхувача</li>
+    <li>subject_story->{ANYPAWN_gender ? вбив : вбила} ворога, просуваючи лезо так повільно, що воно минуло щит</li>
+    <li>subject_gerund->виготовлення персональних щитів</li>
   </ShieldBelt.generalRules.rulesStrings>
   <!-- EN: transport pod -->
   <TransportPod.label>транспортні капсули</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
-  <TransportPod.description>Транспортні капсули дозволяють перекидати людей і вантажі суборбітальною траєкторією на великі відстані. Капсули можуть бути використані для здійснення рейдів, подорожей, відправки подарунків тощо.</TransportPod.description>
+  <TransportPod.description>Будуйте транспортні капсули, якими можна запускати людей і вантажі на великі відстані над поверхнею планети. Згодяться для рейдів, подорожей, надсилання подарунків тощо.</TransportPod.description>
   <!-- EN:
     <li>subject->transport pods</li>
     <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>
@@ -243,9 +243,9 @@
   -->
   <TransportPod.generalRules.rulesStrings>
     <li>subject->транспортні капсули</li>
-    <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>
-    <li>subject_story->spent a fortune sending a transport pod to the object of [ANYPAWN_possessive] affection, carrying a single wedding ring</li>
-    <li>subject_story->staved off famine through judicious pod deployment</li>
-    <li>subject_gerund->constructing transport pods</li>
+    <li>subject_story->{ANYPAWN_gender ? посадив : посадила} капсулу посеред дикого племені й {ANYPAWN_gender ? ледве втік живим : ледве втекла живою}</li>
+    <li>subject_story->{ANYPAWN_gender ? витратив : витратила} цілі статки, щоб надіслати коханій людині транспортну капсулу з однією-єдиною обручкою</li>
+    <li>subject_story->{ANYPAWN_gender ? відвернув : відвернула} голод завдяки розважливому використанню капсул</li>
+    <li>subject_gerund->спорудження транспортних капсул</li>
   </TransportPod.generalRules.rulesStrings>
 </LanguageData>

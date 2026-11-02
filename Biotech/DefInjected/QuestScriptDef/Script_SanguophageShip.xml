@@ -10,19 +10,19 @@
   -->
   <SanguophageShip.questContentRules.rulesStrings>
     <li>sanguophageShuttleCrashedLetterLabel->Падіння шатла</li>
-    <li>sanguophageShuttleCrashedLetterText->Шатл, що перевозить сангвофага-майстра та [thrallCount] посіпак падає неподалік. Вони вибираються назовні та готуються до битви.</li>
-    <li>reinforcementsArrivedLetterLabel->Підкріплення посіпак</li>
-    <li>reinforcementsArrivedLetterText->Прибувають посіпаки на транспортних капсулах, щоб допомогти сангвофагу.</li>
-    <li>assaultBeginLetterLabel->Атака почалась</li>
-    <li>assaultBeginLetterText->Ворожий сангвофаг-майстер та [sanguophage_possessive] посіпаки розпочинають штурм колонії!</li>
+    <li>sanguophageShuttleCrashedLetterText->Неподалік розбився шатл зі сангвофагом-господарем і його траллами ([thrallCount]). Вони виберуться з уламків і готуватимуться до бою.</li>
+    <li>reinforcementsArrivedLetterLabel->Підкріплення траллів</li>
+    <li>reinforcementsArrivedLetterText->У транспортних капсулах прибувають тралли на допомогу сангвофагу, що зазнав аварії.</li>
+    <li>assaultBeginLetterLabel->Штурм почався</li>
+    <li>assaultBeginLetterText->Ворожий сангвофаг-господар і {sanguophage_gender ? його : її} тралли пішли на штурм колонії!</li>
   </SanguophageShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви перехопили зашифрований сигнал! Ворожий шатл, що перевозить сангвофага-майстра на ім'я [sanguophage_nameDef] та [thrallCount] посіпак, має проблеми з двигуном. Ви можете використати сигнал, щоб змусити їх приземлитися у вашій місцевості.\n\nКоли шатл впаде, ви можете атакувати сангвофага та [sanguophage_possessive] міньйонів. Якщо ви захопите майстра, ви зможете змусити [sanguophage_possessive] перетворити одного з ваших власних колоністів на сангвофага.\n\n[sanguophageInfo]</li>
-    <li>sanguophageInfo->(*Gray)Про сангвофагів: Сангвофаги - вічні, безсмертні супер-люди, кров яких містить створених архотеками архітів. Вони красиві та дуже розумні. Вони можуть зцілитися від будь-яких поранень, хвороб або отруєнь. В бою вони можуть випускати смертельні шипи та зціляти поранених союзників. Ціною за це є необхідність вживати гемоген з людської крові, щоб вижити. Також, їм періодично необхідно впадати в летаргічний сон на декілька днів. Вони смертельно вразливі до вогню а ультрафіолетові промені сповільнюють їх.(/Gray)</li>
+    <li>questDescription->Ви перехопили сигнал лиха! У ворожого шатла, що везе сангвофага-господаря на ім'я [sanguophage_nameDef] і його траллів ([thrallCount]), відмовляють двигуни. За допомогою сигналів ви можете змусити його розбитися неподалік від поселення [map_definite].\n\nКоли шатл упаде, ви зможете битися із сангвофагом і {sanguophage_gender ? його : її} поплічниками. Якщо вдасться захопити господаря, ви зможете змусити {sanguophage_gender ? його : її} перетворити одного з ваших колоністів на сангвофага.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)Про сангвофагів: сангвофаги – надлюди, які не старіють і не вмирають завдяки архітам у крові, створеним архотеками. Вони вродливі й надзвичайно розумні. Вони загоюють будь-які рани й ніколи не страждають від хвороб чи отрут. У бою вони випускають смертоносні шипи й зцілюють поранених союзників. Ціна цього – щоб вижити, сангвофаги мусять споживати гемоген з людської крові й періодично надовго впадати в летаргію. Вогонь легко їх знищує, а ультрафіолет сповільнює.(/Gray)</li>
   </SanguophageShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -44,22 +44,39 @@
     <li>shipNoun->wreck</li>
   -->
   <SanguophageShip.questNameRules.rulesStrings>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>shipAdjective->сангвофаг</li>
-    <li>shipAdjective->кровожерливий</li>
-    <li>shipAdjective->кров</li>
-    <li>shipAdjective->тінь</li>
-    <li>shipAdjective->темрява</li>
-    <li>shipAdjective->гемоген</li>
-    <li>shipAdjective->червоний</li>
-    <li>shipAdjective->струп</li>
-    <li>shipAdjective->гемічний</li>
-    <li>shipAdjective->сангвінік</li>
-    <li>shipNoun->корабель</li>
-    <li>shipNoun->шатл</li>
-    <li>shipNoun->ремесло</li>
-    <li>shipNoun->розбиття</li>
+    <li>questName(p=3)->[shipAdjective] [shipNoun_m]</li>
+    <li>questName->[shipAdjective_f] катастрофа</li>
+    <li>questName->[shipAdjective_n] судно</li>
+    <li>questName->[shipAdjective_pl] уламки</li>
+    <li>questName(p=2)->[shipNoun] сангвофага</li>
+    <li>shipNoun->[shipNoun_m]</li>
+    <li>shipNoun->судно</li>
+    <li>shipNoun->уламки</li>
     <li>shipNoun->катастрофа</li>
-    <li>shipNoun->крах</li>
+    <li>shipNoun_m->корабель</li>
+    <li>shipNoun_m->шатл</li>
+    <li>shipNoun_m->остов</li>
+    <li>shipNoun_m->корабельний остов</li>
+    <li>shipAdjective->кровожерливий</li>
+    <li>shipAdjective->кривавий</li>
+    <li>shipAdjective->тіньовий</li>
+    <li>shipAdjective->темний</li>
+    <li>shipAdjective->багряний</li>
+    <li>shipAdjective->червоний</li>
+    <li>shipAdjective->кров'яний</li>
+    <li>shipAdjective_f->кровожерлива</li>
+    <li>shipAdjective_f->кривава</li>
+    <li>shipAdjective_f->тіньова</li>
+    <li>shipAdjective_f->темна</li>
+    <li>shipAdjective_f->багряна</li>
+    <li>shipAdjective_f->червона</li>
+    <li>shipAdjective_n->криваве</li>
+    <li>shipAdjective_n->тіньове</li>
+    <li>shipAdjective_n->темне</li>
+    <li>shipAdjective_n->багряне</li>
+    <li>shipAdjective_pl->криваві</li>
+    <li>shipAdjective_pl->тіньові</li>
+    <li>shipAdjective_pl->темні</li>
+    <li>shipAdjective_pl->багряні</li>
   </SanguophageShip.questNameRules.rulesStrings>
 </LanguageData>

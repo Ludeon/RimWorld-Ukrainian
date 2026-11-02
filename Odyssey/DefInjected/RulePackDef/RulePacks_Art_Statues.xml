@@ -166,169 +166,198 @@
     <li>prop->human heart</li>
   -->
   <ArtDescription_Statue.rulePack.rulesStrings>
-    <li>r_statue_description->Ця статуя [statueDepicts] [SUBJECT_nameFull_acc], що [statueSubjectDesc_acc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->Це [statueAdj] статуя [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->[carvedAdverb] Це [carvedVerb] статуя [SUBJECT_nameFull]. Вона [statueDepicts] [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->Статуя, що зображає [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->[statueAdj] Статуя [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
-    <li>statueSubjectDesc->стоїть прямо, тримаючи щось — це начебто [prop] — обома руками</li>
-    <li>statueSubjectDesc->стоїть, високо піднявши голову, та шляхетно вдивляється в далечінь</li>
-    <li>statueSubjectDesc->стоїть, піднімаючи кулак до неба</li>
-    <li>statueSubjectDesc->тягнеться вгору, наче хапаючи щось невидиме</li>
-    <li>statueSubjectDesc->нахиляється вбік, наче ось-ось впаде[maybeInsult]</li>
+    <li>r_statue_description->Ця статуя [statueDepicts], як [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Це [statueAdj] статуя: [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Цю статую [carvedAdverb] [carvedVerb]. Вона [statueDepicts], як [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Статуя показує, як [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Це [statueAdj] статуя; на п'єдесталі – [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->стоїть прямо й обома руками тримає [prop_acc]</li>
+    <li>statueSubjectDesc->стоїть на повний зріст і шляхетно вдивляється в далечінь</li>
+    <li>statueSubjectDesc->здіймає кулак до неба</li>
+    <li>statueSubjectDesc->тягнеться вгору, ніби хапаючи щось невидиме</li>
+    <li>statueSubjectDesc->хилиться набік, ніби от-от упаде[maybeInsult]</li>
     <li>statueSubjectDesc->стоїть на одній нозі[maybeInsult]</li>
-    <li>statueSubjectDesc->глибоко вклоняється</li>
-    <li>statueSubjectDesc->стоїть, наче долаючи сильний вітер</li>
-    <li>statueSubjectDesc->стоїть на колінах у молитві</li>
-    <li>statueSubjectDesc->піднімає руки, наче у молитві</li>
-    <li>statueSubjectDesc->складає руки разом у жесті вдячності</li>
-    <li>statueSubjectDesc->біжить на повній швидкості</li>
-    <li>statueSubjectDesc->дивиться в небо, розкривши руки</li>
-    <li>statueSubjectDesc->держіть руки на стегнах</li>
-    <li>statueSubjectDesc->піднімає в тріумфі руки</li>
-    <li>statueSubjectDesc->тримає предмет — це [prop] в одній руці[maybeOtherHand]</li>
+    <li>statueSubjectDesc->низько вклоняється</li>
+    <li>statueSubjectDesc->опирається вітру</li>
+    <li>statueSubjectDesc->стоїть навколішки в молитві</li>
+    <li>statueSubjectDesc->здіймає руки, ніби в молитві</li>
+    <li>statueSubjectDesc->складає долоні на знак вдячності</li>
+    <li>statueSubjectDesc->біжить щодуху</li>
+    <li>statueSubjectDesc->розкриває обійми й дивиться в небо</li>
+    <li>statueSubjectDesc->тримає руки на стегнах</li>
+    <li>statueSubjectDesc->тріумфально здіймає руки</li>
+    <li>statueSubjectDesc->тримає в одній руці [prop_acc][maybeOtherHand]</li>
     <li>statueSubjectDesc->віддає честь однією рукою[maybeOtherHand]</li>
-    <li>statueSubjectDesc->вказує на горизонт[maybeOtherHand]</li>
-    <li>statueSubjectDesc->простягає руку у вітальній позі[maybeOtherHand]</li>
-    <li>statueSubjectDesc->вказує на горизонт однією рукою[maybeOtherHand]</li>
+    <li>statueSubjectDesc->вказує на обрій[maybeOtherHand]</li>
+    <li>statueSubjectDesc->простягає руку на знак привітання[maybeOtherHand]</li>
+    <li>statueSubjectDesc->однією рукою вказує на обрій[maybeOtherHand]</li>
     <li>statueSubjectDesc->спокусливо танцює</li>
-    <li>statueSubjectDesc->привабливо розслабляється</li>
-    <li>statueSubjectDesc->готується до бою</li>
-    <li>statueSubjectDesc->стрибає, застигнувши у повітрі</li>
-    <li>statueSubjectDesc->закидає рибальську сітку у невидиму воду</li>
-    <li>statueSubjectDesc->смакує розкішну їжу</li>
-    <li>statueSubjectDesc->шалено виривається із кайданів</li>
-    <li>statueSubjectDesc->шепоче тиху таємницю</li>
-    <li>statueSubjectDesc->дивиться вгору на зірки з очима, повними здивування</li>
+    <li>statueSubjectDesc->звабливо відпочиває</li>
+    <li>statueSubjectDesc->готується до бійки</li>
+    <li>statueSubjectDesc->стрибає й застигає в повітрі</li>
+    <li>statueSubjectDesc->закидає рибальську сітку в невидиму воду</li>
+    <li>statueSubjectDesc->смакує розкішну страву</li>
+    <li>statueSubjectDesc->виривається з кайданів</li>
+    <li>statueSubjectDesc->нашіптує мовчазну таємницю</li>
+    <li>statueSubjectDesc->дивиться на зорі очима, сповненими подиву</li>
     <li>statueSubjectDesc->кидає невидимий спис</li>
-    <li>statueSubjectDesc->рве лист паперу у акті непокори</li>
-    <li>statueSubjectDesc->йде через глибокі води</li>
-    <li>statueSubjectDesc->обома руками тримає предмет — це [prop] великого розміру</li>
-    <li>statueSubjectDesc->не має зубів[maybeInsult]</li>
-    <li>statueSubjectDesc->жмуриться на сонці[maybeInsult]</li>
+    <li>statueSubjectDesc->на знак непокори рве аркуш паперу</li>
+    <li>statueSubjectDesc->бреде глибокою водою</li>
+    <li>statueSubjectDesc->обома руками тримає чималого розміру [prop_acc]</li>
+    <li>statueSubjectDesc->не має жодного зуба[maybeInsult]</li>
+    <li>statueSubjectDesc->мружиться на сонці[maybeInsult]</li>
     <li>statueSubjectDesc->нюхає букет квітів[maybeNoNose]</li>
     <li>maybeOtherHand->. [otherHand]</li>
     <li>maybeOtherHand-></li>
-    <li>otherHand->В іншій руці статуї — [prop]</li>
-    <li>otherHand->Інша рука статуї спочиває на стегні</li>
-    <li>otherHand->Інша рука статуї робить непристойний жест</li>
-    <li>otherHand->Інша рука статуї відсутня[maybeInsult]</li>
-    <li>maybeNoNose->. У статуї немає носа[maybeInsult]</li>
+    <li>otherHand->В іншій руці статуї – [prop]</li>
+    <li>otherHand->Друга рука статуї спирається на стегно</li>
+    <li>otherHand->Другою рукою статуя показує непристойний жест</li>
+    <li>otherHand->Другої руки в статуї немає[maybeInsult]</li>
+    <li>maybeNoNose->. Носа в статуї немає[maybeInsult]</li>
     <li>maybeNoNose-></li>
-    <li>maybeInsult->. Це очевидна образа</li>
-    <li>maybeInsult->. Незрозуміло, чи це насмішка митця, чи проста помилка</li>
-    <li>maybeInsult->. Це свідчить, що митець хотів образити зображену постать</li>
+    <li>maybeInsult->. Це відверта образа</li>
+    <li>maybeInsult->. Незрозуміло, чи це шпилька митця, чи звичайна помилка</li>
+    <li>maybeInsult->. Схоже, митець хотів образити зображену особу</li>
     <li>maybeInsult(p=3)-></li>
-    <li>statueFaceDesc(p=2)->На обличчі статуї проступає [facialLook].</li>
-    <li>statueFaceDesc(p=2)->[facialLook] видніється на обличчі [SUBJECT_indefinite].</li>
-    <li>statueFaceDesc->[SUBJECT_indefinite] має [facialLook].</li>
-    <li>statueFaceDesc->Обличчя [SUBJECT_indefinite] [depicts] [facialLook].</li>
-    <li>statueFaceDesc->[SUBJECT_indefinite] має мудрий і задумливий вираз обличчя.</li>
-    <li>statueFaceDesc->[SUBJECT_indefinite] кричить безмовним криком.</li>
-    <li>statueFaceDesc->[SUBJECT_indefinite] сумно дивиться вдалечінь.</li>
-    <li>statueFaceDesc->Статуя [depicts] [SUBJECT_indefinite] з виразно рішучим обличчям.</li>
-    <li>statueFaceDesc->Статуя [depicts] [SUBJECT_indefinite], що маніакально сміється.</li>
+    <li>statueFaceDesc(p=2)->На обличчі статуї – вираз [facialLook_gen].</li>
+    <li>statueFaceDesc(p=2)->На обличчі статуї читається [facialLook].</li>
+    <li>statueFaceDesc->У виразі обличчя постаті – [facialLook].</li>
+    <li>statueFaceDesc->Обличчя постаті сповнене [facialLook_gen].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] має мудрий і задумливий вигляд.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] кричить, роззявивши рота в беззвучному крику.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] скорботно дивиться вдалину.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] має впізнаваний рішучий вираз обличчя.</li>
+    <li>statueFaceDesc->Статуя показує, як [SUBJECT_indefinite] маніакально регоче.</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] має [facialFeature].</li>
     <li>statueFaceDesc->Статуя має [facialFeature].</li>
-    <li>statueFaceDesc->Варто зазначити, що статуя має [facialFeature].</li>
-    <li>facialLook->щиру радість</li>
+    <li>statueFaceDesc->Варто зауважити, що статуя має [facialFeature].</li>
+    <li>facialLook->щира радість</li>
     <li>facialLook->чистий жах</li>
-    <li>facialLook->чистий екстаз</li>
+    <li>facialLook->справжній екстаз</li>
     <li>facialLook->чисте блаженство</li>
     <li>facialLook->шок і збентеження</li>
     <li>facialLook->веселощі</li>
-    <li>facialLook->невимовний смуток</li>
-    <li>facialLook->глибоке замислення</li>
+    <li>facialLook->невимовне горе</li>
+    <li>facialLook->глибока задума</li>
     <li>facialLook->розгубленість</li>
     <li>facialLook->гордість і задоволення</li>
-    <li>facialLook->веселощі</li>
-    <li>facialLook->відразу</li>
-    <li>facialLook->непокору</li>
+    <li>facialLook->лукава усмішка</li>
+    <li>facialLook->відраза</li>
+    <li>facialLook->непокора</li>
+    <li>facialLook_gen->щирої радості</li>
+    <li>facialLook_gen->чистого жаху</li>
+    <li>facialLook_gen->справжнього екстазу</li>
+    <li>facialLook_gen->чистого блаженства</li>
+    <li>facialLook_gen->шоку й збентеження</li>
+    <li>facialLook_gen->веселощів</li>
+    <li>facialLook_gen->невимовного горя</li>
+    <li>facialLook_gen->глибокої задуми</li>
+    <li>facialLook_gen->розгубленості</li>
+    <li>facialLook_gen->гордості й задоволення</li>
+    <li>facialLook_gen->лукавої усмішки</li>
+    <li>facialLook_gen->відрази</li>
+    <li>facialLook_gen->непокори</li>
     <li>facialFeature->грайливу посмішку</li>
     <li>facialFeature->насуплені брови</li>
-    <li>facialFeature->підняту брову, наче з питанням до митця</li>
-    <li>facialFeature->стирчащий довгий язик</li>
-    <li>facialFeature->обличчя, перекошене у стражданні</li>
-    <li>facialFeature->очі, що ніби іскряться</li>
-    <li>facialFeature->обидва ока закриті, ніби в спокої</li>
-    <li>facialFeature->надуті щоки, наче хоче дунути повітрям</li>
-    <li>facialFeature->маленькі очі та скривлені губи</li>
+    <li>facialFeature->підняту брову, ніби запитання до митця</li>
+    <li>facialFeature->довгий висолоплений язик</li>
+    <li>facialFeature->обличчя, перекривлене мукою</li>
+    <li>facialFeature->очі, що ніби мерехтять</li>
+    <li>facialFeature->заплющені очі, ніби в мирі</li>
+    <li>facialFeature->надуті, ніби для подуву, щоки</li>
+    <li>facialFeature->маленькі очиці й вищирені губи</li>
     <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
     <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
     <li>style_group_statue->[style_clause].</li>
     <li>style_group_statue->[artextra_clause_statue].</li>
     <li>style_group_statue-></li>
-    <li>artextra_clause_statue->п'єдестал статуї оточують [subimageplural]</li>
-    <li>artextra_clause_statue->на шкірі персонажа вирізьблені [subimageplural]</li>
-    <li>artextra_clause_statue->кілька менших різьблень оточують статую. Кожне виглядає як [subimagesingle]</li>
-    <li>artextra_clause_statue->ноги статуї приховують [subimageplural]</li>
-    <li>artextra_clause_statue->[carvedVerb] на обличчі статуї зображені [subimageany]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] стоїть посеред [Community]</li>
-    <li>artextra_clause_statue->основа статуї нагадує щось, це [TerrainFeature]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] виглядає так, ніби [TerrainFeature] породжує це створення</li>
-    <li>artextra_clause_statue->[Character] невеликого розміру знаходиться [side_position_statue]</li>
-    <li>artextra_clause_statue->[pawn_adj] [Character] знаходиться [side_position_statue]</li>
-    <li>artextra_clause_statue->[Quantity_adjphrase] [Character] знаходяться [side_position_statue]</li>
-    <li>artextra_clause_statue->[Quantity_adjphrase] [pawn_adj] [Character] знаходяться [side_position_statue]</li>
-    <li>artextra_clause_statue->[Animal] вирізьблений [side_position_statue]</li>
-    <li>artextra_clause_statue->здалеку [composition] композиція статуї нагадує силует, у якому читається [subimageany]</li>
-    <li>artextra_clause_statue->статуя тримає [Animal] під рукою</li>
-    <li>artextra_clause_statue->статуя тримає [Quantity_adjphrase] [pawn_adj] [Character]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] [statueBodyPart] у тріщинах. Всередині видніється [subimageplural]</li>
-    <li>carvedAdverb->акуратно</li>
-    <li>carvedAdverb->швидко</li>
+    <li>artextra_clause_statue->п'єдестал статуї облямовують [subimageplural]</li>
+    <li>artextra_clause_statue->на шкірі постаті вирізьблено [subimageplural]</li>
+    <li>artextra_clause_statue->статую оточує кілька менших різьблень. Кожне має обриси [subimagesingle_gen]</li>
+    <li>artextra_clause_statue->ноги статуї затуляють [subimageplural]</li>
+    <li>artextra_clause_statue->на обличчі статуї [carvedVerb] зображення [subimageany_gen]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] стоїть посеред [Community_gen]</li>
+    <li>artextra_clause_statue->основою статуї слугує [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] ніби виринає з [TerrainFeature_gen]</li>
+    <li>artextra_clause_statue->[side_position_statue] видніється невелика фігурка: [Character]</li>
+    <li>artextra_clause_statue->[side_position_statue] видніється [pawn_char]</li>
+    <li>artextra_clause_statue->[side_position_statue] видніються [Quantity_adjphrase] [Character_pl_gen]</li>
+    <li>artextra_clause_statue->[side_position_statue] видніються [Quantity_adjphrase] [pawn_chars_gen]</li>
+    <li>artextra_clause_statue->[side_position_statue] вирізьблено [Animal_acc]</li>
+    <li>artextra_clause_statue->здалеку [composition] композиція статуї складається в обриси [subimageany_gen]</li>
+    <li>artextra_clause_statue->статуя тримає під пахвою [Animal_acc]</li>
+    <li>artextra_clause_statue->статуя тримає [Quantity_adjphrase] [pawn_chars_gen]</li>
+    <li>artextra_clause_statue->[statueBodyPart_acc] постаті розітнуто. Усередині видно [subimageplural]</li>
+    <li>carvedAdverb->ретельно</li>
+    <li>carvedAdverb->похапцем</li>
     <li>carvedAdverb->грубо</li>
+    <li>carvedAdverb->скрупульозно</li>
     <li>carvedAdverb->ретельно</li>
-    <li>carvedAdverb->ретельно</li>
-    <li>carvedVerb->вирізьблена</li>
-    <li>carvedVerb->виліплена</li>
-    <li>carvedVerb->витесана</li>
+    <li>carvedVerb->вирізьблено</li>
+    <li>carvedVerb->виліплено</li>
+    <li>carvedVerb->витесано</li>
     <li>statueAdj->монументальна</li>
+    <li>statueAdj->височенна</li>
     <li>statueAdj->велична</li>
-    <li>statueAdj->грандіозна</li>
     <li>statueAdj->велика</li>
     <li>statueAdj->реалістична</li>
     <li>statueAdj->урочиста</li>
-    <li>statueAdj->гідна</li>
+    <li>statueAdj->поважна</li>
     <li>statueAdj->урочиста</li>
     <li>statueAdj->шляхетна</li>
-    <li>statueAdj->спокійна</li>
-    <li>statueAdj->крихка</li>
+    <li>statueAdj->безтурботна</li>
+    <li>statueAdj->напівзруйнована</li>
     <li>statueAdj->скромна</li>
     <li>statueAdj->відверта</li>
     <li>statueAdj->груба</li>
     <li>statueAdj->збудлива</li>
     <li>statueAdj->провокативна</li>
-    <li>statueAdj->натякаюча</li>
+    <li>statueAdj->двозначна</li>
     <li>statueAdj->гротескна</li>
-    <li>statueAdj->лякаюча</li>
-    <li>statueAdj->велична</li>
-    <li>statueDepicts->зображає</li>
+    <li>statueAdj->моторошна</li>
+    <li>statueAdj->царствена</li>
+    <li>statueDepicts->зображує</li>
     <li>statueDepicts->показує</li>
     <li>statueDepicts->змальовує</li>
-    <li>side_position_statue->на основі</li>
-    <li>side_position_statue->на п'єдесталі біля [SUBJECT_gen]</li>
-    <li>side_position_statue->під п'ятою [SUBJECT_gen]</li>
-    <li>side_position_statue->в обіймах [SUBJECT_gen]</li>
-    <li>side_position_statue->на голові [SUBJECT_indefinite]</li>
-    <li>side_position_statue->на плечах [SUBJECT_gen]</li>
-    <li>side_position_statue->за центральною статуєю</li>
-    <li>side_position_statue->у поглибленні, вирізаному в [statueBodyPart_acc] статуї</li>
-    <li>side_position_statue->на долоні [SUBJECT_gen]</li>
-    <li>side_position_statue->виривається з [statueBodyPart_gen] [SUBJECT_gen]</li>
-    <li>side_position_statue->з'являється з рота [SUBJECT_gen]</li>
-    <li>side_position_statue->на спині [SUBJECT_gen]</li>
+    <li>side_position_statue->біля підніжжя</li>
+    <li>side_position_statue->на п'єдесталі поруч із постаттю</li>
+    <li>side_position_statue->під п'ятою постаті</li>
+    <li>side_position_statue->в обіймах постаті</li>
+    <li>side_position_statue->на голові постаті</li>
+    <li>side_position_statue->на плечах постаті</li>
+    <li>side_position_statue->позаду центральної статуї</li>
+    <li>side_position_statue->у заглибині, вирізьбленій у [statueBodyPart_loc] постаті</li>
+    <li>side_position_statue->на долоні постаті</li>
+    <li>side_position_statue->у проломі на [statueBodyPart_loc] постаті</li>
+    <li>side_position_statue->з роззявленого рота постаті</li>
+    <li>side_position_statue->на спині постаті</li>
     <li>statueBodyPart->груди</li>
-    <li>statueBodyPart_gen->грудей</li>
-    <li>statueBodyPart_acc->грудях</li>
     <li>statueBodyPart->живіт</li>
-    <li>statueBodyPart_gen->живота</li>
-    <li>statueBodyPart_acc->животі</li>
     <li>statueBodyPart->спина</li>
-    <li>statueBodyPart_gen->спини</li>
-    <li>statueBodyPart_acc->спині</li>
     <li>statueBodyPart->голова</li>
-    <li>statueBodyPart_gen->голови</li>
+    <li>statueBodyPart->око</li>
+    <li>statueBodyPart_acc->груди</li>
+    <li>statueBodyPart_acc->живіт</li>
+    <li>statueBodyPart_acc->спину</li>
+    <li>statueBodyPart_acc->голову</li>
+    <li>statueBodyPart_acc->око</li>
+    <li>statueBodyPart_loc->грудях</li>
+    <li>statueBodyPart_loc->животі</li>
+    <li>statueBodyPart_loc->спині</li>
+    <li>statueBodyPart_loc->голові</li>
+    <li>statueBodyPart_loc->оці</li>
+    <li>prop->книга</li>
+    <li>prop->меч</li>
+    <li>prop->спис</li>
+    <li>prop->рушниця</li>
+    <li>prop->психічна реліквія</li>
+    <li>prop->людське серце</li>
+    <li>prop_acc->книгу</li>
+    <li>prop_acc->меч</li>
+    <li>prop_acc->спис</li>
+    <li>prop_acc->рушницю</li>
+    <li>prop_acc->психічну реліквію</li>
+    <li>prop_acc->людське серце</li>
   </ArtDescription_Statue.rulePack.rulesStrings>
   <!-- EN:
     <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
@@ -406,76 +435,141 @@
   -->
   <NamerStatue.rulePack.rulesStrings>
     <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
-    <li>r_statue_name->Статуя [SUBJECT_indefinite]</li>
-    <li>r_statue_name->Вивчення [SUBJECT_gen]</li>
-    <li>r_statue_name->Дослідження [statueIdea_gen]</li>
-    <li>r_statue_name->[statueAdj] статуя [SUBJECT_gen]</li>
-    <li>r_statue_name->[SUBJECT_indefinite], [statueAdj] статуя</li>
-    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
-    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
-    <li>r_statue_name->Фігура, основна ідея якої — [statueIdea]</li>
+    <li>r_statue_name->статуя: [SUBJECT_indefinite]</li>
+    <li>r_statue_name->етюд: [SUBJECT_indefinite]</li>
+    <li>r_statue_name->етюд «[statueIdea]»</li>
+    <li>r_statue_name->[statuePhrase]: [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]: [statuePhrase]</li>
+    <li>r_statue_name(p=2)->[adjNoun]</li>
+    <li>r_statue_name->фігура «[statueIdea]»</li>
     <li>r_statue_name->[statueIdea] і [subjectNoun]</li>
-    <li>r_statue_name->[subjectNoun] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[subjectNoun]: [SUBJECT_indefinite]</li>
     <li>r_statue_name->[SUBJECT_indefinite], [subjectNoun]</li>
     <li>r_statue_name->[subjectNoun]</li>
-    <li>r_statue_name-> [subjectNoun], чия основна риса — [statueIdea]</li>
+    <li>r_statue_name->[subjectNoun] «[statueIdea]»</li>
     <li>r_statue_name->[SUBJECT_indefinite] і [talktopicheavyfile]</li>
+    <li>statuePhrase(p=2)->[statueAdj_f] статуя</li>
+    <li>statuePhrase->[statueAdj] образ</li>
+    <li>statuePhrase->[statueAdj_f] постать</li>
+    <li>adjNoun(p=5)->[statueAdj] [subjectNoun_m]</li>
+    <li>adjNoun(p=3)->[statueAdj_f] [subjectNoun_f]</li>
+    <li>adjNoun->[statueAdj_n] [subjectNoun_n]</li>
     <li>statueAdj(p=5)->[AdjectiveAny]</li>
-    <li>statueAdj->Виліплена</li>
-    <li>statueAdj->Мовчазна</li>
-    <li>statueAdj->Вічна</li>
-    <li>statueAdj->Ідеальна</li>
-    <li>statueAdj->Витесана</li>
-    <li>statueAdj->Безмежна</li>
-    <li>statueAdj->Незламна</li>
-    <li>statueAdj->Лунаюча</li>
-    <li>statueAdj->Ідеальна</li>
-    <li>statueAdj->Людська</li>
-    <li>statueAdj->Неідеальна</li>
-    <li>statueAdj->Спостережлива</li>
-    <li>statueAdj->Лунаюча</li>
-    <li>statueAdj->Скорботна</li>
-    <li>statueAdj->Замерзла</li>
-    <li>statueAdj->Крихка</li>
+    <li>statueAdj->виліплений</li>
+    <li>statueAdj->мовчазний</li>
+    <li>statueAdj->вічний</li>
+    <li>statueAdj->досконалий</li>
+    <li>statueAdj->витесаний</li>
+    <li>statueAdj->позачасовий</li>
+    <li>statueAdj->незламний</li>
+    <li>statueAdj->відлунний</li>
+    <li>statueAdj->ідеальний</li>
+    <li>statueAdj->людський</li>
+    <li>statueAdj->недосконалий</li>
+    <li>statueAdj->пильний</li>
+    <li>statueAdj->скорботний</li>
+    <li>statueAdj->застиглий</li>
+    <li>statueAdj->напівзруйнований</li>
+    <li>statueAdj_f(p=5)->[AdjectiveAny_f]</li>
+    <li>statueAdj_f->виліплена</li>
+    <li>statueAdj_f->мовчазна</li>
+    <li>statueAdj_f->вічна</li>
+    <li>statueAdj_f->досконала</li>
+    <li>statueAdj_f->витесана</li>
+    <li>statueAdj_f->позачасова</li>
+    <li>statueAdj_f->незламна</li>
+    <li>statueAdj_f->відлунна</li>
+    <li>statueAdj_f->ідеальна</li>
+    <li>statueAdj_f->людська</li>
+    <li>statueAdj_f->недосконала</li>
+    <li>statueAdj_f->пильна</li>
+    <li>statueAdj_f->скорботна</li>
+    <li>statueAdj_f->застигла</li>
+    <li>statueAdj_f->напівзруйнована</li>
+    <li>statueAdj_n(p=5)->[AdjectiveAny_n]</li>
+    <li>statueAdj_n->виліплене</li>
+    <li>statueAdj_n->мовчазне</li>
+    <li>statueAdj_n->вічне</li>
+    <li>statueAdj_n->досконале</li>
+    <li>statueAdj_n->витесане</li>
+    <li>statueAdj_n->позачасове</li>
+    <li>statueAdj_n->незламне</li>
+    <li>statueAdj_n->відлунне</li>
+    <li>statueAdj_n->ідеальне</li>
+    <li>statueAdj_n->людське</li>
+    <li>statueAdj_n->недосконале</li>
+    <li>statueAdj_n->пильне</li>
+    <li>statueAdj_n->скорботне</li>
+    <li>statueAdj_n->застигле</li>
+    <li>statueAdj_n->напівзруйноване</li>
     <li>subjectNoun(p=2)->[PersonJob]</li>
     <li>subjectNoun(p=2)->[PersonFamily]</li>
     <li>subjectNoun(p=2)->[PersonAlly]</li>
     <li>subjectNoun(p=2)->[PersonBadass]</li>
-    <li>subjectNoun->Спостерігач</li>
-    <li>subjectNoun->Герой</li>
-    <li>subjectNoun->Легенда</li>
-    <li>subjectNoun->Захисник</li>
-    <li>subjectNoun->Страж</li>
+    <li>subjectNoun->спостерігач</li>
+    <li>subjectNoun->герой</li>
+    <li>subjectNoun->захисник</li>
+    <li>subjectNoun->вартовий</li>
     <li>subjectNoun->Адоніс</li>
-    <li>subjectNoun->Дух</li>
-    <li>subjectNoun->Втілення</li>
-    <li>subjectNoun->Образ</li>
-    <li>subjectNoun->Дух</li>
-    <li>subjectNoun->Тіло</li>
-    <li>subjectNoun->Лік</li>
-    <li>subjectNoun->Замислення</li>
-    <li>subjectNoun->Форма</li>
-    <li>subjectNoun->Янгол</li>
-    <li>subjectNoun->Статуя</li>
-    <li>subjectNoun->Міраж</li>
+    <li>subjectNoun->дух</li>
+    <li>subjectNoun->образ</li>
+    <li>subjectNoun->лик</li>
+    <li>subjectNoun->янгол</li>
+    <li>subjectNoun->міраж</li>
+    <li>subjectNoun->легенда</li>
+    <li>subjectNoun->постать</li>
+    <li>subjectNoun->душа</li>
+    <li>subjectNoun->форма</li>
+    <li>subjectNoun->статуя</li>
+    <li>subjectNoun->задума</li>
+    <li>subjectNoun->тіло</li>
+    <li>subjectNoun->втілення</li>
+    <li>subjectNoun->споглядання</li>
+    <li>subjectNoun_m(p=2)->[PersonJob_m]</li>
+    <li>subjectNoun_m(p=2)->[PersonBadass_m]</li>
+    <li>subjectNoun_m->[PersonFamily_m]</li>
+    <li>subjectNoun_m->[PersonAlly_m]</li>
+    <li>subjectNoun_m->спостерігач</li>
+    <li>subjectNoun_m->герой</li>
+    <li>subjectNoun_m->захисник</li>
+    <li>subjectNoun_m->вартовий</li>
+    <li>subjectNoun_m->Адоніс</li>
+    <li>subjectNoun_m->дух</li>
+    <li>subjectNoun_m->образ</li>
+    <li>subjectNoun_m->лик</li>
+    <li>subjectNoun_m->янгол</li>
+    <li>subjectNoun_m->міраж</li>
+    <li>subjectNoun_f(p=2)->[PersonJob_f]</li>
+    <li>subjectNoun_f(p=2)->[PersonBadass_f]</li>
+    <li>subjectNoun_f->[PersonFamily_f]</li>
+    <li>subjectNoun_f->[PersonAlly_f]</li>
+    <li>subjectNoun_f->легенда</li>
+    <li>subjectNoun_f->постать</li>
+    <li>subjectNoun_f->душа</li>
+    <li>subjectNoun_f->форма</li>
+    <li>subjectNoun_f->статуя</li>
+    <li>subjectNoun_f->задума</li>
+    <li>subjectNoun_n->тіло</li>
+    <li>subjectNoun_n->втілення</li>
+    <li>subjectNoun_n->споглядання</li>
     <li>statueIdea(p=3)->[ConceptPositive]</li>
     <li>statueIdea(p=3)->[ConceptBadass]</li>
     <li>statueIdea(p=3)->[ConceptAngsty]</li>
     <li>statueIdea(p=3)->[ConceptAngsty]</li>
-    <li>statueIdea->Сила</li>
-    <li>statueIdea->Мудрість</li>
-    <li>statueIdea->Підступність</li>
-    <li>statueIdea->Вічна любов</li>
-    <li>statueIdea->Могутність</li>
-    <li>statueIdea->Пам'ять</li>
-    <li>statueIdea->Дух</li>
-    <li>statueIdea->Світло</li>
-    <li>statueIdea->Патріотизм</li>
-    <li>statueIdea->Ранкове світло</li>
-    <li>statueIdea->Нічне небо</li>
-    <li>statueIdea->Світанок</li>
-    <li>statueIdea->Піщані дюни</li>
-    <li>statueIdea->Вічна любов</li>
-    <li>statueIdea->Пристрасть</li>
+    <li>statueIdea->сила</li>
+    <li>statueIdea->мудрість</li>
+    <li>statueIdea->хитрість</li>
+    <li>statueIdea->героїзм</li>
+    <li>statueIdea->могутність</li>
+    <li>statueIdea->пам'ять</li>
+    <li>statueIdea->дух</li>
+    <li>statueIdea->світло</li>
+    <li>statueIdea->патріотизм</li>
+    <li>statueIdea->ранкове світло</li>
+    <li>statueIdea->нічне небо</li>
+    <li>statueIdea->схід сонця</li>
+    <li>statueIdea->сипкий пісок</li>
+    <li>statueIdea->вічне кохання</li>
+    <li>statueIdea->пристрасть</li>
   </NamerStatue.rulePack.rulesStrings>
 </LanguageData>

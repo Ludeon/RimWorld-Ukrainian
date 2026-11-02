@@ -3,7 +3,7 @@
   <!-- EN: beer brewing -->
   <Brewing.label>пивоваріння</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
-  <Brewing.description>Побудуйте пивоварню та бродильні чани, щоб перетворити хміль на смачне-пресмачне пиво.</Brewing.description>
+  <Brewing.description>Будуйте пивоварні й бродильні бочки, щоб перетворювати хміль на смачне-пресмачне пиво.</Brewing.description>
   <!-- EN:
     <li>subject->brewing</li>
     <li>subject_story->brewed a unique stout that became famous across the system</li>
@@ -14,16 +14,16 @@
   -->
   <Brewing.generalRules.rulesStrings>
     <li>subject->пивоваріння</li>
-    <li>subject_story->варив унікальний стаут, що став відомим по всій системі</li>
-    <li>subject_story->retired to run a public house on an animal world</li>
-    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
-    <li>subject_gerund->constructing breweries</li>
-    <li>subject_gerund->brewing beer</li>
+    <li>subject_story->{ANYPAWN_gender ? зварив : зварила} унікальний стаут, що прославився на всю систему</li>
+    <li>subject_story->на схилі віку {ANYPAWN_gender ? тримав : тримала} шинок на світі тварин</li>
+    <li>subject_story->{ANYPAWN_gender ? спеціалізувався : спеціалізувалася} на бродінні в умовах контрольованого клімату</li>
+    <li>subject_gerund->спорудження пивоварень</li>
+    <li>subject_gerund->варіння пива</li>
   </Brewing.generalRules.rulesStrings>
   <!-- EN: carpet-making -->
-  <CarpetMaking.label>шиття килимів</CarpetMaking.label>
+  <CarpetMaking.label>ткання килимів</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
-  <CarpetMaking.description>Красиві килими з полотна.</CarpetMaking.description>
+  <CarpetMaking.description>Тчіть гарні килими з тканини.</CarpetMaking.description>
   <!-- EN:
     <li>subject->carpet-making</li>
     <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
@@ -32,16 +32,16 @@
     <li>subject_gerund->weaving carpets</li>
   -->
   <CarpetMaking.generalRules.rulesStrings>
-    <li>subject->шиття килимів</li>
-    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
-    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
-    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
-    <li>subject_gerund->weaving carpets</li>
+    <li>subject->ткання килимів</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} ткати килими з волосся для далекого імператора</li>
+    <li>subject_story->{ANYPAWN_gender ? залишив : залишила} по собі неперевершену колекцію килимів і гобеленів</li>
+    <li>subject_story->{ANYPAWN_gender ? оселився : оселилася} на середньовічному супутнику, де килимарство по-справжньому цінували</li>
+    <li>subject_gerund->ткання килимів</li>
   </CarpetMaking.generalRules.rulesStrings>
   <!-- EN: cocoa -->
   <Cocoa.label>какао</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
-  <Cocoa.description>Посадіть какао-дерева, щоб створити власний смачний шоколад. Вживання шоколаду задовольняє потребу в відпочинку, а також є цінним товаром для торгівлі.</Cocoa.description>
+  <Cocoa.description>Вирощуйте какао-дерева, щоб робити власний смачний шоколад. Шоколад задовольняє потребу в дозвіллі, а ще це цінний товар.</Cocoa.description>
   <!-- EN:
     <li>subject->cocoa</li>
     <li>subject->chocolate</li>
@@ -54,16 +54,16 @@
   <Cocoa.generalRules.rulesStrings>
     <li>subject->какао</li>
     <li>subject->шоколад</li>
-    <li>subject_story->колоніст став одержимий шоколадом і його довелося приструнити.</li>
-    <li>subject_story->вивчив процес ферментації какао для дипломної роботи</li>
-    <li>subject_story->створити найкращий магазин шоколаду в цьому секторі</li>
-    <li>subject_gerund->виробляє шоколад</li>
+    <li>subject_story->{ANYPAWN_gender ? став одержимим : стала одержимою} шоколадом, і {ANYPAWN_gender ? його : її} довелося силоміць стримувати</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} для дипломної роботи процес бродіння какао</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} найкращу шоколадну крамницю в секторі</li>
+    <li>subject_gerund->виготовлення шоколаду</li>
     <li>subject_gerund->вирощування какао</li>
   </Cocoa.generalRules.rulesStrings>
   <!-- EN: complex clothing -->
-  <ComplexClothing.label>пошиття одягу</ComplexClothing.label>
+  <ComplexClothing.label>складний одяг</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
-  <ComplexClothing.description>Шиття більшості типів одягу, такий як штани, плащі, капелюхи тощо.</ComplexClothing.description>
+  <ComplexClothing.description>Шийте складний одяг: штани, плащі, ковбойські капелюхи тощо.</ComplexClothing.description>
   <!-- EN:
     <li>subject->complex tailoring</li>
     <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
@@ -72,16 +72,16 @@
     <li>subject_gerund->tailoring complex clothes</li>
   -->
   <ComplexClothing.generalRules.rulesStrings>
-    <li>предмет->складне пошиття</li>
-    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
-    <li>subject_story->розслаблялася, шиючи та розповідаючи історії дітям із села</li>
-    <li>subject_story->навчився виготовляти одяг, який носять театральні артисти на грандіозних виставах </li>
+    <li>subject->пошиття складного одягу</li>
+    <li>subject_story->{ANYPAWN_gender ? шив : шила} зносостійкий одяг для мешканців урбанізованих світів</li>
+    <li>subject_story->{ANYPAWN_gender ? любив : любила} відпочити за шиттям, розповідаючи історії сільським дітлахам</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} шити костюми для грандіозних вистав своєї трупи</li>
     <li>subject_gerund->пошиття складного одягу</li>
   </ComplexClothing.generalRules.rulesStrings>
   <!-- EN: complex furniture -->
-  <ComplexFurniture.label>меблі</ComplexFurniture.label>
+  <ComplexFurniture.label>складні меблі</ComplexFurniture.label>
   <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
-  <ComplexFurniture.description>Створюйте складні меблі, такі як ліжка, тумбочки, обідні стільці, крісла, комоди, шафи для інструментів, більярдні столи, столи для покеру, вентиляційні отвори, саркофаги тощо.</ComplexFurniture.description>
+  <ComplexFurniture.description>Створюйте складні меблі: ліжка, тумбочки, стільці, крісла, комоди, шафи для інструментів, більярдні й покерні столи, вентиляцію, саркофаги тощо.</ComplexFurniture.description>
   <!-- EN:
     <li>subject->carpentry</li>
     <li>subject_story->studied woodcarving under a master carpenter</li>
@@ -90,16 +90,16 @@
     <li>subject_gerund->building complex furniture</li>
   -->
   <ComplexFurniture.generalRules.rulesStrings>
-    <li>предмет->столярство</li>
-    <li>subject_story->studied woodcarving under a master carpenter</li>
-    <li>subject_story->built a town of log-cabins singlehandedly</li>
-    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
-    <li>subject_gerund->building complex furniture</li>
+    <li>subject->столярство</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} різьбу по дереву в майстра-столяра</li>
+    <li>subject_story->власноруч {ANYPAWN_gender ? збудував : збудувала} ціле містечко з колод</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} фабрику й {ANYPAWN_gender ? продавав : продавала} якісні меблі мандрівним торговцям</li>
+    <li>subject_gerund->виготовлення складних меблів</li>
   </ComplexFurniture.generalRules.rulesStrings>
   <!-- EN: devilstrand -->
   <Devilstrand.label>дияволокно</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
-  <Devilstrand.description>Дияволокно – повільно ростучий гриб, з якого отримують надзвичайно міцне та жаростійке рослинне волокно.</Devilstrand.description>
+  <Devilstrand.description>Вирощуйте дияволокно – повільнорослий гриб, з якого отримують надзвичайно міцне й жаростійке рослинне волокно.</Devilstrand.description>
   <!-- EN:
     <li>subject->devilstrand cultivation</li>
     <li>subject_story->used devilstrand as a natural firebreak</li>
@@ -108,16 +108,16 @@
     <li>subject_gerund->cultivating devilstrand</li>
   -->
   <Devilstrand.generalRules.rulesStrings>
-    <li>subject->devilstrand cultivation</li>
-    <li>subject_story->used devilstrand as a natural firebreak</li>
-    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
-    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
-    <li>subject_gerund->cultivating devilstrand</li>
+    <li>subject->вирощування дияволокна</li>
+    <li>subject_story->{ANYPAWN_gender ? використовував : використовувала} дияволокно як природну протипожежну смугу</li>
+    <li>subject_story->{ANYPAWN_gender ? розробив : розробила} методи, що спрощують вирощування дияволокна</li>
+    <li>subject_story->так {ANYPAWN_gender ? захопився : захопилася} грибами, що {ANYPAWN_gender ? проголосив себе принцом : проголосила себе принцесою} власного королівства</li>
+    <li>subject_gerund->вирощування дияволокна</li>
   </Devilstrand.generalRules.rulesStrings>
   <!-- EN: drug production -->
   <DrugProduction.label>хімічне виробництво</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
-  <DrugProduction.description>Побудуйте хімічну лабораторію для синтезу основних хімічних речовин. Необхідні подальші дослідження для створення спеціалізованих препаратів.</DrugProduction.description>
+  <DrugProduction.description>Побудуйте хімічну лабораторію для базового синтезу препаратів. Щоб виготовляти конкретні препарати, потрібні подальші дослідження.</DrugProduction.description>
   <!-- EN:
     <li>subject->drug production</li>
     <li>subject->drug synthesis</li>
@@ -128,18 +128,18 @@
     <li>subject_gerund->producing drugs</li>
   -->
   <DrugProduction.generalRules.rulesStrings>
-    <li>виготовлення наркотиків</li>
-    <li>синтез наркотиків</li>
-    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
-    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
-    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
-    <li>subject_gerund->building drug labs</li>
-    <li>subject_gerund->producing drugs</li>
+    <li>subject->виготовлення препаратів</li>
+    <li>subject->синтез препаратів</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} в астероїдній лабораторії на краю заселеного космосу</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} робити наркотики з перероблених хімікатів, за що {ANYPAWN_gender ? відсидів : відсиділа} багато років у в'язниці</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} хіміком, але потроху {ANYPAWN_gender ? почав : почала} приторговувати нелегальними наркотиками</li>
+    <li>subject_gerund->спорудження хімічних лабораторій</li>
+    <li>subject_gerund->виготовлення препаратів</li>
   </DrugProduction.generalRules.rulesStrings>
   <!-- EN: go-juice production -->
-  <GoJuiceProduction.label>виробництво Go-соку</GoJuiceProduction.label>
+  <GoJuiceProduction.label>виробництво гоу-соку</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
-  <GoJuiceProduction.description>Виготовляйте Go-сік - синтетичний препарат, що підвищує навички стрільби, ближнього бою та мобільності, а також притупляє біль.</GoJuiceProduction.description>
+  <GoJuiceProduction.description>Виготовляйте гоу-сік – синтетичний бойовий стимулятор, що покращує стрільбу, ближній бій і рухливість та притуплює біль.</GoJuiceProduction.description>
   <!-- EN:
     <li>subject->go-juice production</li>
     <li>subject_story->was expelled for taking go-juice during team sports matches</li>
@@ -148,16 +148,16 @@
     <li>subject_gerund->synthesizing go-juice</li>
   -->
   <GoJuiceProduction.generalRules.rulesStrings>
-    <li>виготовлення Go-соку</li>
-    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
-    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
-    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
-    <li>subject_gerund->synthesizing go-juice</li>
+    <li>subject->виготовлення гоу-соку</li>
+    <li>subject_story->{ANYPAWN_gender ? був вигнаний : була вигнана} з команди за вживання гоу-соку під час спортивних матчів</li>
+    <li>subject_story->{ANYPAWN_gender ? з'ясував : з'ясувала}, що гоу-сік різко підвищує продуктивність у шахтах і на лісопилках</li>
+    <li>subject_story->ніколи не {ANYPAWN_gender ? вирушав : вирушала} на завдання без гоу-соку чи «джагернаута» в кишені</li>
+    <li>subject_gerund->синтезування гоу-соку</li>
   </GoJuiceProduction.generalRules.rulesStrings>
   <!-- EN: greatbow -->
   <Greatbow.label>довгі луки</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
-  <Greatbow.description>Створюйте довгі луки для вбивства ворогів на великій відстані.</Greatbow.description>
+  <Greatbow.description>Виготовляйте довгі луки, щоб убивати ворогів з великої відстані.</Greatbow.description>
   <!-- EN:
     <li>subject->greatbows</li>
     <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
@@ -166,16 +166,16 @@
     <li>subject_gerund->crafting greatbows</li>
   -->
   <Greatbow.generalRules.rulesStrings>
-    <li>subject->greatbows</li>
-    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
-    <li>subject_story->hunted muffalos for their fur on a feral world</li>
-    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
-    <li>subject_gerund->crafting greatbows</li>
+    <li>subject->довгі луки</li>
+    <li>subject_story->{ANYPAWN_gender ? пробив : пробила} стрілою залізний шолом феодального короля</li>
+    <li>subject_story->{ANYPAWN_gender ? полював : полювала} на муффало заради хутра на дикому світі</li>
+    <li>subject_story->{ANYPAWN_gender ? жив : жила} на самоті в зеленому лісі й {ANYPAWN_gender ? зустрічав : зустрічала} градом стріл кожного, хто підходив ближче ніж на милю до його узлісся</li>
+    <li>subject_gerund->виготовлення довгих луків</li>
   </Greatbow.generalRules.rulesStrings>
   <!-- EN: long blades -->
   <LongBlades.label>довгі леза</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
-  <LongBlades.description>Створення мечів і списів.</LongBlades.description>
+  <LongBlades.description>Виготовляйте довгі мечі та списи.</LongBlades.description>
   <!-- EN:
     <li>subject->medieval weaponry</li>
     <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
@@ -184,16 +184,16 @@
     <li>subject_gerund->smithing medieval weapons</li>
   -->
   <LongBlades.generalRules.rulesStrings>
-    <li>subject->medieval weaponry</li>
-    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
-    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
-    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
-    <li>subject_gerund->smithing medieval weapons</li>
+    <li>subject->середньовічна зброя</li>
+    <li>subject_story->{ANYPAWN_gender ? служив : служила} в П'ятій легкій кавалерії бетагерцога, коли та завойовувала сектор</li>
+    <li>subject_story->{ANYPAWN_gender ? був : була} в рабстві зброярем під ареною на планеті залізної доби</li>
+    <li>subject_story->{ANYPAWN_gender ? навчав : навчала} гоплітів світу війни використовувати довжину своєї зброї</li>
+    <li>subject_gerund->кування середньовічної зброї</li>
   </LongBlades.generalRules.rulesStrings>
   <!-- EN: passive cooler -->
   <PassiveCooler.label>випарний охолоджувач</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
-  <PassiveCooler.description>Випарні охолоджувачі застосовують для охолодження приміщень без використання електроенергії.</PassiveCooler.description>
+  <PassiveCooler.description>Робіть випарні охолоджувачі, щоб охолоджувати приміщення без електрики.</PassiveCooler.description>
   <!-- EN:
     <li>subject->evaporation</li>
     <li>subject->passive coolers</li>
@@ -203,17 +203,17 @@
     <li>subject_gerund->building passive coolers</li>
   -->
   <PassiveCooler.generalRules.rulesStrings>
-    <li>subject->evaporation</li>
-    <li>subject->passive coolers</li>
-    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
-    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
-    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
-    <li>subject_gerund->building passive coolers</li>
+    <li>subject->випаровування</li>
+    <li>subject->випарні охолоджувачі</li>
+    <li>subject_story->{ANYPAWN_gender ? переїхав : переїхала} на спекотну тропічну планету й {ANYPAWN_gender ? розробив : розробила} унікальні способи рятуватися від спеки</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} первісні способи охолодження, не виходячи із затишних бібліотек центрального світу</li>
+    <li>subject_story->на березі планети-океану {ANYPAWN_gender ? помітив : помітила}, що там, де осідають морські бризки, прохолодніше</li>
+    <li>subject_gerund->спорудження випарних охолоджувачів</li>
   </PassiveCooler.generalRules.rulesStrings>
   <!-- EN: pemmican -->
   <Pemmican.label>пеммікан</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
-  <Pemmican.description>Пеммікан - суміш інгредієнтів рослинного та тваринного походження, що не псується протягом тривалого часу. Чудово підходить для подорожей.</Pemmican.description>
+  <Pemmican.description>Готуйте пеммікан – консервовану суміш м'яса й рослинної їжі, що довго не псується. Чудово підходить для подорожей.</Pemmican.description>
   <!-- EN:
     <li>subject->pemmican production</li>
     <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
@@ -222,16 +222,16 @@
     <li>subject_gerund->making pemmican</li>
   -->
   <Pemmican.generalRules.rulesStrings>
-    <li>subject->pemmican production</li>
-    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
-    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
-    <li>subject_story->taught pemmican production to feral tribes</li>
-    <li>subject_gerund->making pemmican</li>
+    <li>subject->приготування пеммікану</li>
+    <li>subject_story->{ANYPAWN_gender ? опанував : опанувала} приготування пеммікану під час довгого паломництва до Шпиля планети</li>
+    <li>subject_story->{ANYPAWN_gender ? вижив : вижила} на самому пеммікані, коли пасажирський лайнер розбився на скляному світі</li>
+    <li>subject_story->{ANYPAWN_gender ? навчив : навчила} дикі племена готувати пеммікан</li>
+    <li>subject_gerund->приготування пеммікану</li>
   </Pemmican.generalRules.rulesStrings>
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>синтез пеноксициліну</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
-  <PenoxycylineProduction.description>Виробляйте пеноксицилін - препарат для профілактики захворювань, що блокує чуму, малярію та сонну хворобу.</PenoxycylineProduction.description>
+  <PenoxycylineProduction.description>Виробляйте пеноксицилін – профілактичний препарат, що не дає чумі, малярії та іншим хворобам навіть початися.</PenoxycylineProduction.description>
   <!-- EN:
     <li>subject->penoxycyline production</li>
     <li>subject_story->lectured to the United Planets about preventative medicine</li>
@@ -240,16 +240,16 @@
     <li>subject_gerund->synthesizing penoxycyline</li>
   -->
   <PenoxycylineProduction.generalRules.rulesStrings>
-    <li>subject->penoxycyline production</li>
-    <li>subject_story->lectured to the United Planets about preventative medicine</li>
-    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
-    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
-    <li>subject_gerund->synthesizing penoxycyline</li>
+    <li>subject->синтез пеноксициліну</li>
+    <li>subject_story->{ANYPAWN_gender ? читав : читала} лекції Об'єднаним Планетам про профілактичну медицину</li>
+    <li>subject_story->{ANYPAWN_gender ? був вигнаний : була вигнана} зі Світанкових Водоспадів як {ANYPAWN_gender ? шарлатан : шарлатанка} за продаж ліків, які «нічого не роблять»</li>
+    <li>subject_story->ретельним дозуванням пеноксициліну {ANYPAWN_gender ? зупинив : зупинила} спалах малярії</li>
+    <li>subject_gerund->синтезування пеноксициліну</li>
   </PenoxycylineProduction.generalRules.rulesStrings>
   <!-- EN: plate armor -->
-  <PlateArmor.label>пластинчата броня</PlateArmor.label>
+  <PlateArmor.label>пластинчасті обладунки</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
-  <PlateArmor.description>Ковані обладунки з металу або дерева. Це важка броня, що помітно уповільнює рух, але дуже ефективно захищає.</PlateArmor.description>
+  <PlateArmor.description>Куйте пластинчасті обладунки з металу чи дерева. Ця важка броня помітно сповільнює рух, але дуже добре захищає.</PlateArmor.description>
   <!-- EN:
     <li>subject->plate armor</li>
     <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
@@ -258,16 +258,16 @@
     <li>subject_gerund->smithing plate armor</li>
   -->
   <PlateArmor.generalRules.rulesStrings>
-    <li>subject->plate armor</li>
-    <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
-    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
-    <li>subject_story->started the first armorworker's collective on an urbworld</li>
-    <li>subject_gerund->smithing plate armor</li>
+    <li>subject->пластинчасті обладунки</li>
+    <li>subject_story->{ANYPAWN_gender ? змайстрував : змайструвала} обладунки з брухту, коли влада оточила халупу [ANYPAWN_possessive] родини</li>
+    <li>subject_story->{ANYPAWN_gender ? прославився : прославилася} як Зелений Коваль, коли дерев'яні обладунки поросли мохом</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} першу артіль бронярів в урбанізованому світі</li>
+    <li>subject_gerund->кування пластинчастих обладунків</li>
   </PlateArmor.generalRules.rulesStrings>
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>переробка психіту</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
-  <PsychiteRefining.description>Переробка листя психолисту у пластівці та яйо - різні форми наркотика психіту.</PsychiteRefining.description>
+  <PsychiteRefining.description>Переробляйте листя психолисту на пластівці психіту та яйо – різні форми ейфоричного психітового наркотику.</PsychiteRefining.description>
   <!-- EN:
     <li>subject->psychite production</li>
     <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
@@ -276,16 +276,16 @@
     <li>subject_gerund->refining psychite</li>
   -->
   <PsychiteRefining.generalRules.rulesStrings>
-    <li>subject->вирбництво психіту</li>
-    <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
-    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
-    <li>subject_story->проводив кампанію за легалізацію яйо в сусідньому урбанізованому світі</li>
-    <li>subject_gerund->refining psychite</li>
+    <li>subject->виробництво психіту</li>
+    <li>subject_story->{ANYPAWN_gender ? прикривав : прикривала} торгівлю наркотиками своєю роботою в університеті</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} комуну, де в їжу підмішували пластівці психіту в малих дозах</li>
+    <li>subject_story->{ANYPAWN_gender ? агітував : агітувала} за легалізацію яйо в сусідньому урбанізованому світі</li>
+    <li>subject_gerund->перероблення психіту</li>
   </PsychiteRefining.generalRules.rulesStrings>
   <!-- EN: psychoid brewing -->
-  <PsychoidBrewing.label>психітовий чай</PsychoidBrewing.label>
+  <PsychoidBrewing.label>заварювання психолисту</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
-  <PsychoidBrewing.description>Готуйте на багатті чи плиті чай з психолисту, що викликає легку ейфорію і звикання.</PsychoidBrewing.description>
+  <PsychoidBrewing.description>Заварюйте на багатті чи кухонній плиті чай з листя психолисту, що викликає легку ейфорію та звикання.</PsychoidBrewing.description>
   <!-- EN:
     <li>subject->psychoid</li>
     <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
@@ -294,16 +294,16 @@
     <li>subject_gerund->brewing psychoid</li>
   -->
   <PsychoidBrewing.generalRules.rulesStrings>
-    <li>subject->psychoid</li>
-    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
-    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
-    <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
-    <li>subject_gerund->brewing psychoid</li>
+    <li>subject->психолист</li>
+    <li>subject_story->{ANYPAWN_gender ? приєднався : приєдналася} до недовговічної психолистової комуни на світі сектантів</li>
+    <li>subject_story->{ANYPAWN_gender ? експериментував : експериментувала} з психолистом, щоб допомогти травмованим солдатам</li>
+    <li>subject_story->дорвавшись до влади, {ANYPAWN_gender ? легалізував : легалізувала} масове виробництво психолисту в кількох центральних світах</li>
+    <li>subject_gerund->заварювання психолисту</li>
   </PsychoidBrewing.generalRules.rulesStrings>
   <!-- EN: recurve bow -->
   <RecurveBow.label>композитний лук</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
-  <RecurveBow.description>Створюйте ефективну та недорогу зброю дальнього бою.</RecurveBow.description>
+  <RecurveBow.description>Виготовляйте композитний лук – ефективну й недорогу далекобійну зброю.</RecurveBow.description>
   <!-- EN:
     <li>subject->bowyery</li>
     <li>subject->bow-making</li>
@@ -313,17 +313,17 @@
     <li>subject_gerund->crafting bows</li>
   -->
   <RecurveBow.generalRules.rulesStrings>
-    <li>subject->bowyery</li>
-    <li>subject->bow-making</li>
-    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
-    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
-    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
-    <li>subject_gerund->crafting bows</li>
+    <li>subject->виготовлення луків</li>
+    <li>subject->лучне ремесло</li>
+    <li>subject_story->чотири дні {ANYPAWN_gender ? вистежував : вистежувала} скажену бумалопу, а потім {ANYPAWN_gender ? вбив : вбила} її однією стрілою</li>
+    <li>subject_story->{ANYPAWN_gender ? оселився : оселилася} біля тисового лісу, щоб мати ідеальний матеріал для луків</li>
+    <li>subject_story->{ANYPAWN_gender ? виховав : виховала} дітей колонії мисливцями-збирачами, і кожен з них став майстерним лучником</li>
+    <li>subject_gerund->виготовлення луків</li>
   </RecurveBow.generalRules.rulesStrings>
   <!-- EN: smithing -->
   <Smithing.label>ковальство</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
-  <Smithing.description>Будуйте кузні для виготовлення металевої зброї, такої як ножі, гладіуси та булави. Створюйте з металу чисту та гарну плитку для підлоги.</Smithing.description>
+  <Smithing.description>Будуйте кузні, щоб виготовляти металеву зброю: ножі, гладіуси, булави. Обробляйте метал на чисту й гарну плитку для підлоги.</Smithing.description>
   <!-- EN:
     <li>subject->blacksmithing</li>
     <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
@@ -331,15 +331,15 @@
     <li>subject_gerund->smithing</li>
   -->
   <Smithing.generalRules.rulesStrings>
-    <li>subject->blacksmithing</li>
-    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
-    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
-    <li>subject_gerund->smithing</li>
+    <li>subject->ковальство</li>
+    <li>subject_story->{ANYPAWN_gender ? оселився : оселилася} в середньовічному селищі й {ANYPAWN_gender ? опанував : опанувала} просту обробку металу</li>
+    <li>subject_story->{ANYPAWN_gender ? будував : будувала} надсучасні кузні для гільдій реконструкторів доби Відродження</li>
+    <li>subject_gerund->кування металу</li>
   </Smithing.generalRules.rulesStrings>
   <!-- EN: stonecutting -->
   <Stonecutting.label>обробка каменю</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
-  <Stonecutting.description>Обтісування кам'яних уламків в придатні для будівництва блоки. Будуйте красиву кам'яну плитку або бетонні доріжки.</Stonecutting.description>
+  <Stonecutting.description>Обтісуйте кам'яні уламки на кам'яні блоки для будівництва. Кладіть гарну кам'яну плитку чи негарні бетонні доріжки.</Stonecutting.description>
   <!-- EN:
     <li>subject->masonry</li>
     <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
@@ -349,17 +349,17 @@
     <li>subject_gerund->cutting stones</li>
   -->
   <Stonecutting.generalRules.rulesStrings>
-    <li>subject->masonry</li>
-    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
-    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
-    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
-    <li>subject_gerund->stonecutting</li>
-    <li>subject_gerund->cutting stones</li>
+    <li>subject->каменярство</li>
+    <li>subject_story->{ANYPAWN_gender ? був першим : була першою} в династії зодчих храмів, які всі носили одне ім'я</li>
+    <li>subject_story->{ANYPAWN_gender ? розробив : розробила} унікальні способи обтісувати найтвердіший камінь найпростішими інструментами</li>
+    <li>subject_story->{ANYPAWN_gender ? виклав : виклала} плиткою весь палац намісника на середньовічному світі</li>
+    <li>subject_gerund->обтісування каменю</li>
+    <li>subject_gerund->різання каменю</li>
   </Stonecutting.generalRules.rulesStrings>
   <!-- EN: tree sowing -->
   <TreeSowing.label>вирощування дерев</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
-  <TreeSowing.description>Висаджуйте дерева, що можуть рости у вашому біомі.</TreeSowing.description>
+  <TreeSowing.description>Висаджуйте на своїх полях дерева, природні для місцевого біому.</TreeSowing.description>
   <!-- EN:
     <li>subject->tree sowing</li>
     <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
@@ -368,16 +368,16 @@
     <li>subject_gerund->sowing trees</li>
   -->
   <TreeSowing.generalRules.rulesStrings>
-    <li>subject->tree sowing</li>
-    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
-    <li>subject_story->published a paper about maintaining natural ecosystems</li>
-    <li>subject_story->worked in a tree nursery on an animal world</li>
-    <li>subject_gerund->sowing trees</li>
+    <li>subject->висаджування дерев</li>
+    <li>subject_story->{ANYPAWN_gender ? розселяв : розселяла} дерева по давно мертвому планетоїду, намагаючись повернути туди життя</li>
+    <li>subject_story->{ANYPAWN_gender ? опублікував : опублікувала} статтю про збереження природних екосистем</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} в розсаднику дерев на світі тварин</li>
+    <li>subject_gerund->висаджування дерев</li>
   </TreeSowing.generalRules.rulesStrings>
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>виробництво бадьорину</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
-  <WakeUpProduction.description>Синтезуйте бадьорин - препарат для підвищення продуктивності, який знижує потребу у сні.</WakeUpProduction.description>
+  <WakeUpProduction.description>Синтезуйте бадьорин – стимулятор працездатності, що замінює сон.</WakeUpProduction.description>
   <!-- EN:
     <li>subject->wake-up production</li>
     <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
@@ -386,10 +386,10 @@
     <li>subject_gerund->synthesizing wake-up</li>
   -->
   <WakeUpProduction.generalRules.rulesStrings>
-    <li>subject->wake-up production</li>
-    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
-    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
-    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
-    <li>subject_gerund->synthesizing wake-up</li>
+    <li>subject->виробництво бадьорину</li>
+    <li>subject_story->{ANYPAWN_gender ? намагався : намагалася} позбутися кофеїнової залежності за допомогою бадьорину</li>
+    <li>subject_story->{ANYPAWN_gender ? лікував : лікувала} нарколептиків і лунатиків точно розрахованими дозами бадьорину</li>
+    <li>subject_story->{ANYPAWN_gender ? переселив : переселила} всіх на темний бік астероїда й {ANYPAWN_gender ? підтримував : підтримувала} їхні біоритми бадьорином</li>
+    <li>subject_gerund->синтезування бадьорину</li>
   </WakeUpProduction.generalRules.rulesStrings>
 </LanguageData>

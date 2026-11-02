@@ -2,19 +2,19 @@
 <LanguageData>
   <!-- Entities -->
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>Через отримані пошкодження, активність {0_definite} зростає.</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>Активність {lookup: {0_definite}; Case; 1} зростає через отримані пошкодження.</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>{0_definite} помирає на платформі для утримання.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
-  <MessageEntityDiscovered>Відкрито нову аномалію</MessageEntityDiscovered>
+  <MessageEntityDiscovered>Відкрито нову сутність</MessageEntityDiscovered>
   <!-- Hate chanters -->
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>Культисти знаходяться у трансі та не відреагують, якщо на них напасти.</MessageHateChantersAbsorbed>
+  <MessageHateChantersAbsorbed>Культисти в трансі й не реагують на напади.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
   <MessageHateChantIncreased>Наспів ненависті стає гучнішим.</MessageHateChantIncreased>
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>{0_nameDef} може самовоскреснути, використовуючи відмову від смерті.</SelfResurrectText>
+  <SelfResurrectText>{0_nameDef} може за наказом воскреснути самотужки завдяки відмові від смерті.</SelfResurrectText>
   <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
   <MessageUsingSelfResurrection>{0_nameDef} використовує відмову від смерті, щоб воскреснути.</MessageUsingSelfResurrection>
   <!-- Pit Gate -->
@@ -24,7 +24,7 @@
   <MessagePitBurrowCollapsed>Нору завалено.</MessagePitBurrowCollapsed>
   <!-- Fleshsack -->
   <!-- EN: The flesh sack contained something -->
-  <FleshmassContainedMessage>У мішечку плоті щось знаходиться.</FleshmassContainedMessage>
+  <FleshmassContainedMessage>У мішечку плоті щось було</FleshmassContainedMessage>
   <!-- Psychic rituals -->
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} атакують!</MessagePsychicRitualAssault>
@@ -37,40 +37,40 @@
   <MessageBiomutationLanceTargetTooBig>Неправильна ціль: {0_nameDef} має завеликий розмір.</MessageBiomutationLanceTargetTooBig>
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>Увага: Немає кімнат з мінімальною силою стримування для {0}. Він може незабаром втекти.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>Увага: жодна кімната не має достатньої сили утримання, і {0} може незабаром утекти.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>Увага: {0} нижче мінімальної сили стримування для {1}. Він може незабаром втекти.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>Увага: {0} – сила утримання нижча за мінімальну, і {1} може незабаром утекти.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
-  <MessageHolderReserved>Неможливо перенести до {lookup: {0}; Case; 3}, воно призначене для іншого.</MessageHolderReserved>
+  <MessageHolderReserved>Неможливо перенести: {0} зарезервовано кимось іншим.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
   <MessageEntityExecuted>{EXECUTIONER_labelShort} страчує {VICTIM_kindIndef}.</MessageEntityExecuted>
   <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformReinstalled>Увага: Перевстановлення зайнятої платформи для утримання призведе до звільнення аномалії. Спочатку перенесіть її на іншу платформу.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformReinstalled>Увага: якщо перевстановити зайняту платформу для утримання, сутність вивільниться. Спершу перенесіть сутність на іншу платформу.</MessageOccupiedHoldingPlatformReinstalled>
   <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformUninstalled>Увага: Демонтаж зайнятої платформи для утримання призведе до звільнення аномалії. Спочатку перенесіть її на іншу платформу.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>Увага: якщо демонтувати зайняту платформу для утримання, сутність вивільниться. Спершу перенесіть сутність на іншу платформу.</MessageOccupiedHoldingPlatformUninstalled>
   <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformDeconstructed>Увага: Розбирання зайнятої платформи для утримання призведе до звільнення аномалії. Спочатку перенесіть її на іншу платформу.</MessageOccupiedHoldingPlatformDeconstructed>
+  <MessageOccupiedHoldingPlatformDeconstructed>Увага: якщо розібрати зайняту платформу для утримання, сутність вивільниться. Спершу перенесіть сутність на іншу платформу.</MessageOccupiedHoldingPlatformDeconstructed>
   <!-- Duplicator obelisk -->
   <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>Прибуває ворожий клон {0_nameDef}.</MessageHostileDuplicate>
+  <MessageHostileDuplicate>З'явився ворожий дублікат. Оригінал – {0_nameDef}.</MessageHostileDuplicate>
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
-  <MessageProximityDetectorTriggered>Детектор руху помітив невидиму сутність.</MessageProximityDetectorTriggered>
+  <MessageProximityDetectorTriggered>Детектор наближення виявив невидиму істоту.</MessageProximityDetectorTriggered>
   <!-- Unnatural darkness -->
   <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
-  <MessagePawnAttackedInDarkness>Щось у темряві атакувало {0_nameDef}.</MessagePawnAttackedInDarkness>
+  <MessagePawnAttackedInDarkness>{0_nameDef} зазнає нападу з темряви.</MessagePawnAttackedInDarkness>
   <!-- Revenant -->
   <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>Ревенант був викритий!</MessageRevenantForcedVisibility>
+  <MessageRevenantForcedVisibility>Прихованого ревенанта викрито!</MessageRevenantForcedVisibility>
   <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
-  <MessageRevenantHeard>{PAWN_nameDef} чує ревенанта {1} неподалік!</MessageRevenantHeard>
+  <MessageRevenantHeard>{PAWN_nameDef} чує неподалік {1} ревенанта!</MessageRevenantHeard>
   <!-- Abilities -->
   <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} не може бути використана на істотах, які не кровоточать.</MessageCannotUseOnNonBleeder>
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}: не можна застосувати до істот, які не кровоточать.</MessageCannotUseOnNonBleeder>
   <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} стривожує пальцешипа.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} тривожить пальцешипа.</MessageFingerspikeDisturbed>
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} стривожує кількох пальцешипів.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} тривожить кількох пальцешипів.</MessageFingerspikeDisturbedPlural>
   <!-- EN: The death pall has begun to resurrect corpses. -->
-  <DeathPallResurrectedMessage>Туман несмертя почала воскрешати трупи.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>Туман несмертя почав воскрешати трупи.</DeathPallResurrectedMessage>
 </LanguageData>

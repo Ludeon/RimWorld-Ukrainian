@@ -6,9 +6,9 @@
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription(classicMode==True)->Ви дізналися про цінну реліквію неподалік.\n\n[relic_name] - один з [relicGlobalCount] старовинних об’єктів, які шанують багато людей. Якби ви могли дістати його, ви могли б побудувати релікварій, щоб порадувати своїх колоністів і залучити заможних паломників.</li>
-    <li>questDescription(classicMode==False)->Ви дізналися про цінну реліквію {lookup: [ideo_name]; Case; 1} неподалік.\n\n[relic_name] - старовинний об'єкт, який шанують всі [ideo_memberNamePlural]. Якби ви могли дістати його, ви могли б побудувати релікварій, щоб порадувати {lookup: [ideo_memberNamePlural]; Case; 1}, залучити заможних паломників та нових послідовників {lookup: [ideo_name]; Case; 3}.</li>
-    <li>questDescriptionPartBeforeDiscovery->Для початку вам треба виявити місцезнаходження [relic_name]. Слідкуйте за можливостями збору інформації про це.</li>
+    <li>questDescription(classicMode==True)->Ви дізналися, що неподалік є цінна реліквія.\n\n[relic_name] – один із [relicGlobalCount] старовинних предметів, які шанує безліч людей. Здобувши його, ви зможете збудувати релікварій, що тішитиме колоністів і приваблюватиме заможних паломників.</li>
+    <li>questDescription(classicMode==False)->Ви дізналися, що неподалік є реліквія ідеології «[ideo_name]».\n\n[relic_name] – старовинний предмет, який шанують усі [ideo_memberNamePlural]. Здобувши його, ви зможете збудувати великий релікварій: [ideo_memberNamePlural] будуть щасливі, з'являться заможні паломники, а ідеологія «[ideo_name]» здобуде нових прихильників.</li>
+    <li>questDescriptionPartBeforeDiscovery->Спершу треба з'ясувати, де перебуває [relic_name]. Не пропускайте нагоди зібрати про реліквію відомості.</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
@@ -25,17 +25,21 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->The [hunt] for the [item]</li>
-    <li>questName->The [itemAdj] [item]</li>
-    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
-    <li>hunt->hunt</li>
-    <li>hunt->search</li>
-    <li>hunt->quest</li>
+    <li>questName->[hunt] [itemGen]</li>
+    <li>questName->[itemAdj]</li>
+    <li>questName->[item]</li>
+    <li>questName(classicMode==False)->Святиня «[ideo_name]»</li>
+    <li>hunt->Пошуки</li>
+    <li>hunt->Розшуки</li>
+    <li>hunt->У пошуках</li>
+    <li>itemGen->реліквії</li>
+    <li>itemGen->артефакту</li>
+    <li>itemGen->святині</li>
     <li>item(p=4)->[relic_name]</li>
-    <li>item->relic</li>
-    <li>item->artifact</li>
-    <li>itemAdj->ancient</li>
-    <li>itemAdj->revered</li>
-    <li>itemAdj->venerated</li>
+    <li>item->Реліквія</li>
+    <li>item->Артефакт</li>
+    <li>itemAdj->Старовинна реліквія</li>
+    <li>itemAdj->Шанована реліквія</li>
+    <li>itemAdj->Священний артефакт</li>
   </RelicHunt.questNameRules.rulesStrings>
 </LanguageData>

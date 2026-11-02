@@ -10,17 +10,17 @@
   -->
   <MechanitorShip.questContentRules.rulesStrings>
     <li>mechanitorShuttleCrashedLetterLabel->Корабель механітора</li>
-    <li>mechanitorShuttleCrashedLetterText->Поруч розбився корабель механітора із дикими механоїдами. Механоїди покинули розбитий корабель та готуються до битви.</li>
-    <li>assaultBeginLetterLabel->Механоїди атакують</li>
-    <li>assaultBeginLetterText->Дикі механоїди атакують колонію!</li>
-    <li>mechlinkAvailableLetterLabel->Мехлінк [mechanitor_nameDef] доступний</li>
-    <li>mechlinkAvailableLetterText->Розбитий корабель містить старовинне тіло механітора.\n\nВилучите [mechanitor_possessive] мехлінк, обравши колоніста та натиснувши ПКМ по тілу.</li>
+    <li>mechanitorShuttleCrashedLetterText->Неподалік розбився корабель механітора з дикими механоїдами на борту. Механоїди виберуться з уламків і готуватимуться до бою.</li>
+    <li>assaultBeginLetterLabel->Атака механоїдів</li>
+    <li>assaultBeginLetterText->Дикі механоїди йдуть штурмувати колонію!</li>
+    <li>mechlinkAvailableLetterLabel->Можна забрати мехлінк ([mechanitor_nameDef])</li>
+    <li>mechlinkAvailableLetterText->Серед уламків корабля лежить труп древнього механітора.\n\nЩоб вилучити {mechanitor_gender ? його : її} мехлінк, виберіть колоніста й клацніть правою кнопкою миші по трупу.</li>
   </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви розшифрували стародавній транспондер та виявили корабель механітора на орбіті. Корабель в поганому стані, але ви можете відправити сигнал, що змусить його приземлитися у вашій місцевості.\n\nНа кораблі знаходяться залишки давно померлого механітора. Механітори можуть створювати та контролювати механоїдів, для допомоги в бою та роботі. Вилучивши його мехлінк, ви зможете зробити механізатором когось з ваших колоністів.\n\nОбережно, на кораблі знаходяться ворожі механоїди:\n\n[mechList]</li>
+    <li>questDescription->Ви розшифрували сигнал старовинного транспондера й дізналися, де на орбіті перебуває корабель механоїдів. Корабель сильно пошкоджений, але ви можете подати йому сигнал, щоб він сів неподалік.\n\nНа борту – останки давно загиблого механітора. Механітори створюють механоїдів і керують ними в роботі та бою. Вилучивши мехлінк загиблого механітора, ви зможете зробити механітором одного зі своїх колоністів.\n\nОбережно: на кораблі є й ворожі механоїди. До їхньої групи входять:\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -37,15 +37,19 @@
   -->
   <MechanitorShip.questNameRules.rulesStrings>
     <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>questName->[shipAncient]</li>
     <li>shipAdjective->механітора</li>
     <li>shipAdjective->наглядача</li>
-    <li>shipAdjective->древнього</li>
     <li>shipAdjective->механоїдів</li>
+    <li>shipAncient->старовинний корабель</li>
+    <li>shipAncient->старовинний шатл</li>
+    <li>shipAncient->старовинне судно</li>
+    <li>shipAncient->старовинні уламки</li>
     <li>shipNoun->корабель</li>
     <li>shipNoun->шатл</li>
-    <li>shipNoun->ремесло</li>
-    <li>shipNoun->крах</li>
-    <li>shipNoun->падіння</li>
-    <li>shipNoun->транспортер</li>
+    <li>shipNoun->судно</li>
+    <li>shipNoun->уламки</li>
+    <li>shipNoun->рештки</li>
+    <li>shipNoun->транспортник</li>
   </MechanitorShip.questNameRules.rulesStrings>
 </LanguageData>

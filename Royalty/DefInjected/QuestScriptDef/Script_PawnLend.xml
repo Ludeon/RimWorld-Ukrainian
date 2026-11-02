@@ -18,21 +18,21 @@
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] з [asker_faction_name] потребує додаткової допомоги для виконання [dutyDescription].\n\n[asker_pronoun] просить вас надати [asker_objective] [colonistCountToLend] for [lendForDays] днів.\n\n[willSendShuttle]</li>
-    <li>disease->грип</li>
-    <li>disease->чума</li>
-    <li>disease->малярія</li>
-    <li>disease->інфекція</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] з [asker_faction_name] потребує допомоги для виконання [dutyRoyalDescription].\n\n[asker_pronoun] просить вас надати [colonistCountToLend] для виконання [asker_objective] протягом [lendForDays] днів.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->1 колоніст[minAgeOrOlder]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] фракції [asker_faction_name] [asker_nameFull] потребує додаткових рук, щоб [dutyDescription].\n\n[asker_pronoun] просить вас позичити [asker_objective] [colonistCountToLend] на [lendForDays] дн.\n\n[willSendShuttle]</li>
+    <li>disease->грипу</li>
+    <li>disease->чуми</li>
+    <li>disease->малярії</li>
+    <li>disease->інфекції</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] фракції [asker_faction_name] [asker_nameFull] потребує людей, щоб [dutyRoyalDescription].\n\n[asker_pronoun] просить вас прислати [colonistCountToLend], щоб ті послужили [asker_objective] [lendForDays] дн.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 колоніста[minAgeOrOlder]</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] колоністів[minAgeOrOlder]</li>
-    <li>willSendShuttle->[asker_pronoun] відправить шатл, щоб забрати [colonists].</li>
+    <li>willSendShuttle->[asker_pronoun] пришле шатл, щоб забрати [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->колоніста</li>
     <li>colonists(colonistsToLendCount>1)->колоністів</li>
     <li>minAgeOrOlder(minAge==0)-></li>
-    <li>minAgeOrOlder(minAge>0)-> віком [minAge] чи старше</li>
-    <li>pawnListHaveConjugation(colonistsToLendCount==1)->має</li>
-    <li>pawnListHaveConjugation(colonistsToLendCount>1)->мають</li>
+    <li>minAgeOrOlder(minAge>0)-> віком від [minAge] р.</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->повертається</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->повертаються</li>
   </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
@@ -48,52 +48,84 @@
     <li>worker->Helper</li>
   -->
   <PawnLend.questNameRules.rulesStrings>
-    <li>questName->Аутсорсинг [worker]</li>
-    <li>questName->Контракт [worker]</li>
-    <li>questName->Тимчасові робітники</li>
-    <li>questName->Позичити робітника</li>
-    <li>questName->Робітники для [asker_faction_name]</li>
-    <li>questName->Тимчасові робітники</li>
-    <li>questName->Запит на робітників</li>
-    <li>worker->Колоніст</li>
-    <li>worker->Працівник</li>
-    <li>worker->Працівник</li>
-    <li>worker->Помічник</li>
+    <li>questName->позичені [worker]</li>
+    <li>questName->[worker] за контрактом</li>
+    <li>questName->тимчасові працівники</li>
+    <li>questName->[worker] напрокат</li>
+    <li>questName->[worker] для фракції [asker_faction_name]</li>
+    <li>questName->тимчасові [worker]</li>
+    <li>questName->потрібні [worker]</li>
+    <li>worker->колоністи</li>
+    <li>worker->працівники</li>
+    <li>worker->робітники</li>
+    <li>worker->помічники</li>
   </PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
-  <PawnLend.DutyRulesAny.slateRef><rulesStrings>
-    <li>dutyDescription->збір врожаю</li>
-    <li>dutyDescription->укріплення поселення</li>
+  <PawnLend.DutyRulesAny.slateRef>
+    <li>dutyDescription->зібрати врожай</li>
+    <li>dutyDescription->укріпити поселення</li>
     <li>dutyDescription->заснувати поселення</li>
-    <li>dutyDescription->спостерігати за рейдерами</li>
-    <li>dutyDescription->встановити госпіталь</li>
-    <li>dutyDescription->втримати розповсюдження [disease]</li></rulesStrings>
+    <li>dutyDescription->чатувати на рейдерів</li>
+    <li>dutyDescription->облаштувати шпиталь</li>
+    <li>dutyDescription->стримати спалах [disease]</li>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] повертається після допомоги [asker_nameFull] з фракції [asker_faction_name] до [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] додому. Фракція [asker_faction_name] отримала допомогу: треба було [dutyDescription], як {asker_gender ? просив : просила} [asker_nameFull].</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
-  <PawnLend.DutyRulesRoyal.slateRef><rulesStrings>
-    <li>dutyRoyalDescription->підготовленої церемонії</li>
-    <li>dutyRoyalDescription->перемовини з племенем</li>
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <li>dutyRoyalDescription->підготувати церемонію</li>
+    <li>dutyRoyalDescription->домовитися з племенем</li>
     <li>dutyRoyalDescription->дослідити болото</li>
     <li>dutyRoyalDescription->перекласти книгу</li>
     <li>dutyRoyalDescription->облаштувати тренувальний табір</li>
-    <li>dutyRoyalDescription->збір врожаю</li></rulesStrings>
+    <li>dutyRoyalDescription->зібрати врожай</li>
   </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] повертаються після допомоги [asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name] до [dutyRoyalDescription].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] додому. Фракція [asker_faction_name] отримала допомогу: треба було [dutyRoyalDescription], як {asker_gender ? просив : просила} [asker_royalTitleInCurrentFaction] [asker_nameFull].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.LetterLabelShuttleArrived.slateRef>Шатл прибув</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>Шатл прилетів</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.LetterTextShuttleArrived.slateRef>Шатл прибув, щоб забрати [colonistsToLendCount] з ваших колоністів.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>Прилетів шатл, щоб забрати ваших колоністів ([colonistsToLendCount]).</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
   <PawnLend.LetterLabelShuttleDestroyed.slateRef>Шатл знищено</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.LetterTextShuttleDestroyed.slateRef>Відправлений за колоністами шатл знищено</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>Шатл, що мав забрати колоністів, знищено.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Shuttle abandoned -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>Закинутий шатл</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>Шатл покинуто</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been left behind. -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>Шатл, що відправили забрати колоністів, було залишено.</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>Шатл, що мав забрати колоністів, покинуто.</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Колоністи повернулися</PawnLend.LetterLabelColonistsReturned.slateRef>
+  <!-- EN:
+    <li>dutyDescription->gather the harvest</li>
+    <li>dutyDescription->fortify a settlement</li>
+    <li>dutyDescription->set up a settlement</li>
+    <li>dutyDescription->watch for raiders</li>
+    <li>dutyDescription->set up a hospital</li>
+    <li>dutyDescription->contain an outbreak of [disease]</li>
+  -->
+  <PawnLend.DutyRulesAny.rulesStrings>
+    <li>dutyDescription->зібрати врожай</li>
+    <li>dutyDescription->укріпити поселення</li>
+    <li>dutyDescription->заснувати поселення</li>
+    <li>dutyDescription->чатувати на рейдерів</li>
+    <li>dutyDescription->облаштувати шпиталь</li>
+    <li>dutyDescription->стримати спалах [disease]</li>
+  </PawnLend.DutyRulesAny.rulesStrings>
+  <!-- EN:
+    <li>dutyRoyalDescription->prepare a ceremony</li>
+    <li>dutyRoyalDescription->negotiate with a tribe</li>
+    <li>dutyRoyalDescription->explore a swamp</li>
+    <li>dutyRoyalDescription->translate a book</li>
+    <li>dutyRoyalDescription->set up a training ground</li>
+    <li>dutyRoyalDescription->harvest crops</li>
+  -->
+  <PawnLend.DutyRulesRoyal.rulesStrings>
+    <li>dutyRoyalDescription->підготувати церемонію</li>
+    <li>dutyRoyalDescription->домовитися з племенем</li>
+    <li>dutyRoyalDescription->дослідити болото</li>
+    <li>dutyRoyalDescription->перекласти книгу</li>
+    <li>dutyRoyalDescription->облаштувати тренувальний табір</li>
+    <li>dutyRoyalDescription->зібрати врожай</li>
+  </PawnLend.DutyRulesRoyal.rulesStrings>
 </LanguageData>

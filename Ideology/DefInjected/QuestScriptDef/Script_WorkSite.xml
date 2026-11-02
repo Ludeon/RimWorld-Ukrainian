@@ -6,9 +6,9 @@
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви виявили поблизу [siteLabel], який контролює фракція [faction_name].\n\nЯкщо хочете, ви можете здійснити рейд на табір, щоб зібрати здобич ([loot]). [raidConsequences]\n\nТабір збере речі та вирушить далі через [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==true)->Оскільки фракція [faction_name] — це лише невелика незалежна група, ви можете атакувати їх без будь-яких дипломатичних наслідків.</li>
-    <li>raidConsequences(faction_temporary==true)->Оскільки [faction_name] є лише невеликою незалежною групою, ви можете атакувати її без будь-яких серйозних дипломатичних наслідків.</li>
+    <li>questDescription->Поблизу виявлено [siteLabel], що належить фракції [faction_name].\n\nЗа бажання ви можете напасти на табір і забрати здобич ([loot]). [raidConsequences]\n\nЧерез [timeout_duration] табір згорнуть і перенесуть деінде.</li>
+    <li>raidConsequences(faction_temporary==false)->У такому разі фракція [faction_name] стане вам ворожою, якщо ще не стала.</li>
+    <li>raidConsequences(faction_temporary==true)->Фракція [faction_name] – лише невелика незалежна група, тож напад на неї не матиме ширших дипломатичних наслідків.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
@@ -24,14 +24,14 @@
   -->
   <OpportunitySite_WorkSite.questNameRules.rulesStrings>
     <li>questName->[detected] [site_label]</li>
-    <li>detected->виявлено</li>
-    <li>detected->виявлено</li>
-    <li>detected->поблизу</li>
-    <li>detected->знайдено</li>
-    <li>detected->ідентифіковано</li>
-    <li>detected->помічено</li>
-    <li>detected->помічено</li>
-    <li>detected->розкрито</li>
-    <li>detected->розкрито</li>
+    <li>detected->Виявлено</li>
+    <li>detected->Знайдено</li>
+    <li>detected->Поблизу</li>
+    <li>detected->Помічено</li>
+    <li>detected->Розпізнано</li>
+    <li>detected->Запримічено</li>
+    <li>detected->Викрито</li>
+    <li>detected->Відкрито</li>
+    <li>detected->Вистежено</li>
   </OpportunitySite_WorkSite.questNameRules.rulesStrings>
 </LanguageData>

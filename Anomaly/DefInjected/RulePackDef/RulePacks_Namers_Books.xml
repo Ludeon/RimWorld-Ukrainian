@@ -189,17 +189,17 @@
     <li>suffixEvil->vix</li>
   -->
   <Namer_Tome.rulePack.rulesStrings>
-    <li>title->[maybeThe] [bookEvil] про [nounEvilUncountable]</li>
-    <li>title->[maybeThe] [bookEvil] of [nounEvilCountable]s</li>
-    <li>title->[maybeThe] [bookEvil] of the [nounEvilCountable]</li>
-    <li>title->[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]</li>
-    <li>title->[maybeThe] [bookEvil] of [ANYPAWN_nameIndef]</li>
-    <li>title->[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
-    <li>title->[maybeThe] [nounEvilAny] of [ANYPAWN_nameIndef]</li>
-    <li>title->[maybeThe] [adjectiveEvil] [nounEvilAny]</li>
-    <li>title->[ANYPAWN_nameIndef]'s [bookEvil]</li>
-    <li>title->[maybeThe] [bookCompound]</li>
-    <li>title->[ANYPAWN_nameIndef]'s [bookCompound]</li>
+    <li>title->[bookEvil] [nounEvilUncountable_gen]</li>
+    <li>title->[bookEvil] [nounEvilCountable_pl_gen]</li>
+    <li>title->[bookEvil] [nounEvilCountable_gen]</li>
+    <li>title->[nounEvilCountable_pl] [inThe]</li>
+    <li>title->[bookEvil]: [ANYPAWN_nameIndef]</li>
+    <li>title->[nounEvilAny] [inThe]</li>
+    <li>title->[ANYPAWN_nameIndef] і [nounEvilAny]</li>
+    <li>title->[evil_np]</li>
+    <li>title->[ANYPAWN_nameIndef]: [bookEvil]</li>
+    <li>title->[bookCompound]</li>
+    <li>title->[ANYPAWN_nameIndef]: [bookCompound]</li>
     <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
     <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
     <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
@@ -209,171 +209,419 @@
     <li>connector->'</li>
     <li>connector->-</li>
     <li>maybeThe-></li>
-    <li>maybeThe->The</li>
-    <li>bookEvil(p=2)->Book</li>
+    <li>bookEvil(p=2)->книга</li>
     <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
-    <li>bookEvil->Tome</li>
-    <li>bookEvil->Codex</li>
-    <li>bookEvil->Writings</li>
-    <li>bookEvil->Record</li>
-    <li>bookEvil->Secrets</li>
-    <li>bookEvil->Chronicles</li>
-    <li>bookEvil->Cipher</li>
-    <li>bookEvil->Whispers</li>
-    <li>bookEvil->Testimony</li>
-    <li>bookEvil->Lamentations</li>
-    <li>bookEvil->Ґримуар</li>
-    <li>bookEvil->Almanac</li>
-    <li>bookEvil->Manuscript</li>
-    <li>bookEvil->Annals</li>
-    <li>bookEvil->Incantations</li>
-    <li>bookEvil->Revelations</li>
-    <li>bookEvil->Manifesto</li>
-    <li>bookEvil->Testament</li>
-    <li>bookEvil->Fragments</li>
-    <li>bookEvil->Shards</li>
-    <li>inThe->in the</li>
-    <li>inThe->within the</li>
-    <li>inThe->beneath the</li>
-    <li>inThe->under the</li>
-    <li>inThe->by the</li>
-    <li>inThe->on the</li>
-    <li>inThe->across the</li>
-    <li>adjectiveEvil(p=3)->Void</li>
-    <li>adjectiveEvil->Golden</li>
-    <li>adjectiveEvil->Unnatural</li>
-    <li>adjectiveEvil->Dark</li>
-    <li>adjectiveEvil->Black</li>
-    <li>adjectiveEvil->Deep</li>
-    <li>adjectiveEvil->Ancient</li>
-    <li>adjectiveEvil->Corrupt</li>
-    <li>adjectiveEvil->Blood</li>
-    <li>adjectiveEvil->Chaos</li>
-    <li>adjectiveEvil->Abyssal</li>
-    <li>adjectiveEvil->Uncanny</li>
-    <li>adjectiveEvil->Phantom</li>
-    <li>adjectiveEvil->Cryptic</li>
-    <li>adjectiveEvil->Whispering</li>
-    <li>adjectiveEvil->Forgotten</li>
-    <li>adjectiveEvil->Veiled</li>
-    <li>adjectiveEvil->Forbidden</li>
-    <li>adjectiveEvil->Subsurface</li>
-    <li>adjectiveEvil->Snake</li>
+    <li>bookEvil->фоліант</li>
+    <li>bookEvil->кодекс</li>
+    <li>bookEvil->писання</li>
+    <li>bookEvil->літопис</li>
+    <li>bookEvil->таємниці</li>
+    <li>bookEvil->хроніки</li>
+    <li>bookEvil->шифр</li>
+    <li>bookEvil->шепоти</li>
+    <li>bookEvil->свідчення</li>
+    <li>bookEvil->плачі</li>
+    <li>bookEvil->ґримуар</li>
+    <li>bookEvil->альманах</li>
+    <li>bookEvil->рукопис</li>
+    <li>bookEvil->літописи</li>
+    <li>bookEvil->заклинання</li>
+    <li>bookEvil->одкровення</li>
+    <li>bookEvil->маніфест</li>
+    <li>bookEvil->заповіт</li>
+    <li>bookEvil->фрагменти</li>
+    <li>bookEvil->скалки</li>
+    <li>inThe->[placeEvil]</li>
+    <li>evil_np(p=4)->[adjectiveEvil] [nounEvilAny_m]</li>
+    <li>evil_np(p=2.5)->[adjectiveEvil_f] [nounEvilAny_f]</li>
+    <li>evil_np(p=1)->[adjectiveEvil_n] [nounEvilAny_n]</li>
+    <li>evil_np(p=1.5)->[adjectiveEvil_pl] [nounEvilAny_pl]</li>
+    <li>evil_np(p=2)->[nounEvilAny] [adjectiveEvil_post]</li>
+    <li>adjectiveEvil_post(p=3)->порожнечі</li>
+    <li>adjectiveEvil_post->хаосу</li>
+    <li>adjectiveEvil_post->з безодні</li>
     <li>nounEvilAny->[nounEvilCountable]</li>
     <li>nounEvilAny->[nounEvilUncountable]</li>
-    <li>nounEvilUncountable->Fleshmass</li>
-    <li>nounEvilUncountable->Bioferrite</li>
-    <li>nounEvilUncountable->Deadlife</li>
-    <li>nounEvilUncountable->Archotech</li>
-    <li>nounEvilUncountable->Necrotech</li>
-    <li>nounEvilUncountable->Horax</li>
-    <li>nounEvilUncountable->Blood</li>
-    <li>nounEvilUncountable->Undeath</li>
-    <li>nounEvilUncountable->Power</li>
-    <li>nounEvilUncountable->Whispers</li>
-    <li>nounEvilUncountable->Knowledge</li>
-    <li>nounEvilUncountable->Horror</li>
-    <li>nounEvilUncountable->Fungi</li>
-    <li>nounEvilUncountable->Putrescence</li>
-    <li>nounEvilUncountable->Rituals</li>
-    <li>nounEvilUncountable->Murder</li>
-    <li>nounEvilUncountable->Darkness</li>
-    <li>nounEvilUncountable->Madness</li>
-    <li>nounEvilUncountable->Chaos</li>
-    <li>nounEvilUncountable->Despair</li>
-    <li>nounEvilUncountable->Suffering</li>
-    <li>nounEvilUncountable->Nightmares</li>
-    <li>nounEvilUncountable->Corruption</li>
-    <li>nounEvilUncountable->Doom</li>
-    <li>nounEvilUncountable->Terror</li>
-    <li>nounEvilUncountable->Malevolence</li>
-    <li>nounEvilUncountable->Shadows</li>
-    <li>nounEvilUncountable->Void</li>
-    <li>nounEvilUncountable->Gold</li>
-    <li>nounEvilCountable->Ghoul</li>
-    <li>nounEvilCountable->Ґевал</li>
-    <li>nounEvilCountable->Noctol</li>
-    <li>nounEvilCountable->Shambler</li>
-    <li>nounEvilCountable->Fleshbeast</li>
-    <li>nounEvilCountable->Сфера ночі</li>
-    <li>nounEvilCountable->Corpse</li>
-    <li>nounEvilCountable->Cube</li>
-    <li>nounEvilCountable->Ревенант</li>
-    <li>nounEvilCountable->Metalhorror</li>
-    <li>nounEvilCountable->Abductor</li>
-    <li>nounEvilCountable->Duplicator</li>
-    <li>nounEvilCountable->Mutator</li>
-    <li>nounEvilCountable->Harbinger</li>
-    <li>nounEvilCountable->Sightstealer</li>
-    <li>nounEvilCountable->Chimera</li>
-    <li>nounEvilCountable->Devourer</li>
-    <li>nounEvilCountable->Shard</li>
-    <li>nounEvilCountable->Sculpture</li>
-    <li>nounEvilCountable->Serum</li>
-    <li>nounEvilCountable->Cult</li>
-    <li>nounEvilCountable->Cultist</li>
-    <li>nounEvilCountable->Goat</li>
-    <li>nounEvilCountable->Shadow</li>
-    <li>nounEvilCountable->Lurker</li>
-    <li>nounEvilCountable->Rites</li>
-    <li>nounEvilCountable->Hex</li>
-    <li>nounEvilCountable->Snake</li>
-    <li>nounEvilCountable->Feaster</li>
-    <li>placeEvil->Ocean</li>
-    <li>placeEvil->Void</li>
-    <li>placeEvil->Abyss</li>
-    <li>placeEvil->Deep</li>
-    <li>placeEvil->Shadows</li>
-    <li>placeEvil->Tombs</li>
-    <li>placeEvil->Darkness</li>
-    <li>placeEvil->Mountain</li>
-    <li>placeEvil->Chamber</li>
-    <li>placeEvil->Catacombs</li>
-    <li>placeEvil->Sanctum</li>
-    <li>placeEvil->Grove</li>
-    <li>placeEvil->Earth</li>
-    <li>placeEvil->Stars</li>
-    <li>placeEvil->Ocean</li>
-    <li>placeEvil->Depths</li>
-    <li>placeEvil->Underverse</li>
-    <li>placeEvil->Caverns</li>
-    <li>firstHalfEvil->vibro</li>
-    <li>firstHalfEvil->kelno</li>
-    <li>firstHalfEvil->nekro</li>
-    <li>firstHalfEvil->chrono</li>
-    <li>firstHalfEvil->drago</li>
-    <li>firstHalfEvil->krimi</li>
-    <li>firstHalfEvil->vadi</li>
-    <li>firstHalfEvil->horror</li>
-    <li>firstHalfEvil->nocio</li>
-    <li>firstHalfEvil->xeno</li>
-    <li>firstHalfEvil->psycho</li>
-    <li>firstHalfEvil->voro</li>
-    <li>firstHalfEvil->tyrano</li>
-    <li>firstHalfEvil->inverno</li>
-    <li>firstHalfEvil->phobo</li>
-    <li>firstHalfEvil->leva</li>
-    <li>suffixEvil->nomicon</li>
-    <li>suffixEvil->doron</li>
-    <li>suffixEvil->nax</li>
-    <li>suffixEvil->novicon</li>
-    <li>suffixEvil->vokon</li>
-    <li>suffixEvil->mancy</li>
-    <li>suffixEvil->gorgon</li>
-    <li>suffixEvil->morth</li>
-    <li>suffixEvil->cypher</li>
-    <li>suffixEvil->vex</li>
-    <li>suffixEvil->vortex</li>
-    <li>suffixEvil->nox</li>
-    <li>suffixEvil->cybex</li>
-    <li>suffixEvil->voron</li>
-    <li>suffixEvil->karnix</li>
-    <li>suffixEvil->nemex</li>
-    <li>suffixEvil->vexor</li>
-    <li>suffixEvil->tronix</li>
-    <li>suffixEvil->cryptex</li>
-    <li>suffixEvil->chaonix</li>
-    <li>suffixEvil->nix</li>
-    <li>suffixEvil->vix</li>
+    <li>nounEvilAny_m->[nounEvilCountable_m]</li>
+    <li>nounEvilAny_m->[nounEvilUncountable_m]</li>
+    <li>nounEvilAny_f->[nounEvilCountable_f]</li>
+    <li>nounEvilAny_f->[nounEvilUncountable_f]</li>
+    <li>nounEvilAny_n->[nounEvilCountable_n]</li>
+    <li>nounEvilAny_n->[nounEvilUncountable_n]</li>
+    <li>nounEvilAny_pl->[nounEvilCountable_pl]</li>
+    <li>nounEvilAny_pl->[nounEvilUncountable_pl]</li>
+    <li>adjectiveEvil->золотий</li>
+    <li>adjectiveEvil->неприродний</li>
+    <li>adjectiveEvil->темний</li>
+    <li>adjectiveEvil->чорний</li>
+    <li>adjectiveEvil->глибинний</li>
+    <li>adjectiveEvil->давній</li>
+    <li>adjectiveEvil->розтлінний</li>
+    <li>adjectiveEvil->кривавий</li>
+    <li>adjectiveEvil->моторошний</li>
+    <li>adjectiveEvil->примарний</li>
+    <li>adjectiveEvil->загадковий</li>
+    <li>adjectiveEvil->шепітливий</li>
+    <li>adjectiveEvil->забутий</li>
+    <li>adjectiveEvil->потаємний</li>
+    <li>adjectiveEvil->заборонений</li>
+    <li>adjectiveEvil->підземний</li>
+    <li>adjectiveEvil->зміїний</li>
+    <li>adjectiveEvil_f->золота</li>
+    <li>adjectiveEvil_f->неприродна</li>
+    <li>adjectiveEvil_f->темна</li>
+    <li>adjectiveEvil_f->чорна</li>
+    <li>adjectiveEvil_f->глибинна</li>
+    <li>adjectiveEvil_f->давня</li>
+    <li>adjectiveEvil_f->розтлінна</li>
+    <li>adjectiveEvil_f->кривава</li>
+    <li>adjectiveEvil_f->моторошна</li>
+    <li>adjectiveEvil_f->примарна</li>
+    <li>adjectiveEvil_f->загадкова</li>
+    <li>adjectiveEvil_f->шепітлива</li>
+    <li>adjectiveEvil_f->забута</li>
+    <li>adjectiveEvil_f->потаємна</li>
+    <li>adjectiveEvil_f->заборонена</li>
+    <li>adjectiveEvil_f->підземна</li>
+    <li>adjectiveEvil_f->зміїна</li>
+    <li>adjectiveEvil_n->золоте</li>
+    <li>adjectiveEvil_n->неприродне</li>
+    <li>adjectiveEvil_n->темне</li>
+    <li>adjectiveEvil_n->чорне</li>
+    <li>adjectiveEvil_n->глибинне</li>
+    <li>adjectiveEvil_n->давнє</li>
+    <li>adjectiveEvil_n->розтлінне</li>
+    <li>adjectiveEvil_n->криваве</li>
+    <li>adjectiveEvil_n->моторошне</li>
+    <li>adjectiveEvil_n->примарне</li>
+    <li>adjectiveEvil_n->загадкове</li>
+    <li>adjectiveEvil_n->шепітливе</li>
+    <li>adjectiveEvil_n->забуте</li>
+    <li>adjectiveEvil_n->потаємне</li>
+    <li>adjectiveEvil_n->заборонене</li>
+    <li>adjectiveEvil_n->підземне</li>
+    <li>adjectiveEvil_n->зміїне</li>
+    <li>adjectiveEvil_pl->золоті</li>
+    <li>adjectiveEvil_pl->неприродні</li>
+    <li>adjectiveEvil_pl->темні</li>
+    <li>adjectiveEvil_pl->чорні</li>
+    <li>adjectiveEvil_pl->глибинні</li>
+    <li>adjectiveEvil_pl->давні</li>
+    <li>adjectiveEvil_pl->розтлінні</li>
+    <li>adjectiveEvil_pl->криваві</li>
+    <li>adjectiveEvil_pl->моторошні</li>
+    <li>adjectiveEvil_pl->примарні</li>
+    <li>adjectiveEvil_pl->загадкові</li>
+    <li>adjectiveEvil_pl->шепітливі</li>
+    <li>adjectiveEvil_pl->забуті</li>
+    <li>adjectiveEvil_pl->потаємні</li>
+    <li>adjectiveEvil_pl->заборонені</li>
+    <li>adjectiveEvil_pl->підземні</li>
+    <li>adjectiveEvil_pl->зміїні</li>
+    <li>nounEvilUncountable->м'ясна маса</li>
+    <li>nounEvilUncountable->біоферит</li>
+    <li>nounEvilUncountable->несмертя</li>
+    <li>nounEvilUncountable->архотех</li>
+    <li>nounEvilUncountable->некротех</li>
+    <li>nounEvilUncountable->Горакс</li>
+    <li>nounEvilUncountable->кров</li>
+    <li>nounEvilUncountable->нежить</li>
+    <li>nounEvilUncountable->влада</li>
+    <li>nounEvilUncountable->шепіт</li>
+    <li>nounEvilUncountable->знання</li>
+    <li>nounEvilUncountable->жах</li>
+    <li>nounEvilUncountable->гриби</li>
+    <li>nounEvilUncountable->тлін</li>
+    <li>nounEvilUncountable->ритуали</li>
+    <li>nounEvilUncountable->вбивство</li>
+    <li>nounEvilUncountable->темрява</li>
+    <li>nounEvilUncountable->божевілля</li>
+    <li>nounEvilUncountable->хаос</li>
+    <li>nounEvilUncountable->відчай</li>
+    <li>nounEvilUncountable->страждання</li>
+    <li>nounEvilUncountable->кошмари</li>
+    <li>nounEvilUncountable->скверна</li>
+    <li>nounEvilUncountable->погибель</li>
+    <li>nounEvilUncountable->страх</li>
+    <li>nounEvilUncountable->злоба</li>
+    <li>nounEvilUncountable->тіні</li>
+    <li>nounEvilUncountable->порожнеча</li>
+    <li>nounEvilUncountable->золото</li>
+    <li>nounEvilUncountable_gen->м'ясної маси</li>
+    <li>nounEvilUncountable_gen->біофериту</li>
+    <li>nounEvilUncountable_gen->несмертя</li>
+    <li>nounEvilUncountable_gen->архотеха</li>
+    <li>nounEvilUncountable_gen->некротеху</li>
+    <li>nounEvilUncountable_gen->Горакса</li>
+    <li>nounEvilUncountable_gen->крові</li>
+    <li>nounEvilUncountable_gen->нежиті</li>
+    <li>nounEvilUncountable_gen->влади</li>
+    <li>nounEvilUncountable_gen->шепоту</li>
+    <li>nounEvilUncountable_gen->знань</li>
+    <li>nounEvilUncountable_gen->жаху</li>
+    <li>nounEvilUncountable_gen->грибів</li>
+    <li>nounEvilUncountable_gen->тліну</li>
+    <li>nounEvilUncountable_gen->ритуалів</li>
+    <li>nounEvilUncountable_gen->вбивства</li>
+    <li>nounEvilUncountable_gen->темряви</li>
+    <li>nounEvilUncountable_gen->божевілля</li>
+    <li>nounEvilUncountable_gen->хаосу</li>
+    <li>nounEvilUncountable_gen->відчаю</li>
+    <li>nounEvilUncountable_gen->страждань</li>
+    <li>nounEvilUncountable_gen->кошмарів</li>
+    <li>nounEvilUncountable_gen->скверни</li>
+    <li>nounEvilUncountable_gen->погибелі</li>
+    <li>nounEvilUncountable_gen->страху</li>
+    <li>nounEvilUncountable_gen->злоби</li>
+    <li>nounEvilUncountable_gen->тіней</li>
+    <li>nounEvilUncountable_gen->порожнечі</li>
+    <li>nounEvilUncountable_gen->золота</li>
+    <li>nounEvilUncountable_m->біоферит</li>
+    <li>nounEvilUncountable_m->архотех</li>
+    <li>nounEvilUncountable_m->некротех</li>
+    <li>nounEvilUncountable_m->Горакс</li>
+    <li>nounEvilUncountable_m->шепіт</li>
+    <li>nounEvilUncountable_m->жах</li>
+    <li>nounEvilUncountable_m->тлін</li>
+    <li>nounEvilUncountable_m->хаос</li>
+    <li>nounEvilUncountable_m->відчай</li>
+    <li>nounEvilUncountable_m->страх</li>
+    <li>nounEvilUncountable_f->м'ясна маса</li>
+    <li>nounEvilUncountable_f->кров</li>
+    <li>nounEvilUncountable_f->нежить</li>
+    <li>nounEvilUncountable_f->влада</li>
+    <li>nounEvilUncountable_f->темрява</li>
+    <li>nounEvilUncountable_f->скверна</li>
+    <li>nounEvilUncountable_f->погибель</li>
+    <li>nounEvilUncountable_f->злоба</li>
+    <li>nounEvilUncountable_f->порожнеча</li>
+    <li>nounEvilUncountable_n->несмертя</li>
+    <li>nounEvilUncountable_n->знання</li>
+    <li>nounEvilUncountable_n->вбивство</li>
+    <li>nounEvilUncountable_n->божевілля</li>
+    <li>nounEvilUncountable_n->золото</li>
+    <li>nounEvilUncountable_pl->гриби</li>
+    <li>nounEvilUncountable_pl->ритуали</li>
+    <li>nounEvilUncountable_pl->страждання</li>
+    <li>nounEvilUncountable_pl->кошмари</li>
+    <li>nounEvilUncountable_pl->тіні</li>
+    <li>nounEvilCountable->гуль</li>
+    <li>nounEvilCountable->кривавий ґевал</li>
+    <li>nounEvilCountable->ноктол</li>
+    <li>nounEvilCountable->волокун</li>
+    <li>nounEvilCountable->звір плоті</li>
+    <li>nounEvilCountable->ноціосфера</li>
+    <li>nounEvilCountable->труп</li>
+    <li>nounEvilCountable->куб</li>
+    <li>nounEvilCountable->ревенант</li>
+    <li>nounEvilCountable->металевий жах</li>
+    <li>nounEvilCountable->викрадач</li>
+    <li>nounEvilCountable->дублікатор</li>
+    <li>nounEvilCountable->мутатор</li>
+    <li>nounEvilCountable->провісник</li>
+    <li>nounEvilCountable->зорокрад</li>
+    <li>nounEvilCountable->химера</li>
+    <li>nounEvilCountable->пожирач</li>
+    <li>nounEvilCountable->уламок</li>
+    <li>nounEvilCountable->скульптура</li>
+    <li>nounEvilCountable->сироватка</li>
+    <li>nounEvilCountable->культ</li>
+    <li>nounEvilCountable->культист</li>
+    <li>nounEvilCountable->цап</li>
+    <li>nounEvilCountable->тінь</li>
+    <li>nounEvilCountable->причаєнець</li>
+    <li>nounEvilCountable->обряди</li>
+    <li>nounEvilCountable->закляття</li>
+    <li>nounEvilCountable->змія</li>
+    <li>nounEvilCountable->бенкетар</li>
+    <li>nounEvilCountable_gen->гуля</li>
+    <li>nounEvilCountable_gen->кривавого ґевала</li>
+    <li>nounEvilCountable_gen->ноктола</li>
+    <li>nounEvilCountable_gen->волокуна</li>
+    <li>nounEvilCountable_gen->звіра плоті</li>
+    <li>nounEvilCountable_gen->ноціосфери</li>
+    <li>nounEvilCountable_gen->трупа</li>
+    <li>nounEvilCountable_gen->куба</li>
+    <li>nounEvilCountable_gen->ревенанта</li>
+    <li>nounEvilCountable_gen->металевого жаху</li>
+    <li>nounEvilCountable_gen->викрадача</li>
+    <li>nounEvilCountable_gen->дублікатора</li>
+    <li>nounEvilCountable_gen->мутатора</li>
+    <li>nounEvilCountable_gen->провісника</li>
+    <li>nounEvilCountable_gen->зорокрада</li>
+    <li>nounEvilCountable_gen->химери</li>
+    <li>nounEvilCountable_gen->пожирача</li>
+    <li>nounEvilCountable_gen->уламка</li>
+    <li>nounEvilCountable_gen->скульптури</li>
+    <li>nounEvilCountable_gen->сироватки</li>
+    <li>nounEvilCountable_gen->культу</li>
+    <li>nounEvilCountable_gen->культиста</li>
+    <li>nounEvilCountable_gen->цапа</li>
+    <li>nounEvilCountable_gen->тіні</li>
+    <li>nounEvilCountable_gen->причаєнця</li>
+    <li>nounEvilCountable_gen->обрядів</li>
+    <li>nounEvilCountable_gen->закляття</li>
+    <li>nounEvilCountable_gen->змії</li>
+    <li>nounEvilCountable_gen->бенкетаря</li>
+    <li>nounEvilCountable_pl->гулі</li>
+    <li>nounEvilCountable_pl->криваві ґевали</li>
+    <li>nounEvilCountable_pl->ноктоли</li>
+    <li>nounEvilCountable_pl->волокуни</li>
+    <li>nounEvilCountable_pl->звірі плоті</li>
+    <li>nounEvilCountable_pl->ноціосфери</li>
+    <li>nounEvilCountable_pl->трупи</li>
+    <li>nounEvilCountable_pl->куби</li>
+    <li>nounEvilCountable_pl->ревенанти</li>
+    <li>nounEvilCountable_pl->металеві жахи</li>
+    <li>nounEvilCountable_pl->викрадачі</li>
+    <li>nounEvilCountable_pl->дублікатори</li>
+    <li>nounEvilCountable_pl->мутатори</li>
+    <li>nounEvilCountable_pl->провісники</li>
+    <li>nounEvilCountable_pl->зорокради</li>
+    <li>nounEvilCountable_pl->химери</li>
+    <li>nounEvilCountable_pl->пожирачі</li>
+    <li>nounEvilCountable_pl->уламки</li>
+    <li>nounEvilCountable_pl->скульптури</li>
+    <li>nounEvilCountable_pl->сироватки</li>
+    <li>nounEvilCountable_pl->культи</li>
+    <li>nounEvilCountable_pl->культисти</li>
+    <li>nounEvilCountable_pl->цапи</li>
+    <li>nounEvilCountable_pl->тіні</li>
+    <li>nounEvilCountable_pl->причаєнці</li>
+    <li>nounEvilCountable_pl->обряди</li>
+    <li>nounEvilCountable_pl->закляття</li>
+    <li>nounEvilCountable_pl->змії</li>
+    <li>nounEvilCountable_pl->бенкетарі</li>
+    <li>nounEvilCountable_pl_gen->гулів</li>
+    <li>nounEvilCountable_pl_gen->кривавих ґевалів</li>
+    <li>nounEvilCountable_pl_gen->ноктолів</li>
+    <li>nounEvilCountable_pl_gen->волокунів</li>
+    <li>nounEvilCountable_pl_gen->звірів плоті</li>
+    <li>nounEvilCountable_pl_gen->ноціосфер</li>
+    <li>nounEvilCountable_pl_gen->трупів</li>
+    <li>nounEvilCountable_pl_gen->кубів</li>
+    <li>nounEvilCountable_pl_gen->ревенантів</li>
+    <li>nounEvilCountable_pl_gen->металевих жахів</li>
+    <li>nounEvilCountable_pl_gen->викрадачів</li>
+    <li>nounEvilCountable_pl_gen->дублікаторів</li>
+    <li>nounEvilCountable_pl_gen->мутаторів</li>
+    <li>nounEvilCountable_pl_gen->провісників</li>
+    <li>nounEvilCountable_pl_gen->зорокрадів</li>
+    <li>nounEvilCountable_pl_gen->химер</li>
+    <li>nounEvilCountable_pl_gen->пожирачів</li>
+    <li>nounEvilCountable_pl_gen->уламків</li>
+    <li>nounEvilCountable_pl_gen->скульптур</li>
+    <li>nounEvilCountable_pl_gen->сироваток</li>
+    <li>nounEvilCountable_pl_gen->культів</li>
+    <li>nounEvilCountable_pl_gen->культистів</li>
+    <li>nounEvilCountable_pl_gen->цапів</li>
+    <li>nounEvilCountable_pl_gen->тіней</li>
+    <li>nounEvilCountable_pl_gen->причаєнців</li>
+    <li>nounEvilCountable_pl_gen->обрядів</li>
+    <li>nounEvilCountable_pl_gen->заклять</li>
+    <li>nounEvilCountable_pl_gen->змій</li>
+    <li>nounEvilCountable_pl_gen->бенкетарів</li>
+    <li>nounEvilCountable_m->гуль</li>
+    <li>nounEvilCountable_m->кривавий ґевал</li>
+    <li>nounEvilCountable_m->ноктол</li>
+    <li>nounEvilCountable_m->волокун</li>
+    <li>nounEvilCountable_m->звір плоті</li>
+    <li>nounEvilCountable_m->труп</li>
+    <li>nounEvilCountable_m->куб</li>
+    <li>nounEvilCountable_m->ревенант</li>
+    <li>nounEvilCountable_m->металевий жах</li>
+    <li>nounEvilCountable_m->викрадач</li>
+    <li>nounEvilCountable_m->дублікатор</li>
+    <li>nounEvilCountable_m->мутатор</li>
+    <li>nounEvilCountable_m->провісник</li>
+    <li>nounEvilCountable_m->зорокрад</li>
+    <li>nounEvilCountable_m->пожирач</li>
+    <li>nounEvilCountable_m->уламок</li>
+    <li>nounEvilCountable_m->культ</li>
+    <li>nounEvilCountable_m->культист</li>
+    <li>nounEvilCountable_m->цап</li>
+    <li>nounEvilCountable_m->причаєнець</li>
+    <li>nounEvilCountable_m->бенкетар</li>
+    <li>nounEvilCountable_f->ноціосфера</li>
+    <li>nounEvilCountable_f->химера</li>
+    <li>nounEvilCountable_f->скульптура</li>
+    <li>nounEvilCountable_f->сироватка</li>
+    <li>nounEvilCountable_f->тінь</li>
+    <li>nounEvilCountable_f->змія</li>
+    <li>nounEvilCountable_n->закляття</li>
+    <li>placeEvil->у безодні</li>
+    <li>placeEvil->на дні безодні</li>
+    <li>placeEvil->над безоднею</li>
+    <li>placeEvil->в океані</li>
+    <li>placeEvil->на дні океану</li>
+    <li>placeEvil->за океаном</li>
+    <li>placeEvil->у порожнечі</li>
+    <li>placeEvil->крізь порожнечу</li>
+    <li>placeEvil->у глибині</li>
+    <li>placeEvil->з глибини</li>
+    <li>placeEvil->серед тіней</li>
+    <li>placeEvil->у тінях</li>
+    <li>placeEvil->у гробницях</li>
+    <li>placeEvil->під гробницями</li>
+    <li>placeEvil->у темряві</li>
+    <li>placeEvil->крізь темряву</li>
+    <li>placeEvil->у надрах гори</li>
+    <li>placeEvil->під горою</li>
+    <li>placeEvil->у потаємній залі</li>
+    <li>placeEvil->у склепі</li>
+    <li>placeEvil->у катакомбах</li>
+    <li>placeEvil->під катакомбами</li>
+    <li>placeEvil->у святилищі</li>
+    <li>placeEvil->біля святилища</li>
+    <li>placeEvil->у гаю</li>
+    <li>placeEvil->під землею</li>
+    <li>placeEvil->у надрах землі</li>
+    <li>placeEvil->серед зірок</li>
+    <li>placeEvil->під зорями</li>
+    <li>placeEvil->за зорями</li>
+    <li>placeEvil->у глибинах</li>
+    <li>placeEvil->з глибин</li>
+    <li>placeEvil->у нижньому світі</li>
+    <li>placeEvil->за гранню світу</li>
+    <li>placeEvil->у печерах</li>
+    <li>placeEvil->під печерами</li>
+    <li>firstHalfEvil->вібро</li>
+    <li>firstHalfEvil->кельно</li>
+    <li>firstHalfEvil->некро</li>
+    <li>firstHalfEvil->хроно</li>
+    <li>firstHalfEvil->драго</li>
+    <li>firstHalfEvil->кримі</li>
+    <li>firstHalfEvil->ваді</li>
+    <li>firstHalfEvil->горор</li>
+    <li>firstHalfEvil->ноціо</li>
+    <li>firstHalfEvil->ксено</li>
+    <li>firstHalfEvil->психо</li>
+    <li>firstHalfEvil->воро</li>
+    <li>firstHalfEvil->тирано</li>
+    <li>firstHalfEvil->інверно</li>
+    <li>firstHalfEvil->фобо</li>
+    <li>firstHalfEvil->лева</li>
+    <li>suffixEvil->номікон</li>
+    <li>suffixEvil->дорон</li>
+    <li>suffixEvil->накс</li>
+    <li>suffixEvil->новікон</li>
+    <li>suffixEvil->вокон</li>
+    <li>suffixEvil->мантія</li>
+    <li>suffixEvil->горгон</li>
+    <li>suffixEvil->морт</li>
+    <li>suffixEvil->сайфер</li>
+    <li>suffixEvil->векс</li>
+    <li>suffixEvil->вортекс</li>
+    <li>suffixEvil->нокс</li>
+    <li>suffixEvil->сайбекс</li>
+    <li>suffixEvil->ворон</li>
+    <li>suffixEvil->карнікс</li>
+    <li>suffixEvil->немекс</li>
+    <li>suffixEvil->вексор</li>
+    <li>suffixEvil->тронікс</li>
+    <li>suffixEvil->криптекс</li>
+    <li>suffixEvil->хаонікс</li>
+    <li>suffixEvil->нікс</li>
+    <li>suffixEvil->вікс</li>
   </Namer_Tome.rulePack.rulesStrings>
 </LanguageData>

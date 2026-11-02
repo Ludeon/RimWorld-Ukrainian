@@ -2,7 +2,7 @@
 <LanguageData>
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>Міцність</HitPointsBasic>
+  <HitPointsBasic>запас міцності</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Роботи лишилося</WorkLeft>
   <!-- EN: Contents -->
@@ -12,11 +12,11 @@
   <!-- EN: For prisoner use -->
   <ForPrisonerUse>Для в'язнів</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>У тюремній камері - для в'язнів</InPrisonCell>
+  <InPrisonCell>У тюремній камері: для в'язнів</InPrisonCell>
   <!-- EN: For colonist use -->
   <ForColonistUse>Для колоністів</ForColonistUse>
   <!-- EN: Medical -->
-  <MedicalBed>Лікарняне</MedicalBed>
+  <MedicalBed>Медичне</MedicalBed>
   <!-- EN: Owner -->
   <Owner>Власник</Owner>
   <!-- EN: Owners -->
@@ -34,11 +34,11 @@
   <!-- EN: Unowned -->
   <Unowned>Нічиє</Unowned>
   <!-- EN: Dead for {0} -->
-  <DeadTime>Мертвий ({0})</DeadTime>
+  <DeadTime>Час від смерті: {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>швидкість пересування {0}</WalkSpeed>
+  <WalkSpeed>швидкість ходьби {0}</WalkSpeed>
   <!-- EN: fert. -->
-  <FertShort>родючість</FertShort>
+  <FertShort>родюч.</FertShort>
   <!-- EN: dying -->
   <DyingLower>помирає</DyingLower>
   <!-- EN: Filth on feet: -->
@@ -50,19 +50,19 @@
   <!-- EN: Nothing -->
   <Nothing>Нічого</Nothing>
   <!-- EN: Adapted -->
-  <Adapted>Стійкість</Adapted>
+  <Adapted>Адаптовано</Adapted>
   <!-- EN: fresh -->
-  <FreshMissingBodyPart>нещодавно</FreshMissingBodyPart>
+  <FreshMissingBodyPart>свіжа</FreshMissingBodyPart>
   <!-- EN: developed immunity -->
   <DevelopedImmunityLower>вироблений імунітет</DevelopedImmunityLower>
   <!-- EN: Needs tending now -->
-  <NeedsTendingNow>Потребує лікування</NeedsTendingNow>
+  <NeedsTendingNow>Потребує лікування зараз</NeedsTendingNow>
   <!-- EN: Can tend now -->
-  <CanTendNow>Можна лікувати</CanTendNow>
+  <CanTendNow>Можна лікувати зараз</CanTendNow>
   <!-- EN: Tending expires in {0} -->
-  <TreatmentExpiresIn>Термін лікування спливе через {0}</TreatmentExpiresIn>
+  <TreatmentExpiresIn>Дія лікування спливе через {0}</TreatmentExpiresIn>
   <!-- EN: Can be tended in {0} -->
-  <NextTendIn>Повторне лікування через {0}</NextTendIn>
+  <NextTendIn>Наступне лікування через {0}</NextTendIn>
   <!-- EN: Tend quality -->
   <TendQuality>Якість лікування</TendQuality>
   <!-- EN: Total tend quality -->
@@ -72,7 +72,7 @@
   <!-- EN: Immunity -->
   <Immunity>Імунітет</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>Кількість днів, для відновлення: {0}</DaysToRecover>
+  <DaysToRecover>{0} дн. до одужання</DaysToRecover>
   <!-- EN: Ineffective -->
   <Ineffective>Неефективно</Ineffective>
   <!-- EN: illegal -->
@@ -84,7 +84,7 @@
   <!-- EN: Description -->
   <Description>Опис</Description>
   <!-- EN: Equipment -->
-  <Equipment>Зброя</Equipment>
+  <Equipment>Спорядження</Equipment>
   <!-- EN: Apparel -->
   <Apparel>Одяг</Apparel>
   <!-- EN: Inventory -->
@@ -94,9 +94,9 @@
   <!-- EN: Drop -->
   <DropThing>Викинути</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>Тимчасові члени фракції не будуть викидати свої речі.</DropThingLodger>
+  <DropThingLodger>Тимчасові члени фракції не викидатимуть своїх речей.</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>Ця людина відмовляється викинути цю річ.</DropThingLocked>
+  <DropThingLocked>Ця людина відмовляється це викидати.</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>Перейменувати</Rename>
   <!-- EN: Rename animal -->
@@ -108,63 +108,63 @@
   <!-- EN: Execute -->
   <Execute>Стратити</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Стратити винного колоніста\n\nЯкщо ввімкнено - наглядач приступить до страти цієї особи.</ExecuteColonist>
+  <ExecuteColonist>Стратити винного колоніста\n\nЯкщо ввімкнути, наглядач піде стратити цю людину.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} очікує страти, {0_possessive} стратить доступний наглядач, з відповідним пріоритетом робіт.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} тепер очікує страти. Найближчий вільний наглядач піде виконати вирок.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>{0} в {1}</TitleOfFaction>
+  <TitleOfFaction>{0} ({1})</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Ця дія змусить {PAWN_nameDef} втратити свій титул {lookup: {TITLE}; Case; 1}. Ви не отримаєте ніякої компенсації за відмову від титулу.\n\nЦе рішення буде мати такі наслідки:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Через цю дію {PAWN_nameDef} втратить титул «{TITLE}». За відмову від титулу ви не отримаєте жодної компенсації.\n\nНаслідки:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_pronoun} втратить наступні привілеї</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>Буде втрачено такі привілеї</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} втратить {POINTS} од. привілей у фракції {FACTION_name}.</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} втратить {POINTS} невитрачених очок привілеїв у фракції «{FACTION_name}».</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} збереже всі свої рівні пси-зв'язку та пси-здібності.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>Усі рівні пси-зв'язку й пси-здібності збережуться.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>невідомо</UnknownLower>
   <!-- EN: On -->
-  <On>Увімкнути</On>
+  <On>Увімк.</On>
   <!-- EN: Off -->
-  <Off>Вимкнути</Off>
+  <Off>Вимк.</Off>
   <!-- EN: {0} {1} -->
   <SourceToolLabel>{0} {lookup: {1}; Case; 1}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>Живлення</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
-  <JoyTolerances>Звичність</JoyTolerances>
+  <JoyTolerances>Звикання до видів дозвілля</JoyTolerances>
   <!-- EN: Milk fullness -->
   <MilkFullness>Накопичено молока</MilkFullness>
   <!-- EN: Wool growth -->
   <WoolGrowth>Виросло вовни</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>Яйце</EggProgress>
+  <EggProgress>Розвиток яйця</EggProgress>
   <!-- EN: Fertilized -->
-  <Fertilized>Запліднена</Fertilized>
+  <Fertilized>Запліднене</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
-  <ProgressStoppedUntilFertilized>Прогрес зупинився до запліднення</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>Розвиток зупинено до запліднення</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
   <HatchesIn>Вилупиться через</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>потрібно {0} рівня {2}, зараз {1}</SkillTooLow>
+  <SkillTooLow>потрібна навичка «{0}» рівня {2}, зараз {1}</SkillTooLow>
   <!-- EN: Freezing -->
   <Freezing>Переохолодження</Freezing>
   <!-- EN: Overheating -->
   <Overheating>Перегрів</Overheating>
   <!-- EN: Ruined by temperature. -->
-  <RuinedByTemperature>Померло через температурні умови.</RuinedByTemperature>
+  <RuinedByTemperature>Зіпсовано через температуру.</RuinedByTemperature>
   <!-- EN: Missing body parts -->
   <CorpsePercentMissing>Відсутні частини тіла</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
-  <HiveReproducesIn>Розплодиться через</HiveReproducesIn>
+  <HiveReproducesIn>Розмножиться через</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
-  <DormantHiveNotReproducing>Не відтворюється: сплячка.</DormantHiveNotReproducing>
+  <DormantHiveNotReproducing>Сплячий: не розмножується.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
-  <NextSpawnedItemIn>Наступ. {0} через</NextSpawnedItemIn>
+  <NextSpawnedItemIn>Наступне ({0}) через</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
-  <NextSpawnedResourceIn>Наступ. порція ресурсу через</NextSpawnedResourceIn>
+  <NextSpawnedResourceIn>Наступна порція ресурсу через</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
-  <BrokenDown>Несправно</BrokenDown>
+  <BrokenDown>Зламано</BrokenDown>
   <!-- EN: (bond) -->
   <BondBrackets>(прив'язаність)</BondBrackets>
   <!-- EN: Fuel -->
@@ -174,7 +174,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Заправляти до рівня {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Заправляти до рівня {0}\nМакс. кількість клітинок польоту: {1}</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Заправляти до рівня {0}\nМакс. відстань: {1} ділянок</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Цільовий рівень палива: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -182,7 +182,7 @@
   <!-- EN: people -->
   <People>люди</People>
   <!-- EN: time passed -->
-  <TimePassed>часу пройшло</TimePassed>
+  <TimePassed>минуло часу</TimePassed>
   <!-- EN: current radius -->
   <CurrentRadius>поточний радіус</CurrentRadius>
   <!-- EN: radius expands in -->
@@ -192,49 +192,49 @@
   <!-- EN: Resting -->
   <CaravanResting>Відпочинок</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>1 люд. в спальнику</UsingBedroll>
+  <UsingBedroll>використовується 1 спальний мішок</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>{0} люд. в спальниках</UsingBedrolls>
+  <UsingBedrolls>використовується спальних мішків: {0}</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>Приб. к-сть днів до місця призначення: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Орієнтовний час до місця призначення: {0} дн.</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>Днів, що триває подорож: {0}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Тривалість маршруту: {0} дн.</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>Неможливо йти: забагато вантажу.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>Не може рухатися: завеликий вантаж.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>Нема їжі.</CaravanOutOfFood>
+  <CaravanOutOfFood>Їжа закінчилася.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>Днів, на які вистачить їжі: {0}</CaravanDaysOfFood>
+  <CaravanDaysOfFood>Їжі на {0} дн.</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Днів, на які вистачить їжі: {0} (к-сть днів до зіпсування: {1})</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Їжі на {0} дн. (зіпсується через {1} дн.)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Зупинка: всі учасники знерухомлені.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Зупинка: усі знерухомлені.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>Зупинка: у всіх учасників нервовий зрив.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Зупинка: усі в стані нервового зриву.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>{1}, {0} людей</CaravanColonistsCount>
+  <CaravanColonistsCount>{1}: {0}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
   <CaravanAnimal>1 тварина</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{0} тварин</CaravanAnimalsCount>
+  <CaravanAnimalsCount>тварин: {0}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
   <CaravanPrisoner>1 в'язень</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0} в'язнів</CaravanPrisonersCount>
+  <CaravanPrisonersCount>в'язнів: {0}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} у стані нервового зриву</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>у психічному стані: {0}</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>Знерухомлених: {0}</CaravanPawnsDowned>
+  <CaravanPawnsDowned>знерухомлених: {0}</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
-  <CaravanTraveling>В дорозі.</CaravanTraveling>
+  <CaravanTraveling>У дорозі.</CaravanTraveling>
   <!-- EN: Waiting. -->
   <CaravanWaiting>Очікує.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>На ношах через хворобу</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>Несуть через хворобу</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>У спальнику через хворобу</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>Через хворобу лежить у спальному мішку</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>Час руху через поточну клітинку</CurrentTileMovementTime>
+  <CurrentTileMovementTime>Час руху через поточну ділянку</CurrentTileMovementTime>
   <!-- EN: Visibility -->
   <Visibility>Помітність</Visibility>
   <!-- EN: Temperature -->
@@ -244,51 +244,51 @@
   <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>Ідеальна температура для бродіння</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>Множник ефекту від {lookup: {0}; Case; 1}: {1}</DrugEffectMultiplier>
+  <DrugEffectMultiplier>Множник ефекту ({0}): {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Відвідує {lookup: {0}; Case; 3}.</CaravanVisiting>
+  <CaravanVisiting>Відвідує: {0}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Йде до {lookup: {0}; Case; 2}.</CaravanEntering>
+  <CaravanEntering>Входить: {0}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Атакує {0}.</CaravanAttacking>
+  <CaravanAttacking>Атакує: {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Пропонує подарунок {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Пропонує дарунки: {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
-  <CaravanTrading>Торгує з {0}</CaravanTrading>
+  <CaravanTrading>Торгує: {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>Знято з трупу.</WasWornByCorpse>
+  <WasWornByCorpse>Знятий з трупа.</WasWornByCorpse>
   <!-- EN: T -->
   <WornByCorpseChar>Т</WornByCorpseChar>
   <!-- EN: unroofed -->
-  <DeterioratingUnroofed>розташування не під дахом</DeterioratingUnroofed>
+  <DeterioratingUnroofed>не під дахом</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>розташування назовні</DeterioratingOutdoors>
+  <DeterioratingOutdoors>надворі</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>розташування під дощем</DeterioratingRaining>
+  <DeterioratingRaining>під дощем</DeterioratingRaining>
   <!-- EN: protected -->
   <Protected>захищено</Protected>
   <!-- EN: Deteriorating -->
   <DeterioratingBecauseOf>Псується</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
-  <DeteriorateInDuration>Зіпсується через {0}</DeteriorateInDuration>
+  <DeteriorateInDuration>Зіпсується через {0}.</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>Мапа</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} до прибуття ворогів</CaravanDetectedRaidCountdown>
   <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
-  <CaravanDetectedRaidCountdownTip>Вороги дізналися про ваше місцезнаходження. Вони прибудуть в {0}.</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Вороги дізналися, де ви. Вони прибудуть через {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Кімната</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>Краса</BeautyHere>
+  <BeautyHere>Краса тут</BeautyHere>
   <!-- EN: no power -->
-  <NoPower>Живлення відсутнє</NoPower>
+  <NoPower>немає живлення</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>не в {0}</NotInRoomRole>
+  <NotInRoomRole>не в приміщенні «{0}»</NotInRoomRole>
   <!-- EN: Work speed -->
-  <WorkSpeedPenalty>Штраф до швидкості роботи</WorkSpeedPenalty>
+  <WorkSpeedPenalty>Швидкість роботи</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>Неможливо</DisabledCommand>
+  <DisabledCommand>Недоступно</DisabledCommand>
   <!-- EN: Deactivated -->
   <Deactivated>Деактивовано</Deactivated>
   <!-- EN: Ready for launch. -->
@@ -296,67 +296,67 @@
   <!-- EN: Not ready for launch -->
   <NotReadyForLaunch>Не готово до запуску</NotReadyForLaunch>
   <!-- EN: no fueling port -->
-  <NotAllInGroupConnectedToFuelingPort>не підключено до порту заправки</NotAllInGroupConnectedToFuelingPort>
+  <NotAllInGroupConnectedToFuelingPort>немає порту заправки</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>немає пального</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>немає палива</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
   <LaunchableInGroupHasSomethingLeftToLoad>триває завантаження</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>За межами максимального діапазону</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>Поза межами дальності</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
   <TransportPodDestinationNoPath>Немає шляху до {LAYER_label}</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Недостатньо палива</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
-  <SettlementTrader>{0} з фракції {1}</SettlementTrader>
+  <SettlementTrader>{0} (фракція «{1}»)</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Шанс успішної операції в приміщенні</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Множник шансу успішної операції від приміщення</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>Шанс інфекції в приміщенні</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>Множник шансу інфекції від приміщення</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
-  <VentClosed>Перекрита</VentClosed>
+  <VentClosed>Закрито</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
-  <WornBy>надіто на {1_labelShort}</WornBy>
+  <WornBy>вдягнуто: {1_labelShort}</WornBy>
   <!-- EN: equipped by {1_labelShort} -->
-  <EquippedBy>зброя {1_labelShort}</EquippedBy>
+  <EquippedBy>в руках: {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>Фракція {0} хоче, щоб цей табір було знищено.\n    Нагорода: {1} ({2})</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>Фракція {0} хоче, щоб це знищили.\n    Винагорода: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>Фракція {0} хоче, щоб цей табір було знищено.</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>Фракція {0} хоче, щоб це знищили.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>Відправляється на шатлі через {0}</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Відлітає шатлом через {0}</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>Відправляється через {0}</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>Відлітає через {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>Повинен вирушити на шатлі</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>Має відлетіти шатлом</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Залишилось часу: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
-  <ClickToSortByThisColumn>Натисніть для сортування за цим стовпцем.</ClickToSortByThisColumn>
+  <ClickToSortByThisColumn>Натисніть, щоб сортувати за цим стовпцем.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
-  <WorkPriorityShiftClickTip>Shift + ЛКМ: Збільшити пріоритет\nShift + ПКМ: Зменшити пріоритет</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickTip>Shift + ЛКМ: підвищити пріоритет\nShift + ПКМ: знизити пріоритет</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
-  <WorkPriorityShiftClickEnableDisableTip>Shift + ЛКМ: Дозволити все\nShift + ПКМ: Заборонити все</WorkPriorityShiftClickEnableDisableTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + ЛКМ: увімкнути все\nShift + ПКМ: вимкнути все</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
-  <AllowedAreaShiftClickTip>Shift + ЛКМ: Обмежити всіх домашньою областю\nShift + ПКМ: Зняти обмеження для всіх</AllowedAreaShiftClickTip>
+  <AllowedAreaShiftClickTip>Shift + ЛКМ: усім домашня область\nShift + ПКМ: зняти обмеження для всіх</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
-  <CheckboxShiftClickTip>Shift + ЛКМ: Відмітити все\nShift + ПКМ: Зняти всі відмітки</CheckboxShiftClickTip>
+  <CheckboxShiftClickTip>Shift + ЛКМ: позначити все\nShift + ПКМ: зняти всі позначки</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{1} ({0} шт)</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{1} ({0})</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
-  <SkillRequirements>Вимоги</SkillRequirements>
+  <SkillRequirements>Вимоги до навичок</SkillRequirements>
   <!-- EN: Products -->
-  <Products>Результат</Products>
+  <Products>Продукція</Products>
   <!-- EN: Requires -->
   <Requires>Потрібно</Requires>
   <!-- EN: Replaces -->
   <Replaces>Замінює</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>потрібно {0}</MissingPartWithLabel>
+  <MissingPartWithLabel>бракує: {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
-  <NumAnyOf>{0}x будь-якого з</NumAnyOf>
+  <NumAnyOf>{0}x будь-що з</NumAnyOf>
   <!-- EN: {0} of {1} -->
-  <Relationship>для {lookup: {1}; Case; 1} - {0}</Relationship>
+  <Relationship>{0} ({1})</Relationship>
   <!-- EN: Prisoner -->
   <Prisoner>В'язень</Prisoner>
   <!-- EN: Refugee -->
@@ -364,7 +364,7 @@
   <!-- EN: Terrain movement difficulty -->
   <TileMovementDifficulty>Складність пересування</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>Нема проходу</Impassable>
+  <Impassable>Непрохідно</Impassable>
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Швидкість руху каравану</CaravanMovementSpeedFull>
   <!-- EN: downed -->
@@ -378,15 +378,15 @@
   <!-- EN: Multiplier from bonuses -->
   <MultiplierFromMoveSpeedBonus>Множник від бонусів</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>Множник ваги, що переноситься: {0}</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>Множник від маси вантажу: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>Це їздова тварина. Люди в каравані вибиратимуть для їзди найшвидших доступних тварин, покращуючи загальну швидкість каравану.</RideableAnimalTip>
+  <RideableAnimalTip>На цій тварині можна їздити. Люди в каравані їздитимуть на найшвидших доступних тваринах, і весь караван рухатиметься швидше.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>Ця людина надає бонус до швидкості каравану. Збільшення швидкості є середнім бонусом усіх членів каравану.</CaravanBonusTip>
+  <CaravanBonusTip>Ця людина дає бонус до швидкості каравану. Приріст швидкості – середній бонус усіх учасників каравану.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>Цей караван не може рухатися, оскільки несе забагато вантажу.</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>Цей караван не може рухатися, бо везе забагато.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
-  <FinalCaravanPawnsMovementSpeed>Швидкість членів каравану</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanPawnsMovementSpeed>Швидкість учасників каравану</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
   <FinalCaravanMovementSpeed>Підсумкова швидкість</FinalCaravanMovementSpeed>
   <!-- EN: Winter -->
@@ -394,51 +394,51 @@
   <!-- EN: {0} in winter -->
   <MovementDifficultyOffsetInWinter>{0} взимку</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
-  <RangeTo>..</RangeTo>
+  <RangeTo>до</RangeTo>
   <!-- EN: Caused by -->
   <CausedBy>Причина</CausedBy>
   <!-- EN: No letter -->
-  <NoDietCategoryLetter>Без позн.</NoDietCategoryLetter>
+  <NoDietCategoryLetter>Без позначки</NoDietCategoryLetter>
   <!-- EN: expires in -->
   <ExpiresIn>спливає через</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>Караван {1_labelShort}</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>Караван «{1_labelShort}»</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Причина</Reason>
   <!-- EN: Relations with {0} -->
-  <RelationsWith>Відносини з фракцією {0}</RelationsWith>
+  <RelationsWith>Відносини з фракцією «{0}»</RelationsWith>
   <!-- EN: captured by {0} -->
-  <capturedBy>у полоні фракції {0}</capturedBy>
+  <capturedBy>у полоні: {0}</capturedBy>
   <!-- EN: your caravan -->
   <yourCaravan>ваш караван</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>Дикість</CreatureWildness>
+  <CreatureWildness>Дикість: {0}</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>Здатність до навчання</CreatureTrainability>
+  <CreatureTrainability>Здатність до дресирування: {0}</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>Охороняти в бою</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Супроводжувати господаря в бойовому режимі</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>Охороняти за працею</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>Супроводжувати господаря під час польових робіт</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>{0} з фракцією {1}</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{0} з фракцією «{1}»</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>Залишилось днів, в які надто небезпечно відвідувати цю місцевість: {0}.</EnterCooldown>
+  <EnterCooldown>Повертатися сюди надто небезпечно ще {0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Караван</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>там може бути небезпечно.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>Сканер помітив дивну активність навколо покладів. Скоріше за все, там вороги.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>Сканер фіксує активність навколо покладу. Найімовірніше, там вороги.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>поклади {lookup: {0}; Case; 1}</PreciousLumpLabel>
+  <PreciousLumpLabel>поклад: {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>немає вибрана технологія для дослідження</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>немає активного дослідницького проєкту</NoActiveResearchProjectToFinish>
   <!-- EN: Current project -->
-  <CurrentProject>Поточні проєкти</CurrentProject>
+  <CurrentProject>Поточний проєкт</CurrentProject>
   <!-- EN: Research progress -->
   <ResearchProgress>Прогрес досліджень</ResearchProgress>
   <!-- EN: already has {0} -->
-  <AlreadyHasHediff>вже має {0}</AlreadyHasHediff>
+  <AlreadyHasHediff>уже має: {0}</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>турель</Turret>
   <!-- EN: turrets -->
@@ -448,7 +448,7 @@
   <!-- EN: mortars -->
   <Mortars>міномети</Mortars>
   <!-- EN: enemy -->
-  <Enemy>вороги</Enemy>
+  <Enemy>ворог</Enemy>
   <!-- EN: location -->
   <Location>місцезнаходження</Location>
   <!-- EN: animals -->
@@ -458,89 +458,89 @@
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} від {1} x{2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} ({1}) x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>Необхідно</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>Увага: Ви не зможете завершити запит на торгівлю за допомогою транспортних капсул.\nЯкщо ви відішлете товар, поселення сприйме його як подарунок і не дасть нічого взаміну.\n\nЩоб завершити угоду, вам потрібно доставити весь товар караваном!\n\nВи впевнені, що хочете подарувати цій фракції завантажені товари?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>Увага: торгові запити не можна виконати за допомогою транспортних капсул.\nЯкщо ви відправите товар, поселення прийме його як дарунок, але нічого не дасть натомість.\n\nЩоб торгувати, прийдіть до поселення з караваном!\n\nСправді подарувати завантажені товари цій фракції?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>в'язень</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>в'язні</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>Натисніть, щоб перейти до цього завдання</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>Натисніть, щоб переглянути це завдання на вкладці завдань</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>Настрій</Mood>
   <!-- EN: Quest -->
   <Quest>завдання</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>Здійснює рейди кожні {0}</BringsRaidsEvery>
+  <BringsRaidsEvery>Приводить рейди кожні {0}</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>Виробляє {lookup: {0}; Case; 3} кожні {1}</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>Виробляє {0} кожні {1}</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
   <FoliageKillRadius>Радіус знищення рослин</FoliageKillRadius>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>Перейти до: {0}</ViewHyperlink>
+  <ViewHyperlink>Переглянути: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>Днів до детонації: {0}</DetonationCountdown>
+  <DetonationCountdown>Детонація через {0} дн.</DetonationCountdown>
   <!-- EN: Large explosion if damaged. -->
-  <ExplosionOnDamageWarning>При пошкодженні відбудеться великий вибух.</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>У разі пошкодження – потужний вибух.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Кластер механоїдів</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>Розплодиться через {0}</SpawningNextPawnIn>
+  <SpawningNextPawnIn>Наступна поява через {0}</SpawningNextPawnIn>
   <!-- EN: {0} gestation completes in {1}. -->
-  <MechAssemblyCompleteIn>{0} збірка завершується в {1}.</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>Вирощування ({0}) завершиться через {1}.</MechAssemblyCompleteIn>
   <!-- EN: Will gestate -->
-  <MechAssemblyNextType>Зростить</MechAssemblyNextType>
+  <MechAssemblyNextType>Наступним виросте</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>вироблено</ThingsProduced>
   <!-- EN: harvested -->
   <PlantsHarvested>зібрано</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>{lookup: {0}; Case; 1} вбито</PawnsKilled>
+  <PawnsKilled>убито: {0}</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>Відправлені {0}, повернуться через {1}</PawnsLent>
+  <PawnsLent>Відправлено: {0}, повернуться через {1}</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>Неактивно</DormantCompInactive>
+  <DormantCompInactive>Сплячий</DormantCompInactive>
   <!-- EN: Sealed -->
   <DormantCompSealed>Запечатано</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>Готовий викликати механоїдів</DormantCompBeacon>
+  <DormantCompBeacon>Готовий скинути механоїдів</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>Термін дії минув</DormantCompExpired>
+  <DormantCompExpired>Термін дії сплив</DormantCompExpired>
   <!-- EN: Initiates in -->
   <InitiatesIn>Активується через</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Активується через {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
-  <PsychicEntropy>Нейро-перегрів</PsychicEntropy>
+  <PsychicEntropy>Нейронапруга</PsychicEntropy>
   <!-- EN: Heat -->
-  <PsychicEntropyShort>Перегрів</PsychicEntropyShort>
+  <PsychicEntropyShort>Напруга</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <PsychicEntropyPainFocus>{0} больової концентрації</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>{0} підсилення від болю</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>радіус {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>низький рівень пси-концентрації</LowPsyfocus>
+  <LowPsyfocus>низький пси-фокус</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>залишилося {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Будь-який з</AnyOf>
   <!-- EN: Requires {0} trait -->
-  <TraitRequired>Потрібна риса {0}</TraitRequired>
+  <TraitRequired>Потрібна риса «{0}»</TraitRequired>
   <!-- EN: Goodwill -->
   <Goodwill>Прихильність</Goodwill>
   <!-- EN: Natural goodwill -->
-  <NaturalGoodwill>Базова прихильність</NaturalGoodwill>
+  <NaturalGoodwill>Природна прихильність</NaturalGoodwill>
   <!-- EN: Natural goodwill range -->
-  <NaturalGoodwillRange>Діапазон базової прихильності</NaturalGoodwillRange>
+  <NaturalGoodwillRange>Діапазон природної прихильності</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>Базова прихильність фракції ґрунтується на її принципах і переконаннях. Якщо поточна прихильність значно відрізняється від базової, з часом вона буде збільшуватися чи зменшуватися в сторону базової.\n\nПоки поточна прихильність значно відрізняється від базової, ефективність будь-яких дій, що впливають на прихильність, становить {0}.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>Природна прихильність залежить від сутності й вірувань фракцій. Якщо поточна прихильність далека від природної, з часом вона поволі зсуватиметься до неї.\n\nУсі зміни прихильності в бік природної множаться на {0}.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>послаблює опір {0_nameIndef}</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>послаблює опір {0_gender ? в'язня : ув'язненої} {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>Не поміщається</TooLargeForBed>
+  <TooLargeForBed>Завеликий</TooLargeForBed>
   <!-- EN: Warning -->
   <Warning>Увага</Warning>
   <!-- EN: Has subquest -->
@@ -550,31 +550,31 @@
   <!-- EN: Raid -->
   <Raid>Рейд</Raid>
   <!-- EN: Disabled by -->
-  <ApparelRequirementDisabledLabel>Заблоковано предметом</ApparelRequirementDisabledLabel>
+  <ApparelRequirementDisabledLabel>Заблоковано через</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
   <Nudism>Нудизм</Nudism>
   <!-- EN: Study progress -->
-  <StudyProgress>Прогрес дослідження</StudyProgress>
+  <StudyProgress>Прогрес вивчення</StudyProgress>
   <!-- EN: completed -->
   <StudyCompleted>завершено</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>Атакуйте, щоб зруйнувати.</AttackToDestroy>
+  <AttackToDestroy>Атакуйте, щоб знищити.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>Видалити цю споруду, зруйнувавши її.</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>Щоб прибрати, атакуйте це.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
   <ThoughtFoodEatenFood>Їжа</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
-  <ThoughtFoodEatenIngredients>Складові</ThoughtFoodEatenIngredients>
+  <ThoughtFoodEatenIngredients>Інгредієнти</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
-  <ShieldInbuilt>Бар'єрний проєктор</ShieldInbuilt>
+  <ShieldInbuilt>Щитовий ранець</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
-  <PuncturedWillExplode>Пробита - скоро вибухне.</PuncturedWillExplode>
+  <PuncturedWillExplode>Пробито – скоро вибухне.</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
   <ClickToOpenResearchTab>Натисніть, щоб відкрити вікно досліджень</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
   <TargetBelongsToNPCFaction>Ціль належить іншій фракції.</TargetBelongsToNPCFaction>
   <!-- EN: more -->
-  <MoreLower>більше</MoreLower>
+  <MoreLower>ще</MoreLower>
   <!-- EN: Requires -->
   <RequiredTechprintTip>Необхідно</RequiredTechprintTip>
   <!-- EN: size -->
@@ -584,11 +584,11 @@
   <!-- EN: cost -->
   <Cost>вартість</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>Приголомшення від ЕМІ</StunnedByEMP>
+  <StunnedByEMP>Оглушено ЕМІ</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Титул</BackstoryTitle>
   <!-- EN: person -->
-  <Person>Особа</Person>
+  <Person>людина</Person>
   <!-- EN: activated. -->
   <Activated>активовано.</Activated>
   <!-- EN: Contains -->
@@ -596,7 +596,7 @@
   <!-- EN: Hostiles -->
   <Hostiles>Вороги</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>Дослідити</Investigate>
+  <Investigate>Розвідати</Investigate>
   <!-- EN: Activate -->
   <Activate>Активувати</Activate>
   <!-- EN: Deactivate -->
@@ -606,33 +606,33 @@
   <!-- EN: complete -->
   <Complete>завершено</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>Має бути в'язнем.</RequiresImprisonment>
+  <RequiresImprisonment>Має бути ув'язнений.</RequiresImprisonment>
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>Пріоритети для транспортування вмісту</HaulFromSource>
+  <HaulFromSource>Пріоритетно виносити вміст</HaulFromSource>
   <!-- EN: Use -->
   <UseGizmo>Використати</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>Наказати комусь використати {lookup: {0}; Case; 3}</UseGizmoTooltip>
+  <UseGizmoTooltip>Наказати комусь використати {lookup: {0}; Case; 3}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>Хто має використати</UseGizmoMouse>
+  <UseGizmoMouse>Виберіть, хто має це використати</UseGizmoMouse>
   <!-- EN: Select target -->
-  <TargetGizmoMouse>Оберіть ціль</TargetGizmoMouse>
+  <TargetGizmoMouse>Виберіть ціль</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
   <CannotUseGizmoMouse>Неможливо використати</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
-  <Buildings>Будівлі</Buildings>
+  <Buildings>Споруди</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>ще не досліджено</NotYetDiscovered>
+  <NotYetDiscovered>ще не виявлено</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>Повзе до безпечного місця.</ReportStringCrawlingToSafety>
+  <ReportStringCrawlingToSafety>Повзе в безпечне місце.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Повзе до ліжка.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
   <Flying>політ</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>Запобігання порізам</PreventCutting>
+  <PreventCutting>Заборонити зрізання</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>Коли опція увімкнена, колоністи не будуть зрізати цю рослину.</PreventCuttingDesc>
+  <PreventCuttingDesc>Якщо ввімкнено, колоністи не зрізатимуть цю рослину.</PreventCuttingDesc>
   <!-- EN: Resulting from trait -->
   <ComesFromTrait>Викликано рисою</ComesFromTrait>
   <!-- EN: Resulting from condition -->
@@ -647,14 +647,14 @@
   <DisablesNeeds>Прибирає потреби</DisablesNeeds>
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
-  <UserScanAbility>Ефективність сканування</UserScanAbility>
+  <UserScanAbility>Швидкість сканування користувача</UserScanAbility>
   <!-- EN: Random find interval -->
   <ScanAverageInterval>Інтервал випадкового виявлення</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Прогрес до гарантованого виявлення</ScanningProgressToGuaranteedFind>
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>медитує на</MeditatingAt>
+  <MeditatingAt>медитує біля</MeditatingAt>
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
   <ContainsWort>Містить {0} / {1} сусла.</ContainsWort>
@@ -663,59 +663,59 @@
   <!-- EN: Fermented -->
   <Fermented>Забродило</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
-  <FermentationProgress>Прогрес: {0} (залишилось {1})</FermentationProgress>
+  <FermentationProgress>Прогрес: {0} (лишилося {1})</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
   <FermentationBarrelOutOfIdealTemperature>Неідеальна температура. Швидкість бродіння: {0}</FermentationBarrelOutOfIdealTemperature>
   <!-- TextMotes -->
   <!-- EN: Headshot -->
   <Headshot>У голову</Headshot>
   <!-- EN: Treatment success!\n{0} chance -->
-  <TextMote_TreatSuccess>Лікування успішне!\n{0} шанс</TextMote_TreatSuccess>
+  <TextMote_TreatSuccess>Лікування успішне!\nШанс {0}</TextMote_TreatSuccess>
   <!-- EN: Treatment failed\n{0} chance -->
-  <TextMote_TreatFailed>Лікування не вдалося\n{0} шанс</TextMote_TreatFailed>
+  <TextMote_TreatFailed>Лікування не вдалося\nШанс {0}</TextMote_TreatFailed>
   <!-- EN: Harvest\nbotched -->
-  <TextMote_HarvestFailed>Збір\nне вдався</TextMote_HarvestFailed>
+  <TextMote_HarvestFailed>Урожай\nзіпсовано</TextMote_HarvestFailed>
   <!-- EN: Yield\nwasted -->
-  <TextMote_YieldWasted>Врожай\nвтрачено</TextMote_YieldWasted>
+  <TextMote_YieldWasted>Урожай\nвтрачено</TextMote_YieldWasted>
   <!-- EN: Product\nwasted -->
   <TextMote_ProductWasted>Продукт\nвтрачено</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>Вербування не вдалося!\n{0} шанс</TextMote_RecruitFail>
+  <TextMote_RecruitFail>Вербування не вдалося!\nШанс {0}</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
-  <TextMote_ResistanceReduced>Опір зменшено\nз {0} до {1}</TextMote_ResistanceReduced>
+  <TextMote_ResistanceReduced>Опір\nз {0} до {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
-  <TextMote_TameFail>Приручити не вдалося\n{0} шанс</TextMote_TameFail>
+  <TextMote_TameFail>Приручення не вдалося\nШанс {0}</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>Тварина приручена!</TextMote_TameSuccess>
+  <TextMote_TameSuccess>Приручено!</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>Навчання не вдалося: {0}\n{1} шанс</TextMote_TrainFail>
+  <TextMote_TrainFail>Дресирування не вдалося: {0}\nШанс {1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>Навчання вдалося: {0}\n{1} шанс</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>Видресирувано: {0}\nШанс {1}</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
-  <TextMote_FixBrokenDownBuildingFail>Не вдалося\nвідремонтувати</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_FixBrokenDownBuildingFail>Ремонт\nне вдався</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
-  <TextMote_ConstructionFail>Не вдалося\nспорудити</TextMote_ConstructionFail>
+  <TextMote_ConstructionFail>Будівництво\nне вдалося</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
   <TextMote_Dodge>Ухилення</TextMote_Dodge>
   <!-- EN: Immune -->
   <TextMote_Immune>Імунітет</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} вилікувано</TextMote_Tended>
+  <TextMote_Tended>{0}: оброблено</TextMote_Tended>
   <!-- EN: level {0} -->
   <TextMote_SkillUp>рівень {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>поганий настрій</lowMood>
   <!-- EN: low opinion -->
-  <lowOpinion>погані відносини</lowOpinion>
+  <lowOpinion>погане ставлення</lowOpinion>
   <!-- Areas -->
   <!-- EN: Home -->
   <Home>Домашня область</Home>
   <!-- EN: Build roof -->
-  <BuildRoof>Побудувати дах</BuildRoof>
+  <BuildRoof>Звести дах</BuildRoof>
   <!-- EN: No roof -->
   <NoRoof>Без даху</NoRoof>
   <!-- EN: Snow clear -->
-  <SnowClear>Прибирання снігу</SnowClear>
+  <SnowClear>Очищення від снігу</SnowClear>
   <!-- EN: Area {0} -->
   <AreaDefaultLabel>Область {0}</AreaDefaultLabel>
   <!-- EN: Unrestricted -->
@@ -729,7 +729,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>Зменшити</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>Максимум зон: {0}.</MaxAreasReached>
+  <MaxAreasReached>Дозволено щонайбільше {0} областей.</MaxAreasReached>
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
   <PenUnenclosedLabel>Не огороджено</PenUnenclosedLabel>
@@ -746,7 +746,7 @@
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>Щоб створити загін для тварин, побудуйте маркер для загону всередині огородженого простору. Тваринники відведуть тварин до відповідного загону. Загони можна огородити парканами, барикадами, стінами та дверима.</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>На прив'язі у</RopedByPawn>
+  <RopedByPawn>Тримає на мотузці</RopedByPawn>
   <!-- EN: Roped to -->
   <RopedToThing>Прив'язаний до</RopedToThing>
   <!-- EN: Roped to spot. -->
@@ -762,20 +762,20 @@
   <!-- EN: Large pen -->
   <PenSizeDesc_Large>Великий загін</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>Загін не огороджено - збудуйте огорожу</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>Не огороджено – збудуйте паркан</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>  {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc>
+  <PenCapacityDesc>Місткість для {lookup: {ANIMALDEF_labelPlural}; Case; 1}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>Місткість на прикладі</PenExampleAnimals>
+  <PenExampleAnimals>Приклади тварин</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
-  <NoExteriorAccess>Немає входу - тварин неможливо завести або вивести.</NoExteriorAccess>
+  <NoExteriorAccess>Немає виходу назовні – тварин неможливо ні завести, ні вивести.</NoExteriorAccess>
   <!-- EN: Must be connected to walls on both sides to function. -->
-  <DoorMustBeEnclosedByWalls>Має бути приєднаний до стін з обох сторін для функціонування.</DoorMustBeEnclosedByWalls>
+  <DoorMustBeEnclosedByWalls>Щоб працювати, має прилягати до стін з обох боків.</DoorMustBeEnclosedByWalls>
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
   <Beauty_Label>Краса</Beauty_Label>
   <!-- EN: Zone -->
-  <Zone_Label>Територія</Zone_Label>
+  <Zone_Label>Зона</Zone_Label>
   <!-- EN: Roof -->
   <Roof_Label>Дах</Roof_Label>
   <!-- EN: Terrain -->
@@ -783,7 +783,7 @@
   <!-- EN: Snow -->
   <Snow_Label>Сніг</Snow_Label>
   <!-- EN: Walk speed -->
-  <WalkSpeed_Label>Швидкість пересування</WalkSpeed_Label>
+  <WalkSpeed_Label>Швидкість ходьби</WalkSpeed_Label>
   <!-- EN: Fertility -->
   <Fertility_Label>Родючість</Fertility_Label>
   <!-- EN: Temperature -->
@@ -797,13 +797,13 @@
   <!-- EN: Road -->
   <Road_Label>Дорога</Road_Label>
   <!-- EN: River -->
-  <River_Label>Ріка</River_Label>
+  <River_Label>Річка</River_Label>
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Складність пересування</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Забрудненість</Pollution_Label>
   <!-- EN: Filth -->
-  <Filth_Label>Чистота</Filth_Label>
+  <Filth_Label>Бруд</Filth_Label>
   <!-- EN: Features -->
   <Features_Label>Особливості</Features_Label>
   <!-- EN: Faction -->
@@ -818,19 +818,19 @@
   <CaravanTTD_Label>Час до прибуття</CaravanTTD_Label>
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
-  <CannotOrderNonControlled>Не можна наказувати персонажам, які знаходяться не під вашим контролем.</CannotOrderNonControlled>
+  <CannotOrderNonControlled>Не можна наказувати персонажам, якими ви не керуєте.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
   <IsIncapableOfViolence>{1_labelShort} {1_gender ? нездатний : нездатна} до насильства.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
-  <IsIncapableOfViolenceShort>нездатний до насильства</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolenceShort>нездатність до насильства</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} не в бойовому режимі.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef} не може використовувати далекобійну зброю, доки носить {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
-  <CannotUseReason_PocketMap>Неможливо використати в {0}</CannotUseReason_PocketMap>
+  <CannotUseReason_PocketMap>Неможливо використати тут: {0}</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>Дальність зменшена</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>Дальність зменшено</WeatherMaxRangeCap>
   <!-- Snow -->
   <!-- EN: Snow -->
   <Snow>Сніг</Snow>
@@ -848,15 +848,15 @@
   <!-- EN: Installed -->
   <GunInstalled>Встановлено</GunInstalled>
   <!-- EN: Minimum range -->
-  <MinimumRange>Мінімальний дальність</MinimumRange>
+  <MinimumRange>Мінімальна дальність</MinimumRange>
   <!-- EN: Can fire in -->
-  <CanFireIn>Перезаряджання через</CanFireIn>
+  <CanFireIn>Зможе стріляти через</CanFireIn>
   <!-- EN: Cannot fire -->
   <CannotFire>Постріл неможливий</CannotFire>
   <!-- EN: roofed -->
   <Roofed>під дахом</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
-  <ShellLoaded>Заряджений снаряд: {1_label}</ShellLoaded>
+  <ShellLoaded>Заряджено снаряд: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Не заряджено</ShellNotLoaded>
   <!-- EN: Already active -->
@@ -864,7 +864,7 @@
   <!-- EN: Order activation -->
   <OrderActivation>Наказати активувати</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
-  <OrderActivationDesc>Наказати колоністу активувати {lookup: {THING_labelShort}; Case; 3}</OrderActivationDesc>
+  <OrderActivationDesc>Наказати колоністу активувати {lookup: {THING_labelShort}; Case; 3}.</OrderActivationDesc>
   <!-- EN: Send a colonist to activate this. -->
   <MustBeActivatedByColonist>Надішліть колоніста, щоб активувати це.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
@@ -872,78 +872,78 @@
   <!-- EN: No nearby fire. No fuel was used. -->
   <NoNearbyFireNoFuelUsed>Вогню поблизу немає. Паливо не використовувалося.</NoNearbyFireNoFuelUsed>
   <!-- EN: Choose who should activate this. -->
-  <ChooseWhoShouldActivate>Виберіть, хто має активувати</ChooseWhoShouldActivate>
+  <ChooseWhoShouldActivate>Виберіть, хто має це активувати.</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
   <NoFuel>Немає палива</NoFuel>
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>несе {THING_label} до {lookup: {DESTINATION}; Case; 1}.</ReportHaulingTo>
+  <ReportHaulingTo>несе {lookup: {THING_label}; Case; 3} до {lookup: {DESTINATION}; Case; 1}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>хоронить {lookup: {THING_label}; Case; 3} в {lookup: {DESTINATION}; Case; 3}.</ReportHaulingToGrave>
+  <ReportHaulingToGrave>ховає {lookup: {THING_label}; Case; 3} ({DESTINATION}).</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>несе {lookup: {1_label}; Case; 3}.</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>переносить</ReportHaulingUnknown>
+  <ReportHaulingUnknown>переносить вантаж.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
-  <ReportSleeping>спить</ReportSleeping>
+  <ReportSleeping>спить.</ReportSleeping>
   <!-- EN: resting. -->
-  <ReportResting>відпочиває</ReportResting>
+  <ReportResting>відпочиває.</ReportResting>
   <!-- EN: laying down. -->
-  <ReportLayingDown>лягає</ReportLayingDown>
+  <ReportLayingDown>лежить.</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
-  <WatchingSunrise>спостерігає схід сонця</WatchingSunrise>
+  <WatchingSunrise>милується світанком.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
-  <CloudWatching>дивиться на хмари</CloudWatching>
+  <CloudWatching>дивиться на хмари.</CloudWatching>
   <!-- EN: watching the sunset. -->
-  <WatchingSunset>спостерігає захід сонця</WatchingSunset>
+  <WatchingSunset>милується заходом сонця.</WatchingSunset>
   <!-- EN: stargazing. -->
-  <Stargazing>дивиться на зірки</Stargazing>
+  <Stargazing>дивиться на зорі.</Stargazing>
   <!-- EN: watching the eclipse. -->
-  <WatchingEclipse>дивиться на затемнення</WatchingEclipse>
+  <WatchingEclipse>дивиться на затемнення.</WatchingEclipse>
   <!-- EN: watching the aurora. -->
-  <WatchingAurora>дивиться на полярне сяйво</WatchingAurora>
+  <WatchingAurora>милується полярним сяйвом.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>застосовує "{lookup: {0}; Case; 3}" до {lookup: {1}; Case; 2}</UsingVerb>
+  <UsingVerb>застосовує «{0}»: ціль – {1}.</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>застосовує "{lookup: {0}; Case; 3}"</UsingVerbNoTarget>
+  <UsingVerbNoTarget>застосовує «{0}».</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>область</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>ховається</ReportCowering>
+  <ReportCowering>ховається.</ReportCowering>
   <!-- EN: standing. -->
-  <ReportStanding>стоїть</ReportStanding>
+  <ReportStanding>стоїть.</ReportStanding>
   <!-- EN: extinguishing fire. -->
-  <ReportExtinguishingFire>гасить пожежу</ReportExtinguishingFire>
+  <ReportExtinguishingFire>гасить пожежу.</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>гасить вогонь {lookup: {TARGET_labelShort}; Case; 1}</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>гасить вогонь на {lookup: {TARGET_label}; Case; 5}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>викопує труп.</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>в руках у {0_labelShort}.</CarriedBy>
+  <CarriedBy>{0_labelShort} несе на руках.</CarriedBy>
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>всередині {lookup: {0_labelShort}; Case; 1}</InContainer>
+  <InContainer>всередині {lookup: {0_labelShort}; Case; 1}.</InContainer>
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>знерухомлено, не може повзти</DownedCannotCrawl>
+  <DownedCannotCrawl>знерухомлений, не може повзти.</DownedCannotCrawl>
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>знерухомлено, без свідомості</DownedUnconscious>
+  <DownedUnconscious>знерухомлений, непритомний.</DownedUnconscious>
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
-  <LordReportAttendingMarriageCeremony>Відвідує церемонію одруження</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingMarriageCeremony>На весільній церемонії</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
-  <LordReportAttendingParty>Відвідує вечірку</LordReportAttendingParty>
+  <LordReportAttendingParty>На вечірці</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>Відвідує концерт</LordReportAttendingConcert>
+  <LordReportAttendingConcert>На концерті</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>Проводить концерт</LordReportHoldingConcert>
+  <LordReportHoldingConcert>Дає концерт</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
   <LordReportGivingSpeech>Виступає з промовою</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>Слухає промову {ORGANIZER_labelShort}</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Слухає промову, яку виголошує {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
-  <LordReportFormingCaravan>Збирає караван</LordReportFormingCaravan>
+  <LordReportFormingCaravan>Формує караван</LordReportFormingCaravan>
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
-  <WeaponMissRadius>Розсіювання пострілів</WeaponMissRadius>
+  <WeaponMissRadius>Радіус промаху зброї</WeaponMissRadius>
   <!-- EN: Shooter -->
   <ShootReportShooterAbility>Стрілець</ShootReportShooterAbility>
   <!-- EN: Weapon -->
@@ -959,7 +959,7 @@
   <!-- EN: Cover -->
   <ShootingCover>Укриття</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{COVER_label} блокує {1}</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{COVER_label} зупиняє {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>без укриття</NoCoverLower>
   <!-- EN: Execution -->
@@ -972,51 +972,51 @@
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Виготовляє {lookup: {0}; Case; 3}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>призначити {lookup: {0}; Case; 3}</RecipeAdminister>
+  <RecipeAdminister>дати {lookup: {0}; Case; 3}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
   <RecipeAdministerJobString>Дає {lookup: {0}; Case; 3}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>непитущий буде незадоволений</TeetotalerUnhappy>
+  <TeetotalerUnhappy>тверезник буде незадоволений</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
   <ProsthophobeUnhappy>біоконсерватор буде незадоволений</ProsthophobeUnhappy>
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>Закінчиться через: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Мине через: {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>думка не виникає через</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>думку скасовує</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>Почне збігати через: {0}</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>Почне згасати через: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
-  <ThoughtFinishesExpiringIn>Закінчиться через: {0}</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>Повністю згасне через: {0}</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
-  <MentalBreakThresholdExtreme>Поріг дуже тяжкого нервового зриву</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdExtreme>Поріг екстремального зриву</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
-  <MentalBreakThresholdMajor>Поріг тяжкого нервового зриву</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMajor>Поріг серйозного зриву</MentalBreakThresholdMajor>
   <!-- EN: Minor break threshold -->
-  <MentalBreakThresholdMinor>Поріг незначного нервового зриву</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>Поріг незначного зриву</MentalBreakThresholdMinor>
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender}, {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0}, фракція {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0}, фракція «{1}»</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>{0} в {1}</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{0} ({1})</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>{0} (гість фракції {1})</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{0} під владою фракції «{1}»</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective}, {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Фракція</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>Фракція, до якої на даний момент належить {PAWN_labelShort}.</FactionDesc>
+  <FactionDesc>Фракція, до якої зараз належить {PAWN_labelShort}.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>Фракція, до якої насамперед належить {PAWN_labelShort}.</ExtraFactionDesc>
+  <ExtraFactionDesc>Фракція, до якої {PAWN_labelShort} належить від початку.</ExtraFactionDesc>
   <!-- EN: Equipped -->
-  <Equipped>Зброя</Equipped>
+  <Equipped>Спорядження</Equipped>
   <!-- EN: nothing -->
   <EquippedNothing>нічого</EquippedNothing>
   <!-- EN: Dead -->
-  <Dead>Мертвий(-а)</Dead>
+  <Dead>Мертвий</Dead>
   <!-- EN: Unconscious -->
   <Unconscious>Без свідомості</Unconscious>
   <!-- EN: In shock due to pain -->
@@ -1026,11 +1026,11 @@
   <!-- EN: Incapacitated -->
   <Incapacitated>Знерухомлено</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>У кайданах (рух сповільнений)</InRestraints>
+  <InRestraints>У кайданах (сповільнений)</InRestraints>
   <!-- EN: Carrying -->
   <Carrying>Переносить</Carrying>
   <!-- EN: Affected by: -->
-  <AffectedBy>Фактори, які впливають:</AffectedBy>
+  <AffectedBy>Впливають:</AffectedBy>
   <!-- EN: Queued -->
   <Queued>У черзі</Queued>
   <!-- EN: State -->
@@ -1038,17 +1038,17 @@
   <!-- EN: stun -->
   <StunLower>оглушення</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>Уповільнений шкодою</SlowedByDamage>
+  <SlowedByDamage>Сповільнений пораненням</SlowedByDamage>
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Виберіть наступну річ у тому самому квадраті.\n\n(*SectionTitle)Гаряча клавіша:(/SectionTitle) {0}\n\nВи також можете це зробити, натиснувши на той самий квадрат ще раз.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Вибрати наступну річ у цій самій клітинці.\n\n(*SectionTitle)Гаряча клавіша:(/SectionTitle) {0}\n\nТакож можна повільно клацнути по тій самій клітинці ще раз.</SelectNextInSquareTip>
   <!-- EN: View information. -->
-  <DefInfoTip>Переглянути детальну інформацію.</DefInfoTip>
+  <DefInfoTip>Переглянути інформацію.</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>Виберіть наступну річ у тому самому квадраті.\n\nВи також можете це зробити, натиснувши на той самий квадрат знову.</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>Вибрати наступну річ у цій самій клітинці.\n\nТакож можна повільно клацнути по тій самій клітинці ще раз.</SelectNextInSquareTipController>
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>Оберіть, як ця особа реагуватиме на ворогів поблизу, коли не в бойовому режимі.</HostilityReponseTip>
+  <HostilityReponseTip>Змінити, як ця людина реагуватиме на ворогів поблизу поза бойовим режимом.</HostilityReponseTip>
   <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>Поточний режим</HostilityResponseCurrentMode>
   <!-- like 'Blood of John' -->
@@ -1058,7 +1058,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Немає живлення.</PowerNotConnected>
   <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
-  <PowerConnectedRateStored>Надлишок у мережі: {0} Вт ({1} Вт·д збережено)</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Надлишок у мережі: {0} Вт (накопичено {1} Вт·д)</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Споживана потужність</PowerNeeded>
   <!-- EN: Power output -->
@@ -1066,7 +1066,7 @@
   <!-- EN: {0} W when active -->
   <PowerActiveNeeded>{0} Вт в активному стані</PowerActiveNeeded>
   <!-- EN: Stored -->
-  <PowerBatteryStored>Збережено</PowerBatteryStored>
+  <PowerBatteryStored>Накопичено</PowerBatteryStored>
   <!-- EN: Efficiency -->
   <PowerBatteryEfficiency>Ефективність</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
@@ -1075,7 +1075,7 @@
   <!-- EN: Target temperature -->
   <TargetTemperature>Задана температура</TargetTemperature>
   <!-- EN: Current power use -->
-  <PowerConsumptionMode>Споживання енергії</PowerConsumptionMode>
+  <PowerConsumptionMode>Поточне споживання енергії</PowerConsumptionMode>
   <!-- EN: high -->
   <PowerConsumptionHigh>високе</PowerConsumptionHigh>
   <!-- EN: low -->
@@ -1088,14 +1088,14 @@
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Без даху</IndoorsUnroofed>
   <!-- EN: outdoors -->
-  <Outdoors>Назовні</Outdoors>
+  <Outdoors>надворі</Outdoors>
   <!-- Rotting -->
   <!-- EN: Fresh -->
   <RotStateFresh>Свіже</RotStateFresh>
   <!-- EN: Rotting -->
   <RotStateRotting>Гниє</RotStateRotting>
   <!-- EN: Dessicated -->
-  <RotStateDessicated>Скелет</RotStateDessicated>
+  <RotStateDessicated>Висохло</RotStateDessicated>
   <!-- EN: Frozen -->
   <CurrentlyFrozen>Заморожено</CurrentlyFrozen>
   <!-- EN: Refrigerated, spoils in {0} -->
@@ -1108,78 +1108,78 @@
   <LessThanADay>менше доби</LessThanADay>
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
-  <ShotBy>Постріл {1_labelShort}</ShotBy>
+  <ShotBy>Стріляє: {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>Не може вразити ціль.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>Шанс помсти</ManhunterPerHit>
+  <ManhunterPerHit>Шанс агресії за влучання</ManhunterPerHit>
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Інгредієнти</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
-  <IngredientsDesc>Інгредієнти, необхідні для цієї страви.</IngredientsDesc>
+  <IngredientsDesc>Інгредієнти, з яких приготовано цю страву.</IngredientsDesc>
   <!-- EN: Dietary type -->
-  <DietaryType>Дієтичний тип</DietaryType>
+  <DietaryType>Тип харчування</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
-  <DietaryTypeDesc>Дієтичний тип страви, що готується. Деякі люди віддають перевагу певним видам страв.</DietaryTypeDesc>
+  <DietaryTypeDesc>Тип страви, що виходить. Деякі люди віддають перевагу певним типам страв.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
-  <OnlyStacksWithCompatibleMeals>можна об'єднати тільки зі схожими стравами</OnlyStacksWithCompatibleMeals>
+  <OnlyStacksWithCompatibleMeals>складається лише зі схожими стравами</OnlyStacksWithCompatibleMeals>
   <!-- Plants -->
   <!-- EN: {0} grown -->
   <PercentGrowth>Виросло на {0}</PercentGrowth>
   <!-- EN: Growth rate -->
   <GrowthRate>Темп росту</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
-  <FullyGrownIn>Виросте через {0}.</FullyGrownIn>
+  <FullyGrownIn>Повністю виросте через {0} росту.</FullyGrownIn>
   <!-- EN: needs light level -->
-  <PlantNeedsLightLevel>потрібний рівень світла</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>потрібна освітленість</PlantNeedsLightLevel>
   <!-- EN: resting -->
   <PlantResting>відпочиває</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
-  <OutOfIdealTemperatureRange>коефіцієнт зростання температури {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>множник росту від температури {0}%</OutOfIdealTemperatureRange>
   <!-- EN: out of temperature growth range -->
-  <OutOfIdealTemperatureRangeNotGrowing>поза діапазоном зростання температури</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>температура не підходить для росту</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Можна збирати.</ReadyToHarvest>
   <!-- EN: Mature. -->
-  <Mature>Дозріло.</Mature>
+  <Mature>Доросла.</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>Середній вік рослини</AveragePlantAge>
+  <AveragePlantAge>Середній вік рослин</AveragePlantAge>
   <!-- EN: Oldest plant age -->
-  <OldestPlantAge>Максимальний вік рослини</OldestPlantAge>
+  <OldestPlantAge>Вік найстарішої рослини</OldestPlantAge>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>Сезон росту</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Період вирощування</OutdoorGrowingPeriod>
   <!-- EN: Never -->
   <NoGrowingPeriod>Ніколи</NoGrowingPeriod>
   <!-- EN: Year-round -->
   <GrowYearRound>Цілий рік</GrowYearRound>
   <!-- EN: Growing season here now. -->
-  <GrowSeasonHereNow>Зараз сезон росту.</GrowSeasonHereNow>
+  <GrowSeasonHereNow>Зараз тут сезон вирощування.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>Не може рости (невідповідний температурний сезон).</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>Не росте (невідповідна сезонна температура).</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
-  <Blighted>Вражено хворобою</Blighted>
+  <Blighted>Уражено хворобою</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Вмирає на світлі</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>Смерть від неідеального ландшафту</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>Гине через невідповідну поверхню</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
-  <AutoCutNow>Зрізати</AutoCutNow>
+  <AutoCutNow>Зрізати зараз</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>зібрати</HarvestGerund>
+  <HarvestGerund>збирання врожаю</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>зрізати</CutGerund>
+  <CutGerund>зрізання</CutGerund>
   <!-- EN: Cut all blight -->
-  <CutAllBlight>Зрізати вражені хворобою</CutAllBlight>
+  <CutAllBlight>Зрізати всі хворі</CutAllBlight>
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
-  <CutAllBlightDesc>Зрізати всі рослини, що вражені хворобою. Хворі рослини не дають їжу чи ресурси і повинні бути зрізані, доки хвороба не розповсюдилась.</CutAllBlightDesc>
+  <CutAllBlightDesc>Позначити всі уражені хворобою рослини на знищення. Хворі рослини не дають ні їжі, ні ресурсів, тож їх варто знищити, доки хвороба не поширилася.</CutAllBlightDesc>
   <!-- Zones -->
   <!-- EN: Zone -->
   <Zone>Зона</Zone>
   <!-- EN: Growing zone -->
-  <GrowingZone>Зона посіву</GrowingZone>
+  <GrowingZone>Зона вирощування</GrowingZone>
   <!-- EN: growing -->
-  <GrowingGroup>вирощувати</GrowingGroup>
+  <GrowingGroup>вирощування</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Зона складу</Stockpile>
   <!-- EN: stockpile -->
@@ -1191,78 +1191,78 @@
   <!-- EN: Priority -->
   <Priority>Пріоритет</Priority>
   <!-- EN: Clear all -->
-  <ClearAll>Заборонити все</ClearAll>
+  <ClearAll>Очистити все</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>Дозволити все</AllowAll>
   <!-- Storage Groups -->
   <!-- EN: Group -->
-  <StorageGroup>Групи</StorageGroup>
+  <StorageGroup>Група</StorageGroup>
   <!-- EN: Name -->
   <StorageLabel>Назва</StorageLabel>
   <!-- EN: Storage group -->
-  <StorageGroupLabel>Група</StorageGroupLabel>
+  <StorageGroupLabel>Група зберігання</StorageGroupLabel>
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
-  <HitPoints>Цілісність {0}</HitPoints>
+  <HitPoints>Запас міцності: {0}</HitPoints>
   <!-- EN: any quality -->
   <AnyQuality>будь-яка якість</AnyQuality>
   <!-- EN: {0} only -->
-  <OnlyQuality>Тільки {0}</OnlyQuality>
+  <OnlyQuality>Лише {0}</OnlyQuality>
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>Не розвідано</Undiscovered>
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>Ви впевнені, що хочете стерилізувати {PAWN_nameDef}? Ця дія розізлить фракцію {FACTION_name}.</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>{PAWN_nameDef}: справді стерилізувати цю тварину? Це розлютить фракцію «{FACTION_name}».</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>Ви впевнені, що хочете забити {PAWN_nameDef}? Ця дія розізлить фракцію {FACTION_name}.</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>{PAWN_nameDef}: справді забити цю тварину? Це розлютить фракцію «{FACTION_name}».</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>Ви впевнені, що хочете відпустити {PAWN_nameDef}? Ця дія розізлить фракцію {FACTION_name}.</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>{PAWN_nameDef}: справді відпустити цю тварину? Це розлютить фракцію «{FACTION_name}».</AnimalReleaseConfirm>
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>Відображення помічника.\n\nВідображає помічника навіть якщо немає активної теми для вивчення.</ShowLearningHelperWhenEmptyToggleButton>
-  <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>Видимість зон.</ZoneVisibilityToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Перемкнути видимість навчального помічника, коли він порожній.\n\nПомічник завжди видимий, якщо є активна тема для вивчення. Цей перемикач ховає його, коли активних тем немає.</ShowLearningHelperWhenEmptyToggleButton>
+  <!-- EN: Toggle visibility of zones. -->
+  <ZoneVisibilityToggleButton>Перемкнути видимість зон.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>Відображення краси оточення.\n\nПоказує красу оточення, як її сприймає персонаж, який стоїть у квадраті, на який вказує курсор.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Перемкнути показ краси.\n\nПоказує красу світу так, як її сприймав би персонаж, що стоїть під курсором.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
-  <ShowRoomStatsToggleButton>Відображення параметрів кімнати.\n\nПоказує параметри кімнати, на яку вказує курсор.</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Перемкнути показ параметрів кімнати.\n\nПоказує параметри кімнати під курсором.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Відображення панелі колоністів.\n\nПоказує іконки і стан всіх колоністів у верхній частині екрану.\n\nВи можете відсортувати колоністів на цій панелі, перетягнувши їх за допомогою затиснутої ПКМ.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Перемкнути панель колоністів.\n\nПоказує значки й основний стан усіх колоністів угорі екрана.\n\nПорядок колоністів на панелі можна змінити, перетягуючи їх із затиснутою ПКМ.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>Відображення панелі колоністів.\n\nПоказує іконки і стан всіх колоністів у верхній частині екрану.\n\nВи можете відсортувати колоністів на цій панелі, перетягнувши їх за допомогою затиснутого лівого тригера.</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>Перемкнути панель колоністів.\n\nПоказує значки й основний стан усіх колоністів угорі екрана.\n\nПорядок колоністів на панелі можна змінити, перетягуючи їх із затиснутим лівим тригером.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Перемкнути автоматичне розширення домашньої області навколо нових споруд.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Автоматично відбудовувати знищені споруди в домашній області.</AutoRebuildButton>
+  <AutoRebuildButton>Перемкнути автоматичну відбудову знищених споруд у домашній області.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Показувати кількість ресурсів на складах повністю або за категоріями.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Перемкнути показ ресурсів за категоріями.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Показувати клички приручених тварин.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Перемкнути показ імен приручених тварин.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Відображення дахів.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Перемкнути видимість дахів.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Відображення родючості.\n\n Ця функція показує родючість ґрунту. Родючість впливає на види рослин, що можуть на ньому рости і наскільки швидко.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Перемкнути шар родючості.\n\nПоказує, наскільки родючий ґрунт; від цього залежить, які рослини можуть рости і як швидко.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Відображення міцності поверхні.\n\nВпливає на те, які типи споруд можна будувати на ті чи інші ділянки поверхні.\n\nНаприклад, деякі типи поверхні можуть витримувати тільки легкі або середні споруди, проте важкі - ні. Мости можна будувати тільки на воді.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Перемкнути шар несучої здатності поверхні.\n\nПоказує, які споруди можна будувати в кожному місці.\n\nНаприклад, деякі ґрунти витримують лише легкі чи середні споруди, але не важкі. Мости можна будувати лише на воді.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Зафіксувати камеру так, щоб північ завжди була вгорі.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>Відображення зон дня і ночі на планеті.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Перемкнути освітлення дня й ночі на мапі планети.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>Увімкнути/вимкнути відображення розгорнутих іконок для поселень, що належать до інших фракцій.</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Перемкнути збільшені значки поселень інших фракцій.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>Увімкніть або вимкніть відображення розгорнутих піктограм для важливих місць, таких як ваша колонія, місця виконання квестів та активні карти.</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Перемкнути збільшені значки важливих місць: вашої колонії, місць завдань, активних мап.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Відображення назв форм рельєфу.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Перемкнути видимість назв форм рельєфу.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Відображення температури повітря, в кожній з кімнат та назовні.\n\nКолоністи будуть незадоволені, якщо температура сильно відрізнятиметься від норми. Знаходження в екстремальних температурах може викликати гіпотермію, обмороження, тепловий удар, опіки та смерть.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Перемкнути шар температури. Показує температуру повітря в кожній кімнаті й надворі.\n\nКолоністи будуть незадоволені, якщо надто жарко чи холодно. Екстремальні температури можуть спричинити гіпотермію, обмороження, тепловий удар, опіки й смерть.</ShowTemperatureOverlayToggleButton>
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>Клавіша</HotKeyTip>
+  <HotKeyTip>Гаряча клавіша</HotKeyTip>
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>{1_label} палає</FireOn>
+  <FireOn>вогонь на {lookup: {1_label}; Case; 5}</FireOn>
   <!-- EN: Burning -->
   <Burning>Горить</Burning>
   <!-- EN: fire size {0} -->
@@ -1273,51 +1273,51 @@
   <!-- EN: time left -->
   <TimeLeft>залишилось часу</TimeLeft>
   <!-- EN: impact date -->
-  <ImpactDate>дата удару</ImpactDate>
+  <ImpactDate>дата зіткнення</ImpactDate>
   <!-- EN: Source unknown. -->
   <SourceUnknown>Джерело невідоме.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
   <ClickToJumpToSource>Натисніть, щоб перейти до джерела.</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>Натисніть, щоб перейти до грози.</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>Натисніть, щоб перейти до грозового шторму.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>Викликано завданням "{0}"</CausedByQuest>
+  <CausedByQuest>Спричинено завданням «{0}»</CausedByQuest>
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
-  <NoStuffsToBuildWith>У вас немає відповідних матеріалів.</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>У вас немає придатних матеріалів, щоб це збудувати.</NoStuffsToBuildWith>
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
   <WillGetWorkSpeedPenalty>{0} отримає штраф до швидкості роботи</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>Неможливо розмістити під дахом.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>Слід розміщувати під товщею гірської породи.</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>Потрібно розміщувати під товщею гірської породи.</MustPlaceUnderThickRoof>
   <!-- EN: Must be placed against a wall. -->
-  <MustPlaceOnWall>Необхідно розмістити на стіні.</MustPlaceOnWall>
+  <MustPlaceOnWall>Потрібно розміщувати біля стіни.</MustPlaceOnWall>
   <!-- EN: Something is already placed on this wall. -->
   <SomethingPlacedOnThisWall>На стіні вже щось є.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>Неможливо розмістити на цій споруді.</CannotSupportAttachment>
+  <CannotSupportAttachment>На цій споруді не можна нічого закріпити.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
-  <MustPlaceHeadOnShipBeam>Слід розміщувати впритул до корабельної балки.</MustPlaceHeadOnShipBeam>
+  <MustPlaceHeadOnShipBeam>Потрібно розміщувати передньою частиною впритул до корабельної балки.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
-  <MustPlaceNextToHopperAccepter>Лійка повинна бути розміщена поряд із пристроєм, що потребує подавач.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>Потрібно розміщувати поруч із тим, що потребує бункера.</MustPlaceNextToHopperAccepter>
   <!-- EN: Must be placed directly on a steam geyser. -->
-  <MustPlaceOnSteamGeyser>Цей об'єкт потрібно розміщувати безпосередньо на геотермальному паровому гейзері.</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>Потрібно розміщувати безпосередньо на паровому гейзері.</MustPlaceOnSteamGeyser>
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
-  <MustPlaceCoolerWithFreeSpaces>І гаряча, і холодна сторона кондиціонера повинні бути відкритими.</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceCoolerWithFreeSpaces>І гарячий, і холодний бік кондиціонера мають бути відкриті.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>Обидві сторони мусять бути вільними, для циркуляції повітря.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>Обидва боки мають бути відкриті, щоб повітря проходило.</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
-  <MustPlaceAdjacentStandable>Цей об'єкт потребує вільного простору навколо себе.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Потрібен прохідний простір з усіх боків.</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
-  <MustPlaceNearFuelingPort>Цей об'єкт слід розміщувати поруч із портом для заправки пускової установки.</MustPlaceNearFuelingPort>
+  <MustPlaceNearFuelingPort>Потрібно розміщувати поруч із портом заправки пускової установки.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>Цей об'єкт слід розміщувати над підземними покладами.</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>Потрібно розміщувати над покладами, які можна бурити.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>Не можна розміщувати поруч з пастками.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>Не можна розміщувати біля іншої споруди такого ж типу.</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>Не можна розміщувати поруч з іншою спорудою того самого типу.</CannotPlaceAdjacentSameDef>
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
   <WindTurbine_WindPathIsBlockedBy>Заважає</WindTurbine_WindPathIsBlockedBy>
@@ -1325,53 +1325,53 @@
   <WindTurbine_WindPathIsBlockedByRoof>Заважає дах</WindTurbine_WindPathIsBlockedByRoof>
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
-  <Watermill_WaterUsedTwice>Потік ослаблено роботою колеса іншого гідрогенератора</Watermill_WaterUsedTwice>
+  <Watermill_WaterUsedTwice>Потік ослаблено: турбулентність від іншого гідрогенератора</Watermill_WaterUsedTwice>
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Містить</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Увага!\n\n{PAWN_nameDef} - ваш останній колоніст, здатний до самостійних дій! Якщо {PAWN_objective} займе цей саркофаг, ви можете втратити можливість продовжити гру. Ви дійсно хочете це зробити?</CasketWarning>
+  <CasketWarning>Увага!\n\n{PAWN_nameDef} – ваш останній вільний колоніст! Якщо {PAWN_gender ? він ляже : вона ляже} в саркофаг, гру, можливо, не вдасться продовжити. Справді продовжити?</CasketWarning>
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
   <ShipReportCannotLaunch>Неможливо запустити.</ShipReportCannotLaunch>
   <!-- EN: Ready for launch. -->
-  <ShipReportCanLaunch>Готовий до запуску.</ShipReportCanLaunch>
+  <ShipReportCanLaunch>Готово до запуску.</ShipReportCanLaunch>
   <!-- EN: Missing critical component -->
-  <ShipReportMissingPart>Відсутній критично важливий компонент</ShipReportMissingPart>
+  <ShipReportMissingPart>Бракує критичного компонента</ShipReportMissingPart>
   <!-- EN: requires -->
-  <ShipReportMissingPartRequires>вимагає</ShipReportMissingPartRequires>
+  <ShipReportMissingPartRequires>потрібно</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
   <ShipReportNoFullPods>Немає зайнятих саркофагів криптосну</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
-  <ShipReportHibernating>Компонент неактивний</ShipReportHibernating>
+  <ShipReportHibernating>Компонент у гібернації</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Компонент ще не готовий</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Нема куди повертатися. Спочатку створіть поселення.</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>Немає поселення, куди повернутися. Спершу засніть поселення.</ShipNoSettlementToReturnTo>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Шарлон Вайтстоун(/Name) готовий почати процес запуску реактора.\n\nВін попереджує, що процес запуску займе близько 15 днів, а сплеск енергії від запуску розповсюдиться на велику відстань. Такого роду сигнал характерний для підготовки до міжзоряного перельоту, тому приверне увагу відчайдушних рейдерів і рої смертоносних механоїдів.\n\nВи будете атаковані з інтенсивністю, якої ще ніколи не бачили. Переконайтесь, що ваша оборона добре підготовлена перед запуском.</HibernateWarning>
+  <HibernateWarning>(*Name)Шарлон Вайтстоун(/Name) готовий почати виведення реактора з гібернації.\n\nВін попереджає, що процес триватиме близько 15 днів, а його енергетичний слід буде видно здалеку.\n\nТакий слід свідчить про здатність до міжзоряних перельотів і приверне банди відчайдушних рейдерів та рої смертоносних механоїдів.\n\nНа вас нападатимуть так, як ще ніколи. Спершу підготуйте оборону.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>Реактор готовий до запуску.\n\nПроцес запуску займе близько 15 днів, а сплеск енергії від запуску розповсюдиться на велику відстань. Такого роду сигнал характерний для підготовки до міжзоряного перельоту, тому приверне увагу відчайдушних рейдерів і рої смертоносних механоїдів.\n\nВи будете атаковані з інтенсивністю, якої ще ніколи не бачили. Переконайтесь, що ваша оборона добре підготовлена перед запуском.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>Реактор готовий до запуску.\n\nПроцес триватиме близько 15 днів, а його енергетичний слід буде видно здалеку. Такий слід свідчить про здатність до міжзоряних перельотів і приверне банди відчайдушних рейдерів та рої смертоносних механоїдів.\n\nНа вас нападатимуть так, як ще ніколи. Спершу підготуйте оборону.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>(*Name)Шарлон Вайтстоун(/Name) готовий почати процес запуску реактора.\n\nВін попереджує, що процес запуску займе близько 15 днів.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)Шарлон Вайтстоун(/Name) готовий почати виведення реактора з гібернації. Він попереджає, що процес триватиме близько 15 днів.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>Реактор готовий до запуску. Процес запуску займе близько 15 днів.</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>Реактор готовий до запуску. Процес триватиме близько 15 днів.</HibernateWarningStandalonePacifist>
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>нейро-тренажер навички ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>тренажер навички ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Використовуйте нейро-тренажер навички, щоб вивчити {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Використати тренажер навички, щоб опанувати «{0}»</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Одноразова велика доза механітів, яка тренує певну навичку.\n\nДозу вводять через орбіту ока. Потрапивши в мозок, механіти швидко покращують навички суб’єкта в певній області, за необхідності перетворюючись на нервову тканину.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Одноразова потужна доза механітів, що тренує певну навичку.\n\nДозу вводять через очну ямку. Потрапивши в мозок, механіти швидко покращують навички в певній галузі, за потреби перетворюючись на нервову тканину.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort} {USER_gender ? використав : використала} нейро-тренажер і {USER_gender ? покращив : покращила} свою навичку {1} з рівня {2} до рівня {3}.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} {USER_gender ? використав : використала} нейротренажер «{1}» і {USER_gender ? підвищив : підвищила} навичку з рівня {2} до рівня {3}.</SkillNeurotrainerUsed>
   <!-- Minification -->
   <!-- EN: Installed -->
   <Installed>Встановлено</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>Не встановлено</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>Витягнуте дерево загине через {time}, якщо його не посадити повторно.</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>Викопане дерево загине через {time}, якщо його не пересадити.</MinifiedTreeWillDieIn>
   <!-- Art -->
   <!-- EN: Title -->
   <Title>Назва</Title>
@@ -1379,23 +1379,23 @@
   <Untitled>Без назви</Untitled>
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>Незак. {0}</UnfinishedItem>
+  <UnfinishedItem>Незавершено: {0}</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>Незак. {1} {0}</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>Незавершено: {0} ({1})</UnfinishedItemWithStuff>
   <!-- Quality -->
   <!-- EN: Quality -->
   <Quality>Якість</Quality>
   <!-- EN: quality -->
   <quality>якість</quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>Якість предмета відображає, наскільки добре його виготовили.</QualityDescription>
+  <QualityDescription>Якість предмета показує, наскільки добре його виготовлено.</QualityDescription>
   <!-- EN: Quality: {0} -->
   <QualityIs>Якість: {0}</QualityIs>
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>зрив</Mood_MentalState>
+  <Mood_MentalState>психічний стан</Mood_MentalState>
   <!-- EN: about to break -->
-  <Mood_AboutToBreak>ось-ось зламається</Mood_AboutToBreak>
+  <Mood_AboutToBreak>на грані зриву</Mood_AboutToBreak>
   <!-- EN: on edge -->
   <Mood_OnEdge>на межі</Mood_OnEdge>
   <!-- EN: stressed -->
@@ -1408,80 +1408,80 @@
   <Mood_Happy>щастя</Mood_Happy>
   <!-- Game over -->
   <!-- EN: Game Over -->
-  <GameOver>Це кінець</GameOver>
+  <GameOver>Кінець гри</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Усі колоністи мертві чи пішли. Ця історія закінчена.\n\nМожливо, хтось інший знайде руїни цього місця корисними.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Усі загинули або пішли. Ця історія закінчилася.\n\nМожливо, комусь іншому знадобляться руїни цього місця.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>Зі швидкістю, близькою до світлової, руйнівник планет врізався в поверхню з силою трильйона водневих бомб. Подібно до наповненої водою повітряної кульки, простріленої з гвинтівки, цей світ розплавився від зіткнення і розкидав свої шматки по космосу.\n\nЧастини {0} зараз є малим поясом астероїдів. Решта — це розплавлений, радіоактивний пекельний пейзаж, весь покритий хвилями землетрусів, що на кілометри здіймають і кидають породу.\n\nВи не вижили.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>Зброя-планетовбивця на майже світловій швидкості врізалася в землю із силою трильйона водневих бомб. Наче повітряна кулька з водою, прострелена з гвинтівки, цей світ розрідився від удару й розбризкав свої розплавлені нутрощі по космосу.\n\nЧастина планети {0} тепер – невеликий пояс астероїдів. Решта – розплавлене радіоактивне пекло, яке безперервно здригається від планетотрусів заввишки в кілометри.\n\nВи не вижили.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>Ви запустили корабель!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>Ваш ШІ тепер намагатиметься направити корабель у безпечне місце. Він може знайти для вас процвітаючу планету в цій системі. Або може зробити багатовікову подорож до іншої зірки. Або навіть вирішити сховатись під лід на астероїді на кілька тисяч років, чекаючи поки хтось не збудує тут новий блискосвіт.\n\nВи дізнаєтесь, коли прокинетеся.</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>Тепер ваша машинна особистість спробує довести корабель у безпечне місце. Можливо, вона знайде квітучу планету в цій системі. Або вирушить у багатовікову подорож до іншої зорі. А може, вирішить сховатися на кілька тисяч років під кригою астероїда, чекаючи, доки хтось збудує тут новий світ-рай.\n\nВи дізнаєтеся, коли прокинетеся.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>Ці колоністи врятувались:\n\n{0}</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>Ці колоністи втекли:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>Ці колоністи залишились позаду:\n\n{0}</GameOverColonistsLeft>
+  <GameOverColonistsLeft>Цих колоністів покинули:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
-  <GameOverInMemoryOf>В пам'ять про:\n</GameOverInMemoryOf>
+  <GameOverInMemoryOf>Пам'яті:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
-  <GameOverKeepWatching>Продовжити спостерігати</GameOverKeepWatching>
+  <GameOverKeepWatching>Спостерігати далі</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>Поки що продовжити спостерігати</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Поки що спостерігати далі</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Створити нових мандрівників</GameOverCreateNewWanderers>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>Всі загинули або зникли. Можливо хтось інший знайде це місце.\n\nОберіть створення нових мандрівників, щоб продовжити історію.</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Усі загинули або пішли. Можливо, комусь знадобляться руїни цього місця.\n\nВиберіть нових мандрівників, які прийдуть до вашої колонії й продовжать історію.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Головне меню</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Немає колонії</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>не може досягти жодного пункту призначення</NoWandererDestination>
+  <NoWandererDestination>не може дістатися жодного місця призначення</NoWandererDestination>
   <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>необхідно зачекати {0} годин</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>треба зачекати {0} год</GameOverCreateNewWanderersWait>
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
   <LifespanExpiry>Спливає через:</LifespanExpiry>
   <!-- Facilities -->
   <!-- EN: inactive -->
-  <InactiveFacility>неактивний</InactiveFacility>
+  <InactiveFacility>неактивне</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>Взаємодіє з</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>Пов'язується з</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
-  <FacilityNoPotentialLinks>Ні з чим не взаємодіє</FacilityNoPotentialLinks>
+  <FacilityNoPotentialLinks>Не пов'язано з жодною спорудою</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>Максимум об'єднаних споруд</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Макс. підключень на споруду</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>Фасад споруди заблокований.</FacilityFrontBlocked>
+  <FacilityFrontBlocked>Перед споруди заблоковано.</FacilityFrontBlocked>
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
   <DiseaseGrowthModeChanged_Growing>{PAWN_labelShort}: {1} прогресує.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{PAWN_labelShort}: {1} стабілізується.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>{PAWN_labelShort}: {1} стабілізувався.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>У {PAWN_labelShort}: {1} переходить до стадії ремісії.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{PAWN_labelShort}: {1} – ремісія.</DiseaseGrowthModeChanged_Remission>
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
-  <MarriageSpotUsable>Може бути використане</MarriageSpotUsable>
+  <MarriageSpotUsable>Можна використати.</MarriageSpotUsable>
   <!-- EN: Not usable: {0}. -->
-  <MarriageSpotNotUsable>Не може бути використане: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotUsable>Не можна використати: {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>заблоковано</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>занадто небезпечно для {1_labelShort}</MarriageSpotDangerous>
+  <MarriageSpotDangerous>{1_labelShort}: занадто небезпечно</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>заборонено для {1_labelShort}</MarriageSpotForbidden>
+  <MarriageSpotForbidden>{1_labelShort}: заборонено</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>зарезервовано</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>недосяжно для {1_labelShort}</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>{1_labelShort}: недосяжно</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
-  <MarriageSpotInPrisonCell>знаходиться у тюремній камері</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>у тюремній камері</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
   <NotEnjoyableOutsideTemperature>некомфортна температура</NotEnjoyableOutsideTemperature>
   <!-- Colonist bar -->
   <!-- EN: Medical rest -->
-  <ActivityIconMedicalRest>Відпочиває на лік. ліжку</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>Лікувальний відпочинок</ActivityIconMedicalRest>
   <!-- EN: Sleeping -->
   <ActivityIconSleeping>Спить</ActivityIconSleeping>
   <!-- EN: Fleeing -->
@@ -1501,25 +1501,25 @@
   <DeterioratingDueToLackOfMaintenance>Псується через відсутність обслуговування.</DeterioratingDueToLackOfMaintenance>
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>До наступних покладів</ProgressToNextLump>
+  <ProgressToNextLump>Прогрес до наступного покладу</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>Ресурс знизу</ResourceBelow>
+  <ResourceBelow>Ресурс під землею</ResourceBelow>
   <!-- EN: Progress to next portion -->
-  <ProgressToNextPortion>До наступної порції</ProgressToNextPortion>
+  <ProgressToNextPortion>Прогрес до наступної порції</ProgressToNextPortion>
   <!-- EN: No resources below. -->
-  <DeepDrillNoResources>Поклади видобуто.</DeepDrillNoResources>
+  <DeepDrillNoResources>Під землею немає ресурсів.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Поклади глибокого буріння вичерпано, Тепер там можна видобути лише {lookup: {0}; Case; 3}. Для продовження видобутку наново дозвольте використання установки.</DeepDrillExhausted>
+  <DeepDrillExhausted>Поклади для глибинного буріння вичерпано, бур автоматично заборонено. Зніміть заборону, щоб почати видобуток: {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>Поклади вичерпані.</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>Поклади для глибинного буріння вичерпано.</DeepDrillExhaustedNoFallback>
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
   <ChargesRemaining>Залишилось зарядів</ChargesRemaining>
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
-  <LearningHelper>Помічник</LearningHelper>
+  <LearningHelper>Навчальний помічник</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
-  <LearningHelperTooltip>Внутрішньоігрове навчання, покликане надати інформацію щодо поточного стану вашої колонії.</LearningHelperTooltip>
+  <LearningHelperTooltip>Вбудований наставник, що розповідає про теми, важливі для поточного стану вашої колонії</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Позначити вивченим</MarkLearned>
   <!-- EN: Already learned -->
@@ -1528,47 +1528,47 @@
   <Filter>Фільтр</Filter>
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>Показує північний напрямок. Натисніть сюди, якщо бажаєте повернути камеру так, щоб північний полюс був угорі.</CompassTip>
+  <CompassTip>Показує напрямок на північ. Натисніть, щоб повернути камеру північним полюсом угору.</CompassTip>
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>Натисніть тут, щоб перейти до режиму планування маршруту. Ви зможете розпланувати подорож та підрахувати дистанцію між точками.</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>Натисніть, щоб увімкнути режим планування, де можна спланувати подорож і розрахувати відстань між точками маршруту.</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
-  <RoutePlannerAddTwoOrMoreWaypoints>Додайте дві або більше точки.</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddTwoOrMoreWaypoints>Додайте дві чи більше точки маршруту.</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
-  <RoutePlannerAddOneOrMoreWaypoints>Додайте одну або кілька точок.</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>Додайте одну чи більше точок маршруту.</RoutePlannerAddOneOrMoreWaypoints>
   <!-- EN: Total route time: {0} -->
-  <RoutePlannerEstTimeToFinalDest>Загальний час в дорозі: {0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerEstTimeToFinalDest>Загальний час маршруту: {0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
-  <RoutePlannerUsingAverageTicksPerMoveWarning>У режимі планування використовується стандартна швидкість каравану. Ваша швидкість може відрізнятися.</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>Режим планування використовує типову швидкість каравану. Ваша може відрізнятися.</RoutePlannerUsingAverageTicksPerMoveWarning>
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>Розрахунок для: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>ПКМ: Додати/видалити точки маршруту.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>ПКМ: додати/видалити точки маршруту.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: Left trigger button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Лівий тригер: Додати/видалити точки маршруту.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Лівий тригер: додати/видалити точки маршруту.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExit>ESC: Вийти з режиму планування.</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToExit>ESC: вийти з режиму планування.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Вийти з режиму планування.</RoutePlannerPressEscapeToExitController>
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: вийти з режиму планування.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Повернутися до формування каравану.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: повернутися до вікна формування каравану.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Повернутися до формування каравану.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: повернутися до вікна формування каравану.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>Прибл. час подорожі: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>Орієнт. час у дорозі: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>Прибл. час подорожі (з попередньої точки): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>Орієнт. час у дорозі (від попередньої точки): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>Прибл. час подорожі: {0}</EstimatedTimeToTile>
+  <EstimatedTimeToTile>Орієнт. час у дорозі: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>Кількість збираної їжі</ForagedFoodAmount>
+  <ForagedFoodAmount>Кількість зібраної їжі</ForagedFoodAmount>
   <!-- Outfits -->
   <!-- EN: Anything -->
   <OutfitAnything>Будь-що</OutfitAnything>
   <!-- EN: Worker -->
-  <OutfitWorker>Робочий одяг</OutfitWorker>
+  <OutfitWorker>Робітник</OutfitWorker>
   <!-- EN: Soldier -->
-  <OutfitSoldier>Солдатське екіпірування</OutfitSoldier>
+  <OutfitSoldier>Солдат</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Нудист</OutfitNudist>
   <!-- EN: Spacefarer -->
@@ -1577,12 +1577,12 @@
   <!-- EN: Hibernating -->
   <HibernatableHibernating>Гібернація</HibernatableHibernating>
   <!-- EN: Starting up -->
-  <HibernatableStartingUp>Запускається</HibernatableStartingUp>
+  <HibernatableStartingUp>Запуск</HibernatableStartingUp>
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}: Дізнатися про можливі дії</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: доступні накази...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>Дізнатися про можливі дії</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>Доступні накази...</ClickToSeeAvailableOrders_Empty>
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
   <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
@@ -1593,13 +1593,13 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Швидкість  зниження: {2} / с ({1}с до нуля)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>Швидкість спаду: {0}/с ({1} с до нуля)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Нейро-напруга збільшується після використання пси-здібностей. Перевищення норми може спричинити пси-зрив на декілька днів.\n\nНейроперегрів з часом розсіюється. Цей процес можна прискорити, якщо носити одяг з елтекса або відчувати біль.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>Нейронапруга зростає після використання пси-здібностей. Перевищення звичайної межі може спричинити психічний зрив на кілька днів.\n\nНейронапруга з часом розсіюється сама. Цей процес пришвидшує одяг з елтексу або біль.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Біль фокусує розум і розсіювання нейро-напруги.\n\nРівень болю: {0}\nБонус до розсіювання нейро-напруги: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Підсилення від болю\n\nБіль зосереджує розум і пришвидшує розсіювання нейронапруги.\n\nРівень болю: {0}\nБонус до розсіювання напруги: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Змініть ліміт нейро-напруги. Перевищення норми може спричинити пси-зрив на декілька днів. Це не призведе до непоправних наслідків.</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>Перемкнути обмежувач нейронапруги. Перевищення межі може спричинити психічний зрив на кілька днів, але без незворотних наслідків.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Пси-фокус: {0}</PawnTooltipPsyfocus>
   <!-- Pawn tooltip description -->
@@ -1607,31 +1607,31 @@
   <PawnTooltipGenderAndKindLabel>{1}, {0}</PawnTooltipGenderAndKindLabel>
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} прибуде в транспортній капсулі{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} прибуде в транспортній капсулі {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} прибуде і приєднається до вас{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} прийде й приєднається до вас {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} приєднається до вас{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_age}-{0_gender ? річний : річна} {0_title} на ім'я {0_nameDef} приєднається до вас {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
-  <Reward_Items>транспортні капсули з наступними ресурсами прибудуть (загальна вартість {1}):\n\n{0}</Reward_Items>
+  <Reward_Items>прибудуть транспортні капсули з такими ресурсами (загальна вартість {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>ви отримаєте (загальна вартість {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>відносини з фракцією {0_name} покращаться на {1}</Reward_Goodwill>
+  <Reward_Goodwill>відносини з фракцією «{0_name}» покращаться на {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>ви відправитеся до зірок</Reward_PassageOffworld>
+  <Reward_PassageOffworld>вас доправлять до зірок</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>Шлях до космосу</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>Квиток із планети</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>ви можете пограбувати весь табір</Reward_CampLoot>
+  <Reward_CampLoot>ви зможете забрати з табору все</Reward_CampLoot>
   <!-- EN: Camp loot -->
-  <Reward_CampLoot_Label>Здобич з табору</Reward_CampLoot_Label>
+  <Reward_CampLoot_Label>Здобич табору</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>Точно невідомо що відбудеться, якщо ви візьмете це завдання</Reward_Unknown>
+  <Reward_Unknown>Незрозуміло, що станеться, якщо ви приймете це завдання</Reward_Unknown>
   <!-- EN: Unknown -->
   <Reward_Unknown_Label>Невідомо</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>гості будуть допомагати вашим колоністам і боротися за вас</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>гості працюватимуть і битимуться за вас</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>Допомога гостей</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
@@ -1639,39 +1639,39 @@
   <!-- EN: {PAWNNAME} gains psylink -->
   <Reward_BestowingCeremony>{PAWNNAME} отримує пси-зв'язок</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
-  <Reward_ShuttleLoot_Label>Здобич із шатлу</Reward_ShuttleLoot_Label>
+  <Reward_ShuttleLoot_Label>Здобич шатла</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>ви можете розібрати шатл та отримати здобич із нього</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>ви зможете розібрати шатл і забрати здобич</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
   <Reward_PossibleFutureReward_Label>Можлива винагорода</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>Винагорода, яку ви, можливо, отримаєте в майбутньому</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>винагорода, яку, можливо, буде надано в майбутньому</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>титул {lookup: {TITLE}; Case; 1}</Reward_Title_Label>
+  <Reward_Title_Label>Титул «{TITLE}»</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME} отримує титул {lookup: {TITLE}; Case; 1} від фракції {FACTION}</Reward_Title>
+  <Reward_Title>{PAWNNAME} отримує титул «{TITLE}» від фракції «{FACTION}»</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>вартість {0}</TotalValue>
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>Синхронізовано з: {0}</BondedWith>
+  <BondedWith>Біозв'язок з: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>Ще не синхронізовано</NotBonded>
+  <NotBonded>Біозв'язку ще немає</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>синхронізовано з кимось іншим</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>біозв'язок з кимось іншим</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
-  <BladelinkAlreadyBonded>(наявний зв'язок)</BladelinkAlreadyBonded>
+  <BladelinkAlreadyBonded>(наявний біозв'язок)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>Людина може бути зв'язана лише з одною синхрозброєю одночасно.\n\nЩоб сформувати зв'язок з {WEAPON_labelShort} та отримати можливість екіпірувати його, синхронізований з {PAWN_nameDef} {BONDEDWEAPON_labelShort} необхідно знищити.</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Людина може мати біозв'язок лише з однією персональною зброєю водночас.\n\nЩоб екіпірувати {WEAPON_labelShort} й утворити з нею біозв'язок, спершу треба знищити зброю, з якою {PAWN_nameDef} вже {PAWN_gender ? пов'язаний : пов'язана}: {BONDEDWEAPON_labelShort}.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} уже має зв'язок з {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} вже має біозв'язок зі зброєю: {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>біо-код. {0}</Biocoded>
+  <Biocoded>{0} (біокод)</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>Біо-кодування: {0}</CodedFor>
+  <CodedFor>Біокод: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>біо-кодовано</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>біокодовано</BiocodedCodedForSomeoneElse>
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1}. -->
   <InterceptsProjectilesEvery>Перехоплює {0} кожні {1}.</InterceptsProjectilesEvery>
@@ -1680,33 +1680,33 @@
   <!-- EN: ground and aerial projectiles -->
   <InterceptsProjectiles_BothProjectiles>наземні та повітряні снаряди</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>снаряди з настильною траєкторією</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>наземні снаряди</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>снаряди з навісною траєкторією</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>повітряні снаряди</InterceptsProjectiles_AerialProjectiles>
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>Уражена стать</AffectedGender>
+  <AffectedGender>Стать, на яку діє</AffectedGender>
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>Викликано: {0}</CausedByHediff>
+  <CausedByHediff>Спричинено: {0}</CausedByHediff>
   <!-- EN: {DAMAGE_label} weakness -->
   <DamageFactorWeakness>вразливість: {DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>супротив: {DAMAGE_label}</DamageFactorResistance>
+  <DamageFactorResistance>стійкість: {DAMAGE_label}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
-  <DamageFactor>{DAMAGE_label} пошкодження, яке отримує ця істота, примножується на цю суму.</DamageFactor>
+  <DamageFactor>Шкода типу «{DAMAGE_label}», якої зазнає ця істота, множиться на це значення.</DamageFactor>
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
-  <HealingHealHediff>{0_nameDef} виліковується від {lookup: {1}; Case; 2}</HealingHealHediff>
+  <HealingHealHediff>{0_nameDef}: вилікувано стан «{1}».</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>У {0_nameDef} знову є {1}.</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>{0_nameDef}: відновлено {1}.</HealingRestoreBodyPart>
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Увага: Фракція {FACTION_name} дуже розлютиться, якщо ви щось спорудите у цій місцевості!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Увага: будівництво тут розлютить фракцію «{FACTION_name}»!</WarningBuildingCausesHostility>
   <!-- EN: Choose landing site -->
-  <ChooseLandingSite>Оберіть місце посадки</ChooseLandingSite>
+  <ChooseLandingSite>Виберіть місце посадки</ChooseLandingSite>
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>Можливі результати при якості {0}</LordJobOutcomeChances>
+  <LordJobOutcomeChances>Шанси результатів за якості {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
   <ExpectedLordJobDuration>Очікувана тривалість</ExpectedLordJobDuration>
   <!-- Rituals -->
@@ -1715,23 +1715,23 @@
   <!-- EN: Takes place at -->
   <RitualTakesPlaceAt>Місце проведення</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
-  <RitualTargetThingDefsInfo>Будь-який {0}</RitualTargetThingDefsInfo>
+  <RitualTargetThingDefsInfo>Будь-що: {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>Відвідує {0}</LordReportAttending>
+  <LordReportAttending>Бере участь: {0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
-  <RitualCalledOff>{0} було скасовано.</RitualCalledOff>
+  <RitualCalledOff>Скасовано: {0}.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>{0} не відбувся: відсутність відвідувачів.</RitualNobodyAttended>
+  <RitualNobodyAttended>{0}: не завершено, бо ніхто не прийшов.</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
-  <RitualFinished>{0} завершено.</RitualFinished>
+  <RitualFinished>Завершено: {0}.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>завершиться через {0}</RitualEndsIn>
   <!-- EN: Can start any time -->
-  <RitualStartAnyTime>Можна розпочати у будь-який час</RitualStartAnyTime>
+  <RitualStartAnyTime>Можна почати будь-коли</RitualStartAnyTime>
   <!-- EN: Can start after event -->
-  <RitualStartEvent>Можна розпочати після події</RitualStartEvent>
+  <RitualStartEvent>Можна почати після події</RitualStartEvent>
   <!-- EN: Focus objects -->
-  <RitualFocusObjects>Об'єкти концентрації</RitualFocusObjects>
+  <RitualFocusObjects>Об'єкти фокусу</RitualFocusObjects>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>Ролі учасників</RitualParticipatingRoles>
   <!-- EN: Organizers -->
@@ -1739,91 +1739,91 @@
   <!-- EN: Quality factors -->
   <QualityFactors>На якість впливають</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>Ця умова може бути виконана, якщо все пройде добре.\n\nЯкщо умова виконана - якість ритуалу зросте.</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>Ця умова може виконатися – залежить від того, як усе складеться.\n\nЯкщо виконається, бонус до якості буде застосовано.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>Умова не виконана.\n\nЯкість ритуалу не зросте.</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>Умову не виконано.\n\nБонус до якості не застосується.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
   <Spectators>Глядачі</Spectators>
   <!-- EN: Not participating -->
   <NotParticipating>Не беруть участі</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Перетягуйте або користуйтеся кнопками миші.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Перетягуйте людей або клацайте ЛКМ/ПКМ, щоб їх переміщувати.</DragPawnsToRolesInfo>
   <!-- EN: Drag and drop or click to move people. -->
-  <DragPawnsToRolesInfoController>Перетягуйте або користуйтеся кнопками.</DragPawnsToRolesInfoController>
+  <DragPawnsToRolesInfoController>Перетягуйте людей або натискайте, щоб їх переміщувати.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>Раб. Людина, що належить іншій людині або людям.</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>Раб. Людина, що є чиєюсь власністю.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} спить. Якщо буде додано до події, {0_pronoun} прокинеться, щоб взяти участь.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} спить. Якщо додати до події, прокинеться, щоб узяти участь.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
-  <RitualBeginSleepingWarning>Деякі з вибраних учасників сплять. Вони прокинуться, як тільки ви почнете подію.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Деякі з вибраних учасників сплять. Вони прокинуться, щойно ви почнете подію.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>З цим найкраще впорається колоніст із роллю {0}.\n\nЯкщо вибрати колоніста без цієї ролі - ви не отримаєте наступні бонуси</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>Цю позицію найкраще займати колоністу з соціальною роллю «{0}».\n\nЯкщо її займе хтось без цієї ролі, ви не отримаєте таких бонусів</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>Нема кому замінити роль {0}.</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>Ніхто не може замінити в ролі «{0}».</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>Прогрес: {0}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>Якість {0} залежить від</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>Якість ({0}) залежить від</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>загалом, якість {0} була {1}. На якість вплинули наступні фактори</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>{0}: загальна якість становила {1} і залежала від таких чинників</RitualOutcomeQualitySpecific>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Проведено нещодавно</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>Очікування від ритуалу: {0}</RitualQualityExpectations>
+  <RitualQualityExpectations>Очікування: {0}</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Звук ритуалу</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>Загальна якість ритуалу {0} становить {1}. Якщо ви продовжите, це, швидше за все, призведе до негативних наслідків для колонії.\n\nВи впевнені?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>Загальна якість ({0}) нижча за {1}. Якщо продовжити, це, найімовірніше, зашкодить колонії.\n\nСправді продовжити?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
-  <AbilitySpeechDisabledNoSpot>Немає доступного місця для виступу.</AbilitySpeechDisabledNoSpot>
+  <AbilitySpeechDisabledNoSpot>Немає досяжного придатного місця для промови.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
-  <AbilityDisabledNoCapacity>{0_labelShort} не може {1}.</AbilityDisabledNoCapacity>
+  <AbilityDisabledNoCapacity>{0_labelShort}: немає здатності «{1}».</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Настрій усіх учасників ритуалу підвищиться на {0} протягом {1} днів.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Усі учасники ритуалу отримують {0} до настрою на {1} дн.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>Цей ритуал не має модифікаторів якості, тому очікується найкращий результат</RitualOutcomeNoQuality>
+  <RitualOutcomeNoQuality>Цей ритуал не має модифікаторів якості, тож завжди очікується найкращий результат</RitualOutcomeNoQuality>
   <!-- EN: Begin -->
-  <Begin>Розпочати</Begin>
+  <Begin>Почати</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>Розпочати {lookup: {0}; Case; 3}</BeginRitual>
+  <BeginRitual>Почати: {0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Розпочати {lookup: {0}; Case; 3} для {1}</BeginRitualFor>
+  <BeginRitualFor>Почати: {0} ({1})</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (із {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0} проводиться у певний день. Найближча дата: {2}, через {1}.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0} – ритуал, прив'язаний до дати. Його можна буде почати через {1}, {2}.</DateRitualNoObligation>
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Замінити на</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Ритуальне місце {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>Ритуальне місце: {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedLordJobQuality>Очікувана якість</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>Початкова якість</StartingQuality>
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <RitualPredictedOutcomeDescPawnStat>{1} {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
+  <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort}: {1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Краса приміщення</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <RitualPredictedOutcomeDescPawnExpectations>Очікування {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}: очікування</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
   <RitualOutcomeLovedOnePresentLabel>Присутня близька людина</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>Будь-яка людина, яку {PAWN_labelShort} вважає другом чи більше.</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>Будь-хто, кого {PAWN_labelShort} вважає другом або ближчим.</RitualOutcomeLovedOnePresentTip>
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Будь-яке з</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Будь-що з цього</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
-  <RitualRoleReplaces>Замінює {PAWN_labelShort}</RitualRoleReplaces>
+  <RitualRoleReplaces>Замінює: {PAWN_labelShort}</RitualRoleReplaces>
   <!-- EN: present -->
   <Present>присутній</Present>
   <!-- EN: {0} used -->
-  <Used>{0} використовується</Used>
+  <Used>{0}: використано</Used>
   <!-- EN: {0} starting quality -->
-  <StartingRitualQuality>Початкова якість {0}</StartingRitualQuality>
+  <StartingRitualQuality>Початкова якість: {0}</StartingRitualQuality>
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>{0} якість або нижче</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>до {0} якості</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
-  <OutcomeBonusDesc_QualitySingleOffset>{0} якість</OutcomeBonusDesc_QualitySingleOffset>
+  <OutcomeBonusDesc_QualitySingleOffset>{0} якості</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
   <OutcomeLetterLabel>{RITUALLABEL} ({OUTCOMELABEL})</OutcomeLetterLabel>
   <!-- EN: {0} max -->
@@ -1836,7 +1836,7 @@
   <ThingOfTwoSources>{0} з {1} та {2}</ThingOfTwoSources>
   <!-- Gas types -->
   <!-- EN: blind smoke -->
-  <BlindSmoke>сліпучий дим</BlindSmoke>
+  <BlindSmoke>засліплювальний дим</BlindSmoke>
   <!-- EN: tox gas -->
   <ToxGas>токсичний газ</ToxGas>
   <!-- EN: rot stink -->
@@ -1845,59 +1845,59 @@
   <DeadlifeDust>пил несмертя</DeadlifeDust>
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>працює лише в бойовому режимі.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>потрібен бойовий режим.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>здатність у процесі відновлення. Її можна буде застосувати через {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>здібність відновлюється. Буде доступна через {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>здібність не має зарядів</AbilityNoCharges>
+  <AbilityNoCharges>у здібності скінчилися заряди.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>здатність вже в черзі.</AbilityAlreadyQueued>
+  <AbilityAlreadyQueued>здібність уже в черзі.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
   <AbilityReadyLabel>{PAWN_nameDef} може застосувати здібність: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>{PAWN_nameDef} може застосувати здібність: {0}</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>{PAWN_nameDef} може застосувати здібності: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} {0_gender ? готовий : готова} до використання "{lookup: {1}; Case; 3}".</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} може застосувати здібність «{1}».</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <AbilityDisabledInRitual>{0_labelShort} бере участь в {1}.</AbilityDisabledInRitual>
+  <AbilityDisabledInRitual>{0_labelShort} бере участь у події «{1}».</AbilityDisabledInRitual>
   <!-- EN: Charges -->
-  <Charges>Заряджається</Charges>
+  <Charges>Заряди</Charges>
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>{0_nameDef} у стані нервового зриву.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} у психічному стані.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>{0_nameDef} в стані агресії</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} в агресивному психічному стані.</PawnIsInAggroMentalState>
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Недоступна робота</DisabledWorkLabel>
   <!-- EN: Disabled needs -->
   <DisabledNeedsLabel>Недоступні потреби</DisabledNeedsLabel>
   <!-- Glowers -->
   <!-- EN: change color -->
-  <GlowerChangeColor>Змінити колір</GlowerChangeColor>
+  <GlowerChangeColor>змінити колір</GlowerChangeColor>
   <!-- EN: Change the color of the light. -->
   <GlowerChangeColorDescription>Змінити колір освітлення.</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
-  <GlowerChangeColorNeedsResearch>Необхідно дослідити "{0}", щоб мати можливість змінити колір освітлення.</GlowerChangeColorNeedsResearch>
+  <GlowerChangeColorNeedsResearch>Щоб змінювати колір світла, дослідіть «{0}».</GlowerChangeColorNeedsResearch>
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>Персональний щит, здатний зупинити балістичні снаряди та уламки. Не дозволяє вистрілити власнику щита та миттєво відключається від ЕМІ.</ShieldPersonalTip>
+  <ShieldPersonalTip>Особистий щит, що намагається зупинити снаряди й уламки. Не дає носієві стріляти назовні й миттєво вимикається від ЕМІ.</ShieldPersonalTip>
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef} настільки {PAWN_gender ? відданий : віддана} своїй фракції, що {PAWN_possessive} неможливо завербувати, якщо захопити у полон.</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} так {PAWN_gender ? відданий : віддана} своїй домівці, що в полоні відмовиться від вербування.</UnrecruitableDesc>
   <!-- EN: Random -->
   <Random>Випадково</Random>
   <!-- EN: Plant {0_label} -->
   <PlantThing>Посадити {lookup: {0_label}; Case; 3}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Посадити {lookup: {0_label}; Case; 3} у вибраній зоні.</PlantThingDesc>
+  <PlantThingDesc>Посадити {lookup: {0_label}; Case; 3} у вибраному місці.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Скасувати посів {lookup: {0_label}; Case; 1}</CancelPlantThing>
+  <CancelPlantThing>Скасувати посадку: {0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Скасувати посів {lookup: {0_label}; Case; 1}.</CancelPlantThingDesc>
+  <CancelPlantThingDesc>Скасувати посадку: {0_label}.</CancelPlantThingDesc>
   <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>інша подія в процесі.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <AbilitySpeechDisabledAnotherGatheringInProgress>уже триває інше зібрання.</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>Наступна промова доступна через</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>Можливі місця проведення</AbilitySpeechTargetsLabel>
+  <AbilitySpeechTargetsLabel>Місце проведення</AbilitySpeechTargetsLabel>
   <!-- Books -->
   <!-- EN: Benefits -->
   <Benefits>Переваги</Benefits>
@@ -1908,11 +1908,11 @@
   <!-- EN: when discovered -->
   <WhenDiscovered>при виявленні</WhenDiscovered>
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>Нервовий зрив після прочитання {0}.</BookMentalBreakMessage>
+  <BookMentalBreakMessage>Нервовий зрив після прочитання «{0}».</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>{0} прочитано (завершить через {1}г)</BookReadProgress>
+  <BookReadProgress>Прочитано {0} (до кінця {1} год)</BookReadProgress>
   <!-- EN: learning speed -->
-  <BookLearningModifier>Швидкість вивчення</BookLearningModifier>
+  <BookLearningModifier>швидкість навчання</BookLearningModifier>
   <!-- EN: Mental break chance -->
   <BookMentalBreak>Шанс нервового зриву</BookMentalBreak>
   <!-- EN: {BOOK_labelShort} is not readable -->
@@ -1920,62 +1920,62 @@
   <!-- EN: {PAWN_nameDef} can't read -->
   <BookCantRead>{PAWN_nameDef} не може читати</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>Невідповідний вік (необхідний: {STAGES})</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef}: має бути {STAGES}</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef} {PAWN_gender ? сліпий : сліпа}</BookBlind>
   <!-- EN: max level {0} -->
-  <BookMaxLevel>максимальний рівень {0}</BookMaxLevel>
+  <BookMaxLevel>макс. рівень {0}</BookMaxLevel>
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>Читає {0}: {1} прочитано (завершить через {2}г)</ReadingReportHeader>
+  <ReadingReportHeader>Читає «{0}»: прочитано {1} (до кінця {2} год)</ReadingReportHeader>
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>Призначити читання</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>Призначити для {0}</ReadingAssignTo>
+  <ReadingAssignTo>Призначити: {0}</ReadingAssignTo>
   <!-- EN: Assign -->
   <ReadingAssign>Призначити</ReadingAssign>
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>Книги на книжковій полиці</ContainedBooksDesc>
+  <ContainedBooksDesc>Книги, що зараз стоять у цій шафі.</ContainedBooksDesc>
   <!-- EN: Books stored -->
-  <BookshelfStoredInspect>Книги, що зберігаються</BookshelfStoredInspect>
+  <BookshelfStoredInspect>Книг у шафі</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
   <BookshelfReadingBonusInspect>Бонус до читання в кімнаті</BookshelfReadingBonusInspect>
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>Прибрати книгу з книжкової полиці.</EjectBookTooltip>
+  <EjectBookTooltip>Забрати цю книгу з шафи.</EjectBookTooltip>
   <!-- Pushing -->
   <!-- EN: Push to... -->
   <CommandPushTo>Штовхати до...</CommandPushTo>
   <!-- EN: requires {0} -->
-  <RequiredCapacity>необхідно {0}</RequiredCapacity>
+  <RequiredCapacity>потрібно: {0}</RequiredCapacity>
   <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>Неможливо увійти до {0}, немає проходу</UnableToEnterPortal>
+  <UnableToEnterPortal>Неможливо увійти: {0}, прохід заблоковано</UnableToEnterPortal>
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>Ця категорія досліджень не виявлена.</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Цю категорію досліджень ще не відкрито.</ResearchNotDiscovered>
   <!-- EN: Emergence -->
-  <Emergence>Виникнення</Emergence>
+  <Emergence>Поява</Emergence>
   <!-- EN: remove {0} -->
   <RemovePart>прибрати {0}</RemovePart>
   <!-- EN: {GERUND} {TARGETLABEL} at -->
   <DoWorkAtThing>{GERUND} за допомогою {lookup: {TARGETLABEL}; Case; 1}</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>може бути досліджене протягом {0}</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>можна вивчити через {0}</CanBeStudiedInDuration>
   <!-- EN: About to explode -->
   <AboutToExplode>Зараз вибухне</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>Немає палива для викиду</RefuelableNoFuelToEject>
+  <RefuelableNoFuelToEject>Немає палива, щоб вивантажити</RefuelableNoFuelToEject>
   <!-- EN: New Anomaly expansion available now! -->
-  <MainScreen_AnomalyAvailableNow>Доступне нове розширення аномалії!</MainScreen_AnomalyAvailableNow>
+  <MainScreen_AnomalyAvailableNow>Вийшло нове доповнення Anomaly!</MainScreen_AnomalyAvailableNow>
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>Вимкнено за сценарієм</DisabledByScenario>
+  <DisabledByScenario>Вимкнено сценарієм</DisabledByScenario>
   <!-- EN: blocked by roof -->
   <BlockedByRoof>перекрито дахом</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>Заблоковано рельєфом (потрібна підтримка {0_label})</BlockedByTerrain>
+  <BlockedByTerrain>Заважає поверхня (потрібна несуча здатність «{0_label}»)</BlockedByTerrain>
   <!-- Craters -->
   <!-- EN: Fill in -->
   <DesignatorFillIn>Засипати</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>Позначте цей кратер для засипання. Колоніст, призначений для будівництва, засипле його.</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Позначити цей кратер для засипання. Колоніст, призначений на будівництво, засипле його.</DesignatorFillInDesc>
   <!-- Hacking -->
   <!-- EN: Hack progress -->
   <HackProgress>Прогрес зламу</HackProgress>
@@ -1986,49 +1986,49 @@
   <!-- EN: hacked -->
   <Hacked>зламано</Hacked>
   <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Термінали зламані</TerminalsHacked>
+  <TerminalsHacked>Зламано терміналів</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>Мінімальний інтелект</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>Потрібен інтелект</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
   <AutoHack>Автоматичний злом</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>Коли ця функція увімкнена, дослідники автоматично зламають це.</AutoHackDesc>
+  <AutoHackDesc>Якщо ввімкнено, дослідники зламуватимуть це автоматично.</AutoHackDesc>
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>Перемкнутися на {lookup: {LAYER_label}; Case; 3}</WorldSelectLayer>
+  <WorldSelectLayer>Переглянути: {LAYER_label}</WorldSelectLayer>
   <!-- EN: Jump to location -->
   <WorldJumpTo>Перейти до місця</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>Знайти розташування колонії, каравану чи доручення на мапі світу.</WorldJumpToDesc>
+  <WorldJumpToDesc>Знайти на мапі світу колонію, караван чи місце завдання.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>Нічого, до чого можна було б перейти.</NothingToJumpTo>
+  <NothingToJumpTo>Немає куди переходити.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>не може функціонувати в {0}</CannotFunctionOnLayer>
+  <CannotFunctionOnLayer>не працює: {0}</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
   <NewSettlement>Нове поселення</NewSettlement>
   <!-- EN: Settled -->
   <Settled>Оселилися</Settled>
   <!-- EN: Abandoned -->
-  <Abandoned>Покинутий</Abandoned>
+  <Abandoned>Покинуто</Abandoned>
   <!-- EN: Cannot perform {GERUND} {LAYER} -->
   <CannotPerformPlanetLayer>Неможливо виконати {GERUND} {LAYER}</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>Це не вплине на вас {GERUND} {LAYER}.</ThisWillNotAffectLayer>
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
-  <EnterPortal>Зайти в {0}</EnterPortal>
+  <EnterPortal>Увійти: {0}</EnterPortal>
   <!-- EN: Entering {0} -->
-  <EnteringPortal>Входить в {0}</EnteringPortal>
+  <EnteringPortal>Входить: {0}</EnteringPortal>
   <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>Обрати людей та предмети для входу до {0}.</CommandEnterPortalDesc>
+  <CommandEnterPortalDesc>Вибрати людей і предмети для входу: {0}.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>Скасувати входження</CommandCancelEnterPortal>
+  <CommandCancelEnterPortal>Скасувати вхід</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>Скасувати виходження</CommandCancelExitPortal>
+  <CommandCancelExitPortal>Скасувати вихід</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>Скасувати входження людей чи завантаження предметів.</CommandCancelEnterPortalDesc>
+  <CommandCancelEnterPortalDesc>Скасувати завантаження людей чи предметів сюди.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>Вийти з {0}</ExitPortal>
+  <ExitPortal>Вийти: {0}</ExitPortal>
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
   <ShieldEnergy>Заряд щита</ShieldEnergy>
@@ -2037,15 +2037,15 @@
   <!-- EN: Shield duration -->
   <ShieldDuration>Тривалість щита</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>На перезарядці</ShieldOnCooldown>
+  <ShieldOnCooldown>Відновлюється</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>Менше мінімального заряду</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>Заряд нижче мінімуму</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Проєкційний щит, який намагатиметься зупинити вхідні снаряди або осколки. Він миттєво вимикається при попаданні ЕМІ.</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>Проєкційний щит під малим кутом, що намагається зупинити снаряди й уламки. Миттєво вимикається від ЕМІ.</ProjectileInterceptorTip>
   <!-- EN: max {0} -->
   <MaxOf>максимум {0}</MaxOf>
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>Не можливо використати {TARGETABLE_label}: {TARGET_nameDef} вже має {2}.</CannotUseDueToHediff>
+  <CannotUseDueToHediff>Неможливо використати {TARGETABLE_label}: {TARGET_nameDef} вже має {2}.</CannotUseDueToHediff>
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
   <CannotUseScannerRoofed>Заблоковано дахом</CannotUseScannerRoofed>
@@ -2053,9 +2053,9 @@
   <CannotUseScannerNoBedrock>Біом не містить ресурсів, придатних для буріння</CannotUseScannerNoBedrock>
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>Неможливо прийняти цей квест {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
+  <CannotAcceptQuestFromLayer>Неможливо прийняти це завдання {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>Не можна прийняти це доручення без постійної колонії.</CannotAcceptQuestNoMap>
+  <CannotAcceptQuestNoMap>Не можна прийняти це завдання без постійної колонії.</CannotAcceptQuestNoMap>
   <!-- EN: {0} of {1} -->
-  <GuildTradeShipName>{0} з {1}</GuildTradeShipName>
+  <GuildTradeShipName>{0} ({1})</GuildTradeShipName>
 </LanguageData>

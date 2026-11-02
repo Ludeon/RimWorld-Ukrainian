@@ -37,39 +37,45 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->a solitary [Character] [desc_pawn]</li>
-    <li>image->a solitary [Character] [desc_pawn] near a [TerrainFeature]</li>
-    <li>image->a solitary [Character] [desc_pawn] near a [Community]</li>
-    <li>image->a [Character] [desc_pawn] surrounded by [Character]s</li>
-    <li>image->[Character]s playing [Game]</li>
-    <li>image->a [Character] [desc_pawn] playing [Game] with [Quantity_adjphrase] [Character]s</li>
-    <li>image->a [Character] [desc_pawn] holding a [Weapon]</li>
-    <li>image->a [Character] [desc_pawn] eating a [Vegetable]</li>
-    <li>image->[Quantity_adjphrase] [PersonJob]s and [PersonJob]s eating [Vegetable]s together</li>
-    <li>image->the minor celebrity [NamePerson] [desc_pawn]</li>
-    <li>image->a [Character] wearing a [Apparel] [desc_pawn]</li>
-    <li>image->a [Community]</li>
-    <li>image->a [TerrainFeature]</li>
-    <li>image->a [Weapon]</li>
-    <li>image->a [TreeType] tree</li>
-    <li>image->a [NaturalObject]</li>
-    <li>image->[Quantity_adjphrase] [Weapon]s</li>
-    <li>image->[Quantity_adjphrase] [Vegetable]s</li>
-    <li>image->an empty [Apparel]</li>
-    <li>image->a [Shape]</li>
-    <li>image->a [Shape] surrounded by [Shape]s</li>
-    <li>image->an abstracted rendering of [ConceptAny]</li>
-    <li>image->a [AdjectiveAny] abstract shape</li>
+    <li>image->[lonely_char][desc_pawn]</li>
+    <li>image->[lonely_char][desc_pawn] біля [TerrainFeature_gen]</li>
+    <li>image->[lonely_char][desc_pawn] біля [Community_gen]</li>
+    <li>image->[Character][desc_pawn] в оточенні [Character_pl_gen]</li>
+    <li>image->[Character_pl], що грають у [Game_acc]</li>
+    <li>image->[Character], що грає в [Game_acc] з [Quantity_adjphrase_ins] [Character_pl_ins]</li>
+    <li>image->[Character][desc_pawn] з [Weapon_ins] в руках</li>
+    <li>image->[Character], що їсть [Vegetable_acc]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob_pl_gen] і [PersonJob_pl_gen], що разом їдять [Vegetable_pl_acc]</li>
+    <li>image->місцева знаменитість [NamePerson][desc_pawn]</li>
+    <li>image->[Character] у [Apparel_loc][desc_pawn]</li>
+    <li>image->[Community]</li>
+    <li>image->[TerrainFeature]</li>
+    <li>image->[Weapon]</li>
+    <li>image->[TreeType]</li>
+    <li>image->[NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon_pl_gen]</li>
+    <li>image->[Quantity_adjphrase] [Vegetable_pl_gen]</li>
+    <li>image->[empty_apparel]</li>
+    <li>image->[Shape]</li>
+    <li>image->[Shape] в оточенні [Shape_pl_gen]</li>
+    <li>image->абстрактне зображення [ConceptAny_gen]</li>
+    <li>image->[AdjectiveAny_f] абстрактна фігура</li>
+    <li>lonely_char(p=3)->самотній [Character_m]</li>
+    <li>lonely_char(p=2)->самотня [Character_f]</li>
+    <li>lonely_char->самотнє [Character_n]</li>
+    <li>empty_apparel(p=3)->порожній [Apparel_m]</li>
+    <li>empty_apparel(p=2)->порожня [Apparel_f]</li>
+    <li>empty_apparel->порожнє [Apparel_n]</li>
     <li>desc_pawn(p=12)-></li>
-    <li>desc_pawn->flying through the air</li>
-    <li>desc_pawn->suspended in the air</li>
-    <li>desc_pawn->moving to the left</li>
-    <li>desc_pawn->moving to the right</li>
-    <li>desc_pawn->sitting on a table</li>
-    <li>desc_pawn->seen through a looking glass</li>
-    <li>desc_pawn->rendered in silhouette</li>
-    <li>desc_pawn->riding on a [Animal] wearing a [Apparel]</li>
-    <li>desc_pawn->looking [AdjectiveAny]</li>
-    <li>desc_pawn->covered in [Gore]</li>
+    <li>desc_pawn->, що летить у повітрі</li>
+    <li>desc_pawn->, що ширяє в повітрі</li>
+    <li>desc_pawn->, що рухається ліворуч</li>
+    <li>desc_pawn->, що рухається праворуч</li>
+    <li>desc_pawn->, що сидить на столі</li>
+    <li>desc_pawn-> у збільшувальному склі</li>
+    <li>desc_pawn-> у вигляді силуету</li>
+    <li>desc_pawn-> верхи на [Animal_loc] у [Apparel_loc]</li>
+    <li>desc_pawn-> з [AdjectiveAny_ins] виглядом</li>
+    <li>desc_pawn-> у [Gore_loc]</li>
   </TalelessImages.rulePack.rulesStrings>
 </LanguageData>

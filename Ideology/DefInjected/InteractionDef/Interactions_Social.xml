@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>конвертація не вдалася</Convert_Failure.label>
+  <Convert_Failure.label>невдале навернення</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
   <Convert_Failure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається конвертувати [RECIPIENT_nameDef], але [INITIATOR_objective] це не вдається.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? намагався : намагалася} навернути у свою віру, та [RECIPIENT_nameDef] не {RECIPIENT_gender ? піддався : піддалася}.</li>
   </Convert_Failure.logRulesInitiator.rulesStrings>
   <!-- EN: successful conversion -->
-  <Convert_Success.label>успішна конвертація</Convert_Success.label>
+  <Convert_Success.label>успішне навернення</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
   <Convert_Success.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається конвертувати [RECIPIENT_nameDef] і [INITIATOR_objective] це вдається.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? намагався : намагалася} навернути у свою віру – і [RECIPIENT_nameDef] {RECIPIENT_gender ? навернувся : навернулася}.</li>
   </Convert_Success.logRulesInitiator.rulesStrings>
   <!-- EN: convert ideoligion attempt -->
-  <ConvertIdeoAttempt.label>спроба конвертації</ConvertIdeoAttempt.label>
+  <ConvertIdeoAttempt.label>спроба навернення</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
   <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається переконати [RECIPIENT_nameDef] прийняти нову ідеологію.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? проповідував : проповідувала} свою ідеологію, сподіваючись, що [RECIPIENT_nameDef] навернеться.</li>
   </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>невдала консультація</Counsel_Failure.label>
+  <Counsel_Failure.label>невдала психологічна підтримка</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
   <Counsel_Failure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] намагається дати пораду [RECIPIENT_nameDef], але робить тільки гірше.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? намагався : намагалася} розрадити, але тільки все {INITIATOR_gender ? зіпсував : зіпсувала}: тепер [RECIPIENT_nameDef] почувається ще гірше.</li>
   </Counsel_Failure.logRulesInitiator.rulesStrings>
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>успішна консультація</Counsel_Success.label>
+  <Counsel_Success.label>успішна психологічна підтримка</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -44,16 +44,16 @@
     <li>problems->recent difficulties</li>
   -->
   <Counsel_Success.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
-    <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
-    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>
-    <li>problems->[RECIPIENT_possessive] problems</li>
-    <li>problems->[RECIPIENT_possessive] troubles</li>
-    <li>problems->[RECIPIENT_possessive] painful feelings</li>
-    <li>problems->recent difficulties</li>
+    <li>r_logentry->[RECIPIENT_nameDef] {RECIPIENT_gender ? виговорився : виговорилася} про [problems], а [INITIATOR_nameDef] {INITIATOR_gender ? допоміг : допомогла} порадою.</li>
+    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] разом обміркували [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? порадив : порадила}, як [RECIPIENT_nameDef] може позбутися негативу.</li>
+    <li>problems->свої проблеми</li>
+    <li>problems->свої негаразди</li>
+    <li>problems->болісні переживання</li>
+    <li>problems->недавні труднощі</li>
   </Counsel_Success.logRulesInitiator.rulesStrings>
   <!-- EN: preached health -->
-  <PreachHealth.label>проведена проповідь здоров'я</PreachHealth.label>
+  <PreachHealth.label>проповідь про здоров'я</PreachHealth.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
     <li>preaching_topic->reasons to live</li>
@@ -61,10 +61,10 @@
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
   <PreachHealth.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] зміцнює здоров'я [RECIPIENT_nameDef], проповідуючи про [preaching_topic].</li>
-    <li>preaching_topic->важливість життя</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? проповідував : проповідувала} про [preaching_topic], і [RECIPIENT_nameDef] {RECIPIENT_gender ? відчув : відчула}, як міцніє здоров'я.</li>
+    <li>preaching_topic->те, заради чого варто жити</li>
     <li>preaching_topic->вищі ідеологічні цілі</li>
-    <li>preaching_topic->[RECIPIENT_possessive] мету існування</li>
+    <li>preaching_topic->сенс існування</li>
   </PreachHealth.logRulesInitiator.rulesStrings>
   <!-- EN: reassurance -->
   <Reassure.label>укріплення віри</Reassure.label>
@@ -72,7 +72,7 @@
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
   <Reassure.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] укріплює переконання [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? зміцнив : зміцнила} віру, яку сповідує [RECIPIENT_nameDef].</li>
   </Reassure.logRulesInitiator.rulesStrings>
   <!-- EN: accuse -->
   <Trial_Accuse.label>звинувачення</Trial_Accuse.label>
@@ -95,22 +95,22 @@
     <li>wrongdoing->disloyalty</li>
   -->
   <Trial_Accuse.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] надає деякі дані.</li>
-    <li>r_logentry->[INITIATOR_nameDef] звертається до емоцій глядачів.</li>
-    <li>r_logentry->[INITIATOR_nameDef] звинувачує [RECIPIENT_nameDef] [wrongdoing].</li>
-    <li>wrongdoing->в саботуванні колонії</li>
-    <li>wrongdoing->в ліні</li>
-    <li>wrongdoing->в надмірному вживанні їжі</li>
-    <li>wrongdoing->в крадіжках</li>
-    <li>wrongdoing->у жахливій поведінці</li>
-    <li>wrongdoing->в неповазі до священних ідей</li>
-    <li>wrongdoing->в неповазі до шановних людей</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? навів : навела} кілька доказів.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? звернувся : звернулася} до почуттів глядачів.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? звинуватив : звинуватила} {RECIPIENT_gender ? підсудного : підсудну} [wrongdoing].</li>
+    <li>wrongdoing->у саботажі колонії</li>
+    <li>wrongdoing->у лінощах</li>
+    <li>wrongdoing->у ненажерливості</li>
+    <li>wrongdoing->у крадіжках</li>
+    <li>wrongdoing->у мерзенній вдачі</li>
+    <li>wrongdoing->у неповазі до священних ідей</li>
+    <li>wrongdoing->у неповазі до шанованих осіб</li>
     <li>wrongdoing->в єресі</li>
     <li>wrongdoing->у вбивстві</li>
-    <li>wrongdoing->в богохульстві</li>
+    <li>wrongdoing->у богохульстві</li>
     <li>wrongdoing->у зраді</li>
-    <li>wrongdoing->в поширенні ненависті</li>
-    <li>wrongdoing->в нелояльності</li>
+    <li>wrongdoing->у ненависницьких поглядах</li>
+    <li>wrongdoing->у нелояльності</li>
   </Trial_Accuse.logRulesInitiator.rulesStrings>
   <!-- EN: defend -->
   <Trial_Defend.label>захист</Trial_Defend.label>
@@ -124,13 +124,13 @@
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
   <Trial_Defend.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] відхиляє звинувачення.</li>
-    <li>r_logentry->[INITIATOR_nameDef] показує ще одне трактування.</li>
-    <li>r_logentry->[INITIATOR_nameDef] звертається до присяжних.</li>
-    <li>r_logentry->[INITIATOR_nameDef] просить милосердя.</li>
-    <li>r_logentry->[INITIATOR_nameDef] затримує провадження.</li>
-    <li>r_logentry->[INITIATOR_nameDef] відкидає звинувачення.</li>
-    <li>r_logentry->[INITIATOR_nameDef] називає суд фіктивним.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? відбив : відбила} звинувачення.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? запропонував : запропонувала} інше тлумачення.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? звернувся : звернулася} до присяжних.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? благав : благала} про милосердя.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? затягував : затягувала} процес.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? відкинув : відкинула} всі закиди.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? назвав : назвала} суд фарсом.</li>
   </Trial_Defend.logRulesInitiator.rulesStrings>
   <!-- EN: work drive -->
   <WorkDrive.label>заклик до праці</WorkDrive.label>
@@ -138,6 +138,6 @@
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
   <WorkDrive.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] закликає [RECIPIENT_nameDef] завзято працювати для блага колонії.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? переконував : переконувала}, що [RECIPIENT_nameDef] має працювати ще завзятіше для блага колонії.</li>
   </WorkDrive.logRulesInitiator.rulesStrings>
 </LanguageData>

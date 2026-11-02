@@ -39,40 +39,43 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [talkabout] [toldastoryabout] про [subject] з [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповів [RECIPIENT_nameDef] про [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] описав [subject] для [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] заохочується [RECIPIENT_nameDef] описати [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] запропонував шанс для [RECIPIENT_nameDef] розповісти про [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] висловили зацікавленість про [RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}.</li>
-    <li>r_logentry->[INITIATOR_nameDef] питає [RECIPIENT_nameDef] про [RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}.</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? розповів : розповіла} {RECIPIENT_gender ? йому : їй} [toldastoryabout] про [subject].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? розповів : розповіла} {RECIPIENT_gender ? йому : їй} про [subject].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? поділився : поділилася} з {RECIPIENT_gender ? ним : нею} думками про [subject].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? заохотив : заохотила} {RECIPIENT_gender ? його : її} [talkabout] [subject].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? дав : дала} {RECIPIENT_gender ? йому : їй} нагоду [talkabout] [subject].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? виявив : виявила} цікавість до {RECIPIENT_gender ? нього : неї}, особливо до {RECIPIENT_gender ? його : її} [PersonalCharacteristic_gen].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? розпитав : розпитала} {RECIPIENT_gender ? його : її} про {RECIPIENT_gender ? його : її} [PersonalCharacteristic_acc].</li>
     <li>toldastoryabout(p=2)->історію</li>
     <li>toldastoryabout->кумедну історію</li>
     <li>toldastoryabout->зворушливу історію</li>
-    <li>toldastoryabout->стару історію</li>
-    <li>toldastoryabout->сімейну історію</li>
+    <li>toldastoryabout->давню історію</li>
+    <li>toldastoryabout->родинну історію</li>
     <li>toldastoryabout->історію з дитинства</li>
     <li>toldastoryabout->анекдот</li>
-    <li>talkabout->розповідає</li>
-    <li>talkabout->говорить</li>
-    <li>talkabout->подискутував</li>
-    <li>talkabout->питає</li>
-    <li>talkabout->згадує</li>
-    <li>talkabout->запитує</li>
+    <li>talkabout->поговорити про</li>
+    <li>talkabout->обговорити</li>
+    <li>talkabout->подискутувати про</li>
+    <li>talkabout->розпитати про</li>
+    <li>talkabout->поміркувати про</li>
+    <li>talkabout->знайти спільне в поглядах на</li>
     <li>subject->колонію</li>
     <li>subject->громаду</li>
     <li>subject->вступ до колонії</li>
-    <li>subject->зміну команд</li>
+    <li>subject->перехід на інший бік</li>
     <li>subject->пошук друзів</li>
     <li>subject->знайомство з новими людьми</li>
-    <li>subject->переосмислення [RECIPIENT_possessive] ідей</li>
-    <li>subject->переосмислення [RECIPIENT_possessive] лояльності</li>
-    <li>subject->про здоров'я</li>
-    <li>subject->про майбутнє</li>
-    <li>subject->про свободу</li>
-    <li>subject(p=4)->{lookup: [ConceptPositive]; Nouns; 3}</li>
-    <li>subject(p=2)->[RECIPIENT_possessive] {lookup: [PersonalCharacteristic]; Nouns; 3}</li>
+    <li>subject->перегляд {RECIPIENT_gender ? його : її} поглядів</li>
+    <li>subject->переосмислення {RECIPIENT_gender ? його : її} вірності</li>
+    <li>subject->здоров'я</li>
+    <li>subject->майбутнє</li>
+    <li>subject->уміння відпускати минуле</li>
+    <li>subject(p=4)->[ConceptPositive_acc]</li>
+    <li>subject(p=2)->[own_characteristic]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
+    <li>own_characteristic(p=3)->свій [PersonalCharacteristic_m_acc]</li>
+    <li>own_characteristic(p=2)->свою [PersonalCharacteristic_f_acc]</li>
+    <li>own_characteristic->своє [PersonalCharacteristic_n_acc]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>спроба вербування</RecruitAttempt.label>
@@ -83,10 +86,10 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] пропонує [RECIPIENT_nameDef] приєднатися.</li>
-    <li>r_logentry->[INITIATOR_nameDef] обіцяє [RECIPIENT_nameDef] [goodthing], і пропонує [RECIPIENT_objective] приєднатися.</li>
-    <li>goodthing(p=15)->{lookup: [ConceptPositive]; Nouns; 3}</li>
-    <li>goodthing->безплатні, свіжі {lookup: [Vegetable]; Nouns; 9}</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? запропонував : запропонувала} {RECIPIENT_gender ? йому : їй} приєднатися.</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? пообіцяв : пообіцяла} {RECIPIENT_gender ? йому : їй} [goodthing] і {INITIATOR_gender ? запропонував : запропонувала} приєднатися.</li>
+    <li>goodthing(p=15)->[ConceptPositive_acc]</li>
+    <li>goodthing->безплатні свіжі [Vegetable_pl]</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>спроба втечі</SparkJailbreak.label>
@@ -101,13 +104,13 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] говорить про [freedom], і пропонує спосіб порятунку.</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповідає про красу {lookup: [TerrainFeature]; Nouns; 7} і пропонує свободу.</li>
-    <li>r_logentry->[INITIATOR_nameDef] показує [RECIPIENT_nameDef] способи порятунку та обіцяє [freedom].</li>
-    <li>r_logentry->[INITIATOR_nameDef] розповідає [RECIPIENT_nameDef], що охорона слабка, і пропонує втечу.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? говорив : говорила} про [freedom] і {INITIATOR_gender ? запропонував : запропонувала} спосіб утекти.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? розповідав : розповідала} про красу [TerrainFeature_gen] і {INITIATOR_gender ? пообіцяв : пообіцяла} свободу.</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? показав : показала} {RECIPIENT_gender ? йому : їй} спосіб утекти й {INITIATOR_gender ? пообіцяв : пообіцяла} [freedom].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? сказав : сказала} {RECIPIENT_gender ? йому : їй}, що охорона недбала, і {INITIATOR_gender ? підбурив : підбурила} до втечі.</li>
     <li>freedom->свободу</li>
-    <li>freedom->можливості</li>
-    <li>freedom->дім</li>
+    <li>freedom->нові можливості</li>
+    <li>freedom->повернення додому</li>
     <li>freedom->самовизначення</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
 </LanguageData>

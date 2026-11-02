@@ -4,7 +4,7 @@
     <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
   -->
   <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження табору, який контролюють [siteFaction_name]. В таборі є ворожі [siteFaction_pawnsPlural], але ви не знаєте, які в них можливості для оборони.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження табору фракції [siteFaction_name]. У таборі ворожі [siteFaction_pawnsPlural], але яка в них оборона – невідомо.</li>
   </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>
@@ -24,21 +24,20 @@
     <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
-    <li>questName->[bandit] [camp]</li>
+    <li>questName(p=2)->[camp] [bandit]</li>
     <li>questName->[asker_nameDef] і [camp] [bandit]</li>
-    <li>questName->[asker_nameDef] табір [camp]</li>
-    <li>camp->Табір</li>
-    <li>camp->Форпост</li>
-    <li>camp->Лігво</li>
-    <li>camp->Бівуак</li>
-    <li>bandit->Бандит</li>
-    <li>bandit->Рейдер</li>
-    <li>bandit->Вигнанець</li>
-    <li>bandit->Відчайдух</li>
-    <li>bandit->Утікач</li>
-    <li>bandit->Мародер</li>
-    <li>bandit->Злодій</li>
-    <li>bandit->Розбійник</li>
+    <li>camp->табір</li>
+    <li>camp->форпост</li>
+    <li>camp->лігво</li>
+    <li>camp->стійбище</li>
+    <li>bandit->бандитів</li>
+    <li>bandit->рейдерів</li>
+    <li>bandit->вигнанців</li>
+    <li>bandit->відчайдухів</li>
+    <li>bandit->утікачів</li>
+    <li>bandit->мародерів</li>
+    <li>bandit->грабіжників</li>
+    <li>bandit->розбійників</li>
   </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->bandit camps</li>
@@ -54,22 +53,22 @@
   -->
   <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
     <li>subject->табори бандитів</li>
-    <li>subject->вигнанці</li>
-    <li>subject->помічені рейдери</li>
+    <li>subject->розбійники</li>
+    <li>subject->сліди рейдерів</li>
     <li>questMapFeature->невеликий табір</li>
     <li>questMapFeature->бандитський форпост</li>
-    <li>questMapFeature->бівуак рейдерів</li>
+    <li>questMapFeature->стійбище рейдерів</li>
     <li>questMapText->небезпечні люди</li>
-    <li>questMapText->здобич з табору</li>
-    <li>questMapText->з незваних гостей буде здерто шкуру</li>
-    <li>questMapText->торговці, стережіться бандитів</li>
+    <li>questMapText->здобич табору</li>
+    <li>questMapText->непроханих гостей оббілуємо</li>
+    <li>questMapText->торговці, стережіться: розбійники</li>
   </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>Бандити зібрали свій табір та рушили далі. Термін завдання «[resolvedQuestName]» минув.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>Бандити згорнули табір і рушили далі. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>Завдання провалено: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>Ворожий табір було виявлено та розгромлено. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>Бандити помітили, що їх виявили, і розійшлися. Завдання «[resolvedQuestName]» завершено.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
 </LanguageData>
