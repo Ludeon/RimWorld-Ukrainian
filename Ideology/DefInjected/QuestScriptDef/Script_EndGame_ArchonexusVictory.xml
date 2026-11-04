@@ -26,7 +26,7 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro] хоче розширити свої володіння й заволодіти [itsTheir] ([playerSettlements]) з усіма багатствами й технологіями. Якщо ви зможете збільшити загальне багатство до [requiredWealth_money], вони заберуть [settlementsSingularOrPlural].\n\nНатомість вам пропонують частину мапи, на якій позначено розташування старовинного архотехнічного нексусу. Вважають, що архонексус – це провідник, через який архотехнічний надінтелект впливає на фізичний світ. Якщо вам вдасться викликати його силу, наслідки можуть вийти за межі фізичної реальності.\n\n[onlyHaveHas] лише одну частину мапи. Решта – в інших фракцій.\n\nЯкщо ви приймете пропозицію, [factionPawnsPlural] заволодіють вашим поселенням разом з усіма предметами, людьми й записами досліджень. Вони перевезуть ваших людей (не більше [colonistsAllowed]) і тварин (не більше [animalsAllowed]) у будь-яке місце на планеті, щоб ви заснували нову колонію.\n\nЗгодом ви зможете виміняти в інших дві останні частини мапи.</li>
+    <li>questDescription->[descriptionIntro] хоче розширити свої володіння й заволодіти [itsTheir] ([playerSettlements]) з усіма багатствами й технологіями. Якщо ви зможете збільшити загальне багатство до [requiredWealth_money], вони заберуть [settlementsSingularOrPlural].\n\nНатомість вам пропонують частину мапи, на якій позначено розташування старовинного архотехнічного нексусу. Вважають, що архонексус — це провідник, через який архотехнічний надінтелект впливає на фізичний світ. Якщо вам вдасться викликати його силу, наслідки можуть вийти за межі фізичної реальності.\n\n[onlyHaveHas] лише одну частину мапи. Решта — в інших фракцій.\n\nЯкщо ви приймете пропозицію, [factionPawnsPlural] заволодіють вашим поселенням разом з усіма предметами, людьми й записами досліджень. Вони перевезуть ваших людей (не більше [colonistsAllowed]) і тварин (не більше [animalsAllowed]) у будь-яке місце на планеті, щоб ви заснували нову колонію.\n\nЗгодом ви зможете виміняти в інших дві останні частини мапи.</li>
     <li>itsTheir(playerSettlementsCount==1)->вашим поселенням</li>
     <li>itsTheir(playerSettlementsCount>=2)->вашими поселеннями</li>
     <li>settlementsSingularOrPlural(playerSettlementsCount==1)->ваше поселення</li>
@@ -91,10 +91,10 @@
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
     <li>questAcceptedLetterLabel->архонексус знайдено</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
-    <li>questDescriptionBeforeAccepted->У вас є дві частини мапи архонексуса. Останню частину зберігає [factionName] – вона дісталася їм від предків, що пережили катаклізм. Вони обміняють її на нову заможну колонію з усіма записами досліджень.[descriptionStudyRequirement]\n\nЧас братися до будівництва.</li>
+    <li>questDescriptionBeforeAccepted->У вас є дві частини мапи архонексуса. Останню частину зберігає [factionName] — вона дісталася їм від предків, що пережили катаклізм. Вони обміняють її на нову заможну колонію з усіма записами досліджень.[descriptionStudyRequirement]\n\nЧас братися до будівництва.</li>
     <li>questDescriptionAfterAccepted->[descriptionIntro] вам останню частину мапи архонексуса. Скориставшись знаннями про архотехнічне кодування інформації, ви розшифрували мапу й точно визначили, де розташований архонексус.\n\nВаші союзники не чекають вашого повернення, тож після вашого відбуття вони заберуть собі ваші поселення ([playerSettlements]).\n\n[descriptionThreats]Тепер лишилося дістатися до архонексуса, викликати силу бога-машини й дізнатися, чи правдиві легенди.</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
-    <li>factionName(factionless==true)->плем'я дикунів</li>
+    <li>factionName(factionless==true)->плем’я дикунів</li>
     <li>descriptionIntro(factionless==false)->[roughTribe_leader_nameDef], лідер фракції [roughTribe_name], {roughTribe_leader_gender ? передав : передала}</li>
     <li>descriptionIntro(factionless==true)->Дикуни передали</li>
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nЯк і раніше, частину мапи закодовано. Щоб розшифрувати її, спершу дослідіть архотехнічну споруду.</li>

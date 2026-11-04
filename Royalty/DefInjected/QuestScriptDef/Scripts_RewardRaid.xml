@@ -9,7 +9,7 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить вас допомогти врятувати один зі своїх караванів. Поблизу поселення [map_definite] на караван полюють (*Threat)[groupsOf](/Threat) з фракції [enemyFaction_name]. [asker_nameDef] просить вас подати їм сигнал, щоб відвернути їх від каравану – і приманити до себе.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] фракції [asker_faction_name], просить вас допомогти врятувати один зі своїх караванів. Поблизу поселення [map_definite] на караван полюють (*Threat)[groupsOf](/Threat) з фракції [enemyFaction_name]. [asker_nameDef] просить вас подати їм сигнал, щоб відвернути їх від каравану — і приманити до себе.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], звертається до вас із проханням.\n\n(*Threat)[groupsOf](/Threat) з фракції [enemyFaction_name] дошкуляють {asker_gender ? його : її} караванам у цій місцевості. [asker_nameDef] просить вас надіслати їм виклик, щоб вони напали на вас і ви самі усунули загрозу.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] {lookup: [enemyFaction_pawnsPlural]; Case; 1}</li>

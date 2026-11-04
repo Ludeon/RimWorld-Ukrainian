@@ -7,8 +7,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] виходить з вами на зв'язок і просить допомоги. {refugee_gender ? Він поранений : Вона поранена} й не може рухатися.\n\n[refugee_nameDef] – [refugee_title] ([refugee_age] р.). {refugee_gender ? Він обіцяє : Вона обіцяє} приєднатися до вас, якщо ви {refugee_gender ? його : її} врятуєте.\n\n[refugee_nameDef] каже, що [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракції [asker_faction_name], повідомляє, що {asker_gender ? його : її} {refugee_gender ? друга : подругу} поранено в дорозі. {refugee_gender ? Потерпілий : Потерпіла} – [refugee_nameIndef], [refugee_title] ([refugee_age] р.).\n\n[asker_nameDef] не може нікого відрядити на порятунок, але каже, що коли ви доберетеся туди, де лежить [refugee_nameDef], і врятуєте {refugee_gender ? його : її}, {refugee_gender ? він : вона} приєднається до вас.\n\n[asker_nameDef] каже, що [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] виходить з вами на зв’язок і просить допомоги. {refugee_gender ? Він поранений : Вона поранена} й не може рухатися.\n\n[refugee_nameDef] — [refugee_title] ([refugee_age] р.). {refugee_gender ? Він обіцяє : Вона обіцяє} приєднатися до вас, якщо ви {refugee_gender ? його : її} врятуєте.\n\n[refugee_nameDef] каже, що [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракції [asker_faction_name], повідомляє, що {asker_gender ? його : її} {refugee_gender ? друга : подругу} поранено в дорозі. {refugee_gender ? Потерпілий : Потерпіла} — [refugee_nameIndef], [refugee_title] ([refugee_age] р.).\n\n[asker_nameDef] не може нікого відрядити на порятунок, але каже, що коли ви доберетеся туди, де лежить [refugee_nameDef], і врятуєте {refugee_gender ? його : її}, {refugee_gender ? він : вона} приєднається до вас.\n\n[asker_nameDef] каже, що [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
@@ -27,5 +27,5 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>[refugee_nameDef] більше не виходить на зв'язок, і {refugee_gender ? його : її} вже не врятувати. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>[refugee_nameDef] більше не виходить на зв’язок, і {refugee_gender ? його : її} вже не врятувати. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
 </LanguageData>

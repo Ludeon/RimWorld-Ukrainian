@@ -62,11 +62,11 @@
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
   <RecruitFail>{0}: вербування не вдалося, {1} відмовляється приєднатися (шанс: {2}).</RecruitFail>
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} – {1} {RELATIVE_gender ? колоніста : колоністки} {RELATIVE_labelShort}. Якщо {PAWN_nameDef} загине, {RELATIVE_labelShort} довго тужитиме. Але якщо вам вдасться {PAWN_gender ? його : її} врятувати, {RELATIVE_labelShort} ще довго буде {RELATIVE_gender ? щасливим : щасливою}.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} — {1} {RELATIVE_gender ? колоніста : колоністки} {RELATIVE_labelShort}. Якщо {PAWN_nameDef} загине, {RELATIVE_labelShort} довго тужитиме. Але якщо вам вдасться {PAWN_gender ? його : її} врятувати, {RELATIVE_labelShort} ще довго буде {RELATIVE_gender ? щасливим : щасливою}.</RelatedPawnInvolvedInQuest>
   <!-- EN: Birthday -->
   <LetterLabelBirthday>День народження</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
-  <BirthdayChronological>Сьогодні {0} святкує хронологічний день народження! Біологічний вік – {3}.\n\nХронологічний вік ({1}) щойно сягнув {2}.\n\nОскільки в криптосні люди не старіють, хронологічний день народження не збігається з біологічним.</BirthdayChronological>
+  <BirthdayChronological>Сьогодні {0} святкує хронологічний день народження! Біологічний вік — {3}.\n\nХронологічний вік ({1}) щойно сягнув {2}.\n\nОскільки в криптосні люди не старіють, хронологічний день народження не збігається з біологічним.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
   <LetterBirthdayBiological>{0_nameFull} {0_gender ? досяг : досягла} біологічного віку: {1}.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
@@ -78,9 +78,9 @@
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewPartDisease>{PAWN} {PAWN_gender ? захворів : захворіла}: {3}. Уражено: {1}.\n\nПереконайтеся, що маєте лікарняне ліжко й лікаря. Подбайте, щоб {PAWN_definite} {PAWN_gender ? отримав : отримала} належне лікування й якомога більше часу {PAWN_gender ? провів : провела} в ліжку.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
-  <NewDiseaseAnimal>{PAWN_labelShort}: нова хвороба – {1}</NewDiseaseAnimal>
+  <NewDiseaseAnimal>{PAWN_labelShort}: нова хвороба — {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>{PAWN_labelShort}: нова хвороба – {3} (уражено: {1})</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort}: нова хвороба — {3} (уражено: {1})</NewPartDiseaseAnimal>
   <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{0} раніше {0_gender ? був : була} у вашій фракції.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
@@ -106,11 +106,11 @@
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
   <LetterFriendlyTrapSprung>{1_labelShort} випадково зачіпає пастку й отримує поранення.</LetterFriendlyTrapSprung>
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort} має нову проблему зі здоров'ям:\n\n  {1}\n\nПричина:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} має нову проблему зі здоров’ям:\n\n  {1}\n\nПричина:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} має нову проблему зі здоров'ям: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} має нову проблему зі здоров’ям: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
   <!-- EN: {1} died: {0} -->
@@ -122,7 +122,7 @@
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
   <LetterLeaderChanged>{OLDLEADER_nameFull} більше не {1} фракції {0}.</LetterLeaderChanged>
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
-  <LetterNewLeader>Новий {0} – {NEWLEADER_nameFull}.</LetterNewLeader>
+  <LetterNewLeader>Новий {0} — {NEWLEADER_nameFull}.</LetterNewLeader>
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Останньою краплею було: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
@@ -136,7 +136,7 @@
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Останньою подією було</LastFactionRelationsEvent>
   <!-- EN: View related quest -->
-  <ViewRelatedQuest>Переглянути пов'язане завдання</ViewRelatedQuest>
+  <ViewRelatedQuest>Переглянути пов’язане завдання</ViewRelatedQuest>
   <!-- EN: View quest -->
   <ViewQuest>Переглянути завдання</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
@@ -147,36 +147,36 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Стосунки</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>У ворожій групі, що наближається ({1}), є люди, яких знають ваші {0} або в'язні.\n\nПам'ятайте: попри стосунки, вони все одно битимуться між собою, бо їхні фракції ворогують.\n\nЦі люди:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>У ворожій групі, що наближається ({1}), є люди, яких знають ваші {0} або в’язні.\n\nПам’ятайте: попри стосунки, вони все одно битимуться між собою, бо їхні фракції ворогують.\n\nЦі люди:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>У дружній групі, що наближається ({1}), є люди, яких знають ваші {0} або в'язні:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>У дружній групі, що наближається ({1}), є люди, яких знають ваші {0} або в’язні:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>У групі, що наближається, є люди, яких знають ваші {0} або в'язні:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>У групі, що наближається, є люди, яких знають ваші {0} або в’язні:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>Орбітальний торговець продає людей, яких знають ваші {0} або в'язні:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>Орбітальний торговець продає людей, яких знають ваші {0} або в’язні:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>Це поселення продає людей, яких знають ваші {0} або в'язні:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>Це поселення продає людей, яких знають ваші {0} або в’язні:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>Цей караван продає людей, яких знають ваші {0} або в'язні:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>Цей караван продає людей, яких знають ваші {0} або в’язні:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
-  <LetterRelatedPawnsGroupGeneric>У цій групі є люди, яких знають ваші {0} або в'язні:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsGroupGeneric>У цій групі є люди, яких знають ваші {0} або в’язні:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
-  <LetterRelatedPawnsInMapWherePlayerLanded>У місцевості, де висадилися ваші {0}, є люди, яких знають ваші {0} або в'язні.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsInMapWherePlayerLanded>У місцевості, де висадилися ваші {0}, є люди, яких знають ваші {0} або в’язні.</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>У цьому поселенні є люди, яких знають ваші {0} або в'язні:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>У цьому поселенні є люди, яких знають ваші {0} або в’язні:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>У цій місцевості є люди, яких знають ваші {0} або в'язні:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>У цій місцевості є люди, яких знають ваші {0} або в’язні:</LetterRelatedPawnsSite>
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>стосунки</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} знає одного з ваших колоністів: {PAWN_pronoun} – {1} {RELATIVE_gender ? колоніста : колоністки} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} знає одного з ваших колоністів: {PAWN_pronoun} — {1} {RELATIVE_gender ? колоніста : колоністки} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} знає одного з ваших в'язнів: {PAWN_pronoun} – {1} {RELATIVE_gender ? в'язня : ув'язненої} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} знає одного з ваших в’язнів: {PAWN_pronoun} — {1} {RELATIVE_gender ? в’язня : ув’язненої} {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>Роман на стороні</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_labelShort} {PAWN1_gender ? завів : завела} роман на стороні: {PAWN1_gender ? його : її} {PAWN2_gender ? коханець : коханка} – {PAWN2_labelShort}, а {SPOUSE_gender ? чоловік : дружина} – {SPOUSE_labelShort}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort} {PAWN1_gender ? завів : завела} роман на стороні: {PAWN1_gender ? його : її} {PAWN2_gender ? коханець : коханка} — {PAWN2_labelShort}, а {SPOUSE_gender ? чоловік : дружина} — {SPOUSE_labelShort}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Нова пара</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
@@ -210,21 +210,21 @@
   <LetterLabelShortCircuit>Бззз...</LetterLabelShortCircuit>
   <!-- Bonded animals -->
   <!-- EN: bonded -->
-  <LetterLabelSuffixBondedAnimalDied>прив'язана тварина</LetterLabelSuffixBondedAnimalDied>
+  <LetterLabelSuffixBondedAnimalDied>прив’язана тварина</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>{HUMAN_labelShort} {HUMAN_gender ? мав : мала} зв'язок із твариною {ANIMAL_definite}. Це позначиться на {HUMAN_gender ? його : її} настрої.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{HUMAN_labelShort} {HUMAN_gender ? мав : мала} зв’язок із твариною {ANIMAL_definite}. Це позначиться на {HUMAN_gender ? його : її} настрої.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
   <LetterPartBondedAnimalDiedMulti>Це позначиться на настрої таких людей:\n\n{0}</LetterPartBondedAnimalDiedMulti>
   <!-- Prison break -->
   <!-- EN: Prison break -->
-  <LetterLabelPrisonBreak>Втеча з в'язниці</LetterLabelPrisonBreak>
+  <LetterLabelPrisonBreak>Втеча з в’язниці</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>В'язні влаштували втечу! Вони якось подолали дверні замки й прориваються назовні. Вони можуть шукати зброю, битися або спробувати втекти. Учасники втечі:\n\n{0}\n\nВ'язні частіше тікають, коли їх багато і вони здорові.</LetterPrisonBreak>
+  <LetterPrisonBreak>В’язні влаштували втечу! Вони якось подолали дверні замки й прориваються назовні. Вони можуть шукати зброю, битися або спробувати втекти. Учасники втечі:\n\n{0}\n\nВ’язні частіше тікають, коли їх багато і вони здорові.</LetterPrisonBreak>
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Залежність від {lookup: {0}; Case; 1}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} {PAWN_gender ? набув : набула} залежності від {lookup: {1}; Case; 1}.\n\nТепер у {PAWN_gender ? нього : неї} є потреба в цій речовині – її видно на вкладці «Потреби». {PAWN_gender ? Він : Вона} автоматично вживатиме наркотик, щоб її задовольнити. Якщо {PAWN_pronoun} не зможе дістати {lookup: {1}; Case; 1}, почнеться ломка.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} {PAWN_gender ? набув : набула} залежності від {lookup: {1}; Case; 1}.\n\nТепер у {PAWN_gender ? нього : неї} є потреба в цій речовині — її видно на вкладці «Потреби». {PAWN_gender ? Він : Вона} автоматично вживатиме наркотик, щоб її задовольнити. Якщо {PAWN_pronoun} не зможе дістати {lookup: {1}; Case; 1}, почнеться ломка.</LetterNewlyAddicted>
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>Зловживання {lookup: {0}; Case; 4}</LetterLabelDrugBinge>
@@ -289,7 +289,7 @@
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Невдалі мирні переговори</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>Переговори обернулися проти вас. Попри обмін люб'язностями, делегати нічого не досягли в суттєвих питаннях, а кілька заяв сприйняли як образу.\n\nВідносини з фракцією {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Переговори обернулися проти вас. Попри обмін люб’язностями, делегати нічого не досягли в суттєвих питаннях, а кілька заяв сприйняли як образу.\n\nВідносини з фракцією {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
   <LetterLabelPeaceTalks_TalksFlounder>Мирні переговори в глухому куті</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
@@ -313,7 +313,7 @@
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Пропозиція: ядро ШІ</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} з фракції {1} пропонує вам відомості про місцезнаходження ядра ШІ, без якого не збудувати космічний корабель. За {PAWN_gender ? його : її} словами, це дуже рідкісна річ, і власники зазвичай пильно її охороняють.\n\nЯкщо зацікавлені, зв'яжіться з ними через термінал зв'язку.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} з фракції {1} пропонує вам відомості про місцезнаходження ядра ШІ, без якого не збудувати космічний корабель. За {PAWN_gender ? його : її} словами, це дуже рідкісна річ, і власники зазвичай пильно її охороняють.\n\nЯкщо зацікавлені, зв’яжіться з ними через термінал зв’язку.</LetterAICoreOffer>
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Легендарний виріб</LetterCraftedLegendaryLabel>
@@ -357,7 +357,7 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>Караван переміг у бою</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>Ваш караван переміг у бою.\n\nПереформувати караван можна на мапі світу: виберіть поле бою й натисніть «Переформувати караван».\n\nЗбирати речі вручну не потрібно – переформування зробить це миттєво.\n\nЧерез {0} на ваш караван нападуть вороги. Вони надсилатимуть сили проти каравану, доки той не переформується й не піде звідси.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Ваш караван переміг у бою.\n\nПереформувати караван можна на мапі світу: виберіть поле бою й натисніть «Переформувати караван».\n\nЗбирати речі вручну не потрібно — переформування зробить це миттєво.\n\nЧерез {0} на ваш караван нападуть вороги. Вони надсилатимуть сили проти каравану, доки той не переформується й не піде звідси.</LetterCaravansBattlefieldVictory>
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Врятований приєднується</LetterLabelRescueQuestFinished>
@@ -367,9 +367,9 @@
   <LetterRescueQuestFinishedCaravanExtra>\n\nТепер ви можете взяти {PAWN_gender ? його : її} з собою. Для цього відкрийте мапу світу, виберіть це місце й скористайтеся командою «Переформувати караван».</LetterRescueQuestFinishedCaravanExtra>
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} полює: жертва – {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} полює: жертва — {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} вийшов на полювання, і здобич – {PREY_definite}!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} вийшов на полювання, і здобич — {PREY_definite}!</LetterPredatorHuntingColonist>
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
   <LetterDisease_Blocked>{0}: заблоковано {1} у</LetterDisease_Blocked>
@@ -414,7 +414,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRefugeeJoins>{PAWN_nameDef} приєднується</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>{PAWN_title} на ім'я {PAWN_nameDef} {PAWN_gender ? прибув : прибула} і приєднується до колонії.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_title} на ім’я {PAWN_nameDef} {PAWN_gender ? прибув : прибула} і приєднується до колонії.</LetterRefugeeJoins>
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} приєднується</LetterLabelRescueeJoins>
@@ -445,14 +445,14 @@
   <LetterLabelPawnsKidnapped>{PAWN_nameDef} {PAWN_gender ? викрадений : викрадена}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} – у полоні! {PAWN_gender ? Його : Її} викрала фракція {FACTION_name}.\n\nАле не все втрачено. У найближчі дні чи роки може випасти нагода {PAWN_gender ? його : її} врятувати.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} — у полоні! {PAWN_gender ? Його : Її} викрала фракція {FACTION_name}.\n\nАле не все втрачено. У найближчі дні чи роки може випасти нагода {PAWN_gender ? його : її} врятувати.</LetterPawnsKidnapped>
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
   <LetterTechprintAppliedLabel>Застосовано креслення: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
   <LetterTechprintAppliedPartIntro>Креслення застосовано до дослідницького проєкту «{PROJECT_label}».</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>Ви виконали всі вимоги проєкту щодо креслень! Тепер ваші дослідники можуть за дослідницькими столами з'ясувати, як застосувати цю технологію на ділі.</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>Ви виконали всі вимоги проєкту щодо креслень! Тепер ваші дослідники можуть за дослідницькими столами з’ясувати, як застосувати цю технологію на ділі.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
   <LetterTechprintAppliedPartNotUnlockedYet>Вимоги проєкту щодо креслень ще не виконано. Наразі застосовано креслень: {0}. Усього потрібно: {1}.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
@@ -476,10 +476,10 @@
   <LetterQuestCompletedConcluded>Завдання «{0}» завершилося.</LetterQuestCompletedConcluded>
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
-  <LetterBladelinkWeaponBondedLabel>Біозв'язок зі зброєю: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <LetterBladelinkWeaponBondedLabel>Біозв’язок зі зброєю: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} {PAWN_gender ? встановив : встановила} зв'язок з персоною {lookup: {WEAPON_labelShort}; Case; 1}.\n\nВідтепер {WEAPON_labelShort} не дасться до рук нікому іншому.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} {PAWN_gender ? встановив : встановила} зв’язок з персоною {lookup: {WEAPON_labelShort}; Case; 1}.\n\nВідтепер {WEAPON_labelShort} не дасться до рук нікому іншому.</LetterBladelinkWeaponBonded>
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
   <LetterLabelMechClusterArrived>Механоїди прибули</LetterLabelMechClusterArrived>
@@ -490,14 +490,14 @@
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Ваш караван помітили. Через {0} сюди почнуть прибувати {1} з фракції {2} як підкріплення.\n\nПереформуйте караван і рушайте, щоб уникнути зустрічі. Таймер показує час до їхнього прибуття.</LetterTextSiteCountdownStarted>
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>Непохитний в'язень</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>Непохитний в’язень</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
   <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} непохитно {PAWN_gender ? відданий : віддана} своїм і навідріз відмовиться від вербування.\n\nЩоб дізнатися, чи хтось непохитно вірний, виберіть цього персонажа.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
   <OptionalEnslaveDesc>поневолити {PAWN_gender ? його : її}</OptionalEnslaveDesc>
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>{PAWN} {PAWN_gender ? захворів : захворіла}: {1} – через тривалий вплив трупного газу, який виділяють гнилі трупи.\n\nПереконайтеся, що маєте лікарняне ліжко й лікаря. Подбайте, щоб {PAWN_definite} {PAWN_gender ? отримав : отримала} належне лікування.</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} {PAWN_gender ? захворів : захворіла}: {1} — через тривалий вплив трупного газу, який виділяють гнилі трупи.\n\nПереконайтеся, що маєте лікарняне ліжко й лікаря. Подбайте, щоб {PAWN_definite} {PAWN_gender ? отримав : отримала} належне лікування.</LetterTextLungRot>
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
   <LetterJoinOfferLabel>Хоче приєднатися: {PAWN_nameDef}</LetterJoinOfferLabel>
@@ -521,11 +521,11 @@
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
   <LetterSpeechInspiredListeners>Ці люди були особливо зворушені промовою й тепер натхненні:</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>{SPEAKER_nameIndef} виголошує чудову промову – і {PAWN_nameIndef} отримує натхнення!</LetterSpeechInspiration>
+  <LetterSpeechInspiration>{SPEAKER_nameIndef} виголошує чудову промову — і {PAWN_nameIndef} отримує натхнення!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Промову перервали, коли було виголошено лише {0}, тож вона подіяла слабше.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{0} не встигає виголосити й половини промови – її скасовано. Ефекту немає.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{0} не встигає виголосити й половини промови — її скасовано. Ефекту немає.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Промову скасовано</LetterLabelSpeechCancelled>
 </LanguageData>

@@ -42,9 +42,9 @@
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} більше не має права користуватися такими імплантами:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>Щоб уникнути дипломатичних наслідків, імпланти треба вилучити протягом п'ятиденного пільгового строку.</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Щоб уникнути дипломатичних наслідків, імпланти треба вилучити протягом п’ятиденного пільгового строку.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} тепер може виголошувати промови з трону. Якщо все мине добре, слухачі надихнуться. Якщо погано – промова зіпсує стосунки. Результат залежить від {PAWN_gender ? його : її} соціальних навичок.</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} тепер може виголошувати промови з трону. Якщо все мине добре, слухачі надихнуться. Якщо погано — промова зіпсує стосунки. Результат залежить від {PAWN_gender ? його : її} соціальних навичок.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>Для цього титулу потрібна тронна зала, що відповідає таким вимогам:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
@@ -61,13 +61,13 @@
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
   <LetterRoyalTitleNoHeir>Якщо {PAWN_pronoun} помре, цей титул ніхто не успадкує.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} – член фракції {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} — член фракції {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>Нового спадкоємця можна вибрати, зв'язавшись із фракцією {FACTION_name} через термінал зв'язку.</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Нового спадкоємця можна вибрати, зв’язавшись із фракцією {FACTION_name} через термінал зв’язку.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>Втрачено спадкоємця</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} {HEIR_gender ? помер : померла}, і {HOLDER_labelShort} лишається без спадкоємця титулу від фракції {FACTION_name}. Щоб призначити нового спадкоємця, зв'яжіться з фракцією {FACTION_name} через термінал зв'язку.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} {HEIR_gender ? помер : померла}, і {HOLDER_labelShort} лишається без спадкоємця титулу від фракції {FACTION_name}. Щоб призначити нового спадкоємця, зв’яжіться з фракцією {FACTION_name} через термінал зв’язку.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>Титул {lookup: {TITLE}; Case; 1} не можна успадкувати.</LetterRoyalTitleCantBeInherited>
   <!-- EN: Title inheritance -->
@@ -105,13 +105,13 @@
   <LentColonistDied>{PAWN_nameDef} {PAWN_gender ? був тимчасово переданий : була тимчасово передана} фракції {FACTION}. Незабаром вони повернуть {PAWN_possessive} тіло.</LentColonistDied>
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>Отримано пси-зв'язок</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>Отримано пси-зв’язок</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} {USER_gender ? отримав : отримала} перший рівень пси-зв'язку! Тепер {USER_pronoun} псионік.\n\nЩоб користуватися пси-здібностями, {USER_labelShort} має накопичувати пси-фокус медитацією. Медитація ефективніша, якщо людина може зосередитися на певному об'єкті.\n\nРізні люди можуть зосереджуватися на різних об'єктах. Це залежить від їхніх передісторій, рис і титулів. Наприклад:\n\n- Псионіки з королівськими титулами медитують на своїх тронах.\n- Псионіки з племінним дитинством медитують на аніма-дерева й природні святині.\n- Псионіки-аскети медитують на голі стіни.\n- Псионіки-психопати медитують на могили – найкраще, якщо там лежить близька людина.\n\nФокуси медитації людини можна переглянути в її інформаційній картці – кнопка «i».</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} {USER_gender ? отримав : отримала} перший рівень пси-зв’язку! Тепер {USER_pronoun} псионік.\n\nЩоб користуватися пси-здібностями, {USER_labelShort} має накопичувати пси-фокус медитацією. Медитація ефективніша, якщо людина може зосередитися на певному об’єкті.\n\nРізні люди можуть зосереджуватися на різних об’єктах. Це залежить від їхніх передісторій, рис і титулів. Наприклад:\n\n- Псионіки з королівськими титулами медитують на своїх тронах.\n- Псионіки з племінним дитинством медитують на аніма-дерева й природні святині.\n- Псионіки-аскети медитують на голі стіни.\n- Псионіки-психопати медитують на могили — найкраще, якщо там лежить близька людина.\n\nФокуси медитації людини можна переглянути в її інформаційній картці — кнопка «i».</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} {USER_gender ? отримав : отримала} новий рівень пси-зв'язку! Тепер {USER_pronoun} може користуватися пси-здібностями вищого рівня, але спершу має їх вивчити.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} {USER_gender ? отримав : отримала} новий рівень пси-зв’язку! Тепер {USER_pronoun} може користуватися пси-здібностями вищого рівня, але спершу має їх вивчити.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>Отримавши новий рівень пси-зв'язку, {USER_labelShort} автоматично {USER_gender ? вивчив : вивчила} такі пси-здібності: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>Отримавши новий рівень пси-зв’язку, {USER_labelShort} автоматично {USER_gender ? вивчив : вивчила} такі пси-здібності: {2}</LetterPsylinkLevelGained_PsycastLearned>
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
   <LetterPsychicInspiration>{CASTER_nameIndef} {CASTER_gender ? вдався : вдалася} до психічного навіювання, і {PAWN_nameIndef} отримує натхнення!</LetterPsychicInspiration>
@@ -122,7 +122,7 @@
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}: титул змінено</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? отримав : отримала} новий титул, поки церемонію нагородження ще не провели. Щоб нагородження відповідало новому титулу, незабаром буде заплановано іншу церемонію.\n\nНова церемонія нагородження включатиме нагороди рівнями пси-зв'язку за всі титули, які ще не було вручено.</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? отримав : отримала} новий титул, поки церемонію нагородження ще не провели. Щоб нагородження відповідало новому титулу, незабаром буде заплановано іншу церемонію.\n\nНова церемонія нагородження включатиме нагороди рівнями пси-зв’язку за всі титули, які ще не було вручено.</LetterTextBestowingCeremonyTitleUpdated>
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
   <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. честі на знак поваги від фракції {FACTION_name} за те, що {PAWN_gender ? зібрав : зібрала} стільки глядачів: {3}.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
@@ -140,5 +140,5 @@
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Аварія транспортної капсули: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_title} на ім'я {0_nameDef} падає неподалік у транспортній капсулі.\n\n{0_nameDef} страждає від {lookup: {1_label}; Case; 1} і не може ходити.\n\nЗа багато днів {0_pronoun} одужає природним шляхом. Є й шанс на щасливе швидке одужання. Також {lookup: {1_label}; Case; 3} можна вилікувати спеціальною операцією, яка потребує великої кількості надсучасних ліків.\n\n{0_pronoun} {0_gender ? готовий : готова} допомагати, щойно одужає, але добровільно не піде. Якщо {0_nameDef} вам не {0_gender ? потрібен : потрібна}, можна вигнати {0_gender ? його : її}, продати в рабство чи залишити помирати. Проте іншим колоністам це може не сподобатися.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_title} на ім’я {0_nameDef} падає неподалік у транспортній капсулі.\n\n{0_nameDef} страждає від {lookup: {1_label}; Case; 1} і не може ходити.\n\nЗа багато днів {0_pronoun} одужає природним шляхом. Є й шанс на щасливе швидке одужання. Також {lookup: {1_label}; Case; 3} можна вилікувати спеціальною операцією, яка потребує великої кількості надсучасних ліків.\n\n{0_pronoun} {0_gender ? готовий : готова} допомагати, щойно одужає, але добровільно не піде. Якщо {0_nameDef} вам не {0_gender ? потрібен : потрібна}, можна вигнати {0_gender ? його : її}, продати в рабство чи залишити помирати. Проте іншим колоністам це може не сподобатися.</LetterTextWandererJoinsAbasia>
 </LanguageData>

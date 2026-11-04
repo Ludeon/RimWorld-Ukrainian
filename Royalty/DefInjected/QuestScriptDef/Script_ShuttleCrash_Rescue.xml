@@ -84,7 +84,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Шатл фракції [asker_faction_name] пошкоджено, і він шукає місце для посадки. Його командир [asker_nameDef] хоче сісти біля поселення [map_definite].\n\n[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] нападуть на місце аварії, щоб убити тих, хто вцілів. Ви маєте їх захистити.\n\nНа борту: [asker_nameDef][andOtherCivilians] і [soldierCountKinds]. [andCivilians] треба врятувати будь-що, а от [soldiers0_kindPlural] – за потреби можна й втратити.\n\nЧерез [rescueDelay_duration] по вцілілих прилетить рятувальний шатл. Вам треба буде посадити всіх на борт протягом [leaveDelay_duration].</li>
+    <li>questDescription->Шатл фракції [asker_faction_name] пошкоджено, і він шукає місце для посадки. Його командир [asker_nameDef] хоче сісти біля поселення [map_definite].\n\n[enemyFaction_pawnsPlural] з фракції [enemyFaction_name] нападуть на місце аварії, щоб убити тих, хто вцілів. Ви маєте їх захистити.\n\nНа борту: [asker_nameDef][andOtherCivilians] і [soldierCountKinds]. [andCivilians] треба врятувати будь-що, а от [soldiers0_kindPlural] — за потреби можна й втратити.\n\nЧерез [rescueDelay_duration] по вцілілих прилетить рятувальний шатл. Вам треба буде посадити всіх на борт протягом [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, ще один [pawnLabel]</li>
     <li>andOtherCivilians(civilians_count>=3)->, інші [pawnLabelPlural] ([civilianCountMinusOne])</li>

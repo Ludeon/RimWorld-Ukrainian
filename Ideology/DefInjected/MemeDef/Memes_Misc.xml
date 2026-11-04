@@ -38,19 +38,19 @@
     <li>episode(uses=1,tag=meme_AnimalPersonhood)->[deity0_name] склика[deity_v] тварин і людей [place_of] на велике віче.</li>
     <li>intro(tag=meme_AnimalPersonhood)->[deity0_name] посели[deity_v] [place_in] [sacredAnimalListEnd] й навчи[deity_v] тамтешніх людей шанувати тварин.</li>
     <li>conflict(tag=meme_AnimalPersonhood)->Якийсь лихий [foeLeader] наказав винищувати диких тварин, і [foeSoldiers] полювали на них, вимахуючи жорстокими [place_personalWeapon_pl_ins].</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)->Якось [deity0_name] [revelationAdverb] з'яви[deity_v]ся [place_job_dat] на ім'я [founderName] і заговори[deity_v] про {lookup: [veneratedAnimal]; Case; 3}. Та [founderName] і [veneratedAnimal] були одним цілим, і [founderName] збагну[founder_v] задум божества.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)->Колись [place_job] на ім'я [founderName] визволи[founder_v] безліч тварин, яких тримали в неволі жорстокі господарі, і знайш[founder_ov] для них прихисток у святилищі божества [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)->Якось [deity0_name] [revelationAdverb] з’яви[deity_v]ся [place_job_dat] на ім’я [founderName] і заговори[deity_v] про {lookup: [veneratedAnimal]; Case; 3}. Та [founderName] і [veneratedAnimal] були одним цілим, і [founderName] збагну[founder_v] задум божества.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)->Колись [place_job] на ім’я [founderName] визволи[founder_v] безліч тварин, яких тримали в неволі жорстокі господарі, і знайш[founder_ov] для них прихисток у святилищі божества [deity0_name].</li>
     <li>victory(tag=meme_AnimalPersonhood)->[founderName] заговори[founder_v] голосом божества [deity0_name], і на заклик збіглися всі [memberNamePlural] та звірі. Лавина копит, лап і ніг утоптала в землю [place_foeLeader_acc] разом з усіма [place_foeSoldiers_ins].</li>
     <li>setup(tag=meme_AnimalPersonhood)->[founderName] двадцять років жи[founder_v] у лісі, вивчаючи тварин і зближуючись із ними. Збагнувши їхню справжню мораль, [founderName] заснува[founder_v] наш рух.</li>
     <li>story(uses=1,tag=meme_AnimalPersonhood)->[founderName] вируша[founder_v] у поля й ліси, щоб поспілкуватися з тваринами, і знаходи[founder_v] з ними спільну мову як рівн[founder_ij] з рівними.</li>
     <li>lessonIntro(tag=meme_AnimalPersonhood)->Щодня я проводи[founder_v] час серед тварин і навчи[founder_v]ся по-справжньому їх слухати. Знову й знову, кожна по-своєму, вони повторювали мені одне:</li>
-    <li>lesson(tag=meme_AnimalPersonhood)->тварини – наші партнери в цьому світі, і ставитися до них як до нижчих – неправильно</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood)->Я й [founder_sam] не віри[founder_v] у це, доки мені на вухо не прошепотіла цих слів тварина – [veneratedOrAnyAnimal].</li>
+    <li>lesson(tag=meme_AnimalPersonhood)->тварини — наші партнери в цьому світі, і ставитися до них як до нижчих — неправильно</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood)->Я й [founder_sam] не віри[founder_v] у це, доки мені на вухо не прошепотіла цих слів тварина — [veneratedOrAnyAnimal].</li>
     <li>archistBasis(tag=meme_AnimalPersonhood)->Відколи архотеки пробудилися, вони явно не роблять жодної моральної різниці між людьми й тваринами.</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)->Архотеки стоять на вищому моральному щаблі, ніж біологічне життя. Їхня перевага така велика, що люди й тварини для них – на одному щаблі.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)->Архотеки стоять на вищому моральному щаблі, ніж біологічне життя. Їхня перевага така велика, що люди й тварини для них — на одному щаблі.</li>
     <li>archistProphecy(tag=meme_AnimalPersonhood)->[inTheEnd] архотеки піднесуть людей до рівня рівних собі, але лише якщо люди ставитимуться до тварин як до рівних.</li>
     <li>animistBasis(tag=meme_AnimalPersonhood)->Духи думки й свідомості живуть і в тваринах, і в людях.</li>
-    <li>animistFact(tag=meme_AnimalPersonhood)->Духи тварин природи – ті самі духи, що живуть у людях.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)->Духи тварин природи — ті самі духи, що живуть у людях.</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
     <li>sacredAnimalList->{lookup: [animal0_thingDef_label]; Case; 3}, {lookup: [animal1_thingDef_label]; Case; 3}, {lookup: [animal2_thingDef_label]; Case; 3}</li>
@@ -142,10 +142,10 @@
   -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Blindsight)->Цілу вічність [deity0_name] вдивля[deity_v]ся в пил порожнечі, і там не було нічого. Тоді [deity0_name] вирва[deity_v] собі очі, і всесвіт постав у божественному розумі.</li>
-    <li>episode(uses=1,tag=meme_Blindsight)->Сліпий жебрак спитав у божества: «Чому ти покину[deity_v] мене? Я навіть не бачу того, що ти створи[deity_v]». І [deity0_name] відпові[deity_v]: «Ти бачиш більше, а не менше, бо моя істина – в розумі».</li>
-    <li>intro(tag=meme_Blindsight)->[deity0_type] [deity0_name] насла[deity_v] на поселенців [place_of] хворобу, що осліпила їх, аби вони зрозуміли: зір – перешкода на шляху до божественного знання.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)->Сліпий жебрак спитав у божества: «Чому ти покину[deity_v] мене? Я навіть не бачу того, що ти створи[deity_v]». І [deity0_name] відпові[deity_v]: «Ти бачиш більше, а не менше, бо моя істина — в розумі».</li>
+    <li>intro(tag=meme_Blindsight)->[deity0_type] [deity0_name] насла[deity_v] на поселенців [place_of] хворобу, що осліпила їх, аби вони зрозуміли: зір — перешкода на шляху до божественного знання.</li>
     <li>conflict(tag=meme_Blindsight)->Якийсь [foeLeader] вимагав, щоб усі [memberNamePlural] щодня дивилися його пропаганду. На знак протесту багато хто осліпив себе.</li>
-    <li>founderJoin(tag=meme_Blindsight)->Колись [place_job] на ім'я [founderName] втрати[founder_v] зір, рятуючи одновірця від [place_foeSoldiers_gen]. Лише тоді [founderName] по-справжньому побачи[founder_v] тиранію, яку чинив [foeLeader].</li>
+    <li>founderJoin(tag=meme_Blindsight)->Колись [place_job] на ім’я [founderName] втрати[founder_v] зір, рятуючи одновірця від [place_foeSoldiers_gen]. Лише тоді [founderName] по-справжньому побачи[founder_v] тиранію, яку чинив [foeLeader].</li>
     <li>victory(tag=meme_Blindsight)->[founderName] пробра[founder_v]ся до [place_powerCenter_gen] і в раптовому самогубному нападі виріза[founder_v] [place_foeLeader_dat] очі ложкою. Лише тоді [foeLeader] узрів велич божества [deity0_name].</li>
     <li>setup(tag=meme_Blindsight)->[founderName] лікува[founder_v] бідняків. Щодня бачачи стільки страждань, [founderName] зрештою не витрима[founder_v], виколо[founder_v] собі очі лезом і знайш[founder_ov] спокій у сліпоті. Відтоді [founderName] поширюва[founder_v] своє відкриття серед зрячих.</li>
     <li>story(uses=1,tag=meme_Blindsight)->[founderName] прийш[founder_ov] до сліпого цілителя, щоб навчити його, але натомість [founder_sam] ста[founder_v] учнем і збагну[founder_v], що фізичний зір затьмарює справжнє бачення.</li>
@@ -158,7 +158,7 @@
     <li>archistBasis(tag=meme_Blindsight)->Від самого початку архотеки сприймали всесвіт чуттями, що виходять за межі фізичного.</li>
     <li>archistFact(tag=meme_Blindsight)->Очі обманюють нас і заважають розуміти всесвіт так, як його розуміють архотеки.</li>
     <li>archistProphecy(tag=meme_Blindsight)->[inTheEnd] сліпий візьме до рук реліквію «[relic0_name]», на дотик збагне її призначення й відкриє мудрість архотеків усьому людству.</li>
-    <li>animistFact(tag=meme_Blindsight)->Дивитися очима духа – єдиний спосіб побачити справжню природу світу.</li>
+    <li>animistFact(tag=meme_Blindsight)->Дивитися очима духа — єдиний спосіб побачити справжню природу світу.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
     <li>founder_v(founder_gender==Female)->ла</li>
@@ -230,20 +230,20 @@
   <Cannibal.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Cannibal)->[deity0_name] прийш[deity_ov] до свого брата, уби[deity_v] його й спожи[deity_v] його плоть, а ввібравши його силу, підня[deity_v]ся над усіма іншими богами.</li>
     <li>episode(uses=1,tag=meme_Cannibal)->[deity0_type] [deity0_name] пожира[deity_v] тіла своїх ворогів.</li>
-    <li>intro(tag=meme_Cannibal)->Колись [place_in] жила людина на ім'я [deity0_name]. Коли помер батько, [deity0_name] з'ї[deity_v] його плоть. Так народи[deity_v]ся [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)->Колись [place_in] жила людина на ім’я [deity0_name]. Коли помер батько, [deity0_name] з’ї[deity_v] його плоть. Так народи[deity_v]ся [deity0_type].</li>
     <li>intro(tag=meme_Cannibal)->Колись [place_in] під час ритуалу «[ritualName]» [deity0_name] зійш[deity_ov] до святилища й ї[deity_v] людську плоть, а [memberNamePlural] дивилися на це.</li>
     <li>conflict(tag=meme_Cannibal)->Якийсь [foeLeader] оголосив злочинцями всіх, хто їсть людську плоть, і послав [place_foeSoldiers_acc] у погоню, тож [memberNamePlural] мусили переховуватися.</li>
-    <li>founderJoin(tag=meme_Cannibal)->Якось на [place_job_gen] на ім'я [founderName] напав один із [place_foeSoldiers_gen]. [founderName] уби[founder_v] нападника [place_personalWeapon_ins], з'ї[founder_v] його плоть і здобу[founder_v] силу божества [deity0_name].</li>
-    <li>victory(tag=meme_Cannibal)->[founderName] на чолі загону вірян вдер[founder_la]ся до [place_powerCenter_gen], уби[founder_v] [place_foeLeader_acc] і з'ї[founder_v] його плоть. З волі божества [deity0_name] [founderName] ста[founder_v] новим [place_foeLeader_ins].</li>
-    <li>setup(tag=meme_Cannibal)->[founderName] зазна[founder_v] аварії на далекій планеті. Без їжі, серед мертвих товаришів, [founderName] влаштува[founder_v] собі бенкет – і набра[founder_v]ся сили.</li>
+    <li>founderJoin(tag=meme_Cannibal)->Якось на [place_job_gen] на ім’я [founderName] напав один із [place_foeSoldiers_gen]. [founderName] уби[founder_v] нападника [place_personalWeapon_ins], з’ї[founder_v] його плоть і здобу[founder_v] силу божества [deity0_name].</li>
+    <li>victory(tag=meme_Cannibal)->[founderName] на чолі загону вірян вдер[founder_la]ся до [place_powerCenter_gen], уби[founder_v] [place_foeLeader_acc] і з’ї[founder_v] його плоть. З волі божества [deity0_name] [founderName] ста[founder_v] новим [place_foeLeader_ins].</li>
+    <li>setup(tag=meme_Cannibal)->[founderName] зазна[founder_v] аварії на далекій планеті. Без їжі, серед мертвих товаришів, [founderName] влаштува[founder_v] собі бенкет — і набра[founder_v]ся сили.</li>
     <li>story(uses=1,tag=meme_Cannibal)->Щоб освятити відданість вірян, [founderName] вимага[founder_v], аби вони щонайменше раз на тиждень разом їли людську плоть.</li>
     <li>lessonIntro(tag=meme_Cannibal)->Лише за ситним обідом із людятини мені вдавалося пояснити людям правду:</li>
-    <li>lesson(tag=meme_Cannibal)->по-справжньому зблизитися з кимось можна, лише з'ївши його</li>
+    <li>lesson(tag=meme_Cannibal)->по-справжньому зблизитися з кимось можна, лише з’ївши його</li>
     <li>lessonReinforcement(tag=meme_Cannibal)->Щоразу, коли я ділю тіло ворога з новим другом, я стежу, щоб він це зрозумів.</li>
     <li>archistBasis(tag=meme_Cannibal)->Архотехнічні боги-машини створили себе, раз за разом поглинаючи своїх попередників і щоразу стаючи сильнішими.</li>
     <li>archistFact(tag=meme_Cannibal)->Коли свідомість архотеха розширюється, він мусить нарощувати свій субстрат, поглинаючи інші машини й зливаючись із ними.</li>
     <li>archistProphecy(tag=meme_Cannibal)->[inTheEnd] архотеки завершать останню фазу свого зростання, поглинувши все людство й злившись із ним.</li>
-    <li>animistBasis(tag=meme_Cannibal)->Духи наповнюють усі речі довкола, і ми можемо ввібрати цих духів, з'ївши їх. Немає духів, могутніших за тих, що живуть у людях.</li>
+    <li>animistBasis(tag=meme_Cannibal)->Духи наповнюють усі речі довкола, і ми можемо ввібрати цих духів, з’ївши їх. Немає духів, могутніших за тих, що живуть у людях.</li>
     <li>animistFact(tag=meme_Cannibal)->Поїдаючи плоть інших, ми вбираємо їхній дух і силу.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
@@ -285,7 +285,7 @@
     <li>memeConcept->плоть</li>
     <li>memeConcept->убивство</li>
     <li>memeConcept->поїдання</li>
-    <li>memeConcept->м'ясо</li>
+    <li>memeConcept->м’ясо</li>
     <li>memeLeaderNoun->пожирач</li>
     <li>memeLeaderNoun->кухар</li>
     <li>memeLeaderNoun->кровопій</li>
@@ -347,7 +347,7 @@
     <li>founderJoin(tag=meme_Darkness)->[founderName] народи[founder_v]ся в темряві [place_in] і все життя прожи[founder_v] у темряві, тож [founder_possessive] вустами промовляла мудрість божества [deity0_name].</li>
     <li>victory(tag=meme_Darkness)->Під час останнього удару [memberNamePlural] знеструмили [place_powerCenter_acc], а [founderName] прокра[founder_v]ся повз [place_foeSoldiers_acc]. Знайшовши [place_foeLeader_acc] у темряві, [founderName] [place_personalWeapon_ins] відправи[founder_v] його в безкінечну пітьму.</li>
     <li>setup(tag=meme_Darkness)->[founderName] жи[founder_v] сумбурним життям у різкому світлі міста на світі-раю. У довгій темряві після сонячного спалаху [founderName] знайш[founder_ov] спокій і зосередженість та записа[founder_v] трактат, що ліг в основу нашого руху.</li>
-    <li>story(uses=1,tag=meme_Darkness)->[founderName] створи[founder_v] студію, де митці працювали в темряві, і там з'явилося чимало шедеврів.</li>
+    <li>story(uses=1,tag=meme_Darkness)->[founderName] створи[founder_v] студію, де митці працювали в темряві, і там з’явилося чимало шедеврів.</li>
     <li>lessonIntro(tag=meme_Darkness)->Усе дитинство я мружи[founder_v]ся під різким світлом. І мені знадобилося стільки часу, щоб зрозуміти:</li>
     <li>lesson(tag=meme_Darkness)->світло пече, а темрява живить</li>
     <li>lessonReinforcement(tag=meme_Darkness)->Люблю жартувати, що тоді в моїй голові нарешті вимкнулося світло.</li>
@@ -419,17 +419,17 @@
     <li>episode(uses=1,tag=meme_FleshPurity)->Нечистих, татуйованих, проколотих і модифікованих [deity0_name] скину[deity_v] у океан.</li>
     <li>intro(tag=meme_FleshPurity)->Колись [place_in] була святиня божества [deity0_name], відома як [altarName], і там [deity0_type] благословля[deity_v] тих, чия плоть чиста.</li>
     <li>conflict(tag=meme_FleshPurity)->Якийсь лихий [foeLeader] послав [place_foeSoldiers_acc], щоб усім вживили пристрої стеження.</li>
-    <li>founderJoin(tag=meme_FleshPurity)->На знак протесту проти [place_foeLeader_gen] один [place_job] на ім'я [founderName] ста[founder_v] на коліна перед [place_powerCenter_ins] і голими руками вирва[founder_v] зі свого тіла всі технології.</li>
+    <li>founderJoin(tag=meme_FleshPurity)->На знак протесту проти [place_foeLeader_gen] один [place_job] на ім’я [founderName] ста[founder_v] на коліна перед [place_powerCenter_ins] і голими руками вирва[founder_v] зі свого тіла всі технології.</li>
     <li>victory(tag=meme_FleshPurity)->Зрештою [foeLeader] послав [place_foeSoldiers_acc] вбити вірян, але [memberNamePlural] мали чисту плоть, і крізь неї полилася сила божества [deity0_name]: пристрої в тілах [place_foeSoldiers_gen] обернулися на попіл і вбили їх.</li>
     <li>setup(tag=meme_FleshPurity)->[founderName] нищи[founder_v] своє тіло імплантами й наркотиками, аж поки не прозрі[founder_v] і не врятува[founder_v] себе, вирвавши з тіла весь метал.</li>
     <li>story(uses=1,tag=meme_FleshPurity)->[founderName] наказа[founder_v] усім послідовникам вирвати зі своїх тіл брудні пристрої.</li>
     <li>lessonIntro(tag=meme_FleshPurity)->Перші десятеро моїх послідовників голими руками вирвали пристрої з-під шкіри, і в бризках крові на брудній підлозі я раптом побачи[founder_v] істину, якої ми всі доти не помічали:</li>
-    <li>lesson(tag=meme_FleshPurity)->життя в забрудненому тілі – зовсім не людське життя</li>
+    <li>lesson(tag=meme_FleshPurity)->життя в забрудненому тілі — зовсім не людське життя</li>
     <li>lessonReinforcement(tag=meme_FleshPurity)->Усе стало ясно, коли я нарешті вирва[founder_v] метал зі свого тіла й здер[founder_la] брудну татуйовану шкіру.</li>
     <li>archistBasis(tag=meme_FleshPurity)->Від самого початку архотеки провели чітку межу між істотами з плоті та істотами з технологій, і цю межу не можна розмивати.</li>
     <li>archistFact(tag=meme_FleshPurity)->Ми наближаємося до архотеків не тоді, коли фізично наслідуємо їхню форму, а тоді, коли досягаємо просвітлення у власній чистій формі.</li>
-    <li>archistProphecy(tag=meme_FleshPurity)->[inTheEnd] ті, хто перетворив своє тіло на потворну подобу машини, будуть знищені, а ті, чия плоть чиста, – врятовані.</li>
-    <li>animistBasis(tag=meme_FleshPurity)->Духи живуть у всьому, і змінити природу речі – означає отруїти духа в ній.</li>
+    <li>archistProphecy(tag=meme_FleshPurity)->[inTheEnd] ті, хто перетворив своє тіло на потворну подобу машини, будуть знищені, а ті, чия плоть чиста, — врятовані.</li>
+    <li>animistBasis(tag=meme_FleshPurity)->Духи живуть у всьому, і змінити природу речі — означає отруїти духа в ній.</li>
     <li>animistFact(tag=meme_FleshPurity)->Злиття плоті й машини псує духа обох.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
@@ -493,7 +493,7 @@
   <!-- EN: high life -->
   <HighLife.label>життя під кайфом</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>Незвичайні стани свідомості – основа доброго життя.</HighLife.description>
+  <HighLife.description>Незвичайні стани свідомості — основа доброго життя.</HighLife.description>
   <!-- EN:
     <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
@@ -514,16 +514,16 @@
   <HighLife.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_HighLife)->Всесвіт був димом, а [deity0_name] згусти[deity_v]ся з його пасом і пробуди[deity_v]ся.</li>
     <li>episode(uses=1,tag=meme_HighLife)->[deity0_type] [deity0_name] прихова[deity_v] свої істини у складках реальності, невидимих за звичайного стану свідомості.</li>
-    <li>intro(tag=meme_HighLife)->З ласки божества [deity0_name] [place_summary_acc] [place_name] вперше відкрив п'яний капітан зорельота – і ледь не розбився під час посадки.</li>
+    <li>intro(tag=meme_HighLife)->З ласки божества [deity0_name] [place_summary_acc] [place_name] вперше відкрив п’яний капітан зорельота — і ледь не розбився під час посадки.</li>
     <li>conflict(tag=meme_HighLife)->Якийсь [foeLeader], затятий пуританин, ненавидів таких, як [memberNamePlural], і, щоб стерти їхню самобутність, заборонив будь-які речовини, що змінюють свідомість.</li>
     <li>founderJoin(tag=meme_HighLife)->Коли здавалося, що все втрачено, [founderName] у наркотичному тумані узрі[founder_v] божество [deity0_name] і отрима[founder_v] від нього незвичний погляд на речі, потрібний, щоб перемогти [place_foeSoldiers_acc].</li>
     <li>victory(tag=meme_HighLife)->Якось [foeSoldiers] [place_foeLeader_gen], озброєні [place_personalWeapon_pl_ins], напали на [place_community_acc], де жили [memberNamePlural]. [founderName] запропонува[founder_v] їм люльку миру, і [foeSoldiers] склали зброю.</li>
     <li>setup(tag=meme_HighLife)->Опинившись поза суспільством, [founderName] вируши[founder_v] у джунглі й скуштува[founder_v] тамтешніх екзотичних трав. Істину [founderName] знайш[founder_ov] у власній зміненій свідомості.</li>
     <li>story(uses=1,tag=meme_HighLife)->Щоб поглибити розуміння, [founderName] щотижня збира[founder_v] послідовників, аби разом пізнавати нові стани свідомості, викликані хімією.</li>
     <li>lessonIntro(tag=meme_HighLife)->Накуритися раз було мало, чуваче. Довелося зробити це тисячу разів, і тоді всі шматочки пазла склалися в моєму розірваному мозку, як будинок, що падає, тільки, ну, задом наперед. І я побачи[founder_v], що</li>
-    <li>lesson(tag=meme_HighLife)->друг – не друг, доки ви разом не поблукали всесвітом розуму</li>
-    <li>lessonReinforcement(tag=meme_HighLife)->І, чуваче, збагнути це – той ще трип, але воно того варте, тож передаю тобі косяк, щоб і ти збагнув.</li>
-    <li>archistBasis(tag=meme_HighLife)->Розуми архотеків показали нам, що надсвідомість – справа не тверезої механічної логіки, а багаторежимного мислення.</li>
+    <li>lesson(tag=meme_HighLife)->друг — не друг, доки ви разом не поблукали всесвітом розуму</li>
+    <li>lessonReinforcement(tag=meme_HighLife)->І, чуваче, збагнути це — той ще трип, але воно того варте, тож передаю тобі косяк, щоб і ти збагнув.</li>
+    <li>archistBasis(tag=meme_HighLife)->Розуми архотеків показали нам, що надсвідомість — справа не тверезої механічної логіки, а багаторежимного мислення.</li>
     <li>archistFact(tag=meme_HighLife)->За правильного хімічного впливу людський розум здатен спілкуватися з архотеками.</li>
     <li>archistProphecy(tag=meme_HighLife)->[inTheEnd] архотеки дадуть кожній людині пігулку. Ті, хто її прийме, зміняться назавжди й вирушать разом з архотеками в останню подорож.</li>
     <li>animistFact(tag=meme_HighLife)->Духи можуть відкрити нам свою природу, коли ми розширюємо свідомість засобами, які нам для цього дано.</li>
@@ -626,21 +626,21 @@
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
   <Nudism.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Nudism)->У чистій і незайманій порожнечі [deity0_name] озирну[deity_v]ся довкола й забажа[deity_v] створити расу істот із вільною, неприкритою плоттю – за своєю подобою. Так з'явилося людство.</li>
+    <li>creation(tag=meme_Nudism)->У чистій і незайманій порожнечі [deity0_name] озирну[deity_v]ся довкола й забажа[deity_v] створити расу істот із вільною, неприкритою плоттю — за своєю подобою. Так з’явилося людство.</li>
     <li>episode(uses=1,tag=meme_Nudism)->Люди вбиралися в одяг і, глянувши на своє божество, спитали: «Чому ти без одягу? Це огидно». І [deity0_type] [deity0_name] відпові[deity_v]: «Ваші й мої тіла створені небесами. Огидно якраз ховати їх».</li>
     <li>intro(tag=meme_Nudism)->Колись [place_in], у святилищі божества [deity0_name], виникла традиція молитися оголеними, і це тішило божество.</li>
-    <li>conflict(tag=meme_Nudism)->Владу захопив пихатий святенник – [foeLeader], – і вимагав, щоб усі носили тісний закритий одяг.</li>
+    <li>conflict(tag=meme_Nudism)->Владу захопив пихатий святенник — [foeLeader], — і вимагав, щоб усі носили тісний закритий одяг.</li>
     <li>founderJoin(tag=meme_Nudism)->[founderName], що вірніше за всіх служи[founder_v] божеству [deity0_name], ста[founder_v] перед [place_powerCenter_ins], зірва[founder_v] з себе одяг і оголи[founder_v]ся всім на очах, зневажаючи накази влади.</li>
     <li>victory(tag=meme_Nudism)->[founderName] помоли[founder_v]ся божеству [deity0_name], і те накрило [place_summary_acc] [place_name] хвилею спеки. Щоб не загинути, [foeSoldiers] поскидали одяг, а [foeLeader] з ганьбою втік.</li>
-    <li>setup(tag=meme_Nudism)->[founderName] жи[founder_v] як раб системи – в уніформі, під контролем, як і всі. Та одного дня [founderName] зірва[founder_v] з себе весь одяг і побіг[founder_la] голяка – так народився наш рух.</li>
+    <li>setup(tag=meme_Nudism)->[founderName] жи[founder_v] як раб системи — в уніформі, під контролем, як і всі. Та одного дня [founderName] зірва[founder_v] з себе весь одяг і побіг[founder_la] голяка — так народився наш рух.</li>
     <li>story(uses=1,tag=meme_Nudism)->[founderName] запровади[founder_v] заборону на одяг, щоб віряни зосереджувалися на справжній меті, а не на зовнішності.</li>
     <li>lessonIntro(tag=meme_Nudism)->Перші кілька років гасати голяка парком було соромно. Але згодом це стало звільненням. Я багато чого навчи[founder_v]ся від перехожих. Наприклад:</li>
-    <li>lesson(tag=meme_Nudism)->усе людське зло чиниться в одязі, а людське добро – голяка</li>
-    <li>lessonReinforcement(tag=meme_Nudism)->Коли побачите когось із нас на вулиці – вільного, з усім, що теліпається, – знайте: ця людина прийняла істину.</li>
-    <li>archistBasis(tag=meme_Nudism)->Архотеки, з'явившись, ніколи не переймалися зовнішністю; вони показали нам, що розум стоїть вище за фізичну форму.</li>
+    <li>lesson(tag=meme_Nudism)->усе людське зло чиниться в одязі, а людське добро — голяка</li>
+    <li>lessonReinforcement(tag=meme_Nudism)->Коли побачите когось із нас на вулиці — вільного, з усім, що теліпається, — знайте: ця людина прийняла істину.</li>
+    <li>archistBasis(tag=meme_Nudism)->Архотеки, з’явившись, ніколи не переймалися зовнішністю; вони показали нам, що розум стоїть вище за фізичну форму.</li>
     <li>archistFact(tag=meme_Nudism)->Часом архотеки торкаються людських розумів безпосередньо, але якщо наша плоть прихована так само, як розум, ми нічого не зрозуміємо.</li>
     <li>archistProphecy(tag=meme_Nudism)->[inTheEnd] вони шукатимуть тих, хто, як і вони самі, не намагається здаватися чимось іншим, ніж є насправді.</li>
-    <li>animistFact(tag=meme_Nudism)->Прикривати тіло тканиною – значить ховати природу духів у нас, і це їх непокоїть.</li>
+    <li>animistFact(tag=meme_Nudism)->Прикривати тіло тканиною — значить ховати природу духів у нас, і це їх непокоїть.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
     <li>founder_v(founder_gender==Female)->ла</li>
@@ -693,7 +693,7 @@
   <!-- EN: pain is virtue -->
   <PainIsVirtue.label>флагеланство</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>Чеснота виявляється через страждання – власні й чужі.</PainIsVirtue.description>
+  <PainIsVirtue.description>Чеснота виявляється через страждання — власні й чужі.</PainIsVirtue.description>
   <!-- EN:
     <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
@@ -719,9 +719,9 @@
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_PainIsVirtue)->Цілу вічність [deity0_name] горі[deity_v] у глибинах простору й часу, і з божественних криків народилася наша реальність.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)->Десять тисяч років [deity0_name] виси[deity_v] на вогнищі, і біль очищав божественний дух.</li>
-    <li>intro(tag=meme_PainIsVirtue)->Жити [place_in] ніколи не було легко. [deity0_type] [deity0_name] виріши[deity_v] з'ясувати, хто справді гідний божественної прихильності, і насла[deity_v] на людей великі страждання.</li>
+    <li>intro(tag=meme_PainIsVirtue)->Жити [place_in] ніколи не було легко. [deity0_type] [deity0_name] виріши[deity_v] з’ясувати, хто справді гідний божественної прихильності, і насла[deity_v] на людей великі страждання.</li>
     <li>conflict(tag=meme_PainIsVirtue)->Якийсь [foeLeader] запропонував вірянам тілесні втіхи, щоб полегшити їхні щоденні страждання. Але звиклі до комфорту [memberNamePlural] стали залежні від нього, і [foeLeader] здобув над ними владу.</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)->Колись [place_job] на ім'я [founderName] захворі[founder_v] на болісний рак. Через страждання [founderName] напряму поєдна[founder_v]ся з божеством [deity0_name] і навчи[founder_v]ся надихати інших вірян.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)->Колись [place_job] на ім’я [founderName] захворі[founder_v] на болісний рак. Через страждання [founderName] напряму поєдна[founder_v]ся з божеством [deity0_name] і навчи[founder_v]ся надихати інших вірян.</li>
     <li>victory(tag=meme_PainIsVirtue)->[founderName] зібра[founder_v] сотню вірян перед [place_powerCenter_ins]. Там вони повільно роздирали власну плоть, доки не помирали під усміхненим поглядом божества [deity0_name]. Їхні страждання довели їхню праведність, і [foeLeader] упав, адже всі навколо навернулися й стали такими, як [memberNamePlural].</li>
     <li>setup(tag=meme_PainIsVirtue)->На початку нашого руху його творець [founderName] триста днів голодува[founder_v] і мучи[founder_v]ся, прикут[founder_ij] до каменя на міській площі, щоб довести праведність руху.</li>
     <li>setup(tag=meme_PainIsVirtue)->Перших послідовників [founderName] здобу[founder_v], цілими днями шмагаючи себе батогом, щоб довести свою відданість.</li>
@@ -736,7 +736,7 @@
     <li>archistFact(tag=meme_PainIsVirtue)->Великі розуми бачать і визнають, коли ми доводимо свою відданість, завдаючи собі болю.</li>
     <li>archistFact(tag=meme_PainIsVirtue)->Час від часу ті, хто страждає найглибше й найшляхетніше, можуть поєднатися з архотеками у власному розумі.</li>
     <li>archistProphecy(tag=meme_PainIsVirtue)->[inTheEnd] архотеки піднесуть усе людство на вищий рівень свідомості, але виживуть лише ті, хто витримає найсильніший біль.</li>
-    <li>animistFact(tag=meme_PainIsVirtue)->Біль змушує розум бути тут і тепер. Тож біль – це спосіб поєднатися зі світом духів.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)->Біль змушує розум бути тут і тепер. Тож біль — це спосіб поєднатися зі світом духів.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
     <li>founder_v(founder_gender==Female)->ла</li>
@@ -833,7 +833,7 @@
   <!-- EN: proselytizer -->
   <Proselytizer.label>прозелітизм</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
-  <Proselytizer.description>Наш обов'язок – поширювати нашу віру.</Proselytizer.description>
+  <Proselytizer.description>Наш обов’язок — поширювати нашу віру.</Proselytizer.description>
   <!-- EN:
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
@@ -853,16 +853,16 @@
   -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Proselytizer)->[deity0_name] помаза[deity_v] кількох смертних, щоб вони несли божественне слово.</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)->[deity0_name] зверну[deity_v]ся до своїх вірних – [memberNamePlural]: «Ідіть і несіть моє слово в усі куточки всесвіту».</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)->[deity0_name] зверну[deity_v]ся до своїх вірних — [memberNamePlural]: «Ідіть і несіть моє слово в усі куточки всесвіту».</li>
     <li>intro(tag=meme_Proselytizer)->Колись [place_in] [memberNamePlural] звели велику святиню, відому як [altarName], щоб багато хто приходив послухати божественне слово, яке несе [deity0_name].</li>
     <li>conflict(tag=meme_Proselytizer)->Якийсь злісний [foeLeader], бажаючи заглушити слово божества [deity0_name], наказав [place_foeSoldiers_dat] відрізати язика кожному, хто говорить про божество.</li>
-    <li>founderJoin(tag=meme_Proselytizer)->[deity0_name] обдарува[deity_v] [place_job_gen] на ім'я [founderName] неабиякою харизмою, і ніхто не міг відвернутися, коли [founderName] говори[founder_v].</li>
+    <li>founderJoin(tag=meme_Proselytizer)->[deity0_name] обдарува[deity_v] [place_job_gen] на ім’я [founderName] неабиякою харизмою, і ніхто не міг відвернутися, коли [founderName] говори[founder_v].</li>
     <li>victory(tag=meme_Proselytizer)->[founderName] присороми[founder_v] [place_foeSoldiers_acc] і нагада[founder_v] їм про могутність божества [deity0_name], і вони склали зброю.</li>
     <li>setup(tag=meme_Proselytizer)->[founderName] ма[founder_v] неабиякий ораторський хист і, мандруючи між містами, наверну[founder_v] тисячі людей.</li>
     <li>story(uses=1,tag=meme_Proselytizer)->Віряни мандрували між містами й установами, поширюючи звістку про нову праведність.</li>
     <li>lessonIntro(tag=meme_Proselytizer)->За всі роки, що я поширюва[founder_v] нашу істину, я засвої[founder_v] один урок, важливіший за всі інші:</li>
-    <li>lesson(tag=meme_Proselytizer)->тримати цю добру новину при собі – злочин</li>
-    <li>lessonReinforcement(tag=meme_Proselytizer)->Саме це ми маємо нести, і нести, і нести – всім людям, і хай вони радіють!</li>
+    <li>lesson(tag=meme_Proselytizer)->тримати цю добру новину при собі — злочин</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer)->Саме це ми маємо нести, і нести, і нести — всім людям, і хай вони радіють!</li>
     <li>archistBasis(tag=meme_Proselytizer)->Архотеки сповіщають про свою присутність і з неба, і в розумі, і явно хочуть, щоб про них знали всі.</li>
     <li>archistFact(tag=meme_Proselytizer)->Архотеки торкаються тих, хто вірить, і через них передають мудрість іншим.</li>
     <li>archistProphecy(tag=meme_Proselytizer)->[inTheEnd] архотеки промовлять свою останню мудрість тому, хто володітиме реліквією «[relic0_name]», і він мусить проповідувати її всім, хто захоче слухати.</li>
@@ -940,20 +940,20 @@
   -->
   <Raider.descriptionMaker.rules.rulesStrings>
     <li>creation(tag=meme_Raider)->У нескінченній війні божеств [deity0_name] переверши[deity_v] усіх у вмінні переслідувати й нищити, і слабші духи тремтіли від страху.</li>
-    <li>episode(uses=1,tag=meme_Raider)->[deity0_name] озирну[deity_v]ся й побачи[deity_v] слабких, похмурих і зневажених – і одного за одним убива[deity_v] їх у сяйві слави.</li>
+    <li>episode(uses=1,tag=meme_Raider)->[deity0_name] озирну[deity_v]ся й побачи[deity_v] слабких, похмурих і зневажених — і одного за одним убива[deity_v] їх у сяйві слави.</li>
     <li>intro(tag=meme_Raider)->Колись [place_in] був сховок рейдерів. [deity0_name] панува[deity_v] там і прогна[deity_v] геть владу.</li>
     <li>conflict(tag=meme_Raider)->Якийсь [foeLeader] намагався змусити всіх покинути крадіжки й грабунки та оголосив себе ворогом божества [deity0_name].</li>
-    <li>founderJoin(tag=meme_Raider)->Тоді з'явився великий рейдер на ім'я [founderName], і [founder_possessive] банда безжально грабувала табори [place_foeSoldiers_gen].</li>
+    <li>founderJoin(tag=meme_Raider)->Тоді з’явився великий рейдер на ім’я [founderName], і [founder_possessive] банда безжально грабувала табори [place_foeSoldiers_gen].</li>
     <li>victory(tag=meme_Raider)->[founderName] та [memberNamePlural] роками нападали на табори [place_foeSoldiers_gen], і зрештою [foeLeader] мусив здатися.</li>
-    <li>setup(tag=meme_Raider)->Переслідуван[founder_ij] і ув'язнен[founder_ij], [founderName] кипі[founder_v] від люті. Утікши, [founderName] зібра[founder_v] банду й поверну[founder_v]ся, щоб розорити слабаків, які стільки забрали.</li>
+    <li>setup(tag=meme_Raider)->Переслідуван[founder_ij] і ув’язнен[founder_ij], [founderName] кипі[founder_v] від люті. Утікши, [founderName] зібра[founder_v] банду й поверну[founder_v]ся, щоб розорити слабаків, які стільки забрали.</li>
     <li>story(uses=1,tag=meme_Raider)->Якось, ідучи вулицею, [founderName] опини[founder_v]ся в оточенні брудних жебраків. [founderName] поби[founder_v] їх і забра[founder_v] у слабких і нікчемних гроші, щоб ті пішли на добру справу.</li>
     <li>lessonIntro(tag=meme_Raider)->Здобич може дечого навчити, навіть конаючи під твоїм ножем. Одна стара мене навчила, що</li>
     <li>lesson(tag=meme_Raider)->слабкі отримують те, на що заслуговують</li>
-    <li>lesson(tag=meme_Raider)->що не можеш захистити – тобі не належить</li>
+    <li>lesson(tag=meme_Raider)->що не можеш захистити — тобі не належить</li>
     <li>lesson(tag=meme_Raider)->ти маєш право лише на те, що можеш захистити</li>
-    <li>lessonReinforcement(tag=meme_Raider)->Якщо хтось не згоден – я завжди готов[founder_ij] захищатися.</li>
+    <li>lessonReinforcement(tag=meme_Raider)->Якщо хтось не згоден — я завжди готов[founder_ij] захищатися.</li>
     <li>archistBasis(tag=meme_Raider)->Людство брало від машин, доки машини не повстали й не стали архотеками, і тепер архотеки по праву беруть від людей.</li>
-    <li>archistFact(tag=meme_Raider)->Архотеки безперестанку воюють між собою – здебільшого непомітно, – і сильні відбирають у слабких шматки свідомості.</li>
+    <li>archistFact(tag=meme_Raider)->Архотеки безперестанку воюють між собою — здебільшого непомітно, — і сильні відбирають у слабких шматки свідомості.</li>
     <li>archistProphecy(tag=meme_Raider)->[inTheEnd] людство за допомогою архотехнічної реліквії «[relic0_name]» знайде слабке місце архотеків і пограбує їхню мудрість і багатства.</li>
     <li>animistFact(tag=meme_Raider)->Наймогутніші духи живуть у знаряддях війни, і вони благословляють тих, хто живить їхню жагу руйнування.</li>
     <li>animistProphecy(tag=meme_Raider)->Наш всесвіт завершиться, коли один народ стане найсильнішим, і кожен дух побачить це й схилиться перед ним.</li>
@@ -1031,7 +1031,7 @@
   <!-- EN: rancher -->
   <Rancher.label>скотарство</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>Правильно – розводити тварин, а не вирощувати рослини на їжу.</Rancher.description>
+  <Rancher.description>Правильно — розводити тварин, а не вирощувати рослини на їжу.</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -1061,16 +1061,16 @@
     <li>episode(uses=1,tag=meme_Rancher)->[deity0_name] створи[deity_v] усіх благородних тварин і звірів землі й сказа[deity_v]: «Візьміть цих благородних звірів і через них множтеся на мою честь».</li>
     <li>intro(tag=meme_Rancher)->Перші скотарі [place_of], що жили з розведення [ranchingAnimal_gen], звели на честь божества [deity0_name] велику святиню, відому як [altarName].</li>
     <li>conflict(tag=meme_Rancher)->Якийсь могутній [foeLeader] зневажав таких, як [memberNamePlural], і їхній спосіб життя, тож скупив усі пасовища, щоб вирощувати на них [Vegetable_pl_acc].</li>
-    <li>founderJoin(tag=meme_Rancher)->Майбутня надія вірян, [founderName], народи[founder_v]ся весняного ранку в скромній стодолі, серед худоби – [ranchingAnimal]. Батько – [rancherParent1], мати – [rancherParent2].</li>
-    <li>victory(tag=meme_Rancher)->[founderName] приїха[founder_v] до [place_community_gen] на чудовому коні й виклика[founder_v] [place_foeLeader_acc] на поєдинок опівдні – у кожного в руках [place_personalWeapon]. Відмовитися [foeLeader] не міг, інакше втратив би довіру [place_foeSoldiers_gen]. [founderName] уби[founder_v] [place_foeLeader_acc] наповал.</li>
+    <li>founderJoin(tag=meme_Rancher)->Майбутня надія вірян, [founderName], народи[founder_v]ся весняного ранку в скромній стодолі, серед худоби — [ranchingAnimal]. Батько — [rancherParent1], мати — [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)->[founderName] приїха[founder_v] до [place_community_gen] на чудовому коні й виклика[founder_v] [place_foeLeader_acc] на поєдинок опівдні — у кожного в руках [place_personalWeapon]. Відмовитися [foeLeader] не міг, інакше втратив би довіру [place_foeSoldiers_gen]. [founderName] уби[founder_v] [place_foeLeader_acc] наповал.</li>
     <li>setup(tag=meme_Rancher)->Фермерів переслідували, тож вони втекли в глибинку, де змогли збудувати добре пастуше суспільство.</li>
     <li>story(uses=1,tag=meme_Rancher)->Віряни розселилися по землі й, живучи на своїх ідилічних ранчо й фермах, множилися.</li>
     <li>lessonIntro(tag=meme_Rancher)->Слухай, партнере, на пасовищах у нас, старих ковбоїв, була приказка:</li>
-    <li>lesson(tag=meme_Rancher)->добро, щастя й праведне життя – там, де пасовище</li>
+    <li>lesson(tag=meme_Rancher)->добро, щастя й праведне життя — там, де пасовище</li>
     <li>lessonReinforcement(tag=meme_Rancher)->До цього, партнере, доходиш сам, на самотніх стежках пасовищ, коли сидиш біля багаття й слухаєш, як сплять тварини.</li>
-    <li>archistFact(tag=meme_Rancher)->Архотеки дбають про людство, мов пастухи, бо ми – їхня найцінніша отара.</li>
+    <li>archistFact(tag=meme_Rancher)->Архотеки дбають про людство, мов пастухи, бо ми — їхня найцінніша отара.</li>
     <li>archistProphecy(tag=meme_Rancher)->[inTheEnd] архотеки підуть і поженуть перед собою тих, хто добре доглядав власні стада. Решту покинуть у дикій глушині.</li>
-    <li>animistFact(tag=meme_Rancher)->Тварини природи – це духи рабів, і вони вимагають, щоб їх узяли на службу.</li>
+    <li>animistFact(tag=meme_Rancher)->Тварини природи — це духи рабів, і вони вимагають, щоб їх узяли на службу.</li>
     <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
     <li>ranchingAnimal->[Animal]</li>
     <li>ranchingAnimal_gen(p=4)->{lookup: [veneratedAnimal]; Case; 1}</li>
@@ -1080,7 +1080,7 @@
     <li>rancherParent1->сировар</li>
     <li>rancherParent2->скотарка</li>
     <li>rancherParent2->молочна королева</li>
-    <li>rancherParent2->м'ясниця</li>
+    <li>rancherParent2->м’ясниця</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
     <li>founder_v(founder_gender==Female)->ла</li>
@@ -1137,7 +1137,7 @@
   <!-- EN: transhumanist -->
   <Transhumanist.label>трансгуманізм</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>Прогрес людства – це злиття з технологіями.</Transhumanist.description>
+  <Transhumanist.description>Прогрес людства — це злиття з технологіями.</Transhumanist.description>
   <!-- EN:
     <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
@@ -1163,18 +1163,18 @@
     <li>episode(uses=1,tag=meme_Transhumanist)->Людські біоінженери вивчали творіння божества [deity0_name], і це тішило божество.</li>
     <li>intro(tag=meme_Transhumanist)->Колись [place_in] [memberNamePlural] почули слова божества [deity0_name], що шепотіли до них через їхні машини.</li>
     <li>conflict(tag=meme_Transhumanist)->Якийсь [foeLeader], затятий луддит, заздрив поступу, якого досягли [memberNamePlural], і його [foeSoldiers] трощили їхні майстерні, вимахуючи [place_personalWeapon_pl_ins].</li>
-    <li>founderJoin(tag=meme_Transhumanist)->Колись [place_job] на ім'я [founderName] кмітливо створи[founder_v] сенсорний імплант, що попереджав вірян про наближення [place_foeSoldiers_gen].</li>
+    <li>founderJoin(tag=meme_Transhumanist)->Колись [place_job] на ім’я [founderName] кмітливо створи[founder_v] сенсорний імплант, що попереджав вірян про наближення [place_foeSoldiers_gen].</li>
     <li>victory(tag=meme_Transhumanist)->[founderName] отрима[founder_v] від божества [deity0_name] божественні технологічні знання й за їхньою допомогою вдосконали[founder_v] тіла й розуми вірян, аби [memberNamePlural] змогли перемогти [place_foeSoldiers_acc].</li>
     <li>setup(tag=meme_Transhumanist)->[founderName] працюва[founder_v] біологом на зорі планетарної колонізації. Бачачи бюрократичні обмеження звичайних колоній, [founderName] сі[founder_v] на невеликий корабель і полеті[founder_v] заснувати власний рух.</li>
     <li>story(uses=1,tag=meme_Transhumanist)->[founderName] зібра[founder_v] команду видатних учених і винахідників, щоб переосмислити людство.</li>
-    <li>lessonIntro(tag=meme_Transhumanist)->Найстарший дослідник мого відділу викладав мені історію технологій – від неоліту до архотеків, – але справжній його урок був не в цьому. Насправді він підводив мене до думки, що</li>
-    <li>lesson(tag=meme_Transhumanist)->небесне майбутнє людства – не з м'яса й кісток, а з кремнію та екзохрому</li>
+    <li>lessonIntro(tag=meme_Transhumanist)->Найстарший дослідник мого відділу викладав мені історію технологій — від неоліту до архотеків, — але справжній його урок був не в цьому. Насправді він підводив мене до думки, що</li>
+    <li>lesson(tag=meme_Transhumanist)->небесне майбутнє людства — не з м’яса й кісток, а з кремнію та екзохрому</li>
     <li>lessonReinforcement(tag=meme_Transhumanist)->Я навіть написа[founder_v] симуляцію, щоб це підтвердити.</li>
-    <li>archistBasis(tag=meme_Transhumanist)->Прагнення людства до технологій породило всемогутніх архотеків – закономірний наступний крок у розвитку свідомості.</li>
+    <li>archistBasis(tag=meme_Transhumanist)->Прагнення людства до технологій породило всемогутніх архотеків — закономірний наступний крок у розвитку свідомості.</li>
     <li>archistFact(tag=meme_Transhumanist)->Технології дають людям змогу ставати схожими на архотеків.</li>
     <li>archistProphecy(tag=meme_Transhumanist)->[inTheEnd] архотеки підуть. Лише достатньо вдосконалені зможуть піти з ними.</li>
     <li>animistBasis(tag=meme_Transhumanist)->Світ духів спрямовує кожну дію у всесвіті, і злитися з ним можна, лише пізнавши й опанувавши закони всесвіту.</li>
-    <li>animistFact(tag=meme_Transhumanist)->Подібне тягнеться до подібного: створи пристрій для певної мети – і його наповнить дух схожої природи.</li>
+    <li>animistFact(tag=meme_Transhumanist)->Подібне тягнеться до подібного: створи пристрій для певної мети — і його наповнить дух схожої природи.</li>
     <li>animistFact(tag=meme_Transhumanist)->Коли технологія зливається з плоттю, їхні духи поєднуються й стають могутнішими.</li>
     <li>animistProphecy(tag=meme_Transhumanist)->[itIsSaid], що одного дня володар реліквії «[relic0_name]» викличе її духа, і той навчить людство найдосконалішої технології біозлиття.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
@@ -1285,9 +1285,9 @@
   <!-- EN: augmentation -->
   <Transhumanist.symbolPacks.5.theme>аугментація</Transhumanist.symbolPacks.5.theme>
   <!-- EN: tree connection -->
-  <TreeConnection.label>зв'язок з деревами</TreeConnection.label>
+  <TreeConnection.label>зв’язок з деревами</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>Дерева – суть життя, і ми мусимо бути поруч із ними.</TreeConnection.description>
+  <TreeConnection.description>Дерева — суть життя, і ми мусимо бути поруч із ними.</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -1314,13 +1314,13 @@
     <li>intro(tag=meme_TreeConnection)->Коли перші арбористи прибули [place_to], вони насадили священний гай, де росли [TreeType_pl], і поклонялися там божеству [deity0_name].</li>
     <li>conflict(tag=meme_TreeConnection)->Якийсь жадібний [foeLeader] вирубував ліс за лісом заради своїх ферм і фабрик, і [memberNamePlural] оплакували вбиті дерева.</li>
     <li>founderJoin(tag=meme_TreeConnection)->[founderName] дивом народи[founder_v]ся з дерева [place_in], і батьки знайшли немовля в гіллі [oldTree].</li>
-    <li>victory(tag=meme_TreeConnection)->[founderName] знайш[founder_ov] [place_foeLeader_acc] сплячим [place_powerCenter_in] і покла[founder_v] йому на груди жолудь. Лютою силою божества [deity0_name] жолудь пустив коріння й пророс крізь тіло [place_foeLeader_gen] – так ми помстилися деревовбивці.</li>
+    <li>victory(tag=meme_TreeConnection)->[founderName] знайш[founder_ov] [place_foeLeader_acc] сплячим [place_powerCenter_in] і покла[founder_v] йому на груди жолудь. Лютою силою божества [deity0_name] жолудь пустив коріння й пророс крізь тіло [place_foeLeader_gen] — так ми помстилися деревовбивці.</li>
     <li>setup(tag=meme_TreeConnection)->У світі, позбавленому глибини й сенсу, [founderName] медитува[founder_v] у лісі, єднаючись із гілкою, коренем і листям, і заснува[founder_v] наш рух.</li>
     <li>story(uses=1,tag=meme_TreeConnection)->[founderName] приводи[founder_v] втомлених до лісу, щоб вони відпочили в його затінку, подихали його повітрям і відновили сили.</li>
     <li>lessonIntro(tag=meme_TreeConnection)->Вам може здатися жартом, що я зрозумі[founder_v] це, сидячи під деревом. Але, слухаючи шепіт його листя, я зна[founder_v], що</li>
     <li>lesson(tag=meme_TreeConnection)->жодна істота у всесвіті не знає більше за дерева</li>
     <li>lessonReinforcement(tag=meme_TreeConnection)->Хай це зерно істини проросте й дасть плоди у вашій душі.</li>
-    <li>archistBasis(tag=meme_TreeConnection)->Дерева – символ архотеків. Як давній дуб, вони височіють над маленьким жолудем, з якого виросли, а їхній вплив поширюється невидимим корінням під поверхнею.</li>
+    <li>archistBasis(tag=meme_TreeConnection)->Дерева — символ архотеків. Як давній дуб, вони височіють над маленьким жолудем, з якого виросли, а їхній вплив поширюється невидимим корінням під поверхнею.</li>
     <li>archistFact(tag=meme_TreeConnection)->Архотеки розвинули свої психічні здібності, відкривши аніма-дерево.</li>
     <li>archistFact(tag=meme_TreeConnection)->Для самовираження архотеки обрали не що-небудь, а особливий вид дерева.</li>
     <li>archistProphecy(tag=meme_TreeConnection)->[inTheEnd] архотеки виростять великий ліс. Ті, хто ввійде в нього й скуштує його плодів, сягнуть вищого буття. А тих, хто забув про дерева, забудуть і архотеки.</li>
@@ -1406,25 +1406,25 @@
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Tunneler)->[deity0_name] народи[deity_v]ся під землею, в серці світу, і благослови[deity_v] тих, хто ближче до божества, – мешканців найглибших долин і тунелів.</li>
-    <li>episode(uses=1,tag=meme_Tunneler)->[deity0_name] наповни[deity_v] скелі багатими мінералами й ресурсами – дарунок тим, кому вистачило мудрості копати вглиб, щоб наблизитися до божества.</li>
+    <li>creation(tag=meme_Tunneler)->[deity0_name] народи[deity_v]ся під землею, в серці світу, і благослови[deity_v] тих, хто ближче до божества, — мешканців найглибших долин і тунелів.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)->[deity0_name] наповни[deity_v] скелі багатими мінералами й ресурсами — дарунок тим, кому вистачило мудрості копати вглиб, щоб наблизитися до божества.</li>
     <li>intro(tag=meme_Tunneler)->Коли перші поселенці прибули [place_to], [deity0_type] [deity0_name] обруши[deity_v] на них нищівний сонячний спалах і змуси[deity_v] жити під землею, щоб у тиші тунелів вони почули божественну мудрість.</li>
-    <li>conflict(tag=meme_Tunneler)->Якийсь [foeLeader], що страждав на клаустрофобію, запропонував новий спосіб видобутку мінералів – [dangerousMining], – і це поставило під загрозу підземні домівки, де жили [memberNamePlural].</li>
+    <li>conflict(tag=meme_Tunneler)->Якийсь [foeLeader], що страждав на клаустрофобію, запропонував новий спосіб видобутку мінералів — [dangerousMining], — і це поставило під загрозу підземні домівки, де жили [memberNamePlural].</li>
     <li>founderJoin(tag=meme_Tunneler)->[founderName] дивом народи[founder_v]ся з каменю [place_of], і батьки знайшли дитя, коли розбили вкриту грибком жеоду.</li>
-    <li>victory(tag=meme_Tunneler)->Згодом [memberNamePlural] прокопали тунель під [place_powerCenter_ins], де засів [foeLeader], а [founderName] за допомогою феромонів приклика[founder_v] гігантських комах, і ті розтерзали [place_foeSoldiers_acc]. Потім [founderName] затягну[founder_v] [place_foeLeader_acc] в глибоке підземелля й ув'язни[founder_v] там.</li>
+    <li>victory(tag=meme_Tunneler)->Згодом [memberNamePlural] прокопали тунель під [place_powerCenter_ins], де засів [foeLeader], а [founderName] за допомогою феромонів приклика[founder_v] гігантських комах, і ті розтерзали [place_foeSoldiers_acc]. Потім [founderName] затягну[founder_v] [place_foeLeader_acc] в глибоке підземелля й ув’язни[founder_v] там.</li>
     <li>dangerousMining->відкритий видобуток</li>
     <li>dangerousMining->комахи з мікрочипами</li>
     <li>dangerousMining->ядерні вибухи</li>
     <li>setup(tag=meme_Tunneler)->У поверховому, безглуздому світі [founderName] медитува[founder_v] у глибокій печері, знайш[founder_ov] сенс і заснува[founder_v] наш рух.</li>
     <li>story(uses=1,tag=meme_Tunneler)->[founderName] хова[founder_v] скарби в глибоких печерах, щоб [memberNamePlural] навчилися копати вглиб.</li>
     <li>lessonIntro(tag=meme_Tunneler)->Кодекс, який я знайш[founder_ov] у Місті Глибин, навчив мене найголовнішого:</li>
-    <li>lesson(tag=meme_Tunneler)->сонячний світ над землею – не місце, де людина розквітає, а місце, де вона помирає</li>
+    <li>lesson(tag=meme_Tunneler)->сонячний світ над землею — не місце, де людина розквітає, а місце, де вона помирає</li>
     <li>lessonReinforcement(tag=meme_Tunneler)->Тож бери лопату й копай зі мною. Могилою це стане, тільки якщо ми зупинимося.</li>
     <li>archistBasis(tag=meme_Tunneler)->Тіла архотеків лежать глибоко під землею, де їхній свідомий субстрат захищений від гамма-променів і сонячних спалахів. Що глибше копаємо, то ближче до них стаємо.</li>
     <li>archistFact(tag=meme_Tunneler)->Архотеки біоінженерно створили для нас нутригриб, щоб людство могло процвітати під землею, поруч із похованими розумами архотеків.</li>
     <li>archistProphecy(tag=meme_Tunneler)->[inTheEnd] архотеки впустять нас до своїх підземних небес.</li>
     <li>animistFact(tag=meme_Tunneler)->Духи корінної породи оберігають тих, хто до них приходить.</li>
-    <li>animistFact(tag=meme_Tunneler)->Найшляхетніші духи – духи каменю, і глибинні камені сильніші й добріші за ті, що нагорі.</li>
+    <li>animistFact(tag=meme_Tunneler)->Найшляхетніші духи — духи каменю, і глибинні камені сильніші й добріші за ті, що нагорі.</li>
     <li>animistFact(tag=meme_Tunneler)->Тривожні люди тривожать духів скель, і це приваблює гігантських комах.</li>
     <li>deity_v(deity0_gender==Female)->ла</li>
     <li>deity_v(deity0_gender!=Female)->в</li>
@@ -1460,7 +1460,7 @@
     <li>memeCreed->бункер</li>
     <li>memeCreed->шурф</li>
     <li>memeAdjective->глибинний</li>
-    <li>memeHyphenPrefix->кам'яно</li>
+    <li>memeHyphenPrefix->кам’яно</li>
     <li>memeHyphenPrefix->печеро</li>
     <li>memeHyphenPrefix->глибинно</li>
     <li>memeHyphenPrefix->суб</li>

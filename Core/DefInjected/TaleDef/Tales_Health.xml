@@ -46,9 +46,9 @@
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] від удару {lookup: [WEAPON_label]; Case; 4}</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і [VICTIM_nameFull] падає</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] жорстоко б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] жорстоко б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>wound_name_past->{VICTIM_gender ? знерухомлений : знерухомлена}</li>
     <li>wound_name_past->{VICTIM_gender ? скалічений : скалічена}</li>
     <li>wound_name_past->{VICTIM_gender ? непритомний : непритомна}</li>
@@ -136,7 +136,7 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] народжує {CHILD_gender ? сина : доньку} на ім'я [CHILD_nameDef]</li>
+    <li>tale_noun->[MOTHER_nameDef] народжує {CHILD_gender ? сина : доньку} на ім’я [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] народжує дитину: [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] тримає на руках [baby]: [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] лежить у ліжку поруч із немовлям: [circumstance_group]</li>
@@ -187,7 +187,7 @@
     <li>image->[PAWN_nameFull] шукає тінь [circumstance_group]</li>
     <li>image->[PAWN_nameFull] повзе випаленою сонцем землею [circumstance_group]</li>
     <li>circumstance_phrase->з червоною сухою шкірою</li>
-    <li>circumstance_phrase->у поту з голови до п'ят</li>
+    <li>circumstance_phrase->у поту з голови до п’ят</li>
     <li>circumstance_phrase->з потрісканими сухими губами</li>
     <li>circumstance_phrase->і відчуває нудоту</li>
     <li>desc_sentence->Довкола лежать [Quantity_adjphrase] висохлих трупів [Animal_pl_gen].</li>
@@ -265,7 +265,7 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] занедужує, і діагноз – [ILLNESS_label]</li>
+    <li>tale_noun->[PAWN_nameDef] занедужує, і діагноз — [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] хитаючись бреде полем [circumstance_group]</li>
     <li>image->[PAWN_nameFull] лежить на землі [circumstance_group]</li>
     <li>image->[PAWN_nameFull] лежить у ліжку [circumstance_group]</li>
@@ -392,7 +392,7 @@
     <li>tale_noun->[KILLER_nameDef] з величезної відстані {lookup: [WEAPON_label]; Case; 4} [wound_name_present] {VICTIM_gender ? супротивника : супротивницю}, і жертвою стає [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] з величезної відстані, а стріляє [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] з величезної відстані: [KILLER_nameDef] стріляє з {lookup: [WEAPON_label]; Case; 1}</li>
-    <li>image->[KILLER_nameFull] бере на приціл {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], а ціль – [VICTIM_nameFull]</li>
+    <li>image->[KILLER_nameFull] бере на приціл {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], а ціль — [VICTIM_nameFull]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
     <li>image->[KILLER_nameFull] холоднокровно [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
     <li>wound_name_past->{VICTIM_gender ? убитий : убита}</li>
@@ -467,10 +467,10 @@
     <li>tale_noun->[KILLER_nameDef] {lookup: [WEAPON_label]; Case; 4} [wound_name_present] {VICTIM_gender ? супротивника : супротивницю}, і жертвою стає [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past], а над {VICTIM_gender ? ним : нею} стоїть [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] від удару {lookup: [WEAPON_label]; Case; 4}, який завдає [KILLER_nameDef]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
     <li>image->[KILLER_nameFull] жорстоко [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>wound_name_past->{VICTIM_gender ? повалений : повалена}</li>
     <li>wound_name_past->{VICTIM_gender ? переможений : переможена}</li>
     <li>wound_name_past->{VICTIM_gender ? подоланий : подолана}</li>
@@ -545,10 +545,10 @@
     <li>tale_noun->[KILLER_nameDef] у ближньому бою {lookup: [WEAPON_label]; Case; 4} [wound_name_present] {VICTIM_gender ? супротивника : супротивницю}, і жертвою стає [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] у ближньому бою, а над {VICTIM_gender ? ним : нею} стоїть [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] падає [wound_name_past] у ближньому бою від удару {lookup: [WEAPON_label]; Case; 4}, який завдає [KILLER_nameDef]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: [KILLER_nameFull] б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
     <li>image->[KILLER_nameFull] жорстоко [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
-    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] падає [wound_name_past]: хтось б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>wound_name_past->{VICTIM_gender ? убитий : убита}</li>
     <li>wound_name_past->{VICTIM_gender ? повалений : повалена}</li>
     <li>wound_name_past->{VICTIM_gender ? зарізаний : зарізана}</li>
@@ -717,13 +717,13 @@
   <Wounded.rulePack.rulesStrings>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю}, і жертвою стає [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] {lookup: [WEAPON_label]; Case; 4} [wound_name_present] {VICTIM_gender ? супротивника : супротивницю}, і жертвою стає [VICTIM_nameDef]</li>
-    <li>tale_noun->[VICTIM_nameDef] зазнає нападу, і нападник – [KILLER_nameDef]</li>
+    <li>tale_noun->[VICTIM_nameDef] зазнає нападу, і нападник — [KILLER_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] отримує рани від удару {lookup: [WEAPON_label]; Case; 4}</li>
     <li>tale_noun->[VICTIM_nameDef] отримує рани</li>
-    <li>image->[VICTIM_nameFull] отримує рани: [KILLER_nameFull] б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] отримує рани: [KILLER_nameFull] б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
     <li>image->[KILLER_nameFull] жорстоко [wound_name_present] {VICTIM_gender ? супротивника : супротивницю} [with_weapon_optional], і жертвою стає [VICTIM_nameFull]</li>
-    <li>image->[VICTIM_nameFull] отримує рани: хтось б'є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] отримує рани: хтось б’є {VICTIM_gender ? його : її} [with_weapon_optional]</li>
     <li>wound_name_past->{VICTIM_gender ? поранений : поранена}</li>
     <li>wound_name_past->{VICTIM_gender ? скалічений : скалічена}</li>
     <li>wound_name_past->{VICTIM_gender ? побитий : побита}</li>
@@ -731,7 +731,7 @@
     <li>wound_name_past->{VICTIM_gender ? атакований : атакована}</li>
     <li>wound_name_present->ранить</li>
     <li>wound_name_present->калічить</li>
-    <li>wound_name_present->б'є</li>
+    <li>wound_name_present->б’є</li>
     <li>wound_name_present->атакує</li>
     <li>wound_name_present->нападає на</li>
     <li>with_weapon_optional->{lookup: [WEAPON_label]; Case; 4} [circumstance_group]</li>

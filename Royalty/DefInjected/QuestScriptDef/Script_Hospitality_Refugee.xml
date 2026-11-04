@@ -86,7 +86,7 @@
     <li>lodgerDiedLeaveMapLetterLabel->Смерть біженця: відхід</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Завдання провалено</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite} – [lastOrNot] [faction_pawnSingular], [whoAskedToStay], – {SUBJECT_gender ? помер : померла}.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite} — [lastOrNot] [faction_pawnSingular], [whoAskedToStay], — {SUBJECT_gender ? помер : померла}.\n\n[questOver]</li>
     <li>letterIntroArrested->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? опинився : опинилася} під вашим арештом.</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->Арешт біженця: гнів</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -95,7 +95,7 @@
     <li>lodgerArrestedLeaveMapLetterLabel->Арешт біженця: відхід</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Завдання провалено</li>
-    <li>lodgersAllArrestedLetterText->{SUBJECT_definite} – [lastOrNot] [faction_pawnSingular], [whoAskedToStay], – {SUBJECT_gender ? опинився : опинилася} під вашим арештом.\n\n[questOver]</li>
+    <li>lodgersAllArrestedLetterText->{SUBJECT_definite} — [lastOrNot] [faction_pawnSingular], [whoAskedToStay], — {SUBJECT_gender ? опинився : опинилася} під вашим арештом.\n\n[questOver]</li>
     <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? лишився : лишилася} напризволяще.</li>
     <li>lodgerLeftBehindMemoryThoughtLetterLabel->Біженця покинуто: гнів</li>
     <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
@@ -183,13 +183,13 @@
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>rewardVerb(lodgerCount==1)->віддячить</li>
     <li>rewardVerb(lodgerCount>=2)->віддячать</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] благає дозволити [lodgersPreposition] пожити в поселенні [map_definite] [questDurationTicks_duration], щоб відпочити й зібратися з силами.\n\nНатомість [lodgersPronoun] [offer] весь цей час працювати й битися задарма.\n\n[joinInfo] Можливо, згодом [lodgersPronoun] ще й [rewardVerb] вам за допомогу, але дізнатися [lodgersPossessive] справжні наміри неможливо.\n\n[travelerInfo]. За бажання ви можете вбити [lodgersObjective], заарештувати, продати чи розібрати на органи – без жодних дипломатичних наслідків.</li>
-    <li>approachInfo(lodgerCount==1)->До вас прямує відчайдушний [faction_pawnSingular] на ім'я [asker_nameDef].</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] благає дозволити [lodgersPreposition] пожити в поселенні [map_definite] [questDurationTicks_duration], щоб відпочити й зібратися з силами.\n\nНатомість [lodgersPronoun] [offer] весь цей час працювати й битися задарма.\n\n[joinInfo] Можливо, згодом [lodgersPronoun] ще й [rewardVerb] вам за допомогу, але дізнатися [lodgersPossessive] справжні наміри неможливо.\n\n[travelerInfo]. За бажання ви можете вбити [lodgersObjective], заарештувати, продати чи розібрати на органи — без жодних дипломатичних наслідків.</li>
+    <li>approachInfo(lodgerCount==1)->До вас прямує відчайдушний [faction_pawnSingular] на ім’я [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->До вас прямують [asker_nameDef] та ще один відчайдушний [faction_pawnSingular].</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->До вас прямує [asker_nameDef] з дитиною.</li>
-    <li>approachInfo(lodgerCount>=3)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]). Їхній ватажок – [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]), серед них – дитина. Їхній ватажок – [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]), серед них є діти. Їхній ватажок – [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]). Їхній ватажок — [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]), серед них — дитина. Їхній ватажок — [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]), серед них є діти. Їхній ватажок — [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->До вас прямує група відчайдушних {lookup: [faction_pawnsPlural]; Case; 1} ([lodgerCount]): [asker_nameDef] і діти, яких [asker_pronoun] {asker_gender ? узяв : узяла} під свою опіку ([lodgersCountMinusOne]).</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] каже, що {asker_gender ? втратив : втратила} домівку під час недавнього нападу.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] каже, що {asker_gender ? прокинувся : прокинулася} з криптосну зовсім {asker_gender ? самотнім : самотньою}, без жодного друга.</li>
@@ -300,7 +300,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Нагорода за зраду: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] {factionOpponent_gender ? обіцяв : обіцяла} вам нагороду, якщо від ваших рук загине [asker_nameDef][otherMembers]. До {factionOpponent_gender ? нього : неї} дійшла звістка, що справу зроблено, тож [factionOpponent_pronoun] надсилає вам транспортною капсулою таке (загальна вартість – [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] {factionOpponent_gender ? обіцяв : обіцяла} вам нагороду, якщо від ваших рук загине [asker_nameDef][otherMembers]. До {factionOpponent_gender ? нього : неї} дійшла звістка, що справу зроблено, тож [factionOpponent_pronoun] надсилає вам транспортною капсулою таке (загальна вартість — [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Нагороду за зраду скасовано</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] {factionOpponent_gender ? дізнався : дізналася}, що всі вцілілі члени фракції [faction_name] приєдналися до вас! [factionOpponent_nameDef] {factionOpponent_gender ? хотів : хотіла} смерті всіх членів фракції [faction_name], тож відкликає свою пропозицію.</li>
     <li>betrayalOfferFailedLetterLabel->Нагороду за зраду скасовано</li>
@@ -333,7 +333,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef] ([factionOpponent_faction_pawnSingular] із фракції [factionOpponent_faction_name]) {factionOpponent_gender ? дізнався : дізналася}, що в поселенні [map_definite] у вас [areIs] [asker_nameDef] [otherLodgers]. [asker_nameDef] – {factionOpponent_gender ? його : її} ворог, і [factionOpponent_pronoun] прагне смерті цього ворога.\n\nЯкщо ви вб'єте всіх членів фракції [faction_name], [factionOpponent_pronoun] надішле вам таку нагороду (загальна вартість – [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef] ([factionOpponent_faction_pawnSingular] із фракції [factionOpponent_faction_name]) {factionOpponent_gender ? дізнався : дізналася}, що в поселенні [map_definite] у вас [areIs] [asker_nameDef] [otherLodgers]. [asker_nameDef] — {factionOpponent_gender ? його : її} ворог, і [factionOpponent_pronoun] прагне смерті цього ворога.\n\nЯкщо ви вб’єте всіх членів фракції [faction_name], [factionOpponent_pronoun] надішле вам таку нагороду (загальна вартість — [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -356,7 +356,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Подяка за гостинність</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] виходить на зв'язок. [rewardDelayTicks_duration] тому ви допомогли [rewardGiver_objective] у скрутну хвилину.\n\nВідтоді [rewardGiver_pronoun] {rewardGiver_gender ? став : стала} на ноги й тепер хоче як слід віддячити вам за допомогу. [rewardGiver_pronoun] надсилає вам транспортною капсулою таке:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] виходить на зв’язок. [rewardDelayTicks_duration] тому ви допомогли [rewardGiver_objective] у скрутну хвилину.\n\nВідтоді [rewardGiver_pronoun] {rewardGiver_gender ? став : стала} на ноги й тепер хоче як слід віддячити вам за допомогу. [rewardGiver_pronoun] надсилає вам транспортною капсулою таке:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
