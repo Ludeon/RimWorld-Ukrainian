@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: spark slave rebellion -->
-  <SparkSlaveRebellion.label>іскра повстання рабів</SparkSlaveRebellion.label>
+  <SparkSlaveRebellion.label>підбурювання до повстання</SparkSlaveRebellion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] suggested they make a break for it.</li>
     <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to take back [RECIPIENT_possessive] freedom.</li>
@@ -10,14 +10,14 @@
     <li>r_logentry->[INITIATOR_nameDef] whispered that security was lax and now would be a good time to escape.</li>
   -->
   <SparkSlaveRebellion.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] пропонує втечу.</li>
-    <li>r_logentry->[INITIATOR_nameDef] заохочує [RECIPIENT_nameDef] повернути собі волю.</li>
-    <li>r_logentry->[INITIATOR_nameDef] говорить, що потрібно покласти кінець рабству!</li>
-    <li>r_logentry->[INITIATOR_nameDef] робить промову про життя після кайданів, та заохочує [RECIPIENT_nameDef] до втечі.</li>
-    <li>r_logentry->[INITIATOR_nameDef] шепоче, що охорона послабла і саме зараз час для втечі.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? запропонував : запропонувала} тікати разом.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? переконував : переконувала}, що [RECIPIENT_nameDef] має повернути собі свободу.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? говорив : говорила} про те, щоб скинути ярмо рабства й тікати.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? розповідав : розповідала} про життя без неволі й {INITIATOR_gender ? переконував : переконувала}, що [RECIPIENT_nameDef] має тікати.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? прошепотів : прошепотіла}, що охорона розслабилася і саме час тікати.</li>
   </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
   <!-- EN: suppress -->
-  <Suppress.label>придушення повстання</Suppress.label>
+  <Suppress.label>пригнічення</Suppress.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] there would be punishments for rebellion.</li>
     <li>r_logentry->[INITIATOR_nameDef] warned [RECIPIENT_nameDef] that disobedience would be punished.</li>
@@ -25,9 +25,9 @@
     <li>r_logentry->[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>
   -->
   <Suppress.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] каже [RECIPIENT_nameDef], що вони зустрінуться з тяжким покаранням після бунту.</li>
-    <li>r_logentry->[INITIATOR_nameDef] попереджує [RECIPIENT_nameDef], що у разі невиконання команд, [RECIPIENT_possessive] буде покарано.</li>
-    <li>r_logentry->[INITIATOR_nameDef] утримує [RECIPIENT_nameDef] від будь-яких порушень.</li>
-    <li>r_logentry->[INITIATOR_nameDef] нагадує [RECIPIENT_nameDef], що необхідно слідувати наказам та не задавати зайвих запитань.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? нагадав : нагадала}, що за бунт [RECIPIENT_nameDef] поплатиться.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? попередив : попередила}, що [RECIPIENT_nameDef] понесе кару за непослух.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? застеріг : застерегла}, що [RECIPIENT_nameDef] має уникати будь-яких порушень.</li>
+    <li>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? натякнув : натякнула}, що [RECIPIENT_nameDef] має виконувати накази й не ставити зайвих запитань.</li>
   </Suppress.logRulesInitiator.rulesStrings>
 </LanguageData>

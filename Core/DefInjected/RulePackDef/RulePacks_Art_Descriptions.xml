@@ -12,9 +12,9 @@
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->[depiction] розповідає, як [tale_noun] [DATE].</li>
-    <li>context_sentence->[depiction] стосується того, як [tale_noun] [DATE].</li>
-    <li>context_sentence->[depiction] розповідає історію, як [tale_noun] [DATE].</li>
+    <li>context_sentence->Цей твір розповідає, як [tale_noun]. Це сталося [DATE]</li>
+    <li>context_sentence->Сюжет відсилає до подій [DATE], коли [tale_noun].</li>
+    <li>context_sentence->Твір оповідає історію про те, як [tale_noun]. Сталося це [DATE]</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   <!-- EN:
     <li>r_art_description->[physical_description_root]</li>
@@ -199,175 +199,280 @@
   -->
   <ArtDescriptionUtility_Global.rulePack.rulesStrings>
     <li>style_group->[artextra_clause]. [style_clause].</li>
-    <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
+    <li>style_group->[style_clause]. [artconjunction][artextra_clause].</li>
     <li>style_group->[style_clause].</li>
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
     <li>artconjunction(p=6)-></li>
-    <li>artconjunction->as an interesting contrast,</li>
-    <li>artconjunction->rounding out the work,</li>
-    <li>artconjunction->in addition to that,</li>
-    <li>artconjunction->strikingly,</li>
-    <li>artconjunction->provocatively,</li>
-    <li>artconjunction->unusually for this kind of work,</li>
-    <li>artconjunction->though few would expect it,</li>
-    <li>artconjunction->besides that,</li>
-    <li>artextra_clause->зображення облямоване [subimageplural]</li>
-    <li>artextra_clause->at the edge of the image are [subimageplural]</li>
-    <li>artextra_clause->there is [subimagesingle] [side_position]</li>
-    <li>artextra_clause->the subjects are in front of [subimageany]</li>
-    <li>artextra_clause->the lower part of the image is dominated by [subimageany]</li>
-    <li>artextra_clause->the scene takes place in the middle of a [Community]</li>
-    <li>artextra_clause->the scene takes place on the outskirts of a [Community]</li>
-    <li>artextra_clause->the scene takes place inside a [Community] built near a [TerrainFeature]</li>
-    <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [pawn_adj] [Character] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s appear [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position]</li>
-    <li>artextra_clause->a [Animal] [idles] [side_position]</li>
-    <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-    <li>artextra_clause->the [emotional_expression] head of a [pawn_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->a [pawn_adj] [PersonJob] watches over all while [emotional_expression]</li>
-    <li>artextra_clause->the head of a [pawn_adj] [PersonJob] watches over all</li>
-    <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
+    <li>artconjunction->як цікавий контраст, </li>
+    <li>artconjunction->на завершення, </li>
+    <li>artconjunction->крім того, </li>
+    <li>artconjunction->що вражає, </li>
+    <li>artconjunction->доволі зухвало, </li>
+    <li>artconjunction->незвично для такого твору, </li>
+    <li>artconjunction->хоч мало хто цього очікував би, </li>
+    <li>artconjunction->окрім цього, </li>
+    <li>artextra_clause->зображення облямовують [subimageplural]</li>
+    <li>artextra_clause->на краю зображення — [subimageplural]</li>
+    <li>artextra_clause->[side_position] — [subimagesingle]</li>
+    <li>artextra_clause->персонажі стоять на тлі [subimageany_gen]</li>
+    <li>artextra_clause->у нижній частині зображення переважає [subimageany]</li>
+    <li>artextra_clause->дія відбувається посеред [Community_gen]</li>
+    <li>artextra_clause->дія відбувається на околиці [Community_gen]</li>
+    <li>artextra_clause->дія відбувається в [Community_loc] біля [TerrainFeature_gen]</li>
+    <li>artextra_clause->[side_position] [idles] [Character]</li>
+    <li>artextra_clause->[side_position] [idles] [pawn_char]</li>
+    <li>artextra_clause->[side_position] видніються [Quantity_adjphrase] [Character_pl_gen]</li>
+    <li>artextra_clause->[side_position] видніються [Quantity_adjphrase] [pawn_chars_gen]</li>
+    <li>artextra_clause->[side_position] [idles] [Animal]</li>
+    <li>artextra_clause->якщо примружитися, [composition] композиція зображення складається в обриси [subimageany_gen]</li>
+    <li>artextra_clause->голова [pawn_job_gen] наглядає за всім, [emotional_expression]</li>
+    <li>artextra_clause->[pawn_job] наглядає за всім, [emotional_expression]</li>
+    <li>artextra_clause->голова [pawn_job_gen] наглядає за всім</li>
+    <li>artextra_clause->усе зображення складено з ретельно розташованих [subimageplural_gen]</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->a [Character]</li>
-    <li>subimagesingle->a [TerrainFeature]</li>
-    <li>subimagesingle->a [Community]</li>
-    <li>subimagesingle->a [TreeType] tree</li>
-    <li>subimagesingle->a [Vegetable]</li>
-    <li>subimagesingle->a [AnimalGroup] of [Animal]s</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
-    <li>subimageplural->{lookup: [Quantity_adjphrase]; Quantity; 4} {lookup: [Shape]; Nouns; 1-10}</li>
-    <li>pawn_adj->dead</li>
-    <li>pawn_adj->dying</li>
-    <li>pawn_adj->injured</li>
+    <li>subimageany_gen->[subimagesingle_gen]</li>
+    <li>subimageany_gen->[subimageplural_gen]</li>
+    <li>subimagesingle(p=4)->[Character]</li>
+    <li>subimagesingle->[TerrainFeature]</li>
+    <li>subimagesingle->[Community]</li>
+    <li>subimagesingle->[TreeType]</li>
+    <li>subimagesingle->[Vegetable]</li>
+    <li>subimagesingle->[AnimalGroup] [Animal_pl_gen]</li>
+    <li>subimagesingle_gen(p=4)->[Character_gen]</li>
+    <li>subimagesingle_gen->[TerrainFeature_gen]</li>
+    <li>subimagesingle_gen->[Community_gen]</li>
+    <li>subimagesingle_gen->[TreeType_gen]</li>
+    <li>subimagesingle_gen->[Vegetable_gen]</li>
+    <li>subimagesingle_gen->[AnimalGroup_gen] [Animal_pl_gen]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character_pl_gen]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable_pl_gen]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape_pl_gen]</li>
+    <li>subimageplural_gen(p=3)->[Quantity_adjphrase_gen] [Character_pl_gen]</li>
+    <li>subimageplural_gen->[Quantity_adjphrase_gen] [Vegetable_pl_gen]</li>
+    <li>subimageplural_gen->[Quantity_adjphrase_gen] [Shape_pl_gen]</li>
+    <li>pawn_char(p=3)->[pawn_adj] [Character_m]</li>
+    <li>pawn_char(p=2)->[pawn_adj_f] [Character_f]</li>
+    <li>pawn_char->[pawn_adj_n] [Character_n]</li>
+    <li>pawn_char(p=3)->[Character] [pawn_post]</li>
+    <li>pawn_chars_gen(p=2)->[pawn_adj_pl_gen] [Character_pl_gen]</li>
+    <li>pawn_chars_gen->[Character_pl_gen] [pawn_post_pl]</li>
+    <li>pawn_job(p=2)->[pawn_adj] [PersonJob_m]</li>
+    <li>pawn_job->[pawn_adj_f] [PersonJob_f]</li>
+    <li>pawn_job(p=2)->[PersonJob] [pawn_post]</li>
+    <li>pawn_job_gen(p=2)->[pawn_adj_gen] [PersonJob_m_gen]</li>
+    <li>pawn_job_gen->[pawn_adj_f_gen] [PersonJob_f_gen]</li>
+    <li>pawn_job_gen(p=2)->[PersonJob_gen] [pawn_post]</li>
+    <li>pawn_adj->мертвий</li>
+    <li>pawn_adj->умирущий</li>
+    <li>pawn_adj->поранений</li>
     <li>pawn_adj->сплячий</li>
-    <li>pawn_adj->standing</li>
-    <li>pawn_adj->sitting</li>
-    <li>pawn_adj->crazy</li>
-    <li>pawn_adj->young</li>
-    <li>pawn_adj->old</li>
-    <li>pawn_adj->[Gore]-covered</li>
-    <li>pawn_adj->filthy</li>
-    <li>pawn_adj->[Apparel]-wearing</li>
-    <li>pawn_adj->[Weapon]-wielding</li>
-    <li>pawn_adj->[Vegetable]-eating</li>
-    <li>emotional_expression->smiling</li>
-    <li>emotional_expression->frowning</li>
-    <li>emotional_expression->scowling</li>
-    <li>emotional_expression->laughing</li>
-    <li>emotional_expression->staring</li>
-    <li>emotional_expression->crying</li>
-    <li>emotional_expression->screaming</li>
-    <li>emotional_expression->overjoyed</li>
-    <li>idles->sits</li>
-    <li>idles->stands</li>
-    <li>idles->waits</li>
-    <li>idles->smiles</li>
-    <li>idles->lies</li>
-    <li>idles->poses</li>
-    <li>idles->appears</li>
-    <li>idles->is shown</li>
-    <li>idles->fades in</li>
-    <li>idles->floats</li>
-    <li>side_position->off to one side</li>
-    <li>side_position->in the background</li>
-    <li>side_position->in the distance</li>
-    <li>side_position->in the lower part of the image</li>
-    <li>side_position->in the upper part of the image</li>
-    <li>side_position->to the left of the main scene</li>
-    <li>side_position->to the right of the main scene</li>
-    <li>side_position->near the edge of the image</li>
-    <li>side_position->near the main subject</li>
-    <li>side_position->far from the main subject</li>
-    <li>side_position->beneath the main subject</li>
-    <li>side_position->behind the focal point</li>
-    <li>style_clause(p=4)->the work [symbolizes] [ConceptAny]</li>
-    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
-    <li>style_clause->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
-    <li>style_clause->the work is executed in a [artstyle_adj] style</li>
-    <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
-    <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
-    <li>style_clause->the overall composition is [composition]</li>
-    <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
-    <li>style_clause->the image somehow expresses both [ConceptAny] and [ConceptAny]</li>
-    <li>style_clause->the image contrasts [ConceptAny] with [ConceptAny]</li>
-    <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
-    <li>style_clause->the work is shaded in hues of [Color] and [Color]</li>
-    <li>style_clause->almost every shape in the image seems to be [composition]</li>
-    <li>symbolizes->symbolizes</li>
-    <li>symbolizes->seems to symbolize</li>
-    <li>symbolizes->represents</li>
-    <li>symbolizes->seems to represent</li>
-    <li>symbolizes->seems to express</li>
-    <li>symbolizes->reminds the viewer of</li>
-    <li>symbolizes->conveys the emotions of</li>
-    <li>symbolizes->makes the viewer think of</li>
-    <li>symbolizes->represents the artist's</li>
-    <li>symbolizes->suggests the concept of</li>
-    <li>depicts->depicts</li>
-    <li>depicts->shows</li>
-    <li>depicts->portrays</li>
-    <li>depicts->resembles</li>
-    <li>depicts->illustrates</li>
-    <li>depicts->represents</li>
-    <li>depicts->is shaped like</li>
-    <li>depiction->картина</li>
-    <li>depiction->зображення</li>
+    <li>pawn_adj->божевільний</li>
+    <li>pawn_adj->молодий</li>
+    <li>pawn_adj->старий</li>
+    <li>pawn_adj->брудний</li>
+    <li>pawn_adj_f->мертва</li>
+    <li>pawn_adj_f->умируща</li>
+    <li>pawn_adj_f->поранена</li>
+    <li>pawn_adj_f->спляча</li>
+    <li>pawn_adj_f->божевільна</li>
+    <li>pawn_adj_f->молода</li>
+    <li>pawn_adj_f->стара</li>
+    <li>pawn_adj_f->брудна</li>
+    <li>pawn_adj_n->мертве</li>
+    <li>pawn_adj_n->умируще</li>
+    <li>pawn_adj_n->поранене</li>
+    <li>pawn_adj_n->спляче</li>
+    <li>pawn_adj_n->божевільне</li>
+    <li>pawn_adj_n->молоде</li>
+    <li>pawn_adj_n->старе</li>
+    <li>pawn_adj_n->брудне</li>
+    <li>pawn_adj_gen->мертвого</li>
+    <li>pawn_adj_gen->умирущого</li>
+    <li>pawn_adj_gen->пораненого</li>
+    <li>pawn_adj_gen->сплячого</li>
+    <li>pawn_adj_gen->божевільного</li>
+    <li>pawn_adj_gen->молодого</li>
+    <li>pawn_adj_gen->старого</li>
+    <li>pawn_adj_gen->брудного</li>
+    <li>pawn_adj_f_gen->мертвої</li>
+    <li>pawn_adj_f_gen->умирущої</li>
+    <li>pawn_adj_f_gen->пораненої</li>
+    <li>pawn_adj_f_gen->сплячої</li>
+    <li>pawn_adj_f_gen->божевільної</li>
+    <li>pawn_adj_f_gen->молодої</li>
+    <li>pawn_adj_f_gen->старої</li>
+    <li>pawn_adj_f_gen->брудної</li>
+    <li>pawn_adj_pl_gen->мертвих</li>
+    <li>pawn_adj_pl_gen->умирущих</li>
+    <li>pawn_adj_pl_gen->поранених</li>
+    <li>pawn_adj_pl_gen->сплячих</li>
+    <li>pawn_adj_pl_gen->божевільних</li>
+    <li>pawn_adj_pl_gen->молодих</li>
+    <li>pawn_adj_pl_gen->старих</li>
+    <li>pawn_adj_pl_gen->брудних</li>
+    <li>pawn_post->у [Gore_loc]</li>
+    <li>pawn_post->у [Apparel_loc]</li>
+    <li>pawn_post->з [Weapon_ins]</li>
+    <li>pawn_post->що їсть [Vegetable_acc]</li>
+    <li>pawn_post->що стоїть</li>
+    <li>pawn_post->що сидить</li>
+    <li>pawn_post_pl->у [Gore_loc]</li>
+    <li>pawn_post_pl->у [Apparel_pl_loc]</li>
+    <li>pawn_post_pl->з [Weapon_pl_ins]</li>
+    <li>pawn_post_pl->що їдять [Vegetable_pl_acc]</li>
+    <li>pawn_post_pl->що стоять</li>
+    <li>pawn_post_pl->що сидять</li>
+    <li>emotional_expression->усміхаючись</li>
+    <li>emotional_expression->насупившись</li>
+    <li>emotional_expression->похмуро зиркаючи</li>
+    <li>emotional_expression->сміючись</li>
+    <li>emotional_expression->пильно вдивляючись</li>
+    <li>emotional_expression->плачучи</li>
+    <li>emotional_expression->кричачи</li>
+    <li>emotional_expression->сяючи від щастя</li>
+    <li>idles->сидить</li>
+    <li>idles->стоїть</li>
+    <li>idles->чекає</li>
+    <li>idles->усміхається</li>
+    <li>idles->лежить</li>
+    <li>idles->позує</li>
+    <li>idles->з’являється</li>
+    <li>idles->видніється</li>
+    <li>idles->проступає з тла</li>
+    <li>idles->ширяє</li>
+    <li>side_position->осторонь</li>
+    <li>side_position->на задньому плані</li>
+    <li>side_position->вдалині</li>
+    <li>side_position->у нижній частині зображення</li>
+    <li>side_position->у верхній частині зображення</li>
+    <li>side_position->ліворуч від головної сцени</li>
+    <li>side_position->праворуч від головної сцени</li>
+    <li>side_position->біля краю зображення</li>
+    <li>side_position->поруч із головною фігурою</li>
+    <li>side_position->далеко від головної фігури</li>
+    <li>side_position->під головною фігурою</li>
+    <li>side_position->за центром композиції</li>
+    <li>style_clause(p=4)->твір [symbolizes] [ConceptAny_acc]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny_acc]</li>
+    <li>style_clause->твір пронизаний ідеєю [ConceptAny_gen] і виконаний у [artstyle_loc] стилі</li>
+    <li>style_clause->твір виконано в [artstyle_loc] стилі</li>
+    <li>style_clause->стиль центральної сцени — [artstyle_adj], а тла — [artstyle_adj], і вони різко дисонують</li>
+    <li>style_clause->настрій твору — [artstyle_adj], а будова — [composition]</li>
+    <li>style_clause->загальна композиція — [composition]</li>
+    <li>style_clause->стиль — [artstyle_adj], але з елементами в [artstyle_loc] дусі</li>
+    <li>style_clause->зображення якимось чином виражає водночас [ConceptAny_acc] і [ConceptAny_acc]</li>
+    <li>style_clause->зображення протиставляє [ConceptAny_acc] і [ConceptAny_acc]</li>
+    <li>style_clause->[composition] будова зображення майже суперечить його [artstyle_loc] стилю</li>
+    <li>style_clause->твір виконано в [Color_pl_loc] і [Color_pl_loc] тонах</li>
+    <li>style_clause->майже кожна форма на зображенні, здається, [composition]</li>
+    <li>symbolizes->символізує</li>
+    <li>symbolizes->ніби символізує</li>
+    <li>symbolizes->уособлює</li>
+    <li>symbolizes->ніби уособлює</li>
+    <li>symbolizes->ніби виражає</li>
+    <li>symbolizes->нагадує глядачеві про</li>
+    <li>symbolizes->емоційно передає</li>
+    <li>symbolizes->навіює думки про</li>
+    <li>symbolizes->по-своєму трактує</li>
+    <li>symbolizes->натякає на</li>
+    <li>depicts->зображує</li>
+    <li>depicts->показує</li>
+    <li>depicts->змальовує</li>
+    <li>depicts->нагадує</li>
+    <li>depicts->ілюструє</li>
+    <li>depicts->відтворює</li>
+    <li>depicts->передає</li>
+    <li>depiction(p=3)->зображення</li>
+    <li>depiction->малюнок</li>
+    <li>depiction->сюжет</li>
     <li>depiction->образ</li>
-    <li>depiction->репрезентація</li>
-    <li>depiction->ілюстрація</li>
-    <li>depiction->твір мистецтва</li>
-    <li>composition->triangular</li>
-    <li>composition->rectangular</li>
-    <li>composition->square</li>
-    <li>composition->unbalanced</li>
-    <li>composition->well-balanced</li>
-    <li>composition->dynamic</li>
-    <li>composition->static</li>
-    <li>composition->vertical</li>
-    <li>composition->horizontal</li>
-    <li>composition->focused</li>
-    <li>artstyle_adj->unoriginal</li>
-    <li>artstyle_adj->simple</li>
-    <li>artstyle_adj->complex and realistic</li>
-    <li>artstyle_adj->surrealistic</li>
-    <li>artstyle_adj->classical</li>
-    <li>artstyle_adj->modern</li>
-    <li>artstyle_adj->symbolic</li>
-    <li>artstyle_adj->amateurish yet attractive</li>
-    <li>artstyle_adj->detail-oriented</li>
-    <li>artstyle_adj->blocky</li>
-    <li>artstyle_adj->cubist</li>
-    <li>artstyle_adj->impressionistic</li>
-    <li>artstyle_adj->expressionistic</li>
-    <li>artstyle_adj->photographic</li>
-    <li>artstyle_adj->baroque</li>
-    <li>artstyle_adj->dadaist</li>
-    <li>artstyle_adj->glitch-art</li>
-    <li>artstyle_adj->pixelated</li>
-    <li>artstyle_adj->fauvist</li>
-    <li>artstyle_adj->folksy</li>
-    <li>artstyle_adj->figurative</li>
-    <li>artstyle_adj->sinuous</li>
-    <li>artstyle_adj->geometric</li>
-    <li>artstyle_adj->abstract</li>
-    <li>artstyle_adj->hyper-realistic</li>
-    <li>artstyle_adj->pop art</li>
-    <li>artstyle_adj->minimalistic</li>
-    <li>artstyle_adj->neoclassical</li>
-    <li>artstyle_adj->cel-shaded</li>
-    <li>artstyle_adj->post-impressionistic</li>
-    <li>artstyle_adj->purist</li>
-    <li>artstyle_adj->rococo</li>
-    <li>artstyle_adj->romanesque</li>
-    <li>artstyle_adj->romantic</li>
-    <li>artstyle_adj->graffiti-like</li>
-    <li>artstyle_adj->erotic</li>
-    <li>artstyle_adj->sensual</li>
-    <li>artstyle_adj->heartfelt</li>
+    <li>composition->трикутна</li>
+    <li>composition->прямокутна</li>
+    <li>composition->квадратна</li>
+    <li>composition->незбалансована</li>
+    <li>composition->врівноважена</li>
+    <li>composition->динамічна</li>
+    <li>composition->статична</li>
+    <li>composition->вертикальна</li>
+    <li>composition->горизонтальна</li>
+    <li>composition->зосереджена</li>
+    <li>artstyle_adj->невигадливий</li>
+    <li>artstyle_adj->простий</li>
+    <li>artstyle_adj->складний і реалістичний</li>
+    <li>artstyle_adj->сюрреалістичний</li>
+    <li>artstyle_adj->класичний</li>
+    <li>artstyle_adj->сучасний</li>
+    <li>artstyle_adj->символічний</li>
+    <li>artstyle_adj->аматорський, але привабливий</li>
+    <li>artstyle_adj->ретельно деталізований</li>
+    <li>artstyle_adj->кутастий</li>
+    <li>artstyle_adj->кубістичний</li>
+    <li>artstyle_adj->імпресіоністичний</li>
+    <li>artstyle_adj->експресіоністичний</li>
+    <li>artstyle_adj->фотографічний</li>
+    <li>artstyle_adj->бароковий</li>
+    <li>artstyle_adj->дадаїстичний</li>
+    <li>artstyle_adj->глітч-артовий</li>
+    <li>artstyle_adj->піксельний</li>
+    <li>artstyle_adj->фовістський</li>
+    <li>artstyle_adj->народний</li>
+    <li>artstyle_adj->фігуративний</li>
+    <li>artstyle_adj->звивистий</li>
+    <li>artstyle_adj->геометричний</li>
+    <li>artstyle_adj->абстрактний</li>
+    <li>artstyle_adj->гіперреалістичний</li>
+    <li>artstyle_adj->поп-артовий</li>
+    <li>artstyle_adj->мінімалістичний</li>
+    <li>artstyle_adj->неокласичний</li>
+    <li>artstyle_adj->мультиплікаційний</li>
+    <li>artstyle_adj->постімпресіоністичний</li>
+    <li>artstyle_adj->пуристський</li>
+    <li>artstyle_adj->рококовий</li>
+    <li>artstyle_adj->романський</li>
+    <li>artstyle_adj->романтичний</li>
+    <li>artstyle_adj->вуличний</li>
+    <li>artstyle_adj->еротичний</li>
+    <li>artstyle_adj->чуттєвий</li>
+    <li>artstyle_adj->щирий</li>
+    <li>artstyle_loc->невигадливому</li>
+    <li>artstyle_loc->простому</li>
+    <li>artstyle_loc->складному й реалістичному</li>
+    <li>artstyle_loc->сюрреалістичному</li>
+    <li>artstyle_loc->класичному</li>
+    <li>artstyle_loc->сучасному</li>
+    <li>artstyle_loc->символічному</li>
+    <li>artstyle_loc->аматорському, але привабливому</li>
+    <li>artstyle_loc->ретельно деталізованому</li>
+    <li>artstyle_loc->кутастому</li>
+    <li>artstyle_loc->кубістичному</li>
+    <li>artstyle_loc->імпресіоністичному</li>
+    <li>artstyle_loc->експресіоністичному</li>
+    <li>artstyle_loc->фотографічному</li>
+    <li>artstyle_loc->бароковому</li>
+    <li>artstyle_loc->дадаїстичному</li>
+    <li>artstyle_loc->глітч-артовому</li>
+    <li>artstyle_loc->піксельному</li>
+    <li>artstyle_loc->фовістському</li>
+    <li>artstyle_loc->народному</li>
+    <li>artstyle_loc->фігуративному</li>
+    <li>artstyle_loc->звивистому</li>
+    <li>artstyle_loc->геометричному</li>
+    <li>artstyle_loc->абстрактному</li>
+    <li>artstyle_loc->гіперреалістичному</li>
+    <li>artstyle_loc->поп-артовому</li>
+    <li>artstyle_loc->мінімалістичному</li>
+    <li>artstyle_loc->неокласичному</li>
+    <li>artstyle_loc->мультиплікаційному</li>
+    <li>artstyle_loc->постімпресіоністичному</li>
+    <li>artstyle_loc->пуристському</li>
+    <li>artstyle_loc->рококовому</li>
+    <li>artstyle_loc->романському</li>
+    <li>artstyle_loc->романтичному</li>
+    <li>artstyle_loc->вуличному</li>
+    <li>artstyle_loc->еротичному</li>
+    <li>artstyle_loc->чуттєвому</li>
+    <li>artstyle_loc->щирому</li>
   </ArtDescriptionUtility_Global.rulePack.rulesStrings>
 </LanguageData>

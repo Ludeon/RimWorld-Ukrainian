@@ -12,9 +12,9 @@
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
   <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-    <li>questDescription->Ви дізналися про стародавній термінал, який містить інформацію про реліквію, відому як [relic_name]. Однак термінал знаходиться в оточенні племінного села, і місцеві жителі його шанують. Вони не належать до жодної з відомих фракцій.\n\n[visitInfo]</li>
-    <li>visitInfo(allowViolentQuests==true)->Вони готові дозволити вам відвідати термінал під виглядом паломництва, але вони нападуть, якщо ви його торкнетесь.\n\nВи можете напасти на село ззовні або мирно увійти й спробувати швидко зламати термінал та втекти з даними.\n\nОбережно: якщо ви проведете більше [timer_duration] у селі або побудуєте щось поблизу, місцеві жителі нападуть та викличуть підкріплення.</li>
-    <li>visitInfo(allowViolentQuests==false)->Вони готові дозволити вам відвідати термінал під виглядом паломництва.</li>
+    <li>questDescription->Ви дізналися про старовинний термінал, де зберігаються відомості про реліквію, відому як [relic_name]. Проте термінал стоїть посеред племінного села, і місцеві його шанують. Вони не належать до жодної великої фракції.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Вони пустять вас нібито на поклоніння терміналу, але нападуть, щойно ви його торкнетеся.\n\nМожна атакувати село ззовні або мирно увійти й спробувати швидко втекти з даними термінала.\n\nОбережно: якщо пробудете в селі понад [timer_duration] або збудуєте щось поблизу, місцеві нападуть і покличуть підкріплення.</li>
+    <li>visitInfo(allowViolentQuests==false)->Вони не заперечуватимуть проти ваших відвідин.</li>
   </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
@@ -35,21 +35,21 @@
     <li>terminalName->silicon</li>
   -->
   <Hack_WorshippedTerminal.questNameRules.rulesStrings>
-    <li>questName->The [adj] [terminalName]</li>
-    <li>adj->worshipped</li>
-    <li>adj->venerated</li>
-    <li>adj->ancient</li>
-    <li>adj->villager's</li>
-    <li>adj->village</li>
-    <li>adj->tribal</li>
-    <li>adj->secret</li>
-    <li>terminalName(p=4)->terminal</li>
-    <li>terminalName->machine</li>
-    <li>terminalName->device</li>
-    <li>terminalName->screen</li>
-    <li>terminalName->computer</li>
-    <li>terminalName->databank</li>
-    <li>terminalName->database</li>
-    <li>terminalName->silicon</li>
+    <li>questName->[adj] [terminalName]</li>
+    <li>adj->Шанований</li>
+    <li>adj->Обожнюваний</li>
+    <li>adj->Старовинний</li>
+    <li>adj->Селянський</li>
+    <li>adj->Сільський</li>
+    <li>adj->Племінний</li>
+    <li>adj->Таємний</li>
+    <li>terminalName(p=4)->термінал</li>
+    <li>terminalName->механізм</li>
+    <li>terminalName->пристрій</li>
+    <li>terminalName->екран</li>
+    <li>terminalName->комп’ютер</li>
+    <li>terminalName->банк даних</li>
+    <li>terminalName->сервер</li>
+    <li>terminalName->кремній</li>
   </Hack_WorshippedTerminal.questNameRules.rulesStrings>
 </LanguageData>

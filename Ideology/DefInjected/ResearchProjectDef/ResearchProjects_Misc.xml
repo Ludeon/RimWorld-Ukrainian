@@ -3,7 +3,7 @@
   <!-- EN: bioregeneration -->
   <Bioregeneration.label>біорегенерація</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
-  <Bioregeneration.description>Цикл біорегенерації біоскульптора. Цей цикл лікує старі шрами, регенерує невеликі втрачені частини тіла, такі як пальці рук і ніг та лікує багато фізичних хвороб, які приходять зі старістю.</Bioregeneration.description>
+  <Bioregeneration.description>Відкриває цикл біорегенерації в біоскульпторі. Цей цикл загоює старі шрами, відрощує невеликі втрачені частини тіла, як-от пальці рук і ніг, і лікує чимало фізичних недуг, що приходять зі старістю.</Bioregeneration.description>
   <!-- EN:
     <li>subject->bioregeneration</li>
     <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
@@ -14,18 +14,18 @@
     <li>subject_gerund->activating regeneration with biosculpters</li>
   -->
   <Bioregeneration.generalRules.rulesStrings>
-    <li>subject->bioregeneration</li>
-    <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
-    <li>subject_story->spliced salamander genetic data into [ANYPAWN_possessive] own body</li>
-    <li>subject_story->trained in a Glitterworld hospital</li>
-    <li>subject_story->completed a correspondence course in Glitterworld aesthetics</li>
-    <li>subject_gerund->regenerating the human form</li>
-    <li>subject_gerund->activating regeneration with biosculpters</li>
+    <li>subject->біорегенерація</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} відростання рогів бумалоп, шукаючи паралелі з регенерацією людини</li>
+    <li>subject_story->{ANYPAWN_gender ? вплів : вплела} генетичні дані саламандри у власне тіло</li>
+    <li>subject_story->{ANYPAWN_gender ? стажувався : стажувалася} в лікарні світу-раю</li>
+    <li>subject_story->{ANYPAWN_gender ? закінчив : закінчила} заочний курс естетики світів-раїв</li>
+    <li>subject_gerund->регенерація людського тіла</li>
+    <li>subject_gerund->запуск регенерації в біоскульпторах</li>
   </Bioregeneration.generalRules.rulesStrings>
   <!-- EN: biosculpting -->
   <Biosculpting.label>біоскульптинг</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
-  <Biosculpting.description>Дозволяє створювати біоскульптор, який можуть вносити різні біологічні зміни до колоністів. Це особливо важливо для прихильників трансгуманізму.</Biosculpting.description>
+  <Biosculpting.description>Відкриває будівництво біоскульпторів, що можуть по-різному змінювати біологію колоністів. Вони особливо важливі для прихильників трансгуманізму.</Biosculpting.description>
   <!-- EN:
     <li>subject->biosculpting</li>
     <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
@@ -37,19 +37,19 @@
     <li>subject_gerund->sculpting the human form</li>
   -->
   <Biosculpting.generalRules.rulesStrings>
-    <li>subject->biosculpting</li>
-    <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
-    <li>subject_story->studied transhumanist precepts, including the necessity of biosculpture</li>
-    <li>subject_story->researched which biological alterations could be made safely</li>
-    <li>subject_story->escaped a glitterworld support farm with these plans</li>
-    <li>subject_story->was welcomed into a transhumanist colony</li>
-    <li>subject_gerund->constructing biosculpter pods</li>
-    <li>subject_gerund->sculpting the human form</li>
+    <li>subject->біоскульптинг</li>
+    <li>subject_story->{ANYPAWN_gender ? будував : будувала} біоскульптори на замовлення різних колоній</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} трансгуманістичні принципи, зокрема необхідність біоскульптури</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала}, які біологічні зміни можна вносити безпечно</li>
+    <li>subject_story->{ANYPAWN_gender ? втік : втекла} з цими кресленнями з біоферми світу-раю</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} теплий прийом у трансгуманістичній колонії</li>
+    <li>subject_gerund->будівництво біоскульпторів</li>
+    <li>subject_gerund->ліплення людського тіла</li>
   </Biosculpting.generalRules.rulesStrings>
   <!-- EN: neural supercharger -->
-  <NeuralSupercharger.label>нейронний надзаряд</NeuralSupercharger.label>
+  <NeuralSupercharger.label>нейронний надзарядник</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
-  <NeuralSupercharger.description>Дозволяє виготовити пристрій нейронного надзаряду. Нейронний надзаряд покращує свідомість і швидкість навчання, але також підсилює почуття голоду. Ефект потрібно оновлювати щодня. Трансгуманісти вважають нейронний надзаряд важливою практикою.</NeuralSupercharger.description>
+  <NeuralSupercharger.description>Відкриває будівництво нейронних надзарядників. Нейронний надзарядник покращує свідомість і швидкість навчання, але посилює голод, а ефект треба оновлювати щодня. Трансгуманісти часто вважають нейронний надзаряд важливою практикою.</NeuralSupercharger.description>
   <!-- EN:
     <li>subject->neural superchargers</li>
     <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
@@ -60,12 +60,12 @@
     <li>subject_gerund->constructing neural superchargers</li>
   -->
   <NeuralSupercharger.generalRules.rulesStrings>
-    <li>subject->neural superchargers</li>
-    <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
-    <li>subject_story->supercharged the neurons of farmed clones to massively accelerate their development</li>
-    <li>subject_story->attempted to ban neural supercharging in the university course [ANYPAWN_pronoun] taught</li>
-    <li>subject_story->joined a transhumanist sect where neural supercharging was mandatory</li>
-    <li>subject_gerund->supercharging a human's intellect</li>
-    <li>subject_gerund->constructing neural superchargers</li>
+    <li>subject->нейронні надзарядники</li>
+    <li>subject_story->{ANYPAWN_gender ? запровадив : запровадила} нейронні надзарядники у своїй школі-інтернаті</li>
+    <li>subject_story->{ANYPAWN_gender ? надзаряджав : надзаряджала} нейрони вирощених клонів, щоб різко пришвидшити їхній розвиток</li>
+    <li>subject_story->{ANYPAWN_gender ? намагався : намагалася} заборонити нейронний надзаряд на університетському курсі, який {ANYPAWN_gender ? викладав : викладала}</li>
+    <li>subject_story->{ANYPAWN_gender ? вступив : вступила} до трансгуманістичної секти, де нейронний надзаряд був обов’язковим</li>
+    <li>subject_gerund->надзаряд людського інтелекту</li>
+    <li>subject_gerund->будівництво нейронних надзарядників</li>
   </NeuralSupercharger.generalRules.rulesStrings>
 </LanguageData>

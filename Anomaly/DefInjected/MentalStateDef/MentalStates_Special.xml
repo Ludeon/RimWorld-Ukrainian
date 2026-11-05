@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: berserk -->
-  <BerserkShort.label>лють</BerserkShort.label>
+  <BerserkShort.label>берсерк</BerserkShort.label>
   <!-- EN: Mental state: Berserk -->
-  <BerserkShort.baseInspectLine>Психічний стан: Лють</BerserkShort.baseInspectLine>
+  <BerserkShort.baseInspectLine>Психічний стан: берсерк</BerserkShort.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkShort.beginLetter>{0} переповнюється люттю.\n\n[PAWN_pronoun] атакує будь-кого, кого побачить.</BerserkShort.beginLetter>
+  <BerserkShort.beginLetter>{0} впадає в шал берсерка.\n\n{PAWN_gender ? Він : Вона} нападатиме на всіх, кого побачить.</BerserkShort.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <BerserkShort.recoveryMessage>{0} заспокоюється.</BerserkShort.recoveryMessage>
   <!-- EN: cube sculpting -->
   <CubeSculpting.label>створення скульптур куба</CubeSculpting.label>
   <!-- EN: Mental state: Cube sculpting -->
-  <CubeSculpting.baseInspectLine>Психічний стан: Створення скульптур куба</CubeSculpting.baseInspectLine>
+  <CubeSculpting.baseInspectLine>Психічний стан: створення скульптур куба</CubeSculpting.baseInspectLine>
   <!-- EN: {PAWN_nameDef}'s obsession with the cube has caused {PAWN_objective} to fall into a daze. {PAWN_pronoun} is going to build a sculpture to release the pressure growing in {PAWN_possessive} mind. -->
-  <CubeSculpting.beginLetter>Одержимість {PAWN_nameDef} кубом змусила {PAWN_possessive} заціпеніти. {PAWN_pronoun} збирається побудувати скульптуру, щоб зняти тиск, що зростає у {PAWN_possessive} розумі.</CubeSculpting.beginLetter>
+  <CubeSculpting.beginLetter>{PAWN_nameDef} так {PAWN_gender ? одержимий : одержима} кубом, що {PAWN_gender ? впав : впала} в заціпеніння. {PAWN_pronoun} збирається звести скульптуру, щоб зняти тиск, який наростає в {PAWN_gender ? його : її} голові.</CubeSculpting.beginLetter>
   <!-- EN: cube obsession -->
   <CubeSculpting.beginLetterLabel>одержимість кубом</CubeSculpting.beginLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished {PAWN_possessive} cube structure. -->
@@ -21,13 +21,13 @@
   <!-- EN: humanity break -->
   <HumanityBreak.label>зрив людяності</HumanityBreak.label>
   <!-- EN: Mental state: Humanity break -->
-  <HumanityBreak.baseInspectLine>Психічний стан: Зрив людяності</HumanityBreak.baseInspectLine>
+  <HumanityBreak.baseInspectLine>Психічний стан: зрив людяності</HumanityBreak.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has relinquished {PAWN_possessive} remaining ties to humanity and embraced {PAWN_possessive} ideology's worship of the void. {PAWN_possessive} concern for health, family, friendship, and love have been broken.\n\n{PAWN_nameDef} is now inhumanized, and will suffer a breakdown as {PAWN_pronoun} tries to grapple with {PAWN_possessive} new mental alignment. -->
-  <HumanityBreak.beginLetter>{PAWN_nameDef} відмовляється від залишкових зв'язків із людяностю та приймає ідеологію, яка поклоняється порожнечі. {PAWN_possessive} урбота про здоров’я, сім’ю, дружбу та кохання була зруйнована.\n\n{PAWN_nameDef} тепер {PAWN_gender ? дегуманізований : дегуманізована} та отримує нервовий зрив, оскільки намагається впоратися з новим психічним станом.</HumanityBreak.beginLetter>
+  <HumanityBreak.beginLetter>{PAWN_nameDef} розриває останні зв’язки з людяністю й приймає поклоніння порожнечі, якого вимагає {PAWN_gender ? його : її} ідеологія. {PAWN_gender ? Його : Її} турботу про здоров’я, родину, дружбу й кохання зламано.\n\nТепер {PAWN_nameDef} {PAWN_gender ? дегуманізований : дегуманізована}, і на {PAWN_gender ? нього : неї} чекає нервовий зрив, поки {PAWN_pronoun} звикає до свого нового світогляду.</HumanityBreak.beginLetter>
   <!-- EN: manhunter -->
-  <ManhunterBloodRain.label>полювання на людей</ManhunterBloodRain.label>
+  <ManhunterBloodRain.label>агресія</ManhunterBloodRain.label>
   <!-- EN: Maddened: Manhunter -->
-  <ManhunterBloodRain.baseInspectLine>Психічний стан: Полювання на людей</ManhunterBloodRain.baseInspectLine>
+  <ManhunterBloodRain.baseInspectLine>Скаженість: агресія</ManhunterBloodRain.baseInspectLine>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <ManhunterBloodRain.recoveryMessage>Кровожерливість {lookup: {0}; Case; 1} закінчилася.</ManhunterBloodRain.recoveryMessage>
+  <ManhunterBloodRain.recoveryMessage>{0} заспокоюється.</ManhunterBloodRain.recoveryMessage>
 </LanguageData>

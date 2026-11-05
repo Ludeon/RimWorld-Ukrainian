@@ -6,87 +6,87 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>Титул {lookup: {TITLE}; Case; 1} отримано: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
   <!-- EN: Permit points awarded: {0}. -->
-  <PermitPointsAwarded>Нараховано одиниць привілей: {0}.</PermitPointsAwarded>
+  <PermitPointsAwarded>Нараховано балів привілеїв: {0}.</PermitPointsAwarded>
   <!-- EN: This title requires apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>Цей титул вимагає одягу з якістю {1} або краще.</LetterRoyalTitleApparelQualityRequirement>
+  <LetterRoyalTitleApparelQualityRequirement>Цей титул вимагає одягу щонайменше якості «{1}».</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>Потрібен одяг, який відповідає {PAWN_possessive} титулу:</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>Цей титул вимагає одягу, гідного {PAWN_possessive} титулу:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>{PAWN_possessive} очікування ніколи не будуть нижчими ніж {1}.</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>{PAWN_possessive} очікування ніколи не будуть нижчими за {1}.</LetterRoyalTitleExpectation>
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>Оскільки у {PAWN_labelShort} є {1}, {PAWN_pronoun} вимагатиме повного дотримання привілеїв цього титулу. {PAWN_pronoun} може відмовлятися виконувати певні види праці, їсти неякісну їжу та розпочне видавати накази.</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Оскільки {PAWN_labelShort} має рису «{1}», {PAWN_pronoun} вимагатиме повного дотримання привілеїв цього титулу. {PAWN_pronoun} може відмовлятися від певних видів робіт і простацької їжі та видаватиме укази.</LetterRoyalTitleConceitedTrait>
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} титул {lookup: {TITLE}; Case; 1} від фракції {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>{PAWN_labelShort} {PAWN_gender ? втратив : втратила} титул {lookup: {TITLE}; Case; 1} від фракції {FACTION_name}.</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} більше не має титулу {lookup: {TITLE}; Case; 1} фракції {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Нагороди за титул</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>Щоб вшанувати титул {lookup: {TITLE}; Case; 1}, {FACTION_name} дарують {PAWN_objective}:</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>На честь того, що {PAWN_labelShort} {PAWN_gender ? здобув : здобула} титул {lookup: {TITLE}; Case; 1}, фракція {FACTION_name} надсилає {PAWN_objective} такі нагороди:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>Дари прибули до вашої колонії в транспортних капсулах.</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>Нагороди прибули до вашої колонії в транспортних капсулах.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
-  <LetterRewardsForNewTitleDeliveryDirect>Дари були доставлені безпосередньо до рук {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
+  <LetterRewardsForNewTitleDeliveryDirect>{PAWN_labelShort} отримує нагороди просто в інвентар.</LetterRewardsForNewTitleDeliveryDirect>
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>{PAWN_pronoun} має наступні привілеї:</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>{PAWN_pronoun} має такі привілеї:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>{PAWN_pronoun} {PAWN_gender ? втратив : втратила} наступні привілеї:</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun} {PAWN_gender ? втратив : втратила} такі привілеї:</LetterRoyalTitleLostPermits>
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
-  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} не бажає виконувати наступні види праці:\n{1}</LetterRoyalTitleDisabledWorkTag>
+  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} не бажає виконувати такі види робіт:\n{1}</LetterRoyalTitleDisabledWorkTag>
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>{PAWN_objective} тепер доступний вид дозвілля:</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>Тепер {PAWN_objective} доступний такий вид дозвілля:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
   <LetterRoyalTitleDisabledJoyKind>Цей титул забороняє такий вид дозвілля:</LetterRoyalTitleDisabledJoyKind>
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} має право використовувати наступні імпланти:{1}</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} має право користуватися такими імплантами:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} більше не має права використовувати наступні імпланти:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} більше не має права користуватися такими імплантами:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>Щоб уникнути дипломатичних наслідків, імпланти мають бути видалені протягом п’яти днів.</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Щоб уникнути дипломатичних наслідків, імпланти треба вилучити протягом п’ятиденного пільгового строку.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} тепер може виголошувати промови з трону. В залежності від якості промови, настрій слухачів може як покращитися так і погіршитися. Результат залежить від соціальних здібностей {PAWN_labelShort}.</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} тепер може виголошувати промови з трону. Якщо все мине добре, слухачі надихнуться. Якщо погано — промова зіпсує стосунки. Результат залежить від {PAWN_gender ? його : її} соціальних навичок.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>Для цього титулу потрібна тронна зала, що відповідає таким вимогам:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>Цей титул вимагає спальню, що відповідає таким вимогам:{1}</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>Цей титул вимагає спочивальні, що відповідає таким вимогам:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>Цей титул передбачає, що {PAWN_pronoun} має їсти лише такі види страв:{1}</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>За цим титулом {PAWN_pronoun} має їсти лише таку їжу:{1}</LetterRoyalTitleFoodRequirements>
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>{PAWN_pronoun} отримає наступні предмети за допомогою транспортної капсули:{1}</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>{PAWN_pronoun} отримає такі предмети транспортною капсулою:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
   <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. {lookup: {FACTION_royalFavorLabel}; Case; 1} від фракції {FACTION_name}.</PeaceTalksRoyalFavorGain>
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Якщо {PAWN_pronoun} помре, {PAWN_possessive} титул успадкує {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Якщо {PAWN_pronoun} помре, цей титул успадкує {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>Якщо {PAWN_pronoun} помре, ніхто не успадкує {PAWN_possessive} титул.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>Якщо {PAWN_pronoun} помре, цей титул ніхто не успадкує.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} - член фракції {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} — член фракції {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>Нового спадкоємця можна вибрати, зв’язавшись із фракцією {FACTION_name} через консоль зв’язку.</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Нового спадкоємця можна вибрати, зв’язавшись із фракцією {FACTION_name} через термінал зв’язку.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>Втрачено спадкоємця</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} {PAWN_gender ? помер : померла}, залишивши {HOLDER_labelShort} без спадкоємця титулу від фракції {FACTION_name}. Ви можете зв’язатися із фракцією {FACTION_name} через консоль зв’язку, щоб призначити нового спадкоємця.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} {HEIR_gender ? помер : померла}, і {HOLDER_labelShort} лишається без спадкоємця титулу від фракції {FACTION_name}. Щоб призначити нового спадкоємця, зв’яжіться з фракцією {FACTION_name} через термінал зв’язку.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>Титул {lookup: {TITLE}; Case; 1} не можна успадкувати.</LetterRoyalTitleCantBeInherited>
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Спадкування титулу</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
-  <LetterTitleInheritance_Base>Оскільки {PAWN_nameFull} {PAWN_gender ? помер : померла}, {PAWN_possessive} титул буде передано спадкоємцю.</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>Оскільки {PAWN_nameFull} {PAWN_gender ? помер : померла}, {PAWN_possessive} титули перейдуть до спадкоємців.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} титул, {TITLE}, {HEIR_gender ? успадкував : успадкувала} {HEIR_nameFull}, відповідно до законів про спадщину фракції {FACTION_name}. {HEIR_nameDef} замінить наявний титул новим після завершення церемонії вручення.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} титул {lookup: {TITLE}; Case; 1} за законами спадкування фракції {FACTION_name} {HEIR_gender ? успадкував : успадкувала} {HEIR_nameFull}. Після церемонії нагородження він замінить {HEIR_possessive} титул {lookup: {REPLACEDTITLE}; Case; 1}.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} титул, {TITLE}, {HEIR_gender ? мав успадкувати : мала успадкувати} {HEIR_nameFull}, але {HEIR_pronoun} вже має титул {lookup: {HIGHERTITLE}; Case; 1}.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} титул {lookup: {TITLE}; Case; 1} за законами спадкування фракції {FACTION_name} мав би успадкувати {HEIR_nameFull}, але {HEIR_pronoun} вже має титул {lookup: {HIGHERTITLE}; Case; 1}.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{PAWN_possessive} титул, {TITLE}, {HEIR_gender ? успадкував : успадкувала} {HEIR_nameFull}, відповідно до законів про спадщину фракції {FACTION_name}. {HEIR_nameDef} отримає свій новий титул після завершення церемонії вручення.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>{PAWN_possessive} титул {lookup: {TITLE}; Case; 1} за законами спадкування фракції {FACTION_name} успадкує {HEIR_nameFull} після церемонії нагородження.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} титул, {TITLE}, ніхто не успадковує, оскільки {PAWN_pronoun} не {PAWN_gender ? мав : мала} призначеного спадкоємця для цього титулу.</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} титул {lookup: {TITLE}; Case; 1} ніхто не успадкував, бо {PAWN_pronoun} не {PAWN_gender ? призначив : призначила} спадкоємця цього титулу.</LetterTitleInheritance_NoHeirFound>
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Порушник: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>Фракція {FACTION_name} виявила, що {PAWN_labelShort} незаконно {PAWN_gender ? використав : використала}: {lookup: {CULPRIT}; Case; 3} (шанс виявлення {CHANCE}).\n\nВідповідно до законів фракції {FACTION_name}, лише ті, хто має титул {lookup: {TITLE}; Case; 1}, можуть використовувати {lookup: {CULPRIT}; Case; 3}.\n\nВідношення до вашої фракції знизилось на {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>Фракція {FACTION_name} виявила, що {PAWN_labelShort} незаконно {PAWN_gender ? використав : використала}: {CULPRIT} (шанс виявлення {CHANCE}).\n\nЗа законами фракції {FACTION_name} використовувати {lookup: {CULPRIT}; Case; 3} можуть лише власники титулу {lookup: {TITLE}; Case; 1}.\n\nЯк покарання, прихильність фракції до вас знизилася на {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>Дикий указ</WildDecree>
@@ -94,45 +94,43 @@
   <LetterLabelRandomDecree>{0_nameIndef} видає указ</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, намагаючись позбутися стресу, видає дикий королівський указ і тепер вимагає його виконання.
-    \nЯкщо це не буде виконано вчасно, {0_nameIndef} стане дуже незадоволеним.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, намагаючись зняти стрес, видає дикий королівський указ і тепер вимагає його виконати.\nЯкщо указ не виконають вчасно, {0_nameIndef} буде дуже {0_gender ? незадоволений : незадоволена}.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}, щоб підтвердити свій титул {lookup: {0_bestRoyalTitleIndef}; Case; 1}, видає указ і тепер вимагає його виконання.
-    \nЯкщо це не буде виконано вчасно, {0_nameIndef} стане дуже незадоволеним.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, щоб утвердити свій титул {lookup: {0_bestRoyalTitleIndef}; Case; 1}, видає указ і тепер вимагає його виконати.\nЯкщо указ не виконають вчасно, {0_nameIndef} буде дуже {0_gender ? незадоволений : незадоволена}.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>Указ має назву "{0}".</LetterDecree_Quest>
+  <LetterDecree_Quest>Указ має назву «{0}».</LetterDecree_Quest>
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef} було тимчасово передано фракції {FACTION}. Вони незабаром повернуть вам {PAWN_possessive} тіло.</LentColonistDied>
+  <LentColonistDied>{PAWN_nameDef} {PAWN_gender ? був тимчасово переданий : була тимчасово передана} фракції {FACTION}. Незабаром вони повернуть {PAWN_possessive} тіло.</LentColonistDied>
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>Отримано пси-зв'язок</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>Отримано пси-зв’язок</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} отримує свій перший рівень пси-зв'язку! {USER_pronoun} тепер псионік.\n\nЩоб використовувати пси-здібності, {USER_labelShort} має накопичувати пси-фокус за допомогою медитації. Ефективність медитації підвищується, якщо людина може зосередитися на певному об’єкті під час медитації.\n\nРізні люди можуть зосереджуватися на різних об’єктах. Це залежить від їхньої передісторії, рис і титулів. Наприклад:\n\n- Псионіки з королівськими титулами можуть медитувати на своїх тронах.\n- Псионіки з племені можуть медитувати біля дерев і природних святинь.\n- Аскети-псионіки можуть медитувати в порожній кімнаті.\n- Психопати-псионіки можуть медитувати біля могил, в ідеалі з близькою людиною всередині.\n\nВи можете побачити доступні типи медитації, переглянувши більш детальну інформацію про них за допомогою кнопки "i" на їхній панелі в лівому нижньому кутку.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} {USER_gender ? отримав : отримала} перший рівень пси-зв’язку! Тепер {USER_pronoun} псионік.\n\nЩоб користуватися пси-здібностями, {USER_labelShort} має накопичувати пси-фокус медитацією. Медитація ефективніша, якщо людина може зосередитися на певному об’єкті.\n\nРізні люди можуть зосереджуватися на різних об’єктах. Це залежить від їхніх передісторій, рис і титулів. Наприклад:\n\n- Псионіки з королівськими титулами медитують на своїх тронах.\n- Псионіки з племінним дитинством медитують на аніма-дерева й природні святині.\n- Псионіки-аскети медитують на голі стіни.\n- Псионіки-психопати медитують на могили — найкраще, якщо там лежить близька людина.\n\nФокуси медитації людини можна переглянути в її інформаційній картці — кнопка «i».</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} отримує новий рівень пси-зв'язку! {USER_pronoun} тепер може використовувати пси-здібності більш високого рівня, але спочатку їх треба вивчити.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} {USER_gender ? отримав : отримала} новий рівень пси-зв’язку! Тепер {USER_pronoun} може користуватися пси-здібностями вищого рівня, але спершу має їх вивчити.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>Отримавши новий рівень пси-зв'язку, {USER_labelShort} автоматично навчається цим пси-здібностям: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>Отримавши новий рівень пси-зв’язку, {USER_labelShort} автоматично {USER_gender ? вивчив : вивчила} такі пси-здібності: {2}</LetterPsylinkLevelGained_PsycastLearned>
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>Завдяки впливу псионіка {CASTER_nameIndef}, {PAWN_nameIndef} отримує натхнення!</LetterPsychicInspiration>
+  <LetterPsychicInspiration>{CASTER_nameIndef} {CASTER_gender ? вдався : вдалася} до психічного навіювання, і {PAWN_nameIndef} отримує натхнення!</LetterPsychicInspiration>
   <!-- EN: Bestowing ceremony expired -->
-  <LetterLabelBestowingCeremonyExpired>Час на церемонію вручення вичерпано</LetterLabelBestowingCeremonyExpired>
+  <LetterLabelBestowingCeremonyExpired>Час церемонії нагородження минув</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite} не {TARGET_gender ? прийшов : прийшла} на церемонію вручення титулу. Церемонію скасовано.</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} не {TARGET_gender ? прийшов : прийшла} на церемонію нагородження. Церемонію скасовано.</LetterTextBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite}'s title changed -->
-  <LetterLabelBestowingCeremonyTitleUpdated>Титул {TARGET_definite} змінено</LetterLabelBestowingCeremonyTitleUpdated>
+  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite}: титул змінено</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? отримав : отримала} новий титул, до того як був отриманий попередній титул. Щоб церемонія відповідала новому титулу, незабаром буде запланована нова церемонія.\n\nНова церемонія вручення включатиме нагороди рівнями пси-зв'язку для всіх титулів, нагороди за які ще не були отримані.</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? отримав : отримала} новий титул, поки церемонію нагородження ще не провели. Щоб нагородження відповідало новому титулу, незабаром буде заплановано іншу церемонію.\n\nНова церемонія нагородження включатиме нагороди рівнями пси-зв’язку за всі титули, які ще не було вручено.</LetterTextBestowingCeremonyTitleUpdated>
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. честі імперії на знак поваги від фракції {FACTION_name} за те, що зібрав таку кількість глядачів ({3}).</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? отримав : отримала} {1} од. честі на знак поваги від фракції {FACTION_name} за те, що {PAWN_gender ? зібрав : зібрала} стільки глядачів: {3}.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort} не отримує додаткову честь імперії, оскільки глядачів було небагато.</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort} не отримує додаткової честі, бо глядачів було небагато.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>Всі глядачі церемонії покращили свій настрій.</LetterPartMoodBonus>
+  <LetterPartMoodBonus>Усі глядачі церемонії отримали бонус до настрою.</LetterPartMoodBonus>
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
-  <LetterTextHonorAward_BanditCamp>Кому слід приписати {0} за перемогу над табором бандитів?</LetterTextHonorAward_BanditCamp>
+  <LetterTextHonorAward_BanditCamp>Кому зарахувати {0} за перемогу над табором бандитів?</LetterTextHonorAward_BanditCamp>
   <!-- Shuttle crash -->
   <!-- EN: Shuttle crashed -->
   <LetterLabelShuttleCrashed>Шатл розбився</LetterLabelShuttleCrashed>
@@ -140,7 +138,7 @@
   <LetterTextShuttleCrashed>Поруч розбився шатл</LetterTextShuttleCrashed>
   <!-- Wanderer joins -->
   <!-- EN: Transport pod crash: {0_nameDef} -->
-  <LetterLabelWandererJoinsAbasia>Транспортна капсула розбилась: {0_nameDef}</LetterLabelWandererJoinsAbasia>
+  <LetterLabelWandererJoinsAbasia>Аварія транспортної капсули: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_title} на ім’я {0_nameDef} розбивається в транспортній капсулі неподалік.\n\n{0_nameDef} страждає від {lookup: {1_label}; Case; 1} і не може ходити.\n\nХвороба відступить сама, через багато днів. Також є шанс на щасливе швидке одужання. {lookup: {1_label}; Case; 3} також можна вилікувати за допомогою спеціальної операції, яка потребує великої кількості надсучасних ліків.\n\n{0_pronoun} {0_gender ? готовий : готова} допомагати вам як може, коли одужає, та ніколи не піде від вас добровільно.\n\nЯкщо вам не {0_gender ? потрібен : потрібна} {0_nameDef}, ви можете ігнорувати {0_possessive}, продати у рабство або залишити помирати. Однак це може викликати занепокоєння у ваших колоністів.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_title} на ім’я {0_nameDef} падає неподалік у транспортній капсулі.\n\n{0_nameDef} страждає від {lookup: {1_label}; Case; 1} і не може ходити.\n\nЗа багато днів {0_pronoun} одужає природним шляхом. Є й шанс на щасливе швидке одужання. Також {lookup: {1_label}; Case; 3} можна вилікувати спеціальною операцією, яка потребує великої кількості надсучасних ліків.\n\n{0_pronoun} {0_gender ? готовий : готова} допомагати, щойно одужає, але добровільно не піде. Якщо {0_nameDef} вам не {0_gender ? потрібен : потрібна}, можна вигнати {0_gender ? його : її}, продати в рабство чи залишити помирати. Проте іншим колоністам це може не сподобатися.</LetterTextWandererJoinsAbasia>
 </LanguageData>

@@ -3,148 +3,148 @@
   <!-- EN: Mad {ANIMAL_labelShort} -->
   <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} сходить з розуму</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>{ANIMAL_gender ? Місцевий {ANIMAL_label} зійшов : Місцева {ANIMAL_label} зійшла} з розуму. {ANIMAL_pronoun} буде атакувати всіх, кого побачить.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>Місцева тварина ({ANIMAL_label}) зійшла з розуму. Вона нападатиме на всіх, кого побачить.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>{0} сходять з розуму</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Якась психічна хвиля прокотилася над землею. Ваші колоністи в нормі, але...\n\nЗдається, багато з {lookup: {0}; Case; 1} зійшли з розуму.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Місцевістю прокотилася якась психічна хвиля. З вашими колоністами все гаразд, але...\n\nСхоже, багато {lookup: {0}; Case; 1} в окрузі збожеволіли.</AnimalInsanityMultiple>
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Хвороба рослин: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>Ваші {PLANTDEF_labelPlural} вразила хвороба!\n\nВам слід зрізати або спалити уражені рослини, поки хвороба не розповсюдиться.</LetterCropBlight>
+  <LetterCropBlight>Хвороба рослин уразила {PLANTDEF_labelPlural}!\n\nЗріжте або спаліть уражені рослини, поки хвороба не поширилася.</LetterCropBlight>
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Чудо</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
-  <MiracleHeal>{0}, дивним чином, зцілюється!</MiracleHeal>
+  <MiracleHeal>{0} дивом одужує!</MiracleHeal>
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Серед них {LEADER_labelShort}, лідер фракції.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Серед них — {LEADER_labelShort}, лідер фракції.</EnemyRaidLeaderPresent>
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Серед них {LEADER_labelShort}, лідер фракції.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Серед них — {LEADER_labelShort}, лідер фракції.</FriendlyRaidLeaderPresent>
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Падіння транспортної капсули</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} на ім'я {PAWN_nameDef} падає у транспортній капсулі. Якщо {PAWN_pronoun} і переживе приземлення, то, скоріше за все, буде в тяжкому стані.</RefugeePodCrash>
+  <RefugeePodCrash>Неподалік падає транспортна капсула, у ній — {PAWN_titleIndef} на ім’я {PAWN_nameDef}. Якщо {PAWN_pronoun} переживе удар, то буде тяжко {PAWN_gender ? поранений : поранена}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
-  <RefugeePodCrash_Child>{PAWN_nameDef} дитина віком {AGE}.</RefugeePodCrash_Child>
+  <RefugeePodCrash_Child>{PAWN_nameDef} — дитина віком {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_nameDef} не має зв'язків із будь-якою фракцією. Ви можете врятувати {PAWN_possessive} і сподіватись, що {PAWN_pronoun} приєднається добровільно, або захопити {PAWN_possessive} для вербування чи продажу до рабства.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} не належить до жодної фракції. Можна врятувати {PAWN_gender ? його : її} й сподіватися, що {PAWN_pronoun} приєднається добровільно, або взяти в полон, щоб завербувати чи поневолити.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} з ворожої ватаги {PAWN_factionName}. Ви можете захопити {PAWN_objective} для вербування чи продажу до рабства.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} — з ворожої фракції {PAWN_factionName}. Можна взяти {PAWN_gender ? його : її} в полон, щоб завербувати чи поневолити.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} походить з фракції {PAWN_factionName}. Якщо {PAWN_pronoun} безпечно повернеться додому, {PAWN_pronoun} поширить доброзичливість між вашими фракціями.\n\nВи також можете захопити {PAWN_possessive} з метою вербування або рабства, але це розлютить {PAWN_possessive} фракцію.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} — з фракції {PAWN_factionName}. Якщо {PAWN_pronoun} безпечно повернеться додому, прихильність {PAWN_gender ? його : її} фракції до вас зросте.\n\nМожна також взяти {PAWN_gender ? його : її} в полон, щоб завербувати чи поневолити, але це розлютить {PAWN_gender ? його : її} фракцію.</RefugeePodCrash_NonHostile>
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Новачок: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>{PAWN_title} на ім'я {PAWN_nameDef} {PAWN_gender ? прийшов : прийшла} і хоче приєднатися до вашої колонії.\n\n{PAWN_pronoun} каже, що з радістю буде допомагати вам і що {PAWN_objective} більше нема куди піти. Ви можете відмовити {PAWN_objective} і прогнати з колонії. Однак ваші колоністи будуть стурбовані тим, що виганяють когось, хто потребує допомоги.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_title} на ім’я {PAWN_nameDef} {PAWN_gender ? прийшов : прийшла} і хоче приєднатися до колонії.\n\n{PAWN_gender ? Він готовий : Вона готова} допомагати, але {PAWN_gender ? сам : сама} не піде, бо, за {PAWN_gender ? його : її} словами, більше нема куди. Ви можете відмовити й прогнати {PAWN_gender ? його : її}. Однак ваших колоністів засмутить, що когось у біді виганяють.</LetterWandererJoins>
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Вантажні капсули</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
   <CargoPodCrash>Виявлено скупчення вантажних капсул, що впали неподалік.\n\nМожливо, ви знайдете щось корисне серед уламків.</CargoPodCrash>
   <!-- EN: an electrical conduit -->
-  <AnElectricalConduit>електричному кабелі</AnElectricalConduit>
+  <AnElectricalConduit>електрокабель</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>Несправність {lookup: {0}; Case; 1} викликала коротке замикання.</ShortCircuit>
+  <ShortCircuit>Несправність {lookup: {0}; Case; 1} спричинила коротке замикання.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>Несправність {lookup: {0}; Case; 1} викликала коротке замикання, через яке почалась пожежа.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>Несправність {lookup: {0}; Case; 1} спричинила коротке замикання, і почалася пожежа.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>Усі {0} Вт енергії у під'єднаних акумуляторах зникли внаслідок аварії.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Електричний вибух розрядив усі {0} Вт·д енергії з під’єднаних акумуляторів.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
-  <ShortCircuitWasLarge>Через високу потужність, коротке замикання викликало спалах, гучний вибух та пожежу.</ShortCircuitWasLarge>
+  <ShortCircuitWasLarge>Така кількість енергії спричинила чималий вибух.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>Оце феєрверк! Нічого собі!</ShortCircuitWasHuge>
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>Торговий корабель «{0}» пролітає неподалік.\n\nЦе {1}.\n\n{2}</TraderArrival>
+  <TraderArrival>Неподалік пролітає торговий корабель «{0}».\n\nЦе {1}.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>Вони пов'язані з фракцією {FACTION_name}.</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>Вони пов’язані з фракцією {FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>Вони не пов'язані з жодною фракцією.</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>Вони не пов’язані з жодною фракцією.</TraderArrivalNoFaction>
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>{PAWN_title} з фракції {1} проходить повз. {PAWN_possessive} звуть {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>Повз проходить {PAWN_title} з фракції {1}. {PAWN_gender ? Його : Її} звуть {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
-  <GroupTravelersPassing>Група мандрівників з фракції {0} проходять повз.</GroupTravelersPassing>
+  <GroupTravelersPassing>Повз проходить група мандрівників з фракції {0}.</GroupTravelersPassing>
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Гість</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{0} з фракції {1} відвідує колонію.\n\n{PAWN_possessive} звуть {2}.</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_titleIndef} з фракції {1} відвідує колонію.\n\n{PAWN_gender ? Його : Її} звуть {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>Здається, {PAWN_pronoun} має якісь предмети для торгівлі.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>Схоже, {PAWN_pronoun} має дещо на продаж.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} є лідером фракції.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_gender ? Він : Вона} — лідер фракції.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Гості</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>Група з фракції {0} відвідують колонію.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>Група з фракції {0} відвідує колонію.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>Здається, вони мають якісь предмети для торгівлі.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>Схоже, у них є дещо на продаж.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>Один з відвідувачів, {1_labelShort} - лідер фракції.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Один із гостей — {1_labelShort} — лідер фракції.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Гості з фракції {0} йдуть.</VisitorsLeaving>
   <!-- EN: Manhunter pack -->
-  <LetterLabelManhunterPackArrived>Агресивні звірі</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>Зграя агресивних тварин</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>У цей район увійшли агресивні {0}! Вражені хворобою, відомою як скаріоз, вони будуть нишпорити околицями, полюючи за людською плоттю.\n\nВони не нападуть на двері, якщо не побачать, як хтось через них проходить. Сховайтеся завчасно, і ви будете в безпеці. Вони також не будуть атакувати турелі без живлення.\n\n{0} покинуть цей район через два-три дні. Ви можете сховатися і зачекати, коли вони підуть, або атакувати їх.</ManhunterPackArrived>
+  <ManhunterPackArrived>У місцевість забрела зграя агресивних тварин — {0}! Їх звела з розуму хвороба під назвою скаріоз, тож вони блукатимуть околицями, полюючи на людську плоть.\n\nНа двері вони не нападуть, якщо не побачать, як хтось ними проходить. Сховайтеся всередині — і будете в безпеці. Вимкнені турелі вони теж не атакують, тож вимкніть турелі, щоб їх уберегти.\n\nЗа день-два {0} підуть звідси. Можна сховатися й перечекати або дати бій.</ManhunterPackArrived>
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>{SOURCE_label} випромінює психічний імпульс, що звів навколишніх тварин з розуму.</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>{SOURCE_label} випускає психічний імпульс, що зводить з розуму тварин поблизу.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
-  <LetterShipPartDroveColonistInsane>Частина розбитого судна випромінює сфокусований психічний імпульс, що звів вашого колоніста {0} з розуму.</LetterShipPartDroveColonistInsane>
+  <LetterShipPartDroveColonistInsane>Уламок корабля випустив сфокусований психічний імпульс — {0} втрачає розум.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>В активному стані {0} дн.</AwokeDaysAgo>
+  <AwokeDaysAgo>Пробуджено {0} дн. тому</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
   <ActivatedDaysAgo>Активовано {0} дн. тому</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
   <OpenedDaysAgo>Відкрито {0} дн. тому</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
-  <PsychicDroneLevel>Рівень гулу: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>Рівень психічного гулу: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>Гул посилюється</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>З розбитого човна тепер доноситься сильний психічний гул. Усі {replace: {0}; "чоловік"-"чоловіки"; "жінка"-"жінки"} у цій місцевості тепер більш стривожені, налякані та недовірливі.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Уламок корабля тепер випромінює потужніший психічний гул. Усі {replace: {0}; "чоловік"-"чоловіки"; "жінка"-"жінки"} в окрузі тепер ще тривожніші, наляканіші й підозріливіші.</LetterPsychicDroneLevelIncreased>
   <!-- Agent revealed -->
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>Агент</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>Ворожий агент {0} виявився агентом з фракції {1}.\n\nЗараз {PAWN_pronoun} намагається тікати з колонії.</LetterAgentRevealed>
+  <LetterAgentRevealed>Виявилося, що {0} — агент вашого ворога, фракції {1}.\n\nЗараз агент намагається втекти.</LetterAgentRevealed>
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>Бобри!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
-  <BeaversArrived>Помічена зграя голодних альфабобрів.\n\nСпробуйте позбавитися їх, перш ніж вони знищать всю деревину в регіоні.</BeaversArrived>
+  <BeaversArrived>Щойно з’явилася зграя голодних альфабобрів.\n\nСпробуйте знищити їх, поки вони не вигризли всі дерева в окрузі.</BeaversArrived>
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} {1_gender ? (самець), приручився : (самка), приручилася}</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>Приручилася сама: {1_kind}</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} стає частиною колонії.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0}, {ANIMAL_gender ? (самець), приручився : (самка), приручилася}. Не довго думаючи, {ANIMAL_gender ? його : її} назвали {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} — тепер ручна тварина з позначенням {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} стає {ANIMAL_gender ? ручним : ручною}. Колоністи вирішили назвати {ANIMAL_gender ? його : її} {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} — тепер ручна тварина. Колоністи вирішили назвати її {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
-  <LetterLabelFarmAnimalsWanderIn>{0} приручився</LetterLabelFarmAnimalsWanderIn>
+  <LetterLabelFarmAnimalsWanderIn>{0} приєднуються</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>В цей район приблукали кинуті або загубленні {0}.\n\nВони, схоже, звикли до контакту з людиною і приєднуються до колонії.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>У місцевість забрели покинуті чи загублені тварини — {0}.\n\nСхоже, вони звикли до людей і приєднуються до колонії.</LetterFarmAnimalsWanderIn>
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>Рідкісні трумбо</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>Невелике стадо трумбо забрело в цей район.\n\nМиролюбиві від природи, ці рідкісні істоти надзвичайно небезпечні при зіткненні. Деякі торговці готові заплатити чималі гроші за їх дорогоцінну шкіру і ріг.\n\nТрумбо покине цей район через кілька днів.</LetterThrumboPasses>
+  <LetterThrumboPasses>У місцевість забрело невелике стадо трумбо.\n\nЦі рідкісні істоти миролюбні від природи, але надзвичайно небезпечні, якщо їх зачепити. Деякі торговці готові заплатити чималі гроші за їхню цінну шкіру й ріг.\n\nЗа кілька днів трумбо підуть звідси.</LetterThrumboPasses>
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} з фракції {0}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>Наближається караван з фракції {0}. Серед них є {1}.</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Наближається караван з фракції {0}. Це {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>Вони будуть зупиняться в колонії на деякий час. Ви можете напасти на них - але це розізлить їх фракцію!</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>Вони пробудуть біля колонії якийсь час, а потім підуть. Ви можете напасти на них, але це розлютить їхню фракцію!</LetterCaravanArrivalCommonWarning>
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
-  <RansomDemandTitle>Вимога про викуп у колонії {0}</RansomDemandTitle>
+  <RansomDemandTitle>Вимога викупу в колонії {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>Фракція {1} контактує з вами по радіо. Вони тримають у себе в полоні {PAWN_labelShort}, {PAWN_gender ? вашого колишнього колоніста : вашу колишню колоністку}.\n\nВони готові відпустити {PAWN_possessive} назад до вас, в обмін на {2} срібла.</RansomDemand>
+  <RansomDemand>Фракція {1} виходить на зв’язок по радіо. У них у полоні — {PAWN_labelShort}, {PAWN_gender ? ваш колишній колоніст : ваша колишня колоністка}.\n\nВони готові відпустити {PAWN_gender ? його : її} в обмін на {2} срібла.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Погодитися</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -153,14 +153,14 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Знайдено корабель</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Ви досягли місця, координати якого вам надіслав (*Name)Шарлоном Уайтстоуном(/Name) і виявили прихований зореліт.\n\nРеактор корабля перебуває в режимі глибокої сплячки, тому він ще не може злетіти. Ви можете запустити його, взаємодіючи з ядром комп'ютера.\n\n(*Name)Шарлон Уайтстоун(/Name) попереджає вас, що процес запуску займе близько 15 днів, а сплеск енергії від запуску розповсюдиться на велику відстань. Такого роду сигнал характерний для підготовки до міжзоряного перельоту, тому приверне увагу відчайдушних рейдерів і рої смертоносних механоїдів.\n\nВи будете атаковані з інтенсивністю, якої ще ніколи не бачили. Переконайтесь, що ваша оборона добре підготовлена перед запуском.</EscapeShipFound>
+  <EscapeShipFound>Ви дісталися координат, які надіслав (*Name)Шарлон Вайтстоун(/Name), і знайшли прихований зореліт.\n\nРеактор корабля досі в режимі глибокої сплячки, тож злетіти зореліт поки не може. Запустити його можна через ядро комп’ютера.\n\n(*Name)Шарлон Вайтстоун(/Name) попереджає, що запуск триватиме близько 15 днів, а енергетичний слід буде видно здалеку. Такий слід видає здатність до міжзоряних перельотів і приверне банди відчайдушних рейдерів та рої смертоносних механоїдів.\n\nНа вас нападатимуть з такою силою, якої ви ще не бачили. Спершу переконайтеся, що оборона готова.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>Ви досягли місця, координати якого вам надіслав (*Name)Шарлоном Уайтстоуном(/Name) і виявили прихований зореліт.\n\nРеактор корабля перебуває в режимі глибокої сплячки, тому він ще не може злетіти. Ви можете запустити його, взаємодіючи з ядром комп'ютера.\n\n(*Name)Шарлон Уайтстоун(/Name) попереджає вас, що процес запуску займе близько 15 днів.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>Ви дісталися координат, які надіслав (*Name)Шарлон Вайтстоун(/Name), і знайшли прихований зореліт.\n\nРеактор корабля досі в режимі глибокої сплячки, тож злетіти зореліт поки не може. Запустити його можна через ядро комп’ютера.\n\n(*Name)Шарлон Вайтстоун(/Name) попереджає, що запуск триватиме близько 15 днів.</EscapeShipFoundPeaceful>
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>{0} зустрів інший караван</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>{0} зустрів караван з фракції {1}. Їхній караван складається з:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting>{0} мирно зустрів караван з фракції {1}. Склад їхнього каравану:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Торгувати</CaravanMeeting_Trade>
   <!-- EN: Attack -->
@@ -170,49 +170,49 @@
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>у каравані немає учасників, здатних до торгівлі</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
-  <CaravanMeeting_NoPermit>потрібен торгівець з титулом {0} від фракції {1_name}</CaravanMeeting_NoPermit>
+  <CaravanMeeting_NoPermit>потрібен торговець з титулом {0} від фракції {1_name}</CaravanMeeting_NoPermit>
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Запит торгового каравану</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Одне з сусідніх поселень, {0}, зв'язується з вами із спеціальним торговим запитом. Вони хотіли б отримати:\n\n {1} (загальна вартість {2})\n\nНатомість вони пропонують:\n\n {3} (загальна вартість {4})\n\nЦей запит актуальний найближчі {5}\n\nЯкщо ви хочете укласти цю угоду, відправте караван із зазначеним товаром. Орієнтовний час на дорогу - {6}. Переглянути цю пропозицію ще раз можна, вибравши {0} на мапі світу.</LetterCaravanRequest>
+  <LetterCaravanRequest>Сусіднє поселення {0} звертається до вас з особливим торговим запитом. Там хочуть купити:\n\n {1} (вартість: {2})\n\nНатомість пропонують:\n\n {3} (вартість: {4})\n\nЗапит спливає через: {5}\n\nЯкщо хочете укласти угоду, відправте караван з потрібним товаром. Орієнтовний час у дорозі — {6}. Переглянути пропозицію можна, вибравши {0} на мапі світу.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>Необхідно: {0} ({2})\nЗалишилось {1}</CaravanRequestInfo>
+  <CaravanRequestInfo>Запит: {0} ({2}) (лишилося {1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
-  <NormalQualityOrBetter>нормальної якості або краще</NormalQualityOrBetter>
+  <NormalQualityOrBetter>нормальної або кращої якості</NormalQualityOrBetter>
   <!-- EN: not tainted -->
-  <NotTainted>не з трупа</NotTainted>
+  <NotTainted>не знятий з трупа</NotTainted>
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
-  <CaravanDemandTitle>Засідка розбійників з фракції {0}</CaravanDemandTitle>
+  <CaravanDemandTitle>Вимога фракції {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} потрапив у засідку з {2} {lookup: {4}; Case; 1} з фракції {1}!. Вони нападуть, якщо ви не віддасте їм:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} потрапив у засідку: {4} з фракції {1} (кількість: {2}). Вони нападуть, якщо ви не віддасте їм:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Віддати та піти далі</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
-  <CaravanDemand_Fight>Відмовитись і підготуватися до бою</CaravanDemand_Fight>
+  <CaravanDemand_Fight>Відмовитися й битися</CaravanDemand_Fight>
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>Завдання більше не доступне</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>Завдання більше недоступне</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>Завдання більше не доступні</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>Завдання більше недоступні</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>Оскільки фракція {0} більше не є вашим ворогом, ви не зможете відвідати {1}.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>Ви більше не ворогуєте з фракцією {0}, тож місце «{1}» більше недоступне.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
-  <LetterSiteNoLongerHostileMulti>Оскільки фракція {0} більше не є вашим ворогом, ви не зможете відвідати ці території</LetterSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostileMulti>Ви більше не ворогуєте з фракцією {0}, тож ці місця більше недоступні</LetterSiteNoLongerHostileMulti>
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerFactionHostile>Завдання провалено</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>Завдання неможливо виконати, оскільки фракція {FACTION_name} тепер ворожа до вас.</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>Завдання неможливо виконати: фракція {FACTION_name} тепер ворожа.</LetterQuestAskerFactionHostile>
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerCaptured>Завдання провалено</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>Завдання неможливо виконати, оскільки {SUBJECT_definite} {SUBJECT_gender ? був : була} {SUBJECT_gender ? захоплений : захоплена} у полон.</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>Завдання неможливо виконати: {SUBJECT_definite} {SUBJECT_gender ? потрапив : потрапила} у полон.</LetterQuestAskerCaptured>
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerDied>Завдання провалено</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>Завдання неможливо виконати, оскільки {SUBJECT_definite} {SUBJECT_gender ? помер : померла}.</LetterQuestAskerDied>
+  <LetterQuestAskerDied>Завдання неможливо виконати: {SUBJECT_definite} {SUBJECT_gender ? помер : померла}.</LetterQuestAskerDied>
 </LanguageData>

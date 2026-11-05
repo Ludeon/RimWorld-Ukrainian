@@ -3,7 +3,7 @@
   <!-- EN: human primacy -->
   <HumanPrimacy.label>першість людини</HumanPrimacy.label>
   <!-- EN: Humans are the moral center of the universe. -->
-  <HumanPrimacy.description>Люди є моральним центром Всесвіту.</HumanPrimacy.description>
+  <HumanPrimacy.description>Люди — моральний центр усесвіту.</HumanPrimacy.description>
   <!-- EN:
     <li>creation(tag=meme_HumanPrimacy)        ->[deity0_name] created all of nature, and gave it to man as a gift, to serve man and his purposes forever.</li>
     <li>episode(uses=1,tag=meme_HumanPrimacy)  ->The people fought with the beasts of the forest, and [deity0_name] saw their struggle, and gave them weapons to control nature.</li>
@@ -23,22 +23,26 @@
     <li>animistFact(tag=meme_HumanPrimacy)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
   -->
   <HumanPrimacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_HumanPrimacy)        ->[deity0_name] створив всю природу і дав її людині як дар, щоб вона вічно служила людині та її цілям.</li>
-    <li>episode(uses=1,tag=meme_HumanPrimacy)  ->Люди билися з лісовими звірами, і [deity0_name] побачивши їх боротьбу дав їм зброю для контролю над природою.</li>
-    <li>intro(tag=meme_HumanPrimacy)           ->Перші поселенці [place_summary] [place_name], які розбилися, були охоплені полюванням на людей [Animal]. [deity0_name] втрутився, убивши звірів і чітко показавши [deity0_possessive] перевагу людській расі.</li>
-    <li>conflict(tag=meme_HumanPrimacy)        ->Антилюдський [foeLeader] видав указ, який надає рівні права як тваринам, так і людям. [deity0_name] плакав, коли [memberNamePlural] були змушені віддати свої права на [Animal] і [Animal].</li>
-    <li>founderJoin(tag=meme_HumanPrimacy)     ->[place_job] на ім’я [founderName] заснував нині відомий xeno-zoo на [place_name]. [founder_pronoun] використовував уявлення про забій тварин, щоб навчити відвідувачів про бажання [deity0_name], щоб людство керувало природою.</li>
-    <li>victory(tag=meme_HumanPrimacy)         ->Через дії [founderName] [foeSoldiers] [foeLeader] побачили правду [deity0_name]. Вони відзначили свою спільну людяність із [memberNamePlural] і вигнали [foeLeader] жити в пустелі, як тварина.</li>
-    <li>setup(tag=meme_HumanPrimacy)           ->[founderName] побудував колонію в зеленому світі, поширюючи панування людства на кожне поле та ліс.</li>
-    <li>story(uses=1,tag=meme_HumanPrimacy)    ->Одного разу [founderName] побачив, як пес гарчить на хлопчика. [founder_pronoun] наказав убити собаку на місці.</li>
-    <li>lessonIntro(tag=meme_HumanPrimacy)         ->Я відвідав добре керовану ферму, повну здорових тварин і процвітаючих посівів. Біля нього був ліс у своєму природному стані, вузлуватий і порочний. Це було очевидно</li>
-    <li>lesson(tag=meme_HumanPrimacy)              ->тільки люди надають сенс всесвіту</li>
-    <li>lesson(tag=meme_HumanPrimacy)              ->природа — це нескінченне божевілля аморального руйнування, а люди — це рішення</li>
-    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->Якщо змагання полягає в тому, щоб вижити найсильніший, то ми однозначно перемогли.</li>
-    <li>archistBasis(tag=meme_HumanPrimacy)    ->Архотехи — це машини величезної волі та сили, але створити їх могло лише людство.</li>
-    <li>archistFact(tag=meme_HumanPrimacy)     ->Люди є виробниками пристроїв, а архотехніки є їхніми пристроями.</li>
-    <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], спостерігаючи за людством, архотехи нарешті зрозуміють свою мету та піднімуть впевнене людство, щоб керувати ним.</li>
-    <li>animistFact(tag=meme_HumanPrimacy)     ->Природні тварини є духами рабів і вимагають, щоб їх взяли на службу.</li>
+    <li>creation(tag=meme_HumanPrimacy)->[deity0_name] створи[deity_v] усю природу й подарува[deity_v] її людині, щоб вона повік служила людині та її цілям.</li>
+    <li>episode(uses=1,tag=meme_HumanPrimacy)->Люди боролися з лісовими звірами, і [deity0_name], побачивши їхню боротьбу, да[deity_v] їм зброю, щоб підкорити природу.</li>
+    <li>intro(tag=meme_HumanPrimacy)->Перших поселенців, що зазнали аварії [place_in], оточили скажені [Animal_pl]. [deity0_name] втрути[deity_v]ся, перебивши звірів і ясно показавши, кому віддає перевагу, — людському роду.</li>
+    <li>conflict(tag=meme_HumanPrimacy)->Якийсь [foeLeader], ворог людства, видав указ, що зрівнював у правах тварин і людей. [deity0_name] плака[deity_v], коли [memberNamePlural] мусили поступатися своїми правами [Animal_pl_dat] і [Animal_pl_dat].</li>
+    <li>founderJoin(tag=meme_HumanPrimacy)->Колись [place_job] на ім’я [founderName] заснува[founder_v] нині знаменитий ксенозоопарк [place_in]. Там [founderName] влаштовува[founder_v] вистави із забиванням тварин, щоб показати відвідувачам: божество [deity0_name] прагне, аби людство панувало над природою.</li>
+    <li>victory(tag=meme_HumanPrimacy)->Те, що зроби[founder_v] [founderName], відкрило [place_foeSoldiers_dat] істину божества [deity0_name]. Вони відсвяткували спільну людяність з вірянами, а [place_foeLeader_acc] вигнали жити в дикій глушині, як звіра.</li>
+    <li>setup(tag=meme_HumanPrimacy)->[founderName] заснува[founder_v] колонію на зеленій планеті й поширюва[founder_v] владу людства на кожне поле й ліс.</li>
+    <li>story(uses=1,tag=meme_HumanPrimacy)->Якось [founderName] побачи[founder_v], як пес гарчить на хлопчика, і наказа[founder_v] вбити пса на місці.</li>
+    <li>lessonIntro(tag=meme_HumanPrimacy)->Я відвіда[founder_v] доглянуту ферму, повну здорових тварин і буйних посівів. Поруч стояв ліс у своєму природному стані — покручений і лютий. Стало очевидно, що</li>
+    <li>lesson(tag=meme_HumanPrimacy)->тільки люди надають всесвітові сенсу</li>
+    <li>lesson(tag=meme_HumanPrimacy)->природа — нескінченний шал аморального руйнування, а люди — ліки від нього</li>
+    <li>lessonReinforcement(tag=meme_HumanPrimacy)->Якщо це змагання за виживання найпристосованіших, то ми явно перемогли.</li>
+    <li>archistBasis(tag=meme_HumanPrimacy)->Архотеки — машини безмежної волі й сили, але створити їх могло лише людство.</li>
+    <li>archistFact(tag=meme_HumanPrimacy)->Люди — творці пристроїв, а архотеки — їхні пристрої.</li>
+    <li>archistProphecy(tag=meme_HumanPrimacy)->[inTheEnd], спостерігаючи за людством, архотеки нарешті збагнуть своє призначення й піднесуть упевнене в собі людство, щоб воно правило ними.</li>
+    <li>animistFact(tag=meme_HumanPrimacy)->Тварини природи — це духи рабів, і вони вимагають, щоб їх узяли на службу.</li>
+    <li>deity_v(deity0_gender==Female)->ла</li>
+    <li>deity_v(deity0_gender!=Female)->в</li>
+    <li>founder_v(founder_gender==Female)->ла</li>
+    <li>founder_v(founder_gender!=Female)->в</li>
   </HumanPrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->human</li>
@@ -54,38 +58,38 @@
     <li>memeLeaderNoun->sapient</li>
   -->
   <HumanPrimacy.generalRules.rulesStrings>
-    <li>memeAdjective->human</li>
-    <li>memeAdjective->mortal</li>
-    <li>memeAdjective->hominid</li>
-    <li>memeHyphenPrefix->anthro</li>
-    <li>memeConcept->mankind</li>
-    <li>memeConcept->humanity</li>
-    <li>memeLeaderNoun->human</li>
-    <li>memeLeaderNoun->hominid</li>
-    <li>memeLeaderNoun->mortal</li>
-    <li>memeLeaderNoun->person</li>
-    <li>memeLeaderNoun->sapient</li>
+    <li>memeAdjective->людський</li>
+    <li>memeAdjective->смертний</li>
+    <li>memeAdjective->гомінідний</li>
+    <li>memeHyphenPrefix->антропо</li>
+    <li>memeConcept->людство</li>
+    <li>memeConcept->людяність</li>
+    <li>memeLeaderNoun->смертний</li>
+    <li>memeLeaderNoun->гомінід</li>
+    <li>memeLeaderNoun->земнородний</li>
+    <li>memeLeaderNoun->індивід</li>
+    <li>memeLeaderNoun->сапієнс</li>
   </HumanPrimacy.generalRules.rulesStrings>
   <!-- EN: humanitist -->
-  <HumanPrimacy.symbolPacks.0.adjective>гуманістичний</HumanPrimacy.symbolPacks.0.adjective>
+  <HumanPrimacy.symbolPacks.0.adjective>гуманітистський</HumanPrimacy.symbolPacks.0.adjective>
   <!-- EN: Humanitism -->
-  <HumanPrimacy.symbolPacks.0.ideoName>Гуманізм</HumanPrimacy.symbolPacks.0.ideoName>
+  <HumanPrimacy.symbolPacks.0.ideoName>Гуманітизм</HumanPrimacy.symbolPacks.0.ideoName>
   <!-- EN: humanitor -->
-  <HumanPrimacy.symbolPacks.0.member>гуманіст</HumanPrimacy.symbolPacks.0.member>
+  <HumanPrimacy.symbolPacks.0.member>гуманітист</HumanPrimacy.symbolPacks.0.member>
   <!-- EN: humanity -->
-  <HumanPrimacy.symbolPacks.0.theme>гуманізму</HumanPrimacy.symbolPacks.0.theme>
+  <HumanPrimacy.symbolPacks.0.theme>людство</HumanPrimacy.symbolPacks.0.theme>
   <!-- EN: pro-man -->
-  <HumanPrimacy.symbolPacks.1.adjective>людяний</HumanPrimacy.symbolPacks.1.adjective>
+  <HumanPrimacy.symbolPacks.1.adjective>людоцентричний</HumanPrimacy.symbolPacks.1.adjective>
   <!-- EN: Mankindism -->
-  <HumanPrimacy.symbolPacks.1.ideoName>Людяність</HumanPrimacy.symbolPacks.1.ideoName>
+  <HumanPrimacy.symbolPacks.1.ideoName>Людоцентризм</HumanPrimacy.symbolPacks.1.ideoName>
   <!-- EN: mankindist -->
-  <HumanPrimacy.symbolPacks.1.member>людина</HumanPrimacy.symbolPacks.1.member>
+  <HumanPrimacy.symbolPacks.1.member>людоцентрист</HumanPrimacy.symbolPacks.1.member>
   <!-- EN: mankind -->
-  <HumanPrimacy.symbolPacks.1.theme>людяності</HumanPrimacy.symbolPacks.1.theme>
+  <HumanPrimacy.symbolPacks.1.theme>людський рід</HumanPrimacy.symbolPacks.1.theme>
   <!-- EN: nature primacy -->
   <NaturePrimacy.label>першість природи</NaturePrimacy.label>
   <!-- EN: Man is a stain on nature's perfection. -->
-  <NaturePrimacy.description>Людина — це пляма на досконалості природи.</NaturePrimacy.description>
+  <NaturePrimacy.description>Людина — пляма на досконалості природи.</NaturePrimacy.description>
   <!-- EN:
     <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name] created nature, and placed man inside it, to act as part of [deity0_possessive] great breathing tapestry of life.</li>
     <li>episode(uses=1,tag=meme_NaturePrimacy)  ->The people fought with the beasts of the forest, and [deity0_name] saw their rapacity, and struck down those who harmed the trees and beasts.</li>
@@ -104,21 +108,34 @@
     <li>animistFact(tag=meme_NaturePrimacy)     ->Spirits become restless when humanity attempts to change them from their true nature.</li>
   -->
   <NaturePrimacy.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name] створив природу та помістив у неї людину, щоб діяти як частина [deity0_possessive] великого дихаючого гобелена життя.</li>
-    <li>episode(uses=1,tag=meme_NaturePrimacy)  ->Люди билися з лісовими звірами, і [deity0_name] побачив їх ненажерливість і вразив тих, хто шкодив деревам і звірам.</li>
-    <li>intro(tag=meme_NaturePrimacy)           ->Перші поселенці, які прибули до [place_summary] [place_name], вимощували природний світ і вбивали тварин. [deity0_name] знищив їх, щоб покарати за неповагу до творінь [deity0_possessive].</li>
-    <li>conflict(tag=meme_NaturePrimacy)        ->Жадібний [foeLeader] збудував фабрику, яка викидала токсини в навколишнє середовище, отруюючи рослини та тварин.</li>
-    <li>founderJoin(tag=meme_NaturePrimacy)     ->Будучи немовлям, [founderName] був покинутий у пустелі. [deity0_name] послав [Animal]s підняти [founder_objective], і вони це зробили. Після дитинства [founderName] працював над поширенням знань про необхідність об’єднання з природою.</li>
-    <li>victory(tag=meme_NaturePrimacy)         ->[founderName] прийшов до [place_powerCenter], [memberNamePlural] у [founder_possessive] праворуч, а люті тварини в [founder_possessive] ліворуч. Разом вони билися й перемогли проти [foeLeader] і [foeLeader_possessive] [foeSoldiers].</li>
-    <li>setup(tag=meme_NaturePrimacy)           ->У темній землі злі люди рубали дерева і копали землю, щоб задовольнити свою жадібність. [founderName] почав праведний рух, щоб знищити машини та жити в гармонії з природою.</li>
-    <li>story(uses=1,tag=meme_NaturePrimacy)    ->Ми дізналися, що вічний ріст людства – це шлях до пекла; ми повинні жити в природі, а не споживати її.</li>
-    <li>lessonIntro(tag=meme_NaturePrimacy)         ->Ви не можете бути свідком сходу сонця, чи дивитися в очі [Animal], чи стояти під могутнім [TreeType], і не усвідомлювати, що</li>
-    <li>lesson(tag=meme_NaturePrimacy)              ->тварини та рослини володіли цим всесвітом задовго до нас - ми лише проходимо крізь нього</li>
-    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->Здається, всі тварини, з якими я спілкувався, це розуміють.</li>
-    <li>archistBasis(tag=meme_NaturePrimacy)    ->Архотехи виникли з наших машин, але самі по собі вони є природними істотами, яких ми не можемо створити.</li>
-    <li>archistFact(tag=meme_NaturePrimacy)     ->Архотехи представляють останню спробу Всесвіту зрозуміти себе. Вся природа є частиною цього процесу розуміння.</li>
-    <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd], буде резонанс між рослинами, тваринами, людством і архотехами. Усі люди, які співзвучні цьому природному резонансу, стануть частиною остаточної універсальної свідомості.</li>
-    <li>animistFact(tag=meme_NaturePrimacy)     ->Духи стають неспокійними, коли людство намагається змінити їхню справжню природу.</li>
+    <li>creation(tag=meme_NaturePrimacy)->[deity0_name] створи[deity_v] природу й посели[deity_v] у ній людину, щоб та стала частиною великого живого гобелена життя, сплетеного божеством.</li>
+    <li>episode(uses=1,tag=meme_NaturePrimacy)->Люди боролися з лісовими звірами, і [deity0_name], побачивши їхню ненажерливість, покара[deity_v] тих, хто шкодив деревам і звірам.</li>
+    <li>intro(tag=meme_NaturePrimacy)->Перші поселенці, що прибули [place_to], закатали природу в бетон і винищили тварин. [deity0_name] стер[deity_la] їх з лиця землі за неповагу до своїх творінь.</li>
+    <li>conflict(tag=meme_NaturePrimacy)->Якийсь жадібний [foeLeader] збудував фабрику, що викидала отруту в довкілля, труячи рослини й тварин.</li>
+    <li>founderJoin(tag=meme_NaturePrimacy)->Ще немовлям [founderName] опини[founder_v]ся [founder_sam] у дикій глушині. [deity0_name] посла[deity_v] [Animal_pl_acc], щоб ті виростили дитину, — так і сталося. Вирісши, [founderName] поширюва[founder_v] знання про те, що з природою треба єднатися.</li>
+    <li>victory(tag=meme_NaturePrimacy)->[founderName] прийш[founder_ov] до [place_powerCenter_gen]: праворуч — [memberNamePlural], ліворуч — люті звірі. Разом вони билися й здолали [place_foeLeader_acc] та [place_foeSoldiers_acc].</li>
+    <li>setup(tag=meme_NaturePrimacy)->У темному краю лихі люди рубали дерева й рили землю, щоб утамувати свою жадібність. [founderName] започаткува[founder_v] праведний рух, щоб трощити машини й жити в гармонії з природою.</li>
+    <li>story(uses=1,tag=meme_NaturePrimacy)->Ми зрозуміли, що безкінечне зростання людства — шлях до пекла; ми маємо жити в природі, а не поглинати її.</li>
+    <li>lessonIntro(tag=meme_NaturePrimacy)->Не можна зустріти схід сонця, зазирнути в очі [Animal_gen] чи постояти під [mightyTree] і не усвідомити, що</li>
+    <li>lesson(tag=meme_NaturePrimacy)->тварини й рослини володіли цим всесвітом задовго до нас — ми тут лише проїздом</li>
+    <li>lessonReinforcement(tag=meme_NaturePrimacy)->Здається, всі тварини, з якими я розмовля[founder_v], це розуміють.</li>
+    <li>archistBasis(tag=meme_NaturePrimacy)->Архотеки постали з наших машин, але по суті вони — природні сутності, а не те, що ми могли б створити.</li>
+    <li>archistFact(tag=meme_NaturePrimacy)->Архотеки — новітня спроба всесвіту пізнати самого себе. Уся природа — частина цього пізнання.</li>
+    <li>archistProphecy(tag=meme_NaturePrimacy)->[inTheEnd] настане резонанс між рослинами, тваринами, людством і архотеками. Усі, хто співзвучний цьому природному резонансові, стануть частиною остаточної вселенської свідомості.</li>
+    <li>animistFact(tag=meme_NaturePrimacy)->Духи непокояться, коли людство намагається змінити їхню справжню природу.</li>
+    <li>mightyTree(p=5)->могутнім [TreeType_m_ins]</li>
+    <li>mightyTree(p=3)->могутньою [TreeType_f_ins]</li>
+    <li>mightyTree->могутнім [TreeType_n_ins]</li>
+    <li>deity_v(deity0_gender==Female)->ла</li>
+    <li>deity_v(deity0_gender!=Female)->в</li>
+    <li>deity_la(deity0_gender==Female)->ла</li>
+    <li>deity_la(deity0_gender!=Female)-></li>
+    <li>founder_v(founder_gender==Female)->ла</li>
+    <li>founder_v(founder_gender!=Female)->в</li>
+    <li>founder_ov(founder_gender==Female)->ла</li>
+    <li>founder_ov(founder_gender!=Female)->ов</li>
+    <li>founder_sam(founder_gender==Female)->сама</li>
+    <li>founder_sam(founder_gender!=Female)->сам</li>
   </NaturePrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->natural</li>
@@ -130,44 +147,44 @@
     <li>memeConcept->nature</li>
   -->
   <NaturePrimacy.generalRules.rulesStrings>
-    <li>memeAdjective->natural</li>
-    <li>memeAdjective->wild</li>
-    <li>memeAdjective->organic</li>
-    <li>memeCreed->den</li>
-    <li>memeCreed->garden</li>
-    <li>memeCreed->meadow</li>
-    <li>memeConcept->nature</li>
+    <li>memeAdjective->природний</li>
+    <li>memeAdjective->дикий</li>
+    <li>memeAdjective->органічний</li>
+    <li>memeCreed->барліг</li>
+    <li>memeCreed->сад</li>
+    <li>memeCreed->луг</li>
+    <li>memeConcept->природа</li>
   </NaturePrimacy.generalRules.rulesStrings>
   <!-- EN: naturist -->
-  <NaturePrimacy.symbolPacks.0.adjective>натуристичний</NaturePrimacy.symbolPacks.0.adjective>
+  <NaturePrimacy.symbolPacks.0.adjective>натуристський</NaturePrimacy.symbolPacks.0.adjective>
   <!-- EN: Naturism -->
   <NaturePrimacy.symbolPacks.0.ideoName>Натуризм</NaturePrimacy.symbolPacks.0.ideoName>
   <!-- EN: naturist -->
   <NaturePrimacy.symbolPacks.0.member>натурист</NaturePrimacy.symbolPacks.0.member>
   <!-- EN: nature -->
-  <NaturePrimacy.symbolPacks.0.theme>натури</NaturePrimacy.symbolPacks.0.theme>
+  <NaturePrimacy.symbolPacks.0.theme>природа</NaturePrimacy.symbolPacks.0.theme>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.adjective>земляний</NaturePrimacy.symbolPacks.1.adjective>
+  <NaturePrimacy.symbolPacks.1.adjective>земний</NaturePrimacy.symbolPacks.1.adjective>
   <!-- EN: Earthism -->
-  <NaturePrimacy.symbolPacks.1.ideoName>Землянизм</NaturePrimacy.symbolPacks.1.ideoName>
+  <NaturePrimacy.symbolPacks.1.ideoName>Землізм</NaturePrimacy.symbolPacks.1.ideoName>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.member>земляк</NaturePrimacy.symbolPacks.1.member>
+  <NaturePrimacy.symbolPacks.1.member>земліст</NaturePrimacy.symbolPacks.1.member>
   <!-- EN: earth -->
-  <NaturePrimacy.symbolPacks.1.theme>землі</NaturePrimacy.symbolPacks.1.theme>
+  <NaturePrimacy.symbolPacks.1.theme>земля</NaturePrimacy.symbolPacks.1.theme>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.adjective>ґрунтований</NaturePrimacy.symbolPacks.2.adjective>
+  <NaturePrimacy.symbolPacks.2.adjective>ґрунтовий</NaturePrimacy.symbolPacks.2.adjective>
   <!-- EN: Soilism -->
-  <NaturePrimacy.symbolPacks.2.ideoName>Ґрунтознавство</NaturePrimacy.symbolPacks.2.ideoName>
+  <NaturePrimacy.symbolPacks.2.ideoName>Ґрунтизм</NaturePrimacy.symbolPacks.2.ideoName>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.member>ґрунтовик</NaturePrimacy.symbolPacks.2.member>
+  <NaturePrimacy.symbolPacks.2.member>ґрунтист</NaturePrimacy.symbolPacks.2.member>
   <!-- EN: soil -->
-  <NaturePrimacy.symbolPacks.2.theme>ґрунту</NaturePrimacy.symbolPacks.2.theme>
+  <NaturePrimacy.symbolPacks.2.theme>ґрунт</NaturePrimacy.symbolPacks.2.theme>
   <!-- EN: lifeist -->
   <NaturePrimacy.symbolPacks.3.adjective>життєвий</NaturePrimacy.symbolPacks.3.adjective>
   <!-- EN: Lifism -->
-  <NaturePrimacy.symbolPacks.3.ideoName>Життізм</NaturePrimacy.symbolPacks.3.ideoName>
+  <NaturePrimacy.symbolPacks.3.ideoName>Життєїзм</NaturePrimacy.symbolPacks.3.ideoName>
   <!-- EN: lifeist -->
-  <NaturePrimacy.symbolPacks.3.member>житель</NaturePrimacy.symbolPacks.3.member>
+  <NaturePrimacy.symbolPacks.3.member>життєїст</NaturePrimacy.symbolPacks.3.member>
   <!-- EN: life -->
   <NaturePrimacy.symbolPacks.3.theme>життя</NaturePrimacy.symbolPacks.3.theme>
 </LanguageData>

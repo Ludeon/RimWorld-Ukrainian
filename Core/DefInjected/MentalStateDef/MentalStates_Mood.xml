@@ -5,15 +5,15 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Психічний стан: істерика</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} б'ється в істериці.\n\n{PAWN_pronoun} збирається рознести всі меблі в своїй кімнаті.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} влаштовує істерику.\n\n{PAWN_gender ? Він : Вона} зараз трощитиме речі у своїй кімнаті.</BedroomTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
-  <BedroomTantrum.recoveryMessage>{0} більше не б'ється в істериці.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.recoveryMessage>{0} більше не влаштовує істерику.</BedroomTantrum.recoveryMessage>
   <!-- EN: berserk -->
   <Berserk.label>берсерк</Berserk.label>
   <!-- EN: Mental state: Berserk -->
   <Berserk.baseInspectLine>Психічний стан: берсерк</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} охоплює неконтрольована лють.\n\n{PAWN_pronoun} кидається на всіх, кого побачить.</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} впадає в шал берсерка.\n\n{PAWN_gender ? Він : Вона} нападатиме на всіх, кого побачить.</Berserk.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <Berserk.recoveryMessage>{0} заспокоюється.</Berserk.recoveryMessage>
   <!-- EN: berserk -->
@@ -21,17 +21,17 @@
   <!-- EN: Mental state: Berserk -->
   <BerserkPermanent.baseInspectLine>Психічний стан: берсерк</BerserkPermanent.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkPermanent.beginLetter>{0} охоплює неконтрольована лють.\n\n{PAWN_pronoun} кидається на всіх, кого побачить.</BerserkPermanent.beginLetter>
+  <BerserkPermanent.beginLetter>{0} впадає в шал берсерка.\n\n{PAWN_gender ? Він : Вона} нападатиме на всіх, кого побачить.</BerserkPermanent.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
   <BerserkPermanent.recoveryMessage>{0} заспокоюється.</BerserkPermanent.recoveryMessage>
   <!-- EN: binging on drug -->
   <Binging_DrugExtreme.label>тяга до наркотиків</Binging_DrugExtreme.label>
   <!-- EN: Mental state: Binging on {0} -->
-  <Binging_DrugExtreme.baseInspectLine>Психічний стан: тяга до {0}</Binging_DrugExtreme.baseInspectLine>
+  <Binging_DrugExtreme.baseInspectLine>Психічний стан: тяга до наркотиків ({0})</Binging_DrugExtreme.baseInspectLine>
   <!-- EN: binging on drug -->
   <Binging_DrugMajor.label>тяга до наркотиків</Binging_DrugMajor.label>
   <!-- EN: Mental state: Binging on {0} -->
-  <Binging_DrugMajor.baseInspectLine>Психічний стан: тяга до  {0}</Binging_DrugMajor.baseInspectLine>
+  <Binging_DrugMajor.baseInspectLine>Психічний стан: тяга до наркотиків ({0})</Binging_DrugMajor.baseInspectLine>
   <!-- EN: binging on food -->
   <Binging_Food.label>переїдання</Binging_Food.label>
   <!-- EN: Mental state: Pigging out -->
@@ -41,39 +41,39 @@
   <!-- EN: food binge -->
   <Binging_Food.beginLetterLabel>переїдання</Binging_Food.beginLetterLabel>
   <!-- EN: {0} is no longer pigging out on food. -->
-  <Binging_Food.recoveryMessage>{0} заспокоюється.</Binging_Food.recoveryMessage>
+  <Binging_Food.recoveryMessage>{0} більше не переїдає.</Binging_Food.recoveryMessage>
   <!-- EN: corpse obsession -->
-  <CorpseObsession.label>знущання над трупами</CorpseObsession.label>
+  <CorpseObsession.label>одержимість трупами</CorpseObsession.label>
   <!-- EN: Mental state: Corpse obsession -->
-  <CorpseObsession.baseInspectLine>Психічний стан: знущання над трупами</CorpseObsession.baseInspectLine>
+  <CorpseObsession.baseInspectLine>Психічний стан: одержимість трупами</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to find a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} {0_gender ? зламався і став одержимий : зламалась і стала одержима} трупами.\n\n[PAWN_pronoun] збирається знайти труп і виставити його на загальний огляд.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} {PAWN_gender ? зламався й став одержимим : зламалася й стала одержимою} трупами.\n\n{PAWN_gender ? Він : Вона} збирається знайти труп і виставити його всім на огляд.</CorpseObsession.beginLetter>
   <!-- EN: {0} is no longer having a corpse obsession. -->
-  <CorpseObsession.recoveryMessage>{0} більше не має одержимості трупами.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.recoveryMessage>{0} позбувається одержимості трупами.</CorpseObsession.recoveryMessage>
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>піроманія</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
   <FireStartingSpree.baseInspectLine>Психічний стан: піроманія</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0} переживає напад піроманії.\n\n{PAWN_pronoun} деякий буде безцільно блукати, періодично щось підпалюючи.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetter>{0}: напад піроманії.\n\nДеякий час {PAWN_gender ? він : вона} блукатиме довкола й навмання щось підпалюватиме.</FireStartingSpree.beginLetter>
   <!-- EN: {0} is no longer on a fire starting spree. -->
   <FireStartingSpree.recoveryMessage>{0} заспокоюється.</FireStartingSpree.recoveryMessage>
   <!-- EN: giving up and leaving -->
-  <GiveUpExit.label>опустилися руки</GiveUpExit.label>
+  <GiveUpExit.label>опускає руки й іде геть</GiveUpExit.label>
   <!-- EN: Mental state: Given up and leaving -->
-  <GiveUpExit.baseInspectLine>Психічний стан: опустилися руки</GiveUpExit.baseInspectLine>
+  <GiveUpExit.baseInspectLine>Психічний стан: опускає руки й іде геть</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} розчаровується цією колонією.\n\n{PAWN_pronoun} покидає колонію у пошуках кращої долі. Ви можете спробувати заарештувати {PAWN_possessive}, або дати {PAWN_objective} піти. Хто знає, може колись ви знову {PAWN_possessive} побачите.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} зневіряється в цій спільноті.\n\n{PAWN_gender ? Він : Вона} вирішує піти й шукати кращого життя деінде. Можна спробувати заарештувати {PAWN_gender ? його : її} дорогою. Якщо ні — можливо, колись ви ще {PAWN_gender ? його : її} побачите.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>опустилися руки</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
-  <GiveUpExit.recoveryMessage>{0} змінює свою думку та повертається.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.recoveryMessage>{0} передумує й повертається до колонії.</GiveUpExit.recoveryMessage>
   <!-- EN: insulting spree -->
   <InsultingSpree.label>бажання лаятись</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
   <InsultingSpree.baseInspectLine>Психічний стан: бажання лаятись</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0} не може стримати своїх емоцій.\n\n{PAWN_pronoun} безцільно бродить довкола, обсипаючи всіх образами.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetter>{0} не може стримати злості.\n\n{PAWN_gender ? Він : Вона} блукатиме довкола й ображатиме всіх підряд.</InsultingSpree.beginLetter>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} заспокоюється.</InsultingSpree.recoveryMessage>
   <!-- EN: inducing prisoner to escape -->
@@ -81,33 +81,33 @@
   <!-- EN: Mental state: Jailbreaker -->
   <Jailbreaker.baseInspectLine>Психічний стан: схиляє до втечі</Jailbreaker.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to induce prisoners to escape. -->
-  <Jailbreaker.beginLetter>У {0} стався нервовий зрив, {PAWN_pronoun} збирається спонукати ув'язнених до втечі.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetter>{0} зазнає нервового зриву й збирається підбурити в’язнів до втечі.</Jailbreaker.beginLetter>
   <!-- EN: jailbreaker -->
-  <Jailbreaker.beginLetterLabel>втеча</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.beginLetterLabel>схиляє до втечі</Jailbreaker.beginLetterLabel>
   <!-- EN: {0} is no longer inducing prisoners to escape. -->
-  <Jailbreaker.recoveryMessage>{0} більше не схиляє в'язнів до втечі.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.recoveryMessage>{0} більше не схиляє в’язнів до втечі.</Jailbreaker.recoveryMessage>
   <!-- EN: murderous rage -->
   <MurderousRage.label>жага вбивства</MurderousRage.label>
   <!-- EN: Mental state: Murderous rage -->
   <MurderousRage.baseInspectLine>Психічний стан: жага вбивства</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0} відчуває скажену лють!\n\n{PAWN_pronoun} хоче вбити {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetter>{0} впадає в убивчу лють!\n\nОбрана жертва — {1}.</MurderousRage.beginLetter>
   <!-- EN: {0} is no longer in a murderous rage. -->
-  <MurderousRage.recoveryMessage>{0} більше не відчуває лють.</MurderousRage.recoveryMessage>
+  <MurderousRage.recoveryMessage>{0} отямлюється від убивчої люті.</MurderousRage.recoveryMessage>
   <!-- EN: sadistic rage -->
   <SadisticRage.label>прояв садизму</SadisticRage.label>
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>Психічний стан: прояв садизму</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} відчуває жагу до насильства.\n\n{PAWN_pronoun} збирається зірвати свою лють на в'язнях.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} впадає в садистську лють.\n\n{PAWN_gender ? Він : Вона} збирається зігнати злість на в’язнях.</SadisticRage.beginLetter>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} заспокоюється.</SadisticRage.recoveryMessage>
   <!-- EN: slaughterer -->
   <Slaughterer.label>живодер</Slaughterer.label>
   <!-- EN: Mental state: Slaughterer -->
-  <Slaughterer.baseInspectLine>Психічний стан: Живодер</Slaughterer.baseInspectLine>
+  <Slaughterer.baseInspectLine>Психічний стан: живодер</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} відчуває жагу до насильства.\n\n{PAWN_pronoun} збирається зірвати свою лють на ваших тваринах.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} зазнає нервового зриву й збирається зігнати злість на ваших тваринах.</Slaughterer.beginLetter>
   <!-- EN: {0} is no longer slaughtering random animals. -->
   <Slaughterer.recoveryMessage>{0} більше не вбиває тварин.</Slaughterer.recoveryMessage>
   <!-- EN: tantrum -->
@@ -115,21 +115,21 @@
   <!-- EN: Mental state: Tantrum -->
   <Tantrum.baseInspectLine>Психічний стан: істерика</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
-  <Tantrum.beginLetter>{0} б'ється в істериці.\n\n{PAWN_pronoun} збирається рознести будь-які меблі, до яких дотягнеться.</Tantrum.beginLetter>
+  <Tantrum.beginLetter>{0} влаштовує істерику.\n\n{PAWN_gender ? Він : Вона} трощитиме все підряд: меблі, речі й споруди.</Tantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
-  <Tantrum.recoveryMessage>{0} заспокоюється</Tantrum.recoveryMessage>
+  <Tantrum.recoveryMessage>{0} заспокоюється.</Tantrum.recoveryMessage>
   <!-- EN: insulting spree -->
   <TargetedInsultingSpree.label>бажання лаятись</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
-  <TargetedInsultingSpree.baseInspectLine>Психічний стан: Бажання лаятись на {0}</TargetedInsultingSpree.baseInspectLine>
+  <TargetedInsultingSpree.baseInspectLine>Психічний стан: бажання лаятись (ціль: {0})</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0} хоче висловити все що думає про {1}.\n\n{PAWN_pronoun} буде ходити за {1} та висловлювати образи.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetter>{0} знаходить мішень для своєї злості — {1}.\n\nТепер {PAWN_gender ? він : вона} ходитиме слідом і обсипатиме образами.</TargetedInsultingSpree.beginLetter>
   <!-- EN: tantrum -->
   <TargetedTantrum.label>істерика</TargetedTantrum.label>
   <!-- EN: Mental state: Tantrum -->
   <TargetedTantrum.baseInspectLine>Психічний стан: істерика</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0} б'ється в істериці та хоче щось знищити.\n\nЦіллю {PAWN_possessive} люті стає {lookup: {1}; Case; 3}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetter>{0} влаштовує істерику.\n\n{PAWN_gender ? Він : Вона} збирається знищити {lookup: {1}; Case; 3}.</TargetedTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
   <TargetedTantrum.recoveryMessage>{0} заспокоюється.</TargetedTantrum.recoveryMessage>
   <!-- EN: sitting alone -->
@@ -137,7 +137,7 @@
   <!-- EN: Mental state: Hiding in room -->
   <Wander_OwnRoom.baseInspectLine>Психічний стан: усамітнення</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0} ховається в своїй кімнаті.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0} ховається у своїй кімнаті.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>усамітнення</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
@@ -147,29 +147,29 @@
   <!-- EN: Mental state: Psychotic wandering -->
   <Wander_Psychotic.baseInspectLine>Психічний стан: розгубленість</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic.beginLetter>{0} відчуває розгубленість та безцільно блукає околицями.</Wander_Psychotic.beginLetter>
+  <Wander_Psychotic.beginLetter>{0} у стані психозу безцільно блукає довкола.</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
   <Wander_Psychotic.beginLetterLabel>розгубленість</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic.recoveryMessage>{0} більше не відчуває розгубленість.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.recoveryMessage>{0} більше не блукає в стані психозу.</Wander_Psychotic.recoveryMessage>
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic_Short.label>розгубленість</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
   <Wander_Psychotic_Short.baseInspectLine>Психічний стан: розгубленість</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic_Short.beginLetter>{0} відчуває розгубленість та безцільно блукає околицями.</Wander_Psychotic_Short.beginLetter>
+  <Wander_Psychotic_Short.beginLetter>{0} у стані психозу безцільно блукає довкола.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
   <Wander_Psychotic_Short.beginLetterLabel>розгубленість</Wander_Psychotic_Short.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic_Short.recoveryMessage>{0} більше не відчуває розгубленість.</Wander_Psychotic_Short.recoveryMessage>
+  <Wander_Psychotic_Short.recoveryMessage>{0} більше не блукає в стані психозу.</Wander_Psychotic_Short.recoveryMessage>
   <!-- EN: sad wandering -->
   <Wander_Sad.label>меланхолія</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
   <Wander_Sad.baseInspectLine>Психічний стан: меланхолія</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} блукає навколо в печалі.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} зазнає зриву й у смутку блукає довкола.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
   <Wander_Sad.beginLetterLabel>меланхолія</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
-  <Wander_Sad.recoveryMessage>{0} більше не сумує.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.recoveryMessage>{0} більше не блукає в смутку.</Wander_Sad.recoveryMessage>
 </LanguageData>

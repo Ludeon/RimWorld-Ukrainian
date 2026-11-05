@@ -3,7 +3,7 @@
   <!-- EN: Autosaving -->
   <Autosaving>Автозбереження</Autosaving>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
-  <GameStartDialog>Ви втрьох прокинулися в саркофагах криптосну під звук сирен і рипіння металу. Ви ледь дістаєтеся до рятувальних капсул, як корабель розривається на частини.\n\nЧерез деякий час ви потрапляєте на цю невідому прикордонну планету.\n\nПід звуки падіння уламків зруйнованого корабля ви починаєте будувати плани, як вижити.</GameStartDialog>
+  <GameStartDialog>Ви втрьох прокидаєтеся в саркофагах криптосну під виття сирен і скрегіт металу. Ледве встигаєте дістатися рятувальних капсул, як корабель розлітається на шматки.\n\nЗгодом ви сідаєте на цій невідомій прикордонній планеті.\n\nДовкола падають уламки розтерзаного зорельота, а ви вже обмірковуєте, як вижити.</GameStartDialog>
   <!-- EN: Colony -->
   <Colony>колонії</Colony>
   <!-- EN: You can only change language from the options screen on the main menu. -->
@@ -17,7 +17,7 @@
   <!-- EN: Game version -->
   <GameVersionIndicator>Версія гри</GameVersionIndicator>
   <!-- EN: development build -->
-  <DevelopmentBuildLower>тільки для тестерів</DevelopmentBuildLower>
+  <DevelopmentBuildLower>збірка для розробки</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
   <CompiledOn>Збірка від {0}</CompiledOn>
   <!-- EN: Logged into Steam as {0} -->
@@ -51,11 +51,11 @@
   <!-- EN: multiplier -->
   <multiplier>множник</multiplier>
   <!-- EN: damage -->
-  <damage>пошкодження</damage>
+  <damage>шкода</damage>
   <!-- EN: radius -->
   <radius>радіус</radius>
   <!-- EN: expired -->
-  <expired>термін вийшов</expired>
+  <expired>термін сплив</expired>
   <!-- EN: duration (days) -->
   <durationDays>тривалість (днів)</durationDays>
   <!-- EN: interval (days) -->
@@ -65,7 +65,7 @@
   <!-- EN: repeat -->
   <repeat>повторити</repeat>
   <!-- EN: default -->
-  <default>стандартна</default>
+  <default>типове</default>
   <!-- EN: distance -->
   <distance>відстань</distance>
   <!-- EN: YES -->
@@ -79,9 +79,9 @@
   <!-- EN: day -->
   <day>день</day>
   <!-- EN: Default -->
-  <Default>Стандартно</Default>
+  <Default>Типово</Default>
   <!-- EN: Average -->
-  <Average>В середньому</Average>
+  <Average>У середньому</Average>
   <!-- EN: Cause -->
   <Cause>Причина</Cause>
   <!-- EN: etc -->
@@ -95,62 +95,59 @@
   <!-- EN: Translation -->
   <Translation>Переклад</Translation>
   <!-- EN: min(days) -->
-  <minDays>мінімум(днів)</minDays>
+  <minDays>мін. (днів)</minDays>
   <!-- EN: max(days) -->
-  <maxDays>максимум(днів)</maxDays>
+  <maxDays>макс. (днів)</maxDays>
   <!-- EN: Processing -->
-  <Processing>Виконується</Processing>
+  <Processing>Обробка</Processing>
   <!-- EN: Inspect -->
   <Inspect>Оглянути</Inspect>
   <!-- EN: Edit -->
   <Edit>Редагувати</Edit>
   <!-- Content generation-->
   <!-- EN: {0} meat -->
-  <MeatLabel>м'ясо {lookup: {0}; Case; 1}</MeatLabel>
+  <MeatLabel>м’ясо {lookup: {0}; Case; 1}</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>Сире м'ясо. Можна приготувати, а можна з'їсти сирим.</MeatDesc>
+  <MeatDesc>Сире м’ясо з розібраної туші. З нього можна готувати страви або їсти сирим.</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>Сире м'ясо. Якщо необхідно, з нього можна зробити страви або з'їсти сирим. Дуже неапетитне.</MeatInsectDesc>
+  <MeatInsectDesc>Сире м’ясо з розібраної туші. За потреби з нього можна готувати страви чи навіть їсти сирим. Вкрай неапетитне.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
-  <MeatHumanDesc>Сире м'ясо людини. З нього можна зробити страви або з'їсти сирим, хоча більшості людей ця ідея дуже не сподобається.</MeatHumanDesc>
+  <MeatHumanDesc>Сире м’ясо з розібраного тіла. З нього можна готувати страви або їсти сирим, хоча більшості людей від самої думки про це недобре.</MeatHumanDesc>
   <!-- EN: techprint ({PROJECT_label}) -->
   <TechprintLabel>креслення ({PROJECT_label})</TechprintLabel>
   <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
 \nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>Це креслення для технології «{PROJECT_label}».
-  \n\nКреслення може бути як обривком паперу, заповненим формулами та графіками, так і передовою автономною машиною для навчання. Незалежно від форми, вони дають вашим дослідникам впевненість у тому, що технологія можлива, а також приблизне уявлення про її конкретне використання в більш розвинених суспільствах.
-  \n\nТільки після того, як буде застосована достатня кількість креслень, ваші дослідники зможуть опрацювати дрібні деталі того, як використовувати технологію конкретно у вашій ситуації.
-  \n\nЗастосування кожного креслення до відповідного проєкту додає половину прогресу дослідження, що ще залишився. Крім того, дослідники отримують бонус до своїх інтелектуальних навичок при застосуванні креслень, навіть для вже вивчених технологій.</TechprintDesc>
+  <TechprintDesc>Це креслення для дослідницького проєкту «{PROJECT_label}».\n\nКреслення бувають різні: від клаптиків паперу зі схемами до передових автономних навчальних машин. Але роль у них однакова. Вони переконують ваших дослідників, що ідея здійсненна, і дають загальне уявлення про конструкції, якими користуються розвиненіші суспільства.\n\nБез базових знань із креслень дослідники не знають, з чого почати роботу над технологією. Лише коли застосовано достатньо креслень, вони можуть опрацювати тонкощі того, як застосувати технологію саме у ваших умовах.\n\nЗастосування креслення до проєкту, вимоги якого вже виконано, зараховує половину решти прогресу дослідження. Крім того, застосовуючи креслення, дослідники завжди покращують навичку «Інтелект», навіть якщо технологію вже досліджено.</TechprintDesc>
   <!-- EN: Unlocks -->
   <Unlocks>Відкриває</Unlocks>
   <!-- EN: {0} corpse -->
   <CorpseLabel>труп {lookup: {0}; Case; 1}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
-  <CorpseDesc>Мертве тіло {lookup: {0}; Case; 1}.</CorpseDesc>
+  <CorpseDesc>Мертве тіло: {0}.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
   <DeadLabel>{1_label} ({1_gender ? мертвий : мертва})</DeadLabel>
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>грубий {0}</RoughStoneTerrainLabel>
   <!-- EN: Rough, natural {0} ground. -->
-  <RoughStoneTerrainDesc>Груба, природний {0}.</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Груба природна поверхня: {0}.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>обтесаний {0}</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>Обтесана природний {0}.</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Грубо обтесана природна підлога: {0}.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>рівний {0}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Рівний, природний {0}.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Відполірована природна підлога: {0}.</SmoothStoneTerrainDesc>
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra>(проєкт)</BlueprintLabelExtra>
   <!-- EN:  (building) -->
   <FrameLabelExtra> (споруджується)</FrameLabelExtra>
   <!-- EN: Unaffiliated -->
-  <FactionUnaffiliated>Незалежна</FactionUnaffiliated>
+  <FactionUnaffiliated>Без фракції</FactionUnaffiliated>
   <!-- EN: Continue anyway? -->
-  <StillWishContinue>Все одно продовжити?</StillWishContinue>
+  <StillWishContinue>Усе одно продовжити?</StillWishContinue>
   <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
   <BabyTalk>ба,бах,бу,бух,ґа,ґах,ґу,ня,на,агу,ну,ву,вах,вух,ма,мах</BabyTalk>
   <!-- For things made of stuff, e.g. "Stone bed" -->
@@ -158,13 +155,13 @@
   <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <SomeonesRoom>{1} {PAWN_labelShort}</SomeonesRoom>
+  <SomeonesRoom>{1} ({PAWN_labelShort})</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
-  <CouplesRoom>{2} {PAWN1_labelShort} та {PAWN2_labelShort}</CouplesRoom>
+  <CouplesRoom>{2} ({PAWN1_labelShort} і {PAWN2_labelShort})</CouplesRoom>
   <!-- EN: Important for this type of room. -->
   <StatRelatesToCurrentRoom>Важливо для приміщень такого типу.</StatRelatesToCurrentRoom>
   <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
-  <DeepResourceRemaining>Тут, під землею знаходиться {COUNT} од. {lookup: {RESOURCE_label}; Case; 1}.</DeepResourceRemaining>
+  <DeepResourceRemaining>Під землею тут є {COUNT} од. ресурсу «{RESOURCE_label}».</DeepResourceRemaining>
   <!-- EN: (various) -->
   <VariousLabel>(різне)</VariousLabel>
   <!-- History events -->
@@ -180,16 +177,54 @@
   <!-- EN: East -->
   <East>Схід</East>
   <!-- EN: applying techprint ({0}) -->
-  <ApplyingTechprint>застосовується креслення ({0})</ApplyingTechprint>
+  <ApplyingTechprint>застосовує креслення ({0})</ApplyingTechprint>
   <!-- Apparel Looks -->
   <!-- EN: variant of -->
-  <VariantOf>варіант предмету</VariantOf>
+  <VariantOf>різновид</VariantOf>
   <!-- Familial relationships -->
   <!-- EN: born to {0} -->
   <BornOfParents>батьки: {0}</BornOfParents>
   <!-- EN: unknown parents -->
-  <ParentsUnknown>невідомі</ParentsUnknown>
+  <ParentsUnknown>батьки невідомі</ParentsUnknown>
   <!-- Legal status -->
   <!-- EN: colonist -->
   <Colonist>колоніст</Colonist>
+  <!-- EN: Build asset pack -->
+  <UploadBuildAssetPack>Зібрати пакет ресурсів</UploadBuildAssetPack>
+  <!-- EN: Packs textures and sounds into an asset pack in each load folder before uploading, to improve download and load times. Untick this to upload the mod folder as it is. -->
+  <UploadBuildAssetPackTip>Перед вивантаженням пакує текстури й звуки кожної теки завантаження в пакет ресурсів, щоб мод швидше завантажувався й запускався. Зніміть позначку, щоб вивантажити теку мода як є.</UploadBuildAssetPackTip>
+  <!-- EN: Don't upload source textures -->
+  <UploadSkipSourceTextures>Не вивантажувати вихідні текстури</UploadSkipSourceTextures>
+  <!-- EN: Skips uploading the original image and sound files that were included in asset packs. Leave this unticked if you need compatibility with RimWorld 1.6 or earlier. -->
+  <UploadSkipSourceTexturesTip>Не вивантажує оригінальні файли зображень і звуків, які увійшли до пакетів ресурсів. Не ставте позначку, якщо потрібна сумісність із RimWorld 1.6 чи старішими версіями.</UploadSkipSourceTexturesTip>
+  <!-- EN: Baking asset packs -->
+  <BakingModAssetPacks>Збирання пакетів ресурсів</BakingModAssetPacks>
+  <!-- EN: Baking asset packs for {0} -->
+  <BakingModAssetPacksFor>Збирання пакетів ресурсів для {0}</BakingModAssetPacksFor>
+  <!-- EN: Baking the asset packs for {0} failed, the mod was not uploaded: -->
+  <ModAssetPackBakeFailed>Не вдалося зібрати пакети ресурсів для {0}, мод не вивантажено:</ModAssetPackBakeFailed>
+  <!-- EN: Respect system display scaling -->
+  <RespectSystemScaling>Враховувати системне масштабування</RespectSystemScaling>
+  <!-- EN: When enabled, the UI scale is multiplied by the operating system's display scaling. Disable to apply the UI scale as-is. -->
+  <RespectSystemScaling_Tooltip>Якщо увімкнено, масштаб інтерфейсу множиться на масштаб екрана в операційній системі. Вимкніть, щоб застосовувати масштаб інтерфейсу як є.</RespectSystemScaling_Tooltip>
+  <!-- EN: Texture compression in the Waylith engine is higher quality and always enabled. -->
+  <TextureCompressionAlwaysOn_Tooltip>У рушії Waylith стиснення текстур якісніше й завжди увімкнене.</TextureCompressionAlwaysOn_Tooltip>
+  <!-- EN: Display mode -->
+  <DisplayMode>Режим екрана</DisplayMode>
+  <!-- EN: Windowed -->
+  <DisplayMode_Windowed>У вікні</DisplayMode_Windowed>
+  <!-- EN: Exclusive fullscreen -->
+  <DisplayMode_ExclusiveFullscreen>Ексклюзивний повноекранний</DisplayMode_ExclusiveFullscreen>
+  <!-- EN: Monitor -->
+  <Monitor>Монітор</Monitor>
+  <!-- EN: Automatic -->
+  <Monitor_Automatic>Автоматично</Monitor_Automatic>
+  <!-- EN: Graphics card -->
+  <Gpu>Відеокарта</Gpu>
+  <!-- EN: Automatic -->
+  <Gpu_Automatic>Автоматично</Gpu_Automatic>
+  <!-- EN: {0} (in use) -->
+  <Gpu_InUse>{0} (використовується)</Gpu_InUse>
+  <!-- EN: Changing the graphics card requires a restart. Unsaved progress will be lost.\n\nRestart now? -->
+  <GpuChangedRestart>Щоб змінити відеокарту, потрібен перезапуск. Незбережений прогрес буде втрачено.\n\nПерезапустити зараз?</GpuChangedRestart>
 </LanguageData>

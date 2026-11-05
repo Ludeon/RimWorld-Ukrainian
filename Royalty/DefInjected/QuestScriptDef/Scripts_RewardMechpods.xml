@@ -8,11 +8,11 @@
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nЦі капсули містять:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nУ капсулах такі загрози:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракції [asker_faction_name], просить допомоги. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], просить допомоги. [commonMainPart]</li>
-    <li>commonMainPart->Механоїди атакують [asker_possessive] поселення. [asker_pronoun] просить вас надіслати їм повідомлення, що відволіче їх, поки [asker_pronoun] вирішує проблеми з іншою частиною роя. Якщо ви погодитесь, до [map_definite] приземлиться (*Threat)кластер механоїдів(/Threat).[dangersDescription]\n\nСпочатку цей кластер буде неактивним. Він може таким і залишатися, якщо його не активувати самостійно або якщо не спрацює таймер.[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракції [asker_faction_name], звертається з проханням. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] фракції [asker_faction_name], звертається з проханням. [commonMainPart]</li>
+    <li>commonMainPart->Рій механоїдів нападає на {asker_gender ? його : її} поселення. [asker_pronoun] просить вас подати механоїдам сигнал, щоб відволікти їх, поки [asker_pronoun] знищує їхнє гніздо. Якщо ви погодитеся, біля поселення [map_definite] приземлиться (*Threat)кластер механоїдів(/Threat).[dangersDescription]\n\nСпочатку кластер буде неактивним. У ньому може бути активатор зі зворотним відліком, а може, він спатиме вічно, доки його не потривожать.[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
@@ -31,17 +31,17 @@
   -->
   <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
     <li>questName->кластер [menace]</li>
-    <li>questName->[menace] pods</li>
+    <li>questName->капсули [menace]</li>
     <li>questName->[nameBased]</li>
-    <li>nameBased->[asker_nameDef]'s mechs</li>
-    <li>nameBased->[asker_nameDef]'s mechanoids</li>
-    <li>nameBased->[asker_nameDef]'s mech cluster</li>
-    <li>nameBased->[asker_nameDef]'s mech [menace]</li>
-    <li>menace->threat</li>
-    <li>menace->menace</li>
-    <li>menace->scourge</li>
-    <li>menace->danger</li>
-    <li>menace->terror</li>
-    <li>menace->fear</li>
+    <li>nameBased->[asker_nameDef] і мехи</li>
+    <li>nameBased->[asker_nameDef] і механоїди</li>
+    <li>nameBased->[asker_nameDef] і кластер механоїдів</li>
+    <li>nameBased->[asker_nameDef]: механоїди [menace]</li>
+    <li>menace->загрози</li>
+    <li>menace->погрози</li>
+    <li>menace->лиха</li>
+    <li>menace->небезпеки</li>
+    <li>menace->жаху</li>
+    <li>menace->страху</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
 </LanguageData>

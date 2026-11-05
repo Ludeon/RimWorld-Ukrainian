@@ -5,7 +5,7 @@
   <!-- EN: mutated my arm -->
   <MutatedMyArm.label>мутація руки</MutatedMyArm.label>
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>вивчення аномалії</StudiedEntity.label>
+  <StudiedEntity.label>вивчення сутності</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -21,17 +21,17 @@
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
   <StudiedEntity.rulePack.rulesStrings>
-    <li>tale_noun->[STUDIER_nameDef] вивчає [ENTITY_nameIndef]</li>
-    <li>image->, як [STUDIER_nameFull] обережно вивчає [ENTITY_nameDef][circumstance_phrase]</li>
-    <li>image->, як [STUDIER_nameFull] проводить експерименти у спробах зрозуміти секрети [ENTITY_nameDef][circumstance_phrase]</li>
-    <li>image->, як [STUDIER_nameFull] намагається зрозуміти природу [ENTITY_nameDef][circumstance_phrase]</li>
-    <li>circumstance_phrase->. [STUDIER_nameFull] не може приховати огиду в своїх очах</li>
-    <li>circumstance_phrase-> та робить нотатки у свій ноутбук</li>
-    <li>circumstance_phrase->, паралельно переглядаючи старовинний фоліант</li>
-    <li>desc_sentence->На задньому плані видно стабільну роботу поглиначів біофериту.</li>
-    <li>desc_sentence->Глибоке захоплення колоніста {lookup: [ENTITY_nameDef]; Case; 4} очевидно</li>
-    <li>desc_sentence->[STUDIER_nameDef] повністю {STUDIER_gender ? поглинений : поглинена} своїм дослідженням {lookup: [ENTITY_nameDef]; Case; 1}, прагнучи розкрити його секрети</li>
-    <li>desc_sentence->[ENTITY_nameDef] утримується на місці лише безперервною роботою інгібіторів</li>
-    <li>desc_sentence->Здається, [ENTITY_nameDef] не реагує на зусилля [STUDIER_nameDef]</li>
+    <li>tale_noun->[STUDIER_nameDef] вивчає сутність ([ENTITY_nameIndef])</li>
+    <li>image->[STUDIER_nameFull] уважно оглядає сутність, якою є [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] ставить досліди, прагнучи розкрити таємниці сутності, якою є [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] намагається збагнути природу сутності, якою є [ENTITY_nameDef], [circumstance_group]</li>
+    <li>circumstance_phrase->з ледь прихованою огидою в очах</li>
+    <li>circumstance_phrase->щось занотовуючи в записник</li>
+    <li>circumstance_phrase->звіряючись зі старовинним фоліантом</li>
+    <li>desc_sentence->На тлі видно, як невтомно працюють поглиначі біофериту.</li>
+    <li>desc_sentence->Очевидно, що [ENTITY_nameDef] глибоко зачаровує {STUDIER_gender ? дослідника : дослідницю}.</li>
+    <li>desc_sentence->[STUDIER_nameDef] {STUDIER_gender ? цілком поглинений : цілком поглинена} вивченням сутності, якою є [ENTITY_nameDef], і прагне розкрити її таємниці.</li>
+    <li>desc_sentence->[ENTITY_nameDef] тримається на місці лише завдяки невпинній роботі електричних інгібіторів.</li>
+    <li>desc_sentence->Здається, [ENTITY_nameDef] ніяк не реагує на зусилля {STUDIER_gender ? дослідника : дослідниці}.</li>
   </StudiedEntity.rulePack.rulesStrings>
 </LanguageData>

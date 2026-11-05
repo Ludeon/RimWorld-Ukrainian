@@ -30,32 +30,35 @@
   -->
   <Speech_AcceptRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
-    <li>speechtopic->the responsibility of [INITIATOR_possessive] new role</li>
-    <li>speechtopic->the importance of [INITIATOR_possessive] new role</li>
-    <li>speechtopic->[INITIATOR_possessive] good qualities</li>
-    <li>speechtopic->[INITIATOR_possessive] strengths and how to leverage them</li>
-    <li>speechtopic->[INITIATOR_possessive] shortcomings</li>
-    <li>speechtopic->[INITIATOR_possessive] weaknesses and how to overcome them</li>
-    <li>speechtopic->[INITIATOR_possessive] desire to serve the community</li>
-    <li>speechtopic->[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>
-    <li>speechtopic->[INITIATOR_possessive] beliefs about the future</li>
-    <li>speechtopic->[INITIATOR_possessive] wish to serve a greater purpose</li>
-    <li>speechtopic->[INITIATOR_possessive] [PersonalCharacteristic] and how it relates to the role</li>
-    <li>speechtopic->how [INITIATOR_possessive] [PersonalCharacteristic] makes [INITIATOR_objective] suited for the role</li>
-    <li>speechtopic->how [INITIATOR_pronoun] will use [INITIATOR_possessive] [PersonalCharacteristic] to overcome obstacles</li>
-    <li>speechtopic->thankfulness</li>
-    <li>speechtopic->showing gratitude</li>
-    <li>speechtopic->life's purpose</li>
-    <li>speechtopic->the future of the colony</li>
-    <li>speechtopic->improving the colony</li>
-    <li>speechtopic->decision-making under stress</li>
-    <li>speechtopic->the social structure of the community</li>
-    <li>speechtopic->taking responsibility</li>
-    <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
+    <li>speechtopic->свою нову роль у спільноті</li>
+    <li>speechtopic->відповідальність, яку накладає нова роль</li>
+    <li>speechtopic->важливість своєї нової ролі</li>
+    <li>speechtopic->свої добрі якості</li>
+    <li>speechtopic->свої сильні сторони і як ними скористатися</li>
+    <li>speechtopic->свої недоліки</li>
+    <li>speechtopic->свої слабкості і як їх подолати</li>
+    <li>speechtopic->своє прагнення служити спільноті</li>
+    <li>speechtopic->свою відданість власним переконанням</li>
+    <li>speechtopic->свої погляди на майбутнє</li>
+    <li>speechtopic->своє бажання служити вищій меті</li>
+    <li>speechtopic->[own_pc] і те, як це стосується нової ролі</li>
+    <li>speechtopic->те, чому з огляду на [INITIATOR_possessive] [PersonalCharacteristic_acc] ця роль пасує саме {INITIATOR_gender ? йому : їй}</li>
+    <li>speechtopic->те, як долатиме перешкоди, спираючись на [own_pc]</li>
+    <li>speechtopic->вдячність</li>
+    <li>speechtopic->уміння дякувати</li>
+    <li>speechtopic->сенс життя</li>
+    <li>speechtopic->майбутнє колонії</li>
+    <li>speechtopic->розвиток колонії</li>
+    <li>speechtopic->ухвалення рішень під тиском</li>
+    <li>speechtopic->соціальний устрій спільноти</li>
+    <li>speechtopic->готовність брати на себе відповідальність</li>
+    <li>speechtopic->те, як ставити роль вище за власні бажання</li>
+    <li>own_pc(p=4)->свій [PersonalCharacteristic_m_acc]</li>
+    <li>own_pc(p=3)->свою [PersonalCharacteristic_f_acc]</li>
+    <li>own_pc(p=2)->своє [PersonalCharacteristic_n_acc]</li>
   </Speech_AcceptRole.logRulesInitiator.rulesStrings>
   <!-- EN: blinding speech -->
-  <Speech_Blinding.label>промова сліпоти</Speech_Blinding.label>
+  <Speech_Blinding.label>промова перед осліпленням</Speech_Blinding.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->blindness</li>
@@ -76,20 +79,20 @@
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->сліпоту</li>
     <li>speechtopic->чистоту сліпоти</li>
-    <li>speechtopic->духовне значення осліплення</li>
-    <li>speechtopic->приховані світи, що виходять за межі розуму</li>
-    <li>speechtopic->оманливої натури фізичного світу</li>
-    <li>speechtopic->методи осліплення</li>
+    <li>speechtopic->духовне значення незрячості</li>
+    <li>speechtopic->приховані світи поза межами зору</li>
+    <li>speechtopic->оманливість видимої реальності</li>
+    <li>speechtopic->техніку осліплення</li>
     <li>speechtopic->прокляття зору</li>
-    <li>speechtopic->желе всередині ока</li>
-    <li>speechtopic->зростання зрячим</li>
-    <li>speechtopic->зростання сліпим</li>
-    <li>speechtopic->дослідження світу без зору і руху</li>
-    <li>speechtopic->справжні шари реальності, що ховаються під візуальним зразком</li>
-    <li>speechtopic->психічні з'єднання</li>
+    <li>speechtopic->драглі всередині очного яблука</li>
+    <li>speechtopic->те, як рости зрячим</li>
+    <li>speechtopic->те, як рости сліпим</li>
+    <li>speechtopic->мандри без зору й руху</li>
+    <li>speechtopic->справжні шари реальності, приховані під видимим</li>
+    <li>speechtopic->психічні зв’язки</li>
   </Speech_Blinding.logRulesInitiator.rulesStrings>
   <!-- EN: conversion speech -->
-  <Speech_Conversion.label>ритуал конвертації</Speech_Conversion.label>
+  <Speech_Conversion.label>промова про навернення</Speech_Conversion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->uniting for the greater good</li>
@@ -110,21 +113,21 @@
   -->
   <Speech_Conversion.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->об'єднання для загального блага</li>
-    <li>speechtopic->неправильність відступництва</li>
+    <li>speechtopic->єднання заради спільного блага</li>
+    <li>speechtopic->хибність відступництва</li>
     <li>speechtopic->вибір правильних переконань</li>
-    <li>speechtopic->моральну структура Всесвіту</li>
-    <li>speechtopic->правильне і неправильне</li>
+    <li>speechtopic->моральну структуру всесвіту</li>
+    <li>speechtopic->добро і зло</li>
     <li>speechtopic->мету життя</li>
-    <li>speechtopic->значення життя</li>
+    <li>speechtopic->сенс життя</li>
     <li>speechtopic->історію людства</li>
     <li>speechtopic->майбутнє людства</li>
-    <li>speechtopic->любов та ненависть</li>
-    <li>speechtopic->страх та безпеку</li>
-    <li>speechtopic->праведність приналежності</li>
-    <li>speechtopic->приєднання та приналежності</li>
-    <li>speechtopic->інші помилкові переконання</li>
-    <li>speechtopic->прогрес та напрямок майбутнього</li>
+    <li>speechtopic->любов і ненависть</li>
+    <li>speechtopic->страх і безпеку</li>
+    <li>speechtopic->правильність належності до спільноти</li>
+    <li>speechtopic->приєднання й належність</li>
+    <li>speechtopic->хибність інших вірувань</li>
+    <li>speechtopic->поступ у майбутнє</li>
   </Speech_Conversion.logRulesInitiator.rulesStrings>
   <!-- EN: celebration speech -->
   <Speech_DateRitual.label>святкова промова</Speech_DateRitual.label>
@@ -141,14 +144,14 @@
   -->
   <Speech_DateRitual.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
-    <li>praisetopic->радість від участі в святкуванні</li>
+    <li>praisetopic->радість ідеологічних свят</li>
     <li>praisetopic->правильне мислення</li>
-    <li>praisetopic->моральну структуру Всесвіту</li>
-    <li>praisetopic->свої переконаннях</li>
-    <li>praisetopic->єднання</li>
-    <li>praisetopic->життя разом</li>
-    <li>praisetopic->різноманітні ідеї</li>
-    <li>praisetopic->свій колектив</li>
+    <li>praisetopic->моральну структуру всесвіту</li>
+    <li>praisetopic->свої переконання</li>
+    <li>praisetopic->єдність</li>
+    <li>praisetopic->час, проведений разом</li>
+    <li>praisetopic->обмін ідеями</li>
+    <li>praisetopic->свою громаду</li>
   </Speech_DateRitual.logRulesInitiator.rulesStrings>
   <!-- EN: duel speech -->
   <Speech_Duel.label>промова перед поєдинком</Speech_Duel.label>
@@ -172,23 +175,23 @@
   -->
   <Speech_Duel.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
-    <li>praisetopic->смерть від леза</li>
-    <li>praisetopic->болючу смерть</li>
-    <li>praisetopic->благородну смерть</li>
-    <li>praisetopic->благородний бій</li>
-    <li>praisetopic->стійкість та боротьбу</li>
-    <li>praisetopic->зброю та бійців</li>
-    <li>praisetopic->чистоту фізичного конфлікту</li>
-    <li>praisetopic->любов до смерті</li>
-    <li>praisetopic->домінування над іншими</li>
-    <li>praisetopic->силу над іншими</li>
-    <li>praisetopic->конфлікти, властиві Всесвіту</li>
-    <li>praisetopic->кров та пил</li>
-    <li>praisetopic->життя та драму</li>
-    <li>praisetopic->досвід та надії</li>
-    <li>praisetopic->лють та силу</li>
+    <li>praisetopic->смерть від клинка</li>
+    <li>praisetopic->болісну смерть</li>
+    <li>praisetopic->почесну смерть</li>
+    <li>praisetopic->почесний бій</li>
+    <li>praisetopic->витривалість і боротьбу</li>
+    <li>praisetopic->[AdjectiveBadass_f_acc] зброю і [AdjectiveBadass_pl_gen] бійців</li>
+    <li>praisetopic->чистоту фізичного протистояння</li>
+    <li>praisetopic->любов через смерть</li>
+    <li>praisetopic->вивільнення ненависті заради здоров’я</li>
+    <li>praisetopic->силу, що підносить над іншими</li>
+    <li>praisetopic->конфлікт, закладений у саму природу всесвіту</li>
+    <li>praisetopic->кров і пил</li>
+    <li>praisetopic->життя і драму</li>
+    <li>praisetopic->гнів і надію</li>
+    <li>praisetopic->лють і силу</li>
   </Speech_Duel.logRulesInitiator.rulesStrings>
-  <!-- EN: exceution speech -->
+  <!-- EN: execution speech -->
   <Speech_Execution.label>промова перед стратою</Speech_Execution.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
@@ -204,18 +207,18 @@
   -->
   <Speech_Execution.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->життя та смерть</li>
-    <li>speechtopic->необхідність справедливості</li>
-    <li>speechtopic->методи покарання</li>
-    <li>speechtopic->смерть та жорстокість</li>
-    <li>speechtopic->вбивство з милосердя</li>
-    <li>speechtopic->милість правильного вироку</li>
+    <li>speechtopic->життя і смерть</li>
+    <li>speechtopic->потребу в справедливості</li>
+    <li>speechtopic->методи страти</li>
+    <li>speechtopic->смерть і жорстокість</li>
+    <li>speechtopic->убивство з милосердя</li>
+    <li>speechtopic->милосердя правильно виконаної страти</li>
     <li>speechtopic->символізм смерті</li>
-    <li>speechtopic->смертну кару та історії про це</li>
-    <li>speechtopic->причини вироку</li>
+    <li>speechtopic->смертну кару та її історію</li>
+    <li>speechtopic->причини цієї страти</li>
   </Speech_Execution.logRulesInitiator.rulesStrings>
   <!-- EN: funeral speech -->
-  <Speech_Funeral.label>похоронна мова</Speech_Funeral.label>
+  <Speech_Funeral.label>похоронна промова</Speech_Funeral.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the nobility of sacrifice</li>
@@ -233,18 +236,18 @@
   -->
   <Speech_Funeral.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->благородство жертовності</li>
+    <li>speechtopic->шляхетність самопожертви</li>
     <li>speechtopic->смерть</li>
-    <li>speechtopic->життя та смерть</li>
-    <li>speechtopic->смерть та сім'ю</li>
-    <li>speechtopic->поняття гарного життя</li>
+    <li>speechtopic->життя після смерті</li>
+    <li>speechtopic->смерть і родину</li>
+    <li>speechtopic->уявлення про гідне життя</li>
     <li>speechtopic->смерть як шлях до гідності</li>
-    <li>speechtopic->початок і закінчення промови</li>
-    <li>speechtopic->те, що буде після смерті</li>
+    <li>speechtopic->початки й кінці</li>
+    <li>speechtopic->те, що чекає після смерті</li>
     <li>speechtopic->святкування наступного кроку</li>
-    <li>speechtopic->відсутність друзів</li>
-    <li>speechtopic->життя та радість</li>
-    <li>speechtopic->проведення незавершеної роботи</li>
+    <li>speechtopic->друзів, яких уже немає поруч</li>
+    <li>speechtopic->життя і радість</li>
+    <li>speechtopic->продовження незавершеної справи</li>
   </Speech_Funeral.logRulesInitiator.rulesStrings>
   <!-- EN: leader speech -->
   <Speech_Leader.label>лідерська промова</Speech_Leader.label>
@@ -286,39 +289,42 @@
   -->
   <Speech_Leader.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->searching for [Vegetable]s</li>
-    <li>speechtopic->how to be [AdjectiveFriendly]</li>
-    <li>speechtopic->avoiding [AnimalBadass]s</li>
-    <li>speechtopic->how life is like [Game]</li>
-    <li>speechtopic->the mind as a [Weapon]</li>
-    <li>speechtopic->exploring through [TerrainFeature]s and [TerrainFeature]s</li>
-    <li>speechtopic->promises to the [Direction]</li>
-    <li>speechtopic->how to be more like [Animal]s</li>
-    <li>speechtopic->the symbolism of the [NaturalObject] and the [NaturalObject]</li>
-    <li>speechtopic->how all are [PersonFamily]s and [PersonFamily]s</li>
-    <li>speechtopic->how to be a good [PersonAlly]</li>
-    <li>speechtopic->the need for [PersonJob]s</li>
-    <li>speechtopic->avoiding [PersonBadass]s</li>
-    <li>speechtopic->defeating [Enemy]s through [ConceptPositive]</li>
-    <li>speechtopic->seeing [Gore] during combat</li>
-    <li>speechtopic->the history of the [Mechanoid]s</li>
-    <li>speechtopic->the meaning of [ConceptPositive]</li>
-    <li>speechtopic->the [ConceptPositive] of the colony</li>
-    <li>speechtopic->how to be [AdjectiveBadass] without being [AdjectiveBadass]</li>
-    <li>speechtopic->how [AdjectiveBadass] the colony is</li>
-    <li>speechtopic->[AdjectiveNatural] [TerrainFeature]s</li>
-    <li>speechtopic->the colony's [AdjectiveLarge] potential</li>
-    <li>speechtopic->the [PersonalCharacteristic] of every colonist</li>
-    <li>speechtopic->the terrible [PersonalCharacteristic] of the colony's enemies</li>
-    <li>speechtopic(p=0.25)->sticking together as group</li>
-    <li>speechtopic(p=0.25)->the path forward through tragedy</li>
-    <li>speechtopic(p=0.25)->the community and its importance</li>
-    <li>speechtopic(p=0.25)->survival versus luxury</li>
-    <li>speechtopic(p=0.25)->happiness through hardship</li>
-    <li>speechtopic(p=0.25)->satisfaction through suffering</li>
-    <li>speechtopic(p=0.25)->death as a motivator</li>
-    <li>speechtopic(p=0.25)->strong hands and hearts</li>
-    <li>speechtopic(p=0.25)->the right to survive</li>
+    <li>speechtopic->пошуки [Vegetable_pl_gen]</li>
+    <li>speechtopic->те, як бути [AdjectiveFriendly_ins]</li>
+    <li>speechtopic->те, як уникати [AnimalBadass_pl_gen]</li>
+    <li>speechtopic->те, наскільки життя схоже на [Game_acc]</li>
+    <li>speechtopic->розум як [Weapon_acc]</li>
+    <li>speechtopic->мандри крізь [TerrainFeature_pl_acc] і [TerrainFeature_pl_acc]</li>
+    <li>speechtopic->обіцянки, дані [Direction_dat] краю</li>
+    <li>speechtopic->те, як стати більше схожими на [Animal_pl_acc]</li>
+    <li>speechtopic->символізм [NaturalObject_gen] і [NaturalObject_gen]</li>
+    <li>speechtopic->те, що всі ми — [PersonFamily_pl] і [PersonFamily_pl]</li>
+    <li>speechtopic->те, як бути добрим [PersonAlly_m_ins]</li>
+    <li>speechtopic->потребу в [PersonJob_pl_loc]</li>
+    <li>speechtopic->те, як уникати [PersonBadass_pl_gen]</li>
+    <li>speechtopic->перемогу над [Enemy_pl_ins] завдяки [ConceptPositive_dat]</li>
+    <li>speechtopic->вигляд [Gore_gen] у бою</li>
+    <li>speechtopic->історію [Mechanoid_pl_gen]</li>
+    <li>speechtopic->значення [ConceptPositive_gen]</li>
+    <li>speechtopic->[ConceptPositive_acc] нашої колонії</li>
+    <li>speechtopic->те, як бути [AdjectiveBadass_ins], не будучи [AdjectiveBadass_ins]</li>
+    <li>speechtopic->те, наскільки [AdjectiveBadass_f] наша колонія</li>
+    <li>speechtopic->[AdjectiveNatural_pl_acc] [TerrainFeature_pl_acc]</li>
+    <li>speechtopic->[AdjectiveLarge_acc] потенціал колонії</li>
+    <li>speechtopic->[PersonalCharacteristic_acc] кожного колоніста</li>
+    <li>speechtopic->[terrible_pc] ворогів колонії</li>
+    <li>terrible_pc(p=4)->жахливий [PersonalCharacteristic_m_acc]</li>
+    <li>terrible_pc(p=3)->жахливу [PersonalCharacteristic_f_acc]</li>
+    <li>terrible_pc(p=2)->жахливе [PersonalCharacteristic_n_acc]</li>
+    <li>speechtopic(p=0.25)->згуртованість</li>
+    <li>speechtopic(p=0.25)->шлях уперед крізь трагедію</li>
+    <li>speechtopic(p=0.25)->громаду та її значення</li>
+    <li>speechtopic(p=0.25)->виживання на противагу розкоші</li>
+    <li>speechtopic(p=0.25)->щастя через труднощі</li>
+    <li>speechtopic(p=0.25)->задоволення через страждання</li>
+    <li>speechtopic(p=0.25)->смерть як рушійну силу</li>
+    <li>speechtopic(p=0.25)->міцні руки й серця</li>
+    <li>speechtopic(p=0.25)->право на виживання</li>
   </Speech_Leader.logRulesInitiator.rulesStrings>
   <!-- EN: role removal speech -->
   <Speech_RemoveRole.label>виступ про позбавлення ролі</Speech_RemoveRole.label>
@@ -345,24 +351,24 @@
   -->
   <Speech_RemoveRole.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
-    <li>speechtopic->свою минулу роль у спільноті</li>
-    <li>speechtopic->відповідальність [INITIATOR_possessive] старої ролі</li>
-    <li>speechtopic->складність [INITIATOR_possessive] старої ролі</li>
-    <li>speechtopic->свої недоліках</li>
-    <li>speechtopic->свої слабкі сторони і їх подолання</li>
-    <li>speechtopic->своє розмежування зі спільнотою</li>
-    <li>speechtopic->свої переконання</li>
-    <li>speechtopic->піклування про майбутнє</li>
-    <li>speechtopic->бажання переслідувати свої власні цілі</li>
-    <li>speechtopic->слабку сторону [HisPersonalCharacteristic]</li>
+    <li>speechtopic->свою колишню роль у спільноті</li>
+    <li>speechtopic->відповідальність, яку накладала колишня роль</li>
+    <li>speechtopic->труднощі колишньої ролі</li>
+    <li>speechtopic->свої недоліки</li>
+    <li>speechtopic->свої слабкості і як їх подолати</li>
+    <li>speechtopic->своє розчарування спільнотою</li>
+    <li>speechtopic->свою відданість власним переконанням</li>
+    <li>speechtopic->свої погляди на майбутнє</li>
+    <li>speechtopic->бажання йти до власних цілей</li>
+    <li>speechtopic->те, що {INITIATOR_gender ? йому : їй} бракує [PersonalCharacteristic_gen]</li>
     <li>speechtopic->своє минуле</li>
-    <li>speechtopic->відображення гуманності</li>
-    <li>speechtopic->життєву мету</li>
+    <li>speechtopic->скромність</li>
+    <li>speechtopic->сенс життя</li>
     <li>speechtopic->майбутнє колонії</li>
-    <li>speechtopic->покращення колонії</li>
-    <li>speechtopic->соціальну структуру спільноти</li>
-    <li>speechtopic->кращих кандидатів</li>
-    <li>speechtopic->те, що [INITIATOR_pronoun] ставить цілі спільноти вище особистих амбіцій</li>
+    <li>speechtopic->розвиток колонії</li>
+    <li>speechtopic->соціальний устрій спільноти</li>
+    <li>speechtopic->гідніших кандидатів</li>
+    <li>speechtopic->потребу ставити цілі спільноти вище за особисті амбіції</li>
   </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>промова перед жертвоприношенням</Speech_Sacrifice.label>
@@ -392,25 +398,25 @@
   <Speech_Sacrifice.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
-    <li>speechtopic->значення і істині значення смерті</li>
-    <li>speechtopic->вирази болю</li>
+    <li>speechtopic->значення та справжню цінність смерті</li>
+    <li>speechtopic->прояви болю</li>
     <li>speechtopic->контрольовану жорстокість</li>
-    <li>speechtopic->теплу кров</li>
-    <li>speechtopic->значення смерті</li>
-    <li>speechtopic->любов та смерті</li>
-    <li>speechtopic->символи болі</li>
-    <li>speechtopic->лезо і м'ясо</li>
-    <li>speechtopic->мистецтво вирізання</li>
-    <li>speechtopic->підрахування крові</li>
-    <li>speechtopic->музику крику</li>
+    <li>speechtopic->тепло крові</li>
+    <li>speechtopic->сенс смерті</li>
+    <li>speechtopic->любов і смерть</li>
+    <li>speechtopic->символіку болю</li>
+    <li>speechtopic->леза й плоть</li>
+    <li>speechtopic->мистецтво різання</li>
+    <li>speechtopic->спокусу крові</li>
+    <li>speechtopic->музику криків</li>
     <li>speechtopic->кишки на підлозі</li>
-    <li>crazy->маніакально кричить</li>
-    <li>crazy->зривається до скандування</li>
-    <li>crazy->молиться до неба</li>
-    <li>crazy->плює в око жертви</li>
-    <li>crazy->регоче</li>
-    <li>crazy->розмахує мечем</li>
-    <li>crazy->щось бурмоче</li>
+    <li>crazy->{INITIATOR_gender ? маніакально закричав : маніакально закричала}</li>
+    <li>crazy->{INITIATOR_gender ? затягнув : затягнула} ритуальний спів</li>
+    <li>crazy->{INITIATOR_gender ? заспівав : заспівала}, звертаючись до небес</li>
+    <li>crazy->{INITIATOR_gender ? плюнув : плюнула} жертві в око</li>
+    <li>crazy->{INITIATOR_gender ? моторошно зареготав : моторошно зареготала}</li>
+    <li>crazy->{INITIATOR_gender ? змахнув : змахнула} лезом</li>
+    <li>crazy->{INITIATOR_gender ? бурмотів : бурмотіла} одне й те саме</li>
   </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   <!-- EN: scarification speech -->
   <Speech_Scarification.label>промова перед шрамуванням</Speech_Scarification.label>
@@ -438,26 +444,26 @@
   <Speech_Scarification.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
-    <li>speechtopic->погляди на біль тіла</li>
-    <li>speechtopic->вирази болю</li>
+    <li>speechtopic->біль, записаний на тілі</li>
+    <li>speechtopic->прояви болю</li>
     <li>speechtopic->контрольовану жорстокість</li>
-    <li>speechtopic->теплу крові</li>
+    <li>speechtopic->тепло крові</li>
     <li>speechtopic->значення шраму</li>
-    <li>speechtopic->любов та біль</li>
-    <li>speechtopic->символізм болю</li>
-    <li>speechtopic->леза і м'ясо</li>
-    <li>speechtopic->мистецтво шрамування</li>
-    <li>speechtopic->відрахування крові</li>
-    <li>speechtopic->крик як музику</li>
-    <li>crazy->маніакально кричить</li>
-    <li>crazy->волає від насолоди</li>
-    <li>crazy->розмовляє з небесами</li>
-    <li>crazy->регоче</li>
-    <li>crazy->розмахує мечем</li>
-    <li>crazy->весело щось бурмоче</li>
+    <li>speechtopic->любов і біль</li>
+    <li>speechtopic->символіку болю</li>
+    <li>speechtopic->леза й плоть</li>
+    <li>speechtopic->мистецтво різання</li>
+    <li>speechtopic->спокусу крові</li>
+    <li>speechtopic->музику криків</li>
+    <li>crazy->{INITIATOR_gender ? маніакально закричав : маніакально закричала}</li>
+    <li>crazy->{INITIATOR_gender ? затягнув : затягнула} ритуальний спів</li>
+    <li>crazy->{INITIATOR_gender ? заспівав : заспівала}, звертаючись до небес</li>
+    <li>crazy->{INITIATOR_gender ? моторошно зареготав : моторошно зареготала}</li>
+    <li>crazy->{INITIATOR_gender ? змахнув : змахнула} лезом</li>
+    <li>crazy->{INITIATOR_gender ? бурмотів : бурмотіла} одне й те саме</li>
   </Speech_Scarification.logRulesInitiator.rulesStrings>
   <!-- EN: tree connection speech -->
-  <Speech_TreeConnection.label>ритуал зв'язку з деревом Гауранлен</Speech_TreeConnection.label>
+  <Speech_TreeConnection.label>промова про зв’язок із деревом</Speech_TreeConnection.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the trees and the people</li>
@@ -476,16 +482,16 @@
   <Speech_TreeConnection.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->дерева і людей</li>
-    <li>speechtopic->дерева і пси-здібності</li>
+    <li>speechtopic->дерева й психічні сили</li>
     <li>speechtopic->дріад</li>
-    <li>speechtopic->життєвий цикл дерева Гауранлен</li>
+    <li>speechtopic->життєвий цикл дерев Гауранлен</li>
     <li>speechtopic->духовну присутність дерев Гауранлен</li>
-    <li>speechtopic->психічні дендро-патії</li>
-    <li>speechtopic->те, які ж дріади милі</li>
-    <li>speechtopic->величність дріад</li>
+    <li>speechtopic->психічну дендропатію</li>
+    <li>speechtopic->те, які дріади милі</li>
+    <li>speechtopic->шляхетність дріад</li>
     <li>speechtopic->вік дерев</li>
-    <li>speechtopic->роль людства під деревами</li>
-    <li>speechtopic->життя рослин і вічність</li>
+    <li>speechtopic->місце людства під деревами</li>
+    <li>speechtopic->рослинне життя і вічність</li>
     <li>speechtopic->єднання з природою</li>
   </Speech_TreeConnection.logRulesInitiator.rulesStrings>
 </LanguageData>

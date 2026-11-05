@@ -4,7 +4,7 @@
     <li>questDescription->[discoveryMethod] an ancient complex nearby that is said to contain treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
   -->
   <OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] — це старовинний комплекс неподалік, в якому, за чутками, сховано скарб.\n\nВи можете проникнути всередину та спробувати знайти той скарб.\n\nАле знайте, такі споруди можуть приховувати безліч загроз. До того ж ваші дії в комплексі можуть викликати небажану увагу.</li>
+    <li>questDescription->[discoveryMethod] неподалік старовинний комплекс, де, кажуть, заховано скарби.\n\nМожна проникнути всередину й забрати здобич.\n\nОбережно: у таких спорудах чатують різні небезпеки. До того ж ваша діяльність у комплексі може привернути небажану увагу.</li>
   </OpportunitySite_AncientComplex_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
@@ -32,29 +32,47 @@
     <li>finalWord->booty</li>
   -->
   <OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
-    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
-    <li>questName->[complex] [finalWord]</li>
+    <li>questName(p=3)->[finalWord] [complexAdjGen]</li>
+    <li>questName->[finalWord] [complexGen]</li>
+    <li>questName->[complexAdj] [complex]</li>
     <li>complexAdj->таємний</li>
-    <li>complexAdj->таємничий</li>
-    <li>complexAdj->древній</li>
+    <li>complexAdj->загадковий</li>
+    <li>complexAdj->старовинний</li>
     <li>complexAdj->старий</li>
     <li>complexAdj->прихований</li>
     <li>complexAdj->смертельний</li>
     <li>complex->комплекс</li>
-    <li>complex->споруда</li>
-    <li>complex->структура</li>
+    <li>complex->об’єкт</li>
+    <li>complexAdjGen(p=2)->[complexAdjG] комплексу</li>
+    <li>complexAdjGen->[complexAdjG] об’єкта</li>
+    <li>complexAdjGen->[complexAdjGf] споруди</li>
+    <li>complexAdjG->таємного</li>
+    <li>complexAdjG->загадкового</li>
+    <li>complexAdjG->старовинного</li>
+    <li>complexAdjG->старого</li>
+    <li>complexAdjG->прихованого</li>
+    <li>complexAdjG->смертельного</li>
+    <li>complexAdjGf->таємної</li>
+    <li>complexAdjGf->загадкової</li>
+    <li>complexAdjGf->старовинної</li>
+    <li>complexAdjGf->старої</li>
+    <li>complexAdjGf->прихованої</li>
+    <li>complexAdjGf->смертельної</li>
+    <li>complexGen->комплексу</li>
+    <li>complexGen->об’єкта</li>
+    <li>complexGen->споруди</li>
     <li>finalWord->скарб</li>
     <li>finalWord->багатства</li>
     <li>finalWord->скарбниця</li>
-    <li>finalWord->запас</li>
+    <li>finalWord->схованка</li>
     <li>finalWord->здобич</li>
-    <li>finalWord->грабунок</li>
-    <li>finalWord->грабіж</li>
-    <li>finalWord->рейдерство</li>
-    <li>finalWord->крадіжка</li>
     <li>finalWord->пограбування</li>
-    <li>finalWord->каперство</li>
-    <li>finalWord->велика здобич</li>
+    <li>finalWord->розграбування</li>
+    <li>finalWord->обшук</li>
+    <li>finalWord->крадіжка з</li>
+    <li>finalWord->велике пограбування</li>
+    <li>finalWord->справа</li>
+    <li>finalWord->трофеї</li>
   </OpportunitySite_AncientComplex_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->complexes</li>
@@ -70,8 +88,8 @@
     <li>subject->комплекс</li>
     <li>subject->сигнал комплексу</li>
     <li>questMapFeature->невеликий комплекс</li>
-    <li>questMapFeature->об'єкт</li>
-    <li>questMapText->скарби древніх</li>
-    <li>questMapText->зниклі сміттярі</li>
+    <li>questMapFeature->об’єкт</li>
+    <li>questMapText->старовинні скарби</li>
+    <li>questMapText->зниклі мародери</li>
   </OpportunitySite_AncientComplex_Giver.questSubjectRules.rulesStrings>
 </LanguageData>

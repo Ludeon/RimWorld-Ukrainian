@@ -10,13 +10,13 @@
     <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->(*Threat)[hivesCount] вуликів комах(/Threat) з'являться з-під землі.</li>
+    <li>threatDescription->з-під землі виринуть (*Threat)вулики комах ([hivesCount])(/Threat).</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
   -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
-    <li>threatDescription->вас атакує (*Threat)зграя агресивних {lookup: [animalKind_labelPlural]; Case; 3}(/Threat) в кількості (*Threat)[animalCount](/Threat) тварин.</li>
+    <li>threatDescription->на вас нападе (*Threat)зграя тварин у стані агресії ([animalKind_labelPlural], [animalCount])(/Threat).</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>threatDescription->a new site will appear nearby, where [allSitePartsDescriptions] This threat will remain until you go destroy it.</li>
@@ -24,8 +24,8 @@
     <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
   -->
   <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
-    <li>threatDescription->з'явиться нова небезпечна місцевість, [allSitePartsDescriptions] Ця загроза буде залишатися, доки ви її не знищите.</li>
-    <li>defaultSiteAppearedLetterText->Неподалік з'явиться нова місцевість.\n\n[allSitePartsDescriptions]</li>
+    <li>threatDescription->неподалік з’явиться нова місцевість. [allSitePartsDescriptions] Загроза не зникне, доки ви її не знищите.</li>
+    <li>defaultSiteAppearedLetterText->Неподалік з’явилася нова місцевість.\n\n[allSitePartsDescriptions]</li>
     <li>defaultSiteAppearedLetterLabel->Нова місцевість: [site_label]</li>
   </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
 </LanguageData>

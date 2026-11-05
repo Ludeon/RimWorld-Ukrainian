@@ -56,50 +56,63 @@
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>includesChildren(priority=-999)-></li>
-    <li>includesChildren(childCount==1)->\n\nOne of [lodgersLabelSingOrPluralDef] is a child.</li>
-    <li>includesChildren(childCount>=2)->\n\nSome of [lodgersLabelSingOrPluralDef] are children.</li>
+    <li>includesChildren(childCount==1)->\n\nСеред цих людей є дитина.</li>
+    <li>includesChildren(childCount>=2)->\n\nСеред цих людей є діти.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] страждає від абазії і повинен бути прикутий до ліжка.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] хворі на гниття крові і потребують щоденного лікування. Хворобу можна уповільнити за допомогою якісного догляду та ліків, але, як правило, її неможливо повністю вилікувати. Якщо хвороба перейде в тяжку форму, [lodgersLabelSingOrPluralDef] помруть, тому подбайте про наявність необхідних медичних препаратів.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] на паралітичну абазію й [mustVerb] лежати в ліжку.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] на гниття крові й [needVerb] щоденного лікування. Хворобу можна сповільнити якісним доглядом і ліками, але зазвичай вилікувати її повністю неможливо. Якщо хвороба стане тяжкою, [lodgersLabelSingOrPluralDef] [dieVerb], тож подбайте про потрібні медичні запаси.</li>
+    <li>mustVerb(lodgersCount==1)->мусить</li>
+    <li>mustVerb(lodgersCount>=2)->мусять</li>
+    <li>needVerb(lodgersCount==1)->потребує</li>
+    <li>needVerb(lodgersCount>=2)->потребують</li>
+    <li>dieVerb(lodgersCount==1)->помре</li>
+    <li>dieVerb(lodgersCount>=2)->помруть</li>
+    <li>workVerb(lodgersCount==1)->не працюватиме</li>
+    <li>workVerb(lodgersCount>=2)->не працюватимуть</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nви повинні підтримувати настрій [lodgersLabelSingOrPluralDef] вище [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]: настрій має бути вищим за [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [workVerb].</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be (*Threat)a raid(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be (*Threat)[threatCount] raids(/Threat) of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be (*Threat)[threatCount] raids(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)a mech cluster(/Threat) will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)two mech clusters(/Threat) will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)a mech cluster(/Threat) of [threatSize]x size will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)two mech clusters(/Threat) of [threatSize]x size will deploy nearby.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
-    <li>threatsInfoMechRaidsMultiHuman->They recently [mechViolation], and have been targeted by a mechanoid hive.</li>
-    <li>mechViolation->angered a machine persona somehow</li>
-    <li>mechViolation->violated an ancient supercomputer terminal</li>
-    <li>mechViolation->murdered a human child favored by an archotech</li>
-    <li>mechViolation->attempted to hack a mechanoid control node</li>
-    <li>mechViolation->attempted to steal from an ancient storage site</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->на вас чекає (*Threat)рейд(/Threat) приблизно такого складу:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->на вас чекає (*Threat)рейд(/Threat) силою [threatSize]x приблизно такого складу:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->на вас чекає низка (*Threat)рейдів (кількість: [threatCount])(/Threat), кожен приблизно такого складу:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->на вас чекає низка (*Threat)рейдів (кількість: [threatCount])(/Threat) силою [threatSize]x, кожен приблизно такого складу:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->неподалік висадиться (*Threat)кластер механоїдів(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->неподалік висадяться (*Threat)два кластери механоїдів(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->неподалік висадиться (*Threat)кластер механоїдів розміром [threatSize]x(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->неподалік висадяться (*Threat)два кластери механоїдів розміром [threatSize]x(/Threat).</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], і тепер на {lodgers0_gender ? нього : неї} полює зграя механоїдів з орбіти.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Нещодавно в’язні [mechViolation_pl], і тепер на них полює зграя механоїдів з орбіти.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] нещодавно [mechViolation], і тепер на {lodgers0_gender ? нього : неї} полює рій механоїдів.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Нещодавно вони [mechViolation_pl], і тепер на них полює рій механоїдів.</li>
+    <li>mechViolation->чимось {lodgers0_gender ? розгнівав : розгнівала} ШІ-персону</li>
+    <li>mechViolation->{lodgers0_gender ? осквернив : осквернила} термінал стародавнього суперкомп’ютера</li>
+    <li>mechViolation->{lodgers0_gender ? убив : убила} людську дитину, яку вподобав архотех</li>
+    <li>mechViolation->{lodgers0_gender ? намагався : намагалася} зламати вузол керування механоїдами</li>
+    <li>mechViolation->{lodgers0_gender ? намагався : намагалася} обікрасти стародавнє сховище</li>
+    <li>mechViolation_pl->чимось розгнівали ШІ-персону</li>
+    <li>mechViolation_pl->осквернили термінал стародавнього суперкомп’ютера</li>
+    <li>mechViolation_pl->убили людську дитину, яку вподобав архотех</li>
+    <li>mechViolation_pl->намагалися зламати вузол керування механоїдами</li>
+    <li>mechViolation_pl->намагалися обікрасти стародавнє сховище</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersHasHave(lodgersCount==1)->has</li>
-    <li>lodgersHasHave(lodgersCount>=2)->have</li>
-    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
-    <li>lodgersObjective(lodgersCount>=2)->them</li>
-    <li>areIs(lodgersCount==1)->is</li>
-    <li>areIs(lodgersCount>=2)->are</li>
+    <li>lodgersHasHave(lodgersCount==1)->{lodgers0_gender ? прибув : прибула}</li>
+    <li>lodgersHasHave(lodgersCount>=2)->прибули</li>
+    <li>lodgersObjective(lodgersCount==1)->{lodgers0_gender ? його : її}</li>
+    <li>lodgersObjective(lodgersCount>=2)->їх</li>
+    <li>areIs(lodgersCount==1)->хворіє</li>
+    <li>areIs(lodgersCount>=2)->хворіють</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
-    <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Усі інші [lodgersLabelPlural] тепер підуть. </li>
+    <li>failLetterEndingQuest->Ви провалили завдання «[resolvedQuestName]».</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
-    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nПрихильність фракції [asker_faction_name] до вас знизилася на [goodwillPenalty].</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
 </LanguageData>

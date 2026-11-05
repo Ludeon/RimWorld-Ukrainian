@@ -6,9 +6,9 @@
     <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
   -->
   <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження сумнозвісного загону найманців. Ці древні солдати прийшли в наш час з давно забутої епохи в історії планети. Вони лише недавно пробудилися від криптосну і одразу ж взялися за старе.\n\nНа чолі загону стоїть [LEADER_nameDef], що має унікальну зброю якості «[WEAPON_quality]». Вміст групи:\n\n[mercenaryList]\n\nЯкщо вам вдасться взяти в полон або вбити ватажка, ви отримаєте унікальну зброю.\n\n[location]</li>
-    <li>location(atLandmark==true)->Солдати ховаються в старовинній споруді тут: [landmarkName].</li>
-    <li>location(atLandmark==false)->Солдати ховаються в старовинній споруді.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження сумнозвісного загону найманців. Ці древні солдати — з давно забутої епохи в історії планети. Нещодавно вони прокинулися з криптосну й тепер наводять жах на околиці.\n\nЗагін очолює [LEADER_nameDef], що має унікальну зброю якості «[WEAPON_quality]». До складу загону входять:\n\n[mercenaryList]\n\nЯкщо ви захопите ватажка в полон або вб’єте, то зможете забрати унікальну зброю.\n\n[location]</li>
+    <li>location(atLandmark==true)->Солдати переховуються в старовинній споруді. Орієнтир — [landmarkName].</li>
+    <li>location(atLandmark==false)->Солдати переховуються в старовинній споруді.</li>
   </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [mercenaries]</li>
@@ -22,15 +22,17 @@
     <li>mercenaries->Fighters</li>
   -->
   <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
-    <li>questName-> [ancient] [mercenaries]</li>
-    <li>questName-> [ancient] [mercenaries]</li>
-    <li>ancient->Древній</li>
-    <li>ancient->Пробуджений</li>
-    <li>ancient->Криптосон</li>
-    <li>mercenaries->Найманці</li>
-    <li>mercenaries->Солдати</li>
-    <li>mercenaries->Воїни</li>
-    <li>mercenaries->Бійці</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>questName->[mercenaries] [ancientPost]</li>
+    <li>ancient->прадавні</li>
+    <li>ancient->пробуджені</li>
+    <li>ancient->древні</li>
+    <li>ancientPost->з криптосну</li>
+    <li>ancientPost->з минулого</li>
+    <li>mercenaries->найманці</li>
+    <li>mercenaries->солдати</li>
+    <li>mercenaries->воїни</li>
+    <li>mercenaries->бійці</li>
   </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient mercenaries</li>
@@ -45,13 +47,13 @@
   -->
   <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
     <li>subject->древні найманці</li>
-    <li>subject->стародавні солдати</li>
+    <li>subject->древні солдати</li>
     <li>subject->древні</li>
     <li>questMapFeature->військовий гарнізон</li>
-    <li>questMapFeature->малюнок стародавнього солдата</li>
-    <li>questMapFeature->замальовка людини з іншого часу</li>
-    <li>questMapText->вони пробудилися</li>
+    <li>questMapFeature->малюнок древнього солдата</li>
+    <li>questMapFeature->ескіз людини з іншої епохи</li>
+    <li>questMapText->вони прокинулися</li>
     <li>questMapText->небезпечні древні</li>
-    <li>questMapText->стародавня зброя</li>
+    <li>questMapText->старовинна зброя</li>
   </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
 </LanguageData>

@@ -30,29 +30,37 @@
     <li>veneratedRole->captain</li>
   -->
   <Shipborn.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Shipborn)        ->[deity0_name] сформував людство з пилу [celestialComponents], вдихнувши в нього життя зоряними вітрами [deity0_possessive].</li>
-    <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] розсіяв великий народ [place_name], відправивши їх у порожнечу, щоб вони могли побачити своїми очима єднання зірок і душ.</li>
-    <li>intro(tag=meme_Shipborn)           ->В добу пітьми [deity0_name] побачив, що людство потребує руки, що вкаже їм вірний шлях, і сказав, щоб [deity0_possessive] [memberNamePlural] побудували великі кораблі.</li>
-    <li>conflict(tag=meme_Shipborn)        ->Коли [memberNamePlural] почали виконувати завдання, що доручив їм [deity0_name], зрадливий [foeLeader] намагався завадити їм. [foeLeader_possessive] [foeSoldiers] підняв жорстокі [place_personalWeapon] проти тих, хто намагався піднятися на борт священних кораблів.</li>
-    <li>founderJoin(tag=meme_Shipborn)     ->Але [place_job] на ім'я [founderName] зібрав правдивих вірян і відвів їх до прихованого [altarRoomLabel]. Там [founder_pronoun] став їхнім [veneratedRole].</li>
-    <li>victory(tag=meme_Shipborn)         ->Тоді [founderName] заговорив, і то був голос [deity0_name]. В яскравому єднанні світла та енергії [founderName] вразив [founder_possessive] ворогів і відвів людей [founder_possessive] до священних кораблів.</li>
-    <li>setup(tag=meme_Shipborn)           ->В божественному кораблі [founder_possessive] [founderName] тисячу років подорожували зоряними морями, спілкуючись з небесними духами і пізнаючи таємниці космосу.</li>
-    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] знав, що долю людства можна знайти лише серед зірок.</li>
-    <li>lessonIntro(tag=meme_Shipborn)         ->В моїх спостереженнях за секретами [celestialComponents] я зрозумів одну істину:</li>
-    <li>lesson(tag=meme_Shipborn)              ->тільки зорі — це насправді [veneratedRole], і наш священний обов'язок шукати їхньої мудрості та подорожувати серед них</li>
-    <li>lesson(tag=meme_Shipborn)              ->людство ніколи не мало бути прив'язаним до землі. Ми маємо жити в небесах.</li>
-    <li>lesson(tag=meme_Shipborn)              ->наші кораблі — то наші святі матері і батьки. Ми маємо піклуватися про них так само, як вони піклувалися про нас.</li>
-    <li>lessonReinforcement(tag=meme_Shipborn) ->Нехай твої ноги ніколи не торкнуться землі.</li>
-    <li>archistBasis(tag=meme_Shipborn)    ->З самої їхньої появи архотехи розширяли свою свідомість серед зірок.</li>
-    <li>archistFact(tag=meme_Shipborn)     ->Архотехи піднялися над обмеженнями життя на планетах.</li>
-    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd], архотехи навчать нас без зусиль рухатися серед зірок, якщо тільки ми приймемо їхню космічну мудрість.</li>
-    <li>animistBasis(tag=meme_Shipborn)    ->Наші предки пролетіли між [celestialComponents] і навчать нас, як зробити людство рівним небесним тілам.</li>
-    <li>animistFact(tag=meme_Shipborn)     ->Ті ж самі духи, що населяють небесні тіла, керують людською долею.</li>
-    <li>celestialComponents->зірок, місяців та комет</li>
-    <li>celestialComponents->космоса</li>
-    <li>celestialComponents->тисячі зірок</li>
+    <li>creation(tag=meme_Shipborn)        ->Божество [deity0_name] виліпило людство з пилу [celestialComponents] і вдихнуло в нього життя своїми зоряними вітрами.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)  ->Божество [deity0_name] розсіяло великий народ світу [place_name] й відправило його в порожнечу, щоб люди побачили злиття зірки й душі.</li>
+    <li>intro(tag=meme_Shipborn)           ->У темні часи божество [deity0_name] побачило, що людство потребує проводу, і звеліло своїм вірним — [memberNamePlural] — збудувати великі кораблі.</li>
+    <li>conflict(tag=meme_Shipborn)        ->Коли [memberNamePlural] почали втілювати задум божества [deity0_name], їм спробував завадити зрадник — [foeLeader]. Його [foeSoldiers] з жорстокою зброєю ([place_personalWeapon]) нападали на тих, хто намагався піднятися на борт священних кораблів.</li>
+    <li>founderJoin(tag=meme_Shipborn)     ->[founderName], [place_job] за фахом, {founder_gender ? зібрав : зібрала} справжніх вірян і {founder_gender ? повів : повела} їх у потаємне місце — [altarRoomLabel]. Там {founder_gender ? він став : вона стала} їхнім [veneratedRole_ins].</li>
+    <li>victory(tag=meme_Shipborn)         ->Тоді [founderName] {founder_gender ? заговорив : заговорила} голосом божества [deity0_name]. У сліпучому злитті світла й енергії {founder_gender ? він здолав : вона здолала} ворогів і {founder_gender ? повів : повела} свій народ до священних кораблів.</li>
+    <li>setup(tag=meme_Shipborn)           ->На своєму божественному кораблі [founderName] тисячу років {founder_gender ? мандрував : мандрувала} зоряними морями, спілкуючись із небесними духами й розкриваючи таємниці космосу.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] {founder_gender ? зрозумів : зрозуміла}, що людство здійснить своє призначення лише серед зірок.</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->Спостереження за [celestialComponents_ins] відкрили мені одну істину, найважливішу з усіх:</li>
+    <li>lesson(tag=meme_Shipborn)              ->зорі — наш справжній [veneratedRole], і наш обов’язок — шукати їхньої мудрості й мандрувати серед них</li>
+    <li>lesson(tag=meme_Shipborn)              ->людство ніколи не мало бути в’язнем каменюки. Ми мусимо жити серед небес</li>
+    <li>lesson(tag=meme_Shipborn)              ->наші кораблі — наші святі матері й священні батьки. Ми мусимо дбати про них, як вони дбали про нас</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->Нехай ваші ноги ніколи не торкнуться землі.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->Від самої своєї появи архотеки поширювали свою свідомість серед зірок.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->Архотеки долають обмеження життя, прикутого до планет.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd], архотеки навчать нас легко мандрувати серед зірок, якщо ми шануватимемо їхню космічну мудрість.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->Наші предки мандрували крізь [celestialComponents_acc] і вчать нас бачити в людстві й небесних сутностях рівних.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->Ті самі духи, що населяють небесні тіла, спрямовують долю людства.</li>
+    <li>celestialComponents->зірок, місяців і комет</li>
+    <li>celestialComponents->космосу</li>
+    <li>celestialComponents->тисячі сонць</li>
+    <li>celestialComponents_ins->зірками, місяцями й кометами</li>
+    <li>celestialComponents_ins->космосом</li>
+    <li>celestialComponents_ins->тисячею сонць</li>
+    <li>celestialComponents_acc->зорі, місяці й комети</li>
+    <li>celestialComponents_acc->космос</li>
+    <li>celestialComponents_acc->тисячу сонць</li>
     <li>veneratedRole->навігатор</li>
     <li>veneratedRole->капітан</li>
+    <li>veneratedRole_ins->навігатором</li>
+    <li>veneratedRole_ins->капітаном</li>
   </Shipborn.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->crew</li>
@@ -77,24 +85,24 @@
     <li>memeMoralist->councillor</li>
   -->
   <Shipborn.generalRules.rulesStrings>
-    <li>memeCreed->команда</li>
+    <li>memeCreed->екіпаж</li>
     <li>memeCreed->корабель</li>
-    <li>memeCreed->космічний корабель</li>
+    <li>memeCreed->зореліт</li>
     <li>memeAdjective->зоряний</li>
-    <li>memeAdjective->пусто</li>
+    <li>memeAdjective->порожній</li>
     <li>memeAdjective->космічний</li>
     <li>memeAdjective->небесний</li>
     <li>memeAdjective->астральний</li>
-    <li>memeHyphenPrefix->зірковий</li>
-    <li>memeHyphenPrefix->темрява</li>
-    <li>memeConcept->простір</li>
-    <li>memeConcept->зірки</li>
-    <li>memeConcept->космічні кораблі</li>
+    <li>memeHyphenPrefix->астро</li>
+    <li>memeHyphenPrefix->темно</li>
+    <li>memeConcept->космос</li>
+    <li>memeConcept->зорі</li>
+    <li>memeConcept->зорельоти</li>
     <li>memeLeaderNoun->капітан</li>
-    <li>memeLeaderNoun->зоренароджені</li>
+    <li>memeLeaderNoun->зоренароджений</li>
     <li>memeLeaderNoun->пілот</li>
-    <li>memeLeaderAdjective->сяючий</li>
-    <li>memeMoralist->шукач</li>
+    <li>memeLeaderAdjective->сяйний</li>
+    <li>memeMoralist->провідник</li>
     <li>memeMoralist->навігатор</li>
     <li>memeMoralist->радник</li>
   </Shipborn.generalRules.rulesStrings>

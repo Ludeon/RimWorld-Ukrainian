@@ -11,16 +11,16 @@
     <li>situation(p=2)->безпечно</li>
     <li>situation->вночі</li>
     <li>situation->на холоді</li>
-    <li>situation->під час поранення</li>
-    <li>situation(p=0.2)->під час сп'яніння</li>
+    <li>situation->з пораненням</li>
+    <li>situation(p=0.2)->напідпитку</li>
   </LessonInteractionCommonSituations.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], як [action] [article_toolAbl].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], як [action] [article_toolAbl].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] [RECIPIENT_nameDef], як [action] [article_tool].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] [RECIPIENT_nameDef], як [action] [article_tool].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
@@ -30,11 +30,11 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] про [action_gerund] [article_tool] [situation].</li>
-    <li>teach_test->{INITIATOR_nameDef_gender ? опитав : опитала}</li>
-    <li>teach_test->{INITIATOR_nameDef_gender ? протестував : протестувала}</li>
-    <li>teach_test->{INITIATOR_nameDef_gender ? перевірив : перевірила}</li>
-    <li>teach_test->{INITIATOR_nameDef_gender ? допитав : допитала}</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test], як [RECIPIENT_nameDef] дає собі раду, [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->{INITIATOR_gender ? перевірив : перевірила}</li>
+    <li>teach_test->{INITIATOR_gender ? з’ясовував : з’ясовувала}</li>
+    <li>teach_test->{INITIATOR_gender ? прискіпливо перевіряв : прискіпливо перевіряла}</li>
+    <li>teach_test->{INITIATOR_gender ? ретельно перевірив : ретельно перевірила}</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
@@ -45,12 +45,12 @@
     <li>study_verb->studied</li>
   -->
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] з [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] з [RECIPIENT_nameDef].</li>
-    <li>study_verb->розмовляє про</li>
-    <li>study_verb->перебирає</li>
-    <li>study_verb->досліджує</li>
-    <li>study_verb->вивчає</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [teach_adverb] [study_verb] [subject].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [study_verb] [subject].</li>
+    <li>study_verb->розглядали</li>
+    <li>study_verb->розбирали</li>
+    <li>study_verb->досліджували</li>
+    <li>study_verb->вивчали</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   <!-- EN:
     <li>teach_adverb->calmly</li>
@@ -75,10 +75,10 @@
     <li>teach_verb->taught</li>
   -->
   <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-    <li>teach_verb->демонструє</li>
-    <li>teach_verb->пояснює</li>
-    <li>teach_verb->показує</li>
-    <li>teach_verb->навчає</li>
+    <li>teach_verb->{INITIATOR_gender ? продемонстрував : продемонструвала}</li>
+    <li>teach_verb->{INITIATOR_gender ? пояснив : пояснила}</li>
+    <li>teach_verb->{INITIATOR_gender ? показав : показала}</li>
+    <li>teach_verb->{INITIATOR_gender ? розтлумачив : розтлумачила}</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
@@ -89,11 +89,11 @@
     <li>talk_verb->lectured about</li>
   -->
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] до [RECIPIENT_nameDef] про [subject].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] до [RECIPIENT_nameDef] про [subject].</li>
-    <li>talk_verb->говорить</li>
-    <li>talk_verb->дає огляд</li>
-    <li>talk_verb->дає короткий зміст</li>
-    <li>talk_verb->читає лекцію</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] про [subject], а [RECIPIENT_nameDef] {RECIPIENT_gender ? слухав : слухала}.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] про [subject], а [RECIPIENT_nameDef] {RECIPIENT_gender ? слухав : слухала}.</li>
+    <li>talk_verb->{INITIATOR_gender ? розповідав : розповідала}</li>
+    <li>talk_verb->{INITIATOR_gender ? зробив : зробила} огляд знань</li>
+    <li>talk_verb->{INITIATOR_gender ? коротко розповів : коротко розповіла}</li>
+    <li>talk_verb->{INITIATOR_gender ? прочитав : прочитала} лекцію</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
 </LanguageData>

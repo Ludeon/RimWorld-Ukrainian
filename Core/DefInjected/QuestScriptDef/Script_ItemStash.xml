@@ -5,8 +5,8 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Ми перехопили повідомлення про схованку цінних предметів вартістю [itemStashContentsValue] неподалік від [map_definite]. Сховище містить:\n\n[itemStashContents]\n\nСхоже, що [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] з фракції [asker_faction_name], повідомив нам про схованку цінних предметів вартістю [itemStashContentsValue] неподалік від нас. Сховище містить:\n\n[itemStashContents]\n\n[asker_label] каже, що [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Ми перехопили повідомлення про схованку цінностей вартістю [itemStashContentsValue] неподалік від поселення [map_definite]. У схованці:\n\n[itemStashContents]\n\nСхоже, що [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] фракції [asker_faction_name], {asker_gender ? повідомив : повідомила} нам про схованку цінностей вартістю [itemStashContentsValue] неподалік від нас. У схованці:\n\n[itemStashContents]\n\n[asker_label] каже, що [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -22,20 +22,20 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[stash] [treasure] від [asker_nameDef]</li>
+    <li>questName(priority=1)->[asker_nameDef]: [stash] [treasure]</li>
     <li>questName->[stash] [treasure]</li>
     <li>stash->Схованка</li>
     <li>stash->Схрон</li>
     <li>stash->Колекція</li>
-    <li>stash->Хижа</li>
+    <li>stash->Хатина</li>
     <li>treasure->скарбів</li>
     <li>treasure->цінностей</li>
-    <li>treasure->удачі</li>
+    <li>treasure->багатств</li>
     <li>treasure->смаколиків</li>
     <li>treasure->припасів</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Перехоплені повідомлення вказують на те, що хтось інший вже виявив та розграбував цю схованку. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Судячи з перехоплених повідомлень, схованку вже прибрав до рук хтось інший. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
 </LanguageData>

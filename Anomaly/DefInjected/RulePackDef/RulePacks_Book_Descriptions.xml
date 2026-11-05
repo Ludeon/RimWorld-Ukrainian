@@ -273,275 +273,369 @@
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
   <Description_Tome.rulePack.rulesStrings>
-    <li>desc->[inThisBook], [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>desc->[inThisBook] [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
     <li>inThisBook->У цьому [writingQualityAdjective] [bookTypeSingle]</li>
-    <li>inThisBook->У цих [writingQualityAdjective] [bookTypePlural]</li>
+    <li>inThisBook->У цих [writingQualityAdjective_pl] [bookTypePlural]</li>
     <li>bookTypeSingle->звіті</li>
     <li>bookTypeSingle->альманаху</li>
     <li>bookTypeSingle->аналізі</li>
-    <li>bookTypeSingle->article</li>
-    <li>bookTypeSingle->book</li>
-    <li>bookTypeSingle->commentary</li>
-    <li>bookTypeSingle->composition</li>
-    <li>bookTypeSingle->conclusions</li>
-    <li>bookTypeSingle->critique</li>
-    <li>bookTypeSingle->diabologue</li>
-    <li>bookTypeSingle->disquisition</li>
-    <li>bookTypeSingle->dissertation</li>
-    <li>bookTypeSingle->editorial</li>
-    <li>bookTypeSingle->essay</li>
-    <li>bookTypeSingle->exposé</li>
-    <li>bookTypeSingle->findings</li>
-    <li>bookTypeSingle->ґримуар</li>
-    <li>bookTypeSingle->inquiry</li>
-    <li>bookTypeSingle->investigation</li>
-    <li>bookTypeSingle->manifesto</li>
-    <li>bookTypeSingle->manuscript</li>
-    <li>bookTypeSingle->opus</li>
-    <li>bookTypeSingle->paper</li>
-    <li>bookTypeSingle->piece</li>
-    <li>bookTypeSingle->piece of research</li>
-    <li>bookTypeSingle->record</li>
-    <li>bookTypeSingle->report</li>
-    <li>bookTypeSingle->review</li>
-    <li>bookTypeSingle->survey</li>
-    <li>bookTypeSingle->testament</li>
-    <li>bookTypeSingle->testimony</li>
-    <li>bookTypeSingle->text</li>
-    <li>bookTypeSingle->thesis</li>
-    <li>bookTypeSingle->tract</li>
-    <li>bookTypeSingle->treatise</li>
-    <li>bookTypeSingle->treatment</li>
-    <li>bookTypeSingle->volume</li>
-    <li>bookTypeSingle->work</li>
-    <li>bookTypePlural->writings</li>
-    <li>bookTypePlural->chronicles</li>
-    <li>bookTypePlural->lamentations</li>
-    <li>bookTypePlural->annals</li>
-    <li>bookTypePlural->revelations</li>
-    <li>author(p=3)->автор</li>
-    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
-    <li>author->[anAuthorDesc] дослідник</li>
-    <li>author->[anAuthorDesc] спіритуаліст</li>
-    <li>author->[anAuthorDesc] окультист</li>
-    <li>author->[anAuthorDesc] культист</li>
-    <li>author->[anAuthorDesc] член культу</li>
-    <li>author->[anAuthorDesc] колишній член культу</li>
-    <li>author->[anAuthorDesc] торговець антикваріатом</li>
-    <li>author->[anAuthorDesc] гробокопач</li>
-    <li>author->[anAuthorDesc] дослідник порожнечі</li>
-    <li>author->[anAuthorDesc] мандрівник</li>
-    <li>author->[anAuthorDesc] скептик</li>
-    <li>author->[anAuthorDesc] вчений</li>
-    <li>author->[anAuthorDesc] мисливець</li>
-    <li>author->[anAuthorDesc] слідчий</li>
+    <li>bookTypeSingle->нарисі</li>
+    <li>bookTypeSingle->томі</li>
+    <li>bookTypeSingle->коментарі</li>
+    <li>bookTypeSingle->творі</li>
+    <li>bookTypeSingle->підсумковому огляді</li>
+    <li>bookTypeSingle->критичному огляді</li>
+    <li>bookTypeSingle->діабологу</li>
+    <li>bookTypeSingle->розлогому міркуванні</li>
+    <li>bookTypeSingle->дисертаційному дослідженні</li>
+    <li>bookTypeSingle->редакційному зверненні</li>
+    <li>bookTypeSingle->есеї</li>
+    <li>bookTypeSingle->викритті</li>
+    <li>bookTypeSingle->дослідженні</li>
+    <li>bookTypeSingle->гримуарі</li>
+    <li>bookTypeSingle->розслідуванні</li>
+    <li>bookTypeSingle->маніфесті</li>
+    <li>bookTypeSingle->рукописі</li>
+    <li>bookTypeSingle->опусі</li>
+    <li>bookTypeSingle->науковому записі</li>
+    <li>bookTypeSingle->літописі</li>
+    <li>bookTypeSingle->рапорті</li>
+    <li>bookTypeSingle->заповіті</li>
+    <li>bookTypeSingle->свідченні</li>
+    <li>bookTypeSingle->тексті</li>
+    <li>bookTypeSingle->трактаті</li>
+    <li>bookTypeSingle->викладі</li>
+    <li>bookTypePlural->писаннях</li>
+    <li>bookTypePlural->хроніках</li>
+    <li>bookTypePlural->голосіннях</li>
+    <li>bookTypePlural->літописах</li>
+    <li>bookTypePlural->одкровеннях</li>
+    <li>author(p=3)->{ANYPAWN_gender ? автор : авторка}</li>
+    <li>author(p=3)->[anAuthorDesc] {ANYPAWN_gender ? [PersonJob_m] : [PersonJob_f]}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? дослідник : дослідниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? спіритуаліст : спіритуалістка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? окультист : окультистка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? культист : культистка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? прихильник : прихильниця} культу</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? втікач : втікачка} з культу</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? антиквар : антикварка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? гробар : гробарка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? дослідник : дослідниця} порожнечі</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? мандрівник : мандрівниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? скептик : скептикиня}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? науковець : науковиця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? мисливець : мисливиця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? слідчий : слідча}</li>
     <li>author->[anAuthorDesc] старійшина</li>
-    <li>author->[anAuthorDesc] вірянин</li>
-    <li>author->[anAuthorDesc] провісник</li>
-    <li>author->[anAuthorDesc] спадкоємець</li>
-    <li>author->[anAuthorDesc] аристократ</li>
-    <li>author->[anAuthorDesc] перекладач</li>
-    <li>author->[anAuthorDesc] монах</li>
-    <li>author->[anAuthorDesc] двійник</li>
-    <li>author->[anAuthorDesc] письменник</li>
-    <li>author->[anAuthorDesc] агент</li>
-    <li>author->[anAuthorDesc] герой</li>
-    <li>author->[anAuthorDesc] письменник</li>
-    <li>anAuthorDesc(p=2)-></li>
-    <li>anAuthorDesc->молодий</li>
-    <li>anAuthorDesc->старий</li>
-    <li>anAuthorDesc->переляканий</li>
-    <li>anAuthorDesc->скорботний</li>
-    <li>anAuthorDesc->літній</li>
-    <li>anAuthorDesc->мудрий</li>
-    <li>anAuthorDesc->свавільний</li>
-    <li>anAuthorDesc->дурний</li>
-    <li>anAuthorDesc->невинний</li>
-    <li>anAuthorDesc->стривожений</li>
-    <li>anAuthorDesc->моторошний</li>
-    <li>anAuthorDesc->обурливий</li>
-    <li>anAuthorDesc->типовий</li>
-    <li>anAuthorDesc->нудний</li>
-    <li>anAuthorDesc->божевільний</li>
-    <li>anAuthorDesc->розпусний</li>
-    <li>anAuthorDesc->моральний</li>
-    <li>anAuthorDesc->аморальний</li>
-    <li>anAuthorDesc->невиразний</li>
-    <li>tellsAStoryOf->розповідає історію</li>
-    <li>tellsAStoryOf->виявляє невідоме</li>
-    <li>tellsAStoryOf->обговорює</li>
-    <li>tellsAStoryOf->описує</li>
-    <li>tellsAStoryOf->розкриває деталі</li>
-    <li>tellsAStoryOf->пояснює</li>
-    <li>tellsAStoryOf->докладно розповідає</li>
-    <li>tellsAStoryOf->оповідає</li>
-    <li>tellsAStoryOf->переказує</li>
-    <li>tellsAStoryOf->повідомляє</li>
-    <li>tellsAStoryOf->відзначає</li>
-    <li>tellsAStoryOf->зображує</li>
-    <li>tellsAStoryOf->розкриває подробиці</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про свій досвід з [entities]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про дослідження таємного культу з базою під віддаленою [TerrainFeatureFemale]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про полювання на таємничий золотий куб</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про глибокі медитації під проводом вищого раба з культу архістів</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про крах [ANYPAWN_possessive] життя під психічним впливом чогось, що називається Горакс</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про віддалені археологічні розкопки, де дослідники один за одним люто божеволіли</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про плем'я, яке якимось чином перетворили на слуг темного бога кривавого культу насолоди</li>
-    <li>experiencesWithMonsters->намагається описати плем'я з традицією ритуальних калічень, що виконуються при світлі вогню іржавими лезами</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про вчителя, чия учениця виголошувала смертельні істини, яких вона ніяк не могла знати</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про вченого, який намагався скористатися давніми архотехнологічними засобами, щоб воскресити свою померлу дружину</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про експедицію чужинців-дослідників, яка пережила дощі з крові та небо, що намагалося розчавити їх до смерті чорнильною темрявою</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про команду, що досліджує старовинну яму в землі, повну моторошних м’ясистих створінь</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про спробу племінного шамана знайти спосіб зупинити нічні напади на його село з боку оживлених мертвих {lookup: [Animal]; Rules; 7}</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про племінний міф про давнього бога люті, чий вплив відчували усі люди, і героїв, які замкнули його в крихітній кам’яній в’язниці</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про жорстокі експерименти над полоненим [entity]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] про повторювані видіння, де [vision]</li>
-    <li>vision->dark figures reached into [ANYPAWN_possessive] mind and took [ANYPAWN_possessive] memories</li>
-    <li>vision->[ANYPAWN_pronoun] is being chased by [ANYPAWN_objective]self, and could not escape no matter how far [ANYPAWN_pronoun] traveled</li>
-    <li>vision->[ANYPAWN_pronoun] is torn apart by a [entity]</li>
-    <li>experiencesWithMonsters->[tellsAStoryOf] [ANYPAWN_possessive] [findings] [objective]</li>
-    <li>findings->experience with</li>
-    <li>findings->research into</li>
-    <li>objective->[maybeAdjectiveEvil]rituals which was prompted by an incident where [ritual_incident]</li>
-    <li>objective->dark sciences after [entity_incident]</li>
-    <li>ritual_incident->[ANYPAWN_pronoun] observed [targetHuman] appear out of thin air</li>
-    <li>targetHuman->[anAuthorDesc] woman</li>
-    <li>targetHuman->[anAuthorDesc] man</li>
-    <li>ritual_incident->it rained blood for three days and drove [ANYPAWN_possessive] friends mad</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? вірянин : вірянка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? провісник : провісниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? спадкоємець : спадкоємиця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? аристократ : аристократка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? перекладач : перекладачка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? чернець : черниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? двійник : двійниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? письменник : письменниця}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? агент : агентка}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? герой : героїня}</li>
+    <li>author->[anAuthorDesc] {ANYPAWN_gender ? автор : авторка}</li>
+    <li>anAuthorDesc(p=2)->{ANYPAWN_gender ? якийсь : якась}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? молодий : молода}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? старий : стара}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? переляканий : перелякана}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? скорботний : скорботна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? літній : літня}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? мудрий : мудра}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? упертий : уперта}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? нерозважливий : нерозважлива}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? наївний : наївна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? неврівноважений : неврівноважена}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? потойбічний : потойбічна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? скандальний : скандальна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? архетипний : архетипна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? нудний : нудна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? шалений : шалена}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? безпринципний : безпринципна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? моральний : моральна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? аморальний : аморальна}</li>
+    <li>anAuthorDesc->{ANYPAWN_gender ? загадковий : загадкова}</li>
+    <li>tellsAStoryOf->розповідає про</li>
+    <li>tellsAStoryOf->пише про</li>
+    <li>tellsAStoryOf->оповідає про</li>
+    <li>tellsAStoryOf->докладно розповідає про</li>
+    <li>tellsAStoryOf->розмірковує про</li>
+    <li>tellsAStoryOf->повідомляє про</li>
+    <li>tellsAStoryOf->згадує про</li>
+    <li>tellsAStoryOf->свідчить про</li>
+    <li>tellsAStoryOf->веде мову про</li>
+    <li>tellsAStoryOf->розводиться про</li>
+    <li>tellsAStoryOf->з подробицями пише про</li>
+    <li>tellsAStoryOf->переповідає історію про</li>
+    <li>tellsAStoryOf->без кінця повертається до розповіді про</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] свій досвід зустрічей із [entities_ins]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] дослідження таємного культу, що має базу під [remoteTerrain_ins]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] полювання на таємничий золотий куб</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] глибокі медитації під проводом вищого раба з культу архістів</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] крах власного життя під психічним впливом чогось на ім’я Горакс</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] віддалені археологічні розкопки, де дослідники один за одним шаленіли й божеволіли</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] плем’я, яке якимось чином перетворили на слуг темного бога кривавого культу насолоди</li>
+    <li>experiencesWithMonsters->намагається описати плем’я, що має звичай проводити ритуали каліцтва іржавими лезами при світлі багаття</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] учителя, чия учениця промовляла смертоносні істини, яких ніяк не могла знати</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] вченого, який намагався давніми архотехнологічними засобами повернути до життя свою померлу дружину</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] дослідницьку експедицію чужинців, що пережила криваві дощі й небо, яке намагалося розчавити її чорнильною темрявою</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] команду, що досліджує старовинну яму в землі, повну страхітливих м’ясистих створінь</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] спробу шамана племені зупинити нічні напади ожилих мертвих [Animal_pl_gen] на його село</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] племінний міф про давнього бога люті, чий вплив торкається всіх людей, і про героїв, які замкнули його в крихітній кам’яній в’язниці</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] свої жорстокі експерименти над [entity_ins] у полоні</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] свої повторювані видіння, у яких [vision]</li>
+    <li>remoteTerrain_ins(p=4)->віддаленим [TerrainFeature_m_ins]</li>
+    <li>remoteTerrain_ins(p=2)->віддаленою [TerrainFeature_f_ins]</li>
+    <li>remoteTerrain_ins->віддаленим [TerrainFeature_n_ins]</li>
+    <li>vision->темні постаті проникають у {ANYPAWN_gender ? його : її} розум і забирають спогади</li>
+    <li>vision->{ANYPAWN_gender ? його переслідує він сам, і він не може втекти, хоч би як далеко зайшов : її переслідує вона сама, і вона не може втекти, хоч би як далеко зайшла}</li>
+    <li>vision->[entity] розриває {ANYPAWN_gender ? його : її} на шматки</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] [findings] [objective]</li>
+    <li>findings->власний досвід зіткнення з</li>
+    <li>findings->власні дослідження, пов’язані з</li>
+    <li>objective->[maybeAdjectiveEvil], до яких спонукав випадок, коли [ritual_incident]</li>
+    <li>objective->темними науками, якими {ANYPAWN_gender ? автор зайнявся : авторка зайнялася} після того, як [entity_incident]</li>
+    <li>ritual_incident->{ANYPAWN_gender ? він побачив : вона побачила}, як нізвідки з’являється [targetHuman]</li>
+    <li>targetHuman->[targetAdj_f] жінка</li>
+    <li>targetHuman->[targetAdj] чоловік</li>
+    <li>targetAdj(p=2)->якийсь</li>
+    <li>targetAdj->молодий</li>
+    <li>targetAdj->старий</li>
+    <li>targetAdj->переляканий</li>
+    <li>targetAdj->скорботний</li>
+    <li>targetAdj->мудрий</li>
+    <li>targetAdj->загадковий</li>
+    <li>targetAdj_f(p=2)->якась</li>
+    <li>targetAdj_f->молода</li>
+    <li>targetAdj_f->стара</li>
+    <li>targetAdj_f->перелякана</li>
+    <li>targetAdj_f->скорботна</li>
+    <li>targetAdj_f->мудра</li>
+    <li>targetAdj_f->загадкова</li>
+    <li>ritual_incident->три дні йшов кривавий дощ, і {ANYPAWN_gender ? його : її} друзі збожеволіли</li>
     <li>ritual_incident->[entity_incident]</li>
-    <li>entity_incident->[ANYPAWN_pronoun] lost [ANYPAWN_possessive] [BodyPart] in an attack by a [entity]</li>
-    <li>entity_incident->[ANYPAWN_pronoun] gazed upon a [entity]</li>
-    <li>specificHorrorStory->At one point, the author recounts dark rituals where victims were forced to mutilate themselves with broken glass.</li>
-    <li>specificHorrorStory->В один момент головний герой натрапляє на ритуал, під час якого він стає свідком кривавих фігур, які співають моторошні заклинання, одночасно калічачи себе осколками обсидіану.</li>
-    <li>specificHorrorStory->The book includes many illustrations attempting to depict something it refers to as "the black ocean". This seems to be a metaphor for a psychic plane dominated by a horrifying but seductive psychic hyperintelligence.</li>
-    <li>specificHorrorStory->It repeatedly alludes to a multi-plane nature of reality - the idea that there are more dimensions than the ones we see, so an object or entity could be right beside you but outside your ability to perceive.</li>
-    <li>specificHorrorStory->It spends a long time attempting to describe a hyperintelligent entity called "Horax" that exists in an adjacent plane of reality.</li>
-    <li>specificHorrorStory->One section describes the mechanics of dark psychic influence, wherein an entity on another plane can unintentionally influence the thoughts of human beings by synchronizing them to its emotional resonance.</li>
-    <li>specificHorrorStory->One section describes different archotech hyperintelligences and the varying nature of their emotional and psychic emanations. Where some are regarded as neutral or even benevolent, others are entities of pure rage.</li>
-    <li>specificHorrorStory->[ANYPAWN_pronoun] describes the feeling of [ANYPAWN_possessive] mind being forcibly reconfigured by the dark psychic influence of a larger intelligence.</li>
-    <li>specificHorrorStory->In one section, the author attempts to commit suicide, but is found and saved by a kindly [PersonJob].</li>
-    <li>specificHorrorStory->The volume is adorned with disturbing illustrations portraying a grotesque, otherworldly entity whose formless, inky tendrils writhe across pages, invoking a sense of dread and fascination in equal measure.</li>
-    <li>specificHorrorStory->Throughout the narrative, the concept of parallel dimensions is recurrent, with the characters encountering entities that exist just beyond the veil of perception, coexisting in a reality that intersects with our own but remains hidden from sight.</li>
-    <li>specificHorrorStory->The book delves into a chilling exposition about "Horax," a machine hyperintelligence that shifted itself through a hidden dimension into a place called the Void.</li>
-    <li>specificHorrorStory->One chapter describes a theory wherein a distant hyperintelligence can psychically manipulate human cognition, reshaping a person's thoughts to align with its own mind-patterns.</li>
-    <li>specificHorrorStory->The protagonist recounts feeling [ANYPAWN_possessive] mind being forcibly rewired by an ominous psychic force emanating from nowhere.</li>
-    <li>entities->demons</li>
-    <li>entities->walking corpses</li>
-    <li>entities->pain-seeking monsters</li>
-    <li>entities->creatures made of meat and exposed bone</li>
-    <li>entities->walking corpses of [Animal]s</li>
-    <li>entities->man-like figures made of metal and blades</li>
-    <li>entities->floating mechanical spheres that emanate pain</li>
-    <li>entities->beautiful golden cubes that destroys minds</li>
-    <li>entities->beasts made of bloody flesh</li>
-    <li>entities->dark shapes that hide in plain sight</li>
-    <li>entities->hunters that steal souls</li>
+    <li>entity_incident->{ANYPAWN_gender ? він утратив : вона втратила} [BodyPart_acc] у сутичці з [entity_ins]</li>
+    <li>entity_incident->{ANYPAWN_gender ? він побачив : вона побачила} [entity_acc]</li>
+    <li>specificHorrorStory->В одному місці {ANYPAWN_gender ? автор описує : авторка описує} темні ритуали, під час яких жертв змушували калічити себе битим склом.</li>
+    <li>specificHorrorStory->В одному місці головний герой натрапляє на ритуал: закривавлені фігури співають моторошні заклинання й водночас калічать себе уламками обсидіану.</li>
+    <li>specificHorrorStory->Книга містить чимало ілюстрацій, що намагаються зобразити щось, назване «чорним океаном». Схоже, це метафора психічного виміру, де панує жахливий, але спокусливий психічний надрозум.</li>
+    <li>specificHorrorStory->У книзі раз у раз ідеться про багатовимірну природу реальності — думку, що вимірів більше, ніж ми бачимо, тож предмет чи сутність може бути просто поруч, але поза межами нашого сприйняття.</li>
+    <li>specificHorrorStory->Чимало сторінок присвячено спробам описати надрозумну сутність на ім’я «Горакс», що існує в сусідньому вимірі реальності.</li>
+    <li>specificHorrorStory->Один із розділів описує механізм темного психічного впливу: сутність з іншого виміру може мимоволі впливати на думки людей, налаштовуючи їх на свій емоційний резонанс.</li>
+    <li>specificHorrorStory->Один із розділів описує різні архотехнічні надрозуми та різну природу їхнього емоційного й психічного випромінювання. Одні з них вважаються нейтральними чи навіть доброзичливими, інші ж — сутності чистої люті.</li>
+    <li>specificHorrorStory->{ANYPAWN_gender ? Автор : Авторка} описує, як темний психічний вплив вищого розуму насильно перебудовував {ANYPAWN_gender ? його : її} свідомість.</li>
+    <li>specificHorrorStory->В одному з розділів {ANYPAWN_gender ? автор намагається : авторка намагається} накласти на себе руки, але {ANYPAWN_gender ? його : її} знаходить і рятує [kindPersonJob].</li>
+    <li>specificHorrorStory->Том прикрашено тривожними ілюстраціями гротескної потойбічної сутності, чиї безформні чорнильні щупальця звиваються сторінками, викликаючи водночас жах і захоплення.</li>
+    <li>specificHorrorStory->Через усю оповідь проходить ідея паралельних вимірів: персонажі зустрічають сутності, що існують просто за завісою сприйняття, у реальності, яка перетинається з нашою, але лишається прихованою від очей.</li>
+    <li>specificHorrorStory->Книга заглиблюється в моторошну розповідь про «Горакса» — машинний надрозум, що перемістився прихованим виміром у місце, назване Порожнечею.</li>
+    <li>specificHorrorStory->Один із розділів викладає теорію, за якою далекий надрозум може психічно маніпулювати людським мисленням, перекроюючи думки людини за власними шаблонами.</li>
+    <li>specificHorrorStory->{ANYPAWN_gender ? Головний герой розповідає, як відчував : Головна героїня розповідає, як відчувала}, що зловісна психічна сила, яка лине нізвідки, насильно перепрошиває {ANYPAWN_gender ? його : її} розум.</li>
+    <li>kindPersonJob(p=2)->добросердий [PersonJob_m]</li>
+    <li>kindPersonJob->добросерда [PersonJob_f]</li>
+    <li>entities->демони</li>
+    <li>entities->ходячі трупи</li>
+    <li>entities->чудовиська, що жадають болю</li>
+    <li>entities->створіння з м’яса й оголених кісток</li>
+    <li>entities->ходячі трупи [Animal_pl_gen]</li>
+    <li>entities->людиноподібні фігури з металу й лез</li>
+    <li>entities->летючі механічні сфери, що випромінюють біль</li>
+    <li>entities->чудові золоті куби, що руйнують розум</li>
+    <li>entities->звірі із закривавленої плоті</li>
+    <li>entities->темні тіні, що ховаються на видноті</li>
+    <li>entities->мисливці, що крадуть душі</li>
+    <li>entities_ins->демонами</li>
+    <li>entities_ins->ходячими трупами</li>
+    <li>entities_ins->чудовиськами, що жадають болю</li>
+    <li>entities_ins->створіннями з м’яса й оголених кісток</li>
+    <li>entities_ins->ходячими трупами [Animal_pl_gen]</li>
+    <li>entities_ins->людиноподібними фігурами з металу й лез</li>
+    <li>entities_ins->летючими механічними сферами, що випромінюють біль</li>
+    <li>entities_ins->чудовими золотими кубами, що руйнують розум</li>
+    <li>entities_ins->звірами із закривавленої плоті</li>
+    <li>entities_ins->темними тінями, що ховаються на видноті</li>
+    <li>entities_ins->мисливцями, що крадуть душі</li>
+    <li>entities_gen->демонів</li>
+    <li>entities_gen->ходячих трупів</li>
+    <li>entities_gen->чудовиськ, що жадають болю</li>
+    <li>entities_gen->створінь з м’яса й оголених кісток</li>
+    <li>entities_gen->ходячих трупів [Animal_pl_gen]</li>
+    <li>entities_gen->людиноподібних фігур з металу й лез</li>
+    <li>entities_gen->летючих механічних сфер, що випромінюють біль</li>
+    <li>entities_gen->чудових золотих кубів, що руйнують розум</li>
+    <li>entities_gen->звірів із закривавленої плоті</li>
+    <li>entities_gen->темних тіней, що ховаються на видноті</li>
+    <li>entities_gen->мисливців, що крадуть душі</li>
     <li>entity->демон</li>
-    <li>entity->walking corpse</li>
-    <li>entity->pain-seeking monster</li>
-    <li>entity->creature made of meat and exposed bone</li>
-    <li>entity->walking corpse of an [Animal]</li>
-    <li>entity->man-like figure made of metal and blades</li>
-    <li>entity->floating mechanical sphere that emanates pain</li>
-    <li>entity->beautiful golden cube that destroys minds</li>
-    <li>entity->beast made of bloody flesh</li>
-    <li>entity->shape that hides in plain sight</li>
-    <li>entity->hunter that steals souls</li>
-    <li>maybeAdjectiveEvil(p=2)-></li>
-    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
-    <li>adjectiveEvil->deadly</li>
-    <li>adjectiveEvil->ancient</li>
-    <li>adjectiveEvil->bloody</li>
-    <li>adjectiveEvil->twisted</li>
-    <li>adjectiveEvil->powerful</li>
-    <li>adjectiveEvil->nefarious</li>
-    <li>adjectiveEvil->spectral</li>
-    <li>adjectiveEvil->ethereal</li>
-    <li>adjectiveEvil->ominous</li>
-    <li>adjectiveEvil->arcane</li>
-    <li>adjectiveEvil->surreal</li>
-    <li>adjectiveEvil->uncanny</li>
-    <li>adjectiveEvil->phantom</li>
-    <li>adjectiveEvil->cryptic</li>
-    <li>adjectiveEvil->infernal</li>
-    <li>adjectiveEvil->aberrant</li>
-    <li>writingQualityAdjective(quality==0)->disjointed</li>
-    <li>writingQualityAdjective(quality==0)->incoherent</li>
-    <li>writingQualityAdjective(quality==0)->meaningless</li>
-    <li>writingQualityAdjective(quality==0)->appalling</li>
-    <li>writingQualityAdjective(quality==0)->puerile</li>
-    <li>writingQualityAdjective(quality==1)->feeble</li>
-    <li>writingQualityAdjective(quality==1)->roughly scribbled</li>
-    <li>writingQualityAdjective(quality==1)->tedious</li>
-    <li>writingQualityAdjective(quality==1)->inconsistent</li>
-    <li>writingQualityAdjective(quality==1)->rambling</li>
-    <li>writingQualityAdjective(quality==2)->jumbled</li>
-    <li>writingQualityAdjective(quality==2)->uninspired</li>
-    <li>writingQualityAdjective(quality==2)->посередня</li>
-    <li>writingQualityAdjective(quality==2)->unremarkable</li>
-    <li>writingQualityAdjective(quality==2)->vanilla</li>
-    <li>writingQualityAdjective(quality==2)->passable</li>
-    <li>writingQualityAdjective(quality==3)->humdrum</li>
-    <li>writingQualityAdjective(quality==3)->well-written</li>
-    <li>writingQualityAdjective(quality==3)->well-organized</li>
-    <li>writingQualityAdjective(quality==3)->thoughtful</li>
-    <li>writingQualityAdjective(quality==3)->readable</li>
-    <li>writingQualityAdjective(quality==3)->unexceptional</li>
-    <li>writingQualityAdjective(quality==4)->amusing</li>
-    <li>writingQualityAdjective(quality==4)->smooth</li>
-    <li>writingQualityAdjective(quality==4)->emotionally expressive</li>
-    <li>writingQualityAdjective(quality==4)->precisely structured</li>
-    <li>writingQualityAdjective(quality==4)->persuasive</li>
-    <li>writingQualityAdjective(quality==4)->respectable</li>
-    <li>writingQualityAdjective(quality==5)->solid</li>
-    <li>writingQualityAdjective(quality==5)->accomplished</li>
-    <li>writingQualityAdjective(quality==5)->keenly perceptive</li>
-    <li>writingQualityAdjective(quality==5)->sterling</li>
-    <li>writingQualityAdjective(quality==5)->first-class</li>
-    <li>writingQualityAdjective(quality==5)->inspired</li>
-    <li>writingQualityAdjective(quality==6)->clever</li>
-    <li>writingQualityAdjective(quality==6)->terrifyingly insightful</li>
-    <li>writingQualityAdjective(quality==6)->peerless</li>
-    <li>writingQualityAdjective(quality==6)->first-class</li>
-    <li>writingQualityAdjective(quality==6)->masterful</li>
-    <li>writingQualityAdjective(quality==6)->exquisite</li>
-    <li>writingQualitySentence(quality[greater_than]4)->The book is [excellentDesc]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->The book is [decentDesc]</li>
-    <li>writingQualitySentence(quality[less_than]2)->The book is [awfulDesc]</li>
-    <li>awfulDesc->illegible</li>
-    <li>awfulDesc->scrawled in a shaky hand</li>
-    <li>awfulDesc->stained with dried liquor</li>
-    <li>awfulDesc->nearly incoherent</li>
-    <li>awfulDesc->repetitive and many sections lack detail</li>
-    <li>awfulDesc->faded beyond legibility in many parts</li>
-    <li>awfulDesc->missing many pages</li>
-    <li>awfulDesc->totally disorganized and skips topics constantly</li>
-    <li>awfulDesc->written in a lost language</li>
-    <li>awfulDesc->full of incomprehensible jargon</li>
-    <li>awfulDesc->childlike</li>
-    <li>awfulDesc->mingling reality with fantasy willy-nilly</li>
-    <li>awfulDesc->reads like automatic writing</li>
-    <li>awfulDesc->saturated with ichor and blood</li>
-    <li>awfulDesc->mainly a romance about two [entities]</li>
-    <li>decentDesc->solid but would have benefitted from editing</li>
-    <li>decentDesc->insightful during some parts, but other sections are unnecessary</li>
-    <li>decentDesc->perceptive, but only from a twisted point of view</li>
-    <li>decentDesc->high on detail but lacking in useful interpretation</li>
-    <li>decentDesc->missing some pages</li>
-    <li>decentDesc->useful, but often too concerned with the author's own personal interests</li>
-    <li>decentDesc->full of useful information, despite the author's distortions and biases</li>
-    <li>decentDesc->workmanlike</li>
-    <li>decentDesc->pleasurable if not all that useful</li>
-    <li>decentDesc->full of intriguing ideas but a chore to get through</li>
-    <li>decentDesc->written by a first-rate intellect with a second-rate temperament</li>
-    <li>decentDesc->decent, if thoroughly corrupted</li>
-    <li>decentDesc->terrifying in content, tedious in execution</li>
-    <li>excellentDesc->the apogee of literature</li>
-    <li>excellentDesc->deeply insightful</li>
-    <li>excellentDesc->remarkably well-crafted</li>
-    <li>excellentDesc->well-organized and professional in its structure</li>
-    <li>excellentDesc->almost poetic in many areas</li>
-    <li>excellentDesc->frighteningly descriptive - many sections are almost poetic in their style</li>
-    <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
+    <li>entity->ходячий труп</li>
+    <li>entity->чудовисько, що жадає болю</li>
+    <li>entity->створіння з м’яса й оголених кісток</li>
+    <li>entity->ходячий труп [Animal_gen]</li>
+    <li>entity->людиноподібна фігура з металу й лез</li>
+    <li>entity->летюча механічна сфера, що випромінює біль</li>
+    <li>entity->чудовий золотий куб, що руйнує розум</li>
+    <li>entity->звір із закривавленої плоті</li>
+    <li>entity->тінь, що ховається на видноті</li>
+    <li>entity->мисливець, що краде душі</li>
+    <li>entity_ins->демоном</li>
+    <li>entity_ins->ходячим трупом</li>
+    <li>entity_ins->чудовиськом, що жадає болю</li>
+    <li>entity_ins->створінням з м’яса й оголених кісток</li>
+    <li>entity_ins->ходячим трупом [Animal_gen]</li>
+    <li>entity_ins->людиноподібною фігурою з металу й лез</li>
+    <li>entity_ins->летючою механічною сферою, що випромінює біль</li>
+    <li>entity_ins->чудовим золотим кубом, що руйнує розум</li>
+    <li>entity_ins->звіром із закривавленої плоті</li>
+    <li>entity_ins->тінню, що ховається на видноті</li>
+    <li>entity_ins->мисливцем, що краде душі</li>
+    <li>entity_acc->демона</li>
+    <li>entity_acc->ходячий труп</li>
+    <li>entity_acc->чудовисько, що жадає болю</li>
+    <li>entity_acc->створіння з м’яса й оголених кісток</li>
+    <li>entity_acc->ходячий труп [Animal_gen]</li>
+    <li>entity_acc->людиноподібну фігуру з металу й лез</li>
+    <li>entity_acc->летючу механічну сферу, що випромінює біль</li>
+    <li>entity_acc->чудовий золотий куб, що руйнує розум</li>
+    <li>entity_acc->звіра із закривавленої плоті</li>
+    <li>entity_acc->тінь, що ховається на видноті</li>
+    <li>entity_acc->мисливця, що краде душі</li>
+    <li>maybeAdjectiveEvil(p=2)->ритуалами</li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] ритуалами</li>
+    <li>adjectiveEvil->смертоносними</li>
+    <li>adjectiveEvil->давніми</li>
+    <li>adjectiveEvil->кривавими</li>
+    <li>adjectiveEvil->збоченими</li>
+    <li>adjectiveEvil->могутніми</li>
+    <li>adjectiveEvil->лиховісними</li>
+    <li>adjectiveEvil->примарними</li>
+    <li>adjectiveEvil->ефірними</li>
+    <li>adjectiveEvil->зловісними</li>
+    <li>adjectiveEvil->таємними</li>
+    <li>adjectiveEvil->сюрреалістичними</li>
+    <li>adjectiveEvil->моторошними</li>
+    <li>adjectiveEvil->фантомними</li>
+    <li>adjectiveEvil->загадковими</li>
+    <li>adjectiveEvil->пекельними</li>
+    <li>adjectiveEvil->ненормальними</li>
+    <li>writingQualityAdjective(quality==0)->безладному</li>
+    <li>writingQualityAdjective(quality==0)->незв’язному</li>
+    <li>writingQualityAdjective(quality==0)->беззмістовному</li>
+    <li>writingQualityAdjective(quality==0)->жахливому</li>
+    <li>writingQualityAdjective(quality==0)->інфантильному</li>
+    <li>writingQualityAdjective(quality==1)->слабкому</li>
+    <li>writingQualityAdjective(quality==1)->недбало нашкрябаному</li>
+    <li>writingQualityAdjective(quality==1)->нудному</li>
+    <li>writingQualityAdjective(quality==1)->непослідовному</li>
+    <li>writingQualityAdjective(quality==1)->багатослівному</li>
+    <li>writingQualityAdjective(quality==2)->плутаному</li>
+    <li>writingQualityAdjective(quality==2)->безбарвному</li>
+    <li>writingQualityAdjective(quality==2)->посередньому</li>
+    <li>writingQualityAdjective(quality==2)->непримітному</li>
+    <li>writingQualityAdjective(quality==2)->звичайнісінькому</li>
+    <li>writingQualityAdjective(quality==2)->стерпному</li>
+    <li>writingQualityAdjective(quality==3)->буденному</li>
+    <li>writingQualityAdjective(quality==3)->добре написаному</li>
+    <li>writingQualityAdjective(quality==3)->добре впорядкованому</li>
+    <li>writingQualityAdjective(quality==3)->вдумливому</li>
+    <li>writingQualityAdjective(quality==3)->читабельному</li>
+    <li>writingQualityAdjective(quality==3)->пересічному</li>
+    <li>writingQualityAdjective(quality==4)->захопливому</li>
+    <li>writingQualityAdjective(quality==4)->плавному</li>
+    <li>writingQualityAdjective(quality==4)->емоційно виразному</li>
+    <li>writingQualityAdjective(quality==4)->чітко структурованому</li>
+    <li>writingQualityAdjective(quality==4)->переконливому</li>
+    <li>writingQualityAdjective(quality==4)->гідному</li>
+    <li>writingQualityAdjective(quality==5)->ґрунтовному</li>
+    <li>writingQualityAdjective(quality==5)->майстерному</li>
+    <li>writingQualityAdjective(quality==5)->проникливому</li>
+    <li>writingQualityAdjective(quality==5)->бездоганному</li>
+    <li>writingQualityAdjective(quality==5)->першокласному</li>
+    <li>writingQualityAdjective(quality==5)->натхненному</li>
+    <li>writingQualityAdjective(quality==6)->дотепному</li>
+    <li>writingQualityAdjective(quality==6)->моторошно проникливому</li>
+    <li>writingQualityAdjective(quality==6)->неперевершеному</li>
+    <li>writingQualityAdjective(quality==6)->першокласному</li>
+    <li>writingQualityAdjective(quality==6)->віртуозному</li>
+    <li>writingQualityAdjective(quality==6)->вишуканому</li>
+    <li>writingQualityAdjective_pl(quality==0)->безладних</li>
+    <li>writingQualityAdjective_pl(quality==0)->незв’язних</li>
+    <li>writingQualityAdjective_pl(quality==0)->беззмістовних</li>
+    <li>writingQualityAdjective_pl(quality==0)->жахливих</li>
+    <li>writingQualityAdjective_pl(quality==0)->інфантильних</li>
+    <li>writingQualityAdjective_pl(quality==1)->слабких</li>
+    <li>writingQualityAdjective_pl(quality==1)->недбало нашкрябаних</li>
+    <li>writingQualityAdjective_pl(quality==1)->нудних</li>
+    <li>writingQualityAdjective_pl(quality==1)->непослідовних</li>
+    <li>writingQualityAdjective_pl(quality==1)->багатослівних</li>
+    <li>writingQualityAdjective_pl(quality==2)->плутаних</li>
+    <li>writingQualityAdjective_pl(quality==2)->безбарвних</li>
+    <li>writingQualityAdjective_pl(quality==2)->посередніх</li>
+    <li>writingQualityAdjective_pl(quality==2)->непримітних</li>
+    <li>writingQualityAdjective_pl(quality==2)->звичайнісіньких</li>
+    <li>writingQualityAdjective_pl(quality==2)->стерпних</li>
+    <li>writingQualityAdjective_pl(quality==3)->буденних</li>
+    <li>writingQualityAdjective_pl(quality==3)->добре написаних</li>
+    <li>writingQualityAdjective_pl(quality==3)->добре впорядкованих</li>
+    <li>writingQualityAdjective_pl(quality==3)->вдумливих</li>
+    <li>writingQualityAdjective_pl(quality==3)->читабельних</li>
+    <li>writingQualityAdjective_pl(quality==3)->пересічних</li>
+    <li>writingQualityAdjective_pl(quality==4)->захопливих</li>
+    <li>writingQualityAdjective_pl(quality==4)->плавних</li>
+    <li>writingQualityAdjective_pl(quality==4)->емоційно виразних</li>
+    <li>writingQualityAdjective_pl(quality==4)->чітко структурованих</li>
+    <li>writingQualityAdjective_pl(quality==4)->переконливих</li>
+    <li>writingQualityAdjective_pl(quality==4)->гідних</li>
+    <li>writingQualityAdjective_pl(quality==5)->ґрунтовних</li>
+    <li>writingQualityAdjective_pl(quality==5)->майстерних</li>
+    <li>writingQualityAdjective_pl(quality==5)->проникливих</li>
+    <li>writingQualityAdjective_pl(quality==5)->бездоганних</li>
+    <li>writingQualityAdjective_pl(quality==5)->першокласних</li>
+    <li>writingQualityAdjective_pl(quality==5)->натхненних</li>
+    <li>writingQualityAdjective_pl(quality==6)->дотепних</li>
+    <li>writingQualityAdjective_pl(quality==6)->моторошно проникливих</li>
+    <li>writingQualityAdjective_pl(quality==6)->неперевершених</li>
+    <li>writingQualityAdjective_pl(quality==6)->першокласних</li>
+    <li>writingQualityAdjective_pl(quality==6)->віртуозних</li>
+    <li>writingQualityAdjective_pl(quality==6)->вишуканих</li>
+    <li>writingQualitySentence(quality[greater_than]4)->Книга [excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Книга [decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->Книга [awfulDesc]</li>
+    <li>awfulDesc->нечитабельна</li>
+    <li>awfulDesc->нашкрябана тремтячою рукою</li>
+    <li>awfulDesc->у плямах від засохлого алкоголю</li>
+    <li>awfulDesc->майже незв’язна</li>
+    <li>awfulDesc->повна повторів, а в багатьох розділах бракує подробиць</li>
+    <li>awfulDesc->місцями так вицвіла, що прочитати неможливо</li>
+    <li>awfulDesc->без багатьох сторінок</li>
+    <li>awfulDesc->геть безладна й постійно перескакує з теми на тему</li>
+    <li>awfulDesc->написана втраченою мовою</li>
+    <li>awfulDesc->рясніє незрозумілим жаргоном</li>
+    <li>awfulDesc->дитинна</li>
+    <li>awfulDesc->як заманеться змішує реальність і вигадку</li>
+    <li>awfulDesc->читається як автоматичне письмо</li>
+    <li>awfulDesc->просякнута іхором і кров’ю</li>
+    <li>awfulDesc->здебільшого розповідає про кохання двох [entities_gen]</li>
+    <li>decentDesc->ґрунтовна, але їй не завадила б редактура</li>
+    <li>decentDesc->місцями прониклива, але деякі розділи зайві</li>
+    <li>decentDesc->прониклива, але лише з викривленого погляду</li>
+    <li>decentDesc->багата на подробиці, але бідна на корисні тлумачення</li>
+    <li>decentDesc->без кількох сторінок</li>
+    <li>decentDesc->корисна, але надто часто відхиляється в бік особистих зацікавлень</li>
+    <li>decentDesc->сповнена корисних відомостей, попри авторські викривлення й упередження</li>
+    <li>decentDesc->написана ремісничо</li>
+    <li>decentDesc->приємна, хоч і не надто корисна</li>
+    <li>decentDesc->сповнена цікавих ідей, але читається важко</li>
+    <li>decentDesc->написана першокласним розумом із другосортним темпераментом</li>
+    <li>decentDesc->непогана, хоч і геть зіпсована</li>
+    <li>decentDesc->жахлива за змістом і нудна за виконанням</li>
+    <li>excellentDesc->— вершина літератури</li>
+    <li>excellentDesc->глибоко прониклива</li>
+    <li>excellentDesc->надзвичайно майстерно написана</li>
+    <li>excellentDesc->добре впорядкована й професійно побудована</li>
+    <li>excellentDesc->місцями майже поетична</li>
+    <li>excellentDesc->моторошно образна — чимало розділів майже поетичні за стилем</li>
+    <li>excellentDesc->сповнена блискучих ідей, що вибухають у голові</li>
   </Description_Tome.rulePack.rulesStrings>
 </LanguageData>

@@ -3,7 +3,7 @@
   <!-- EN: archogenetics -->
   <Archogenetics.label>архогенетика</Archogenetics.label>
   <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
-  <Archogenetics.description>Дозволяє використовувати архітні капсули в збирачі генів, щоб створити немислимі ксенозародки. Архітні гени та капсули можуть бути куплені у торговців.</Archogenetics.description>
+  <Archogenetics.description>Дає змогу використовувати в збирачі генів архітні капсули, щоб створювати гени, які здаються неможливими. Архітні гени й архітні капсули можна придбати в торговців.</Archogenetics.description>
   <!-- EN:
     <li>subject->archogenetics</li>
     <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
@@ -14,16 +14,16 @@
   -->
   <Archogenetics.generalRules.rulesStrings>
     <li>subject->архогенетика</li>
-    <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
-    <li>subject_story->непогано заробляв на життя торгівлею архітних генів</li>
-    <li>subject_story->очолив дослідницьку експедицію до стародавнього моноліту та повернувся зміненим</li>
-    <li>subject_gerund->збирав архітні гени</li>
-    <li>subject_gerund->створював, здавалося б, неможливі гени</li>
+    <li>subject_story->{ANYPAWN_gender ? видобув : видобула} архітні гени на трансцендентному супутнику Ікс</li>
+    <li>subject_story->непогано {ANYPAWN_gender ? заробляв : заробляла} на торгівлі архітними генами</li>
+    <li>subject_story->{ANYPAWN_gender ? очолив : очолила} дослідницьку експедицію до старовинного моноліту й {ANYPAWN_gender ? повернувся зміненим : повернулася зміненою}</li>
+    <li>subject_gerund->збирання архітних генів</li>
+    <li>subject_gerund->створення генів, які здаються неможливими</li>
   </Archogenetics.generalRules.rulesStrings>
   <!-- EN: deathrest -->
   <Deathrest.label>летаргія</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
-  <Deathrest.description>Люди з геном летаргії мають періодично впадати в летаргічний сон на декілька днів. Ця технологія дозволяє вам будувати споруди, які можуть прискорити сон та надати певні бонуси сплячим. З часом ви зможете побудувати грандіозний храм летаргії.</Deathrest.description>
+  <Deathrest.description>Носії гена летаргії мусять періодично на кілька днів впадати в особливу летаргійну кому. Це дослідження відкриває споруди, які прискорюють летаргію й дають сплячому певні бонуси. Згодом ви зможете звести величний храм летаргії.</Deathrest.description>
   <!-- EN:
     <li>subject->deathrest</li>
     <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
@@ -34,16 +34,16 @@
   -->
   <Deathrest.generalRules.rulesStrings>
     <li>subject->летаргія</li>
-    <li>subject_story->розбирав трупи з летаргічного храму, нарешті зрозумівши, як це працює</li>
-    <li>subject_story->взяв інтерв'ю у знаменитості, яка, здавалося, ніколи не старіла, і зрештою дізнався її секрети</li>
-    <li>subject_story->спробував відтворити технологію та впав у кому, прокинувшись тільки через кілька тижнів</li>
-    <li>subject_gerund->constructing deathrest facilities</li>
-    <li>subject_gerund->покращення летаргічного сну</li>
+    <li>subject_story->{ANYPAWN_gender ? розтинав : розтинала} трупи з храму летаргії, поки нарешті не {ANYPAWN_gender ? зрозумів : зрозуміла}, як він працює</li>
+    <li>subject_story->{ANYPAWN_gender ? взяв : взяла} інтерв’ю в знаменитості, яка ніби не старіла, і зрештою {ANYPAWN_gender ? вивідав : вивідала} її секрети</li>
+    <li>subject_story->{ANYPAWN_gender ? спробував : спробувала} відтворити цю технологію, {ANYPAWN_gender ? впав : впала} в кому й {ANYPAWN_gender ? прокинувся : прокинулася} лише через кілька тижнів</li>
+    <li>subject_gerund->спорудження обладнання для летаргії</li>
+    <li>subject_gerund->поліпшення летаргії</li>
   </Deathrest.generalRules.rulesStrings>
   <!-- EN: fertility procedures -->
-  <FertilityProcedures.label>процедури при безплідді</FertilityProcedures.label>
+  <FertilityProcedures.label>репродуктивні процедури</FertilityProcedures.label>
   <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
-  <FertilityProcedures.description>Ця технологія дозволяє проводити процедури, необхідні для створення ембріона від фертильних чоловіка та жінки, з подальшою імплантацією сурогатній матері або в інкубатор. Також дозволяє проводити стерилізацію чоловікам та жінкам.</FertilityProcedures.description>
+  <FertilityProcedures.description>Проводьте операції, щоб створити ембріон у пробірці від фертильних чоловіка й жінки, а потім імплантувати його сурогатній матері чи в інкубатор. Також відкриває операції зі стерилізації чоловіків і жінок.</FertilityProcedures.description>
   <!-- EN:
     <li>subject->fertility procedures</li>
     <li>subject_story->helped families in the coreworlds achieve their dream of parenthood with test-tube embryos</li>
@@ -53,17 +53,17 @@
     <li>subject_gerund->improving or blocking human fertility</li>
   -->
   <FertilityProcedures.generalRules.rulesStrings>
-    <li>subject->процедури лікування безпліддя</li>
-    <li>subject_story->допомогли сім'ям у центральних світах досягти своєї мрії про батьківство за допомогою ембріонів з пробірки</li>
-    <li>subject_story->врятували рідкісного каллопійського бумщур від вимирання за допомогою небезпечних методів ручного запліднення</li>
-    <li>subject_story->вирішив демографічну кризу в живосвіті за допомогою втручань у фертильність та чанів для росту</li>
-    <li>subject_gerund->зміна людської фертильності</li>
-    <li>subject_gerund->покращував або блокував фертильність людини</li>
+    <li>subject->репродуктивні процедури</li>
+    <li>subject_story->{ANYPAWN_gender ? допомагав : допомагала} родинам у центральних світах здійснити мрію про батьківство завдяки ембріонам із пробірки</li>
+    <li>subject_story->{ANYPAWN_gender ? врятував : врятувала} рідкісного каллопійського бумщура від вимирання ризикованим ручним заплідненням</li>
+    <li>subject_story->{ANYPAWN_gender ? розв’язав : розв’язала} демографічну кризу в урбанізованому світі втручаннями у фертильність та інкубаторами</li>
+    <li>subject_gerund->змінення людської фертильності</li>
+    <li>subject_gerund->посилення чи блокування людської фертильності</li>
   </FertilityProcedures.generalRules.rulesStrings>
   <!-- EN: gene processor -->
   <GeneProcessor.label>генний процесор</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
-  <GeneProcessor.description>Ця технологія дозволяє створювати генний процесор, необхідний збирачу генів для створення більш комплексних ксенозародків.</GeneProcessor.description>
+  <GeneProcessor.description>Будуйте генні процесори, що дають змогу збирачу генів створювати ксенозародки вищої генетичної складності.</GeneProcessor.description>
   <!-- EN:
     <li>subject->gene processors</li>
     <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
@@ -74,16 +74,16 @@
   -->
   <GeneProcessor.generalRules.rulesStrings>
     <li>subject->генні процесори</li>
-    <li>subject_story->видобув блискосвітні гени з блукача</li>
-    <li>subject_story->обробив ціле село, щоб створити набір вищих генів</li>
-    <li>subject_story->розпочав повільний процес піднесення, імплантуючи ксенобактерії в первісне плем'я</li>
-    <li>subject_gerund->будував генні процесори</li>
-    <li>subject_gerund->обробляв гени</li>
+    <li>subject_story->{ANYPAWN_gender ? видобув : видобула} гени світу-раю з покинутого корабля, що дрейфував у космосі</li>
+    <li>subject_story->{ANYPAWN_gender ? переробив : переробила} ціле село, щоб створити один набір вищих генів</li>
+    <li>subject_story->{ANYPAWN_gender ? розпочав : розпочала} повільне піднесення первісного племені, імплантуючи йому ксенозародки</li>
+    <li>subject_gerund->спорудження генних процесорів</li>
+    <li>subject_gerund->оброблення генів</li>
   </GeneProcessor.generalRules.rulesStrings>
   <!-- EN: growth vats -->
   <GrowthVats.label>інкубатори</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
-  <GrowthVats.description>Створюйте інкубатори, які можуть зрощувати ембріонів або прискорювати зростання дітей.</GrowthVats.description>
+  <GrowthVats.description>Будуйте інкубатори, у яких можна виношувати ембріони або прискорювати ріст дітей.</GrowthVats.description>
   <!-- EN:
     <li>subject->advanced gestation</li>
     <li>subject->artificial wombs</li>
@@ -95,19 +95,19 @@
     <li>subject_gerund->constructing growth vats</li>
   -->
   <GrowthVats.generalRules.rulesStrings>
-    <li>subject->передчасна вагітність</li>
+    <li>subject->штучне виношування</li>
     <li>subject->штучні матки</li>
-    <li>subject_story->керував центром клонування для постачання слуг для центральних світів</li>
-    <li>subject_story->створив нову армію для хунти воєнного світу</li>
-    <li>subject_story->допомагав сім'ям з різним походженням мати дітей</li>
-    <li>subject_gerund->вирощував ембріони в штучних матках</li>
-    <li>subject_gerund->прискорював людське зростання</li>
-    <li>subject_gerund->будував інкубатори</li>
+    <li>subject_story->{ANYPAWN_gender ? керував : керувала} клонувальним центром, що постачав слуг для центральних світів</li>
+    <li>subject_story->{ANYPAWN_gender ? виростив : виростила} нову армію для хунти світу війни</li>
+    <li>subject_story->{ANYPAWN_gender ? допомагав : допомагала} мати дітей родинам будь-якого походження</li>
+    <li>subject_gerund->виношування ембріонів у штучних матках</li>
+    <li>subject_gerund->прискорення людського росту</li>
+    <li>subject_gerund->спорудження інкубаторів</li>
   </GrowthVats.generalRules.rulesStrings>
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>фільтрація токсинів</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
-  <ToxFiltration.description>Створюйте біонічні органи, що фільтрують токсини навколишнього середовища та ворожих атак.</ToxFiltration.description>
+  <ToxFiltration.description>Виготовляйте та встановлюйте біонічні органи, що відфільтровують токсини з довкілля й ворожих атак.</ToxFiltration.description>
   <!-- EN:
     <li>subject->toxin filtration</li>
     <li>subject->toxin metabolisation</li>
@@ -119,17 +119,17 @@
   -->
   <ToxFiltration.generalRules.rulesStrings>
     <li>subject->фільтрування токсинів</li>
-    <li>subject->метаболізм токсинів</li>
-    <li>subject_story->helped milworld combat survivors breathe again</li>
-    <li>subject_story->пропустив практичні заняття з хімії заради додаткових занять з етики</li>
-    <li>subject_story->приєднався до шахтної корпорації як спеціаліст з фільтрації</li>
-    <li>subject_gerund->метаболізм токсинів</li>
-    <li>subject_gerund->створював протитоксинні органи</li>
+    <li>subject->метаболізування токсинів</li>
+    <li>subject_story->{ANYPAWN_gender ? допомагав : допомагала} ветеранам з мілітаризованих світів знову вільно дихати</li>
+    <li>subject_story->{ANYPAWN_gender ? прогулював : прогулювала} практикуми з хімії заради додаткових занять з етики</li>
+    <li>subject_story->{ANYPAWN_gender ? пішов : пішла} в гірничу корпорацію фахівцем з фільтрації</li>
+    <li>subject_gerund->метаболізування токсинів</li>
+    <li>subject_gerund->виготовлення антитоксинних органів</li>
   </ToxFiltration.generalRules.rulesStrings>
   <!-- EN: tox gas -->
   <ToxGas.label>токсичний газ</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
-  <ToxGas.description>Створення зброї, що використовує токсичний газ.</ToxGas.description>
+  <ToxGas.description>Виготовляйте зброю з їдким токсичним газом.</ToxGas.description>
   <!-- EN:
     <li>subject->gas weaponry</li>
     <li>subject->chemical warfare</li>
@@ -141,15 +141,15 @@
   <ToxGas.generalRules.rulesStrings>
     <li>subject->газова зброя</li>
     <li>subject->хімічна війна</li>
-    <li>subject_story->мріяв про зброю для завершення всіх війн</li>
-    <li>subject_story->пропустив практичні заняття з етики заради додаткових занять з хімії</li>
-    <li>subject_story->досліджував технологію хмарного контролю для тиранократії світу смерті</li>
-    <li>subject_gerund->створював токсичну газову зброю</li>
+    <li>subject_story->{ANYPAWN_gender ? мріяв : мріяла} про зброю, що покладе край усім війнам</li>
+    <li>subject_story->{ANYPAWN_gender ? прогулював : прогулювала} заняття з етики заради додаткових практикумів з хімії</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} технології керування хмарами для тиранократії світу смерті</li>
+    <li>subject_gerund->виготовлення зброї з токсичним газом</li>
   </ToxGas.generalRules.rulesStrings>
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>токсичні генератори</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
-  <ToxifierGenerator.description>Генератори електроенергії, які забруднюють навколишнє середовище.</ToxifierGenerator.description>
+  <ToxifierGenerator.description>Будуйте токсичні генератори, які виробляють електрику, але забруднюють усе навколо.</ToxifierGenerator.description>
   <!-- EN:
     <li>subject->toxifier generator</li>
     <li>subject_story->led a clean-up crew to a toxic planetoid</li>
@@ -158,16 +158,16 @@
     <li>subject_gerund->constructing toxifier generators</li>
   -->
   <ToxifierGenerator.generalRules.rulesStrings>
-    <li>subject->генератор токсикантів</li>
-    <li>subject_story->привів команду з прибирання до токсичного планетоїда</li>
-    <li>subject_story->дізнався про токсиканти у глибокій ямі скайріппера</li>
-    <li>subject_story->досліджував дешеві та брудні джерела енергії для урб-корпорації</li>
-    <li>subject_gerund->створював генератори токсикантів</li>
+    <li>subject->токсичні генератори</li>
+    <li>subject_story->{ANYPAWN_gender ? очолював : очолювала} бригаду прибиральників на токсичному планетоїді</li>
+    <li>subject_story->{ANYPAWN_gender ? дізнався : дізналася} про токсичні генератори в глибоких відстійниках корабля-небодера</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} дешеві й брудні джерела енергії для міської корпорації</li>
+    <li>subject_gerund->спорудження токсичних генераторів</li>
   </ToxifierGenerator.generalRules.rulesStrings>
   <!-- EN: xenogenetics -->
   <Xenogermination.label>ксеногенетика</Xenogermination.label>
   <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
-  <Xenogermination.description>Створюйте ксенозародки, які можна імплантувати людям, щоб генетично модифікувати їх. Вилучайте генопаки з живих людей, використовуючи генний екстрактор, щоб реімплантувати їх комусь іншому.</Xenogermination.description>
+  <Xenogermination.description>Створюйте ксенозародки, які можна імплантувати людині, щоб генетично її змінити. За допомогою генного екстрактора вилучайте генопаки з живих людей, щоб пересадити їхні гени комусь іншому.</Xenogermination.description>
   <!-- EN:
     <li>subject->xenogermination</li>
     <li>subject->genetic implantation</li>
@@ -177,11 +177,11 @@
     <li>subject_gerund->crafting xenogerms</li>
   -->
   <Xenogermination.generalRules.rulesStrings>
-    <li>subject->ксенопроростання</li>
+    <li>subject->створення ксенозародків</li>
     <li>subject->генетична імплантація</li>
-    <li>subject_story->був підтриманий благодійною організацією блискосвіту, яка зосереджувалася на генетично неблагополучних людях</li>
-    <li>subject_story->мав [ANYPAWN_possessive] гени, вкрадені недобросовісним біологом</li>
-    <li>subject_story->керував клінікою генетичного переносу для еліти блискосвіту</li>
-    <li>subject_gerund->створював ксенобактерії</li>
+    <li>subject_story->{ANYPAWN_gender ? отримав : отримала} генетичне поліпшення від благодійного фонду світу-раю, що опікувався генетично знедоленими</li>
+    <li>subject_story->{ANYPAWN_gender ? став жертвою : стала жертвою} біолога-злочинця, який викрав [ANYPAWN_possessive] гени</li>
+    <li>subject_story->{ANYPAWN_gender ? керував : керувала} клінікою генетичного перенесення для еліти світу-раю</li>
+    <li>subject_gerund->створення ксенозародків</li>
   </Xenogermination.generalRules.rulesStrings>
 </LanguageData>

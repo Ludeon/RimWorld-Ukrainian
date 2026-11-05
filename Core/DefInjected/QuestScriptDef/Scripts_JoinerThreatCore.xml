@@ -6,9 +6,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] на ім'я [joiner_nameDef] потребує допомоги! [enemyFaction_pawnsPlural] з фракції [enemyFaction_name] переслідують [joiner_possessive].\n\n[joiner_pronoun] благає про захист та пропонує приєднатися до вас у [map_definite].[joiner_relationInfo]\n\nЯкщо ви погодитесь, вам доведеться мати справу з {lookup: [enemyFaction_pawnsPluralDef]; Case; 4} на [joiner_possessive] хвості. Група, що полює на [joiner_nameDef], складається з: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] занадто {joiner_gender ? наляканий : налякана}, щоб надати більше інформації.</li>
-    <li>introduction(childCount==1,priority=1)->[joiner_age]-річне дитя</li>
-    <li>introduction->[joiner_age]-{joiner_gender ? річний : річна} [joiner_title]</li>
+    <li>questDescription->Неподалік на зв’язок виходить [introduction] на ім’я [joiner_nameDef]. {joiner_gender ? Його : Її} переслідують [enemyFaction_pawnsPlural] з фракції [enemyFaction_name]!\n\n{joiner_gender ? Він : Вона} благає про захист і пропонує приєднатися до вас у поселенні [map_definite].[joiner_relationInfo]\n\nЯкщо ви погодитеся, вам доведеться відбиватися від переслідувачів ({lookup: [enemyFaction_pawnsPluralDef]; Case; 1}). До їхнього загону входять: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] надто {joiner_gender ? наляканий : налякана}, щоб розповісти більше.</li>
+    <li>introduction(childCount==1,priority=1)->дитина ([joiner_age] р.)</li>
+    <li>introduction->[joiner_title] ([joiner_age] р.)</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -26,22 +26,22 @@
     <li>runnerIndef(childCount==1,priority=1)->a child</li>
   -->
   <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
-    <li>questName->Збереження [runnerIndef]</li>
-    <li>questName->Порятунок [runnerIndef]</li>
-    <li>questName->Допомога [runnerIndef]</li>
-    <li>questName->Прийняти [runnerIndef]</li>
-    <li>questName->[enemyFaction_pawnsPlural] полюють на [runnerIndef]</li>
-    <li>questName->[runnerIndef] на втіках</li>
-    <li>questName->[runnerIndef] прагне дому</li>
-    <li>questName->[runnerIndef] Гонимий [enemyFaction_pawnsPlural]</li>
-    <li>questName->[runnerIndef] та [enemyFaction_pawnsPlural]</li>
+    <li>questName->Порятунок: [runnerIndef]</li>
+    <li>questName->Прихисток для втікача</li>
+    <li>questName->Допомога втікачеві</li>
+    <li>questName->Прийняти втікача</li>
+    <li>questName->[enemyFaction_pawnsPlural] на полюванні</li>
+    <li>questName->[runnerIndef] у бігах</li>
+    <li>questName->[runnerIndef] шукає дім</li>
+    <li>questName->[runnerIndef] тікає від погоні</li>
+    <li>questName->[runnerIndef] і [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
-    <li>runnerIndef->Біженець</li>
+    <li>runnerIndef->біженець</li>
     <li>runnerIndef(childCount==1,priority=1)->дитина</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL} переслідують [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL}: прийшли по [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural] прийшли сюди по втікача. Їхня ціль — [../joiner_nameDef].</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\n[enemyFaction_pawnsPlural] прийшли по втікача — [../joiner_nameDef].</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
 </LanguageData>

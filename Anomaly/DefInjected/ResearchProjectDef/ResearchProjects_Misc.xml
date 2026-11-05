@@ -3,7 +3,7 @@
   <!-- EN: security door -->
   <SecurityDoor.label>захисні двері</SecurityDoor.label>
   <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
-  <SecurityDoor.description>Можливість будувати посилені двері. Вони повільно відкривається і вимагають енергії, але дуже міцний. Це хороший вибір, якщо ви хочете зберегти щось небезпечне назовні або всередині.</SecurityDoor.description>
+  <SecurityDoor.description>Будуйте добре укріплені двері. Вони повільно відчиняються й потребують живлення, зате дуже міцні. Добрий вибір, якщо треба не впустити щось небезпечне — або не випустити.</SecurityDoor.description>
   <!-- EN:
     <li>subject->security door</li>
     <li>subject_story->worked as a security drone in a sealed research facility</li>
@@ -13,17 +13,17 @@
     <li>subject_gerund->constructing security doors</li>
   -->
   <SecurityDoor.generalRules.rulesStrings>
-    <li>subject->security door</li>
-    <li>subject_story->worked as a security drone in a sealed research facility</li>
-    <li>subject_story->engineered security devices for a stellar trader</li>
-    <li>subject_story->researched materials science for a mercenary firm</li>
-    <li>subject_story->worked in a Glitterworld zoo</li>
-    <li>subject_gerund->constructing security doors</li>
+    <li>subject->захисні двері</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} охоронним дроном у закритому дослідницькому закладі</li>
+    <li>subject_story->{ANYPAWN_gender ? конструював : конструювала} охоронні пристрої для зоряного торговця</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} матеріалознавство для найманської компанії</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} в зоопарку світу-раю</li>
+    <li>subject_gerund->будівництво захисних дверей</li>
   </SecurityDoor.generalRules.rulesStrings>
   <!-- EN: turret pack -->
   <TurretPack.label>ранець-турель</TurretPack.label>
   <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
-  <TurretPack.description>Ранець, який можна розгортати в турель з акумуляторним живленням.</TurretPack.description>
+  <TurretPack.description>Виготовляйте ранець, з якого можна розгорнути турель на акумуляторі.</TurretPack.description>
   <!-- EN:
     <li>subject->deployable turrets</li>
     <li>subject_story->defended a feralworld castle from assault</li>
@@ -33,11 +33,11 @@
     <li>subject_gerund->crafting deployable gun turrets</li>
   -->
   <TurretPack.generalRules.rulesStrings>
-    <li>subject->deployable turrets</li>
-    <li>subject_story->defended a feralworld castle from assault</li>
-    <li>subject_story->manned a tailgun on an Imperial dropship</li>
-    <li>subject_story->researched deployable military technology</li>
-    <li>subject_story->fought in the trench battles of the [worldname] War</li>
-    <li>subject_gerund->crafting deployable gun turrets</li>
+    <li>subject->розгортувані турелі</li>
+    <li>subject_story->{ANYPAWN_gender ? обороняв : обороняла} замок у дикому світі від штурму</li>
+    <li>subject_story->{ANYPAWN_gender ? стріляв : стріляла} з хвостової гармати імперського десантного корабля</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала} розгортувану військову техніку</li>
+    <li>subject_story->{ANYPAWN_gender ? воював : воювала} в окопних боях війни на планеті [worldname]</li>
+    <li>subject_gerund->виготовлення розгортуваних турелей</li>
   </TurretPack.generalRules.rulesStrings>
 </LanguageData>

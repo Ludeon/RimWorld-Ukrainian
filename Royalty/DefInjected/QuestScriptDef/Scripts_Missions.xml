@@ -6,9 +6,9 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel] стали табором та атакують каравани фракції [asker_faction_name]. Табір охороняють (*Threat)[enemiesCount] {lookup: [enemiesLabel]; Case; 3}(/Threat). [asker_nameDef] хоче, щоб ви надали [soldiers] проведення атаки на цей табір.\n\n[asker_pronoun] надішле шатл, щоб підібрати ваших бійців та доставити їх в місце призначення. В дорозі їх нагодують та, за потреби, нададуть медичний догляд.\n\nВи повинні будете знищити всіх ворогів та турелі протягом [timeoutTicks_duration].</li>
-    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] солдатів</li>
-    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] солдата</li>
+    <li>questDescription->[enemiesLabel] облаштували табір і нападають на каравани фракції [asker_faction_name]. [asker_nameDef] планує повітряний штурм табору, який охороняють [enemiesLabel] ([enemiesCount]). [asker_pronoun] просить вас надати [soldiers] для атаки.\n\n[asker_pronoun] пришле шатл, який забере ваших бійців, доставить їх на місце атаки, а потім поверне додому. Дорогою їх нагодують і, за потреби, полікують.\n\nКоли атака почнеться, ви маєте знищити всіх ворогів і турелі протягом [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] бійців</li>
+    <li>soldiers(requiredPawnCount==1)->одного бійця</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
@@ -29,19 +29,19 @@
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
-    <li>questName->[questNameInner] [asker_nameDef]</li>
+    <li>questName->[asker_nameDef]: [questNameInner]</li>
     <li>questNameInner->[aerial] [attack]</li>
-    <li>questNameInner->[target] [attack]</li>
-    <li>questNameInner->[attack] [work]</li>
-    <li>target->табір</li>
-    <li>target->база</li>
-    <li>target->форт</li>
+    <li>questNameInner->[attack] [target]</li>
+    <li>questNameInner->[work] зі штурму</li>
+    <li>target->табору</li>
+    <li>target->бази</li>
+    <li>target->форту</li>
     <li>aerial->повітряний</li>
-    <li>aerial->повітря</li>
-    <li>attack->шатл</li>
-    <li>attack->атакує</li>
+    <li>aerial->десантний</li>
+    <li>aerial->раптовий</li>
+    <li>attack->штурм</li>
     <li>attack->напад</li>
     <li>work->робота</li>
-    <li>work->рота</li>
+    <li>work->завдання</li>
   </Mission_BanditCamp.questNameRules.rulesStrings>
 </LanguageData>

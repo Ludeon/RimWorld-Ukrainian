@@ -79,73 +79,73 @@
   <LabyrinthRamblings.rulePack.rulesStrings>
     <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
     <li>maybeSignature(p=3)-></li>
-    <li>maybeSignature->Автор написав своє ім'я: [PAWN_nameDef].</li>
-    <li>maybeSignature->Все це закінчується ім'ям: [PAWN_nameDef].</li>
-    <li>maybeSignature->Знизу надряпано ім'я: [PAWN_nameDef].</li>
-    <li>textDescSentence->Гравюри на підлозі безладні та незв’язні.</li>
-    <li>textDescSentence->Важко зрозуміти ці слова.</li>
-    <li>textDescSentence->Дивні офорти написані задом наперед.</li>
-    <li>textDescSentence->Писання хитке і слабке.</li>
-    <li>textDescSentence->По мірі того, як воно йде, написане стає все більш дивним.</li>
-    <li>textDescSentence->Текст написано [writingMaterial] і частково стерто.</li>
-    <li>textDescSentence->Загадкові символи змішуються з нерівними буквами.</li>
-    <li>textDescSentence->Письмо розрізнене, ніби багато разів переривається.</li>
-    <li>textDescSentence->Написи зникають і знову з’являються в міру продовження тексту.</li>
-    <li>textDescSentence->Цей текст надряпаний [writingMaterial] та утворює жахливий візерунок.</li>
-    <li>horrorDescSentence->Тільки одну фразу можна чітко прочитати: [rambling].</li>
-    <li>horrorDescSentence->Одна фраза повторюється знову і знову: [rambling].</li>
-    <li>horrorDescSentence->Кожне речення закінчується однією фразою: [rambling].</li>
-    <li>horrorDescSentence->Слова бігають по колу, нескінченно повторюючи одну і ту ж фразу: [rambling].</li>
-    <li>horrorDescSentence->Автор, здається, переконаний, що під [PAWN_possessive] шкірою живе паразит металевого жаху. [PAWN_pronoun] описує інтенсивний біль, коли він зміщується та звивається.</li>
-    <li>horrorDescSentence->Автор звинувачує свою подругу в тому, що вона ввела [PAWN_objective] паразита металевого жаху. [PAWN_pronoun] описує жахливе відчуття, коли воно зростає всередині.</li>
-    <li>horrorDescSentence->Автор благає звільнення від свого мучителя: [horrorDesc].</li>
-    <li>horrorDescSentence->Ті самі рядки повторюються знову і знову, описуючи [horrorDesc].</li>
-    <li>horrorDescSentence->Дивний вірш описує [horrorDesc].</li>
-    <li>horrorDescSentence->Слова важко описують [horrorDesc].</li>
-    <li>horrorDescSentence->Тремтливе письмо описує реакцію автора на [horrorDesc].</li>
-    <li>horrorDescSentence->Малюнки супроводжують текст та зображують [horrorDesc].</li>
-    <li>horrorDescSentence->Несамовиті замальовки ілюструють [horrorDesc] із примітками, що пояснюють особливості.</li>
-    <li>horrorDescSentence->Жахливий спів описує [horrorDesc].</li>
-    <li>horrorDescSentence->Внутрішні ілюстрації вкраплюють текст, натякаючи на [horrorDesc].</li>
-    <li>horrorDescSentence->Пошепки на полях розповідають про [horrorDesc].</li>
-    <li>horrorDescSentence->Шалений тон письменника досягає кульмінації, зосереджуючись на [horrorDesc].</li>
-    <li>horrorDescSentence->На гравюрах утворюються візерунки, кожна з яких зображує [horrorDesc].</li>
-    <li>horrorDescSentence->Слова переплітаються з яскравими образами, що зображують [horrorDesc].</li>
-    <li>horrorDescSentence->Поруч із описом написана нав’язлива колискова про [horrorDesc].</li>
+    <li>maybeSignature->{PAWN_gender ? Автор підписався : Авторка підписалася}: [PAWN_nameDef].</li>
+    <li>maybeSignature->Текст закінчується ім’ям: [PAWN_nameDef].</li>
+    <li>maybeSignature->Унизу надряпано ім’я: [PAWN_nameDef].</li>
+    <li>textDescSentence->Видряпані на підлозі написи безладні й незв’язні.</li>
+    <li>textDescSentence->Слова важко зрозуміти.</li>
+    <li>textDescSentence->Дивні написи видряпано задом наперед.</li>
+    <li>textDescSentence->Почерк хиткий і слабкий.</li>
+    <li>textDescSentence->Що далі, то чуднішим стає написане.</li>
+    <li>textDescSentence->Текст написано [writingMaterial], і його частково стерто.</li>
+    <li>textDescSentence->Загадкові символи перемішуються з кострубатими літерами.</li>
+    <li>textDescSentence->Письмо уривчасте, ніби його багато разів переривали.</li>
+    <li>textDescSentence->Написи то зникають, то з’являються знову.</li>
+    <li>textDescSentence->Цей текст надряпано [writingMaterial], і він складається в гарячкові візерунки.</li>
+    <li>horrorDescSentence->Чітко прочитати можна лише одну фразу: «[rambling]».</li>
+    <li>horrorDescSentence->Одна фраза повторюється знову й знову: «[rambling]».</li>
+    <li>horrorDescSentence->Кожне речення закінчується тією самою фразою: «[rambling]».</li>
+    <li>horrorDescSentence->Слова біжать по колу, без кінця повторюючи ту саму фразу: «[rambling]».</li>
+    <li>horrorDescSentence->{PAWN_gender ? Автор, схоже, переконаний : Авторка, схоже, переконана}, що під {PAWN_gender ? його : її} шкірою живе металевий паразит. {PAWN_gender ? Він : Вона} описує нестерпний біль, коли той ворушиться й звивається.</li>
+    <li>horrorDescSentence->{PAWN_gender ? Автор звинувачує : Авторка звинувачує} когось із друзів у тому, що той підсадив {PAWN_gender ? йому : їй} металевого паразита. {PAWN_gender ? Він : Вона} описує жахливе відчуття, як паразит росте всередині.</li>
+    <li>horrorDescSentence->{PAWN_gender ? Автор благає : Авторка благає} звільнити {PAWN_gender ? його : її} від мучителя — схоже, мається на увазі [horrorDesc].</li>
+    <li>horrorDescSentence->Ті самі рядки повторюються знову й знову, описуючи [horrorDesc].</li>
+    <li>horrorDescSentence->Чудернацький вірш описує [horrorDesc].</li>
+    <li>horrorDescSentence->Слова ледве здатні описати [horrorDesc].</li>
+    <li>horrorDescSentence->Тремтячим почерком описано, що {PAWN_gender ? відчув автор : відчула авторка}, коли видіння показало {PAWN_gender ? йому : їй} [horrorDesc].</li>
+    <li>horrorDescSentence->Текст супроводжують малюнки, що зображають [horrorDesc].</li>
+    <li>horrorDescSentence->Квапливі ескізи зображають [horrorDesc] з примітками до окремих деталей.</li>
+    <li>horrorDescSentence->Моторошний наспів описує [horrorDesc].</li>
+    <li>horrorDescSentence->Текст перемежовують натуралістичні ілюстрації, і всі вони натякають на [horrorDesc].</li>
+    <li>horrorDescSentence->Нашептані на полях оповіді розповідають про [horrorDesc].</li>
+    <li>horrorDescSentence->Гарячковий тон тексту наростає до кульмінації, що зображає [horrorDesc].</li>
+    <li>horrorDescSentence->Видряпані знаки складаються у візерунки, і кожен із них зрештою зображає [horrorDesc].</li>
+    <li>horrorDescSentence->Слова переплітаються з яскравими образами, що показують [horrorDesc].</li>
+    <li>horrorDescSentence->Поруч із моторошною колисковою — описи, де йдеться про [horrorDesc].</li>
     <li>horrorDescSentence->Відчайдушні благання про милосердя сусідять із розповідями про [horrorDesc].</li>
-    <li>horrorDesc->невидиму істоту, яка поглинає розуми невірних</li>
-    <li>horrorDesc->неможливу чорну сферу порожнечі, яка пульсує чистим стражданням</li>
-    <li>horrorDesc->істоту з кістками замість кінцівок, створену зі скрученого м’яса та плоті</li>
-    <li>horrorDesc->істоту, повністю створену з тіні, очі якої сяють, як зірки</li>
-    <li>horrorDesc->людину, зроблену з гострих, як бритва, просочених кров’ю ножів</li>
-    <li>horrorDesc->масу клинків, що крутяться та виринають із безодні</li>
-    <li>horrorDesc->мовчазну дитину, рот якої розтягнувся на все обличчя</li>
-    <li>horrorDesc->грандіозну покручену вежу з шипів і лез</li>
-    <li>horrorDesc->дивну твариноподібну істоту з рисами кількох різних видів</li>
-    <li>horrorDesc->деформовану людську фігуру з переставленими частинами тіла</li>
-    <li>horrorDesc->величезний натовп людей, усі з яких мертві та гнилі</li>
-    <li>horrorDesc->людські постаті в страхітливих масках із шипами</li>
+    <li>horrorDesc->невидиму істоту, що пожирає розум невіруючих</li>
+    <li>horrorDesc->неможливу сферу, чорну, як порожнеча, що пульсує чистим стражданням</li>
+    <li>horrorDesc->істоту з кістками замість кінцівок, зліплену з покрученого м’яса й плоті</li>
+    <li>horrorDesc->створіння, цілком зіткане з тіні, з очима, що сяють, як зорі</li>
+    <li>horrorDesc->людину з гострих, як бритва, закривавлених ножів</li>
+    <li>horrorDesc->масу лез, що обертаються, виринаючи з безодні</li>
+    <li>horrorDesc->мовчазну дитину з ротом на все обличчя</li>
+    <li>horrorDesc->величезну покручену вежу з шипів і лез</li>
+    <li>horrorDesc->химерну твариноподібну істоту з рисами кількох різних видів</li>
+    <li>horrorDesc->спотворену людську постать із переставленими частинами тіла</li>
+    <li>horrorDesc->величезний натовп людей, мертвих і гнилих</li>
+    <li>horrorDesc->людські постаті в страхітливих масках із шипів</li>
     <li>rambling->випустіть мене</li>
-    <li>rambling->допоможіть мені</li>
+    <li>rambling->допоможіть</li>
     <li>rambling->врятуйте мене</li>
-    <li>rambling->воно спостерігає</li>
-    <li>rambling->воно не відпустить</li>
+    <li>rambling->воно стежить</li>
+    <li>rambling->воно не відпускає</li>
     <li>rambling->відпусти</li>
-    <li>rambling->Я чую цей голос</li>
-    <li>rambling->час - це брехня</li>
-    <li>rambling->припиніть цей біль</li>
+    <li>rambling->я чую його голос</li>
+    <li>rambling->час — це брехня</li>
+    <li>rambling->заберіть біль</li>
     <li>rambling->чорний океан</li>
-    <li>rambling->різати, різати</li>
-    <li>rambling->шепіт порожнечі</li>
-    <li>rambling->воно завжди позаду мене</li>
-    <li>rambling->так багато очей</li>
-    <li>rambling->в моїй голові</li>
-    <li>rambling->захлинаюся в тиші</li>
-    <li>rambling->воно знає моє ім'я</li>
+    <li>rambling->різати й різати</li>
+    <li>rambling->шепіт у порожнечі</li>
+    <li>rambling->воно завжди позаду</li>
+    <li>rambling->стільки очей</li>
+    <li>rambling->у моїй голові</li>
+    <li>rambling->тону в тиші</li>
+    <li>rambling->воно знає моє ім’я</li>
     <li>rambling->тіні рухаються</li>
-    <li>rambling->виходу немає</li>
-    <li>rambling->темрява розмовляє</li>
-    <li>rambling->вони спостерігають</li>
+    <li>rambling->виходу нема</li>
+    <li>rambling->темрява говорить</li>
+    <li>rambling->вони стежать</li>
     <li>writingMaterial->крейдою</li>
     <li>writingMaterial->кіптявою</li>
     <li>writingMaterial->розмазаною рідиною</li>

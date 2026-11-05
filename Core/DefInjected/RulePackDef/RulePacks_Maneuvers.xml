@@ -33,58 +33,58 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
   <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->bite</li>
-    <li>damaged_inf->chomp</li>
-    <li>damaged_inf(p=0.5)->nip</li>
-    <li>damaged_past->bit</li>
-    <li>damaged_past->chomped</li>
-    <li>damaged_past->nipped</li>
-    <li>damaged_past->gnawed</li>
-    <li>damaged_past(deflected!=True)->tore</li>
-    <li>damaged_present->biting</li>
-    <li>damaged_present->chomping</li>
-    <li>damaged_present->nipped</li>
-    <li>damaged_present->gnawing</li>
-    <li>damaged_present(deflected!=True)->tearing</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->leaving grisly tears in the metal</li>
-    <li>destroyed_past->tore off</li>
-    <li>destroyed_past->ripped off</li>
-    <li>destroyed_past->bit off</li>
-    <li>destroyed_present->tearing off</li>
-    <li>destroyed_present->ripping off</li>
-    <li>destroyed_present->biting off</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix->[to] chunks</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] shreds</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
+    <li>damaged_inf->вкусити</li>
+    <li>damaged_inf->куснути</li>
+    <li>damaged_inf(p=0.5)->цапнути</li>
+    <li>damaged_past->кусає</li>
+    <li>damaged_past->хапає зубами</li>
+    <li>damaged_past->цапає</li>
+    <li>damaged_past->гризе</li>
+    <li>damaged_past(deflected!=True)->роздирає</li>
+    <li>damaged_present->кусаючи</li>
+    <li>damaged_present->хапаючи зубами</li>
+    <li>damaged_present->цапаючи</li>
+    <li>damaged_present->гризучи</li>
+    <li>damaged_present(deflected!=True)->роздираючи</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->оголюючи плоть під шкірою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->оголюючи механізми під обшивкою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи на шкірі моторошні рвані рани</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->залишаючи в металі моторошні розриви</li>
+    <li>destroyed_past->відриває</li>
+    <li>destroyed_past->вириває</li>
+    <li>destroyed_past->відкушує</li>
+    <li>destroyed_present->відриваючи</li>
+    <li>destroyed_present->вириваючи</li>
+    <li>destroyed_present->відкушуючи</li>
+    <li>destroyed_suffix->шматок за шматком</li>
+    <li>destroyed_suffix->разом із клаптями</li>
+    <li>destroyed_suffix->одним махом</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->разом із клаптями шкіри</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->разом із пасмами м’язів</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->разом із кривавими жмутами плоті</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->і перетворює все на невпізнанне місиво</li>
   </Maneuver_Bite.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
+    <li>r_logentry->[INITIATOR_definite] намагається жбурнути ногою {lookup: [TOOL_label]; Case; 3} в очі супротивникові, але [RECIPIENT_definite] ухиляється.</li>
+    <li>r_logentry->[INITIATOR_definite] намагається жбурнути ногою {lookup: [TOOL_label]; Case; 3} в очі супротивникові, але [RECIPIENT_definite] встигає затулитися.</li>
   </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
+    <li>r_logentry->[INITIATOR_definite] жбурляє ногою {lookup: [TOOL_label]; Case; 3} в очі супротивникові, і [RECIPIENT_definite] на мить сліпне.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] здіймає ногою цілу хмару — [TOOL_label] летить в очі, і [RECIPIENT_definite] нічого не бачить.</li>
   </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
   <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
+    <li>r_logentry->[INITIATOR_definite] намагається жбурнути ногою {lookup: [TOOL_label]; Case; 3} в очі супротивникові, але промахується.</li>
   </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=2)->poke</li>
@@ -122,39 +122,39 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Poke.rulePack.rulesStrings>
-    <li>damaged_inf(p=2)->poke</li>
-    <li>damaged_inf(p=2)->jab</li>
-    <li>damaged_inf->prod</li>
-    <li>damaged_inf->shove</li>
-    <li>damaged_inf->stab</li>
-    <li>damaged_past(p=2)->poked</li>
-    <li>damaged_past(p=2)->jabbed</li>
-    <li>damaged_past->prodded</li>
-    <li>damaged_past->shoved</li>
-    <li>damaged_past->stabbed</li>
-    <li>damaged_present(p=2)->poking</li>
-    <li>damaged_present(p=2)->jabbing</li>
-    <li>damaged_present->prodding</li>
-    <li>damaged_present->shoving</li>
-    <li>damaged_present->stabbing</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
-    <li>flavortext_consequence->leaving the area visibly deformed</li>
-    <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
-    <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
-    <li>destroyed_past->shattered</li>
-    <li>destroyed_past->crushed</li>
-    <li>destroyed_past->obliterated</li>
-    <li>destroyed_past->annihilated</li>
-    <li>destroyed_past->broke</li>
-    <li>destroyed_present->shattering</li>
-    <li>destroyed_present->crushing</li>
-    <li>destroyed_present->obliterating</li>
-    <li>destroyed_present->annihilating</li>
-    <li>destroyed_present->breaking</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
-    <li>destroyed_suffix->[to] fragments</li>
+    <li>damaged_inf(p=2)->штрикнути</li>
+    <li>damaged_inf(p=2)->тицьнути</li>
+    <li>damaged_inf->пхнути</li>
+    <li>damaged_inf->штовхнути</li>
+    <li>damaged_inf->кольнути</li>
+    <li>damaged_past(p=2)->штрикає</li>
+    <li>damaged_past(p=2)->тицяє</li>
+    <li>damaged_past->пхає</li>
+    <li>damaged_past->штовхає</li>
+    <li>damaged_past->коле</li>
+    <li>damaged_present(p=2)->штрикаючи</li>
+    <li>damaged_present(p=2)->тицяючи</li>
+    <li>damaged_present->пхаючи</li>
+    <li>damaged_present->штовхаючи</li>
+    <li>damaged_present->колючи</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи величезний синець</li>
+    <li>flavortext_consequence->помітно деформуючи місце удару</li>
+    <li>flavortext_consequence->вибиваючи {RECIPIENT_gender ? його : її} з рівноваги</li>
+    <li>flavortext_consequence->відкидаючи {RECIPIENT_gender ? його : її} вбік</li>
+    <li>destroyed_past->трощить</li>
+    <li>destroyed_past->розчавлює</li>
+    <li>destroyed_past->знищує</li>
+    <li>destroyed_past->розносить</li>
+    <li>destroyed_past->ламає</li>
+    <li>destroyed_present->трощачи</li>
+    <li>destroyed_present->розчавлюючи</li>
+    <li>destroyed_present->знищуючи</li>
+    <li>destroyed_present->розносячи</li>
+    <li>destroyed_present->ламаючи</li>
+    <li>destroyed_suffix->на шматки</li>
+    <li>destroyed_suffix->на друзки</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->на криваві бризки</li>
+    <li>destroyed_suffix->на уламки</li>
   </Maneuver_Poke.rulePack.rulesStrings>
   <!-- EN:
     <li>woundname->wound</li>
@@ -170,17 +170,17 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
   <Maneuver_Scratch.rulePack.rulesStrings>
-    <li>woundname->wound</li>
-    <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->and exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
-    <li>destroyed_suffix->[to] strips</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy pieces</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] fragments</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
+    <li>woundname->рану</li>
+    <li>woundname(p=0.3)->борозну</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->оголюючи плоть під шкірою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->оголюючи механізми під обшивкою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи моторошну [woundname]</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->на криваві смуги</li>
+    <li>destroyed_suffix->на смуги</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->на криваві шматки</li>
+    <li>destroyed_suffix->на шматки</li>
+    <li>destroyed_suffix->на уламки</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->на криваве місиво</li>
   </Maneuver_Scratch.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->scratch</li>
@@ -207,28 +207,28 @@
     <li>destroyed_present->ripping</li>
   -->
   <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->scratch</li>
-    <li>damaged_inf(deflected!=True)->lacerate</li>
-    <li>damaged_inf(deflected!=True)->tear</li>
-    <li>damaged_inf->cut</li>
-    <li>damaged_past(p=4)->scratched</li>
-    <li>damaged_past(deflected!=True)->lacerated</li>
-    <li>damaged_past(deflected!=True)->tore</li>
-    <li>damaged_past->cut</li>
-    <li>damaged_present->scratching</li>
-    <li>damaged_present(deflected!=True)->lacerating</li>
-    <li>damaged_present(deflected!=True)->tearing</li>
-    <li>damaged_present->cutting</li>
-    <li>destroyed_past->mauled</li>
-    <li>destroyed_past->lacerated</li>
-    <li>destroyed_past->tore</li>
-    <li>destroyed_past->shredded</li>
-    <li>destroyed_past->ripped</li>
-    <li>destroyed_present->mauling</li>
-    <li>destroyed_present->lacerating</li>
-    <li>destroyed_present->tearing</li>
-    <li>destroyed_present->shredding</li>
-    <li>destroyed_present->ripping</li>
+    <li>damaged_inf(p=4)->подряпати</li>
+    <li>damaged_inf(deflected!=True)->розпанахати</li>
+    <li>damaged_inf(deflected!=True)->роздерти</li>
+    <li>damaged_inf->порізати</li>
+    <li>damaged_past(p=4)->дряпає</li>
+    <li>damaged_past(deflected!=True)->розпанахує</li>
+    <li>damaged_past(deflected!=True)->роздирає</li>
+    <li>damaged_past->ріже</li>
+    <li>damaged_present->дряпаючи</li>
+    <li>damaged_present(deflected!=True)->розпанахуючи</li>
+    <li>damaged_present(deflected!=True)->роздираючи</li>
+    <li>damaged_present->ріжучи</li>
+    <li>destroyed_past->шматує</li>
+    <li>destroyed_past->розпанахує</li>
+    <li>destroyed_past->роздирає</li>
+    <li>destroyed_past->терзає</li>
+    <li>destroyed_past->розриває</li>
+    <li>destroyed_present->шматуючи</li>
+    <li>destroyed_present->розпанахуючи</li>
+    <li>destroyed_present->роздираючи</li>
+    <li>destroyed_present->терзаючи</li>
+    <li>destroyed_present->розриваючи</li>
   </Maneuver_Scratch_Damage.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->slash</li>
@@ -270,43 +270,43 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
   <Maneuver_Slash.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->slash</li>
-    <li>damaged_inf->cut</li>
-    <li>damaged_inf->chop</li>
-    <li>damaged_inf->hack</li>
-    <li>damaged_inf->slice</li>
-    <li>damaged_inf(deflected!=True)->gash</li>
-    <li>damaged_past(p=4)->slashed</li>
-    <li>damaged_past->cut</li>
-    <li>damaged_past->chopped</li>
-    <li>damaged_past->hacked</li>
-    <li>damaged_past->sliced</li>
-    <li>damaged_past(deflected!=True)->gashed</li>
-    <li>damaged_present->slashing</li>
-    <li>damaged_present->cutting</li>
-    <li>damaged_present->slicing</li>
-    <li>damaged_present(deflected!=True)->gashing</li>
-    <li>damaged_present(deflected!=True)->tearing</li>
-    <li>damaged_present(deflected!=True)->lacerating</li>
-    <li>woundname->wound</li>
-    <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->exposing the flesh underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->exposing the machinery underneath</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a gory [woundname]</li>
-    <li>destroyed_past->bisected</li>
-    <li>destroyed_past->divided</li>
-    <li>destroyed_past->halved</li>
-    <li>destroyed_past->separated</li>
-    <li>destroyed_past->split</li>
-    <li>destroyed_present->bisecting</li>
-    <li>destroyed_present->dividing</li>
-    <li>destroyed_present->halving</li>
-    <li>destroyed_present->separating</li>
-    <li>destroyed_present->splitting</li>
-    <li>destroyed_suffix->into neat pieces</li>
-    <li>destroyed_suffix->cleanly</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->exposing its inner workings</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
+    <li>damaged_inf(p=4)->рубонути</li>
+    <li>damaged_inf->різонути</li>
+    <li>damaged_inf->рубанути</li>
+    <li>damaged_inf->сікнути</li>
+    <li>damaged_inf->полоснути</li>
+    <li>damaged_inf(deflected!=True)->розсікти</li>
+    <li>damaged_past(p=4)->рубає</li>
+    <li>damaged_past->ріже</li>
+    <li>damaged_past->січе</li>
+    <li>damaged_past->шматує</li>
+    <li>damaged_past->полосує</li>
+    <li>damaged_past(deflected!=True)->розсікає</li>
+    <li>damaged_present->рубаючи</li>
+    <li>damaged_present->ріжучи</li>
+    <li>damaged_present->полосуючи</li>
+    <li>damaged_present(deflected!=True)->розсікаючи</li>
+    <li>damaged_present(deflected!=True)->розпорюючи</li>
+    <li>damaged_present(deflected!=True)->розпанахуючи</li>
+    <li>woundname->рану</li>
+    <li>woundname(p=0.3)->борозну</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->оголюючи плоть під шкірою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->оголюючи механізми під обшивкою</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи моторошну [woundname]</li>
+    <li>destroyed_past->розсікає</li>
+    <li>destroyed_past->розтинає</li>
+    <li>destroyed_past->розполовинює</li>
+    <li>destroyed_past->відтинає</li>
+    <li>destroyed_past->розколює</li>
+    <li>destroyed_present->розсікаючи</li>
+    <li>destroyed_present->розтинаючи</li>
+    <li>destroyed_present->розполовинюючи</li>
+    <li>destroyed_present->відтинаючи</li>
+    <li>destroyed_present->розколюючи</li>
+    <li>destroyed_suffix->на рівні шматки</li>
+    <li>destroyed_suffix->одним чистим ударом</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->аж до самого нутра</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->навпіл</li>
   </Maneuver_Slash.rulePack.rulesStrings>
   <!-- EN:
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
@@ -319,14 +319,14 @@
     <li>destroyed_suffix->[to] fragments</li>
   -->
   <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
-    <li>flavortext_consequence->leaving the area visibly deformed</li>
-    <li>flavortext_consequence->knocking [RECIPIENT_objective] off balance</li>
-    <li>flavortext_consequence->knocking [RECIPIENT_objective] to the side</li>
-    <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] bits</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
-    <li>destroyed_suffix->[to] fragments</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи величезний синець</li>
+    <li>flavortext_consequence->помітно деформуючи місце удару</li>
+    <li>flavortext_consequence->вибиваючи {RECIPIENT_gender ? його : її} з рівноваги</li>
+    <li>flavortext_consequence->відкидаючи {RECIPIENT_gender ? його : її} вбік</li>
+    <li>destroyed_suffix->на шматки</li>
+    <li>destroyed_suffix->на друзки</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->на криваві бризки</li>
+    <li>destroyed_suffix->на уламки</li>
   </Maneuver_Smash.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf->hit</li>
@@ -352,27 +352,27 @@
     <li>destroyed_present->breaking</li>
   -->
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf->hit</li>
-    <li>damaged_inf->smash</li>
-    <li>damaged_inf->bash</li>
-    <li>damaged_inf->slam</li>
-    <li>damaged_inf->strike</li>
-    <li>damaged_inf->beat</li>
-    <li>damaged_past->hit</li>
-    <li>damaged_past->smashed</li>
-    <li>damaged_past->bashed</li>
-    <li>damaged_past->slammed</li>
-    <li>damaged_past->struck</li>
-    <li>damaged_past->beat</li>
-    <li>damaged_present->smashing</li>
-    <li>damaged_present->bashing</li>
-    <li>damaged_present(deflected!=True)->bruising</li>
-    <li>destroyed_past->shattered</li>
-    <li>destroyed_past->crushed</li>
-    <li>destroyed_past->broke</li>
-    <li>destroyed_present->shattering</li>
-    <li>destroyed_present->crushing</li>
-    <li>destroyed_present->breaking</li>
+    <li>damaged_inf->вдарити</li>
+    <li>damaged_inf->гахнути</li>
+    <li>damaged_inf->гупнути</li>
+    <li>damaged_inf->лупнути</li>
+    <li>damaged_inf->вперіщити</li>
+    <li>damaged_inf->віддубасити</li>
+    <li>damaged_past->б’є</li>
+    <li>damaged_past->гатить</li>
+    <li>damaged_past->гупає</li>
+    <li>damaged_past->лупить</li>
+    <li>damaged_past->періщить</li>
+    <li>damaged_past->дубасить</li>
+    <li>damaged_present->гатячи</li>
+    <li>damaged_present->гупаючи</li>
+    <li>damaged_present(deflected!=True)->забиваючи</li>
+    <li>destroyed_past->трощить</li>
+    <li>destroyed_past->розчавлює</li>
+    <li>destroyed_past->ламає</li>
+    <li>destroyed_present->трощачи</li>
+    <li>destroyed_present->розчавлюючи</li>
+    <li>destroyed_present->ламаючи</li>
   </Maneuver_Smash_Damage.rulePack.rulesStrings>
   <!-- EN:
     <li>damaged_inf(p=4)->stab</li>
@@ -407,35 +407,35 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
   <Maneuver_Stab.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->завдати колючого удару</li>
-    <li>damaged_inf->завдати проникаючого удару</li>
-    <li>damaged_inf->завдати укол</li>
-    <li>maneuver_noun_gen->колючого удару</li>
-    <li>maneuver_noun_gen->проникаючого удару</li>
-    <li>maneuver_noun_instr->колючим удару</li>
-    <li>maneuver_noun_instr->проникаючим ударом</li>
-    <li>damaged->проколює</li>
-    <li>damaged->пробиває</li>
-    <li>damaged->пронизує</li>
-    <li>damaged->протикає</li>
-    <li>damaged_participle->проколюючи</li>
-    <li>damaged_participle->пробиваючи</li>
-    <li>damaged_participle->пронизуючи</li>
-    <li>woundname_gen->колотого поранення</li>
-    <li>woundname_acc->колоту рану</li>
-    <li>woundname_acc->діру</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bloody [woundname]</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a torn [woundname]</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a bleeding [woundname]</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->спричиняючи кровотечу з [woundname_gen]</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->спричиняючи витік робочих рідин з [woundname_gen]</li>
-    <li>destroyed->пронизує</li>
-    <li>destroyed->продірявлює</li>
-    <li>destroyed->пробиває</li>
-    <li>destroyed_participle->пронизуючи</li>
-    <li>destroyed_participle->продірявлюючи</li>
-    <li>destroyed_participle->протикаючи</li>
-    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
-    <li>destroyed_suffix->на виліт</li>
+    <li>damaged_inf(p=4)->пирнути</li>
+    <li>damaged_inf->штрикнути</li>
+    <li>damaged_inf(deflected!=True)->проколоти</li>
+    <li>damaged_inf(deflected!=True)->пробити</li>
+    <li>damaged_inf(deflected!=True)->простромити</li>
+    <li>damaged_past(p=4)->коле</li>
+    <li>damaged_past->штрикає</li>
+    <li>damaged_past(deflected!=True)->проколює</li>
+    <li>damaged_past(deflected!=True)->пробиває</li>
+    <li>damaged_past(deflected!=True)->простромлює</li>
+    <li>damaged_present(deflected!=True)->проколюючи</li>
+    <li>damaged_present(deflected!=True)->пробиваючи</li>
+    <li>damaged_present(deflected!=True)->пронизуючи</li>
+    <li>damaged_present(deflected!=True)->простромлюючи</li>
+    <li>woundname->діру</li>
+    <li>woundname->рану</li>
+    <li>woundname->щілину</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи криваву [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи рвану [woundname]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи кровоточиву [woundname]</li>
+    <li>destroyed_past->настромлює</li>
+    <li>destroyed_past->продірявлює</li>
+    <li>destroyed_past->простромлює</li>
+    <li>destroyed_present->настромлюючи</li>
+    <li>destroyed_present->продірявлюючи</li>
+    <li>destroyed_present->простромлюючи</li>
+    <li>destroyed_suffix->наскрізь</li>
+    <li>destroyed_suffix->навиліт, лишаючи акуратну дірку</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->наскрізь, і з рани сочаться криваві рідини</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->наскрізь, і з дірки сочиться якась незрозуміла рідина</li>
   </Maneuver_Stab.rulePack.rulesStrings>
 </LanguageData>

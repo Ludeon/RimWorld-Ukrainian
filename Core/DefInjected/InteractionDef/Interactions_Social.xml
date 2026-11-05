@@ -22,23 +22,23 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] та [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] з [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subject] до [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] трохи [talkedabout] [subject].</li>
+    <li>r_logentry(p=0.8)->[RECIPIENT_nameDef] {RECIPIENT_gender ? слухав : слухала}, а [INITIATOR_nameDef] [commentedabout] [subject].</li>
     <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
     <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
-    <li>talkedabout(p=4)->теревенять про</li>
-    <li>talkedabout->перекинулися словом про</li>
-    <li>talkedabout->говорять про</li>
-    <li>talkedabout->базікають про</li>
-    <li>talkedabout->балакають про</li>
-    <li>talkedabout->жартують про</li>
-    <li>talkedabout->висміюють</li>
-    <li>commentedabout->розказує щось про</li>
-    <li>commentedabout->вставляє слово про</li>
-    <li>commentedabout->робить жарт про</li>
-    <li>commentedabout->робить коментар про</li>
-    <li>commentedabout->розказує анекдот про</li>
+    <li>talkedabout(p=4)->побалакали про</li>
+    <li>talkedabout->перекинулися слівцем про</li>
+    <li>talkedabout->поговорили про</li>
+    <li>talkedabout->потеревенили про</li>
+    <li>talkedabout->побазікали про</li>
+    <li>talkedabout->пожартували про</li>
+    <li>talkedabout->обмінялися дотепами про</li>
+    <li>commentedabout->{INITIATOR_gender ? сказав : сказала} щось про</li>
+    <li>commentedabout->{INITIATOR_gender ? кинув : кинула} слівце про</li>
+    <li>commentedabout->{INITIATOR_gender ? висловився : висловилася} про</li>
+    <li>commentedabout->{INITIATOR_gender ? поділився : поділилася} думкою про</li>
+    <li>commentedabout->{INITIATOR_gender ? розповів : розповіла} анекдот про</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   <!-- EN: deep talk -->
   <DeepTalk.label>серйозна розмова</DeepTalk.label>
@@ -59,18 +59,18 @@
     <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] та [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>r_logentry->[INITIATOR_nameDef] з [RECIPIENT_nameDef] [talkedabout] [subject].</li>
-    <li>talkedabout->обговорюють думки про</li>
-    <li>talkedabout->обмінюються думками про</li>
-    <li>talkedabout->обмінюються ідеями про</li>
-    <li>talkedabout->ділиться думками про</li>
-    <li>talkedabout->діляться переконаннями про</li>
-    <li>talkedabout->обговорюють</li>
-    <li>talkedabout->щиро спілкуються про</li>
-    <li>talkedabout->перешіптуються про</li>
-    <li>talkedabout->глибоко говорять про</li>
-    <li>talkedabout->зв'язуються на темі про</li>
+    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] і [RECIPIENT_nameDef] розговорилися: вони [talkedabout] [subject].</li>
+    <li>talkedabout->поділилися думками про</li>
+    <li>talkedabout->обмінялися думками про</li>
+    <li>talkedabout->обмінялися ідеями про</li>
+    <li>talkedabout->поділилися поглядами на</li>
+    <li>talkedabout->відверто поговорили про</li>
+    <li>talkedabout->докладно обговорили</li>
+    <li>talkedabout->щиро поговорили про</li>
+    <li>talkedabout->тихо говорили про</li>
+    <li>talkedabout->по душах поговорили про</li>
+    <li>talkedabout->знайшли спільну мову, розмовляючи про</li>
     <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
     <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
@@ -104,31 +104,39 @@
     <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target] через {target_gender ? його : її} [characteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] порівнює[target] з [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] називає[target] [insultcomparison].</li>
-    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] називає [target] хибним послідовником.</li>
-    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
-    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] ображає золотий куб.</li>
-    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
-    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
-    <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->[PersonFamily] [RECIPIENT_nameDef]</li>
-    <li>insulted(p=3)->ображає</li>
-    <li>insulted->відкрито ображає</li>
-    <li>insulted->голосно ображає</li>
-    <li>ображений -> зухвало образив</li>
-    <li>insulted->прямолінійно ображає</li>
-    <li>insulted->злісно ображає</li>
-    <li>образили->кричуще зневажив</li>
-    <li>ображений-> оббрехав</li>
-    <li>ображений-> вигукнув лайку про</li>
-    <li>ображений->висміяв</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Тварина]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Ворог]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->сфера</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->щось абсолютно безглузде</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->некубічний платонічний об'єкт</li>
+    <li>r_logentry(p=3)->[RECIPIENT_nameDef]: [INITIATOR_nameDef] [insulted] [target] через [characteristic].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? порівняв : порівняла} [target] з [insultcomparison].</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? назвав : назвала} [target] [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[RECIPIENT_nameDef]: [INITIATOR_nameDef] {INITIATOR_gender ? назвав : назвала} {RECIPIENT_gender ? його : її} {RECIPIENT_gender ? поклонником : поклонницею} фальшивого ідола.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] {INITIATOR_gender ? натякнув : натякнула}, що [RECIPIENT_nameDef] {RECIPIENT_gender ? збожеволів : збожеволіла} через золотий куб.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] золотий куб.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic_acc]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[cubeCharacteristic_acc]</li>
+    <li>cubeCharacteristic_acc->стосунки з кубом</li>
+    <li>cubeCharacteristic_acc->знання про куб</li>
+    <li>cubeCharacteristic_acc->улюблену геометричну фігуру</li>
+    <li>cubeCharacteristic_acc->розуміння кубічних структур</li>
+    <li>cubeCharacteristic_acc->поклоніння кубу</li>
+    <li>cubeCharacteristic_acc->втіху, яку дає товариство куба</li>
+    <li>cubeCharacteristic_acc->стриманість щодо куба</li>
+    <li>cubeCharacteristic_acc->ставлення до платонічних тіл загалом</li>
+    <li>target(p=4)->{RECIPIENT_gender ? його : її}</li>
+    <li>target->{RECIPIENT_gender ? його : її} [PersonFamily_acc]</li>
+    <li>insulted(p=3)->{INITIATOR_gender ? образив : образила}</li>
+    <li>insulted->{INITIATOR_gender ? відкрито образив : відкрито образила}</li>
+    <li>insulted->{INITIATOR_gender ? голосно образив : голосно образила}</li>
+    <li>insulted->{INITIATOR_gender ? зухвало образив : зухвало образила}</li>
+    <li>insulted->{INITIATOR_gender ? прямо образив : прямо образила}</li>
+    <li>insulted->{INITIATOR_gender ? люто образив : люто образила}</li>
+    <li>insulted->{INITIATOR_gender ? зухвало зневажив : зухвало зневажила}</li>
+    <li>insulted->{INITIATOR_gender ? обмовив : обмовила}</li>
+    <li>insulted->{INITIATOR_gender ? обсипав : обсипала} лайкою</li>
+    <li>insulted->{INITIATOR_gender ? висміяв : висміяла}</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal_ins]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy_ins]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->сферою</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->чимось абсолютно безглуздим</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->некубічним платонічним тілом</li>
   </Insult.logRulesInitiator.rulesStrings>
   <!-- EN: kind words -->
   <KindWords.label>теплі слова</KindWords.label>
@@ -151,22 +159,30 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] каже комплімент про [RECIPIENT_nameDef]'s [characteristic].</li>
-    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
-    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
-    <li>зробили комплімент(p=3)->зробив комплімент</li>
-    <li>зробили комплімент->похвалив</li>
-    <li>зробили комплімент->оцінив по заслугах</li>
-    <li>зробили комплімент->розхвалив</li>
-    <li>зробили комплімент->аплодував</li>
-    <li>зробили комплімент->відсвяткував</li>
-    <li>зробили комплімент->віддав честь</li>
-    <li>зробили комплімент->ласкаво говорив про</li>
-    <li>зробили комплімент->висловив позитивні враження про</li>
-    <li>зробили комплімент->сказав добрі слова про</li>
-    <li>зробили комплімент->вербально подякував</li>
-    <li>зробили комплімент->висловив вдячність за</li>
-    <li>зробили комплімент->говорив добрі слова про</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] [complimented] {RECIPIENT_gender ? його : її} за [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic_acc]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[cubeCharacteristic_acc]</li>
+    <li>cubeCharacteristic_acc->стосунки з кубом</li>
+    <li>cubeCharacteristic_acc->знання про куб</li>
+    <li>cubeCharacteristic_acc->улюблену геометричну фігуру</li>
+    <li>cubeCharacteristic_acc->розуміння кубічних структур</li>
+    <li>cubeCharacteristic_acc->поклоніння кубу</li>
+    <li>cubeCharacteristic_acc->втіху, яку дає товариство куба</li>
+    <li>cubeCharacteristic_acc->стриманість щодо куба</li>
+    <li>cubeCharacteristic_acc->ставлення до платонічних тіл загалом</li>
+    <li>complimented(p=3)->{INITIATOR_gender ? похвалив : похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? розхвалив : розхвалила}</li>
+    <li>complimented->{INITIATOR_gender ? щиро похвалив : щиро похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? тепло похвалив : тепло похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? гаряче похвалив : гаряче похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? з повагою похвалив : з повагою похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? відзначив : відзначила}</li>
+    <li>complimented->{INITIATOR_gender ? обсипав : обсипала} компліментами</li>
+    <li>complimented->{INITIATOR_gender ? нагородив : нагородила} компліментом</li>
+    <li>complimented->{INITIATOR_gender ? вголос похвалив : вголос похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? від душі похвалив : від душі похвалила}</li>
+    <li>complimented->{INITIATOR_gender ? шанобливо відзначив : шанобливо відзначила}</li>
+    <li>complimented->{INITIATOR_gender ? по-доброму похвалив : по-доброму похвалила}</li>
   </KindWords.logRulesInitiator.rulesStrings>
   <!-- EN: slight -->
   <Slight.label>неповага</Slight.label>
@@ -190,22 +206,30 @@
     <li>madefunof->offered a backhanded compliment about</li>
   -->
   <Slight.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [characteristic] [target].</li>
-    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
-    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
-    <li>target(p=4)->[RECIPIENT_nameDef]</li>
-    <li>target->PersonFamily] [RECIPIENT_nameDef]</li>
-    <li>висміяли->висміяв</li>
-    <li>висміяли->зневажив</li>
-    <li>висміяли->делікатно висміяв</li>
-    <li>висміяли->делікатно присоромив</li>
-    <li>висміяли->погано відгукувався про</li>
-    <li>висміяли->негативно відгукувався про</li>
-    <li>висміяли->сміявся з</li>
-    <li>висміяли->хихикнув з</li>
-    <li>висміяли->мав на увазі погані речі, пов'язані з</li>
-    <li>madefunof->принижує</li>
-    <li>madefunof->робить презирливе зауваження щодо</li>
-    <li>madefunof->робить нещирий комплімент про</li>
+    <li>r_logentry->[RECIPIENT_nameDef]: [INITIATOR_nameDef] [madefunof] [target] за [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic_acc]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[cubeCharacteristic_acc]</li>
+    <li>cubeCharacteristic_acc->стосунки з кубом</li>
+    <li>cubeCharacteristic_acc->знання про куб</li>
+    <li>cubeCharacteristic_acc->улюблену геометричну фігуру</li>
+    <li>cubeCharacteristic_acc->розуміння кубічних структур</li>
+    <li>cubeCharacteristic_acc->поклоніння кубу</li>
+    <li>cubeCharacteristic_acc->втіху, яку дає товариство куба</li>
+    <li>cubeCharacteristic_acc->стриманість щодо куба</li>
+    <li>cubeCharacteristic_acc->ставлення до платонічних тіл загалом</li>
+    <li>target(p=4)->{RECIPIENT_gender ? його : її}</li>
+    <li>target->{RECIPIENT_gender ? його : її} [PersonFamily_acc]</li>
+    <li>madefunof->{INITIATOR_gender ? висміяв : висміяла}</li>
+    <li>madefunof->{INITIATOR_gender ? зневажив : зневажила}</li>
+    <li>madefunof->{INITIATOR_gender ? тонко висміяв : тонко висміяла}</li>
+    <li>madefunof->{INITIATOR_gender ? ледь помітно присоромив : ледь помітно присоромила}</li>
+    <li>madefunof->{INITIATOR_gender ? осудив : осудила}</li>
+    <li>madefunof->{INITIATOR_gender ? розкритикував : розкритикувала}</li>
+    <li>madefunof->{INITIATOR_gender ? підняв : підняла} на сміх</li>
+    <li>madefunof->{INITIATOR_gender ? підколов : підколола}</li>
+    <li>madefunof->{INITIATOR_gender ? недобре зганьбив : недобре зганьбила}</li>
+    <li>madefunof->{INITIATOR_gender ? принизив : принизила}</li>
+    <li>madefunof->{INITIATOR_gender ? зневажливо висміяв : зневажливо висміяла}</li>
+    <li>madefunof->{INITIATOR_gender ? єхидно похвалив : єхидно похвалила}</li>
   </Slight.logRulesInitiator.rulesStrings>
 </LanguageData>

@@ -3,7 +3,7 @@
   <!-- EN: basic mechtech -->
   <BasicMechtech.label>базові мех-технології</BasicMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control basic-tier mechanoids. -->
-  <BasicMechtech.description>Технологія, що дозволяє створювати та контролювати базових механоїдів.</BasicMechtech.description>
+  <BasicMechtech.description>Технологія, потрібна вашому механітору, щоб створювати базових механоїдів і керувати ними.</BasicMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->authored a children's book covering the basic types of mechanoid</li>
@@ -14,16 +14,16 @@
   -->
   <BasicMechtech.generalRules.rulesStrings>
     <li>subject->механоїди</li>
-    <li>subject_story->створив дитячу книгу, що охоплює основні типи механоїдів</li>
-    <li>subject_story->був імплантований прототипом мехлінку</li>
-    <li>subject_story->самостійно відтворював основні біомеханічні техніки</li>
-    <li>subject_story->копався у залишках стародавнього екзострайдера та знайшов у них збережений мехлінк</li>
-    <li>subject_gerund->створював базових механоїдів</li>
+    <li>subject_story->{ANYPAWN_gender ? написав : написала} дитячу книжку про основні типи механоїдів</li>
+    <li>subject_story->{ANYPAWN_gender ? отримав : отримала} імплант — прототип мехлінка</li>
+    <li>subject_story->самотужки {ANYPAWN_gender ? відтворив : відтворила} базові біомеханічні методи</li>
+    <li>subject_story->{ANYPAWN_gender ? розбирав : розбирала} уламки старовинного екзострайдера й {ANYPAWN_gender ? знайшов : знайшла} серед них уцілілий мехлінк</li>
+    <li>subject_gerund->створення базових механоїдів</li>
   </BasicMechtech.generalRules.rulesStrings>
   <!-- EN: high mechtech -->
   <HighMechtech.label>просунуті мех-технології</HighMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control high-tier mechanoids.\n\nYou can get powerfocus chips by using a mechanitor to summon a war queen threat. -->
-  <HighMechtech.description>Технологія, що дозволяє створювати та контролювати просунутих механоїдів.\n\nВи можете отримати чип концентрації енергії після перемоги над королевою війни, яку може викликати механітор.</HighMechtech.description>
+  <HighMechtech.description>Технологія, потрібна вашому механітору, щоб створювати механоїдів високого рівня й керувати ними.\n\nЧипи концентрації енергії можна здобути, якщо механітор викличе загрозу — королеву війни.</HighMechtech.description>
   <!-- EN:
     <li>subject->high tier mechanoids</li>
     <li>subject_story->survived a War Queen assault on an Imperial world</li>
@@ -34,16 +34,16 @@
   -->
   <HighMechtech.generalRules.rulesStrings>
     <li>subject->механоїди високого рівня</li>
-    <li>subject_story->пережив напад Королеви Війни на імперський світ</li>
-    <li>subject_story->придбав чіп суперфокусу у торговця, який не розумів його цінність</li>
-    <li>subject_story->допитував механіторів, захоплених під час планетарних рейдів</li>
-    <li>subject_story->створив прототип механоїдних мікроорганізмів для клієнта з іншого світу</li>
-    <li>subject_gerund->створював механоїдів високого рівня</li>
+    <li>subject_story->{ANYPAWN_gender ? пережив : пережила} напад королеви війни на імперський світ</li>
+    <li>subject_story->{ANYPAWN_gender ? купив : купила} чип концентрації енергії в торговця, який не розумів його цінності</li>
+    <li>subject_story->{ANYPAWN_gender ? допитував : допитувала} механіторів, захоплених під час планетарних рейдів</li>
+    <li>subject_story->{ANYPAWN_gender ? створив : створила} прототипи механоїдних мікроорганів для замовника з іншого світу</li>
+    <li>subject_gerund->створення механоїдів високого рівня</li>
   </HighMechtech.generalRules.rulesStrings>
   <!-- EN: standard mechtech -->
   <StandardMechtech.label>стандартні мех-технології</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
-  <StandardMechtech.description>Технологія, що дозволяє створювати та контролювати стандартних механоїдів.\n\nВи можете отримати сигнальний чип після перемоги над дияволом, якого може викликати механітор.</StandardMechtech.description>
+  <StandardMechtech.description>Технологія, потрібна вашому механітору, щоб створювати стандартних механоїдів і керувати ними.\n\nСигнальні чипи можна здобути, якщо механітор викличе загрозу — диявола.</StandardMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->acquired a signal chip in shady circumstances</li>
@@ -54,16 +54,16 @@
   -->
   <StandardMechtech.generalRules.rulesStrings>
     <li>subject->механоїди</li>
-    <li>subject_story->отримав сигнальний чіп за сумнівних обставин</li>
-    <li>subject_story->знайшов цілий сигнальний чіп в уламках диявола</li>
-    <li>subject_story->вижив під час атаки рою механоїдів</li>
-    <li>subject_story->збирав звіти атак механоїдів, шукаючи спільні риси</li>
-    <li>subject_gerund->створював стандартних механоїдів</li>
+    <li>subject_story->{ANYPAWN_gender ? здобув : здобула} сигнальний чип за темних обставин</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} цілий сигнальний чип в уламках диявола</li>
+    <li>subject_story->{ANYPAWN_gender ? пережив : пережила} напад механоїдного вулика</li>
+    <li>subject_story->{ANYPAWN_gender ? зводив : зводила} докупи звіти про напади механоїдів, шукаючи в них спільне</li>
+    <li>subject_gerund->створення стандартних механоїдів</li>
   </StandardMechtech.generalRules.rulesStrings>
   <!-- EN: ultra mechtech -->
-  <UltraMechtech.label>ультра мех-технології</UltraMechtech.label>
+  <UltraMechtech.label>ультрамехтехнології</UltraMechtech.label>
   <!-- EN: The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat. -->
-  <UltraMechtech.description>Технологія, що дозволяє створювати та контролювати ультратехнологічних механоїдів та спорядження механітора.\n\nВи можете отримати наноструктурний чип після перемоги над апокритоном, якого може викликати механітор.</UltraMechtech.description>
+  <UltraMechtech.description>Передова технологія, потрібна вашому механітору, щоб створювати ультратехнологічних механоїдів і керувати ними, зокрема великими, а також виготовляти ультратехнологічне спорядження механітора.\n\nНаноструктурні чипи можна здобути, якщо механітор викличе загрозу — апокритона.</UltraMechtech.description>
   <!-- EN:
     <li>subject->ultra-tier mechanoids</li>
     <li>subject_story->found a powered-down apocriton in the wreckage of a deadworld</li>
@@ -73,31 +73,31 @@
     <li>subject_gerund->creating ultra-tier mechanoids</li>
   -->
   <UltraMechtech.generalRules.rulesStrings>
-    <li>subject->механоїди надвисокого рівня</li>
-    <li>subject_story->знайшов вимкненого апокритона в уламках мертвого світу</li>
-    <li>subject_story->спостерігав, як апокритон воскрешає мехів з безпечної відстані</li>
-    <li>subject_story->зачепив глибоку психічну ненависть, яку апокритони відчувають до людства</li>
-    <li>subject_story->знайшов щоденник вознесіння поруч з інертним архонексусом</li>
-    <li>subject_gerund->створював механоїдів надвисокого рівня</li>
+    <li>subject->ультратехнологічні механоїди</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} вимкненого апокритона серед руїн мертвого світу</li>
+    <li>subject_story->{ANYPAWN_gender ? спостерігав : спостерігала} з безпечної відстані, як апокритон воскрешає механоїдів</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} черпати силу з глибокої психічної ненависті апокритонів до людства</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} щоденник вознесіння біля згаслого архонексуса</li>
+    <li>subject_gerund->створення ультратехнологічних механоїдів</li>
   </UltraMechtech.generalRules.rulesStrings>
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>розщеплювач відходів</WastepackAtomizer.label>
   <!-- EN: Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level. -->
-  <WastepackAtomizer.description>Технологія, що дозволяє створювати розщеплювач відходів, який дозволяє безпечно позбутися відходів, розбираючи їх на молекулярному рівні.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>Будуйте розщеплювачі відходів, які безпечно знищують пакети з відходами, розкладаючи їх на молекулярному рівні.</WastepackAtomizer.description>
   <!-- EN:
     <li>subject->toxic waste atomization</li>
     <li>subject_story->studied safe atomic waste disposal</li>
     <li>subject_story->recruited disposable teams for solar waste disposal missions</li>
-    <li>subject_story->devised the theory for atomic destabilisation from first principles</li>
+    <li>subject_story->devised the theory for atomic destabilization from first principles</li>
     <li>subject_story->observed a toxicworld from orbit</li>
     <li>subject_gerund->constructing wastepack atomizers</li>
   -->
   <WastepackAtomizer.generalRules.rulesStrings>
-    <li>subject->атомізація токсичних відходів</li>
-    <li>subject_story->вивчив безпечну утилізацію атомних відходів</li>
-    <li>subject_story->набирав одноразові команди для місій з утилізації сонячних відходів</li>
-    <li>subject_story->розробив теорію атомної дестабілізації на основі перших принципів</li>
-    <li>subject_story->спостерігав за токсичним світом з орбіти</li>
-    <li>subject_gerund->будував утилізатори відходів</li>
+    <li>subject->розщеплення токсичних відходів</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} безпечну утилізацію відходів атомним розщепленням</li>
+    <li>subject_story->{ANYPAWN_gender ? набирав : набирала} команди смертників для місій зі скидання відходів у сонце</li>
+    <li>subject_story->{ANYPAWN_gender ? вивів : вивела} теорію атомної дестабілізації з перших принципів</li>
+    <li>subject_story->{ANYPAWN_gender ? спостерігав : спостерігала} з орбіти за токсичним світом</li>
+    <li>subject_gerund->спорудження розщеплювачів відходів</li>
   </WastepackAtomizer.generalRules.rulesStrings>
 </LanguageData>

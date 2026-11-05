@@ -27,16 +27,17 @@
     <li>r_name(p=2)->[empire] [ofThing]</li>
     <li>r_name(p=2)->[empire_fem] [ofThing]</li>
     <li>r_name->[empire] Виходу</li>
-    <li>r_name->[empire] Біженців</li>
+    <li>r_name->[empire_fem] Біженців</li>
     <li>r_name->Зламаний [empire]</li>
     <li>r_name->Розбита [empire_fem]</li>
     <li>r_name->Занепала [empire_fem]</li>
     <li>r_name->[Color] [empire]</li>
+    <li>r_name->[Color_f] [empire_fem]</li>
     <li>empire_fem(p=4)->Імперія</li>
     <li>empire_fem->Співдружність</li>
     <li>empire->Імперіум</li>
     <li>empire->Домініон</li>
-    <li>empire->Протекторат</li>
+    <li>empire->Суверенітет</li>
     <li>ofThing(p=4)->[WordImperial]</li>
     <li>ofThing->Сонця</li>
     <li>ofThing->Місяця</li>
@@ -62,7 +63,7 @@
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
   <NamerPersonSophianFemale.rulePack.rulesStrings>
-    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast_f]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   </NamerPersonSophianFemale.rulePack.rulesStrings>

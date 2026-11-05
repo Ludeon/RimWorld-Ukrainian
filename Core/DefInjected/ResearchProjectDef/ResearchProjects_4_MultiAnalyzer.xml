@@ -12,16 +12,16 @@
     <li>subject_gerund->fabricating advanced components</li>
   -->
   <AdvancedFabrication.generalRules.rulesStrings>
-    <li>subject->advanced component fabrication</li>
-    <li>subject_story->traded advanced components to desperate rimworlders</li>
-    <li>subject_story->learned the secrets of fabricating advanced components and died without revealing them</li>
-    <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
-    <li>subject_gerund->fabricating advanced components</li>
+    <li>subject->виготовлення передових компонентів</li>
+    <li>subject_story->{ANYPAWN_gender ? продавав : продавала} передові компоненти зневіреним мешканцям окраїнних світів</li>
+    <li>subject_story->{ANYPAWN_gender ? розкрив : розкрила} секрети виготовлення передових компонентів і {ANYPAWN_gender ? помер : померла}, нікому їх не виказавши</li>
+    <li>subject_story->{ANYPAWN_gender ? злякався : злякалася} шаленої ціни передових компонентів і {ANYPAWN_gender ? обрав : обрала} простіше життя</li>
+    <li>subject_gerund->виготовлення передових компонентів</li>
   </AdvancedFabrication.generalRules.rulesStrings>
   <!-- EN: bionic replacements -->
   <Bionics.label>біонічне протезування</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
-  <Bionics.description>Створюйте високотехнологічні біонічні частини тіла, для заміни втрачених кінцівки та очей. Для вживлення потрібен кваліфікований лікар.</Bionics.description>
+  <Bionics.description>Створюйте високотехнологічні біонічні частини тіла на заміну втраченим кінцівкам і очам. Установлювати їх має вправний лікар.</Bionics.description>
   <!-- EN:
     <li>subject->bionic prosthesis</li>
     <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
@@ -31,17 +31,17 @@
     <li>subject_gerund->utilizing bionic body parts</li>
   -->
   <Bionics.generalRules.rulesStrings>
-    <li>subject->bionic prosthesis</li>
-    <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
-    <li>subject_story->studied slowed vids of human motion to better craft bionic prosthetics</li>
-    <li>subject_story->was volunteered to have the various prototype bionics  implanted, ending up as more machine than man</li>
-    <li>subject_gerund->constructing bionic prosthetics</li>
-    <li>subject_gerund->utilizing bionic body parts</li>
+    <li>subject->біонічні протези</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} переважно з понівеченими солдатами, виготовляючи їм біонічні частини обличчя на замовлення, щоб ті могли повернутися до рідних</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} сповільнені записи людських рухів, щоб краще виготовляти біонічні протези</li>
+    <li>subject_story->мимоволі {ANYPAWN_gender ? став «добровольцем» : стала «добровольцем»} для вживлення різних прототипів біоніки й зрештою {ANYPAWN_gender ? перетворився : перетворилася} більше на машину, ніж на людину</li>
+    <li>subject_gerund->виготовлення біонічних протезів</li>
+    <li>subject_gerund->використання біонічних частин тіла</li>
   </Bionics.generalRules.rulesStrings>
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>енергетична зброя</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>Розуміння секретів імпульсно-заряджених енергетичних снарядів дозволяє виготовляти енергогвинтівки. Потребує передових компонентів для конструювання.</ChargedShot.description>
+  <ChargedShot.description>Створюйте зброю, що стріляє імпульсними зарядами з підвищеною шкодою. Для її виготовлення також потрібні передові компоненти.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -51,17 +51,17 @@
     <li>subject_gerund->utilising pulse munitions</li>
   -->
   <ChargedShot.generalRules.rulesStrings>
-    <li>subject->pulse munitions</li>
-    <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
-    <li>subject_story->killed a mechanical crawler by kiting it with a charge lance</li>
-    <li>subject_story->learned how to imbue rifle ammunition with retained charge, heavily increasing its lethality</li>
-    <li>subject_gerund->constructing pulse munitions</li>
-    <li>subject_gerund->utilising pulse munitions</li>
+    <li>subject->імпульсні боєприпаси</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} монорейки світів-раїв і {ANYPAWN_gender ? пристосував : пристосувала} цю технологію для зброї</li>
+    <li>subject_story->{ANYPAWN_gender ? убив : убила} механічного повзуна, водячи його за собою й тримаючи на відстані енергосписом</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} заряджати гвинтівкові набої накопиченим зарядом, що набагато підвищило їхню смертоносність</li>
+    <li>subject_gerund->виготовлення імпульсних боєприпасів</li>
+    <li>subject_gerund->використання імпульсних боєприпасів</li>
   </ChargedShot.generalRules.rulesStrings>
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>саркофаг криптосну</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
-  <Cryptosleep.description>Будуйте саркофаги криптосну, за допомогою яких можна вводити живих істот у стан анабіозу.</Cryptosleep.description>
+  <Cryptosleep.description>Будуйте саркофаги криптосну, що занурюють живих істот у безстроковий анабіоз.</Cryptosleep.description>
   <!-- EN:
     <li>subject->cryptosleep</li>
     <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
@@ -71,21 +71,21 @@
     <li>subject_gerund->inducing cryptosleep</li>
   -->
   <Cryptosleep.generalRules.rulesStrings>
-    <li>subject->cryptosleep</li>
-    <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
-    <li>subject_story->sentenced the system's worst criminal to indefinite cryptosleep rather than death</li>
-    <li>subject_story->used a cryptosleep capsule to suspend the terminally ill, so they could see their children once they'd grown up</li>
-    <li>subject_gerund->constructing cryptosleep caskets</li>
-    <li>subject_gerund->inducing cryptosleep</li>
+    <li>subject->криптосон</li>
+    <li>subject_story->{ANYPAWN_gender ? збирався : збиралася} випробувати прототип саркофага криптосну, а {ANYPAWN_gender ? прокинувся через покоління — сам-один : прокинулася через покоління — сама-одна}</li>
+    <li>subject_story->{ANYPAWN_gender ? засудив : засудила} найлютішого злочинця системи до безстрокового криптосну замість страти</li>
+    <li>subject_story->{ANYPAWN_gender ? занурював : занурювала} у криптосон невиліковно хворих, щоб ті дочекалися, поки їхні діти виростуть</li>
+    <li>subject_gerund->будівництво саркофагів криптосну</li>
+    <li>subject_gerund->занурення в криптосон</li>
   </Cryptosleep.generalRules.rulesStrings>
   <!-- EN: fabrication -->
   <Fabrication.label>високотехнологічне виробництво</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
-  <Fabrication.description>Дозволяє вам будувати спеціальні верстати, на яких можна виготовляти високотехнологічні вироби різних видів: від компонентів до силової броні.</Fabrication.description>
+  <Fabrication.description>Будуйте високотехнологічні верстати для складних виробів — від збирання компонентів до виготовлення силової броні.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>Тепер у вас є технологія для будівництва високоточного верстата, але для цього знадобляться передові компоненти. Ви можете їх здобути кількома способами:\n\n -Придбати в поселенні іншої розвиненої фракції, відправивши туди караван.\n -Придбати у торговців, що заходять до вас. Запросіть караван або дочекайтеся, доки до вони прийдуть.\n -Отримати в якості нагороди за деякі завдання.</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>Тепер ви можете збудувати високотехнологічний верстат, але для початку знадобляться передові компоненти. Здобути їх можна кількома способами:\n\n  - Передові компоненти продають усі поселення чужинців. Відправте туди караван.\n  - Їх продають і деякі торговці, що навідуються до вас. Запросіть торговців або дочекайтеся їх.\n  - Передові компоненти бувають винагородою за деякі завдання.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
-  <Fabrication.discoveredLetterTitle>Отримання передових компонентів</Fabrication.discoveredLetterTitle>
+  <Fabrication.discoveredLetterTitle>Докладніше: передові компоненти</Fabrication.discoveredLetterTitle>
   <!-- EN:
     <li>subject->high-tech fabrication benches</li>
     <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
@@ -95,17 +95,17 @@
     <li>subject_gerund->building high-tech fabrication stations</li>
   -->
   <Fabrication.generalRules.rulesStrings>
-    <li>subject->high-tech fabrication benches</li>
-    <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
-    <li>subject_story->traded everything to build a single fabrication bench</li>
-    <li>subject_story->constructed technological marvels which the feral villagers worshipped as magical</li>
-    <li>subject_gerund->constructing high-tech projects</li>
-    <li>subject_gerund->building high-tech fabrication stations</li>
+    <li>subject->високотехнологічні верстати</li>
+    <li>subject_story->роками {ANYPAWN_gender ? виготовляв : виготовляла} передові компоненти для високотехнологічних верстатів, щоб ті виготовляли ще більше передових компонентів</li>
+    <li>subject_story->{ANYPAWN_gender ? віддав : віддала} усе, що {ANYPAWN_gender ? мав : мала}, за один-єдиний високотехнологічний верстат</li>
+    <li>subject_story->{ANYPAWN_gender ? створював : створювала} технологічні дива, яким здичавілі селяни поклонялися як чарам</li>
+    <li>subject_gerund->створення високотехнологічних виробів</li>
+    <li>subject_gerund->будівництво високотехнологічних верстатів</li>
   </Fabrication.generalRules.rulesStrings>
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>мультианалізатор</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
-  <MultiAnalyzer.description>Створюйте мультианалізатори, які збільшують швидкість дослідження та розблоковують технології більш високого рівня.</MultiAnalyzer.description>
+  <MultiAnalyzer.description>Будуйте мультианалізатори, що пришвидшують дослідження й відкривають доступ до складніших проєктів.</MultiAnalyzer.description>
   <!-- EN:
     <li>subject->multi-analysis</li>
     <li>subject_story->automated a research laboratory</li>
@@ -114,16 +114,16 @@
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
   <MultiAnalyzer.generalRules.rulesStrings>
-    <li>subject->multi-analysis</li>
-    <li>subject_story->automated a research laboratory</li>
-    <li>subject_story->unlocked the trans-spectrum secrets of the universe</li>
-    <li>subject_story->helped identify new stable isotopes</li>
-    <li>subject_gerund->constructing multi-analyzers</li>
+    <li>subject->мультианаліз</li>
+    <li>subject_story->{ANYPAWN_gender ? автоматизував : автоматизувала} дослідницьку лабораторію</li>
+    <li>subject_story->{ANYPAWN_gender ? розкрив : розкрила} трансспектральні таємниці всесвіту</li>
+    <li>subject_story->{ANYPAWN_gender ? допоміг : допомогла} відкрити нові стабільні ізотопи</li>
+    <li>subject_gerund->будівництво мультианалізаторів</li>
   </MultiAnalyzer.generalRules.rulesStrings>
   <!-- EN: marine armor -->
   <PoweredArmor.label>броня десантника</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>Створюйте броню десанту - універсальна броня, яка використовується високотехнологічними ударними військами. Потребує передових компонентів для конструювання.</PoweredArmor.description>
+  <PoweredArmor.description>Створюйте броню десантника — універсальну силову броню високотехнологічних ударних військ. Для її виготовлення також потрібні передові компоненти.</PoweredArmor.description>
   <!-- EN:
     <li>subject->marine armor</li>
     <li>subject_story->was employed by the shock troops to maintain their armor</li>
@@ -134,18 +134,18 @@
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
   <PoweredArmor.generalRules.rulesStrings>
-    <li>subject->marine armor</li>
-    <li>subject_story->was employed by the shock troops to maintain their armor</li>
-    <li>subject_story->tested the armor by walking, unarmed, through a hostile feral village without receiving a scratch</li>
-    <li>subject_story->intended the armor as protection against the planet's hostile weather, but it worked well against the pirates too</li>
-    <li>subject_gerund->constructing shock troop armor</li>
-    <li>subject_gerund->constructing marine armor</li>
-    <li>subject_gerund->constructing general-use advanced armor</li>
+    <li>subject->броня десантника</li>
+    <li>subject_story->{ANYPAWN_gender ? обслуговував : обслуговувала} броню ударних військ</li>
+    <li>subject_story->{ANYPAWN_gender ? випробував : випробувала} броню, {ANYPAWN_gender ? пройшовши беззбройним : пройшовши беззбройною} крізь вороже село дикунів без жодної подряпини</li>
+    <li>subject_story->{ANYPAWN_gender ? задумував : задумувала} броню як захист від лютої погоди планети, але від піратів вона теж непогано вберегла</li>
+    <li>subject_gerund->виготовлення броні для ударних військ</li>
+    <li>subject_gerund->виготовлення броні десантника</li>
+    <li>subject_gerund->виготовлення універсальної передової броні</li>
   </PoweredArmor.generalRules.rulesStrings>
   <!-- EN: recon armor -->
-  <ReconArmor.label>розвідувальна броня</ReconArmor.label>
+  <ReconArmor.label>броня розвідника</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>Створюйте розвідувальну броню — легку броня, яка використовується розвідниками, що потребують захисту та мобільності. Потребує передових компонентів для конструювання.</ReconArmor.description>
+  <ReconArmor.description>Створюйте броню розвідника — легку силову броню для розвідників, яким потрібен захист на ходу. Для її виготовлення також потрібні передові компоненти.</ReconArmor.description>
   <!-- EN:
     <li>subject->recon armor</li>
     <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
@@ -155,17 +155,17 @@
     <li>subject_gerund->reducing armor weight</li>
   -->
   <ReconArmor.generalRules.rulesStrings>
-    <li>subject->recon armor</li>
-    <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
-    <li>subject_story->crafted powered armor light and resilient enough for the hammer-users to close with the enemy</li>
-    <li>subject_story->intended recon armor more for hunters than soldiers. It sold well, regardless</li>
-    <li>subject_gerund->crafting recon armor</li>
-    <li>subject_gerund->reducing armor weight</li>
+    <li>subject->броня розвідника</li>
+    <li>subject_story->{ANYPAWN_gender ? очолював : очолювала} повстанських розвідників у боях з імперськими військами, доки не {ANYPAWN_gender ? потрапив : потрапила} в полон</li>
+    <li>subject_story->{ANYPAWN_gender ? створив : створила} силову броню, легку й міцну настільки, щоб бійці з молотами могли зійтися з ворогом упритул</li>
+    <li>subject_story->{ANYPAWN_gender ? задумував : задумувала} броню розвідника радше для мисливців, ніж для солдатів, але продавалася вона однаково добре</li>
+    <li>subject_gerund->виготовлення броні розвідника</li>
+    <li>subject_gerund->полегшення броні</li>
   </ReconArmor.generalRules.rulesStrings>
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>залпові системи</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
-  <RocketswarmLauncher.description>Випускають за один залп безліч ракет, здатних у ключовий момент битви завдати колосальної шкоди по великій області.</RocketswarmLauncher.description>
+  <RocketswarmLauncher.description>Будуйте залпові системи — турелі одного залпу, що в ключовий момент бою накривають ракетами велику площу.</RocketswarmLauncher.description>
   <!-- EN:
     <li>subject->rocket turrets</li>
     <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
@@ -175,15 +175,15 @@
   -->
   <RocketswarmLauncher.generalRules.rulesStrings>
     <li>subject->ракетні турелі</li>
-    <li>subject_story->засвідчив про використання ракетних установок проти цивільних об'єктів</li>
-    <li>subject_story-> будував останні оборонні споруди, включаючи пастки та пускові установки, на випадок, якщо поселення коли-небудь опиниться під загрозою</li>
-    <li>subject_story->почав з конструювання примітивних ракет для досягнення космосу, але високий рівень невдач призвів до того, що їх перепрофілювали на зброю</li>
-    <li>subject_gerund->будує ракетні турелі</li>
+    <li>subject_story->{ANYPAWN_gender ? свідчив : свідчила} про застосування залпових систем проти цивільних</li>
+    <li>subject_story->{ANYPAWN_gender ? будував : будувала} останні рубежі оборони, зокрема пастки й пускові установки, на випадок, якщо поселенню колись загрожуватиме небезпека</li>
+    <li>subject_story->спершу {ANYPAWN_gender ? конструював : конструювала} примітивні ракети для польотів у космос, але ті так часто зазнавали невдачі, що їх перепрофілювали на зброю</li>
+    <li>subject_gerund->будівництво ракетних турелей</li>
   </RocketswarmLauncher.generalRules.rulesStrings>
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>високоточна турель</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
-  <SniperTurret.description>Виробляйте високоточну турель з урановими снарядами. Вона стріляє на дуже велику відстань снарядами, що розривають пласталь як папір. Проте, малій відстані, не ефективна.</SniperTurret.description>
+  <SniperTurret.description>Будуйте високоточну турель з бронебійними урановими снарядами. Вони пробивають пласталь, як папір, але на близькій відстані турель менш ефективна.</SniperTurret.description>
   <!-- EN:
     <li>subject->sniper turrets</li>
     <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
@@ -192,16 +192,16 @@
     <li>subject_gerund->constructing sniper turrets</li>
   -->
   <SniperTurret.generalRules.rulesStrings>
-    <li>subject->sniper turrets</li>
-    <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
-    <li>subject_story->saw a turret shoot straight through an assault mechanoid and needed to understand how</li>
-    <li>subject_story->researched the effects of ammunition density on armor</li>
-    <li>subject_gerund->constructing sniper turrets</li>
+    <li>subject->снайперські турелі</li>
+    <li>subject_story->{ANYPAWN_gender ? очолював : очолювала} розчищення після війни, збираючи на лінії фронту відстріляні радіоактивні уранові снаряди</li>
+    <li>subject_story->{ANYPAWN_gender ? бачив : бачила}, як турель прострелила штурмового механоїда наскрізь, і {ANYPAWN_gender ? мусив : мусила} зрозуміти, як це сталося</li>
+    <li>subject_story->{ANYPAWN_gender ? досліджував : досліджувала}, як щільність боєприпасів впливає на пробиття броні</li>
+    <li>subject_gerund->будівництво снайперських турелей</li>
   </SniperTurret.generalRules.rulesStrings>
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>монітори життєвих показників</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
-  <VitalsMonitor.description>Монітори життєвих показників дозволяють покращити якість лікування пацієнтів при розміщенні поряд із лікарняними ліжками.</VitalsMonitor.description>
+  <VitalsMonitor.description>Будуйте монітори життєвих показників, які покращують результати лікування, якщо стоять поруч із лікарняними ліжками.</VitalsMonitor.description>
   <!-- EN:
     <li>subject->vital signs monitoring</li>
     <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
@@ -211,11 +211,11 @@
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
   <VitalsMonitor.generalRules.rulesStrings>
-    <li>subject->vital signs monitoring</li>
-    <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
-    <li>subject_story->nursed a glassworld survivor back to health</li>
-    <li>subject_story->monitored the isolation ward remotely, sending mechanoids in for treatments</li>
-    <li>subject_gerund->monitoring vital signs</li>
-    <li>subject_gerund->constructing vital signs monitors</li>
+    <li>subject->моніторинг життєвих показників</li>
+    <li>subject_story->тяжко {ANYPAWN_gender ? працював : працювала} в переповненій лікарні й {ANYPAWN_gender ? поклявся : поклялася} це змінити</li>
+    <li>subject_story->{ANYPAWN_gender ? виходив : виходила} людину, що вижила у спопеленому світі</li>
+    <li>subject_story->дистанційно {ANYPAWN_gender ? наглядав : наглядала} за ізолятором, відправляючи механоїдів проводити процедури</li>
+    <li>subject_gerund->моніторинг життєвих показників</li>
+    <li>subject_gerund->будівництво моніторів життєвих показників</li>
   </VitalsMonitor.generalRules.rulesStrings>
 </LanguageData>

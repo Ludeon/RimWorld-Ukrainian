@@ -15,18 +15,18 @@
     <li>scraped_past->skated</li>
   -->
   <Combat_DeflectIncludes.rulePack.rulesStrings>
-    <li>scraped_present->glancing</li>
-    <li>scraped_present->bouncing</li>
-    <li>scraped_present->grazing</li>
-    <li>scraped_present->caroming</li>
-    <li>scraped_present->skipping</li>
-    <li>scraped_present->skating</li>
-    <li>scraped_past->glanced</li>
-    <li>scraped_past->bounced</li>
-    <li>scraped_past->grazed</li>
-    <li>scraped_past->caromed</li>
-    <li>scraped_past->skipped</li>
-    <li>scraped_past->skated</li>
+    <li>scraped_present->рикошетячи</li>
+    <li>scraped_present->відскакуючи</li>
+    <li>scraped_present->лише чиркаючи</li>
+    <li>scraped_present->ковзаючи</li>
+    <li>scraped_present->відлітаючи</li>
+    <li>scraped_present->зісковзуючи</li>
+    <li>scraped_past->рикошетить</li>
+    <li>scraped_past->відскакує</li>
+    <li>scraped_past->лише чиркає</li>
+    <li>scraped_past->ковзає</li>
+    <li>scraped_past->відлітає</li>
+    <li>scraped_past->зісковзує</li>
   </Combat_DeflectIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
@@ -45,20 +45,20 @@
     <li>tried->attempted</li>
   -->
   <Combat_FailIncludes.rulePack.rulesStrings>
-    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
-    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
-    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
-    <li>towardsat->towards</li>
-    <li>towardsat->at</li>
-    <li>verb_genericattack->swung</li>
-    <li>verb_genericattack->flailed</li>
-    <li>verb_genericattack->thrashed</li>
-    <li>tried->tried</li>
-    <li>tried->attempted</li>
+    <li>action->[RECIPIENT_definite]: [INITIATOR_definite] [tried] [damaged_inf] {RECIPIENT_gender ? його : її}</li>
+    <li>action->[RECIPIENT_definite]: [INITIATOR_definite] [tried] [damaged_inf] {RECIPIENT_gender ? його : її} [implement]</li>
+    <li>action->[RECIPIENT_definite]: [INITIATOR_definite] [tried] [implement] [damaged_inf] {RECIPIENT_gender ? його : її}</li>
+    <li>action->[RECIPIENT_definite]: [INITIATOR_definite] замахується на {RECIPIENT_gender ? нього : неї} {lookup: [WEAPON_label]; Case; 4}</li>
+    <li>action(p=0.3)->[RECIPIENT_definite]: [INITIATOR_definite] [verb_genericattack] [towardsat] [implement]</li>
+    <li>action(p=0.3)->[RECIPIENT_definite]: [INITIATOR_definite] [verb_genericattack] [towardsat]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [implement]</li>
+    <li>towardsat->у {RECIPIENT_gender ? його : її} бік</li>
+    <li>towardsat->у напрямку {RECIPIENT_gender ? нього : неї}</li>
+    <li>verb_genericattack->замахується</li>
+    <li>verb_genericattack->безладно розмахує</li>
+    <li>verb_genericattack->несамовито б’є</li>
+    <li>tried->намагається</li>
+    <li>tried->пробує</li>
   </Combat_FailIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
@@ -75,16 +75,16 @@
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
     <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
-    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
-    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
-    <li>strikeAdv->painfully</li>
-    <li>strikeAdv->horribly</li>
-    <li>strikeAdv->savagely</li>
-    <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
-    <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] і [flavortext_consequence]</li>
+    <li>result(p=0.1)->[strikeAdv] [damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>strikeAdv->болісно</li>
+    <li>strikeAdv->жахливо</li>
+    <li>strikeAdv->люто</li>
+    <li>strikeAdv->безжально</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->залишаючи огидну рану</li>
+    <li>flavortext_consequence->залишаючи жахливу рану</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->змушуючи {RECIPIENT_gender ? його : її} [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->збиваючи {RECIPIENT_gender ? його : її} з рівноваги</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>r_logentry->[action], [result].</li>
@@ -129,42 +129,39 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
-    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
-    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
-    <li>damaged_present(deflected!=True)->wounding</li>
-    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->{lookup: [TOOL_label]; Case; 4} {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->{lookup: [WEAPON_label]; Case; 4}</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->{lookup: [TOOL_label]; Case; 4} {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->{lookup: [WEAPON_label]; Case; 4}</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->{lookup: [TOOL_label]; Case; 4}</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->{lookup: [TOOL_label]; Case; 4} {lookup: [WEAPON_label]; Case; 1}</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->{lookup: [WEAPON_label]; Case; 4}</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->{lookup: [TOOL_label]; Case; 4}</li>
+    <li>targetlist(recipient_part_count==1)->{lookup: [recipient_part0_label]; Case; 3}</li>
+    <li>targetlist(recipient_part_count==2)->{lookup: [recipient_part0_label]; Case; 3} і {lookup: [recipient_part1_label]; Case; 3}</li>
+    <li>targetlist(recipient_part_count==3)->{lookup: [recipient_part0_label]; Case; 3}, {lookup: [recipient_part1_label]; Case; 3} і {lookup: [recipient_part2_label]; Case; 3}</li>
+    <li>targetlist->{lookup: [recipient_part0_label]; Case; 3}, {lookup: [recipient_part1_label]; Case; 3}, {lookup: [recipient_part2_label]; Case; 3} і {lookup: [recipient_part3_label]; Case; 3}</li>
+    <li>damaged_present(deflected!=True)->ранячи</li>
+    <li>damaged_present(deflected!=True)->травмуючи</li>
     <li>destroyed(p=0.5)->знищено</li>
-    <li>destroyed(p=0.5)->demolished</li>
-    <li>destroyed(p=0.5)->ruined</li>
-    <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
-    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
-    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
-    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
-    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
-    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
-    <li>wince->recoil</li>
-    <li>wince->stumble</li>
-    <li>painstate->in</li>
-    <li>painstate->with</li>
-    <li>painstate->from the</li>
-    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
-    <li>painevent->from the injury</li>
-    <li>painevent->from the wound</li>
-    <li>to->to</li>
-    <li>to->into</li>
+    <li>destroyed(p=0.5)->зруйновано</li>
+    <li>destroyed(p=0.5)->зіпсовано</li>
+    <li>destroyed(p=0.5)->розтрощено</li>
+    <li>wince(RECIPIENT_flesh==Normal)->скривитися</li>
+    <li>wince(RECIPIENT_flesh==Normal)->скорчитися</li>
+    <li>wince(RECIPIENT_flesh==Normal)->зіщулитися</li>
+    <li>wince(RECIPIENT_flesh==Normal)->застогнати</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->закричати</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->заволати</li>
+    <li>wince->відсахнутися</li>
+    <li>wince->похитнутися</li>
+    <li>painstate->від</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] болю</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] нестерпного болю</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->з мукою на обличчі</li>
+    <li>painevent->від травми</li>
+    <li>painevent->від рани</li>
+    <li>to->на</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
@@ -217,54 +214,54 @@
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
-    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
-    <li>wielding(p=4)->wielding</li>
-    <li>wielding(p=3)->using</li>
-    <li>wielding(p=2)->handling</li>
-    <li>wielding->brandishing</li>
-    <li>wielding->manipulating</li>
-    <li>using(p=4)->using</li>
-    <li>using->driving</li>
-    <li>using->thrusting</li>
-    <li>using->utilizing</li>
-    <li>using->moving</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->incompetently</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->ineptly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->wildly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->randomly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=3)->flailingly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=4)->awkwardly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=4)->clumsily</li>
-    <li>skillAdv(INITIATOR_skill&lt;=5)->fearfully</li>
-    <li>skillAdv(INITIATOR_skill&lt;=5)->falteringly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=5)->foolishly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->hesitantly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->reluctantly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->slowly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->tentatively</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->inexpertly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->amateurishly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=6)->timidly</li>
-    <li>skillAdv(INITIATOR_skill&lt;=8)->enthusiastically</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->proficiently</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->competently</li>
-    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
-    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
-    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
-    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
-    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
-    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
-    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
-    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
-    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
-    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
-    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
-    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
-    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->mechanically</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
+    <li>skillDescMelee->[skillAdv] [wielding] {lookup: [WEAPON_label]; Case; 4}</li>
+    <li>skillDescMelee->[skillAdv] [using] [implement]</li>
+    <li>wielding(p=4)->орудуючи</li>
+    <li>wielding(p=3)->розмахуючи</li>
+    <li>wielding(p=2)->вимахуючи</li>
+    <li>wielding->крутячи</li>
+    <li>wielding->маніпулюючи</li>
+    <li>using(p=4)->орудуючи</li>
+    <li>using->б’ючи</li>
+    <li>using->штрикаючи</li>
+    <li>using->діючи</li>
+    <li>using->працюючи</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->невміло</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->недолуго</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->несамовито</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->навмання</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->безладно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->незграбно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->неоковирно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->боязко</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->невпевнено</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->нерозважливо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->нерішуче</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->неохоче</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->повільно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->обережно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->невправно</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->по-аматорськи</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->несміливо</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->завзято</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->вправно</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->уміло</li>
+    <li>skillAdv(INITIATOR_skill>=8)->професійно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->спритно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->влучно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->хитро</li>
+    <li>skillAdv(INITIATOR_skill>=8)->моторно</li>
+    <li>skillAdv(INITIATOR_skill>=8)->досвідчено</li>
+    <li>skillAdv(INITIATOR_skill>=10)->упевнено</li>
+    <li>skillAdv(INITIATOR_skill>=10)->зграбно</li>
+    <li>skillAdv(INITIATOR_skill>=12)->фахово</li>
+    <li>skillAdv(INITIATOR_skill>=12)->точно</li>
+    <li>skillAdv(INITIATOR_skill>=14)->майстерно</li>
+    <li>skillAdv(INITIATOR_skill>=16)->артистично</li>
+    <li>skillAdv(INITIATOR_skill>=16)->граціозно</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->механічно</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->по-роботськи</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->прямолінійно</li>
   </Combat_SkillIncludes.rulePack.rulesStrings>
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
@@ -277,13 +274,13 @@
     <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
   -->
   <Combat_WoundIncludes.rulePack.rulesStrings>
-    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
-    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->{lookup: [recipient_part_destroyed0_label]; Case; 3}</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->{lookup: [recipient_part_destroyed0_label]; Case; 3} і {lookup: [recipient_part_destroyed1_label]; Case; 3}</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->{lookup: [recipient_part_destroyed0_label]; Case; 3}, {lookup: [recipient_part_destroyed1_label]; Case; 3} і {lookup: [recipient_part_destroyed2_label]; Case; 3}</li>
+    <li>destroyed_targets->{lookup: [recipient_part_destroyed0_label]; Case; 3}, {lookup: [recipient_part_destroyed1_label]; Case; 3}, {lookup: [recipient_part_destroyed2_label]; Case; 3} і {lookup: [recipient_part_destroyed3_label]; Case; 3}</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->{lookup: [recipient_part_damaged0_label]; Case; 3}</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->{lookup: [recipient_part_damaged0_label]; Case; 3} і {lookup: [recipient_part_damaged1_label]; Case; 3}</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->{lookup: [recipient_part_damaged0_label]; Case; 3}, {lookup: [recipient_part_damaged1_label]; Case; 3} і {lookup: [recipient_part_damaged2_label]; Case; 3}</li>
+    <li>damaged_targets->{lookup: [recipient_part_damaged0_label]; Case; 3}, {lookup: [recipient_part_damaged1_label]; Case; 3}, {lookup: [recipient_part_damaged2_label]; Case; 3} і {lookup: [recipient_part_damaged3_label]; Case; 3}</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
 </LanguageData>

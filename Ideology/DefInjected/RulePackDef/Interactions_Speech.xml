@@ -17,19 +17,19 @@
     <li>praised->raved about</li>
   -->
   <SpeechUtility.rulePack.rulesStrings>
-    <li>spokeof->spoke about</li>
-    <li>spokeof->talked about</li>
-    <li>spokeof->offered thoughts on</li>
-    <li>spokeof->discussed</li>
-    <li>spokeof->explained</li>
-    <li>spokeof->described</li>
-    <li>praised->gave a speech about</li>
-    <li>praised->spoke about</li>
-    <li>praised->talked about</li>
-    <li>praised->praised</li>
-    <li>praised->extolled the virtues of</li>
-    <li>praised->acclaimed</li>
-    <li>praised->heaped glory on</li>
-    <li>praised->raved about</li>
+    <li>spokeof->{INITIATOR_gender ? говорив : говорила} про</li>
+    <li>spokeof->{INITIATOR_gender ? розповідав : розповідала} про</li>
+    <li>spokeof->{INITIATOR_gender ? ділився : ділилася} думками про</li>
+    <li>spokeof->{INITIATOR_gender ? обговорював : обговорювала}</li>
+    <li>spokeof->{INITIATOR_gender ? пояснював : пояснювала}</li>
+    <li>spokeof->{INITIATOR_gender ? описував : описувала}</li>
+    <li>praised->{INITIATOR_gender ? виголосив : виголосила} промову про</li>
+    <li>praised->{INITIATOR_gender ? говорив : говорила} про</li>
+    <li>praised->{INITIATOR_gender ? розповідав : розповідала} про</li>
+    <li>praised->{INITIATOR_gender ? хвалив : хвалила}</li>
+    <li>praised->{INITIATOR_gender ? звеличував : звеличувала}</li>
+    <li>praised->{INITIATOR_gender ? прославляв : прославляла}</li>
+    <li>praised->{INITIATOR_gender ? оспівував : оспівувала}</li>
+    <li>praised->{INITIATOR_gender ? захоплено розповідав : захоплено розповідала} про</li>
   </SpeechUtility.rulePack.rulesStrings>
 </LanguageData>

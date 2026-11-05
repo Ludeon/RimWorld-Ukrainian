@@ -4,7 +4,7 @@
     <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження покинутої орбітальної платформи. Ознак життя не виявлено.\n\nВи можете проникнути всередину та розграбувати платформу, але вона, скоріш за все, має захисні системи.\n\nОрбітальних координат можна дістатися на транспортній капсулі, шатлі або гравкораблі.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження покинутої орбітальної платформи. Ознак життя не виявлено.\n\nМожна проникнути всередину й забрати здобич, але платформа, найімовірніше, має системи захисту.\n\nДо орбітальних об’єктів можна дістатися гравкораблем, шатлом або транспортними капсулами.</li>
   </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
@@ -65,28 +65,30 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
   <OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
-    <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
-    <li>questName->[PlaceOutlander] [platform]</li>
+    <li>questName(p=3)->[ancientPlatAdj]</li>
+    <li>questName->[platform] «[PlaceOutlander]»</li>
     <li>questName->[platform] [greekLetter]</li>
-    <li>questName->[platAdj] [platform] [RomanNumeral]</li>
-    <li>ancientPlatAdj->покинута</li>
-    <li>ancientPlatAdj->древня</li>
-    <li>ancientPlatAdj->[platAdj]</li>
-    <li>platAdj->зоряне світло</li>
-    <li>platAdj->туманність</li>
-    <li>platAdj->горизонт</li>
-    <li>platAdj->затемнення</li>
-    <li>platAdj->зеніт</li>
-    <li>platAdj->полярне сяйво</li>
-    <li>platAdj->корона</li>
-    <li>platAdj->нова</li>
-    <li>platAdj->еон</li>
-    <li>platAdj->розрада</li>
-    <li>platAdj->люміна</li>
-    <li>platAdj->іон</li>
-    <li>platAdj->астраліс</li>
-    <li>platAdj->Аполло</li>
-    <li>platAdj->Арей</li>
+    <li>questName->[platform] «[platAdj]» [RomanNumeral]</li>
+    <li>ancientPlatAdj->покинута [platform_f]</li>
+    <li>ancientPlatAdj->старовинна [platform_f]</li>
+    <li>ancientPlatAdj->покинутий [platform_m]</li>
+    <li>ancientPlatAdj->старовинний [platform_m]</li>
+    <li>ancientPlatAdj(p=2)->[platform] «[platAdj]»</li>
+    <li>platAdj->Зоресвіт</li>
+    <li>platAdj->Туманність</li>
+    <li>platAdj->Горизонт</li>
+    <li>platAdj->Затемнення</li>
+    <li>platAdj->Зеніт</li>
+    <li>platAdj->Аврора</li>
+    <li>platAdj->Корона</li>
+    <li>platAdj->Нова</li>
+    <li>platAdj->Еон</li>
+    <li>platAdj->Розрада</li>
+    <li>platAdj->Люміна</li>
+    <li>platAdj->Іон</li>
+    <li>platAdj->Астраліс</li>
+    <li>platAdj->Аполлон</li>
+    <li>platAdj->Арес</li>
     <li>platAdj->Аїд</li>
     <li>platAdj->Аякс</li>
     <li>platAdj->Еос</li>
@@ -100,53 +102,59 @@
     <li>platAdj->Геліос</li>
     <li>platAdj->Гефест</li>
     <li>platAdj->Талос</li>
-    <li>platAdj->авангард</li>
-    <li>platAdj->егіда</li>
-    <li>platAdj->халцедон</li>
-    <li>platAdj->небесна кузня</li>
-    <li>platAdj->титан</li>
+    <li>platAdj->Авангард</li>
+    <li>platAdj->Егіда</li>
+    <li>platAdj->Альціона</li>
+    <li>platAdj->Небесна Кузня</li>
+    <li>platAdj->Титан</li>
     <li>platform(p=2)->станція</li>
     <li>platform->платформа</li>
     <li>platform->орбітальна платформа</li>
     <li>platform->орбітальний вузол</li>
-    <li>platform(p=0.5)->небесні ворота</li>
-    <li>platform(p=0.5)->космічні доки</li>
+    <li>platform(p=0.5)->небесна брама</li>
+    <li>platform(p=0.5)->космічний док</li>
     <li>platform(p=0.5)->портал</li>
-    <li>greekLetter->альфа</li>
-    <li>greekLetter->бета</li>
-    <li>greekLetter->тета</li>
-    <li>greekLetter->дельта</li>
-    <li>greekLetter->зета</li>
-    <li>greekLetter->сигма</li>
-    <li>greekLetter->омега</li>
+    <li>platform_f(p=2)->станція</li>
+    <li>platform_f->платформа</li>
+    <li>platform_f->орбітальна платформа</li>
+    <li>platform_m->орбітальний вузол</li>
+    <li>platform_m(p=0.5)->космічний док</li>
+    <li>platform_m(p=0.5)->портал</li>
+    <li>greekLetter->Альфа</li>
+    <li>greekLetter->Бета</li>
+    <li>greekLetter->Тета</li>
+    <li>greekLetter->Дельта</li>
+    <li>greekLetter->Дзета</li>
+    <li>greekLetter->Сигма</li>
+    <li>greekLetter->Омега</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>Перехоплені повідомлення вказують на те, що хтось інший вже виявив та розграбував цю платформу. Завдання «[resolvedQuestName]» вже не актуальне.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>Перехоплені повідомлення свідчать, що платформу вже прибрав до рук хтось інший. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
   -->
   <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження астероїда, що обертається навколо планети. На ньому знаходиться [resource] та й багато, а можливо, й інші ресурси.\n\nОрбітальні шахтарі часто виводять астероїди на орбіту, щоб видобувати руду на місці, й одразу ж продавати її орбітальним торговцям. Ви не виявили на астероїді жодних ознак життя.\n\nАстероїда можна дістатися на транспортній капсулі, шатлі або гравкораблі. Перед вильотом не забудьте одягти колоністів в спорядження для орбіти.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження астероїда на орбіті планети. На ньому є чимало ресурсу «[resource]», а можливо, й інших.\n\nОрбітальні шахтарі виводять астероїди на орбіту, щоб розробляти їх і продавати руду орбітальним торговцям. Ознак життя на астероїді не виявлено.\n\nДо астероїда можна дістатися на транспортних капсулах, шатлом або гравкораблем. Перед вильотом забезпечте колоністів належним орбітальним спорядженням.</li>
   </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[resource] Asteroid</li>
   -->
   <OpportunitySite_Asteroid.questNameRules.rulesStrings>
-    <li>questName->[resource] Астероїд</li>
+    <li>questName->астероїд ([resource])</li>
   </OpportunitySite_Asteroid.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження орбітальної платформи Вами виявлено високий рівень активності механоїдів.\n\nНа платформі можна знайти цінні речі.\n\nОрбітальних координат можна дістатися на транспортній капсулі, шатлі або гравкораблі.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження орбітальної платформи. Ви фіксуєте високу активність механоїдів.\n\nНа платформі можна поживитися цінностями.\n\nДо орбітальних об’єктів можна дістатися гравкораблем, шатлом або транспортними капсулами.</li>
   </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[platAdj] [platform] [designation]</li>
@@ -168,35 +176,39 @@
     <li>mechanoid->cyclops</li>
   -->
   <OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
-    <li>questName->[platAdj] [platform] [designation]</li>
-    <li>questName->[platAdj] [platform]</li>
-    <li>platAdj(p=3)->механоїд</li>
-    <li>platAdj(p=3)->[механоїд]</li>
-    <li>platAdj->зародження</li>
-    <li>platAdj->синтез</li>
-    <li>platAdj->збірка</li>
-    <li>platAdj->формація</li>
+    <li>questName->[plat] [designation]</li>
+    <li>questName->[plat]</li>
+    <li>plat(p=3)->механоїдна [platform_f]</li>
+    <li>plat(p=2)->механоїдний вузол</li>
+    <li>plat(p=3)->[platform] «[mechanoid]»</li>
+    <li>plat(p=2)->[platform] «[platAdj]»</li>
+    <li>platAdj->Генезис</li>
+    <li>platAdj->Синтез</li>
+    <li>platAdj->Збірка</li>
+    <li>platAdj->Формування</li>
     <li>platform->платформа</li>
     <li>platform->станція</li>
     <li>platform->вузол</li>
-    <li>позначення->[RomanNumeral]</li>
+    <li>platform_f->платформа</li>
+    <li>platform_f->станція</li>
+    <li>designation->[RomanNumeral]</li>
     <li>designation->[Letter]-[RomanNumeral]</li>
-    <li>mechanoid->косар</li>
-    <li>mechanoid->улан</li>
-    <li>mechanoid->сороконіжка</li>
-    <li>mechanoid->циклопи</li>
+    <li>mechanoid->Жнець</li>
+    <li>mechanoid->Списник</li>
+    <li>mechanoid->Багатоніжка</li>
+    <li>mechanoid->Циклоп</li>
   </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>Перехоплені повідомлення вказують на те, що хтось інший вже виявив та розграбував цю платформу. Завдання «[resolvedQuestName]» вже не актуальне.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>Перехоплені повідомлення свідчать, що платформу вже прибрав до рук хтось інший. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
   <!-- EN:
     <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
   -->
   <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] незвичайний астероїд, що обертається навколо планети. Астероїд порожній зсередини, і порожнина містить декілька будівель.\n\nВи можете проникнути всередину та розграбувати їх.\n\nПроте стережіться, будівлі можуть мати охоронні системи.</li>
+    <li>questDescription->[discoveryMethod] незвичайний астероїд на орбіті планети. Усередині він порожнистий, і в порожнині стоїть кілька будівель.\n\nМожна проникнути всередину й забрати здобич.\n\nОбережно: будівлі можуть мати системи захисту.</li>
   </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[adjective] [orbital] [stash_noun]</li>
@@ -210,21 +222,21 @@
   -->
   <OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
     <li>questName->[adjective] [orbital] [stash_noun]</li>
-    <li/>
-    <li>adjective->Прихований</li>
-    <li>adjective->Таємний</li>
-    <li>orbital->Орбітальний</li>
-    <li>orbital->Астероїд</li>
-    <li>stash_noun->Сховок</li>
-    <li>stash_noun->Запас</li>
+    <li>questName->[orbital] [stash_noun]</li>
+    <li>adjective->прихований</li>
+    <li>adjective->таємний</li>
+    <li>orbital->орбітальний</li>
+    <li>orbital->астероїдний</li>
+    <li>stash_noun->тайник</li>
+    <li>stash_noun->сховок</li>
   </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] координати великого фрагмента розбитої орбітальної структури. Може містити цінні ресурси. Поля орбітальних уламків часто зайняти агресивними сміттярами.\n\nОрбітальних координат можна дістатися на транспортній капсулі, шатлі або гравкораблі.</li>
+    <li>questDescription->[discoveryMethod] координати величезного уламка на орбіті. На ньому можуть бути цінні ресурси. Поля орбітального сміття часто займають ворожі мародери.\n\nДо орбітальних об’єктів можна дістатися гравкораблем, шатлом або транспортними капсулами.</li>
   </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
@@ -282,25 +294,27 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
   <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
-    <li>questName(p=2)->руїни: [platAdj] [platform]</li>
-    <li>questName->[platAdj] [wreckage]</li>
-    <li>questName->[PlaceOutlander] [wreckage]</li>
-    <li>questName->[ruined] [platAdj] [platform]</li>
-    <li>platAdj->зоряне світло</li>
-    <li>platAdj->туманність</li>
-    <li>platAdj->горизонт</li>
-    <li>platAdj->затемнення</li>
-    <li>platAdj->зеніт</li>
-    <li>platAdj->полярне сяйво</li>
-    <li>platAdj->корона</li>
-    <li>platAdj->нова</li>
-    <li>platAdj->еон</li>
-    <li>platAdj->розрада</li>
-    <li>platAdj->люміна</li>
-    <li>platAdj->іон</li>
-    <li>platAdj->астраліс</li>
-    <li>platAdj->Аполло</li>
-    <li>platAdj->Арей</li>
+    <li>questName(p=2)->руїни [platform_gen] «[platAdj]»</li>
+    <li>questName->[wreckage] «[platAdj]»</li>
+    <li>questName->[wreckage] «[PlaceOutlander]»</li>
+    <li>questName->[ruinedPlatform] «[platAdj]»</li>
+    <li>ruinedPlatform(p=3)->[ruined_f] [platform_f]</li>
+    <li>ruinedPlatform->[ruined] [platform_m]</li>
+    <li>platAdj->Зоресвіт</li>
+    <li>platAdj->Туманність</li>
+    <li>platAdj->Горизонт</li>
+    <li>platAdj->Затемнення</li>
+    <li>platAdj->Зеніт</li>
+    <li>platAdj->Аврора</li>
+    <li>platAdj->Корона</li>
+    <li>platAdj->Нова</li>
+    <li>platAdj->Еон</li>
+    <li>platAdj->Розрада</li>
+    <li>platAdj->Люміна</li>
+    <li>platAdj->Іон</li>
+    <li>platAdj->Астраліс</li>
+    <li>platAdj->Аполлон</li>
+    <li>platAdj->Арес</li>
     <li>platAdj->Аїд</li>
     <li>platAdj->Аякс</li>
     <li>platAdj->Еос</li>
@@ -314,40 +328,54 @@
     <li>platAdj->Геліос</li>
     <li>platAdj->Гефест</li>
     <li>platAdj->Талос</li>
-    <li>platAdj->авангард</li>
-    <li>platAdj->егіда</li>
-    <li>platAdj->халцедон</li>
-    <li>platAdj->небесна кузня</li>
-    <li>platAdj->титан</li>
+    <li>platAdj->Авангард</li>
+    <li>platAdj->Егіда</li>
+    <li>platAdj->Альціона</li>
+    <li>platAdj->Небесна Кузня</li>
+    <li>platAdj->Титан</li>
     <li>wreckage(p=2)->уламки</li>
-    <li>wreckage(p=2)->руїни</li>
+    <li>wreckage(p=2)->рештки</li>
     <li>wreckage->орбітальні руїни</li>
     <li>wreckage->поле уламків</li>
     <li>platform(p=2)->станція</li>
     <li>platform->платформа</li>
-    <li>platform(p=0.5)->небесні ворота</li>
-    <li>platform(p=0.5)->космічні доки</li>
+    <li>platform(p=0.5)->небесна брама</li>
+    <li>platform(p=0.5)->космічний док</li>
     <li>platform(p=0.5)->портал</li>
-    <li>ruined->зруйнована</li>
-    <li>ruined->знищена</li>
-    <li>ruined->підірвана</li>
-    <li>ruined->втрачена</li>
-    <li>ruined->сплюндрована</li>
+    <li>platform_gen(p=2)->станції</li>
+    <li>platform_gen->платформи</li>
+    <li>platform_gen(p=0.5)->небесної брами</li>
+    <li>platform_gen(p=0.5)->космічного доку</li>
+    <li>platform_gen(p=0.5)->порталу</li>
+    <li>platform_f(p=2)->станція</li>
+    <li>platform_f->платформа</li>
+    <li>platform_f(p=0.5)->небесна брама</li>
+    <li>platform_m->космічний док</li>
+    <li>platform_m->портал</li>
+    <li>ruined->зруйнований</li>
+    <li>ruined->знищений</li>
+    <li>ruined->підірваний</li>
+    <li>ruined->утрачений</li>
+    <li>ruined->сплюндрований</li>
+    <li>ruined_f->зруйнована</li>
+    <li>ruined_f->знищена</li>
+    <li>ruined_f->підірвана</li>
+    <li>ruined_f->утрачена</li>
+    <li>ruined_f->сплюндрована</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>Перехоплені повідомлення вказують на те, що хтось інший вже виявив та розграбував ці орбітальні уламки. Завдання «[resolvedQuestName]» вже не актуальне.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>Перехоплені повідомлення свідчать, що орбітальні уламки вже прибрав до рук хтось інший. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
   <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] місцезнаходження орбітального супутника.
-Ці супутники автономні, і, як правило, нездатні підтримувати життя. Супутники використовуються для безлічі призначень, від збору енергії до платформ для зброї.\n\nВи можете знайти там цінні технології, але стережіться, супутники часто охороняються древніми системами безпеки.\n\n\nОрбітальних координат можна дістатися на транспортній капсулі, шатлі або гравкораблі.</li>
+    <li>questDescription->[discoveryMethod] місцезнаходження орбітального супутника. Такі супутники безпілотні й часто непридатні для життя. Вони мають найрізноманітніше призначення — від збирання енергії до бойових платформ.\n\nЗ супутника можна зняти цінні технології, але обережно: супутники пильно охороняють старовинні системи безпеки.\n\nДо орбітальних об’єктів можна дістатися гравкораблем, шатлом або транспортними капсулами.</li>
   </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[PlaceOutlander] [platform]</li>
@@ -383,42 +411,50 @@
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
   <OpportunitySite_Satellite.questNameRules.rulesStrings>
-    <li>questName->[PlaceOutlander] [platform]</li>
-    <li>questName->[platAdj] [platform]</li>
-    <li>platAdj(p=4)->орбітальний</li>
-    <li>platAdj->спостережний</li>
-    <li>platAdj->мережевий</li>
-    <li>platAdj->імперський</li>
-    <li>platAdj->сонячний</li>
-    <li>platAdj->зоряне світло</li>
-    <li>platAdj->туманність</li>
-    <li>platAdj->горизонт</li>
-    <li>platAdj->затемнення</li>
-    <li>platAdj->зеніт</li>
-    <li>platAdj->полярне сяйво</li>
-    <li>platAdj->корона</li>
-    <li>platAdj->нова</li>
-    <li>platAdj->еон</li>
-    <li>platAdj->розрада</li>
-    <li>platAdj->люміна</li>
-    <li>platAdj->іон</li>
-    <li>platAdj->астраліс</li>
-    <li>platAdj->ехо</li>
+    <li>questName->[platform] «[PlaceOutlander]»</li>
+    <li>questName->[platAdj]</li>
+    <li>platAdj(p=8)->[satAdj] [platform_m]</li>
+    <li>platAdj(p=10)->[platform] «[satName]»</li>
+    <li>satAdj(p=4)->орбітальний</li>
+    <li>satAdj->спостережний</li>
+    <li>satAdj->мережевий</li>
+    <li>satAdj->імперський</li>
+    <li>satAdj->сонячний</li>
+    <li>satName->Зоресвіт</li>
+    <li>satName->Туманність</li>
+    <li>satName->Горизонт</li>
+    <li>satName->Затемнення</li>
+    <li>satName->Зеніт</li>
+    <li>satName->Аврора</li>
+    <li>satName->Корона</li>
+    <li>satName->Нова</li>
+    <li>satName->Еон</li>
+    <li>satName->Розрада</li>
+    <li>satName->Люміна</li>
+    <li>satName->Іон</li>
+    <li>satName->Астраліс</li>
+    <li>satName->Відлуння</li>
     <li>platform(p=4)->супутник</li>
-    <li>platform->вузол</li>
+    <li>platform->ретранслятор</li>
     <li>platform->кільце</li>
-    <li>platform->супутник зв'язку</li>
-    <li>platform->охоронець</li>
-    <li>platform->основний</li>
+    <li>platform->супутник зв’язку</li>
+    <li>platform->вартовий</li>
+    <li>platform->флагман</li>
     <li>platform->маяк</li>
-    <li>platform->бомбардир</li>
+    <li>platform->бомбардувальник</li>
+    <li>platform_m(p=4)->супутник</li>
+    <li>platform_m->ретранслятор</li>
+    <li>platform_m->вартовий</li>
+    <li>platform_m->флагман</li>
+    <li>platform_m->маяк</li>
+    <li>platform_m->бомбардувальник</li>
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   </OpportunitySite_Satellite.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
-  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вам трапляється</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Ви виявили</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>Завдання більше не актуальне: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
   <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>Сканер виявив, що супутник перейшов на більш високу, недосяжну орбіту. Завдання «[resolvedQuestName]» вже не актуальне.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>За даними сканера, супутник піднявся на вищу, недосяжну орбіту. Завдання «[resolvedQuestName]» більше не актуальне.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
 </LanguageData>

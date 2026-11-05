@@ -5,19 +5,19 @@
     <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
   -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
-    <li>questDescription(siteFaction==Pirate)->Пірати стали табором неподалік від [map_definite], щоб надсилати на вас рейди. [allSitePartsDescriptions]\n\nЦей табір залишиться там, допоки ви його не розіб'єте.</li>
-    <li>questDescription(siteFaction==Mechanoid)->Кластер механоїдів приземлився неподалік від [map_definite]. [allSitePartsDescriptions]\n\nЦей кластер залишиться там, допоки ви його не знищите.</li>
+    <li>questDescription(siteFaction==Pirate)->Пірати облаштували аванпост неподалік від поселення [map_definite], щоб дошкуляти вам. [allSitePartsDescriptions]\n\nАванпост залишиться, доки ви не пошлете туди загін і не знищите його.</li>
+    <li>questDescription(siteFaction==Mechanoid)->Неподалік від поселення [map_definite] приземлився кластер механоїдів. [allSitePartsDescriptions]\n\nКластер залишиться, доки ви не пошлете туди загін і не знищите його.</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
     <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
   -->
   <ProblemCauser.questNameRules.rulesStrings>
-    <li>questName(siteFaction==Pirate)->Пірати та [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoids)->[problemCauserLabel] та кластер механоїдів</li>
+    <li>questName(siteFaction==Pirate)->пірати і [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->кластер механоїдів і [problemCauserLabel]</li>
   </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
   <ProblemCauser.LetterLabelSuccess.slateRef>[problemCauserLabel] знищено</ProblemCauser.LetterLabelSuccess.slateRef>
   <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
-  <ProblemCauser.LetterTextSuccess.slateRef>Ви знищили [problemCauserLabel], що впливав на [map_definite]!</ProblemCauser.LetterTextSuccess.slateRef>
+  <ProblemCauser.LetterTextSuccess.slateRef>Ви знищили об’єкт ([problemCauserLabel]), що впливав на поселення [map_definite]!</ProblemCauser.LetterTextSuccess.slateRef>
 </LanguageData>

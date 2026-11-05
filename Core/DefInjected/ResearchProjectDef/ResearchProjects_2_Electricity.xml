@@ -3,7 +3,7 @@
   <!-- EN: air conditioning -->
   <AirConditioning.label>кондиціонери</AirConditioning.label>
   <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
-  <AirConditioning.description>Будуйте кондиціонери для комфорту в спекотну погоду, або створюйте морозильні камери для зберігання продуктів.</AirConditioning.description>
+  <AirConditioning.description>Будуйте кондиціонери, щоб людям було комфортно в спеку, або облаштовуйте морозильні камери для зберігання продуктів, що швидко псуються.</AirConditioning.description>
   <!-- EN:
     <li>subject->air conditioning</li>
     <li>subject_story->visited the hottest town on the planet</li>
@@ -12,16 +12,16 @@
     <li>subject_gerund->building air conditioning units</li>
   -->
   <AirConditioning.generalRules.rulesStrings>
-    <li>subject->air conditioning</li>
-    <li>subject_story->visited the hottest town on the planet</li>
-    <li>subject_story->worked at the ice caps, in an interstellar warehouse kept near to absolute zero</li>
-    <li>subject_story->learned all about air conditioning and freezers, then returned home</li>
-    <li>subject_gerund->building air conditioning units</li>
+    <li>subject->кондиціонування повітря</li>
+    <li>subject_story->{ANYPAWN_gender ? побував : побувала} в найспекотнішому місті планети</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} на полярних шапках у міжзоряному складі, де трималася температура, близька до абсолютного нуля</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчив : вивчила} все про кондиціонери й морозильні камери, а потім {ANYPAWN_gender ? повернувся : повернулася} додому</li>
+    <li>subject_gerund->встановлення кондиціонерів</li>
   </AirConditioning.generalRules.rulesStrings>
   <!-- EN: autodoor -->
   <Autodoors.label>автоматичні двері</Autodoors.label>
   <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
-  <Autodoors.description>Створюйте автоматичні двері, які самі відкриваються коли хтось наближається, нікого не гальмуючи.</Autodoors.description>
+  <Autodoors.description>Будуйте автодвері, які самі відчиняються, коли хтось підходить, і нікого не сповільнюють.</Autodoors.description>
   <!-- EN:
     <li>subject->autodoors</li>
     <li>subject->automatic doors</li>
@@ -31,17 +31,17 @@
     <li>subject_gerund->constructing autodoors</li>
   -->
   <Autodoors.generalRules.rulesStrings>
-    <li>subject->autodoors</li>
-    <li>subject->automatic doors</li>
-    <li>subject_story->was recruited by a robotics security firm, opening the door to a career as an automation tester</li>
-    <li>subject_story->prototyped unique models of autodoors</li>
-    <li>subject_story->worked very hard to ensure the doors made a satisfying 'hiss' when they opened or closed</li>
-    <li>subject_gerund->constructing autodoors</li>
+    <li>subject->автодвері</li>
+    <li>subject->автоматичні двері</li>
+    <li>subject_story->{ANYPAWN_gender ? влаштувався : влаштувалася} в охоронну робототехнічну фірму, і перед {ANYPAWN_gender ? ним : нею} відчинилися двері в кар’єру тестувальника автоматики</li>
+    <li>subject_story->{ANYPAWN_gender ? розробив : розробила} прототипи унікальних моделей автодверей</li>
+    <li>subject_story->дуже {ANYPAWN_gender ? старався : старалася}, щоб двері приємно «сичали», відчиняючись і зачиняючись</li>
+    <li>subject_gerund->встановлення автодверей</li>
   </Autodoors.generalRules.rulesStrings>
   <!-- EN: battery -->
   <Batteries.label>акумулятори</Batteries.label>
   <!-- EN: Build batteries for storing electricity. -->
-  <Batteries.description>Виробництво акумуляторів для зберігання електроенергії.</Batteries.description>
+  <Batteries.description>Будуйте акумулятори для зберігання електроенергії.</Batteries.description>
   <!-- EN:
     <li>subject->batteries</li>
     <li>subject_story->discovered that an acid lake on the leaden shores of a deathworld worked as a natural battery</li>
@@ -50,16 +50,16 @@
     <li>subject_gerund->building batteries</li>
   -->
   <Batteries.generalRules.rulesStrings>
-    <li>subject->batteries</li>
-    <li>subject_story->discovered that an acid lake on the leaden shores of a deathworld worked as a natural battery</li>
-    <li>subject_story->was in charge of maintaining the life support if the colony lost power</li>
-    <li>subject_story->worked in the scrapworlds, repairing machines and batteries</li>
-    <li>subject_gerund->building batteries</li>
+    <li>subject->акумулятори</li>
+    <li>subject_story->{ANYPAWN_gender ? виявив : виявила}, що кислотне озеро на свинцевих берегах світу смерті працює як природний акумулятор</li>
+    <li>subject_story->{ANYPAWN_gender ? відповідав : відповідала} за роботу систем життєзабезпечення на випадок, якщо колонія лишиться без живлення</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} на світах-звалищах, ремонтуючи машини й акумулятори</li>
+    <li>subject_gerund->спорудження акумуляторів</li>
   </Batteries.generalRules.rulesStrings>
   <!-- EN: biofuel refining -->
   <BiofuelRefining.label>переробка біопалива</BiofuelRefining.label>
   <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
-  <BiofuelRefining.description>Конструювання перегінних апаратів для отримання хімічного палива з органіки, наприклад деревини або харчової сировини.</BiofuelRefining.description>
+  <BiofuelRefining.description>Будуйте біопаливні апарати, щоб виготовляти хімпаливо з органіки, як-от деревини чи харчів.</BiofuelRefining.description>
   <!-- EN:
     <li>subject->biofuel</li>
     <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
@@ -68,16 +68,16 @@
     <li>subject_gerund->refining biofuel</li>
   -->
   <BiofuelRefining.generalRules.rulesStrings>
-    <li>subject->biofuel</li>
-    <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
-    <li>subject_story->used automated biorefineries to begin the long terraforming process on an iceworld</li>
-    <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
-    <li>subject_gerund->refining biofuel</li>
+    <li>subject->біопаливо</li>
+    <li>subject_story->{ANYPAWN_gender ? опинився : опинилася} в пастці на кораблі поколінь, що втратив живлення, і, знаючись на перегонці, {ANYPAWN_gender ? переробив : переробила} людські рештки на біопаливо, щоб знову запустити двигуни</li>
+    <li>subject_story->{ANYPAWN_gender ? запустив : запустила} автоматичні біоперегінні заводи, щоб почати довгий процес тераформування крижаного світу</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} гуральню, щоб гнати самогон, а коли з’ясувалося, що його неможливо пити, {ANYPAWN_gender ? став : стала} продавати його як хімпаливо</li>
+    <li>subject_gerund->виготовлення біопалива</li>
   </BiofuelRefining.generalRules.rulesStrings>
   <!-- EN: blowback operation -->
-  <BlowbackOperation.label>енергія віддачі</BlowbackOperation.label>
+  <BlowbackOperation.label>вільний затвор</BlowbackOperation.label>
   <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
-  <BlowbackOperation.description>Дозволяє конструювати автоматичну та напівавтоматичну вогнепальну зброю, наприклад самозарядні та автоматичні пістолети.</BlowbackOperation.description>
+  <BlowbackOperation.description>Виготовляйте малопотужну зброю з вільним затвором, як-от автоматичні пістолети й пістолети-кулемети.</BlowbackOperation.description>
   <!-- EN:
     <li>subject->pistols</li>
     <li>subject->blowback firearms</li>
@@ -87,17 +87,17 @@
     <li>subject_gerund->crafting blowback firearms</li>
   -->
   <BlowbackOperation.generalRules.rulesStrings>
-    <li>пістолети</li>
-    <li>subject->blowback firearms</li>
-    <li>subject_story->utilized machine pistols in the trench fighting that overtook the planet</li>
-    <li>subject_story->sold low-powered autopistols to law enforcement in the orbitals</li>
-    <li>subject_story->crafted blowback-operated guns for near-sighted conscripts</li>
-    <li>subject_gerund->crafting blowback firearms</li>
+    <li>subject->пістолети</li>
+    <li>subject->зброя з вільним затвором</li>
+    <li>subject_story->{ANYPAWN_gender ? воював : воювала} з пістолетом-кулеметом в окопних боях, що охопили всю планету</li>
+    <li>subject_story->{ANYPAWN_gender ? продавав : продавала} малопотужні автоматичні пістолети правоохоронцям на орбітальних станціях</li>
+    <li>subject_story->{ANYPAWN_gender ? виготовляв : виготовляла} зброю з вільним затвором для короткозорих новобранців</li>
+    <li>subject_gerund->виготовлення зброї з вільним затвором</li>
   </BlowbackOperation.generalRules.rulesStrings>
   <!-- EN: advanced lights -->
   <ColoredLights.label>покращене освітлення</ColoredLights.label>
   <!-- EN: Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps. -->
-  <ColoredLights.description>Створіть потужне зовнішнє освітлення. Крім того, налаштуйте колір електричних ламп і зменшіть їх споживання енергії вдвічі. Це не впливає на сонячні лампи.</ColoredLights.description>
+  <ColoredLights.description>Будуйте потужні вуличні прожектори. Крім того, налаштовуйте колір електричних ламп і вдвічі зменшуйте їхнє енергоспоживання. Це не стосується сонячних ламп.</ColoredLights.description>
   <!-- EN:
     <li>subject->advanced lighting</li>
     <li>subject_story->installed floodlights all around the prison world's many security perimeters</li>
@@ -106,18 +106,18 @@
     <li>subject_gerund->building advanced lights</li>
   -->
   <ColoredLights.generalRules.rulesStrings>
-    <li>subject->advanced lighting</li>
-    <li>subject_story->installed floodlights all around the prison world's many security perimeters</li>
-    <li>subject_story->made sure that the planet's dark side was well-lit</li>
-    <li>subject_story->moved into running concerts for interstellar troubadours, specializing in controlling the ship's massive lighting rigs</li>
-    <li>subject_gerund->building advanced lights</li>
+    <li>subject->удосконалене освітлення</li>
+    <li>subject_story->{ANYPAWN_gender ? встановив : встановила} прожектори вздовж численних охоронних периметрів світу-в’язниці</li>
+    <li>subject_story->{ANYPAWN_gender ? подбав : подбала}, щоб темний бік планети був добре освітлений</li>
+    <li>subject_story->{ANYPAWN_gender ? взявся : взялася} організовувати концерти міжзоряних трубадурів і {ANYPAWN_gender ? спеціалізувався : спеціалізувалася} на керуванні величезними світловими установками корабля</li>
+    <li>subject_gerund->спорудження удосконаленого освітлення</li>
   </ColoredLights.generalRules.rulesStrings>
   <!-- EN: electricity -->
   <Electricity.label>електроенергія</Electricity.label>
   <!-- EN: Harness the power of electricity for a hundred different tasks. -->
-  <Electricity.description>Використовуйте силу електроенергії для сотень різних задач.</Electricity.description>
+  <Electricity.description>Приборкайте силу електрики для сотні різних завдань.</Electricity.description>
   <!-- EN: Your colony has harnessed the power which outsiders call "electricity". It has the potential to transform every aspect of your people's way of life.\n\nYou have now unlocked the Power tab in the Architect menu from which you may build electric generators, power conduits, and other mechanisms to control this new force. The Power tab also displays the electric grid which connects electric generators and appliances. -->
-  <Electricity.discoveredLetterText>Ваша колонія приручила стихію, яку чужинці називають «електроенергією». З його допомогою можна кардинально змінити життя ваших колоністів.\n\nТепер вам доступна вкладка «Енергія» меню «Проєктування». У ній ви знайдете генератори, кабелі та інші електричні пристрої. Вкладка «Енергія» також відображає електричну мережу підключені до неї генератори та іншу електрику.</Electricity.discoveredLetterText>
+  <Electricity.discoveredLetterText>Ваша колонія приборкала силу, яку чужинці називають «електрикою». Вона здатна змінити кожен бік життя ваших людей.\n\nТепер вам доступна вкладка «Енергія» в меню «Проєктування». Звідти можна будувати генератори, електрокабелі та інші пристрої, що керують цією новою силою. Також у вкладці «Енергія» показано електромережу, яка з’єднує генератори та електроприлади.</Electricity.discoveredLetterText>
   <!-- EN: About: Electricity -->
   <Electricity.discoveredLetterTitle>Докладніше: електроенергія</Electricity.discoveredLetterTitle>
   <!-- EN:
@@ -128,16 +128,16 @@
     <li>subject_gerund->harnessing electricity</li>
   -->
   <Electricity.generalRules.rulesStrings>
-    <li>subject->electricity</li>
-    <li>subject_story->was struck by lighting and became determined to harness it</li>
-    <li>subject_story->created the first generator and lightbulb on a medieval world</li>
-    <li>subject_story->was executed on a feudal world for the blasphemy of creating light</li>
-    <li>subject_gerund->harnessing electricity</li>
+    <li>subject->електрика</li>
+    <li>subject_story->{ANYPAWN_gender ? пережив : пережила} удар блискавки й {ANYPAWN_gender ? вирішив : вирішила} будь-що її приборкати</li>
+    <li>subject_story->{ANYPAWN_gender ? створив : створила} перший генератор і першу лампочку на середньовічному світі</li>
+    <li>subject_story->{ANYPAWN_gender ? був страчений : була страчена} на феодальному світі за блюзнірське створення світла</li>
+    <li>subject_gerund->приборкання електрики</li>
   </Electricity.generalRules.rulesStrings>
   <!-- EN: firefoam -->
   <Firefoam.label>протипожежна піна</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
-  <Firefoam.description>Створюйте капсули з протипожежною піною - автоматичні протипожежні пристрої, які розпорошують протипожежну піну при контакті з полум'ям.</Firefoam.description>
+  <Firefoam.description>Будуйте пристрої з протипожежною піною — автоматичні засоби пожежної безпеки, які при наближенні вогню розкидають вогнегасну піну.</Firefoam.description>
   <!-- EN:
     <li>subject->firefoam poppers</li>
     <li>subject->fire safety devices</li>
@@ -148,18 +148,18 @@
     <li>subject_gerund->suppressing fires with poppers</li>
   -->
   <Firefoam.generalRules.rulesStrings>
-    <li>subject->firefoam poppers</li>
-    <li>subject->fire safety devices</li>
-    <li>subject_story->headed up an agency promulgating fire safety to the whole population</li>
-    <li>subject_story->became a firefighter</li>
-    <li>subject_story->was saved by the poppers when an oil fire spiraled out of control</li>
-    <li>subject_gerund->constructing firefoam poppers</li>
-    <li>subject_gerund->suppressing fires with poppers</li>
+    <li>subject->пристрої з протипожежною піною</li>
+    <li>subject->засоби пожежної безпеки</li>
+    <li>subject_story->{ANYPAWN_gender ? очолював : очолювала} агенцію, що навчала все населення пожежної безпеки</li>
+    <li>subject_story->{ANYPAWN_gender ? став пожежником : стала пожежницею}</li>
+    <li>subject_story->{ANYPAWN_gender ? вижив : вижила} завдяки пристроям з піною, коли нафтова пожежа вийшла з-під контролю</li>
+    <li>subject_gerund->спорудження пристроїв з протипожежною піною</li>
+    <li>subject_gerund->гасіння пожеж пінними пристроями</li>
   </Firefoam.generalRules.rulesStrings>
   <!-- EN: flak armor -->
-  <FlakArmor.label>броня</FlakArmor.label>
+  <FlakArmor.label>протиуламкова броня</FlakArmor.label>
   <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
-  <FlakArmor.description>Одяг з вшитими металевими бронепластинами дає захист від куль та уламків, але його вага трохи ускладнює пересування.</FlakArmor.description>
+  <FlakArmor.description>Шийте одяг із вшитими металевими пластинами, що захищають від куль і вибухів. Ця важка броня трохи сповільнює рух.</FlakArmor.description>
   <!-- EN:
     <li>subject->flak armor</li>
     <li>subject_story->supplied flak armor to the militias that ran the cities</li>
@@ -168,16 +168,16 @@
     <li>subject_gerund->crafting flak armor</li>
   -->
   <FlakArmor.generalRules.rulesStrings>
-    <li>subject->flak armor</li>
-    <li>subject_story->supplied flak armor to the militias that ran the cities</li>
-    <li>subject_story->learned to sew metal plates into clothing, to protect kin from the roving gangs</li>
-    <li>subject_story->survived a rifle bullet thanks to the metal plate sewn into the breast pocket</li>
-    <li>subject_gerund->crafting flak armor</li>
+    <li>subject->протиуламкова броня</li>
+    <li>subject_story->{ANYPAWN_gender ? постачав : постачала} протиуламкову броню ополченням, що правили містами</li>
+    <li>subject_story->{ANYPAWN_gender ? навчився : навчилася} вшивати в одяг металеві пластини, щоб захищати рідних від мародерських банд</li>
+    <li>subject_story->{ANYPAWN_gender ? вижив : вижила} після влучання гвинтівкової кулі завдяки металевій пластині, вшитій у нагрудну кишеню</li>
+    <li>subject_gerund->виготовлення протиуламкової броні</li>
   </FlakArmor.generalRules.rulesStrings>
   <!-- EN: foam turret -->
-  <FoamTurret.label>пінні турелі</FoamTurret.label>
+  <FoamTurret.label>протипожежні турелі</FoamTurret.label>
   <!-- EN: Produce a turret which can be activated to spray fire-extinguishing foam. -->
-  <FoamTurret.description>Дозволяє споруджувати турелі, що розпорошують протипожежну піну під час активації.</FoamTurret.description>
+  <FoamTurret.description>Будуйте турелі, що після активації розпорошують вогнегасну піну.</FoamTurret.description>
   <!-- EN:
     <li>subject->foam turrets</li>
     <li>subject->fire suppression turrets</li>
@@ -188,18 +188,18 @@
     <li>subject_gerund->suppressing fires with turrets</li>
   -->
   <FoamTurret.generalRules.rulesStrings>
-    <li>subject->foam turrets</li>
-    <li>subject->fire suppression turrets</li>
-    <li>subject_story->redesigned gun turrets to put out fires, not create them</li>
-    <li>subject_story->incorporated heat sensors and foam ejectors into a standard turret chassis</li>
-    <li>subject_story->was praised after installing cheap foam turrets in public areas and saving many lives</li>
-    <li>subject_gerund->constructing fire suppression turrets</li>
-    <li>subject_gerund->suppressing fires with turrets</li>
+    <li>subject->протипожежні турелі</li>
+    <li>subject->турелі пожежогасіння</li>
+    <li>subject_story->{ANYPAWN_gender ? переробив : переробила} бойові турелі, щоб вони гасили пожежі, а не розпалювали їх</li>
+    <li>subject_story->{ANYPAWN_gender ? вмонтував : вмонтувала} датчики тепла й пінні розпилювачі в стандартний корпус турелі</li>
+    <li>subject_story->{ANYPAWN_gender ? заслужив : заслужила} визнання, коли {ANYPAWN_gender ? встановив : встановила} дешеві протипожежні турелі в людних місцях і {ANYPAWN_gender ? врятував : врятувала} багато життів</li>
+    <li>subject_gerund->спорудження протипожежних турелей</li>
+    <li>subject_gerund->гасіння пожеж турелями</li>
   </FoamTurret.generalRules.rulesStrings>
   <!-- EN: gas operation -->
   <GasOperation.label>відведення порохових газів</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
-  <GasOperation.description>Дозволяє конструювати більш просунуту автоматичну та напівавтоматичну вогнепальну зброю: автоматичні дробовики, пістолети-кулемети та ручні кулемети.</GasOperation.description>
+  <GasOperation.description>Виготовляйте потужну вогнепальну зброю: автоматичні дробовики, ручні кулемети й важкі пістолети-кулемети.</GasOperation.description>
   <!-- EN:
     <li>subject->heavy weaponry</li>
     <li>subject->high-power firearms</li>
@@ -209,17 +209,17 @@
     <li>subject_gerund->crafting heavy firearms</li>
   -->
   <GasOperation.generalRules.rulesStrings>
-    <li>subject->heavy weaponry</li>
-    <li>subject->high-power firearms</li>
-    <li>subject_story->equipped the special weapons squads of the tyrant's guard with light machine guns</li>
-    <li>subject_story->supplied several planetary armies with heavy firearms</li>
-    <li>subject_story->designed new types of high-power gun, still known today</li>
-    <li>subject_gerund->crafting heavy firearms</li>
+    <li>subject->важка зброя</li>
+    <li>subject->потужна вогнепальна зброя</li>
+    <li>subject_story->{ANYPAWN_gender ? озброїв : озброїла} ручними кулеметами спецзагони тиранової гвардії</li>
+    <li>subject_story->{ANYPAWN_gender ? постачав : постачала} важку вогнепальну зброю кільком планетарним арміям</li>
+    <li>subject_story->{ANYPAWN_gender ? сконструював : сконструювала} нові види потужної зброї, які знають і досі</li>
+    <li>subject_gerund->виготовлення важкої вогнепальної зброї</li>
   </GasOperation.generalRules.rulesStrings>
   <!-- EN: geothermal power -->
   <GeothermalPower.label>геотермальна енергія</GeothermalPower.label>
   <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
-  <GeothermalPower.description>Будуйте геотермальні електростанції на вершинах парових гейзерів, щоб забезпечити безперебійне живлення.</GeothermalPower.description>
+  <GeothermalPower.description>Будуйте геотермальні генератори над паровими гейзерами, щоб мати безперебійне живлення.</GeothermalPower.description>
   <!-- EN:
     <li>subject->geothermal power</li>
     <li>subject_story->studied steam power and established geothermal plants throughout the region</li>
@@ -229,17 +229,17 @@
     <li>subject_gerund->building geothermal power plants</li>
   -->
   <GeothermalPower.generalRules.rulesStrings>
-    <li>subject->geothermal power</li>
-    <li>subject_story->studied steam power and established geothermal plants throughout the region</li>
-    <li>subject_story->tapped the power of a dormant volcano to power the local grid</li>
-    <li>subject_story->argued with the local population who wanted to preserve the scenic geysers, not use them for power</li>
-    <li>subject_gerund->tapping geothermal energy</li>
-    <li>subject_gerund->building geothermal power plants</li>
+    <li>subject->геотермальна енергетика</li>
+    <li>subject_story->{ANYPAWN_gender ? вивчав : вивчала} парову енергетику й {ANYPAWN_gender ? звів : звела} геотермальні станції по всьому регіону</li>
+    <li>subject_story->{ANYPAWN_gender ? запряг : запрягла} силу згаслого вулкана, щоб живити місцеву електромережу</li>
+    <li>subject_story->{ANYPAWN_gender ? сперечався : сперечалася} з місцевими, які хотіли зберегти мальовничі гейзери, а не добувати з них енергію</li>
+    <li>subject_gerund->видобування геотермальної енергії</li>
+    <li>subject_gerund->спорудження геотермальних електростанцій</li>
   </GeothermalPower.generalRules.rulesStrings>
   <!-- EN: gunsmithing -->
   <Gunsmithing.label>вогнепальна зброя</Gunsmithing.label>
   <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
-  <Gunsmithing.description>Створюйте просту вогнепальну зброю, по типу револьверів, помпових рушниць, гвинтівок з затвором та запальних гранатометів.</Gunsmithing.description>
+  <Gunsmithing.description>Виготовляйте просту вогнепальну зброю з ручним перезаряджанням: револьвери, помпові дробовики, гвинтівки з ковзним затвором і запальні гранатомети.</Gunsmithing.description>
   <!-- EN:
     <li>subject->simple firearms</li>
     <li>subject_story->built a unique 12-shot revolver and won shoot-out after shoot-out</li>
@@ -249,17 +249,17 @@
     <li>subject_gerund->crafting firearms</li>
   -->
   <Gunsmithing.generalRules.rulesStrings>
-    <li>subject->simple firearms</li>
-    <li>subject_story->built a unique 12-shot revolver and won shoot-out after shoot-out</li>
-    <li>subject_story->specialized in simple gunsmithing, providing shotguns and rifles for hunters</li>
-    <li>subject_story->set up as a gunsmith, achieving fame across the sector</li>
-    <li>subject_gerund->gunsmithing</li>
-    <li>subject_gerund->crafting firearms</li>
+    <li>subject->проста вогнепальна зброя</li>
+    <li>subject_story->{ANYPAWN_gender ? зробив : зробила} унікальний дванадцятизарядний револьвер і {ANYPAWN_gender ? вигравав : вигравала} одну перестрілку за іншою</li>
+    <li>subject_story->{ANYPAWN_gender ? спеціалізувався : спеціалізувалася} на простій зброї й {ANYPAWN_gender ? постачав : постачала} мисливцям дробовики та гвинтівки</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} зброярську майстерню й {ANYPAWN_gender ? прославився : прославилася} на весь сектор</li>
+    <li>subject_gerund->виготовлення зброї</li>
+    <li>subject_gerund->виготовлення вогнепальної зброї</li>
   </Gunsmithing.generalRules.rulesStrings>
   <!-- EN: gun turrets -->
   <GunTurrets.label>кулеметні турелі</GunTurrets.label>
   <!-- EN: Produce simple automated gun turrets. -->
-  <GunTurrets.description>Створення простих автоматичних кулеметних турелів.</GunTurrets.description>
+  <GunTurrets.description>Будуйте прості автоматичні кулеметні турелі.</GunTurrets.description>
   <!-- EN:
     <li>subject->gun turrets</li>
     <li>subject_story->worked on AI routines, to enable gun turrets to identify friends and foes</li>
@@ -268,16 +268,16 @@
     <li>subject_gerund->constructing automated gun turrets</li>
   -->
   <GunTurrets.generalRules.rulesStrings>
-    <li>subject->gun turrets</li>
-    <li>subject_story->worked on AI routines, to enable gun turrets to identify friends and foes</li>
-    <li>subject_story->designed a modular gun turret holster, capable of taking any weapon type</li>
-    <li>subject_story->disabled the enemy's turrets remotely, before leading the charge</li>
-    <li>subject_gerund->constructing automated gun turrets</li>
+    <li>subject->кулеметні турелі</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} над алгоритмами ШІ, що вчать кулеметні турелі відрізняти своїх від чужих</li>
+    <li>subject_story->{ANYPAWN_gender ? сконструював : сконструювала} модульне кріплення для турелі, у яке можна поставити будь-яку зброю</li>
+    <li>subject_story->дистанційно {ANYPAWN_gender ? вимкнув : вимкнула} ворожі турелі, а потім {ANYPAWN_gender ? повів : повела} загін в атаку</li>
+    <li>subject_gerund->спорудження автоматичних кулеметних турелей</li>
   </GunTurrets.generalRules.rulesStrings>
   <!-- EN: hydroponics -->
   <Hydroponics.label>гідропоніка</Hydroponics.label>
   <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
-  <Hydroponics.description>Дозволяє вам будувати гідропонні резервуари, щоб вирощувати рослини в приміщеннях, ігноруючи ґрунт або погоду назовні.</Hydroponics.description>
+  <Hydroponics.description>Будуйте гідропонні ферми, щоб швидко вирощувати рослини в приміщенні незалежно від ґрунту й погоди надворі.</Hydroponics.description>
   <!-- EN:
     <li>subject->hydroponics</li>
     <li>subject_story->joined a generation ship crew as their crop specialist</li>
@@ -288,16 +288,16 @@
   -->
   <Hydroponics.generalRules.rulesStrings>
     <li>subject->гідропоніка</li>
-    <li>subject_story->joined a generation ship crew as their crop specialist</li>
-    <li>subject_story->established a hydroponics facility to feed the hungry</li>
-    <li>subject_story->traveled around, teaching artificial plant growth to new colonists</li>
-    <li>subject_gerund->building hydroponics</li>
+    <li>subject_story->{ANYPAWN_gender ? приєднався : приєдналася} до екіпажу корабля поколінь як фахівець з рослинництва</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} гідропонну станцію, щоб годувати голодних</li>
+    <li>subject_story->{ANYPAWN_gender ? мандрував : мандрувала} світами, навчаючи нових колоністів штучного вирощування рослин</li>
+    <li>subject_gerund->спорудження гідропонних ферм</li>
     <li>subject_gerund->вирощування рослин у приміщенні</li>
   </Hydroponics.generalRules.rulesStrings>
   <!-- EN: IEDs -->
   <IEDs.label>саморобні вибухові пристрої</IEDs.label>
   <!-- EN: Build improvised traps from any kind of mortar shell. -->
-  <IEDs.description>Будуйте імпровізовані пастки з будь-якого мінометного снаряду.</IEDs.description>
+  <IEDs.description>Будуйте саморобні пастки з будь-яких мінометних снарядів.</IEDs.description>
   <!-- EN:
     <li>subject->improvised explosive traps</li>
     <li>subject_story->disarmed the leftover shells of the war, sending them onto the new frontline as mines</li>
@@ -306,16 +306,16 @@
     <li>subject_gerund->crafting improvised explosive traps</li>
   -->
   <IEDs.generalRules.rulesStrings>
-    <li>subject->improvised explosive traps</li>
-    <li>subject_story->disarmed the leftover shells of the war, sending them onto the new frontline as mines</li>
-    <li>subject_story->came under mortar fire, only surviving by crafting traps from the enemy's many dud shells</li>
-    <li>subject_story->advocated for the rights of small settlements, where unexploded munitions were a constant peril</li>
-    <li>subject_gerund->crafting improvised explosive traps</li>
+    <li>subject->саморобні вибухові пастки</li>
+    <li>subject_story->{ANYPAWN_gender ? знешкоджував : знешкоджувала} снаряди, що лишилися після війни, і {ANYPAWN_gender ? відправляв : відправляла} їх на нову лінію фронту як міни</li>
+    <li>subject_story->{ANYPAWN_gender ? потрапив : потрапила} під мінометний обстріл і {ANYPAWN_gender ? вижив : вижила} лише завдяки пасткам з численних ворожих снарядів, що не розірвалися</li>
+    <li>subject_story->{ANYPAWN_gender ? обстоював : обстоювала} права малих поселень, де нерозірвані боєприпаси були постійною загрозою</li>
+    <li>subject_gerund->виготовлення саморобних вибухових пасток</li>
   </IEDs.generalRules.rulesStrings>
   <!-- EN: machining -->
   <Machining.label>механіка</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
-  <Machining.description>Дозволяє створювати верстати, на яких можна збирати зброю, гранати, укріплену броню чи переробляти мертвих механоїдів.</Machining.description>
+  <Machining.description>Будуйте механічні верстати, щоб виготовляти зброю, гранати й протиуламкову броню, а також розбирати мертвих механоїдів на ресурси.</Machining.description>
   <!-- EN:
     <li>subject->machining</li>
     <li>subject_story->gathered the remains of dead mechanoids and shredded them for resources</li>
@@ -325,17 +325,17 @@
     <li>subject_gerund->machining</li>
   -->
   <Machining.generalRules.rulesStrings>
-    <li>subject->machining</li>
-    <li>subject_story->gathered the remains of dead mechanoids and shredded them for resources</li>
-    <li>subject_story->quietly built an arsenal of self-made weapons in the basement of a suburban home</li>
-    <li>subject_story->built machining tables for many gunsmiths, despite being a pacifist</li>
-    <li>subject_gerund->building machining equipment</li>
-    <li>subject_gerund->machining</li>
+    <li>subject->механічна обробка</li>
+    <li>subject_story->{ANYPAWN_gender ? збирав : збирала} рештки мертвих механоїдів і {ANYPAWN_gender ? розбирав : розбирала} їх на ресурси</li>
+    <li>subject_story->тихцем {ANYPAWN_gender ? зібрав : зібрала} арсенал саморобної зброї в підвалі приміського будинку</li>
+    <li>subject_story->{ANYPAWN_gender ? будував : будувала} механічні верстати для багатьох зброярів, хоча й {ANYPAWN_gender ? був пацифістом : була пацифісткою}</li>
+    <li>subject_gerund->спорудження механічних верстатів</li>
+    <li>subject_gerund->оброблення металу</li>
   </Machining.generalRules.rulesStrings>
   <!-- EN: mortars -->
   <Mortars.label>міномети</Mortars.label>
   <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
-  <Mortars.description>Будуйте міномети, які можуть запускати снаряди на великі відстані, ігноруючи стіни.</Mortars.description>
+  <Mortars.description>Будуйте міномети, які закидають снаряди на велику відстань — навіть через стіни.</Mortars.description>
   <!-- EN:
     <li>subject->artillery</li>
     <li>subject->mortars</li>
@@ -346,18 +346,18 @@
     <li>subject_gerund->constructing simple artillery</li>
   -->
   <Mortars.generalRules.rulesStrings>
-    <li>subject->artillery</li>
-    <li>subject->mortars</li>
-    <li>subject_story->was instrumental in the glasshouse siege that overthrew the town council</li>
-    <li>subject_story->developed a collapsible, lightweight mortar tube for the local police</li>
-    <li>subject_story->demolished the many derelict buildings from a distance, with explosive shells</li>
-    <li>subject_gerund->crafting mortars</li>
-    <li>subject_gerund->constructing simple artillery</li>
+    <li>subject->артилерія</li>
+    <li>subject->міномети</li>
+    <li>subject_story->{ANYPAWN_gender ? відіграв : відіграла} ключову роль в облозі оранжереї, що скинула міську раду</li>
+    <li>subject_story->{ANYPAWN_gender ? розробив : розробила} для місцевої поліції легку розбірну мінометну трубу</li>
+    <li>subject_story->здалеку {ANYPAWN_gender ? зніс : знесла} фугасними снарядами безліч покинутих будівель</li>
+    <li>subject_gerund->виготовлення мінометів</li>
+    <li>subject_gerund->спорудження простої артилерії</li>
   </Mortars.generalRules.rulesStrings>
   <!-- EN: nutrient paste -->
   <NutrientPaste.label>поживна паста</NutrientPaste.label>
   <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
-  <NutrientPaste.description>Створюйте дозатори поживної пасти, які ефективно та автоматично виробляють їжу із сирих харчових продуктів.</NutrientPaste.description>
+  <NutrientPaste.description>Будуйте дозатори поживної пасти, які ефективно готують їстівні страви із сирих харчових продуктів і зовсім не потребують праці.</NutrientPaste.description>
   <!-- EN:
     <li>subject->nutrient paste</li>
     <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
@@ -366,16 +366,16 @@
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
   <NutrientPaste.generalRules.rulesStrings>
-    <li>subject->nutrient paste</li>
-    <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
-    <li>subject_story->lost [ANYPAWN_possessive] taste of smell to disease, so devised a cheap, flavorless nutrient paste</li>
-    <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
-    <li>subject_gerund->building nutrient paste dispensers</li>
+    <li>subject->поживна паста</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} в заводській їдальні й {ANYPAWN_gender ? вигадав : вигадала} поживну пасту, щоб узагалі не працювати</li>
+    <li>subject_story->через хворобу {ANYPAWN_gender ? втратив : втратила} нюх, тож {ANYPAWN_gender ? вигадав : вигадала} дешеву несмачну поживну пасту</li>
+    <li>subject_story->{ANYPAWN_gender ? агітував : агітувала} переробляти на поживну пасту всю органіку, навіть трупи</li>
+    <li>subject_gerund->спорудження дозаторів поживної пасти</li>
   </NutrientPaste.generalRules.rulesStrings>
   <!-- EN: packaged survival meal -->
   <PackagedSurvivalMeal.label>сухпайки</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>Консервована та герметично упакована їжа, яка не псується. Чудово підходять для подорожей.</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>Виготовляйте сухпайки, які ніколи не псуються. Чудово підходять для подорожей.</PackagedSurvivalMeal.description>
   <!-- EN:
     <li>subject->packaged survival meals</li>
     <li>subject->non-perishable food</li>
@@ -385,17 +385,17 @@
     <li>subject_gerund->preparing survival meals</li>
   -->
   <PackagedSurvivalMeal.generalRules.rulesStrings>
-    <li>subject->packaged survival meals</li>
-    <li>subject->non-perishable food</li>
-    <li>subject_story-> knew, when disaster struck, there were enough packaged meals to survive until rescuers arrived</li>
-    <li>subject_story->established a social kitchen, which donated survival meals to all outgoing vessels</li>
-    <li>subject_story->discovered survival meals in the mountains that were hundreds of years old</li>
-    <li>subject_gerund->preparing survival meals</li>
+    <li>subject->сухпайки</li>
+    <li>subject->продукти тривалого зберігання</li>
+    <li>subject_story->{ANYPAWN_gender ? знав : знала}, що на випадок катастрофи сухпайків вистачить, щоб протриматися до прибуття рятувальників</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} соціальну кухню, що безкоштовно постачала сухпайки всім кораблям, які вирушали в рейс</li>
+    <li>subject_story->{ANYPAWN_gender ? знайшов : знайшла} у горах сухпайки, яким було кілька сотень років</li>
+    <li>subject_gerund->приготування сухпайків</li>
   </PackagedSurvivalMeal.generalRules.rulesStrings>
   <!-- EN: prosthetics -->
   <Prosthetics.label>протезування</Prosthetics.label>
   <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
-  <Prosthetics.description>Конструювання простих протезів для заміни втрачених кінцівок. Для встановлення потрібен кваліфікований лікар.</Prosthetics.description>
+  <Prosthetics.description>Виготовляйте недорогі протези на заміну втраченим кінцівкам. Встановити їх може лише вправний лікар.</Prosthetics.description>
   <!-- EN:
     <li>subject->prosthesis</li>
     <li>subject_story->had a limb replaced with a prosthetic, to show how easy it was</li>
@@ -404,16 +404,16 @@
     <li>subject_gerund->crafting prosthetics</li>
   -->
   <Prosthetics.generalRules.rulesStrings>
-    <li>subject->prosthesis</li>
-    <li>subject_story->had a limb replaced with a prosthetic, to show how easy it was</li>
-    <li>subject_story->opened a prosthetics clinic</li>
-    <li>subject_story->began crafting bespoke fake limbs for the many war veterans in the area</li>
-    <li>subject_gerund->crafting prosthetics</li>
+    <li>subject->протезування</li>
+    <li>subject_story->{ANYPAWN_gender ? замінив : замінила} собі кінцівку протезом, щоб показати, як це просто</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} клініку протезування</li>
+    <li>subject_story->{ANYPAWN_gender ? почав : почала} виготовляти протези на замовлення для численних ветеранів війни в окрузі</li>
+    <li>subject_gerund->виготовлення протезів</li>
   </Prosthetics.generalRules.rulesStrings>
   <!-- EN: smokepop packs -->
   <SmokepopBelt.label>димові шашки</SmokepopBelt.label>
   <!-- EN: Build smokepop packs which allow the wearer to deploy a defensive smokescreen. -->
-  <SmokepopBelt.description>Димові шашки використовують для встановлення димових завіс.</SmokepopBelt.description>
+  <SmokepopBelt.description>Виготовляйте димові шашки, з якими власник може поставити захисну димову завісу.</SmokepopBelt.description>
   <!-- EN:
     <li>subject->smokescreen</li>
     <li>subject_story->worked as a hauler for bands, using smokepops for special effects</li>
@@ -423,17 +423,17 @@
     <li>subject_gerund->deploying smokescreens</li>
   -->
   <SmokepopBelt.generalRules.rulesStrings>
-    <li>subject->smokescreen</li>
-    <li>subject_story->worked as a hauler for bands, using smokepops for special effects</li>
-    <li>subject_story->established a defensive smokepop perimeter around the local towns, to keep the wildlife back</li>
-    <li>subject_story->used smokepop packs to train new firefighters, without the peril of actual fire</li>
-    <li>subject_gerund->building smokepop packs</li>
-    <li>subject_gerund->deploying smokescreens</li>
+    <li>subject->димова завіса</li>
+    <li>subject_story->{ANYPAWN_gender ? працював : працювала} вантажником у музичних гуртів і {ANYPAWN_gender ? робив : робила} димовими шашками спецефекти</li>
+    <li>subject_story->{ANYPAWN_gender ? встановив : встановила} навколо місцевих містечок захисний периметр з димових шашок, щоб відганяти диких тварин</li>
+    <li>subject_story->{ANYPAWN_gender ? тренував : тренувала} новачків-пожежників за допомогою димових шашок, без ризику справжньої пожежі</li>
+    <li>subject_gerund->виготовлення димових шашок</li>
+    <li>subject_gerund->встановлення димових завіс</li>
   </SmokepopBelt.generalRules.rulesStrings>
   <!-- EN: solar panel -->
   <SolarPanels.label>сонячна панель</SolarPanels.label>
   <!-- EN: Build solar panels for electricity generation. -->
-  <SolarPanels.description>Будівництво сонячних панелей для виробництва електроенергії за допомогою сонячного світла.</SolarPanels.description>
+  <SolarPanels.description>Будуйте сонячні панелі для виробництва електроенергії.</SolarPanels.description>
   <!-- EN:
     <li>subject->solar panels</li>
     <li>subject->solar energy</li>
@@ -443,17 +443,17 @@
     <li>subject_gerund->building solar panels</li>
   -->
   <SolarPanels.generalRules.rulesStrings>
-    <li>subject->solar panels</li>
-    <li>subject->solar energy</li>
-    <li>subject_story->established a multi-spectrum solar farm</li>
-    <li>subject_story->studied ways of maximizing the percentage of solar energy captured</li>
-    <li>subject_story->left on a sundiver to see a fly-by of a star's photosphere</li>
-    <li>subject_gerund->building solar panels</li>
+    <li>subject->сонячні панелі</li>
+    <li>subject->сонячна енергія</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} багатоспектральну сонячну ферму</li>
+    <li>subject_story->{ANYPAWN_gender ? шукав : шукала} способи вловлювати якомога більшу частку сонячної енергії</li>
+    <li>subject_story->{ANYPAWN_gender ? полетів : полетіла} на зонді-сонцепірнальнику, щоб пройти впритул до фотосфери зорі</li>
+    <li>subject_gerund->спорудження сонячних панелей</li>
   </SolarPanels.generalRules.rulesStrings>
   <!-- EN: sterile materials -->
   <SterileMaterials.label>стерильні матеріали</SterileMaterials.label>
   <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
-  <SterileMaterials.description>Створюйте стерильну плитку, щоб зробити чисті приміщення безпечнішими та ефективнішими для лікування, досліджень та приготування їжі.</SterileMaterials.description>
+  <SterileMaterials.description>Кладіть стерильну плитку, щоб облаштувати чисті приміщення для безпечнішого й ефективнішого лікування, досліджень і приготування їжі.</SterileMaterials.description>
   <!-- EN:
     <li>subject->sterile surfaces</li>
     <li>subject_story->prevented many deaths by insisting on effective, consistent sterilization of all equipment</li>
@@ -463,15 +463,15 @@
     <li>subject_gerund->constructing sterilized surfaces</li>
   -->
   <SterileMaterials.generalRules.rulesStrings>
-    <li>subject->sterile surfaces</li>
-    <li>subject_story->prevented many deaths by insisting on effective, consistent sterilization of all equipment</li>
-    <li>subject_story->started a kibble kitchen which, uniquely for the system, was known to be free of food poisoning</li>
-    <li>subject_story->established a decorative tile factory, with a sideline in medical equipment and sterile tiles</li>
-    <li>subject_gerund->sterilizing surfaces</li>
-    <li>subject_gerund->constructing sterilized surfaces</li>
+    <li>subject->стерильні поверхні</li>
+    <li>subject_story->{ANYPAWN_gender ? врятував : врятувала} багато життів, наполягаючи на ретельній і регулярній стерилізації всього обладнання</li>
+    <li>subject_story->{ANYPAWN_gender ? відкрив : відкрила} кухню з сухим кормом, де, на диво для всієї системи, ніхто ніколи не труївся</li>
+    <li>subject_story->{ANYPAWN_gender ? заснував : заснувала} фабрику декоративної плитки, яка між іншим виробляла медичне обладнання й стерильну плитку</li>
+    <li>subject_gerund->стерилізування поверхонь</li>
+    <li>subject_gerund->облаштування стерильних поверхонь</li>
   </SterileMaterials.generalRules.rulesStrings>
   <!-- EN: tube television -->
-  <TubeTelevision.label>електронно-променева трубка</TubeTelevision.label>
+  <TubeTelevision.label>ЕПТ-телевізори</TubeTelevision.label>
   <!-- EN: Produce tube televisions for recreational watching. -->
   <TubeTelevision.description>Виготовляйте ЕПТ-телевізори для дозвілля.</TubeTelevision.description>
   <!-- EN:
@@ -482,16 +482,16 @@
     <li>subject_gerund->producing tube televisions</li>
   -->
   <TubeTelevision.generalRules.rulesStrings>
-    <li>subject->tube televisions</li>
-    <li>subject_story->designed a faux-retro television set that could pick up interstellar signals</li>
-    <li>subject_story->moved into broadcasting, producing programmes just for the archaic tube televisions</li>
-    <li>subject_story->ensured that everyone knew the dangers of cathode ray tubes</li>
-    <li>subject_gerund->producing tube televisions</li>
+    <li>subject->ЕПТ-телевізори</li>
+    <li>subject_story->{ANYPAWN_gender ? сконструював : сконструювала} телевізор під ретро, що ловив міжзоряні сигнали</li>
+    <li>subject_story->{ANYPAWN_gender ? пішов : пішла} в телемовлення й {ANYPAWN_gender ? знімав : знімала} програми спеціально для архаїчних ЕПТ-телевізорів</li>
+    <li>subject_story->{ANYPAWN_gender ? подбав : подбала}, щоб усі знали про небезпеку електронно-променевих трубок</li>
+    <li>subject_gerund->виготовлення ЕПТ-телевізорів</li>
   </TubeTelevision.generalRules.rulesStrings>
   <!-- EN: watermill generator -->
   <WatermillGenerator.label>гідрогенератор</WatermillGenerator.label>
   <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
-  <WatermillGenerator.description>Гідрогенератор перетворює течію на стабільне джерело електроенергії.</WatermillGenerator.description>
+  <WatermillGenerator.description>Будуйте гідрогенератори на річках, щоб мати стабільне джерело енергії.</WatermillGenerator.description>
   <!-- EN:
     <li>subject->watermill generators</li>
     <li>subject_story->watched twigs and leaves get pulled downstream and envisioned the power there</li>
@@ -500,10 +500,10 @@
     <li>subject_gerund->watermill generators</li>
   -->
   <WatermillGenerator.generalRules.rulesStrings>
-    <li>subject->watermill generators</li>
-    <li>subject_story->watched twigs and leaves get pulled downstream and envisioned the power there</li>
-    <li>subject_story->hooked cabling up to an ancient flour mill on a feudalworld</li>
-    <li>subject_story->beached a paddle steamer on a ruinworld's shores and converted it into a watermill</li>
-    <li>subject_gerund->watermill generators</li>
+    <li>subject->гідрогенератори</li>
+    <li>subject_story->{ANYPAWN_gender ? дивився : дивилася}, як течія несе гілочки й листя, і {ANYPAWN_gender ? уявив : уявила}, яка сила в ній ховається</li>
+    <li>subject_story->{ANYPAWN_gender ? під’єднав : під’єднала} кабелі до старовинного борошномельного млина на феодальному світі</li>
+    <li>subject_story->{ANYPAWN_gender ? викинув : викинула} колісний пароплав на берег світу руїн і {ANYPAWN_gender ? перетворив : перетворила} його на водяний млин</li>
+    <li>subject_gerund->спорудження гідрогенераторів</li>
   </WatermillGenerator.generalRules.rulesStrings>
 </LanguageData>

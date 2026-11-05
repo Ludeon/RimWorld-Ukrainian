@@ -60,62 +60,126 @@
     <li>badass_concept->laughter</li>
   -->
   <NamerUniqueWeapon.rulePack.rulesStrings>
-    <li>r_weapon_name(p=2)->[weapon_adjective_mas] [weapon_noun_mas]</li>
-    <li>r_weapon_name(p=0.5)->The [weapon_type] of [badass_concept]</li>
-    <li>r_weapon_name(p=0.5)->The [weapon_adjective] [weapon_type]</li>
-    <li>r_weapon_name(p=0.5)->[badass_concept]'s [weapon_type]</li>
-    <li>r_weapon_name(p=0.5)-> [weapon_type_mas] [badass_concept_mas]</li>
-    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef]'s [weapon_adjective] [weapon_noun]</li>
-    <li>r_weapon_name(p=0.3)->The [badass_concept] of [ANYPAWN_nameIndef]</li>
-    <li>weapon_noun(p=2)->[weapon_type]</li>
-    <li>r_weapon_name(p=0.5)-> [weapon_adjective_mas] [weapon_type_mas]</li>
-    <li>weapon_noun->[badass_concept]</li>
-    <li>weapon_adjective(p=2)->[trait_adjective]</li>
-    <li>weapon_adjective->[badass_adjective]</li>
-    <li>r_weapon_name(p=0.5)->[weapon_type_mas] [badass_concept_mas]</li>
-    <li>badass_adjective->eternal</li>
-    <li>badass_adjective->night</li>
-    <li>badass_adjective->grave</li>
-    <li>r_weapon_name(p=0.3)->[weapon_noun] [ANYPAWN_nameIndef]</li>
-    <li>r_weapon_name(p=0.3)->[weapon_adjective_mas] [weapon_noun_mas] [ANYPAWN_nameIndef]</li>
-    <li>badass_adjective->infamous</li>
-    <li>badass_adjective->custom</li>
-    <li>badass_adjective->deadly</li>
-    <li>r_weapon_name(p=0.3)-> [badass_concept] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=2)->[named_np]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] [badass_concept_gen]</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] «[badass_noun]»</li>
+    <li>r_weapon_name(p=0.5)->[weapon_type] «[badass_concept]»</li>
+    <li>r_weapon_name(p=0.3)->[badass_noun] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[named_np] [ANYPAWN_nameIndef]</li>
+    <li>r_weapon_name(p=0.3)->[ANYPAWN_nameIndef] і [badass_concept]</li>
     <li>weapon_noun(p=2)->[weapon_type]</li>
     <li>weapon_noun->[badass_noun]</li>
     <li>weapon_noun->[badass_concept]</li>
     <li>weapon_adjective(p=2)->[trait_adjective]</li>
     <li>weapon_adjective->[badass_adjective]</li>
-    <li>badass_adjective_mas->похмурий</li>
-    <li>badass_adjective_fem->похмура</li>
-    <li>badass_adjective_neu->похмуре</li>
-    <li>badass_adjective_plural->похмурі</li>
-    <li>badass_adjective_mas->вічний</li>
-    <li>badass_adjective_fem->вічна</li>
-    <li>badass_adjective_neu->вічне</li>
-    <li>badass_adjective_plural->вічні</li>
-    <li>badass_adjective_mas->нічний</li>
-    <li>badass_adjective_fem->нічна</li>
-    <li>badass_adjective_neu->нічне</li>
-    <li>badass_adjective_plural->нічні</li>
-    <li>badass_adjective_mas->могильний</li>
-    <li>badass_adjective_fem->могильна</li>
-    <li>badass_adjective_neu->могильне</li>
-    <li>badass_adjective_plural->могильні</li>
-    <li>badass_adjective_mas->винятковий</li>
-    <li>badass_adjective_fem->виняткова</li>
-    <li>badass_adjective_neu->виняткове</li>
-    <li>badass_adjective_plural->виняткові</li>
-    <li>badass_adjective_mas->смертоносний</li>
-    <li>badass_adjective_fem->смертоносна</li>
-    <li>badass_adjective_neu->смертоносне</li>
-    <li>badass_adjective_plural->смертоносні</li>
-    <li>badass_adjective_mas->зловісний</li>
-    <li>badass_adjective_fem->зловісна</li>
-    <li>badass_adjective_neu->зловісне</li>
-    <li>badass_adjective_plural->зловісні</li>
-    <li>badass_adjective_mas->особливий</li>
-    <li>badass_adjective_fem->особлива</li>
+    <li>named_np(p=2)->[trait_adjective] [badass_noun_m]</li>
+    <li>named_np(p=3)->[badass_adjective] [badass_noun_m]</li>
+    <li>named_np(p=2)->[badass_adjective_f] [badass_noun_f]</li>
+    <li>named_np(p=1)->[badass_adjective_n] [badass_noun_n]</li>
+    <li>badass_adjective->похмурий</li>
+    <li>badass_adjective_f->похмура</li>
+    <li>badass_adjective_n->похмуре</li>
+    <li>badass_adjective->вічний</li>
+    <li>badass_adjective_f->вічна</li>
+    <li>badass_adjective_n->вічне</li>
+    <li>badass_adjective->нічний</li>
+    <li>badass_adjective_f->нічна</li>
+    <li>badass_adjective_n->нічне</li>
+    <li>badass_adjective->могильний</li>
+    <li>badass_adjective_f->могильна</li>
+    <li>badass_adjective_n->могильне</li>
+    <li>badass_adjective->винятковий</li>
+    <li>badass_adjective_f->виняткова</li>
+    <li>badass_adjective_n->виняткове</li>
+    <li>badass_adjective->смертоносний</li>
+    <li>badass_adjective_f->смертоносна</li>
+    <li>badass_adjective_n->смертоносне</li>
+    <li>badass_adjective->горезвісний</li>
+    <li>badass_adjective_f->горезвісна</li>
+    <li>badass_adjective_n->горезвісне</li>
+    <li>badass_adjective->особливий</li>
+    <li>badass_adjective_f->особлива</li>
+    <li>badass_adjective_n->особливе</li>
+    <li>badass_adjective->громовий</li>
+    <li>badass_adjective_f->громова</li>
+    <li>badass_adjective_n->громове</li>
+    <li>badass_adjective->проклятий</li>
+    <li>badass_adjective_f->проклята</li>
+    <li>badass_adjective_n->прокляте</li>
+    <li>badass_adjective->великий</li>
+    <li>badass_adjective_f->велика</li>
+    <li>badass_adjective_n->велике</li>
+    <li>badass_noun->жнець</li>
+    <li>badass_noun_m->жнець</li>
+    <li>badass_noun->кінець</li>
+    <li>badass_noun_m->кінець</li>
+    <li>badass_noun->рев</li>
+    <li>badass_noun_m->рев</li>
+    <li>badass_noun->шторм</li>
+    <li>badass_noun_m->шторм</li>
+    <li>badass_noun->привид</li>
+    <li>badass_noun_m->привид</li>
+    <li>badass_noun->титан</li>
+    <li>badass_noun_m->титан</li>
+    <li>badass_noun->велетень</li>
+    <li>badass_noun_m->велетень</li>
+    <li>badass_noun->змій</li>
+    <li>badass_noun_m->змій</li>
+    <li>badass_noun->ковадло</li>
+    <li>badass_noun_n->ковадло</li>
+    <li>badass_noun->убивця</li>
+    <li>badass_noun_m->убивця</li>
+    <li>badass_noun->коханець</li>
+    <li>badass_noun_m->коханець</li>
+    <li>badass_noun->звір</li>
+    <li>badass_noun_m->звір</li>
+    <li>badass_noun->ікло</li>
+    <li>badass_noun_n->ікло</li>
+    <li>badass_noun->ріг</li>
+    <li>badass_noun_m->ріг</li>
+    <li>badass_noun->вдова</li>
+    <li>badass_noun_f->вдова</li>
+    <li>badass_noun->буря</li>
+    <li>badass_noun_f->буря</li>
+    <li>badass_noun->рука</li>
+    <li>badass_noun_f->рука</li>
+    <li>badass_noun->потвора</li>
+    <li>badass_noun_f->потвора</li>
+    <li>badass_noun->гадюка</li>
+    <li>badass_noun_f->гадюка</li>
+    <li>badass_concept->справедливість</li>
+    <li>badass_concept->помста</li>
+    <li>badass_concept->відплата</li>
+    <li>badass_concept->біль</li>
+    <li>badass_concept->агонія</li>
+    <li>badass_concept->мука</li>
+    <li>badass_concept->легенда</li>
+    <li>badass_concept->втіха</li>
+    <li>badass_concept->жаль</li>
+    <li>badass_concept->гордість</li>
+    <li>badass_concept->пиха</li>
+    <li>badass_concept->честь</li>
+    <li>badass_concept->лють</li>
+    <li>badass_concept->розплата</li>
+    <li>badass_concept->спокій</li>
+    <li>badass_concept->любов</li>
+    <li>badass_concept->сміх</li>
+    <li>badass_concept_gen->справедливості</li>
+    <li>badass_concept_gen->помсти</li>
+    <li>badass_concept_gen->відплати</li>
+    <li>badass_concept_gen->болю</li>
+    <li>badass_concept_gen->агонії</li>
+    <li>badass_concept_gen->муки</li>
+    <li>badass_concept_gen->легенди</li>
+    <li>badass_concept_gen->втіхи</li>
+    <li>badass_concept_gen->жалю</li>
+    <li>badass_concept_gen->гордості</li>
+    <li>badass_concept_gen->пихи</li>
+    <li>badass_concept_gen->честі</li>
+    <li>badass_concept_gen->люті</li>
+    <li>badass_concept_gen->розплати</li>
+    <li>badass_concept_gen->спокою</li>
+    <li>badass_concept_gen->любові</li>
+    <li>badass_concept_gen->сміху</li>
   </NamerUniqueWeapon.rulePack.rulesStrings>
 </LanguageData>

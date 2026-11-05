@@ -98,98 +98,193 @@
   -->
   <NamerGravship.rulePack.rulesStrings>
     <li>r_name(p=2)->[narrative_name]</li>
-    <li>r_name(p=1)->[narrative_name] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix_mas] [Color_mas] [ship_word_mas]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [bird]</li>
-    <li>r_name(p=0.5)->[ship_prefix_mas] [AdjectiveBadass_mas] [ship_word_mas]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [flying_adjective] [AnimalBadass]</li>
+    <li>r_name(p=1)->[ship_word] «[narrative_name]»</li>
+    <li>r_name(p=0.5)->[color_ship]</li>
+    <li>r_name(p=0.5)->[badass_ship]</li>
+    <li>r_name(p=0.5)->[badass_bird]</li>
+    <li>r_name(p=0.5)->[friendly_ship]</li>
+    <li>r_name(p=0.5)->[flying_animal]</li>
     <li>r_name(p=0.5)->[storyname]</li>
-    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass_mas] [bird]</li>
-    <li>r_name(p=0.5)->[ship_prefix_mas] [AdjectiveFriendly_mas] [ship_word_mas]</li>
-    <li>ship_prefix(p=2)->the</li>
-    <li>ship_prefix(p=2)-></li>
-    <li>r_name(p=0.5)->[ship_prefix_mas] [flying_adjective_mas] [AnimalBadass_mas]</li>
-    <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
-    <li>narrative_name->[Direction] [thing_badass]</li>
-    <li>narrative_name->[thing_badass]</li>
-    <li>r_name(p=0.5)->[storyname]</li>
-    <li>r_name(p=0.2)->[Color_mas] [greekmyth_noun_mas]</li>
-    <li>thing_badass->triumph</li>
-    <li>r_name(p=0.2)->[ship_prefix] [greekmyth_noun]</li>
+    <li>r_name(p=0.2)->[color_myth]</li>
+    <li>r_name(p=0.2)->[greekmyth_noun]</li>
     <li>ship_prefix(p=2)-></li>
     <li>ship_prefix(p=2)-></li>
-    <li>narrative_name->[AdjectiveNatural_mas] [thing_badass_mas]</li>
-    <li>thing_badass->vengeance</li>
-    <li>thing_badass->anguish</li>
-    <li>thing_badass->misery</li>
-    <li>narrative_name->[AdjectiveLarge_mas] [thing_badass_mas]</li>
-    <li>thing_badass->terror</li>
-    <li>thing_badass->chaos</li>
-    <li>thing_badass->anarchy</li>
-    <li>narrative_name->[Direction] [thing_badass_plural]</li>
+    <li>narrative_name->[nat_thing]</li>
+    <li>narrative_name->[large_thing]</li>
+    <li>narrative_name->[dir_thing]</li>
     <li>narrative_name->[thing_badass]</li>
     <li>thing_badass->[AnimalBadass]</li>
     <li>thing_badass->[AnimalBadass]-мисливець</li>
-    <li>thing_badass_mas->тріумф</li>
-    <li>thing_badass_fem->перемога</li>
-    <li>thing_badass_fem->помста</li>
-    <li>thing_badass_neu->страждання</li>
-    <li>thing_badass_fem->мука</li>
-    <li>thing_badass_fem->відплата</li>
-    <li>thing_badass_neu->страждання</li>
-    <li>thing_badass_plural->злидні</li>
-    <li>thing_badass_fem->тиранія</li>
-    <li>thing_badass_mas->жах</li>
-    <li>thing_badass_mas->хаос</li>
-    <li>thing_badass_fem->анархія</li>
-    <li>storyname(p=50)->[subject] здобуває [story_result]</li>
-    <li>storyname(p=2)->[subject] і [BodyPart]</li>
-    <li>storyname->[subject] і [Gore]</li>
+    <li>thing_badass_m->[AnimalBadass_m]</li>
+    <li>thing_badass_f->[AnimalBadass_f]</li>
+    <li>thing_badass_n->[AnimalBadass_n]</li>
+    <li>thing_badass->тріумф</li>
+    <li>thing_badass_m->тріумф</li>
+    <li>thing_badass->жах</li>
+    <li>thing_badass_m->жах</li>
+    <li>thing_badass->хаос</li>
+    <li>thing_badass_m->хаос</li>
+    <li>thing_badass->гнів</li>
+    <li>thing_badass_m->гнів</li>
+    <li>thing_badass->перемога</li>
+    <li>thing_badass_f->перемога</li>
+    <li>thing_badass->помста</li>
+    <li>thing_badass_f->помста</li>
+    <li>thing_badass->відплата</li>
+    <li>thing_badass_f->відплата</li>
+    <li>thing_badass->агонія</li>
+    <li>thing_badass_f->агонія</li>
+    <li>thing_badass->мука</li>
+    <li>thing_badass_f->мука</li>
+    <li>thing_badass->тиранія</li>
+    <li>thing_badass_f->тиранія</li>
+    <li>thing_badass->анархія</li>
+    <li>thing_badass_f->анархія</li>
+    <li>thing_badass->страждання</li>
+    <li>thing_badass_n->страждання</li>
+    <li>thing_badass->мордування</li>
+    <li>thing_badass_n->мордування</li>
+    <li>thing_badass->нещастя</li>
+    <li>thing_badass_n->нещастя</li>
+    <li>nat_thing(p=3)->[AdjectiveNatural] [thing_badass_m]</li>
+    <li>nat_thing(p=3)->[AdjectiveNatural_f] [thing_badass_f]</li>
+    <li>nat_thing(p=2)->[AdjectiveNatural_n] [thing_badass_n]</li>
+    <li>large_thing(p=3)->[AdjectiveLarge] [thing_badass_m]</li>
+    <li>large_thing(p=3)->[AdjectiveLarge_f] [thing_badass_f]</li>
+    <li>large_thing(p=2)->[AdjectiveLarge_n] [thing_badass_n]</li>
+    <li>dir_thing(p=3)->[Direction] [thing_badass_m]</li>
+    <li>dir_thing(p=3)->[Direction_f] [thing_badass_f]</li>
+    <li>dir_thing(p=2)->[Direction_n] [thing_badass_n]</li>
+    <li>color_ship(p=4)->[Color] [ship_word_m]</li>
+    <li>color_ship(p=1)->[Color_f] [ship_word_f]</li>
+    <li>color_ship(p=1)->[Color_n] [ship_word_n]</li>
+    <li>badass_ship(p=4)->[AdjectiveBadass] [ship_word_m]</li>
+    <li>badass_ship(p=1)->[AdjectiveBadass_f] [ship_word_f]</li>
+    <li>badass_ship(p=1)->[AdjectiveBadass_n] [ship_word_n]</li>
+    <li>friendly_ship(p=4)->[AdjectiveFriendly] [ship_word_m]</li>
+    <li>friendly_ship(p=1)->[AdjectiveFriendly_f] [ship_word_f]</li>
+    <li>friendly_ship(p=1)->[AdjectiveFriendly_n] [ship_word_n]</li>
+    <li>badass_bird(p=3)->[AdjectiveBadass] [bird_m]</li>
+    <li>badass_bird(p=2)->[AdjectiveBadass_f] [bird_f]</li>
+    <li>flying_animal(p=3)->[flying_adjective] [AnimalBadass_m]</li>
+    <li>flying_animal(p=2)->[flying_adjective_f] [AnimalBadass_f]</li>
+    <li>flying_animal(p=1)->[flying_adjective_n] [AnimalBadass_n]</li>
+    <li>color_myth(p=1)->[Color] [greekmyth_noun_m]</li>
+    <li>color_myth(p=1)->[Color_f] [greekmyth_noun_f]</li>
+    <li>storyname(p=50)->[story_result] [subject_gen]</li>
+    <li>storyname(p=2)->[BodyPart] [subject_gen]</li>
+    <li>storyname->[Gore] [subject_gen]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
     <li>subject->[PlaceOutlander]</li>
+    <li>subject_gen(p=2)->[Animal_gen]</li>
+    <li>subject_gen->[Character_gen]</li>
     <li>story_result->радість</li>
-    <li>story_result->насолоду</li>
+    <li>story_result->втіха</li>
     <li>story_result->диво</li>
     <li>story_result->гордість</li>
-    <li>story_result->перлину</li>
+    <li>story_result->перлина</li>
     <li>story_result->приз</li>
-    <li>story_result->нагороду</li>
+    <li>story_result->нагорода</li>
     <li>story_result->честь</li>
     <li>story_result->виграш</li>
     <li>story_result->трофей</li>
-    <li>story_result->знищення</li>
+    <li>story_result->руйнування</li>
     <li>story_result->катаклізм</li>
-    <li>story_result->руїну</li>
+    <li>story_result->руїна</li>
     <li>story_result->обман</li>
-    <li>story_result->ілюзію</li>
-    <li>story_result->аферу</li>
-    <li>greekmyth_noun_fem->одіссея</li>
-    <li>greekmyth_noun_mas->Одіссей</li>
-    <li>greekmyth_noun_fem->Пенелопа</li>
-    <li>greekmyth_noun_mas->Телемах</li>
-    <li>greekmyth_noun_fem->Афіна</li>
-    <li>greekmyth_noun_mas->Посейдон</li>
-    <li>greekmyth_noun_fem->Сцилла</li>
-    <li>greekmyth_noun_mas->Гермес</li>
-    <li>greekmyth_noun_mas->аргонавт</li>
-    <li>greekmyth_noun_mas->Гермес</li>
-    <li>greekmyth_noun_mas->Геліос</li>
-    <li>greekmyth_noun_mas->Ахілл</li>
-    <li>greekmyth_noun_fem->сирена</li>
-    <li>greekmyth_noun_mas->циклоп</li>
-    <li>greekmyth_noun_fem->Медуза</li>
-    <li>greekmyth_noun_fem->Горгона</li>
+    <li>story_result->личина</li>
+    <li>story_result->шахрайство</li>
+    <li>greekmyth_noun->Одіссея</li>
+    <li>greekmyth_noun_f->Одіссея</li>
+    <li>greekmyth_noun->Одіссей</li>
+    <li>greekmyth_noun_m->Одіссей</li>
+    <li>greekmyth_noun->Пенелопа</li>
+    <li>greekmyth_noun_f->Пенелопа</li>
+    <li>greekmyth_noun->Телемах</li>
+    <li>greekmyth_noun_m->Телемах</li>
+    <li>greekmyth_noun->Афіна</li>
+    <li>greekmyth_noun_f->Афіна</li>
+    <li>greekmyth_noun->Посейдон</li>
+    <li>greekmyth_noun_m->Посейдон</li>
+    <li>greekmyth_noun->Сцилла</li>
+    <li>greekmyth_noun_f->Сцилла</li>
+    <li>greekmyth_noun->Гермес</li>
+    <li>greekmyth_noun_m->Гермес</li>
+    <li>greekmyth_noun->Аргонавт</li>
+    <li>greekmyth_noun_m->Аргонавт</li>
+    <li>greekmyth_noun->Геліос</li>
+    <li>greekmyth_noun_m->Геліос</li>
+    <li>greekmyth_noun->Ахілл</li>
+    <li>greekmyth_noun_m->Ахілл</li>
+    <li>greekmyth_noun->Сирена</li>
+    <li>greekmyth_noun_f->Сирена</li>
+    <li>greekmyth_noun->Циклоп</li>
+    <li>greekmyth_noun_m->Циклоп</li>
+    <li>greekmyth_noun->Медуза</li>
+    <li>greekmyth_noun_f->Медуза</li>
+    <li>greekmyth_noun->Горгона</li>
+    <li>greekmyth_noun_f->Горгона</li>
     <li>bird->сокіл</li>
+    <li>bird_m->сокіл</li>
     <li>bird->орел</li>
+    <li>bird_m->орел</li>
     <li>bird->яструб</li>
+    <li>bird_m->яструб</li>
     <li>bird->боривітер</li>
-    <li>bird->стерв'ятник</li>
-    <li>flying_adjective_mas(p=2)->летючий</li>
-    <li>ship_word->junker</li>
-    <li>ship_word->trireme</li>
-    <li>ship_word->zephyr</li>
+    <li>bird_m->боривітер</li>
+    <li>bird->стерв’ятник</li>
+    <li>bird_m->стерв’ятник</li>
+    <li>bird->чайка</li>
+    <li>bird_f->чайка</li>
+    <li>bird->ластівка</li>
+    <li>bird_f->ластівка</li>
+    <li>bird->сова</li>
+    <li>bird_f->сова</li>
+    <li>flying_adjective->летючий</li>
+    <li>flying_adjective_f->летюча</li>
+    <li>flying_adjective_n->летюче</li>
+    <li>flying_adjective->повітряний</li>
+    <li>flying_adjective_f->повітряна</li>
+    <li>flying_adjective_n->повітряне</li>
+    <li>flying_adjective->ширяючий</li>
+    <li>flying_adjective_f->ширяюча</li>
+    <li>flying_adjective_n->ширяюче</li>
+    <li>flying_adjective->крилатий</li>
+    <li>flying_adjective_f->крилата</li>
+    <li>flying_adjective_n->крилате</li>
+    <li>ship_word->корабель</li>
+    <li>ship_word_m->корабель</li>
+    <li>ship_word->гравікорабель</li>
+    <li>ship_word_m->гравікорабель</li>
+    <li>ship_word->військовий корабель</li>
+    <li>ship_word_m->військовий корабель</li>
+    <li>ship_word->фрегат</li>
+    <li>ship_word_m->фрегат</li>
+    <li>ship_word->шатл</li>
+    <li>ship_word_m->шатл</li>
+    <li>ship_word->крейсер</li>
+    <li>ship_word_m->крейсер</li>
+    <li>ship_word->транспорт</li>
+    <li>ship_word_m->транспорт</li>
+    <li>ship_word->галеон</li>
+    <li>ship_word_m->галеон</li>
+    <li>ship_word->драккар</li>
+    <li>ship_word_m->драккар</li>
+    <li>ship_word->вантажник</li>
+    <li>ship_word_m->вантажник</li>
+    <li>ship_word->брухтовоз</li>
+    <li>ship_word_m->брухтовоз</li>
+    <li>ship_word->зефір</li>
+    <li>ship_word_m->зефір</li>
+    <li>ship_word->галера</li>
+    <li>ship_word_f->галера</li>
+    <li>ship_word->трирема</li>
+    <li>ship_word_f->трирема</li>
+    <li>ship_word->шхуна</li>
+    <li>ship_word_f->шхуна</li>
+    <li>ship_word->судно</li>
+    <li>ship_word_n->судно</li>
   </NamerGravship.rulePack.rulesStrings>
 </LanguageData>
